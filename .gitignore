@@ -3,3 +3,6 @@ feedback
 learnings
 
 
+__pycache__/
+*.pyc
+
