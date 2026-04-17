@@ -13,6 +13,7 @@ UA = "bespoke-cli-discovery"
 REPO_URL_RE = re.compile(r"https://github\.com/([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+)")
 MANIFEST_CANDIDATES = ["pyproject.toml", "requirements.txt", "package.json", "Cargo.toml", "go.mod", "Dockerfile"]
 README_CANDIDATES = ["README.md", "README.rst", "README.txt"]
+TOPIC_SKIP = {"ai", "llm", "python", "javascript", "typescript"}
 
 
 def api_get_json(url):
@@ -45,6 +46,32 @@ def slug(text):
     return re.sub(r"[^a-z0-9._-]+", "-", text.lower()).strip("-")
 
 
+def normalize_term(text):
+    text = re.sub(r"\s+", " ", text.strip()).strip("`'\" ")
+    if len(text) < 3 or len(text) > 80:
+        return None
+    if text.count(" ") > 5:
+        return None
+    if re.fullmatch(r"[-=:_./\\]+", text):
+        return None
+    if re.search(r"[{}\[\]<>]", text):
+        return None
+    if text.startswith((".", "-", "_")):
+        return None
+    return text
+
+
+def normalize_component(text):
+    text = re.sub(r"\s+", "", text.strip()).strip("`'\"")
+    if len(text) < 2 or len(text) > 120:
+        return None
+    if re.fullmatch(r"[-=:_./\\]+", text):
+        return None
+    if text.startswith((".", "-", "_")):
+        return None
+    return text
+
+
 def load_json(path):
     return json.loads(Path(path).read_text())
 
@@ -52,6 +79,20 @@ def load_json(path):
 def write_json(path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, indent=2, sort_keys=True) + "\n")
+
+
+def upsert_entity(path, payload, key):
+    now = payload["last_seen_at"]
+    if path.exists():
+        existing = json.loads(path.read_text())
+        existing["last_seen_at"] = now
+        existing.setdefault("sources", [])
+        if payload["sources"][0] not in existing["sources"]:
+            existing["sources"].append(payload["sources"][0])
+        write_json(path, existing)
+    else:
+        payload["first_seen_at"] = now
+        write_json(path, payload)
 
 
 def load_frontier(data_root, seeds):
@@ -71,11 +112,7 @@ def collect_repo(owner_repo, limits):
     if not isinstance(root_items, list):
         root_items = []
 
-    file_candidates = []
-    workflow_paths = []
-    readme_paths = []
-    manifest_paths = []
-
+    readme_paths, manifest_paths, workflow_paths = [], [], []
     for item in root_items:
         name = item.get("name", "")
         path = item.get("path", "")
@@ -95,10 +132,7 @@ def collect_repo(owner_repo, limits):
                 pass
 
     file_candidates = (readme_paths + manifest_paths + workflow_paths)[: limits["max_file_fetches_per_repo"]]
-    fetched_files = []
-    terms = set()
-    components = set()
-    repo_links = set()
+    fetched_files, term_hits, component_hits, repo_link_hits, edge_records = [], [], [], [], []
 
     for path in file_candidates:
         try:
@@ -109,32 +143,46 @@ def collect_repo(owner_repo, limits):
         fetched_files.append({"path": path, "size": len(text)})
 
         for match in REPO_URL_RE.findall(text):
-            repo_links.add(match)
+            repo_link_hits.append({"full_name": match, "source_file": path, "edge_type": "explicit-github-link"})
+            edge_records.append({"source_repo": owner_repo, "target": match, "target_type": "repository", "edge_type": "explicit-github-link", "source_file": path})
 
         if path.startswith(".github/workflows/"):
             for use in re.findall(r"uses:\s*([^\s]+)", text):
-                components.add(use.strip())
+                normalized = normalize_component(use)
+                if normalized:
+                    component_hits.append({"component": normalized, "source_file": path, "edge_type": "workflow-uses"})
+                    edge_records.append({"source_repo": owner_repo, "target": normalized, "target_type": "component", "edge_type": "workflow-uses", "source_file": path})
             workflow_name = re.search(r"^name:\s*(.+)$", text, flags=re.MULTILINE)
             if workflow_name:
-                terms.add(workflow_name.group(1).strip())
+                normalized = normalize_term(workflow_name.group(1))
+                if normalized:
+                    term_hits.append({"term": normalized, "source_file": path, "edge_type": "workflow-name"})
+                    edge_records.append({"source_repo": owner_repo, "target": normalized, "target_type": "term", "edge_type": "workflow-name", "source_file": path})
 
         if path.endswith("package.json"):
             try:
                 pkg = json.loads(text)
                 for section in ("dependencies", "devDependencies", "peerDependencies"):
                     for dep in (pkg.get(section) or {}):
-                        components.add(dep)
+                        normalized = normalize_component(dep)
+                        if normalized:
+                            component_hits.append({"component": normalized, "source_file": path, "edge_type": f"package-json:{section}"})
+                            edge_records.append({"source_repo": owner_repo, "target": normalized, "target_type": "component", "edge_type": f"package-json:{section}", "source_file": path})
             except Exception:
                 pass
 
         for inline in re.findall(r"`([^`]{2,80})`", text):
             if "/" in inline or len(inline.split()) > 6:
                 continue
-            terms.add(inline.strip())
+            normalized = normalize_term(inline)
+            if normalized:
+                term_hits.append({"term": normalized, "source_file": path, "edge_type": "inline-code"})
+                edge_records.append({"source_repo": owner_repo, "target": normalized, "target_type": "term", "edge_type": "inline-code", "source_file": path})
 
-    related = []
-    seen_related = set()
+    related, seen_related = [], set()
     for topic in (repo.get("topics") or [])[: limits["max_topic_expansions_per_repo"]]:
+        if topic.lower() in TOPIC_SKIP:
+            continue
         try:
             result = github_search_repos(f"topic:{topic}", 5)
         except Exception:
@@ -153,6 +201,7 @@ def collect_repo(owner_repo, limits):
                 "graph_distance": 1,
                 "discovered_via": f"topic:{topic}",
             })
+            edge_records.append({"source_repo": owner_repo, "target": full_name, "target_type": "repository", "edge_type": f"topic:{topic}", "source_file": None})
             if len(related) >= limits["max_related_repositories"]:
                 break
         if len(related) >= limits["max_related_repositories"]:
@@ -171,10 +220,11 @@ def collect_repo(owner_repo, limits):
             "language": repo.get("language"),
         },
         "fetched_files": fetched_files,
-        "discovered_terms": sorted(terms),
-        "discovered_components": sorted(components),
-        "discovered_repo_links": sorted(repo_links)[: limits["max_repo_links_per_repo"]],
+        "terms": term_hits,
+        "components": component_hits,
+        "repo_links": repo_link_hits,
         "related_repositories": related,
+        "edges": edge_records,
     }
 
 
@@ -185,8 +235,7 @@ def main():
 
     seeds = load_json(sys.argv[1])
     limits = load_json(sys.argv[2])
-    output_root = Path(sys.argv[3])
-    data_root = output_root
+    data_root = Path(sys.argv[3])
 
     pending, frontier_state = load_frontier(data_root, seeds)
     to_process = pending[: limits["max_frontier_repositories_per_run"]]
@@ -195,9 +244,10 @@ def main():
     repos_dir = data_root / "data" / "discovery" / "repos"
     terms_dir = data_root / "data" / "discovery" / "terms"
     comps_dir = data_root / "data" / "discovery" / "components"
+    edges_dir = data_root / "data" / "discovery" / "edges"
     frontier_dir = data_root / "data" / "frontier"
     runs_dir = data_root / "data" / "runs"
-    for d in [repos_dir, terms_dir, comps_dir, frontier_dir, runs_dir]:
+    for d in [repos_dir, terms_dir, comps_dir, edges_dir, frontier_dir, runs_dir]:
         d.mkdir(parents=True, exist_ok=True)
 
     generated_at = datetime.now(timezone.utc).isoformat()
@@ -209,36 +259,37 @@ def main():
         owner_repo = entry["full_name"]
         data = collect_repo(owner_repo, limits)
         write_json(repos_dir / f"{slug(owner_repo)}.json", data)
+        write_json(edges_dir / f"{slug(owner_repo)}.json", {"source_repo": owner_repo, "generated_at": generated_at, "edges": data["edges"]})
         processed_names.append(owner_repo)
 
-        for term in data["discovered_terms"]:
-            write_json(terms_dir / f"{slug(term)}.json", {
+        for hit in data["terms"]:
+            term = hit["term"]
+            path = terms_dir / f"{slug(term)}.json"
+            upsert_entity(path, {
                 "term": term,
-                "source_repo": owner_repo,
-                "discovered_via": "github-hosted-files",
-                "first_seen_at": generated_at,
                 "last_seen_at": generated_at,
-            })
+                "sources": [{"source_repo": owner_repo, "source_file": hit["source_file"], "discovered_via": hit["edge_type"]}],
+            }, "term")
 
-        for component in data["discovered_components"]:
-            write_json(comps_dir / f"{slug(component)}.json", {
+        for hit in data["components"]:
+            component = hit["component"]
+            path = comps_dir / f"{slug(component)}.json"
+            upsert_entity(path, {
                 "component": component,
-                "source_repo": owner_repo,
-                "discovered_via": "manifest-or-workflow",
-                "first_seen_at": generated_at,
                 "last_seen_at": generated_at,
-            })
+                "sources": [{"source_repo": owner_repo, "source_file": hit["source_file"], "discovered_via": hit["edge_type"]}],
+            }, "component")
 
         for rel in data["related_repositories"]:
             newly_discovered.append(rel)
-        for link in data["discovered_repo_links"]:
+        for link in data["repo_links"]:
             newly_discovered.append({
-                "full_name": link,
+                "full_name": link["full_name"],
                 "graph_distance": entry.get("graph_distance", 0) + 1,
-                "discovered_via": "explicit-github-link",
+                "discovered_via": link["edge_type"],
             })
 
-    seen = set(remaining_item.get("full_name") for remaining_item in remaining)
+    seen = set(item.get("full_name") for item in remaining)
     next_pending = list(remaining)
     for item in newly_discovered:
         full_name = item.get("full_name")
