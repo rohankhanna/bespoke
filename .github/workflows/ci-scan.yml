@@ -1,0 +1,23 @@
+name: ci-scan
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Print repository inventory
+        run: |
+          echo "Repository scan for bespoke"
+          echo "Commit: ${GITHUB_SHA}"
+          echo "Tracked files:"
+          git ls-files | sort
