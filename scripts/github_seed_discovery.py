@@ -6,6 +6,7 @@ import re
 import sys
 import urllib.parse
 import urllib.request
+import urllib.error
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -29,6 +30,11 @@ def api_get_json(url):
 
 def github_repo(owner_repo):
     return api_get_json(f"{API_ROOT}/repos/{owner_repo}")
+
+
+def is_valid_repo_full_name(text):
+    parts = text.split('/')
+    return len(parts) == 2 and all(parts)
 
 
 def github_contents(owner_repo, path=""):
@@ -291,9 +297,30 @@ def main():
     newly_discovered = []
     processed_names = []
 
+    skipped_repositories = []
+
     for entry in to_process:
         owner_repo = entry["full_name"]
-        data = collect_repo(owner_repo, limits)
+        if not is_valid_repo_full_name(owner_repo):
+            skipped_repositories.append({
+                "full_name": owner_repo,
+                "reason": "invalid_repo_full_name",
+                "discovered_via": entry.get("discovered_via"),
+            })
+            continue
+
+        try:
+            data = collect_repo(owner_repo, limits)
+        except urllib.error.HTTPError as e:
+            if e.code == 404:
+                skipped_repositories.append({
+                    "full_name": owner_repo,
+                    "reason": "repo_not_found",
+                    "discovered_via": entry.get("discovered_via"),
+                })
+                continue
+            raise
+
         write_json(repos_dir / f"{slug(owner_repo)}.json", data)
         write_json(edges_dir / f"{slug(owner_repo)}.json", {"source_repo": owner_repo, "generated_at": generated_at, "edges": data["edges"]})
         processed_names.append(owner_repo)
@@ -345,6 +372,7 @@ def main():
         "run_id": run_id,
         "generated_at": generated_at,
         "processed_repositories": processed_names,
+        "skipped_repositories": skipped_repositories,
         "remaining_frontier": len(next_pending),
     }
     write_json(runs_dir / f"{run_id}.json", run_summary)
