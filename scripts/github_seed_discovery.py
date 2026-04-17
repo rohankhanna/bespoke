@@ -11,7 +11,7 @@ from pathlib import Path
 
 API_ROOT = "https://api.github.com"
 UA = "bespoke-cli-discovery"
-REPO_URL_RE = re.compile(r"https://github\.com/([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+)")
+REPO_URL_RE = re.compile(r"https://github\.com/([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+(?:\.git)?)")
 MANIFEST_CANDIDATES = ["pyproject.toml", "requirements.txt", "package.json", "Cargo.toml", "go.mod", "Dockerfile"]
 README_CANDIDATES = ["README.md", "README.rst", "README.txt"]
 TOPIC_SKIP = {"ai", "llm", "python", "javascript", "typescript"}
@@ -75,6 +75,31 @@ def normalize_component(text):
     if text.startswith((".", "-", "_")):
         return None
     return text
+
+
+def canonicalize_repo_full_name(text):
+    text = text.strip()
+    if text.endswith('.git'):
+        text = text[:-4]
+    parts = text.split('/')
+    if len(parts) != 2:
+        return None
+    owner, repo = parts
+    if not owner or not repo:
+        return None
+    return f"{owner}/{repo}"
+
+
+def dedupe_edges(edges):
+    seen = set()
+    out = []
+    for edge in edges:
+        key = (edge.get('source_repo'), edge.get('target'), edge.get('target_type'), edge.get('edge_type'), edge.get('source_file'))
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(edge)
+    return out
 
 
 def load_json(path):
@@ -148,8 +173,11 @@ def collect_repo(owner_repo, limits):
         fetched_files.append({"path": path, "size": len(text)})
 
         for match in REPO_URL_RE.findall(text):
-            repo_link_hits.append({"full_name": match, "source_file": path, "edge_type": "explicit-github-link"})
-            edge_records.append({"source_repo": owner_repo, "target": match, "target_type": "repository", "edge_type": "explicit-github-link", "source_file": path})
+            canonical = canonicalize_repo_full_name(match)
+            if not canonical or canonical == owner_repo:
+                continue
+            repo_link_hits.append({"full_name": canonical, "source_file": path, "edge_type": "explicit-github-link"})
+            edge_records.append({"source_repo": owner_repo, "target": canonical, "target_type": "repository", "edge_type": "explicit-github-link", "source_file": path})
 
         if path.startswith(".github/workflows/"):
             for use in re.findall(r"uses:\s*([^\s]+)", text):
@@ -211,6 +239,9 @@ def collect_repo(owner_repo, limits):
                 break
         if len(related) >= limits["max_related_repositories"]:
             break
+
+    edge_records = dedupe_edges(edge_records)
+    repo_link_hits = [dict(t) for t in {tuple(sorted(hit.items())) for hit in repo_link_hits}]
 
     return {
         "fetched_at": datetime.now(timezone.utc).isoformat(),
