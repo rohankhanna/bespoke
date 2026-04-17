@@ -1,0 +1,41 @@
+name: self-commit-proof
+
+on:
+  workflow_dispatch:
+
+jobs:
+  self_commit:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Update proof file
+        run: |
+          mkdir -p ci
+          {
+            echo "self-commit-proof"
+            echo "run_id=${GITHUB_RUN_ID}"
+            echo "run_attempt=${GITHUB_RUN_ATTEMPT}"
+            echo "sha_before=${GITHUB_SHA}"
+            echo "updated_at=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          } > ci/self-commit-proof.txt
+
+      - name: Commit proof update
+        run: |
+          git add ci/self-commit-proof.txt
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "ci: record self-commit proof"
+          git push origin HEAD:main
