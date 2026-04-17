@@ -3,3 +3,6 @@ feedback
 learnings
 AGENTS.md.sha256
 .hot-reload.watch
+__pycache__/
+*.pyc
+# hot-reload state
