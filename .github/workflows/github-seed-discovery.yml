@@ -1,0 +1,67 @@
+name: github-seed-discovery
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 * * * *'
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    concurrency:
+      group: github-seed-discovery-data-writer
+      cancel-in-progress: false
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Prepare data branch worktree
+        run: |
+          git fetch origin data:data || true
+          if git show-ref --verify --quiet refs/heads/data; then
+            git worktree add --detach ../bespoke-data data
+          else
+            git checkout --orphan data
+            git rm -rf . >/dev/null 2>&1 || true
+            git commit --allow-empty -m "chore: initialize data branch"
+            git push origin HEAD:data
+            git worktree add --detach ../bespoke-data data
+            git checkout -
+          fi
+
+      - name: Run seeded GitHub discovery
+        run: |
+          python scripts/github_seed_discovery.py \
+            discovery/config/seed-repos.json \
+            discovery/config/discovery-limits.json \
+            ../bespoke-data
+
+      - name: Commit and push data updates
+        run: |
+          cd ../bespoke-data
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No discovery changes to commit"
+            exit 0
+          fi
+          git commit -m "ci: update github seed discovery artifacts"
+          git push origin HEAD:data
+
+      - name: Cleanup worktree
+        if: always()
+        run: |
+          git worktree remove --force ../bespoke-data || true
