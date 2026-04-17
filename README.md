@@ -2,14 +2,14 @@
 
 bespoke-cli is a requirements-driven CLI for tailoring end-to-end AI systems.
 
-This public branch is intentionally minimal during the initial branch split. Its first purpose is to prove a public-safe baseline, a CI scan path, and a self-commit proof path.
+It helps turn explicit constraints, compatibility evidence, and evolving tool knowledge into tailored AI-capable system designs.
 
 ## Current status
 
-Status: bootstrap public shell
+Status: bootstrap
 
-The private operating line lives on the internal branch. Public main starts with a minimal README and CI workflow so the public branch is born clean.
+The project is in early formation.
 
 ## Verification
 
-The first public CI workflow performs a repository scan and prints a simple inventory of tracked files.
+Continuous integration is enabled for the repository.
