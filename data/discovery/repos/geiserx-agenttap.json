@@ -1,0 +1,517 @@
+{
+  "components": [
+    {
+      "component": "@peculiar/x509",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "reflect-metadata",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "electrobun",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "HTTPS_PROXY",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "NODE_EXTRA_CA_CERTS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "api.anthropic.com",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "api.openai.com",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "generativelanguage.googleapis.com",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "api.mistral.ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "api.deepseek.com",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "api.x.ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "api.cohere.ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "api.groq.com",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "api2.cursor.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "api3.cursor.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "api4.cursor.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "*.api5.cursor.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "app.warp.dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "firewall rules,",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "AGENTTAP_MAX_TRACES",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "10000",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "AGENTTAP_RETENTION_DAYS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "@peculiar/x509",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "reflect-metadata",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "electrobun",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "GeiserX/AgentTap",
+      "target": "Close stale issues",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-17T18:05:17.433926+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7880
+    },
+    {
+      "path": "package.json",
+      "size": 728
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 3971
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 7459
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 711
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Capture AI agent traces at the network level via split VPN + local MITM proxy. Zero per-app config, real-time streaming, multi-provider.",
+    "full_name": "GeiserX/AgentTap",
+    "html_url": "https://github.com/GeiserX/AgentTap",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-17T17:05:18Z",
+    "topics": [
+      "agent-traces",
+      "ai-traces",
+      "anthropic",
+      "api-monitoring",
+      "claude-code",
+      "codex",
+      "cursor",
+      "developer-tools",
+      "electrobun",
+      "llm",
+      "macos",
+      "mitm-proxy",
+      "network-proxy",
+      "openai",
+      "privacy",
+      "self-hosted",
+      "split-vpn",
+      "tls-interception",
+      "trace-capture",
+      "vpn"
+    ],
+    "updated_at": "2026-04-17T16:52:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "HTTPS_PROXY"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "NODE_EXTRA_CA_CERTS"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "api.anthropic.com"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "api.openai.com"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "generativelanguage.googleapis.com"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "api.mistral.ai"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "api.deepseek.com"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "api.x.ai"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "api.cohere.ai"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "api.groq.com"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "api2.cursor.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "api3.cursor.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "api4.cursor.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "*.api5.cursor.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "app.warp.dev"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "firewall rules,"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "NODE_EXTRA_CA_CERTS"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "AGENTTAP_MAX_TRACES"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "10000"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "AGENTTAP_RETENTION_DAYS"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues"
+    }
+  ]
+}

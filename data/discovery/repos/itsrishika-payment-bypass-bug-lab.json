@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-17T18:05:18.728272+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4823
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "\ud83d\udcb3 Explore payment bypass vulnerabilities and learn key techniques for bug bounty hunting in this hands-on lab environment.",
+    "full_name": "ItsRishika/Payment-bypass-bug-lab",
+    "html_url": "https://github.com/ItsRishika/Payment-bypass-bug-lab",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-17T16:40:38Z",
+    "topics": [
+      "bugbounty",
+      "censorship-circumvention",
+      "cmb",
+      "featured",
+      "hacktoberfest",
+      "high-performance",
+      "laravel-payment",
+      "markdown",
+      "mindmap",
+      "orchestration",
+      "payment",
+      "payments",
+      "pentest",
+      "proxy",
+      "redteam",
+      "rust",
+      "uncensored",
+      "wechat-pay",
+      "weixin-pay",
+      "works-with-react"
+    ],
+    "updated_at": "2026-04-17T16:40:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

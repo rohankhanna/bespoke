@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "0xnu/rewsury",
+      "target": "Relevance Score",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "0xnu/rewsury",
+      "target": "arXiv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "0xnu/rewsury",
+      "target": "DALL.E",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "0xnu/rewsury",
+      "target": "SDXL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "0xnu/rewsury",
+      "target": "Start",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "topic:bot",
+      "source_file": null,
+      "source_repo": "0xnu/rewsury",
+      "target": "indmdev/Telegram-Store-MiniApp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:bot",
+      "source_file": null,
+      "source_repo": "0xnu/rewsury",
+      "target": "graveyardsfocrdpktv/Ethereum-mempool-bot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:bot",
+      "source_file": null,
+      "source_repo": "0xnu/rewsury",
+      "target": "bit-nexusxtitmtdsuy/Polymarket_Bot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:bot",
+      "source_file": null,
+      "source_repo": "0xnu/rewsury",
+      "target": "oVErCO1okeD-vitEjS/trading-bot-contract-script",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:bot",
+      "source_file": null,
+      "source_repo": "0xnu/rewsury",
+      "target": "NekyuuYa/ShinBot",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-17T18:04:43.852571+00:00",
+  "source_repo": "0xnu/rewsury"
+}

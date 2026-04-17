@@ -1,0 +1,258 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "NousResearch/hermes-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "openclaw/openclaw",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "Community",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "openclaw-weixin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "hermes gateway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "baseUrl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "WEIXIN_BASE_URL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "python-dotenv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "hermesclaw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "### Manual",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "weixin.py",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "bash fix_hermes_splitting.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "ThreadingHTTPServer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "HTTPServer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "BrokenPipeError",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "Bitterbot-AI/bitterbot-desktop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "gabrielvuksani/wotann",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "kengio/onebrain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "HankHuang0516/EClaw",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "Puzhre/agent-orchestration-book",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:chatbot",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "kidshadow79/Ogma",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:chatbot",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "Floxym/financial-chat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:chatbot",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "Floxym/financial-chat-Finance-NLP-Chatbots",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:chatbot",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "tornikepe/ai-chatbot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:clawbot",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "wendyalbanez/ClawUI",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:clawbot",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "Similar-colpoxerosis201/codex-wechat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:clawbot",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "aipurposes1587-max/weixin-agent-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:clawbot",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "jonislutheran87/weclaw",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:clawbot",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "Shouted-numberone752/wechat-agent-connector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:dual-agent",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "seunghunbae-3svs/solo-cto-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:dual-agent",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "mitchuski/agentprivacy-skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:dual-agent",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "Nibir1/VaultSim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:hermes-agent",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "nesquena/hermes-webui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:hermes-agent",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "eikarna/hermes-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:hermes-agent",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "mohfer/nous-proxy",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-17T18:04:43.852571+00:00",
+  "source_repo": "AaronWong1999/hermesclaw"
+}

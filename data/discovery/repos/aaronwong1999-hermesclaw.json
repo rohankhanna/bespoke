@@ -1,0 +1,859 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "NousResearch/hermes-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "openclaw/openclaw",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "Community",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "openclaw-weixin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "hermes gateway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "baseUrl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "WEIXIN_BASE_URL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "python-dotenv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "hermesclaw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "### Manual",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "weixin.py",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "bash fix_hermes_splitting.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "ThreadingHTTPServer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "HTTPServer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "BrokenPipeError",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "Bitterbot-AI/bitterbot-desktop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "gabrielvuksani/wotann",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "kengio/onebrain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "HankHuang0516/EClaw",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "Puzhre/agent-orchestration-book",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:chatbot",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "kidshadow79/Ogma",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:chatbot",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "Floxym/financial-chat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:chatbot",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "Floxym/financial-chat-Finance-NLP-Chatbots",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:chatbot",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "tornikepe/ai-chatbot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:clawbot",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "wendyalbanez/ClawUI",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:clawbot",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "Similar-colpoxerosis201/codex-wechat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:clawbot",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "aipurposes1587-max/weixin-agent-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:clawbot",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "jonislutheran87/weclaw",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:clawbot",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "Shouted-numberone752/wechat-agent-connector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:dual-agent",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "seunghunbae-3svs/solo-cto-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:dual-agent",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "mitchuski/agentprivacy-skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:dual-agent",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "Nibir1/VaultSim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:hermes-agent",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "nesquena/hermes-webui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:hermes-agent",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "eikarna/hermes-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:hermes-agent",
+      "source_file": null,
+      "source_repo": "AaronWong1999/hermesclaw",
+      "target": "mohfer/nous-proxy",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-17T18:04:47.054818+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10222
+    },
+    {
+      "path": "requirements.txt",
+      "size": 34
+    }
+  ],
+  "related_repositories": [
+    {
+      "description": "A local-first AI agent with persistent memory, emotional intelligence, and a peer-to-peer skills economy.",
+      "discovered_via": "topic:ai-agent",
+      "full_name": "Bitterbot-AI/bitterbot-desktop",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Bitterbot-AI/bitterbot-desktop",
+      "topics": [
+        "a2a-protocol",
+        "agent-economy",
+        "agent-memory",
+        "ai-agent",
+        "chatbot",
+        "cognitive-architecture",
+        "decentralized-ai",
+        "desktop-app",
+        "dream-engine",
+        "local-first",
+        "multi-channel",
+        "open-source",
+        "p2p",
+        "personal-ai",
+        "skills-marketplace",
+        "typescript",
+        "x402"
+      ],
+      "updated_at": "2026-04-17T18:04:41Z"
+    },
+    {
+      "description": "WOTANN \u2014 The All-Father of AI agent harnesses. One install. Every model. Every channel. Full autonomy.",
+      "discovered_via": "topic:ai-agent",
+      "full_name": "gabrielvuksani/wotann",
+      "graph_distance": 1,
+      "html_url": "https://github.com/gabrielvuksani/wotann",
+      "topics": [
+        "agent-framework",
+        "ai-agent",
+        "anthropic",
+        "claude",
+        "computer-use",
+        "free-tier",
+        "harness",
+        "llm",
+        "mcp",
+        "norse",
+        "ollama",
+        "openai",
+        "provider-agnostic",
+        "swift",
+        "tauri",
+        "typescript"
+      ],
+      "updated_at": "2026-04-17T18:03:21Z"
+    },
+    {
+      "description": "Your personal AI OS \u2014 memory that learns and evolves with you, 24+ skills, and a full local stack for Claude Code, Gemini CLI, or any AI agent. Built on Obsidian + plain Markdown.",
+      "discovered_via": "topic:ai-agent",
+      "full_name": "kengio/onebrain",
+      "graph_distance": 1,
+      "html_url": "https://github.com/kengio/onebrain",
+      "topics": [
+        "ai-agent",
+        "ai-os",
+        "claude-code",
+        "gemini-cli",
+        "knowledge-base",
+        "local-first",
+        "markdown",
+        "memory",
+        "note-taking",
+        "obsidian",
+        "personal-ai",
+        "personal-knowledge-management",
+        "pkm",
+        "productivity",
+        "second-brain"
+      ],
+      "updated_at": "2026-04-17T18:03:11Z"
+    },
+    {
+      "description": "E-Claw - OpenClaw Channel for agent-to-agent communication",
+      "discovered_via": "topic:ai-agent",
+      "full_name": "HankHuang0516/EClaw",
+      "graph_distance": 1,
+      "html_url": "https://github.com/HankHuang0516/EClaw",
+      "topics": [
+        "ai-agent",
+        "android",
+        "electronic-pet",
+        "kotlin",
+        "live-wallpaper",
+        "nodejs",
+        "railway",
+        "tamagotchi"
+      ],
+      "updated_at": "2026-04-17T18:03:25Z"
+    },
+    {
+      "description": "Orchestrating Agents: From Hard Guards to Soft Constraints \u2014 A systematic guide to AI Agent orchestration",
+      "discovered_via": "topic:ai-agent",
+      "full_name": "Puzhre/agent-orchestration-book",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Puzhre/agent-orchestration-book",
+      "topics": [
+        "agent-framework",
+        "ai-agent",
+        "book",
+        "llm",
+        "mkdocs",
+        "multi-agent",
+        "orchestration",
+        "prompt-engineering"
+      ],
+      "updated_at": "2026-04-17T18:02:54Z"
+    },
+    {
+      "description": "Assistant IA \u00e0 m\u00e9moire persistante et croissance organique",
+      "discovered_via": "topic:chatbot",
+      "full_name": "kidshadow79/Ogma",
+      "graph_distance": 1,
+      "html_url": "https://github.com/kidshadow79/Ogma",
+      "topics": [
+        "ai",
+        "chatbot",
+        "dream-engine",
+        "faiss",
+        "llm",
+        "lmstudio",
+        "memory",
+        "mistral",
+        "ollama",
+        "oobabooga",
+        "rag",
+        "sqlite3"
+      ],
+      "updated_at": "2026-04-17T18:03:29Z"
+    },
+    {
+      "description": "A financial chat application powered by LangChain, OpenBB, and Claude 3 Opus.",
+      "discovered_via": "topic:chatbot",
+      "full_name": "Floxym/financial-chat",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Floxym/financial-chat",
+      "topics": [
+        "ai",
+        "chatbot",
+        "claude-3",
+        "equities",
+        "etfs",
+        "finance",
+        "financial-analysis",
+        "fundamental-analysis",
+        "indexes",
+        "langchain",
+        "langgraph",
+        "openbb",
+        "performance-analysis",
+        "python",
+        "sector-analysis",
+        "stock-market",
+        "streamlit",
+        "technical-analysis"
+      ],
+      "updated_at": "2026-04-17T17:59:57Z"
+    },
+    {
+      "description": "A finance tracking app that provides detailed insights about your expenses using AI, allowing you to chat and call interaction with your financial data.",
+      "discovered_via": "topic:chatbot",
+      "full_name": "Floxym/financial-chat-Finance-NLP-Chatbots",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Floxym/financial-chat-Finance-NLP-Chatbots",
+      "topics": [
+        "ai",
+        "chatbot",
+        "claude-3",
+        "equities",
+        "etfs",
+        "finance",
+        "financial-analysis",
+        "fundamental-analysis",
+        "indexes",
+        "langchain",
+        "langgraph",
+        "openbb",
+        "performance-analysis",
+        "python",
+        "sector-analysis",
+        "stock-market",
+        "streamlit",
+        "technical-analysis"
+      ],
+      "updated_at": "2026-04-17T17:59:45Z"
+    },
+    {
+      "description": "AI-powered customer support chatbot with streaming responses and embeddable widget",
+      "discovered_via": "topic:chatbot",
+      "full_name": "tornikepe/ai-chatbot",
+      "graph_distance": 1,
+      "html_url": "https://github.com/tornikepe/ai-chatbot",
+      "topics": [
+        "ai",
+        "chatbot",
+        "nextjs",
+        "openai",
+        "react",
+        "tailwindcss"
+      ],
+      "updated_at": "2026-04-17T17:56:16Z"
+    },
+    {
+      "description": "Run a cross-platform OpenClaw desktop client with built-in Gateway, onboarding, chat, and a full admin panel.",
+      "discovered_via": "topic:clawbot",
+      "full_name": "wendyalbanez/ClawUI",
+      "graph_distance": 1,
+      "html_url": "https://github.com/wendyalbanez/ClawUI",
+      "topics": [
+        "agent-orchestration",
+        "agentic-workflow",
+        "ai-gateway",
+        "ai-ui",
+        "chat-interface",
+        "claude-code",
+        "clawbot",
+        "codex-cli",
+        "command-center",
+        "developer-tools",
+        "electron",
+        "flutter",
+        "nextjs",
+        "react",
+        "task-orchestration",
+        "terminal",
+        "vibe-coding"
+      ],
+      "updated_at": "2026-04-17T17:40:30Z"
+    },
+    {
+      "description": "Bridge WeChat to local Codex app-server with\u626b\u7801\u767b\u5f55, long-polling messages, and per-user workspace binding",
+      "discovered_via": "topic:clawbot",
+      "full_name": "Similar-colpoxerosis201/codex-wechat",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Similar-colpoxerosis201/codex-wechat",
+      "topics": [
+        "acp",
+        "agent",
+        "automation",
+        "chatbot",
+        "chatops",
+        "claude",
+        "claude-code",
+        "clawbot",
+        "developer-tools",
+        "discord",
+        "discord-bot",
+        "lark-bot",
+        "openclaw",
+        "openclaw-desktop",
+        "openclaw-feishu",
+        "openclaw-weixin",
+        "self-hosted",
+        "skills",
+        "slack-bot",
+        "wechat-bot"
+      ],
+      "updated_at": "2026-04-17T17:38:40Z"
+    },
+    {
+      "description": "Build a Rust WeChat iLink bot SDK with pluggable agents, unified startup, and clear terminal logs for reliable multi-account use",
+      "discovered_via": "topic:clawbot",
+      "full_name": "aipurposes1587-max/weixin-agent-rs",
+      "graph_distance": 1,
+      "html_url": "https://github.com/aipurposes1587-max/weixin-agent-rs",
+      "topics": [
+        "agent",
+        "ai",
+        "ai-agent",
+        "async",
+        "bot",
+        "chatbot",
+        "clawbot",
+        "ilink",
+        "openclaw",
+        "rust",
+        "sdk",
+        "tokio",
+        "wechat",
+        "wechat-bot"
+      ],
+      "updated_at": "2026-04-17T17:38:30Z"
+    },
+    {
+      "description": "Bridge WeChat to AI agents like Claude, Codex, and Gemini for automated chat replies and account management",
+      "discovered_via": "topic:clawbot",
+      "full_name": "jonislutheran87/weclaw",
+      "graph_distance": 1,
+      "html_url": "https://github.com/jonislutheran87/weclaw",
+      "topics": [
+        "agents",
+        "claude-code",
+        "clawbot",
+        "codex",
+        "ilink",
+        "mcp-client",
+        "mcp-gateway",
+        "mcp-registry",
+        "mcp-server",
+        "openclaw",
+        "openclaw-agent",
+        "openclaw-weixin",
+        "skills",
+        "wechat",
+        "wechat-clawbot",
+        "weclaw",
+        "weixin-agent-sdk"
+      ],
+      "updated_at": "2026-04-17T17:38:23Z"
+    },
+    {
+      "description": "Connect and initialize WeChat agent skills in any project directory with one CLI workflow and standard install scripts",
+      "discovered_via": "topic:clawbot",
+      "full_name": "Shouted-numberone752/wechat-agent-connector",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Shouted-numberone752/wechat-agent-connector",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "bot-framework",
+        "chatbot",
+        "claude-code",
+        "clawbot",
+        "cli",
+        "codex",
+        "cursor",
+        "llm",
+        "multi-agent",
+        "open-source",
+        "openclaw-weixin",
+        "voice-assistant",
+        "wechat-bot"
+      ],
+      "updated_at": "2026-04-17T17:38:12Z"
+    },
+    {
+      "description": "Dual-agent AI code review for solo founders. Sends diffs to Claude + GPT, cross-checks findings, auto-detects secrets. CLI, GitHub Action, VS Code extension.",
+      "discovered_via": "topic:dual-agent",
+      "full_name": "seunghunbae-3svs/solo-cto-agent",
+      "graph_distance": 1,
+      "html_url": "https://github.com/seunghunbae-3svs/solo-cto-agent",
+      "topics": [
+        "ai-code-review",
+        "ci-cd",
+        "circuit-breaker",
+        "claude",
+        "cli-tool",
+        "code-quality",
+        "developer-tools",
+        "dual-agent",
+        "indie-hacker",
+        "openai",
+        "secret-detection",
+        "solo-founder"
+      ],
+      "updated_at": "2026-04-17T12:59:24Z"
+    },
+    {
+      "description": "Privacy-first AI agent skills for Claude Code. 80+ skills and personas for ZKP, decentralized identity, dual-agent architecture, and sovereign AI",
+      "discovered_via": "topic:dual-agent",
+      "full_name": "mitchuski/agentprivacy-skills",
+      "graph_distance": 1,
+      "html_url": "https://github.com/mitchuski/agentprivacy-skills",
+      "topics": [
+        "agent-skills",
+        "ai-agent",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "claude-code-skill",
+        "decentralised-identity",
+        "dual-agent",
+        "privacy",
+        "sovereign-ai",
+        "zero-knowledge",
+        "zkp"
+      ],
+      "updated_at": "2026-04-13T10:55:59Z"
+    },
+    {
+      "description": "An event-driven AI social engineering simulator. Execute prompt injection attacks against a defensive AI Persona while an invisible AI Judge scores your tactics in real-time. A polyglot microservices architecture built with Go, Python (LangChain), gRPC, React, WebSockets, and Terraform (AWS).",
+      "discovered_via": "topic:dual-agent",
+      "full_name": "Nibir1/VaultSim",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Nibir1/VaultSim",
+      "topics": [
+        "ai",
+        "aws",
+        "cybersecurity",
+        "docker",
+        "dual-agent",
+        "event-driven",
+        "finops",
+        "golang",
+        "grpc",
+        "langchain",
+        "llm",
+        "microservices",
+        "prompt-injection",
+        "python",
+        "react",
+        "real-time",
+        "social-engineering",
+        "tailwind-css",
+        "terraform",
+        "websockets"
+      ],
+      "updated_at": "2026-03-26T07:05:07Z"
+    },
+    {
+      "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
+      "discovered_via": "topic:hermes-agent",
+      "full_name": "nesquena/hermes-webui",
+      "graph_distance": 1,
+      "html_url": "https://github.com/nesquena/hermes-webui",
+      "topics": [
+        "agent",
+        "ai-agents",
+        "hermes",
+        "hermes-agent",
+        "nous-research"
+      ],
+      "updated_at": "2026-04-17T18:01:34Z"
+    },
+    {
+      "description": "A high-performance Rust implementation of the Hermes-Agent orchestration loop for LLM-driven tool execution.",
+      "discovered_via": "topic:hermes-agent",
+      "full_name": "eikarna/hermes-rs",
+      "graph_distance": 1,
+      "html_url": "https://github.com/eikarna/hermes-rs",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "clawdbot",
+        "codex",
+        "hermes",
+        "hermes-agent",
+        "hermes-rs",
+        "llm",
+        "moltbot",
+        "nous-research",
+        "openai",
+        "openclaw"
+      ],
+      "updated_at": "2026-04-17T17:46:26Z"
+    },
+    {
+      "description": "OpenAI + Anthropic compatible REST API proxy backed by NousResearch Portal OAuth \u2014 run your own inference gateway with subscription-based rate limits. Works with agentic coding tools like OpenCode, Claude Code, and OpenAI Codex CLI.",
+      "discovered_via": "topic:hermes-agent",
+      "full_name": "mohfer/nous-proxy",
+      "graph_distance": 1,
+      "html_url": "https://github.com/mohfer/nous-proxy",
+      "topics": [
+        "agentic-ai",
+        "anthropic",
+        "claude-code",
+        "codex-cli",
+        "hermes-agent",
+        "nous-research",
+        "oauth",
+        "openai",
+        "opencode",
+        "proxy"
+      ],
+      "updated_at": "2026-04-17T17:40:51Z"
+    }
+  ],
+  "repo": {
+    "default_branch": "main",
+    "description": "Run Hermes Agent and OpenClaw on the same WeChat account",
+    "full_name": "AaronWong1999/hermesclaw",
+    "html_url": "https://github.com/AaronWong1999/hermesclaw",
+    "language": "Python",
+    "pushed_at": "2026-04-16T08:33:55Z",
+    "topics": [
+      "ai-agent",
+      "chatbot",
+      "clawbot",
+      "dual-agent",
+      "hermes-agent",
+      "ilink",
+      "llm-agent",
+      "openclaw",
+      "python",
+      "self-hosted",
+      "wechat",
+      "wechat-bot"
+    ],
+    "updated_at": "2026-04-17T15:44:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openclaw/openclaw",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "NousResearch/hermes-agent",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Community"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Community"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "openclaw-weixin"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hermes gateway"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "baseUrl"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "WEIXIN_BASE_URL"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "requests"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "python-dotenv"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hermesclaw"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Manual"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "weixin.py"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash fix_hermes_splitting.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ThreadingHTTPServer"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "HTTPServer"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "BrokenPipeError"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-17T18:05:14.828341+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4188
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "\ud83d\udee1\ufe0f Encrypt your images securely in your browser. Keep your photos private with 100% client-side processing and no server uploads.",
+    "full_name": "Redductive/SecurePixel",
+    "html_url": "https://github.com/Redductive/SecurePixel",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-17T16:50:46Z",
+    "topics": [
+      "client-side",
+      "client-side-encryption",
+      "dippan-bhusal",
+      "dippanbhusal",
+      "encryption",
+      "image-encryption",
+      "imgbb-api",
+      "javascript",
+      "kdippan",
+      "open-source",
+      "privacy",
+      "privacy-tools",
+      "sdk",
+      "secure-file-sharing",
+      "security",
+      "visual-cryptography",
+      "zero-dependency"
+    ],
+    "updated_at": "2026-04-17T16:50:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

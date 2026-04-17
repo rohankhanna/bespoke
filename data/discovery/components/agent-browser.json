@@ -2,6 +2,13 @@
   "component": "agent-browser",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "source_repo": "NousResearch/hermes-agent"
+  "last_seen_at": "2026-04-17T18:04:43.852571+00:00",
+  "source_repo": "NousResearch/hermes-agent",
+  "sources": [
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "NousResearch/Hermes-Agent"
+    }
+  ]
 }

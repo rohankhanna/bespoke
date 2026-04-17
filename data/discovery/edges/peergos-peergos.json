@@ -1,0 +1,188 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Peergos/Peergos",
+      "target": "Peergos/web-ui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Peergos/Peergos",
+      "target": "peergos/nabu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Peergos/Peergos",
+      "target": "peergos/web-ui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Peergos/Peergos",
+      "target": "java -jar Peergos.jar daemon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Peergos/Peergos",
+      "target": "or for the native packages:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Peergos/Peergos",
+      "target": "peergos daemon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Peergos/Peergos",
+      "target": "peergos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Peergos/Peergos",
+      "target": "For security, prefer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Peergos/Peergos",
+      "target": "for loopback addresses such as",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Peergos/Peergos",
+      "target": "java -jar Peergos.jar daemon -generate-token true",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Peergos/Peergos",
+      "target": "Run the Peergos image with:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Peergos/Peergos",
+      "target": "shell java -jar Peergos.jar shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Peergos/Peergos",
+      "target": "To show all available commands",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Peergos/Peergos",
+      "target": "shell put local_path remote_path",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Peergos/Peergos",
+      "target": "Then run the sync client with:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Peergos/Peergos",
+      "target": "#### On macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Peergos/Peergos",
+      "target": "shell ant dist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Peergos/Peergos",
+      "target": "### Cross compile to JS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Peergos/Peergos",
+      "target": "shell ant gwtc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Peergos/Peergos",
+      "target": "shell sudo apt-get install ant-optional",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Peergos/Peergos",
+      "target": "shell ant test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Peergos/Peergos",
+      "target": "### Development Notes The",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Peergos/Peergos",
+      "target": "ant compile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ant.yml",
+      "source_repo": "Peergos/Peergos",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ant.yml",
+      "source_repo": "Peergos/Peergos",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ant.yml",
+      "source_repo": "Peergos/Peergos",
+      "target": "Java CI",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-17T18:04:43.852571+00:00",
+  "source_repo": "Peergos/Peergos"
+}

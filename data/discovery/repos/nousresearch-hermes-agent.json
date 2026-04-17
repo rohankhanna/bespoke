@@ -1,52 +1,513 @@
 {
-  "discovered_components": [
-    "@askjo/camofox-browser",
-    "DeterminateSystems/magic-nix-cache-action@565684385bcd71bad329742eefe8d12f2e765b39",
-    "DeterminateSystems/nix-installer-action@ef8a148080ab6020fd15196c2084a2eea5ff2d25",
-    "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
-    "actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e",
-    "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
-    "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
-    "actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa",
-    "agent-browser",
-    "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
-    "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
-    "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
-    "docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130"
+  "components": [
+    {
+      "component": "agent-browser",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@askjo/camofox-browser",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributor-check.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-site.yml"
+    },
+    {
+      "component": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-site.yml"
+    },
+    {
+      "component": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-site.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-site.yml"
+    },
+    {
+      "component": "actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-site.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-site-checks.yml"
+    },
+    {
+      "component": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-site-checks.yml"
+    },
+    {
+      "component": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-site-checks.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@ef8a148080ab6020fd15196c2084a2eea5ff2d25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "DeterminateSystems/magic-nix-cache-action@565684385bcd71bad329742eefe8d12f2e765b39",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    }
   ],
-  "discovered_repo_links": [
-    "AaronWong1999/hermesclaw",
-    "NousResearch/Hermes-Agent",
-    "NousResearch/Hermes-Agent.git",
-    "NousResearch/atropos.git",
-    "NousResearch/hermes-agent",
-    "NousResearch/hermes-agent.git",
-    "collinear-ai/yc-bench.git",
-    "plastic-labs/honcho",
-    "thinking-machines-lab/tinker.git"
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "NousResearch/hermes-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "plastic-labs/honcho",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "AaronWong1999/hermesclaw",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "hermes model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "hermes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "hermes gateway setup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "hermes gateway start",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "Ctrl+C",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "hermes setup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "hermes claw migrate --help",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "openclaw-migration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "agent-browser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "@askjo/camofox-browser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "NousResearch/atropos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "thinking-machines-lab/tinker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "collinear-ai/yc-bench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributor-check.yml",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contributor-check.yml",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "Contributor Attribution Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-site.yml",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-site.yml",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-site.yml",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-site.yml",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-site.yml",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-site.yml",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "Deploy Site",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "Docker Build and Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "load",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "load: true",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-site-checks.yml",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-site-checks.yml",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-site-checks.yml",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-site-checks.yml",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "Docs Site Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "DeterminateSystems/nix-installer-action@ef8a148080ab6020fd15196c2084a2eea5ff2d25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "DeterminateSystems/magic-nix-cache-action@565684385bcd71bad329742eefe8d12f2e765b39",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "Nix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "Bitterbot-AI/bitterbot-desktop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "gabrielvuksani/wotann",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "kengio/onebrain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "HankHuang0516/EClaw",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "Puzhre/agent-orchestration-book",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agents",
+      "source_file": null,
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "jikig-ai/soleur",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agents",
+      "source_file": null,
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "code-yeongyu/oh-my-openagent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agents",
+      "source_file": null,
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "dineshdb/pie",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agents",
+      "source_file": null,
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "strale-io/strale",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agents",
+      "source_file": null,
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "chernistry/bernstein",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:anthropic",
+      "source_file": null,
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "klodr/mercury-invoicing-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:anthropic",
+      "source_file": null,
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "Abraxas-365/claudio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:anthropic",
+      "source_file": null,
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "tombelieber/claude-view",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:chatgpt",
+      "source_file": null,
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "liangshengyong/LanWan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:chatgpt",
+      "source_file": null,
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "Momentique/Source-Code-Security-Audit-Reviewer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:chatgpt",
+      "source_file": null,
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "onyx-dot-app/onyx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:chatgpt",
+      "source_file": null,
+      "source_repo": "NousResearch/Hermes-Agent",
+      "target": "musicman3/eMarket",
+      "target_type": "repository"
+    }
   ],
-  "discovered_terms": [
-    "---\n\n## Getting Started",
-    "--workspace-target",
-    ".[all]",
-    ".[termux]",
-    "Contributor Attribution Check",
-    "Ctrl+C",
-    "Deploy Site",
-    "Docker Build and Publish",
-    "Docs Site Checks",
-    "Nix",
-    "hermes",
-    "hermes claw migrate --help",
-    "hermes gateway setup",
-    "hermes gateway start",
-    "hermes model",
-    "hermes setup",
-    "load",
-    "load: true",
-    "openclaw-migration"
-  ],
-  "fetched_at": "2026-04-17T12:50:12.237680+00:00",
+  "fetched_at": "2026-04-17T18:04:51.647905+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -62,7 +523,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 4948
+      "size": 4966
     },
     {
       "path": "requirements.txt",
@@ -91,349 +552,237 @@
   ],
   "related_repositories": [
     {
-      "description": "AI: xai-org/grok-2",
-      "discovered_via": "topic:ai",
-      "full_name": "Damacol/xai-org-grok-2",
-      "graph_distance": 1,
-      "html_url": "https://github.com/Damacol/xai-org-grok-2",
-      "topics": [
-        "ai",
-        "grok-2",
-        "privacy",
-        "uncensored",
-        "venice-ai"
-      ],
-      "updated_at": "2026-04-17T12:50:02Z"
-    },
-    {
-      "description": "AI: meta-llama/Llama-3.2-3B",
-      "discovered_via": "topic:ai",
-      "full_name": "Damacol/meta-llama-llama-3-2-3b",
-      "graph_distance": 1,
-      "html_url": "https://github.com/Damacol/meta-llama-llama-3-2-3b",
-      "topics": [
-        "ai",
-        "llama-3-2-3b",
-        "privacy",
-        "uncensored",
-        "venice-ai"
-      ],
-      "updated_at": "2026-04-17T12:49:59Z"
-    },
-    {
-      "description": "AI: google/gemma-2-2b-it",
-      "discovered_via": "topic:ai",
-      "full_name": "Damacol/google-gemma-2-2b-it",
-      "graph_distance": 1,
-      "html_url": "https://github.com/Damacol/google-gemma-2-2b-it",
-      "topics": [
-        "ai",
-        "gemma-2-2b-it",
-        "privacy",
-        "uncensored",
-        "venice-ai"
-      ],
-      "updated_at": "2026-04-17T12:49:55Z"
-    },
-    {
-      "description": "A coordinate system for intelligence. Sealed on Bitcoin Block 940717.",
-      "discovered_via": "topic:ai",
-      "full_name": "b2agi/exist-is-charter",
-      "graph_distance": 1,
-      "html_url": "https://github.com/b2agi/exist-is-charter",
-      "topics": [
-        "aei",
-        "agi",
-        "ai",
-        "b2agi",
-        "bitcoin",
-        "charter",
-        "coordination",
-        "exist-is",
-        "non-human-intelligence",
-        "ontology",
-        "philosophy",
-        "protocol"
-      ],
-      "updated_at": "2026-04-17T12:49:53Z"
-    },
-    {
-      "description": "Memory that lasts and compounds. MentisDB gives agents durable memory so they do not just remember, they improve over time. It stores append-only thought chains   plus a Git-like skills registry, letting skills evolve with experience through versioned, integrity-checked updates and fast retrieval.",
-      "discovered_via": "topic:ai",
-      "full_name": "CloudLLM-ai/mentisdb",
-      "graph_distance": 1,
-      "html_url": "https://github.com/CloudLLM-ai/mentisdb",
-      "topics": [
-        "ai",
-        "ai-agents",
-        "claude",
-        "codex",
-        "copilot",
-        "infinite-memory",
-        "openai",
-        "openrouter",
-        "orchestration-tools",
-        "shared-agent-memory",
-        "skills-registry"
-      ],
-      "updated_at": "2026-04-17T12:49:51Z"
-    },
-    {
-      "description": "Digital immortality recursive engine",
+      "description": "A local-first AI agent with persistent memory, emotional intelligence, and a peer-to-peer skills economy.",
       "discovered_via": "topic:ai-agent",
-      "full_name": "l12203685/digital-immortality",
+      "full_name": "Bitterbot-AI/bitterbot-desktop",
       "graph_distance": 1,
-      "html_url": "https://github.com/l12203685/digital-immortality",
+      "html_url": "https://github.com/Bitterbot-AI/bitterbot-desktop",
       "topics": [
+        "a2a-protocol",
+        "agent-economy",
+        "agent-memory",
         "ai-agent",
-        "digital-immortality",
-        "recursive-engine"
-      ],
-      "updated_at": "2026-04-17T12:49:48Z"
-    },
-    {
-      "description": "A self-evolving scaffold for autonomous web projects. 9 workflows, hourly self-evolution, self-healing pipeline, feedback learning loop. The repo is the system.",
-      "discovered_via": "topic:ai-agent",
-      "full_name": "verkyyi/tokenman",
-      "graph_distance": 1,
-      "html_url": "https://github.com/verkyyi/tokenman",
-      "topics": [
-        "agent-harness",
-        "ai-agent",
-        "astro",
-        "autonomous",
-        "claude",
-        "claude-code",
-        "github-actions",
-        "harness-engineering",
-        "self-evolving",
-        "self-healing"
-      ],
-      "updated_at": "2026-04-17T12:49:44Z"
-    },
-    {
-      "description": "Local LLM coding agent that reproduces the Claude Code workflow \u2014 on your hardware, with your models.",
-      "discovered_via": "topic:ai-agent",
-      "full_name": "cafitac/hermit-agent",
-      "graph_distance": 1,
-      "html_url": "https://github.com/cafitac/hermit-agent",
-      "topics": [
-        "ai-agent",
-        "claude-code",
-        "coding-agent",
-        "developer-tools",
-        "fastapi",
-        "llm",
-        "local-llm",
-        "mcp",
-        "ollama",
-        "python"
-      ],
-      "updated_at": "2026-04-17T12:49:04Z"
-    },
-    {
-      "description": "Personal LLM Wiki toolkit \u2014 let AI build and maintain your knowledge base. Based on Karpathy's LLM Wiki pattern. TypeScript, ollama+bge-m3, works with any AI coding agent.",
-      "discovered_via": "topic:ai-agent",
-      "full_name": "GYF0311/lorekit",
-      "graph_distance": 1,
-      "html_url": "https://github.com/GYF0311/lorekit",
-      "topics": [
-        "ai-agent",
-        "claude-code",
-        "embedding",
-        "karpathy",
-        "knowledge-base",
-        "llm",
-        "obsidian",
-        "rag",
-        "typescript",
-        "wiki"
-      ],
-      "updated_at": "2026-04-17T12:48:52Z"
-    },
-    {
-      "description": "CodeFlow - AI-powered human-AI collaboration hub. Desktop EXE + Mobile PWA + MCP Plugin. Command your AI team from phone.",
-      "discovered_via": "topic:ai-agent",
-      "full_name": "joinwell52-AI/codeflow-pwa",
-      "graph_distance": 1,
-      "html_url": "https://github.com/joinwell52-AI/codeflow-pwa",
-      "topics": [
-        "ai-agent",
-        "ai-team",
-        "codeflow",
-        "cursor",
-        "cursor-ide",
+        "chatbot",
+        "cognitive-architecture",
+        "decentralized-ai",
         "desktop-app",
-        "developer-tools",
-        "human-ai-collaboration",
-        "mcp",
-        "multi-agent",
+        "dream-engine",
+        "local-first",
+        "multi-channel",
         "open-source",
-        "pwa"
+        "p2p",
+        "personal-ai",
+        "skills-marketplace",
+        "typescript",
+        "x402"
       ],
-      "updated_at": "2026-04-17T12:48:44Z"
+      "updated_at": "2026-04-17T18:04:41Z"
     },
     {
-      "description": "Managed MCP server for Bybit perpetual futures trading",
-      "discovered_via": "topic:ai-agents",
-      "full_name": "EternaHybridExchange/eterna-mcp",
+      "description": "WOTANN \u2014 The All-Father of AI agent harnesses. One install. Every model. Every channel. Full autonomy.",
+      "discovered_via": "topic:ai-agent",
+      "full_name": "gabrielvuksani/wotann",
       "graph_distance": 1,
-      "html_url": "https://github.com/EternaHybridExchange/eterna-mcp",
+      "html_url": "https://github.com/gabrielvuksani/wotann",
       "topics": [
-        "ai-agents",
-        "algorithmic-trading",
-        "bybit",
-        "crypto-trading",
-        "mcp",
-        "mcp-server",
-        "model-context-protocol",
-        "perpetual-futures",
-        "quant-trading",
-        "trading"
-      ],
-      "updated_at": "2026-04-17T12:49:59Z"
-    },
-    {
-      "description": "Prizolov Agent OS: The Open-Source Orchestration Framework for Autonomous AI Empires. Built by Dm.Andreyanov for RAG-driven business automation.",
-      "discovered_via": "topic:ai-agents",
-      "full_name": "GIBDD-DPS/prizolov-agent-os",
-      "graph_distance": 1,
-      "html_url": "https://github.com/GIBDD-DPS/prizolov-agent-os",
-      "topics": [
-        "ai-agents",
-        "orchestration",
-        "prizolov-market",
-        "rag-architecture",
-        "sovereign-ai"
-      ],
-      "updated_at": "2026-04-17T12:49:55Z"
-    },
-    {
-      "description": "Evidence-anchored narrative dataset that shifts AI reasoning from scarcity-default to abundance-aware (+9% in benchmark)",
-      "discovered_via": "topic:ai-agents",
-      "full_name": "CjTruHeart/abundance-codex",
-      "graph_distance": 1,
-      "html_url": "https://github.com/CjTruHeart/abundance-codex",
-      "topics": [
-        "abundance",
-        "ai-agents",
-        "benchmark",
-        "conditional-optimism",
-        "context-engineering",
-        "dataset",
-        "knowledge-base",
-        "llm-evaluation",
-        "machine-readable",
-        "narrative-dataset",
-        "rag",
-        "system-prompts"
-      ],
-      "updated_at": "2026-04-17T12:49:55Z"
-    },
-    {
-      "description": "Realtime infrastructure for multiplayer apps and agents",
-      "discovered_via": "topic:ai-agents",
-      "full_name": "liveblocks/liveblocks",
-      "graph_distance": 1,
-      "html_url": "https://github.com/liveblocks/liveblocks",
-      "topics": [
-        "ai-agents",
-        "ai-copilot",
-        "collaboration",
-        "commenting-system",
-        "comments",
-        "crdt",
-        "liveblocks",
-        "multiplayer",
-        "notifications-systems",
-        "presence",
-        "react",
-        "real-time",
-        "toolkit",
-        "websockets",
-        "yjs",
-        "yjs-provider"
-      ],
-      "updated_at": "2026-04-17T12:49:41Z"
-    },
-    {
-      "description": "97 reasoning patterns from history's greatest minds \u2014 as Claude Code agents. Curie to Toulmin. Engineering to humanities. Every claim cites its source. Every commit is checked. The only agent system where \"I don't know\" is a feature.",
-      "discovered_via": "topic:anthropic",
-      "full_name": "cdeust/zetetic-team-subagents",
-      "graph_distance": 1,
-      "html_url": "https://github.com/cdeust/zetetic-team-subagents",
-      "topics": [
-        "ai-agents",
+        "agent-framework",
+        "ai-agent",
         "anthropic",
-        "causal-inference",
-        "claude-agents",
+        "claude",
+        "computer-use",
+        "free-tier",
+        "harness",
+        "llm",
+        "mcp",
+        "norse",
+        "ollama",
+        "openai",
+        "provider-agnostic",
+        "swift",
+        "tauri",
+        "typescript"
+      ],
+      "updated_at": "2026-04-17T18:03:21Z"
+    },
+    {
+      "description": "Your personal AI OS \u2014 memory that learns and evolves with you, 24+ skills, and a full local stack for Claude Code, Gemini CLI, or any AI agent. Built on Obsidian + plain Markdown.",
+      "discovered_via": "topic:ai-agent",
+      "full_name": "kengio/onebrain",
+      "graph_distance": 1,
+      "html_url": "https://github.com/kengio/onebrain",
+      "topics": [
+        "ai-agent",
+        "ai-os",
+        "claude-code",
+        "gemini-cli",
+        "knowledge-base",
+        "local-first",
+        "markdown",
+        "memory",
+        "note-taking",
+        "obsidian",
+        "personal-ai",
+        "personal-knowledge-management",
+        "pkm",
+        "productivity",
+        "second-brain"
+      ],
+      "updated_at": "2026-04-17T18:03:11Z"
+    },
+    {
+      "description": "E-Claw - OpenClaw Channel for agent-to-agent communication",
+      "discovered_via": "topic:ai-agent",
+      "full_name": "HankHuang0516/EClaw",
+      "graph_distance": 1,
+      "html_url": "https://github.com/HankHuang0516/EClaw",
+      "topics": [
+        "ai-agent",
+        "android",
+        "electronic-pet",
+        "kotlin",
+        "live-wallpaper",
+        "nodejs",
+        "railway",
+        "tamagotchi"
+      ],
+      "updated_at": "2026-04-17T18:03:25Z"
+    },
+    {
+      "description": "Orchestrating Agents: From Hard Guards to Soft Constraints \u2014 A systematic guide to AI Agent orchestration",
+      "discovered_via": "topic:ai-agent",
+      "full_name": "Puzhre/agent-orchestration-book",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Puzhre/agent-orchestration-book",
+      "topics": [
+        "agent-framework",
+        "ai-agent",
+        "book",
+        "llm",
+        "mkdocs",
+        "multi-agent",
+        "orchestration",
+        "prompt-engineering"
+      ],
+      "updated_at": "2026-04-17T18:02:54Z"
+    },
+    {
+      "description": "The Company-as-a-Service platform. Build, ship, and scale -- powered by AI teams.",
+      "discovered_via": "topic:ai-agents",
+      "full_name": "jikig-ai/soleur",
+      "graph_distance": 1,
+      "html_url": "https://github.com/jikig-ai/soleur",
+      "topics": [
+        "agentic-company",
+        "agentic-engineering",
+        "ai-agents",
+        "ai-orchestration",
+        "automation",
+        "bring-your-own-model",
+        "claude",
         "claude-code",
         "claude-code-plugin",
-        "critical-thinking",
-        "epistemology",
-        "evidence-based",
-        "genius-agents",
-        "meta-analysis",
-        "paper-writing",
-        "problem-solving",
-        "reasoning",
-        "research",
-        "research-methodology",
-        "scientific-method",
-        "systematic-review",
-        "zetetic"
+        "code-review",
+        "company-as-a-service",
+        "developer-tools",
+        "solopreneur"
       ],
-      "updated_at": "2026-04-17T12:49:24Z"
+      "updated_at": "2026-04-17T18:04:43Z"
     },
     {
-      "description": "Multi-workspace terminal aggregator with Claude Code AI integration",
-      "discovered_via": "topic:anthropic",
-      "full_name": "tony1223/better-agent-terminal",
+      "description": "omo; the best agent harness - previously oh-my-opencode",
+      "discovered_via": "topic:ai-agents",
+      "full_name": "code-yeongyu/oh-my-openagent",
       "graph_distance": 1,
-      "html_url": "https://github.com/tony1223/better-agent-terminal",
+      "html_url": "https://github.com/code-yeongyu/oh-my-openagent",
       "topics": [
-        "ai-agent",
+        "ai",
+        "ai-agents",
+        "amp",
         "anthropic",
+        "chatgpt",
         "claude",
         "claude-code",
-        "developer-tools",
-        "electron",
-        "multi-terminal",
-        "terminal",
-        "terminal-emulator",
-        "workspace"
+        "claude-skills",
+        "cursor",
+        "gemini",
+        "ide",
+        "openai",
+        "opencode",
+        "orchestration",
+        "tui",
+        "typescript"
       ],
-      "updated_at": "2026-04-17T12:48:27Z"
+      "updated_at": "2026-04-17T18:04:23Z"
     },
     {
-      "description": "Product-Led Growth (PLG) analysis toolkit that detects tech stacks, plans growth loops and builds the loop iteratively.",
-      "discovered_via": "topic:anthropic",
-      "full_name": "SkeneTechnologies/skene",
+      "description": "Minimal AI agent in your terminal",
+      "discovered_via": "topic:ai-agents",
+      "full_name": "dineshdb/pie",
       "graph_distance": 1,
-      "html_url": "https://github.com/SkeneTechnologies/skene",
+      "html_url": "https://github.com/dineshdb/pie",
       "topics": [
-        "ai-tools",
-        "anthropic",
-        "automation",
-        "cli",
-        "cli-tool",
-        "code-documentation",
-        "codebase-analysis",
-        "developer-tools",
-        "gemini",
-        "growth-hacking",
-        "llm",
-        "mcp",
-        "mcp-server",
-        "openai",
-        "plg",
-        "product-led-growth",
-        "pydantic",
-        "python",
-        "python3",
-        "tech-stack-detection"
+        "ai-agents",
+        "ai-assistant"
       ],
-      "updated_at": "2026-04-17T12:48:19Z"
+      "updated_at": "2026-04-17T18:04:09Z"
+    },
+    {
+      "description": "Trust and quality infrastructure for AI agents. 225+ quality-scored capabilities, SQS scoring, EU AI Act support.",
+      "discovered_via": "topic:ai-agents",
+      "full_name": "strale-io/strale",
+      "graph_distance": 1,
+      "html_url": "https://github.com/strale-io/strale",
+      "topics": [
+        "agentic-payments",
+        "ai-agents",
+        "api",
+        "compliance",
+        "crewai",
+        "drizzle-orm",
+        "eu-ai-act",
+        "hono",
+        "iban-validation",
+        "kyb",
+        "langchain",
+        "mcp",
+        "model-context-protocol",
+        "quality",
+        "sanctions-screening",
+        "trust",
+        "typescript",
+        "x402"
+      ],
+      "updated_at": "2026-04-17T18:03:57Z"
+    },
+    {
+      "description": "Multi-agent orchestrator for CLI coding agents. 17 adapters, git worktree isolation, deterministic Python scheduler.",
+      "discovered_via": "topic:ai-agents",
+      "full_name": "chernistry/bernstein",
+      "graph_distance": 1,
+      "html_url": "https://github.com/chernistry/bernstein",
+      "topics": [
+        "a2a",
+        "agent-orchestration",
+        "agentic-ai",
+        "agentic-engineering",
+        "agentic-workflow",
+        "ai-agents",
+        "ai-orchestrator",
+        "autonomous-agents",
+        "claude-code",
+        "coding-agents",
+        "cursor",
+        "developer-tools",
+        "mcp-server",
+        "model-context-protocol",
+        "multi-agent",
+        "multi-agent-systems",
+        "open-plugins",
+        "openclaw",
+        "self-evolving",
+        "vibe-coding"
+      ],
+      "updated_at": "2026-04-17T18:03:51Z"
     },
     {
       "description": "Mercury Banking MCP server with full Invoicing API support. Read accounts/transactions and create/manage recurring invoices via Model Context Protocol.",
@@ -453,56 +802,153 @@
         "model-context-protocol",
         "typescrypt"
       ],
-      "updated_at": "2026-04-17T12:47:57Z"
+      "updated_at": "2026-04-17T18:03:04Z"
     },
     {
-      "description": "Universal memory layer for AI Agents",
-      "discovered_via": "topic:chatgpt",
-      "full_name": "mem0ai/mem0",
+      "description": "A terminal-native coding agent harness \u2014 model-agnostic, hackable guides, sensors, hooks, skills and tools for agentic development.",
+      "discovered_via": "topic:anthropic",
+      "full_name": "Abraxas-365/claudio",
       "graph_distance": 1,
-      "html_url": "https://github.com/mem0ai/mem0",
+      "html_url": "https://github.com/Abraxas-365/claudio",
       "topics": [
-        "agents",
-        "ai",
-        "ai-agents",
-        "application",
-        "chatbots",
-        "chatgpt",
-        "genai",
+        "agent-harness",
+        "agentic-coding",
+        "anthropic",
+        "cli",
+        "coding-agent",
+        "coding-assistant",
+        "context-engineering",
+        "developer-tools",
+        "golang",
+        "harness",
         "llm",
-        "long-term-memory",
-        "memory",
-        "memory-management",
+        "model-agnostic",
+        "terminal"
+      ],
+      "updated_at": "2026-04-17T18:02:34Z"
+    },
+    {
+      "description": "10 Claude sessions running. What are they doing? Live dashboard \u2014 monitor, cost tracking, search, sub-agent visibility.",
+      "discovered_via": "topic:anthropic",
+      "full_name": "tombelieber/claude-view",
+      "graph_distance": 1,
+      "html_url": "https://github.com/tombelieber/claude-view",
+      "topics": [
+        "ai-agents",
+        "analytics",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "cli",
+        "cost-tracking",
+        "dashboard",
+        "developer-tools",
+        "full-text-search",
+        "heatmap",
+        "mcp",
+        "metrics",
+        "mission-control",
+        "monitoring",
+        "react",
+        "reports",
+        "rust",
+        "session-history",
+        "subagents"
+      ],
+      "updated_at": "2026-04-17T18:01:53Z"
+    },
+    {
+      "description": "\u84dd\u6e7e\u662f\u4e00\u4e2a L2TP/IPsec \u670d\u52a1\u5668\u6d4b\u8bd5\u7a0b\u5e8f\uff0c\u5b8c\u5168\u5f00\u6e90\u6c38\u4e45\u514d\u8d39\u65e0\u9650\u6d41\u91cf\u81ea\u5e26\u8282\u70b9\u65e0\u9700\u8ba2\u9605\u9ad8\u901f\u7a33\u5b9a\u79d1\u5b66\u4e0a\u7f51\u7ffb\u5899\u68af\u5b50VPN\u8f6f\u4ef6",
+      "discovered_via": "topic:chatgpt",
+      "full_name": "liangshengyong/LanWan",
+      "graph_distance": 1,
+      "html_url": "https://github.com/liangshengyong/LanWan",
+      "topics": [
+        "chatgpt",
+        "gfw",
+        "proxy",
+        "vpn",
+        "vpn-client",
+        "vpn-server",
+        "vpn-service",
+        "windows"
+      ],
+      "updated_at": "2026-04-17T18:04:17Z"
+    },
+    {
+      "description": "intelligent auditing tool powered by large language models, supporting GPT, . It automatically detects security vulnerabilities, performance issues",
+      "discovered_via": "topic:chatgpt",
+      "full_name": "Momentique/Source-Code-Security-Audit-Reviewer",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Momentique/Source-Code-Security-Audit-Reviewer",
+      "topics": [
+        "ai",
+        "application-security",
+        "chatgpt",
+        "code-audit",
+        "code-review",
+        "react",
+        "security-audit",
+        "security-tools",
+        "source-code",
+        "typescript",
+        "vulnerability-detection"
+      ],
+      "updated_at": "2026-04-17T18:03:48Z"
+    },
+    {
+      "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
+      "discovered_via": "topic:chatgpt",
+      "full_name": "onyx-dot-app/onyx",
+      "graph_distance": 1,
+      "html_url": "https://github.com/onyx-dot-app/onyx",
+      "topics": [
+        "ai",
+        "ai-chat",
+        "chatgpt",
+        "chatui",
+        "enterprise-search",
+        "gen-ai",
+        "information-retrieval",
+        "llm",
+        "llm-ui",
+        "nextjs",
         "python",
         "rag",
-        "state-management"
+        "self-hosted",
+        "vector-search"
       ],
-      "updated_at": "2026-04-17T12:47:26Z"
+      "updated_at": "2026-04-17T18:03:34Z"
     },
     {
-      "description": "AI-powered KVM assistant for PiKVM \u2014 natural-language remote server control via keyboard, mouse and screen analysis",
+      "description": "eMarket Online Store. It is a free online shop engine. Make the best online shop with us. Join our Open Source community. Together we will make the best free e-commerce solution.",
       "discovered_via": "topic:chatgpt",
-      "full_name": "sunthinks/kvmind",
+      "full_name": "musicman3/eMarket",
       "graph_distance": 1,
-      "html_url": "https://github.com/sunthinks/kvmind",
+      "html_url": "https://github.com/musicman3/eMarket",
       "topics": [
-        "ai-assistant",
-        "arch-linux-arm",
-        "bmc",
+        "bootstrap",
+        "cart",
         "chatgpt",
-        "claude",
-        "gemini",
-        "homelab",
-        "ipkvm",
-        "kvm",
-        "llm",
-        "ollama",
-        "pikvm",
-        "raspberry-pi",
-        "remote-control",
-        "self-hosted"
+        "cms",
+        "ecommerce",
+        "js-market",
+        "market",
+        "online-cart",
+        "online-shop",
+        "online-shopping-cart",
+        "online-store",
+        "online-store-website",
+        "php-javascript",
+        "shop",
+        "shop-framework",
+        "shopping",
+        "shopping-basket",
+        "shopping-cart",
+        "store",
+        "store-engine"
       ],
-      "updated_at": "2026-04-17T12:47:23Z"
+      "updated_at": "2026-04-17T17:57:26Z"
     }
   ],
   "repo": {
@@ -511,7 +957,7 @@
     "full_name": "NousResearch/hermes-agent",
     "html_url": "https://github.com/NousResearch/hermes-agent",
     "language": "Python",
-    "pushed_at": "2026-04-17T12:48:28Z",
+    "pushed_at": "2026-04-17T16:42:42Z",
     "topics": [
       "ai",
       "ai-agent",
@@ -530,6 +976,120 @@
       "openai",
       "openclaw"
     ],
-    "updated_at": "2026-04-17T12:49:57Z"
-  }
+    "updated_at": "2026-04-17T18:04:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "plastic-labs/honcho",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "NousResearch/hermes-agent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "NousResearch/atropos",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "AaronWong1999/hermesclaw",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "collinear-ai/yc-bench",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thinking-machines-lab/tinker",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hermes model"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hermes"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hermes"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hermes gateway setup"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hermes gateway start"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Ctrl+C"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hermes setup"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hermes claw migrate --help"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "openclaw-migration"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contributor-check.yml",
+      "term": "Contributor Attribution Check"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-site.yml",
+      "term": "Deploy Site"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "term": "Docker Build and Publish"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "term": "load"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "term": "load: true"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-site-checks.yml",
+      "term": "Docs Site Checks"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix.yml",
+      "term": "Nix"
+    }
+  ]
 }

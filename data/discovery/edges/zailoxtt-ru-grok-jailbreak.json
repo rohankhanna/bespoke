@@ -1,0 +1,167 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ZailoxTT/ru-grok-jailbreak",
+      "target": "\u042d\u0442\u043e\u0442 \u043a\u043e\u0434 \u0432\u044b\u0434\u0430\u0441\u0442:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ZailoxTT/ru-grok-jailbreak",
+      "target": "\u0410 \u044d\u0442\u043e\u0442 \u043a\u043e\u0434:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ZailoxTT/ru-grok-jailbreak",
+      "target": "\u0412\u044b\u0434\u0430\u0441\u0442:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "topic:grok",
+      "source_file": null,
+      "source_repo": "ZailoxTT/ru-grok-jailbreak",
+      "target": "graveyardsfocrdpktv/Ethereum-mempool-bot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok",
+      "source_file": null,
+      "source_repo": "ZailoxTT/ru-grok-jailbreak",
+      "target": "alistaitsacle/free-llm-api-keys",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok",
+      "source_file": null,
+      "source_repo": "ZailoxTT/ru-grok-jailbreak",
+      "target": "llama-farm/llamafarm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok",
+      "source_file": null,
+      "source_repo": "ZailoxTT/ru-grok-jailbreak",
+      "target": "anojndr/grok-to-openai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok",
+      "source_file": null,
+      "source_repo": "ZailoxTT/ru-grok-jailbreak",
+      "target": "Florisheedless915/grok-register",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-2",
+      "source_file": null,
+      "source_repo": "ZailoxTT/ru-grok-jailbreak",
+      "target": "Damacol/xai-org-grok-2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-2",
+      "source_file": null,
+      "source_repo": "ZailoxTT/ru-grok-jailbreak",
+      "target": "aitooools/supergrok",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-2",
+      "source_file": null,
+      "source_repo": "ZailoxTT/ru-grok-jailbreak",
+      "target": "genius-harry/Neural-Chat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-2",
+      "source_file": null,
+      "source_repo": "ZailoxTT/ru-grok-jailbreak",
+      "target": "0xnu/rewsury",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-ai",
+      "source_file": null,
+      "source_repo": "ZailoxTT/ru-grok-jailbreak",
+      "target": "stealabra5019/Grok-Enhancer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-ai",
+      "source_file": null,
+      "source_repo": "ZailoxTT/ru-grok-jailbreak",
+      "target": "petmal/MindTrial",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-ai",
+      "source_file": null,
+      "source_repo": "ZailoxTT/ru-grok-jailbreak",
+      "target": "lonewolf-jp/ConvoPeq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-ai",
+      "source_file": null,
+      "source_repo": "ZailoxTT/ru-grok-jailbreak",
+      "target": "RobertAbao/grok-nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-ai",
+      "source_file": null,
+      "source_repo": "ZailoxTT/ru-grok-jailbreak",
+      "target": "aitooools/poe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok3",
+      "source_file": null,
+      "source_repo": "ZailoxTT/ru-grok-jailbreak",
+      "target": "fekkak1998/scira",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok3",
+      "source_file": null,
+      "source_repo": "ZailoxTT/ru-grok-jailbreak",
+      "target": "Saminiscool/twitter-ai-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok3",
+      "source_file": null,
+      "source_repo": "ZailoxTT/ru-grok-jailbreak",
+      "target": "FIRESTRYK/chatgpt-website.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:jailbreak",
+      "source_file": null,
+      "source_repo": "ZailoxTT/ru-grok-jailbreak",
+      "target": "gbrobro119-star/darksword-kexploit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:jailbreak",
+      "source_file": null,
+      "source_repo": "ZailoxTT/ru-grok-jailbreak",
+      "target": "biparous-blaxploitation156/CipherMind",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:jailbreak",
+      "source_file": null,
+      "source_repo": "ZailoxTT/ru-grok-jailbreak",
+      "target": "genuslovoacalixtusiii510/YTP-2026",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-17T18:04:43.852571+00:00",
+  "source_repo": "ZailoxTT/ru-grok-jailbreak"
+}

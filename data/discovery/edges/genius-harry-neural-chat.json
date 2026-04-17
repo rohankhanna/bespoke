@@ -1,0 +1,202 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "genius-harry/neural-chat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "3. **Install dependencies:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "bash pip install -r requirements.txt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "4. **Create a",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "bash python main.py",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "config.py",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "file: -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "api_keys.py",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "topic:agents",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "Molten-Bot/moltenhub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:agents",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "googleapis/mcp-toolbox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:agents",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "milwrite/creative-clawing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:agents",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "yonatangross/orchestkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:agents",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "navikt/copilot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "jikig-ai/soleur",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "graveyardsfocrdpktv/Ethereum-mempool-bot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "flyersworder/agentic-data-contracts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "code-yeongyu/oh-my-openagent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "gabrielvuksani/wotann",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude-3-5",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude-3-5",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "AdamMes/voyanode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude-3-5",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "zwowo1997/pack-repo-4ai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude-3-5",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "lenML/gcp-claude-openai-api-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude-api",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "ding113/claude-code-hub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude-api",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "Pragmatical-transshipment598/claude-code-workflows",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude-api",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "vivianalaced749/vk-calls-tunnel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude-api",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "chafingdishposition355/go-skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude-api",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "Foundersieve687/skill-gateway",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:deepseek",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "archestra-ai/archestra",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-17T18:04:43.852571+00:00",
+  "source_repo": "genius-harry/Neural-Chat"
+}

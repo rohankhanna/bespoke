@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updater.yml",
+      "source_repo": "thedoggybrad/easylist-mirror",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/updater.yml",
+      "source_repo": "thedoggybrad/easylist-mirror",
+      "target": "EasyList Mirror Updater",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-17T18:04:43.852571+00:00",
+  "source_repo": "thedoggybrad/easylist-mirror"
+}

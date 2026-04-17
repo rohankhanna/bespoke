@@ -1,0 +1,223 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/supergrok",
+      "target": "aitooools/claude-pro-hezu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/supergrok",
+      "target": "aitooools/claude-pro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/supergrok",
+      "target": "aitooools/claude-pro-recharge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/supergrok",
+      "target": "aitooools/chatgpt-plus-hezu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/supergrok",
+      "target": "aitooools/aitooools.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/supergrok",
+      "target": "aitooools/chatgpt-plus-recharge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/supergrok",
+      "target": "aitooools/netflix-hezu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/supergrok",
+      "target": "aitooools/gemini-pro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/supergrok",
+      "target": "aitooools/poe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/supergrok",
+      "target": "aitooools/youtube-hezu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/supergrok",
+      "target": "aitooools/spotify-hezu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/supergrok",
+      "target": "aitooools/chatgpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/supergrok",
+      "target": "aitooools/nf-video",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "graveyardsfocrdpktv/Ethereum-mempool-bot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "alistaitsacle/free-llm-api-keys",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "llama-farm/llamafarm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "anojndr/grok-to-openai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "Florisheedless915/grok-register",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-2",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "Damacol/xai-org-grok-2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-2",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "genius-harry/Neural-Chat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-2",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "ZailoxTT/ru-grok-jailbreak",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-2",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "0xnu/rewsury",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-ai",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "stealabra5019/Grok-Enhancer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-ai",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "petmal/MindTrial",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-ai",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "lonewolf-jp/ConvoPeq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-ai",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "RobertAbao/grok-nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-ai",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "aitooools/poe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-api",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "bunburysniper/BleuNova-AI-Agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-api",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "gauravRathod674/custom-chatbot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-api",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "penpoen/llm-SugarScape",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-api",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "saidudz/Chat-AI",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-17T18:04:43.852571+00:00",
+  "source_repo": "aitooools/supergrok"
+}

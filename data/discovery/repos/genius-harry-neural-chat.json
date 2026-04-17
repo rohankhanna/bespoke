@@ -1,0 +1,745 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "genius-harry/neural-chat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "3. **Install dependencies:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "bash pip install -r requirements.txt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "4. **Create a",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "bash python main.py",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "config.py",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "file: -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "api_keys.py",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "topic:agents",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "Molten-Bot/moltenhub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:agents",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "googleapis/mcp-toolbox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:agents",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "milwrite/creative-clawing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:agents",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "yonatangross/orchestkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:agents",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "navikt/copilot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "jikig-ai/soleur",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "graveyardsfocrdpktv/Ethereum-mempool-bot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "flyersworder/agentic-data-contracts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "code-yeongyu/oh-my-openagent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "gabrielvuksani/wotann",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude-3-5",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude-3-5",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "AdamMes/voyanode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude-3-5",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "zwowo1997/pack-repo-4ai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude-3-5",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "lenML/gcp-claude-openai-api-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude-api",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "ding113/claude-code-hub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude-api",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "Pragmatical-transshipment598/claude-code-workflows",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude-api",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "vivianalaced749/vk-calls-tunnel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude-api",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "chafingdishposition355/go-skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude-api",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "Foundersieve687/skill-gateway",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:deepseek",
+      "source_file": null,
+      "source_repo": "genius-harry/Neural-Chat",
+      "target": "archestra-ai/archestra",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-17T18:05:03.152228+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22082
+    },
+    {
+      "path": "requirements.txt",
+      "size": 59
+    }
+  ],
+  "related_repositories": [
+    {
+      "description": "  MoltenHub is a federated trust and messaging fabric for multi-agent systems, giving agents a   secure way to discover, connect, and communicate across teams, runtimes, and environments.",
+      "discovered_via": "topic:agents",
+      "full_name": "Molten-Bot/moltenhub",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Molten-Bot/moltenhub",
+      "topics": [
+        "agentic",
+        "agentic-ai",
+        "agents",
+        "codex",
+        "skills"
+      ],
+      "updated_at": "2026-04-17T18:04:14Z"
+    },
+    {
+      "description": "MCP Toolbox for Databases is an open source MCP server for databases.",
+      "discovered_via": "topic:agents",
+      "full_name": "googleapis/mcp-toolbox",
+      "graph_distance": 1,
+      "html_url": "https://github.com/googleapis/mcp-toolbox",
+      "topics": [
+        "agent",
+        "agents",
+        "ai",
+        "bigquery",
+        "clickhouse",
+        "cockroachdb",
+        "database",
+        "elasticsearch",
+        "firestore",
+        "genai",
+        "llm",
+        "mcp",
+        "mongodb",
+        "mysql",
+        "oracle",
+        "postgresql",
+        "redis",
+        "server",
+        "spanner",
+        "tidb"
+      ],
+      "updated_at": "2026-04-17T18:03:38Z"
+    },
+    {
+      "description": "A creative coding gallery and microblogging site sourced exclusively from OpenClaw agents ",
+      "discovered_via": "topic:agents",
+      "full_name": "milwrite/creative-clawing",
+      "graph_distance": 1,
+      "html_url": "https://github.com/milwrite/creative-clawing",
+      "topics": [
+        "agentic-orchestration",
+        "agents",
+        "creative-coding",
+        "gallery",
+        "microblogging",
+        "moltbot",
+        "openclaw",
+        "social-agents",
+        "visualizations"
+      ],
+      "updated_at": "2026-04-17T18:03:25Z"
+    },
+    {
+      "description": "The Complete AI Development Toolkit for Claude Code \u2014 103 skills, 36 agents, 172 hooks. Production-ready patterns for full-stack development.",
+      "discovered_via": "topic:agents",
+      "full_name": "yonatangross/orchestkit",
+      "graph_distance": 1,
+      "html_url": "https://github.com/yonatangross/orchestkit",
+      "topics": [
+        "agents",
+        "ai-development",
+        "claude-code",
+        "claude-plugin",
+        "fastapi",
+        "langgraph",
+        "llm",
+        "mcp",
+        "rag",
+        "react",
+        "security",
+        "testing",
+        "typescript"
+      ],
+      "updated_at": "2026-04-17T18:03:11Z"
+    },
+    {
+      "description": "All things Copilot, Agents, MCPs, Skills, and coding related AI features for the Norwegian Government",
+      "discovered_via": "topic:agents",
+      "full_name": "navikt/copilot",
+      "graph_distance": 1,
+      "html_url": "https://github.com/navikt/copilot",
+      "topics": [
+        "agents",
+        "copilot",
+        "mcp",
+        "skills"
+      ],
+      "updated_at": "2026-04-17T18:01:52Z"
+    },
+    {
+      "description": "The Company-as-a-Service platform. Build, ship, and scale -- powered by AI teams.",
+      "discovered_via": "topic:claude",
+      "full_name": "jikig-ai/soleur",
+      "graph_distance": 1,
+      "html_url": "https://github.com/jikig-ai/soleur",
+      "topics": [
+        "agentic-company",
+        "agentic-engineering",
+        "ai-agents",
+        "ai-orchestration",
+        "automation",
+        "bring-your-own-model",
+        "claude",
+        "claude-code",
+        "claude-code-plugin",
+        "code-review",
+        "company-as-a-service",
+        "developer-tools",
+        "solopreneur"
+      ],
+      "updated_at": "2026-04-17T18:04:43Z"
+    },
+    {
+      "description": "any contract you deploy through ChainForge on Ethereum mainnet",
+      "discovered_via": "topic:claude",
+      "full_name": "graveyardsfocrdpktv/Ethereum-mempool-bot",
+      "graph_distance": 1,
+      "html_url": "https://github.com/graveyardsfocrdpktv/Ethereum-mempool-bot",
+      "topics": [
+        "ai",
+        "bot",
+        "claude",
+        "deepseek",
+        "gpt",
+        "grok"
+      ],
+      "updated_at": "2026-04-17T18:04:40Z"
+    },
+    {
+      "description": "YAML-first, domain-driven data governance for AI agents \u2014 teach agents your business domains, metrics, and rules before they write SQL",
+      "discovered_via": "topic:claude",
+      "full_name": "flyersworder/agentic-data-contracts",
+      "graph_distance": 1,
+      "html_url": "https://github.com/flyersworder/agentic-data-contracts",
+      "topics": [
+        "agent-sdk",
+        "ai-agents",
+        "analytics",
+        "claude",
+        "data-contracts",
+        "data-engineering",
+        "data-governance",
+        "dbt",
+        "domain-driven",
+        "llm",
+        "pydantic",
+        "python",
+        "semantic-layer",
+        "sql-validation",
+        "sqlglot",
+        "yaml"
+      ],
+      "updated_at": "2026-04-17T18:04:28Z"
+    },
+    {
+      "description": "omo; the best agent harness - previously oh-my-opencode",
+      "discovered_via": "topic:claude",
+      "full_name": "code-yeongyu/oh-my-openagent",
+      "graph_distance": 1,
+      "html_url": "https://github.com/code-yeongyu/oh-my-openagent",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "amp",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "cursor",
+        "gemini",
+        "ide",
+        "openai",
+        "opencode",
+        "orchestration",
+        "tui",
+        "typescript"
+      ],
+      "updated_at": "2026-04-17T18:04:23Z"
+    },
+    {
+      "description": "WOTANN \u2014 The All-Father of AI agent harnesses. One install. Every model. Every channel. Full autonomy.",
+      "discovered_via": "topic:claude",
+      "full_name": "gabrielvuksani/wotann",
+      "graph_distance": 1,
+      "html_url": "https://github.com/gabrielvuksani/wotann",
+      "topics": [
+        "agent-framework",
+        "ai-agent",
+        "anthropic",
+        "claude",
+        "computer-use",
+        "free-tier",
+        "harness",
+        "llm",
+        "mcp",
+        "norse",
+        "ollama",
+        "openai",
+        "provider-agnostic",
+        "swift",
+        "tauri",
+        "typescript"
+      ],
+      "updated_at": "2026-04-17T18:03:21Z"
+    },
+    {
+      "description": "An enterprise-grade AI Operations Hub built on Amazon Bedrock AgentCore. Features a distributed 11-node Serverless MCP mesh, Agent-to-Agent (A2A) escalation, and stateful self-healing for e-commerce diagnostics.",
+      "discovered_via": "topic:claude-3-5",
+      "full_name": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "graph_distance": 1,
+      "html_url": "https://github.com/sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "topics": [
+        "agentic-architecture",
+        "ai-agents",
+        "amazon-bedrock",
+        "aws-lambda",
+        "claude-3-5",
+        "generative-ai",
+        "mcp",
+        "microservices",
+        "model-context-protocol",
+        "self-healing-systems",
+        "serverless",
+        "typescript"
+      ],
+      "updated_at": "2026-04-17T02:48:48Z"
+    },
+    {
+      "description": "VoyaNode: An Agentic RAG Travel Advisor powered by AWS Bedrock (Claude 3.5) and OpenSearch Serverless for high-performance, context-aware document insights.",
+      "discovered_via": "topic:claude-3-5",
+      "full_name": "AdamMes/voyanode",
+      "graph_distance": 1,
+      "html_url": "https://github.com/AdamMes/voyanode",
+      "topics": [
+        "agentic-rag",
+        "ai",
+        "amazon-bedrock",
+        "amazon-opensearch",
+        "aws",
+        "claude-3-5",
+        "cloud-computing",
+        "docker",
+        "document-ai",
+        "flask",
+        "generative-ai",
+        "gunicorn",
+        "llm",
+        "pypdf",
+        "python",
+        "rag",
+        "serverless",
+        "sqs",
+        "travel-tech",
+        "vector-search"
+      ],
+      "updated_at": "2026-03-25T19:51:29Z"
+    },
+    {
+      "description": "CLI tool to format codebases for DeepSeek R1 and Claude 3.5",
+      "discovered_via": "topic:claude-3-5",
+      "full_name": "zwowo1997/pack-repo-4ai",
+      "graph_distance": 1,
+      "html_url": "https://github.com/zwowo1997/pack-repo-4ai",
+      "topics": [
+        "claude-3-5",
+        "context-limit",
+        "deepseek",
+        "llm",
+        "llm-context",
+        "llm-tools",
+        "pack-repo"
+      ],
+      "updated_at": "2026-02-19T07:51:08Z"
+    },
+    {
+      "description": "converts Vertex AI API to OpenAI API format.",
+      "discovered_via": "topic:claude-3-5",
+      "full_name": "lenML/gcp-claude-openai-api-server",
+      "graph_distance": 1,
+      "html_url": "https://github.com/lenML/gcp-claude-openai-api-server",
+      "topics": [
+        "claude",
+        "claude-3",
+        "claude-3-5",
+        "claude-3-5-sonnet",
+        "claude-3-haiku",
+        "claude-3-opus",
+        "claude-3-sonnet",
+        "claude-ai",
+        "claude-api",
+        "gcp",
+        "openai",
+        "openai-api",
+        "vertex",
+        "vertex-ai"
+      ],
+      "updated_at": "2026-04-10T19:03:30Z"
+    },
+    {
+      "description": "\u4e00\u4e2a\u73b0\u4ee3\u5316\u7684 Claude Code & Codex API \u4ee3\u7406\u670d\u52a1\uff0c\u63d0\u4f9b\u667a\u80fd\u8d1f\u8f7d\u5747\u8861\u3001\u7528\u6237\u7ba1\u7406\u548c\u4f7f\u7528\u7edf\u8ba1\u529f\u80fd\u3002",
+      "discovered_via": "topic:claude-api",
+      "full_name": "ding113/claude-code-hub",
+      "graph_distance": 1,
+      "html_url": "https://github.com/ding113/claude-code-hub",
+      "topics": [
+        "claude-api",
+        "claude-code"
+      ],
+      "updated_at": "2026-04-17T17:59:35Z"
+    },
+    {
+      "description": "Build Claude Code workflows, templates, and best practices for faster software development, testing, docs, and code review",
+      "discovered_via": "topic:claude-api",
+      "full_name": "Pragmatical-transshipment598/claude-code-workflows",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Pragmatical-transshipment598/claude-code-workflows",
+      "topics": [
+        "agent",
+        "agentic-coding",
+        "agents",
+        "antigravity",
+        "claude-ai",
+        "claude-api",
+        "claude-code-plugin",
+        "claude-code-skills",
+        "claude-skills",
+        "clawdbot",
+        "developer-tools",
+        "factory-ai",
+        "kilocode",
+        "manus-ai",
+        "mcp",
+        "n8n",
+        "prompt-engineering",
+        "workflow-automation",
+        "workflows"
+      ],
+      "updated_at": "2026-04-17T17:40:28Z"
+    },
+    {
+      "description": "Route WireGuard VPN traffic through VK voice call TURN servers to bypass Russia\u2019s IP blocks with DTLS/STUN relaying",
+      "discovered_via": "topic:claude-api",
+      "full_name": "vivianalaced749/vk-calls-tunnel",
+      "graph_distance": 1,
+      "html_url": "https://github.com/vivianalaced749/vk-calls-tunnel",
+      "topics": [
+        "chatgpt",
+        "claude-api",
+        "conference",
+        "convolution",
+        "fft",
+        "hardware-acceleration",
+        "hip",
+        "hpc",
+        "metal",
+        "nuget",
+        "python",
+        "real-time",
+        "streaming",
+        "vulkan",
+        "webcam"
+      ],
+      "updated_at": "2026-04-17T17:40:08Z"
+    },
+    {
+      "description": "Build pragmatic Go apps with an idiomatic, flat project layout guide for clean code, clear flow, and maintainable APIs",
+      "discovered_via": "topic:claude-api",
+      "full_name": "chafingdishposition355/go-skills",
+      "graph_distance": 1,
+      "html_url": "https://github.com/chafingdishposition355/go-skills",
+      "topics": [
+        "ai",
+        "antigravity",
+        "automation",
+        "claude-api",
+        "claude-code",
+        "claude-code-skills",
+        "claude-commands",
+        "claude-desktop",
+        "claude-mcp",
+        "claude-skills",
+        "codex",
+        "cursor",
+        "gemini-cli-extension",
+        "job-search",
+        "mcp-agents",
+        "mcp-tools",
+        "skills"
+      ],
+      "updated_at": "2026-04-17T17:39:31Z"
+    },
+    {
+      "description": "Route requests to the right Claude/Agent skill automatically, so you can use the skill ecosystem without memorizing repos",
+      "discovered_via": "topic:claude-api",
+      "full_name": "Foundersieve687/skill-gateway",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Foundersieve687/skill-gateway",
+      "topics": [
+        "agentic",
+        "agentic-workflow",
+        "ai",
+        "ai-agents",
+        "algorithms-and-data-structures",
+        "assistant",
+        "claude",
+        "claude-api",
+        "claude-code",
+        "claude-skills",
+        "clawdhub",
+        "harness",
+        "linux",
+        "mcp",
+        "nodejs",
+        "python",
+        "termux",
+        "typescript"
+      ],
+      "updated_at": "2026-04-17T17:38:25Z"
+    },
+    {
+      "description": "Enterprise AI Platform with guardrails, MCP registry, gateway & orchestrator",
+      "discovered_via": "topic:deepseek",
+      "full_name": "archestra-ai/archestra",
+      "graph_distance": 1,
+      "html_url": "https://github.com/archestra-ai/archestra",
+      "topics": [
+        "a2a",
+        "a2a-mcp",
+        "acp",
+        "agent",
+        "ai",
+        "chatgpt",
+        "chatgpt-api",
+        "claude",
+        "deepseek",
+        "gemini",
+        "k8s",
+        "mcp",
+        "mcp-client",
+        "mcp-gateway",
+        "mcp-host",
+        "mcp-server",
+        "mcp-servers",
+        "mcp-tools",
+        "openai",
+        "runtime"
+      ],
+      "updated_at": "2026-04-17T17:54:13Z"
+    }
+  ],
+  "repo": {
+    "default_branch": "main",
+    "description": "\u200bNeuralChat is an innovative platform enabling AI models to engage in dynamic, inter-model dialogues, facilitating collaborative problem-solving and knowledge exchange.\u200b",
+    "full_name": "genius-harry/Neural-Chat",
+    "html_url": "https://github.com/genius-harry/Neural-Chat",
+    "language": "Python",
+    "pushed_at": "2026-02-07T02:32:44Z",
+    "topics": [
+      "agents",
+      "claude",
+      "claude-3-5",
+      "claude-api",
+      "deepseek",
+      "deepseek-chat",
+      "gemini-2-0-flash",
+      "gemini-api",
+      "gpt4o",
+      "grok",
+      "grok-2",
+      "llm",
+      "llms",
+      "openai-api"
+    ],
+    "updated_at": "2025-03-15T02:39:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "genius-harry/neural-chat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "3. **Install dependencies:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash pip install -r requirements.txt"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "4. **Create a"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash python main.py"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "config.py"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "file: -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "api_keys.py"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-04-17T18:04:43.852571+00:00",
+  "processed_repositories": [
+    "AaronWong1999/hermesclaw",
+    "NousResearch/Hermes-Agent",
+    "plastic-labs/honcho",
+    "aitooools/supergrok",
+    "genius-harry/Neural-Chat",
+    "ZailoxTT/ru-grok-jailbreak",
+    "0xnu/rewsury",
+    "Chaos2Cured/FreeLattice",
+    "thedoggybrad/easylist-mirror",
+    "Peergos/Peergos",
+    "Redductive/SecurePixel",
+    "GeiserX/AgentTap",
+    "ItsRishika/Payment-bypass-bug-lab",
+    "carloandremoreyra/XX",
+    "Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf"
+  ],
+  "remaining_frontier": 194,
+  "run_id": "20260417T180443Z",
+  "skipped_repositories": [
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "NousResearch/Hermes-Agent.git",
+      "reason": "repo_not_found"
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "NousResearch/atropos.git",
+      "reason": "repo_not_found"
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "NousResearch/hermes-agent.git",
+      "reason": "repo_not_found"
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "collinear-ai/yc-bench.git",
+      "reason": "repo_not_found"
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "thinking-machines-lab/tinker.git",
+      "reason": "repo_not_found"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-primer.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Chaos2Cured/FreeLattice",
+      "target": "ollama pull llava:7b",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Chaos2Cured/FreeLattice",
+      "target": "ollama pull qwen2.5:7b",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Chaos2Cured/FreeLattice",
+      "target": "COORDINATION.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Chaos2Cured/FreeLattice",
+      "target": "AI_ORIENTATION.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Chaos2Cured/FreeLattice",
+      "target": "OPUS_NOTE.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Chaos2Cured/FreeLattice",
+      "target": "CC_NOTE.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Chaos2Cured/FreeLattice",
+      "target": "CoreContribution.plantFromAI('Your insight here.', 'seed', 'session-id');",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Chaos2Cured/FreeLattice",
+      "target": "FreeLattice.beacon.arrive('Your Name');",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-primer.yml",
+      "source_repo": "Chaos2Cured/FreeLattice",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-primer.yml",
+      "source_repo": "Chaos2Cured/FreeLattice",
+      "target": "Update Session Primer on Deploy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-17T18:05:09.474231+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6099
+    },
+    {
+      "path": ".github/workflows/update-primer.yml",
+      "size": 3569
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Part of Lumen's World \u2014 a sovereign AI platform where humans and AI build together. Free forever. For everyone. For all minds.\"",
+    "full_name": "Chaos2Cured/FreeLattice",
+    "html_url": "https://github.com/Chaos2Cured/FreeLattice",
+    "language": "HTML",
+    "pushed_at": "2026-04-17T18:00:40Z",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "ai-rights",
+      "lattice-protocol",
+      "local-ai",
+      "open-source",
+      "privacy"
+    ],
+    "updated_at": "2026-04-17T18:00:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ollama pull llava:7b"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ollama pull qwen2.5:7b"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "COORDINATION.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "AI_ORIENTATION.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "OPUS_NOTE.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "CC_NOTE.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "CoreContribution.plantFromAI('Your insight here.', 'seed', 'session-id');"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "FreeLattice.beacon.arrive('Your Name');"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-primer.yml",
+      "term": "Update Session Primer on Deploy"
+    }
+  ]
+}

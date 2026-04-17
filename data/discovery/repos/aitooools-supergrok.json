@@ -1,0 +1,741 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/supergrok",
+      "target": "aitooools/claude-pro-hezu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/supergrok",
+      "target": "aitooools/claude-pro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/supergrok",
+      "target": "aitooools/claude-pro-recharge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/supergrok",
+      "target": "aitooools/chatgpt-plus-hezu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/supergrok",
+      "target": "aitooools/aitooools.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/supergrok",
+      "target": "aitooools/chatgpt-plus-recharge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/supergrok",
+      "target": "aitooools/netflix-hezu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/supergrok",
+      "target": "aitooools/gemini-pro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/supergrok",
+      "target": "aitooools/poe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/supergrok",
+      "target": "aitooools/youtube-hezu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/supergrok",
+      "target": "aitooools/spotify-hezu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/supergrok",
+      "target": "aitooools/chatgpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/supergrok",
+      "target": "aitooools/nf-video",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "graveyardsfocrdpktv/Ethereum-mempool-bot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "alistaitsacle/free-llm-api-keys",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "llama-farm/llamafarm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "anojndr/grok-to-openai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "Florisheedless915/grok-register",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-2",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "Damacol/xai-org-grok-2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-2",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "genius-harry/Neural-Chat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-2",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "ZailoxTT/ru-grok-jailbreak",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-2",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "0xnu/rewsury",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-ai",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "stealabra5019/Grok-Enhancer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-ai",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "petmal/MindTrial",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-ai",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "lonewolf-jp/ConvoPeq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-ai",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "RobertAbao/grok-nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-ai",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "aitooools/poe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-api",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "bunburysniper/BleuNova-AI-Agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-api",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "gauravRathod674/custom-chatbot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-api",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "penpoen/llm-SugarScape",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:grok-api",
+      "source_file": null,
+      "source_repo": "aitooools/supergrok",
+      "target": "saidudz/Chat-AI",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-17T18:04:59.522609+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7796
+    }
+  ],
+  "related_repositories": [
+    {
+      "description": "any contract you deploy through ChainForge on Ethereum mainnet",
+      "discovered_via": "topic:grok",
+      "full_name": "graveyardsfocrdpktv/Ethereum-mempool-bot",
+      "graph_distance": 1,
+      "html_url": "https://github.com/graveyardsfocrdpktv/Ethereum-mempool-bot",
+      "topics": [
+        "ai",
+        "bot",
+        "claude",
+        "deepseek",
+        "gpt",
+        "grok"
+      ],
+      "updated_at": "2026-04-17T18:04:40Z"
+    },
+    {
+      "description": "Free LLM API keys for GPT-5.4, Claude, DeepSeek, Gemini, Grok \u2014 copy, paste, use. Updated 3-5x daily. No credit card needed.",
+      "discovered_via": "topic:grok",
+      "full_name": "alistaitsacle/free-llm-api-keys",
+      "graph_distance": 1,
+      "html_url": "https://github.com/alistaitsacle/free-llm-api-keys",
+      "topics": [
+        "ai",
+        "api",
+        "api-key",
+        "api-keys",
+        "chatgpt",
+        "claude",
+        "deepseek",
+        "free",
+        "free-api",
+        "free-api-key",
+        "free-gpt",
+        "free-llm",
+        "gemini",
+        "gpt",
+        "gpt4",
+        "grok",
+        "large-language-models",
+        "llm",
+        "llm-api",
+        "openai"
+      ],
+      "updated_at": "2026-04-17T17:53:44Z"
+    },
+    {
+      "description": "Deploy any AI model, agent, database, RAG, and pipeline locally or remotely in minutes",
+      "discovered_via": "topic:grok",
+      "full_name": "llama-farm/llamafarm",
+      "graph_distance": 1,
+      "html_url": "https://github.com/llama-farm/llamafarm",
+      "topics": [
+        "ai",
+        "aiproject",
+        "chatgpt",
+        "claude",
+        "edge",
+        "edge-computing",
+        "finetuning-llms",
+        "gemma",
+        "grok",
+        "llama3",
+        "llama4",
+        "mistral",
+        "mlops",
+        "models",
+        "openai",
+        "prompt-engineering",
+        "qwen",
+        "rag",
+        "sora"
+      ],
+      "updated_at": "2026-04-17T17:45:36Z"
+    },
+    {
+      "description": "OpenAI-compatible bridge for authenticated grok.com web sessions with Responses API, Chat Completions, streaming, and file uploads",
+      "discovered_via": "topic:grok",
+      "full_name": "anojndr/grok-to-openai",
+      "graph_distance": 1,
+      "html_url": "https://github.com/anojndr/grok-to-openai",
+      "topics": [
+        "api-bridge",
+        "chat-completions",
+        "express",
+        "grok",
+        "llm-proxy",
+        "nodejs",
+        "openai-compatible",
+        "playwright",
+        "responses-api",
+        "xai"
+      ],
+      "updated_at": "2026-04-17T17:44:09Z"
+    },
+    {
+      "description": "Automate x.ai registration with a web console, batch runner, WARP egress, and grok2api token sink in one project",
+      "discovered_via": "topic:grok",
+      "full_name": "Florisheedless915/grok-register",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Florisheedless915/grok-register",
+      "topics": [
+        "algorithm",
+        "cloudflare",
+        "code",
+        "deepseek",
+        "developer",
+        "dns",
+        "domain",
+        "domains",
+        "foss",
+        "free-domain",
+        "free-domains",
+        "free-for-dev",
+        "github-pages",
+        "grok",
+        "grok3",
+        "grokking-algorithms",
+        "openai",
+        "website",
+        "xai"
+      ],
+      "updated_at": "2026-04-17T17:39:17Z"
+    },
+    {
+      "description": "AI: xai-org/grok-2",
+      "discovered_via": "topic:grok-2",
+      "full_name": "Damacol/xai-org-grok-2",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Damacol/xai-org-grok-2",
+      "topics": [
+        "ai",
+        "grok-2",
+        "privacy",
+        "uncensored",
+        "venice-ai"
+      ],
+      "updated_at": "2026-04-17T14:50:37Z"
+    },
+    {
+      "description": "\u200bNeuralChat is an innovative platform enabling AI models to engage in dynamic, inter-model dialogues, facilitating collaborative problem-solving and knowledge exchange.\u200b",
+      "discovered_via": "topic:grok-2",
+      "full_name": "genius-harry/Neural-Chat",
+      "graph_distance": 1,
+      "html_url": "https://github.com/genius-harry/Neural-Chat",
+      "topics": [
+        "agents",
+        "claude",
+        "claude-3-5",
+        "claude-api",
+        "deepseek",
+        "deepseek-chat",
+        "gemini-2-0-flash",
+        "gemini-api",
+        "gpt4o",
+        "grok",
+        "grok-2",
+        "llm",
+        "llms",
+        "openai-api"
+      ],
+      "updated_at": "2025-03-15T02:39:44Z"
+    },
+    {
+      "description": "Jailbreak prompt for Grok3",
+      "discovered_via": "topic:grok-2",
+      "full_name": "ZailoxTT/ru-grok-jailbreak",
+      "graph_distance": 1,
+      "html_url": "https://github.com/ZailoxTT/ru-grok-jailbreak",
+      "topics": [
+        "grok",
+        "grok-2",
+        "grok-ai",
+        "grok3",
+        "jailbreak",
+        "jailbreak-script",
+        "jailbreak-unlock-all",
+        "jailbreak-working-script",
+        "russian",
+        "russian-language"
+      ],
+      "updated_at": "2026-03-28T10:23:55Z"
+    },
+    {
+      "description": "It helps users interact with multiple AI models directly through Telegram, particularly large language models like DeepSeek-R1, Claude, GPT, Grok, Cohere, DALL.E, SDXL, Llama 3.3, and Mistral.",
+      "discovered_via": "topic:grok-2",
+      "full_name": "0xnu/rewsury",
+      "graph_distance": 1,
+      "html_url": "https://github.com/0xnu/rewsury",
+      "topics": [
+        "ai",
+        "bot",
+        "claude",
+        "cohere",
+        "dalle",
+        "deepseek-r1",
+        "gpt",
+        "grok-2",
+        "llama",
+        "llm",
+        "llms",
+        "mistral",
+        "sdxl",
+        "stable-diffusion",
+        "telegram"
+      ],
+      "updated_at": "2025-07-05T10:08:37Z"
+    },
+    {
+      "description": "Enhance Grok with a userscript that improves video length control, bypasses limits, and boosts overall user experience with easy installation.",
+      "discovered_via": "topic:grok-ai",
+      "full_name": "stealabra5019/Grok-Enhancer",
+      "graph_distance": 1,
+      "html_url": "https://github.com/stealabra5019/Grok-Enhancer",
+      "topics": [
+        "agents",
+        "claude",
+        "coin",
+        "crypto",
+        "deepseek",
+        "deepseek-chat",
+        "defi",
+        "grok-ai",
+        "groq-ai",
+        "iot",
+        "javascript",
+        "modded",
+        "okcash",
+        "rxjava2",
+        "userscript",
+        "voice-assistant",
+        "voice-assistant-ai",
+        "wallet",
+        "xai"
+      ],
+      "updated_at": "2026-04-17T17:26:39Z"
+    },
+    {
+      "description": "MindTrial: Evaluate and compare AI language models (LLMs) on text-based tasks with optional file/image attachments and tool use. Supports multiple providers (OpenAI, Google, Anthropic, DeepSeek, Mistral AI, xAI, Alibaba, Moonshot AI, OpenRouter), custom tasks in YAML, and HTML/CSV/JSON reports.",
+      "discovered_via": "topic:grok-ai",
+      "full_name": "petmal/MindTrial",
+      "graph_distance": 1,
+      "html_url": "https://github.com/petmal/MindTrial",
+      "topics": [
+        "ai-benchmark",
+        "ai-evaluation-tools",
+        "ai-model-comparison",
+        "ai-tool",
+        "anthropic",
+        "artificial-intelligence-projects",
+        "deepseek",
+        "google-gemini-ai",
+        "grok-ai",
+        "language-models-ai",
+        "llm-benchmarking",
+        "llm-comparison",
+        "llm-evaluation-framework",
+        "mistral-ai",
+        "moonshot-ai",
+        "openai",
+        "openrouter",
+        "opensource",
+        "qwen",
+        "xai"
+      ],
+      "updated_at": "2026-04-17T16:24:57Z"
+    },
+    {
+      "description": "20band Parametric equalizer and convolver for Windows 11 x64 (standalone application) Real-time audio processing application based on JUCE Framework 8.0.12.This project is programmed by vibe-coding.",
+      "discovered_via": "topic:grok-ai",
+      "full_name": "lonewolf-jp/ConvoPeq",
+      "graph_distance": 1,
+      "html_url": "https://github.com/lonewolf-jp/ConvoPeq",
+      "topics": [
+        "chatgpt-codex",
+        "claude-ai",
+        "convolver",
+        "gemini-ai",
+        "github-copilot",
+        "grok-ai",
+        "juce-framework",
+        "parametric-equalizer",
+        "room-correction",
+        "standalone",
+        "vibe-coding",
+        "windows11"
+      ],
+      "updated_at": "2026-04-17T16:17:29Z"
+    },
+    {
+      "description": "\ud83e\udd16 Enhance your Neovim experience by querying xAI's Grok models effortlessly with a lightweight plugin featuring a floating chat interface and streaming responses.",
+      "discovered_via": "topic:grok-ai",
+      "full_name": "RobertAbao/grok-nvim",
+      "graph_distance": 1,
+      "html_url": "https://github.com/RobertAbao/grok-nvim",
+      "topics": [
+        "ai",
+        "ai-integration",
+        "chatgpt-alternative",
+        "github-config",
+        "grok",
+        "grok-ai",
+        "grok-api",
+        "lua",
+        "neovim",
+        "neovim-plugin",
+        "nvim-plugin",
+        "openai",
+        "utilities",
+        "xai-api"
+      ],
+      "updated_at": "2026-04-17T16:07:41Z"
+    },
+    {
+      "description": "\u6700\u65b0Poe\u8ba2\u9605\u6559\u7a0b\uff1a2026\u5e74\u56fd\u5185\u5982\u4f55\u5145\u503c\u8d2d\u4e70Poe\u8d26\u53f7\uff1f\u652f\u6301GPT-5.2\u3001GPT-4o\u3001Claude Opus 4.6\u3001Claude 4.5 Sonnet\u3001Grok-4.1\u3001Gemini-3.1 Pro\u7b49\u9876\u5c16\u5927\u6a21\u578b\uff01",
+      "discovered_via": "topic:grok-ai",
+      "full_name": "aitooools/poe",
+      "graph_distance": 1,
+      "html_url": "https://github.com/aitooools/poe",
+      "topics": [
+        "ai",
+        "claude-3",
+        "deepseek",
+        "deepseek-r1",
+        "deepseek-v3",
+        "gemini",
+        "gemini-2",
+        "gemini-ai",
+        "gemini-pro",
+        "gpt-4",
+        "grok-ai",
+        "poe",
+        "quora"
+      ],
+      "updated_at": "2026-04-17T14:04:27Z"
+    },
+    {
+      "description": "\ud83e\udd16 Build and run a self-hosted, secure AI agent for tasks like messaging, smart browsing, and home automation with ethical safeguards.",
+      "discovered_via": "topic:grok-api",
+      "full_name": "bunburysniper/BleuNova-AI-Agent",
+      "graph_distance": 1,
+      "html_url": "https://github.com/bunburysniper/BleuNova-AI-Agent",
+      "topics": [
+        "ai-agent",
+        "docker",
+        "ethical-ai",
+        "grok-api",
+        "local-llm",
+        "multi-agent",
+        "ollama",
+        "open-source-ai",
+        "privacy-first",
+        "self-hosted"
+      ],
+      "updated_at": "2026-04-17T17:09:34Z"
+    },
+    {
+      "description": "A highly customizable, performant, and intelligent React chatbot component. ",
+      "discovered_via": "topic:grok-api",
+      "full_name": "gauravRathod674/custom-chatbot",
+      "graph_distance": 1,
+      "html_url": "https://github.com/gauravRathod674/custom-chatbot",
+      "topics": [
+        "chatbot",
+        "claude-api",
+        "gemini-api",
+        "grok-api",
+        "openai-api",
+        "react",
+        "reactjs"
+      ],
+      "updated_at": "2026-04-17T16:38:36Z"
+    },
+    {
+      "description": "\ud83c\udf10 Explore AI behaviors in a Sugarscape simulation, revealing insights into cooperation and survival instincts using Grok-4-Fast agents.",
+      "discovered_via": "topic:grok-api",
+      "full_name": "penpoen/llm-SugarScape",
+      "graph_distance": 1,
+      "html_url": "https://github.com/penpoen/llm-SugarScape",
+      "topics": [
+        "agent-based-modeling",
+        "ai-testing",
+        "aisafety",
+        "alignment",
+        "grok",
+        "grok-api",
+        "llm",
+        "llm-eval",
+        "llm-evaluation",
+        "llm-testing",
+        "python",
+        "simulation",
+        "sugarscape",
+        "xai-api"
+      ],
+      "updated_at": "2026-04-17T16:14:48Z"
+    },
+    {
+      "description": "Chat AI Modern AI chat desktop app with multi-API support (OpenAI, and Gemini,and OpenRouter , etc), TTS, voice chat, and clean UI.",
+      "discovered_via": "topic:grok-api",
+      "full_name": "saidudz/Chat-AI",
+      "graph_distance": 1,
+      "html_url": "https://github.com/saidudz/Chat-AI",
+      "topics": [
+        "ai",
+        "ai-chat",
+        "aoi-keys",
+        "app-free",
+        "artificial-intelligence",
+        "chat-ai",
+        "chatgpt",
+        "chatgpt-api",
+        "gemini",
+        "gemini-api",
+        "google-ai",
+        "grok",
+        "grok-api",
+        "openai-api",
+        "openrouter",
+        "openrouter-api"
+      ],
+      "updated_at": "2026-04-17T15:26:20Z"
+    }
+  ],
+  "repo": {
+    "default_branch": "main",
+    "description": "2026\u5e74\u6700\u65b0SuperGrok\u8ba2\u9605\u6559\u7a0b\uff1a\u5982\u4f55\u4e3aSuperGrok\u4ee3\u5145\u503c\uff1f\u5982\u4f55\u8d2d\u4e70SuperGrok\u72ec\u7acb\u8d26\u53f7\uff1f\u5982\u4f55\u62fc\u8f66\u5408\u79dfSuperGrok\u8d26\u53f7\uff1f",
+    "full_name": "aitooools/supergrok",
+    "html_url": "https://github.com/aitooools/supergrok",
+    "language": null,
+    "pushed_at": "2026-04-17T13:44:36Z",
+    "topics": [
+      "grok",
+      "grok-2",
+      "grok-3-windows",
+      "grok-ai",
+      "grok-api",
+      "grok3",
+      "twitter",
+      "x-ai"
+    ],
+    "updated_at": "2026-04-17T14:04:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/chatgpt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/gemini-pro",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/netflix-hezu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/chatgpt-plus-recharge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/youtube-hezu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/poe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/chatgpt-plus-hezu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/spotify-hezu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/claude-pro",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/claude-pro-recharge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/nf-video",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/claude-pro-hezu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/aitooools.github.io",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Chaos2Cured/FreeLattice",
+      "target": "ollama pull llava:7b",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Chaos2Cured/FreeLattice",
+      "target": "ollama pull qwen2.5:7b",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Chaos2Cured/FreeLattice",
+      "target": "COORDINATION.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Chaos2Cured/FreeLattice",
+      "target": "AI_ORIENTATION.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Chaos2Cured/FreeLattice",
+      "target": "OPUS_NOTE.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Chaos2Cured/FreeLattice",
+      "target": "CC_NOTE.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Chaos2Cured/FreeLattice",
+      "target": "CoreContribution.plantFromAI('Your insight here.', 'seed', 'session-id');",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Chaos2Cured/FreeLattice",
+      "target": "FreeLattice.beacon.arrive('Your Name');",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-primer.yml",
+      "source_repo": "Chaos2Cured/FreeLattice",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-primer.yml",
+      "source_repo": "Chaos2Cured/FreeLattice",
+      "target": "Update Session Primer on Deploy",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-17T18:04:43.852571+00:00",
+  "source_repo": "Chaos2Cured/FreeLattice"
+}

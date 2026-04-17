@@ -1,0 +1,74 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updater.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/updater.yml",
+      "source_repo": "thedoggybrad/easylist-mirror",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/updater.yml",
+      "source_repo": "thedoggybrad/easylist-mirror",
+      "target": "EasyList Mirror Updater",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-17T18:05:11.577271+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20577
+    },
+    {
+      "path": ".github/workflows/README.MD",
+      "size": 2802
+    },
+    {
+      "path": ".github/workflows/updater.yml",
+      "size": 14128
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "An unofficial mirror for EasyList family of AdBlock filterlists by TheDoggyBrad Software Lab.",
+    "full_name": "thedoggybrad/easylist-mirror",
+    "html_url": "https://github.com/thedoggybrad/easylist-mirror",
+    "language": "PHP",
+    "pushed_at": "2026-04-17T18:02:04Z",
+    "topics": [
+      "abp",
+      "adblock",
+      "ads",
+      "block",
+      "easylist",
+      "fanboy",
+      "filterlist",
+      "filters",
+      "multios",
+      "privacy",
+      "thedoggybrad",
+      "ublock-origin",
+      "ublock-origin-filters",
+      "ubo"
+    ],
+    "updated_at": "2026-04-17T18:02:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/updater.yml",
+      "term": "EasyList Mirror Updater"
+    }
+  ]
+}

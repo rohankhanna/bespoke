@@ -1,0 +1,678 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "2. Setup your",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": ", and send",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "3.10",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "0.5.0",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "bash cd honcho uv sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "docker-compose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "must have the prefix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "env AUTH_USE_AUTH=false SENTRY_ENABLED=false",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "If you set",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "AUTH_JWT_SECRET",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "AUTH_USE_AUTH",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "bash uv run alembic upgrade head",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "bash uv run python -m src.deriver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "bash uv add --dev pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "2. **Install the pre-commit hooks**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "This will install hooks for",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": ", and",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "bash uv run pre-commit run --all-files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Or run specific hooks:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "### Docker As mentioned earlier a",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "flyctl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "fly.toml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "config.toml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "bash cp config.toml.example config.toml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "DB_CONNECTION_URI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "DIALECTIC_LEVELS__low__MODEL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "DERIVER_PROVIDER",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "SUMMARY_PROVIDER",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "LOG_LEVEL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "METRICS_ENABLED",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "TELEMETRY_ENABLED",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Workspaces",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Workspace",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Peer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Session",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Peers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Message",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Collection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Documents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Collections",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Document",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Messages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Sessions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "representation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "summary",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "context",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Chat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "docker/setup-buildx-action@v3.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "docker/metadata-action@v5.5.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "docker/login-action@v3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "docker/build-push-action@v5.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "actions/attest-build-provenance@v1.1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Build and Push Docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fly-deploy-prod.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fly-deploy-prod.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "superfly/flyctl-actions/setup-flyctl@1.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fly-deploy-prod.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Fly Deploy (Production Environment)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fly-deploy.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fly-deploy.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "superfly/flyctl-actions/setup-flyctl@1.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fly-deploy.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Fly Deploy (Test Environment)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/start-fly-runner.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/start-fly-runner.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "superfly/flyctl-actions/setup-flyctl@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/start-fly-runner.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Start Fly Runner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/staticanalysis.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/staticanalysis.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/staticanalysis.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "astral-sh/setup-uv@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/staticanalysis.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Static Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unified-tests.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unified-tests.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "aws-actions/configure-aws-credentials@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unified-tests.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "aws-actions/aws-secretsmanager-get-secrets@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unified-tests.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "superfly/flyctl-actions/setup-flyctl@1.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unified-tests.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Unified Tests (Fly Runner)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "astral-sh/setup-uv@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unittest.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "FastAPI Tests with PostgreSQL and uv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "topic:agent-memory",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "Bitterbot-AI/bitterbot-desktop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:agent-memory",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "JKHeadley/instar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:agent-memory",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "k8nstantin/OpenPraxis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:agent-memory",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "kensave/agent-memory-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:agent-memory",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "Bryanh9111/Engram",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agents",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "jikig-ai/soleur",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agents",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "gvkhosla/founder-skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agents",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "google-gemini/gemini-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agents",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "code-yeongyu/oh-my-openagent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agents",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "dineshdb/pie",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-memory",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "EtanHey/brainlayer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-memory",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "sliamh11/Deus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-memory",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "roampal-ai/roampal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-memory",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "RyjoxTechnologies/Octopoda-OS",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:anthropic",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "gabrielvuksani/wotann",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:anthropic",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "klodr/mercury-invoicing-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:anthropic",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "Abraxas-365/claudio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:anthropic",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "tombelieber/claude-view",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-17T18:04:43.852571+00:00",
+  "source_repo": "plastic-labs/honcho"
+}

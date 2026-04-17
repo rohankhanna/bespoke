@@ -1,0 +1,1687 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5.5.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/login-action@v3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v1.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fly-deploy-prod.yml"
+    },
+    {
+      "component": "superfly/flyctl-actions/setup-flyctl@1.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fly-deploy-prod.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fly-deploy.yml"
+    },
+    {
+      "component": "superfly/flyctl-actions/setup-flyctl@1.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fly-deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/start-fly-runner.yml"
+    },
+    {
+      "component": "superfly/flyctl-actions/setup-flyctl@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/start-fly-runner.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/staticanalysis.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/staticanalysis.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/staticanalysis.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unified-tests.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unified-tests.yml"
+    },
+    {
+      "component": "aws-actions/aws-secretsmanager-get-secrets@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unified-tests.yml"
+    },
+    {
+      "component": "superfly/flyctl-actions/setup-flyctl@1.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unified-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "2. Setup your",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": ", and send",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "3.10",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "0.5.0",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "bash cd honcho uv sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "docker-compose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "must have the prefix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "env AUTH_USE_AUTH=false SENTRY_ENABLED=false",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "If you set",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "AUTH_JWT_SECRET",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "AUTH_USE_AUTH",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "bash uv run alembic upgrade head",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "bash uv run python -m src.deriver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "bash uv add --dev pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "2. **Install the pre-commit hooks**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "This will install hooks for",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": ", and",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "bash uv run pre-commit run --all-files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Or run specific hooks:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "### Docker As mentioned earlier a",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "flyctl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "fly.toml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "config.toml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "bash cp config.toml.example config.toml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "DB_CONNECTION_URI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "DIALECTIC_LEVELS__low__MODEL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "DERIVER_PROVIDER",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "SUMMARY_PROVIDER",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "LOG_LEVEL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "METRICS_ENABLED",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "TELEMETRY_ENABLED",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Workspaces",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Workspace",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Peer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Session",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Peers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Message",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Collection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Documents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Collections",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Document",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Messages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Sessions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "representation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "summary",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "context",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Chat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "docker/setup-buildx-action@v3.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "docker/metadata-action@v5.5.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "docker/login-action@v3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "docker/build-push-action@v5.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "actions/attest-build-provenance@v1.1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Build and Push Docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fly-deploy-prod.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fly-deploy-prod.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "superfly/flyctl-actions/setup-flyctl@1.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fly-deploy-prod.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Fly Deploy (Production Environment)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fly-deploy.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fly-deploy.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "superfly/flyctl-actions/setup-flyctl@1.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fly-deploy.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Fly Deploy (Test Environment)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/start-fly-runner.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/start-fly-runner.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "superfly/flyctl-actions/setup-flyctl@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/start-fly-runner.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Start Fly Runner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/staticanalysis.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/staticanalysis.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/staticanalysis.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "astral-sh/setup-uv@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/staticanalysis.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Static Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unified-tests.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unified-tests.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "aws-actions/configure-aws-credentials@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unified-tests.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "aws-actions/aws-secretsmanager-get-secrets@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unified-tests.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "superfly/flyctl-actions/setup-flyctl@1.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unified-tests.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "Unified Tests (Fly Runner)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "astral-sh/setup-uv@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unittest.yml",
+      "source_repo": "plastic-labs/honcho",
+      "target": "FastAPI Tests with PostgreSQL and uv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "topic:agent-memory",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "Bitterbot-AI/bitterbot-desktop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:agent-memory",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "JKHeadley/instar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:agent-memory",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "k8nstantin/OpenPraxis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:agent-memory",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "kensave/agent-memory-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:agent-memory",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "Bryanh9111/Engram",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agents",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "jikig-ai/soleur",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agents",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "gvkhosla/founder-skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agents",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "google-gemini/gemini-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agents",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "code-yeongyu/oh-my-openagent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agents",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "dineshdb/pie",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-memory",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "EtanHey/brainlayer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-memory",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "sliamh11/Deus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-memory",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "roampal-ai/roampal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-memory",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "RyjoxTechnologies/Octopoda-OS",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:anthropic",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "gabrielvuksani/wotann",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:anthropic",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "klodr/mercury-invoicing-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:anthropic",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "Abraxas-365/claudio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:anthropic",
+      "source_file": null,
+      "source_repo": "plastic-labs/honcho",
+      "target": "tombelieber/claude-view",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-17T18:04:56.683828+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22097
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1725
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3371
+    },
+    {
+      "path": ".github/workflows/docker-build.yml",
+      "size": 1674
+    },
+    {
+      "path": ".github/workflows/fly-deploy-prod.yml",
+      "size": 2151
+    },
+    {
+      "path": ".github/workflows/fly-deploy.yml",
+      "size": 2103
+    },
+    {
+      "path": ".github/workflows/start-fly-runner.yml",
+      "size": 4746
+    },
+    {
+      "path": ".github/workflows/staticanalysis.yml",
+      "size": 574
+    },
+    {
+      "path": ".github/workflows/unified-tests.yml",
+      "size": 4618
+    },
+    {
+      "path": ".github/workflows/unittest.yml",
+      "size": 4653
+    }
+  ],
+  "related_repositories": [
+    {
+      "description": "A local-first AI agent with persistent memory, emotional intelligence, and a peer-to-peer skills economy.",
+      "discovered_via": "topic:agent-memory",
+      "full_name": "Bitterbot-AI/bitterbot-desktop",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Bitterbot-AI/bitterbot-desktop",
+      "topics": [
+        "a2a-protocol",
+        "agent-economy",
+        "agent-memory",
+        "ai-agent",
+        "chatbot",
+        "cognitive-architecture",
+        "decentralized-ai",
+        "desktop-app",
+        "dream-engine",
+        "local-first",
+        "multi-channel",
+        "open-source",
+        "p2p",
+        "personal-ai",
+        "skills-marketplace",
+        "typescript",
+        "x402"
+      ],
+      "updated_at": "2026-04-17T18:04:41Z"
+    },
+    {
+      "description": "Persistent Claude Code agents with scheduling, sessions, memory, and Telegram.",
+      "discovered_via": "topic:agent-memory",
+      "full_name": "JKHeadley/instar",
+      "graph_distance": 1,
+      "html_url": "https://github.com/JKHeadley/instar",
+      "topics": [
+        "agent-framework",
+        "agent-identity",
+        "agent-infrastructure",
+        "agent-memory",
+        "agent-skills",
+        "ai-agents",
+        "ai-safety",
+        "autonomous-agents",
+        "claude-code",
+        "cli",
+        "cron",
+        "job-scheduler",
+        "llm",
+        "mcp",
+        "npm-package",
+        "open-source",
+        "persistency",
+        "telegram-bot",
+        "typescript",
+        "whatsapp"
+      ],
+      "updated_at": "2026-04-17T18:03:23Z"
+    },
+    {
+      "description": "OpenPraxis \u2014 Spec-driven development platform for autonomous coding agents",
+      "discovered_via": "topic:agent-memory",
+      "full_name": "k8nstantin/OpenPraxis",
+      "graph_distance": 1,
+      "html_url": "https://github.com/k8nstantin/OpenPraxis",
+      "topics": [
+        "agent-memory",
+        "agent-orchestration",
+        "ai-agents",
+        "anthropic",
+        "autonomous-agents",
+        "claude-code",
+        "coding-agent",
+        "cost-tracking",
+        "dashboard",
+        "developer-tools",
+        "golang",
+        "llm",
+        "mcp",
+        "mcp-server",
+        "observability",
+        "peer-to-peer",
+        "self-hosted",
+        "semantic-search",
+        "spec-driven-development",
+        "vector-search"
+      ],
+      "updated_at": "2026-04-17T17:58:51Z"
+    },
+    {
+      "description": "Comprehensive memory management system for LLM agents implementing episodic, semantic. Built in Rust with MCP server support for Kiro CLI",
+      "discovered_via": "topic:agent-memory",
+      "full_name": "kensave/agent-memory-rs",
+      "graph_distance": 1,
+      "html_url": "https://github.com/kensave/agent-memory-rs",
+      "topics": [
+        "agent-memory",
+        "agentic-ai",
+        "kiro-cli",
+        "mcp",
+        "mcp-server",
+        "memory"
+      ],
+      "updated_at": "2026-04-17T17:50:59Z"
+    },
+    {
+      "description": "Persistent memory MCP server for AI coding agents like Claude Code. Zero-LLM, local-first (SQLite + FTS5), proactive recall by file path. 12 MCP tools, 113 tests. The MEMORY.md alternative that stays constant-cost at 10,000+ memories.",
+      "discovered_via": "topic:agent-memory",
+      "full_name": "Bryanh9111/Engram",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Bryanh9111/Engram",
+      "topics": [
+        "agent-memory",
+        "ai-agents",
+        "ai-memory",
+        "anthropic-claude",
+        "claude-code",
+        "developer-tools",
+        "fts5",
+        "knowledge-base",
+        "llm-memory",
+        "local-first",
+        "mcp",
+        "mcp-server",
+        "memory",
+        "model-context-protocol",
+        "persistent-memory",
+        "proactive-recall",
+        "python",
+        "second-brain",
+        "sqlite",
+        "zero-llm"
+      ],
+      "updated_at": "2026-04-17T17:50:39Z"
+    },
+    {
+      "description": "The Company-as-a-Service platform. Build, ship, and scale -- powered by AI teams.",
+      "discovered_via": "topic:ai-agents",
+      "full_name": "jikig-ai/soleur",
+      "graph_distance": 1,
+      "html_url": "https://github.com/jikig-ai/soleur",
+      "topics": [
+        "agentic-company",
+        "agentic-engineering",
+        "ai-agents",
+        "ai-orchestration",
+        "automation",
+        "bring-your-own-model",
+        "claude",
+        "claude-code",
+        "claude-code-plugin",
+        "code-review",
+        "company-as-a-service",
+        "developer-tools",
+        "solopreneur"
+      ],
+      "updated_at": "2026-04-17T18:04:43Z"
+    },
+    {
+      "description": "24 agent skills for non-technical founders building world-class products. Works with pi, Claude Code, and Codex.",
+      "discovered_via": "topic:ai-agents",
+      "full_name": "gvkhosla/founder-skills",
+      "graph_distance": 1,
+      "html_url": "https://github.com/gvkhosla/founder-skills",
+      "topics": [
+        "ai-agents",
+        "claude-code",
+        "coding-agent",
+        "founder",
+        "productivity",
+        "prompts",
+        "skills",
+        "startup"
+      ],
+      "updated_at": "2026-04-17T18:04:38Z"
+    },
+    {
+      "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+      "discovered_via": "topic:ai-agents",
+      "full_name": "google-gemini/gemini-cli",
+      "graph_distance": 1,
+      "html_url": "https://github.com/google-gemini/gemini-cli",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "cli",
+        "gemini",
+        "gemini-api",
+        "mcp-client",
+        "mcp-server"
+      ],
+      "updated_at": "2026-04-17T18:04:27Z"
+    },
+    {
+      "description": "omo; the best agent harness - previously oh-my-opencode",
+      "discovered_via": "topic:ai-agents",
+      "full_name": "code-yeongyu/oh-my-openagent",
+      "graph_distance": 1,
+      "html_url": "https://github.com/code-yeongyu/oh-my-openagent",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "amp",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "cursor",
+        "gemini",
+        "ide",
+        "openai",
+        "opencode",
+        "orchestration",
+        "tui",
+        "typescript"
+      ],
+      "updated_at": "2026-04-17T18:04:23Z"
+    },
+    {
+      "description": "Minimal AI agent in your terminal",
+      "discovered_via": "topic:ai-agents",
+      "full_name": "dineshdb/pie",
+      "graph_distance": 1,
+      "html_url": "https://github.com/dineshdb/pie",
+      "topics": [
+        "ai-agents",
+        "ai-assistant"
+      ],
+      "updated_at": "2026-04-17T18:04:09Z"
+    },
+    {
+      "description": "Persistent memory MCP for AI agents \u2014 SQLite, knowledge graph, 12 tools with ToolAnnotations",
+      "discovered_via": "topic:ai-memory",
+      "full_name": "EtanHey/brainlayer",
+      "graph_distance": 1,
+      "html_url": "https://github.com/EtanHey/brainlayer",
+      "topics": [
+        "ai-agents",
+        "ai-memory",
+        "claude-code",
+        "knowledge-graph",
+        "llm",
+        "mcp",
+        "mcp-server",
+        "memory",
+        "model-context-protocol",
+        "python",
+        "rag",
+        "semantic-search",
+        "sentence-transformers",
+        "sqlite-vec"
+      ],
+      "updated_at": "2026-04-17T18:01:24Z"
+    },
+    {
+      "description": "A token-efficient open-source AI assistant that remembers, adapts, and improves \u2014 secured, self-hosted, and entirely yours.",
+      "discovered_via": "topic:ai-memory",
+      "full_name": "sliamh11/Deus",
+      "graph_distance": 1,
+      "html_url": "https://github.com/sliamh11/Deus",
+      "topics": [
+        "ai-assistant",
+        "ai-memory",
+        "claude-code",
+        "container-isolation",
+        "persistent-memory",
+        "self-improving-ai",
+        "semantic-memory",
+        "semantic-search"
+      ],
+      "updated_at": "2026-04-17T18:00:42Z"
+    },
+    {
+      "description": "Memory that learns what works.",
+      "discovered_via": "topic:ai-memory",
+      "full_name": "roampal-ai/roampal",
+      "graph_distance": 1,
+      "html_url": "https://github.com/roampal-ai/roampal",
+      "topics": [
+        "ai-assistant",
+        "ai-memory",
+        "chromadb",
+        "desktop-app",
+        "llm",
+        "lm-studio",
+        "local-ai",
+        "local-llm",
+        "mcp-server",
+        "model-context-protocol",
+        "offline-ai",
+        "ollama",
+        "outcome-learning",
+        "persistent-memory",
+        "privacy-first",
+        "rag",
+        "self-hosted",
+        "semantic-search",
+        "tauri",
+        "windows"
+      ],
+      "updated_at": "2026-04-17T17:55:33Z"
+    },
+    {
+      "description": "The open-source memory operating system for AI agents. Persistent memory, semantic search, loop detection, agent messaging, crash recovery, and real-time observability.",
+      "discovered_via": "topic:ai-memory",
+      "full_name": "RyjoxTechnologies/Octopoda-OS",
+      "graph_distance": 1,
+      "html_url": "https://github.com/RyjoxTechnologies/Octopoda-OS",
+      "topics": [
+        "agent-framework",
+        "ai-agents",
+        "ai-memory",
+        "autogen",
+        "crash-recovery",
+        "crewai",
+        "developer-tools",
+        "knowledge-graph",
+        "langchain",
+        "llm-agents",
+        "loop-detection",
+        "mcp",
+        "mcp-server",
+        "memory-engine",
+        "multi-agent",
+        "observability",
+        "openai",
+        "persistent-memory",
+        "python",
+        "semantic-search"
+      ],
+      "updated_at": "2026-04-17T17:53:20Z"
+    },
+    {
+      "description": "WOTANN \u2014 The All-Father of AI agent harnesses. One install. Every model. Every channel. Full autonomy.",
+      "discovered_via": "topic:anthropic",
+      "full_name": "gabrielvuksani/wotann",
+      "graph_distance": 1,
+      "html_url": "https://github.com/gabrielvuksani/wotann",
+      "topics": [
+        "agent-framework",
+        "ai-agent",
+        "anthropic",
+        "claude",
+        "computer-use",
+        "free-tier",
+        "harness",
+        "llm",
+        "mcp",
+        "norse",
+        "ollama",
+        "openai",
+        "provider-agnostic",
+        "swift",
+        "tauri",
+        "typescript"
+      ],
+      "updated_at": "2026-04-17T18:03:21Z"
+    },
+    {
+      "description": "Mercury Banking MCP server with full Invoicing API support. Read accounts/transactions and create/manage recurring invoices via Model Context Protocol.",
+      "discovered_via": "topic:anthropic",
+      "full_name": "klodr/mercury-invoicing-mcp",
+      "graph_distance": 1,
+      "html_url": "https://github.com/klodr/mercury-invoicing-mcp",
+      "topics": [
+        "ai",
+        "anthropic",
+        "claude",
+        "invoicing",
+        "llm",
+        "mcp",
+        "mercury",
+        "mercury-banking",
+        "model-context-protocol",
+        "typescrypt"
+      ],
+      "updated_at": "2026-04-17T18:03:04Z"
+    },
+    {
+      "description": "A terminal-native coding agent harness \u2014 model-agnostic, hackable guides, sensors, hooks, skills and tools for agentic development.",
+      "discovered_via": "topic:anthropic",
+      "full_name": "Abraxas-365/claudio",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Abraxas-365/claudio",
+      "topics": [
+        "agent-harness",
+        "agentic-coding",
+        "anthropic",
+        "cli",
+        "coding-agent",
+        "coding-assistant",
+        "context-engineering",
+        "developer-tools",
+        "golang",
+        "harness",
+        "llm",
+        "model-agnostic",
+        "terminal"
+      ],
+      "updated_at": "2026-04-17T18:02:34Z"
+    },
+    {
+      "description": "10 Claude sessions running. What are they doing? Live dashboard \u2014 monitor, cost tracking, search, sub-agent visibility.",
+      "discovered_via": "topic:anthropic",
+      "full_name": "tombelieber/claude-view",
+      "graph_distance": 1,
+      "html_url": "https://github.com/tombelieber/claude-view",
+      "topics": [
+        "ai-agents",
+        "analytics",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "cli",
+        "cost-tracking",
+        "dashboard",
+        "developer-tools",
+        "full-text-search",
+        "heatmap",
+        "mcp",
+        "metrics",
+        "mission-control",
+        "monitoring",
+        "react",
+        "reports",
+        "rust",
+        "session-history",
+        "subagents"
+      ],
+      "updated_at": "2026-04-17T18:01:53Z"
+    }
+  ],
+  "repo": {
+    "default_branch": "main",
+    "description": " Memory library for building stateful agents",
+    "full_name": "plastic-labs/honcho",
+    "html_url": "https://github.com/plastic-labs/honcho",
+    "language": "Python",
+    "pushed_at": "2026-04-17T17:02:12Z",
+    "topics": [
+      "agent-memory",
+      "ai",
+      "ai-agents",
+      "ai-memory",
+      "anthropic",
+      "context-engineering",
+      "continual-learning",
+      "embeddings",
+      "fastapi",
+      "langchain",
+      "llm",
+      "long-term-memory",
+      "memory",
+      "openai",
+      "personalization",
+      "python",
+      "rag",
+      "state-management",
+      "typescript",
+      "vector-database"
+    ],
+    "updated_at": "2026-04-17T17:48:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "2. Setup your"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ", and send"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "3.10"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "0.5.0"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash cd honcho uv sync"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "docker-compose"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "must have the prefix"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "env AUTH_USE_AUTH=false SENTRY_ENABLED=false"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "If you set"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "AUTH_JWT_SECRET"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "AUTH_USE_AUTH"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash uv run alembic upgrade head"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash uv run python -m src.deriver"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash uv add --dev pre-commit"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "2. **Install the pre-commit hooks**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "This will install hooks for"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ", and"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash uv run pre-commit run --all-files"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Or run specific hooks:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Docker As mentioned earlier a"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "flyctl"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "fly.toml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "flyctl"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "config.toml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash cp config.toml.example config.toml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "DB_CONNECTION_URI"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "AUTH_JWT_SECRET"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "DIALECTIC_LEVELS__low__MODEL"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "DERIVER_PROVIDER"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SUMMARY_PROVIDER"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "LOG_LEVEL"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "METRICS_ENABLED"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "TELEMETRY_ENABLED"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "config.toml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "config.toml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Workspaces"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Workspace"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Peer"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Peer"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Session"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Peers"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Workspace"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Message"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Collection"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Documents"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Collections"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Document"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Collection"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Messages"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Sessions"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Peers"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Collections"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "representation"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Peers"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "summary"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Sessions"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "context"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Workspace"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Session"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Peer"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Chat"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Peer"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Peer"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Peer"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Peer"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Peer"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "representation"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Peer"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build.yml",
+      "term": "Build and Push Docker Image"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fly-deploy-prod.yml",
+      "term": "Fly Deploy (Production Environment)"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fly-deploy.yml",
+      "term": "Fly Deploy (Test Environment)"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/start-fly-runner.yml",
+      "term": "Start Fly Runner"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/staticanalysis.yml",
+      "term": "Static Analysis"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unified-tests.yml",
+      "term": "Unified Tests (Fly Runner)"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unittest.yml",
+      "term": "FastAPI Tests with PostgreSQL and uv"
+    }
+  ]
+}
