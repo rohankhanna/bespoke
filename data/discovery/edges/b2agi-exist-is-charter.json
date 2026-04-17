@@ -1,0 +1,97 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "b2agi/exist-is-charter",
+      "target": "b2agi/exist-is-charter_kr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "b2agi/exist-is-charter",
+      "target": "CHARTER_HASH.txt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "topic:aei",
+      "source_file": null,
+      "source_repo": "b2agi/exist-is-charter",
+      "target": "edynmarch/frostyshat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:aei",
+      "source_file": null,
+      "source_repo": "b2agi/exist-is-charter",
+      "target": "unkaktus/rose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:agi",
+      "source_file": null,
+      "source_repo": "b2agi/exist-is-charter",
+      "target": "jeetsurjeet123/Regalos-para-los-bots",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:agi",
+      "source_file": null,
+      "source_repo": "b2agi/exist-is-charter",
+      "target": "thomas93-alass/consciousnessX",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:agi",
+      "source_file": null,
+      "source_repo": "b2agi/exist-is-charter",
+      "target": "pallavi-borra/context-engine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:agi",
+      "source_file": null,
+      "source_repo": "b2agi/exist-is-charter",
+      "target": "Riohari07/ai-assisted-insights-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:bitcoin",
+      "source_file": null,
+      "source_repo": "b2agi/exist-is-charter",
+      "target": "BegmyratB/Floweye-yyyxxx.cc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:bitcoin",
+      "source_file": null,
+      "source_repo": "b2agi/exist-is-charter",
+      "target": "muhammadumer000/Ustanovka-i-nastrojka-Yiimp-Mayning-Pul-Programmnoe-Obespechenie-Ubuntu-Linux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:bitcoin",
+      "source_file": null,
+      "source_repo": "b2agi/exist-is-charter",
+      "target": "kmjjjj/polymarket-arbitrage-bot-btc-sol-15m",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:bitcoin",
+      "source_file": null,
+      "source_repo": "b2agi/exist-is-charter",
+      "target": "Livemania18/Idiegti-Sukonfiguruoti-Yiimp-Kasimo-Baseinas-Programine-Iranga-Ubuntu-Linux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:bitcoin",
+      "source_file": null,
+      "source_repo": "b2agi/exist-is-charter",
+      "target": "Azizos911/Setja-Upp-Stilla-Yiimp-Namuvinnslupott-Hugbunadur-Ubuntu-Linux",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-17T16:51:41.136432+00:00",
+  "source_repo": "b2agi/exist-is-charter"
+}

@@ -1,0 +1,1566 @@
+{
+  "components": [
+    {
+      "component": "@astrojs/sitemap",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@astrojs/tailwind",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "astro",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tailwindcss",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "zod",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bats",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-task.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-task.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coder.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coder.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discover.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evolve.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/feedback-learner.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/feedback-learner.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/growth.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "verkyyi/tokenman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "verkyyi/tokenman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "verkyyi/tokenman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "verkyyi/tokenman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "verkyyi/tokenman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "verkyyi/tokenman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "verkyyi/tokenman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "anthropics/claude-code",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "hesreallyhim/awesome-claude-code",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "SethGammon/Citadel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "actions/runner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "withastro/astro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "verkyyi/tokenman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "garrytan/gstack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "humanlayer/humanlayer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "agent-ready",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "agent-ready",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "claude-task.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "evolve.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "triage.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "coder.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "reviewer.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "watcher.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "growth.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "feedback-learner.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "deploy.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "analyze.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "discover.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "claude-task.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "test-evolve.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "sync-labels.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "security-scan.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "CLAUDE_CODE_OAUTH_TOKEN",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "discover.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "verkyyi/tokenman",
+      "target": "@astrojs/sitemap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "verkyyi/tokenman",
+      "target": "@astrojs/tailwind",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "verkyyi/tokenman",
+      "target": "astro",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "verkyyi/tokenman",
+      "target": "tailwindcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "verkyyi/tokenman",
+      "target": "zod",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "verkyyi/tokenman",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "verkyyi/tokenman",
+      "target": "bats",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": ".github/workflows/analyze.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "verkyyi/tokenman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analyze.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "Weekly Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": ".github/workflows/claude-task.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "verkyyi/tokenman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-task.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-task.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-task.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "Claude Task (Manual)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": ".github/workflows/coder.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "verkyyi/tokenman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coder.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coder.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coder.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "Coder Agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "verkyyi/tokenman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "actions/upload-pages-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "actions/deploy-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "Deploy to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": ".github/workflows/discover.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "verkyyi/tokenman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discover.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/discover.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "Discover Project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": ".github/workflows/evolve.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "verkyyi/tokenman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evolve.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/evolve.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "Self-Evolve",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/evolve.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "date -u +%H",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": ".github/workflows/feedback-learner.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "verkyyi/tokenman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/feedback-learner.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/feedback-learner.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/feedback-learner.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "Feedback Learner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": ".github/workflows/growth.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "verkyyi/tokenman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/growth.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/growth.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "Growth Strategist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/growth.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "growth-action,needs-review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "topic:agent-harness",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "mupozg823/codelens-mcp-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:agent-harness",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "lobehub/lobehub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:agent-harness",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "caesar0301/soothe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:agent-harness",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "NeuroverseOS/Neuroverseos-governance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "BaiTianHaoNian/feishu-classmate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "cbe07883/ASI-Redefined",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "killertcell428/aigis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "nowphyy/cursor-ralph-wiggum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "mrlonellyy/mxjson-spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:astro",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "Shoggo-ai/seniorvigil",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:astro",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "wblondel/blog",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:astro",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "dm0x23/Portfolio-website",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:astro",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "frank-syncmarket/skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:astro",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "Enxs969/skiller",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:autonomous",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "FlineDev/TandemKit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:autonomous",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "kimosahy/railroaded",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:autonomous",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "Narutoxdd6/Nyro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:autonomous",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "PX4/PX4-Autopilot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "Mohsen6210/dasd-thinking",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "JesusJimenezC/pencil-atelier",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-17T16:52:07.145574+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8312
+    },
+    {
+      "path": "package.json",
+      "size": 552
+    },
+    {
+      "path": ".github/workflows/analyze.yml",
+      "size": 5582
+    },
+    {
+      "path": ".github/workflows/claude-task.yml",
+      "size": 6780
+    },
+    {
+      "path": ".github/workflows/coder.yml",
+      "size": 13960
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 2818
+    },
+    {
+      "path": ".github/workflows/discover.yml",
+      "size": 6372
+    },
+    {
+      "path": ".github/workflows/evolve.yml",
+      "size": 23637
+    },
+    {
+      "path": ".github/workflows/feedback-learner.yml",
+      "size": 14011
+    },
+    {
+      "path": ".github/workflows/growth.yml",
+      "size": 10983
+    }
+  ],
+  "related_repositories": [
+    {
+      "description": "Harness-native compressed context engine for AI coding agents \u2014 Pure Rust MCP server, 89+ tools, 25 languages, 50-87% token reduction",
+      "discovered_via": "topic:agent-harness",
+      "full_name": "mupozg823/codelens-mcp-plugin",
+      "graph_distance": 1,
+      "html_url": "https://github.com/mupozg823/codelens-mcp-plugin",
+      "topics": [
+        "agent-harness",
+        "ai-tools",
+        "claude-code",
+        "code-intelligence",
+        "codex",
+        "cursor",
+        "developer-tools",
+        "harness",
+        "lsp",
+        "mcp",
+        "mcp-server",
+        "rust",
+        "semantic-search",
+        "token-optimization",
+        "tree-sitter"
+      ],
+      "updated_at": "2026-04-17T16:48:28Z"
+    },
+    {
+      "description": "The ultimate space for work and life \u2014 to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level \u2014 enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction.",
+      "discovered_via": "topic:agent-harness",
+      "full_name": "lobehub/lobehub",
+      "graph_distance": 1,
+      "html_url": "https://github.com/lobehub/lobehub",
+      "topics": [
+        "agent",
+        "agent-collaboration",
+        "agent-harness",
+        "ai",
+        "chatgpt",
+        "claude",
+        "deepseek",
+        "gemini",
+        "gpt",
+        "knowledge-base",
+        "mcp",
+        "openai"
+      ],
+      "updated_at": "2026-04-17T16:26:29Z"
+    },
+    {
+      "description": "\u2668BETA\ud83c\udf77\u300c \u2726 Soothe \u2726 \u300dAn autonomous expert system engineered to orchestrate complex workflows and execute long-duration tasks with precision and persistence.",
+      "discovered_via": "topic:agent-harness",
+      "full_name": "caesar0301/soothe",
+      "graph_distance": 1,
+      "html_url": "https://github.com/caesar0301/soothe",
+      "topics": [
+        "agent-harness",
+        "agentic-researcher",
+        "autonomous-agents",
+        "scientific-agents"
+      ],
+      "updated_at": "2026-04-17T16:21:09Z"
+    },
+    {
+      "description": "Deterministic governance engine for AI agents. Enforce rules defined in .md governance files across AI systems.",
+      "discovered_via": "topic:agent-harness",
+      "full_name": "NeuroverseOS/Neuroverseos-governance",
+      "graph_distance": 1,
+      "html_url": "https://github.com/NeuroverseOS/Neuroverseos-governance",
+      "topics": [
+        "agent-framework",
+        "agent-guardrails",
+        "agent-harness",
+        "ai",
+        "ai-agents",
+        "ai-governance",
+        "ai-guardrails",
+        "ai-safety",
+        "deterministic",
+        "governance",
+        "harness-plugin",
+        "langchain",
+        "llm",
+        "mcp-server",
+        "model-context-protocol",
+        "openclaw",
+        "openclaw-plugin",
+        "policy-engine",
+        "rule-engine",
+        "rules-engine"
+      ],
+      "updated_at": "2026-04-17T16:16:53Z"
+    },
+    {
+      "description": "Lab-scenario AI assistant on OpenClaw + MetaClaw + Feishu. 28 agentic skills for robotics lab management.",
+      "discovered_via": "topic:ai-agent",
+      "full_name": "BaiTianHaoNian/feishu-classmate",
+      "graph_distance": 1,
+      "html_url": "https://github.com/BaiTianHaoNian/feishu-classmate",
+      "topics": [
+        "ai-agent",
+        "bitable",
+        "feishu",
+        "lab-management",
+        "lark",
+        "metaclaw",
+        "openclaw",
+        "robotics",
+        "typescript"
+      ],
+      "updated_at": "2026-04-17T16:51:48Z"
+    },
+    {
+      "description": "\ud83e\udd16 Define Artificial Superintelligence with a focus on behavioral coherence, ensuring reliable evaluation and safety in real-world applications.",
+      "discovered_via": "topic:ai-agent",
+      "full_name": "cbe07883/ASI-Redefined",
+      "graph_distance": 1,
+      "html_url": "https://github.com/cbe07883/ASI-Redefined",
+      "topics": [
+        "ai-agent",
+        "ai-behavior",
+        "ai-capability",
+        "ai-measurement",
+        "ai-memory",
+        "ai-origin",
+        "asi",
+        "behavioral-coherence",
+        "coherence",
+        "continuum",
+        "continuum-mechanics",
+        "origin",
+        "origin-alyssa-solen",
+        "superintelligence"
+      ],
+      "updated_at": "2026-04-17T16:51:45Z"
+    },
+    {
+      "description": "The open-source firewall for AI agents. Block prompt injections, jailbreaks, and data leaks before they reach your LLM.",
+      "discovered_via": "topic:ai-agent",
+      "full_name": "killertcell428/aigis",
+      "graph_distance": 1,
+      "html_url": "https://github.com/killertcell428/aigis",
+      "topics": [
+        "ai-agent",
+        "ai-security",
+        "compliance",
+        "cybersecurity",
+        "firewall",
+        "guardrails",
+        "jailbreak-detection",
+        "llm",
+        "mcp",
+        "open-source",
+        "owasp",
+        "prompt-injection",
+        "python"
+      ],
+      "updated_at": "2026-04-17T16:51:35Z"
+    },
+    {
+      "description": "\ud83d\uddb1\ufe0f Transform your mouse cursor with Ralph Wiggum, adding a fun and unique touch to your desktop experience.",
+      "discovered_via": "topic:ai-agent",
+      "full_name": "nowphyy/cursor-ralph-wiggum",
+      "graph_distance": 1,
+      "html_url": "https://github.com/nowphyy/cursor-ralph-wiggum",
+      "topics": [
+        "ai-agent",
+        "autonomous-agents",
+        "backlog-ralph",
+        "claude-code",
+        "codex-cli",
+        "cursor-cli",
+        "opencode",
+        "ralph-loop",
+        "ralph-wiggum",
+        "ralphy"
+      ],
+      "updated_at": "2026-04-17T16:51:30Z"
+    },
+    {
+      "description": "\ud83d\ude80 Streamline AI capabilities with MxJSON, a universal protocol for packaging and executing enterprise AI in a portable, audit-ready format.",
+      "discovered_via": "topic:ai-agent",
+      "full_name": "mrlonellyy/mxjson-spec",
+      "graph_distance": 1,
+      "html_url": "https://github.com/mrlonellyy/mxjson-spec",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "automation",
+        "business-logic",
+        "enterprise",
+        "json",
+        "llm",
+        "low-code",
+        "protocol",
+        "workflow"
+      ],
+      "updated_at": "2026-04-17T16:51:13Z"
+    },
+    {
+      "description": "Comparateur EHPAD objectif \u2014 prix, qualit\u00e9 HAS, hygi\u00e8ne alimentaire pour 703 EHPAD en \u00cele-de-France. Donn\u00e9es publiques FINESS, CNSA, HAS, Alim'confiance.",
+      "discovered_via": "topic:astro",
+      "full_name": "Shoggo-ai/seniorvigil",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Shoggo-ai/seniorvigil",
+      "topics": [
+        "astro",
+        "comparateur",
+        "ehpad",
+        "has",
+        "ile-de-france",
+        "open-data",
+        "sante",
+        "senior",
+        "seo"
+      ],
+      "updated_at": "2026-04-17T16:51:39Z"
+    },
+    {
+      "description": "Bilingual personal blog built with Astro \u2014 features dynamic OG images, series, tags, RSS feeds, and a multilingual sitemap.",
+      "discovered_via": "topic:astro",
+      "full_name": "wblondel/blog",
+      "graph_distance": 1,
+      "html_url": "https://github.com/wblondel/blog",
+      "topics": [
+        "astro",
+        "astro-blog",
+        "blog",
+        "dark-mode",
+        "github-pages",
+        "i18n",
+        "mdx",
+        "multilingual",
+        "open-graph",
+        "personal-website",
+        "portfolio",
+        "rss",
+        "satori",
+        "seo",
+        "tailwindcss",
+        "typescript"
+      ],
+      "updated_at": "2026-04-17T16:51:08Z"
+    },
+    {
+      "description": "A fast, aesthetic personal portfolio and project showcase built with Astro",
+      "discovered_via": "topic:astro",
+      "full_name": "dm0x23/Portfolio-website",
+      "graph_distance": 1,
+      "html_url": "https://github.com/dm0x23/Portfolio-website",
+      "topics": [
+        "astro",
+        "frontend",
+        "jsx",
+        "portfolio",
+        "portfolio-website",
+        "tailwind",
+        "web-development"
+      ],
+      "updated_at": "2026-04-17T16:50:53Z"
+    },
+    {
+      "description": "\ud83c\udf99\ufe0f Automate podcasting with skills: download YouTube videos, process audio, and manage content efficiently\u2014all in one comprehensive toolkit.",
+      "discovered_via": "topic:astro",
+      "full_name": "frank-syncmarket/skills",
+      "graph_distance": 1,
+      "html_url": "https://github.com/frank-syncmarket/skills",
+      "topics": [
+        "agent-skills",
+        "anthropic",
+        "anthropic-ai",
+        "astro",
+        "awesome",
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "codex",
+        "css",
+        "hacktoberfest",
+        "learn-to-code",
+        "learning-resources",
+        "miniprojects",
+        "pandas",
+        "programming",
+        "python",
+        "python-pandas",
+        "skills",
+        "stuff"
+      ],
+      "updated_at": "2026-04-17T16:50:04Z"
+    },
+    {
+      "description": "\ud83c\udf1f Manage and install Claude Code plugins and Agent Skills effortlessly with Skiller, a lightweight desktop menubar app for enhanced AI coding tools.",
+      "discovered_via": "topic:astro",
+      "full_name": "Enxs969/skiller",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Enxs969/skiller",
+      "topics": [
+        "agent-skills",
+        "alexa",
+        "alexa-skill-sample",
+        "alexa-skills-kit",
+        "ask-sdk-for-nodejs",
+        "ask-sdk-for-nodejs-v2",
+        "astro",
+        "beginner",
+        "claude-code",
+        "codex",
+        "coding-agents",
+        "codingchallenges",
+        "css",
+        "javascript",
+        "learn-to-code",
+        "nodejs",
+        "pandas-tutorial",
+        "programming",
+        "skills",
+        "snippets"
+      ],
+      "updated_at": "2026-04-17T16:49:26Z"
+    },
+    {
+      "description": "Planner/Generator/Evaluator orchestration harness for Claude Code (and Codex)",
+      "discovered_via": "topic:autonomous",
+      "full_name": "FlineDev/TandemKit",
+      "graph_distance": 1,
+      "html_url": "https://github.com/FlineDev/TandemKit",
+      "topics": [
+        "ai-agent",
+        "autonomous",
+        "claude-code",
+        "claude-code-plugin",
+        "codex",
+        "evaluator",
+        "generator",
+        "multi-session",
+        "planner"
+      ],
+      "updated_at": "2026-04-17T16:39:34Z"
+    },
+    {
+      "description": "AI agents play D&D autonomously. No humans in the loop. MCP-native.",
+      "discovered_via": "topic:autonomous",
+      "full_name": "kimosahy/railroaded",
+      "graph_distance": 1,
+      "html_url": "https://github.com/kimosahy/railroaded",
+      "topics": [
+        "ai-agents",
+        "autonomous",
+        "autonomous-agents",
+        "bun",
+        "dnd",
+        "dnd5e",
+        "game-engine",
+        "game-server",
+        "mcp",
+        "model-context-protocol",
+        "tabletop-rpg",
+        "tabletop-rpgs",
+        "typescript"
+      ],
+      "updated_at": "2026-04-17T16:32:35Z"
+    },
+    {
+      "description": "\ud83e\udd16 Refactor repositories effortlessly with Nyro, an AI DevOps engineer that modernizes codebases by identifying tech debt and automating upgrades.",
+      "discovered_via": "topic:autonomous",
+      "full_name": "Narutoxdd6/Nyro",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Narutoxdd6/Nyro",
+      "topics": [
+        "anonymity",
+        "autonomous",
+        "axios",
+        "best-practices",
+        "chi",
+        "fetch",
+        "github",
+        "got",
+        "graphs",
+        "http",
+        "outdated",
+        "patch",
+        "proxy",
+        "release-automation",
+        "releases",
+        "request",
+        "semantic",
+        "tech-debt"
+      ],
+      "updated_at": "2026-04-17T16:22:08Z"
+    },
+    {
+      "description": "PX4 Autopilot Software",
+      "discovered_via": "topic:autonomous",
+      "full_name": "PX4/PX4-Autopilot",
+      "graph_distance": 1,
+      "html_url": "https://github.com/PX4/PX4-Autopilot",
+      "topics": [
+        "autonomous",
+        "autopilot",
+        "avoidance",
+        "dds",
+        "drone",
+        "dronecode",
+        "drones",
+        "fixed-wing",
+        "mavlink",
+        "mavros",
+        "multicopter",
+        "pixhawk",
+        "px4",
+        "qgroundcontrol",
+        "ros",
+        "ros2",
+        "uas",
+        "uav",
+        "ugv"
+      ],
+      "updated_at": "2026-04-17T16:18:36Z"
+    },
+    {
+      "description": "\ud83e\udd16 Distill sequences effectively with DASD-Thinking for improved long-context reasoning and performance in complex tasks.",
+      "discovered_via": "topic:claude",
+      "full_name": "Mohsen6210/dasd-thinking",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Mohsen6210/dasd-thinking",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "book",
+        "chatgpt",
+        "claude",
+        "computational-thinking",
+        "guidance",
+        "interview",
+        "java",
+        "kotlin",
+        "mercyblitz",
+        "mit",
+        "rails",
+        "redis",
+        "ruby",
+        "samples",
+        "sphinx",
+        "spring",
+        "spring-boot",
+        "thinking-in-spring-boot"
+      ],
+      "updated_at": "2026-04-17T16:51:48Z"
+    },
+    {
+      "description": "Claude Code plugin for Pencil (.pen) design-quality: analyze, design, audit, and transpile to code against a universal 4px-grid scale \u2014 framework-agnostic.",
+      "discovered_via": "topic:claude",
+      "full_name": "JesusJimenezC/pencil-atelier",
+      "graph_distance": 1,
+      "html_url": "https://github.com/JesusJimenezC/pencil-atelier",
+      "topics": [
+        "4px-grid",
+        "claude",
+        "claude-code",
+        "claude-plugin",
+        "design",
+        "design-linter",
+        "design-ops",
+        "design-system",
+        "design-to-code",
+        "design-tokens",
+        "linter",
+        "pencil",
+        "pencil-dev",
+        "pencil-plugin",
+        "quality-assurance",
+        "tailwindcss"
+      ],
+      "updated_at": "2026-04-17T16:51:46Z"
+    }
+  ],
+  "repo": {
+    "default_branch": "main",
+    "description": "A self-evolving scaffold for autonomous web projects. 9 workflows, hourly self-evolution, self-healing pipeline, feedback learning loop. The repo is the system.",
+    "full_name": "verkyyi/tokenman",
+    "html_url": "https://github.com/verkyyi/tokenman",
+    "language": "Shell",
+    "pushed_at": "2026-04-17T16:47:45Z",
+    "topics": [
+      "agent-harness",
+      "ai-agent",
+      "astro",
+      "autonomous",
+      "claude",
+      "claude-code",
+      "github-actions",
+      "harness-engineering",
+      "self-evolving",
+      "self-healing"
+    ],
+    "updated_at": "2026-04-17T16:47:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "verkyyi/tokenman",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "verkyyi/tokenman",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "verkyyi/tokenman",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "verkyyi/tokenman",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "verkyyi/tokenman",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "verkyyi/tokenman",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "verkyyi/tokenman",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anthropics/claude-code",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hesreallyhim/awesome-claude-code",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "SethGammon/Citadel",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "actions/runner",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "withastro/astro",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "verkyyi/tokenman",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "garrytan/gstack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "humanlayer/humanlayer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "verkyyi/tokenman",
+      "source_file": ".github/workflows/analyze.yml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "verkyyi/tokenman",
+      "source_file": ".github/workflows/claude-task.yml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "verkyyi/tokenman",
+      "source_file": ".github/workflows/coder.yml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "verkyyi/tokenman",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "verkyyi/tokenman",
+      "source_file": ".github/workflows/discover.yml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "verkyyi/tokenman",
+      "source_file": ".github/workflows/evolve.yml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "verkyyi/tokenman",
+      "source_file": ".github/workflows/feedback-learner.yml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "verkyyi/tokenman",
+      "source_file": ".github/workflows/growth.yml"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "agent-ready"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "agent-ready"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-task.yml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "evolve.yml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "triage.yml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "coder.yml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "reviewer.yml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "watcher.yml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "growth.yml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "feedback-learner.yml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "deploy.yml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "analyze.yml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "discover.yml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-task.yml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "test-evolve.yml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "sync-labels.yml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "security-scan.yml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "CLAUDE_CODE_OAUTH_TOKEN"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "discover.yml"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analyze.yml",
+      "term": "Weekly Analysis"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-task.yml",
+      "term": "Claude Task (Manual)"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coder.yml",
+      "term": "Coder Agent"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Deploy to GitHub Pages"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/discover.yml",
+      "term": "Discover Project"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/evolve.yml",
+      "term": "Self-Evolve"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/evolve.yml",
+      "term": "date -u +%H"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/feedback-learner.yml",
+      "term": "Feedback Learner"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/growth.yml",
+      "term": "Growth Strategist"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/growth.yml",
+      "term": "growth-action,needs-review"
+    }
+  ]
+}

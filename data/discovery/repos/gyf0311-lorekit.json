@@ -1,0 +1,1219 @@
+{
+  "components": [
+    {
+      "component": "better-sqlite3",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chalk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cheerio",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "commander",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gray-matter",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tar",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "turndown",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/better-sqlite3",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/turndown",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "GYF0311/lorekit.git",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "lewislulu/llm-wiki-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "nicepkg/OpenViking",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "asg017/sqlite-vec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "ollama/ollama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "tobi/qmd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "CLAUDE.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "AGENTS.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "trash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "lorekit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "lorekit init",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "lorekit doctor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "lorekit stats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "lorekit search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "publishDate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "pending",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "record",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "forget",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "reconcile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "lorekit lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "lorekit snapshot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "lorekit restore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "lorekit audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "lorekit vector sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "lorekit vector query",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "lorekit vector status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "lorekit index",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "lorekit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "wiki-",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "wiki-ingest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "wiki-query",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "wiki-fileback",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "wiki-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "wiki-enrich",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "wiki-audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "started",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "completed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "failed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "**Status transitions** driven by",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": ": | Action |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "| |---|---|---| |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "(success) |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "| |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "| |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "| |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "| **",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "** |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "| Only",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "auto-promotes to",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "keeps the top status at",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "\u2014 all progress detail lives in",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "and",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "are also available. **What",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "\u2192 returns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "\u2192 returns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "exists in",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "\u2192 same",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": ") is just appending",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "CLAUDE.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "AGENTS.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "(Future: once published to npm,",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "brew install node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "brew install ripgrep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "brew install ollama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "ollama pull bge-m3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "index.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "ollama pull bge-m3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "ollama pull nomic-embed-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "ollama pull mxbai-embed-large",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "ollama pull all-minilm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "## headings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "Off by default (for small corpora",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "is enough). Enable for 500+ pages:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "Subdirectory layout under",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "CLAUDE.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "lorekit init",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "lorekit-audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "Cmd +",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "Cmd +",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "info",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "suggest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "warn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": "error",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "GYF0311/lorekit",
+      "target": ": read",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "GYF0311/lorekit",
+      "target": "GYF0311/lorekit.git",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "GYF0311/lorekit",
+      "target": "better-sqlite3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "GYF0311/lorekit",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "GYF0311/lorekit",
+      "target": "cheerio",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "GYF0311/lorekit",
+      "target": "commander",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "GYF0311/lorekit",
+      "target": "gray-matter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "GYF0311/lorekit",
+      "target": "tar",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "GYF0311/lorekit",
+      "target": "turndown",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GYF0311/lorekit",
+      "target": "@types/better-sqlite3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GYF0311/lorekit",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GYF0311/lorekit",
+      "target": "@types/turndown",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GYF0311/lorekit",
+      "target": "tsup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "GYF0311/lorekit",
+      "target": "typescript",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-17T16:52:11.540099+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17665
+    },
+    {
+      "path": "package.json",
+      "size": 1147
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Personal LLM Wiki toolkit \u2014 let AI build and maintain your knowledge base. Based on Karpathy's LLM Wiki pattern. TypeScript, ollama+bge-m3, works with any AI coding agent.",
+    "full_name": "GYF0311/lorekit",
+    "html_url": "https://github.com/GYF0311/lorekit",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-17T13:54:08Z",
+    "topics": [
+      "ai-agent",
+      "claude-code",
+      "embedding",
+      "karpathy",
+      "knowledge-base",
+      "llm",
+      "obsidian",
+      "rag",
+      "typescript",
+      "wiki"
+    ],
+    "updated_at": "2026-04-17T13:54:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "GYF0311/lorekit.git",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lewislulu/llm-wiki-skill",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nicepkg/OpenViking",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asg017/sqlite-vec",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ollama/ollama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tobi/qmd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "GYF0311/lorekit.git",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "CLAUDE.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "AGENTS.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "trash"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "lorekit"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "lorekit init"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "lorekit doctor"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "lorekit stats"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "lorekit search"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "publishDate"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "list"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "pending"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "record"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "forget"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "reconcile"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "lorekit lint"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "lorekit snapshot"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "lorekit restore"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "lorekit audit"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "lorekit vector sync"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "lorekit vector query"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "lorekit vector status"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "lorekit index"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "lorekit"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "wiki-"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "wiki-ingest"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "wiki-query"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "wiki-fileback"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "wiki-lint"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "wiki-enrich"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "wiki-audit"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "started"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "completed"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "failed"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Status transitions** driven by"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": | Action |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| |---|---|---| |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(success) |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| **"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "** |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| Only"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "auto-promotes to"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "keeps the top status at"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u2014 all progress detail lives in"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "and"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "are also available. **What"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u2192 returns"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u2192 returns"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "exists in"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u2192 same"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ") is just appending"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "CLAUDE.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "AGENTS.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(Future: once published to npm,"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "brew install node"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "brew install ripgrep"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "brew install ollama"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ollama pull bge-m3"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "index.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ollama pull bge-m3"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ollama pull nomic-embed-text"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ollama pull mxbai-embed-large"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ollama pull all-minilm"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## headings"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Off by default (for small corpora"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "is enough). Enable for 500+ pages:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Subdirectory layout under"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "CLAUDE.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "lorekit init"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "lorekit-audit"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Cmd +"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Cmd +"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "info"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "suggest"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "warn"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "error"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": read"
+    }
+  ]
+}

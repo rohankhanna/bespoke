@@ -1,0 +1,42 @@
+{
+  "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+  "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
+  "last_seen_at": "2026-04-17T16:51:41.136432+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "liveblocks/liveblocks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-todo-list.yml",
+      "source_repo": "liveblocks/liveblocks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-cli-tools.yml",
+      "source_repo": "liveblocks/liveblocks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-devtools.yml",
+      "source_repo": "liveblocks/liveblocks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "klodr/mercury-invoicing-mcp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "klodr/mercury-invoicing-mcp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "klodr/mercury-invoicing-mcp"
+    }
+  ]
+}

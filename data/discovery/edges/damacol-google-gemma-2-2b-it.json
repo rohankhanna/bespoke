@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "Damacol/google-gemma-2-2b-it",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "Damacol/google-gemma-2-2b-it",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "Damacol/ai-hub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto.yml",
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto.yml",
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "Auto-Maintain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "topic:privacy",
+      "source_file": null,
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "Chaos2Cured/FreeLattice",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:privacy",
+      "source_file": null,
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "thedoggybrad/easylist-mirror",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:privacy",
+      "source_file": null,
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "Peergos/Peergos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:privacy",
+      "source_file": null,
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "Redductive/SecurePixel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:privacy",
+      "source_file": null,
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "GeiserX/AgentTap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:uncensored",
+      "source_file": null,
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "ItsRishika/Payment-bypass-bug-lab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:uncensored",
+      "source_file": null,
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "carloandremoreyra/XX",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:uncensored",
+      "source_file": null,
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:uncensored",
+      "source_file": null,
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:uncensored",
+      "source_file": null,
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "Damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:venice-ai",
+      "source_file": null,
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "Damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:venice-ai",
+      "source_file": null,
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "Damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-17T16:51:41.136432+00:00",
+  "source_repo": "Damacol/google-gemma-2-2b-it"
+}

@@ -1,0 +1,285 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CjTruHeart/abundance-codex",
+      "target": "CjTruHeart/abundance-codex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CjTruHeart/abundance-codex",
+      "target": "CjTruHeart/abundance-codex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CjTruHeart/abundance-codex",
+      "target": "**Load from Hugging Face:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CjTruHeart/abundance-codex",
+      "target": "PROJECT.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CjTruHeart/abundance-codex",
+      "target": "PHILOSOPHY.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CjTruHeart/abundance-codex",
+      "target": "DOMAINS.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CjTruHeart/abundance-codex",
+      "target": "GOLD-STANDARD-FORMAT.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CjTruHeart/abundance-codex",
+      "target": "GLOSSARY.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CjTruHeart/abundance-codex",
+      "target": "DATASHEET.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CjTruHeart/abundance-codex",
+      "target": "CHANGELOG.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CjTruHeart/abundance-codex",
+      "target": "CONTRIBUTING.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CjTruHeart/abundance-codex",
+      "target": "CURATION-GUIDE.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CjTruHeart/abundance-codex",
+      "target": "validate-entry.py",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CjTruHeart/abundance-codex",
+      "target": "export-to-jsonl.py",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CjTruHeart/abundance-codex",
+      "target": "codex-retriever.py",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CjTruHeart/abundance-codex",
+      "target": "from codex_retriever import DojoRetriever",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CjTruHeart/abundance-codex",
+      "target": "run-ace.py",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CjTruHeart/abundance-codex",
+      "target": "codex-query.py",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "CjTruHeart/abundance-codex",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "CjTruHeart/abundance-codex",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-17T16:52:20.671010+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12697
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "size": 610
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Evidence-anchored narrative dataset that shifts AI reasoning from scarcity-default to abundance-aware (+9% in benchmark)",
+    "full_name": "CjTruHeart/abundance-codex",
+    "html_url": "https://github.com/CjTruHeart/abundance-codex",
+    "language": "Python",
+    "pushed_at": "2026-04-17T12:49:50Z",
+    "topics": [
+      "abundance",
+      "ai-agents",
+      "benchmark",
+      "conditional-optimism",
+      "context-engineering",
+      "dataset",
+      "knowledge-base",
+      "llm-evaluation",
+      "machine-readable",
+      "narrative-dataset",
+      "rag",
+      "system-prompts"
+    ],
+    "updated_at": "2026-04-17T12:49:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "CjTruHeart/abundance-codex",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "CjTruHeart/abundance-codex",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Load from Hugging Face:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "PROJECT.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "PHILOSOPHY.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "DOMAINS.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "GOLD-STANDARD-FORMAT.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "GLOSSARY.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "DATASHEET.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "CHANGELOG.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "CONTRIBUTING.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "CURATION-GUIDE.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "validate-entry.py"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "export-to-jsonl.py"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "codex-retriever.py"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "from codex_retriever import DojoRetriever"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "run-ace.py"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "codex-query.py"
+    }
+  ]
+}

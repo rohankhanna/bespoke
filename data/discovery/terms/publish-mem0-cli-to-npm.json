@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
+  "last_seen_at": "2026-04-17T16:51:41.136432+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cli-node-cd.yml",
+      "source_repo": "mem0ai/mem0"
+    }
+  ],
+  "term": "Publish @mem0/cli \ud83d\udce6 to npm"
+}

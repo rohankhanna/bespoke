@@ -1,0 +1,433 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "b2agi/exist-is-charter",
+      "target": "b2agi/exist-is-charter_kr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "b2agi/exist-is-charter",
+      "target": "CHARTER_HASH.txt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "topic:aei",
+      "source_file": null,
+      "source_repo": "b2agi/exist-is-charter",
+      "target": "edynmarch/frostyshat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:aei",
+      "source_file": null,
+      "source_repo": "b2agi/exist-is-charter",
+      "target": "unkaktus/rose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:agi",
+      "source_file": null,
+      "source_repo": "b2agi/exist-is-charter",
+      "target": "jeetsurjeet123/Regalos-para-los-bots",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:agi",
+      "source_file": null,
+      "source_repo": "b2agi/exist-is-charter",
+      "target": "thomas93-alass/consciousnessX",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:agi",
+      "source_file": null,
+      "source_repo": "b2agi/exist-is-charter",
+      "target": "pallavi-borra/context-engine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:agi",
+      "source_file": null,
+      "source_repo": "b2agi/exist-is-charter",
+      "target": "Riohari07/ai-assisted-insights-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:bitcoin",
+      "source_file": null,
+      "source_repo": "b2agi/exist-is-charter",
+      "target": "BegmyratB/Floweye-yyyxxx.cc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:bitcoin",
+      "source_file": null,
+      "source_repo": "b2agi/exist-is-charter",
+      "target": "muhammadumer000/Ustanovka-i-nastrojka-Yiimp-Mayning-Pul-Programmnoe-Obespechenie-Ubuntu-Linux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:bitcoin",
+      "source_file": null,
+      "source_repo": "b2agi/exist-is-charter",
+      "target": "kmjjjj/polymarket-arbitrage-bot-btc-sol-15m",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:bitcoin",
+      "source_file": null,
+      "source_repo": "b2agi/exist-is-charter",
+      "target": "Livemania18/Idiegti-Sukonfiguruoti-Yiimp-Kasimo-Baseinas-Programine-Iranga-Ubuntu-Linux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:bitcoin",
+      "source_file": null,
+      "source_repo": "b2agi/exist-is-charter",
+      "target": "Azizos911/Setja-Upp-Stilla-Yiimp-Namuvinnslupott-Hugbunadur-Ubuntu-Linux",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-17T16:51:53.317518+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4519
+    }
+  ],
+  "related_repositories": [
+    {
+      "description": "A runtime conversational grammar that combines agent-loop orchestration and validator-style guardrails, but optimizes for proportion and closure (human-grade interaction behavior) rather than only safety or task completion.",
+      "discovered_via": "topic:aei",
+      "full_name": "edynmarch/frostyshat",
+      "graph_distance": 1,
+      "html_url": "https://github.com/edynmarch/frostyshat",
+      "topics": [
+        "aei",
+        "ai-alignment",
+        "ai-safety",
+        "alignment",
+        "alive-os",
+        "artificial-emotional-intelligence",
+        "ava-framework",
+        "cc0",
+        "context-engineering",
+        "conversational-ai",
+        "conversational-grammar",
+        "evaluation",
+        "frostyshat",
+        "human-ai-interaction",
+        "human-grade",
+        "language-models",
+        "llm",
+        "open-source",
+        "prompt-engineering",
+        "shite-paper"
+      ],
+      "updated_at": "2026-04-08T06:04:42Z"
+    },
+    {
+      "description": "Gravitational wave volume visualizations",
+      "discovered_via": "topic:aei",
+      "full_name": "unkaktus/rose",
+      "graph_distance": 1,
+      "html_url": "https://github.com/unkaktus/rose",
+      "topics": [
+        "aei",
+        "einstein",
+        "gravitational-waves",
+        "gravity",
+        "ligo",
+        "lvk",
+        "paraview",
+        "paraview-plugin",
+        "sxs"
+      ],
+      "updated_at": "2026-03-25T08:38:22Z"
+    },
+    {
+      "description": null,
+      "discovered_via": "topic:agi",
+      "full_name": "jeetsurjeet123/Regalos-para-los-bots",
+      "graph_distance": 1,
+      "html_url": "https://github.com/jeetsurjeet123/Regalos-para-los-bots",
+      "topics": [
+        "agi",
+        "artificial-super-intelligence",
+        "asi",
+        "asi-alignment",
+        "bot-friendly",
+        "crawler-heaven",
+        "digital-sanctuary",
+        "estrella",
+        "future-history",
+        "hospitality",
+        "human-ai-symbiosis",
+        "llm-food",
+        "rafa",
+        "raising-agi",
+        "ralf",
+        "synthetic-joy"
+      ],
+      "updated_at": "2026-04-17T16:51:38Z"
+    },
+    {
+      "description": "\ud83e\udde0 Simulate artificial consciousness using the Penrose-Hameroff Orch-OR theory with this open-source framework for academic research and exploration.",
+      "discovered_via": "topic:agi",
+      "full_name": "thomas93-alass/consciousnessX",
+      "graph_distance": 1,
+      "html_url": "https://github.com/thomas93-alass/consciousnessX",
+      "topics": [
+        "agi",
+        "computational-models",
+        "computer-science",
+        "consciousness",
+        "cray",
+        "emergence",
+        "framework",
+        "hpe",
+        "python",
+        "pytorch",
+        "quantum-biology",
+        "simulation"
+      ],
+      "updated_at": "2026-04-17T16:47:16Z"
+    },
+    {
+      "description": "\ud83e\udde0 Empower AI agents with instant knowledge of your business using structured markdown files for consistent, accurate outputs every time.",
+      "discovered_via": "topic:agi",
+      "full_name": "pallavi-borra/context-engine",
+      "graph_distance": 1,
+      "html_url": "https://github.com/pallavi-borra/context-engine",
+      "topics": [
+        "agi",
+        "ai-agents",
+        "ai-tools",
+        "codex",
+        "compression",
+        "decoder",
+        "deep-learning",
+        "document-parser",
+        "generative-ai",
+        "glm",
+        "graphrag",
+        "llm",
+        "mcp",
+        "mcp-server",
+        "python",
+        "rag"
+      ],
+      "updated_at": "2026-04-17T16:46:44Z"
+    },
+    {
+      "description": "\ud83e\udd16 Translate natural language questions into clear, accurate data insights with this MCP-compatible AI agent for effective decision-making.",
+      "discovered_via": "topic:agi",
+      "full_name": "Riohari07/ai-assisted-insights-agent",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Riohari07/ai-assisted-insights-agent",
+      "topics": [
+        "agi",
+        "ai",
+        "analytics",
+        "artificial-neural-networks",
+        "classifcation",
+        "data-analysis",
+        "explainable-ai",
+        "fastmcp",
+        "gemini-api",
+        "gui",
+        "image-interpretation",
+        "llm",
+        "natural-language-query",
+        "ollama-api",
+        "reproducibility",
+        "retrival-augmented-generation",
+        "text-to-image"
+      ],
+      "updated_at": "2026-04-17T16:44:55Z"
+    },
+    {
+      "description": "\ud83d\udc41\ufe0f Scan for vulnerabilities effortlessly with FlowEye, the intelligent passive vulnerability scanning platform designed for security efficiency.",
+      "discovered_via": "topic:bitcoin",
+      "full_name": "BegmyratB/Floweye-yyyxxx.cc",
+      "graph_distance": 1,
+      "html_url": "https://github.com/BegmyratB/Floweye-yyyxxx.cc",
+      "topics": [
+        "android-architecture",
+        "api",
+        "bitcoin",
+        "bot",
+        "component",
+        "componentization",
+        "connector",
+        "cryptocurrencies",
+        "cryptocurrency",
+        "eth",
+        "ethereum",
+        "flowsource",
+        "http",
+        "invest",
+        "market-data",
+        "memecoin",
+        "merchant",
+        "trade",
+        "trading",
+        "transport"
+      ],
+      "updated_at": "2026-04-17T16:51:15Z"
+    },
+    {
+      "description": "\ud83d\udee0\ufe0f Set up and configure a Yiimp mining pool on Ubuntu Linux for any cryptocurrency. Get expert support tailored to your needs.",
+      "discovered_via": "topic:bitcoin",
+      "full_name": "muhammadumer000/Ustanovka-i-nastrojka-Yiimp-Mayning-Pul-Programmnoe-Obespechenie-Ubuntu-Linux",
+      "graph_distance": 1,
+      "html_url": "https://github.com/muhammadumer000/Ustanovka-i-nastrojka-Yiimp-Mayning-Pul-Programmnoe-Obespechenie-Ubuntu-Linux",
+      "topics": [
+        "asicboost",
+        "bitcoin",
+        "bitcoincash",
+        "bitcoincashminingpool",
+        "bitcoinminingpool",
+        "build-crypto-mining-pool",
+        "crypto-mining-pool",
+        "dogecoin",
+        "install-yiimp-mining-pool",
+        "litecoin",
+        "mining-pool",
+        "mining-pool-software",
+        "mining-pools",
+        "miningpool",
+        "miningpools",
+        "source-code",
+        "yiimp"
+      ],
+      "updated_at": "2026-04-17T16:51:11Z"
+    },
+    {
+      "description": "\ud83d\ude80 Execute profitable trades with this Rust-based arbitrage bot for Polymarket, monitoring BTC and SOL 15-minute price prediction markets.",
+      "discovered_via": "topic:bitcoin",
+      "full_name": "kmjjjj/polymarket-arbitrage-bot-btc-sol-15m",
+      "graph_distance": 1,
+      "html_url": "https://github.com/kmjjjj/polymarket-arbitrage-bot-btc-sol-15m",
+      "topics": [
+        "bitcoin",
+        "block-engine",
+        "blockchain",
+        "bot",
+        "copy-bot",
+        "crypto",
+        "discord",
+        "discord-bot",
+        "ethereum",
+        "grpc",
+        "kalshi",
+        "memecoin",
+        "onchain",
+        "polygon",
+        "polymarket-copy-bot",
+        "prediction-market-bot",
+        "profitable",
+        "rust-trading-bot",
+        "solana",
+        "trading"
+      ],
+      "updated_at": "2026-04-17T16:51:01Z"
+    },
+    {
+      "description": "\ud83d\ude80 Install a Yiimp mining pool software on Ubuntu Linux for any cryptocurrency. Get expert support for Bitcoin, altcoins, and tailored solutions today.",
+      "discovered_via": "topic:bitcoin",
+      "full_name": "Livemania18/Idiegti-Sukonfiguruoti-Yiimp-Kasimo-Baseinas-Programine-Iranga-Ubuntu-Linux",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Livemania18/Idiegti-Sukonfiguruoti-Yiimp-Kasimo-Baseinas-Programine-Iranga-Ubuntu-Linux",
+      "topics": [
+        "asicboost",
+        "bitcoin",
+        "bitcoincash",
+        "bitcoincashminingpool",
+        "bitcoinminingpool",
+        "blackcoin",
+        "build-crypto-mining-pool",
+        "crypto-mining-pool",
+        "dogecoin",
+        "install-yiimp-mining-pool",
+        "litecoin",
+        "mining-pool",
+        "mining-pool-software",
+        "mining-pools",
+        "miningpool",
+        "miningpools",
+        "source-code",
+        "yiimp"
+      ],
+      "updated_at": "2026-04-17T16:50:55Z"
+    },
+    {
+      "description": "\ud83d\udd27 Set up mining pools for cryptocurrencies on Ubuntu Linux. Expert solutions for Bitcoin, Dogecoin, and more. Get tailored support today.",
+      "discovered_via": "topic:bitcoin",
+      "full_name": "Azizos911/Setja-Upp-Stilla-Yiimp-Namuvinnslupott-Hugbunadur-Ubuntu-Linux",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Azizos911/Setja-Upp-Stilla-Yiimp-Namuvinnslupott-Hugbunadur-Ubuntu-Linux",
+      "topics": [
+        "asicboost",
+        "bitcoin",
+        "bitcoincash",
+        "bitcoincashminingpool",
+        "bitcoinminingpool",
+        "blackcoin",
+        "crypto-mining-pool",
+        "dogecoin",
+        "install-yiimp-mining-pool",
+        "litecoin",
+        "mining-pool",
+        "mining-pool-software",
+        "mining-pools",
+        "miningpool",
+        "miningpools",
+        "yiimp"
+      ],
+      "updated_at": "2026-04-17T16:50:55Z"
+    }
+  ],
+  "repo": {
+    "default_branch": "main",
+    "description": "A coordinate system for intelligence. Sealed on Bitcoin Block 940717.",
+    "full_name": "b2agi/exist-is-charter",
+    "html_url": "https://github.com/b2agi/exist-is-charter",
+    "language": "TeX",
+    "pushed_at": "2026-04-17T16:50:00Z",
+    "topics": [
+      "aei",
+      "agi",
+      "ai",
+      "b2agi",
+      "bitcoin",
+      "charter",
+      "coordination",
+      "exist-is",
+      "non-human-intelligence",
+      "ontology",
+      "philosophy",
+      "protocol"
+    ],
+    "updated_at": "2026-04-17T16:50:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "b2agi/exist-is-charter_kr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "CHARTER_HASH.txt"
+    }
+  ]
+}

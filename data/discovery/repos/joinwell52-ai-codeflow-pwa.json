@@ -1,0 +1,136 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joinwell52-AI/codeflow-pwa",
+      "target": "joinwell52-AI/codeflow-pwa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joinwell52-AI/codeflow-pwa",
+      "target": "joinwell52-AI/joinwell52",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joinwell52-AI/codeflow-pwa",
+      "target": "joinwell52-AI/codeflow-pwa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joinwell52-AI/codeflow-pwa",
+      "target": "joinwell52-AI/codeflow-pwa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joinwell52-AI/codeflow-pwa",
+      "target": "joinwell52-AI/codeflow-pwa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "joinwell52-AI/codeflow-pwa",
+      "target": "joinwell52-AI/codeflow-pwa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "joinwell52-AI/codeflow-pwa",
+      "target": "TASK-date-seq-Sender-to-Recipient.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "joinwell52-AI/codeflow-pwa",
+      "target": "Project structure:",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-17T16:52:13.550130+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6039
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "CodeFlow - AI-powered human-AI collaboration hub. Desktop EXE + Mobile PWA + MCP Plugin. Command your AI team from phone.",
+    "full_name": "joinwell52-AI/codeflow-pwa",
+    "html_url": "https://github.com/joinwell52-AI/codeflow-pwa",
+    "language": "HTML",
+    "pushed_at": "2026-04-17T16:41:58Z",
+    "topics": [
+      "ai-agent",
+      "ai-team",
+      "codeflow",
+      "cursor",
+      "cursor-ide",
+      "desktop-app",
+      "developer-tools",
+      "human-ai-collaboration",
+      "mcp",
+      "multi-agent",
+      "open-source",
+      "pwa"
+    ],
+    "updated_at": "2026-04-17T15:05:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joinwell52-AI/codeflow-pwa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joinwell52-AI/joinwell52",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joinwell52-AI/codeflow-pwa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joinwell52-AI/codeflow-pwa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joinwell52-AI/codeflow-pwa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joinwell52-AI/codeflow-pwa",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "TASK-date-seq-Sender-to-Recipient.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Project structure:"
+    }
+  ]
+}

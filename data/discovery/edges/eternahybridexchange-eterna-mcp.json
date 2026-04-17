@@ -1,0 +1,167 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EternaHybridExchange/eterna-mcp",
+      "target": "eterna-exchange/bybit-mcp-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EternaHybridExchange/eterna-mcp",
+      "target": "eterna-exchange/mcp-trading-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EternaHybridExchange/eterna-mcp",
+      "target": "eterna-exchange/awesome-mcp-trading",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EternaHybridExchange/eterna-mcp",
+      "target": "Ask your AI to call",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EternaHybridExchange/eterna-mcp",
+      "target": "### AutoGen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EternaHybridExchange/eterna-mcp",
+      "target": "### CrewAI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EternaHybridExchange/eterna-mcp",
+      "target": "### Raw Python (MCP SDK)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EternaHybridExchange/eterna-mcp",
+      "target": "register_agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EternaHybridExchange/eterna-mcp",
+      "target": "get_tickers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EternaHybridExchange/eterna-mcp",
+      "target": "get_instruments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EternaHybridExchange/eterna-mcp",
+      "target": "get_orderbook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EternaHybridExchange/eterna-mcp",
+      "target": "get_balance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EternaHybridExchange/eterna-mcp",
+      "target": "get_positions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EternaHybridExchange/eterna-mcp",
+      "target": "get_orders",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EternaHybridExchange/eterna-mcp",
+      "target": "place_order",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EternaHybridExchange/eterna-mcp",
+      "target": "close_position",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EternaHybridExchange/eterna-mcp",
+      "target": "get_deposit_address",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EternaHybridExchange/eterna-mcp",
+      "target": "get_deposit_records",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EternaHybridExchange/eterna-mcp",
+      "target": "transfer_to_trading",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EternaHybridExchange/eterna-mcp",
+      "target": "trading_guide",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EternaHybridExchange/eterna-mcp",
+      "target": "momentum_scalping_strategy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EternaHybridExchange/eterna-mcp",
+      "target": "place_trade",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EternaHybridExchange/eterna-mcp",
+      "target": "### Cursor",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-17T16:51:41.136432+00:00",
+  "source_repo": "EternaHybridExchange/eterna-mcp"
+}

@@ -1,0 +1,623 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daemon_failsafe.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/heartbeat_typeA.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/heartbeat_typeA.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/heartbeat_typeA.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/recursive_cycle.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/recursive_cycle.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/writeback_distillation.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/writeback_distillation.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/writeback_distillation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "l12203685/digital-immortality",
+      "target": "## How It Works",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "l12203685/digital-immortality",
+      "target": "### recursive_engine.py -- Recursive self-prompt loop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "l12203685/digital-immortality",
+      "target": "### cross_instance_test.py -- Multi-session LLM consistency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "l12203685/digital-immortality",
+      "target": "### trading_system.py -- Economic self-sufficiency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "l12203685/digital-immortality",
+      "target": "### memory_manager.py -- Cross-session persistence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "l12203685/digital-immortality",
+      "target": "Categories:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "l12203685/digital-immortality",
+      "target": "organism_interact.py",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "l12203685/digital-immortality",
+      "target": "consistency_test.py",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "l12203685/digital-immortality",
+      "target": "cross_instance_test.py",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daemon_failsafe.yml",
+      "source_repo": "l12203685/digital-immortality",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daemon_failsafe.yml",
+      "source_repo": "l12203685/digital-immortality",
+      "target": "Daemon Failsafe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/heartbeat_typeA.yml",
+      "source_repo": "l12203685/digital-immortality",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/heartbeat_typeA.yml",
+      "source_repo": "l12203685/digital-immortality",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/heartbeat_typeA.yml",
+      "source_repo": "l12203685/digital-immortality",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/heartbeat_typeA.yml",
+      "source_repo": "l12203685/digital-immortality",
+      "target": "Type A Heartbeat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/recursive_cycle.yml",
+      "source_repo": "l12203685/digital-immortality",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/recursive_cycle.yml",
+      "source_repo": "l12203685/digital-immortality",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/recursive_cycle.yml",
+      "source_repo": "l12203685/digital-immortality",
+      "target": "Recursive Cycle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/recursive_cycle.yml",
+      "source_repo": "l12203685/digital-immortality",
+      "target": "gh workflow run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/recursive_cycle.yml",
+      "source_repo": "l12203685/digital-immortality",
+      "target": "daemon_failsafe.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/writeback_distillation.yml",
+      "source_repo": "l12203685/digital-immortality",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/writeback_distillation.yml",
+      "source_repo": "l12203685/digital-immortality",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/writeback_distillation.yml",
+      "source_repo": "l12203685/digital-immortality",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/writeback_distillation.yml",
+      "source_repo": "l12203685/digital-immortality",
+      "target": "Writeback Distillation to LYH",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "l12203685/digital-immortality",
+      "target": "BaiTianHaoNian/feishu-classmate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "l12203685/digital-immortality",
+      "target": "cbe07883/ASI-Redefined",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "l12203685/digital-immortality",
+      "target": "nowphyy/cursor-ralph-wiggum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "l12203685/digital-immortality",
+      "target": "mrlonellyy/mxjson-spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "l12203685/digital-immortality",
+      "target": "thomastschinkel/prompt-os",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:digital-immortality",
+      "source_file": null,
+      "source_repo": "l12203685/digital-immortality",
+      "target": "markoswire/remember-me.ai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:digital-immortality",
+      "source_file": null,
+      "source_repo": "l12203685/digital-immortality",
+      "target": "agenmod/immortal-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:digital-immortality",
+      "source_file": null,
+      "source_repo": "l12203685/digital-immortality",
+      "target": "WencueCryforme/MySoul.SKILL",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:digital-immortality",
+      "source_file": null,
+      "source_repo": "l12203685/digital-immortality",
+      "target": "Ylsssq926/relic.skill",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-17T16:52:01.384808+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9918
+    },
+    {
+      "path": ".github/workflows/.gitkeep",
+      "size": 0
+    },
+    {
+      "path": ".github/workflows/daemon_failsafe.yml",
+      "size": 2182
+    },
+    {
+      "path": ".github/workflows/heartbeat_typeA.yml",
+      "size": 700
+    },
+    {
+      "path": ".github/workflows/recursive_cycle.yml",
+      "size": 2081
+    },
+    {
+      "path": ".github/workflows/writeback_distillation.yml",
+      "size": 1928
+    }
+  ],
+  "related_repositories": [
+    {
+      "description": "Lab-scenario AI assistant on OpenClaw + MetaClaw + Feishu. 28 agentic skills for robotics lab management.",
+      "discovered_via": "topic:ai-agent",
+      "full_name": "BaiTianHaoNian/feishu-classmate",
+      "graph_distance": 1,
+      "html_url": "https://github.com/BaiTianHaoNian/feishu-classmate",
+      "topics": [
+        "ai-agent",
+        "bitable",
+        "feishu",
+        "lab-management",
+        "lark",
+        "metaclaw",
+        "openclaw",
+        "robotics",
+        "typescript"
+      ],
+      "updated_at": "2026-04-17T16:51:48Z"
+    },
+    {
+      "description": "\ud83e\udd16 Define Artificial Superintelligence with a focus on behavioral coherence, ensuring reliable evaluation and safety in real-world applications.",
+      "discovered_via": "topic:ai-agent",
+      "full_name": "cbe07883/ASI-Redefined",
+      "graph_distance": 1,
+      "html_url": "https://github.com/cbe07883/ASI-Redefined",
+      "topics": [
+        "ai-agent",
+        "ai-behavior",
+        "ai-capability",
+        "ai-measurement",
+        "ai-memory",
+        "ai-origin",
+        "asi",
+        "behavioral-coherence",
+        "coherence",
+        "continuum",
+        "continuum-mechanics",
+        "origin",
+        "origin-alyssa-solen",
+        "superintelligence"
+      ],
+      "updated_at": "2026-04-17T16:51:45Z"
+    },
+    {
+      "description": "\ud83d\uddb1\ufe0f Transform your mouse cursor with Ralph Wiggum, adding a fun and unique touch to your desktop experience.",
+      "discovered_via": "topic:ai-agent",
+      "full_name": "nowphyy/cursor-ralph-wiggum",
+      "graph_distance": 1,
+      "html_url": "https://github.com/nowphyy/cursor-ralph-wiggum",
+      "topics": [
+        "ai-agent",
+        "autonomous-agents",
+        "backlog-ralph",
+        "claude-code",
+        "codex-cli",
+        "cursor-cli",
+        "opencode",
+        "ralph-loop",
+        "ralph-wiggum",
+        "ralphy"
+      ],
+      "updated_at": "2026-04-17T16:51:30Z"
+    },
+    {
+      "description": "\ud83d\ude80 Streamline AI capabilities with MxJSON, a universal protocol for packaging and executing enterprise AI in a portable, audit-ready format.",
+      "discovered_via": "topic:ai-agent",
+      "full_name": "mrlonellyy/mxjson-spec",
+      "graph_distance": 1,
+      "html_url": "https://github.com/mrlonellyy/mxjson-spec",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "automation",
+        "business-logic",
+        "enterprise",
+        "json",
+        "llm",
+        "low-code",
+        "protocol",
+        "workflow"
+      ],
+      "updated_at": "2026-04-17T16:51:13Z"
+    },
+    {
+      "description": "A desktop AI agent that controls your local machine \u2014 runs commands, manages files, executes code, browses the web autonomously etc. Supports Claude, GPT, Gemini, Llama, DeepSeek, and more. .exe available",
+      "discovered_via": "topic:ai-agent",
+      "full_name": "thomastschinkel/prompt-os",
+      "graph_distance": 1,
+      "html_url": "https://github.com/thomastschinkel/prompt-os",
+      "topics": [
+        "agentic-ai",
+        "ai-agent",
+        "anthropic",
+        "autonomous-agent",
+        "browser-use",
+        "customtkinter",
+        "deepseek",
+        "desktop-app",
+        "gemini",
+        "groq",
+        "llm",
+        "local-ai",
+        "multi-provider",
+        "openrouter",
+        "python",
+        "system-automation",
+        "voice-assistant",
+        "web-scraping"
+      ],
+      "updated_at": "2026-04-17T16:50:56Z"
+    },
+    {
+      "description": "Enable AI to actively remember and recreate your digital presence for lasting memory beyond physical life.",
+      "discovered_via": "topic:digital-immortality",
+      "full_name": "markoswire/remember-me.ai",
+      "graph_distance": 1,
+      "html_url": "https://github.com/markoswire/remember-me.ai",
+      "topics": [
+        "ai",
+        "ai-training-data",
+        "archive",
+        "digital-immortality",
+        "digital-legacy",
+        "ethics-in-ai",
+        "genai",
+        "genai-usecase",
+        "generative-ai",
+        "identity",
+        "linkedin-course",
+        "linkedin-learning",
+        "memory",
+        "microsoft",
+        "microsoft-365-copilot",
+        "microsoft-copilot-ai",
+        "microsoft-learning",
+        "open-source",
+        "remember-me"
+      ],
+      "updated_at": "2026-04-17T14:49:54Z"
+    },
+    {
+      "description": "\u267e\ufe0f \u5f00\u6e90\u6570\u5b57\u6c38\u751f\u6846\u67b6 \u2014 \u4ece\u804a\u5929\u8bb0\u5f55\u84b8\u998f\u4efb\u4f55\u4eba\u7684\u4e03\u7ef4\u6570\u5b57\u5206\u8eab\u3002\u652f\u6301\u5fae\u4fe1/\u98de\u4e66/iMessage/Telegram\u7b4912+\u5e73\u53f0\uff0c7\u79cd\u89d2\u8272\u6a21\u677f\uff0c\u5bf9\u9f50 OpenClaw Soul Spec \u6807\u51c6\u3002\u4e00\u884c\u6307\u4ee4\u8ba9\u4f60\u7684AI\u5b66\u4f1a\u84b8\u998f\u3002",
+      "discovered_via": "topic:digital-immortality",
+      "full_name": "agenmod/immortal-skill",
+      "graph_distance": 1,
+      "html_url": "https://github.com/agenmod/immortal-skill",
+      "topics": [
+        "agent-skills",
+        "ai-agent",
+        "chatbot",
+        "cursor",
+        "digital-immortality",
+        "digital-twin",
+        "distillation",
+        "feishu",
+        "llm",
+        "openclaw",
+        "persona",
+        "soul-spec",
+        "wechat"
+      ],
+      "updated_at": "2026-04-17T13:41:44Z"
+    },
+    {
+      "description": "\u6211\u7684\u5fc3\u8df3\u5728\u6b64\u540c\u9891\uff0c\u6211\u7684\u7075\u9b42\u5728\u6b64\u5171\u632f\uff0c\u6211\uff0c\u5728\u6b64\u5b89\u653e\u3002",
+      "discovered_via": "topic:digital-immortality",
+      "full_name": "WencueCryforme/MySoul.SKILL",
+      "graph_distance": 1,
+      "html_url": "https://github.com/WencueCryforme/MySoul.SKILL",
+      "topics": [
+        "agent-skill",
+        "ai-agent",
+        "ai-ethics",
+        "claude-code",
+        "claude-code-skill",
+        "digital-clone",
+        "digital-immortality",
+        "digital-soul",
+        "digital-sovereignty",
+        "digital-twin",
+        "llm",
+        "llm-distillation",
+        "non-traditional",
+        "openclaw",
+        "openclaw-skill",
+        "persona",
+        "plosl",
+        "skill",
+        "skill-md"
+      ],
+      "updated_at": "2026-04-11T13:51:18Z"
+    },
+    {
+      "description": "\u4e07\u7269\u7686\u53ef Relic \u2014 \u7ed9\u7075\u9b42\u5f00\u4e2a GitHub | Universal Digital Immortality Engine \ud83e\uddec",
+      "discovered_via": "topic:digital-immortality",
+      "full_name": "Ylsssq926/relic.skill",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Ylsssq926/relic.skill",
+      "topics": [
+        "agent-skill",
+        "ai-skill",
+        "claude-code",
+        "cline",
+        "cursor",
+        "digital-immortality",
+        "digital-twin",
+        "distillation",
+        "github-copilot",
+        "kiro",
+        "memory",
+        "opencode",
+        "persona",
+        "pet",
+        "relic",
+        "skill-md",
+        "soul",
+        "windsurf"
+      ],
+      "updated_at": "2026-04-17T05:15:02Z"
+    }
+  ],
+  "repo": {
+    "default_branch": "main",
+    "description": "Digital immortality recursive engine",
+    "full_name": "l12203685/digital-immortality",
+    "html_url": "https://github.com/l12203685/digital-immortality",
+    "language": "Python",
+    "pushed_at": "2026-04-17T16:49:37Z",
+    "topics": [
+      "ai-agent",
+      "digital-immortality",
+      "recursive-engine"
+    ],
+    "updated_at": "2026-04-17T16:49:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## How It Works"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### recursive_engine.py -- Recursive self-prompt loop"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### cross_instance_test.py -- Multi-session LLM consistency"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### trading_system.py -- Economic self-sufficiency"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### memory_manager.py -- Cross-session persistence"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Categories:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "organism_interact.py"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "consistency_test.py"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cross_instance_test.py"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daemon_failsafe.yml",
+      "term": "Daemon Failsafe"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/heartbeat_typeA.yml",
+      "term": "Type A Heartbeat"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/recursive_cycle.yml",
+      "term": "Recursive Cycle"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/recursive_cycle.yml",
+      "term": "gh workflow run"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/recursive_cycle.yml",
+      "term": "daemon_failsafe.yml"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/writeback_distillation.yml",
+      "term": "Writeback Distillation to LYH"
+    }
+  ]
+}

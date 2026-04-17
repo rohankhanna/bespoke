@@ -1,0 +1,137 @@
+{
+  "component": "actions/checkout@v4",
+  "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
+  "last_seen_at": "2026-04-17T16:51:41.136432+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto.yml",
+      "source_repo": "Damacol/xai-org-grok-2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto.yml",
+      "source_repo": "Damacol/meta-llama-llama-3-2-3b"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto.yml",
+      "source_repo": "Damacol/google-gemma-2-2b-it"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "CloudLLM-ai/mentisdb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clippy.yml",
+      "source_repo": "CloudLLM-ai/mentisdb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "CloudLLM-ai/mentisdb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "CloudLLM-ai/mentisdb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/daemon_failsafe.yml",
+      "source_repo": "l12203685/digital-immortality"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/heartbeat_typeA.yml",
+      "source_repo": "l12203685/digital-immortality"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/recursive_cycle.yml",
+      "source_repo": "l12203685/digital-immortality"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/writeback_distillation.yml",
+      "source_repo": "l12203685/digital-immortality"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "CjTruHeart/abundance-codex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-no-linked-example.yml",
+      "source_repo": "liveblocks/liveblocks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tony1223/better-agent-terminal"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "SkeneTechnologies/skene"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SkeneTechnologies/skene"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/skills-ci.yml",
+      "source_repo": "SkeneTechnologies/skene"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/skills-publish.yml",
+      "source_repo": "SkeneTechnologies/skene"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tui-ci.yml",
+      "source_repo": "SkeneTechnologies/skene"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tui-release.yml",
+      "source_repo": "SkeneTechnologies/skene"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "klodr/mercury-invoicing-mcp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cli-node-cd.yml",
+      "source_repo": "mem0ai/mem0"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cli-node-ci.yml",
+      "source_repo": "mem0ai/mem0"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cli-python-cd.yml",
+      "source_repo": "mem0ai/mem0"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cli-python-ci.yml",
+      "source_repo": "mem0ai/mem0"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/openclaw-cd.yml",
+      "source_repo": "mem0ai/mem0"
+    }
+  ]
+}

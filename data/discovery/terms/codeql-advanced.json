@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
+  "last_seen_at": "2026-04-17T16:51:41.136432+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "klodr/mercury-invoicing-mcp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "klodr/mercury-invoicing-mcp"
+    }
+  ],
+  "term": "CodeQL Advanced"
+}

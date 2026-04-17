@@ -1,0 +1,657 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "verkyyi/tokenman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "verkyyi/tokenman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "verkyyi/tokenman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "verkyyi/tokenman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "verkyyi/tokenman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "verkyyi/tokenman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "verkyyi/tokenman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "anthropics/claude-code",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "hesreallyhim/awesome-claude-code",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "SethGammon/Citadel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "actions/runner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "withastro/astro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "verkyyi/tokenman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "garrytan/gstack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "humanlayer/humanlayer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "agent-ready",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "agent-ready",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "claude-task.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "evolve.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "triage.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "coder.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "reviewer.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "watcher.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "growth.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "feedback-learner.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "deploy.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "analyze.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "discover.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "claude-task.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "test-evolve.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "sync-labels.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "security-scan.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "CLAUDE_CODE_OAUTH_TOKEN",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "verkyyi/tokenman",
+      "target": "discover.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "verkyyi/tokenman",
+      "target": "@astrojs/sitemap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "verkyyi/tokenman",
+      "target": "@astrojs/tailwind",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "verkyyi/tokenman",
+      "target": "astro",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "verkyyi/tokenman",
+      "target": "tailwindcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "verkyyi/tokenman",
+      "target": "zod",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "verkyyi/tokenman",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "verkyyi/tokenman",
+      "target": "bats",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": ".github/workflows/analyze.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "verkyyi/tokenman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analyze.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "Weekly Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": ".github/workflows/claude-task.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "verkyyi/tokenman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-task.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-task.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-task.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "Claude Task (Manual)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": ".github/workflows/coder.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "verkyyi/tokenman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coder.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coder.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coder.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "Coder Agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "verkyyi/tokenman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "actions/upload-pages-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "actions/deploy-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "Deploy to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": ".github/workflows/discover.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "verkyyi/tokenman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discover.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/discover.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "Discover Project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": ".github/workflows/evolve.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "verkyyi/tokenman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evolve.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/evolve.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "Self-Evolve",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/evolve.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "date -u +%H",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": ".github/workflows/feedback-learner.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "verkyyi/tokenman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/feedback-learner.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/feedback-learner.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/feedback-learner.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "Feedback Learner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": ".github/workflows/growth.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "verkyyi/tokenman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/growth.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/growth.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "Growth Strategist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/growth.yml",
+      "source_repo": "verkyyi/tokenman",
+      "target": "growth-action,needs-review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "topic:agent-harness",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "mupozg823/codelens-mcp-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:agent-harness",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "lobehub/lobehub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:agent-harness",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "caesar0301/soothe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:agent-harness",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "NeuroverseOS/Neuroverseos-governance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "BaiTianHaoNian/feishu-classmate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "cbe07883/ASI-Redefined",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "killertcell428/aigis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "nowphyy/cursor-ralph-wiggum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "mrlonellyy/mxjson-spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:astro",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "Shoggo-ai/seniorvigil",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:astro",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "wblondel/blog",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:astro",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "dm0x23/Portfolio-website",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:astro",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "frank-syncmarket/skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:astro",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "Enxs969/skiller",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:autonomous",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "FlineDev/TandemKit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:autonomous",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "kimosahy/railroaded",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:autonomous",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "Narutoxdd6/Nyro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:autonomous",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "PX4/PX4-Autopilot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "Mohsen6210/dasd-thinking",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude",
+      "source_file": null,
+      "source_repo": "verkyyi/tokenman",
+      "target": "JesusJimenezC/pencil-atelier",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-17T16:51:41.136432+00:00",
+  "source_repo": "verkyyi/tokenman"
+}

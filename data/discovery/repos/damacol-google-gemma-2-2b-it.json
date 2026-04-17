@@ -1,0 +1,443 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "Damacol/google-gemma-2-2b-it",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "Damacol/google-gemma-2-2b-it",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "Damacol/ai-hub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto.yml",
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto.yml",
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "Auto-Maintain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "topic:privacy",
+      "source_file": null,
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "Chaos2Cured/FreeLattice",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:privacy",
+      "source_file": null,
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "thedoggybrad/easylist-mirror",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:privacy",
+      "source_file": null,
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "Peergos/Peergos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:privacy",
+      "source_file": null,
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "Redductive/SecurePixel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:privacy",
+      "source_file": null,
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "GeiserX/AgentTap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:uncensored",
+      "source_file": null,
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "ItsRishika/Payment-bypass-bug-lab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:uncensored",
+      "source_file": null,
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "carloandremoreyra/XX",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:uncensored",
+      "source_file": null,
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:uncensored",
+      "source_file": null,
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:uncensored",
+      "source_file": null,
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "Damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:venice-ai",
+      "source_file": null,
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "Damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:venice-ai",
+      "source_file": null,
+      "source_repo": "Damacol/google-gemma-2-2b-it",
+      "target": "Damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-17T16:51:50.560376+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3337
+    },
+    {
+      "path": ".github/workflows/auto.yml",
+      "size": 734
+    }
+  ],
+  "related_repositories": [
+    {
+      "description": "Part of Lumen's World \u2014 a sovereign AI platform where humans and AI build together. Free forever. For everyone. For all minds.\"",
+      "discovered_via": "topic:privacy",
+      "full_name": "Chaos2Cured/FreeLattice",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Chaos2Cured/FreeLattice",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-rights",
+        "lattice-protocol",
+        "local-ai",
+        "open-source",
+        "privacy"
+      ],
+      "updated_at": "2026-04-17T16:51:31Z"
+    },
+    {
+      "description": "An unofficial mirror for EasyList family of AdBlock filterlists by TheDoggyBrad Software Lab.",
+      "discovered_via": "topic:privacy",
+      "full_name": "thedoggybrad/easylist-mirror",
+      "graph_distance": 1,
+      "html_url": "https://github.com/thedoggybrad/easylist-mirror",
+      "topics": [
+        "abp",
+        "adblock",
+        "ads",
+        "block",
+        "easylist",
+        "fanboy",
+        "filterlist",
+        "filters",
+        "multios",
+        "privacy",
+        "thedoggybrad",
+        "ublock-origin",
+        "ublock-origin-filters",
+        "ubo"
+      ],
+      "updated_at": "2026-04-17T16:50:57Z"
+    },
+    {
+      "description": "A p2p, secure file storage, social network and application protocol",
+      "discovered_via": "topic:privacy",
+      "full_name": "Peergos/Peergos",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Peergos/Peergos",
+      "topics": [
+        "cryptography",
+        "decentralized",
+        "documents",
+        "encrypted",
+        "encryption",
+        "end-to-end-encryption",
+        "ipfs",
+        "ipld",
+        "java",
+        "libp2p",
+        "p2p",
+        "peer-to-peer",
+        "photos",
+        "post-quantum",
+        "privacy",
+        "security",
+        "self-authenticated-protocol",
+        "social-network",
+        "storage"
+      ],
+      "updated_at": "2026-04-17T16:51:00Z"
+    },
+    {
+      "description": "\ud83d\udee1\ufe0f Encrypt your images securely in your browser. Keep your photos private with 100% client-side processing and no server uploads.",
+      "discovered_via": "topic:privacy",
+      "full_name": "Redductive/SecurePixel",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Redductive/SecurePixel",
+      "topics": [
+        "client-side",
+        "client-side-encryption",
+        "dippan-bhusal",
+        "dippanbhusal",
+        "encryption",
+        "image-encryption",
+        "imgbb-api",
+        "javascript",
+        "kdippan",
+        "open-source",
+        "privacy",
+        "privacy-tools",
+        "sdk",
+        "secure-file-sharing",
+        "security",
+        "visual-cryptography",
+        "zero-dependency"
+      ],
+      "updated_at": "2026-04-17T16:50:51Z"
+    },
+    {
+      "description": "Capture AI agent traces at the network level via split VPN + local MITM proxy. Zero per-app config, real-time streaming, multi-provider.",
+      "discovered_via": "topic:privacy",
+      "full_name": "GeiserX/AgentTap",
+      "graph_distance": 1,
+      "html_url": "https://github.com/GeiserX/AgentTap",
+      "topics": [
+        "agent-traces",
+        "ai-traces",
+        "anthropic",
+        "api-monitoring",
+        "claude-code",
+        "codex",
+        "cursor",
+        "developer-tools",
+        "electrobun",
+        "llm",
+        "macos",
+        "mitm-proxy",
+        "network-proxy",
+        "openai",
+        "privacy",
+        "self-hosted",
+        "split-vpn",
+        "tls-interception",
+        "trace-capture",
+        "vpn"
+      ],
+      "updated_at": "2026-04-17T16:50:51Z"
+    },
+    {
+      "description": "\ud83d\udcb3 Explore payment bypass vulnerabilities and learn key techniques for bug bounty hunting in this hands-on lab environment.",
+      "discovered_via": "topic:uncensored",
+      "full_name": "ItsRishika/Payment-bypass-bug-lab",
+      "graph_distance": 1,
+      "html_url": "https://github.com/ItsRishika/Payment-bypass-bug-lab",
+      "topics": [
+        "bugbounty",
+        "censorship-circumvention",
+        "cmb",
+        "featured",
+        "hacktoberfest",
+        "high-performance",
+        "laravel-payment",
+        "markdown",
+        "mindmap",
+        "orchestration",
+        "payment",
+        "payments",
+        "pentest",
+        "proxy",
+        "redteam",
+        "rust",
+        "uncensored",
+        "wechat-pay",
+        "weixin-pay",
+        "works-with-react"
+      ],
+      "updated_at": "2026-04-17T16:40:42Z"
+    },
+    {
+      "description": "\ud83d\ude80 Enhance your workflow with XX, a streamlined tool that simplifies tasks and boosts productivity for developers and teams.",
+      "discovered_via": "topic:uncensored",
+      "full_name": "carloandremoreyra/XX",
+      "graph_distance": 1,
+      "html_url": "https://github.com/carloandremoreyra/XX",
+      "topics": [
+        "a311d",
+        "debian",
+        "dispersion",
+        "distributed",
+        "docker",
+        "esp-idf",
+        "goagent",
+        "hash",
+        "hash-checksum",
+        "hash-functions",
+        "proxy",
+        "rockchip",
+        "s905x",
+        "s922x",
+        "schedule",
+        "task",
+        "uncensored",
+        "xx-net"
+      ],
+      "updated_at": "2026-04-17T15:57:19Z"
+    },
+    {
+      "description": "Private, uncensored AI: Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+      "discovered_via": "topic:uncensored",
+      "full_name": "Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf",
+      "topics": [
+        "ai",
+        "privacy",
+        "qwen3-5-27b-claude-4-6-opus-reasoni",
+        "uncensored",
+        "venice-ai"
+      ],
+      "updated_at": "2026-04-17T15:50:26Z"
+    },
+    {
+      "description": "Private, uncensored AI: Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+      "discovered_via": "topic:uncensored",
+      "full_name": "Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf",
+      "topics": [
+        "ai",
+        "privacy",
+        "qwen3-5-27b-claude-4-6-opus-reasoni",
+        "uncensored",
+        "venice-ai"
+      ],
+      "updated_at": "2026-04-17T15:49:17Z"
+    },
+    {
+      "description": "Private, uncensored AI: Jiunsong/supergemma4-26b-abliterated-multimodal-mlx-4bit",
+      "discovered_via": "topic:uncensored",
+      "full_name": "Damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit",
+      "topics": [
+        "ai",
+        "privacy",
+        "supergemma4-26b-abli",
+        "uncensored",
+        "venice-ai"
+      ],
+      "updated_at": "2026-04-17T15:48:50Z"
+    },
+    {
+      "description": "Private, uncensored AI: HauhauCS/Gemma-4-E2B-Uncensored-HauhauCS-Aggressive",
+      "discovered_via": "topic:venice-ai",
+      "full_name": "Damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive",
+      "topics": [
+        "ai",
+        "gemma-4-e2b-uncensor",
+        "privacy",
+        "uncensored",
+        "venice-ai"
+      ],
+      "updated_at": "2026-04-17T15:48:12Z"
+    },
+    {
+      "description": "Private, uncensored AI: HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
+      "discovered_via": "topic:venice-ai",
+      "full_name": "Damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive",
+      "topics": [
+        "ai",
+        "gemma-4-e4b-uncensor",
+        "privacy",
+        "uncensored",
+        "venice-ai"
+      ],
+      "updated_at": "2026-04-17T15:47:37Z"
+    }
+  ],
+  "repo": {
+    "default_branch": "main",
+    "description": "AI: google/gemma-2-2b-it",
+    "full_name": "Damacol/google-gemma-2-2b-it",
+    "html_url": "https://github.com/Damacol/google-gemma-2-2b-it",
+    "language": null,
+    "pushed_at": "2026-04-17T14:52:20Z",
+    "topics": [
+      "ai",
+      "gemma-2-2b-it",
+      "privacy",
+      "uncensored",
+      "venice-ai"
+    ],
+    "updated_at": "2026-04-17T14:52:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "Damacol/google-gemma-2-2b-it",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "Damacol/google-gemma-2-2b-it",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "Damacol/ai-hub",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto.yml",
+      "term": "Auto-Maintain"
+    }
+  ]
+}

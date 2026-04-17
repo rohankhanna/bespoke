@@ -1,0 +1,3534 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdbd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Summary",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_recent_context",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "skill_id",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_recent_context",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "agent_id",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "bash cargo install mentisdb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "bash mentisdbd wizard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Or target one integration explicitly:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Then start the daemon:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "bash mentisdbd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "bash nohup mentisdbd &",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "tells the agent to read",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "delivers the embedded operating skill -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "contains: - the standalone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "daemon binary - dedicated tests under",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "bash make build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Or directly with Cargo:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "bash cargo build --release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "bash cargo build --no-default-features",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "bash make test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Or directly:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "bash cargo test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Run tests for the library-only build:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "bash cargo test --no-default-features",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Run rustdoc tests:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "bash cargo test --doc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "bash make bench",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Or directly:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "bash cargo bench",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Results are also written to",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdbd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "DashMap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "bash make doc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Or directly:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "bash cargo doc --no-deps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Generate docs for the library-only build:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "bash cargo doc --no-deps --no-default-features",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "bash cargo run --bin mentisdbd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Install it from the crate directory:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "valid_at",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "invalid_at",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdbd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MENTISDB_DIR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MENTISDB_DEFAULT_CHAIN_KEY",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "chain_key",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "borganism-brain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MENTISDB_DEFAULT_KEY",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MENTISDB_STORAGE_ADAPTER",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "binary",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "binary",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MENTISDB_VERBOSE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "true",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MENTISDB_VERBOSE=true",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MENTISDB_BIND_HOST",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "127.0.0.1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MENTISDB_MCP_PORT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "9471",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MENTISDB_REST_PORT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "9472",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MENTISDB_DASHBOARD_PORT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "9475",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "to disable the web dashboard. -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MENTISDB_AUTO_FLUSH",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "binary",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "true",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "append_thought",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "false",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "FLUSH_THRESHOLD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "adapter. -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Background GitHub release check for",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": ", or",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Optional GitHub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "override used by the updater. Default:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "HTTPS MCP server port. Default:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "to disable HTTPS MCP. -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "HTTPS REST server port. Default:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "to disable HTTPS REST. -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MENTISDB_TLS_KEY",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MENTISDB_STARTUP_SOUND",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "true",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": ", or",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "to silence. -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": ", or",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "to enable. -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Supersedes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MENTISDB_DEDUP_SCAN_WINDOW",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "### Automatic Update Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "cargo install",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "0.6.1.14",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "0.6.1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "command instead Disable the automatic check:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "bash MENTISDB_UPDATE_CHECK=0 \\ mentisdbd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "REST endpoints: -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "### Append Thought \u2014",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": ", and",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "are optional.",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "accepts:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "and",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "as_of",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MentisDb::query(&ThoughtQuery)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "thought_type",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "role",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "agent_id",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "content",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "agent_id",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "limit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "ThoughtQuery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "ThoughtQuery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "RankedSearchQuery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "RankedSearchGraph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MentisDb::query_context_bundles(&RankedSearchQuery)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MentisDb::query_ranked(&RankedSearchQuery)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "ThoughtQuery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "ThoughtQuery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "RankedSearchQuery.filter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MentisDb::query",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "lexical",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "hybrid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "hybrid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "lexical_graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "hybrid_graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "refs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "relations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "as_of",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "valid_at",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "invalid_at",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "scope",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "user",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "session",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "heuristic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "total_candidates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "limit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "matched_terms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "match_sources",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "content",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "tags",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "concepts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "agent_id",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "agent_registry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "vector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "graph_distance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "graph_seed_paths",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "graph_relation_kinds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "graph_path",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "query_context_bundles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Lexical + graph ranked example:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Temporal and scoped ranked example:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Vector-backed ranked example:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Grouped context example:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Product rule: - keep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "query_ranked",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "query_context_bundles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "prefers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "preferred",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "preferences",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "prefer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MAX_GRAPH_SEEDS=20",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "ContinuesFrom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "as_of",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "RankedSearchQuery::with_as_of(rfc3339)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "valid_at",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "invalid_at",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "scope",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "scope",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "user",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "session",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "RankedSearchQuery::with_scope(MemoryScope::Session)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Supersedes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MENTISDB_DEDUP_THRESHOLD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Supersedes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "invalidated_thought_ids",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "entity_type",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "ThoughtQuery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "entity_type",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "chain_key-entity-types.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "enable_reranking=true",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "rerank_k",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "k=60",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Bm25DfCutoffs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "LexicalQuery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "search::EmbeddingProvider",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "search::EmbeddingMetadata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "search::VectorSidecar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "VectorSearchQuery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MentisDb::vector_sidecar_path(&EmbeddingMetadata)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MentisDb::load_vector_sidecar(&EmbeddingMetadata)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MentisDb::vector_sidecar_freshness(&VectorSidecar, &EmbeddingMetadata)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MentisDb::rebuild_vector_sidecar(&provider)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MentisDb::manage_vector_sidecar(provider)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MentisDb::unmanage_vector_sidecar(&EmbeddingMetadata)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MentisDb::managed_vector_sidecars()",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MentisDb::apply_persisted_managed_vector_sidecars()",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MentisDb::managed_vector_sidecar_statuses()",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MentisDb::set_managed_vector_sidecar_enabled(kind, enabled)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MentisDb::sync_managed_vector_sidecar_now(kind)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MentisDb::rebuild_managed_vector_sidecar_from_scratch(kind)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MentisDb::query_vector(&provider, &VectorSearchQuery)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "chain_key",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "thought_id",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "thought_hash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "model_id",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Fresh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdbd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdbd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "fastembed-minilm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "local-text-v1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Example response:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "and the response includes a non-zero",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "backend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "total_bundles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "consumed_hits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_ranked_search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_context_bundles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MEMORY.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MENTISDB_DASHBOARD_PIN",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdbd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "When the daemon is running,",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "calls",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb.manifest.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "*.tcbin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "*.agents.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "*.entity-types.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "*.vectors.*.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb-registry.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb-skills.bin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb-webhooks.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Returns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_bootstrap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_append",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_append_retrospective",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_lexical_search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_ranked_search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "as_of",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "scope",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_context_bundles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_list_chains",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_merge_chains",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_branch_from",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_list_agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_get_agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_list_agent_registry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_upsert_agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_set_agent_description",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_add_agent_alias",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_add_agent_key",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_revoke_agent_key",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_disable_agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_recent_context",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_memory_markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MEMORY.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_import_memory_markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MEMORY.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_get_thought",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_get_genesis_thought",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_traverse_thoughts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_skill_md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MENTISDB_SKILL.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_list_skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_skill_manifest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_upload_skill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_search_skill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_read_skill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_skill_versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_deprecate_skill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_revoke_skill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_head",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_register_webhook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_list_webhooks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_delete_webhook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MENTISDB_MCP.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MENTISDB_REST.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "head",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "genesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "refs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "hash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "index",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "genesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "head",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "forward",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "backward",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "include_anchor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "chunk_size = 1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "start + delta",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "seconds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "milliseconds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "SkillDocument",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "SkillDocument",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "SkillDocument",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "SkillDocument",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "agent_id",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "skill_id",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "read_skill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "SKILL.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "skill_id",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "SkillVersionContent::Full",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "SkillVersionContent::Delta",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "version_number",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "version_id",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "read_skill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_read_skill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "skill_versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_skill_versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "signing_key_id",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "key_id",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_add_agent_key",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "skill_signature",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "or via MCP:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "signing_key_id",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "skill_signature",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "or via MCP:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdbd setup claude-desktop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "npm install -g mcp-remote",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdbd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mcp-remote",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdbd run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "3. Or run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "2. Add the MCP server:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "### Codex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "### Qwen Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "and",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "cloudllm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Useful follow-up commands:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Useful follow-up commands:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "bash qwen mcp list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "For user-scoped configuration:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdbd --mode stdio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdbd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mcp-remote",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mcp-remote",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "bash mentisdbd setup claude-desktop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "on PATH - installs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "via",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "if missing - writes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "with the correct absolute paths to",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "and",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "bash npm install -g mcp-remote",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "%APPDATA%\\Claude\\claude_desktop_config.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mcp-remote",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mcp-remote",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "**macOS (with Homebrew Node):**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "**Windows:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Use",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "and",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mcp-remote",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "initialize",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mcp-remote",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "sudo security add-trusted-cert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "env",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mcp-remote",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mcp-remote",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mcp-remote",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdbd --mode stdio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "127.0.0.1:9471",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "initialize",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "ping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "nohup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MentisDbService",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdbd --mode stdio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MENTISDB_BIND_HOST",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MENTISDB_MCP_PORT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "claude mcp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Useful follow-up commands:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "merges the MCP server entry into",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "(or",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Important: -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdbd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Server Name",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Server Type",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "HTTP",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "URL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "XDG_CONFIG_HOME",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "### Basic Example",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "### LangChain Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "ThoughtInput",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "The extraction uses",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_append",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mentisdb_append_retrospective",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "thought_type",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "LessonLearned",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "role = Retrospective",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "refs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "ThoughtType",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "ThoughtRole",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "PreferenceUpdate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "UserTrait",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "RelationshipUpdate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Finding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Insight",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "FactLearned",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "PatternDetected",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Hypothesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Surprise",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Mistake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Correction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "LessonLearned",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "AssumptionInvalidated",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Reframe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Constraint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Plan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Subgoal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Goal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Decision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "StrategyShift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Wonder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Question",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Idea",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Experiment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "ActionTaken",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "TaskComplete",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Checkpoint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "StateSnapshot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Handoff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Summary",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "LLMExtracted",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Memory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "WorkingMemory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Summary",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Checkpoint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Handoff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Retrospective",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "ThoughtType",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "ThoughtRole",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MemoryScope",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "User",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Session",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "scope:user",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "scope:session",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "scope:agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "ThoughtInput::with_scope(MemoryScope)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "RankedSearchQuery::with_scope(MemoryScope)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "scope",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "user",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "session",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "scope",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "chain_key",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "agent_id",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "display_name",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "agent_owner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "description",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "aliases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "public_keys",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "thought_count",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "first_seen_index",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "last_seen_index",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "agent_id",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "agent_name",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "agent_owner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MENTISDB_MCP.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "MENTISDB_REST.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "CloudLLM-ai/mentisdb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy.yml",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy.yml",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy.yml",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clippy.yml",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Clippy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Publish pymentisdb to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "topic:ai-agents",
+      "source_file": null,
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Chaos2Cured/FreeLattice",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agents",
+      "source_file": null,
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "erikceballos/nano-banana-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agents",
+      "source_file": null,
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "gopi2211/ralph",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agents",
+      "source_file": null,
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Shubishere/ai-drawio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agents",
+      "source_file": null,
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "PiQrypt/piqrypt-mcp-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude",
+      "source_file": null,
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "rrsaldanha/burp-mcp-agents",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude",
+      "source_file": null,
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "cyber404/che-apple-mail-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:claude",
+      "source_file": null,
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "gerardtschanz/revenue-os",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:codex",
+      "source_file": null,
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "XiaoChu-1208/interview-assistant-CLI",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:codex",
+      "source_file": null,
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "JSLEEKR/skilldigest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:codex",
+      "source_file": null,
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "Qjzn/codexui-server-bridge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:codex",
+      "source_file": null,
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "GeiserX/AgentTap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:codex",
+      "source_file": null,
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "DevHulk258/CodexMonitor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:copilot",
+      "source_file": null,
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "bunny459/piv-speckit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:copilot",
+      "source_file": null,
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "FrxshSpamzL2/csharp_Repomap_for_Agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:copilot",
+      "source_file": null,
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "alex11111112312/ComfyUI-qwenmultianglelight",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:copilot",
+      "source_file": null,
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "mrnainop/cctx-importer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:copilot",
+      "source_file": null,
+      "source_repo": "CloudLLM-ai/mentisdb",
+      "target": "dyaa9511/retype_llms",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-17T16:51:41.136432+00:00",
+  "source_repo": "CloudLLM-ai/mentisdb"
+}

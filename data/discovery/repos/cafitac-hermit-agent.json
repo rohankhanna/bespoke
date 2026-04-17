@@ -1,0 +1,554 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cafitac/hermit-agent",
+      "target": "cafitac/hermit_agent.git",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cafitac/hermit-agent",
+      "target": "*.pem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cafitac/hermit-agent",
+      "target": "*.key",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cafitac/hermit-agent",
+      "target": "credentials*",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cafitac/hermit-agent",
+      "target": "audience",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cafitac/hermit-agent",
+      "target": "## Quick start **Standalone CLI:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cafitac/hermit-agent",
+      "target": "See",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cafitac/hermit-agent",
+      "target": "run_task",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cafitac/hermit-agent",
+      "target": "reply_task",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cafitac/hermit-agent",
+      "target": "check_task",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cafitac/hermit-agent",
+      "target": "cancel_task",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cafitac/hermit-agent",
+      "target": "waiting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cafitac/hermit-agent",
+      "target": "running",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cafitac/hermit-agent",
+      "target": "done",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cafitac/hermit-agent",
+      "target": "## Notable commands -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cafitac/hermit-agent",
+      "target": "HERMIT_AUTO_WRAP=1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cafitac/hermit-agent",
+      "target": "validated_on_models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cafitac/hermit-agent",
+      "target": "excluded_models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cafitac/hermit-agent",
+      "target": "needs_review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cafitac/hermit-agent",
+      "target": "opus-4-7",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cafitac/hermit-agent",
+      "target": "glm-5.1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cafitac/hermit-agent",
+      "target": "qwen3-coder:30b",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cafitac/hermit-agent",
+      "target": "mcp__hermit__run_task",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cafitac/hermit-agent",
+      "target": "cc-learner delegate-prompt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cafitac/hermit-agent",
+      "target": "\u2014 it only reads",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cafitac/hermit-agent",
+      "target": "and",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "cafitac/hermit-agent",
+      "target": "cafitac/hermit-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "cafitac/hermit-agent",
+      "target": "cafitac/hermit-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "cafitac/hermit-agent",
+      "target": "cafitac/hermit-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "cafitac/hermit-agent",
+      "target": "cafitac/hermit-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "cafitac/hermit-agent",
+      "target": "BaiTianHaoNian/feishu-classmate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "cafitac/hermit-agent",
+      "target": "Mohsen6210/dasd-thinking",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "cafitac/hermit-agent",
+      "target": "cbe07883/ASI-Redefined",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "cafitac/hermit-agent",
+      "target": "killertcell428/aigis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "topic:ai-agent",
+      "source_file": null,
+      "source_repo": "cafitac/hermit-agent",
+      "target": "nowphyy/cursor-ralph-wiggum",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-17T16:52:09.609556+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7805
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1935
+    }
+  ],
+  "related_repositories": [
+    {
+      "description": "Lab-scenario AI assistant on OpenClaw + MetaClaw + Feishu. 28 agentic skills for robotics lab management.",
+      "discovered_via": "topic:ai-agent",
+      "full_name": "BaiTianHaoNian/feishu-classmate",
+      "graph_distance": 1,
+      "html_url": "https://github.com/BaiTianHaoNian/feishu-classmate",
+      "topics": [
+        "ai-agent",
+        "bitable",
+        "feishu",
+        "lab-management",
+        "lark",
+        "metaclaw",
+        "openclaw",
+        "robotics",
+        "typescript"
+      ],
+      "updated_at": "2026-04-17T16:51:48Z"
+    },
+    {
+      "description": "\ud83e\udd16 Distill sequences effectively with DASD-Thinking for improved long-context reasoning and performance in complex tasks.",
+      "discovered_via": "topic:ai-agent",
+      "full_name": "Mohsen6210/dasd-thinking",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Mohsen6210/dasd-thinking",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "book",
+        "chatgpt",
+        "claude",
+        "computational-thinking",
+        "guidance",
+        "interview",
+        "java",
+        "kotlin",
+        "mercyblitz",
+        "mit",
+        "rails",
+        "redis",
+        "ruby",
+        "samples",
+        "sphinx",
+        "spring",
+        "spring-boot",
+        "thinking-in-spring-boot"
+      ],
+      "updated_at": "2026-04-17T16:51:48Z"
+    },
+    {
+      "description": "\ud83e\udd16 Define Artificial Superintelligence with a focus on behavioral coherence, ensuring reliable evaluation and safety in real-world applications.",
+      "discovered_via": "topic:ai-agent",
+      "full_name": "cbe07883/ASI-Redefined",
+      "graph_distance": 1,
+      "html_url": "https://github.com/cbe07883/ASI-Redefined",
+      "topics": [
+        "ai-agent",
+        "ai-behavior",
+        "ai-capability",
+        "ai-measurement",
+        "ai-memory",
+        "ai-origin",
+        "asi",
+        "behavioral-coherence",
+        "coherence",
+        "continuum",
+        "continuum-mechanics",
+        "origin",
+        "origin-alyssa-solen",
+        "superintelligence"
+      ],
+      "updated_at": "2026-04-17T16:51:45Z"
+    },
+    {
+      "description": "The open-source firewall for AI agents. Block prompt injections, jailbreaks, and data leaks before they reach your LLM.",
+      "discovered_via": "topic:ai-agent",
+      "full_name": "killertcell428/aigis",
+      "graph_distance": 1,
+      "html_url": "https://github.com/killertcell428/aigis",
+      "topics": [
+        "ai-agent",
+        "ai-security",
+        "compliance",
+        "cybersecurity",
+        "firewall",
+        "guardrails",
+        "jailbreak-detection",
+        "llm",
+        "mcp",
+        "open-source",
+        "owasp",
+        "prompt-injection",
+        "python"
+      ],
+      "updated_at": "2026-04-17T16:51:35Z"
+    },
+    {
+      "description": "\ud83d\uddb1\ufe0f Transform your mouse cursor with Ralph Wiggum, adding a fun and unique touch to your desktop experience.",
+      "discovered_via": "topic:ai-agent",
+      "full_name": "nowphyy/cursor-ralph-wiggum",
+      "graph_distance": 1,
+      "html_url": "https://github.com/nowphyy/cursor-ralph-wiggum",
+      "topics": [
+        "ai-agent",
+        "autonomous-agents",
+        "backlog-ralph",
+        "claude-code",
+        "codex-cli",
+        "cursor-cli",
+        "opencode",
+        "ralph-loop",
+        "ralph-wiggum",
+        "ralphy"
+      ],
+      "updated_at": "2026-04-17T16:51:30Z"
+    }
+  ],
+  "repo": {
+    "default_branch": "main",
+    "description": "Local LLM coding agent that reproduces the Claude Code workflow \u2014 on your hardware, with your models.",
+    "full_name": "cafitac/hermit-agent",
+    "html_url": "https://github.com/cafitac/hermit-agent",
+    "language": "Python",
+    "pushed_at": "2026-04-17T12:49:00Z",
+    "topics": [
+      "ai-agent",
+      "claude-code",
+      "coding-agent",
+      "developer-tools",
+      "fastapi",
+      "llm",
+      "local-llm",
+      "mcp",
+      "ollama",
+      "python"
+    ],
+    "updated_at": "2026-04-17T13:10:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cafitac/hermit_agent.git",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cafitac/hermit-agent",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cafitac/hermit-agent",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cafitac/hermit-agent",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cafitac/hermit-agent",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "*.pem"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "*.key"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "credentials*"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "audience"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## Quick start **Standalone CLI:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "See"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "run_task"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "reply_task"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "check_task"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cancel_task"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "waiting"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "running"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "done"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## Notable commands -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "HERMIT_AUTO_WRAP=1"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "validated_on_models"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "excluded_models"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "needs_review"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "opus-4-7"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "glm-5.1"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "qwen3-coder:30b"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "mcp__hermit__run_task"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cc-learner delegate-prompt"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u2014 it only reads"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "and"
+    }
+  ]
+}

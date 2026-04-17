@@ -1,0 +1,17 @@
+{
+  "component": "actions/setup-go@v5",
+  "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
+  "last_seen_at": "2026-04-17T16:51:41.136432+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tui-ci.yml",
+      "source_repo": "SkeneTechnologies/skene"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tui-release.yml",
+      "source_repo": "SkeneTechnologies/skene"
+    }
+  ]
+}

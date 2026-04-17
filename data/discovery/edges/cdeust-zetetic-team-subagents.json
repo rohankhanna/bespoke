@@ -1,0 +1,748 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "cdeust/zetetic-team-subagents.git",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "cdeust/ai-automatised-pipeline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "cdeust/Cortex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "cdeust/ai-automatised-pipeline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "cdeust/prd-spec-generator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "The plugin ships a",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "plugin.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "postInstall",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "### Manual install (no plugin system)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "Skills-only (no agents):",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "setup.sh configure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "effort",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "setup.sh configure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "refactorer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "latex-engineer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "engineer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "code-reviewer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "test-engineer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "frontend-engineer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "dba",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "devops-engineer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "data-scientist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "experiment-runner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "mlops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "ux-designer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "professor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "orchestrator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "architect",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "security-auditor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "research-scientist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "paper-writer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "reviewer-academic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "setup.sh update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "engineer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "architect",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "code-reviewer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "security-auditor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "research-scientist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "**Profile meanings:** -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "DISABLE_UNSOURCED=true",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "SKIP_RULE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "EXCLUDE_RULE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "zetetic-checker.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "ERRORS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "WARNINGS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "# source:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "ZETETIC_PROFILE=permissive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "bash ZETETIC_PROFILE=permissive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "refactorer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "code-reviewer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "ZETETIC_PROFILE=standard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "bash ZETETIC_PROFILE=standard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "strict",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "ZETETIC_PROFILE=strict",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "Proactively",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "model: haiku",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "genius-invoker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "provenance-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "lab-notebook-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "research-session-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "docker-runner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "mlx-compute",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "live-preview",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "shape-router",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "zetetic-checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "difficulty-book-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "agent-catalog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "worktree-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "balance-auditor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "profile-runner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "skill-runner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "session-store",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "hook-runner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "pre-commit-zetetic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "pre-push-review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "pre-push-provenance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "pre-tool-claim-gate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "pre-edit-layer-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "post-research-provenance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "post-commit-difficulty",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "post-commit-lab-notebook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "post-edit-balance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "post-tool-error-routing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "session-start",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "session-start-research",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "session-end",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "notification-handler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "when_to_use",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "ai-architect",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "ai-automatised-pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "Glob",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "Grep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "Read",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "mcp__ai-architect__get_symbol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "mcp__ai-architect__get_impact",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "mcp__ai-architect__search_codebase",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "grep -r",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "mcp__ai-architect__get_processes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "mcp__ai-architect__detect_changes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "mcp__ai-architect__check_security_gates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "mcp__ai-architect__cluster_graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "mcp__ai-architect__query_graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "Each updated agent now contains a",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "Grep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/zetetic-team-subagents",
+      "target": "Read",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-17T16:51:41.136432+00:00",
+  "source_repo": "cdeust/zetetic-team-subagents"
+}

@@ -1,0 +1,214 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/google.yml"
+    },
+    {
+      "component": "google-github-actions/auth@f112390a2df9932162083945e46d439060d66ec2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/google.yml"
+    },
+    {
+      "component": "docker/login-action@9780b0c442fbb1117ed29e0efdff1e18412f7567",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/google.yml"
+    },
+    {
+      "component": "google-github-actions/get-gke-credentials@6051de21ad50fbb1767bc93c11357a49082ad116",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/google.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GIBDD-DPS/prizolov-agent-os",
+      "target": "GIBDD-DPS/prizolov-agent-os",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GIBDD-DPS/prizolov-agent-os",
+      "target": "GIBDD-DPS/prizolov-agent-os",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "GIBDD-DPS/prizolov-agent-os",
+      "target": "GIBDD-DPS/prizolov-agent-os",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "GIBDD-DPS/prizolov-agent-os",
+      "target": "GIBDD-DPS/prizolov-agent-os",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "GIBDD-DPS/prizolov-agent-os",
+      "target": "GIBDD-DPS/prizolov-agent-os",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "GIBDD-DPS/prizolov-agent-os",
+      "target": "GIBDD-DPS/prizolov-agent-os",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": ".github/workflows/google.yml",
+      "source_repo": "GIBDD-DPS/prizolov-agent-os",
+      "target": "google-github-actions/auth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": ".github/workflows/google.yml",
+      "source_repo": "GIBDD-DPS/prizolov-agent-os",
+      "target": "google-github-actions/auth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": ".github/workflows/google.yml",
+      "source_repo": "GIBDD-DPS/prizolov-agent-os",
+      "target": "kubernetes-sigs/kustomize",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/google.yml",
+      "source_repo": "GIBDD-DPS/prizolov-agent-os",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/google.yml",
+      "source_repo": "GIBDD-DPS/prizolov-agent-os",
+      "target": "google-github-actions/auth@f112390a2df9932162083945e46d439060d66ec2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/google.yml",
+      "source_repo": "GIBDD-DPS/prizolov-agent-os",
+      "target": "docker/login-action@9780b0c442fbb1117ed29e0efdff1e18412f7567",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/google.yml",
+      "source_repo": "GIBDD-DPS/prizolov-agent-os",
+      "target": "google-github-actions/get-gke-credentials@6051de21ad50fbb1767bc93c11357a49082ad116",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/google.yml",
+      "source_repo": "GIBDD-DPS/prizolov-agent-os",
+      "target": "Build and Deploy to GKE",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-17T16:52:18.345548+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2306
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2889
+    },
+    {
+      "path": "requirements.txt",
+      "size": 209
+    },
+    {
+      "path": ".github/workflows/google.yml",
+      "size": 4722
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Prizolov Agent OS: The Open-Source Orchestration Framework for Autonomous AI Empires. Built by Dm.Andreyanov for RAG-driven business automation.",
+    "full_name": "GIBDD-DPS/prizolov-agent-os",
+    "html_url": "https://github.com/GIBDD-DPS/prizolov-agent-os",
+    "language": "Python",
+    "pushed_at": "2026-04-17T14:28:06Z",
+    "topics": [
+      "ai-agents",
+      "orchestration",
+      "prizolov-market",
+      "rag-architecture",
+      "sovereign-ai"
+    ],
+    "updated_at": "2026-04-17T14:28:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "GIBDD-DPS/prizolov-agent-os",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "GIBDD-DPS/prizolov-agent-os",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "GIBDD-DPS/prizolov-agent-os",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "GIBDD-DPS/prizolov-agent-os",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "GIBDD-DPS/prizolov-agent-os",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "GIBDD-DPS/prizolov-agent-os",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-github-actions/auth",
+      "source_file": ".github/workflows/google.yml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-github-actions/auth",
+      "source_file": ".github/workflows/google.yml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes-sigs/kustomize",
+      "source_file": ".github/workflows/google.yml"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/google.yml",
+      "term": "Build and Deploy to GKE"
+    }
+  ]
+}
