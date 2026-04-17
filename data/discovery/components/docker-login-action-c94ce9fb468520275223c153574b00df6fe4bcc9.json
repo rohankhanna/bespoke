@@ -1,0 +1,7 @@
+{
+  "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+  "discovered_via": "manifest-or-workflow",
+  "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
+  "last_seen_at": "2026-04-17T12:50:06.073855+00:00",
+  "source_repo": "NousResearch/hermes-agent"
+}

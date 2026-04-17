@@ -1,0 +1,7 @@
+{
+  "component": "docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130",
+  "discovered_via": "manifest-or-workflow",
+  "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
+  "last_seen_at": "2026-04-17T12:50:06.073855+00:00",
+  "source_repo": "NousResearch/hermes-agent"
+}

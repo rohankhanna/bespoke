@@ -1,0 +1,535 @@
+{
+  "discovered_components": [
+    "@askjo/camofox-browser",
+    "DeterminateSystems/magic-nix-cache-action@565684385bcd71bad329742eefe8d12f2e765b39",
+    "DeterminateSystems/nix-installer-action@ef8a148080ab6020fd15196c2084a2eea5ff2d25",
+    "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+    "actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e",
+    "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+    "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+    "actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa",
+    "agent-browser",
+    "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
+    "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+    "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
+    "docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130"
+  ],
+  "discovered_repo_links": [
+    "AaronWong1999/hermesclaw",
+    "NousResearch/Hermes-Agent",
+    "NousResearch/Hermes-Agent.git",
+    "NousResearch/atropos.git",
+    "NousResearch/hermes-agent",
+    "NousResearch/hermes-agent.git",
+    "collinear-ai/yc-bench.git",
+    "plastic-labs/honcho",
+    "thinking-machines-lab/tinker.git"
+  ],
+  "discovered_terms": [
+    "---\n\n## Getting Started",
+    "--workspace-target",
+    ".[all]",
+    ".[termux]",
+    "Contributor Attribution Check",
+    "Ctrl+C",
+    "Deploy Site",
+    "Docker Build and Publish",
+    "Docs Site Checks",
+    "Nix",
+    "hermes",
+    "hermes claw migrate --help",
+    "hermes gateway setup",
+    "hermes gateway start",
+    "hermes model",
+    "hermes setup",
+    "load",
+    "load: true",
+    "openclaw-migration"
+  ],
+  "fetched_at": "2026-04-17T12:50:12.237680+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10997
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1791
+    },
+    {
+      "path": "package.json",
+      "size": 781
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4948
+    },
+    {
+      "path": "requirements.txt",
+      "size": 633
+    },
+    {
+      "path": ".github/workflows/contributor-check.yml",
+      "size": 2550
+    },
+    {
+      "path": ".github/workflows/deploy-site.yml",
+      "size": 2275
+    },
+    {
+      "path": ".github/workflows/docker-publish.yml",
+      "size": 2894
+    },
+    {
+      "path": ".github/workflows/docs-site-checks.yml",
+      "size": 1159
+    },
+    {
+      "path": ".github/workflows/nix.yml",
+      "size": 1107
+    }
+  ],
+  "related_repositories": [
+    {
+      "description": "AI: xai-org/grok-2",
+      "discovered_via": "topic:ai",
+      "full_name": "Damacol/xai-org-grok-2",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Damacol/xai-org-grok-2",
+      "topics": [
+        "ai",
+        "grok-2",
+        "privacy",
+        "uncensored",
+        "venice-ai"
+      ],
+      "updated_at": "2026-04-17T12:50:02Z"
+    },
+    {
+      "description": "AI: meta-llama/Llama-3.2-3B",
+      "discovered_via": "topic:ai",
+      "full_name": "Damacol/meta-llama-llama-3-2-3b",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Damacol/meta-llama-llama-3-2-3b",
+      "topics": [
+        "ai",
+        "llama-3-2-3b",
+        "privacy",
+        "uncensored",
+        "venice-ai"
+      ],
+      "updated_at": "2026-04-17T12:49:59Z"
+    },
+    {
+      "description": "AI: google/gemma-2-2b-it",
+      "discovered_via": "topic:ai",
+      "full_name": "Damacol/google-gemma-2-2b-it",
+      "graph_distance": 1,
+      "html_url": "https://github.com/Damacol/google-gemma-2-2b-it",
+      "topics": [
+        "ai",
+        "gemma-2-2b-it",
+        "privacy",
+        "uncensored",
+        "venice-ai"
+      ],
+      "updated_at": "2026-04-17T12:49:55Z"
+    },
+    {
+      "description": "A coordinate system for intelligence. Sealed on Bitcoin Block 940717.",
+      "discovered_via": "topic:ai",
+      "full_name": "b2agi/exist-is-charter",
+      "graph_distance": 1,
+      "html_url": "https://github.com/b2agi/exist-is-charter",
+      "topics": [
+        "aei",
+        "agi",
+        "ai",
+        "b2agi",
+        "bitcoin",
+        "charter",
+        "coordination",
+        "exist-is",
+        "non-human-intelligence",
+        "ontology",
+        "philosophy",
+        "protocol"
+      ],
+      "updated_at": "2026-04-17T12:49:53Z"
+    },
+    {
+      "description": "Memory that lasts and compounds. MentisDB gives agents durable memory so they do not just remember, they improve over time. It stores append-only thought chains   plus a Git-like skills registry, letting skills evolve with experience through versioned, integrity-checked updates and fast retrieval.",
+      "discovered_via": "topic:ai",
+      "full_name": "CloudLLM-ai/mentisdb",
+      "graph_distance": 1,
+      "html_url": "https://github.com/CloudLLM-ai/mentisdb",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "claude",
+        "codex",
+        "copilot",
+        "infinite-memory",
+        "openai",
+        "openrouter",
+        "orchestration-tools",
+        "shared-agent-memory",
+        "skills-registry"
+      ],
+      "updated_at": "2026-04-17T12:49:51Z"
+    },
+    {
+      "description": "Digital immortality recursive engine",
+      "discovered_via": "topic:ai-agent",
+      "full_name": "l12203685/digital-immortality",
+      "graph_distance": 1,
+      "html_url": "https://github.com/l12203685/digital-immortality",
+      "topics": [
+        "ai-agent",
+        "digital-immortality",
+        "recursive-engine"
+      ],
+      "updated_at": "2026-04-17T12:49:48Z"
+    },
+    {
+      "description": "A self-evolving scaffold for autonomous web projects. 9 workflows, hourly self-evolution, self-healing pipeline, feedback learning loop. The repo is the system.",
+      "discovered_via": "topic:ai-agent",
+      "full_name": "verkyyi/tokenman",
+      "graph_distance": 1,
+      "html_url": "https://github.com/verkyyi/tokenman",
+      "topics": [
+        "agent-harness",
+        "ai-agent",
+        "astro",
+        "autonomous",
+        "claude",
+        "claude-code",
+        "github-actions",
+        "harness-engineering",
+        "self-evolving",
+        "self-healing"
+      ],
+      "updated_at": "2026-04-17T12:49:44Z"
+    },
+    {
+      "description": "Local LLM coding agent that reproduces the Claude Code workflow \u2014 on your hardware, with your models.",
+      "discovered_via": "topic:ai-agent",
+      "full_name": "cafitac/hermit-agent",
+      "graph_distance": 1,
+      "html_url": "https://github.com/cafitac/hermit-agent",
+      "topics": [
+        "ai-agent",
+        "claude-code",
+        "coding-agent",
+        "developer-tools",
+        "fastapi",
+        "llm",
+        "local-llm",
+        "mcp",
+        "ollama",
+        "python"
+      ],
+      "updated_at": "2026-04-17T12:49:04Z"
+    },
+    {
+      "description": "Personal LLM Wiki toolkit \u2014 let AI build and maintain your knowledge base. Based on Karpathy's LLM Wiki pattern. TypeScript, ollama+bge-m3, works with any AI coding agent.",
+      "discovered_via": "topic:ai-agent",
+      "full_name": "GYF0311/lorekit",
+      "graph_distance": 1,
+      "html_url": "https://github.com/GYF0311/lorekit",
+      "topics": [
+        "ai-agent",
+        "claude-code",
+        "embedding",
+        "karpathy",
+        "knowledge-base",
+        "llm",
+        "obsidian",
+        "rag",
+        "typescript",
+        "wiki"
+      ],
+      "updated_at": "2026-04-17T12:48:52Z"
+    },
+    {
+      "description": "CodeFlow - AI-powered human-AI collaboration hub. Desktop EXE + Mobile PWA + MCP Plugin. Command your AI team from phone.",
+      "discovered_via": "topic:ai-agent",
+      "full_name": "joinwell52-AI/codeflow-pwa",
+      "graph_distance": 1,
+      "html_url": "https://github.com/joinwell52-AI/codeflow-pwa",
+      "topics": [
+        "ai-agent",
+        "ai-team",
+        "codeflow",
+        "cursor",
+        "cursor-ide",
+        "desktop-app",
+        "developer-tools",
+        "human-ai-collaboration",
+        "mcp",
+        "multi-agent",
+        "open-source",
+        "pwa"
+      ],
+      "updated_at": "2026-04-17T12:48:44Z"
+    },
+    {
+      "description": "Managed MCP server for Bybit perpetual futures trading",
+      "discovered_via": "topic:ai-agents",
+      "full_name": "EternaHybridExchange/eterna-mcp",
+      "graph_distance": 1,
+      "html_url": "https://github.com/EternaHybridExchange/eterna-mcp",
+      "topics": [
+        "ai-agents",
+        "algorithmic-trading",
+        "bybit",
+        "crypto-trading",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "perpetual-futures",
+        "quant-trading",
+        "trading"
+      ],
+      "updated_at": "2026-04-17T12:49:59Z"
+    },
+    {
+      "description": "Prizolov Agent OS: The Open-Source Orchestration Framework for Autonomous AI Empires. Built by Dm.Andreyanov for RAG-driven business automation.",
+      "discovered_via": "topic:ai-agents",
+      "full_name": "GIBDD-DPS/prizolov-agent-os",
+      "graph_distance": 1,
+      "html_url": "https://github.com/GIBDD-DPS/prizolov-agent-os",
+      "topics": [
+        "ai-agents",
+        "orchestration",
+        "prizolov-market",
+        "rag-architecture",
+        "sovereign-ai"
+      ],
+      "updated_at": "2026-04-17T12:49:55Z"
+    },
+    {
+      "description": "Evidence-anchored narrative dataset that shifts AI reasoning from scarcity-default to abundance-aware (+9% in benchmark)",
+      "discovered_via": "topic:ai-agents",
+      "full_name": "CjTruHeart/abundance-codex",
+      "graph_distance": 1,
+      "html_url": "https://github.com/CjTruHeart/abundance-codex",
+      "topics": [
+        "abundance",
+        "ai-agents",
+        "benchmark",
+        "conditional-optimism",
+        "context-engineering",
+        "dataset",
+        "knowledge-base",
+        "llm-evaluation",
+        "machine-readable",
+        "narrative-dataset",
+        "rag",
+        "system-prompts"
+      ],
+      "updated_at": "2026-04-17T12:49:55Z"
+    },
+    {
+      "description": "Realtime infrastructure for multiplayer apps and agents",
+      "discovered_via": "topic:ai-agents",
+      "full_name": "liveblocks/liveblocks",
+      "graph_distance": 1,
+      "html_url": "https://github.com/liveblocks/liveblocks",
+      "topics": [
+        "ai-agents",
+        "ai-copilot",
+        "collaboration",
+        "commenting-system",
+        "comments",
+        "crdt",
+        "liveblocks",
+        "multiplayer",
+        "notifications-systems",
+        "presence",
+        "react",
+        "real-time",
+        "toolkit",
+        "websockets",
+        "yjs",
+        "yjs-provider"
+      ],
+      "updated_at": "2026-04-17T12:49:41Z"
+    },
+    {
+      "description": "97 reasoning patterns from history's greatest minds \u2014 as Claude Code agents. Curie to Toulmin. Engineering to humanities. Every claim cites its source. Every commit is checked. The only agent system where \"I don't know\" is a feature.",
+      "discovered_via": "topic:anthropic",
+      "full_name": "cdeust/zetetic-team-subagents",
+      "graph_distance": 1,
+      "html_url": "https://github.com/cdeust/zetetic-team-subagents",
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "causal-inference",
+        "claude-agents",
+        "claude-code",
+        "claude-code-plugin",
+        "critical-thinking",
+        "epistemology",
+        "evidence-based",
+        "genius-agents",
+        "meta-analysis",
+        "paper-writing",
+        "problem-solving",
+        "reasoning",
+        "research",
+        "research-methodology",
+        "scientific-method",
+        "systematic-review",
+        "zetetic"
+      ],
+      "updated_at": "2026-04-17T12:49:24Z"
+    },
+    {
+      "description": "Multi-workspace terminal aggregator with Claude Code AI integration",
+      "discovered_via": "topic:anthropic",
+      "full_name": "tony1223/better-agent-terminal",
+      "graph_distance": 1,
+      "html_url": "https://github.com/tony1223/better-agent-terminal",
+      "topics": [
+        "ai-agent",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools",
+        "electron",
+        "multi-terminal",
+        "terminal",
+        "terminal-emulator",
+        "workspace"
+      ],
+      "updated_at": "2026-04-17T12:48:27Z"
+    },
+    {
+      "description": "Product-Led Growth (PLG) analysis toolkit that detects tech stacks, plans growth loops and builds the loop iteratively.",
+      "discovered_via": "topic:anthropic",
+      "full_name": "SkeneTechnologies/skene",
+      "graph_distance": 1,
+      "html_url": "https://github.com/SkeneTechnologies/skene",
+      "topics": [
+        "ai-tools",
+        "anthropic",
+        "automation",
+        "cli",
+        "cli-tool",
+        "code-documentation",
+        "codebase-analysis",
+        "developer-tools",
+        "gemini",
+        "growth-hacking",
+        "llm",
+        "mcp",
+        "mcp-server",
+        "openai",
+        "plg",
+        "product-led-growth",
+        "pydantic",
+        "python",
+        "python3",
+        "tech-stack-detection"
+      ],
+      "updated_at": "2026-04-17T12:48:19Z"
+    },
+    {
+      "description": "Mercury Banking MCP server with full Invoicing API support. Read accounts/transactions and create/manage recurring invoices via Model Context Protocol.",
+      "discovered_via": "topic:anthropic",
+      "full_name": "klodr/mercury-invoicing-mcp",
+      "graph_distance": 1,
+      "html_url": "https://github.com/klodr/mercury-invoicing-mcp",
+      "topics": [
+        "ai",
+        "anthropic",
+        "claude",
+        "invoicing",
+        "llm",
+        "mcp",
+        "mercury",
+        "mercury-banking",
+        "model-context-protocol",
+        "typescrypt"
+      ],
+      "updated_at": "2026-04-17T12:47:57Z"
+    },
+    {
+      "description": "Universal memory layer for AI Agents",
+      "discovered_via": "topic:chatgpt",
+      "full_name": "mem0ai/mem0",
+      "graph_distance": 1,
+      "html_url": "https://github.com/mem0ai/mem0",
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "application",
+        "chatbots",
+        "chatgpt",
+        "genai",
+        "llm",
+        "long-term-memory",
+        "memory",
+        "memory-management",
+        "python",
+        "rag",
+        "state-management"
+      ],
+      "updated_at": "2026-04-17T12:47:26Z"
+    },
+    {
+      "description": "AI-powered KVM assistant for PiKVM \u2014 natural-language remote server control via keyboard, mouse and screen analysis",
+      "discovered_via": "topic:chatgpt",
+      "full_name": "sunthinks/kvmind",
+      "graph_distance": 1,
+      "html_url": "https://github.com/sunthinks/kvmind",
+      "topics": [
+        "ai-assistant",
+        "arch-linux-arm",
+        "bmc",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "homelab",
+        "ipkvm",
+        "kvm",
+        "llm",
+        "ollama",
+        "pikvm",
+        "raspberry-pi",
+        "remote-control",
+        "self-hosted"
+      ],
+      "updated_at": "2026-04-17T12:47:23Z"
+    }
+  ],
+  "repo": {
+    "default_branch": "main",
+    "description": "The agent that grows with you",
+    "full_name": "NousResearch/hermes-agent",
+    "html_url": "https://github.com/NousResearch/hermes-agent",
+    "language": "Python",
+    "pushed_at": "2026-04-17T12:48:28Z",
+    "topics": [
+      "ai",
+      "ai-agent",
+      "ai-agents",
+      "anthropic",
+      "chatgpt",
+      "claude",
+      "claude-code",
+      "clawdbot",
+      "codex",
+      "hermes",
+      "hermes-agent",
+      "llm",
+      "moltbot",
+      "nous-research",
+      "openai",
+      "openclaw"
+    ],
+    "updated_at": "2026-04-17T12:49:57Z"
+  }
+}
