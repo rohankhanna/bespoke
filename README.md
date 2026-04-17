@@ -1,8 +1,8 @@
-# bespoke
+# bespoke-cli
 
-bespoke is a requirements-driven CLI for tailoring end-to-end AI systems.
+bespoke-cli is a requirements-driven CLI for tailoring end-to-end AI systems.
 
-This public branch is intentionally minimal during the initial branch split. Its first purpose is to prove a public-safe baseline and a CI scan path.
+This public branch is intentionally minimal during the initial branch split. Its first purpose is to prove a public-safe baseline, a CI scan path, and a self-commit proof path.
 
 ## Current status
 
