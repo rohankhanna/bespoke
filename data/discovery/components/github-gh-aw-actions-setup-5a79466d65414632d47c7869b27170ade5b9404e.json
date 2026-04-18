@@ -1,0 +1,12 @@
+{
+  "component": "github/gh-aw/actions/setup@5a79466d65414632d47c7869b27170ade5b9404e",
+  "first_seen_at": "2026-04-18T09:45:12.634395+00:00",
+  "last_seen_at": "2026-04-18T09:45:12.634395+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/triage-incoming-issues.lock.yml",
+      "source_repo": "frankbria/ralph-claude-code"
+    }
+  ]
+}

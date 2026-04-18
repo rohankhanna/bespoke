@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v3",
   "first_seen_at": "2026-04-18T04:38:51.315908+00:00",
-  "last_seen_at": "2026-04-18T09:11:35.827547+00:00",
+  "last_seen_at": "2026-04-18T09:45:12.634395+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "getsentry/XcodeBuildMCP"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "frankbria/ralph-claude-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "Helmi/claude-simone"
     }
   ]
 }

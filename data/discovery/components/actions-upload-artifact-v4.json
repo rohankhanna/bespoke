@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "last_seen_at": "2026-04-18T09:45:12.634395+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -392,6 +392,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "rullerzhou-afk/clawd-on-desk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "frankbria/ralph-claude-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "didalgolab/ai-intellij-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "omnara-ai/omnara"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-skill-scan.yml",
+      "source_repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "okuvshynov/cubestat"
     }
   ]
 }

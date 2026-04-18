@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kingler/n8n_agent",
+      "target": "@qdrant/js-client-rest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kingler/n8n_agent",
+      "target": "@supabase/supabase-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kingler/n8n_agent",
+      "target": "dotenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kingler/n8n_agent",
+      "target": "neo4j-driver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kingler/n8n_agent",
+      "target": "openai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kingler/n8n_agent",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kingler/n8n_agent",
+      "target": "jest-environment-node",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-18T09:45:12.634395+00:00",
+  "source_repo": "kingler/n8n_agent"
+}

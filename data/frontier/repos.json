@@ -1,106 +1,6 @@
 {
-  "generated_at": "2026-04-18T09:23:47.800515+00:00",
+  "generated_at": "2026-04-18T09:45:12.634395+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "frankbria/ralph-claude-code",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "undeadlist/claude-code-agents",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "didalgolab/ai-intellij-plugin",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "kingler/n8n_agent",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "omnara-ai/omnara",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dazuiba/ccnotify",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ericbuess/claude-code-docs",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "k-dense-ai/claude-scientific-skills",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "sirmalloc/ccstatusline",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "jsonbored/claudepro-directory",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "marcindulak/stt-mcp-server-linux",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "kelp/webdown",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "helmi/claude-simone",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "eastlondoner/cursor-tools",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "scopecraft/command",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "eckardt/cchistory",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "okuvshynov/cubestat",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "fimeg/networkchronicles",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "to4iki/ai-project-rules",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "panaversity/claude-code-agent-teams-exercises",
-      "graph_distance": 3
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "brads3290/cclogviewer",
@@ -1450,6 +1350,66 @@
       "discovered_via": "explicit-github-link",
       "full_name": "stevemolitor/monet",
       "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bats-core/bats-core",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "paul-gauthier/aider",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "julienxx/terminal-notifier",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cisco-ai-defense/skill-scanner",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "k-dense-ai/k-dense-byok",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "huangguang1999/ccstatusline-zh",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "vincent-k2026/codachi",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "moby/moby",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "huggingface/transformers",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "eastlondoner/cursor-tools",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "eastlondoner/pac-man",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "jezweb/roo-commander",
+      "graph_distance": 4
     }
   ],
   "processed": [
@@ -1775,6 +1735,26 @@
     "spylang/spy",
     "rullerzhou-afk/clawd-on-desk",
     "stevemolitor/claude-code.el",
-    "liam-hq/liam"
+    "liam-hq/liam",
+    "frankbria/ralph-claude-code",
+    "undeadlist/claude-code-agents",
+    "didalgolab/ai-intellij-plugin",
+    "kingler/n8n_agent",
+    "omnara-ai/omnara",
+    "dazuiba/ccnotify",
+    "ericbuess/claude-code-docs",
+    "k-dense-ai/scientific-agent-skills",
+    "sirmalloc/ccstatusline",
+    "jsonbored/claudepro-directory",
+    "marcindulak/stt-mcp-server-linux",
+    "kelp/webdown",
+    "helmi/claude-simone",
+    "eastlondoner/vibe-tools",
+    "scopecraft/command",
+    "eckardt/cchistory",
+    "okuvshynov/cubestat",
+    "fimeg/networkchronicles",
+    "to4iki/ai-project-rules",
+    "panaversity/claude-code-agent-teams-exercises"
   ]
 }

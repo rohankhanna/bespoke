@@ -1,0 +1,38 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dazuiba/CCNotify",
+      "target": "julienxx/terminal-notifier",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:45:23.312163+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3732
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "CCNotify provides desktop notifications for Claude Code, alerting you when Claude needs your input or completes tasks.",
+    "full_name": "dazuiba/CCNotify",
+    "html_url": "https://github.com/dazuiba/CCNotify",
+    "language": "Python",
+    "pushed_at": "2025-10-14T02:26:09Z",
+    "topics": [],
+    "updated_at": "2026-04-16T10:12:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "julienxx/terminal-notifier",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

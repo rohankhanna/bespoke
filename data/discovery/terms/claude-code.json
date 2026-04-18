@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "last_seen_at": "2026-04-18T09:45:12.634395+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -96,6 +96,41 @@
       "discovered_via": "inline-code",
       "source_file": "README.md",
       "source_repo": "stevemolitor/claude-code.el"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "frankbria/ralph-claude-code"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "frankbria/ralph-claude-code"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "sirmalloc/ccstatusline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "JSONbored/claudepro-directory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "marcindulak/stt-mcp-server-linux"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "Helmi/claude-simone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "eckardt/cchistory"
     }
   ],
   "term": "Claude Code"

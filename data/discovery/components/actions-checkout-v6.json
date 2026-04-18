@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v6",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "last_seen_at": "2026-04-18T09:45:12.634395+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -577,6 +577,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "sgcarstrends/sgcarstrends"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-skill-scan.yml",
+      "source_repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yml",
+      "source_repo": "K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sirmalloc/ccstatusline"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "kelp/webdown"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-release.yml",
+      "source_repo": "kelp/webdown"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml",
+      "source_repo": "kelp/webdown"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yml",
+      "source_repo": "kelp/webdown"
     }
   ]
 }

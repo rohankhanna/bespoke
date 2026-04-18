@@ -1,0 +1,154 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/stt-mcp-server-linux",
+      "target": "tmux/tmux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/stt-mcp-server-linux",
+      "target": "moby/moby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "marcindulak/stt-mcp-server-linux",
+      "target": "huggingface/transformers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "marcindulak/stt-mcp-server-linux",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "marcindulak/stt-mcp-server-linux",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marcindulak/stt-mcp-server-linux",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marcindulak/stt-mcp-server-linux",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marcindulak/stt-mcp-server-linux",
+      "target": "mcp-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "marcindulak/stt-mcp-server-linux",
+      "target": "tmux",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:45:34.844975+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8383
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3938
+    },
+    {
+      "path": "requirements.txt",
+      "size": 39
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1597
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Local speech-to-text MCP server for Tmux on Linux (for use not only with Claude Code)",
+    "full_name": "marcindulak/stt-mcp-server-linux",
+    "html_url": "https://github.com/marcindulak/stt-mcp-server-linux",
+    "language": "Python",
+    "pushed_at": "2026-01-10T20:37:40Z",
+    "topics": [
+      "claude-code",
+      "linux",
+      "mcp",
+      "mcp-server",
+      "tmux"
+    ],
+    "updated_at": "2026-02-27T18:13:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "moby/moby",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmux/tmux",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/transformers",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-server"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tmux"
+    }
+  ]
+}

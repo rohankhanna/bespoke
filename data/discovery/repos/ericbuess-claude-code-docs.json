@@ -1,0 +1,107 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ericbuess/claude-code-docs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ericbuess/claude-code-docs",
+      "target": "Create Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yml",
+      "source_repo": "ericbuess/claude-code-docs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yml",
+      "source_repo": "ericbuess/claude-code-docs",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-docs.yml",
+      "source_repo": "ericbuess/claude-code-docs",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-docs.yml",
+      "source_repo": "ericbuess/claude-code-docs",
+      "target": "Update Claude Code Documentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:45:24.638207+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8537
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2104
+    },
+    {
+      "path": ".github/workflows/update-docs.yml",
+      "size": 3443
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": null,
+    "full_name": "ericbuess/claude-code-docs",
+    "html_url": "https://github.com/ericbuess/claude-code-docs",
+    "language": "Shell",
+    "pushed_at": "2026-04-18T09:14:43Z",
+    "topics": [],
+    "updated_at": "2026-04-18T09:14:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Create Release"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-docs.yml",
+      "term": "Update Claude Code Documentation"
+    }
+  ]
+}

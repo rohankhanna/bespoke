@@ -1,0 +1,17 @@
+{
+  "component": "pnpm/action-setup@4f4305e1fe60ad818b8ae6fc4a697cc47eab0b2d",
+  "first_seen_at": "2026-04-18T09:45:12.634395+00:00",
+  "last_seen_at": "2026-04-18T09:45:12.634395+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/content-validation.yml",
+      "source_repo": "JSONbored/claudepro-directory"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/readme-refresh-pr.yml",
+      "source_repo": "JSONbored/claudepro-directory"
+    }
+  ]
+}

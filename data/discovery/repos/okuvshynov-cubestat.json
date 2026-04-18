@@ -1,0 +1,216 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "okuvshynov/cubestat",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "okuvshynov/cubestat",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "okuvshynov/cubestat",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "okuvshynov/cubestat",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "okuvshynov/cubestat",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "okuvshynov/cubestat",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "okuvshynov/cubestat",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "okuvshynov/cubestat",
+      "target": "apple-silicon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "okuvshynov/cubestat",
+      "target": "command-line-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "okuvshynov/cubestat",
+      "target": "horizon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "okuvshynov/cubestat",
+      "target": "monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "okuvshynov/cubestat",
+      "target": "neural-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "okuvshynov/cubestat",
+      "target": "nvidia-gpu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "okuvshynov/cubestat",
+      "target": "rocm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:45:46.722339+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11775
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1107
+    },
+    {
+      "path": ".github/workflows/python-package.yml",
+      "size": 1345
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 2218
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Horizon chart for CPU/GPU/Neural Engine utilization monitoring. Supports Apple M1-M4, Nvidia GPUs, AMD GPUs",
+    "full_name": "okuvshynov/cubestat",
+    "html_url": "https://github.com/okuvshynov/cubestat",
+    "language": "Python",
+    "pushed_at": "2025-12-30T00:23:38Z",
+    "topics": [
+      "apple-silicon",
+      "command-line-tool",
+      "gpu",
+      "horizon",
+      "monitoring",
+      "neural-engine",
+      "nvidia-gpu",
+      "rocm"
+    ],
+    "updated_at": "2026-02-24T08:38:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apple-silicon"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line-tool"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "horizon"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monitoring"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-engine"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvidia-gpu"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rocm"
+    }
+  ]
+}

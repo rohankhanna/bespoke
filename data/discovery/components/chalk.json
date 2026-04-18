@@ -1,7 +1,7 @@
 {
   "component": "chalk",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "last_seen_at": "2026-04-18T09:45:12.634395+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -57,6 +57,16 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "omril321/automated-notebooklm"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sirmalloc/ccstatusline"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "scopecraft/command"
     }
   ]
 }

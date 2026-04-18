@@ -1,0 +1,557 @@
+{
+  "components": [
+    {
+      "component": "gray-matter",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "marked",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@commitlint/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@commitlint/config-conventional",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-release-pr.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@22a9089034f40e5a961c8808d113e2c98fb63676",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-release-pr.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/content-validation.yml"
+    },
+    {
+      "component": "pnpm/action-setup@4f4305e1fe60ad818b8ae6fc4a697cc47eab0b2d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/content-validation.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/content-validation.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-refresh-pr.yml"
+    },
+    {
+      "component": "pnpm/action-setup@4f4305e1fe60ad818b8ae6fc4a697cc47eab0b2d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-refresh-pr.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-refresh-pr.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@22a9089034f40e5a961c8808d113e2c98fb63676",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-refresh-pr.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/submission-issue-validation.yml"
+    },
+    {
+      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/submission-issue-validation.yml"
+    },
+    {
+      "component": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/submission-issue-validation.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-release-from-main.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-release-from-main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "gray-matter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "marked",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "@commitlint/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "@commitlint/config-conventional",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-release-pr.yml",
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-release-pr.yml",
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "peter-evans/create-pull-request@22a9089034f40e5a961c8808d113e2c98fb63676",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog-release-pr.yml",
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "Changelog Release PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/content-validation.yml",
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/content-validation.yml",
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "pnpm/action-setup@4f4305e1fe60ad818b8ae6fc4a697cc47eab0b2d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/content-validation.yml",
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/content-validation.yml",
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "Content Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-refresh-pr.yml",
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-refresh-pr.yml",
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "pnpm/action-setup@4f4305e1fe60ad818b8ae6fc4a697cc47eab0b2d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-refresh-pr.yml",
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-refresh-pr.yml",
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "peter-evans/create-pull-request@22a9089034f40e5a961c8808d113e2c98fb63676",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/readme-refresh-pr.yml",
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "README Refresh PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/submission-issue-validation.yml",
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/submission-issue-validation.yml",
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/submission-issue-validation.yml",
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "Submission Issue Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-release-from-main.yml",
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-release-from-main.yml",
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag-release-from-main.yml",
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "Tag And Publish Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "agent-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "ai-directory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "ai-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "anthropic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "claude-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "claude-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "claude-desktop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "claude-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "claudecode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "mcp-servers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "openclaw-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JSONbored/claudepro-directory",
+      "target": "prompt-engineering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:45:32.335556+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 82048
+    },
+    {
+      "path": "package.json",
+      "size": 1808
+    },
+    {
+      "path": ".github/workflows/changelog-release-pr.yml",
+      "size": 2520
+    },
+    {
+      "path": ".github/workflows/content-validation.yml",
+      "size": 1298
+    },
+    {
+      "path": ".github/workflows/readme-refresh-pr.yml",
+      "size": 1736
+    },
+    {
+      "path": ".github/workflows/submission-issue-validation.yml",
+      "size": 3667
+    },
+    {
+      "path": ".github/workflows/tag-release-from-main.yml",
+      "size": 2096
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "HeyClaude (formerly Claude Pro Directory) is a searchable collection of pre-built AI skills, agents, MCP servers, guides, hooks, statuslines, and other custom configs, designed to enhance Claude, Codex, Cursor, OpenClaw, and various other agentic workflows/platforms.",
+    "full_name": "JSONbored/claudepro-directory",
+    "html_url": "https://github.com/JSONbored/claudepro-directory",
+    "language": "MDX",
+    "pushed_at": "2026-04-12T09:42:31Z",
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "ai-directory",
+      "ai-tools",
+      "anthropic",
+      "artificial-intelligence",
+      "awesome-list",
+      "claude",
+      "claude-ai",
+      "claude-api",
+      "claude-code",
+      "claude-desktop",
+      "claude-skills",
+      "claudecode",
+      "developer-tools",
+      "llm",
+      "mcp-servers",
+      "open-source",
+      "openclaw-skills",
+      "prompt-engineering"
+    ],
+    "updated_at": "2026-04-17T18:07:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog-release-pr.yml",
+      "term": "Changelog Release PR"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/content-validation.yml",
+      "term": "Content Validation"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/readme-refresh-pr.yml",
+      "term": "README Refresh PR"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/submission-issue-validation.yml",
+      "term": "Submission Issue Validation"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag-release-from-main.yml",
+      "term": "Tag And Publish Release"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-skills"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-directory"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-tools"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anthropic"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-ai"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-api"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-desktop"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-skills"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claudecode"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-tools"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-servers"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openclaw-skills"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt-engineering"
+    }
+  ]
+}

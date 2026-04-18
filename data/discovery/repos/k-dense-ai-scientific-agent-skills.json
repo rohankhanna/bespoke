@@ -1,0 +1,410 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-skill-scan.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v8.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-skill-scan.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-skill-scan.yml"
+    },
+    {
+      "component": "marocchino/sticky-pull-request-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-skill-scan.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v8.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "target": "k-dense-ai/k-dense-byok",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "target": "cisco-ai-defense/skill-scanner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-skill-scan.yml",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-skill-scan.yml",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "target": "astral-sh/setup-uv@v8.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-skill-scan.yml",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-skill-scan.yml",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "target": "marocchino/sticky-pull-request-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-skill-scan.yml",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "target": "PR Skill Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "target": "Create Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yml",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security-scan.yml",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "target": "astral-sh/setup-uv@v8.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security-scan.yml",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "target": "Weekly Security Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "target": "agent-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "target": "ai-scientist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "target": "chemoinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "target": "claude-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "target": "claudecode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "target": "clinical-research",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "target": "computational-biology",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "target": "data-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "target": "drug-discovery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "target": "genomics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "target": "materials-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "target": "metabolomics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "target": "proteomics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "target": "scientific-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "target": "scientific-visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:45:27.667689+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 42016
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 339
+    },
+    {
+      "path": ".github/workflows/pr-skill-scan.yml",
+      "size": 3467
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3385
+    },
+    {
+      "path": ".github/workflows/security-scan.yml",
+      "size": 1241
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+    "full_name": "K-Dense-AI/scientific-agent-skills",
+    "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "language": "Python",
+    "pushed_at": "2026-04-17T23:34:47Z",
+    "topics": [
+      "agent-skills",
+      "ai-scientist",
+      "bioinformatics",
+      "chemoinformatics",
+      "claude",
+      "claude-skills",
+      "claudecode",
+      "clinical-research",
+      "computational-biology",
+      "data-analysis",
+      "drug-discovery",
+      "genomics",
+      "materials-science",
+      "metabolomics",
+      "proteomics",
+      "scientific-computing",
+      "scientific-visualization"
+    ],
+    "updated_at": "2026-04-18T09:20:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cisco-ai-defense/skill-scanner",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "k-dense-ai/k-dense-byok",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-skill-scan.yml",
+      "term": "PR Skill Scan"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Create Release"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security-scan.yml",
+      "term": "Weekly Security Scan"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-skills"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-scientist"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chemoinformatics"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-skills"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claudecode"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clinical-research"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computational-biology"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-analysis"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "drug-discovery"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genomics"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "materials-science"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metabolomics"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proteomics"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scientific-computing"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scientific-visualization"
+    }
+  ]
+}

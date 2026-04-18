@@ -1,7 +1,7 @@
 {
   "component": "anthropics/claude-code-action@beta",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-18T09:23:05.253565+00:00",
+  "last_seen_at": "2026-04-18T09:45:12.634395+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -42,6 +42,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/claude.yml",
       "source_repo": "rz1989s/claude-code-statusline"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "Helmi/claude-simone"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "Helmi/claude-simone"
     }
   ]
 }

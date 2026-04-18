@@ -1,0 +1,114 @@
+{
+  "components": [
+    {
+      "component": "@qdrant/js-client-rest",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@supabase/supabase-js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dotenv",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "neo4j-driver",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "openai",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest-environment-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kingler/n8n_agent",
+      "target": "@qdrant/js-client-rest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kingler/n8n_agent",
+      "target": "@supabase/supabase-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kingler/n8n_agent",
+      "target": "dotenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kingler/n8n_agent",
+      "target": "neo4j-driver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kingler/n8n_agent",
+      "target": "openai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kingler/n8n_agent",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kingler/n8n_agent",
+      "target": "jest-environment-node",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:45:20.328643+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6783
+    },
+    {
+      "path": "package.json",
+      "size": 1187
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "LLM based AI Agent for generating n8n agentic automation workflows from a one-shot text prompt",
+    "full_name": "kingler/n8n_agent",
+    "html_url": "https://github.com/kingler/n8n_agent",
+    "language": "JavaScript",
+    "pushed_at": "2025-05-16T17:30:38Z",
+    "topics": [],
+    "updated_at": "2026-04-11T22:12:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}
