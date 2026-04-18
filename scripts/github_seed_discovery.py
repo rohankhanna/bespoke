@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import base64
+import hashlib
 import json
 import os
 import re
@@ -321,6 +322,80 @@ def summarize_repo_timings(repo_timings):
     }
 
 
+def concept_class_for_term(hit):
+    edge_type = hit.get("edge_type")
+    if edge_type == "repo-topic":
+        return "tool-component"
+    if edge_type == "workflow-name":
+        return "workflow-process"
+    return "unclassified"
+
+
+def concept_id_for_term(term):
+    return slug(term)
+
+
+def observation_id_for_term(source_repo, source_file, edge_type, term):
+    raw = f"{source_repo}|{source_file or ''}|{edge_type}|{term}"
+    return hashlib.sha1(raw.encode("utf-8")).hexdigest()[:16]
+
+
+def upsert_concept_observation(observations_dir, generated_at, source_repo, hit):
+    term = hit["term"]
+    observation_id = observation_id_for_term(source_repo, hit.get("source_file"), hit.get("edge_type"), term)
+    path = observations_dir / f"{observation_id}.json"
+    payload = {
+        "observation_id": observation_id,
+        "concept_id": concept_id_for_term(term),
+        "observed_text": term,
+        "normalized_form": slug(term),
+        "observation_kind": hit.get("edge_type"),
+        "source_repo": source_repo,
+        "source_file": hit.get("source_file"),
+        "observed_at": generated_at,
+        "candidate_buckets": [concept_class_for_term(hit)],
+    }
+    write_json(path, payload)
+
+
+def upsert_concept(concepts_dir, generated_at, source_repo, hit):
+    term = hit["term"]
+    concept_id = concept_id_for_term(term)
+    path = concepts_dir / f"{concept_id}.json"
+    bucket = concept_class_for_term(hit)
+    alias = term
+    evidence = {
+        "source_repo": source_repo,
+        "source_file": hit.get("source_file"),
+        "discovered_via": hit.get("edge_type"),
+        "observed_at": generated_at,
+    }
+    if path.exists():
+        existing = json.loads(path.read_text())
+        existing["last_seen_at"] = generated_at
+        existing.setdefault("aliases", [])
+        if alias not in existing["aliases"]:
+            existing["aliases"].append(alias)
+        existing.setdefault("buckets", [])
+        if bucket not in existing["buckets"]:
+            existing["buckets"].append(bucket)
+        existing.setdefault("evidence", [])
+        if evidence not in existing["evidence"]:
+            existing["evidence"].append(evidence)
+        write_json(path, existing)
+        return
+    payload = {
+        "concept_id": concept_id,
+        "canonical_name": term,
+        "buckets": [bucket],
+        "aliases": [alias],
+        "first_seen_at": generated_at,
+        "last_seen_at": generated_at,
+        "evidence": [evidence],
+    }
+    write_json(path, payload)
+
+
 def dedupe_edges(edges):
     seen = set()
     out = []
@@ -601,11 +676,13 @@ def main():
 
     repos_dir = data_root / "data" / "discovery" / "repos"
     terms_dir = data_root / "data" / "discovery" / "terms"
+    concepts_dir = data_root / "data" / "discovery" / "concepts"
+    concept_observations_dir = data_root / "data" / "discovery" / "concept-observations"
     comps_dir = data_root / "data" / "discovery" / "components"
     edges_dir = data_root / "data" / "discovery" / "edges"
     frontier_dir = data_root / "data" / "frontier"
     runs_dir = data_root / "data" / "runs"
-    for d in [repos_dir, terms_dir, comps_dir, edges_dir, frontier_dir, runs_dir]:
+    for d in [repos_dir, terms_dir, concepts_dir, concept_observations_dir, comps_dir, edges_dir, frontier_dir, runs_dir]:
         d.mkdir(parents=True, exist_ok=True)
     prune_invalid_term_artifacts(terms_dir)
 
@@ -674,6 +751,8 @@ def main():
                 "last_seen_at": generated_at,
                 "sources": [{"source_repo": data["repo"]["full_name"], "source_file": hit["source_file"], "discovered_via": hit["edge_type"]}],
             }, "term")
+            upsert_concept_observation(concept_observations_dir, generated_at, data["repo"]["full_name"], hit)
+            upsert_concept(concepts_dir, generated_at, data["repo"]["full_name"], hit)
 
         for hit in data["components"]:
             component = hit["component"]
