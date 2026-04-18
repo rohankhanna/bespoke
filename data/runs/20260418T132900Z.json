@@ -1,0 +1,168 @@
+{
+  "budget_seconds": 180,
+  "concept_index_counts": {
+    "aliases": 1205,
+    "buckets": 15,
+    "observations_by_concept": 960
+  },
+  "elapsed_seconds": 47.547,
+  "embedding_unit_count": 5211,
+  "generated_at": "2026-04-18T13:29:00.435097+00:00",
+  "processed_repositories": [
+    "eastlondoner/pac-man",
+    "jezweb/roo-commander",
+    "askroundtable/expert-skills",
+    "agent-sh/agent-analyzer",
+    "agent-sh/can-i-help",
+    "agent-sh/glidemq",
+    "agent-sh/onboard",
+    "steipete/claude-code-mcp",
+    "hashintel/awesome-hash",
+    "protocolbuffers/protobuf",
+    "cedar-policy/cedar",
+    "google/tarpc",
+    "affaan-m/agentshield",
+    "agricidaniel/claude-ads",
+    "agricidaniel/claude-cybersecurity",
+    "agricidaniel/claude-seo",
+    "ethpandaops/cbt",
+    "ethpandaops/xatu",
+    "ethpandaops/xatu-cbt",
+    "mjvolk3/biocypher"
+  ],
+  "remaining_budget_seconds": 132.453,
+  "remaining_frontier": 316,
+  "repo_timing_summary": {
+    "average_seconds": 2.354,
+    "count": 20,
+    "max_seconds": 5.382,
+    "total_seconds": 47.083
+  },
+  "repo_timings": [
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.72,
+      "full_name": "eastlondoner/pac-man",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.187,
+      "full_name": "jezweb/roo-commander",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.745,
+      "full_name": "askroundtable/expert-skills",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.441,
+      "full_name": "agent-sh/agent-analyzer",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.359,
+      "full_name": "agent-sh/can-i-help",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.314,
+      "full_name": "agent-sh/glidemq",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.019,
+      "full_name": "agent-sh/onboard",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.766,
+      "full_name": "steipete/claude-code-mcp",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.8,
+      "full_name": "hashintel/awesome-hash",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 5.382,
+      "full_name": "protocolbuffers/protobuf",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 4.623,
+      "full_name": "cedar-policy/cedar",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.952,
+      "full_name": "google/tarpc",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.24,
+      "full_name": "affaan-m/agentshield",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.677,
+      "full_name": "agricidaniel/claude-ads",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.425,
+      "full_name": "agricidaniel/claude-cybersecurity",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.09,
+      "full_name": "agricidaniel/claude-seo",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.948,
+      "full_name": "ethpandaops/cbt",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.857,
+      "full_name": "ethpandaops/xatu",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.415,
+      "full_name": "ethpandaops/xatu-cbt",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 4.123,
+      "full_name": "mjvolk3/biocypher",
+      "graph_distance": 4
+    }
+  ],
+  "run_id": "20260418T132900Z",
+  "skipped_repositories": [],
+  "slow_repo_threshold_seconds": 10.0,
+  "slow_repositories": [],
+  "stopped_due_to_budget": false
+}

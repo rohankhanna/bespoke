@@ -2,7 +2,7 @@
   "component": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-18T03:42:01.586113+00:00",
+  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -14,6 +14,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-sandbox-image.yml",
       "source_repo": "withastro/astro"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yaml",
+      "source_repo": "ethpandaops/cbt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yaml",
+      "source_repo": "ethpandaops/cbt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ethpandaops/xatu-cbt"
     }
   ]
 }

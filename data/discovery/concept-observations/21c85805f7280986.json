@@ -1,0 +1,42 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Find where to contribute to any project - matches developer skills to project needs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Find where to contribute to any project - matches developer skills to project needs"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "devtools",
+      "sense_id": "devtools#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "devtools",
+  "definition_status": "unresolved",
+  "normalized_form": "devtools",
+  "observation_id": "21c85805f7280986",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T13:29:00.435097+00:00",
+  "observed_text": "devtools",
+  "source_context_snippet": "Find where to contribute to any project - matches developer skills to project needs",
+  "source_file": null,
+  "source_repo": "agent-sh/can-i-help",
+  "source_repo_description": "Find where to contribute to any project - matches developer skills to project needs"
+}

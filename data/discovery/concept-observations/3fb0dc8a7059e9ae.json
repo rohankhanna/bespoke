@@ -1,0 +1,42 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Protocol Buffers - Google's data interchange format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Bazel Release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bazel Release",
+      "sense_id": "bazel-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "bazel-release",
+  "definition_status": "unresolved",
+  "normalized_form": "bazel-release",
+  "observation_id": "3fb0dc8a7059e9ae",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T13:29:00.435097+00:00",
+  "observed_text": "Bazel Release",
+  "source_context_snippet": "Bazel Release",
+  "source_file": ".github/workflows/release_bazel_module.yaml",
+  "source_repo": "protocolbuffers/protobuf",
+  "source_repo_description": "Protocol Buffers - Google's data interchange format"
+}

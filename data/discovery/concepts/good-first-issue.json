@@ -1,0 +1,49 @@
+{
+  "aliases": [
+    "good-first-issue"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/can-i-help",
+      "status": "candidate-context",
+      "text": "Find where to contribute to any project - matches developer skills to project needs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/can-i-help",
+      "status": "candidate-context",
+      "text": "Find where to contribute to any project - matches developer skills to project needs"
+    }
+  ],
+  "canonical_name": "good-first-issue",
+  "concept_id": "good-first-issue",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:29:00.435097+00:00",
+      "source_file": null,
+      "source_repo": "agent-sh/can-i-help"
+    }
+  ],
+  "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "good-first-issue",
+      "sense_id": "good-first-issue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

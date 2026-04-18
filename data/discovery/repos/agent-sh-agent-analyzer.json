@@ -1,0 +1,344 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "taiki-e/install-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agent-sh/agent-analyzer",
+      "target": "agent-sh/repo-intel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agent-sh/agent-analyzer",
+      "target": "agent-sh/agent-core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agent-sh/agent-analyzer",
+      "target": "agent-sh/sync-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "agent-sh/agent-analyzer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "agent-sh/agent-analyzer",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "agent-sh/agent-analyzer",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "agent-sh/agent-analyzer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "agent-sh/agent-analyzer",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "agent-sh/agent-analyzer",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "agent-sh/agent-analyzer",
+      "target": "taiki-e/install-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "agent-sh/agent-analyzer",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "agent-sh/agent-analyzer",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "agent-sh/agent-analyzer",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "agent-sh/agent-analyzer",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/agent-analyzer",
+      "target": "ai-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/agent-analyzer",
+      "target": "bus-factor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/agent-analyzer",
+      "target": "code-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/agent-analyzer",
+      "target": "code-ownership",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/agent-analyzer",
+      "target": "coupling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/agent-analyzer",
+      "target": "hotspots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/agent-analyzer",
+      "target": "repository",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/agent-analyzer",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/agent-analyzer",
+      "target": "static-analysis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T13:29:06.099616+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8250
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1894
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 642
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3833
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Static analysis binary for agent-sh ecosystem - git history, AST mapping, collectors",
+    "full_name": "agent-sh/agent-analyzer",
+    "html_url": "https://github.com/agent-sh/agent-analyzer",
+    "language": "Rust",
+    "pushed_at": "2026-04-14T23:27:20Z",
+    "topics": [
+      "ai",
+      "ai-detection",
+      "bus-factor",
+      "code-analysis",
+      "code-ownership",
+      "coupling",
+      "git",
+      "hotspots",
+      "llm",
+      "repository",
+      "rust",
+      "static-analysis"
+    ],
+    "updated_at": "2026-04-14T23:27:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agent-sh/agent-core",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agent-sh/repo-intel",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agent-sh/sync-docs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Static analysis binary for agent-sh ecosystem - git history, AST mapping, collectors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-detection"
+    },
+    {
+      "context_snippet": "Static analysis binary for agent-sh ecosystem - git history, AST mapping, collectors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bus-factor"
+    },
+    {
+      "context_snippet": "Static analysis binary for agent-sh ecosystem - git history, AST mapping, collectors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-analysis"
+    },
+    {
+      "context_snippet": "Static analysis binary for agent-sh ecosystem - git history, AST mapping, collectors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-ownership"
+    },
+    {
+      "context_snippet": "Static analysis binary for agent-sh ecosystem - git history, AST mapping, collectors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coupling"
+    },
+    {
+      "context_snippet": "Static analysis binary for agent-sh ecosystem - git history, AST mapping, collectors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hotspots"
+    },
+    {
+      "context_snippet": "Static analysis binary for agent-sh ecosystem - git history, AST mapping, collectors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repository"
+    },
+    {
+      "context_snippet": "Static analysis binary for agent-sh ecosystem - git history, AST mapping, collectors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "Static analysis binary for agent-sh ecosystem - git history, AST mapping, collectors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-analysis"
+    }
+  ]
+}

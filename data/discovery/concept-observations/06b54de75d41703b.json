@@ -1,0 +1,42 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Claude Code as one-shot MCP server to have an agent in your agent."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Node.js CI"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Node.js CI",
+      "sense_id": "node.js-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "node.js-ci",
+  "definition_status": "unresolved",
+  "normalized_form": "node.js-ci",
+  "observation_id": "06b54de75d41703b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T13:29:00.435097+00:00",
+  "observed_text": "Node.js CI",
+  "source_context_snippet": "Node.js CI",
+  "source_file": ".github/workflows/ci.yml",
+  "source_repo": "steipete/claude-code-mcp",
+  "source_repo_description": "Claude Code as one-shot MCP server to have an agent in your agent."
+}

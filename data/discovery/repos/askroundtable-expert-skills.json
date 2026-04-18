@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AskRoundtable/expert-skills",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AskRoundtable/expert-skills",
+      "target": "cursor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AskRoundtable/expert-skills",
+      "target": "decision-making",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AskRoundtable/expert-skills",
+      "target": "mental-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AskRoundtable/expert-skills",
+      "target": "prompt-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AskRoundtable/expert-skills",
+      "target": "windsurf",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T13:29:03.654335+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5855
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Make your AI think like Munger, Feynman, or Paul Graham \u2014 load real mental models, not personas.",
+    "full_name": "AskRoundtable/expert-skills",
+    "html_url": "https://github.com/AskRoundtable/expert-skills",
+    "language": null,
+    "pushed_at": "2026-04-09T13:53:39Z",
+    "topics": [
+      "ai",
+      "claude",
+      "claude-code",
+      "cursor",
+      "decision-making",
+      "mental-models",
+      "prompt-engineering",
+      "windsurf"
+    ],
+    "updated_at": "2026-04-15T02:11:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Make your AI think like Munger, Feynman, or Paul Graham \u2014 load real mental models, not personas.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "Make your AI think like Munger, Feynman, or Paul Graham \u2014 load real mental models, not personas.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cursor"
+    },
+    {
+      "context_snippet": "Make your AI think like Munger, Feynman, or Paul Graham \u2014 load real mental models, not personas.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decision-making"
+    },
+    {
+      "context_snippet": "Make your AI think like Munger, Feynman, or Paul Graham \u2014 load real mental models, not personas.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mental-models"
+    },
+    {
+      "context_snippet": "Make your AI think like Munger, Feynman, or Paul Graham \u2014 load real mental models, not personas.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt-engineering"
+    },
+    {
+      "context_snippet": "Make your AI think like Munger, Feynman, or Paul Graham \u2014 load real mental models, not personas.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windsurf"
+    }
+  ]
+}

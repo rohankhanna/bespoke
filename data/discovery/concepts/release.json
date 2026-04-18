@@ -20,6 +20,42 @@
       "source_repo": "K-Dense-AI/k-dense-byok",
       "status": "candidate-context",
       "text": "An AI co-scientist powered by Claude Scientific Skills running on your desktop."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/agent-analyzer",
+      "status": "candidate-context",
+      "text": "Static analysis binary for agent-sh ecosystem - git history, AST mapping, collectors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/agent-analyzer",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cedar-policy/cedar",
+      "status": "candidate-context",
+      "text": "Implementation of the Cedar Policy Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cedar-policy/cedar",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "affaan-m/agentshield",
+      "status": "candidate-context",
+      "text": "AI agent security scanner. Detect vulnerabilities in agent configurations, MCP servers, and tool permissions. Available as CLI, GitHub Action, ECC plugin, and GitHub App integration. \ud83d\udee1\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "affaan-m/agentshield",
+      "status": "candidate-context",
+      "text": "Release"
     }
   ],
   "canonical_name": "Release",
@@ -193,10 +229,28 @@
       "observed_at": "2026-04-18T13:15:13.756138+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "K-Dense-AI/k-dense-byok"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T13:29:00.435097+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "agent-sh/agent-analyzer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T13:29:00.435097+00:00",
+      "source_file": ".github/workflows/build_release.yml",
+      "source_repo": "cedar-policy/cedar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T13:29:00.435097+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "affaan-m/agentshield"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
+  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "possible_senses": [
     {
       "buckets": [

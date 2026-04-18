@@ -102,6 +102,9 @@
   "agents-md-guard": [
     "agents-md-guard"
   ],
+  "agentshield self-scan": [
+    "agentshield-self-scan"
+  ],
   "ai moderator": [
     "ai-moderator"
   ],
@@ -123,11 +126,17 @@
   "ai-coding": [
     "ai-coding"
   ],
+  "ai-detection": [
+    "ai-detection"
+  ],
   "ai-engineering": [
     "ai-engineering"
   ],
   "ai-identity": [
     "ai-identity"
+  ],
+  "ai-marketing": [
+    "ai-marketing"
   ],
   "ai-memory": [
     "ai-memory"
@@ -141,8 +150,14 @@
   "ai-pipeline": [
     "ai-pipeline"
   ],
+  "ai-seo": [
+    "ai-seo"
+  ],
   "ai-tools": [
     "ai-tools"
+  ],
+  "aiagents": [
+    "aiagents"
   ],
   "alembic migration validation": [
     "alembic-migration-validation"
@@ -154,6 +169,9 @@
   ],
   "along": [
     "en-preposition-along"
+  ],
+  "alpha releases": [
+    "alpha-releases"
   ],
   "although": [
     "en-conjunction-although"
@@ -226,6 +244,9 @@
   "approve contributor": [
     "approve-contributor"
   ],
+  "appsec": [
+    "appsec"
+  ],
   "aqavit": [
     "aqavit"
   ],
@@ -262,6 +283,9 @@
   ],
   "astro": [
     "astro"
+  ],
+  "asynchronous-programming": [
+    "asynchronous-programming"
   ],
   "at": [
     "en-preposition-at"
@@ -367,6 +391,9 @@
   ],
   "bazel": [
     "bazel"
+  ],
+  "bazel release": [
+    "bazel-release"
   ],
   "be": [
     "en-modal_or_auxiliary-be"
@@ -501,6 +528,9 @@
   "build and push docker images": [
     "build-and-push-docker-images"
   ],
+  "build and test": [
+    "build-and-test"
+  ],
   "build attention native modules": [
     "build-attention-native-modules"
   ],
@@ -518,6 +548,9 @@
   ],
   "build docs": [
     "build-docs"
+  ],
+  "build downstream dependencies": [
+    "build-downstream-dependencies"
   ],
   "build examples": [
     "build-examples"
@@ -579,6 +612,9 @@
   "bundler": [
     "bundler"
   ],
+  "bus-factor": [
+    "bus-factor"
+  ],
   "busted": [
     "busted"
   ],
@@ -598,8 +634,17 @@
   "cancel pr workflows on merge": [
     "cancel-pr-workflows-on-merge"
   ],
+  "cannon smoke test": [
+    "cannon-smoke-test"
+  ],
   "capybara": [
     "capybara"
+  ],
+  "cargo audit": [
+    "cargo-audit"
+  ],
+  "cargo build & test": [
+    "cargo-build-test"
   ],
   "cargo-deny": [
     "cargo-deny"
@@ -630,6 +675,9 @@
   ],
   "check pypi version": [
     "check-pypi-version"
+  ],
+  "check upstream drift": [
+    "check-upstream-drift"
   ],
   "checks": [
     "checks"
@@ -688,6 +736,9 @@
   "claude model check": [
     "claude-model-check"
   ],
+  "claude pr assistant": [
+    "claude-pr-assistant"
+  ],
   "claude pr code review": [
     "claude-pr-code-review"
   ],
@@ -723,6 +774,9 @@
   ],
   "claude-code-proxy": [
     "claude-code-proxy"
+  ],
+  "claude-code-skill": [
+    "claude-code-skill"
   ],
   "claude-code-skills": [
     "claude-code-skills"
@@ -811,11 +865,20 @@
   "code scanning - action": [
     "code-scanning---action"
   ],
+  "code-analysis": [
+    "code-analysis"
+  ],
+  "code-ownership": [
+    "code-ownership"
+  ],
   "code-quality": [
     "code-quality"
   ],
   "code-review": [
     "code-review"
+  ],
+  "codebase": [
+    "codebase"
   ],
   "codeql": [
     "codeql"
@@ -840,6 +903,9 @@
   ],
   "command-line": [
     "command-line"
+  ],
+  "comment on the pull request": [
+    "comment-on-the-pull-request"
   ],
   "commit-lint": [
     "commit-lint"
@@ -892,6 +958,9 @@
   "continuous test + deploy": [
     "continuous-test-deploy"
   ],
+  "contributor": [
+    "contributor"
+  ],
   "conversational-ai": [
     "conversational-ai"
   ],
@@ -909,6 +978,9 @@
   ],
   "could": [
     "en-modal_or_auxiliary-could"
+  ],
+  "coupling": [
+    "coupling"
   ],
   "coverage": [
     "coverage"
@@ -954,6 +1026,9 @@
   ],
   "cursor": [
     "cursor"
+  ],
+  "cybersecurity": [
+    "cybersecurity"
   ],
   "daily i18n update": [
     "daily-i18n-update"
@@ -1009,6 +1084,9 @@
   "dependabot": [
     "dependabot"
   ],
+  "dependabot auto-merge": [
+    "dependabot-auto-merge"
+  ],
   "dependabot-sync": [
     "dependabot-sync"
   ],
@@ -1039,6 +1117,9 @@
   "deploy site": [
     "deploy-site"
   ],
+  "deploy storybook to github pages": [
+    "deploy-storybook-to-github-pages"
+  ],
   "deploy to github pages": [
     "deploy-to-github-pages"
   ],
@@ -1062,6 +1143,12 @@
   ],
   "development": [
     "development"
+  ],
+  "devsecops": [
+    "devsecops"
+  ],
+  "devtools": [
+    "devtools"
   ],
   "did": [
     "en-modal_or_auxiliary-did"
@@ -1357,6 +1444,9 @@
   "for instance": [
     "en-discourse_marker-for-instance"
   ],
+  "forked pr workflow check": [
+    "forked-pr-workflow-check"
+  ],
   "format": [
     "format"
   ],
@@ -1380,6 +1470,9 @@
   ],
   "functional": [
     "functional"
+  ],
+  "futures": [
+    "futures"
   ],
   "gemini": [
     "gemini"
@@ -1444,6 +1537,9 @@
   "golangci-lint": [
     "golangci-lint"
   ],
+  "good-first-issue": [
+    "good-first-issue"
+  ],
   "goreleaser": [
     "goreleaser"
   ],
@@ -1452,6 +1548,9 @@
   ],
   "govslack": [
     "govslack"
+  ],
+  "govulncheck": [
+    "govulncheck"
   ],
   "gpt-3": [
     "gpt-3"
@@ -1486,6 +1585,9 @@
   "gzip": [
     "gzip"
   ],
+  "hackathon": [
+    "hackathon"
+  ],
   "hacktoberfest": [
     "hacktoberfest"
   ],
@@ -1494,6 +1596,9 @@
   ],
   "has": [
     "en-modal_or_auxiliary-has"
+  ],
+  "hash": [
+    "hash"
   ],
   "have": [
     "en-modal_or_auxiliary-have"
@@ -1545,6 +1650,9 @@
   ],
   "hooks": [
     "hooks"
+  ],
+  "hotspots": [
+    "hotspots"
   ],
   "how": [
     "en-interrogative-how"
@@ -1946,6 +2054,12 @@
   "markdown": [
     "markdown"
   ],
+  "marketing-automation": [
+    "marketing-automation"
+  ],
+  "marshalling": [
+    "marshalling"
+  ],
   "maxkb": [
     "maxkb"
   ],
@@ -1972,6 +2086,9 @@
   ],
   "memory-system": [
     "memory-system"
+  ],
+  "mental-models": [
+    "mental-models"
   ],
   "merge pull request": [
     "merge-pull-request"
@@ -2117,11 +2234,20 @@
   "new pr bot": [
     "new-pr-bot"
   ],
+  "newcomer": [
+    "newcomer"
+  ],
   "next": [
     "en-discourse_marker-next"
   ],
   "nextjs": [
     "nextjs"
+  ],
+  "nightly build": [
+    "nightly-build"
+  ],
+  "nightly build downstream dependencies": [
+    "nightly-build-downstream-dependencies"
   ],
   "nightly builds": [
     "nightly-builds"
@@ -2145,6 +2271,9 @@
   ],
   "node-api": [
     "node-api"
+  ],
+  "node.js ci": [
+    "node.js-ci"
   ],
   "node.js integration tests": [
     "node.js-integration-tests"
@@ -2219,6 +2348,9 @@
   "on pull requests": [
     "on-pull-requests"
   ],
+  "onboarding": [
+    "onboarding"
+  ],
   "once": [
     "en-conjunction-once"
   ],
@@ -2264,8 +2396,14 @@
   "optimization": [
     "optimization"
   ],
+  "opus": [
+    "opus"
+  ],
   "or": [
     "en-conjunction-or"
+  ],
+  "orientation": [
+    "orientation"
   ],
   "other": [
     "en-article_or_determiner-other"
@@ -2290,6 +2428,9 @@
   ],
   "over": [
     "en-preposition-over"
+  ],
+  "owasp": [
+    "owasp"
   ],
   "package-manager": [
     "package-manager"
@@ -2384,6 +2525,9 @@
   "pr path labeler": [
     "pr-path-labeler"
   ],
+  "pr review": [
+    "pr-review"
+  ],
   "pr title": [
     "pr-title"
   ],
@@ -2426,6 +2570,24 @@
   "prompt-injection-llm-security": [
     "prompt-injection-llm-security"
   ],
+  "protobuf": [
+    "protobuf"
+  ],
+  "protobuf janitor": [
+    "protobuf-janitor"
+  ],
+  "protobuf-runtime": [
+    "protobuf-runtime"
+  ],
+  "protoc": [
+    "protoc"
+  ],
+  "protocol-buffers": [
+    "protocol-buffers"
+  ],
+  "protocol-compiler": [
+    "protocol-compiler"
+  ],
   "provided": [
     "en-conjunction-provided"
   ],
@@ -2458,6 +2620,9 @@
   ],
   "publish snapshot documentation": [
     "publish-snapshot-documentation"
+  ],
+  "publish to bcr": [
+    "publish-to-bcr"
   ],
   "publish to npm": [
     "publish-to-npm"
@@ -2648,6 +2813,9 @@
   "repositories": [
     "repositories"
   ],
+  "repository": [
+    "repository"
+  ],
   "research": [
     "research"
   ],
@@ -2672,8 +2840,14 @@
   "rewrk": [
     "rewrk"
   ],
+  "roocode": [
+    "roocode"
+  ],
   "round": [
     "en-preposition-round"
+  ],
+  "rpc-framework": [
+    "rpc-framework"
   ],
   "ruby": [
     "ruby"
@@ -2711,6 +2885,9 @@
   "rustpython": [
     "rustpython"
   ],
+  "sast": [
+    "sast"
+  ],
   "save": [
     "en-preposition-save"
   ],
@@ -2738,6 +2915,9 @@
   "security audit": [
     "security-audit"
   ],
+  "security-audit": [
+    "security-audit"
+  ],
   "security-tools": [
     "security-tools"
   ],
@@ -2752,6 +2932,9 @@
   ],
   "semantic release": [
     "semantic-release"
+  ],
+  "serialization": [
+    "serialization"
   ],
   "serverless": [
     "serverless"
@@ -2868,6 +3051,9 @@
   ],
   "stale issues & prs": [
     "stale-issues-prs"
+  ],
+  "staleness tests": [
+    "staleness-tests"
   ],
   "starlight": [
     "starlight"
@@ -3001,6 +3187,9 @@
   "test docker images": [
     "test-docker-images"
   ],
+  "test github action": [
+    "test-github-action"
+  ],
   "test github action installer": [
     "test-github-action-installer"
   ],
@@ -3028,8 +3217,14 @@
   "test vim-plug": [
     "test-vim-plug"
   ],
+  "test-mainnet": [
+    "test-mainnet"
+  ],
   "test-release": [
     "test-release"
+  ],
+  "test-sepolia": [
+    "test-sepolia"
   ],
   "testing": [
     "testing"
@@ -3045,6 +3240,9 @@
   ],
   "tests": [
     "tests"
+  ],
+  "tests and code quality": [
+    "tests-and-code-quality"
   ],
   "testsuite": [
     "testsuite"
@@ -3128,6 +3326,9 @@
   ],
   "today": [
     "en-deictic_or_spatiotemporal_marker-today"
+  ],
+  "tokio": [
+    "tokio"
   ],
   "tomorrow": [
     "en-deictic_or_spatiotemporal_marker-tomorrow"
@@ -3292,6 +3493,9 @@
   "vtuber": [
     "vtuber"
   ],
+  "vulnerability-scanner": [
+    "vulnerability-scanner"
+  ],
   "was": [
     "en-modal_or_auxiliary-was"
   ],
@@ -3392,6 +3596,9 @@
   ],
   "windows": [
     "windows"
+  ],
+  "windsurf": [
+    "windsurf"
   ],
   "with": [
     "en-preposition-with"

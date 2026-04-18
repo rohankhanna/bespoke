@@ -1,12 +1,17 @@
 {
   "component": "golangci/golangci-lint-action@4afd733a84b1f43292c63897423277bb7f4313a9",
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/on-pull-request.yml",
       "source_repo": "archestra-ai/terraform-provider-archestra"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "ethpandaops/xatu"
     }
   ]
 }

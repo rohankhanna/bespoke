@@ -1,0 +1,147 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agent-sh/onboard",
+      "target": "agent-sh/repo-intel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/onboard",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/onboard",
+      "target": "codebase",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/onboard",
+      "target": "devtools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/onboard",
+      "target": "newcomer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/onboard",
+      "target": "onboarding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/onboard",
+      "target": "orientation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/onboard",
+      "target": "productivity",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T13:29:09.816652+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4483
+    },
+    {
+      "path": "package.json",
+      "size": 250
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Quick codebase summary for new projects - /onboard command",
+    "full_name": "agent-sh/onboard",
+    "html_url": "https://github.com/agent-sh/onboard",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-14T23:27:07Z",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "automation",
+      "claude",
+      "codebase",
+      "devtools",
+      "javascript",
+      "llm",
+      "newcomer",
+      "onboarding",
+      "orientation",
+      "productivity"
+    ],
+    "updated_at": "2026-04-14T23:27:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agent-sh/repo-intel",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Quick codebase summary for new projects - /onboard command",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "Quick codebase summary for new projects - /onboard command",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codebase"
+    },
+    {
+      "context_snippet": "Quick codebase summary for new projects - /onboard command",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devtools"
+    },
+    {
+      "context_snippet": "Quick codebase summary for new projects - /onboard command",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "newcomer"
+    },
+    {
+      "context_snippet": "Quick codebase summary for new projects - /onboard command",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onboarding"
+    },
+    {
+      "context_snippet": "Quick codebase summary for new projects - /onboard command",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "orientation"
+    },
+    {
+      "context_snippet": "Quick codebase summary for new projects - /onboard command",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "productivity"
+    }
+  ]
+}

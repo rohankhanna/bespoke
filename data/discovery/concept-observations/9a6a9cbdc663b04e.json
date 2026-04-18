@@ -1,0 +1,42 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Protocol Buffers - Google's data interchange format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Protocol Buffers - Google's data interchange format"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "marshalling",
+      "sense_id": "marshalling#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "marshalling",
+  "definition_status": "unresolved",
+  "normalized_form": "marshalling",
+  "observation_id": "9a6a9cbdc663b04e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T13:29:00.435097+00:00",
+  "observed_text": "marshalling",
+  "source_context_snippet": "Protocol Buffers - Google's data interchange format",
+  "source_file": null,
+  "source_repo": "protocolbuffers/protobuf",
+  "source_repo_description": "Protocol Buffers - Google's data interchange format"
+}

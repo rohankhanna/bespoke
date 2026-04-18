@@ -1,0 +1,197 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dependabot/fetch-metadata@21025c705c08248db411dc16f3619e6b5f9ea21a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-automerge.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AgriciDaniel/claude-ads",
+      "target": "cohnen/mcp-google-ads",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AgriciDaniel/claude-ads",
+      "target": "agricidaniel/claude-seo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "AgriciDaniel/claude-ads",
+      "target": "agricidaniel/claude-banana",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "AgriciDaniel/claude-ads",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "AgriciDaniel/claude-ads",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-automerge.yml",
+      "source_repo": "AgriciDaniel/claude-ads",
+      "target": "dependabot/fetch-metadata@21025c705c08248db411dc16f3619e6b5f9ea21a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-automerge.yml",
+      "source_repo": "AgriciDaniel/claude-ads",
+      "target": "Dependabot Auto-Merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/claude-ads",
+      "target": "ai-marketing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/claude-ads",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/claude-ads",
+      "target": "claude-code-skill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/claude-ads",
+      "target": "marketing-automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/claude-ads",
+      "target": "open-source",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T13:29:31.361978+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14902
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1251
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1236
+    },
+    {
+      "path": ".github/workflows/dependabot-automerge.yml",
+      "size": 1021
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Comprehensive paid advertising audit & optimization skill for Claude Code. 250+ checks across Google, Meta, YouTube, LinkedIn, TikTok, Microsoft & Apple Ads with weighted scoring, parallel agents, industry templates, and AI creative generation.",
+    "full_name": "AgriciDaniel/claude-ads",
+    "html_url": "https://github.com/AgriciDaniel/claude-ads",
+    "language": "Python",
+    "pushed_at": "2026-04-17T21:07:20Z",
+    "topics": [
+      "ai",
+      "ai-marketing",
+      "claude-code",
+      "claude-code-skill",
+      "marketing-automation",
+      "open-source"
+    ],
+    "updated_at": "2026-04-18T11:48:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agricidaniel/claude-seo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cohnen/mcp-google-ads",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agricidaniel/claude-banana",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Dependabot Auto-Merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-automerge.yml",
+      "term": "Dependabot Auto-Merge"
+    },
+    {
+      "context_snippet": "Comprehensive paid advertising audit & optimization skill for Claude Code. 250+ checks across Google, Meta, YouTube, LinkedIn, TikTok, Microsoft & Apple Ads with weighted scoring, parallel agents, industry templates, and AI creative generation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-marketing"
+    },
+    {
+      "context_snippet": "Comprehensive paid advertising audit & optimization skill for Claude Code. 250+ checks across Google, Meta, YouTube, LinkedIn, TikTok, Microsoft & Apple Ads with weighted scoring, parallel agents, industry templates, and AI creative generation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "Comprehensive paid advertising audit & optimization skill for Claude Code. 250+ checks across Google, Meta, YouTube, LinkedIn, TikTok, Microsoft & Apple Ads with weighted scoring, parallel agents, industry templates, and AI creative generation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code-skill"
+    },
+    {
+      "context_snippet": "Comprehensive paid advertising audit & optimization skill for Claude Code. 250+ checks across Google, Meta, YouTube, LinkedIn, TikTok, Microsoft & Apple Ads with weighted scoring, parallel agents, industry templates, and AI creative generation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "marketing-automation"
+    },
+    {
+      "context_snippet": "Comprehensive paid advertising audit & optimization skill for Claude Code. 250+ checks across Google, Meta, YouTube, LinkedIn, TikTok, Microsoft & Apple Ads with weighted scoring, parallel agents, industry templates, and AI creative generation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    }
+  ]
+}

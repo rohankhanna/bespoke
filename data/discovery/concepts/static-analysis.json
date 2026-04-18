@@ -7,7 +7,20 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/agent-analyzer",
+      "status": "candidate-context",
+      "text": "Static analysis binary for agent-sh ecosystem - git history, AST mapping, collectors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/agent-analyzer",
+      "status": "candidate-context",
+      "text": "Static analysis binary for agent-sh ecosystem - git history, AST mapping, collectors"
+    }
+  ],
   "canonical_name": "static-analysis",
   "concept_id": "static-analysis",
   "definition_status": "unresolved",
@@ -23,10 +36,16 @@
       "observed_at": "2026-04-18T12:46:59.510459+00:00",
       "source_file": null,
       "source_repo": "astral-sh/ruff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:29:00.435097+00:00",
+      "source_file": null,
+      "source_repo": "agent-sh/agent-analyzer"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "possible_senses": [
     {
       "buckets": [

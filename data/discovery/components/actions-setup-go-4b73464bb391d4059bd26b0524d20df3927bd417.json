@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-04-18T09:21:02.237042+00:00",
+  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "foxj77/claudectx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "ethpandaops/cbt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "ethpandaops/xatu-cbt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-mainnet.yaml",
+      "source_repo": "ethpandaops/xatu-cbt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-sepolia.yaml",
+      "source_repo": "ethpandaops/xatu-cbt"
     }
   ]
 }

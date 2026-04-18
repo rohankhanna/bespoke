@@ -2,7 +2,7 @@
   "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-18T03:54:46.759203+00:00",
+  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -29,6 +29,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker-tag-latest.yml",
       "source_repo": "onyx-dot-app/onyx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yaml",
+      "source_repo": "ethpandaops/cbt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ethpandaops/xatu-cbt"
     }
   ]
 }

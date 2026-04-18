@@ -1,0 +1,212 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "s0/git-publish-subdir-action@develop",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_and_code_quality.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mjvolk3/biocypher",
+      "target": "biocypher/biocypher",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mjvolk3/biocypher",
+      "target": "biopragmatics/bioregistry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mjvolk3/biocypher",
+      "target": "biocypher/project-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mjvolk3/biocypher",
+      "target": "fatiando/pooch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "Mjvolk3/biocypher",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "Mjvolk3/biocypher",
+      "target": "s0/git-publish-subdir-action@develop",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "Mjvolk3/biocypher",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "Mjvolk3/biocypher",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "Mjvolk3/biocypher",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "Mjvolk3/biocypher",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "Mjvolk3/biocypher",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_and_code_quality.yaml",
+      "source_repo": "Mjvolk3/biocypher",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests_and_code_quality.yaml",
+      "source_repo": "Mjvolk3/biocypher",
+      "target": "Tests and code quality",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T13:29:48.285112+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9183
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2771
+    },
+    {
+      "path": ".github/workflows/docs.yaml",
+      "size": 2505
+    },
+    {
+      "path": ".github/workflows/pr.yaml",
+      "size": 1707
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 2087
+    },
+    {
+      "path": ".github/workflows/tests_and_code_quality.yaml",
+      "size": 1246
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "A unifying framework for biomedical research knowledge graphs",
+    "full_name": "Mjvolk3/biocypher",
+    "html_url": "https://github.com/Mjvolk3/biocypher",
+    "language": "Python",
+    "pushed_at": "2024-07-25T20:44:53Z",
+    "topics": [],
+    "updated_at": "2024-07-25T20:45:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "biocypher/biocypher",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "biocypher/project-template",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "biopragmatics/bioregistry",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fatiando/pooch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "term": "Docs"
+    },
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "Tests and code quality",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests_and_code_quality.yaml",
+      "term": "Tests and code quality"
+    }
+  ]
+}

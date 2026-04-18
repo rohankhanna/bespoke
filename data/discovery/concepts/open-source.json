@@ -7,7 +7,44 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/can-i-help",
+      "status": "candidate-context",
+      "text": "Find where to contribute to any project - matches developer skills to project needs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/can-i-help",
+      "status": "candidate-context",
+      "text": "Find where to contribute to any project - matches developer skills to project needs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgriciDaniel/claude-ads",
+      "status": "candidate-context",
+      "text": "Comprehensive paid advertising audit & optimization skill for Claude Code. 250+ checks across Google, Meta, YouTube, LinkedIn, TikTok, Microsoft & Apple Ads with weighted scoring, parallel agents, industry templates, and AI creative generation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgriciDaniel/claude-ads",
+      "status": "candidate-context",
+      "text": "Comprehensive paid advertising audit & optimization skill for Claude Code. 250+ checks across Google, Meta, YouTube, LinkedIn, TikTok, Microsoft & Apple Ads with weighted scoring, parallel agents, industry templates, and AI creative generation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgriciDaniel/claude-seo",
+      "status": "candidate-context",
+      "text": "Universal SEO skill for Claude Code. 19 sub-skills, 12 subagents, 3 extensions (DataForSEO, Firecrawl, Banana). Technical SEO, E-E-A-T, schema, GEO/AEO, backlinks, local SEO, maps intelligence, Google APIs, and PDF/Excel reporting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgriciDaniel/claude-seo",
+      "status": "candidate-context",
+      "text": "Universal SEO skill for Claude Code. 19 sub-skills, 12 subagents, 3 extensions (DataForSEO, Firecrawl, Banana). Technical SEO, E-E-A-T, schema, GEO/AEO, backlinks, local SEO, maps intelligence, Google APIs, and PDF/Excel reporting."
+    }
+  ],
   "canonical_name": "open-source",
   "concept_id": "open-source",
   "definition_status": "unresolved",
@@ -23,10 +60,28 @@
       "observed_at": "2026-04-18T11:56:18.570627+00:00",
       "source_file": null,
       "source_repo": "langchain-ai/langgraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:29:00.435097+00:00",
+      "source_file": null,
+      "source_repo": "agent-sh/can-i-help"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:29:00.435097+00:00",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/claude-ads"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:29:00.435097+00:00",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/claude-seo"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
+  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "possible_senses": [
     {
       "buckets": [

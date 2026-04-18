@@ -1,0 +1,42 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Static analysis binary for agent-sh ecosystem - git history, AST mapping, collectors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Static analysis binary for agent-sh ecosystem - git history, AST mapping, collectors"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "static-analysis",
+      "sense_id": "static-analysis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "static-analysis",
+  "definition_status": "unresolved",
+  "normalized_form": "static-analysis",
+  "observation_id": "24dae80c6110cec4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T13:29:00.435097+00:00",
+  "observed_text": "static-analysis",
+  "source_context_snippet": "Static analysis binary for agent-sh ecosystem - git history, AST mapping, collectors",
+  "source_file": null,
+  "source_repo": "agent-sh/agent-analyzer",
+  "source_repo_description": "Static analysis binary for agent-sh ecosystem - git history, AST mapping, collectors"
+}

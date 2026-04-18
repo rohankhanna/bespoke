@@ -1,0 +1,37 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Deploy Storybook to GitHub Pages"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Storybook to GitHub Pages",
+      "sense_id": "deploy-storybook-to-github-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "deploy-storybook-to-github-pages",
+  "definition_status": "unresolved",
+  "normalized_form": "deploy-storybook-to-github-pages",
+  "observation_id": "59bc7aeeb0b629c7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T13:29:00.435097+00:00",
+  "observed_text": "Deploy Storybook to GitHub Pages",
+  "source_context_snippet": "Deploy Storybook to GitHub Pages",
+  "source_file": ".github/workflows/deploy-storybook.yaml",
+  "source_repo": "ethpandaops/cbt",
+  "source_repo_description": null
+}

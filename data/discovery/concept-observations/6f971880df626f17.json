@@ -1,0 +1,42 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Protocol Buffers - Google's data interchange format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Protocol Buffers - Google's data interchange format"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "protobuf",
+      "sense_id": "protobuf#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "protobuf",
+  "definition_status": "unresolved",
+  "normalized_form": "protobuf",
+  "observation_id": "6f971880df626f17",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T13:29:00.435097+00:00",
+  "observed_text": "protobuf",
+  "source_context_snippet": "Protocol Buffers - Google's data interchange format",
+  "source_file": null,
+  "source_repo": "protocolbuffers/protobuf",
+  "source_repo_description": "Protocol Buffers - Google's data interchange format"
+}

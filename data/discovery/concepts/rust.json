@@ -10,7 +10,32 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/agent-analyzer",
+      "status": "candidate-context",
+      "text": "Static analysis binary for agent-sh ecosystem - git history, AST mapping, collectors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/agent-analyzer",
+      "status": "candidate-context",
+      "text": "Static analysis binary for agent-sh ecosystem - git history, AST mapping, collectors"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/tarpc",
+      "status": "candidate-context",
+      "text": "An RPC framework for Rust with a focus on ease of use."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/tarpc",
+      "status": "candidate-context",
+      "text": "An RPC framework for Rust with a focus on ease of use."
+    }
+  ],
   "canonical_name": "rust",
   "concept_id": "rust",
   "definition_status": "unresolved",
@@ -98,10 +123,22 @@
       "observed_at": "2026-04-18T12:46:59.510459+00:00",
       "source_file": null,
       "source_repo": "astral-sh/ruff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:29:00.435097+00:00",
+      "source_file": null,
+      "source_repo": "agent-sh/agent-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:29:00.435097+00:00",
+      "source_file": null,
+      "source_repo": "google/tarpc"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "possible_senses": [
     {
       "buckets": [

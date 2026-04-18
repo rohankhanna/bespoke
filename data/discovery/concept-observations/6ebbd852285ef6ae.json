@@ -1,0 +1,42 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Make your AI think like Munger, Feynman, or Paul Graham \u2014 load real mental models, not personas."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Make your AI think like Munger, Feynman, or Paul Graham \u2014 load real mental models, not personas."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "decision-making",
+      "sense_id": "decision-making#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "decision-making",
+  "definition_status": "unresolved",
+  "normalized_form": "decision-making",
+  "observation_id": "6ebbd852285ef6ae",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T13:29:00.435097+00:00",
+  "observed_text": "decision-making",
+  "source_context_snippet": "Make your AI think like Munger, Feynman, or Paul Graham \u2014 load real mental models, not personas.",
+  "source_file": null,
+  "source_repo": "AskRoundtable/expert-skills",
+  "source_repo_description": "Make your AI think like Munger, Feynman, or Paul Graham \u2014 load real mental models, not personas."
+}

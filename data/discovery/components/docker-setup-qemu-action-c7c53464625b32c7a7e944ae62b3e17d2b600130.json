@@ -2,13 +2,28 @@
   "component": "docker/setup-qemu-action@c7c53464625b32c7a7e944ae62b3e17d2b600130",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-17T18:04:43.852571+00:00",
+  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker-publish.yml",
       "source_repo": "NousResearch/Hermes-Agent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yaml",
+      "source_repo": "ethpandaops/cbt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-build.yaml",
+      "source_repo": "ethpandaops/cbt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ethpandaops/xatu-cbt"
     }
   ]
 }

@@ -1,0 +1,85 @@
+{
+  "aliases": [
+    "claude-code-skill"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgriciDaniel/claude-ads",
+      "status": "candidate-context",
+      "text": "Comprehensive paid advertising audit & optimization skill for Claude Code. 250+ checks across Google, Meta, YouTube, LinkedIn, TikTok, Microsoft & Apple Ads with weighted scoring, parallel agents, industry templates, and AI creative generation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgriciDaniel/claude-ads",
+      "status": "candidate-context",
+      "text": "Comprehensive paid advertising audit & optimization skill for Claude Code. 250+ checks across Google, Meta, YouTube, LinkedIn, TikTok, Microsoft & Apple Ads with weighted scoring, parallel agents, industry templates, and AI creative generation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgriciDaniel/claude-cybersecurity",
+      "status": "candidate-context",
+      "text": "AI-powered cybersecurity code review skill for Claude Code. 8 specialist agents, OWASP 2025, CWE Top 25, MITRE ATT&CK, 11 languages, zero configuration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgriciDaniel/claude-cybersecurity",
+      "status": "candidate-context",
+      "text": "AI-powered cybersecurity code review skill for Claude Code. 8 specialist agents, OWASP 2025, CWE Top 25, MITRE ATT&CK, 11 languages, zero configuration."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgriciDaniel/claude-seo",
+      "status": "candidate-context",
+      "text": "Universal SEO skill for Claude Code. 19 sub-skills, 12 subagents, 3 extensions (DataForSEO, Firecrawl, Banana). Technical SEO, E-E-A-T, schema, GEO/AEO, backlinks, local SEO, maps intelligence, Google APIs, and PDF/Excel reporting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgriciDaniel/claude-seo",
+      "status": "candidate-context",
+      "text": "Universal SEO skill for Claude Code. 19 sub-skills, 12 subagents, 3 extensions (DataForSEO, Firecrawl, Banana). Technical SEO, E-E-A-T, schema, GEO/AEO, backlinks, local SEO, maps intelligence, Google APIs, and PDF/Excel reporting."
+    }
+  ],
+  "canonical_name": "claude-code-skill",
+  "concept_id": "claude-code-skill",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:29:00.435097+00:00",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/claude-ads"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:29:00.435097+00:00",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/claude-cybersecurity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:29:00.435097+00:00",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/claude-seo"
+    }
+  ],
+  "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "claude-code-skill",
+      "sense_id": "claude-code-skill#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

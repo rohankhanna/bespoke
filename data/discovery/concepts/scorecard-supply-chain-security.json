@@ -13,6 +13,18 @@
       "source_repo": "bats-core/bats-core",
       "status": "candidate-context",
       "text": "Bash Automated Testing System"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "protocolbuffers/protobuf",
+      "status": "candidate-context",
+      "text": "Protocol Buffers - Google's data interchange format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "protocolbuffers/protobuf",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
     }
   ],
   "canonical_name": "Scorecard supply-chain security",
@@ -30,10 +42,16 @@
       "observed_at": "2026-04-18T13:15:13.756138+00:00",
       "source_file": ".github/workflows/scorecard.yml",
       "source_repo": "bats-core/bats-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T13:29:00.435097+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "protocolbuffers/protobuf"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
+  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "possible_senses": [
     {
       "buckets": [

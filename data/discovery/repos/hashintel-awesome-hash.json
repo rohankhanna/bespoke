@@ -1,0 +1,111 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hashintel/awesome-hash",
+      "target": "blockprotocol/blockprotocol",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hashintel/awesome-hash",
+      "target": "hashintel/labs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "hashintel/awesome-hash",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hashintel/awesome-hash",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hashintel/awesome-hash",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hashintel/awesome-hash",
+      "target": "hash",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T13:29:13.399840+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2584
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 213
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "\ud83d\ude0e A curated list of the best resources in the HASH ecosystem",
+    "full_name": "hashintel/awesome-hash",
+    "html_url": "https://github.com/hashintel/awesome-hash",
+    "language": null,
+    "pushed_at": "2023-09-14T06:03:31Z",
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "hash"
+    ],
+    "updated_at": "2026-04-12T09:48:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blockprotocol/blockprotocol",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hashintel/labs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ud83d\ude0e A curated list of the best resources in the HASH ecosystem",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "\ud83d\ude0e A curated list of the best resources in the HASH ecosystem",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "\ud83d\ude0e A curated list of the best resources in the HASH ecosystem",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hash"
+    }
+  ]
+}

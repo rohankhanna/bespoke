@@ -7,7 +7,26 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethpandaops/cbt",
+      "status": "candidate-context",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethpandaops/xatu",
+      "status": "candidate-context",
+      "text": "Ethereum network monitoring with collection clients and a centralized server for data pipelining."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethpandaops/xatu",
+      "status": "candidate-context",
+      "text": "goreleaser"
+    }
+  ],
   "canonical_name": "goreleaser",
   "concept_id": "goreleaser",
   "definition_status": "unresolved",
@@ -29,10 +48,22 @@
       "observed_at": "2026-04-18T11:24:14.688152+00:00",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "router-for-me/CLIProxyAPI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T13:29:00.435097+00:00",
+      "source_file": ".github/workflows/goreleaser.yaml",
+      "source_repo": "ethpandaops/cbt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T13:29:00.435097+00:00",
+      "source_file": ".github/workflows/goreleaser.yaml",
+      "source_repo": "ethpandaops/xatu"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "possible_senses": [
     {
       "buckets": [

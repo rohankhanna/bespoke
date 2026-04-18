@@ -1,0 +1,443 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alpha-releases.yaml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buf.yaml"
+    },
+    {
+      "component": "bufbuild/buf-setup-action@a47c93e0b1648769eb9a2e1f98e7b4e3e13089f0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buf.yaml"
+    },
+    {
+      "component": "bufbuild/buf-breaking-action@c57b3d842a5c3f3b454756ef65305a50a587c5ba",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buf.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cannon-smoke-test.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@e468171a9de216ec08956ac3ada2f0791b6bd435",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cannon-smoke-test.yaml"
+    },
+    {
+      "component": "docker/build-push-action@14487ce63c7a62a4a324b0bfb37086795e31c6c1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cannon-smoke-test.yaml"
+    },
+    {
+      "component": "jwalton/gh-docker-logs@2741064ab9d7af54b0b1ffb6076cf64c16f0220e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cannon-smoke-test.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cannon-smoke-test.yaml"
+    },
+    {
+      "component": "read",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "ethpandaops/.github/actions/claude-pr-assistant@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "actions/setup-go@d35c59abb061a4a6fb18e82ac0862c26744d6ab5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@4afd733a84b1f43292c63897423277bb7f4313a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yaml"
+    },
+    {
+      "component": "actions/setup-go@d35c59abb061a4a6fb18e82ac0862c26744d6ab5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yaml"
+    },
+    {
+      "component": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@29109295f81e9208d7d86ff1c6c12d2833863392",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@e468171a9de216ec08956ac3ada2f0791b6bd435",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yaml"
+    },
+    {
+      "component": "docker/login-action@184bdaa0721073962dff0199f1fb9940f07167d1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yaml"
+    },
+    {
+      "component": "actions/setup-go@d35c59abb061a4a6fb18e82ac0862c26744d6ab5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yaml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethpandaops/xatu",
+      "target": "ethereum/devp2p",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethpandaops/xatu",
+      "target": "ethpandaops/ethereum-helm-charts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alpha-releases.yaml",
+      "source_repo": "ethpandaops/xatu",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alpha-releases.yaml",
+      "source_repo": "ethpandaops/xatu",
+      "target": "alpha releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buf.yaml",
+      "source_repo": "ethpandaops/xatu",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buf.yaml",
+      "source_repo": "ethpandaops/xatu",
+      "target": "bufbuild/buf-setup-action@a47c93e0b1648769eb9a2e1f98e7b4e3e13089f0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buf.yaml",
+      "source_repo": "ethpandaops/xatu",
+      "target": "bufbuild/buf-breaking-action@c57b3d842a5c3f3b454756ef65305a50a587c5ba",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buf.yaml",
+      "source_repo": "ethpandaops/xatu",
+      "target": "Protobuf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cannon-smoke-test.yaml",
+      "source_repo": "ethpandaops/xatu",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cannon-smoke-test.yaml",
+      "source_repo": "ethpandaops/xatu",
+      "target": "docker/setup-buildx-action@e468171a9de216ec08956ac3ada2f0791b6bd435",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cannon-smoke-test.yaml",
+      "source_repo": "ethpandaops/xatu",
+      "target": "docker/build-push-action@14487ce63c7a62a4a324b0bfb37086795e31c6c1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cannon-smoke-test.yaml",
+      "source_repo": "ethpandaops/xatu",
+      "target": "jwalton/gh-docker-logs@2741064ab9d7af54b0b1ffb6076cf64c16f0220e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cannon-smoke-test.yaml",
+      "source_repo": "ethpandaops/xatu",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cannon-smoke-test.yaml",
+      "source_repo": "ethpandaops/xatu",
+      "target": "Cannon Smoke Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "ethpandaops/xatu",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "ethpandaops/xatu",
+      "target": "ethpandaops/.github/actions/claude-pr-assistant@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "ethpandaops/xatu",
+      "target": "Claude PR Assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "ethpandaops/xatu",
+      "target": "actions/setup-go@d35c59abb061a4a6fb18e82ac0862c26744d6ab5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "ethpandaops/xatu",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "ethpandaops/xatu",
+      "target": "golangci/golangci-lint-action@4afd733a84b1f43292c63897423277bb7f4313a9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "ethpandaops/xatu",
+      "target": "golangci-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yaml",
+      "source_repo": "ethpandaops/xatu",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yaml",
+      "source_repo": "ethpandaops/xatu",
+      "target": "actions/setup-go@d35c59abb061a4a6fb18e82ac0862c26744d6ab5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yaml",
+      "source_repo": "ethpandaops/xatu",
+      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yaml",
+      "source_repo": "ethpandaops/xatu",
+      "target": "docker/setup-qemu-action@29109295f81e9208d7d86ff1c6c12d2833863392",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yaml",
+      "source_repo": "ethpandaops/xatu",
+      "target": "docker/setup-buildx-action@e468171a9de216ec08956ac3ada2f0791b6bd435",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yaml",
+      "source_repo": "ethpandaops/xatu",
+      "target": "docker/login-action@184bdaa0721073962dff0199f1fb9940f07167d1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yaml",
+      "source_repo": "ethpandaops/xatu",
+      "target": "goreleaser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yaml",
+      "source_repo": "ethpandaops/xatu",
+      "target": "actions/setup-go@d35c59abb061a4a6fb18e82ac0862c26744d6ab5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/govulncheck.yaml",
+      "source_repo": "ethpandaops/xatu",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/govulncheck.yaml",
+      "source_repo": "ethpandaops/xatu",
+      "target": "govulncheck",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T13:29:41.723238+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7368
+    },
+    {
+      "path": "Dockerfile",
+      "size": 386
+    },
+    {
+      "path": "go.mod",
+      "size": 15364
+    },
+    {
+      "path": ".github/workflows/alpha-releases.yaml",
+      "size": 2113
+    },
+    {
+      "path": ".github/workflows/buf.yaml",
+      "size": 818
+    },
+    {
+      "path": ".github/workflows/cannon-smoke-test.yaml",
+      "size": 9903
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 1996
+    },
+    {
+      "path": ".github/workflows/golangci-lint.yaml",
+      "size": 1949
+    },
+    {
+      "path": ".github/workflows/goreleaser.yaml",
+      "size": 3237
+    },
+    {
+      "path": ".github/workflows/govulncheck.yaml",
+      "size": 1437
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "Ethereum network monitoring with collection clients and a centralized server for data pipelining.",
+    "full_name": "ethpandaops/xatu",
+    "html_url": "https://github.com/ethpandaops/xatu",
+    "language": "Go",
+    "pushed_at": "2026-04-10T01:58:54Z",
+    "topics": [],
+    "updated_at": "2026-04-09T23:34:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum/devp2p",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethpandaops/ethereum-helm-charts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "alpha releases",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alpha-releases.yaml",
+      "term": "alpha releases"
+    },
+    {
+      "context_snippet": "Protobuf",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buf.yaml",
+      "term": "Protobuf"
+    },
+    {
+      "context_snippet": "Cannon Smoke Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cannon-smoke-test.yaml",
+      "term": "Cannon Smoke Test"
+    },
+    {
+      "context_snippet": "Claude PR Assistant",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude PR Assistant"
+    },
+    {
+      "context_snippet": "golangci-lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "term": "golangci-lint"
+    },
+    {
+      "context_snippet": "goreleaser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yaml",
+      "term": "goreleaser"
+    },
+    {
+      "context_snippet": "govulncheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/govulncheck.yaml",
+      "term": "govulncheck"
+    }
+  ]
+}

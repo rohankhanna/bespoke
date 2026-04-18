@@ -1,0 +1,56 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-upstream-drift.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-upstream-drift.yml",
+      "source_repo": "agent-sh/glidemq",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-upstream-drift.yml",
+      "source_repo": "agent-sh/glidemq",
+      "target": "Check upstream drift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T13:29:08.793879+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 718
+    },
+    {
+      "path": ".github/workflows/check-upstream-drift.yml",
+      "size": 1792
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "glide-mq message queue skills for agentsys - greenfield, BullMQ migration, Bee-Queue migration",
+    "full_name": "agent-sh/glidemq",
+    "html_url": "https://github.com/agent-sh/glidemq",
+    "language": "Shell",
+    "pushed_at": "2026-04-15T09:02:49Z",
+    "topics": [],
+    "updated_at": "2026-04-15T09:02:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check upstream drift",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-upstream-drift.yml",
+      "term": "Check upstream drift"
+    }
+  ]
+}

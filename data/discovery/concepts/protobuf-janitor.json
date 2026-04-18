@@ -1,0 +1,49 @@
+{
+  "aliases": [
+    "Protobuf Janitor"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "protocolbuffers/protobuf",
+      "status": "candidate-context",
+      "text": "Protocol Buffers - Google's data interchange format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "protocolbuffers/protobuf",
+      "status": "candidate-context",
+      "text": "Protobuf Janitor"
+    }
+  ],
+  "canonical_name": "Protobuf Janitor",
+  "concept_id": "protobuf-janitor",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T13:29:00.435097+00:00",
+      "source_file": ".github/workflows/janitor.yml",
+      "source_repo": "protocolbuffers/protobuf"
+    }
+  ],
+  "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Protobuf Janitor",
+      "sense_id": "protobuf-janitor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

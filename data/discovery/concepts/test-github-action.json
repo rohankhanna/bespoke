@@ -1,0 +1,49 @@
+{
+  "aliases": [
+    "Test GitHub Action"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "affaan-m/agentshield",
+      "status": "candidate-context",
+      "text": "AI agent security scanner. Detect vulnerabilities in agent configurations, MCP servers, and tool permissions. Available as CLI, GitHub Action, ECC plugin, and GitHub App integration. \ud83d\udee1\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "affaan-m/agentshield",
+      "status": "candidate-context",
+      "text": "Test GitHub Action"
+    }
+  ],
+  "canonical_name": "Test GitHub Action",
+  "concept_id": "test-github-action",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T13:29:00.435097+00:00",
+      "source_file": ".github/workflows/test-action.yml",
+      "source_repo": "affaan-m/agentshield"
+    }
+  ],
+  "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test GitHub Action",
+      "sense_id": "test-github-action#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

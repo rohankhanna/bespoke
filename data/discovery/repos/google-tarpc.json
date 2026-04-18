@@ -1,0 +1,273 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_review.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_review.yml"
+    },
+    {
+      "component": "giraffate/clippy-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_review.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/tarpc",
+      "target": "tokio-rs/tracing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/tarpc",
+      "target": "open-telemetry/opentelemetry-rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/tarpc",
+      "target": "env-logger-rs/env_logger",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "google/tarpc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "google/tarpc",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "google/tarpc",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_review.yml",
+      "source_repo": "google/tarpc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_review.yml",
+      "source_repo": "google/tarpc",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_review.yml",
+      "source_repo": "google/tarpc",
+      "target": "giraffate/clippy-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_review.yml",
+      "source_repo": "google/tarpc",
+      "target": "PR Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/tarpc",
+      "target": "asynchronous-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/tarpc",
+      "target": "futures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/tarpc",
+      "target": "rpc-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/tarpc",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/tarpc",
+      "target": "tokio",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T13:29:26.387373+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7052
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 137
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 3582
+    },
+    {
+      "path": ".github/workflows/pr_review.yml",
+      "size": 332
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "An RPC framework for Rust with a focus on ease of use.",
+    "full_name": "google/tarpc",
+    "html_url": "https://github.com/google/tarpc",
+    "language": "Rust",
+    "pushed_at": "2026-03-25T06:11:05Z",
+    "topics": [
+      "asynchronous-programming",
+      "futures",
+      "rpc-framework",
+      "rust",
+      "tokio"
+    ],
+    "updated_at": "2026-04-16T15:29:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "env-logger-rs/env_logger",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-telemetry/opentelemetry-rust",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tokio-rs/tracing",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "PR Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_review.yml",
+      "term": "PR Review"
+    },
+    {
+      "context_snippet": "An RPC framework for Rust with a focus on ease of use.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asynchronous-programming"
+    },
+    {
+      "context_snippet": "An RPC framework for Rust with a focus on ease of use.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "futures"
+    },
+    {
+      "context_snippet": "An RPC framework for Rust with a focus on ease of use.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rpc-framework"
+    },
+    {
+      "context_snippet": "An RPC framework for Rust with a focus on ease of use.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "An RPC framework for Rust with a focus on ease of use.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tokio"
+    }
+  ]
+}

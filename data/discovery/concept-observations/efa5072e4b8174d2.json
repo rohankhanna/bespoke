@@ -1,0 +1,42 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ethereum network monitoring with collection clients and a centralized server for data pipelining."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "govulncheck"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "govulncheck",
+      "sense_id": "govulncheck#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "govulncheck",
+  "definition_status": "unresolved",
+  "normalized_form": "govulncheck",
+  "observation_id": "efa5072e4b8174d2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T13:29:00.435097+00:00",
+  "observed_text": "govulncheck",
+  "source_context_snippet": "govulncheck",
+  "source_file": ".github/workflows/govulncheck.yaml",
+  "source_repo": "ethpandaops/xatu",
+  "source_repo_description": "Ethereum network monitoring with collection clients and a centralized server for data pipelining."
+}

@@ -1,0 +1,221 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "DavidAnson/markdownlint-cli2-action@v19",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AgriciDaniel/claude-cybersecurity",
+      "target": "agricidaniel/claude-seo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AgriciDaniel/claude-cybersecurity",
+      "target": "agricidaniel/claude-blog",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "AgriciDaniel/claude-cybersecurity",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "AgriciDaniel/claude-cybersecurity",
+      "target": "DavidAnson/markdownlint-cli2-action@v19",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/claude-cybersecurity",
+      "target": "appsec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/claude-cybersecurity",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/claude-cybersecurity",
+      "target": "claude-code-skill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/claude-cybersecurity",
+      "target": "code-review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/claude-cybersecurity",
+      "target": "cybersecurity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/claude-cybersecurity",
+      "target": "devsecops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/claude-cybersecurity",
+      "target": "owasp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/claude-cybersecurity",
+      "target": "sast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/claude-cybersecurity",
+      "target": "security-audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/claude-cybersecurity",
+      "target": "vulnerability-scanner",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T13:29:32.792896+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4823
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 867
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "AI-powered cybersecurity code review skill for Claude Code. 8 specialist agents, OWASP 2025, CWE Top 25, MITRE ATT&CK, 11 languages, zero configuration.",
+    "full_name": "AgriciDaniel/claude-cybersecurity",
+    "html_url": "https://github.com/AgriciDaniel/claude-cybersecurity",
+    "language": "Shell",
+    "pushed_at": "2026-04-15T09:43:43Z",
+    "topics": [
+      "appsec",
+      "claude-code",
+      "claude-code-skill",
+      "code-review",
+      "cybersecurity",
+      "devsecops",
+      "owasp",
+      "sast",
+      "security-audit",
+      "vulnerability-scanner"
+    ],
+    "updated_at": "2026-04-18T00:47:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agricidaniel/claude-blog",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agricidaniel/claude-seo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "AI-powered cybersecurity code review skill for Claude Code. 8 specialist agents, OWASP 2025, CWE Top 25, MITRE ATT&CK, 11 languages, zero configuration.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "appsec"
+    },
+    {
+      "context_snippet": "AI-powered cybersecurity code review skill for Claude Code. 8 specialist agents, OWASP 2025, CWE Top 25, MITRE ATT&CK, 11 languages, zero configuration.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "AI-powered cybersecurity code review skill for Claude Code. 8 specialist agents, OWASP 2025, CWE Top 25, MITRE ATT&CK, 11 languages, zero configuration.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code-skill"
+    },
+    {
+      "context_snippet": "AI-powered cybersecurity code review skill for Claude Code. 8 specialist agents, OWASP 2025, CWE Top 25, MITRE ATT&CK, 11 languages, zero configuration.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-review"
+    },
+    {
+      "context_snippet": "AI-powered cybersecurity code review skill for Claude Code. 8 specialist agents, OWASP 2025, CWE Top 25, MITRE ATT&CK, 11 languages, zero configuration.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cybersecurity"
+    },
+    {
+      "context_snippet": "AI-powered cybersecurity code review skill for Claude Code. 8 specialist agents, OWASP 2025, CWE Top 25, MITRE ATT&CK, 11 languages, zero configuration.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devsecops"
+    },
+    {
+      "context_snippet": "AI-powered cybersecurity code review skill for Claude Code. 8 specialist agents, OWASP 2025, CWE Top 25, MITRE ATT&CK, 11 languages, zero configuration.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "owasp"
+    },
+    {
+      "context_snippet": "AI-powered cybersecurity code review skill for Claude Code. 8 specialist agents, OWASP 2025, CWE Top 25, MITRE ATT&CK, 11 languages, zero configuration.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sast"
+    },
+    {
+      "context_snippet": "AI-powered cybersecurity code review skill for Claude Code. 8 specialist agents, OWASP 2025, CWE Top 25, MITRE ATT&CK, 11 languages, zero configuration.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security-audit"
+    },
+    {
+      "context_snippet": "AI-powered cybersecurity code review skill for Claude Code. 8 specialist agents, OWASP 2025, CWE Top 25, MITRE ATT&CK, 11 languages, zero configuration.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulnerability-scanner"
+    }
+  ]
+}

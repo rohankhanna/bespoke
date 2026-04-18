@@ -1,0 +1,42 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An RPC framework for Rust with a focus on ease of use."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "PR Review"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Review",
+      "sense_id": "pr-review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "pr-review",
+  "definition_status": "unresolved",
+  "normalized_form": "pr-review",
+  "observation_id": "67c047dcad143b46",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T13:29:00.435097+00:00",
+  "observed_text": "PR Review",
+  "source_context_snippet": "PR Review",
+  "source_file": ".github/workflows/pr_review.yml",
+  "source_repo": "google/tarpc",
+  "source_repo_description": "An RPC framework for Rust with a focus on ease of use."
+}

@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-18T09:22:19.136418+00:00",
-  "last_seen_at": "2026-04-18T09:22:19.136418+00:00",
+  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/deploy-storybook.yml",
       "source_repo": "jerseycheese/Narraitor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/deploy-storybook.yaml",
+      "source_repo": "ethpandaops/cbt"
     }
   ],
   "term": "Deploy Storybook to GitHub Pages"

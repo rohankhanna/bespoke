@@ -1,0 +1,49 @@
+{
+  "aliases": [
+    "Claude PR Assistant"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethpandaops/xatu",
+      "status": "candidate-context",
+      "text": "Ethereum network monitoring with collection clients and a centralized server for data pipelining."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethpandaops/xatu",
+      "status": "candidate-context",
+      "text": "Claude PR Assistant"
+    }
+  ],
+  "canonical_name": "Claude PR Assistant",
+  "concept_id": "claude-pr-assistant",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T13:29:00.435097+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "ethpandaops/xatu"
+    }
+  ],
+  "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Claude PR Assistant",
+      "sense_id": "claude-pr-assistant#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

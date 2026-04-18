@@ -1,0 +1,12 @@
+{
+  "component": "ethpandaops/.github/actions/claude-pr-assistant@master",
+  "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "ethpandaops/xatu"
+    }
+  ]
+}

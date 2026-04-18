@@ -1,0 +1,42 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An RPC framework for Rust with a focus on ease of use."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "An RPC framework for Rust with a focus on ease of use."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rpc-framework",
+      "sense_id": "rpc-framework#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "rpc-framework",
+  "definition_status": "unresolved",
+  "normalized_form": "rpc-framework",
+  "observation_id": "05a7866e3cb8cdc6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T13:29:00.435097+00:00",
+  "observed_text": "rpc-framework",
+  "source_context_snippet": "An RPC framework for Rust with a focus on ease of use.",
+  "source_file": null,
+  "source_repo": "google/tarpc",
+  "source_repo_description": "An RPC framework for Rust with a focus on ease of use."
+}

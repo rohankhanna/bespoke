@@ -1,0 +1,37 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "alpha releases"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "alpha releases",
+      "sense_id": "alpha-releases#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "alpha-releases",
+  "definition_status": "unresolved",
+  "normalized_form": "alpha-releases",
+  "observation_id": "e3d0deac0f58cf96",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T13:29:00.435097+00:00",
+  "observed_text": "alpha releases",
+  "source_context_snippet": "alpha releases",
+  "source_file": ".github/workflows/alpha-releases.yaml",
+  "source_repo": "ethpandaops/cbt",
+  "source_repo_description": null
+}

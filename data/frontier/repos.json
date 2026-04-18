@@ -1,106 +1,6 @@
 {
-  "generated_at": "2026-04-18T13:15:13.756138+00:00",
+  "generated_at": "2026-04-18T13:29:00.435097+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "eastlondoner/pac-man",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "jezweb/roo-commander",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "askroundtable/expert-skills",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "agent-sh/agent-analyzer",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "agent-sh/can-i-help",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "agent-sh/glidemq",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "agent-sh/onboard",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "steipete/claude-code-mcp",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "hashintel/awesome-hash",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "protocolbuffers/protobuf",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "cedar-policy/cedar",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "google/tarpc",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "affaan-m/agentshield",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "agricidaniel/claude-ads",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "agricidaniel/claude-cybersecurity",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "agricidaniel/claude-seo",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ethpandaops/cbt",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ethpandaops/xatu",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ethpandaops/xatu-cbt",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "mjvolk3/biocypher",
-      "graph_distance": 4
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "mjvolk3/dendron-template",
@@ -1550,6 +1450,136 @@
       "discovered_via": "explicit-github-link",
       "full_name": "eastlondoner/cursor-tools",
       "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "jezweb/claude-skills",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "agent-sh/agent-core",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "agent-sh/repo-intel",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "agent-sh/sync-docs",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "blockprotocol/blockprotocol",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "hashintel/labs",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dart-lang/protobuf",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "protocolbuffers/protobuf-go",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "protocolbuffers/protobuf-javascript",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cedar-policy/cedar-docs",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cedar-policy/cedar-examples",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "env-logger-rs/env_logger",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "open-telemetry/opentelemetry-rust",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tokio-rs/tracing",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cohnen/mcp-google-ads",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "agricidaniel/claude-banana",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "agricidaniel/claude-blog",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "agricidaniel/banana-claude",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "zubair-trabzada/ai-marketing-claude",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "hibiken/asynq",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ethereum/devp2p",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ethpandaops/ethereum-helm-charts",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "biocypher/biocypher",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "biocypher/project-template",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "biopragmatics/bioregistry",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "fatiando/pooch",
+      "graph_distance": 5
     }
   ],
   "processed": [
@@ -2164,6 +2194,26 @@
     "huangguang1999/ccstatusline-zh",
     "vincent-k2026/codachi",
     "moby/moby",
-    "huggingface/transformers"
+    "huggingface/transformers",
+    "eastlondoner/pac-man",
+    "jezweb/roo-commander",
+    "askroundtable/expert-skills",
+    "agent-sh/agent-analyzer",
+    "agent-sh/can-i-help",
+    "agent-sh/glidemq",
+    "agent-sh/onboard",
+    "steipete/claude-code-mcp",
+    "hashintel/awesome-hash",
+    "protocolbuffers/protobuf",
+    "cedar-policy/cedar",
+    "google/tarpc",
+    "affaan-m/agentshield",
+    "agricidaniel/claude-ads",
+    "agricidaniel/claude-cybersecurity",
+    "agricidaniel/claude-seo",
+    "ethpandaops/cbt",
+    "ethpandaops/xatu",
+    "ethpandaops/xatu-cbt",
+    "mjvolk3/biocypher"
   ]
 }

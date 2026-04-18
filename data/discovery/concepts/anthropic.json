@@ -13,6 +13,18 @@
       "source_repo": "Aider-AI/aider",
       "status": "candidate-context",
       "text": "aider is AI pair programming in your terminal"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "affaan-m/agentshield",
+      "status": "candidate-context",
+      "text": "AI agent security scanner. Detect vulnerabilities in agent configurations, MCP servers, and tool permissions. Available as CLI, GitHub Action, ECC plugin, and GitHub App integration. \ud83d\udee1\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "affaan-m/agentshield",
+      "status": "candidate-context",
+      "text": "AI agent security scanner. Detect vulnerabilities in agent configurations, MCP servers, and tool permissions. Available as CLI, GitHub Action, ECC plugin, and GitHub App integration. \ud83d\udee1\ufe0f"
     }
   ],
   "canonical_name": "anthropic",
@@ -48,10 +60,16 @@
       "observed_at": "2026-04-18T13:15:13.756138+00:00",
       "source_file": null,
       "source_repo": "Aider-AI/aider"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:29:00.435097+00:00",
+      "source_file": null,
+      "source_repo": "affaan-m/agentshield"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
+  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "possible_senses": [
     {
       "buckets": [

@@ -1,0 +1,42 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Static analysis binary for agent-sh ecosystem - git history, AST mapping, collectors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release",
+      "sense_id": "release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "release",
+  "definition_status": "unresolved",
+  "normalized_form": "release",
+  "observation_id": "f5001215515539cc",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T13:29:00.435097+00:00",
+  "observed_text": "Release",
+  "source_context_snippet": "Release",
+  "source_file": ".github/workflows/release.yml",
+  "source_repo": "agent-sh/agent-analyzer",
+  "source_repo_description": "Static analysis binary for agent-sh ecosystem - git history, AST mapping, collectors"
+}

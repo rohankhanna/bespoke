@@ -8,7 +8,20 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mjvolk3/biocypher",
+      "status": "candidate-context",
+      "text": "A unifying framework for biomedical research knowledge graphs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mjvolk3/biocypher",
+      "status": "candidate-context",
+      "text": "Publish"
+    }
+  ],
   "canonical_name": "Publish",
   "concept_id": "publish",
   "definition_status": "unresolved",
@@ -42,10 +55,16 @@
       "observed_at": "2026-04-18T12:46:59.510459+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "vercel-labs/skills"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T13:29:00.435097+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "Mjvolk3/biocypher"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "possible_senses": [
     {
       "buckets": [

@@ -1,0 +1,17 @@
+{
+  "component": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+  "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "ethpandaops/cbt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "ethpandaops/xatu-cbt"
+    }
+  ]
+}

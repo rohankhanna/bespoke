@@ -1,0 +1,12 @@
+{
+  "component": "bitovi/github-actions-storybook-to-github-pages@ddd9d35f670cceedd2bfc444be681001b0709730",
+  "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-storybook.yaml",
+      "source_repo": "ethpandaops/cbt"
+    }
+  ]
+}

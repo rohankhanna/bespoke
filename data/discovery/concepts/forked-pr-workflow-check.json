@@ -1,0 +1,49 @@
+{
+  "aliases": [
+    "Forked PR workflow check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "protocolbuffers/protobuf",
+      "status": "candidate-context",
+      "text": "Protocol Buffers - Google's data interchange format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "protocolbuffers/protobuf",
+      "status": "candidate-context",
+      "text": "Forked PR workflow check"
+    }
+  ],
+  "canonical_name": "Forked PR workflow check",
+  "concept_id": "forked-pr-workflow-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T13:29:00.435097+00:00",
+      "source_file": ".github/workflows/forked_pr_workflow_check.yml",
+      "source_repo": "protocolbuffers/protobuf"
+    }
+  ],
+  "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Forked PR workflow check",
+      "sense_id": "forked-pr-workflow-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -7,7 +7,20 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgriciDaniel/claude-cybersecurity",
+      "status": "candidate-context",
+      "text": "AI-powered cybersecurity code review skill for Claude Code. 8 specialist agents, OWASP 2025, CWE Top 25, MITRE ATT&CK, 11 languages, zero configuration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgriciDaniel/claude-cybersecurity",
+      "status": "candidate-context",
+      "text": "AI-powered cybersecurity code review skill for Claude Code. 8 specialist agents, OWASP 2025, CWE Top 25, MITRE ATT&CK, 11 languages, zero configuration."
+    }
+  ],
   "canonical_name": "code-review",
   "concept_id": "code-review",
   "definition_status": "unresolved",
@@ -17,10 +30,16 @@
       "observed_at": "2026-04-18T11:57:36.597358+00:00",
       "source_file": null,
       "source_repo": "Astro-Han/diffpane"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:29:00.435097+00:00",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/claude-cybersecurity"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
+  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "possible_senses": [
     {
       "buckets": [

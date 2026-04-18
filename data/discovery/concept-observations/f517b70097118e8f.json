@@ -1,0 +1,42 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Implementation of the Cedar Policy Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build and Test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Test",
+      "sense_id": "build-and-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "build-and-test",
+  "definition_status": "unresolved",
+  "normalized_form": "build-and-test",
+  "observation_id": "f517b70097118e8f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T13:29:00.435097+00:00",
+  "observed_text": "Build and Test",
+  "source_context_snippet": "Build and Test",
+  "source_file": ".github/workflows/build_and_test.yml",
+  "source_repo": "cedar-policy/cedar",
+  "source_repo_description": "Implementation of the Cedar Policy Language"
+}

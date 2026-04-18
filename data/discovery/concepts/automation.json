@@ -7,7 +7,32 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/can-i-help",
+      "status": "candidate-context",
+      "text": "Find where to contribute to any project - matches developer skills to project needs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/can-i-help",
+      "status": "candidate-context",
+      "text": "Find where to contribute to any project - matches developer skills to project needs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/onboard",
+      "status": "candidate-context",
+      "text": "Quick codebase summary for new projects - /onboard command"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/onboard",
+      "status": "candidate-context",
+      "text": "Quick codebase summary for new projects - /onboard command"
+    }
+  ],
   "canonical_name": "automation",
   "concept_id": "automation",
   "definition_status": "unresolved",
@@ -29,10 +54,22 @@
       "observed_at": "2026-04-18T11:56:18.570627+00:00",
       "source_file": null,
       "source_repo": "ithiria894/awesome-claude-code-hooks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:29:00.435097+00:00",
+      "source_file": null,
+      "source_repo": "agent-sh/can-i-help"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:29:00.435097+00:00",
+      "source_file": null,
+      "source_repo": "agent-sh/onboard"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
+  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "possible_senses": [
     {
       "buckets": [

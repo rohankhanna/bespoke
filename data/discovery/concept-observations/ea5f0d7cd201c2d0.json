@@ -1,0 +1,42 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Think of it like having a virtual, specialized software development team right inside your editor, orchestrated by the \ud83d\udc51 Roo Commander, powered by Roo Code on VS Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Think of it like having a virtual, specialized software development team right inside your editor, orchestrated by the \ud83d\udc51 Roo Commander, powered by Roo Code on VS Code"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "roocode",
+      "sense_id": "roocode#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "roocode",
+  "definition_status": "unresolved",
+  "normalized_form": "roocode",
+  "observation_id": "ea5f0d7cd201c2d0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T13:29:00.435097+00:00",
+  "observed_text": "roocode",
+  "source_context_snippet": "Think of it like having a virtual, specialized software development team right inside your editor, orchestrated by the \ud83d\udc51 Roo Commander, powered by Roo Code on VS Code",
+  "source_file": null,
+  "source_repo": "jezweb/roo-commander",
+  "source_repo_description": "Think of it like having a virtual, specialized software development team right inside your editor, orchestrated by the \ud83d\udc51 Roo Commander, powered by Roo Code on VS Code"
+}

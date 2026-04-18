@@ -14,6 +14,12 @@
       "source_repo": "jpanther/congo",
       "status": "candidate-context",
       "text": "A powerful, lightweight theme for Hugo built with Tailwind CSS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethpandaops/cbt",
+      "status": "candidate-context",
+      "text": "Test Build"
     }
   ],
   "canonical_name": "test build",
@@ -31,10 +37,16 @@
       "observed_at": "2026-04-18T13:15:13.756138+00:00",
       "source_file": ".github/workflows/test-build.yml",
       "source_repo": "jpanther/congo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T13:29:00.435097+00:00",
+      "source_file": ".github/workflows/test-build.yaml",
+      "source_repo": "ethpandaops/cbt"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
+  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "possible_senses": [
     {
       "buckets": [

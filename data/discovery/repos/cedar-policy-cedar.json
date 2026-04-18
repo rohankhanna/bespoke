@@ -1,0 +1,489 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "EmbarkStudios/cargo-deny-action@91bf2b620e09e18d6eb78b92e7861937469acedb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "taiki-e/install-action@fe18b65ff0d7a76aced2f43aeace5de8f236b1f7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "cedar-policy/cedar-spec/.github/workflows/build_and_test_drt_reusable.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_downstream_deps.yml"
+    },
+    {
+      "component": "cedar-policy/cedar-spec/.github/workflows/build_and_test_ffi_reusable.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_downstream_deps.yml"
+    },
+    {
+      "component": "cedar-policy/cedar-spec/.github/workflows/build_and_test_cli_reusable.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_downstream_deps.yml"
+    },
+    {
+      "component": "cedar-policy/cedar-examples/.github/workflows/build_rust_hello_world_reusable.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_downstream_deps.yml"
+    },
+    {
+      "component": "cedar-policy/cedar-examples/.github/workflows/run_example_use_cases_reusable.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_downstream_deps.yml"
+    },
+    {
+      "component": "cedar-policy/cedar-examples/.github/workflows/build_tiny_todo_reusable.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_downstream_deps.yml"
+    },
+    {
+      "component": "cedar-policy/cedar-examples/.github/workflows/build_wasm_example_reusable.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_downstream_deps.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_release.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_release.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_audit.yml"
+    },
+    {
+      "component": "EmbarkStudios/cargo-deny-action@91bf2b620e09e18d6eb78b92e7861937469acedb",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_audit.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_audit.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "read",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment_pr.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment_pr.yml"
+    },
+    {
+      "component": "cedar-policy/cedar-java/.github/workflows/run_cedar_java_reusable.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_build_downstream.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cedar-policy/cedar",
+      "target": "cedar-policy/cedar-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cedar-policy/cedar",
+      "target": "cedar-policy/cedar-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "cedar-policy/cedar",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "cedar-policy/cedar",
+      "target": "EmbarkStudios/cargo-deny-action@91bf2b620e09e18d6eb78b92e7861937469acedb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "cedar-policy/cedar",
+      "target": "taiki-e/install-action@fe18b65ff0d7a76aced2f43aeace5de8f236b1f7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "cedar-policy/cedar",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_downstream_deps.yml",
+      "source_repo": "cedar-policy/cedar",
+      "target": "cedar-policy/cedar-spec/.github/workflows/build_and_test_drt_reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_downstream_deps.yml",
+      "source_repo": "cedar-policy/cedar",
+      "target": "cedar-policy/cedar-spec/.github/workflows/build_and_test_ffi_reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_downstream_deps.yml",
+      "source_repo": "cedar-policy/cedar",
+      "target": "cedar-policy/cedar-spec/.github/workflows/build_and_test_cli_reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_downstream_deps.yml",
+      "source_repo": "cedar-policy/cedar",
+      "target": "cedar-policy/cedar-examples/.github/workflows/build_rust_hello_world_reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_downstream_deps.yml",
+      "source_repo": "cedar-policy/cedar",
+      "target": "cedar-policy/cedar-examples/.github/workflows/run_example_use_cases_reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_downstream_deps.yml",
+      "source_repo": "cedar-policy/cedar",
+      "target": "cedar-policy/cedar-examples/.github/workflows/build_tiny_todo_reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_downstream_deps.yml",
+      "source_repo": "cedar-policy/cedar",
+      "target": "cedar-policy/cedar-examples/.github/workflows/build_wasm_example_reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_downstream_deps.yml",
+      "source_repo": "cedar-policy/cedar",
+      "target": "Build Downstream Dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_release.yml",
+      "source_repo": "cedar-policy/cedar",
+      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_release.yml",
+      "source_repo": "cedar-policy/cedar",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_release.yml",
+      "source_repo": "cedar-policy/cedar",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_release.yml",
+      "source_repo": "cedar-policy/cedar",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_release.yml",
+      "source_repo": "cedar-policy/cedar",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_audit.yml",
+      "source_repo": "cedar-policy/cedar",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_audit.yml",
+      "source_repo": "cedar-policy/cedar",
+      "target": "EmbarkStudios/cargo-deny-action@91bf2b620e09e18d6eb78b92e7861937469acedb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_audit.yml",
+      "source_repo": "cedar-policy/cedar",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cargo_audit.yml",
+      "source_repo": "cedar-policy/cedar",
+      "target": "Cargo audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cedar-policy/cedar",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cedar-policy/cedar",
+      "target": "Cargo Build & Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment_pr.yml",
+      "source_repo": "cedar-policy/cedar",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment_pr.yml",
+      "source_repo": "cedar-policy/cedar",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment_pr.yml",
+      "source_repo": "cedar-policy/cedar",
+      "target": "Comment on the pull request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly_build.yml",
+      "source_repo": "cedar-policy/cedar",
+      "target": "Nightly build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_build_downstream.yml",
+      "source_repo": "cedar-policy/cedar",
+      "target": "cedar-policy/cedar-java/.github/workflows/run_cedar_java_reusable.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly_build_downstream.yml",
+      "source_repo": "cedar-policy/cedar",
+      "target": "Nightly Build Downstream Dependencies",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T13:29:23.415828+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7867
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3196
+    },
+    {
+      "path": ".github/workflows/build_and_test.yml",
+      "size": 6952
+    },
+    {
+      "path": ".github/workflows/build_downstream_deps.yml",
+      "size": 2669
+    },
+    {
+      "path": ".github/workflows/build_release.yml",
+      "size": 3627
+    },
+    {
+      "path": ".github/workflows/cargo_audit.yml",
+      "size": 2400
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2424
+    },
+    {
+      "path": ".github/workflows/comment_pr.yml",
+      "size": 1018
+    },
+    {
+      "path": ".github/workflows/nightly_build.yml",
+      "size": 318
+    },
+    {
+      "path": ".github/workflows/nightly_build_downstream.yml",
+      "size": 750
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Implementation of the Cedar Policy Language",
+    "full_name": "cedar-policy/cedar",
+    "html_url": "https://github.com/cedar-policy/cedar",
+    "language": "Rust",
+    "pushed_at": "2026-04-17T18:38:54Z",
+    "topics": [],
+    "updated_at": "2026-04-18T09:19:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cedar-policy/cedar-docs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cedar-policy/cedar-examples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "term": "Build and Test"
+    },
+    {
+      "context_snippet": "Build Downstream Dependencies",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_downstream_deps.yml",
+      "term": "Build Downstream Dependencies"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Cargo audit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cargo_audit.yml",
+      "term": "Cargo audit"
+    },
+    {
+      "context_snippet": "Cargo Build & Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Cargo Build & Test"
+    },
+    {
+      "context_snippet": "Comment on the pull request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment_pr.yml",
+      "term": "Comment on the pull request"
+    },
+    {
+      "context_snippet": "Nightly build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly_build.yml",
+      "term": "Nightly build"
+    },
+    {
+      "context_snippet": "Nightly Build Downstream Dependencies",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly_build_downstream.yml",
+      "term": "Nightly Build Downstream Dependencies"
+    }
+  ]
+}

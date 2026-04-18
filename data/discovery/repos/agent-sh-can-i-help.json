@@ -1,0 +1,145 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agent-sh/can-i-help",
+      "target": "agent-sh/onboard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agent-sh/can-i-help",
+      "target": "agent-sh/repo-intel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/can-i-help",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/can-i-help",
+      "target": "contributor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/can-i-help",
+      "target": "devtools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/can-i-help",
+      "target": "good-first-issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/can-i-help",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/can-i-help",
+      "target": "productivity",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T13:29:07.475930+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3742
+    },
+    {
+      "path": "package.json",
+      "size": 281
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Find where to contribute to any project - matches developer skills to project needs",
+    "full_name": "agent-sh/can-i-help",
+    "html_url": "https://github.com/agent-sh/can-i-help",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-14T23:27:11Z",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "automation",
+      "claude",
+      "contributor",
+      "devtools",
+      "good-first-issue",
+      "javascript",
+      "llm",
+      "open-source",
+      "productivity"
+    ],
+    "updated_at": "2026-04-14T23:27:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agent-sh/onboard",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agent-sh/repo-intel",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Find where to contribute to any project - matches developer skills to project needs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "Find where to contribute to any project - matches developer skills to project needs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contributor"
+    },
+    {
+      "context_snippet": "Find where to contribute to any project - matches developer skills to project needs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devtools"
+    },
+    {
+      "context_snippet": "Find where to contribute to any project - matches developer skills to project needs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "good-first-issue"
+    },
+    {
+      "context_snippet": "Find where to contribute to any project - matches developer skills to project needs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": "Find where to contribute to any project - matches developer skills to project needs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "productivity"
+    }
+  ]
+}

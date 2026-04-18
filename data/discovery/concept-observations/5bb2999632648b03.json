@@ -1,0 +1,42 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Quick codebase summary for new projects - /onboard command"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Quick codebase summary for new projects - /onboard command"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "onboarding",
+      "sense_id": "onboarding#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "onboarding",
+  "definition_status": "unresolved",
+  "normalized_form": "onboarding",
+  "observation_id": "5bb2999632648b03",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T13:29:00.435097+00:00",
+  "observed_text": "onboarding",
+  "source_context_snippet": "Quick codebase summary for new projects - /onboard command",
+  "source_file": null,
+  "source_repo": "agent-sh/onboard",
+  "source_repo_description": "Quick codebase summary for new projects - /onboard command"
+}

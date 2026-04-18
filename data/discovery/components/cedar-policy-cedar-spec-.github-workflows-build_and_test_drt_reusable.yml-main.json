@@ -1,0 +1,12 @@
+{
+  "component": "cedar-policy/cedar-spec/.github/workflows/build_and_test_drt_reusable.yml@main",
+  "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_downstream_deps.yml",
+      "source_repo": "cedar-policy/cedar"
+    }
+  ]
+}

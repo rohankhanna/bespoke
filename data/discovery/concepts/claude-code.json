@@ -34,6 +34,66 @@
       "source_repo": "vincent-k2026/codachi",
       "status": "candidate-context",
       "text": "A tamagotchi-style virtual pet that lives in your Claude Code statusline"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AskRoundtable/expert-skills",
+      "status": "candidate-context",
+      "text": "Make your AI think like Munger, Feynman, or Paul Graham \u2014 load real mental models, not personas."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AskRoundtable/expert-skills",
+      "status": "candidate-context",
+      "text": "Make your AI think like Munger, Feynman, or Paul Graham \u2014 load real mental models, not personas."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "affaan-m/agentshield",
+      "status": "candidate-context",
+      "text": "AI agent security scanner. Detect vulnerabilities in agent configurations, MCP servers, and tool permissions. Available as CLI, GitHub Action, ECC plugin, and GitHub App integration. \ud83d\udee1\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "affaan-m/agentshield",
+      "status": "candidate-context",
+      "text": "AI agent security scanner. Detect vulnerabilities in agent configurations, MCP servers, and tool permissions. Available as CLI, GitHub Action, ECC plugin, and GitHub App integration. \ud83d\udee1\ufe0f"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgriciDaniel/claude-ads",
+      "status": "candidate-context",
+      "text": "Comprehensive paid advertising audit & optimization skill for Claude Code. 250+ checks across Google, Meta, YouTube, LinkedIn, TikTok, Microsoft & Apple Ads with weighted scoring, parallel agents, industry templates, and AI creative generation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgriciDaniel/claude-ads",
+      "status": "candidate-context",
+      "text": "Comprehensive paid advertising audit & optimization skill for Claude Code. 250+ checks across Google, Meta, YouTube, LinkedIn, TikTok, Microsoft & Apple Ads with weighted scoring, parallel agents, industry templates, and AI creative generation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgriciDaniel/claude-cybersecurity",
+      "status": "candidate-context",
+      "text": "AI-powered cybersecurity code review skill for Claude Code. 8 specialist agents, OWASP 2025, CWE Top 25, MITRE ATT&CK, 11 languages, zero configuration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgriciDaniel/claude-cybersecurity",
+      "status": "candidate-context",
+      "text": "AI-powered cybersecurity code review skill for Claude Code. 8 specialist agents, OWASP 2025, CWE Top 25, MITRE ATT&CK, 11 languages, zero configuration."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgriciDaniel/claude-seo",
+      "status": "candidate-context",
+      "text": "Universal SEO skill for Claude Code. 19 sub-skills, 12 subagents, 3 extensions (DataForSEO, Firecrawl, Banana). Technical SEO, E-E-A-T, schema, GEO/AEO, backlinks, local SEO, maps intelligence, Google APIs, and PDF/Excel reporting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgriciDaniel/claude-seo",
+      "status": "candidate-context",
+      "text": "Universal SEO skill for Claude Code. 19 sub-skills, 12 subagents, 3 extensions (DataForSEO, Firecrawl, Banana). Technical SEO, E-E-A-T, schema, GEO/AEO, backlinks, local SEO, maps intelligence, Google APIs, and PDF/Excel reporting."
     }
   ],
   "canonical_name": "claude-code",
@@ -231,10 +291,40 @@
       "observed_at": "2026-04-18T13:15:13.756138+00:00",
       "source_file": null,
       "source_repo": "vincent-k2026/codachi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:29:00.435097+00:00",
+      "source_file": null,
+      "source_repo": "AskRoundtable/expert-skills"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:29:00.435097+00:00",
+      "source_file": null,
+      "source_repo": "affaan-m/agentshield"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:29:00.435097+00:00",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/claude-ads"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:29:00.435097+00:00",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/claude-cybersecurity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:29:00.435097+00:00",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/claude-seo"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
+  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "possible_senses": [
     {
       "buckets": [
