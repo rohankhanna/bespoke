@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "bunburysniper/BleuNova-AI-Agent",
+      "target": "docs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T04:38:59.034104+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6243
+    },
+    {
+      "path": "Dockerfile",
+      "size": 251
+    },
+    {
+      "path": "requirements.txt",
+      "size": 259
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "\ud83e\udd16 Build and run a self-hosted, secure AI agent for tasks like messaging, smart browsing, and home automation with ethical safeguards.",
+    "full_name": "bunburysniper/BleuNova-AI-Agent",
+    "html_url": "https://github.com/bunburysniper/BleuNova-AI-Agent",
+    "language": "Python",
+    "pushed_at": "2026-04-18T04:14:21Z",
+    "topics": [
+      "ai-agent",
+      "docker",
+      "ethical-ai",
+      "grok-api",
+      "local-llm",
+      "multi-agent",
+      "ollama",
+      "open-source-ai",
+      "privacy-first",
+      "self-hosted"
+    ],
+    "updated_at": "2026-04-18T04:14:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "docs"
+    }
+  ]
+}

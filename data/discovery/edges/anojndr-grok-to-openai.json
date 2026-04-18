@@ -1,0 +1,734 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "grok.com",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "developer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "input_file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "file_id",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "file_url",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "file_data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "input_image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "image_url",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "previous_response_id",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "GROK_COOKIE_FILE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "GROK_COOKIES_TEXT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "grok-4-auto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "grok-4-expert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "grok-4-heavy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "grok-4-fast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "source_attribution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "DATABASE_URL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "grok",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "grok-latest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "grok-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "grok-3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "gpt-4o",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "gpt-4.1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "gpt-5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "fast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "expert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "heavy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "auto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "DEFAULT_MODEL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "reasoning.effort=high",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "reasoning_effort=high",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "image_generation_call",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "result_url",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "assets.grok.com",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "message.image_urls",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "## Compatibility notes -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "does not implement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "; use",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "messages. - Chat Completions only supports",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "tool_choice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "response_format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "stop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "max_tokens",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "max_completion_tokens",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "stream_options.include_usage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "input_image.file_id",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "image_url.file_id",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "store: false",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "null",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "response.completed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "result",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "GROK_EMAIL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "GROK_PASSWORD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "responses.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "playwright-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "CHROME_EXECUTABLE_PATH",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "bash npm install",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "The project loads",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "automatically. Example:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "Supported configuration: -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "GROK_BASE_URL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "HEADLESS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "IMPORT_COOKIES_ON_BOOT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "BROWSER_PROFILE_DIR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "DATA_DIR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "POSTGRES_URL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "IMGBB_API_KEY",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "IMGBB_API_URL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "IMGBB_EXPIRATION",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "15552000",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "ALLOW_ORIGINS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "DEFAULT_MODE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "bash export HEADLESS=false npm start",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "Imgbb notes: - Set",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "POST",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "name",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "32 MB",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "account-001",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "account-002",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "HEADLESS=true",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "bash npm start",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "Run tests:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "bash npm test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "## Examples Basic Responses request:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "Streaming Responses request:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "Chat Completions request with an image:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "Upload a file:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "Use the returned",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "in a Responses request:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "Continue a prior Responses thread:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "Request sources and query provenance:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "Uploaded file contents. -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "bridge_files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "bridge_responses",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "dotenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "multer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "pg",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "playwright-core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "anojndr/grok-to-openai",
+      "target": "zod",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-18T04:38:51.315908+00:00",
+  "source_repo": "anojndr/grok-to-openai"
+}

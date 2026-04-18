@@ -1,0 +1,84 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/chatgpt-plus-recharge",
+      "target": "aitooools/aitooools.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/chatgpt-plus-recharge",
+      "target": "aitooools/chatgpt-plus-hezu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/chatgpt-plus-recharge",
+      "target": "aitooools/claude-pro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/chatgpt-plus-recharge",
+      "target": "aitooools/claude-pro-hezu",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-18T04:39:02.539854+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11784
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "2026\u5e74\u6700\u65b0ChatGPT\u4ee3\u5145\u503c\u6559\u7a0b(121\u5143/\u6708)\uff1a\u6700\u53ef\u9760\u7684ChatGPT Plus\u4ee3\u5145\u503c\u5e73\u53f0\u63a8\u8350\uff0c\u63d0\u4f9b\u5168\u7a0b\u8d28\u4fdd\uff0c\u652f\u6301\u5f00\u5177\u6b63\u89c4\u53d1\u7968\uff01",
+    "full_name": "aitooools/chatgpt-plus-recharge",
+    "html_url": "https://github.com/aitooools/chatgpt-plus-recharge",
+    "language": null,
+    "pushed_at": "2026-04-17T14:07:04Z",
+    "topics": [
+      "chatgpt",
+      "chatgpt-4",
+      "chatgpt-plus",
+      "chatgpt4",
+      "chatgptplus",
+      "gpt-4",
+      "gpt4",
+      "openai",
+      "openai-chatgpt"
+    ],
+    "updated_at": "2026-04-17T14:07:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/aitooools.github.io",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/chatgpt-plus-hezu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/claude-pro",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/claude-pro-hezu",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "penpoen/llm-SugarScape",
+      "target": "for Windows, or",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T04:39:00.269013+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5099
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "\ud83c\udf10 Explore AI behaviors in a Sugarscape simulation, revealing insights into cooperation and survival instincts using Grok-4-Fast agents.",
+    "full_name": "penpoen/llm-SugarScape",
+    "html_url": "https://github.com/penpoen/llm-SugarScape",
+    "language": "Python",
+    "pushed_at": "2026-04-18T03:22:08Z",
+    "topics": [
+      "agent-based-modeling",
+      "ai-testing",
+      "aisafety",
+      "alignment",
+      "grok",
+      "grok-api",
+      "llm",
+      "llm-eval",
+      "llm-evaluation",
+      "llm-testing",
+      "python",
+      "simulation",
+      "sugarscape",
+      "xai-api"
+    ],
+    "updated_at": "2026-04-18T03:22:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "for Windows, or"
+    }
+  ]
+}

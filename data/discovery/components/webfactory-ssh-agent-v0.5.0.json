@@ -1,0 +1,12 @@
+{
+  "component": "webfactory/ssh-agent@v0.5.0",
+  "first_seen_at": "2026-04-18T04:38:51.315908+00:00",
+  "last_seen_at": "2026-04-18T04:38:51.315908+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "llama-farm/llamafarm"
+    }
+  ]
+}

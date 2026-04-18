@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/claude-pro",
+      "target": "aitooools/claude-pro-recharge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/claude-pro",
+      "target": "aitooools/claude-pro-hezu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/claude-pro",
+      "target": "aitooools/aitooools.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/claude-pro",
+      "target": "aitooools/nf-video",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-18T04:39:04.289078+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17428
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "2026\u5e74\u6700\u65b0Claude\u5145\u503c\u8ba2\u9605\u653b\u7565\uff0c\u5305\u62ecClaude\u6ce8\u518c\u3001Claude\u8d26\u53f7\u8d2d\u4e70\u3001Claude\u62fc\u8f66\u5408\u79df\u3001Claude Pro\u4ee3\u5145\u3001Claude Code\u56fd\u5185\u4f7f\u7528\u6559\u7a0b\uff01",
+    "full_name": "aitooools/claude-pro",
+    "html_url": "https://github.com/aitooools/claude-pro",
+    "language": null,
+    "pushed_at": "2026-04-17T13:49:40Z",
+    "topics": [
+      "ai",
+      "claude",
+      "claude-3",
+      "claude-3-5-sonnet",
+      "claude-3-7-sonnet",
+      "claude-3-haiku",
+      "claude-3-opus",
+      "claude-3-sonnet",
+      "claude-4-opus",
+      "claude-4-sonnet",
+      "claude-ai",
+      "claude-api",
+      "claude-pro",
+      "claude2",
+      "claude3"
+    ],
+    "updated_at": "2026-04-17T14:04:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/aitooools.github.io",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/claude-pro-hezu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/claude-pro-recharge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/nf-video",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

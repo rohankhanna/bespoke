@@ -1,12 +1,17 @@
 {
   "component": "dompurify",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-17T16:51:41.136432+00:00",
+  "last_seen_at": "2026-04-18T04:38:51.315908+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "tony1223/better-agent-terminal"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "saidudz/Chat-AI"
     }
   ]
 }

@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/netflix-hezu",
+      "target": "aitooools/chatgpt-plus-hezu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/netflix-hezu",
+      "target": "aitooools/aitooools.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/netflix-hezu",
+      "target": "aitooools/chatgpt-plus-recharge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/netflix-hezu",
+      "target": "aitooools/claude-pro",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-18T04:39:02.125656+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16740
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "2026\u5e74\u6700\u65b0Netflix\u5948\u98de\u5408\u79df\u653b\u7565\uff1a\u6700\u5b89\u5168\u5b9e\u60e0\u7684\u5948\u98de\u62fc\u8f66\u5408\u79df\u5e73\u53f0\u63a8\u8350\uff0c\u5305\u62ec\u661f\u9645\u653e\u6620\u5385\u3001\u94f6\u6cb3\u5f55\u50cf\u5c40\u3001\u98de\u884c\u6d3e\u3001\u5948\u98de\u5c0f\u94fa\u7b49\u3002\u6211\u4eec\u8fd8\u4e3a\u5927\u5bb6\u89e3\u7b54\u8d2d\u4e70\u5948\u98de\u5171\u4eab\u8d26\u53f7\u7684\u5e38\u89c1\u95ee\u9898\uff01",
+    "full_name": "aitooools/netflix-hezu",
+    "html_url": "https://github.com/aitooools/netflix-hezu",
+    "language": null,
+    "pushed_at": "2026-04-17T13:40:22Z",
+    "topics": [
+      "netflix",
+      "netflix-china",
+      "netflix-hezu",
+      "netflix-prize",
+      "netflix-share",
+      "netflixhz",
+      "streaming-server",
+      "streaming-video",
+      "subscribe-to-netflix",
+      "unblock-netflix"
+    ],
+    "updated_at": "2026-04-17T14:04:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/aitooools.github.io",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/chatgpt-plus-hezu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/chatgpt-plus-recharge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/claude-pro",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

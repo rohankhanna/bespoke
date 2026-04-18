@@ -1,0 +1,390 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lonewolf-jp/ConvoPeq",
+      "target": "ThreadAffinityManager.h",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lonewolf-jp/ConvoPeq",
+      "target": "CommandBuffer.h",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lonewolf-jp/ConvoPeq",
+      "target": "ReaderEpoch.h",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lonewolf-jp/ConvoPeq",
+      "target": "EQParameters.h",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lonewolf-jp/ConvoPeq",
+      "target": "SnapshotParams.h",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lonewolf-jp/ConvoPeq",
+      "target": "Types.h",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lonewolf-jp/ConvoPeq",
+      "target": "AlignedAllocation.h",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lonewolf-jp/ConvoPeq",
+      "target": "CustomInputOversampler.h",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lonewolf-jp/ConvoPeq",
+      "target": "PsychoacousticDither.h",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lonewolf-jp/ConvoPeq",
+      "target": "README.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lonewolf-jp/ConvoPeq",
+      "target": "tau",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lonewolf-jp/ConvoPeq",
+      "target": "CustomInputOversampler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lonewolf-jp/ConvoPeq",
+      "target": "OutputFilter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lonewolf-jp/ConvoPeq",
+      "target": "SpectrumAnalyzerComponent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lonewolf-jp/ConvoPeq",
+      "target": "ARCHITECTURE.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lonewolf-jp/ConvoPeq",
+      "target": "AudioEngine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lonewolf-jp/ConvoPeq",
+      "target": "SnapshotCoordinator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lonewolf-jp/ConvoPeq",
+      "target": "ConvolverProcessor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lonewolf-jp/ConvoPeq",
+      "target": "EQProcessor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lonewolf-jp/ConvoPeq",
+      "target": "EQEditProcessor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lonewolf-jp/ConvoPeq",
+      "target": "samples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lonewolf-jp/ConvoPeq",
+      "target": "totalLatencyBaseRateSamples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lonewolf-jp/ConvoPeq",
+      "target": "device_settings.xml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lonewolf-jp/ConvoPeq",
+      "target": "ditherBitDepth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lonewolf-jp/ConvoPeq",
+      "target": "Convolver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lonewolf-jp/ConvoPeq",
+      "target": "**Output binaries:** - Debug:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lonewolf-jp/ConvoPeq",
+      "target": "x64 && call",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lonewolf-jp/ConvoPeq",
+      "target": "For more details, see",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T04:38:55.359699+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14209
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "20band Parametric equalizer and convolver for Windows 11 x64 (standalone application) Real-time audio processing application based on JUCE Framework 8.0.12.This project is programmed by vibe-coding.",
+    "full_name": "lonewolf-jp/ConvoPeq",
+    "html_url": "https://github.com/lonewolf-jp/ConvoPeq",
+    "language": "C++",
+    "pushed_at": "2026-04-17T16:17:24Z",
+    "topics": [
+      "chatgpt-codex",
+      "claude-ai",
+      "convolver",
+      "gemini-ai",
+      "github-copilot",
+      "grok-ai",
+      "juce-framework",
+      "parametric-equalizer",
+      "room-correction",
+      "standalone",
+      "vibe-coding",
+      "windows11"
+    ],
+    "updated_at": "2026-04-17T16:17:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ThreadAffinityManager.h"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "CommandBuffer.h"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ReaderEpoch.h"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "EQParameters.h"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SnapshotParams.h"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Types.h"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "AlignedAllocation.h"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "CustomInputOversampler.h"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "PsychoacousticDither.h"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "README.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tau"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "CustomInputOversampler"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "OutputFilter"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SpectrumAnalyzerComponent"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ARCHITECTURE.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "AudioEngine"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SnapshotCoordinator"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ConvolverProcessor"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tau"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "EQProcessor"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "EQEditProcessor"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "EQEditProcessor"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "samples"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "totalLatencyBaseRateSamples"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "device_settings.xml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ditherBitDepth"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "AudioEngine"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Convolver"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Output binaries:** - Debug:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "x64 && call"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "For more details, see"
+    }
+  ]
+}

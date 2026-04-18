@@ -1,0 +1,88 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/poe",
+      "target": "aitooools/aitooools.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/poe",
+      "target": "aitooools/chatgpt-plus-hezu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/poe",
+      "target": "aitooools/chatgpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/poe",
+      "target": "aitooools/chatgpt-plus-recharge",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-18T04:38:58.352583+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7807
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "\u6700\u65b0Poe\u8ba2\u9605\u6559\u7a0b\uff1a2026\u5e74\u56fd\u5185\u5982\u4f55\u5145\u503c\u8d2d\u4e70Poe\u8d26\u53f7\uff1f\u652f\u6301GPT-5.2\u3001GPT-4o\u3001Claude Opus 4.6\u3001Claude 4.5 Sonnet\u3001Grok-4.1\u3001Gemini-3.1 Pro\u7b49\u9876\u5c16\u5927\u6a21\u578b\uff01",
+    "full_name": "aitooools/poe",
+    "html_url": "https://github.com/aitooools/poe",
+    "language": null,
+    "pushed_at": "2026-04-17T13:48:32Z",
+    "topics": [
+      "ai",
+      "claude-3",
+      "deepseek",
+      "deepseek-r1",
+      "deepseek-v3",
+      "gemini",
+      "gemini-2",
+      "gemini-ai",
+      "gemini-pro",
+      "gpt-4",
+      "grok-ai",
+      "poe",
+      "quora"
+    ],
+    "updated_at": "2026-04-17T14:04:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/aitooools.github.io",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/chatgpt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/chatgpt-plus-hezu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/chatgpt-plus-recharge",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

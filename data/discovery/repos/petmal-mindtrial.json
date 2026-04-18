@@ -1,0 +1,1397 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "2. Run with default settings:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "bash mindtrial run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "bash mindtrial help",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "bash mindtrial --csv=true --html=false run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "bash mindtrial --interactive run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "### Merging Results The",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "merge-results",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "response-result-format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "text-only",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "text-response-format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "disable-structured-output",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "response-format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "previous_response_id",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "client-config",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "model-parameters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "true",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "JSON",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "none",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "minimal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "low",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "medium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "high",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "xhigh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "json-schema",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "json-object",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "response_format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "max-tokens: 100",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "max_tokens: 500",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "max-tokens",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "effort",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "max",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "thinking-budget-tokens",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "false",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "seed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "kimi-k2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "kimi-k2-thinking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "log-file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "output-basename",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "stdout",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "max-parallel-requests-per-minute",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "max-requests-per-minute",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "retry-policy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "disabled: true",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "disabled: false",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "config.yaml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "file-options",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "task-config",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "auto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "original",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "expected-result",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "additionalProperties: false",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "all",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "ignore-whitespace",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "2. **Enable judge validation in",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": ":**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "validation-rules.judge.prompt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "tasks.yaml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "verdict-format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "passing-verdicts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "and",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": ", removing the",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "name",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "print()",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "60s",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": ", unlimited). Example configuration in",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "## Command Reference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "petmal/MindTrial",
+      "target": "### Project Details",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "petmal/MindTrial",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "petmal/MindTrial",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-18T04:38:54.847169+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 58138
+    },
+    {
+      "path": "go.mod",
+      "size": 4885
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 542
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "MindTrial: Evaluate and compare AI language models (LLMs) on text-based tasks with optional file/image attachments and tool use. Supports multiple providers (OpenAI, Google, Anthropic, DeepSeek, Mistral AI, xAI, Alibaba, Moonshot AI, OpenRouter), custom tasks in YAML, and HTML/CSV/JSON reports.",
+    "full_name": "petmal/MindTrial",
+    "html_url": "https://github.com/petmal/MindTrial",
+    "language": "Go",
+    "pushed_at": "2026-04-17T16:26:12Z",
+    "topics": [
+      "ai-benchmark",
+      "ai-evaluation-tools",
+      "ai-model-comparison",
+      "ai-tool",
+      "anthropic",
+      "artificial-intelligence-projects",
+      "deepseek",
+      "google-gemini-ai",
+      "grok-ai",
+      "language-models-ai",
+      "llm-benchmarking",
+      "llm-comparison",
+      "llm-evaluation-framework",
+      "mistral-ai",
+      "moonshot-ai",
+      "openai",
+      "openrouter",
+      "opensource",
+      "qwen",
+      "xai"
+    ],
+    "updated_at": "2026-04-17T16:24:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "2. Run with default settings:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash mindtrial run"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash mindtrial help"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash mindtrial --csv=true --html=false run"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash mindtrial --interactive run"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Merging Results The"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "merge-results"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "merge-results"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "response-result-format"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "text-only"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "text-response-format"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "disable-structured-output"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "response-format"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "disable-structured-output"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "disable-structured-output"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "previous_response_id"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "client-config"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "client-config"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "model-parameters"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "true"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "JSON"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "none"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "minimal"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "low"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "medium"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "high"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "xhigh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "low"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "medium"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "high"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "json-schema"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "json-object"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "text"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "json-schema"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "response_format"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "low"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "medium"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "high"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "medium"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "model-parameters"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "max-tokens: 100"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "max_tokens: 500"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "max-tokens"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "effort"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "effort"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "low"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "max"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "low"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "medium"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "high"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "xhigh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "max"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "thinking-budget-tokens"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "max-tokens"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "xhigh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "true"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "max-tokens"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "true"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "JSON"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "true"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "false"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "minimal"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "low"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "medium"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "high"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "high"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "minimal"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "low"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "medium"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "high"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "low"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "medium"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "high"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "low"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "medium"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "high"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "low"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "high"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "seed"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "true"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "JSON"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "true"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "false"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "true"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "false"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "kimi-k2"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "kimi-k2-thinking"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "log-file"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "output-basename"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "stdout"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "max-parallel-requests-per-minute"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "max-requests-per-minute"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "retry-policy"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "retry-policy"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "disabled: true"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "disabled: false"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "config.yaml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "response-result-format"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "files"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "file-options"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "task-config"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "auto"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "low"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "medium"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "high"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "original"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "disabled: true"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "task-config"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "disabled: false"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "expected-result"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "additionalProperties: false"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "task-config"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "response-result-format"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "all"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "text"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "none"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "task-config"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "task-config"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "true"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "false"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "true"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "false"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "true"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ignore-whitespace"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "false"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "true"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "false"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "config.yaml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "config.yaml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "2. **Enable judge validation in"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ":**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "validation-rules.judge.prompt"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tasks.yaml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "task-config"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "template"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "verdict-format"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "passing-verdicts"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "verdict-format"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "passing-verdicts"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "template"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "passing-verdicts"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "verdict-format"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tasks.yaml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "and"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ", removing the"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "and"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "config.yaml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tools"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "name"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "config.yaml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "print()"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "task-config"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "config.yaml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "true"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "false"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "config.yaml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "true"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "false"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "60s"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tasks.yaml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "task-config"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ", unlimited). Example configuration in"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## Command Reference"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Project Details"
+    }
+  ]
+}

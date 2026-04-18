@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "RobertAbao/grok-nvim",
+      "target": "Create a folder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "RobertAbao/grok-nvim",
+      "target": "into",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "RobertAbao/grok-nvim",
+      "target": "in the",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "RobertAbao/grok-nvim",
+      "target": "Replace",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "RobertAbao/grok-nvim",
+      "target": ":GrokChat",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T04:38:55.791884+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4843
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "\ud83e\udd16 Enhance your Neovim experience by querying xAI's Grok models effortlessly with a lightweight plugin featuring a floating chat interface and streaming responses.",
+    "full_name": "RobertAbao/grok-nvim",
+    "html_url": "https://github.com/RobertAbao/grok-nvim",
+    "language": "Lua",
+    "pushed_at": "2026-04-18T03:15:24Z",
+    "topics": [
+      "ai",
+      "ai-integration",
+      "chatgpt-alternative",
+      "github-config",
+      "grok",
+      "grok-ai",
+      "grok-api",
+      "lua",
+      "neovim",
+      "neovim-plugin",
+      "nvim-plugin",
+      "openai",
+      "utilities",
+      "xai-api"
+    ],
+    "updated_at": "2026-04-18T03:15:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Create a folder"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "into"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "in the"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Replace"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ":GrokChat"
+    }
+  ]
+}

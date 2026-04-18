@@ -1,7 +1,7 @@
 {
   "component": "express",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-18T03:54:46.759203+00:00",
+  "last_seen_at": "2026-04-18T04:38:51.315908+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -12,6 +12,11 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "JKHeadley/instar"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "anojndr/grok-to-openai"
     }
   ]
 }

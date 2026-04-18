@@ -1,0 +1,944 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "gemini-1.5-flash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "gpt-4o-mini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "claude-3-haiku",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "llama3-8b-8192",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "### Example: OpenAI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "### Example: Anthropic (Claude)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "### Example: Groq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "customInstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "props",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "geminiApiKey",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "string",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "undefined",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "openaiApiKey",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "anthropicApiKey",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "grokApiKey",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "geminiModelName",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "openaiModelName",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "anthropicModelName",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "claude-3-haiku-20240307",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "grokModelName",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "enableMicrophone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "enableFileUpload",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "boolean",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "false",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "fileUploadAccept",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "). | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "launcher.backgroundColor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "#4f46e5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "launcher.iconColor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "#ffffff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "launcher.size",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "3.5rem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "window.placement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "bottom-right",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "bottom-left",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "center",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "window.width",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "22rem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "80vw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "window.height",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "30rem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "80vh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "window.backgroundColor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "window.borderColor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "#e5e7eb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "window.borderRadius",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "0.75rem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "window.backdrop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "window.backdropColor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "rgba(0,0,0,0.4)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "window.backdropBlur",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "4px",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "window.scrollbarThumbColor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "#a1a1aa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "window.scrollbarTrackColor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "#f1f5f9",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "header.backgroundColor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "header.textColor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "header.fontFamily",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "inherit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "header.fontWeight",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "600",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "messages.userBackgroundColor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "messages.userTextColor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "messages.botBackgroundColor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "#f3f4f6",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "messages.botTextColor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "#1f2937",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "messages.fontFamily",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "messages.fontSize",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "0.9rem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "messages.showAvatars",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "true",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "messages.bubbleShape",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "rounded",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "square",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "messages.bubblePointer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "messages.animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "fade-in",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "typing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "slide-up",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "zoom-in",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "flip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "none",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "messages.markdownStyles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "markdownStyles.boldColor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "**bold**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "markdownStyles.italicColor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "*italic*",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "markdownStyles.linkColor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "#3b82f6",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "markdownStyles.codeColor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "inline code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "markdownStyles.codeBackgroundColor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "rgba(0,0,0,0.1)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "input.backgroundColor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "input.textColor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "input.placeholderTextColor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "#9ca3af",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "input.borderColor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "input.focusRingColor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "@anthropic-ai/sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "@fortawesome/fontawesome-svg-core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "@fortawesome/free-solid-svg-icons",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "@fortawesome/react-fontawesome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "@google/generative-ai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "@tailwindcss/typography",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "@vitejs/plugin-react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "autoprefixer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "framer-motion",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "groq-sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "openai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "postcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "react-markdown",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "tailwindcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "@anthropic-ai/sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "@fortawesome/fontawesome-svg-core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "@fortawesome/free-solid-svg-icons",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "@fortawesome/react-fontawesome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "@google/generative-ai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "framer-motion",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "groq-sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "openai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "react-markdown",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "gauravRathod674/custom-chatbot",
+      "target": "Publish to npm",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T04:38:51.315908+00:00",
+  "source_repo": "gauravRathod674/custom-chatbot"
+}

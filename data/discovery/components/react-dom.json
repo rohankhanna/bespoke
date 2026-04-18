@@ -1,7 +1,7 @@
 {
   "component": "react-dom",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T03:50:57.229967+00:00",
+  "last_seen_at": "2026-04-18T04:38:51.315908+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -37,6 +37,21 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "tornikepe/ai-chatbot"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gauravRathod674/custom-chatbot"
+    },
+    {
+      "discovered_via": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "gauravRathod674/custom-chatbot"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "saidudz/Chat-AI"
     }
   ]
 }

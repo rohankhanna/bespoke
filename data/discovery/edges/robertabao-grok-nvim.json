@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "RobertAbao/grok-nvim",
+      "target": "Create a folder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "RobertAbao/grok-nvim",
+      "target": "into",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "RobertAbao/grok-nvim",
+      "target": "in the",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "RobertAbao/grok-nvim",
+      "target": "Replace",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "RobertAbao/grok-nvim",
+      "target": ":GrokChat",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T04:38:51.315908+00:00",
+  "source_repo": "RobertAbao/grok-nvim"
+}

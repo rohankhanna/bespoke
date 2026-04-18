@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-18T04:38:53.755439+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 61
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Automate x.ai registration with a web console, batch runner, WARP egress, and grok2api token sink in one project",
+    "full_name": "Florisheedless915/grok-register",
+    "html_url": "https://github.com/Florisheedless915/grok-register",
+    "language": "Python",
+    "pushed_at": "2026-04-18T02:18:53Z",
+    "topics": [
+      "algorithm",
+      "cloudflare",
+      "code",
+      "deepseek",
+      "developer",
+      "dns",
+      "domain",
+      "domains",
+      "foss",
+      "free-domain",
+      "free-domains",
+      "free-for-dev",
+      "github-pages",
+      "grok",
+      "grok3",
+      "grokking-algorithms",
+      "openai",
+      "website",
+      "xai"
+    ],
+    "updated_at": "2026-04-18T02:18:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}
