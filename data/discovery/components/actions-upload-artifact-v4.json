@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T10:38:37.562216+00:00",
+  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -532,6 +532,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "tianrking/weixin-agent-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "op7418/CodePilot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/amd-ci-job-monitor.yml",
+      "source_repo": "sgl-project/sglang"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-integrations.yml",
+      "source_repo": "getzep/zep"
     }
   ]
 }

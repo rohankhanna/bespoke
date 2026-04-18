@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@v5",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -132,6 +132,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-and-publish.yml",
       "source_repo": "1Panel-dev/1Panel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml.disabled",
+      "source_repo": "getzep/zep"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml.disabled",
+      "source_repo": "getzep/zep"
     }
   ]
 }

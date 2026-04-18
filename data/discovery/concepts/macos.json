@@ -1,9 +1,12 @@
 {
   "aliases": [
-    "macOS"
+    "macOS",
+    "macos"
   ],
   "buckets": [
-    "workflow-process"
+    "workflow-process",
+    "tool-component",
+    "capability"
   ],
   "canonical_name": "macOS",
   "concept_id": "macos",
@@ -13,8 +16,15 @@
       "observed_at": "2026-04-18T10:25:53.609022+00:00",
       "source_file": ".github/workflows/macos_build.yml",
       "source_repo": "1runeberg/confichat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T10:43:38.551697+00:00",
+      "source_file": null,
+      "source_repo": "tombelieber/claude-backup"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00"
+  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "primary_bucket": "tool-component"
 }

@@ -1,0 +1,22 @@
+{
+  "aliases": [
+    "Close inactive issues"
+  ],
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "Close inactive issues",
+  "concept_id": "close-inactive-issues",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T10:43:38.551697+00:00",
+      "source_file": ".github/workflows/close_stale_issues.yml",
+      "source_repo": "letta-ai/letta"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "primary_bucket": "workflow-process"
+}

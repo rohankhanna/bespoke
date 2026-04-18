@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "developer-tools",
+  "normalized_form": "developer-tools",
+  "observation_id": "0f3b5eb2ad3c23e8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:43:38.551697+00:00",
+  "observed_text": "developer-tools",
+  "source_file": null,
+  "source_repo": "tombelieber/claude-backup"
+}

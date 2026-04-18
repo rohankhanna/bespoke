@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "language-model",
+  "normalized_form": "language-model",
+  "observation_id": "80a5246fe6348ce1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:43:38.551697+00:00",
+  "observed_text": "language-model",
+  "source_file": null,
+  "source_repo": "getzep/zep"
+}

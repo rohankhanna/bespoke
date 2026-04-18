@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-release-binaries.yml",
+      "source_repo": "astral-sh/uv"
+    }
+  ],
+  "term": "Build release binaries"
+}

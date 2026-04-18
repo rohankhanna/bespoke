@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "lint-sync",
+  "normalized_form": "lint-sync",
+  "observation_id": "6bed4835fb1cd5d3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:43:38.551697+00:00",
+  "observed_text": "lint-sync",
+  "source_file": ".github/workflows/lint-sync.yml",
+  "source_repo": "charmbracelet/lipgloss"
+}

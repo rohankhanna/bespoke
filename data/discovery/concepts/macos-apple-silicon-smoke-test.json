@@ -1,0 +1,22 @@
+{
+  "aliases": [
+    "macOS Apple Silicon Smoke Test"
+  ],
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "macOS Apple Silicon Smoke Test",
+  "concept_id": "macos-apple-silicon-smoke-test",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T10:43:38.551697+00:00",
+      "source_file": ".github/workflows/macos-smoke-test.yml",
+      "source_repo": "vllm-project/vllm"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "build-package",
+  "normalized_form": "build-package",
+  "observation_id": "f4a2e79274d1b89f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:43:38.551697+00:00",
+  "observed_text": "Build & Package",
+  "source_file": ".github/workflows/build.yml",
+  "source_repo": "op7418/CodePilot"
+}

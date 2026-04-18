@@ -1,0 +1,12 @@
+{
+  "component": "actions/setup-python@83679a892e2d95755f2dac6acb0bfd1e9ac5d548",
+  "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "vllm-project/vllm"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "pyo3-ci",
+  "normalized_form": "pyo3-ci",
+  "observation_id": "d3af99ff8a9795de",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:43:38.551697+00:00",
+  "observed_text": "PyO3-CI",
+  "source_file": ".github/workflows/python.yml",
+  "source_repo": "huggingface/candle"
+}

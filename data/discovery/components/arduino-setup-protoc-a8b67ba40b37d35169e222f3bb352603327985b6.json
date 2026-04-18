@@ -1,0 +1,17 @@
+{
+  "component": "arduino/setup-protoc@a8b67ba40b37d35169e222f3bb352603327985b6",
+  "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maturin.yml",
+      "source_repo": "huggingface/candle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "huggingface/candle"
+    }
+  ]
+}

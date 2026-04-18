@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "nextjs",
+  "normalized_form": "nextjs",
+  "observation_id": "bf4dcd1c373fd09f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:43:38.551697+00:00",
+  "observed_text": "nextjs",
+  "source_file": null,
+  "source_repo": "op7418/CodePilot"
+}

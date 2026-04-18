@@ -1,0 +1,98 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "steipete/imsg",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "steipete/imsg",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "steipete/imsg",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "steipete/imsg",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "steipete/imsg",
+      "target": "imessage",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T10:44:19.200071+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3506
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 420
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2841
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "CLI for Apple's Messages.app so your agent can send and receive text messages/iMessages.",
+    "full_name": "steipete/imsg",
+    "html_url": "https://github.com/steipete/imsg",
+    "language": "Swift",
+    "pushed_at": "2026-03-02T03:07:02Z",
+    "topics": [
+      "cli",
+      "imessage"
+    ],
+    "updated_at": "2026-04-18T08:31:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imessage"
+    }
+  ]
+}

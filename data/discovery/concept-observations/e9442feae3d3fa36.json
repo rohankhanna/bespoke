@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "gpt-oss",
+  "normalized_form": "gpt-oss",
+  "observation_id": "e9442feae3d3fa36",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:43:38.551697+00:00",
+  "observed_text": "gpt-oss",
+  "source_file": null,
+  "source_repo": "sgl-project/sglang"
+}

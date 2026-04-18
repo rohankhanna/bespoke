@@ -1,0 +1,12 @@
+{
+  "component": "acj/freebsd-firecracker-action@1cc93bd507a8376bddcd15a2b9c660394dc60456",
+  "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-dev-binaries.yml",
+      "source_repo": "astral-sh/uv"
+    }
+  ]
+}

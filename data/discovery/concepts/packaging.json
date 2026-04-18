@@ -1,0 +1,22 @@
+{
+  "aliases": [
+    "packaging"
+  ],
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "canonical_name": "packaging",
+  "concept_id": "packaging",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T10:43:38.551697+00:00",
+      "source_file": null,
+      "source_repo": "astral-sh/uv"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "primary_bucket": "tool-component"
+}

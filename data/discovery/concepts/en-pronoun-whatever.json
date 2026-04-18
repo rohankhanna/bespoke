@@ -1,0 +1,22 @@
+{
+  "aliases": [
+    "whatever"
+  ],
+  "buckets": [
+    "language-layer-entity",
+    "pronoun"
+  ],
+  "canonical_name": "whatever",
+  "concept_id": "en-pronoun-whatever",
+  "evidence": [
+    {
+      "discovered_via": "seeded-language-entity",
+      "observed_at": "2026-04-18T10:43:38.551697+00:00",
+      "source_file": "vocabulary/english/stable-closed-classes.json",
+      "source_repo": "seed:english"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "primary_bucket": "language-layer-entity"
+}

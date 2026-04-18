@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onyx-dot-app/onyx_deep_research_bench",
+      "target": "ayanami0730/deep_research_bench",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-18T10:43:38.551697+00:00",
+  "source_repo": "onyx-dot-app/onyx_deep_research_bench"
+}

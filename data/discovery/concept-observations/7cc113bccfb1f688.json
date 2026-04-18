@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "crud",
+  "normalized_form": "crud",
+  "observation_id": "7cc113bccfb1f688",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:43:38.551697+00:00",
+  "observed_text": "crud",
+  "source_file": null,
+  "source_repo": "musicman3/Cruder"
+}

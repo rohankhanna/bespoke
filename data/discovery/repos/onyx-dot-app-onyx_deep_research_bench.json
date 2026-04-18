@@ -1,0 +1,38 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onyx-dot-app/onyx_deep_research_bench",
+      "target": "ayanami0730/deep_research_bench",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-18T10:43:54.246252+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4678
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Onyx Submission for Deep Research Benchmark",
+    "full_name": "onyx-dot-app/onyx_deep_research_bench",
+    "html_url": "https://github.com/onyx-dot-app/onyx_deep_research_bench",
+    "language": null,
+    "pushed_at": "2026-04-04T22:49:18Z",
+    "topics": [],
+    "updated_at": "2026-04-18T04:48:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ayanami0730/deep_research_bench",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

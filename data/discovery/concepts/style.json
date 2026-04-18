@@ -1,0 +1,22 @@
+{
+  "aliases": [
+    "style"
+  ],
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "canonical_name": "style",
+  "concept_id": "style",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T10:43:38.551697+00:00",
+      "source_file": null,
+      "source_repo": "charmbracelet/lipgloss"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "primary_bucket": "tool-component"
+}

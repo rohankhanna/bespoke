@@ -1,106 +1,6 @@
 {
-  "generated_at": "2026-04-18T10:38:37.562216+00:00",
+  "generated_at": "2026-04-18T10:43:38.551697+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "charmbracelet/lipgloss",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "kamranahmedse/claude-run",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "op7418/codepilot",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "tombelieber/claude-backup",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lorexxar/kunlun-m",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "taikinman/langrila",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "yuag/code-audit",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "onyx-dot-app/onyx_deep_research_bench",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "musicman3/cruder",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "musicman3/r2-d2",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "axolotl-ai-cloud/plugin-atropos",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "nousresearch/tinker-atropos",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "sgl-project/sglang",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "vllm-project/vllm",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "astral-sh/uv",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "steipete/imsg",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "huggingface/candle",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "getzep/zep",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "letta-ai/claude-subconscious",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "letta-ai/letta",
-      "graph_distance": 2
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "getzep/graphiti",
@@ -874,7 +774,7 @@
     {
       "discovered_via": "explicit-github-link",
       "full_name": "astral-sh/ruff",
-      "graph_distance": 4
+      "graph_distance": 3
     },
     {
       "discovered_via": "explicit-github-link",
@@ -1385,6 +1285,121 @@
       "discovered_via": "explicit-github-link",
       "full_name": "broderick-westrope/tetrigo",
       "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "charmbracelet/colorprofile",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "charmbracelet/glamour",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "knownsec/404starlink",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "knownsec/404starlink-project",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lazychanger/docker-kunlun-mirror",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lorexxar/cobra-w",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "pydantic/pydantic-ai",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ayanami0730/deep_research_bench",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "axolotl-ai-cloud/axolotl",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "eth-sri/lmql",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "flashinfer-ai/flashinfer",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "google/tunix",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "guidance-ai/guidance",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "vllm-project/media-kit",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "astral-sh/ty",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "njsmith/posy",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "orogene/orogene",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "arogozhnikov/einops",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "atoma-network/atoma-infer",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "burn-rs/burn",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "coreylowman/dfdx",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "letta-ai/letta-code",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "open-telemetry/opentelemetry-collector-releases",
+      "graph_distance": 3
     }
   ],
   "processed": [
@@ -1809,6 +1824,26 @@
     "openclaw/nix-openclaw",
     "abraxas-365/claudio-codex",
     "abraxas-365/claudio-screenshot",
-    "charmbracelet/bubbletea"
+    "charmbracelet/bubbletea",
+    "charmbracelet/lipgloss",
+    "kamranahmedse/claude-run",
+    "op7418/codepilot",
+    "tombelieber/claude-backup",
+    "lorexxar/kunlun-m",
+    "taikinman/langrila",
+    "yuag/code-audit",
+    "onyx-dot-app/onyx_deep_research_bench",
+    "musicman3/cruder",
+    "musicman3/r2-d2",
+    "axolotl-ai-cloud/plugin-atropos",
+    "nousresearch/tinker-atropos",
+    "sgl-project/sglang",
+    "vllm-project/vllm",
+    "astral-sh/uv",
+    "steipete/imsg",
+    "huggingface/candle",
+    "getzep/zep",
+    "letta-ai/claude-subconscious",
+    "letta-ai/letta"
   ]
 }

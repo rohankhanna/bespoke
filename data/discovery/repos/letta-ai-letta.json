@@ -1,0 +1,300 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alembic-validation.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v44",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alembic-validation.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alembic-validation.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alembic-validation.yml"
+    },
+    {
+      "component": "actions/stale@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close_stale_issues.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-lint.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v44",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-lint.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-lint.yml"
+    },
+    {
+      "component": "jakebailey/pyright-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-lint.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "letta-ai/letta",
+      "target": "letta-ai/letta-code",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "letta-ai/letta",
+      "target": "open-telemetry/opentelemetry-collector-releases",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alembic-validation.yml",
+      "source_repo": "letta-ai/letta",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alembic-validation.yml",
+      "source_repo": "letta-ai/letta",
+      "target": "tj-actions/changed-files@v44",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alembic-validation.yml",
+      "source_repo": "letta-ai/letta",
+      "target": "Alembic Migration Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close_stale_issues.yml",
+      "source_repo": "letta-ai/letta",
+      "target": "actions/stale@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close_stale_issues.yml",
+      "source_repo": "letta-ai/letta",
+      "target": "Close inactive issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-lint.yml",
+      "source_repo": "letta-ai/letta",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-lint.yml",
+      "source_repo": "letta-ai/letta",
+      "target": "tj-actions/changed-files@v44",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-lint.yml",
+      "source_repo": "letta-ai/letta",
+      "target": "amannn/action-semantic-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-lint.yml",
+      "source_repo": "letta-ai/letta",
+      "target": "jakebailey/pyright-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "letta-ai/letta",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "letta-ai/letta",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "letta-ai/letta",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "letta-ai/letta",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "letta-ai/letta",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "letta-ai/letta",
+      "target": "Docker Image CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "letta-ai/letta",
+      "target": "llm-agent",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T10:44:38.894745+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4248
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3289
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5409
+    },
+    {
+      "path": ".github/workflows/alembic-validation.yml",
+      "size": 4314
+    },
+    {
+      "path": ".github/workflows/close_stale_issues.yml",
+      "size": 705
+    },
+    {
+      "path": ".github/workflows/core-integration-tests.yml",
+      "size": 1787
+    },
+    {
+      "path": ".github/workflows/core-lint.yml",
+      "size": 1966
+    },
+    {
+      "path": ".github/workflows/core-unit-sqlite-test.yaml",
+      "size": 2332
+    },
+    {
+      "path": ".github/workflows/core-unit-test.yml",
+      "size": 2553
+    },
+    {
+      "path": ".github/workflows/docker-image.yml",
+      "size": 987
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time.",
+    "full_name": "letta-ai/letta",
+    "html_url": "https://github.com/letta-ai/letta",
+    "language": "Python",
+    "pushed_at": "2026-04-12T20:54:54Z",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "llm",
+      "llm-agent"
+    ],
+    "updated_at": "2026-04-18T10:39:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "letta-ai/letta-code",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-telemetry/opentelemetry-collector-releases",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alembic-validation.yml",
+      "term": "Alembic Migration Validation"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close_stale_issues.yml",
+      "term": "Close inactive issues"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "term": "Docker Image CI"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-agent"
+    }
+  ]
+}

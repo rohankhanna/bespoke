@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "close-inactive-issues",
+  "normalized_form": "close-inactive-issues",
+  "observation_id": "6b14764021ce7d00",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:43:38.551697+00:00",
+  "observed_text": "Close inactive issues",
+  "source_file": ".github/workflows/close_stale_issues.yml",
+  "source_repo": "letta-ai/letta"
+}

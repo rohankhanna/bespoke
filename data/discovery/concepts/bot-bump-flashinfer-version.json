@@ -1,0 +1,22 @@
+{
+  "aliases": [
+    "Bot Bump Flashinfer Version"
+  ],
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "Bot Bump Flashinfer Version",
+  "concept_id": "bot-bump-flashinfer-version",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T10:43:38.551697+00:00",
+      "source_file": ".github/workflows/bot-bump-flashinfer-version.yml",
+      "source_repo": "sgl-project/sglang"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "primary_bucket": "workflow-process"
+}

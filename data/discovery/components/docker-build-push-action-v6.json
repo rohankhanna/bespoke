@@ -1,7 +1,7 @@
 {
   "component": "docker/build-push-action@v6",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T09:50:06.115508+00:00",
+  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -72,6 +72,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pull-request.yml",
       "source_repo": "claude-did-this/claude-hub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "letta-ai/letta"
     }
   ]
 }

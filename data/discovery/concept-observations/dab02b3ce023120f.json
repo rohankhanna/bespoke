@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "build-test",
+  "normalized_form": "build-test",
+  "observation_id": "dab02b3ce023120f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:43:38.551697+00:00",
+  "observed_text": "build-test",
+  "source_file": ".github/workflows/build-test.yml.disabled",
+  "source_repo": "getzep/zep"
+}

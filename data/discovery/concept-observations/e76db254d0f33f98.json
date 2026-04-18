@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "publish-pypi",
+  "normalized_form": "publish-pypi",
+  "observation_id": "e76db254d0f33f98",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:43:38.551697+00:00",
+  "observed_text": "publish pypi",
+  "source_file": ".github/workflows/pypi.yaml",
+  "source_repo": "axolotl-ai-cloud/plugin-atropos"
+}

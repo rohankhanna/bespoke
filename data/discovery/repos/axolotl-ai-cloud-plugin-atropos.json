@@ -1,0 +1,101 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "axolotl-ai-cloud/plugin-atropos",
+      "target": "axolotl-ai-cloud/axolotl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yaml",
+      "source_repo": "axolotl-ai-cloud/plugin-atropos",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yaml",
+      "source_repo": "axolotl-ai-cloud/plugin-atropos",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yaml",
+      "source_repo": "axolotl-ai-cloud/plugin-atropos",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi.yaml",
+      "source_repo": "axolotl-ai-cloud/plugin-atropos",
+      "target": "publish pypi",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T10:43:57.812082+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1406
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 532
+    },
+    {
+      "path": ".github/workflows/pypi.yaml",
+      "size": 1715
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Axolotl Plugin integrating with Nous Research's Atropos ",
+    "full_name": "axolotl-ai-cloud/plugin-atropos",
+    "html_url": "https://github.com/axolotl-ai-cloud/plugin-atropos",
+    "language": "Python",
+    "pushed_at": "2025-07-17T21:04:16Z",
+    "topics": [],
+    "updated_at": "2026-04-13T21:02:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "axolotl-ai-cloud/axolotl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi.yaml",
+      "term": "publish pypi"
+    }
+  ]
+}

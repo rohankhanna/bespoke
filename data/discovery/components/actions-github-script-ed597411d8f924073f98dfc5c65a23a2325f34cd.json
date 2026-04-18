@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -42,6 +42,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/preview-release.yml",
       "source_repo": "withastro/starlight"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/add_label_automerge.yml",
+      "source_repo": "vllm-project/vllm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue_autolabel.yml",
+      "source_repo": "vllm-project/vllm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/new_pr_bot.yml",
+      "source_repo": "vllm-project/vllm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "vllm-project/vllm"
     }
   ]
 }

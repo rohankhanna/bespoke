@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "hacktoberfest",
+  "normalized_form": "hacktoberfest",
+  "observation_id": "225eeed414220a9e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:43:38.551697+00:00",
+  "observed_text": "hacktoberfest",
+  "source_file": null,
+  "source_repo": "charmbracelet/lipgloss"
+}

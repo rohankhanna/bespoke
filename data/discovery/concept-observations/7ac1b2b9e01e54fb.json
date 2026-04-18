@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "amd-aiter-scout",
+  "normalized_form": "amd-aiter-scout",
+  "observation_id": "7ac1b2b9e01e54fb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:43:38.551697+00:00",
+  "observed_text": "AMD AITER Scout",
+  "source_file": ".github/workflows/amd-aiter-scout.yml",
+  "source_repo": "sgl-project/sglang"
+}

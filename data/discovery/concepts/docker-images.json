@@ -1,0 +1,22 @@
+{
+  "aliases": [
+    "Docker images"
+  ],
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "Docker images",
+  "concept_id": "docker-images",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T10:43:38.551697+00:00",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "astral-sh/uv"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "primary_bucket": "workflow-process"
+}

@@ -3,7 +3,8 @@
     "qwen3"
   ],
   "buckets": [
-    "tool-component"
+    "tool-component",
+    "capability"
   ],
   "canonical_name": "qwen3",
   "concept_id": "qwen3",
@@ -13,8 +14,15 @@
       "observed_at": "2026-04-18T10:25:53.609022+00:00",
       "source_file": null,
       "source_repo": "1Panel-dev/MaxKB"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T10:43:38.551697+00:00",
+      "source_file": null,
+      "source_repo": "vllm-project/vllm"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00"
+  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "primary_bucket": "tool-component"
 }

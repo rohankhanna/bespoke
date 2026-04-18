@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "label-issues-based-on-keywords",
+  "normalized_form": "label-issues-based-on-keywords",
+  "observation_id": "3ba76b4c9bbb7c61",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:43:38.551697+00:00",
+  "observed_text": "Label issues based on keywords",
+  "source_file": ".github/workflows/issue_autolabel.yml",
+  "source_repo": "vllm-project/vllm"
+}

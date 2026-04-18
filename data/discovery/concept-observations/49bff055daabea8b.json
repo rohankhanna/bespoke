@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "continuous-integration",
+  "normalized_form": "continuous-integration",
+  "observation_id": "49bff055daabea8b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:43:38.551697+00:00",
+  "observed_text": "Continuous integration",
+  "source_file": ".github/workflows/rust-ci.yml",
+  "source_repo": "huggingface/candle"
+}

@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "amd-ci-job-monitor",
+  "normalized_form": "amd-ci-job-monitor",
+  "observation_id": "b0d91c629f78ff50",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:43:38.551697+00:00",
+  "observed_text": "AMD CI Job Monitor",
+  "source_file": ".github/workflows/amd-ci-job-monitor.yml",
+  "source_repo": "sgl-project/sglang"
+}

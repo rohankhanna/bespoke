@@ -1,0 +1,22 @@
+{
+  "aliases": [
+    "whether"
+  ],
+  "buckets": [
+    "language-layer-entity",
+    "conjunction"
+  ],
+  "canonical_name": "whether",
+  "concept_id": "en-conjunction-whether",
+  "evidence": [
+    {
+      "discovered_via": "seeded-language-entity",
+      "observed_at": "2026-04-18T10:43:38.551697+00:00",
+      "source_file": "vocabulary/english/stable-closed-classes.json",
+      "source_repo": "seed:english"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "primary_bucket": "language-layer-entity"
+}

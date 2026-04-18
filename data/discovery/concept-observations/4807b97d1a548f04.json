@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "new-pr-bot",
+  "normalized_form": "new-pr-bot",
+  "observation_id": "4807b97d1a548f04",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:43:38.551697+00:00",
+  "observed_text": "New PR Bot",
+  "source_file": ".github/workflows/new_pr_bot.yml",
+  "source_repo": "vllm-project/vllm"
+}

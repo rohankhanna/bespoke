@@ -1,0 +1,145 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "musicman3/Cruder",
+      "target": "crud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "musicman3/Cruder",
+      "target": "innodb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "musicman3/Cruder",
+      "target": "myisam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "musicman3/Cruder",
+      "target": "mysql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "musicman3/Cruder",
+      "target": "postgree",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "musicman3/Cruder",
+      "target": "postgres",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "musicman3/Cruder",
+      "target": "query-builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "musicman3/Cruder",
+      "target": "sqlite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "musicman3/Cruder",
+      "target": "sqlite3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T10:43:55.110215+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11643
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "The Cruder Project is a CRUD system for working with SQL databases based on the Query Builder principle and using PDO. ",
+    "full_name": "musicman3/Cruder",
+    "html_url": "https://github.com/musicman3/Cruder",
+    "language": "PHP",
+    "pushed_at": "2026-03-19T17:19:23Z",
+    "topics": [
+      "crud",
+      "innodb",
+      "myisam",
+      "mysql",
+      "pdo",
+      "postgree",
+      "postgres",
+      "query-builder",
+      "sqlite",
+      "sqlite3"
+    ],
+    "updated_at": "2026-03-19T17:18:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crud"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "innodb"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "myisam"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mysql"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgree"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgres"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "query-builder"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sqlite"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sqlite3"
+    }
+  ]
+}

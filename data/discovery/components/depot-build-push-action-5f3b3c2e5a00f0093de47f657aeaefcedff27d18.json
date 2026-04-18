@@ -1,0 +1,12 @@
+{
+  "component": "depot/build-push-action@5f3b3c2e5a00f0093de47f657aeaefcedff27d18",
+  "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "astral-sh/uv"
+    }
+  ]
+}

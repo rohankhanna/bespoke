@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "add-label-on-auto-merge-enabled",
+  "normalized_form": "add-label-on-auto-merge-enabled",
+  "observation_id": "eef5a956a9e42da7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:43:38.551697+00:00",
+  "observed_text": "Add label on auto-merge enabled",
+  "source_file": ".github/workflows/add_label_automerge.yml",
+  "source_repo": "vllm-project/vllm"
+}

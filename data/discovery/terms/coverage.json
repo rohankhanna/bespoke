@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-04-18T10:38:37.562216+00:00",
+  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/coverage.yml",
       "source_repo": "charmbracelet/bubbletea"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "charmbracelet/lipgloss"
     }
   ],
   "term": "coverage"

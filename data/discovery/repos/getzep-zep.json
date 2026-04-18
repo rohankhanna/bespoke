@@ -1,0 +1,383 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml.disabled"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml.disabled"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml.disabled"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml.disabled"
+    },
+    {
+      "component": "depot/setup-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml.disabled"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml.disabled"
+    },
+    {
+      "component": "docker/metadata-action@v4.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml.disabled"
+    },
+    {
+      "component": "depot/build-push-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml.disabled"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml.disabled"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml.disabled"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml.disabled"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-integrations.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-integrations.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-integrations.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-integrations.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-integrations.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-integrations.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-integrations.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-integrations.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-integrations.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "getzep/zep",
+      "target": "getzep/graphiti",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml.disabled",
+      "source_repo": "getzep/zep",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml.disabled",
+      "source_repo": "getzep/zep",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml.disabled",
+      "source_repo": "getzep/zep",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test.yml.disabled",
+      "source_repo": "getzep/zep",
+      "target": "build-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml.disabled",
+      "source_repo": "getzep/zep",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml.disabled",
+      "source_repo": "getzep/zep",
+      "target": "depot/setup-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml.disabled",
+      "source_repo": "getzep/zep",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml.disabled",
+      "source_repo": "getzep/zep",
+      "target": "docker/metadata-action@v4.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml.disabled",
+      "source_repo": "getzep/zep",
+      "target": "depot/build-push-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml.disabled",
+      "source_repo": "getzep/zep",
+      "target": "Zep Server Docker Build and Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml.disabled",
+      "source_repo": "getzep/zep",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml.disabled",
+      "source_repo": "getzep/zep",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml.disabled",
+      "source_repo": "getzep/zep",
+      "target": "golangci/golangci-lint-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml.disabled",
+      "source_repo": "getzep/zep",
+      "target": "golangci-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-integrations.yml",
+      "source_repo": "getzep/zep",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-integrations.yml",
+      "source_repo": "getzep/zep",
+      "target": "astral-sh/setup-uv@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-integrations.yml",
+      "source_repo": "getzep/zep",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-integrations.yml",
+      "source_repo": "getzep/zep",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-integrations.yml",
+      "source_repo": "getzep/zep",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-integrations.yml",
+      "source_repo": "getzep/zep",
+      "target": "Release Integration Packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-integrations.yml",
+      "source_repo": "getzep/zep",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-integrations.yml",
+      "source_repo": "getzep/zep",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-integrations.yml",
+      "source_repo": "getzep/zep",
+      "target": "Test Integration Packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getzep/zep",
+      "target": "knowledge-graphs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getzep/zep",
+      "target": "language-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T10:44:33.347073+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6026
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 128
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 3192
+    },
+    {
+      "path": ".github/workflows/build-test.yml.disabled",
+      "size": 791
+    },
+    {
+      "path": ".github/workflows/docker-publish.yml.disabled",
+      "size": 1575
+    },
+    {
+      "path": ".github/workflows/golangci-lint.yml.disabled",
+      "size": 540
+    },
+    {
+      "path": ".github/workflows/release-integrations.yml",
+      "size": 3108
+    },
+    {
+      "path": ".github/workflows/test-integrations.yml",
+      "size": 1263
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Zep | Examples, Integrations, & More",
+    "full_name": "getzep/zep",
+    "html_url": "https://github.com/getzep/zep",
+    "language": "Python",
+    "pushed_at": "2026-04-09T01:30:25Z",
+    "topics": [
+      "ai",
+      "knowledge-graphs",
+      "language-model",
+      "llm"
+    ],
+    "updated_at": "2026-04-17T21:44:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "getzep/graphiti",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test.yml.disabled",
+      "term": "build-test"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml.disabled",
+      "term": "Zep Server Docker Build and Publish"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml.disabled",
+      "term": "golangci-lint"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-integrations.yml",
+      "term": "Release Integration Packages"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-integrations.yml",
+      "term": "Test Integration Packages"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge-graphs"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    }
+  ]
+}

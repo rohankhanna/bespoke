@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "pyo3-wheels",
+  "normalized_form": "pyo3-wheels",
+  "observation_id": "65b4f75a264d299a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:43:38.551697+00:00",
+  "observed_text": "PyO3-Wheels",
+  "source_file": ".github/workflows/maturin.yml",
+  "source_repo": "huggingface/candle"
+}

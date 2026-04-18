@@ -1,0 +1,28 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-18T10:43:58.889829+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6372
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1101
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Standalone repo for our Atropos integration with Thinking Machines Tinker API (https://thinkingmachines.ai/tinker/)",
+    "full_name": "NousResearch/tinker-atropos",
+    "html_url": "https://github.com/NousResearch/tinker-atropos",
+    "language": "Python",
+    "pushed_at": "2026-03-22T21:35:09Z",
+    "topics": [],
+    "updated_at": "2026-04-18T08:16:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,22 @@
+{
+  "aliases": [
+    "Bot Cherry Pick to Release Branch"
+  ],
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "Bot Cherry Pick to Release Branch",
+  "concept_id": "bot-cherry-pick-to-release-branch",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T10:43:38.551697+00:00",
+      "source_file": ".github/workflows/bot-cherry-pick.yml",
+      "source_repo": "sgl-project/sglang"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "primary_bucket": "workflow-process"
+}

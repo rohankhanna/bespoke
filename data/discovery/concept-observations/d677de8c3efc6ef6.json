@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "build",
+  "normalized_form": "build",
+  "observation_id": "d677de8c3efc6ef6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:43:38.551697+00:00",
+  "observed_text": "build",
+  "source_file": ".github/workflows/build.yml",
+  "source_repo": "charmbracelet/lipgloss"
+}

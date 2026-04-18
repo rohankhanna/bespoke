@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LoRexxar/Kunlun-M",
+      "target": "lorexxar/cobra-w",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LoRexxar/Kunlun-M",
+      "target": "lazychanger/docker-kunlun-mirror",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LoRexxar/Kunlun-M",
+      "target": "knownsec/404starlink-project",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LoRexxar/Kunlun-M",
+      "target": "knownsec/404starlink",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-18T10:43:38.551697+00:00",
+  "source_repo": "LoRexxar/Kunlun-M"
+}

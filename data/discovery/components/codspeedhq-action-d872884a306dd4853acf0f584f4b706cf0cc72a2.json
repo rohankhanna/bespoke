@@ -1,0 +1,12 @@
+{
+  "component": "CodSpeedHQ/action@d872884a306dd4853acf0f584f4b706cf0cc72a2",
+  "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "astral-sh/uv"
+    }
+  ]
+}

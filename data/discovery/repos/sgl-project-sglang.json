@@ -1,0 +1,665 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-ci-job-monitor.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-ci-job-monitor.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-ci-job-monitor.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-ci-job-monitor.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-ci-job-monitor.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-ci-job-monitor.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-ci-job-monitor.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-ci-job-monitor.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-ci-job-monitor.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-ci-job-monitor.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-ci-job-monitor.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-ci-job-monitor.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-ci-job-monitor.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-ci-job-monitor.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-ci-job-monitor.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-ci-job-monitor.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-ci-job-monitor.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-ci-job-monitor.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-ci-job-monitor.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-ci-job-monitor.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-ci-job-monitor.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-ci-job-monitor.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-tune.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-bump-flashinfer-version.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-bump-flashinfer-version.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-bump-kernel-version-to-sglang.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-bump-kernel-version-to-sglang.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-bump-kernel-version.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-bump-kernel-version.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-bump-sglang-version.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-bump-sglang-version.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-cherry-pick.yml"
+    },
+    {
+      "component": "styfle/cancel-workflow-action@0.12.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cancel-pr-workflow-on-merge.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sgl-project/sglang",
+      "target": "google/tunix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sgl-project/sglang",
+      "target": "guidance-ai/guidance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sgl-project/sglang",
+      "target": "flashinfer-ai/flashinfer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sgl-project/sglang",
+      "target": "eth-sri/lmql",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/amd-aiter-scout.yml",
+      "source_repo": "sgl-project/sglang",
+      "target": "AMD AITER Scout",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-ci-job-monitor.yml",
+      "source_repo": "sgl-project/sglang",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-ci-job-monitor.yml",
+      "source_repo": "sgl-project/sglang",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-ci-job-monitor.yml",
+      "source_repo": "sgl-project/sglang",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-ci-job-monitor.yml",
+      "source_repo": "sgl-project/sglang",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/amd-ci-job-monitor.yml",
+      "source_repo": "sgl-project/sglang",
+      "target": "AMD CI Job Monitor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-tune.yml",
+      "source_repo": "sgl-project/sglang",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-tune.yml",
+      "source_repo": "sgl-project/sglang",
+      "target": "Auto tune",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-bump-flashinfer-version.yml",
+      "source_repo": "sgl-project/sglang",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-bump-flashinfer-version.yml",
+      "source_repo": "sgl-project/sglang",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot-bump-flashinfer-version.yml",
+      "source_repo": "sgl-project/sglang",
+      "target": "Bot Bump Flashinfer Version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-bump-kernel-version-to-sglang.yml",
+      "source_repo": "sgl-project/sglang",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-bump-kernel-version-to-sglang.yml",
+      "source_repo": "sgl-project/sglang",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot-bump-kernel-version-to-sglang.yml",
+      "source_repo": "sgl-project/sglang",
+      "target": "Bot Bump Kernel Version to SGLang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-bump-kernel-version.yml",
+      "source_repo": "sgl-project/sglang",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-bump-kernel-version.yml",
+      "source_repo": "sgl-project/sglang",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot-bump-kernel-version.yml",
+      "source_repo": "sgl-project/sglang",
+      "target": "Bot Bump Kernel Version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-bump-sglang-version.yml",
+      "source_repo": "sgl-project/sglang",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-bump-sglang-version.yml",
+      "source_repo": "sgl-project/sglang",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot-bump-sglang-version.yml",
+      "source_repo": "sgl-project/sglang",
+      "target": "Bot Bump SGLang Version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-cherry-pick.yml",
+      "source_repo": "sgl-project/sglang",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot-cherry-pick.yml",
+      "source_repo": "sgl-project/sglang",
+      "target": "Bot Cherry Pick to Release Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cancel-pr-workflow-on-merge.yml",
+      "source_repo": "sgl-project/sglang",
+      "target": "styfle/cancel-workflow-action@0.12.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cancel-pr-workflow-on-merge.yml",
+      "source_repo": "sgl-project/sglang",
+      "target": "Cancel PR Workflows on Merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sgl-project/sglang",
+      "target": "attention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sgl-project/sglang",
+      "target": "blackwell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sgl-project/sglang",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sgl-project/sglang",
+      "target": "deepseek",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sgl-project/sglang",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sgl-project/sglang",
+      "target": "gpt-oss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sgl-project/sglang",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sgl-project/sglang",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sgl-project/sglang",
+      "target": "minimax",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sgl-project/sglang",
+      "target": "qwen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sgl-project/sglang",
+      "target": "qwen-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sgl-project/sglang",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sgl-project/sglang",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T10:44:07.448257+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10800
+    },
+    {
+      "path": ".github/workflows/amd-aiter-scout.yml",
+      "size": 6797
+    },
+    {
+      "path": ".github/workflows/amd-ci-job-monitor.yml",
+      "size": 11277
+    },
+    {
+      "path": ".github/workflows/auto-tune.yml",
+      "size": 139
+    },
+    {
+      "path": ".github/workflows/bot-bump-flashinfer-version.yml",
+      "size": 1487
+    },
+    {
+      "path": ".github/workflows/bot-bump-kernel-version-to-sglang.yml",
+      "size": 1964
+    },
+    {
+      "path": ".github/workflows/bot-bump-kernel-version.yml",
+      "size": 1466
+    },
+    {
+      "path": ".github/workflows/bot-bump-sglang-version.yml",
+      "size": 2631
+    },
+    {
+      "path": ".github/workflows/bot-cherry-pick.yml",
+      "size": 6872
+    },
+    {
+      "path": ".github/workflows/cancel-pr-workflow-on-merge.yml",
+      "size": 491
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
+    "full_name": "sgl-project/sglang",
+    "html_url": "https://github.com/sgl-project/sglang",
+    "language": "Python",
+    "pushed_at": "2026-04-18T10:14:40Z",
+    "topics": [
+      "attention",
+      "blackwell",
+      "cuda",
+      "deepseek",
+      "diffusion",
+      "glm",
+      "gpt-oss",
+      "inference",
+      "llama",
+      "llm",
+      "minimax",
+      "moe",
+      "qwen",
+      "qwen-image",
+      "reinforcement-learning",
+      "transformer",
+      "vlm",
+      "wan"
+    ],
+    "updated_at": "2026-04-18T10:29:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eth-sri/lmql",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flashinfer-ai/flashinfer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/tunix",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guidance-ai/guidance",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/amd-aiter-scout.yml",
+      "term": "AMD AITER Scout"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/amd-ci-job-monitor.yml",
+      "term": "AMD CI Job Monitor"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-tune.yml",
+      "term": "Auto tune"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot-bump-flashinfer-version.yml",
+      "term": "Bot Bump Flashinfer Version"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot-bump-kernel-version-to-sglang.yml",
+      "term": "Bot Bump Kernel Version to SGLang"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot-bump-kernel-version.yml",
+      "term": "Bot Bump Kernel Version"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot-bump-sglang-version.yml",
+      "term": "Bot Bump SGLang Version"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot-cherry-pick.yml",
+      "term": "Bot Cherry Pick to Release Branch"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cancel-pr-workflow-on-merge.yml",
+      "term": "Cancel PR Workflows on Merge"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blackwell"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepseek"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-oss"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minimax"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qwen"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qwen-image"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

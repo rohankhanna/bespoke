@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "release-to-pypi",
+  "normalized_form": "release-to-pypi",
+  "observation_id": "c71e31790f49d69b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:43:38.551697+00:00",
+  "observed_text": "Release to PyPI",
+  "source_file": ".github/workflows/release_pypi.yml",
+  "source_repo": "taikinman/langrila"
+}

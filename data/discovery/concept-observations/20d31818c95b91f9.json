@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "auto-tune",
+  "normalized_form": "auto-tune",
+  "observation_id": "20d31818c95b91f9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:43:38.551697+00:00",
+  "observed_text": "Auto tune",
+  "source_file": ".github/workflows/auto-tune.yml",
+  "source_repo": "sgl-project/sglang"
+}

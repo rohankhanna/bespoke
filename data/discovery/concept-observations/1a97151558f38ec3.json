@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "attention",
+  "normalized_form": "attention",
+  "observation_id": "1a97151558f38ec3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:43:38.551697+00:00",
+  "observed_text": "attention",
+  "source_file": null,
+  "source_repo": "sgl-project/sglang"
+}

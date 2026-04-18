@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "sync",
+  "normalized_form": "sync",
+  "observation_id": "026968a2d50f557b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:43:38.551697+00:00",
+  "observed_text": "sync",
+  "source_file": null,
+  "source_repo": "tombelieber/claude-backup"
+}

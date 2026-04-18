@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "packaging",
+  "normalized_form": "packaging",
+  "observation_id": "f435ba5348007030",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:43:38.551697+00:00",
+  "observed_text": "packaging",
+  "source_file": null,
+  "source_repo": "astral-sh/uv"
+}
