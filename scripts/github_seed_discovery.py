@@ -40,6 +40,7 @@ EXPLICIT_REPO_EXISTS_CACHE = {}
 DEFAULT_DISCOVERY_BUDGET_SECONDS = 360
 DEFAULT_DISCOVERY_MIN_REPO_START_SECONDS = 15
 DEFAULT_DISCOVERY_HARD_STOP_SECONDS = 20
+SLOW_REPO_THRESHOLD_SECONDS = 10.0
 
 
 def api_get_json(url):
@@ -471,6 +472,41 @@ def upsert_seeded_language_concepts(concepts_dir, generated_at):
             )
 
 
+def normalize_existing_concept_artifacts(concepts_dir):
+    for path in concepts_dir.glob("*.json"):
+        try:
+            obj = json.loads(path.read_text())
+        except Exception:
+            path.unlink(missing_ok=True)
+            continue
+        buckets = obj.get("buckets") or []
+        if not buckets:
+            primary = obj.get("primary_bucket")
+            if primary:
+                buckets = [primary]
+            else:
+                evidence = obj.get("evidence") or []
+                discovered_via = next((item.get("discovered_via") for item in evidence if item.get("discovered_via")), None)
+                if discovered_via == "repo-topic":
+                    buckets = ["tool-component", "capability"]
+                elif discovered_via == "workflow-name":
+                    buckets = ["workflow-process", "data-document-artifact"]
+                elif discovered_via == "seeded-language-entity":
+                    buckets = ["language-layer-entity"]
+                else:
+                    buckets = ["unclassified"]
+        obj["buckets"] = unique_preserve(buckets)
+        obj["primary_bucket"] = obj.get("primary_bucket") or obj["buckets"][0]
+        obj.setdefault("aliases", [])
+        if obj.get("canonical_name") and obj["canonical_name"] not in obj["aliases"]:
+            obj["aliases"].append(obj["canonical_name"])
+        write_json(path, obj)
+
+
+def slow_repo_annotations(repo_timings):
+    return [item for item in repo_timings if item.get("elapsed_seconds", 0) >= SLOW_REPO_THRESHOLD_SECONDS]
+
+
 def dedupe_edges(edges):
     seen = set()
     out = []
@@ -763,6 +799,7 @@ def main():
 
     generated_at = datetime.now(timezone.utc).isoformat()
     upsert_seeded_language_concepts(concepts_dir, generated_at)
+    normalize_existing_concept_artifacts(concepts_dir)
     run_id = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     budget = budget_state()
     newly_discovered = []
@@ -878,6 +915,8 @@ def main():
         "remaining_budget_seconds": round(remaining_seconds(budget), 3),
         "stopped_due_to_budget": stopped_due_to_budget,
         "repo_timing_summary": summarize_repo_timings(repo_timings),
+        "slow_repo_threshold_seconds": SLOW_REPO_THRESHOLD_SECONDS,
+        "slow_repositories": slow_repo_annotations(repo_timings),
         "repo_timings": repo_timings,
     }
     write_json(runs_dir / f"{run_id}.json", run_summary)
