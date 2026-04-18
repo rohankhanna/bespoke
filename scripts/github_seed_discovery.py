@@ -278,6 +278,24 @@ def build_processed_history(frontier_state, processed_names):
     return processed_history, seen_processed
 
 
+def summarize_repo_timings(repo_timings):
+    if not repo_timings:
+        return {
+            "count": 0,
+            "total_seconds": 0.0,
+            "average_seconds": 0.0,
+            "max_seconds": 0.0,
+        }
+    durations = [item["elapsed_seconds"] for item in repo_timings]
+    total = sum(durations)
+    return {
+        "count": len(repo_timings),
+        "total_seconds": round(total, 3),
+        "average_seconds": round(total / len(repo_timings), 3),
+        "max_seconds": round(max(durations), 3),
+    }
+
+
 def dedupe_edges(edges):
     seen = set()
     out = []
@@ -561,12 +579,14 @@ def main():
     skipped_repositories = []
     stopped_due_to_budget = False
     deferred_entries = []
+    repo_timings = []
 
     for index, entry in enumerate(to_process):
         if should_stop_before_repo(budget):
             stopped_due_to_budget = True
             deferred_entries = to_process[index:]
             break
+        repo_started = time.monotonic()
         owner_repo = canonicalize_repo_full_name(entry["full_name"], lowercase=True)
         if not owner_repo or not is_valid_repo_full_name(owner_repo):
             skipped_repositories.append({
@@ -593,6 +613,13 @@ def main():
             raise
 
         canonical_owner_repo = canonicalize_repo_full_name(data["repo"]["full_name"] or owner_repo, lowercase=True)
+        repo_elapsed = round(time.monotonic() - repo_started, 3)
+        repo_timings.append({
+            "full_name": canonical_owner_repo,
+            "elapsed_seconds": repo_elapsed,
+            "discovered_via": entry.get("discovered_via"),
+            "graph_distance": entry.get("graph_distance"),
+        })
         write_json(repos_dir / f"{slug(canonical_owner_repo)}.json", data)
         write_json(edges_dir / f"{slug(canonical_owner_repo)}.json", {"source_repo": data["repo"]["full_name"], "generated_at": generated_at, "edges": data["edges"]})
         if canonical_owner_repo not in known_repo_keys:
@@ -655,6 +682,8 @@ def main():
         "budget_seconds": budget["budget_seconds"],
         "remaining_budget_seconds": round(remaining_seconds(budget), 3),
         "stopped_due_to_budget": stopped_due_to_budget,
+        "repo_timing_summary": summarize_repo_timings(repo_timings),
+        "repo_timings": repo_timings,
     }
     write_json(runs_dir / f"{run_id}.json", run_summary)
     print(json.dumps(run_summary, indent=2, sort_keys=True))
