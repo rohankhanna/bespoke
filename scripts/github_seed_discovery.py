@@ -186,6 +186,47 @@ def dedupe_frontier_entries(entries):
     return [deduped[key] for key in ordered_keys]
 
 
+def repo_link_priority(path):
+    if path in README_CANDIDATES:
+        return 0
+    if path in MANIFEST_CANDIDATES:
+        return 1
+    return None
+
+
+def limit_repo_links(repo_link_hits, edge_records, max_repo_links_per_repo):
+    eligible = []
+    for hit in repo_link_hits:
+        priority = repo_link_priority(hit.get("source_file", ""))
+        if priority is None:
+            continue
+        eligible.append((priority, hit))
+    ordered = [
+        hit for _, hit in sorted(
+            eligible,
+            key=lambda item: (
+                item[0],
+                item[1].get("source_file", ""),
+                item[1].get("full_name", ""),
+            ),
+        )
+    ]
+    kept = ordered[:max_repo_links_per_repo]
+    kept_keys = {
+        (hit.get("full_name"), hit.get("source_file"), hit.get("edge_type"))
+        for hit in kept
+    }
+    filtered_edges = []
+    for edge in edge_records:
+        if edge.get("target_type") != "repository" or edge.get("edge_type") != "explicit-github-link":
+            filtered_edges.append(edge)
+            continue
+        key = (edge.get("target"), edge.get("source_file"), edge.get("edge_type"))
+        if key in kept_keys:
+            filtered_edges.append(edge)
+    return kept, filtered_edges
+
+
 def build_processed_history(frontier_state, processed_names):
     processed_history = []
     seen_processed = set()
@@ -382,8 +423,9 @@ def collect_repo(owner_repo, limits, known_repo_keys, allow_topic_expansion=True
         if len(related) >= limits["max_related_repositories"]:
             break
 
-    edge_records = dedupe_edges(edge_records)
     repo_link_hits = [dict(t) for t in {tuple(sorted(hit.items())) for hit in repo_link_hits}]
+    repo_link_hits, edge_records = limit_repo_links(repo_link_hits, edge_records, limits["max_repo_links_per_repo"])
+    edge_records = dedupe_edges(edge_records)
 
     return {
         "fetched_at": datetime.now(timezone.utc).isoformat(),
