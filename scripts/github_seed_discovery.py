@@ -209,6 +209,8 @@ def dedupe_frontier_entries(entries):
         canonical = canonicalize_repo_full_name(entry.get("full_name", ""), lowercase=True)
         if not canonical:
             continue
+        if discovered_via == "explicit-github-link" and not is_plausible_repo_candidate(canonical):
+            continue
         normalized_entry = dict(entry)
         normalized_entry["full_name"] = canonical
         if canonical in deduped:
