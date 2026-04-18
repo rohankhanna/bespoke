@@ -1,0 +1,166 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ailev/FPF",
+      "target": "auditability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ailev/FPF",
+      "target": "bounded-context",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ailev/FPF",
+      "target": "collective-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ailev/FPF",
+      "target": "conceptual-modeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ailev/FPF",
+      "target": "decision-making",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ailev/FPF",
+      "target": "first-principles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ailev/FPF",
+      "target": "human-ai-collaboration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ailev/FPF",
+      "target": "multi-agent-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ailev/FPF",
+      "target": "reasoning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ailev/FPF",
+      "target": "spec-driven-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ailev/FPF",
+      "target": "systems-engineering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T12:47:07.281803+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "First Principles Framework (FPF): Operating system for open-ended thought for engieering, research, and mixed human/AI teams: bounded contexts, auditable reasoning, decision records, and multi-view publication.",
+    "full_name": "ailev/FPF",
+    "html_url": "https://github.com/ailev/FPF",
+    "language": null,
+    "pushed_at": "2026-04-17T12:33:55Z",
+    "topics": [
+      "ai-agents",
+      "auditability",
+      "bounded-context",
+      "collective-intelligence",
+      "conceptual-modeling",
+      "decision-making",
+      "first-principles",
+      "human-ai-collaboration",
+      "multi-agent-systems",
+      "reasoning",
+      "spec-driven-development",
+      "systems-engineering"
+    ],
+    "updated_at": "2026-04-17T15:35:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "auditability"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bounded-context"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "collective-intelligence"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conceptual-modeling"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decision-making"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "first-principles"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-ai-collaboration"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent-systems"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reasoning"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spec-driven-development"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "systems-engineering"
+    }
+  ]
+}

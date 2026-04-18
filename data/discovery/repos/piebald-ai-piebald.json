@@ -1,0 +1,38 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Piebald-AI/piebald",
+      "target": "piebald-ai/piebald-issues",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-18T12:47:19.382637+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 97
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": null,
+    "full_name": "Piebald-AI/piebald",
+    "html_url": "https://github.com/Piebald-AI/piebald",
+    "language": null,
+    "pushed_at": "2026-04-07T14:19:22Z",
+    "topics": [],
+    "updated_at": "2026-04-07T14:19:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "piebald-ai/piebald-issues",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

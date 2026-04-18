@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Claude Link Review",
+      "sense_id": "claude-link-review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "claude-link-review",
+  "normalized_form": "claude-link-review",
+  "observation_id": "25c224bef170a323",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T12:46:59.510459+00:00",
+  "observed_text": "Claude Link Review",
+  "source_file": ".github/workflows/claude-link-review.yml",
+  "source_repo": "anthropics/claude-cookbooks"
+}

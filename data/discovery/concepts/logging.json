@@ -1,0 +1,34 @@
+{
+  "aliases": [
+    "logging"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "canonical_name": "logging",
+  "concept_id": "logging",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T12:46:59.510459+00:00",
+      "source_file": null,
+      "source_repo": "Delgan/loguru"
+    }
+  ],
+  "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "logging",
+      "sense_id": "logging#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adoptium/adoptium",
+      "target": "adoptium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adoptium/adoptium",
+      "target": "aqavit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adoptium/adoptium",
+      "target": "eclipse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adoptium/adoptium",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adoptium/adoptium",
+      "target": "temurin",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T12:46:59.510459+00:00",
+  "source_repo": "adoptium/adoptium"
+}

@@ -1,0 +1,17 @@
+{
+  "component": "jetli/wasm-bindgen-action@20b33e20595891ab1a0ed73145d8a21fc96e7c29",
+  "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-wasm.yml",
+      "source_repo": "astral-sh/ruff"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "astral-sh/ruff"
+    }
+  ]
+}

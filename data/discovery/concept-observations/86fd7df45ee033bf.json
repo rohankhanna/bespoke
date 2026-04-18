@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "logging",
+      "sense_id": "logging#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "logging",
+  "normalized_form": "logging",
+  "observation_id": "86fd7df45ee033bf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T12:46:59.510459+00:00",
+  "observed_text": "logging",
+  "source_file": null,
+  "source_repo": "Delgan/loguru"
+}

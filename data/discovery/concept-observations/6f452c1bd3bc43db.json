@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build binaries",
+      "sense_id": "build-binaries#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "build-binaries",
+  "normalized_form": "build-binaries",
+  "observation_id": "6f452c1bd3bc43db",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T12:46:59.510459+00:00",
+  "observed_text": "Build binaries",
+  "source_file": ".github/workflows/build-binaries.yml",
+  "source_repo": "astral-sh/ruff"
+}

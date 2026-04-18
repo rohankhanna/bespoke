@@ -8,90 +8,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "joshsymonds/cc-tools",
-      "target": "cc-tools-statusline",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "joshsymonds/cc-tools",
-      "target": "### Build from Source (NixOS)",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "joshsymonds/cc-tools",
-      "target": "### Build from Source (Go)",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "joshsymonds/cc-tools",
-      "target": "## Control Commands The",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "joshsymonds/cc-tools",
-      "target": "cc-tools config",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "joshsymonds/cc-tools",
-      "target": "### Setting Configuration",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "joshsymonds/cc-tools",
-      "target": "### Resetting to Defaults",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "joshsymonds/cc-tools",
-      "target": "statusline.workspace",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "joshsymonds/cc-tools",
-      "target": "statusline.cache_dir",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "joshsymonds/cc-tools",
-      "target": "statusline.cache_seconds",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "joshsymonds/cc-tools",
-      "target": "config list",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "joshsymonds/cc-tools",
-      "target": "### Testing",
-      "target_type": "term"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "joshsymonds/cc-tools",
@@ -176,6 +92,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-18T09:23:05.253565+00:00",
+  "generated_at": "2026-04-18T12:46:59.510459+00:00",
   "source_repo": "joshsymonds/cc-tools"
 }

@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Linter"
+    "Linter",
+    "linter"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "canonical_name": "Linter",
   "concept_id": "linter",
@@ -21,10 +24,16 @@
       "observed_at": "2026-04-18T11:41:43.530265+00:00",
       "source_file": ".github/workflows/on_pull_request.yaml",
       "source_repo": "AUTOMATIC1111/stable-diffusion-webui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T12:46:59.510459+00:00",
+      "source_file": null,
+      "source_repo": "astral-sh/ruff"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
+  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "possible_senses": [
     {
       "buckets": [

@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "static-code-analysis",
+      "sense_id": "static-code-analysis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "static-code-analysis",
+  "normalized_form": "static-code-analysis",
+  "observation_id": "e8f56893f51a60f5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T12:46:59.510459+00:00",
+  "observed_text": "static-code-analysis",
+  "source_file": null,
+  "source_repo": "astral-sh/ruff"
+}

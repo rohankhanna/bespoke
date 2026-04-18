@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sdlc",
+      "sense_id": "sdlc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "sdlc",
+  "normalized_form": "sdlc",
+  "observation_id": "7e9362978d198b4b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T12:46:59.510459+00:00",
+  "observed_text": "sdlc",
+  "source_file": null,
+  "source_repo": "Fission-AI/OpenSpec"
+}

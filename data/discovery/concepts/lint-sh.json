@@ -1,0 +1,34 @@
+{
+  "aliases": [
+    "Lint sh"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "Lint sh",
+  "concept_id": "lint-sh",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T12:46:59.510459+00:00",
+      "source_file": ".github/workflows/lint-sh.yaml",
+      "source_repo": "databus23/helm-diff"
+    }
+  ],
+  "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lint sh",
+      "sense_id": "lint-sh#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

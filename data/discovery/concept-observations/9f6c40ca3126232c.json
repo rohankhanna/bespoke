@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rust",
+      "sense_id": "rust#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "rust",
+  "normalized_form": "rust",
+  "observation_id": "9f6c40ca3126232c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T12:46:59.510459+00:00",
+  "observed_text": "rust",
+  "source_file": null,
+  "source_repo": "astral-sh/ruff"
+}

@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Notebook Quality Check",
+      "sense_id": "notebook-quality-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "notebook-quality-check",
+  "normalized_form": "notebook-quality-check",
+  "observation_id": "e4ff0630662bb1c4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T12:46:59.510459+00:00",
+  "observed_text": "Notebook Quality Check",
+  "source_file": ".github/workflows/notebook-quality.yml",
+  "source_repo": "anthropics/claude-cookbooks"
+}

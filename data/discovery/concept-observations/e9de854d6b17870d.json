@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "human-ai-collaboration",
+      "sense_id": "human-ai-collaboration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "human-ai-collaboration",
+  "normalized_form": "human-ai-collaboration",
+  "observation_id": "e9de854d6b17870d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T12:46:59.510459+00:00",
+  "observed_text": "human-ai-collaboration",
+  "source_file": null,
+  "source_repo": "ailev/FPF"
+}

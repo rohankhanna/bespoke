@@ -1,0 +1,34 @@
+{
+  "aliases": [
+    "Test and Lint"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "Test and Lint",
+  "concept_id": "test-and-lint",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T12:46:59.510459+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "joshsymonds/cc-tools"
+    }
+  ],
+  "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test and Lint",
+      "sense_id": "test-and-lint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spec-driven-development",
+      "sense_id": "spec-driven-development#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "spec-driven-development",
+  "normalized_form": "spec-driven-development",
+  "observation_id": "a5416248432137d3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T12:46:59.510459+00:00",
+  "observed_text": "spec-driven-development",
+  "source_file": null,
+  "source_repo": "Fission-AI/OpenSpec"
+}

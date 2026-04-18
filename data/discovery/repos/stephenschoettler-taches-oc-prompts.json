@@ -1,0 +1,38 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stephenschoettler/taches-oc-prompts",
+      "target": "glittercowboy/taches-cc-prompts",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-18T12:47:06.851166+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1340
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Official community port of T\u00c2CHES prompts, adapted for OpenCode. All credit belongs to the original author, T\u00c2CHES. This fork updates the agents, tools, and paths to be compatible with Opencode's sub-agent and tool system.",
+    "full_name": "stephenschoettler/taches-oc-prompts",
+    "html_url": "https://github.com/stephenschoettler/taches-oc-prompts",
+    "language": null,
+    "pushed_at": "2026-01-14T04:58:38Z",
+    "topics": [],
+    "updated_at": "2026-03-10T08:51:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "glittercowboy/taches-cc-prompts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

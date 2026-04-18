@@ -1,0 +1,34 @@
+{
+  "aliases": [
+    "Lint and Format Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "Lint and Format Check",
+  "concept_id": "lint-and-format-check",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T12:46:59.510459+00:00",
+      "source_file": ".github/workflows/lint-format.yml",
+      "source_repo": "anthropics/claude-cookbooks"
+    }
+  ],
+  "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lint and Format Check",
+      "sense_id": "lint-and-format-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

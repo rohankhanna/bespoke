@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Claude PR Review",
+      "sense_id": "claude-pr-review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "claude-pr-review",
+  "normalized_form": "claude-pr-review",
+  "observation_id": "32c6518afb47af34",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T12:46:59.510459+00:00",
+  "observed_text": "Claude PR Review",
+  "source_file": ".github/workflows/claude-pr-review.yml",
+  "source_repo": "anthropics/claude-cookbooks"
+}

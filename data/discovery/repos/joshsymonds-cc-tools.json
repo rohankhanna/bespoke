@@ -90,90 +90,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "joshsymonds/cc-tools",
-      "target": "cc-tools-statusline",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "joshsymonds/cc-tools",
-      "target": "### Build from Source (NixOS)",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "joshsymonds/cc-tools",
-      "target": "### Build from Source (Go)",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "joshsymonds/cc-tools",
-      "target": "## Control Commands The",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "joshsymonds/cc-tools",
-      "target": "cc-tools config",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "joshsymonds/cc-tools",
-      "target": "### Setting Configuration",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "joshsymonds/cc-tools",
-      "target": "### Resetting to Defaults",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "joshsymonds/cc-tools",
-      "target": "statusline.workspace",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "joshsymonds/cc-tools",
-      "target": "statusline.cache_dir",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "joshsymonds/cc-tools",
-      "target": "statusline.cache_seconds",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "joshsymonds/cc-tools",
-      "target": "config list",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "joshsymonds/cc-tools",
-      "target": "### Testing",
-      "target_type": "term"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "joshsymonds/cc-tools",
@@ -258,7 +174,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T09:23:10.708802+00:00",
+  "fetched_at": "2026-04-18T12:47:17.435954+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -296,66 +212,6 @@
     }
   ],
   "terms": [
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "cc-tools-statusline"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "### Build from Source (NixOS)"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "### Build from Source (Go)"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "## Control Commands The"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "cc-tools config"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "### Setting Configuration"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "### Resetting to Defaults"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "statusline.workspace"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "statusline.cache_dir"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "statusline.cache_seconds"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "config list"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "### Testing"
-    },
     {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/release.yml",

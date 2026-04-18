@@ -1,0 +1,34 @@
+{
+  "aliases": [
+    "Release (prepare)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "Release (prepare)",
+  "concept_id": "release-prepare",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T12:46:59.510459+00:00",
+      "source_file": ".github/workflows/release-prepare.yml",
+      "source_repo": "Fission-AI/OpenSpec"
+    }
+  ],
+  "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release (prepare)",
+      "sense_id": "release-prepare#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

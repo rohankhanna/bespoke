@@ -1,106 +1,6 @@
 {
-  "generated_at": "2026-04-18T12:07:11.500453+00:00",
+  "generated_at": "2026-04-18T12:46:59.510459+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "unicode-rs/unicode-width",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "anthropics/claude-cookbooks",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "anthropics/courses",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "nimbalyst/nimbalyst",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "stephenschoettler/taches-oc-prompts",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ailev/fpf",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "numman-ali/openskills",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "vercel-labs/skills",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "parruda/claude-swarm",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "parruda/ruby_llm",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "veraticus/cc-tools",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "adoptium/adoptium",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "piebald-ai/.github",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "piebald-ai/piebald",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "astral-sh/ruff",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "delgan/loguru",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "fission-ai/openspec",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "steveyegge/beads",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "databus23/helm-diff",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "slopus/slopus.github.io",
-      "graph_distance": 4
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "cheukyin175/learn-faster-kit",
@@ -1555,6 +1455,96 @@
       "discovered_via": "explicit-github-link",
       "full_name": "rust-lang/rfcs",
       "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aws-samples/anthropic-on-aws",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "glittercowboy/taches-cc-prompts",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "vercel-labs/agent-skills",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "parruda/claude-swarm",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "rubocop/rubocop",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "veraticus/cc-tools",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "piebald-ai/piebald-issues",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "albumentations-team/albumentationsx",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "altair-viz/altair",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "alteryx/featuretools",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "anthropics/anthropic-sdk-python",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "caronc/apprise",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "erezinman/loguru-config",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "qix-/better-exceptions",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "svaningelgem/logprise",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dolthub/dolt",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "steveyegge/beads",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "helm/community",
+      "graph_distance": 5
     }
   ],
   "processed": [
@@ -2135,6 +2125,24 @@
     "fgrehm/clotilde",
     "crossterm-rs/crossterm",
     "dirs-dev/dirs-rs",
-    "dtolnay/anyhow"
+    "dtolnay/anyhow",
+    "unicode-rs/unicode-width",
+    "anthropics/claude-cookbooks",
+    "anthropics/courses",
+    "nimbalyst/nimbalyst",
+    "stephenschoettler/taches-oc-prompts",
+    "ailev/fpf",
+    "numman-ali/openskills",
+    "vercel-labs/skills",
+    "parruda/ruby_llm",
+    "adoptium/adoptium",
+    "piebald-ai/.github",
+    "piebald-ai/piebald",
+    "astral-sh/ruff",
+    "delgan/loguru",
+    "fission-ai/openspec",
+    "gastownhall/beads",
+    "databus23/helm-diff",
+    "slopus/slopus.github.io"
   ]
 }

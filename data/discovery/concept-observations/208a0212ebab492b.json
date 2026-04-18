@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Daily parser fuzz",
+      "sense_id": "daily-parser-fuzz#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "daily-parser-fuzz",
+  "normalized_form": "daily-parser-fuzz",
+  "observation_id": "208a0212ebab492b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T12:46:59.510459+00:00",
+  "observed_text": "Daily parser fuzz",
+  "source_file": ".github/workflows/daily_fuzz.yaml",
+  "source_repo": "astral-sh/ruff"
+}

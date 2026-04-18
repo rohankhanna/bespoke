@@ -1,0 +1,12 @@
+{
+  "component": "Vampire/setup-wsl@v7",
+  "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "databus23/helm-diff"
+    }
+  ]
+}

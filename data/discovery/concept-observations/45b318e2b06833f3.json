@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release SwarmCLI Gem",
+      "sense_id": "release-swarmcli-gem#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "release-swarmcli-gem",
+  "normalized_form": "release-swarmcli-gem",
+  "observation_id": "45b318e2b06833f3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T12:46:59.510459+00:00",
+  "observed_text": "Release SwarmCLI Gem",
+  "source_file": ".github/workflows/release-swarm-cli.yml",
+  "source_repo": "parruda/swarm"
+}

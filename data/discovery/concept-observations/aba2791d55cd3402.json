@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "systems-engineering",
+      "sense_id": "systems-engineering#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "systems-engineering",
+  "normalized_form": "systems-engineering",
+  "observation_id": "aba2791d55cd3402",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T12:46:59.510459+00:00",
+  "observed_text": "systems-engineering",
+  "source_file": null,
+  "source_repo": "ailev/FPF"
+}

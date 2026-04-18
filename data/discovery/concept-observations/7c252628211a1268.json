@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ruff",
+      "sense_id": "ruff#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "ruff",
+  "normalized_form": "ruff",
+  "observation_id": "7c252628211a1268",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T12:46:59.510459+00:00",
+  "observed_text": "ruff",
+  "source_file": null,
+  "source_repo": "astral-sh/ruff"
+}

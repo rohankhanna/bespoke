@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Regression Tests",
+      "sense_id": "regression-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "regression-tests",
+  "normalized_form": "regression-tests",
+  "observation_id": "bbda8b9f49735364",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T12:46:59.510459+00:00",
+  "observed_text": "Regression Tests",
+  "source_file": ".github/workflows/regression.yml",
+  "source_repo": "gastownhall/beads"
+}

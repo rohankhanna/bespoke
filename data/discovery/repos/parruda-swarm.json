@@ -157,55 +157,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "parruda/swarm",
-      "target": "Run it:",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "parruda/swarm",
-      "target": "Run the code review:",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "parruda/swarm",
-      "target": "bash gem install swarm_memory",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "parruda/swarm",
-      "target": "bash gem install claude_swarm",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "parruda/swarm",
-      "target": "git checkout -b my-new-feature",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "parruda/swarm",
-      "target": "git commit -am 'Add some feature",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "parruda/swarm",
-      "target": "git push origin my-new-feature",
-      "target_type": "term"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "parruda/swarm",
@@ -367,7 +318,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T09:23:09.059102+00:00",
+  "fetched_at": "2026-04-18T12:47:13.793573+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -422,41 +373,6 @@
     }
   ],
   "terms": [
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "Run it:"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "Run the code review:"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "bash gem install swarm_memory"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "bash gem install claude_swarm"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "git checkout -b my-new-feature"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "git commit -am 'Add some feature"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "git push origin my-new-feature"
-    },
     {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/release-claude-swarm.yml",

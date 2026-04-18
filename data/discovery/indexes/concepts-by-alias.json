@@ -1,0 +1,3300 @@
+{
+  "a": [
+    "en-article_or_determiner-a"
+  ],
+  "aboard": [
+    "en-preposition-aboard"
+  ],
+  "about": [
+    "en-preposition-about"
+  ],
+  "above": [
+    "en-preposition-above"
+  ],
+  "across": [
+    "en-preposition-across"
+  ],
+  "actually": [
+    "en-discourse_marker-actually"
+  ],
+  "add label on auto-merge enabled": [
+    "add-label-on-auto-merge-enabled"
+  ],
+  "add new implementation versions": [
+    "add-new-implementation-versions"
+  ],
+  "address sanitizer": [
+    "address-sanitizer"
+  ],
+  "adoptium": [
+    "adoptium"
+  ],
+  "adversarial-machine-learning": [
+    "adversarial-machine-learning"
+  ],
+  "adversarial-robustness": [
+    "adversarial-robustness"
+  ],
+  "after": [
+    "en-conjunction-after",
+    "en-preposition-after"
+  ],
+  "after all": [
+    "en-discourse_marker-after-all"
+  ],
+  "against": [
+    "en-preposition-against"
+  ],
+  "agency": [
+    "agency"
+  ],
+  "agent session drift check": [
+    "agent-session-drift-check"
+  ],
+  "agent-collaboration": [
+    "agent-collaboration"
+  ],
+  "agent-harness": [
+    "agent-harness"
+  ],
+  "agent-skill": [
+    "agent-skill"
+  ],
+  "agent-skills": [
+    "agent-skills"
+  ],
+  "agent-to-agent": [
+    "agent-to-agent"
+  ],
+  "agentdb docker tests": [
+    "agentdb-docker-tests"
+  ],
+  "agentic": [
+    "agentic"
+  ],
+  "agentic-ai": [
+    "agentic-ai"
+  ],
+  "agentic-cli": [
+    "agentic-cli"
+  ],
+  "agentic-engineering": [
+    "agentic-engineering"
+  ],
+  "agentic-framework": [
+    "agentic-framework"
+  ],
+  "agentic-rag": [
+    "agentic-rag"
+  ],
+  "agentic-workflow": [
+    "agentic-workflow"
+  ],
+  "agents ci": [
+    "agents-ci"
+  ],
+  "agents-md-guard": [
+    "agents-md-guard"
+  ],
+  "ai moderator": [
+    "ai-moderator"
+  ],
+  "ai-accountability": [
+    "ai-accountability"
+  ],
+  "ai-act": [
+    "ai-act"
+  ],
+  "ai-art": [
+    "ai-art"
+  ],
+  "ai-assistant": [
+    "ai-assistant"
+  ],
+  "ai-auditability": [
+    "ai-auditability"
+  ],
+  "ai-coding": [
+    "ai-coding"
+  ],
+  "ai-engineering": [
+    "ai-engineering"
+  ],
+  "ai-identity": [
+    "ai-identity"
+  ],
+  "ai-memory": [
+    "ai-memory"
+  ],
+  "ai-ocr": [
+    "ai-ocr"
+  ],
+  "ai-orchestration": [
+    "ai-orchestration"
+  ],
+  "ai-pipeline": [
+    "ai-pipeline"
+  ],
+  "ai-tools": [
+    "ai-tools"
+  ],
+  "alembic migration validation": [
+    "alembic-migration-validation"
+  ],
+  "all": [
+    "en-article_or_determiner-all",
+    "en-pronoun-all",
+    "en-quantifier-all"
+  ],
+  "along": [
+    "en-preposition-along"
+  ],
+  "although": [
+    "en-conjunction-although"
+  ],
+  "am": [
+    "en-modal_or_auxiliary-am"
+  ],
+  "amazon-bedrock": [
+    "amazon-bedrock"
+  ],
+  "amd aiter scout": [
+    "amd-aiter-scout"
+  ],
+  "amd ci job monitor": [
+    "amd-ci-job-monitor"
+  ],
+  "amid": [
+    "en-preposition-amid"
+  ],
+  "among": [
+    "en-preposition-among"
+  ],
+  "an": [
+    "en-article_or_determiner-an"
+  ],
+  "and": [
+    "en-conjunction-and"
+  ],
+  "android": [
+    "android"
+  ],
+  "another": [
+    "en-article_or_determiner-another",
+    "en-pronoun-another"
+  ],
+  "anthropic": [
+    "anthropic"
+  ],
+  "anthropic-claude": [
+    "anthropic-claude"
+  ],
+  "anthropic-claude-ai": [
+    "anthropic-claude-ai"
+  ],
+  "anti": [
+    "en-preposition-anti"
+  ],
+  "antigravity": [
+    "antigravity"
+  ],
+  "any": [
+    "en-article_or_determiner-any",
+    "en-quantifier-any"
+  ],
+  "anybody": [
+    "en-pronoun-anybody"
+  ],
+  "anyone": [
+    "en-pronoun-anyone"
+  ],
+  "anything": [
+    "en-pronoun-anything"
+  ],
+  "anyway": [
+    "en-discourse_marker-anyway"
+  ],
+  "approve contributor": [
+    "approve-contributor"
+  ],
+  "aqavit": [
+    "aqavit"
+  ],
+  "are": [
+    "en-modal_or_auxiliary-are"
+  ],
+  "around": [
+    "en-preposition-around"
+  ],
+  "arrow": [
+    "arrow"
+  ],
+  "artificial-intelligence": [
+    "artificial-intelligence"
+  ],
+  "as": [
+    "en-conjunction-as",
+    "en-preposition-as"
+  ],
+  "assets": [
+    "assets"
+  ],
+  "assistants": [
+    "assistants"
+  ],
+  "astro": [
+    "astro"
+  ],
+  "at": [
+    "en-preposition-at"
+  ],
+  "attention": [
+    "attention"
+  ],
+  "attention-mechanism": [
+    "attention-mechanism"
+  ],
+  "audio": [
+    "audio"
+  ],
+  "audio-utility": [
+    "audio-utility"
+  ],
+  "audit": [
+    "audit"
+  ],
+  "auditability": [
+    "auditability"
+  ],
+  "augmentation": [
+    "augmentation"
+  ],
+  "authentification": [
+    "authentification"
+  ],
+  "auto assign types issues": [
+    "auto-assign-types-issues"
+  ],
+  "auto start ci": [
+    "auto-start-ci"
+  ],
+  "auto tag release": [
+    "auto-tag-release"
+  ],
+  "auto tune": [
+    "auto-tune"
+  ],
+  "auto-close duplicate issues": [
+    "auto-close-duplicate-issues"
+  ],
+  "auto-label claude prs": [
+    "auto-label-claude-prs"
+  ],
+  "auto-merge dependabot prs": [
+    "auto-merge-dependabot-prs"
+  ],
+  "auto-retarget-main-pr-to-dev": [
+    "auto-retarget-main-pr-to-dev"
+  ],
+  "automated documentation audit": [
+    "automated-documentation-audit"
+  ],
+  "automation": [
+    "automation"
+  ],
+  "autonomous-agents": [
+    "autonomous-agents"
+  ],
+  "awesome": [
+    "awesome"
+  ],
+  "awesome-gemini-cli": [
+    "awesome-gemini-cli"
+  ],
+  "awesome-list": [
+    "awesome-list"
+  ],
+  "awesome-lists": [
+    "awesome-lists"
+  ],
+  "aws-lambda": [
+    "aws-lambda"
+  ],
+  "backport": [
+    "backport"
+  ],
+  "backup": [
+    "backup"
+  ],
+  "base-image": [
+    "base-image"
+  ],
+  "baseline": [
+    "baseline"
+  ],
+  "bash": [
+    "bash"
+  ],
+  "bash-aliases": [
+    "bash-aliases"
+  ],
+  "basically": [
+    "en-discourse_marker-basically"
+  ],
+  "bats-testing": [
+    "bats-testing"
+  ],
+  "bazel": [
+    "bazel"
+  ],
+  "be": [
+    "en-modal_or_auxiliary-be"
+  ],
+  "because": [
+    "en-conjunction-because"
+  ],
+  "bedrock-agents": [
+    "bedrock-agents"
+  ],
+  "been": [
+    "en-modal_or_auxiliary-been"
+  ],
+  "before": [
+    "en-conjunction-before",
+    "en-preposition-before"
+  ],
+  "behind": [
+    "en-preposition-behind"
+  ],
+  "being": [
+    "en-modal_or_auxiliary-being"
+  ],
+  "below": [
+    "en-preposition-below"
+  ],
+  "bench": [
+    "bench"
+  ],
+  "benchmark": [
+    "benchmark"
+  ],
+  "benchmark tests (langchain)": [
+    "benchmark-tests-langchain"
+  ],
+  "benchmarks": [
+    "benchmarks"
+  ],
+  "beneath": [
+    "en-preposition-beneath"
+  ],
+  "beside": [
+    "en-preposition-beside"
+  ],
+  "besides": [
+    "en-discourse_marker-besides",
+    "en-preposition-besides"
+  ],
+  "best-readme": [
+    "best-readme"
+  ],
+  "beta release": [
+    "beta-release"
+  ],
+  "between": [
+    "en-preposition-between"
+  ],
+  "beyond": [
+    "en-preposition-beyond"
+  ],
+  "big-data": [
+    "big-data"
+  ],
+  "bign-genk": [
+    "bign-genk"
+  ],
+  "binaries": [
+    "binaries"
+  ],
+  "binary": [
+    "binary"
+  ],
+  "blackwell": [
+    "blackwell"
+  ],
+  "blob-size-policy": [
+    "blob-size-policy"
+  ],
+  "bot bump flashinfer version": [
+    "bot-bump-flashinfer-version"
+  ],
+  "bot bump kernel version": [
+    "bot-bump-kernel-version"
+  ],
+  "bot bump kernel version to sglang": [
+    "bot-bump-kernel-version-to-sglang"
+  ],
+  "bot bump sglang version": [
+    "bot-bump-sglang-version"
+  ],
+  "bot cherry pick to release branch": [
+    "bot-cherry-pick-to-release-branch"
+  ],
+  "both": [
+    "en-article_or_determiner-both",
+    "en-pronoun-both",
+    "en-quantifier-both"
+  ],
+  "bounded-context": [
+    "bounded-context"
+  ],
+  "bubbletea": [
+    "bubbletea"
+  ],
+  "build": [
+    "build"
+  ],
+  "build & package": [
+    "build-package"
+  ],
+  "build agentic-jujutsu native modules": [
+    "build-agentic-jujutsu-native-modules"
+  ],
+  "build and publish (oss + r2)": [
+    "build-and-publish-oss-r2"
+  ],
+  "build and publish docker image": [
+    "build-and-publish-docker-image"
+  ],
+  "build and publish implementation images": [
+    "build-and-publish-implementation-images"
+  ],
+  "build and push docker image": [
+    "build-and-push-docker-image"
+  ],
+  "build and push docker images": [
+    "build-and-push-docker-images"
+  ],
+  "build attention native modules": [
+    "build-attention-native-modules"
+  ],
+  "build binaries": [
+    "build-binaries"
+  ],
+  "build daft wheel": [
+    "build-daft-wheel"
+  ],
+  "build diskann native modules": [
+    "build-diskann-native-modules"
+  ],
+  "build dist": [
+    "build-dist"
+  ],
+  "build docs": [
+    "build-docs"
+  ],
+  "build examples": [
+    "build-examples"
+  ],
+  "build from tarball": [
+    "build-from-tarball"
+  ],
+  "build gnn native modules": [
+    "build-gnn-native-modules"
+  ],
+  "build native module prebuilds": [
+    "build-native-module-prebuilds"
+  ],
+  "build packages for release": [
+    "build-packages-for-release"
+  ],
+  "build release binaries": [
+    "build-release-binaries"
+  ],
+  "build rust ci": [
+    "build-rust-ci"
+  ],
+  "build typescript ci": [
+    "build-typescript-ci"
+  ],
+  "build wasm": [
+    "build-wasm"
+  ],
+  "build, test and release": [
+    "build-test-and-release"
+  ],
+  "build-and-push": [
+    "build-and-push"
+  ],
+  "build-and-push-vector-model": [
+    "build-and-push-vector-model"
+  ],
+  "build-test": [
+    "build-test"
+  ],
+  "bulk-utilities": [
+    "bulk-utilities"
+  ],
+  "bump plugin shas": [
+    "bump-plugin-shas"
+  ],
+  "bump version": [
+    "bump-version"
+  ],
+  "bundle analyzer": [
+    "bundle-analyzer"
+  ],
+  "bundler": [
+    "bundler"
+  ],
+  "busted": [
+    "busted"
+  ],
+  "but": [
+    "en-conjunction-but",
+    "en-preposition-but"
+  ],
+  "by": [
+    "en-preposition-by"
+  ],
+  "c++ linter comment": [
+    "c-linter-comment"
+  ],
+  "can": [
+    "en-modal_or_auxiliary-can"
+  ],
+  "cancel pr workflows on merge": [
+    "cancel-pr-workflows-on-merge"
+  ],
+  "capybara": [
+    "capybara"
+  ],
+  "cargo-deny": [
+    "cargo-deny"
+  ],
+  "cc-proxy": [
+    "cc-proxy"
+  ],
+  "charts": [
+    "charts"
+  ],
+  "chatbot": [
+    "chatbot"
+  ],
+  "chatgpt": [
+    "chatgpt"
+  ],
+  "check broken links on daft.ai": [
+    "check-broken-links-on-daft.ai"
+  ],
+  "check for dead links": [
+    "check-for-dead-links"
+  ],
+  "check issue completeness": [
+    "check-issue-completeness"
+  ],
+  "check outdated version pinning": [
+    "check-outdated-version-pinning"
+  ],
+  "check pypi version": [
+    "check-pypi-version"
+  ],
+  "checks": [
+    "checks"
+  ],
+  "chromadb": [
+    "chromadb"
+  ],
+  "ci & release": [
+    "ci-release"
+  ],
+  "ci - libnpmaccess": [
+    "ci---libnpmaccess"
+  ],
+  "ci - libnpmdiff": [
+    "ci---libnpmdiff"
+  ],
+  "ci - libnpmexec": [
+    "ci---libnpmexec"
+  ],
+  "ci - libnpmfund": [
+    "ci---libnpmfund"
+  ],
+  "ci - libnpmorg": [
+    "ci---libnpmorg"
+  ],
+  "ci - libnpmpack": [
+    "ci---libnpmpack"
+  ],
+  "ci tests": [
+    "ci-tests"
+  ],
+  "cla assistant": [
+    "cla-assistant"
+  ],
+  "claude auto e2e testing": [
+    "claude-auto-e2e-testing"
+  ],
+  "claude auto testing coverage": [
+    "claude-auto-testing-coverage"
+  ],
+  "claude code": [
+    "claude-code"
+  ],
+  "claude find issues for pr": [
+    "claude-find-issues-for-pr"
+  ],
+  "claude issue dedupe": [
+    "claude-issue-dedupe"
+  ],
+  "claude issue triage": [
+    "claude-issue-triage"
+  ],
+  "claude link review": [
+    "claude-link-review"
+  ],
+  "claude model check": [
+    "claude-model-check"
+  ],
+  "claude pr code review": [
+    "claude-pr-code-review"
+  ],
+  "claude pr review": [
+    "claude-pr-review"
+  ],
+  "claude pr review (manual trigger)": [
+    "claude-pr-review-manual-trigger"
+  ],
+  "claude-3": [
+    "claude-3"
+  ],
+  "claude-3-5-sonnet": [
+    "claude-3-5-sonnet"
+  ],
+  "claude-agent-sdk": [
+    "claude-agent-sdk"
+  ],
+  "claude-ai": [
+    "claude-ai"
+  ],
+  "claude-code": [
+    "claude-code"
+  ],
+  "claude-code-cli": [
+    "claude-code-cli"
+  ],
+  "claude-code-plugin": [
+    "claude-code-plugin"
+  ],
+  "claude-code-plugins": [
+    "claude-code-plugins"
+  ],
+  "claude-code-proxy": [
+    "claude-code-proxy"
+  ],
+  "claude-code-skills": [
+    "claude-code-skills"
+  ],
+  "claude-code-system-prompts": [
+    "claude-code-system-prompts"
+  ],
+  "claude-skill": [
+    "claude-skill"
+  ],
+  "claude-skills": [
+    "claude-skills"
+  ],
+  "claudecode": [
+    "claudecode"
+  ],
+  "claudecode-config": [
+    "claudecode-config"
+  ],
+  "clawdbot": [
+    "clawdbot"
+  ],
+  "clawdis": [
+    "clawdis"
+  ],
+  "cleanup": [
+    "cleanup"
+  ],
+  "cleanup caches for closed prs": [
+    "cleanup-caches-for-closed-prs"
+  ],
+  "cli integration test": [
+    "cli-integration-test"
+  ],
+  "climbing": [
+    "climbing"
+  ],
+  "close external prs": [
+    "close-external-prs"
+  ],
+  "close generated prs": [
+    "close-generated-prs"
+  ],
+  "close inactive issues": [
+    "close-inactive-issues"
+  ],
+  "close inactive issues and prs": [
+    "close-inactive-issues-and-prs"
+  ],
+  "close issues (needs repro)": [
+    "close-issues-needs-repro"
+  ],
+  "close stale contributor prs": [
+    "close-stale-contributor-prs"
+  ],
+  "close stale feature requests": [
+    "close-stale-feature-requests"
+  ],
+  "close stale issues": [
+    "close-stale-issues"
+  ],
+  "close stale issues and prs": [
+    "close-stale-issues-and-prs"
+  ],
+  "close stale pull requests": [
+    "close-stale-pull-requests"
+  ],
+  "close stale robobun prs": [
+    "close-stale-robobun-prs"
+  ],
+  "close stalled issues and prs": [
+    "close-stalled-issues-and-prs"
+  ],
+  "cluade": [
+    "cluade"
+  ],
+  "cncf": [
+    "cncf"
+  ],
+  "code": [
+    "code"
+  ],
+  "code coverage": [
+    "code-coverage"
+  ],
+  "code scanning - action": [
+    "code-scanning---action"
+  ],
+  "code-quality": [
+    "code-quality"
+  ],
+  "code-review": [
+    "code-review"
+  ],
+  "codeql": [
+    "codeql"
+  ],
+  "codeql advanced": [
+    "codeql-advanced"
+  ],
+  "codespell": [
+    "codespell"
+  ],
+  "codex-cli": [
+    "codex-cli"
+  ],
+  "coding": [
+    "coding"
+  ],
+  "collective-intelligence": [
+    "collective-intelligence"
+  ],
+  "color": [
+    "color"
+  ],
+  "command-line": [
+    "command-line"
+  ],
+  "commit-lint": [
+    "commit-lint"
+  ],
+  "commit-message": [
+    "commit-message"
+  ],
+  "community": [
+    "community"
+  ],
+  "compiler": [
+    "compiler"
+  ],
+  "component integration tests": [
+    "component-integration-tests"
+  ],
+  "conceptual-modeling": [
+    "conceptual-modeling"
+  ],
+  "concerning": [
+    "en-preposition-concerning"
+  ],
+  "config": [
+    "config"
+  ],
+  "congratsbot": [
+    "congratsbot"
+  ],
+  "considering": [
+    "en-preposition-considering"
+  ],
+  "console": [
+    "console"
+  ],
+  "containers": [
+    "containers"
+  ],
+  "context": [
+    "context"
+  ],
+  "context-engineering": [
+    "context-engineering"
+  ],
+  "continuity-ai": [
+    "continuity-ai"
+  ],
+  "continuous integration": [
+    "continuous-integration"
+  ],
+  "conversational-ai": [
+    "conversational-ai"
+  ],
+  "conversational-learning": [
+    "conversational-learning"
+  ],
+  "copaw": [
+    "copaw"
+  ],
+  "copilot setup steps": [
+    "copilot-setup-steps"
+  ],
+  "coreaudio": [
+    "coreaudio"
+  ],
+  "could": [
+    "en-modal_or_auxiliary-could"
+  ],
+  "coverage": [
+    "coverage"
+  ],
+  "crawler": [
+    "crawler"
+  ],
+  "create github release": [
+    "create-github-release"
+  ],
+  "create pull request": [
+    "create-pull-request"
+  ],
+  "create release": [
+    "create-release"
+  ],
+  "create releases": [
+    "create-releases"
+  ],
+  "create sbom for the release": [
+    "create-sbom-for-the-release"
+  ],
+  "cross-encoder": [
+    "cross-encoder"
+  ],
+  "cross-platform": [
+    "cross-platform"
+  ],
+  "cross-platform build": [
+    "cross-platform-build"
+  ],
+  "cross-version smoke tests": [
+    "cross-version-smoke-tests"
+  ],
+  "crossterm test": [
+    "crossterm-test"
+  ],
+  "crud": [
+    "crud"
+  ],
+  "cuda": [
+    "cuda"
+  ],
+  "cursor": [
+    "cursor"
+  ],
+  "daily i18n update": [
+    "daily-i18n-update"
+  ],
+  "daily parser fuzz": [
+    "daily-parser-fuzz"
+  ],
+  "dare": [
+    "en-modal_or_auxiliary-dare"
+  ],
+  "data-engineering": [
+    "data-engineering"
+  ],
+  "data-reconciliation": [
+    "data-reconciliation"
+  ],
+  "datasette-io": [
+    "datasette-io"
+  ],
+  "datasette-tool": [
+    "datasette-tool"
+  ],
+  "dco-check": [
+    "dco-check"
+  ],
+  "decision-making": [
+    "decision-making"
+  ],
+  "deep-learning": [
+    "deep-learning"
+  ],
+  "deepagents": [
+    "deepagents"
+  ],
+  "deepseek": [
+    "deepseek"
+  ],
+  "deepseek-r1": [
+    "deepseek-r1"
+  ],
+  "deepseek-v3": [
+    "deepseek-v3"
+  ],
+  "deflake e2e": [
+    "deflake-e2e"
+  ],
+  "deno": [
+    "deno"
+  ],
+  "dependabot": [
+    "dependabot"
+  ],
+  "dependabot-sync": [
+    "dependabot-sync"
+  ],
+  "dependency compatibility tests": [
+    "dependency-compatibility-tests"
+  ],
+  "dependency review": [
+    "dependency-review"
+  ],
+  "deploy": [
+    "deploy"
+  ],
+  "deploy documentation": [
+    "deploy-documentation"
+  ],
+  "deploy documentation to pages": [
+    "deploy-documentation-to-pages"
+  ],
+  "deploy github pages": [
+    "deploy-github-pages"
+  ],
+  "deploy jekyll site to pages": [
+    "deploy-jekyll-site-to-pages"
+  ],
+  "deploy redirects to github pages": [
+    "deploy-redirects-to-github-pages"
+  ],
+  "deploy site": [
+    "deploy-site"
+  ],
+  "deploy to github pages": [
+    "deploy-to-github-pages"
+  ],
+  "desktop-app": [
+    "desktop-app"
+  ],
+  "despite": [
+    "en-preposition-despite"
+  ],
+  "dev release": [
+    "dev-release"
+  ],
+  "dev release (main)": [
+    "dev-release-main"
+  ],
+  "developer-tool": [
+    "developer-tool"
+  ],
+  "developer-tools": [
+    "developer-tools"
+  ],
+  "development": [
+    "development"
+  ],
+  "did": [
+    "en-modal_or_auxiliary-did"
+  ],
+  "diff": [
+    "diff"
+  ],
+  "diffusion": [
+    "diffusion"
+  ],
+  "discord notification": [
+    "discord-notification"
+  ],
+  "discord release": [
+    "discord-release"
+  ],
+  "discord release notification": [
+    "discord-release-notification"
+  ],
+  "distributed": [
+    "distributed"
+  ],
+  "distributed-computing": [
+    "distributed-computing"
+  ],
+  "distributed-systems": [
+    "distributed-systems"
+  ],
+  "do": [
+    "en-modal_or_auxiliary-do"
+  ],
+  "docker": [
+    "docker"
+  ],
+  "docker build and publish": [
+    "docker-build-and-publish"
+  ],
+  "docker build and push": [
+    "docker-build-and-push"
+  ],
+  "docker build test": [
+    "docker-build-test"
+  ],
+  "docker image ci": [
+    "docker-image-ci"
+  ],
+  "docker images": [
+    "docker-images"
+  ],
+  "docker nightly build": [
+    "docker-nightly-build"
+  ],
+  "docker release": [
+    "docker-release"
+  ],
+  "docker release build": [
+    "docker-release-build"
+  ],
+  "docker-image": [
+    "docker-image"
+  ],
+  "docker-pin-check": [
+    "docker-pin-check"
+  ],
+  "docker-ui": [
+    "docker-ui"
+  ],
+  "docs": [
+    "docs"
+  ],
+  "docs build": [
+    "docs-build"
+  ],
+  "docs links pr": [
+    "docs-links-pr"
+  ],
+  "docs pr preview deploy": [
+    "docs-pr-preview-deploy"
+  ],
+  "docs-generator": [
+    "docs-generator"
+  ],
+  "documentation": [
+    "documentation"
+  ],
+  "documentation build and deploy": [
+    "documentation-build-and-deploy"
+  ],
+  "does": [
+    "en-modal_or_auxiliary-does"
+  ],
+  "doing": [
+    "en-modal_or_auxiliary-doing"
+  ],
+  "dokploy": [
+    "dokploy"
+  ],
+  "done": [
+    "en-modal_or_auxiliary-done"
+  ],
+  "down": [
+    "en-preposition-down"
+  ],
+  "dsa": [
+    "dsa"
+  ],
+  "during": [
+    "en-preposition-during"
+  ],
+  "dynamic-contexts": [
+    "dynamic-contexts"
+  ],
+  "e2e": [
+    "e2e"
+  ],
+  "e2e tests": [
+    "e2e-tests"
+  ],
+  "each": [
+    "en-article_or_determiner-each",
+    "en-pronoun-each",
+    "en-quantifier-each"
+  ],
+  "each other": [
+    "en-pronoun-each-other"
+  ],
+  "ecdsa": [
+    "ecdsa"
+  ],
+  "eclipse": [
+    "eclipse"
+  ],
+  "ecommerce": [
+    "ecommerce"
+  ],
+  "ed25519": [
+    "ed25519"
+  ],
+  "ed448": [
+    "ed448"
+  ],
+  "editor": [
+    "editor"
+  ],
+  "either": [
+    "en-article_or_determiner-either",
+    "en-conjunction-either",
+    "en-pronoun-either"
+  ],
+  "electron": [
+    "electron"
+  ],
+  "elm-architecture": [
+    "elm-architecture"
+  ],
+  "embeddings": [
+    "embeddings"
+  ],
+  "enable auto-merge for dependabot prs": [
+    "enable-auto-merge-for-dependabot-prs"
+  ],
+  "engineering": [
+    "engineering"
+  ],
+  "enhancements": [
+    "enhancements"
+  ],
+  "enough": [
+    "en-article_or_determiner-enough",
+    "en-quantifier-enough"
+  ],
+  "enterprise": [
+    "enterprise"
+  ],
+  "eval": [
+    "eval"
+  ],
+  "eval-driven-development": [
+    "eval-driven-development"
+  ],
+  "evaluation": [
+    "evaluation"
+  ],
+  "event-driven": [
+    "event-driven"
+  ],
+  "every": [
+    "en-article_or_determiner-every",
+    "en-quantifier-every"
+  ],
+  "everybody": [
+    "en-pronoun-everybody"
+  ],
+  "everyone": [
+    "en-pronoun-everyone"
+  ],
+  "everything": [
+    "en-pronoun-everything"
+  ],
+  "ex-skill": [
+    "ex-skill"
+  ],
+  "examples": [
+    "examples"
+  ],
+  "except": [
+    "en-preposition-except"
+  ],
+  "excepting": [
+    "en-preposition-excepting"
+  ],
+  "excluding": [
+    "en-preposition-excluding"
+  ],
+  "extension release": [
+    "extension-release"
+  ],
+  "faiss": [
+    "faiss"
+  ],
+  "favicons": [
+    "favicons"
+  ],
+  "few": [
+    "en-article_or_determiner-few",
+    "en-quantifier-few"
+  ],
+  "fewer": [
+    "en-article_or_determiner-fewer",
+    "en-quantifier-fewer"
+  ],
+  "file icons generator": [
+    "file-icons-generator"
+  ],
+  "files": [
+    "files"
+  ],
+  "finally": [
+    "en-discourse_marker-finally"
+  ],
+  "firebase": [
+    "firebase"
+  ],
+  "firebase-admin": [
+    "firebase-admin"
+  ],
+  "firebase-admin-sdk": [
+    "firebase-admin-sdk"
+  ],
+  "firebase-auth": [
+    "firebase-auth"
+  ],
+  "firebase-authentication": [
+    "firebase-authentication"
+  ],
+  "firebase-cloud-messaging": [
+    "firebase-cloud-messaging"
+  ],
+  "firebase-database": [
+    "firebase-database"
+  ],
+  "firebase-db": [
+    "firebase-db"
+  ],
+  "first": [
+    "en-discourse_marker-first"
+  ],
+  "first-principles": [
+    "first-principles"
+  ],
+  "flexbox": [
+    "flexbox"
+  ],
+  "flourishing": [
+    "flourishing"
+  ],
+  "following": [
+    "en-preposition-following"
+  ],
+  "for": [
+    "en-conjunction-for",
+    "en-preposition-for"
+  ],
+  "for example": [
+    "en-discourse_marker-for-example"
+  ],
+  "for instance": [
+    "en-discourse_marker-for-instance"
+  ],
+  "format": [
+    "format"
+  ],
+  "formatter": [
+    "formatter"
+  ],
+  "foundry project": [
+    "foundry-project"
+  ],
+  "framework": [
+    "framework"
+  ],
+  "from": [
+    "en-preposition-from"
+  ],
+  "frontend-design": [
+    "frontend-design"
+  ],
+  "function-calling": [
+    "function-calling"
+  ],
+  "functional": [
+    "functional"
+  ],
+  "gemini": [
+    "gemini"
+  ],
+  "gemini-api": [
+    "gemini-api"
+  ],
+  "gemini-cli": [
+    "gemini-cli"
+  ],
+  "general pr handling for 1panel": [
+    "general-pr-handling-for-1panel"
+  ],
+  "generate snake": [
+    "generate-snake"
+  ],
+  "generate weekly community report \ud83d\udcca": [
+    "generate-weekly-community-report"
+  ],
+  "generative-ai": [
+    "generative-ai"
+  ],
+  "git status": [
+    "git-status"
+  ],
+  "git-diff": [
+    "git-diff"
+  ],
+  "github": [
+    "github"
+  ],
+  "github-repos": [
+    "github-repos"
+  ],
+  "gnn-model": [
+    "gnn-model"
+  ],
+  "gnns": [
+    "gnns"
+  ],
+  "go build": [
+    "go-build"
+  ],
+  "go implementation (ci)": [
+    "go-implementation-ci"
+  ],
+  "go release": [
+    "go-release"
+  ],
+  "golang": [
+    "golang"
+  ],
+  "golangci-lint": [
+    "golangci-lint"
+  ],
+  "goreleaser": [
+    "goreleaser"
+  ],
+  "gossipsub interoperability tests (pr)": [
+    "gossipsub-interoperability-tests-pr"
+  ],
+  "govslack": [
+    "govslack"
+  ],
+  "gpt-3": [
+    "gpt-3"
+  ],
+  "gpt-35-turbo": [
+    "gpt-35-turbo"
+  ],
+  "gpt-4": [
+    "gpt-4"
+  ],
+  "gpt-4o": [
+    "gpt-4o"
+  ],
+  "gpt-oss": [
+    "gpt-oss"
+  ],
+  "gradio": [
+    "gradio"
+  ],
+  "graph": [
+    "graph"
+  ],
+  "graph-neural-networks": [
+    "graph-neural-networks"
+  ],
+  "grep": [
+    "grep"
+  ],
+  "guarddog": [
+    "guarddog"
+  ],
+  "gzip": [
+    "gzip"
+  ],
+  "hacktoberfest": [
+    "hacktoberfest"
+  ],
+  "had": [
+    "en-modal_or_auxiliary-had"
+  ],
+  "has": [
+    "en-modal_or_auxiliary-has"
+  ],
+  "have": [
+    "en-modal_or_auxiliary-have"
+  ],
+  "having": [
+    "en-modal_or_auxiliary-having"
+  ],
+  "he": [
+    "en-pronoun-he"
+  ],
+  "helm": [
+    "helm"
+  ],
+  "her": [
+    "en-pronoun-her"
+  ],
+  "here": [
+    "en-deictic_or_spatiotemporal_marker-here"
+  ],
+  "hermes": [
+    "hermes"
+  ],
+  "hermes-agent": [
+    "hermes-agent"
+  ],
+  "hers": [
+    "en-pronoun-hers"
+  ],
+  "herself": [
+    "en-pronoun-herself"
+  ],
+  "hetzner": [
+    "hetzner"
+  ],
+  "hiking": [
+    "hiking"
+  ],
+  "him": [
+    "en-pronoun-him"
+  ],
+  "himself": [
+    "en-pronoun-himself"
+  ],
+  "his": [
+    "en-pronoun-his"
+  ],
+  "homebrew": [
+    "homebrew"
+  ],
+  "hooks": [
+    "hooks"
+  ],
+  "how": [
+    "en-interrogative-how"
+  ],
+  "however": [
+    "en-discourse_marker-however"
+  ],
+  "huggingface": [
+    "huggingface"
+  ],
+  "human-ai-collaboration": [
+    "human-ai-collaboration"
+  ],
+  "i": [
+    "en-pronoun-i"
+  ],
+  "iceberg": [
+    "iceberg"
+  ],
+  "if": [
+    "en-conjunction-if"
+  ],
+  "image-generation": [
+    "image-generation"
+  ],
+  "image2image": [
+    "image2image"
+  ],
+  "imessage": [
+    "imessage"
+  ],
+  "img2img": [
+    "img2img"
+  ],
+  "import test": [
+    "import-test"
+  ],
+  "in": [
+    "en-preposition-in"
+  ],
+  "indeed": [
+    "en-discourse_marker-indeed"
+  ],
+  "inference": [
+    "inference"
+  ],
+  "infra": [
+    "infra"
+  ],
+  "innodb": [
+    "innodb"
+  ],
+  "input": [
+    "input"
+  ],
+  "inside": [
+    "en-preposition-inside"
+  ],
+  "installer": [
+    "installer"
+  ],
+  "integration tests": [
+    "integration-tests"
+  ],
+  "interactive": [
+    "interactive"
+  ],
+  "into": [
+    "en-preposition-into"
+  ],
+  "ios": [
+    "ios"
+  ],
+  "is": [
+    "en-modal_or_auxiliary-is"
+  ],
+  "issue auto comment": [
+    "issue-auto-comment"
+  ],
+  "issue auto label": [
+    "issue-auto-label"
+  ],
+  "issue check inactive": [
+    "issue-check-inactive"
+  ],
+  "issue close require": [
+    "issue-close-require"
+  ],
+  "issue gate": [
+    "issue-gate"
+  ],
+  "issue labeled": [
+    "issue-labeled"
+  ],
+  "issue translator": [
+    "issue-translator"
+  ],
+  "it": [
+    "en-pronoun-it"
+  ],
+  "its": [
+    "en-pronoun-its"
+  ],
+  "itself": [
+    "en-pronoun-itself"
+  ],
+  "j2cl": [
+    "j2cl"
+  ],
+  "java": [
+    "java"
+  ],
+  "javascriptcore": [
+    "javascriptcore"
+  ],
+  "jetbrains": [
+    "jetbrains"
+  ],
+  "k8s-sig-architecture": [
+    "k8s-sig-architecture"
+  ],
+  "karpathy": [
+    "karpathy"
+  ],
+  "kimi": [
+    "kimi"
+  ],
+  "knowledge-base": [
+    "knowledge-base"
+  ],
+  "knowledge-graph": [
+    "knowledge-graph"
+  ],
+  "knowledge-graphs": [
+    "knowledge-graphs"
+  ],
+  "knowledge-management": [
+    "knowledge-management"
+  ],
+  "knowledgebase": [
+    "knowledgebase"
+  ],
+  "knownfolders": [
+    "knownfolders"
+  ],
+  "kubectl": [
+    "kubectl"
+  ],
+  "kubectl-plugins": [
+    "kubectl-plugins"
+  ],
+  "kubernetes": [
+    "kubernetes"
+  ],
+  "kubernetes-clusters": [
+    "kubernetes-clusters"
+  ],
+  "kubernetes-releases": [
+    "kubernetes-releases"
+  ],
+  "label issues": [
+    "label-issues"
+  ],
+  "label issues based on keywords": [
+    "label-issues-based-on-keywords"
+  ],
+  "label pr": [
+    "label-pr"
+  ],
+  "langchain": [
+    "langchain"
+  ],
+  "langgraph": [
+    "langgraph"
+  ],
+  "language-model": [
+    "language-model"
+  ],
+  "language-server": [
+    "language-server"
+  ],
+  "large-language-models": [
+    "large-language-models"
+  ],
+  "launchd": [
+    "launchd"
+  ],
+  "layout": [
+    "layout"
+  ],
+  "least": [
+    "en-article_or_determiner-least",
+    "en-quantifier-least"
+  ],
+  "less": [
+    "en-article_or_determiner-less",
+    "en-quantifier-less"
+  ],
+  "lest": [
+    "en-conjunction-lest"
+  ],
+  "letta code": [
+    "letta-code"
+  ],
+  "lexical": [
+    "lexical"
+  ],
+  "libp2p": [
+    "libp2p"
+  ],
+  "libp2p holepunching interop test": [
+    "libp2p-holepunching-interop-test"
+  ],
+  "libp2p perf test": [
+    "libp2p-perf-test"
+  ],
+  "libp2p transport interop test": [
+    "libp2p-transport-interop-test"
+  ],
+  "life": [
+    "life"
+  ],
+  "like": [
+    "en-preposition-like"
+  ],
+  "link check": [
+    "link-check"
+  ],
+  "lint": [
+    "lint"
+  ],
+  "lint and format check": [
+    "lint-and-format-check"
+  ],
+  "lint commits": [
+    "lint-commits"
+  ],
+  "lint sh": [
+    "lint-sh"
+  ],
+  "lint with ruff": [
+    "lint-with-ruff"
+  ],
+  "lint-sync": [
+    "lint-sync"
+  ],
+  "linter": [
+    "linter"
+  ],
+  "linting": [
+    "linting"
+  ],
+  "linux": [
+    "linux"
+  ],
+  "little": [
+    "en-article_or_determiner-little",
+    "en-quantifier-little"
+  ],
+  "llama": [
+    "llama"
+  ],
+  "llama3": [
+    "llama3"
+  ],
+  "llm code review": [
+    "llm-code-review"
+  ],
+  "llm-agent": [
+    "llm-agent"
+  ],
+  "llm-as-judge": [
+    "llm-as-judge"
+  ],
+  "llm-inference": [
+    "llm-inference"
+  ],
+  "llm-memory": [
+    "llm-memory"
+  ],
+  "llm-orchestration": [
+    "llm-orchestration"
+  ],
+  "llm-security": [
+    "llm-security"
+  ],
+  "llm-serving": [
+    "llm-serving"
+  ],
+  "llm-wiki": [
+    "llm-wiki"
+  ],
+  "llmops": [
+    "llmops"
+  ],
+  "llms": [
+    "llms"
+  ],
+  "llxprt": [
+    "llxprt"
+  ],
+  "lms": [
+    "lms"
+  ],
+  "lnmp": [
+    "lnmp"
+  ],
+  "lobe-chat": [
+    "lobe-chat"
+  ],
+  "lobe-chat-plugin": [
+    "lobe-chat-plugin"
+  ],
+  "lobe-ui": [
+    "lobe-ui"
+  ],
+  "lobehub": [
+    "lobehub"
+  ],
+  "lock threads": [
+    "lock-threads"
+  ],
+  "locomo": [
+    "locomo"
+  ],
+  "logger": [
+    "logger"
+  ],
+  "logging": [
+    "logging"
+  ],
+  "logo": [
+    "logo"
+  ],
+  "long-term-memory": [
+    "long-term-memory"
+  ],
+  "low-latency": [
+    "low-latency"
+  ],
+  "luacheck": [
+    "luacheck"
+  ],
+  "luaformatter": [
+    "luaformatter"
+  ],
+  "luau": [
+    "luau"
+  ],
+  "lunaria": [
+    "lunaria"
+  ],
+  "machine-learning": [
+    "machine-learning"
+  ],
+  "macos": [
+    "macos"
+  ],
+  "macos apple silicon smoke test": [
+    "macos-apple-silicon-smoke-test"
+  ],
+  "malicious-packages": [
+    "malicious-packages"
+  ],
+  "many": [
+    "en-article_or_determiner-many",
+    "en-quantifier-many"
+  ],
+  "mark and close stale issues": [
+    "mark-and-close-stale-issues"
+  ],
+  "markdown": [
+    "markdown"
+  ],
+  "maxkb": [
+    "maxkb"
+  ],
+  "may": [
+    "en-modal_or_auxiliary-may"
+  ],
+  "mcp-client": [
+    "mcp-client"
+  ],
+  "mcp-server": [
+    "mcp-server"
+  ],
+  "me": [
+    "en-pronoun-me"
+  ],
+  "meanwhile": [
+    "en-discourse_marker-meanwhile"
+  ],
+  "measure diff across multiple repos": [
+    "measure-diff-across-multiple-repos"
+  ],
+  "memory leak detect": [
+    "memory-leak-detect"
+  ],
+  "memory-system": [
+    "memory-system"
+  ],
+  "merge pull request": [
+    "merge-pull-request"
+  ],
+  "midjourney": [
+    "midjourney"
+  ],
+  "midjourney-api": [
+    "midjourney-api"
+  ],
+  "might": [
+    "en-modal_or_auxiliary-might"
+  ],
+  "migration": [
+    "migration"
+  ],
+  "migration test harness": [
+    "migration-test-harness"
+  ],
+  "mincut": [
+    "mincut"
+  ],
+  "mine": [
+    "en-pronoun-mine"
+  ],
+  "minification": [
+    "minification"
+  ],
+  "minimax": [
+    "minimax"
+  ],
+  "minus": [
+    "en-preposition-minus"
+  ],
+  "ml-dsa": [
+    "ml-dsa"
+  ],
+  "model-context-protocol": [
+    "model-context-protocol"
+  ],
+  "model-serving": [
+    "model-serving"
+  ],
+  "more": [
+    "en-article_or_determiner-more",
+    "en-quantifier-more"
+  ],
+  "moreover": [
+    "en-discourse_marker-moreover"
+  ],
+  "most": [
+    "en-article_or_determiner-most",
+    "en-pronoun-most",
+    "en-quantifier-most"
+  ],
+  "mountaineering": [
+    "mountaineering"
+  ],
+  "mountaineers": [
+    "mountaineers"
+  ],
+  "mountains": [
+    "mountains"
+  ],
+  "much": [
+    "en-article_or_determiner-much",
+    "en-quantifier-much"
+  ],
+  "multi-agent": [
+    "multi-agent"
+  ],
+  "multi-agent-system": [
+    "multi-agent-system"
+  ],
+  "multi-agent-systems": [
+    "multi-agent-systems"
+  ],
+  "multiagent": [
+    "multiagent"
+  ],
+  "multimodal": [
+    "multimodal"
+  ],
+  "must": [
+    "en-modal_or_auxiliary-must"
+  ],
+  "mutation testing": [
+    "mutation-testing"
+  ],
+  "my": [
+    "en-pronoun-my"
+  ],
+  "myisam": [
+    "myisam"
+  ],
+  "myself": [
+    "en-pronoun-myself"
+  ],
+  "mysql": [
+    "mysql"
+  ],
+  "namely": [
+    "en-discourse_marker-namely"
+  ],
+  "napi": [
+    "napi"
+  ],
+  "napi-rs": [
+    "napi-rs"
+  ],
+  "near": [
+    "en-preposition-near"
+  ],
+  "need": [
+    "en-modal_or_auxiliary-need"
+  ],
+  "neither": [
+    "en-article_or_determiner-neither",
+    "en-conjunction-neither",
+    "en-pronoun-neither"
+  ],
+  "neo4j": [
+    "neo4j"
+  ],
+  "neovim": [
+    "neovim"
+  ],
+  "neovim-plugin": [
+    "neovim-plugin"
+  ],
+  "never": [
+    "en-negation_marker-never"
+  ],
+  "nevertheless": [
+    "en-discourse_marker-nevertheless"
+  ],
+  "new pr bot": [
+    "new-pr-bot"
+  ],
+  "next": [
+    "en-discourse_marker-next"
+  ],
+  "nextjs": [
+    "nextjs"
+  ],
+  "nightly builds": [
+    "nightly-builds"
+  ],
+  "nightly full tests": [
+    "nightly-full-tests"
+  ],
+  "no": [
+    "en-article_or_determiner-no",
+    "en-negation_marker-no",
+    "en-quantifier-no"
+  ],
+  "no one": [
+    "en-pronoun-no-one"
+  ],
+  "nobody": [
+    "en-pronoun-nobody"
+  ],
+  "node": [
+    "node"
+  ],
+  "node-api": [
+    "node-api"
+  ],
+  "node.js integration tests": [
+    "node.js-integration-tests"
+  ],
+  "nodejs": [
+    "nodejs"
+  ],
+  "none": [
+    "en-negation_marker-none",
+    "en-pronoun-none"
+  ],
+  "nonetheless": [
+    "en-discourse_marker-nonetheless"
+  ],
+  "nor": [
+    "en-conjunction-nor",
+    "en-negation_marker-nor"
+  ],
+  "not": [
+    "en-negation_marker-not"
+  ],
+  "notebook diff comment": [
+    "notebook-diff-comment"
+  ],
+  "notebook quality check": [
+    "notebook-quality-check"
+  ],
+  "notebook tests": [
+    "notebook-tests"
+  ],
+  "nothing": [
+    "en-negation_marker-nothing",
+    "en-pronoun-nothing"
+  ],
+  "notifier docker build": [
+    "notifier-docker-build"
+  ],
+  "now": [
+    "en-deictic_or_spatiotemporal_marker-now",
+    "en-discourse_marker-now"
+  ],
+  "npm-cli": [
+    "npm-cli"
+  ],
+  "npm-packages": [
+    "npm-packages"
+  ],
+  "nvim": [
+    "nvim"
+  ],
+  "objective-c": [
+    "objective-c"
+  ],
+  "observability": [
+    "observability"
+  ],
+  "of": [
+    "en-preposition-of"
+  ],
+  "off": [
+    "en-preposition-off"
+  ],
+  "ollama": [
+    "ollama"
+  ],
+  "on": [
+    "en-preposition-on"
+  ],
+  "on pull requests": [
+    "on-pull-requests"
+  ],
+  "once": [
+    "en-conjunction-once"
+  ],
+  "one": [
+    "en-pronoun-one"
+  ],
+  "one another": [
+    "en-pronoun-one-another"
+  ],
+  "onnx": [
+    "onnx"
+  ],
+  "onto": [
+    "en-preposition-onto"
+  ],
+  "open cargo-binstall release pr": [
+    "open-cargo-binstall-release-pr"
+  ],
+  "open-source": [
+    "open-source"
+  ],
+  "openclaw": [
+    "openclaw"
+  ],
+  "openclaw gate": [
+    "openclaw-gate"
+  ],
+  "opencode": [
+    "opencode"
+  ],
+  "openresty": [
+    "openresty"
+  ],
+  "openrouter": [
+    "openrouter"
+  ],
+  "openssf scorecard": [
+    "openssf-scorecard"
+  ],
+  "opposite": [
+    "en-preposition-opposite"
+  ],
+  "optimization": [
+    "optimization"
+  ],
+  "or": [
+    "en-conjunction-or"
+  ],
+  "other": [
+    "en-article_or_determiner-other"
+  ],
+  "otherwise": [
+    "en-discourse_marker-otherwise"
+  ],
+  "ought": [
+    "en-modal_or_auxiliary-ought"
+  ],
+  "our": [
+    "en-pronoun-our"
+  ],
+  "ours": [
+    "en-pronoun-ours"
+  ],
+  "ourselves": [
+    "en-pronoun-ourselves"
+  ],
+  "outside": [
+    "en-preposition-outside"
+  ],
+  "over": [
+    "en-preposition-over"
+  ],
+  "package-manager": [
+    "package-manager"
+  ],
+  "packaging": [
+    "packaging"
+  ],
+  "parquet": [
+    "parquet"
+  ],
+  "past": [
+    "en-preposition-past"
+  ],
+  "patterns artifact": [
+    "patterns-artifact"
+  ],
+  "peakbagging": [
+    "peakbagging"
+  ],
+  "pep8": [
+    "pep8"
+  ],
+  "per": [
+    "en-preposition-per"
+  ],
+  "performance benchmarks": [
+    "performance-benchmarks"
+  ],
+  "perl": [
+    "perl"
+  ],
+  "personal-knowledge-base": [
+    "personal-knowledge-base"
+  ],
+  "pgvector": [
+    "pgvector"
+  ],
+  "pkg pr new ci": [
+    "pkg-pr-new-ci"
+  ],
+  "plan-lifecycle": [
+    "plan-lifecycle"
+  ],
+  "planning": [
+    "planning"
+  ],
+  "playwright": [
+    "playwright"
+  ],
+  "plugin": [
+    "plugin"
+  ],
+  "plugin-manager": [
+    "plugin-manager"
+  ],
+  "plus": [
+    "en-preposition-plus"
+  ],
+  "post-quantum": [
+    "post-quantum"
+  ],
+  "post-release": [
+    "post-release"
+  ],
+  "postgree": [
+    "postgree"
+  ],
+  "postgres": [
+    "postgres"
+  ],
+  "powershell tests": [
+    "powershell-tests"
+  ],
+  "pr build check": [
+    "pr-build-check"
+  ],
+  "pr checks": [
+    "pr-checks"
+  ],
+  "pr docker build": [
+    "pr-docker-build"
+  ],
+  "pr gate": [
+    "pr-gate"
+  ],
+  "pr labeler": [
+    "pr-labeler"
+  ],
+  "pr labeller": [
+    "pr-labeller"
+  ],
+  "pr path labeler": [
+    "pr-path-labeler"
+  ],
+  "pr title": [
+    "pr-title"
+  ],
+  "pr-test-build": [
+    "pr-test-build"
+  ],
+  "pre-commit": [
+    "pre-commit"
+  ],
+  "pretty-printer": [
+    "pretty-printer"
+  ],
+  "preview release": [
+    "preview-release"
+  ],
+  "printer": [
+    "printer"
+  ],
+  "process github issues": [
+    "process-github-issues"
+  ],
+  "procfile": [
+    "procfile"
+  ],
+  "productivity": [
+    "productivity"
+  ],
+  "programming": [
+    "programming"
+  ],
+  "prompt-engineering": [
+    "prompt-engineering"
+  ],
+  "prompt-injection": [
+    "prompt-injection"
+  ],
+  "prompt-injection-llm-security": [
+    "prompt-injection-llm-security"
+  ],
+  "provided": [
+    "en-conjunction-provided"
+  ],
+  "proxy": [
+    "proxy"
+  ],
+  "publish": [
+    "publish"
+  ],
+  "publish extension to chrome web store": [
+    "publish-extension-to-chrome-web-store"
+  ],
+  "publish pypi": [
+    "publish-pypi"
+  ],
+  "publish release": [
+    "publish-release"
+  ],
+  "publish skills to claude code marketplace": [
+    "publish-skills-to-claude-code-marketplace"
+  ],
+  "publish to npm": [
+    "publish-to-npm"
+  ],
+  "publish to pypi": [
+    "publish-to-pypi"
+  ],
+  "pull request labeler": [
+    "pull-request-labeler"
+  ],
+  "pull requests can't target master branch": [
+    "pull-requests-can-t-target-master-branch"
+  ],
+  "pull-requests": [
+    "pull-requests"
+  ],
+  "pydantic": [
+    "pydantic"
+  ],
+  "pyo3-ci": [
+    "pyo3-ci"
+  ],
+  "pyo3-wheels": [
+    "pyo3-wheels"
+  ],
+  "pypi release": [
+    "pypi-release"
+  ],
+  "pypi-packages": [
+    "pypi-packages"
+  ],
+  "pyqt": [
+    "pyqt"
+  ],
+  "python-security": [
+    "python-security"
+  ],
+  "python3": [
+    "python3"
+  ],
+  "pytorch": [
+    "pytorch"
+  ],
+  "pywxdump": [
+    "pywxdump"
+  ],
+  "quality & validation": [
+    "quality-validation"
+  ],
+  "quality gate": [
+    "quality-gate"
+  ],
+  "quality-gates": [
+    "quality-gates"
+  ],
+  "query-builder": [
+    "query-builder"
+  ],
+  "qwen": [
+    "qwen"
+  ],
+  "qwen code ci": [
+    "qwen-code-ci"
+  ],
+  "qwen-code": [
+    "qwen-code"
+  ],
+  "qwen-image": [
+    "qwen-image"
+  ],
+  "qwen3": [
+    "qwen3"
+  ],
+  "qwenpaw": [
+    "qwenpaw"
+  ],
+  "rag-alternative": [
+    "rag-alternative"
+  ],
+  "ralph-loop": [
+    "ralph-loop"
+  ],
+  "rather": [
+    "en-discourse_marker-rather"
+  ],
+  "react": [
+    "react"
+  ],
+  "readme": [
+    "readme"
+  ],
+  "realtime-database": [
+    "realtime-database"
+  ],
+  "reasoning": [
+    "reasoning"
+  ],
+  "recharts": [
+    "recharts"
+  ],
+  "regarding": [
+    "en-preposition-regarding"
+  ],
+  "regression test": [
+    "regression-test"
+  ],
+  "regression tests": [
+    "regression-tests"
+  ],
+  "reinforcement-learning": [
+    "reinforcement-learning"
+  ],
+  "release": [
+    "release"
+  ],
+  "release (prepare)": [
+    "release-prepare"
+  ],
+  "release candidate": [
+    "release-candidate"
+  ],
+  "release ci": [
+    "release-ci"
+  ],
+  "release claudeswarm gem": [
+    "release-claudeswarm-gem"
+  ],
+  "release cli": [
+    "release-cli"
+  ],
+  "release docker image": [
+    "release-docker-image"
+  ],
+  "release doctor": [
+    "release-doctor"
+  ],
+  "release gem": [
+    "release-gem"
+  ],
+  "release image": [
+    "release-image"
+  ],
+  "release integration packages": [
+    "release-integration-packages"
+  ],
+  "release npm": [
+    "release-npm"
+  ],
+  "release please": [
+    "release-please"
+  ],
+  "release project": [
+    "release-project"
+  ],
+  "release pypi package": [
+    "release-pypi-package"
+  ],
+  "release swarmcli gem": [
+    "release-swarmcli-gem"
+  ],
+  "release swarmmemory gem": [
+    "release-swarmmemory-gem"
+  ],
+  "release swarmsdk gem": [
+    "release-swarmsdk-gem"
+  ],
+  "release to pypi": [
+    "release-to-pypi"
+  ],
+  "release trigger": [
+    "release-trigger"
+  ],
+  "release-plz": [
+    "release-plz"
+  ],
+  "render": [
+    "render"
+  ],
+  "research": [
+    "research"
+  ],
+  "resolver": [
+    "resolver"
+  ],
+  "restore": [
+    "restore"
+  ],
+  "retrieval-augmented-generation": [
+    "retrieval-augmented-generation"
+  ],
+  "reusable release workflow": [
+    "reusable-release-workflow"
+  ],
+  "rewards-scripts-check": [
+    "rewards-scripts-check"
+  ],
+  "rewrk": [
+    "rewrk"
+  ],
+  "round": [
+    "en-preposition-round"
+  ],
+  "ruff": [
+    "ruff"
+  ],
+  "rules": [
+    "rules"
+  ],
+  "run benchmark batch": [
+    "run-benchmark-batch"
+  ],
+  "run codeql": [
+    "run-codeql"
+  ],
+  "run memory report": [
+    "run-memory-report"
+  ],
+  "run mypy": [
+    "run-mypy"
+  ],
+  "run profiling on the tpch benchmark": [
+    "run-profiling-on-the-tpch-benchmark"
+  ],
+  "runtime": [
+    "runtime"
+  ],
+  "rust": [
+    "rust"
+  ],
+  "rustpython": [
+    "rustpython"
+  ],
+  "save": [
+    "en-preposition-save"
+  ],
+  "scorecard supply-chain security": [
+    "scorecard-supply-chain-security"
+  ],
+  "sdlc": [
+    "sdlc"
+  ],
+  "searcher": [
+    "searcher"
+  ],
+  "secret leaks": [
+    "secret-leaks"
+  ],
+  "security (trivy)": [
+    "security-trivy"
+  ],
+  "security audit": [
+    "security-audit"
+  ],
+  "security-tools": [
+    "security-tools"
+  ],
+  "self-healing": [
+    "self-healing"
+  ],
+  "semantic pr": [
+    "semantic-pr"
+  ],
+  "semantic release": [
+    "semantic-release"
+  ],
+  "serverless": [
+    "serverless"
+  ],
+  "serverless-framework": [
+    "serverless-framework"
+  ],
+  "sessions": [
+    "sessions"
+  ],
+  "several": [
+    "en-article_or_determiner-several",
+    "en-pronoun-several",
+    "en-quantifier-several"
+  ],
+  "shall": [
+    "en-modal_or_auxiliary-shall"
+  ],
+  "she": [
+    "en-pronoun-she"
+  ],
+  "should": [
+    "en-modal_or_auxiliary-should"
+  ],
+  "signatures": [
+    "signatures"
+  ],
+  "similarly": [
+    "en-discourse_marker-similarly"
+  ],
+  "since": [
+    "en-conjunction-since",
+    "en-preposition-since"
+  ],
+  "skills": [
+    "skills"
+  ],
+  "slack": [
+    "slack"
+  ],
+  "slack-api": [
+    "slack-api"
+  ],
+  "so": [
+    "en-conjunction-so",
+    "en-discourse_marker-so"
+  ],
+  "software-supply-chain-security": [
+    "software-supply-chain-security"
+  ],
+  "some": [
+    "en-article_or_determiner-some",
+    "en-quantifier-some"
+  ],
+  "somebody": [
+    "en-pronoun-somebody"
+  ],
+  "someone": [
+    "en-pronoun-someone"
+  ],
+  "something": [
+    "en-pronoun-something"
+  ],
+  "sonarcloud scan": [
+    "sonarcloud-scan"
+  ],
+  "sonnet": [
+    "sonnet"
+  ],
+  "speacial": [
+    "speacial"
+  ],
+  "spec": [
+    "spec"
+  ],
+  "spec-driven": [
+    "spec-driven"
+  ],
+  "spec-driven-development": [
+    "spec-driven-development"
+  ],
+  "specification": [
+    "specification"
+  ],
+  "spell-checker": [
+    "spell-checker"
+  ],
+  "sqlite": [
+    "sqlite"
+  ],
+  "sqlite-extension": [
+    "sqlite-extension"
+  ],
+  "sqlite3": [
+    "sqlite3"
+  ],
+  "stable release (tags)": [
+    "stable-release-tags"
+  ],
+  "stable-diffusion": [
+    "stable-diffusion"
+  ],
+  "stale issues & prs": [
+    "stale-issues-prs"
+  ],
+  "starlight": [
+    "starlight"
+  ],
+  "state-machine": [
+    "state-machine"
+  ],
+  "static checks": [
+    "static-checks"
+  ],
+  "static-analysis": [
+    "static-analysis"
+  ],
+  "static-code-analysis": [
+    "static-code-analysis"
+  ],
+  "static-site-generator": [
+    "static-site-generator"
+  ],
+  "statistics": [
+    "statistics"
+  ],
+  "statusline": [
+    "statusline"
+  ],
+  "still": [
+    "en-discourse_marker-still"
+  ],
+  "strands-agents": [
+    "strands-agents"
+  ],
+  "strands-sdk": [
+    "strands-sdk"
+  ],
+  "stripe": [
+    "stripe"
+  ],
+  "stripe-sdk": [
+    "stripe-sdk"
+  ],
+  "style": [
+    "style"
+  ],
+  "style-guide": [
+    "style-guide"
+  ],
+  "styleguide": [
+    "styleguide"
+  ],
+  "stylua": [
+    "stylua"
+  ],
+  "such": [
+    "en-article_or_determiner-such"
+  ],
+  "svgo": [
+    "svgo"
+  ],
+  "swarm": [
+    "swarm"
+  ],
+  "swarm-intelligence": [
+    "swarm-intelligence"
+  ],
+  "swift": [
+    "swift"
+  ],
+  "sync": [
+    "sync"
+  ],
+  "sync main to stg": [
+    "sync-main-to-stg"
+  ],
+  "sync2gitee": [
+    "sync2gitee"
+  ],
+  "synchronize to gitee": [
+    "synchronize-to-gitee"
+  ],
+  "system integration tests": [
+    "system-integration-tests"
+  ],
+  "system-prompts": [
+    "system-prompts"
+  ],
+  "systems-engineering": [
+    "systems-engineering"
+  ],
+  "tagged release": [
+    "tagged-release"
+  ],
+  "template sync": [
+    "template-sync"
+  ],
+  "temurin": [
+    "temurin"
+  ],
+  "terminal": [
+    "terminal"
+  ],
+  "test": [
+    "test"
+  ],
+  "test & release": [
+    "test-release"
+  ],
+  "test agentdb attention mechanisms": [
+    "test-agentdb-attention-mechanisms"
+  ],
+  "test agentdb browser bundle": [
+    "test-agentdb-browser-bundle"
+  ],
+  "test and lint": [
+    "test-and-lint"
+  ],
+  "test build": [
+    "test-build"
+  ],
+  "test ci": [
+    "test-ci"
+  ],
+  "test docker images": [
+    "test-docker-images"
+  ],
+  "test github action installer": [
+    "test-github-action-installer"
+  ],
+  "test install-script": [
+    "test-install-script"
+  ],
+  "test integration packages": [
+    "test-integration-packages"
+  ],
+  "test memory controllers": [
+    "test-memory-controllers"
+  ],
+  "test pypi publish": [
+    "test-pypi-publish"
+  ],
+  "test report": [
+    "test-report"
+  ],
+  "test stylua": [
+    "test-stylua"
+  ],
+  "test suite - london school tdd": [
+    "test-suite---london-school-tdd"
+  ],
+  "test vim-plug": [
+    "test-vim-plug"
+  ],
+  "test-release": [
+    "test-release"
+  ],
+  "testing: ci": [
+    "testing-ci"
+  ],
+  "testing: e2e (chained)": [
+    "testing-e2e-chained"
+  ],
+  "tests": [
+    "tests"
+  ],
+  "testsuite": [
+    "testsuite"
+  ],
+  "text2image": [
+    "text2image"
+  ],
+  "than": [
+    "en-conjunction-than",
+    "en-preposition-than"
+  ],
+  "that": [
+    "en-article_or_determiner-that",
+    "en-conjunction-that",
+    "en-deictic_or_spatiotemporal_marker-that",
+    "en-pronoun-that"
+  ],
+  "the": [
+    "en-article_or_determiner-the"
+  ],
+  "their": [
+    "en-pronoun-their"
+  ],
+  "theirs": [
+    "en-pronoun-theirs"
+  ],
+  "them": [
+    "en-pronoun-them"
+  ],
+  "themselves": [
+    "en-pronoun-themselves"
+  ],
+  "then": [
+    "en-deictic_or_spatiotemporal_marker-then",
+    "en-discourse_marker-then"
+  ],
+  "there": [
+    "en-deictic_or_spatiotemporal_marker-there"
+  ],
+  "therefore": [
+    "en-discourse_marker-therefore"
+  ],
+  "these": [
+    "en-article_or_determiner-these",
+    "en-deictic_or_spatiotemporal_marker-these",
+    "en-pronoun-these"
+  ],
+  "they": [
+    "en-pronoun-they"
+  ],
+  "this": [
+    "en-article_or_determiner-this",
+    "en-deictic_or_spatiotemporal_marker-this",
+    "en-pronoun-this"
+  ],
+  "those": [
+    "en-article_or_determiner-those",
+    "en-deictic_or_spatiotemporal_marker-those",
+    "en-pronoun-those"
+  ],
+  "though": [
+    "en-conjunction-though"
+  ],
+  "through": [
+    "en-preposition-through"
+  ],
+  "throughout": [
+    "en-preposition-throughout"
+  ],
+  "thus": [
+    "en-discourse_marker-thus"
+  ],
+  "till": [
+    "en-preposition-till"
+  ],
+  "to": [
+    "en-preposition-to"
+  ],
+  "today": [
+    "en-deictic_or_spatiotemporal_marker-today"
+  ],
+  "tomorrow": [
+    "en-deictic_or_spatiotemporal_marker-tomorrow"
+  ],
+  "tonight": [
+    "en-deictic_or_spatiotemporal_marker-tonight"
+  ],
+  "tools": [
+    "tools"
+  ],
+  "torch": [
+    "torch"
+  ],
+  "toward": [
+    "en-preposition-toward"
+  ],
+  "towards": [
+    "en-preposition-towards"
+  ],
+  "transformer": [
+    "transformer"
+  ],
+  "transformers": [
+    "transformers"
+  ],
+  "translator-path-guard": [
+    "translator-path-guard"
+  ],
+  "transparency": [
+    "transparency"
+  ],
+  "transpiler": [
+    "transpiler"
+  ],
+  "transport interop - build implementation images": [
+    "transport-interop---build-implementation-images"
+  ],
+  "trigger coderabbit on ready for review": [
+    "trigger-coderabbit-on-ready-for-review"
+  ],
+  "tweakcc": [
+    "tweakcc"
+  ],
+  "txt2img": [
+    "txt2img"
+  ],
+  "typos check": [
+    "typos-check"
+  ],
+  "ultrathink": [
+    "ultrathink"
+  ],
+  "under": [
+    "en-preposition-under"
+  ],
+  "underneath": [
+    "en-preposition-underneath"
+  ],
+  "unit tests": [
+    "unit-tests"
+  ],
+  "unless": [
+    "en-conjunction-unless"
+  ],
+  "unlike": [
+    "en-preposition-unlike"
+  ],
+  "unstable": [
+    "unstable"
+  ],
+  "until": [
+    "en-conjunction-until",
+    "en-preposition-until"
+  ],
+  "up": [
+    "en-preposition-up"
+  ],
+  "update formula": [
+    "update-formula"
+  ],
+  "update repo": [
+    "update-repo"
+  ],
+  "update token count": [
+    "update-token-count"
+  ],
+  "update version file and create tag": [
+    "update-version-file-and-create-tag"
+  ],
+  "upon": [
+    "en-preposition-upon"
+  ],
+  "upscaling": [
+    "upscaling"
+  ],
+  "us": [
+    "en-pronoun-us"
+  ],
+  "validate data": [
+    "validate-data"
+  ],
+  "validate frontmatter": [
+    "validate-frontmatter"
+  ],
+  "validate plugins": [
+    "validate-plugins"
+  ],
+  "validate pull request": [
+    "validate-pull-request"
+  ],
+  "vector": [
+    "vector"
+  ],
+  "vector-database": [
+    "vector-database"
+  ],
+  "vector-search": [
+    "vector-search"
+  ],
+  "vercel-ai": [
+    "vercel-ai"
+  ],
+  "version bump": [
+    "version-bump"
+  ],
+  "versioning": [
+    "versioning"
+  ],
+  "versus": [
+    "en-preposition-versus"
+  ],
+  "via": [
+    "en-preposition-via"
+  ],
+  "vibe-coding": [
+    "vibe-coding"
+  ],
+  "virtual-idols": [
+    "virtual-idols"
+  ],
+  "volume": [
+    "volume"
+  ],
+  "volume-control": [
+    "volume-control"
+  ],
+  "volume-slider": [
+    "volume-slider"
+  ],
+  "vroid": [
+    "vroid"
+  ],
+  "vscode extension": [
+    "vscode-extension"
+  ],
+  "vtuber": [
+    "vtuber"
+  ],
+  "was": [
+    "en-modal_or_auxiliary-was"
+  ],
+  "wasm": [
+    "wasm"
+  ],
+  "wasmgc": [
+    "wasmgc"
+  ],
+  "we": [
+    "en-pronoun-we"
+  ],
+  "webfont": [
+    "webfont"
+  ],
+  "webmin": [
+    "webmin"
+  ],
+  "website": [
+    "website"
+  ],
+  "wechat": [
+    "wechat"
+  ],
+  "well": [
+    "en-discourse_marker-well"
+  ],
+  "were": [
+    "en-modal_or_auxiliary-were"
+  ],
+  "what": [
+    "en-article_or_determiner-what",
+    "en-interrogative-what",
+    "en-pronoun-what"
+  ],
+  "whatever": [
+    "en-article_or_determiner-whatever",
+    "en-pronoun-whatever"
+  ],
+  "when": [
+    "en-conjunction-when",
+    "en-interrogative-when"
+  ],
+  "whenever": [
+    "en-conjunction-whenever"
+  ],
+  "where": [
+    "en-conjunction-where",
+    "en-interrogative-where"
+  ],
+  "whereas": [
+    "en-conjunction-whereas"
+  ],
+  "wherever": [
+    "en-conjunction-wherever"
+  ],
+  "whether": [
+    "en-conjunction-whether"
+  ],
+  "which": [
+    "en-article_or_determiner-which",
+    "en-interrogative-which",
+    "en-pronoun-which"
+  ],
+  "whichever": [
+    "en-article_or_determiner-whichever",
+    "en-pronoun-whichever"
+  ],
+  "while": [
+    "en-conjunction-while"
+  ],
+  "who": [
+    "en-interrogative-who",
+    "en-pronoun-who"
+  ],
+  "whoever": [
+    "en-pronoun-whoever"
+  ],
+  "whom": [
+    "en-interrogative-whom",
+    "en-pronoun-whom"
+  ],
+  "whomever": [
+    "en-pronoun-whomever"
+  ],
+  "whose": [
+    "en-interrogative-whose",
+    "en-pronoun-whose"
+  ],
+  "why": [
+    "en-interrogative-why"
+  ],
+  "wiki sync": [
+    "wiki-sync"
+  ],
+  "will": [
+    "en-modal_or_auxiliary-will"
+  ],
+  "windows": [
+    "windows"
+  ],
+  "with": [
+    "en-preposition-with"
+  ],
+  "within": [
+    "en-preposition-within"
+  ],
+  "without": [
+    "en-preposition-without"
+  ],
+  "work": [
+    "work"
+  ],
+  "would": [
+    "en-modal_or_auxiliary-would"
+  ],
+  "wxdump": [
+    "wxdump"
+  ],
+  "wxexport": [
+    "wxexport"
+  ],
+  "xdg-basedir": [
+    "xdg-basedir"
+  ],
+  "xdg-user-dirs": [
+    "xdg-user-dirs"
+  ],
+  "yesterday": [
+    "en-deictic_or_spatiotemporal_marker-yesterday"
+  ],
+  "yet": [
+    "en-conjunction-yet"
+  ],
+  "yolo update pins": [
+    "yolo-update-pins"
+  ],
+  "you": [
+    "en-pronoun-you"
+  ],
+  "your": [
+    "en-pronoun-your"
+  ],
+  "yours": [
+    "en-pronoun-yours"
+  ],
+  "yourself": [
+    "en-pronoun-yourself"
+  ],
+  "yourselves": [
+    "en-pronoun-yourselves"
+  ],
+  "zep server docker build and publish": [
+    "zep-server-docker-build-and-publish"
+  ],
+  "zeroclaw": [
+    "zeroclaw"
+  ],
+  "zig-cross-compile": [
+    "zig-cross-compile"
+  ],
+  "ziglang": [
+    "ziglang"
+  ],
+  "\ud83d\udcca status badges update": [
+    "status-badges-update"
+  ],
+  "\ud83d\udd04 automated rollback manager": [
+    "automated-rollback-manager"
+  ],
+  "\ud83d\udd0d verification pipeline": [
+    "verification-pipeline"
+  ],
+  "\ud83d\udd17 cross-agent integration tests": [
+    "cross-agent-integration-tests"
+  ]
+}

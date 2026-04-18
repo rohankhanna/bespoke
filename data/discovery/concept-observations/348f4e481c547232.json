@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run memory report",
+      "sense_id": "run-memory-report#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "run-memory-report",
+  "normalized_form": "run-memory-report",
+  "observation_id": "348f4e481c547232",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T12:46:59.510459+00:00",
+  "observed_text": "Run memory report",
+  "source_file": ".github/workflows/memory_report.yaml",
+  "source_repo": "astral-sh/ruff"
+}

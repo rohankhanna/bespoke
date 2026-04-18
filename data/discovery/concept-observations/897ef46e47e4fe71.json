@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "linter",
+      "sense_id": "linter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "linter",
+  "normalized_form": "linter",
+  "observation_id": "897ef46e47e4fe71",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T12:46:59.510459+00:00",
+  "observed_text": "linter",
+  "source_file": null,
+  "source_repo": "astral-sh/ruff"
+}

@@ -1,0 +1,92 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adoptium/adoptium",
+      "target": "adoptium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adoptium/adoptium",
+      "target": "aqavit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adoptium/adoptium",
+      "target": "eclipse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adoptium/adoptium",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adoptium/adoptium",
+      "target": "temurin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T12:47:18.184077+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6213
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": null,
+    "full_name": "adoptium/adoptium",
+    "html_url": "https://github.com/adoptium/adoptium",
+    "language": null,
+    "pushed_at": "2026-04-08T15:17:42Z",
+    "topics": [
+      "adoptium",
+      "aqavit",
+      "eclipse",
+      "java",
+      "temurin"
+    ],
+    "updated_at": "2026-04-08T15:19:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adoptium"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aqavit"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eclipse"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "temurin"
+    }
+  ]
+}

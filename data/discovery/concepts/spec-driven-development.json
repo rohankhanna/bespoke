@@ -1,0 +1,40 @@
+{
+  "aliases": [
+    "spec-driven-development"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "canonical_name": "spec-driven-development",
+  "concept_id": "spec-driven-development",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T12:46:59.510459+00:00",
+      "source_file": null,
+      "source_repo": "ailev/FPF"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T12:46:59.510459+00:00",
+      "source_file": null,
+      "source_repo": "Fission-AI/OpenSpec"
+    }
+  ],
+  "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spec-driven-development",
+      "sense_id": "spec-driven-development#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Gem",
+      "sense_id": "release-gem#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "release-gem",
+  "normalized_form": "release-gem",
+  "observation_id": "1c9ec116c3fd4e2a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T12:46:59.510459+00:00",
+  "observed_text": "Release Gem",
+  "source_file": ".github/workflows/release.yml",
+  "source_repo": "parruda/swarm"
+}

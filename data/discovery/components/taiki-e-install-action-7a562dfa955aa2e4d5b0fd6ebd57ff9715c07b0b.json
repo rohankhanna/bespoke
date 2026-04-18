@@ -1,12 +1,17 @@
 {
   "component": "taiki-e/install-action@7a562dfa955aa2e4d5b0fd6ebd57ff9715c07b0b",
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/bench.yml",
       "source_repo": "astral-sh/uv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "astral-sh/ruff"
     }
   ]
 }

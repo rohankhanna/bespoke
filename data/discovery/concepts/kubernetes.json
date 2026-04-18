@@ -33,10 +33,16 @@
       "observed_at": "2026-04-18T12:06:06.216548+00:00",
       "source_file": null,
       "source_repo": "ahmetb/kubectx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T12:46:59.510459+00:00",
+      "source_file": null,
+      "source_repo": "databus23/helm-diff"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "possible_senses": [
     {
       "buckets": [
