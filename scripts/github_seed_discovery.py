@@ -359,11 +359,18 @@ def observation_id_for_term(source_repo, source_file, edge_type, term):
     return hashlib.sha1(raw.encode("utf-8")).hexdigest()[:16]
 
 
-def upsert_concept_observation(observations_dir, generated_at, source_repo, hit):
+def upsert_concept_observation(observations_dir, generated_at, source_repo, source_repo_description, hit):
     term = hit["term"]
     observation_id = observation_id_for_term(source_repo, hit.get("source_file"), hit.get("edge_type"), term)
     path = observations_dir / f"{observation_id}.json"
     buckets = concept_buckets_for_term(hit)
+    definition_hints = []
+    if source_repo_description:
+        definition_hints.append({
+            "text": source_repo_description,
+            "source_kind": "repo-description",
+            "status": "context-only",
+        })
     payload = {
         "observation_id": observation_id,
         "concept_id": concept_id_for_term(term),
@@ -373,9 +380,12 @@ def upsert_concept_observation(observations_dir, generated_at, source_repo, hit)
         "source_repo": source_repo,
         "source_file": hit.get("source_file"),
         "observed_at": generated_at,
+        "source_repo_description": source_repo_description,
         "candidate_buckets": buckets,
         "candidate_primary_bucket": buckets[0],
         "ambiguity_status": "unresolved",
+        "definition_status": "unresolved",
+        "candidate_definition_hints": definition_hints,
         "candidate_senses": [
             {
                 "sense_id": f"{concept_id_for_term(term)}#sense-1",
@@ -428,7 +438,7 @@ def upsert_seeded_concept(concepts_dir, generated_at, concept_id, canonical_name
     write_json(path, payload)
 
 
-def upsert_concept(concepts_dir, generated_at, source_repo, hit):
+def upsert_concept(concepts_dir, generated_at, source_repo, source_repo_description, hit):
     term = hit["term"]
     concept_id = concept_id_for_term(term)
     path = concepts_dir / f"{concept_id}.json"
@@ -440,6 +450,14 @@ def upsert_concept(concepts_dir, generated_at, source_repo, hit):
         "discovered_via": hit.get("edge_type"),
         "observed_at": generated_at,
     }
+    definition_candidates = []
+    if source_repo_description:
+        definition_candidates.append({
+            "text": source_repo_description,
+            "source_repo": source_repo,
+            "source_kind": "repo-description",
+            "status": "candidate-context",
+        })
     senses = [{
         "sense_id": f"{concept_id}#sense-1",
         "label": term,
@@ -460,6 +478,11 @@ def upsert_concept(concepts_dir, generated_at, source_repo, hit):
         existing["primary_bucket"] = existing.get("primary_bucket") or buckets[0]
         existing.setdefault("ambiguity_status", "unresolved")
         existing.setdefault("possible_senses", senses)
+        existing.setdefault("definition_status", "unresolved")
+        existing.setdefault("candidate_definitions", [])
+        for item in definition_candidates:
+            if item not in existing["candidate_definitions"]:
+                existing["candidate_definitions"].append(item)
         write_json(path, existing)
         return
     payload = {
@@ -470,6 +493,8 @@ def upsert_concept(concepts_dir, generated_at, source_repo, hit):
         "aliases": [alias],
         "ambiguity_status": "unresolved",
         "possible_senses": senses,
+        "definition_status": "unresolved",
+        "candidate_definitions": definition_candidates,
         "first_seen_at": generated_at,
         "last_seen_at": generated_at,
         "evidence": [evidence],
@@ -534,6 +559,8 @@ def normalize_existing_concept_artifacts(concepts_dir):
         discovered_via = next((item.get("discovered_via") for item in (obj.get("evidence") or []) if item.get("discovered_via")), None)
         default_status = "seeded-stable" if discovered_via == "seeded-language-entity" else "unresolved"
         obj.setdefault("ambiguity_status", default_status)
+        obj.setdefault("definition_status", "seeded-stable" if default_status == "seeded-stable" else "unresolved")
+        obj.setdefault("candidate_definitions", [])
         if not obj.get("possible_senses"):
             obj["possible_senses"] = [{
                 "sense_id": f"{obj.get('concept_id', slug(obj.get('canonical_name','concept')))}#sense-1",
@@ -563,6 +590,9 @@ def normalize_existing_concept_observations(observations_dir):
         obj["candidate_buckets"] = unique_preserve(candidate_buckets)
         obj["candidate_primary_bucket"] = obj.get("candidate_primary_bucket") or obj["candidate_buckets"][0]
         obj.setdefault("ambiguity_status", "unresolved")
+        obj.setdefault("definition_status", "unresolved")
+        obj.setdefault("candidate_definition_hints", [])
+        obj.setdefault("source_repo_description", None)
         if not obj.get("candidate_senses"):
             normalized = obj.get("normalized_form") or slug(obj.get("observed_text", "concept"))
             obj["candidate_senses"] = [{
@@ -1062,8 +1092,8 @@ def main():
                 "last_seen_at": generated_at,
                 "sources": [{"source_repo": data["repo"]["full_name"], "source_file": hit["source_file"], "discovered_via": hit["edge_type"]}],
             }, "term")
-            upsert_concept_observation(concept_observations_dir, generated_at, data["repo"]["full_name"], hit)
-            upsert_concept(concepts_dir, generated_at, data["repo"]["full_name"], hit)
+            upsert_concept_observation(concept_observations_dir, generated_at, data["repo"]["full_name"], data["repo"].get("description"), hit)
+            upsert_concept(concepts_dir, generated_at, data["repo"]["full_name"], data["repo"].get("description"), hit)
 
         for hit in data["components"]:
             component = hit["component"]
