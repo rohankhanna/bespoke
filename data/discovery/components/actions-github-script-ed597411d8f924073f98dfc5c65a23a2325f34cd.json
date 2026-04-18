@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-18T09:17:12.863479+00:00",
+  "last_seen_at": "2026-04-18T09:23:47.800515+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/auto-close-maintainer-scrap-issues.yml",
       "source_repo": "dyoshikawa/rulesync"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maintenance-mode.lock.yml",
+      "source_repo": "sgcarstrends/sgcarstrends"
     }
   ]
 }

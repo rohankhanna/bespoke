@@ -1,0 +1,187 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands",
+      "target": "danielrosehill/claude-code-repos-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands",
+      "target": "danielrosehill/github-master-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands",
+      "target": "danielrosehill/claude-slash-commands",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands",
+      "target": "CLAUDE.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands",
+      "target": "(organized by category) 3. Generates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands",
+      "target": "README.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands",
+      "target": "The script uses",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands",
+      "target": "flatten-commands.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands",
+      "target": "directory 2. Recursively finds all",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands",
+      "target": "files in",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands",
+      "target": "with",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands",
+      "target": "**Example transformation:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands",
+      "target": "setup-desktop-sysadmin-workspace.sh",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:24:05.287866+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6579
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Slash commands for Linux desktop sysadmin with Claude Code (or any other agent)",
+    "full_name": "danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands",
+    "html_url": "https://github.com/danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands",
+    "language": "Shell",
+    "pushed_at": "2025-10-31T22:31:21Z",
+    "topics": [
+      "claude-code",
+      "linux-desktop",
+      "slash-commands"
+    ],
+    "updated_at": "2026-04-17T03:01:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-code-repos-index",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-slash-commands",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/github-master-index",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "CLAUDE.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(organized by category) 3. Generates"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "README.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "The script uses"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "flatten-commands.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "directory 2. Recursively finds all"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "files in"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "with"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Example transformation:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "setup-desktop-sysadmin-workspace.sh"
+    }
+  ]
+}

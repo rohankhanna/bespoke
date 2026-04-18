@@ -1,0 +1,72 @@
+{
+  "components": [
+    {
+      "component": "jcs090218/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "jcs090218/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "re-actors/alls-green@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "manzaltu/claude-code-ide.el",
+      "target": "jcs090218/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "manzaltu/claude-code-ide.el",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "manzaltu/claude-code-ide.el",
+      "target": "re-actors/alls-green@release/v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:23:52.407326+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 2318
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Claude Code IDE integration for Emacs",
+    "full_name": "manzaltu/claude-code-ide.el",
+    "html_url": "https://github.com/manzaltu/claude-code-ide.el",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-04-02T05:20:26Z",
+    "topics": [],
+    "updated_at": "2026-04-18T06:37:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,12 @@
+{
+  "component": "tartinerlabs/lockfile-integrity@e72908eb62a2ae8a85ae1b707a73c16469651d0f",
+  "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "last_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lockfile-integrity.yml",
+      "source_repo": "sgcarstrends/sgcarstrends"
+    }
+  ]
+}

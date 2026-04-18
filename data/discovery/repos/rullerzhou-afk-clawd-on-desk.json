@@ -1,0 +1,465 @@
+{
+  "components": [
+    {
+      "component": "electron-updater",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "htmlparser2",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "koffi",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "electron",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "electron-builder",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rullerzhou-afk/clawd-on-desk",
+      "target": "marciogranzotto/clawd-tank",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rullerzhou-afk/clawd-on-desk",
+      "target": "npm run install:gemini-hooks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rullerzhou-afk/clawd-on-desk",
+      "target": "npm run install:cursor-hooks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rullerzhou-afk/clawd-on-desk",
+      "target": "clawd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rullerzhou-afk/clawd-on-desk",
+      "target": "kiro_default",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rullerzhou-afk/clawd-on-desk",
+      "target": "kiro-cli --agent clawd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rullerzhou-afk/clawd-on-desk",
+      "target": "npm run install:kiro-hooks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rullerzhou-afk/clawd-on-desk",
+      "target": "task",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rullerzhou-afk/clawd-on-desk",
+      "target": "Ctrl+Shift+Y",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rullerzhou-afk/clawd-on-desk",
+      "target": "Ctrl+Shift+N",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rullerzhou-afk/clawd-on-desk",
+      "target": "Settings\u2026",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rullerzhou-afk/clawd-on-desk",
+      "target": "Agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rullerzhou-afk/clawd-on-desk",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rullerzhou-afk/clawd-on-desk",
+      "target": "Show pop-up bubbles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rullerzhou-afk/clawd-on-desk",
+      "target": "git pull",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rullerzhou-afk/clawd-on-desk",
+      "target": "Theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rullerzhou-afk/clawd-on-desk",
+      "target": "Theme cards in",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rullerzhou-afk/clawd-on-desk",
+      "target": "now expose capability badges such as",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rullerzhou-afk/clawd-on-desk",
+      "target": ", and",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rullerzhou-afk/clawd-on-desk",
+      "target": "theme.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rullerzhou-afk/clawd-on-desk",
+      "target": "codex.exe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "rullerzhou-afk/clawd-on-desk",
+      "target": "electron-updater",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "rullerzhou-afk/clawd-on-desk",
+      "target": "htmlparser2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "rullerzhou-afk/clawd-on-desk",
+      "target": "koffi",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rullerzhou-afk/clawd-on-desk",
+      "target": "electron",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rullerzhou-afk/clawd-on-desk",
+      "target": "electron-builder",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rullerzhou-afk/clawd-on-desk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rullerzhou-afk/clawd-on-desk",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rullerzhou-afk/clawd-on-desk",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rullerzhou-afk/clawd-on-desk",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rullerzhou-afk/clawd-on-desk",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rullerzhou-afk/clawd-on-desk",
+      "target": "Build & Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:24:13.402912+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16610
+    },
+    {
+      "path": "package.json",
+      "size": 2960
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1712
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "A desktop pet that reacts to your Claude Code sessions in real-time \u2014 thinking, typing,  juggling, sleeping, and more.",
+    "full_name": "rullerzhou-afk/clawd-on-desk",
+    "html_url": "https://github.com/rullerzhou-afk/clawd-on-desk",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-18T01:47:39Z",
+    "topics": [
+      "claude-code",
+      "codex",
+      "copilot",
+      "cursor",
+      "desktop-pet",
+      "electron",
+      "gemini",
+      "pixel-art",
+      "svg-animation"
+    ],
+    "updated_at": "2026-04-18T08:57:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marciogranzotto/clawd-tank",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "npm run install:gemini-hooks"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "npm run install:cursor-hooks"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "clawd"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "kiro_default"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "kiro-cli --agent clawd"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "npm run install:kiro-hooks"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "task"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Ctrl+Shift+Y"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Ctrl+Shift+N"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Settings\u2026"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Agents"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Claude Code"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Show pop-up bubbles"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git pull"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Settings\u2026"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Theme"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Theme cards in"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "now expose capability badges such as"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ", and"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "theme.json"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "codex.exe"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build & Release"
+    }
+  ]
+}

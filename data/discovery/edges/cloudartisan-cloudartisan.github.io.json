@@ -1,0 +1,153 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "jpanther/congo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "0.160.1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "3. Re-vendor the module:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "4. Re-run the build:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "## Creating Content ### New Posts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "(kebab-case) 2. **Frontmatter**: -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": ": Set to",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "until ready to publish -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "###",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "hugo server -D",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "fix_backticks.py",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "fix_twitter_links.py",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "fix_links.py",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "## Building for Production",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo.yml",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo.yml",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "peaceiris/actions-hugo@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo.yml",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "peaceiris/actions-gh-pages@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hugo.yml",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "Deploy Hugo site",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "peaceiris/actions-hugo@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-validation.yml",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "PR Validation",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T09:23:47.800515+00:00",
+  "source_repo": "cloudartisan/cloudartisan.github.io"
+}

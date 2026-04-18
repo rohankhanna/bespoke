@@ -1,0 +1,12 @@
+{
+  "component": "pmeier/pytest-results-action@main",
+  "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "last_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "spylang/spy"
+    }
+  ]
+}

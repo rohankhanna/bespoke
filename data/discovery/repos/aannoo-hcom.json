@@ -1,0 +1,1000 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1.50.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/setup-java@v5.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "android-actions/setup-android@v4.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2.9.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@v5.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "android-actions/setup-android@v4.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "hcom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "Prompt: -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "Open the TUI:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "bash hcom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "hcom start",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "hcom send",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "HCOM_DIR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "hcom kill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "hcom relay off --all",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "hcom relay",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "0600",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "config_get",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "config_set",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "relay_psk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "relay_token",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "relay_id",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "hcom relay status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "hcom relay new",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "hcom claude",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "hcom gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "hcom codex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "hcom opencode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "hcom listen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "For subagents, run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "and can be addressed as",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "| |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "| Where windows open:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": ", \u2026 | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "| Initial user prompt | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": ", etc. ### Observe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "### Drive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "### Configure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "### Sync across devices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "config.toml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "| Event subscription presets:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": ") | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "| Relay config (see",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": ") | ### Scope",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "### Per-project isolation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "Run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "for the full per-key reference. Edit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": ", API keys). Any non-",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "hcom run debate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "hcom run fatcow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "*.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "*.py",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom",
+      "target": "hcom run docs --scripts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "aannoo/hcom",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "aannoo/hcom",
+      "target": "PyO3/maturin-action@v1.50.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "aannoo/hcom",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "aannoo/hcom",
+      "target": "actions/setup-java@v5.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "aannoo/hcom",
+      "target": "android-actions/setup-android@v4.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "aannoo/hcom",
+      "target": "Build Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aannoo/hcom",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aannoo/hcom",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aannoo/hcom",
+      "target": "Swatinem/rust-cache@v2.9.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post-announce-compare-link.yml",
+      "source_repo": "aannoo/hcom",
+      "target": "Post-announce: add compare link",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "aannoo/hcom",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "aannoo/hcom",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "aannoo/hcom",
+      "target": "Publish PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aannoo/hcom",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aannoo/hcom",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aannoo/hcom",
+      "target": "actions/setup-java@v5.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aannoo/hcom",
+      "target": "android-actions/setup-android@v4.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aannoo/hcom",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aannoo/hcom",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aannoo/hcom",
+      "target": "curl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:23:54.639389+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14490
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1546
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1096
+    },
+    {
+      "path": ".github/workflows/build-wheels.yml",
+      "size": 2660
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 237
+    },
+    {
+      "path": ".github/workflows/post-announce-compare-link.yml",
+      "size": 1370
+    },
+    {
+      "path": ".github/workflows/publish-pypi.yml",
+      "size": 1040
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 16875
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Let AI agents message, watch, and spawn each other across terminals. Claude Code, Gemini CLI, Codex, OpenCode",
+    "full_name": "aannoo/hcom",
+    "html_url": "https://github.com/aannoo/hcom",
+    "language": "Rust",
+    "pushed_at": "2026-04-16T01:21:34Z",
+    "topics": [
+      "agent",
+      "agent-skills",
+      "ai",
+      "ai-agents",
+      "ai-tools",
+      "automation",
+      "claude",
+      "claude-code",
+      "claude-code-hooks",
+      "cli",
+      "codex",
+      "coding-agent",
+      "communication",
+      "developer-tools",
+      "gemini-cli",
+      "multi-agent",
+      "opencode",
+      "orchestration",
+      "subagents",
+      "terminal"
+    ],
+    "updated_at": "2026-04-17T10:05:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hcom"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Prompt: -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Open the TUI:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash hcom"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hcom start"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hcom send"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "HCOM_DIR"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hcom kill"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hcom relay off --all"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hcom relay"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "0600"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "config_get"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "config_set"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "relay_psk"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "relay_token"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "relay_id"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hcom relay status"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hcom relay off --all"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hcom relay new"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "relay_id"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hcom claude"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hcom gemini"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hcom codex"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hcom opencode"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hcom listen"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hcom start"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "For subagents, run"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "and can be addressed as"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| Where windows open:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ", \u2026 | |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| Initial user prompt | |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ", etc. ### Observe"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Drive"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Configure"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Sync across devices"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "config.toml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| Event subscription presets:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ") | |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ", \u2026 | |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| Relay config (see"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ") | ### Scope"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Per-project isolation"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Run"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "for the full per-key reference. Edit"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ", API keys). Any non-"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hcom run debate"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hcom run fatcow"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "*.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "*.py"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hcom run docs --scripts"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "term": "Build Wheels"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post-announce-compare-link.yml",
+      "term": "Post-announce: add compare link"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "term": "Publish PyPI"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/release.yml",
+      "term": "curl"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/release.yml",
+      "term": "curl"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "muratcankoylan/ralph-wiggum-marketer",
+      "target": "anthropics/claude-plugins-official",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "muratcankoylan/ralph-wiggum-marketer",
+      "target": "### Option 3: Interactive Plugin Manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "muratcankoylan/ralph-wiggum-marketer",
+      "target": "## Quick Start",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "muratcankoylan/ralph-wiggum-marketer",
+      "target": "for tasks 2. **Check Progress**: Read",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "muratcankoylan/ralph-wiggum-marketer",
+      "target": "### Ralph's Workspace",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "muratcankoylan/ralph-wiggum-marketer",
+      "target": "### Add Your Own Tasks Edit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "muratcankoylan/ralph-wiggum-marketer",
+      "target": "better-sqlite3",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-18T09:23:47.800515+00:00",
+  "source_repo": "muratcankoylan/ralph-wiggum-marketer"
+}

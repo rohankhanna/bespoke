@@ -1,0 +1,306 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo.yml"
+    },
+    {
+      "component": "peaceiris/actions-hugo@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml"
+    },
+    {
+      "component": "peaceiris/actions-hugo@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "jpanther/congo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "0.160.1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "3. Re-vendor the module:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "4. Re-run the build:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "## Creating Content ### New Posts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "(kebab-case) 2. **Frontmatter**: -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": ": Set to",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "until ready to publish -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "###",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "hugo server -D",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "fix_backticks.py",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "fix_twitter_links.py",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "fix_links.py",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "## Building for Production",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo.yml",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo.yml",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "peaceiris/actions-hugo@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo.yml",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "peaceiris/actions-gh-pages@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hugo.yml",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "Deploy Hugo site",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "peaceiris/actions-hugo@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-validation.yml",
+      "source_repo": "cloudartisan/cloudartisan.github.io",
+      "target": "PR Validation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:24:01.981024+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5458
+    },
+    {
+      "path": "go.mod",
+      "size": 126
+    },
+    {
+      "path": ".github/workflows/hugo.yml",
+      "size": 1735
+    },
+    {
+      "path": ".github/workflows/pr-validation.yml",
+      "size": 7741
+    },
+    {
+      "path": ".github/workflows/test.txt",
+      "size": 59
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "My blog - the site, the content and the code",
+    "full_name": "cloudartisan/cloudartisan.github.io",
+    "html_url": "https://github.com/cloudartisan/cloudartisan.github.io",
+    "language": "Python",
+    "pushed_at": "2026-04-12T10:59:10Z",
+    "topics": [],
+    "updated_at": "2026-04-12T10:58:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jpanther/congo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "0.160.1"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "3. Re-vendor the module:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "4. Re-run the build:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## Creating Content ### New Posts"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(kebab-case) 2. **Frontmatter**: -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Set to"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "until ready to publish -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "###"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hugo server -D"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "fix_backticks.py"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "fix_twitter_links.py"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "fix_links.py"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## Building for Production"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hugo.yml",
+      "term": "Deploy Hugo site"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-validation.yml",
+      "term": "PR Validation"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "component": "route06/actions/.github/workflows/create_gh_issue.yml@3bcea5bf834ff2e0e6c912c1167fcc1fe05e49c2",
+  "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "last_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create_issue_security_txt.yml",
+      "source_repo": "toyamarinyon/giselle"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "last_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/app-db.yml",
+      "source_repo": "metabase/metabase"
+    }
+  ],
+  "term": "App DB Tests"
+}

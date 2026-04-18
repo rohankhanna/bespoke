@@ -1,0 +1,12 @@
+{
+  "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+  "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "last_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maintenance-mode.lock.yml",
+      "source_repo": "sgcarstrends/sgcarstrends"
+    }
+  ]
+}

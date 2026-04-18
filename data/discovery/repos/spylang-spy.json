@@ -1,0 +1,715 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "webfactory/ssh-agent@v0.8.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/playground-deploy.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/playground-deploy.yml"
+    },
+    {
+      "component": "mymindstorm/setup-emsdk@v14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/playground-deploy.yml"
+    },
+    {
+      "component": "actions/configure-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/playground-deploy.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/playground-deploy.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/playground-deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/playground-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/playground-tests.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "pmeier/pytest-results-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spylang/spy",
+      "target": "googlefonts/noto-emoji",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "spylang/spy",
+      "target": "spy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "spylang/spy",
+      "target": "2. Build the",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "spylang/spy",
+      "target": "runtime library:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "spylang/spy",
+      "target": "Run the test suite:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "spylang/spy",
+      "target": "$ pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "spylang/spy",
+      "target": "All the tests in",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "spylang/spy",
+      "target": "are executed in three modes: -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "spylang/spy",
+      "target": "4. Compile to executable:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "spylang/spy",
+      "target": "pyparse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "spylang/spy",
+      "target": "parse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "spylang/spy",
+      "target": "symtable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "spylang/spy",
+      "target": "redshift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "spylang/spy",
+      "target": "cwrite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "spylang/spy",
+      "target": "compile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "spylang/spy",
+      "target": "Moreover, the",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "spylang/spy",
+      "target": "(in \"interp mode\") or after",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "spylang/spy",
+      "target": "libspy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "spylang/spy",
+      "target": "wasmtime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "spylang/spy",
+      "target": "spy hello.spy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "spylang/spy",
+      "target": "spy execute hello.spy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "spylang/spy",
+      "target": "spy build hello.spy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "spylang/spy",
+      "target": "libspy.a",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "spylang/spy",
+      "target": "native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "spylang/spy",
+      "target": "emscripten",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "spylang/spy",
+      "target": "wasi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "spylang/spy",
+      "target": "llwasm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "spylang/spy",
+      "target": "libspy.wasm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "spylang/spy",
+      "target": "SPyError",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "spylang/spy",
+      "target": "mkdocs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "spylang/spy",
+      "target": "Then following below commands 1)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "spylang/spy",
+      "target": "mkdocs serve",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "spylang/spy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "spylang/spy",
+      "target": "webfactory/ssh-agent@v0.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "spylang/spy",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "spylang/spy",
+      "target": "Deploy to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/playground-deploy.yml",
+      "source_repo": "spylang/spy",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/playground-deploy.yml",
+      "source_repo": "spylang/spy",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/playground-deploy.yml",
+      "source_repo": "spylang/spy",
+      "target": "mymindstorm/setup-emsdk@v14",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/playground-deploy.yml",
+      "source_repo": "spylang/spy",
+      "target": "actions/configure-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/playground-deploy.yml",
+      "source_repo": "spylang/spy",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/playground-deploy.yml",
+      "source_repo": "spylang/spy",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/playground-deploy.yml",
+      "source_repo": "spylang/spy",
+      "target": "Build Playground",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/playground-tests.yml",
+      "source_repo": "spylang/spy",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/playground-tests.yml",
+      "source_repo": "spylang/spy",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/playground-tests.yml",
+      "source_repo": "spylang/spy",
+      "target": "Playground Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "spylang/spy",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "spylang/spy",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "spylang/spy",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "spylang/spy",
+      "target": "pmeier/pytest-results-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "spylang/spy",
+      "target": "Run Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:24:12.171435+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7717
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3177
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 2684
+    },
+    {
+      "path": ".github/workflows/playground-deploy.yml",
+      "size": 2324
+    },
+    {
+      "path": ".github/workflows/playground-tests.yml",
+      "size": 833
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 2988
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "SPy language",
+    "full_name": "spylang/spy",
+    "html_url": "https://github.com/spylang/spy",
+    "language": "Python",
+    "pushed_at": "2026-04-17T11:51:57Z",
+    "topics": [],
+    "updated_at": "2026-04-17T11:52:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlefonts/noto-emoji",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "spy"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "2. Build the"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "runtime library:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Run the test suite:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "$ pytest"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "All the tests in"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "are executed in three modes: -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "4. Compile to executable:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "pyparse"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "parse"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "symtable"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "redshift"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cwrite"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "compile"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Moreover, the"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(in \"interp mode\") or after"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "libspy"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "libspy"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "wasmtime"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "libspy"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "spy hello.spy"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "spy execute hello.spy"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "spy build hello.spy"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "libspy"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "libspy.a"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "native"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "emscripten"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "wasi"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "llwasm"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "wasmtime"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "llwasm"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "libspy.wasm"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "libspy"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SPyError"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "wasmtime"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "libspy.wasm"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "wasmtime"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "llwasm"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "libspy.wasm"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "mkdocs"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Then following below commands 1)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "mkdocs serve"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Deploy to GitHub Pages"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/playground-deploy.yml",
+      "term": "Build Playground"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/playground-tests.yml",
+      "term": "Playground Tests"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Run Tests"
+    }
+  ]
+}

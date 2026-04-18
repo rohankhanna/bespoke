@@ -1,0 +1,685 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "aws_cli_help",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "aws_cli_pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "grep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "isError: true",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "instructions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "uvx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "**Windows**:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "streamable-http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "The server will be available at",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "transport is deprecated. Use",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "AWS_ACCESS_KEY_ID",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "AWS_SECRET_ACCESS_KEY",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "AWS_PROFILE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "default",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "AWS_REGION",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "AWS_DEFAULT_REGION",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "us-east-1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "AWS_CONFIG_FILE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "AWS_SHARED_CREDENTIALS_FILE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "AWS_MCP_TIMEOUT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "300",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "AWS_MCP_MAX_OUTPUT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "100000",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "AWS_MCP_TRANSPORT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "stdio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "sse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "AWS_MCP_SANDBOX",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "auto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "disabled",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "required",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "AWS_MCP_SANDBOX_CREDENTIALS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "env",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "aws_config",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "both",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "PR Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "actions/download-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "alexei-led/aws-mcp-server",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:24:00.428427+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7629
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2234
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2261
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 4517
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "A lightweight service that enables AI assistants to execute AWS CLI commands (in safe containerized environment) through the Model Context Protocol (MCP). Bridges Claude, Cursor, and other MCP-aware AI tools with AWS CLI for enhanced cloud infrastructure management.",
+    "full_name": "alexei-led/aws-mcp-server",
+    "html_url": "https://github.com/alexei-led/aws-mcp-server",
+    "language": "Python",
+    "pushed_at": "2026-02-27T14:42:40Z",
+    "topics": [
+      "ai-assistant",
+      "aws",
+      "aws-automation",
+      "claude",
+      "cloud-infrastructure",
+      "devops",
+      "docker",
+      "mcp",
+      "mcp-server",
+      "modelcontextprotocol"
+    ],
+    "updated_at": "2026-04-10T20:53:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "aws_cli_help"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "aws_cli_pipeline"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "grep"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "isError: true"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "instructions"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "uvx"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Windows**:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "streamable-http"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "The server will be available at"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "transport is deprecated. Use"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "AWS_ACCESS_KEY_ID"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "AWS_SECRET_ACCESS_KEY"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "AWS_PROFILE"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "default"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "AWS_REGION"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "AWS_DEFAULT_REGION"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "us-east-1"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "AWS_CONFIG_FILE"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "AWS_SHARED_CREDENTIALS_FILE"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "AWS_MCP_TIMEOUT"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "300"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "AWS_MCP_MAX_OUTPUT"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "100000"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "AWS_MCP_TRANSPORT"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "stdio"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "sse"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "streamable-http"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "stdio"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "AWS_MCP_SANDBOX"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "auto"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "disabled"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "required"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "auto"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "AWS_MCP_SANDBOX_CREDENTIALS"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "env"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "aws_config"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "both"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "both"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "PR Validation"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    }
+  ]
+}

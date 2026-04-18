@@ -1,0 +1,12 @@
+{
+  "component": "peaceiris/actions-gh-pages@v4.0.0",
+  "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "last_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hugo.yml",
+      "source_repo": "cloudartisan/cloudartisan.github.io"
+    }
+  ]
+}

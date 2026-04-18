@@ -1,0 +1,147 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hluaguo/learn-faster-kit",
+      "target": "astral-sh/uv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hluaguo/learn-faster-kit",
+      "target": "cheukyin175/learn-faster-kit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hluaguo/learn-faster-kit",
+      "target": "bash learn-faster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hluaguo/learn-faster-kit",
+      "target": "2. **Launch in any project directory**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hluaguo/learn-faster-kit",
+      "target": "bash cd your-learning-project learn-faster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hluaguo/learn-faster-kit",
+      "target": "learn-faster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hluaguo/learn-faster-kit",
+      "target": "learn-faster init",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hluaguo/learn-faster-kit",
+      "target": "learn-faster version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "hluaguo/learn-faster-kit",
+      "target": "cheukyin175/learn-faster-kit",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:23:56.237929+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6374
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1187
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "AI-powered learning coach with spaced repetition with Claude Code - master any knowledge faster with personalized syllabi and progress tracking",
+    "full_name": "hluaguo/learn-faster-kit",
+    "html_url": "https://github.com/hluaguo/learn-faster-kit",
+    "language": "Python",
+    "pushed_at": "2025-12-04T05:33:17Z",
+    "topics": [
+      "claude-code",
+      "education",
+      "learning",
+      "productivity",
+      "python",
+      "spaced-repetition",
+      "study"
+    ],
+    "updated_at": "2026-04-15T09:14:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "astral-sh/uv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cheukyin175/learn-faster-kit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cheukyin175/learn-faster-kit",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash learn-faster"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "2. **Launch in any project directory**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash cd your-learning-project learn-faster"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "learn-faster"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "learn-faster init"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "learn-faster version"
+    }
+  ]
+}

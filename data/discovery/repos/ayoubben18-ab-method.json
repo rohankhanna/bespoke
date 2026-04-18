@@ -1,0 +1,443 @@
+{
+  "components": [
+    {
+      "component": "@semantic-release/changelog",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@semantic-release/git",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@semantic-release/github",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@semantic-release/npm",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semantic-release",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "bash npx ab-method",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "**Traditional Approach:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "**\ud83d\udcda Traditional Controller (Great for beginners):**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "analyze-project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "analyze-frontend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "analyze-backend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "create-task",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "resume-task",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "create-mission",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "resume-mission",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "extend-task",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "update-architecture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "analyze-project.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "#### \ud83d\udcf1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "& \ud83d\udcbe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "create-task.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "resume-task.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "resume-mission.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "backend-mission.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "frontend-mission.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "planning-mission.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "**Traditional Style:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "## \ud83d\udd04 Task Lifecycle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "## \ud83c\udfaf Mission Execution Flow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "index.yaml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "npx ab-method",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "@semantic-release/changelog",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "@semantic-release/git",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "@semantic-release/github",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "@semantic-release/npm",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "semantic-release",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ayoubben18/ab-method",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:24:10.219489+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17815
+    },
+    {
+      "path": "package.json",
+      "size": 1512
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 734
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "A revolutionary approach to software development that transforms problems into focused, incremental missions using Claude Code's specialized subagents.",
+    "full_name": "ayoubben18/ab-method",
+    "html_url": "https://github.com/ayoubben18/ab-method",
+    "language": "JavaScript",
+    "pushed_at": "2025-11-10T21:57:17Z",
+    "topics": [],
+    "updated_at": "2026-04-14T21:33:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash npx ab-method"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Traditional Approach:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**\ud83d\udcda Traditional Controller (Great for beginners):**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "analyze-project"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "analyze-frontend"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "analyze-backend"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "create-task"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "resume-task"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "create-mission"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "resume-mission"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "extend-task"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "update-architecture"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "analyze-project.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "#### \ud83d\udcf1"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "& \ud83d\udcbe"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "create-task.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "resume-task.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "resume-mission.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "backend-mission.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "frontend-mission.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "planning-mission.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Traditional Style:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## \ud83d\udd04 Task Lifecycle"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## \ud83c\udfaf Mission Execution Flow"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "index.yaml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "npx ab-method"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    }
+  ]
+}

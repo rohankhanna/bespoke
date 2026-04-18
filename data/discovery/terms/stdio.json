@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-04-18T09:21:02.237042+00:00",
+  "last_seen_at": "2026-04-18T09:23:47.800515+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
       "source_file": "README.md",
       "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server"
     }
   ],
   "term": "stdio"

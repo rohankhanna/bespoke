@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "last_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "sources": [
+    {
+      "discovered_via": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "alexei-led/aws-mcp-server"
+    }
+  ],
+  "term": "transport is deprecated. Use"
+}

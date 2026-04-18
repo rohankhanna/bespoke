@@ -1,0 +1,12 @@
+{
+  "component": "anthropics/claude-code-security-review@68982a6bf10d545e94dd0390af08306d94ef684c",
+  "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "last_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-security-review.yml",
+      "source_repo": "liam-hq/liam"
+    }
+  ]
+}

@@ -1,12 +1,22 @@
 {
   "component": "actions/checkout@v6.0.2",
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-04-17T18:04:43.852571+00:00",
+  "last_seen_at": "2026-04-18T09:23:47.800515+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/updater.yml",
       "source_repo": "thedoggybrad/easylist-mirror"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hugo.yml",
+      "source_repo": "cloudartisan/cloudartisan.github.io"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml",
+      "source_repo": "cloudartisan/cloudartisan.github.io"
     }
   ]
 }

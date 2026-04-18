@@ -1,0 +1,12 @@
+{
+  "component": "github/gh-aw/actions/setup@cec1ecf3b97e9a1bbffaedf490a49ce03c1071ba",
+  "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "last_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maintenance-mode.lock.yml",
+      "source_repo": "sgcarstrends/sgcarstrends"
+    }
+  ]
+}

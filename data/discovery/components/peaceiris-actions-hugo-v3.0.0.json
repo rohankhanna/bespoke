@@ -1,0 +1,17 @@
+{
+  "component": "peaceiris/actions-hugo@v3.0.0",
+  "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "last_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hugo.yml",
+      "source_repo": "cloudartisan/cloudartisan.github.io"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml",
+      "source_repo": "cloudartisan/cloudartisan.github.io"
+    }
+  ]
+}

@@ -1,0 +1,567 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml"
+    },
+    {
+      "component": "gradle/actions/wrapper-validation@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml"
+    },
+    {
+      "component": "gradle/gradle-build-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml"
+    },
+    {
+      "component": "gradle/gradle-build-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml"
+    },
+    {
+      "component": "gradle/gradle-build-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml"
+    },
+    {
+      "component": "gradle/gradle-build-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml"
+    },
+    {
+      "component": "gradle/gradle-build-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "gradle/actions/wrapper-validation@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "gradle/gradle-build-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "pinterest/ktlint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "build.gradle.kts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "Each module",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "with Kotlin source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "LintTask",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "FormatTask",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "formatKotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "ktlint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "lintKotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "SourceSet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "installKotlinterPrePushHook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "git worktree",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "ignoreFormatFailures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "false",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "reporters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "checkstyle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "html",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "plain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "sarif",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "exclude",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "gradle/actions/wrapper-validation@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "gradle/gradle-build-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "Build Project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "gradle/actions/wrapper-validation@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "gradle/gradle-build-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "jeremymailen/kotlinter-gradle",
+      "target": "Release Plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:24:03.819821+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7736
+    },
+    {
+      "path": ".github/workflows/default.yml",
+      "size": 5187
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 697
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "Painless, fast ktlint plugin for Gradle",
+    "full_name": "jeremymailen/kotlinter-gradle",
+    "html_url": "https://github.com/jeremymailen/kotlinter-gradle",
+    "language": "Kotlin",
+    "pushed_at": "2026-04-18T07:00:43Z",
+    "topics": [],
+    "updated_at": "2026-04-18T07:00:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pinterest/ktlint",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "build.gradle.kts"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Each module"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "with Kotlin source"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Each module"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "with Kotlin source"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "LintTask"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "FormatTask"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "formatKotlin"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ktlint"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "lintKotlin"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "check"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "lintKotlin"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "formatKotlin"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SourceSet"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "lintKotlin"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SourceSet"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "installKotlinterPrePushHook"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "lintKotlin"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "formatKotlin"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git worktree"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "build.gradle.kts"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ignoreFormatFailures"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "false"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "formatKotlin"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "reporters"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "checkstyle"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "html"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "json"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "plain"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "sarif"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "formatKotlin"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SourceSet"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "lintKotlin"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SourceSet"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "exclude"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/default.yml",
+      "term": "Build Project"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release Plugin"
+    }
+  ]
+}

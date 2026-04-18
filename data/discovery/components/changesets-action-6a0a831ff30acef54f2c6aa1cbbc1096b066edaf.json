@@ -1,12 +1,17 @@
 {
   "component": "changesets/action@6a0a831ff30acef54f2c6aa1cbbc1096b066edaf",
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-04-18T09:11:35.827547+00:00",
+  "last_seen_at": "2026-04-18T09:23:47.800515+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "langchain-ai/langgraphjs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "toyamarinyon/giselle"
     }
   ]
 }

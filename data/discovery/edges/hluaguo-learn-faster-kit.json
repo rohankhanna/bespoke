@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hluaguo/learn-faster-kit",
+      "target": "astral-sh/uv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hluaguo/learn-faster-kit",
+      "target": "cheukyin175/learn-faster-kit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hluaguo/learn-faster-kit",
+      "target": "bash learn-faster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hluaguo/learn-faster-kit",
+      "target": "2. **Launch in any project directory**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hluaguo/learn-faster-kit",
+      "target": "bash cd your-learning-project learn-faster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hluaguo/learn-faster-kit",
+      "target": "learn-faster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hluaguo/learn-faster-kit",
+      "target": "learn-faster init",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hluaguo/learn-faster-kit",
+      "target": "learn-faster version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "hluaguo/learn-faster-kit",
+      "target": "cheukyin175/learn-faster-kit",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-18T09:23:47.800515+00:00",
+  "source_repo": "hluaguo/learn-faster-kit"
+}

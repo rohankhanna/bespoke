@@ -1,106 +1,6 @@
 {
-  "generated_at": "2026-04-18T09:23:05.253565+00:00",
+  "generated_at": "2026-04-18T09:23:47.800515+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "everyinc/compound-engineering-plugin",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "metabase/metabase",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "manzaltu/claude-code-ide.el",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "aannoo/claude-hook-comms",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "cheukyin175/learn-faster-kit",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "rygwdn/slack-tools",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "toyamarinyon/giselle",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "alexei-led/aws-mcp-server",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "cloudartisan/cloudartisan.github.io",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "zeng3ld/claude-session-restore",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "jeremymailen/kotlinter-gradle",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "danielrosehill/claude-code-linux-desktop-slash-commands",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "omril321/automated-notebooklm",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "muratcankoylan/ralph-wiggum-marketer",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "sgcarstrends/backend",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ayoubben18/ab-method",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "spylang/spy",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "rullerzhou-afk/clawd-on-desk",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "stevemolitor/claude-code.el",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "liam-hq/liam",
-      "graph_distance": 3
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "frankbria/ralph-claude-code",
@@ -1500,6 +1400,56 @@
       "discovered_via": "explicit-github-link",
       "full_name": "slopus/slopus.github.io",
       "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cheukyin175/learn-faster-kit",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "jpanther/congo",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "pinterest/ktlint",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "danielrosehill/claude-code-repos-index",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "danielrosehill/claude-slash-commands",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "danielrosehill/github-master-index",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "googlefonts/noto-emoji",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "marciogranzotto/clawd-tank",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "purcell/inheritenv",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "stevemolitor/monet",
+      "graph_distance": 4
     }
   ],
   "processed": [
@@ -1805,6 +1755,26 @@
     "viperjuice/flutter-structurizr",
     "owloops/claude-powerline",
     "dagger/container-use",
-    "matt1398/claude-devtools"
+    "matt1398/claude-devtools",
+    "everyinc/compound-engineering-plugin",
+    "metabase/metabase",
+    "manzaltu/claude-code-ide.el",
+    "aannoo/hcom",
+    "hluaguo/learn-faster-kit",
+    "rygwdn/slack-tools",
+    "toyamarinyon/giselle",
+    "alexei-led/aws-mcp-server",
+    "cloudartisan/cloudartisan.github.io",
+    "zeng3ld/claude-session-restore",
+    "jeremymailen/kotlinter-gradle",
+    "danielrosehill/claude-code-linux-desktop-slash-commands",
+    "omril321/automated-notebooklm",
+    "muratcankoylan/ralph-wiggum-marketer",
+    "sgcarstrends/sgcarstrends",
+    "ayoubben18/ab-method",
+    "spylang/spy",
+    "rullerzhou-afk/clawd-on-desk",
+    "stevemolitor/claude-code.el",
+    "liam-hq/liam"
   ]
 }

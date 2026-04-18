@@ -1,0 +1,12 @@
+{
+  "component": "tokorom/action-slack-incoming-webhook@d57bf1eb618f3dae9509afefa70d5774ad3d42bf",
+  "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "last_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-schema-drift.yml",
+      "source_repo": "liam-hq/liam"
+    }
+  ]
+}

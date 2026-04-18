@@ -1,0 +1,12 @@
+{
+  "component": "turtlequeue/setup-babashka@2d4df498c7a578b4f3e906283f9af913590bdec7",
+  "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "last_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/athena.yml",
+      "source_repo": "metabase/metabase"
+    }
+  ]
+}

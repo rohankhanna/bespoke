@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T09:23:05.253565+00:00",
+  "last_seen_at": "2026-04-18T09:23:47.800515+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1562,6 +1562,61 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "matt1398/claude-devtools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/app-db.yml",
+      "source_repo": "metabase/metabase"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/athena.yml",
+      "source_repo": "metabase/metabase"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign.yml",
+      "source_repo": "metabase/metabase"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-backport.yml",
+      "source_repo": "metabase/metabase"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backend-cloverage.yml",
+      "source_repo": "metabase/metabase"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backend.yml",
+      "source_repo": "metabase/metabase"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "manzaltu/claude-code-ide.el"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rygwdn/slack-tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ayoubben18/ab-method"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "spylang/spy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rullerzhou-afk/clawd-on-desk"
     }
   ]
 }

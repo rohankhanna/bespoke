@@ -1,0 +1,1758 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "stevemolitor/monet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "purcell/inheritenv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": ":vc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "eat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "### Using straight.el",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-c c",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code-terminal-backend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "elisp (setq claude-code-terminal-backend 'vterm)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code-transient",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-c c m",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-c c c",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code-start-in-directory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-c c d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code-continue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code-resume",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code-kill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-c c k",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code-send-command",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-c c s",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code-send-command-with-context",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-c c x",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code-send-region",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-c c r",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-u C-c c r",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code-send-file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code-send-buffer-file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-c c o",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code-fix-error-at-point",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-c c e",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code-toggle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-c c t",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code-switch-to-buffer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-c c b",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code-toggle-read-only-mode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-c c z",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code-send-return",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-c c y",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code-send-escape",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-c c n",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code-send-1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-c c 1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code-send-2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-c c 2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code-send-3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-c c 3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "use-package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code.el",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code-new-instance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-send-command",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-u claude-code-switch-to-buffer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code-select-buffer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-g",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "Shift-Return",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "Return",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "Alt-Return",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "Command-Return",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code-newline-keybinding-style",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-u",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-u C-u",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-c c C",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-c c R",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-c c i",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code-kill-all",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-c c K",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code-fork",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-c c f",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code-slash-commands",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-c c B",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code-cycle-mode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-c c M",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "sound name",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "notify-send",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "kdialog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "To add sound on Linux:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code-event-hook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code-handle-hook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "(type buffer-name &rest args)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "run-hook-with-args-until-success",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "emacsclient",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": ":type",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "notification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "stop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "pre-tool-use",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "post-tool-use",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": ":buffer-name",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "$CLAUDE_BUFFER_NAME",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": ":json-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": ":args",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "The command pattern:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "Where: -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-v",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "Control-v",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "Command-v",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-y",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "yank",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "C-x C-s",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "global-auto-revert-mode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "(see",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": ") ## Customization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code-display-window-fn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "display-buffer-alist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "init.el",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "claude-code-repl-face",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "line-spacing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "vterm-max-scrollback",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "vterm-min-window-width",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "custom-set-variables",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "setop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "setq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "vterm-timer-delay",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "nil",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/claude-code.el",
+      "target": "0.1",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:24:14.383078+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 39448
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Claude Code Emacs integration",
+    "full_name": "stevemolitor/claude-code.el",
+    "html_url": "https://github.com/stevemolitor/claude-code.el",
+    "language": "Emacs Lisp",
+    "pushed_at": "2025-12-18T22:56:06Z",
+    "topics": [],
+    "updated_at": "2026-04-14T12:54:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "purcell/inheritenv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stevemolitor/monet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ":vc"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "eat"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Using straight.el"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "eat"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-terminal-backend"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "elisp (setq claude-code-terminal-backend 'vterm)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-transient"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c m"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c c"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-start-in-directory"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c d"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-continue"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-resume"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-kill"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c k"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-send-command"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c s"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-send-command-with-context"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c x"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-send-region"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c r"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-u C-c c r"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-send-file"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-send-buffer-file"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c o"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-send-buffer-file"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-send-region"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-fix-error-at-point"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c e"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-toggle"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c t"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-switch-to-buffer"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c b"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-toggle"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c t"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-switch-to-buffer"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c b"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-toggle-read-only-mode"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c z"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-toggle-read-only-mode"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-send-return"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c y"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-send-escape"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c n"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-send-1"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c 1"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-send-2"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c 2"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-send-3"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c 3"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "use-package"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code.el"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-new-instance"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-send-command"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-switch-to-buffer"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-kill"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-u claude-code-switch-to-buffer"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-select-buffer"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-g"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Shift-Return"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Return"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Alt-Return"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Return"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Return"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Shift-Return"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Return"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Command-Return"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-newline-keybinding-style"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-transient"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c m"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c c"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-u"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-u C-u"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-start-in-directory"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c d"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-u"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-continue"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c C"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-u"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-u C-u"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-resume"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c R"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-u"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-u C-u"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-new-instance"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c i"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-u"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-u C-u"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-kill"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c k"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-kill-all"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c K"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-send-command"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c s"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-u"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-send-command-with-context"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c x"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-u"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-send-region"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c r"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-u"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-u C-u"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-send-file"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-send-buffer-file"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c o"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-u"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-u C-u"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-fix-error-at-point"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c e"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-u"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-fork"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c f"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-slash-commands"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-toggle"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c t"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-switch-to-buffer"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c b"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-u"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-select-buffer"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c B"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-toggle-read-only-mode"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c z"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-cycle-mode"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c M"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-send-return"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c y"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-send-escape"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c n"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-send-1"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c 1"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-send-2"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c 2"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-send-3"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-c c 3"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "sound name"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "notify-send"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "kdialog"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "To add sound on Linux:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-event-hook"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-handle-hook"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(type buffer-name &rest args)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "run-hook-with-args-until-success"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-event-hook"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "emacsclient"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ":type"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "notification"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "stop"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "pre-tool-use"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "post-tool-use"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ":buffer-name"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "$CLAUDE_BUFFER_NAME"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ":json-data"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ":args"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ":args"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-handle-hook"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "The command pattern:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Where: -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-v"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Control-v"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Command-v"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-y"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "yank"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C-x C-s"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "global-auto-revert-mode"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(see"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ") ## Customization"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-display-window-fn"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "display-buffer-alist"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "init.el"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-code-repl-face"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "line-spacing"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "vterm-max-scrollback"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "vterm-min-window-width"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "vterm-min-window-width"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "custom-set-variables"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "setop"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "setq"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "vterm-timer-delay"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "nil"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "0.1"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "nil"
+    }
+  ]
+}

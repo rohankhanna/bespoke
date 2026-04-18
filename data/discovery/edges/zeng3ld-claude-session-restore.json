@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ZENG3LD/claude-session-restore",
+      "target": "list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ZENG3LD/claude-session-restore",
+      "target": "load",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ZENG3LD/claude-session-restore",
+      "target": "The binary will be at",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ZENG3LD/claude-session-restore",
+      "target": "(or",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ZENG3LD/claude-session-restore",
+      "target": "bash cargo install --path session-summary",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ZENG3LD/claude-session-restore",
+      "target": "### Install Claude Code Skill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ZENG3LD/claude-session-restore",
+      "target": "**Load full context:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ZENG3LD/claude-session-restore",
+      "target": "tail",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ZENG3LD/claude-session-restore",
+      "target": "TNxMKsvVLYViQ5X5sgCYmkzH4qjhhh5U7X",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ZENG3LD/claude-session-restore",
+      "target": "0xEF3B94Fe845E21371b4C4C5F2032E1f23A13Aa6e",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ZENG3LD/claude-session-restore",
+      "target": "bc1qjgzthxja8umt5tvrp5tfcf9zeepmhn0f6mnt40",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ZENG3LD/claude-session-restore",
+      "target": "DZJjmH8Cs5wEafz5Ua86wBBkurSA4xdWXa3LWnBUR94c",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T09:23:47.800515+00:00",
+  "source_repo": "ZENG3LD/claude-session-restore"
+}

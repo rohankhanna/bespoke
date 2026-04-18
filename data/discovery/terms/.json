@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T09:23:05.253565+00:00",
+  "last_seen_at": "2026-04-18T09:23:47.800515+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -121,6 +121,26 @@
       "discovered_via": "inline-code",
       "source_file": "README.md",
       "source_repo": "Owloops/claude-powerline"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": ".github/workflows/app-db.yml",
+      "source_repo": "metabase/metabase"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aannoo/hcom"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cloudartisan/cloudartisan.github.io"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ayoubben18/ab-method"
     }
   ],
   "term": "| |---|---|---| |"

@@ -1,12 +1,17 @@
 {
   "component": "actions/configure-pages@v4",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-04-18T09:17:12.863479+00:00",
+  "last_seen_at": "2026-04-18T09:23:47.800515+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/deploy-pages.yml",
       "source_repo": "mbailey/voicemode"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/playground-deploy.yml",
+      "source_repo": "spylang/spy"
     }
   ]
 }

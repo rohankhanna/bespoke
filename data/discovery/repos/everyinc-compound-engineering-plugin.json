@@ -1,0 +1,741 @@
+{
+  "components": [
+    {
+      "component": "citty",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "js-yaml",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@semantic-release/changelog",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@semantic-release/git",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/js-yaml",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bun-types",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semantic-release",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v6.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pr.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pr.yml"
+    },
+    {
+      "component": "googleapis/release-please-action@v4.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pr.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pr.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-preview.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-preview.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "### Cursor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "opencode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "opencode.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "codex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "ce:*",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "workflows:*",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "droid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "Bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "Execute",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "Write",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "Create",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "mcporter.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "workflows:plan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "copilot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "COPILOT_MCP_",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "kiro",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "openclaw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "openclaw-extension.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "windsurf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "mcp_config.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "qwen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "Run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "instead of",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "plugin-path",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "install",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "Both features use the",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "Usage:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "This syncs: - Personal skills from",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "config.toml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "citty",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "js-yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "@semantic-release/changelog",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "@semantic-release/git",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "@types/js-yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "bun-types",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "semantic-release",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "amannn/action-semantic-pull-request@v6.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "Deploy Documentation to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "googleapis/release-please-action@v4.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "Release PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-preview.yml",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-preview.yml",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-preview.yml",
+      "source_repo": "EveryInc/compound-engineering-plugin",
+      "target": "Release Preview",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:23:49.251743+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12260
+    },
+    {
+      "path": "package.json",
+      "size": 1147
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 990
+    },
+    {
+      "path": ".github/workflows/deploy-docs.yml",
+      "size": 796
+    },
+    {
+      "path": ".github/workflows/release-pr.yml",
+      "size": 2465
+    },
+    {
+      "path": ".github/workflows/release-preview.yml",
+      "size": 3324
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+    "full_name": "EveryInc/compound-engineering-plugin",
+    "html_url": "https://github.com/EveryInc/compound-engineering-plugin",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-18T09:23:20Z",
+    "topics": [
+      "compound",
+      "engineering"
+    ],
+    "updated_at": "2026-04-18T09:05:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Cursor"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "opencode"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "opencode.json"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "codex"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ce:*"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "workflows:*"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "droid"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Bash"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Execute"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Write"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Create"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "mcporter.json"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "gemini"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "workflows:plan"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "copilot"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "COPILOT_MCP_"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "kiro"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "openclaw"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "openclaw-extension.json"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "windsurf"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "mcp_config.json"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "qwen"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Run"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "instead of"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "plugin-path"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "install"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Both features use the"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Usage:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "This syncs: - Personal skills from"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "opencode"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "codex"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "droid"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "copilot"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "gemini"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "windsurf"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "kiro"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "qwen"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "openclaw"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "config.toml"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "term": "Deploy Documentation to GitHub Pages"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-pr.yml",
+      "term": "Release PR"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-preview.yml",
+      "term": "Release Preview"
+    }
+  ]
+}
