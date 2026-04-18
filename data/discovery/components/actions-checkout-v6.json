@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v6",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T09:21:02.237042+00:00",
+  "last_seen_at": "2026-04-18T09:22:19.136418+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -457,6 +457,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/run-pipelines.yml",
       "source_repo": "elizaOS/elizaos.github.io"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "shareAI-lab/learn-claude-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "shareAI-lab/learn-claude-code"
     }
   ]
 }

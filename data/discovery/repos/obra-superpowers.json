@@ -1,0 +1,126 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "obra/superpowers",
+      "target": "Search for Superpowers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "obra/superpowers",
+      "target": "bash superpowers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "obra/superpowers",
+      "target": "Select",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "obra/superpowers",
+      "target": "Superpowers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "obra/superpowers",
+      "target": "### Gemini CLI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "obra/superpowers",
+      "target": "To update:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "obra/superpowers",
+      "target": "bash gemini extensions update superpowers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "obra/superpowers",
+      "target": "writing-skills",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:22:26.634278+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7370
+    },
+    {
+      "path": "package.json",
+      "size": 116
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "An agentic skills framework & software development methodology that works.",
+    "full_name": "obra/superpowers",
+    "html_url": "https://github.com/obra/superpowers",
+    "language": "Shell",
+    "pushed_at": "2026-04-16T19:50:46Z",
+    "topics": [],
+    "updated_at": "2026-04-18T09:22:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Search for Superpowers"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash superpowers"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Select"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Superpowers"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Gemini CLI"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "To update:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash gemini extensions update superpowers"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "writing-skills"
+    }
+  ]
+}

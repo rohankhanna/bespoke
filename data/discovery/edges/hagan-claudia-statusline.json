@@ -1,0 +1,475 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "## Quick Install",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "Compacting... \u280b",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "default",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "compact",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "project main S4.5 $12",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "detailed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "minimal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "power",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "**macOS says \"cannot be opened\"?**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "**Statusline shows only \"~\"?**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "auto_reset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "statusline health",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "bash statusline db-maintain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "Schedule with cron:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "session_archive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "**Enable in config:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "statusline sync --push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "statusline sync --pull",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "**How it works:** 1. Claude fires",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "PostCompact",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "SessionStart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "Then:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "4. **Clean up after testing**:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "### Running Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "Build Binaries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-v2.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-v2.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-v2.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-v2.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-v2.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-v2.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "Release v2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/release-v2.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "statusline-linux-amd64.tar.gz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/release-v2.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "statusline-linux-arm64.tar.gz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/release-v2.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "statusline-darwin-amd64.tar.gz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/release-v2.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "statusline-darwin-arm64.tar.gz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/release-v2.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "statusline-windows-amd64.zip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/release-v2.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "statusline-turso-linux-amd64.tar.gz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/release-v2.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "statusline-turso-linux-arm64.tar.gz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/release-v2.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "statusline-turso-darwin-amd64.tar.gz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/release-v2.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "statusline-turso-darwin-arm64.tar.gz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/release-v2.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "statusline-turso-windows-amd64.zip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/release-v2.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "bash sha256sum -c statusline-linux-amd64.tar.gz.sha256",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "actions/dependency-review-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "github/codeql-action/upload-sarif@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "Security Audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-binaries-fixed.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-binaries-fixed.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-binaries-fixed.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "Test Binary Compatibility",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-binaries.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-binaries.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-binaries.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-binaries.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-binaries.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "Test Binary Compatibility",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "Test Installation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "token_rate_basic_test.rs\\",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hagan/claudia-statusline",
+      "target": "cargo test --test token_rate_basic_test -- --ignored\\",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T09:22:19.136418+00:00",
+  "source_repo": "hagan/claudia-statusline"
+}

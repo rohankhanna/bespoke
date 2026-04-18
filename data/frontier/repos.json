@@ -1,106 +1,6 @@
 {
-  "generated_at": "2026-04-18T09:21:02.237042+00:00",
+  "generated_at": "2026-04-18T09:22:19.136418+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "revfactory/harness",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "costiash/claude-code-docs",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "trailofbits/skills",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "jerseycheese/narraitor",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "vibe-log/vibe-log-cli",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "obra/superpowers",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "tombii/better-ccflare",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "shareai-lab/learn-claude-code",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "overseedai/viwo",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "disler/just-prompt",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "smtg-ai/claude-squad",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "hagan/claudia-statusline",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "nizos/tdd-guard",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "piebald-ai/tweakcc",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "nielsgroen/claude-tmux",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "anthropics/claude-quickstarts",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "stravu/crystal",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "zarazhangrui/codebase-to-course",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "beyondcode/claude-hooks-sdk",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "glittercowboy/taches-cc-resources",
-      "graph_distance": 3
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "neolabhq/context-engineering-kit",
@@ -1495,6 +1395,136 @@
       "discovered_via": "explicit-github-link",
       "full_name": "google-gemini/gemini-cli",
       "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "revfactory/claude-code-harness",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "revfactory/harness-100",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "rustcrypto/signatures",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "trailofbits/buttercup",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "trailofbits/claude-code-config",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "trailofbits/claude-code-devcontainer",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "nodejs/node",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "npm/cli",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "shareai-lab/claw0",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "shareai-lab/kode-agent-sdk",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "shareai-lab/kode-cli",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "googleapis/python-genai",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ollama/ollama-python",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "openai/openai-python",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aider-ai/aider",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bl-ue/tweakcc-system-prompts",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "danielnappa/tweakgc-cli",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "fgrehm/clotilde",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "crossterm-rs/crossterm",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dirs-dev/dirs-rs",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dtolnay/anyhow",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "unicode-rs/unicode-width",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "anthropics/claude-cookbooks",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "anthropics/courses",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "nimbalyst/nimbalyst",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "stephenschoettler/taches-oc-prompts",
+      "graph_distance": 4
     }
   ],
   "processed": [
@@ -1760,6 +1790,26 @@
     "opactorai/claudable",
     "elizaos/elizaos.github.io",
     "berrydev-ai/blockdoc-python",
-    "agent-sh/agnix"
+    "agent-sh/agnix",
+    "revfactory/harness",
+    "costiash/claude-code-docs",
+    "trailofbits/skills",
+    "jerseycheese/narraitor",
+    "vibe-log/vibe-log-cli",
+    "obra/superpowers",
+    "tombii/better-ccflare",
+    "shareai-lab/learn-claude-code",
+    "overseedai/viwo",
+    "disler/just-prompt",
+    "smtg-ai/claude-squad",
+    "hagan/claudia-statusline",
+    "nizos/tdd-guard",
+    "piebald-ai/tweakcc",
+    "nielsgroen/claude-tmux",
+    "anthropics/claude-quickstarts",
+    "stravu/crystal",
+    "zarazhangrui/codebase-to-course",
+    "beyondcode/claude-hooks-sdk",
+    "glittercowboy/taches-cc-resources"
   ]
 }

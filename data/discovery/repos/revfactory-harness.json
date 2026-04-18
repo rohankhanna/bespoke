@@ -1,0 +1,176 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "revfactory/harness",
+      "target": "revfactory/harness-100",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "revfactory/harness",
+      "target": "revfactory/claude-code-harness",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "revfactory/harness",
+      "target": "#### Install the plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "revfactory/harness",
+      "target": "### Direct Installation as Global Skill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "revfactory/harness",
+      "target": "## Plugin Structure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "revfactory/harness",
+      "target": "**Website Development**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "revfactory/harness",
+      "target": "**YouTube Content Planning**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "revfactory/harness",
+      "target": "**Code Review & Refactoring**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "revfactory/harness",
+      "target": "**Technical Documentation**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "revfactory/harness",
+      "target": "**Data Pipeline Design**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "revfactory/harness",
+      "target": "**Marketing Campaign**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "revfactory/harness",
+      "target": "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:22:19.889783+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8420
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+    "full_name": "revfactory/harness",
+    "html_url": "https://github.com/revfactory/harness",
+    "language": "HTML",
+    "pushed_at": "2026-04-17T19:36:15Z",
+    "topics": [
+      "claude-code",
+      "claude-code-plugin",
+      "harness",
+      "harness-engineering"
+    ],
+    "updated_at": "2026-04-18T06:50:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "revfactory/claude-code-harness",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "revfactory/harness-100",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "#### Install the plugin"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Direct Installation as Global Skill"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## Plugin Structure"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Website Development**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**YouTube Content Planning**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Code Review & Refactoring**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Technical Documentation**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Data Pipeline Design**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Marketing Campaign**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1"
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "crossterm-rs/crossterm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "dtolnay/anyhow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "dirs-dev/dirs-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "unicode-rs/unicode-width",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "bash cargo install claude-tmux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "Add the following line to your",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "### Build from source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "Add this to your",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "to bind claude-tmux to a key:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "\u2014 Idle: Ready for input -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": ") -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "| Move selection down | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "| Move selection up | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "| Expand session details | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "| Collapse session details | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "| Create new session | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "| Rename selected session | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "| Clear filter | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "| Show help | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "claude",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:22:42.949034+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4393
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 612
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Manage Claude Code within tmux. A tmux popup with session management, git worktree and pull request support.",
+    "full_name": "nielsgroen/claude-tmux",
+    "html_url": "https://github.com/nielsgroen/claude-tmux",
+    "language": "Rust",
+    "pushed_at": "2026-04-17T20:14:31Z",
+    "topics": [],
+    "updated_at": "2026-04-17T20:14:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "crossterm-rs/crossterm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dirs-dev/dirs-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dtolnay/anyhow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unicode-rs/unicode-width",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash cargo install claude-tmux"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Add the following line to your"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Build from source"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Add this to your"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "to bind claude-tmux to a key:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u2014 Idle: Ready for input -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ") -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| Move selection down | |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| Move selection up | |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| Expand session details | |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| Collapse session details | |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| Create new session | |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| Rename selected session | |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| Clear filter | |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| Show help | |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude"
+    }
+  ]
+}

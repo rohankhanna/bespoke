@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "glittercowboy/taches-cc-resources",
+      "target": "stephenschoettler/taches-oc-prompts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "glittercowboy/taches-cc-resources",
+      "target": "Commands install globally to",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "glittercowboy/taches-cc-resources",
+      "target": "@whats-next.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "glittercowboy/taches-cc-resources",
+      "target": "skill-auditor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "glittercowboy/taches-cc-resources",
+      "target": "slash-command-auditor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "glittercowboy/taches-cc-resources",
+      "target": "subagent-auditor",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:22:47.568417+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12338
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "A collection of my favorite custom Claude Code resources to make life easier.",
+    "full_name": "glittercowboy/taches-cc-resources",
+    "html_url": "https://github.com/glittercowboy/taches-cc-resources",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-01T15:10:58Z",
+    "topics": [
+      "anthropic",
+      "claude",
+      "claudecode",
+      "commands",
+      "prompts",
+      "skills",
+      "subagents"
+    ],
+    "updated_at": "2026-04-17T19:34:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stephenschoettler/taches-oc-prompts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Commands install globally to"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "@whats-next.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "skill-auditor"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "slash-command-auditor"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "subagent-auditor"
+    }
+  ]
+}

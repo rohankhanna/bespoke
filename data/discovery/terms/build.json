@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T09:21:02.237042+00:00",
+  "last_seen_at": "2026-04-18T09:22:19.136418+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -36,6 +36,21 @@
       "discovered_via": "inline-code",
       "source_file": ".github/workflows/README.md",
       "source_repo": "elizaOS/elizaos.github.io"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "OverseedAI/viwo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "smtg-ai/claude-squad"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "anthropics/claude-quickstarts"
     }
   ],
   "term": "Build"

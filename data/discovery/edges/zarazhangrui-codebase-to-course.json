@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "zarazhangrui/codebase-to-course",
+      "target": "codebase-to-course",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T09:22:19.136418+00:00",
+  "source_repo": "zarazhangrui/codebase-to-course"
+}

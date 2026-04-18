@@ -1,11 +1,21 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-18T09:10:17.311509+00:00",
+  "last_seen_at": "2026-04-18T09:22:19.136418+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
       "source_file": "README.md",
       "source_repo": "lobehub/lobe-chat-agents"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "OverseedAI/viwo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "stravu/crystal"
     }
   ],
   "term": "Code Quality"

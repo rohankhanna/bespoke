@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "beyondcode/claude-hooks-sdk",
+      "target": "validate-code.php",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "beyondcode/claude-hooks-sdk",
+      "target": "## Testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "beyondcode/claude-hooks-sdk",
+      "target": "bash composer test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "beyondcode/claude-hooks-sdk",
+      "target": "dependabot/fetch-metadata@v2.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "beyondcode/claude-hooks-sdk",
+      "target": "dependabot-auto-merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix-php-code-style-issues.yml",
+      "source_repo": "beyondcode/claude-hooks-sdk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix-php-code-style-issues.yml",
+      "source_repo": "beyondcode/claude-hooks-sdk",
+      "target": "aglipanci/laravel-pint-action@2.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fix-php-code-style-issues.yml",
+      "source_repo": "beyondcode/claude-hooks-sdk",
+      "target": "stefanzweifel/git-auto-commit-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fix-php-code-style-issues.yml",
+      "source_repo": "beyondcode/claude-hooks-sdk",
+      "target": "Fix PHP code style issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "beyondcode/claude-hooks-sdk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "beyondcode/claude-hooks-sdk",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "beyondcode/claude-hooks-sdk",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-changelog.yml",
+      "source_repo": "beyondcode/claude-hooks-sdk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-changelog.yml",
+      "source_repo": "beyondcode/claude-hooks-sdk",
+      "target": "stefanzweifel/changelog-updater-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-changelog.yml",
+      "source_repo": "beyondcode/claude-hooks-sdk",
+      "target": "stefanzweifel/git-auto-commit-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-changelog.yml",
+      "source_repo": "beyondcode/claude-hooks-sdk",
+      "target": "Update Changelog",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T09:22:19.136418+00:00",
+  "source_repo": "beyondcode/claude-hooks-sdk"
+}

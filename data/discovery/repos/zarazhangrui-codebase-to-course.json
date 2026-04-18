@@ -1,0 +1,38 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "zarazhangrui/codebase-to-course",
+      "target": "codebase-to-course",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:22:45.969233+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4277
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders.",
+    "full_name": "zarazhangrui/codebase-to-course",
+    "html_url": "https://github.com/zarazhangrui/codebase-to-course",
+    "language": "CSS",
+    "pushed_at": "2026-03-30T18:26:09Z",
+    "topics": [],
+    "updated_at": "2026-04-18T08:45:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "codebase-to-course"
+    }
+  ]
+}

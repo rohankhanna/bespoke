@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "glittercowboy/taches-cc-resources",
+      "target": "stephenschoettler/taches-oc-prompts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "glittercowboy/taches-cc-resources",
+      "target": "Commands install globally to",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "glittercowboy/taches-cc-resources",
+      "target": "@whats-next.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "glittercowboy/taches-cc-resources",
+      "target": "skill-auditor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "glittercowboy/taches-cc-resources",
+      "target": "slash-command-auditor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "glittercowboy/taches-cc-resources",
+      "target": "subagent-auditor",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T09:22:19.136418+00:00",
+  "source_repo": "glittercowboy/taches-cc-resources"
+}

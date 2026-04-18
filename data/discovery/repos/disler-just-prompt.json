@@ -1,0 +1,789 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "googleapis/python-genai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "ollama/ollama-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "openai/openai-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "just-prompt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "ceo_and_board",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "prompt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "models_prefixed_by_provider",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "prompt_from_file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "abs_file_path",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "prompt_from_file_to_file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "abs_output_dir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "ceo_model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "list_providers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "list_models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "provider",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": ": OpenAI -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": ": Anthropic -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": ": Google Gemini -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": ": Groq -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": ": DeepSeek -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": ": Ollama -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "### Environment Variables Create a",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "file):",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "bash cp .env.sample .env",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "Then edit the",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "openai:o3:high",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "openai:o4-mini:high",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "anthropic:claude-opus-4-20250514",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "anthropic:claude-sonnet-4-20250514",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "gemini:gemini-2.5-pro-preview-03-25",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "gemini:gemini-2.5-flash-preview-04-17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "The",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "mcp add-json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "claude mcp add just-prompt \"$(pbpaste)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "JSON to copy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "With multiple default models:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "### Using",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "with project scope",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "bash uv run pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "## Codebase Structure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "o4-mini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "o3-mini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": ":low",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": ":medium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": ":high",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "openai:o4-mini:low",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "o:o4-mini:high",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "reasoning.effort",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "claude-opus-4-20250514",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "claude-sonnet-4-20250514",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "anthropic:claude-opus-4-20250514:1k",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "anthropic:claude-sonnet-4-20250514:4k",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "anthropic:claude-opus-4-20250514:8000",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "claude-3-7-sonnet-20250219",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "gemini-2.5-flash-preview-04-17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "gemini:gemini-2.5-flash-preview-04-17:1k",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "gemini:gemini-2.5-flash-preview-04-17:4k",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "disler/just-prompt",
+      "target": "gemini:gemini-2.5-flash-preview-04-17:8000",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:22:32.468756+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12618
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 611
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "just-prompt is an MCP server that provides a unified interface to top LLM providers (OpenAI, Anthropic, Google Gemini, Groq, DeepSeek, and Ollama)",
+    "full_name": "disler/just-prompt",
+    "html_url": "https://github.com/disler/just-prompt",
+    "language": "Python",
+    "pushed_at": "2025-08-10T19:05:53Z",
+    "topics": [],
+    "updated_at": "2026-04-16T14:40:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googleapis/python-genai",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ollama/ollama-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/openai-python",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "just-prompt"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ceo_and_board"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "prompt"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "text"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "models_prefixed_by_provider"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "prompt_from_file"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "abs_file_path"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "models_prefixed_by_provider"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "prompt_from_file_to_file"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "abs_file_path"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "models_prefixed_by_provider"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "abs_output_dir"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ceo_and_board"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "abs_file_path"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "models_prefixed_by_provider"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "abs_output_dir"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ceo_model"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "list_providers"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "list_models"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "provider"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": OpenAI -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Anthropic -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Google Gemini -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Groq -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": DeepSeek -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Ollama -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Environment Variables Create a"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "file):"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash cp .env.sample .env"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Then edit the"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "openai:o3:high"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "openai:o4-mini:high"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "anthropic:claude-opus-4-20250514"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "anthropic:claude-sonnet-4-20250514"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "gemini:gemini-2.5-pro-preview-03-25"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "gemini:gemini-2.5-flash-preview-04-17"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "The"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "mcp add-json"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude mcp add just-prompt \"$(pbpaste)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "JSON to copy"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "With multiple default models:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Using"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "with project scope"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash uv run pytest"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## Codebase Structure"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "o4-mini"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "o3-mini"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ":low"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ":medium"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ":high"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "openai:o4-mini:low"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "o:o4-mini:high"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "reasoning.effort"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-opus-4-20250514"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-sonnet-4-20250514"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "anthropic:claude-opus-4-20250514:1k"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "anthropic:claude-sonnet-4-20250514:4k"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "anthropic:claude-opus-4-20250514:8000"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-opus-4-20250514"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-sonnet-4-20250514"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-3-7-sonnet-20250219"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "gemini-2.5-flash-preview-04-17"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "gemini:gemini-2.5-flash-preview-04-17:1k"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "gemini:gemini-2.5-flash-preview-04-17:4k"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "gemini:gemini-2.5-flash-preview-04-17:8000"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "gemini-2.5-flash-preview-04-17"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "crossterm-rs/crossterm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "dtolnay/anyhow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "dirs-dev/dirs-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "unicode-rs/unicode-width",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "bash cargo install claude-tmux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "Add the following line to your",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "### Build from source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "Add this to your",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "to bind claude-tmux to a key:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "\u2014 Idle: Ready for input -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": ") -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "| Move selection down | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "| Move selection up | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "| Expand session details | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "| Collapse session details | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "| Create new session | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "| Rename selected session | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "| Clear filter | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "| Show help | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nielsgroen/claude-tmux",
+      "target": "claude",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T09:22:19.136418+00:00",
+  "source_repo": "nielsgroen/claude-tmux"
+}
