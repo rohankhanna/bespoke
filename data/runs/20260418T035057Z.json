@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-18T03:50:57.229967+00:00",
+  "processed_repositories": [
+    "darthsim/overmind",
+    "stripe/ai",
+    "dragonkhoi/mercury-mcp",
+    "mem0ai/memory-benchmarks",
+    "kidshadow79/ogma",
+    "floxym/financial-chat",
+    "floxym/financial-chat-finance-nlp-chatbots",
+    "tornikepe/ai-chatbot",
+    "wendyalbanez/clawui",
+    "similar-colpoxerosis201/codex-wechat",
+    "aipurposes1587-max/weixin-agent-rs",
+    "jonislutheran87/weclaw",
+    "shouted-numberone752/wechat-agent-connector",
+    "seunghunbae-3svs/solo-cto-agent",
+    "mitchuski/agentprivacy-skills",
+    "nibir1/vaultsim",
+    "nesquena/hermes-webui",
+    "eikarna/hermes-rs",
+    "mohfer/nous-proxy"
+  ],
+  "remaining_frontier": 317,
+  "run_id": "20260418T035057Z",
+  "skipped_repositories": [
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "user-attachments/assets",
+      "reason": "repo_not_found"
+    }
+  ]
+}

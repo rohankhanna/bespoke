@@ -1,0 +1,102 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Shouted-numberone752/wechat-agent-connector",
+      "target": "C:\\Users\\YourName\\Downloads\\wechat-agent-connector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Shouted-numberone752/wechat-agent-connector",
+      "target": "cmd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Shouted-numberone752/wechat-agent-connector",
+      "target": "powershell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Shouted-numberone752/wechat-agent-connector",
+      "target": "C:\\Users\\YourName\\wechat-agent-connector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Shouted-numberone752/wechat-agent-connector",
+      "target": "D:\\Projects\\wechat-agent-connector",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T03:51:06.757606+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7062
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Connect and initialize WeChat agent skills in any project directory with one CLI workflow and standard install scripts",
+    "full_name": "Shouted-numberone752/wechat-agent-connector",
+    "html_url": "https://github.com/Shouted-numberone752/wechat-agent-connector",
+    "language": null,
+    "pushed_at": "2026-04-18T02:17:46Z",
+    "topics": [
+      "ai",
+      "ai-agent",
+      "bot-framework",
+      "chatbot",
+      "claude-code",
+      "clawbot",
+      "cli",
+      "codex",
+      "cursor",
+      "llm",
+      "multi-agent",
+      "open-source",
+      "openclaw-weixin",
+      "voice-assistant",
+      "wechat-bot"
+    ],
+    "updated_at": "2026-04-18T02:18:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C:\\Users\\YourName\\Downloads\\wechat-agent-connector"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cmd"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "powershell"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C:\\Users\\YourName\\wechat-agent-connector"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "D:\\Projects\\wechat-agent-connector"
+    }
+  ]
+}

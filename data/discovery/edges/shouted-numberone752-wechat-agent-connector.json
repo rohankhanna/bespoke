@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Shouted-numberone752/wechat-agent-connector",
+      "target": "C:\\Users\\YourName\\Downloads\\wechat-agent-connector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Shouted-numberone752/wechat-agent-connector",
+      "target": "cmd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Shouted-numberone752/wechat-agent-connector",
+      "target": "powershell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Shouted-numberone752/wechat-agent-connector",
+      "target": "C:\\Users\\YourName\\wechat-agent-connector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Shouted-numberone752/wechat-agent-connector",
+      "target": "D:\\Projects\\wechat-agent-connector",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T03:50:57.229967+00:00",
+  "source_repo": "Shouted-numberone752/wechat-agent-connector"
+}

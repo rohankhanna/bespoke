@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kidshadow79/Ogma",
+      "target": "true",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kidshadow79/Ogma",
+      "target": "false",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kidshadow79/Ogma",
+      "target": "llama-cpp-python",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kidshadow79/Ogma",
+      "target": "pip install",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kidshadow79/Ogma",
+      "target": "pip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kidshadow79/Ogma",
+      "target": "gpu_layers = 0",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kidshadow79/Ogma",
+      "target": "| Minimal dependencies only | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kidshadow79/Ogma",
+      "target": "OGMA starts automatically at",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T03:51:02.090009+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20318
+    },
+    {
+      "path": "requirements.txt",
+      "size": 4664
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "Assistant IA \u00e0 m\u00e9moire persistante et croissance organique",
+    "full_name": "kidshadow79/Ogma",
+    "html_url": "https://github.com/kidshadow79/Ogma",
+    "language": "Python",
+    "pushed_at": "2026-04-17T18:24:44Z",
+    "topics": [
+      "ai",
+      "chatbot",
+      "dream-engine",
+      "faiss",
+      "llm",
+      "lmstudio",
+      "memory",
+      "mistral",
+      "ollama",
+      "oobabooga",
+      "rag",
+      "sqlite3"
+    ],
+    "updated_at": "2026-04-17T18:24:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "true"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "false"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "llama-cpp-python"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "pip install"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "pip"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "gpu_layers = 0"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| Minimal dependencies only | |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "OGMA starts automatically at"
+    }
+  ]
+}

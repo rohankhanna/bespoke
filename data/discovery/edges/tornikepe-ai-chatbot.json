@@ -1,0 +1,223 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "NEXT_PUBLIC_*",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "AI_PROVIDER",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "openai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "groq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "GROQ_API_KEY",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "OPENAI_API_KEY",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "AI_MODEL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "SYSTEM_PROMPT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "NEXT_PUBLIC_BRAND_NAME",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "NEXT_PUBLIC_HERO_HEADLINE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "NEXT_PUBLIC_HERO_SUBHEADLINE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "NEXT_PUBLIC_CHAT_TITLE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "NEXT_PUBLIC_CHAT_SUBTITLE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "NEXT_PUBLIC_WELCOME_HEADING",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "NEXT_PUBLIC_WELCOME_BODY",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "NEXT_PUBLIC_PROMPTS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "NEXT_PUBLIC_HIDE_LANDING",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "true",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "next.config.js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "bash vercel --prod",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "next",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "openai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "react-markdown",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "lucide-react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "uuid",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "tailwindcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "postcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "autoprefixer",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-18T03:50:57.229967+00:00",
+  "source_repo": "tornikepe/ai-chatbot"
+}

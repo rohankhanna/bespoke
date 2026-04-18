@@ -1,0 +1,123 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aipurposes1587-max/weixin-agent-rs",
+      "target": "wechat-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aipurposes1587-max/weixin-agent-rs",
+      "target": "wechat-agent --account your-account-name",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aipurposes1587-max/weixin-agent-rs",
+      "target": "README.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aipurposes1587-max/weixin-agent-rs",
+      "target": "README.en.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aipurposes1587-max/weixin-agent-rs",
+      "target": "README.es.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "aipurposes1587-max/weixin-agent-rs",
+      "target": "tianrking/weixin-agent-rs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-18T03:51:05.756991+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5001
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1507
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Build a Rust WeChat iLink bot SDK with pluggable agents, unified startup, and clear terminal logs for reliable multi-account use",
+    "full_name": "aipurposes1587-max/weixin-agent-rs",
+    "html_url": "https://github.com/aipurposes1587-max/weixin-agent-rs",
+    "language": "Rust",
+    "pushed_at": "2026-04-18T02:18:04Z",
+    "topics": [
+      "agent",
+      "ai",
+      "ai-agent",
+      "async",
+      "bot",
+      "chatbot",
+      "clawbot",
+      "ilink",
+      "openclaw",
+      "rust",
+      "sdk",
+      "tokio",
+      "wechat",
+      "wechat-bot"
+    ],
+    "updated_at": "2026-04-18T02:18:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tianrking/weixin-agent-rs",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "wechat-agent"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "wechat-agent --account your-account-name"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "README.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "README.en.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "README.es.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "wechat-agent --account your-account-name"
+    }
+  ]
+}

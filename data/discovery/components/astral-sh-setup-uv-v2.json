@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@v2",
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-04-17T18:04:43.852571+00:00",
+  "last_seen_at": "2026-04-18T03:50:57.229967+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/unittest.yml",
       "source_repo": "plastic-labs/honcho"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "stripe/ai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi_release.yml",
+      "source_repo": "stripe/ai"
     }
   ]
 }

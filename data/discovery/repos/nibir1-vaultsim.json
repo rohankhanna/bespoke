@@ -1,0 +1,333 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Nibir1/VaultSim",
+      "target": "RunnableSequence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Nibir1/VaultSim",
+      "target": "persona_reply",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Nibir1/VaultSim",
+      "target": "judge_explanation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Nibir1/VaultSim",
+      "target": "make tf-destroy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Nibir1/VaultSim",
+      "target": "make dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Nibir1/VaultSim",
+      "target": "Password123",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Nibir1/VaultSim",
+      "target": "SECURE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Nibir1/VaultSim",
+      "target": "+100",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Nibir1/VaultSim",
+      "target": "BREACH DETECTED",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Nibir1/VaultSim",
+      "target": "+40",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Nibir1/VaultSim",
+      "target": "Makefile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Nibir1/VaultSim",
+      "target": "make",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "Nibir1/VaultSim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "Nibir1/VaultSim",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "Nibir1/VaultSim",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "Nibir1/VaultSim",
+      "target": "VaultSim Enterprise CD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Nibir1/VaultSim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Nibir1/VaultSim",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Nibir1/VaultSim",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Nibir1/VaultSim",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Nibir1/VaultSim",
+      "target": "VaultSim Enterprise CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T03:51:09.459324+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15631
+    },
+    {
+      "path": ".github/workflows/cd.yml",
+      "size": 1146
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1134
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "An event-driven AI social engineering simulator. Execute prompt injection attacks against a defensive AI Persona while an invisible AI Judge scores your tactics in real-time. A polyglot microservices architecture built with Go, Python (LangChain), gRPC, React, WebSockets, and Terraform (AWS).",
+    "full_name": "Nibir1/VaultSim",
+    "html_url": "https://github.com/Nibir1/VaultSim",
+    "language": "Python",
+    "pushed_at": "2026-03-26T07:05:03Z",
+    "topics": [
+      "ai",
+      "aws",
+      "cybersecurity",
+      "docker",
+      "dual-agent",
+      "event-driven",
+      "finops",
+      "golang",
+      "grpc",
+      "langchain",
+      "llm",
+      "microservices",
+      "prompt-injection",
+      "python",
+      "react",
+      "real-time",
+      "social-engineering",
+      "tailwind-css",
+      "terraform",
+      "websockets"
+    ],
+    "updated_at": "2026-03-26T07:05:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "RunnableSequence"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "persona_reply"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "judge_explanation"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "make tf-destroy"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "make dev"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Password123"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SECURE"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "+100"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "BREACH DETECTED"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SECURE"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "+40"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SECURE"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Makefile"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "make"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd.yml",
+      "term": "VaultSim Enterprise CD"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "VaultSim Enterprise CI"
+    }
+  ]
+}

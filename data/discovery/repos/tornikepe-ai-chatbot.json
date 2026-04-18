@@ -1,0 +1,410 @@
+{
+  "components": [
+    {
+      "component": "next",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "openai",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-markdown",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lucide-react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "uuid",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tailwindcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "autoprefixer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "NEXT_PUBLIC_*",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "AI_PROVIDER",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "openai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "groq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "GROQ_API_KEY",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "OPENAI_API_KEY",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "AI_MODEL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "SYSTEM_PROMPT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "NEXT_PUBLIC_BRAND_NAME",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "NEXT_PUBLIC_HERO_HEADLINE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "NEXT_PUBLIC_HERO_SUBHEADLINE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "NEXT_PUBLIC_CHAT_TITLE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "NEXT_PUBLIC_CHAT_SUBTITLE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "NEXT_PUBLIC_WELCOME_HEADING",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "NEXT_PUBLIC_WELCOME_BODY",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "NEXT_PUBLIC_PROMPTS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "NEXT_PUBLIC_HIDE_LANDING",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "true",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "next.config.js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "bash vercel --prod",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "next",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "openai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "react-markdown",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "lucide-react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "uuid",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "tailwindcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "postcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tornikepe/ai-chatbot",
+      "target": "autoprefixer",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-18T03:51:04.141170+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3823
+    },
+    {
+      "path": "package.json",
+      "size": 603
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "AI-powered customer support chatbot with streaming responses and embeddable widget",
+    "full_name": "tornikepe/ai-chatbot",
+    "html_url": "https://github.com/tornikepe/ai-chatbot",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-17T18:05:13Z",
+    "topics": [
+      "ai",
+      "chatbot",
+      "nextjs",
+      "openai",
+      "react",
+      "tailwindcss"
+    ],
+    "updated_at": "2026-04-17T18:05:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "NEXT_PUBLIC_*"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "AI_PROVIDER"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "openai"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "groq"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "demo"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "GROQ_API_KEY"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "OPENAI_API_KEY"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "AI_MODEL"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SYSTEM_PROMPT"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "NEXT_PUBLIC_BRAND_NAME"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "NEXT_PUBLIC_HERO_HEADLINE"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "NEXT_PUBLIC_HERO_SUBHEADLINE"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "NEXT_PUBLIC_CHAT_TITLE"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "NEXT_PUBLIC_CHAT_SUBTITLE"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "NEXT_PUBLIC_WELCOME_HEADING"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "NEXT_PUBLIC_WELCOME_BODY"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "NEXT_PUBLIC_PROMPTS"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "NEXT_PUBLIC_HIDE_LANDING"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "true"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "next.config.js"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash vercel --prod"
+    }
+  ]
+}

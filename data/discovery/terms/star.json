@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
+  "last_seen_at": "2026-04-18T03:50:57.229967+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Floxym/financial-chat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Floxym/financial-chat-Finance-NLP-Chatbots"
+    }
+  ],
+  "term": "Star"
+}

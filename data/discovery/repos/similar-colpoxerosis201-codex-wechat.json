@@ -1,0 +1,208 @@
+{
+  "components": [
+    {
+      "component": "dotenv",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "qrcode-terminal",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ws",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Similar-colpoxerosis201/codex-wechat",
+      "target": "codex-wechat.exe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Similar-colpoxerosis201/codex-wechat",
+      "target": "config.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Similar-colpoxerosis201/codex-wechat",
+      "target": "logs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Similar-colpoxerosis201/codex-wechat",
+      "target": "README.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Similar-colpoxerosis201/codex-wechat",
+      "target": "assets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Similar-colpoxerosis201/codex-wechat",
+      "target": "C:\\Apps\\codex-wechat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Similar-colpoxerosis201/codex-wechat",
+      "target": "C:\\Apps\\codex-wechat\\",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Similar-colpoxerosis201/codex-wechat",
+      "target": "C:\\Apps\\codex-wechat\\codex-wechat.exe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Similar-colpoxerosis201/codex-wechat",
+      "target": "C:\\Apps\\codex-wechat\\config.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Similar-colpoxerosis201/codex-wechat",
+      "target": "C:\\Apps\\codex-wechat\\logs\\",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Similar-colpoxerosis201/codex-wechat",
+      "target": "dotenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Similar-colpoxerosis201/codex-wechat",
+      "target": "qrcode-terminal",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Similar-colpoxerosis201/codex-wechat",
+      "target": "ws",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-18T03:51:05.078748+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6411
+    },
+    {
+      "path": "package.json",
+      "size": 1565
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Bridge WeChat to local Codex app-server with\u626b\u7801\u767b\u5f55, long-polling messages, and per-user workspace binding",
+    "full_name": "Similar-colpoxerosis201/codex-wechat",
+    "html_url": "https://github.com/Similar-colpoxerosis201/codex-wechat",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-18T02:18:14Z",
+    "topics": [
+      "acp",
+      "agent",
+      "automation",
+      "chatbot",
+      "chatops",
+      "claude",
+      "claude-code",
+      "clawbot",
+      "developer-tools",
+      "discord",
+      "discord-bot",
+      "lark-bot",
+      "openclaw",
+      "openclaw-desktop",
+      "openclaw-feishu",
+      "openclaw-weixin",
+      "self-hosted",
+      "skills",
+      "slack-bot",
+      "wechat-bot"
+    ],
+    "updated_at": "2026-04-18T02:18:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "codex-wechat.exe"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "config.json"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "logs"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "README.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "assets"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C:\\Apps\\codex-wechat"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C:\\Apps\\codex-wechat\\"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C:\\Apps\\codex-wechat\\codex-wechat.exe"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C:\\Apps\\codex-wechat\\config.json"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "C:\\Apps\\codex-wechat\\logs\\"
+    }
+  ]
+}

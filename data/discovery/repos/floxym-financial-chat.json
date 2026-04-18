@@ -1,0 +1,218 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Floxym/financial-chat",
+      "target": "bash poetry install",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Floxym/financial-chat",
+      "target": "at the project root for these:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Floxym/financial-chat",
+      "target": "bash docker build -t financial-chat .",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Floxym/financial-chat",
+      "target": "Run the Docker container:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Floxym/financial-chat",
+      "target": "## Project Structure -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Floxym/financial-chat",
+      "target": ": Main application code -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Floxym/financial-chat",
+      "target": ": LangChain agent and prompts -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Floxym/financial-chat",
+      "target": ": Streamlit UI -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Floxym/financial-chat",
+      "target": ": FastAPI server -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Floxym/financial-chat",
+      "target": ": Project dependencies and configuration -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Floxym/financial-chat",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Floxym/financial-chat",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Floxym/financial-chat",
+      "target": "Star",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Floxym/financial-chat",
+      "target": "date '+%Y-%m-%d %H:%M:%S",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T03:51:02.682568+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4152
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1180
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "A financial chat application powered by LangChain, OpenBB, and Claude 3 Opus.",
+    "full_name": "Floxym/financial-chat",
+    "html_url": "https://github.com/Floxym/financial-chat",
+    "language": "Python",
+    "pushed_at": "2026-04-18T01:04:42Z",
+    "topics": [
+      "ai",
+      "chatbot",
+      "claude-3",
+      "equities",
+      "etfs",
+      "finance",
+      "financial-analysis",
+      "fundamental-analysis",
+      "indexes",
+      "langchain",
+      "langgraph",
+      "openbb",
+      "performance-analysis",
+      "python",
+      "sector-analysis",
+      "stock-market",
+      "streamlit",
+      "technical-analysis"
+    ],
+    "updated_at": "2026-04-18T01:04:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash poetry install"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "at the project root for these:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash docker build -t financial-chat ."
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Run the Docker container:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## Project Structure -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Main application code -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": LangChain agent and prompts -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Streamlit UI -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": FastAPI server -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Project dependencies and configuration -"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Star"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/main.yml",
+      "term": "date '+%Y-%m-%d %H:%M:%S"
+    }
+  ]
+}

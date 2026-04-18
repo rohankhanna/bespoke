@@ -1,0 +1,232 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mitchuski/agentprivacy-skills",
+      "target": "mitchuski/agentprivacy-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mitchuski/agentprivacy-skills",
+      "target": "SKILL.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mitchuski/agentprivacy-skills",
+      "target": "neg(x) = -x mod 64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mitchuski/agentprivacy-skills",
+      "target": "bnot(x) = ~x = 63-x",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mitchuski/agentprivacy-skills",
+      "target": "neg\u2218bnot = succ",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mitchuski/agentprivacy-skills",
+      "target": "neg(bnot(x)) = succ(x)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mitchuski/agentprivacy-skills",
+      "target": "ring-algebra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mitchuski/agentprivacy-skills",
+      "target": "content-addressing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mitchuski/agentprivacy-skills",
+      "target": "atlas-geometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mitchuski/agentprivacy-skills",
+      "target": "dihedral-sovereignty",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mitchuski/agentprivacy-skills",
+      "target": "five-strikes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mitchuski/agentprivacy-skills",
+      "target": "derivation-certificate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mitchuski/agentprivacy-skills",
+      "target": "stranger-ceremony",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mitchuski/agentprivacy-skills",
+      "target": "toroidal-witness",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mitchuski/agentprivacy-skills",
+      "target": "The",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mitchuski/agentprivacy-skills",
+      "target": "(\u2694\ufe0f\u22a5\u2ffb\u22a5\ud83e\uddd9)\u00b7\u262f\ufe0f\ud83d\udd37 \u00b7 PVM-V5.3.1",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T03:51:08.671964+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8838
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Privacy-first AI agent skills for Claude Code. 80+ skills and personas for ZKP, decentralized identity, dual-agent architecture, and sovereign AI",
+    "full_name": "mitchuski/agentprivacy-skills",
+    "html_url": "https://github.com/mitchuski/agentprivacy-skills",
+    "language": "Python",
+    "pushed_at": "2026-04-13T10:55:54Z",
+    "topics": [
+      "agent-skills",
+      "ai-agent",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "decentralised-identity",
+      "dual-agent",
+      "privacy",
+      "sovereign-ai",
+      "zero-knowledge",
+      "zkp"
+    ],
+    "updated_at": "2026-04-13T10:55:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mitchuski/agentprivacy-docs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SKILL.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "neg(x) = -x mod 64"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bnot(x) = ~x = 63-x"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "neg\u2218bnot = succ"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "neg(bnot(x)) = succ(x)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ring-algebra"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "content-addressing"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "atlas-geometry"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "dihedral-sovereignty"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "five-strikes"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "derivation-certificate"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "stranger-ceremony"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "toroidal-witness"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "The"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(\u2694\ufe0f\u22a5\u2ffb\u22a5\ud83e\uddd9)\u00b7\u262f\ufe0f\ud83d\udd37 \u00b7 PVM-V5.3.1"
+    }
+  ]
+}

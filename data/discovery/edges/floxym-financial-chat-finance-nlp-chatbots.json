@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Floxym/financial-chat-Finance-NLP-Chatbots",
+      "target": "tarikmanoar/tarikmanoar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Floxym/financial-chat-Finance-NLP-Chatbots",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Floxym/financial-chat-Finance-NLP-Chatbots",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Floxym/financial-chat-Finance-NLP-Chatbots",
+      "target": "Star",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Floxym/financial-chat-Finance-NLP-Chatbots",
+      "target": "date '+%Y-%m-%d %H:%M:%S",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T03:50:57.229967+00:00",
+  "source_repo": "Floxym/financial-chat-Finance-NLP-Chatbots"
+}

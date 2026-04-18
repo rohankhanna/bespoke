@@ -1,0 +1,111 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Floxym/financial-chat-Finance-NLP-Chatbots",
+      "target": "tarikmanoar/tarikmanoar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Floxym/financial-chat-Finance-NLP-Chatbots",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Floxym/financial-chat-Finance-NLP-Chatbots",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Floxym/financial-chat-Finance-NLP-Chatbots",
+      "target": "Star",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Floxym/financial-chat-Finance-NLP-Chatbots",
+      "target": "date '+%Y-%m-%d %H:%M:%S",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T03:51:03.593088+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6408
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1180
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "A finance tracking app that provides detailed insights about your expenses using AI, allowing you to chat and call interaction with your financial data.",
+    "full_name": "Floxym/financial-chat-Finance-NLP-Chatbots",
+    "html_url": "https://github.com/Floxym/financial-chat-Finance-NLP-Chatbots",
+    "language": "C#",
+    "pushed_at": "2026-04-18T01:04:36Z",
+    "topics": [
+      "ai",
+      "chatbot",
+      "claude-3",
+      "equities",
+      "etfs",
+      "finance",
+      "financial-analysis",
+      "fundamental-analysis",
+      "indexes",
+      "langchain",
+      "langgraph",
+      "openbb",
+      "performance-analysis",
+      "python",
+      "sector-analysis",
+      "stock-market",
+      "streamlit",
+      "technical-analysis"
+    ],
+    "updated_at": "2026-04-18T01:04:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tarikmanoar/tarikmanoar",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Star"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/main.yml",
+      "term": "date '+%Y-%m-%d %H:%M:%S"
+    }
+  ]
+}

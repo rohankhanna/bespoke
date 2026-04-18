@@ -1,0 +1,761 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "ddollar/foreman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "darthsim/hivemind",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "tmux/tmux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "Procfile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "bash brew install overmind",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "### With Ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "bash gem install overmind",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "overmind -h",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "bash $ overmind start",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "bash $ overmind s",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "#### Specifying a Procfile If a",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "for the first process and increases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "#### Disabling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "variable, you can disable it:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "This takes precedence over the previous",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "flag. i.e. if you:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "There is a special name",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "The special name",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "supersedes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "tmux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "(or your tmux prefix) and then",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "overmind connect",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "overmind",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "Ctrl b Ctrl b, d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "Ctrl b",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "bash $ overmind restart sidekiq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "bash $ overmind restart sidekiq assets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "bash $ overmind restart 'sidekiq*",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "bash $ overmind stop sidekiq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "bash $ overmind stop sidekiq assets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "bash $ overmind stop 'sidekiq*",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "bash $ overmind kill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "variable=value",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "file with",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "variable:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "file entirely (",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "bash $ overmind run yarn install",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "Use the",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "command for the logs:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "bash $ overmind echo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "You can quit daemonized Overmind with",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "bash $ overmind quit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "PATH",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "SIGINT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "docker run ...",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "pg_ctl --wait start",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "DarthSim/overmind",
+      "target": "postgres",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "DarthSim/overmind",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "DarthSim/overmind",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "DarthSim/overmind",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "DarthSim/overmind",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "DarthSim/overmind",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "DarthSim/overmind",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "DarthSim/overmind",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "DarthSim/overmind",
+      "target": "golangci/golangci-lint-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "DarthSim/overmind",
+      "target": "Lint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T03:50:58.686935+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15370
+    },
+    {
+      "path": "go.mod",
+      "size": 500
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 670
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 761
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "Process manager for Procfile-based applications and tmux",
+    "full_name": "DarthSim/overmind",
+    "html_url": "https://github.com/DarthSim/overmind",
+    "language": "Go",
+    "pushed_at": "2025-04-04T04:20:15Z",
+    "topics": [
+      "procfile"
+    ],
+    "updated_at": "2026-04-18T01:19:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "darthsim/hivemind",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ddollar/foreman",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmux/tmux",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Procfile"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Procfile"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash brew install overmind"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### With Ruby"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash gem install overmind"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "overmind -h"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Procfile"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Procfile"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash $ overmind start"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash $ overmind s"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "#### Specifying a Procfile If a"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "for the first process and increases"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "#### Disabling"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "variable, you can disable it:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "This takes precedence over the previous"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "flag. i.e. if you:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "There is a special name"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "The special name"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "supersedes"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tmux"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(or your tmux prefix) and then"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tmux"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "overmind connect"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tmux"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "overmind"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Ctrl b Ctrl b, d"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Ctrl b"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash $ overmind restart sidekiq"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash $ overmind restart sidekiq assets"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash $ overmind restart 'sidekiq*"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash $ overmind stop sidekiq"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash $ overmind stop sidekiq assets"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash $ overmind stop 'sidekiq*"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash $ overmind kill"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Procfile"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "variable=value"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "file with"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "variable:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "file entirely ("
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "run"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash $ overmind run yarn install"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Use the"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "command for the logs:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash $ overmind echo"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "You can quit daemonized Overmind with"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash $ overmind quit"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "PATH"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SIGINT"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "docker run ..."
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "pg_ctl --wait start"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "pg_ctl --wait start"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "postgres"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    }
+  ]
+}

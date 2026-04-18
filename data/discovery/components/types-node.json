@@ -1,7 +1,7 @@
 {
   "component": "@types/node",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T03:42:01.586113+00:00",
+  "last_seen_at": "2026-04-18T03:50:57.229967+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -57,6 +57,16 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "google-github-actions/auth"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dragonkhoi/mercury-mcp"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mem0ai/memory-benchmarks"
     }
   ]
 }

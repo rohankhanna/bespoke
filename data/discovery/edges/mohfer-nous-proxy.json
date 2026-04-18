@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mohfer/nous-proxy",
+      "target": "Data (tokens, API keys) persists in",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mohfer/nous-proxy",
+      "target": "Then run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mohfer/nous-proxy",
+      "target": ":free",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mohfer/nous-proxy",
+      "target": "## Configuration Edit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mohfer/nous-proxy",
+      "target": "## Project Structure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mohfer/nous-proxy",
+      "target": "## Development",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T03:50:57.229967+00:00",
+  "source_repo": "mohfer/nous-proxy"
+}

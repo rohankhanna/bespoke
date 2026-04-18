@@ -1,0 +1,97 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Similar-colpoxerosis201/codex-wechat",
+      "target": "codex-wechat.exe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Similar-colpoxerosis201/codex-wechat",
+      "target": "config.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Similar-colpoxerosis201/codex-wechat",
+      "target": "logs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Similar-colpoxerosis201/codex-wechat",
+      "target": "README.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Similar-colpoxerosis201/codex-wechat",
+      "target": "assets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Similar-colpoxerosis201/codex-wechat",
+      "target": "C:\\Apps\\codex-wechat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Similar-colpoxerosis201/codex-wechat",
+      "target": "C:\\Apps\\codex-wechat\\",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Similar-colpoxerosis201/codex-wechat",
+      "target": "C:\\Apps\\codex-wechat\\codex-wechat.exe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Similar-colpoxerosis201/codex-wechat",
+      "target": "C:\\Apps\\codex-wechat\\config.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Similar-colpoxerosis201/codex-wechat",
+      "target": "C:\\Apps\\codex-wechat\\logs\\",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Similar-colpoxerosis201/codex-wechat",
+      "target": "dotenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Similar-colpoxerosis201/codex-wechat",
+      "target": "qrcode-terminal",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Similar-colpoxerosis201/codex-wechat",
+      "target": "ws",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-18T03:50:57.229967+00:00",
+  "source_repo": "Similar-colpoxerosis201/codex-wechat"
+}

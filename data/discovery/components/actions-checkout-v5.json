@@ -1,0 +1,27 @@
+{
+  "component": "actions/checkout@v5",
+  "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
+  "last_seen_at": "2026-04-18T03:50:57.229967+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "stripe/ai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/npm_release_shared.yml",
+      "source_repo": "stripe/ai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi_release.yml",
+      "source_repo": "stripe/ai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync-skills.yml",
+      "source_repo": "stripe/ai"
+    }
+  ]
+}

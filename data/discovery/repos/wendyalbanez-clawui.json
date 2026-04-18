@@ -1,0 +1,42 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-18T03:51:04.514679+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Run a cross-platform OpenClaw desktop client with built-in Gateway, onboarding, chat, and a full admin panel.",
+    "full_name": "wendyalbanez/ClawUI",
+    "html_url": "https://github.com/wendyalbanez/ClawUI",
+    "language": null,
+    "pushed_at": "2026-04-18T02:19:46Z",
+    "topics": [
+      "agent-orchestration",
+      "agentic-workflow",
+      "ai-gateway",
+      "ai-ui",
+      "chat-interface",
+      "claude-code",
+      "clawbot",
+      "codex-cli",
+      "command-center",
+      "developer-tools",
+      "electron",
+      "flutter",
+      "nextjs",
+      "react",
+      "task-orchestration",
+      "terminal",
+      "vibe-coding"
+    ],
+    "updated_at": "2026-04-18T02:19:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

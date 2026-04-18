@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aipurposes1587-max/weixin-agent-rs",
+      "target": "wechat-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aipurposes1587-max/weixin-agent-rs",
+      "target": "wechat-agent --account your-account-name",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aipurposes1587-max/weixin-agent-rs",
+      "target": "README.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aipurposes1587-max/weixin-agent-rs",
+      "target": "README.en.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "aipurposes1587-max/weixin-agent-rs",
+      "target": "README.es.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "aipurposes1587-max/weixin-agent-rs",
+      "target": "tianrking/weixin-agent-rs",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-18T03:50:57.229967+00:00",
+  "source_repo": "aipurposes1587-max/weixin-agent-rs"
+}

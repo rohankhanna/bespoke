@@ -1,394 +1,6 @@
 {
-  "generated_at": "2026-04-18T03:42:01.586113+00:00",
+  "generated_at": "2026-04-18T03:50:57.229967+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "darthsim/overmind",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "user-attachments/assets",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "stripe/ai",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dragonkhoi/mercury-mcp",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "mem0ai/memory-benchmarks",
-      "graph_distance": 2
-    },
-    {
-      "description": "Assistant IA \u00e0 m\u00e9moire persistante et croissance organique",
-      "discovered_via": "topic:chatbot",
-      "full_name": "kidshadow79/ogma",
-      "graph_distance": 1,
-      "html_url": "https://github.com/kidshadow79/Ogma",
-      "topics": [
-        "ai",
-        "chatbot",
-        "dream-engine",
-        "faiss",
-        "llm",
-        "lmstudio",
-        "memory",
-        "mistral",
-        "ollama",
-        "oobabooga",
-        "rag",
-        "sqlite3"
-      ],
-      "updated_at": "2026-04-17T18:03:29Z"
-    },
-    {
-      "description": "A financial chat application powered by LangChain, OpenBB, and Claude 3 Opus.",
-      "discovered_via": "topic:chatbot",
-      "full_name": "floxym/financial-chat",
-      "graph_distance": 1,
-      "html_url": "https://github.com/Floxym/financial-chat",
-      "topics": [
-        "ai",
-        "chatbot",
-        "claude-3",
-        "equities",
-        "etfs",
-        "finance",
-        "financial-analysis",
-        "fundamental-analysis",
-        "indexes",
-        "langchain",
-        "langgraph",
-        "openbb",
-        "performance-analysis",
-        "python",
-        "sector-analysis",
-        "stock-market",
-        "streamlit",
-        "technical-analysis"
-      ],
-      "updated_at": "2026-04-17T17:59:57Z"
-    },
-    {
-      "description": "A finance tracking app that provides detailed insights about your expenses using AI, allowing you to chat and call interaction with your financial data.",
-      "discovered_via": "topic:chatbot",
-      "full_name": "floxym/financial-chat-finance-nlp-chatbots",
-      "graph_distance": 1,
-      "html_url": "https://github.com/Floxym/financial-chat-Finance-NLP-Chatbots",
-      "topics": [
-        "ai",
-        "chatbot",
-        "claude-3",
-        "equities",
-        "etfs",
-        "finance",
-        "financial-analysis",
-        "fundamental-analysis",
-        "indexes",
-        "langchain",
-        "langgraph",
-        "openbb",
-        "performance-analysis",
-        "python",
-        "sector-analysis",
-        "stock-market",
-        "streamlit",
-        "technical-analysis"
-      ],
-      "updated_at": "2026-04-17T17:59:45Z"
-    },
-    {
-      "description": "AI-powered customer support chatbot with streaming responses and embeddable widget",
-      "discovered_via": "topic:chatbot",
-      "full_name": "tornikepe/ai-chatbot",
-      "graph_distance": 1,
-      "html_url": "https://github.com/tornikepe/ai-chatbot",
-      "topics": [
-        "ai",
-        "chatbot",
-        "nextjs",
-        "openai",
-        "react",
-        "tailwindcss"
-      ],
-      "updated_at": "2026-04-17T17:56:16Z"
-    },
-    {
-      "description": "Run a cross-platform OpenClaw desktop client with built-in Gateway, onboarding, chat, and a full admin panel.",
-      "discovered_via": "topic:clawbot",
-      "full_name": "wendyalbanez/clawui",
-      "graph_distance": 1,
-      "html_url": "https://github.com/wendyalbanez/ClawUI",
-      "topics": [
-        "agent-orchestration",
-        "agentic-workflow",
-        "ai-gateway",
-        "ai-ui",
-        "chat-interface",
-        "claude-code",
-        "clawbot",
-        "codex-cli",
-        "command-center",
-        "developer-tools",
-        "electron",
-        "flutter",
-        "nextjs",
-        "react",
-        "task-orchestration",
-        "terminal",
-        "vibe-coding"
-      ],
-      "updated_at": "2026-04-17T17:40:30Z"
-    },
-    {
-      "description": "Bridge WeChat to local Codex app-server with\u626b\u7801\u767b\u5f55, long-polling messages, and per-user workspace binding",
-      "discovered_via": "topic:clawbot",
-      "full_name": "similar-colpoxerosis201/codex-wechat",
-      "graph_distance": 1,
-      "html_url": "https://github.com/Similar-colpoxerosis201/codex-wechat",
-      "topics": [
-        "acp",
-        "agent",
-        "automation",
-        "chatbot",
-        "chatops",
-        "claude",
-        "claude-code",
-        "clawbot",
-        "developer-tools",
-        "discord",
-        "discord-bot",
-        "lark-bot",
-        "openclaw",
-        "openclaw-desktop",
-        "openclaw-feishu",
-        "openclaw-weixin",
-        "self-hosted",
-        "skills",
-        "slack-bot",
-        "wechat-bot"
-      ],
-      "updated_at": "2026-04-17T17:38:40Z"
-    },
-    {
-      "description": "Build a Rust WeChat iLink bot SDK with pluggable agents, unified startup, and clear terminal logs for reliable multi-account use",
-      "discovered_via": "topic:clawbot",
-      "full_name": "aipurposes1587-max/weixin-agent-rs",
-      "graph_distance": 1,
-      "html_url": "https://github.com/aipurposes1587-max/weixin-agent-rs",
-      "topics": [
-        "agent",
-        "ai",
-        "ai-agent",
-        "async",
-        "bot",
-        "chatbot",
-        "clawbot",
-        "ilink",
-        "openclaw",
-        "rust",
-        "sdk",
-        "tokio",
-        "wechat",
-        "wechat-bot"
-      ],
-      "updated_at": "2026-04-17T17:38:30Z"
-    },
-    {
-      "description": "Bridge WeChat to AI agents like Claude, Codex, and Gemini for automated chat replies and account management",
-      "discovered_via": "topic:clawbot",
-      "full_name": "jonislutheran87/weclaw",
-      "graph_distance": 1,
-      "html_url": "https://github.com/jonislutheran87/weclaw",
-      "topics": [
-        "agents",
-        "claude-code",
-        "clawbot",
-        "codex",
-        "ilink",
-        "mcp-client",
-        "mcp-gateway",
-        "mcp-registry",
-        "mcp-server",
-        "openclaw",
-        "openclaw-agent",
-        "openclaw-weixin",
-        "skills",
-        "wechat",
-        "wechat-clawbot",
-        "weclaw",
-        "weixin-agent-sdk"
-      ],
-      "updated_at": "2026-04-17T17:38:23Z"
-    },
-    {
-      "description": "Connect and initialize WeChat agent skills in any project directory with one CLI workflow and standard install scripts",
-      "discovered_via": "topic:clawbot",
-      "full_name": "shouted-numberone752/wechat-agent-connector",
-      "graph_distance": 1,
-      "html_url": "https://github.com/Shouted-numberone752/wechat-agent-connector",
-      "topics": [
-        "ai",
-        "ai-agent",
-        "bot-framework",
-        "chatbot",
-        "claude-code",
-        "clawbot",
-        "cli",
-        "codex",
-        "cursor",
-        "llm",
-        "multi-agent",
-        "open-source",
-        "openclaw-weixin",
-        "voice-assistant",
-        "wechat-bot"
-      ],
-      "updated_at": "2026-04-17T17:38:12Z"
-    },
-    {
-      "description": "Dual-agent AI code review for solo founders. Sends diffs to Claude + GPT, cross-checks findings, auto-detects secrets. CLI, GitHub Action, VS Code extension.",
-      "discovered_via": "topic:dual-agent",
-      "full_name": "seunghunbae-3svs/solo-cto-agent",
-      "graph_distance": 1,
-      "html_url": "https://github.com/seunghunbae-3svs/solo-cto-agent",
-      "topics": [
-        "ai-code-review",
-        "ci-cd",
-        "circuit-breaker",
-        "claude",
-        "cli-tool",
-        "code-quality",
-        "developer-tools",
-        "dual-agent",
-        "indie-hacker",
-        "openai",
-        "secret-detection",
-        "solo-founder"
-      ],
-      "updated_at": "2026-04-17T12:59:24Z"
-    },
-    {
-      "description": "Privacy-first AI agent skills for Claude Code. 80+ skills and personas for ZKP, decentralized identity, dual-agent architecture, and sovereign AI",
-      "discovered_via": "topic:dual-agent",
-      "full_name": "mitchuski/agentprivacy-skills",
-      "graph_distance": 1,
-      "html_url": "https://github.com/mitchuski/agentprivacy-skills",
-      "topics": [
-        "agent-skills",
-        "ai-agent",
-        "ai-agents",
-        "claude",
-        "claude-code",
-        "claude-code-skill",
-        "decentralised-identity",
-        "dual-agent",
-        "privacy",
-        "sovereign-ai",
-        "zero-knowledge",
-        "zkp"
-      ],
-      "updated_at": "2026-04-13T10:55:59Z"
-    },
-    {
-      "description": "An event-driven AI social engineering simulator. Execute prompt injection attacks against a defensive AI Persona while an invisible AI Judge scores your tactics in real-time. A polyglot microservices architecture built with Go, Python (LangChain), gRPC, React, WebSockets, and Terraform (AWS).",
-      "discovered_via": "topic:dual-agent",
-      "full_name": "nibir1/vaultsim",
-      "graph_distance": 1,
-      "html_url": "https://github.com/Nibir1/VaultSim",
-      "topics": [
-        "ai",
-        "aws",
-        "cybersecurity",
-        "docker",
-        "dual-agent",
-        "event-driven",
-        "finops",
-        "golang",
-        "grpc",
-        "langchain",
-        "llm",
-        "microservices",
-        "prompt-injection",
-        "python",
-        "react",
-        "real-time",
-        "social-engineering",
-        "tailwind-css",
-        "terraform",
-        "websockets"
-      ],
-      "updated_at": "2026-03-26T07:05:07Z"
-    },
-    {
-      "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
-      "discovered_via": "topic:hermes-agent",
-      "full_name": "nesquena/hermes-webui",
-      "graph_distance": 1,
-      "html_url": "https://github.com/nesquena/hermes-webui",
-      "topics": [
-        "agent",
-        "ai-agents",
-        "hermes",
-        "hermes-agent",
-        "nous-research"
-      ],
-      "updated_at": "2026-04-17T18:01:34Z"
-    },
-    {
-      "description": "A high-performance Rust implementation of the Hermes-Agent orchestration loop for LLM-driven tool execution.",
-      "discovered_via": "topic:hermes-agent",
-      "full_name": "eikarna/hermes-rs",
-      "graph_distance": 1,
-      "html_url": "https://github.com/eikarna/hermes-rs",
-      "topics": [
-        "ai",
-        "ai-agent",
-        "ai-agents",
-        "anthropic",
-        "chatgpt",
-        "claude",
-        "claude-code",
-        "clawdbot",
-        "codex",
-        "hermes",
-        "hermes-agent",
-        "hermes-rs",
-        "llm",
-        "moltbot",
-        "nous-research",
-        "openai",
-        "openclaw"
-      ],
-      "updated_at": "2026-04-17T17:46:26Z"
-    },
-    {
-      "description": "OpenAI + Anthropic compatible REST API proxy backed by NousResearch Portal OAuth \u2014 run your own inference gateway with subscription-based rate limits. Works with agentic coding tools like OpenCode, Claude Code, and OpenAI Codex CLI.",
-      "discovered_via": "topic:hermes-agent",
-      "full_name": "mohfer/nous-proxy",
-      "graph_distance": 1,
-      "html_url": "https://github.com/mohfer/nous-proxy",
-      "topics": [
-        "agentic-ai",
-        "anthropic",
-        "claude-code",
-        "codex-cli",
-        "hermes-agent",
-        "nous-research",
-        "oauth",
-        "openai",
-        "opencode",
-        "proxy"
-      ],
-      "updated_at": "2026-04-17T17:40:51Z"
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "openclaw/openclaw",
@@ -2820,6 +2432,46 @@
       "discovered_via": "explicit-github-link",
       "full_name": "cdeust/cortex-know-when-to-stop-training-model",
       "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "darthsim/hivemind",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ddollar/foreman",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tmux/tmux",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "stripe/stripe-node",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "stripe/stripe-python",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tarikmanoar/tarikmanoar",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tianrking/weixin-agent-rs",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mitchuski/agentprivacy-docs",
+      "graph_distance": 2
     }
   ],
   "processed": [
@@ -2910,6 +2562,25 @@
     "google-github-actions/auth",
     "kubernetes-sigs/kustomize",
     "nvie/git-toolbelt",
-    "cdeust/cortex"
+    "cdeust/cortex",
+    "darthsim/overmind",
+    "stripe/ai",
+    "dragonkhoi/mercury-mcp",
+    "mem0ai/memory-benchmarks",
+    "kidshadow79/ogma",
+    "floxym/financial-chat",
+    "floxym/financial-chat-finance-nlp-chatbots",
+    "tornikepe/ai-chatbot",
+    "wendyalbanez/clawui",
+    "similar-colpoxerosis201/codex-wechat",
+    "aipurposes1587-max/weixin-agent-rs",
+    "jonislutheran87/weclaw",
+    "shouted-numberone752/wechat-agent-connector",
+    "seunghunbae-3svs/solo-cto-agent",
+    "mitchuski/agentprivacy-skills",
+    "nibir1/vaultsim",
+    "nesquena/hermes-webui",
+    "eikarna/hermes-rs",
+    "mohfer/nous-proxy"
   ]
 }

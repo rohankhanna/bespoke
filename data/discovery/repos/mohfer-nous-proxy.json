@@ -1,0 +1,122 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mohfer/nous-proxy",
+      "target": "Data (tokens, API keys) persists in",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mohfer/nous-proxy",
+      "target": "Then run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mohfer/nous-proxy",
+      "target": ":free",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mohfer/nous-proxy",
+      "target": "## Configuration Edit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mohfer/nous-proxy",
+      "target": "## Project Structure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mohfer/nous-proxy",
+      "target": "## Development",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T03:51:12.134257+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5809
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1265
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 466
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "OpenAI + Anthropic compatible REST API proxy backed by NousResearch Portal OAuth \u2014 run your own inference gateway with subscription-based rate limits. Works with agentic coding tools like OpenCode, Claude Code, and OpenAI Codex CLI.",
+    "full_name": "mohfer/nous-proxy",
+    "html_url": "https://github.com/mohfer/nous-proxy",
+    "language": "Python",
+    "pushed_at": "2026-04-17T17:40:48Z",
+    "topics": [
+      "agentic-ai",
+      "anthropic",
+      "claude-code",
+      "codex-cli",
+      "hermes-agent",
+      "nous-research",
+      "oauth",
+      "openai",
+      "opencode",
+      "proxy"
+    ],
+    "updated_at": "2026-04-17T17:40:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Data (tokens, API keys) persists in"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Then run"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ":free"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ":free"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## Configuration Edit"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## Project Structure"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## Development"
+    }
+  ]
+}

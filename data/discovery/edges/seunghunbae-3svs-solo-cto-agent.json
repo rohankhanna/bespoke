@@ -1,0 +1,363 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "CONFIRMED",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "That is it.",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "**Windows PowerShell**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "If you choose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "codex-main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "solo-cto-agent template-audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "template-audit.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "report-only",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "solo-cto-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "init --wizard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "sync --apply",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "\uac00\uc774\ub4dc \ub9c1\ud06c: - Claude \uc5d4\ud2b8\ub9ac:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "ORCHESTRATOR_PAT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "ANTHROPIC_API_KEY",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "OPENAI_API_KEY",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "setup-pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "setup.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "### Manual install",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "### Only want one skill?",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "setup.sh --update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "**Review + rework**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "and",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "OPENAI_API_BASE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "ANTHROPIC_API_BASE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "@eslint/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "ajv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "Changelog Update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-validate.yml",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-validate.yml",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package-validate.yml",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "Package Validate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-validate.yml",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/template-validate.yml",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "template-validate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "seunghunbae-3svs/solo-cto-agent",
+      "target": "test",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T03:50:57.229967+00:00",
+  "source_repo": "seunghunbae-3svs/solo-cto-agent"
+}
