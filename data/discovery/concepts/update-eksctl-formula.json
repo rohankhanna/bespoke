@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update eksctl Formula"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/homebrew-tap",
+      "status": "candidate-context",
+      "text": "Homebrew formulae that allows installation of AWS tools through the Homebrew package manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/homebrew-tap",
+      "status": "candidate-context",
+      "text": "Update eksctl Formula"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/homebrew-tap",
+      "status": "candidate",
+      "text": "Update eksctl Formula"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12071,
+      "status": "candidate",
+      "text": "eta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "amend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "bulletin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "completion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "day"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update eksctl Formula",
+  "concept_id": "update-eksctl-formula",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": ".github/workflows/update-eksctl.yml",
+      "source_repo": "aws/homebrew-tap"
+    }
+  ],
+  "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update eksctl Formula",
+      "sense_id": "update-eksctl-formula#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

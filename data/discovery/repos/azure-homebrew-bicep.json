@@ -1,0 +1,80 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-homebrew.yml"
+    },
+    {
+      "component": "actions/github-script@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-homebrew.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-homebrew.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-homebrew.yml",
+      "source_repo": "Azure/homebrew-bicep",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-homebrew.yml",
+      "source_repo": "Azure/homebrew-bicep",
+      "target": "actions/github-script@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-homebrew.yml",
+      "source_repo": "Azure/homebrew-bicep",
+      "target": "stefanzweifel/git-auto-commit-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-homebrew.yml",
+      "source_repo": "Azure/homebrew-bicep",
+      "target": "Update Homebrew",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T18:30:41.646865+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/bicep.rb.tpl",
+      "size": 859
+    },
+    {
+      "path": ".github/workflows/update-homebrew.yml",
+      "size": 2229
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Homebrew formula for bicep",
+    "full_name": "Azure/homebrew-bicep",
+    "html_url": "https://github.com/Azure/homebrew-bicep",
+    "language": "Ruby",
+    "pushed_at": "2026-04-02T19:30:43Z",
+    "topics": [],
+    "updated_at": "2026-04-02T19:30:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Update Homebrew",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-homebrew.yml",
+      "term": "Update Homebrew"
+    }
+  ]
+}

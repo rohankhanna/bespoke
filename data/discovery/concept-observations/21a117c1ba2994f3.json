@@ -24,6 +24,7 @@
     }
   ],
   "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -35,9 +36,12 @@
       "status": "candidate"
     }
   ],
+  "candidate_synonyms": [],
   "concept_id": "semantic-pr",
   "definition_status": "unresolved",
   "gloss_status": "unresolved",
+  "lexical_providers": [],
+  "lexical_status": "unresolved",
   "normalized_form": "semantic-pr",
   "observation_id": "21a117c1ba2994f3",
   "observation_kind": "workflow-name",

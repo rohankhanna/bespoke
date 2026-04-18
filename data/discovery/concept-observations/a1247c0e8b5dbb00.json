@@ -1,0 +1,56 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Open Source Implementation of Karpathy's LLM Wiki. Upload documents, connect your Claude account via MCP, and have it write your wiki ! "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Live Demo](https://img.shields.io/badge/demo-llmwiki.app-blue)](https://llmwiki.app)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Live Demo](https://img.shields.io/badge/demo-llmwiki.app-blue)](https://llmwiki.app)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "llm-wiki",
+      "sense_id": "llm-wiki#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "llm-wiki",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "llm-wiki",
+  "observation_id": "a1247c0e8b5dbb00",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T18:30:26.389736+00:00",
+  "observed_text": "llm-wiki",
+  "source_context_snippet": "[![Live Demo](https://img.shields.io/badge/demo-llmwiki.app-blue)](https://llmwiki.app)",
+  "source_file": null,
+  "source_repo": "lucasastorian/llmwiki",
+  "source_repo_description": "Open Source Implementation of Karpathy's LLM Wiki. Upload documents, connect your Claude account via MCP, and have it write your wiki ! "
+}

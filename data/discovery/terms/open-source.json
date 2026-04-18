@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -41,6 +41,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "AgriciDaniel/claude-seo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
     }
   ],
   "term": "Open Source"

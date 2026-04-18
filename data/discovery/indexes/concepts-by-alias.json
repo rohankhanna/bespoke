@@ -111,6 +111,9 @@
   "ai moderator": [
     "ai-moderator"
   ],
+  "ai review (issues)": [
+    "ai-review-issues"
+  ],
   "ai-accountability": [
     "ai-accountability"
   ],
@@ -326,6 +329,9 @@
   "auto assign types issues": [
     "auto-assign-types-issues"
   ],
+  "auto label issues by package": [
+    "auto-label-issues-by-package"
+  ],
   "auto start ci": [
     "auto-start-ci"
   ],
@@ -352,6 +358,9 @@
   ],
   "automated documentation audit": [
     "automated-documentation-audit"
+  ],
+  "automatic-differentiation": [
+    "automatic-differentiation"
   ],
   "automation": [
     "automation"
@@ -487,6 +496,9 @@
   "bioinformatics": [
     "bioinformatics"
   ],
+  "bitext-mining": [
+    "bitext-mining"
+  ],
   "blackwell": [
     "blackwell"
   ],
@@ -524,6 +536,9 @@
   ],
   "build & package": [
     "build-package"
+  ],
+  "build actions cache": [
+    "build-actions-cache"
   ],
   "build agentic-jujutsu native modules": [
     "build-agentic-jujutsu-native-modules"
@@ -578,6 +593,9 @@
   ],
   "build gnn native modules": [
     "build-gnn-native-modules"
+  ],
+  "build hf space docker image": [
+    "build-hf-space-docker-image"
   ],
   "build macos app": [
     "build-macos-app"
@@ -714,6 +732,18 @@
   ],
   "ci & release": [
     "ci-release"
+  ],
+  "ci (3rd-party)": [
+    "ci-3rd-party"
+  ],
+  "ci (android)": [
+    "ci-android"
+  ],
+  "ci (apple)": [
+    "ci-apple"
+  ],
+  "ci (cann)": [
+    "ci-cann"
   ],
   "ci - libnpmaccess": [
     "ci---libnpmaccess"
@@ -900,6 +930,9 @@
   ],
   "cluade": [
     "cluade"
+  ],
+  "clustering": [
+    "clustering"
   ],
   "cncf": [
     "cncf"
@@ -1099,6 +1132,9 @@
   "daily parser fuzz": [
     "daily-parser-fuzz"
   ],
+  "daily space rebuild": [
+    "daily-space-rebuild"
+  ],
   "dare": [
     "en-modal_or_auxiliary-dare"
   ],
@@ -1114,8 +1150,14 @@
   "data-reconciliation": [
     "data-reconciliation"
   ],
+  "datasets available on huggingface": [
+    "datasets-available-on-huggingface"
+  ],
   "datasette-io": [
     "datasette-io"
+  ],
+  "datasette-plugin": [
+    "datasette-plugin"
   ],
   "datasette-tool": [
     "datasette-tool"
@@ -1365,6 +1407,9 @@
   "editor": [
     "editor"
   ],
+  "editorconfig checker": [
+    "editorconfig-checker"
+  ],
   "education": [
     "education"
   ],
@@ -1528,6 +1573,9 @@
   "formatter": [
     "formatter"
   ],
+  "foundation-models": [
+    "foundation-models"
+  ],
   "foundry project": [
     "foundry-project"
   ],
@@ -1581,6 +1629,9 @@
   ],
   "genomics": [
     "genomics"
+  ],
+  "ggml": [
+    "ggml"
   ],
   "git status": [
     "git-status"
@@ -1792,6 +1843,9 @@
   "inference": [
     "inference"
   ],
+  "information-retrieval": [
+    "information-retrieval"
+  ],
   "infra": [
     "infra"
   ],
@@ -1806,6 +1860,9 @@
   ],
   "installer": [
     "installer"
+  ],
+  "instruction-tuning": [
+    "instruction-tuning"
   ],
   "integration tests": [
     "integration-tests"
@@ -1885,6 +1942,9 @@
   "knowledge-base": [
     "knowledge-base"
   ],
+  "knowledge-compilation": [
+    "knowledge-compilation"
+  ],
   "knowledge-graph": [
     "knowledge-graph"
   ],
@@ -1953,6 +2013,12 @@
   ],
   "layout": [
     "layout"
+  ],
+  "leaderboard build tests": [
+    "leaderboard-build-tests"
+  ],
+  "leaderboard healthcheck": [
+    "leaderboard-healthcheck"
   ],
   "learning": [
     "learning"
@@ -2029,8 +2095,17 @@
   "llama": [
     "llama"
   ],
+  "llama-2": [
+    "llama-2"
+  ],
+  "llama2": [
+    "llama2"
+  ],
   "llama3": [
     "llama3"
+  ],
+  "llava": [
+    "llava"
   ],
   "llm code review": [
     "llm-code-review"
@@ -2106,6 +2181,9 @@
   ],
   "low-latency": [
     "low-latency"
+  ],
+  "low-resource-nlp": [
+    "low-resource-nlp"
   ],
   "luacheck": [
     "luacheck"
@@ -2249,6 +2327,9 @@
   "mountains": [
     "mountains"
   ],
+  "mteb": [
+    "mteb"
+  ],
   "much": [
     "en-article_or_determiner-much",
     "en-quantifier-much"
@@ -2262,8 +2343,14 @@
   "multi-agent-systems": [
     "multi-agent-systems"
   ],
+  "multi-modality": [
+    "multi-modality"
+  ],
   "multiagent": [
     "multiagent"
+  ],
+  "multilingual-nlp": [
+    "multilingual-nlp"
   ],
   "multimodal": [
     "multimodal"
@@ -2317,6 +2404,9 @@
   ],
   "neovim-plugin": [
     "neovim-plugin"
+  ],
+  "neural-search": [
+    "neural-search"
   ],
   "never": [
     "en-negation_marker-never"
@@ -2425,6 +2515,9 @@
   ],
   "observability": [
     "observability"
+  ],
+  "obsidian": [
+    "obsidian"
   ],
   "of": [
     "en-preposition-of"
@@ -2852,6 +2945,9 @@
   "recharts": [
     "recharts"
   ],
+  "refresh model profiles (reusable)": [
+    "refresh-model-profiles-reusable"
+  ],
   "regarding": [
     "en-preposition-regarding"
   ],
@@ -2942,6 +3038,9 @@
   "repository": [
     "repository"
   ],
+  "reranking": [
+    "reranking"
+  ],
   "research": [
     "research"
   ],
@@ -2953,6 +3052,9 @@
   ],
   "restore": [
     "restore"
+  ],
+  "retrieval": [
+    "retrieval"
   ],
   "retrieval-augmented-generation": [
     "retrieval-augmented-generation"
@@ -3008,6 +3110,9 @@
   "rust": [
     "rust"
   ],
+  "rust-library": [
+    "rust-library"
+  ],
   "rustpython": [
     "rustpython"
   ],
@@ -3016,6 +3121,9 @@
   ],
   "save": [
     "en-preposition-save"
+  ],
+  "sbert": [
+    "sbert"
   ],
   "scan agent skills": [
     "scan-agent-skills"
@@ -3064,6 +3172,12 @@
   ],
   "semantic release": [
     "semantic-release"
+  ],
+  "semantic-search": [
+    "semantic-search"
+  ],
+  "sentence-transformers": [
+    "sentence-transformers"
   ],
   "serialization": [
     "serialization"
@@ -3262,6 +3376,9 @@
   "such": [
     "en-article_or_determiner-such"
   ],
+  "supabase": [
+    "supabase"
+  ],
   "svgo": [
     "svgo"
   ],
@@ -3310,6 +3427,9 @@
   "temurin": [
     "temurin"
   ],
+  "tensor-algebra": [
+    "tensor-algebra"
+  ],
   "terminal": [
     "terminal"
   ],
@@ -3351,6 +3471,9 @@
   ],
   "test integration packages": [
     "test-integration-packages"
+  ],
+  "test leaderboard dockerfile": [
+    "test-leaderboard-dockerfile"
   ],
   "test memory controllers": [
     "test-memory-controllers"
@@ -3399,6 +3522,12 @@
   ],
   "testsuite": [
     "testsuite"
+  ],
+  "text-classification": [
+    "text-classification"
+  ],
+  "text-embedding": [
+    "text-embedding"
   ],
   "text2image": [
     "text2image"
@@ -3562,11 +3691,20 @@
   "up": [
     "en-preposition-up"
   ],
+  "update eksctl formula": [
+    "update-eksctl-formula"
+  ],
   "update formula": [
     "update-formula"
   ],
+  "update homebrew": [
+    "update-homebrew"
+  ],
   "update homebrew formula": [
     "update-homebrew-formula"
+  ],
+  "update llama.cpp submodule": [
+    "update-llama.cpp-submodule"
   ],
   "update repo": [
     "update-repo"
@@ -3630,6 +3768,12 @@
   ],
   "virtual-idols": [
     "virtual-idols"
+  ],
+  "vision-language-model": [
+    "vision-language-model"
+  ],
+  "visual-language-learning": [
+    "visual-language-learning"
   ],
   "volume": [
     "volume"
@@ -3747,6 +3891,9 @@
   "why": [
     "en-interrogative-why"
   ],
+  "wiki": [
+    "wiki"
+  ],
   "wiki sync": [
     "wiki-sync"
   ],
@@ -3831,8 +3978,14 @@
   "ziglang": [
     "ziglang"
   ],
+  "\ud83d\udc0d pydantic version testing": [
+    "pydantic-version-testing"
+  ],
   "\ud83d\udcca status badges update": [
     "status-badges-update"
+  ],
+  "\ud83d\udcfc vcr cassette tests": [
+    "vcr-cassette-tests"
   ],
   "\ud83d\udd04 automated rollback manager": [
     "automated-rollback-manager"
@@ -3840,7 +3993,19 @@
   "\ud83d\udd0d verification pipeline": [
     "verification-pipeline"
   ],
+  "\ud83d\udd17 compile integration tests": [
+    "compile-integration-tests"
+  ],
   "\ud83d\udd17 cross-agent integration tests": [
     "cross-agent-integration-tests"
+  ],
+  "\ud83d\ude80 package release": [
+    "package-release"
+  ],
+  "\ud83e\uddea unit testing": [
+    "unit-testing"
+  ],
+  "\ud83e\uddf9 linting": [
+    "linting"
   ]
 }

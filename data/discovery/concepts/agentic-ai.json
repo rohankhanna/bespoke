@@ -29,6 +29,8 @@
       "text": "**235 production-ready Claude Code skills, plugins, and agent skills for 12 AI coding tools.**"
     }
   ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
   "canonical_name": "agentic-ai",
   "concept_id": "agentic-ai",
   "definition_status": "unresolved",
@@ -67,6 +69,8 @@
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
   "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
+  "lexical_providers": [],
+  "lexical_status": "unresolved",
   "possible_senses": [
     {
       "buckets": [

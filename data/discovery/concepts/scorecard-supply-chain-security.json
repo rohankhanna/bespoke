@@ -28,6 +28,8 @@
     }
   ],
   "candidate_glosses": [],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
   "canonical_name": "Scorecard supply-chain security",
   "concept_id": "scorecard-supply-chain-security",
   "definition_status": "unresolved",
@@ -54,6 +56,8 @@
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
   "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "lexical_providers": [],
+  "lexical_status": "unresolved",
   "possible_senses": [
     {
       "buckets": [

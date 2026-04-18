@@ -6,6 +6,7 @@
   "candidate_definition_hints": [],
   "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -16,9 +17,12 @@
       "status": "candidate"
     }
   ],
+  "candidate_synonyms": [],
   "concept_id": "lunaria",
   "definition_status": "unresolved",
   "gloss_status": "unresolved",
+  "lexical_providers": [],
+  "lexical_status": "unresolved",
   "normalized_form": "lunaria",
   "observation_id": "a2fad9a67629d7df",
   "observation_kind": "workflow-name",

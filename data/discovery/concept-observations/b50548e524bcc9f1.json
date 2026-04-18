@@ -24,6 +24,7 @@
     }
   ],
   "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -35,9 +36,12 @@
       "status": "candidate"
     }
   ],
+  "candidate_synonyms": [],
   "concept_id": "smart-bidirectional-sync",
   "definition_status": "unresolved",
   "gloss_status": "unresolved",
+  "lexical_providers": [],
+  "lexical_status": "unresolved",
   "normalized_form": "smart-bidirectional-sync",
   "observation_id": "b50548e524bcc9f1",
   "observation_kind": "workflow-name",

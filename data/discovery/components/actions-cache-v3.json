@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -52,6 +52,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pytest.yml",
       "source_repo": "oraios/serena"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "asg017/sqlite-fastrand"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "asg017/sqlite-fastrand"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "asg017/sqlite-html"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "asg017/sqlite-http"
     }
   ]
 }

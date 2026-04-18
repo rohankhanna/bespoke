@@ -1,0 +1,56 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A SQLite extension for making HTTP requests purely in SQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A SQLite extension for making HTTP requests purely in SQL."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A SQLite extension for making HTTP requests purely in SQL."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sqlite-extension",
+      "sense_id": "sqlite-extension#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sqlite-extension",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sqlite-extension",
+  "observation_id": "c5e31c012c588223",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T18:30:26.389736+00:00",
+  "observed_text": "sqlite-extension",
+  "source_context_snippet": "A SQLite extension for making HTTP requests purely in SQL.",
+  "source_file": null,
+  "source_repo": "asg017/sqlite-http",
+  "source_repo_description": "A SQLite extension for making HTTP requests purely in SQL"
+}

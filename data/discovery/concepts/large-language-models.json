@@ -7,8 +7,30 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggml-org/ggml",
+      "status": "candidate-context",
+      "text": "Tensor library for machine learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggml-org/ggml",
+      "status": "candidate-context",
+      "text": "[Manifesto](https://github.com/ggerganov/llama.cpp/discussions/205)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggml-org/ggml",
+      "status": "candidate",
+      "text": "[Manifesto](https://github.com/ggerganov/llama.cpp/discussions/205)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
   "canonical_name": "large-language-models",
   "concept_id": "large-language-models",
   "definition_status": "unresolved",
@@ -18,11 +40,21 @@
       "observed_at": "2026-04-18T11:57:36.597358+00:00",
       "source_file": null,
       "source_repo": "protectai/llm-guard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/ggml"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
   "possible_senses": [
     {
       "buckets": [

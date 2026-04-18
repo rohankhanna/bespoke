@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "obsidian"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atomicmemory/llm-wiki-compiler",
+      "status": "candidate-context",
+      "text": "The knowledge compiler. Raw sources in, interlinked wiki out. Inspired by Karpathy's LLM Wiki pattern."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atomicmemory/llm-wiki-compiler",
+      "status": "candidate-context",
+      "text": "Compile raw sources into an interlinked markdown wiki."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atomicmemory/llm-wiki-compiler",
+      "status": "candidate",
+      "text": "Compile raw sources into an interlinked markdown wiki."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20034756,
+      "status": "candidate",
+      "text": "basalt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20034755,
+      "status": "candidate",
+      "text": "volcanic glass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20034754,
+      "status": "candidate",
+      "text": "byssolite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20034753,
+      "status": "candidate",
+      "text": "onyx"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20034752,
+      "status": "candidate",
+      "text": "hornblende"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "obsidian",
+  "concept_id": "obsidian",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": null,
+      "source_repo": "atomicmemory/llm-wiki-compiler"
+    }
+  ],
+  "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "obsidian",
+      "sense_id": "obsidian#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

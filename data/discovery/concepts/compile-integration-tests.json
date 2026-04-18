@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "\ud83d\udd17 Compile Integration Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langchain-ai/langchain",
+      "status": "candidate-context",
+      "text": "The agent engineering platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/langchain",
+      "status": "candidate-context",
+      "text": "\"\ud83d\udd17 Compile Integration Tests\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/langchain",
+      "status": "candidate",
+      "text": "\"\ud83d\udd17 Compile Integration Tests\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25661,
+      "status": "candidate",
+      "text": "battleship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18312,
+      "status": "candidate",
+      "text": "assay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18273,
+      "status": "candidate",
+      "text": "biopsy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18273,
+      "status": "candidate",
+      "text": "circumstantial evidence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18273,
+      "status": "candidate",
+      "text": "count"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "\ud83d\udd17 Compile Integration Tests",
+  "concept_id": "compile-integration-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": ".github/workflows/_compile_integration_test.yml",
+      "source_repo": "langchain-ai/langchain"
+    }
+  ],
+  "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83d\udd17 Compile Integration Tests",
+      "sense_id": "compile-integration-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

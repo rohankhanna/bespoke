@@ -1,0 +1,262 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haotian-liu/LLaVA",
+      "target": "camenduru/llava-colab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haotian-liu/LLaVA",
+      "target": "evolvinglmms-lab/lmms-eval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haotian-liu/LLaVA",
+      "target": "computer-vision-in-the-wild/cvinw_readings",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haotian-liu/LLaVA",
+      "target": "facebookresearch/segment-anything",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haotian-liu/LLaVA",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haotian-liu/LLaVA",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haotian-liu/LLaVA",
+      "target": "foundation-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haotian-liu/LLaVA",
+      "target": "gpt-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haotian-liu/LLaVA",
+      "target": "instruction-tuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haotian-liu/LLaVA",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haotian-liu/LLaVA",
+      "target": "llama-2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haotian-liu/LLaVA",
+      "target": "llama2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haotian-liu/LLaVA",
+      "target": "llava",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haotian-liu/LLaVA",
+      "target": "multi-modality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haotian-liu/LLaVA",
+      "target": "multimodal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haotian-liu/LLaVA",
+      "target": "vision-language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haotian-liu/LLaVA",
+      "target": "visual-language-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T18:31:57.190454+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30057
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1256
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "[NeurIPS'23 Oral] Visual Instruction Tuning (LLaVA) built towards GPT-4V level capabilities and beyond.",
+    "full_name": "haotian-liu/LLaVA",
+    "html_url": "https://github.com/haotian-liu/LLaVA",
+    "language": "Python",
+    "pushed_at": "2024-08-12T09:52:38Z",
+    "topics": [
+      "chatbot",
+      "chatgpt",
+      "foundation-models",
+      "gpt-4",
+      "instruction-tuning",
+      "llama",
+      "llama-2",
+      "llama2",
+      "llava",
+      "multi-modality",
+      "multimodal",
+      "vision-language-model",
+      "visual-language-learning"
+    ],
+    "updated_at": "2026-04-18T17:13:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "camenduru/llava-colab",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "computer-vision-in-the-wild/cvinw_readings",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "evolvinglmms-lab/lmms-eval",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/segment-anything",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "*Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbot"
+    },
+    {
+      "context_snippet": "*Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "*Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "foundation-models"
+    },
+    {
+      "context_snippet": "*Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-4"
+    },
+    {
+      "context_snippet": "*Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instruction-tuning"
+    },
+    {
+      "context_snippet": "*Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "*Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama-2"
+    },
+    {
+      "context_snippet": "*Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama2"
+    },
+    {
+      "context_snippet": "*Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llava"
+    },
+    {
+      "context_snippet": "*Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-modality"
+    },
+    {
+      "context_snippet": "*Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal"
+    },
+    {
+      "context_snippet": "*Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-language-model"
+    },
+    {
+      "context_snippet": "*Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-language-learning"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/homebrew-tap",
+      "target": "aws/amazon-ec2-instance-selector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/homebrew-tap",
+      "target": "aws/amazon-ec2-metadata-mock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/homebrew-tap",
+      "target": "aws/amazon-ec2-spot-interrupter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/homebrew-tap",
+      "target": "aws/aws-xray-daemon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-eksctl.yml",
+      "source_repo": "aws/homebrew-tap",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-eksctl.yml",
+      "source_repo": "aws/homebrew-tap",
+      "target": "peter-evans/create-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-eksctl.yml",
+      "source_repo": "aws/homebrew-tap",
+      "target": "Update eksctl Formula",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T18:30:26.389736+00:00",
+  "source_repo": "aws/homebrew-tap"
+}

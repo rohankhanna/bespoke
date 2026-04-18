@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "retrieval"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "embeddings-benchmark/mteb",
+      "status": "candidate-context",
+      "text": "MTEB: Massive Text Embedding Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embeddings-benchmark/mteb",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embeddings-benchmark/mteb",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043913,
+      "status": "candidate",
+      "text": "recovery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044333,
+      "status": "candidate",
+      "text": "retrieving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044147,
+      "status": "candidate",
+      "text": "recover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044124,
+      "status": "candidate",
+      "text": "retrieve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043966,
+      "status": "candidate",
+      "text": "reclaim"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7065,
+      "status": "candidate",
+      "text": "recovery"
+    }
+  ],
+  "canonical_name": "retrieval",
+  "concept_id": "retrieval",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": null,
+      "source_repo": "embeddings-benchmark/mteb"
+    }
+  ],
+  "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "retrieval",
+      "sense_id": "retrieval#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

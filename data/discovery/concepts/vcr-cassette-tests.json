@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "\ud83d\udcfc VCR Cassette Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langchain-ai/langchain",
+      "status": "candidate-context",
+      "text": "The agent engineering platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/langchain",
+      "status": "candidate-context",
+      "text": "\"\ud83d\udcfc VCR Cassette Tests\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/langchain",
+      "status": "candidate",
+      "text": "\"\ud83d\udcfc VCR Cassette Tests\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18233,
+      "status": "candidate",
+      "text": "erase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18233,
+      "status": "candidate",
+      "text": "tape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18129,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18129,
+      "status": "candidate",
+      "text": "head"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18129,
+      "status": "candidate",
+      "text": "heads"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "\ud83d\udcfc VCR Cassette Tests",
+  "concept_id": "vcr-cassette-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": ".github/workflows/_test_vcr.yml",
+      "source_repo": "langchain-ai/langchain"
+    }
+  ],
+  "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83d\udcfc VCR Cassette Tests",
+      "sense_id": "vcr-cassette-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

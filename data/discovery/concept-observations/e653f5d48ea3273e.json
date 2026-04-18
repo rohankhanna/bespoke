@@ -24,6 +24,7 @@
     }
   ],
   "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -35,9 +36,12 @@
       "status": "candidate"
     }
   ],
+  "candidate_synonyms": [],
   "concept_id": "deploy-to-aws-ecr",
   "definition_status": "unresolved",
   "gloss_status": "unresolved",
+  "lexical_providers": [],
+  "lexical_status": "unresolved",
   "normalized_form": "deploy-to-aws-ecr",
   "observation_id": "e653f5d48ea3273e",
   "observation_kind": "workflow-name",

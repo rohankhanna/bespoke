@@ -4,10 +4,69 @@
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
-    "workflow-process"
+    "workflow-process",
+    "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AndyMik90/Aperant",
+      "status": "candidate-context",
+      "text": "Autonomous multi-session AI coding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndyMik90/Aperant",
+      "status": "candidate-context",
+      "text": "Build Native Module Prebuilds"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndyMik90/Aperant",
+      "status": "candidate",
+      "text": "Build Native Module Prebuilds"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23377,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23366,
+      "status": "candidate",
+      "text": "prefab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22019,
+      "status": "candidate",
+      "text": "kit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22007,
+      "status": "candidate",
+      "text": "basis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22007,
+      "status": "candidate",
+      "text": "bridge"
+    }
+  ],
+  "candidate_synonyms": [],
   "canonical_name": "Build Native Module Prebuilds",
   "concept_id": "build-native-module-prebuilds",
   "definition_status": "unresolved",
@@ -17,11 +76,21 @@
       "observed_at": "2026-04-18T10:25:53.609022+00:00",
       "source_file": ".github/workflows/build-prebuilds.yml",
       "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": ".github/workflows/build-prebuilds.yml",
+      "source_repo": "AndyMik90/Aperant"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
   "possible_senses": [
     {
       "buckets": [

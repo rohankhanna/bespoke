@@ -1,0 +1,535 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-issues.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml.disabled"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml.disabled"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml.disabled"
+    },
+    {
+      "component": "Sibz/github-status-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml.disabled"
+    },
+    {
+      "component": "devicons/public-upload-to-imgur@v2.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml.disabled"
+    },
+    {
+      "component": "mshick/add-pr-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml.disabled"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-3rd-party.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml"
+    },
+    {
+      "component": "android-actions/setup-android@40fd30fb8d7440372e1316f5d1809ec01dcd3699",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "ggml-org/ccache-action@v1.2.21",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "ggml-org/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "ggml-org/ccache-action@v1.2.21",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "ggml-org/ccache-action@v1.2.21",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cache.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cache.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cache.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cache.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cache.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cache.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cache.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cache.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cann.yml"
+    },
+    {
+      "component": "ggml-org/free-disk-space@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cann.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "abetlen/llama-cpp-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "abgulati/lars",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "a-ghorbani/pocketpal-ai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "akx/ggify",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-issues.yml",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-issues.yml",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "AI review (issues)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "Sibz/github-status-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "devicons/public-upload-to-imgur@v2.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "mshick/add-pr-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-3rd-party.yml",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-3rd-party.yml",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "CI (3rd-party)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "android-actions/setup-android@40fd30fb8d7440372e1316f5d1809ec01dcd3699",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "CI (android)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "ggml-org/ccache-action@v1.2.21",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "ggml-org/setup-xcode@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-apple.yml",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-apple.yml",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "CI (apple)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cache.yml",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cache.yml",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cache.yml",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "Build Actions Cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cann.yml",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cann.yml",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "ggml-org/free-disk-space@v1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cann.yml",
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "CI (cann)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ggml-org/llama.cpp",
+      "target": "ggml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T18:31:27.452812+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30152
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1327
+    },
+    {
+      "path": "requirements.txt",
+      "size": 551
+    },
+    {
+      "path": ".github/workflows/ai-issues.yml",
+      "size": 2904
+    },
+    {
+      "path": ".github/workflows/bench.yml.disabled",
+      "size": 10467
+    },
+    {
+      "path": ".github/workflows/build-3rd-party.yml",
+      "size": 1201
+    },
+    {
+      "path": ".github/workflows/build-android.yml",
+      "size": 2734
+    },
+    {
+      "path": ".github/workflows/build-apple.yml",
+      "size": 6325
+    },
+    {
+      "path": ".github/workflows/build-cache.yml",
+      "size": 3349
+    },
+    {
+      "path": ".github/workflows/build-cann.yml",
+      "size": 3029
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "LLM inference in C/C++",
+    "full_name": "ggml-org/llama.cpp",
+    "html_url": "https://github.com/ggml-org/llama.cpp",
+    "language": "C++",
+    "pushed_at": "2026-04-18T18:12:05Z",
+    "topics": [
+      "ggml"
+    ],
+    "updated_at": "2026-04-18T18:24:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "a-ghorbani/pocketpal-ai",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abetlen/llama-cpp-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abgulati/lars",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akx/ggify",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "AI review (issues)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-issues.yml",
+      "term": "AI review (issues)"
+    },
+    {
+      "context_snippet": "Benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "term": "Benchmark"
+    },
+    {
+      "context_snippet": "CI (3rd-party)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-3rd-party.yml",
+      "term": "CI (3rd-party)"
+    },
+    {
+      "context_snippet": "CI (android)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-android.yml",
+      "term": "CI (android)"
+    },
+    {
+      "context_snippet": "CI (apple)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-apple.yml",
+      "term": "CI (apple)"
+    },
+    {
+      "context_snippet": "Build Actions Cache",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cache.yml",
+      "term": "Build Actions Cache"
+    },
+    {
+      "context_snippet": "CI (cann)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cann.yml",
+      "term": "CI (cann)"
+    },
+    {
+      "context_snippet": "![llama](https://user-images.githubusercontent.com/1991296/230134379-7181e485-c521-4d23-a0d6-f7b3b61ba524.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ggml"
+    }
+  ]
+}

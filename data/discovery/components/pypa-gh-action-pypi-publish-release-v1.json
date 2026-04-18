@@ -1,7 +1,7 @@
 {
   "component": "pypa/gh-action-pypi-publish@release/v1",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -182,6 +182,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "automazeio/proof"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "asg017/sqlite-fastrand"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "asg017/sqlite-fastrand"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "asg017/sqlite-html"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "asg017/sqlite-http"
     }
   ]
 }

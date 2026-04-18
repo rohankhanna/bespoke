@@ -1,7 +1,7 @@
 {
   "component": "azure/login@v2",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

@@ -1,0 +1,92 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[NeurIPS'23 Oral] Visual Instruction Tuning (LLaVA) built towards GPT-4V level capabilities and beyond."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "*Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "*Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.*"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19967997,
+      "status": "candidate",
+      "text": "chat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19967996,
+      "status": "candidate",
+      "text": "chatbox"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19967995,
+      "status": "candidate",
+      "text": "infobot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19967994,
+      "status": "candidate",
+      "text": "cyberchat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19967993,
+      "status": "candidate",
+      "text": "chat room"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chatbot",
+      "sense_id": "chatbot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "chatbot",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chatbot",
+  "observation_id": "3298a4618f4aaf25",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T18:30:26.389736+00:00",
+  "observed_text": "chatbot",
+  "source_context_snippet": "*Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.*",
+  "source_file": null,
+  "source_repo": "haotian-liu/LLaVA",
+  "source_repo_description": "[NeurIPS'23 Oral] Visual Instruction Tuning (LLaVA) built towards GPT-4V level capabilities and beyond."
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -77,6 +77,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/arm64.yml",
       "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml",
+      "source_repo": "langchain-ai/langchain"
     }
   ]
 }

@@ -7,8 +7,81 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atomicmemory/llm-wiki-compiler",
+      "status": "candidate-context",
+      "text": "The knowledge compiler. Raw sources in, interlinked wiki out. Inspired by Karpathy's LLM Wiki pattern."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atomicmemory/llm-wiki-compiler",
+      "status": "candidate-context",
+      "text": "Compile raw sources into an interlinked markdown wiki."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atomicmemory/llm-wiki-compiler",
+      "status": "candidate",
+      "text": "Compile raw sources into an interlinked markdown wiki."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39958261,
+      "status": "candidate",
+      "text": "encyclopedist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30035932,
+      "status": "candidate",
+      "text": "compiling program"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30035931,
+      "status": "candidate",
+      "text": "collator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30035443,
+      "status": "candidate",
+      "text": "compilation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30032099,
+      "status": "candidate",
+      "text": "editorial"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22,
+      "status": "candidate",
+      "text": "encyclopedist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "compiling program"
+    }
+  ],
   "canonical_name": "compiler",
   "concept_id": "compiler",
   "definition_status": "unresolved",
@@ -18,11 +91,21 @@
       "observed_at": "2026-04-18T11:24:14.688152+00:00",
       "source_file": null,
       "source_repo": "google/j2cl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": null,
+      "source_repo": "atomicmemory/llm-wiki-compiler"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
   "possible_senses": [
     {
       "buckets": [

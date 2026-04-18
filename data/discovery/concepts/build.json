@@ -8,8 +8,132 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asg017/sqlite-fastrand",
+      "status": "candidate-context",
+      "text": "A SQLite extension for quickly generating random numbers, booleans, characters, and blobs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-fastrand",
+      "status": "candidate-context",
+      "text": "\"build\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-hello",
+      "status": "candidate-context",
+      "text": "\"build\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asg017/sqlite-xsv",
+      "status": "candidate-context",
+      "text": "the fastest CSV SQLite extension, written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-xsv",
+      "status": "candidate-context",
+      "text": "\"build\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-fastrand",
+      "status": "candidate",
+      "text": "\"build\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-hello",
+      "status": "candidate",
+      "text": "\"build\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-xsv",
+      "status": "candidate",
+      "text": "\"build\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998502,
+      "status": "candidate",
+      "text": "frame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998180,
+      "status": "candidate",
+      "text": "construct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995799,
+      "status": "candidate",
+      "text": "make"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995725,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995568,
+      "status": "candidate",
+      "text": "build up"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40046,
+      "status": "candidate",
+      "text": "soma"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38040,
+      "status": "candidate",
+      "text": "establish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36047,
+      "status": "candidate",
+      "text": "construct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31055,
+      "status": "candidate",
+      "text": "shape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29082,
+      "status": "candidate",
+      "text": "form"
+    }
+  ],
   "canonical_name": "build",
   "concept_id": "build",
   "definition_status": "unresolved",
@@ -43,11 +167,33 @@
       "observed_at": "2026-04-18T12:46:59.510459+00:00",
       "source_file": ".github/workflows/rust.yml",
       "source_repo": "unicode-rs/unicode-width"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "asg017/sqlite-fastrand"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "asg017/sqlite-hello"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "asg017/sqlite-xsv"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
   "possible_senses": [
     {
       "buckets": [

@@ -13,6 +13,7 @@
   ],
   "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -24,9 +25,12 @@
       "status": "candidate"
     }
   ],
+  "candidate_synonyms": [],
   "concept_id": "golangci-lint",
   "definition_status": "unresolved",
   "gloss_status": "unresolved",
+  "lexical_providers": [],
+  "lexical_status": "unresolved",
   "normalized_form": "golangci-lint",
   "observation_id": "3c71f7fa54c6e401",
   "observation_kind": "workflow-name",

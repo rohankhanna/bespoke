@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto Label Issues by Package"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langchain-ai/langchain",
+      "status": "candidate-context",
+      "text": "The agent engineering platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/langchain",
+      "status": "candidate-context",
+      "text": "Auto Label Issues by Package"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/langchain",
+      "status": "candidate",
+      "text": "Auto Label Issues by Package"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44196,
+      "status": "candidate",
+      "text": "docket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33268,
+      "status": "candidate",
+      "text": "labeled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33268,
+      "status": "candidate",
+      "text": "labelled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27250,
+      "status": "candidate",
+      "text": "nox"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27217,
+      "status": "candidate",
+      "text": "car"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto Label Issues by Package",
+  "concept_id": "auto-label-issues-by-package",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": ".github/workflows/auto-label-by-package.yml",
+      "source_repo": "langchain-ai/langchain"
+    }
+  ],
+  "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Label Issues by Package",
+      "sense_id": "auto-label-issues-by-package#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

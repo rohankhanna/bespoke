@@ -7,6 +7,7 @@
   "candidate_definition_hints": [],
   "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -18,9 +19,12 @@
       "status": "candidate"
     }
   ],
+  "candidate_synonyms": [],
   "concept_id": "new-pr-bot",
   "definition_status": "unresolved",
   "gloss_status": "unresolved",
+  "lexical_providers": [],
+  "lexical_status": "unresolved",
   "normalized_form": "new-pr-bot",
   "observation_id": "4807b97d1a548f04",
   "observation_kind": "workflow-name",

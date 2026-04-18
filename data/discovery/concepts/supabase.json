@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "supabase"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucasastorian/llmwiki",
+      "status": "candidate-context",
+      "text": "Open Source Implementation of Karpathy's LLM Wiki. Upload documents, connect your Claude account via MCP, and have it write your wiki ! "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucasastorian/llmwiki",
+      "status": "candidate-context",
+      "text": "[![Live Demo](https://img.shields.io/badge/demo-llmwiki.app-blue)](https://llmwiki.app)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucasastorian/llmwiki",
+      "status": "candidate",
+      "text": "[![Live Demo](https://img.shields.io/badge/demo-llmwiki.app-blue)](https://llmwiki.app)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "supabase",
+  "concept_id": "supabase",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": null,
+      "source_repo": "lucasastorian/llmwiki"
+    }
+  ],
+  "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "supabase",
+      "sense_id": "supabase#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

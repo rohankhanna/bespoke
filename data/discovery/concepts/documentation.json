@@ -1,13 +1,121 @@
 {
   "aliases": [
-    "documentation"
+    "documentation",
+    "Documentation"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
-    "tool-component"
+    "tool-component",
+    "workflow-process",
+    "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-ai/llamafile",
+      "status": "candidate-context",
+      "text": "Distribute and run LLMs with a single file."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/llamafile",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "embeddings-benchmark/mteb",
+      "status": "candidate-context",
+      "text": "MTEB: Massive Text Embedding Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embeddings-benchmark/mteb",
+      "status": "candidate-context",
+      "text": "Documentation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/llamafile",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embeddings-benchmark/mteb",
+      "status": "candidate",
+      "text": "Documentation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39862819,
+      "status": "candidate",
+      "text": "certification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39852192,
+      "status": "candidate",
+      "text": "corroboration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39816994,
+      "status": "candidate",
+      "text": "support"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29878595,
+      "status": "candidate",
+      "text": "software documentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29878594,
+      "status": "candidate",
+      "text": "dossier"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 51065,
+      "status": "candidate",
+      "text": "support"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15030,
+      "status": "candidate",
+      "text": "corroboration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4048,
+      "status": "candidate",
+      "text": "certification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15,
+      "status": "candidate",
+      "text": "software documentation"
+    }
+  ],
   "canonical_name": "documentation",
   "concept_id": "documentation",
   "definition_status": "unresolved",
@@ -17,11 +125,27 @@
       "observed_at": "2026-04-18T10:25:53.609022+00:00",
       "source_file": null,
       "source_repo": "withastro/starlight"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mozilla-ai/llamafile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "embeddings-benchmark/mteb"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
   "possible_senses": [
     {
       "buckets": [

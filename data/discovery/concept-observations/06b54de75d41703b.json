@@ -18,6 +18,7 @@
   ],
   "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -29,9 +30,12 @@
       "status": "candidate"
     }
   ],
+  "candidate_synonyms": [],
   "concept_id": "node.js-ci",
   "definition_status": "unresolved",
   "gloss_status": "unresolved",
+  "lexical_providers": [],
+  "lexical_status": "unresolved",
   "normalized_form": "node.js-ci",
   "observation_id": "06b54de75d41703b",
   "observation_kind": "workflow-name",

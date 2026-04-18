@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Datasets available on HuggingFace"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "embeddings-benchmark/mteb",
+      "status": "candidate-context",
+      "text": "MTEB: Massive Text Embedding Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embeddings-benchmark/mteb",
+      "status": "candidate-context",
+      "text": "Datasets available on HuggingFace"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embeddings-benchmark/mteb",
+      "status": "candidate",
+      "text": "Datasets available on HuggingFace"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "benchmarks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "applications"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "databases"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "files"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "projects"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Datasets available on HuggingFace",
+  "concept_id": "datasets-available-on-huggingface",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": ".github/workflows/dataset_loading.yml",
+      "source_repo": "embeddings-benchmark/mteb"
+    }
+  ],
+  "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Datasets available on HuggingFace",
+      "sense_id": "datasets-available-on-huggingface#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

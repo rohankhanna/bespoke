@@ -1,0 +1,56 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A framework for writing fast and performant SQLite extensions in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Latest Version](https://img.shields.io/crates/v/sqlite-loadable.svg)](https://crates.io/crates/sqlite-loadable)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Latest Version](https://img.shields.io/crates/v/sqlite-loadable.svg)](https://crates.io/crates/sqlite-loadable)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sqlite-extension",
+      "sense_id": "sqlite-extension#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sqlite-extension",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sqlite-extension",
+  "observation_id": "38cf9ebdbfa4c37b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T18:30:26.389736+00:00",
+  "observed_text": "sqlite-extension",
+  "source_context_snippet": "[![Latest Version](https://img.shields.io/crates/v/sqlite-loadable.svg)](https://crates.io/crates/sqlite-loadable)",
+  "source_file": null,
+  "source_repo": "asg017/sqlite-loadable-rs",
+  "source_repo_description": "A framework for writing fast and performant SQLite extensions in Rust"
+}

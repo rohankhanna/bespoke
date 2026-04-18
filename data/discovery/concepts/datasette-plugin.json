@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "datasette-plugin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asg017/sqlite-fastrand",
+      "status": "candidate-context",
+      "text": "A SQLite extension for quickly generating random numbers, booleans, characters, and blobs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-fastrand",
+      "status": "candidate-context",
+      "text": "A SQLite extension for quickly generating random numbers, booleans, characters, and blobs. **Not cryptographically secure.** Based on [`sqlite-loadable-rs`](https://github.com/asg017/sqlite-loadable-rs) and the [fastrand crate](https://crates.io/crates/fastrand).`"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-fastrand",
+      "status": "candidate",
+      "text": "A SQLite extension for quickly generating random numbers, booleans, characters, and blobs. **Not cryptographically secure.** Based on [`sqlite-loadable-rs`](https://github.com/asg017/sqlite-loadable-rs) and the [fastrand crate](https://crates.io/crates/fastrand).`"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "datasette-plugin",
+  "concept_id": "datasette-plugin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": null,
+      "source_repo": "asg017/sqlite-fastrand"
+    }
+  ],
+  "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "datasette-plugin",
+      "sense_id": "datasette-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

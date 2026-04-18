@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "AI review (issues)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggml-org/llama.cpp",
+      "status": "candidate-context",
+      "text": "LLM inference in C/C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggml-org/llama.cpp",
+      "status": "candidate-context",
+      "text": "AI review (issues)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggml-org/llama.cpp",
+      "status": "candidate",
+      "text": "AI review (issues)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15057,
+      "status": "candidate",
+      "text": "was"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14748,
+      "status": "candidate",
+      "text": "robotics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14036,
+      "status": "candidate",
+      "text": "bot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14036,
+      "status": "candidate",
+      "text": "complex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14036,
+      "status": "candidate",
+      "text": "did"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "AI review (issues)",
+  "concept_id": "ai-review-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": ".github/workflows/ai-issues.yml",
+      "source_repo": "ggml-org/llama.cpp"
+    }
+  ],
+  "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "AI review (issues)",
+      "sense_id": "ai-review-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

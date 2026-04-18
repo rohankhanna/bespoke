@@ -29,6 +29,8 @@
       "text": "> **\ud83d\udd14 Claude Scientific Skills is now Scientific Agent Skills.** Same skills, broader compatibility \u2014 now works with any AI agent that supports the open [Agent Skills](https://agentskills.io/) standard, not just Claude."
     }
   ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
   "canonical_name": "scientific-computing",
   "concept_id": "scientific-computing",
   "definition_status": "unresolved",
@@ -43,6 +45,8 @@
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
   "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
+  "lexical_providers": [],
+  "lexical_status": "unresolved",
   "possible_senses": [
     {
       "buckets": [

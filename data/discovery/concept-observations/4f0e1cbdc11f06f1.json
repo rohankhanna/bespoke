@@ -13,6 +13,7 @@
   ],
   "candidate_glosses": [],
   "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -24,9 +25,12 @@
       "status": "candidate"
     }
   ],
+  "candidate_synonyms": [],
   "concept_id": "golang",
   "definition_status": "unresolved",
   "gloss_status": "unresolved",
+  "lexical_providers": [],
+  "lexical_status": "unresolved",
   "normalized_form": "golang",
   "observation_id": "4f0e1cbdc11f06f1",
   "observation_kind": "repo-topic",

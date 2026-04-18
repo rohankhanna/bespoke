@@ -13,6 +13,7 @@
   ],
   "candidate_glosses": [],
   "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -24,9 +25,12 @@
       "status": "candidate"
     }
   ],
+  "candidate_synonyms": [],
   "concept_id": "model-hub",
   "definition_status": "unresolved",
   "gloss_status": "unresolved",
+  "lexical_providers": [],
+  "lexical_status": "unresolved",
   "normalized_form": "model-hub",
   "observation_id": "ca4432c08e663359",
   "observation_kind": "repo-topic",

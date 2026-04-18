@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-homebrew.yml",
+      "source_repo": "Azure/homebrew-bicep",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-homebrew.yml",
+      "source_repo": "Azure/homebrew-bicep",
+      "target": "actions/github-script@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-homebrew.yml",
+      "source_repo": "Azure/homebrew-bicep",
+      "target": "stefanzweifel/git-auto-commit-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-homebrew.yml",
+      "source_repo": "Azure/homebrew-bicep",
+      "target": "Update Homebrew",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T18:30:26.389736+00:00",
+  "source_repo": "Azure/homebrew-bicep"
+}

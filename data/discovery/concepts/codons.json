@@ -29,6 +29,8 @@
       "text": "This repository encapsulates all code required to reproduce the results of the paper [\"Codon language embeddings provide strong signals for use in protein engineering\"](https://www.nature.com/articles/s42256-024-00791-0), by Carlos Outeiral and Charlotte M. Deane."
     }
   ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
   "canonical_name": "codons",
   "concept_id": "codons",
   "definition_status": "unresolved",
@@ -43,6 +45,8 @@
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
   "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
+  "lexical_providers": [],
+  "lexical_status": "unresolved",
   "possible_senses": [
     {
       "buckets": [

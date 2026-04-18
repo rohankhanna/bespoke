@@ -1,7 +1,7 @@
 {
   "component": "docker/build-push-action@v5",
   "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
-  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -82,6 +82,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker-release.yml",
       "source_repo": "Aider-AI/aider"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/leaderboard_docker.yml",
+      "source_repo": "embeddings-benchmark/mteb"
     }
   ]
 }

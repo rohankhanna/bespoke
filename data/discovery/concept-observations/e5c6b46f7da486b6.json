@@ -1,31 +1,92 @@
 {
   "ambiguity_status": "unresolved",
   "candidate_buckets": [
-    "workflow-process"
+    "workflow-process",
+    "data-document-artifact"
   ],
-  "candidate_definition_hints": [],
-  "candidate_glosses": [],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Autonomous multi-session AI coding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Issue Auto Label"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Issue Auto Label"
+    }
+  ],
   "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18011,
+      "status": "candidate",
+      "text": "parts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17912,
+      "status": "candidate",
+      "text": "flasher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17912,
+      "status": "candidate",
+      "text": "relocatable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17896,
+      "status": "candidate",
+      "text": "tag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17893,
+      "status": "candidate",
+      "text": "title"
+    }
+  ],
   "candidate_senses": [
     {
       "candidate_buckets": [
-        "workflow-process"
+        "workflow-process",
+        "data-document-artifact"
       ],
       "label": "Issue Auto Label",
       "sense_id": "issue-auto-label#sense-1",
       "status": "candidate"
     }
   ],
+  "candidate_synonyms": [],
   "concept_id": "issue-auto-label",
   "definition_status": "unresolved",
   "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
   "normalized_form": "issue-auto-label",
   "observation_id": "e5c6b46f7da486b6",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_at": "2026-04-18T18:30:26.389736+00:00",
   "observed_text": "Issue Auto Label",
-  "source_context_snippet": null,
+  "source_context_snippet": "Issue Auto Label",
   "source_file": ".github/workflows/issue-auto-label.yml",
   "source_repo": "AndyMik90/Aperant",
-  "source_repo_description": null
+  "source_repo_description": "Autonomous multi-session AI coding"
 }

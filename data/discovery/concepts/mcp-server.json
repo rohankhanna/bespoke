@@ -19,6 +19,18 @@
       "source_repo": "upstash/context7",
       "status": "candidate-context",
       "text": "![Cover](https://github.com/upstash/context7/blob/master/public/cover.png?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucasastorian/llmwiki",
+      "status": "candidate-context",
+      "text": "Open Source Implementation of Karpathy's LLM Wiki. Upload documents, connect your Claude account via MCP, and have it write your wiki ! "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucasastorian/llmwiki",
+      "status": "candidate-context",
+      "text": "[![Live Demo](https://img.shields.io/badge/demo-llmwiki.app-blue)](https://llmwiki.app)"
     }
   ],
   "candidate_glosses": [
@@ -27,8 +39,16 @@
       "source_repo": "upstash/context7",
       "status": "candidate",
       "text": "![Cover](https://github.com/upstash/context7/blob/master/public/cover.png?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucasastorian/llmwiki",
+      "status": "candidate",
+      "text": "[![Live Demo](https://img.shields.io/badge/demo-llmwiki.app-blue)](https://llmwiki.app)"
     }
   ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
   "canonical_name": "mcp-server",
   "concept_id": "mcp-server",
   "definition_status": "unresolved",
@@ -68,11 +88,21 @@
       "observed_at": "2026-04-18T13:50:38.061794+00:00",
       "source_file": null,
       "source_repo": "upstash/context7"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": null,
+      "source_repo": "lucasastorian/llmwiki"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
   "possible_senses": [
     {
       "buckets": [

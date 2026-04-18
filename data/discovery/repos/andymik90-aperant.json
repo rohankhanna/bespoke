@@ -446,7 +446,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T10:26:08.598155+00:00",
+  "fetched_at": "2026-04-18T18:30:29.863176+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -498,7 +498,7 @@
     "language": "TypeScript",
     "pushed_at": "2026-03-23T19:47:59Z",
     "topics": [],
-    "updated_at": "2026-04-18T08:37:19Z"
+    "updated_at": "2026-04-18T18:15:30Z"
   },
   "repo_links": [
     {
@@ -514,36 +514,43 @@
   ],
   "terms": [
     {
+      "context_snippet": "Beta Release",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/beta-release.yml",
       "term": "Beta Release"
     },
     {
+      "context_snippet": "Build Native Module Prebuilds",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/build-prebuilds.yml",
       "term": "Build Native Module Prebuilds"
     },
     {
+      "context_snippet": "Discord Release Notification",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/discord-release.yml",
       "term": "Discord Release Notification"
     },
     {
+      "context_snippet": "E2E",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/e2e.yml",
       "term": "E2E"
     },
     {
+      "context_snippet": "Issue Auto Label",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/issue-auto-label.yml",
       "term": "Issue Auto Label"
     },
     {
+      "context_snippet": "Lint",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/lint.yml",
       "term": "Lint"
     },
     {
+      "context_snippet": "PR Labeler",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/pr-labeler.yml",
       "term": "PR Labeler"

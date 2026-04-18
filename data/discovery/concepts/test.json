@@ -38,6 +38,30 @@
       "source_repo": "fsnotify/fsnotify",
       "status": "candidate-context",
       "text": "'test'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asg017/sqlite-html",
+      "status": "candidate-context",
+      "text": "A SQLite extension for querying, manipulating, and creating HTML elements."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-html",
+      "status": "candidate-context",
+      "text": "\"test\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asg017/sqlite-http",
+      "status": "candidate-context",
+      "text": "A SQLite extension for making HTTP requests purely in SQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-http",
+      "status": "candidate-context",
+      "text": "\"test\""
     }
   ],
   "candidate_glosses": [
@@ -52,6 +76,92 @@
       "source_repo": "fsnotify/fsnotify",
       "status": "candidate",
       "text": "'test'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-html",
+      "status": "candidate",
+      "text": "\"test\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-http",
+      "status": "candidate",
+      "text": "\"test\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037136,
+      "status": "candidate",
+      "text": "try out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036789,
+      "status": "candidate",
+      "text": "examine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035285,
+      "status": "candidate",
+      "text": "trial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035026,
+      "status": "candidate",
+      "text": "experimental"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034614,
+      "status": "candidate",
+      "text": "examination"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 47058,
+      "status": "candidate",
+      "text": "assay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42039,
+      "status": "candidate",
+      "text": "examine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33077,
+      "status": "candidate",
+      "text": "model"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27083,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25080,
+      "status": "candidate",
+      "text": "check"
     }
   ],
   "canonical_name": "Test",
@@ -129,11 +239,27 @@
       "observed_at": "2026-04-18T13:50:38.061794+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "fsnotify/fsnotify"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "asg017/sqlite-html"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "asg017/sqlite-http"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
   "possible_senses": [
     {
       "buckets": [

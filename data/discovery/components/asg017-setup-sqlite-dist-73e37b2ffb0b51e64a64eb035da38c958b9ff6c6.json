@@ -1,0 +1,12 @@
+{
+  "component": "asg017/setup-sqlite-dist@73e37b2ffb0b51e64a64eb035da38c958b9ff6c6",
+  "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "asg017/sqlite-hello"
+    }
+  ]
+}

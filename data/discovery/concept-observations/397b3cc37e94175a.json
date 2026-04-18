@@ -7,6 +7,7 @@
   "candidate_definition_hints": [],
   "candidate_glosses": [],
   "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -18,9 +19,12 @@
       "status": "candidate"
     }
   ],
+  "candidate_synonyms": [],
   "concept_id": "eval-driven-development",
   "definition_status": "unresolved",
   "gloss_status": "unresolved",
+  "lexical_providers": [],
+  "lexical_status": "unresolved",
   "normalized_form": "eval-driven-development",
   "observation_id": "397b3cc37e94175a",
   "observation_kind": "repo-topic",

@@ -4,10 +4,69 @@
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
-    "workflow-process"
+    "workflow-process",
+    "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-ai/llamafile",
+      "status": "candidate-context",
+      "text": "Distribute and run LLMs with a single file."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/llamafile",
+      "status": "candidate-context",
+      "text": "\"Pull Request Labeler\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/llamafile",
+      "status": "candidate",
+      "text": "\"Pull Request Labeler\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18454,
+      "status": "candidate",
+      "text": "distributor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14496,
+      "status": "candidate",
+      "text": "peel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14496,
+      "status": "candidate",
+      "text": "peeling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14355,
+      "status": "candidate",
+      "text": "thumb index"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10355,
+      "status": "candidate",
+      "text": "affiliate"
+    }
+  ],
+  "candidate_synonyms": [],
   "canonical_name": "Pull Request Labeler",
   "concept_id": "pull-request-labeler",
   "definition_status": "unresolved",
@@ -17,11 +76,21 @@
       "observed_at": "2026-04-18T10:25:53.609022+00:00",
       "source_file": ".github/workflows/pr-labeler.yml",
       "source_repo": "withastro/starlight"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "mozilla-ai/llamafile"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
   "possible_senses": [
     {
       "buckets": [

@@ -1,0 +1,56 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Tensor library for machine learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[Manifesto](https://github.com/ggerganov/llama.cpp/discussions/205)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[Manifesto](https://github.com/ggerganov/llama.cpp/discussions/205)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tensor-algebra",
+      "sense_id": "tensor-algebra#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tensor-algebra",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tensor-algebra",
+  "observation_id": "3230b3b6824b73c7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T18:30:26.389736+00:00",
+  "observed_text": "tensor-algebra",
+  "source_context_snippet": "[Manifesto](https://github.com/ggerganov/llama.cpp/discussions/205)",
+  "source_file": null,
+  "source_repo": "ggml-org/ggml",
+  "source_repo_description": "Tensor library for machine learning"
+}

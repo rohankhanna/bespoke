@@ -23,6 +23,8 @@
     }
   ],
   "candidate_glosses": [],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
   "canonical_name": "Continuous Integration",
   "concept_id": "continuous-integration",
   "definition_status": "unresolved",
@@ -49,6 +51,8 @@
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
   "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "lexical_providers": [],
+  "lexical_status": "unresolved",
   "possible_senses": [
     {
       "buckets": [

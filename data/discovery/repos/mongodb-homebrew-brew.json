@@ -1,0 +1,38 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mongodb/homebrew-brew",
+      "target": "homebrew/brew",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-18T18:30:42.915639+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5304
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "The Official MongoDB Software Homebrew Tap",
+    "full_name": "mongodb/homebrew-brew",
+    "html_url": "https://github.com/mongodb/homebrew-brew",
+    "language": "Ruby",
+    "pushed_at": "2026-04-16T22:50:40Z",
+    "topics": [],
+    "updated_at": "2026-04-14T11:56:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "homebrew/brew",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -22,9 +22,66 @@
       "source_repo": "ethpandaops/cbt",
       "status": "candidate-context",
       "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AndyMik90/Aperant",
+      "status": "candidate-context",
+      "text": "Autonomous multi-session AI coding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndyMik90/Aperant",
+      "status": "candidate-context",
+      "text": "Lint"
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndyMik90/Aperant",
+      "status": "candidate",
+      "text": "Lint"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20043848,
+      "status": "candidate",
+      "text": "fiber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20037342,
+      "status": "candidate",
+      "text": "fuzz"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20026742,
+      "status": "candidate",
+      "text": "fluff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20026081,
+      "status": "candidate",
+      "text": "fluffy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20006155,
+      "status": "candidate",
+      "text": "stuffed"
+    }
+  ],
+  "candidate_synonyms": [],
   "canonical_name": "Lint",
   "concept_id": "lint",
   "definition_status": "unresolved",
@@ -100,11 +157,21 @@
       "observed_at": "2026-04-18T13:29:00.435097+00:00",
       "source_file": ".github/workflows/lint.yaml",
       "source_repo": "ethpandaops/cbt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "AndyMik90/Aperant"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
   "possible_senses": [
     {
       "buckets": [

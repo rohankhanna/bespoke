@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/_compile_integration_test.yml",
+      "source_repo": "langchain-ai/langchain"
+    }
+  ],
+  "term": "\ud83d\udd17 Compile Integration Tests"
+}

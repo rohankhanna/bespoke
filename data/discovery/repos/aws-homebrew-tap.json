@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-eksctl.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-eksctl.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/homebrew-tap",
+      "target": "aws/amazon-ec2-instance-selector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/homebrew-tap",
+      "target": "aws/amazon-ec2-metadata-mock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/homebrew-tap",
+      "target": "aws/amazon-ec2-spot-interrupter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/homebrew-tap",
+      "target": "aws/aws-xray-daemon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-eksctl.yml",
+      "source_repo": "aws/homebrew-tap",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-eksctl.yml",
+      "source_repo": "aws/homebrew-tap",
+      "target": "peter-evans/create-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-eksctl.yml",
+      "source_repo": "aws/homebrew-tap",
+      "target": "Update eksctl Formula",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T18:30:40.250302+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4532
+    },
+    {
+      "path": ".github/workflows/update-eksctl.yml",
+      "size": 5406
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "Homebrew formulae that allows installation of AWS tools through the Homebrew package manager.",
+    "full_name": "aws/homebrew-tap",
+    "html_url": "https://github.com/aws/homebrew-tap",
+    "language": "Ruby",
+    "pushed_at": "2026-03-30T08:54:45Z",
+    "topics": [],
+    "updated_at": "2026-03-30T08:54:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/amazon-ec2-instance-selector",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/amazon-ec2-metadata-mock",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/amazon-ec2-spot-interrupter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/aws-xray-daemon",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Update eksctl Formula",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-eksctl.yml",
+      "term": "Update eksctl Formula"
+    }
+  ]
+}

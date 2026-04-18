@@ -7,6 +7,7 @@
   "candidate_definition_hints": [],
   "candidate_glosses": [],
   "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -18,9 +19,12 @@
       "status": "candidate"
     }
   ],
+  "candidate_synonyms": [],
   "concept_id": "firebase-cloud-messaging",
   "definition_status": "unresolved",
   "gloss_status": "unresolved",
+  "lexical_providers": [],
+  "lexical_status": "unresolved",
   "normalized_form": "firebase-cloud-messaging",
   "observation_id": "da06b7f2f094dfb6",
   "observation_kind": "repo-topic",

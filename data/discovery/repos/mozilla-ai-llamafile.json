@@ -1,0 +1,244 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/editorconfig.yml"
+    },
+    {
+      "component": "editorconfig-checker/action-editorconfig-checker@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/editorconfig.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "actions/labeler@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-llama-cpp.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "ggml-org/whisper.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "jart/cosmopolitan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "ggerganov/whisper.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/editorconfig.yml",
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/editorconfig.yml",
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "editorconfig-checker/action-editorconfig-checker@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/editorconfig.yml",
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "EditorConfig Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "actions/labeler@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "Pull Request Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-llama-cpp.yml",
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-llama-cpp.yml",
+      "source_repo": "mozilla-ai/llamafile",
+      "target": "Update llama.cpp submodule",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T18:31:31.698573+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5100
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1673
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 1763
+    },
+    {
+      "path": ".github/workflows/editorconfig.yml",
+      "size": 607
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 358
+    },
+    {
+      "path": ".github/workflows/update-llama-cpp.yml",
+      "size": 2866
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Distribute and run LLMs with a single file.",
+    "full_name": "mozilla-ai/llamafile",
+    "html_url": "https://github.com/mozilla-ai/llamafile",
+    "language": "C++",
+    "pushed_at": "2026-04-17T15:13:24Z",
+    "topics": [],
+    "updated_at": "2026-04-18T18:19:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/whisper.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggml-org/whisper.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jart/cosmopolitan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Documentation"
+    },
+    {
+      "context_snippet": "EditorConfig Checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/editorconfig.yml",
+      "term": "EditorConfig Checker"
+    },
+    {
+      "context_snippet": "\"Pull Request Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "Pull Request Labeler"
+    },
+    {
+      "context_snippet": "Update llama.cpp submodule",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-llama-cpp.yml",
+      "term": "Update llama.cpp submodule"
+    }
+  ]
+}

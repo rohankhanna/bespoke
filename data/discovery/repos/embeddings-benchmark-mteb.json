@@ -1,0 +1,644 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dataset_loading.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dataset_loading.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dataset_loading.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hf_space_docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hf_space_docker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/leaderboard_build.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/leaderboard_build.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/leaderboard_build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/leaderboard_docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/leaderboard_docker.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/leaderboard_docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/leaderboard_docker.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/leaderboard_refresh.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/leaderboard_refresh.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/leaderboard_refresh.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/leaderboard_refresh.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dataset_loading.yml",
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dataset_loading.yml",
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dataset_loading.yml",
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dataset_loading.yml",
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "Datasets available on HuggingFace",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "actions/deploy-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hf_space_docker.yml",
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hf_space_docker.yml",
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hf_space_docker.yml",
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "Build HF Space Docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/leaderboard_build.yml",
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/leaderboard_build.yml",
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/leaderboard_build.yml",
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/leaderboard_build.yml",
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "Leaderboard Build Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/leaderboard_docker.yml",
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/leaderboard_docker.yml",
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/leaderboard_docker.yml",
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/leaderboard_docker.yml",
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/leaderboard_docker.yml",
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "Test Leaderboard Dockerfile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/leaderboard_healthcheck.yml",
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "Leaderboard Healthcheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/leaderboard_refresh.yaml",
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/leaderboard_refresh.yaml",
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/leaderboard_refresh.yaml",
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/leaderboard_refresh.yaml",
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/leaderboard_refresh.yaml",
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "Daily Space Rebuild",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "bitext-mining",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "clustering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "information-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "low-resource-nlp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "mteb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "multilingual-nlp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "multimodal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "neural-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "reranking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "sbert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "semantic-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "sentence-transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "text-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "embeddings-benchmark/mteb",
+      "target": "text-embedding",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T18:31:43.476404+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9184
+    },
+    {
+      "path": "Dockerfile",
+      "size": 530
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 17789
+    },
+    {
+      "path": ".github/workflows/dataset_loading.yml",
+      "size": 1495
+    },
+    {
+      "path": ".github/workflows/documentation.yml",
+      "size": 1851
+    },
+    {
+      "path": ".github/workflows/hf_space_docker.yml",
+      "size": 2043
+    },
+    {
+      "path": ".github/workflows/leaderboard_build.yml",
+      "size": 1174
+    },
+    {
+      "path": ".github/workflows/leaderboard_docker.yml",
+      "size": 5751
+    },
+    {
+      "path": ".github/workflows/leaderboard_healthcheck.yml",
+      "size": 1507
+    },
+    {
+      "path": ".github/workflows/leaderboard_refresh.yaml",
+      "size": 1606
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "MTEB: Massive Text Embedding Benchmark",
+    "full_name": "embeddings-benchmark/mteb",
+    "html_url": "https://github.com/embeddings-benchmark/mteb",
+    "language": "Python",
+    "pushed_at": "2026-04-18T16:46:33Z",
+    "topics": [
+      "benchmark",
+      "bitext-mining",
+      "clustering",
+      "information-retrieval",
+      "low-resource-nlp",
+      "mteb",
+      "multilingual-nlp",
+      "multimodal",
+      "neural-search",
+      "reranking",
+      "retrieval",
+      "sbert",
+      "semantic-search",
+      "sentence-transformers",
+      "sts",
+      "text-classification",
+      "text-embedding"
+    ],
+    "updated_at": "2026-04-18T16:46:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Datasets available on HuggingFace",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dataset_loading.yml",
+      "term": "Datasets available on HuggingFace"
+    },
+    {
+      "context_snippet": "Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "term": "Documentation"
+    },
+    {
+      "context_snippet": "Build HF Space Docker Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hf_space_docker.yml",
+      "term": "Build HF Space Docker Image"
+    },
+    {
+      "context_snippet": "Leaderboard Build Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/leaderboard_build.yml",
+      "term": "Leaderboard Build Tests"
+    },
+    {
+      "context_snippet": "Test Leaderboard Dockerfile",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/leaderboard_docker.yml",
+      "term": "Test Leaderboard Dockerfile"
+    },
+    {
+      "context_snippet": "Leaderboard Healthcheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/leaderboard_healthcheck.yml",
+      "term": "Leaderboard Healthcheck"
+    },
+    {
+      "context_snippet": "Daily Space Rebuild",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/leaderboard_refresh.yaml",
+      "term": "Daily Space Rebuild"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitext-mining"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clustering"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "information-retrieval"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "low-resource-nlp"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mteb"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multilingual-nlp"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-search"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reranking"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "retrieval"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sbert"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-search"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sentence-transformers"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-classification"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-embedding"
+    }
+  ]
+}

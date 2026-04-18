@@ -18,6 +18,7 @@
   ],
   "candidate_glosses": [],
   "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -29,9 +30,12 @@
       "status": "candidate"
     }
   ],
+  "candidate_synonyms": [],
   "concept_id": "marshalling",
   "definition_status": "unresolved",
   "gloss_status": "unresolved",
+  "lexical_providers": [],
+  "lexical_status": "unresolved",
   "normalized_form": "marshalling",
   "observation_id": "9a6a9cbdc663b04e",
   "observation_kind": "repo-topic",

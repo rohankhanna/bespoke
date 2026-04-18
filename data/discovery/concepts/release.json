@@ -104,6 +104,102 @@
       "source_repo": "ldayton/Parable",
       "status": "candidate-context",
       "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "multica-ai/multica",
+      "status": "candidate-context",
+      "text": "The open-source managed agents platform. Turn coding agents into real teammates \u2014 assign tasks, track progress, compound skills."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multica-ai/multica",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compozy/kb",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asg017/sqlite-fastrand",
+      "status": "candidate-context",
+      "text": "A SQLite extension for quickly generating random numbers, booleans, characters, and blobs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-fastrand",
+      "status": "candidate-context",
+      "text": "\"Release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-hello",
+      "status": "candidate-context",
+      "text": "\"Release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asg017/sqlite-html",
+      "status": "candidate-context",
+      "text": "A SQLite extension for querying, manipulating, and creating HTML elements."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-html",
+      "status": "candidate-context",
+      "text": "\"release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asg017/sqlite-http",
+      "status": "candidate-context",
+      "text": "A SQLite extension for making HTTP requests purely in SQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-http",
+      "status": "candidate-context",
+      "text": "\"release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggml-org/ggml",
+      "status": "candidate-context",
+      "text": "Tensor library for machine learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggml-org/ggml",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asg017/sqlite-loadable-rs",
+      "status": "candidate-context",
+      "text": "A framework for writing fast and performant SQLite extensions in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-loadable-rs",
+      "status": "candidate-context",
+      "text": "\"Release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asg017/sqlite-xsv",
+      "status": "candidate-context",
+      "text": "the fastest CSV SQLite extension, written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-xsv",
+      "status": "candidate-context",
+      "text": "\"Release\""
     }
   ],
   "candidate_glosses": [
@@ -130,6 +226,134 @@
       "source_repo": "ldayton/Parable",
       "status": "candidate",
       "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multica-ai/multica",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "compozy/kb",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-fastrand",
+      "status": "candidate",
+      "text": "\"Release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-hello",
+      "status": "candidate",
+      "text": "\"Release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-html",
+      "status": "candidate",
+      "text": "\"release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-http",
+      "status": "candidate",
+      "text": "\"release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggml-org/ggml",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-loadable-rs",
+      "status": "candidate",
+      "text": "\"Release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-xsv",
+      "status": "candidate",
+      "text": "\"Release\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045979,
+      "status": "candidate",
+      "text": "loose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045869,
+      "status": "candidate",
+      "text": "liberate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045867,
+      "status": "candidate",
+      "text": "liberation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045747,
+      "status": "candidate",
+      "text": "unloose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045127,
+      "status": "candidate",
+      "text": "expel"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45066,
+      "status": "candidate",
+      "text": "free"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43034,
+      "status": "candidate",
+      "text": "relinquish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40071,
+      "status": "candidate",
+      "text": "issue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37073,
+      "status": "candidate",
+      "text": "discharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22035,
+      "status": "candidate",
+      "text": "liberation"
     }
   ],
   "canonical_name": "Release",
@@ -345,11 +569,69 @@
       "observed_at": "2026-04-18T13:50:38.061794+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "ldayton/Parable"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "multica-ai/multica"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "compozy/kb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "asg017/sqlite-fastrand"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "asg017/sqlite-hello"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "asg017/sqlite-html"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "asg017/sqlite-http"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ggml-org/ggml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "asg017/sqlite-loadable-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "asg017/sqlite-xsv"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
   "possible_senses": [
     {
       "buckets": [

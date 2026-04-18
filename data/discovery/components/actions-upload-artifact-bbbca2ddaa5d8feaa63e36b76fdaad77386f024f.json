@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -92,6 +92,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/memory_report.yaml",
       "source_repo": "astral-sh/ruff"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_release.yml",
+      "source_repo": "langchain-ai/langchain"
     }
   ]
 }

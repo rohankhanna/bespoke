@@ -20,9 +20,66 @@
       "source_repo": "ethpandaops/cbt",
       "status": "candidate-context",
       "text": "Test Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asg017/sqlite-loadable-rs",
+      "status": "candidate-context",
+      "text": "A framework for writing fast and performant SQLite extensions in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-loadable-rs",
+      "status": "candidate-context",
+      "text": "\"test build\""
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-loadable-rs",
+      "status": "candidate",
+      "text": "\"test build\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "pose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "site"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11553,
+      "status": "candidate",
+      "text": "form"
+    }
+  ],
+  "candidate_synonyms": [],
   "canonical_name": "test build",
   "concept_id": "test-build",
   "definition_status": "unresolved",
@@ -44,11 +101,21 @@
       "observed_at": "2026-04-18T13:29:00.435097+00:00",
       "source_file": ".github/workflows/test-build.yaml",
       "source_repo": "ethpandaops/cbt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "asg017/sqlite-loadable-rs"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
   "possible_senses": [
     {
       "buckets": [

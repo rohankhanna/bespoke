@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build HF Space Docker Image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "embeddings-benchmark/mteb",
+      "status": "candidate-context",
+      "text": "MTEB: Massive Text Embedding Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embeddings-benchmark/mteb",
+      "status": "candidate-context",
+      "text": "Build HF Space Docker Image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "embeddings-benchmark/mteb",
+      "status": "candidate",
+      "text": "Build HF Space Docker Image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32900,
+      "status": "candidate",
+      "text": "injection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32884,
+      "status": "candidate",
+      "text": "chlorofluorocarbon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30757,
+      "status": "candidate",
+      "text": "credit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26984,
+      "status": "candidate",
+      "text": "loader"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25745,
+      "status": "candidate",
+      "text": "surjection"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build HF Space Docker Image",
+  "concept_id": "build-hf-space-docker-image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": ".github/workflows/hf_space_docker.yml",
+      "source_repo": "embeddings-benchmark/mteb"
+    }
+  ],
+  "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build HF Space Docker Image",
+      "sense_id": "build-hf-space-docker-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -24,6 +24,7 @@
     }
   ],
   "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -35,9 +36,12 @@
       "status": "candidate"
     }
   ],
+  "candidate_synonyms": [],
   "concept_id": "prompt-engineering",
   "definition_status": "unresolved",
   "gloss_status": "unresolved",
+  "lexical_providers": [],
+  "lexical_status": "unresolved",
   "normalized_form": "prompt-engineering",
   "observation_id": "c0838a35bb5cc96c",
   "observation_kind": "repo-topic",

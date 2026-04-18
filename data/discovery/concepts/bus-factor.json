@@ -22,6 +22,8 @@
     }
   ],
   "candidate_glosses": [],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
   "canonical_name": "bus-factor",
   "concept_id": "bus-factor",
   "definition_status": "unresolved",
@@ -36,6 +38,8 @@
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
   "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "lexical_providers": [],
+  "lexical_status": "unresolved",
   "possible_senses": [
     {
       "buckets": [

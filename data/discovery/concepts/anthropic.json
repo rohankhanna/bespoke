@@ -37,6 +37,18 @@
       "source_repo": "wshobson/agents",
       "status": "candidate-context",
       "text": "> **\u26a1 Updated for Opus 4.7, Sonnet 4.6 & Haiku 4.5** \u2014 Three-tier model strategy for optimal performance"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langchain-ai/langchain",
+      "status": "candidate-context",
+      "text": "The agent engineering platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/langchain",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,58 @@
       "source_repo": "wshobson/agents",
       "status": "candidate",
       "text": "> **\u26a1 Updated for Opus 4.7, Sonnet 4.6 & Haiku 4.5** \u2014 Three-tier model strategy for optimal performance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/langchain",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29923296,
+      "status": "candidate",
+      "text": "anthropical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015826,
+      "status": "candidate",
+      "text": "mankindly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015825,
+      "status": "candidate",
+      "text": "humanistic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015824,
+      "status": "candidate",
+      "text": "humanly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015823,
+      "status": "candidate",
+      "text": "anthropogenic"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17,
+      "status": "candidate",
+      "text": "anthropical"
     }
   ],
   "canonical_name": "anthropic",
@@ -92,11 +156,21 @@
       "observed_at": "2026-04-18T13:50:38.061794+00:00",
       "source_file": null,
       "source_repo": "wshobson/agents"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
   "possible_senses": [
     {
       "buckets": [

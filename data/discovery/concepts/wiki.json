@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "wiki"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atomicmemory/llm-wiki-compiler",
+      "status": "candidate-context",
+      "text": "The knowledge compiler. Raw sources in, interlinked wiki out. Inspired by Karpathy's LLM Wiki pattern."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atomicmemory/llm-wiki-compiler",
+      "status": "candidate-context",
+      "text": "Compile raw sources into an interlinked markdown wiki."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atomicmemory/llm-wiki-compiler",
+      "status": "candidate",
+      "text": "Compile raw sources into an interlinked markdown wiki."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30005333,
+      "status": "candidate",
+      "text": "wikipedia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28436470,
+      "status": "candidate",
+      "text": "vicky"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005376,
+      "status": "candidate",
+      "text": "ueki"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005376,
+      "status": "candidate",
+      "text": "wikis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005374,
+      "status": "candidate",
+      "text": "mediawiki"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "wiki",
+  "concept_id": "wiki",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": null,
+      "source_repo": "atomicmemory/llm-wiki-compiler"
+    }
+  ],
+  "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wiki",
+      "sense_id": "wiki#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

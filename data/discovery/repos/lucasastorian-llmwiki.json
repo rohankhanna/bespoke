@@ -1,0 +1,145 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lucasastorian/llmwiki",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lucasastorian/llmwiki",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lucasastorian/llmwiki",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucasastorian/llmwiki",
+      "target": "karpathy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucasastorian/llmwiki",
+      "target": "knowledge-base",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucasastorian/llmwiki",
+      "target": "llm-wiki",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucasastorian/llmwiki",
+      "target": "mcp-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lucasastorian/llmwiki",
+      "target": "supabase",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T18:30:48.494602+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6659
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 872
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "Open Source Implementation of Karpathy's LLM Wiki. Upload documents, connect your Claude account via MCP, and have it write your wiki ! ",
+    "full_name": "lucasastorian/llmwiki",
+    "html_url": "https://github.com/lucasastorian/llmwiki",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-15T21:48:54Z",
+    "topics": [
+      "agents",
+      "ai-agents",
+      "claude",
+      "karpathy",
+      "knowledge-base",
+      "llm",
+      "llm-wiki",
+      "mcp",
+      "mcp-server",
+      "rag",
+      "supabase"
+    ],
+    "updated_at": "2026-04-18T18:15:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "[![Live Demo](https://img.shields.io/badge/demo-llmwiki.app-blue)](https://llmwiki.app)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "karpathy"
+    },
+    {
+      "context_snippet": "[![Live Demo](https://img.shields.io/badge/demo-llmwiki.app-blue)](https://llmwiki.app)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge-base"
+    },
+    {
+      "context_snippet": "[![Live Demo](https://img.shields.io/badge/demo-llmwiki.app-blue)](https://llmwiki.app)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-wiki"
+    },
+    {
+      "context_snippet": "[![Live Demo](https://img.shields.io/badge/demo-llmwiki.app-blue)](https://llmwiki.app)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-server"
+    },
+    {
+      "context_snippet": "[![Live Demo](https://img.shields.io/badge/demo-llmwiki.app-blue)](https://llmwiki.app)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "supabase"
+    }
+  ]
+}

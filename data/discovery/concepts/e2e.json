@@ -4,10 +4,69 @@
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
-    "workflow-process"
+    "workflow-process",
+    "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AndyMik90/Aperant",
+      "status": "candidate-context",
+      "text": "Autonomous multi-session AI coding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndyMik90/Aperant",
+      "status": "candidate-context",
+      "text": "E2E"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndyMik90/Aperant",
+      "status": "candidate",
+      "text": "E2E"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9991118,
+      "status": "candidate",
+      "text": "wireless network"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9989418,
+      "status": "candidate",
+      "text": "sign on"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9988132,
+      "status": "candidate",
+      "text": "sign off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9987870,
+      "status": "candidate",
+      "text": "read out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9987484,
+      "status": "candidate",
+      "text": "back up"
+    }
+  ],
+  "candidate_synonyms": [],
   "canonical_name": "E2E",
   "concept_id": "e2e",
   "definition_status": "unresolved",
@@ -17,11 +76,21 @@
       "observed_at": "2026-04-18T10:25:53.609022+00:00",
       "source_file": ".github/workflows/e2e.yml",
       "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "AndyMik90/Aperant"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
   "possible_senses": [
     {
       "buckets": [

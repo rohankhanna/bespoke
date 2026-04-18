@@ -1,106 +1,6 @@
 {
-  "generated_at": "2026-04-18T13:50:38.061794+00:00",
+  "generated_at": "2026-04-18T18:30:26.389736+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "andymik90/auto-claude",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "aws/homebrew-tap",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "azure/homebrew-bicep",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "mongodb/homebrew-brew",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "multica-ai/multica",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "atomicmemory/llm-wiki-compiler",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lucasastorian/llmwiki",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "pedronauck/kodebase-go",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "asg017/sqlite-fastrand",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "asg017/sqlite-hello",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "asg017/sqlite-html",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "asg017/sqlite-http",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ggerganov/ggml",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ggerganov/llama.cpp",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "mozilla-ocho/llamafile",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "asg017/sqlite-loadable-rs",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "asg017/sqlite-xsv",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "embeddings-benchmark/mteb",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "haotian-liu/llava",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "langchain-ai/langchain",
-      "graph_distance": 4
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "kubernetes/sig-release",
@@ -1575,6 +1475,171 @@
       "discovered_via": "explicit-github-link",
       "full_name": "cloudflare/agents-starter",
       "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "andymik90/auto-claude",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aws/amazon-ec2-instance-selector",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aws/amazon-ec2-metadata-mock",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aws/amazon-ec2-spot-interrupter",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aws/aws-xray-daemon",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "homebrew/brew",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "iamsashank09/llm-wiki-kit",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "pedronauck/kodebase-go",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "wiselibs/better-sqlite3",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mgdm/htmlq",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "nalgeon/sqlean",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "riyaz-ali/sqlite",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "pramsey/pgsql-http",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ggerganov/ggml",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ggerganov/whisper.cpp",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "a-ghorbani/pocketpal-ai",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "abetlen/llama-cpp-python",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "abgulati/lars",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "akx/ggify",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ggml-org/whisper.cpp",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "jart/cosmopolitan",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "asg017/sqlite-base64",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "asg017/sqlite-lines",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "asg017/sqlite-path",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "asg017/sqlite-regex",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "burntsushi/rust-csv",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "burntsushi/xsv",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "datadesk/california-coronavirus-data",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "camenduru/llava-colab",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "computer-vision-in-the-wild/cvinw_readings",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "evolvinglmms-lab/lmms-eval",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "facebookresearch/segment-anything",
+      "graph_distance": 5
     }
   ],
   "processed": [
@@ -2226,6 +2291,25 @@
     "stardot/b-em",
     "ldayton/parable",
     "cloudflare/skills",
-    "dokploy/cli"
+    "dokploy/cli",
+    "aws/homebrew-tap",
+    "azure/homebrew-bicep",
+    "mongodb/homebrew-brew",
+    "multica-ai/multica",
+    "atomicmemory/llm-wiki-compiler",
+    "lucasastorian/llmwiki",
+    "compozy/kb",
+    "asg017/sqlite-fastrand",
+    "asg017/sqlite-hello",
+    "asg017/sqlite-html",
+    "asg017/sqlite-http",
+    "ggml-org/ggml",
+    "ggml-org/llama.cpp",
+    "mozilla-ai/llamafile",
+    "asg017/sqlite-loadable-rs",
+    "asg017/sqlite-xsv",
+    "embeddings-benchmark/mteb",
+    "haotian-liu/llava",
+    "langchain-ai/langchain"
   ]
 }

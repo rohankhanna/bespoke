@@ -1,0 +1,92 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The agent engineering platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"\ud83d\udc0d Pydantic Version Testing\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"\ud83d\udc0d Pydantic Version Testing\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 49246,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11646,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11646,
+      "status": "candidate",
+      "text": "reviewing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11545,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11520,
+      "status": "candidate",
+      "text": "model"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83d\udc0d Pydantic Version Testing",
+      "sense_id": "pydantic-version-testing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pydantic-version-testing",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pydantic-version-testing",
+  "observation_id": "a8decc2d2ac2c86d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T18:30:26.389736+00:00",
+  "observed_text": "\ud83d\udc0d Pydantic Version Testing",
+  "source_context_snippet": "\"\ud83d\udc0d Pydantic Version Testing\"",
+  "source_file": ".github/workflows/_test_pydantic.yml",
+  "source_repo": "langchain-ai/langchain",
+  "source_repo_description": "The agent engineering platform"
+}

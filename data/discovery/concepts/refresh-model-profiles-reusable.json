@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Refresh Model Profiles (reusable)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langchain-ai/langchain",
+      "status": "candidate-context",
+      "text": "The agent engineering platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/langchain",
+      "status": "candidate-context",
+      "text": "\"Refresh Model Profiles (reusable)\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/langchain",
+      "status": "candidate",
+      "text": "\"Refresh Model Profiles (reusable)\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21138,
+      "status": "candidate",
+      "text": "client"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21138,
+      "status": "candidate",
+      "text": "refresher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21138,
+      "status": "candidate",
+      "text": "updating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20417,
+      "status": "candidate",
+      "text": "det"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20417,
+      "status": "candidate",
+      "text": "set"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Refresh Model Profiles (reusable)",
+  "concept_id": "refresh-model-profiles-reusable",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": ".github/workflows/_refresh_model_profiles.yml",
+      "source_repo": "langchain-ai/langchain"
+    }
+  ],
+  "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Refresh Model Profiles (reusable)",
+      "sense_id": "refresh-model-profiles-reusable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -29,6 +29,8 @@
       "text": "PR Docker Build"
     }
   ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
   "canonical_name": "PR Docker Build",
   "concept_id": "pr-docker-build",
   "definition_status": "unresolved",
@@ -49,6 +51,8 @@
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
   "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
+  "lexical_providers": [],
+  "lexical_status": "unresolved",
   "possible_senses": [
     {
       "buckets": [

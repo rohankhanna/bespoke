@@ -25,6 +25,18 @@
       "source_repo": "oxpig/CaLM",
       "status": "candidate-context",
       "text": "This repository encapsulates all code required to reproduce the results of the paper [\"Codon language embeddings provide strong signals for use in protein engineering\"](https://www.nature.com/articles/s42256-024-00791-0), by Carlos Outeiral and Charlotte M. Deane."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggml-org/ggml",
+      "status": "candidate-context",
+      "text": "Tensor library for machine learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggml-org/ggml",
+      "status": "candidate-context",
+      "text": "[Manifesto](https://github.com/ggerganov/llama.cpp/discussions/205)"
     }
   ],
   "candidate_glosses": [
@@ -33,8 +45,16 @@
       "source_repo": "oxpig/CaLM",
       "status": "candidate",
       "text": "This repository encapsulates all code required to reproduce the results of the paper [\"Codon language embeddings provide strong signals for use in protein engineering\"](https://www.nature.com/articles/s42256-024-00791-0), by Carlos Outeiral and Charlotte M. Deane."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggml-org/ggml",
+      "status": "candidate",
+      "text": "[Manifesto](https://github.com/ggerganov/llama.cpp/discussions/205)"
     }
   ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
   "canonical_name": "machine-learning",
   "concept_id": "machine-learning",
   "definition_status": "unresolved",
@@ -56,11 +76,21 @@
       "observed_at": "2026-04-18T13:50:38.061794+00:00",
       "source_file": null,
       "source_repo": "oxpig/CaLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/ggml"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
   "possible_senses": [
     {
       "buckets": [

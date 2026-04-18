@@ -13,9 +13,48 @@
       "source_repo": "Aider-AI/aider",
       "status": "candidate-context",
       "text": "aider is AI pair programming in your terminal"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haotian-liu/LLaVA",
+      "status": "candidate-context",
+      "text": "[NeurIPS'23 Oral] Visual Instruction Tuning (LLaVA) built towards GPT-4V level capabilities and beyond."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haotian-liu/LLaVA",
+      "status": "candidate-context",
+      "text": "*Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langchain-ai/langchain",
+      "status": "candidate-context",
+      "text": "The agent engineering platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/langchain",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haotian-liu/LLaVA",
+      "status": "candidate",
+      "text": "*Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/langchain",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
   "canonical_name": "chatgpt",
   "concept_id": "chatgpt",
   "definition_status": "unresolved",
@@ -85,11 +124,27 @@
       "observed_at": "2026-04-18T13:15:13.756138+00:00",
       "source_file": null,
       "source_repo": "Aider-AI/aider"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": null,
+      "source_repo": "haotian-liu/LLaVA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
   "possible_senses": [
     {
       "buckets": [

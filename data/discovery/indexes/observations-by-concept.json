@@ -137,6 +137,9 @@
   "ai-pipeline": [
     "62a4f27f775896b1"
   ],
+  "ai-review-issues": [
+    "6f5c1b5eb68f227a"
+  ],
   "ai-scientist": [
     "a9d2657ae2718e10"
   ],
@@ -171,6 +174,7 @@
     "f538fe02e7fc379d"
   ],
   "anthropic": [
+    "58c41912b8f39d6b",
     "792c03024c94fd04",
     "8740b1ae9c5a34c9",
     "98434ee771c766a0",
@@ -269,6 +273,9 @@
   "auto-label-claude-prs": [
     "74e395f3fbcbb3f6"
   ],
+  "auto-label-issues-by-package": [
+    "3fc96c9bc735f7a8"
+  ],
   "auto-merge-dependabot-prs": [
     "0e003039880cdbcd",
     "a2d8f42936c40824",
@@ -291,6 +298,9 @@
   ],
   "automated-rollback-manager": [
     "f7f146060b00994d"
+  ],
+  "automatic-differentiation": [
+    "874a95c1d2e3db5e"
   ],
   "automation": [
     "41f974021cae736b",
@@ -364,7 +374,9 @@
     "4f0e59d0ea5db854"
   ],
   "benchmark": [
+    "51e33bf152e5cc84",
     "81836c1514c1ff21",
+    "9a0be674800ab0a4",
     "a41426964d5be127",
     "e7c9077cb1569142"
   ],
@@ -401,6 +413,9 @@
   "bioinformatics": [
     "01fb25818cc71244"
   ],
+  "bitext-mining": [
+    "85c9c40bad4bd512"
+  ],
   "blackwell": [
     "472d83fed2752887",
     "4f10be787e254c64"
@@ -430,11 +445,17 @@
     "bf708226ea354260"
   ],
   "build": [
+    "11a8ff80e6c0a4ec",
     "1af67dae5626916f",
     "35c378a053d052a8",
     "3b396a3c7efeb8b9",
+    "4bd6cc27b148ecb7",
+    "af5a836829e7129a",
     "d677de8c3efc6ef6",
     "e33c7f4091fa9ea2"
+  ],
+  "build-actions-cache": [
+    "42d76dbc1777daaf"
   ],
   "build-agentic-jujutsu-native-modules": [
     "4aff7a2d7de8e439"
@@ -496,6 +517,9 @@
   ],
   "build-gnn-native-modules": [
     "d66dc04e67ce2b9c"
+  ],
+  "build-hf-space-docker-image": [
+    "5090562f832ab14f"
   ],
   "build-macos-app": [
     "afaf7c8f6b352ba8"
@@ -587,6 +611,7 @@
   ],
   "chatbot": [
     "2c1e1b7dc2acbe2b",
+    "3298a4618f4aaf25",
     "ba0711ba189e3d28"
   ],
   "chatgpt": [
@@ -596,8 +621,10 @@
     "3853263bcac78bba",
     "38c4f0fa20bdf368",
     "3de702863f6590e6",
+    "4b547a06fdf59310",
     "6230923a9c61ca7f",
     "88cc02954f4fa949",
+    "9d5bb14ce34f6417",
     "e2bcf9cac5a4f4dd",
     "f43aff0768e7e810"
   ],
@@ -645,6 +672,18 @@
   ],
   "ci---libnpmpack": [
     "4ec6a32f2eedb197"
+  ],
+  "ci-3rd-party": [
+    "8931823749c08f5c"
+  ],
+  "ci-android": [
+    "c6ba477b45732dfa"
+  ],
+  "ci-apple": [
+    "4679f6e266185738"
+  ],
+  "ci-cann": [
+    "eb7eb20a3030e6f9"
   ],
   "ci-quality-gate": [
     "624612faad6af0b9"
@@ -876,6 +915,9 @@
   "cluade": [
     "da4260c1b623bcb5"
   ],
+  "clustering": [
+    "07d695ba2ad34ea8"
+  ],
   "cncf": [
     "fbe0c4e69a9703cd"
   ],
@@ -963,7 +1005,11 @@
   "community": [
     "526aef4b96095eeb"
   ],
+  "compile-integration-tests": [
+    "9834627f2f2db3fa"
+  ],
   "compiler": [
+    "0504dd897e0352b6",
     "a6dcbcfa60799153"
   ],
   "component-integration-tests": [
@@ -994,6 +1040,7 @@
     "e83a78216f152567"
   ],
   "context-engineering": [
+    "3b412641619c7c20",
     "b994fe1cdba511d4"
   ],
   "continuity-ai": [
@@ -1095,6 +1142,9 @@
   "daily-parser-fuzz": [
     "208a0212ebab492b"
   ],
+  "daily-space-rebuild": [
+    "0fe6ffefdf49860d"
+  ],
   "dark-mode": [
     "056fa4f2a62e37cd"
   ],
@@ -1107,8 +1157,14 @@
   "data-reconciliation": [
     "9f84ebd59d8ea6ea"
   ],
+  "datasets-available-on-huggingface": [
+    "a74c6c5cc3405019"
+  ],
   "datasette-io": [
     "14f04bdd0af98f9d"
+  ],
+  "datasette-plugin": [
+    "1afc19fa1e006bf5"
   ],
   "datasette-tool": [
     "3a83a45163f5a5f3"
@@ -1126,7 +1182,8 @@
     "45d08ed2155c6315"
   ],
   "deepagents": [
-    "3f7b659147737cb5"
+    "3f7b659147737cb5",
+    "d1c8d00624b276f9"
   ],
   "deepseek": [
     "413d4de4ad6ad76b",
@@ -1307,6 +1364,8 @@
     "a4d4d28623afa4a4"
   ],
   "documentation": [
+    "17e926e825d3bb66",
+    "44c7f5be7c12f585",
     "f0e22c8997203d7f"
   ],
   "documentation-build-and-deploy": [
@@ -1352,6 +1411,9 @@
   "editor": [
     "3bc0622c62c21b41"
   ],
+  "editorconfig-checker": [
+    "e8855767117d48c6"
+  ],
   "education": [
     "b5921ea94e9bf58a"
   ],
@@ -1381,6 +1443,7 @@
     "1fe3197fa7aaa204"
   ],
   "enterprise": [
+    "65d4920d45d14e28",
     "d3cb753b48b469e2"
   ],
   "eval": [
@@ -1459,12 +1522,16 @@
   "formatter": [
     "c37a3a1c9d30762c"
   ],
+  "foundation-models": [
+    "1ed00ef56c66a198"
+  ],
   "foundry-project": [
     "944faf9acb58dda1"
   ],
   "framework": [
     "40487122be7003cf",
     "505af16b2d1c5578",
+    "669b921c1933061f",
     "a543bbfe63b1fb4f",
     "adaaa699dd837c51"
   ],
@@ -1486,6 +1553,7 @@
     "2e8bbde17901795d",
     "4261d178cb9c5f39",
     "539f9c6d08fe973f",
+    "6345e84462a2ae47",
     "8e14527e4912493f",
     "994342ee98f28323",
     "a0de40f498b574ef",
@@ -1521,10 +1589,14 @@
   ],
   "generative-ai": [
     "2798c5ff1115bcab",
+    "870aa252b1e090b7",
     "c0097d4a01032cdc"
   ],
   "genomics": [
     "6fbb65f7fb79d64c"
+  ],
+  "ggml": [
+    "302b76c38e650907"
   ],
   "git-diff": [
     "4547791bb0a94606"
@@ -1595,7 +1667,8 @@
     "71cdbb35cac8678e"
   ],
   "gpt-4": [
-    "5841c336aaac21e4"
+    "5841c336aaac21e4",
+    "dd388116c3e224fa"
   ],
   "gpt-4o": [
     "3b2d727708aa5a12"
@@ -1702,6 +1775,9 @@
     "0cd489d8aa308f8f",
     "e029fcb72f5e0765"
   ],
+  "information-retrieval": [
+    "e1c4fed0a1bd8066"
+  ],
   "infra": [
     "f72d80138c869f94"
   ],
@@ -1713,6 +1789,9 @@
   ],
   "installer": [
     "1decba0419434ff0"
+  ],
+  "instruction-tuning": [
+    "bf1a376ee8d9f8e3"
   ],
   "integration-tests": [
     "97a35119895b7171"
@@ -1794,14 +1873,21 @@
     "c31ed33119892407"
   ],
   "karpathy": [
-    "66f7cfa0b3b0223d"
+    "602e602b45b7da2b",
+    "66f7cfa0b3b0223d",
+    "a80e19ca9ce987bd"
   ],
   "kimi": [
     "786f693293ad5507"
   ],
   "knowledge-base": [
+    "adb3efa788f8e99a",
     "c823227b8e817b5b",
+    "d0bda10cae863ba9",
     "f1b2c9558e9038fe"
+  ],
+  "knowledge-compilation": [
+    "e4b2b1337faae68d"
   ],
   "knowledge-graph": [
     "ee13d4fed1e1f541"
@@ -1855,10 +1941,12 @@
   "langchain": [
     "2fe920dde86cb7f1",
     "8cfa1866caa99790",
+    "9920049b47d0dcf8",
     "b9ba0edcb36f7d51"
   ],
   "langgraph": [
-    "2fc1682360eb3160"
+    "2fc1682360eb3160",
+    "8caa063ebc84e9e6"
   ],
   "language-model": [
     "80a5246fe6348ce1"
@@ -1870,13 +1958,20 @@
     "c337cd0146b739c5"
   ],
   "large-language-models": [
-    "12f2e33dfc840d80"
+    "12f2e33dfc840d80",
+    "48a75d3cd9c65097"
   ],
   "launchd": [
     "5cc27f4e76d8fd72"
   ],
   "layout": [
     "97c838439b8c1702"
+  ],
+  "leaderboard-build-tests": [
+    "7f1f1b4ccf355943"
+  ],
+  "leaderboard-healthcheck": [
+    "a023b777a3f83f9b"
   ],
   "learning": [
     "70478bfae314c50c"
@@ -1942,6 +2037,7 @@
     "897ef46e47e4fe71"
   ],
   "linting": [
+    "42d35c64973aec43",
     "652d63b0450ea49d"
   ],
   "linux": [
@@ -1950,12 +2046,22 @@
     "c64e79647c4529ed"
   ],
   "llama": [
+    "659462655fdc75f4",
     "6a79b0e6b8473d4c",
     "98b37b04da81b4b6",
     "d83f9de28933dd6c"
   ],
+  "llama-2": [
+    "177e145af58bc334"
+  ],
+  "llama2": [
+    "4f7f46fcc1e3416e"
+  ],
   "llama3": [
     "963d01c76cebf190"
+  ],
+  "llava": [
+    "797d616704278329"
   ],
   "llm-agent": [
     "817e6380bad4a85d",
@@ -1984,6 +2090,7 @@
     "6fdea57664443381"
   ],
   "llm-wiki": [
+    "a1247c0e8b5dbb00",
     "d3ba297f49e891c3"
   ],
   "llmops": [
@@ -2043,6 +2150,9 @@
   "low-latency": [
     "eb22217f12230804"
   ],
+  "low-resource-nlp": [
+    "e7baaf1585c48c81"
+  ],
   "luacheck": [
     "51e3e63099811200"
   ],
@@ -2058,7 +2168,8 @@
   "machine-learning": [
     "2b1b88e0fdfcd92c",
     "6ed9a5d8c3cba574",
-    "7319192c00a049ad"
+    "7319192c00a049ad",
+    "fe1822ea43a8aa8a"
   ],
   "macos": [
     "60c50c0fc251784b",
@@ -2078,7 +2189,8 @@
   ],
   "markdown": [
     "0ec9169deee4cc06",
-    "27027f40738a40b9"
+    "27027f40738a40b9",
+    "893c768217661245"
   ],
   "marketing-automation": [
     "5cd09d069c0214ff",
@@ -2098,6 +2210,7 @@
   ],
   "mcp-server": [
     "0ddbfba73a5f36f4",
+    "5ca92f1a2992dd3a",
     "71338e258399a930",
     "95713cdf0b375c53",
     "a54bb8a98db6a1ac",
@@ -2166,6 +2279,9 @@
   "mountains": [
     "2a0ca38e3e58d824"
   ],
+  "mteb": [
+    "5016ff4fdd8ff3ee"
+  ],
   "multi-agent": [
     "b7907f76953df9ea",
     "da7e36f72378cd6a"
@@ -2178,10 +2294,19 @@
     "a26b9f68bef1f6ab",
     "ee473e9df91573a7"
   ],
+  "multi-modality": [
+    "3930902f3cb1d94b"
+  ],
   "multiagent": [
-    "776b81be1541bc11"
+    "776b81be1541bc11",
+    "b25154b4be3288d6"
+  ],
+  "multilingual-nlp": [
+    "a14095b7c76c1227"
   ],
   "multimodal": [
+    "289db82969b47dda",
+    "6637e42f61399dcf",
     "c0c5afb2f653a6eb"
   ],
   "mutation-testing": [
@@ -2210,6 +2335,9 @@
   ],
   "neovim-plugin": [
     "839630397554c80c"
+  ],
+  "neural-search": [
+    "e465e0e7e163ede4"
   ],
   "new-pr-bot": [
     "4807b97d1a548f04"
@@ -2286,6 +2414,9 @@
   "observability": [
     "1247196db806ce7d"
   ],
+  "obsidian": [
+    "dc91d7092843516d"
+  ],
   "ollama": [
     "03dd4cf65af54c48",
     "0cd5359d87872aca",
@@ -2310,7 +2441,8 @@
     "28f3146684845446",
     "32b3d71f099ca334",
     "427417a598f29ec7",
-    "70b303d643aaff28"
+    "70b303d643aaff28",
+    "d10b6fd136d1712d"
   ],
   "openai-codex": [
     "5006ef94f573cc69"
@@ -2363,6 +2495,9 @@
   "package-manager": [
     "dd8156783aa59d3d",
     "fdf1d44f6097c804"
+  ],
+  "package-release": [
+    "6519734f473a066b"
   ],
   "packaging": [
     "2f8040a48326244a",
@@ -2597,7 +2732,8 @@
     "b62750500f89f901"
   ],
   "pull-request-labeler": [
-    "001ca67df9c54e1e"
+    "001ca67df9c54e1e",
+    "a7269158f97b8aa9"
   ],
   "pull-requests": [
     "db91919c59c24e28"
@@ -2606,7 +2742,11 @@
     "6796367d9676ea1a"
   ],
   "pydantic": [
+    "1e8f9cbb40eb577c",
     "c661aadc3e9a9669"
+  ],
+  "pydantic-version-testing": [
+    "a8decc2d2ac2c86d"
   ],
   "pyo3-ci": [
     "d3af99ff8a9795de"
@@ -2697,6 +2837,9 @@
   "recharts": [
     "29548fb32b1f3943"
   ],
+  "refresh-model-profiles-reusable": [
+    "8007fddca3686e4d"
+  ],
   "regression-test": [
     "39fd3906e91c8fe1"
   ],
@@ -2712,25 +2855,34 @@
     "16da9ff0fbc7c63a",
     "1744ed774d8b7045",
     "28ad526aa72da784",
+    "2945b16324137005",
     "29ba3904f9f08256",
+    "3039fd9a23cfd19c",
     "30a9eb442f64bcb5",
     "31e141949056cd5a",
+    "345dfdb13081866c",
     "3783c12435b96c44",
     "37ff09385ccfae82",
     "3f297a355bef0469",
+    "4828a177707c4e87",
     "4dc8b1ba18670136",
     "54cddcb0f340fbd3",
     "685b8eae824865fe",
     "6916ee1c7820a462",
     "6d877fbe203f5f71",
+    "6dccba1e3b123c96",
     "6f7c92253766a5b0",
+    "7228fe0adab8cf16",
     "768d4bb85bc81a51",
+    "7cf45def5c06a448",
+    "83f74bd24256013a",
     "95e3f84c3e52c452",
     "97c4746dbed2d137",
     "9f1501458d9a69e7",
     "a2e982b5419dfa8c",
     "a387c983202605ba",
     "ab0487313f5304c0",
+    "adde8edb94c47d4c",
     "b3f70b7a6995816c",
     "c18eca2c89d9300c",
     "c2e6ed3c87cd3e6f",
@@ -2830,6 +2982,9 @@
   "repository": [
     "42559f32da2e2b9d"
   ],
+  "reranking": [
+    "fa8755fe3bb4c1fa"
+  ],
   "research": [
     "d9b50485fe767178"
   ],
@@ -2841,6 +2996,9 @@
   ],
   "restore": [
     "72efb7ab2a52ee4b"
+  ],
+  "retrieval": [
+    "64c5840c212491a4"
   ],
   "retrieval-augmented-generation": [
     "773481b3f2db19e5"
@@ -2910,12 +3068,18 @@
     "ed485b985e7e794e",
     "f8a96f01c8635943"
   ],
+  "rust-library": [
+    "3d62b6aeef9ce121"
+  ],
   "rustpython": [
     "93be2dd5d95d7cb8"
   ],
   "sast": [
     "64e660a6028f1e09",
     "b650f4c22566a8d8"
+  ],
+  "sbert": [
+    "629a74fd61bde432"
   ],
   "scan-agent-skills": [
     "4746336ac9f52d14"
@@ -2966,6 +3130,12 @@
   ],
   "semantic-release": [
     "caa1b75dcbe91cda"
+  ],
+  "semantic-search": [
+    "beeaaf24c2c0d4a2"
+  ],
+  "sentence-transformers": [
+    "6faafb862d0a9943"
   ],
   "serialization": [
     "6e981d2c3a97ae17"
@@ -3047,14 +3217,24 @@
     "06ad01800bd8528e"
   ],
   "sqlite": [
+    "0beb026611133238",
     "0c8527fdb99e5acd",
+    "1d3a07515dbcec62",
+    "25dd62872ff3daba",
     "2979b061748523c7",
-    "a430258dc6dceccc"
+    "6f7c5f620874f9b1",
+    "a430258dc6dceccc",
+    "c879fb6d62a27bbb"
   ],
   "sqlite-extension": [
     "0a3bc3671d68dc06",
+    "1b035186b2252341",
+    "38cf9ebdbfa4c37b",
+    "5294f059a023cdc1",
+    "6b037a08bf966724",
     "92725471af158886",
-    "a42c3bd68ec6ac77"
+    "a42c3bd68ec6ac77",
+    "c5e31c012c588223"
   ],
   "sqlite3": [
     "1dc76c6353a034aa"
@@ -3139,6 +3319,9 @@
   "subagents": [
     "e638123bbf30cb7d"
   ],
+  "supabase": [
+    "5e0892958d61e912"
+  ],
   "svgo": [
     "73d9f1290351750f"
   ],
@@ -3189,6 +3372,9 @@
   "temurin": [
     "4ebc5f526315b899"
   ],
+  "tensor-algebra": [
+    "3230b3b6824b73c7"
+  ],
   "terminal": [
     "a8c8a49868768912",
     "dd35512eeb8e1c43"
@@ -3200,6 +3386,8 @@
     "16f78148075971a3",
     "32ffe4a30322670a",
     "3b83e11e64608525",
+    "4b5d23e7153e2757",
+    "7d68d7075ca536b8",
     "876ddb9e20ca782d",
     "a3c9636a198aad1f",
     "a6bbf4330ca9f03c",
@@ -3217,6 +3405,7 @@
     "f8b862e493c9ee28"
   ],
   "test-build": [
+    "3a8a46943f4dbda7",
     "4865e6fd0dd0d728",
     "ca8fcade1e5d821b",
     "eeed4e8a5e3f08ee"
@@ -3248,6 +3437,9 @@
   ],
   "test-integration-packages": [
     "e2b24f05841565a2"
+  ],
+  "test-leaderboard-dockerfile": [
+    "8c9475bd0d833e59"
   ],
   "test-mainnet": [
     "88ce8895ec675330"
@@ -3295,6 +3487,7 @@
     "64525c046caac673",
     "7d65aa3410d1397d",
     "8236c3d7b0b5a18f",
+    "d65e4cc0d444f10a",
     "e6f8204c1d7c4cfd"
   ],
   "tests-and-code-quality": [
@@ -3302,6 +3495,12 @@
   ],
   "testsuite": [
     "3b226f307784f9bd"
+  ],
+  "text-classification": [
+    "d49428582932c80d"
+  ],
+  "text-embedding": [
+    "5b65c6d6186f1e03"
   ],
   "text2image": [
     "23d7ac0028ffe56b"
@@ -3356,6 +3555,9 @@
   "ultrathink": [
     "c27d9c689c6710b4"
   ],
+  "unit-testing": [
+    "5c09fc182472a7d2"
+  ],
   "unit-tests": [
     "113e6e2901d72c92",
     "262826618233588c"
@@ -3366,11 +3568,20 @@
   "unstable": [
     "10f65a967b400d3a"
   ],
+  "update-eksctl-formula": [
+    "b6f83b7bb87b80c2"
+  ],
   "update-formula": [
     "a770f013159d164e"
   ],
+  "update-homebrew": [
+    "b4953e10902bbccf"
+  ],
   "update-homebrew-formula": [
     "e1664e0e4bbdfb4b"
+  ],
+  "update-llama.cpp-submodule": [
+    "d76ad323b464a635"
   ],
   "update-repo": [
     "a39a1946121751d7"
@@ -3399,6 +3610,9 @@
   "validate-pull-request": [
     "3bd6968d788db1ac"
   ],
+  "vcr-cassette-tests": [
+    "f0d4e78b237278ca"
+  ],
   "vector": [
     "6953c2850f23ef16"
   ],
@@ -3426,6 +3640,12 @@
   ],
   "virtual-idols": [
     "0fe3d50f5ca96c12"
+  ],
+  "vision-language-model": [
+    "7a3f1f7bee636a31"
+  ],
+  "visual-language-learning": [
+    "fc2d2a5d2812ae31"
   ],
   "volume": [
     "2894cd7d49d12755"
@@ -3469,6 +3689,9 @@
   ],
   "weekly-security-scan": [
     "ad4bae7e29eeaec7"
+  ],
+  "wiki": [
+    "87f10ace16a10342"
   ],
   "wiki-sync": [
     "f668dab8e87e306d"

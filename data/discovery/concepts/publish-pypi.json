@@ -10,6 +10,8 @@
   ],
   "candidate_definitions": [],
   "candidate_glosses": [],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
   "canonical_name": "publish pypi",
   "concept_id": "publish-pypi",
   "definition_status": "unresolved",
@@ -30,6 +32,8 @@
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
   "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
+  "lexical_providers": [],
+  "lexical_status": "unresolved",
   "possible_senses": [
     {
       "buckets": [

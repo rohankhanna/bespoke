@@ -7,8 +7,66 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AndyMik90/Aperant",
+      "status": "candidate-context",
+      "text": "Autonomous multi-session AI coding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndyMik90/Aperant",
+      "status": "candidate-context",
+      "text": "PR Labeler"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndyMik90/Aperant",
+      "status": "candidate",
+      "text": "PR Labeler"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15124,
+      "status": "candidate",
+      "text": "rep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "rare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9004,
+      "status": "candidate",
+      "text": "aaa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9004,
+      "status": "candidate",
+      "text": "affix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9004,
+      "status": "candidate",
+      "text": "affixing"
+    }
+  ],
+  "candidate_synonyms": [],
   "canonical_name": "PR Labeler",
   "concept_id": "pr-labeler",
   "definition_status": "unresolved",
@@ -24,11 +82,21 @@
       "observed_at": "2026-04-18T11:56:18.570627+00:00",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "folke/lazy.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:30:26.389736+00:00",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "AndyMik90/Aperant"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
+  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
   "possible_senses": [
     {
       "buckets": [
