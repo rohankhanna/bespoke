@@ -3,5 +3,5 @@
   "max_topic_expansions_per_repo": 5,
   "max_related_repositories": 20,
   "max_file_fetches_per_repo": 10,
-  "max_repo_links_per_repo": 20
+  "max_repo_links_per_repo": 4
 }
