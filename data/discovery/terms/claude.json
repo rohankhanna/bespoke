@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
-  "last_seen_at": "2026-04-18T09:17:12.863479+00:00",
+  "last_seen_at": "2026-04-18T09:21:02.237042+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -16,6 +16,21 @@
       "discovered_via": "inline-code",
       "source_file": "README.md",
       "source_repo": "dtormoen/tsk-tsk"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anthropics/claude-code-action"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/avs-vibe-developer-guide"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/the-startup"
     }
   ],
   "term": "\uac00\uc774\ub4dc \ub9c1\ud06c: - Claude \uc5d4\ud2b8\ub9ac:"

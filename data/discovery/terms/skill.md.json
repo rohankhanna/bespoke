@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T09:17:12.863479+00:00",
+  "last_seen_at": "2026-04-18T09:21:02.237042+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -31,6 +31,11 @@
       "discovered_via": "inline-code",
       "source_file": "README.md",
       "source_repo": "maxritter/pilot-shell"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/the-startup"
     }
   ],
   "term": "SKILL.md"

@@ -1,106 +1,6 @@
 {
-  "generated_at": "2026-04-18T09:17:12.863479+00:00",
+  "generated_at": "2026-04-18T09:21:02.237042+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "danielrosehill/claude-code-repos-index",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ryoppippi/ccusage",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "soramimi/guitar",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ykdojo/claude-code-tips",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "superclaude-org/superclaude_framework",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "maciek-roboblog/claude-code-usage-monitor",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ruvnet/claude-code-flow",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "mikeyobrien/ralph-orchestrator",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "foxj77/claudectx",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "anthropics/claude-code-action",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "jeffallan/claude-skills",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "layr-labs/avs-vibe-developer-guide",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "evmts/tevm-monorepo",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "alonw0/web-asset-generator",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "harperreed/dotfiles",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "rsmdt/the-startup",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "opactorai/claudable",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "elizaos/elizaos.github.io",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "berrydev-ai/blockdoc-python",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "avifenesh/agnix",
-      "graph_distance": 3
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "revfactory/harness",
@@ -174,11 +74,6 @@
     {
       "discovered_via": "explicit-github-link",
       "full_name": "nielsgroen/claude-tmux",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "agent-sh/agnix",
       "graph_distance": 3
     },
     {
@@ -1500,6 +1395,106 @@
       "discovered_via": "explicit-github-link",
       "full_name": "microsoft/playwright-cli",
       "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "danielrosehill/agent-junction",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "danielrosehill/ai-human-attribution-adder",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "danielrosehill/bash-alias-manager-claude",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "danielrosehill/batch-claudemd-repo-creator",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "opencode-ai/opencode",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "eventual-inc/daft",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "korotovsky/slack-mcp-server",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "microsoft/playwright-mcp",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ykdojo/cc-safe",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "agiletec-inc/airis-mcp-gateway",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "superclaude-org/supergemini_framework",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "superclaude-org/superqwen_framework",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "strands-agents/agent-sop",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ahmetb/kubectx",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "layr-labs/hello-world-avs",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "wesfloyd/avs-context-prompt",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "anthropics/skills",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "qwenlm/qwen-code",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "simonw/sqlite-diffable",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "google-gemini/gemini-cli",
+      "graph_distance": 4
     }
   ],
   "processed": [
@@ -1746,6 +1741,25 @@
     "talieisin/britfix",
     "haleclipse/claudix",
     "kunwar-shah/claudex",
-    "maxritter/pilot-shell"
+    "maxritter/pilot-shell",
+    "danielrosehill/claude-code-projects-index",
+    "ryoppippi/ccusage",
+    "soramimi/guitar",
+    "ykdojo/claude-code-tips",
+    "superclaude-org/superclaude_framework",
+    "maciek-roboblog/claude-code-usage-monitor",
+    "mikeyobrien/ralph-orchestrator",
+    "foxj77/claudectx",
+    "anthropics/claude-code-action",
+    "jeffallan/claude-skills",
+    "layr-labs/avs-vibe-developer-guide",
+    "evmts/tevm-monorepo",
+    "alonw0/web-asset-generator",
+    "harperreed/dotfiles",
+    "rsmdt/the-startup",
+    "opactorai/claudable",
+    "elizaos/elizaos.github.io",
+    "berrydev-ai/blockdoc-python",
+    "agent-sh/agnix"
   ]
 }

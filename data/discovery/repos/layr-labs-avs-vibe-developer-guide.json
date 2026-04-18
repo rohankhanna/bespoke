@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/avs-vibe-developer-guide",
+      "target": "layr-labs/hello-world-avs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/avs-vibe-developer-guide",
+      "target": "wesfloyd/avs-context-prompt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/avs-vibe-developer-guide",
+      "target": "context",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/avs-vibe-developer-guide",
+      "target": "git clone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/avs-vibe-developer-guide",
+      "target": "avs-vibe-developer-guide",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/avs-vibe-developer-guide",
+      "target": "claude",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:21:49.300419+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6486
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "Library of prompts to feed your LLM through stages of AVS idea, design and prototype (code) generation",
+    "full_name": "Layr-Labs/avs-vibe-developer-guide",
+    "html_url": "https://github.com/Layr-Labs/avs-vibe-developer-guide",
+    "language": null,
+    "pushed_at": "2025-04-22T19:19:06Z",
+    "topics": [],
+    "updated_at": "2025-12-06T13:46:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "layr-labs/hello-world-avs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wesfloyd/avs-context-prompt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "context"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git clone"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "avs-vibe-developer-guide"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude"
+    }
+  ]
+}

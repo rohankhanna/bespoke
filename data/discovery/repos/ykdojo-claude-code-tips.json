@@ -1,0 +1,732 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "eventual-inc/daft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "ykdojo/cc-safe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "korotovsky/slack-mcp-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "microsoft/playwright-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "includeCoAuthoredBy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "pbcopy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "open",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "for GitHub Desktop -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "for VS Code -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "continues your last conversation, and",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "too (",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "backup-cli.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "restore-cli.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "patch-cli.js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "git bisect",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "Each conversation is a",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "Add this to",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "gh run watch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "tmux send-keys",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "capture-pane",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "claude -c --fork-session",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "This intercepts all",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "commands, expands",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "c -c --fs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "ch -c --fs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "claude -r",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "Then add the hook to your",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "realpath",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "frontend-design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "review-claudemd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "docker system prune",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "sudo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "rm -rf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "Bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "chmod 777",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "curl | sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "git reset --hard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "npm publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "docker run --privileged",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "docker exec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "bash npx cc-safe .",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "Ctrl+A",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "Ctrl+E",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "Ctrl+W",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "Ctrl+U",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "Ctrl+K",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "Ctrl+C",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "Ctrl+L",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "Ctrl+G",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "EDITOR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "Or in",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "(requires restart):",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "Ctrl+V",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "Alt+V",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": "Cmd+V",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ykdojo/claude-code-tips",
+      "target": ", and",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:21:24.512106+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 79004
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "45 tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script, cutting the system prompt in half, using Gemini CLI as Claude Code's minion, and Claude Code running itself in a container. Also includes the dx plugin.",
+    "full_name": "ykdojo/claude-code-tips",
+    "html_url": "https://github.com/ykdojo/claude-code-tips",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-02T06:27:19Z",
+    "topics": [
+      "agentic",
+      "agentic-ai",
+      "agentic-coding",
+      "agentic-workflow",
+      "ai",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "cli",
+      "developer-tools",
+      "productivity",
+      "tips-and-tricks"
+    ],
+    "updated_at": "2026-04-18T08:45:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eventual-inc/daft",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "korotovsky/slack-mcp-server",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/playwright-mcp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ykdojo/cc-safe",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "includeCoAuthoredBy"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "pbcopy"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "open"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "for GitHub Desktop -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "for VS Code -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "continues your last conversation, and"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "too ("
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "backup-cli.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "restore-cli.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "patch-cli.js"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git bisect"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git bisect"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git bisect"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Each conversation is a"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Add this to"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "gh run watch"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tmux send-keys"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "capture-pane"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude -c --fork-session"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "This intercepts all"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "commands, expands"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "c -c --fs"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ch -c --fs"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude -r"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Then add the hook to your"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "realpath"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "frontend-design"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "review-claudemd"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "docker system prune"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "sudo"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "rm -rf"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Bash"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "chmod 777"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "curl | sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git reset --hard"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "npm publish"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "docker run --privileged"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "docker exec"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash npx cc-safe ."
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Ctrl+A"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Ctrl+E"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Ctrl+W"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Ctrl+U"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Ctrl+K"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Ctrl+C"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Ctrl+L"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Ctrl+G"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Ctrl+G"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "EDITOR"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Or in"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(requires restart):"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Ctrl+V"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Alt+V"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Ctrl+V"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Cmd+V"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ", and"
+    }
+  ]
+}

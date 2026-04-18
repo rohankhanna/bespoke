@@ -1,0 +1,474 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/the-startup",
+      "target": "claude",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/the-startup",
+      "target": "start@the-startup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/the-startup",
+      "target": "init",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/the-startup",
+      "target": "constitution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/the-startup",
+      "target": "specify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/the-startup",
+      "target": "validate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/the-startup",
+      "target": "implement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/the-startup",
+      "target": "team@the-startup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/the-startup",
+      "target": "SKILL.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/the-startup",
+      "target": "user-invocable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/the-startup",
+      "target": "true",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/the-startup",
+      "target": "disable-model-invocation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/the-startup",
+      "target": "false",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/the-startup",
+      "target": "specify-requirements",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/the-startup",
+      "target": "specify-solution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/the-startup",
+      "target": "specify-factory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/the-startup",
+      "target": "reference.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/the-startup",
+      "target": "| Session duration | | \ud83d\udcb0",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/the-startup",
+      "target": "pro",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/the-startup",
+      "target": "max5x",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/the-startup",
+      "target": "max20x",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/the-startup",
+      "target": "api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/the-startup",
+      "target": "\u2387 main*",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/the-startup",
+      "target": "\ud83e\udd16 Opus 4.5 (The Startup)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/the-startup",
+      "target": "\ud83e\udde0 \u28ff\u28ff\u2847\u2800\u2800 50%",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/the-startup",
+      "target": "\ud83d\udd50 30m \ud83d\udcb0 $1.50",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/the-startup",
+      "target": "\ud83d\udccb 005",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/the-startup",
+      "target": "? for shortcuts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rsmdt/the-startup",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rsmdt/the-startup",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rsmdt/the-startup",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rsmdt/the-startup",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rsmdt/the-startup",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rsmdt/the-startup",
+      "target": "checksums.txt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:21:55.130132+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24643
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 5021
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "The Agentic Startup - A collection of Claude Code commands, skills, and agents.",
+    "full_name": "rsmdt/the-startup",
+    "html_url": "https://github.com/rsmdt/the-startup",
+    "language": "Shell",
+    "pushed_at": "2026-04-17T11:42:47Z",
+    "topics": [
+      "claude-code",
+      "claude-code-plugin",
+      "claude-marketplace",
+      "claude-plugin"
+    ],
+    "updated_at": "2026-04-17T22:26:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "start@the-startup"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "init"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "constitution"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "specify"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "validate"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "implement"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "team@the-startup"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SKILL.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "user-invocable"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "true"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "disable-model-invocation"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "false"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "specify-requirements"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "specify"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "specify"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "specify-requirements"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "specify-solution"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "specify-factory"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SKILL.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "reference.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| Session duration | | \ud83d\udcb0"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "pro"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "max5x"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "max20x"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "api"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u2387 main*"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\ud83e\udd16 Opus 4.5 (The Startup)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\ud83e\udde0 \u28ff\u28ff\u2847\u2800\u2800 50%"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\ud83d\udd50 30m \ud83d\udcb0 $1.50"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\ud83d\udccb 005"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "? for shortcuts"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/release.yml",
+      "term": "checksums.txt"
+    }
+  ]
+}

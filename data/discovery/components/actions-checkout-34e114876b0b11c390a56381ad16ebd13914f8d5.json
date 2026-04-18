@@ -2,7 +2,7 @@
   "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-18T09:09:30.058377+00:00",
+  "last_seen_at": "2026-04-18T09:21:02.237042+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -39,6 +39,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pkg-pr-new.yml",
       "source_repo": "larksuite/cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "foxj77/claudectx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "foxj77/claudectx"
     }
   ]
 }

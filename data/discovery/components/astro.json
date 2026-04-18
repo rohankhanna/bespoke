@@ -1,7 +1,7 @@
 {
   "component": "astro",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T03:26:22.590180+00:00",
+  "last_seen_at": "2026-04-18T09:21:02.237042+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -17,6 +17,11 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "dm0x23/Portfolio-website"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index"
     }
   ]
 }

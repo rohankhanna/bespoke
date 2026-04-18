@@ -1,0 +1,2099 @@
+{
+  "components": [
+    {
+      "component": "@commander-js/extra-typings",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@date-fns/utc",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@radix-ui/react-accordion",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@radix-ui/react-avatar",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@radix-ui/react-checkbox",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@radix-ui/react-dialog",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@radix-ui/react-dropdown-menu",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@radix-ui/react-icons",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@radix-ui/react-label",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@radix-ui/react-popover",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@radix-ui/react-progress",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@radix-ui/react-scroll-area",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@radix-ui/react-select",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@radix-ui/react-slot",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@radix-ui/react-tabs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@radix-ui/react-toast",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@radix-ui/react-tooltip",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@tanstack/react-virtual",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/minimatch",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "axios",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "better-sqlite3",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chalk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "class-variance-authority",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "clsx",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "commander",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "date-fns",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dotenv",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "drizzle-orm",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fuzzysort",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "glob",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lucide-react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "minimatch",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "next",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "next-themes",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ora",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "p-map",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "p-retry",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-markdown",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "recharts",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "remark-gfm",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "server-only",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sonner",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tailwind-merge",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "unist-util-visit",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "viem",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yaml",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "zod",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@faker-js/faker",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@tailwindcss/typography",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/better-sqlite3",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/bun",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/react-dom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "autoprefixer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cli-table3",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "drizzle-kit",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-next",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier-plugin-tailwindcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tailwindcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tailwindcss-animate",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "jayanta525/github-pages-directory-listing@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-checks.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-checks.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-checks.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-checks.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-pipelines.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-pipelines.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-pipelines.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-pipelines.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "simonw/sqlite-diffable",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "NEXT_PUBLIC_GITHUB_CLIENT_ID",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "NEXT_PUBLIC_AUTH_WORKER_URL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "bash bun install",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "2. Set up environment variables in",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "using",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "for reference:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "Then load the environment variables:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "3. Configure repositories to track in",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "### Data Ingestion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "### Data Processing and Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "### Generating Stats and Exports",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "username.github.io",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "summarize",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "day",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "week",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "month",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "lifetime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "**Index structure:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "### Database Management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "### Website Generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "run-pipelines.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "generate-summaries.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "lifetime_summaries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "username",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "deploy.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "pr-checks.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "restore-db",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "pipeline-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "OPENROUTER_API_KEY",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "BASE_PATH",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "SITE_URL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "task-master",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": ") or Google (",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": ") to the",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "bash bun run db:generate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "directory. 3. Apply migrations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "bash bun run db:migrate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "db:generate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "3. **Apply your new migration**:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "bash bun run db:studio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "bun run db:generate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "bun run db:migrate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "mkdir -p data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "## Directory Structure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "@commander-js/extra-typings",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "@date-fns/utc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "@radix-ui/react-accordion",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "@radix-ui/react-avatar",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "@radix-ui/react-checkbox",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "@radix-ui/react-dialog",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "@radix-ui/react-dropdown-menu",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "@radix-ui/react-icons",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "@radix-ui/react-label",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "@radix-ui/react-popover",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "@radix-ui/react-progress",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "@radix-ui/react-scroll-area",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "@radix-ui/react-select",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "@radix-ui/react-slot",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "@radix-ui/react-tabs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "@radix-ui/react-toast",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "@radix-ui/react-tooltip",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "@tanstack/react-virtual",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "@types/minimatch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "axios",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "better-sqlite3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "class-variance-authority",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "clsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "commander",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "date-fns",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "dotenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "drizzle-orm",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "fuzzysort",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "lucide-react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "minimatch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "next",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "next-themes",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "ora",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "p-map",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "p-retry",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "react-markdown",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "recharts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "remark-gfm",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "server-only",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "sonner",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "tailwind-merge",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "unist-util-visit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "viem",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "zod",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "@faker-js/faker",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "@tailwindcss/typography",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "@types/better-sqlite3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "@types/bun",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "@types/react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "@types/react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "autoprefixer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "cli-table3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "drizzle-kit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "eslint-config-next",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "postcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "prettier-plugin-tailwindcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "tailwindcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "tailwindcss-animate",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "operation: setup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "rsync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "operation: update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "operation: cleanup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "if: always()",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "operation: dump",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "sqlite-diffable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "operation: restore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "drizzle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "run-pipelines.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "cron: \"0 23 * * *",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "workflow_dispatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "ingest-export",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "ingest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "process",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "export",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "generate-summaries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "pr-checks.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "pull_request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "test-pipelines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "check-migrations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "deploy.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "Run Pipelines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "out",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "jayanta525/github-pages-directory-listing@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "Deploy to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-checks.yml",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-checks.yml",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-checks.yml",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "PR Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-pipelines.yml",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-pipelines.yml",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-pipelines.yml",
+      "source_repo": "elizaOS/elizaos.github.io",
+      "target": "Run Pipelines",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:21:59.767760+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27581
+    },
+    {
+      "path": "package.json",
+      "size": 3343
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 5232
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 5936
+    },
+    {
+      "path": ".github/workflows/pr-checks.yml",
+      "size": 4859
+    },
+    {
+      "path": ".github/workflows/run-pipelines.yml",
+      "size": 14746
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Leaderboard of Eliza Contributors",
+    "full_name": "elizaOS/elizaos.github.io",
+    "html_url": "https://github.com/elizaOS/elizaos.github.io",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-17T23:29:53Z",
+    "topics": [
+      "coding",
+      "foss",
+      "leaderboard",
+      "mmo",
+      "scoring",
+      "software"
+    ],
+    "updated_at": "2026-04-09T21:48:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "simonw/sqlite-diffable",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "NEXT_PUBLIC_GITHUB_CLIENT_ID"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "NEXT_PUBLIC_AUTH_WORKER_URL"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash bun install"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "2. Set up environment variables in"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "using"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "for reference:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Then load the environment variables:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "3. Configure repositories to track in"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Data Ingestion"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Data Processing and Analysis"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Generating Stats and Exports"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "username.github.io"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "summarize"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "day"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "week"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "month"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "lifetime"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Index structure:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Database Management"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Website Generation"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "run-pipelines.yml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "generate-summaries.yml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "lifetime_summaries"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "username"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "deploy.yml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "pr-checks.yml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "restore-db"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "pipeline-data"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "username.github.io"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "OPENROUTER_API_KEY"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "NEXT_PUBLIC_GITHUB_CLIENT_ID"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "NEXT_PUBLIC_AUTH_WORKER_URL"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "run-pipelines.yml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "deploy.yml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "BASE_PATH"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SITE_URL"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "BASE_PATH"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SITE_URL"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "task-master"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ") or Google ("
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ") to the"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash bun run db:generate"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "directory. 3. Apply migrations"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash bun run db:migrate"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "db:generate"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "db:generate"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash bun run db:generate"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash bun run db:migrate"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "3. **Apply your new migration**:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash bun run db:migrate"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash bun run db:studio"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bun run db:generate"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bun run db:migrate"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "data"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "mkdir -p data"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## Directory Structure"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "operation: setup"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "rsync"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "data"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "data"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "operation: update"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "rsync"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "data"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "operation: cleanup"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "if: always()"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "operation: dump"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "sqlite-diffable"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "operation: restore"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "drizzle"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "drizzle"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "run-pipelines.yml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "cron: \"0 23 * * *"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "workflow_dispatch"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "ingest-export"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "ingest"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "process"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "export"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "generate-summaries"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "ingest-export"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "pr-checks.yml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "main"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "pull_request"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "main"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "check"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "build"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "test-pipelines"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "ingest"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "process"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "export"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "check-migrations"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "deploy.yml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "workflow_dispatch"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "Run Pipelines"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "main"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "data"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "out"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "term": "out"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Deploy to GitHub Pages"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-checks.yml",
+      "term": "PR Checks"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-pipelines.yml",
+      "term": "Run Pipelines"
+    }
+  ]
+}

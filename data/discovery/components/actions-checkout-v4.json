@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T09:17:12.863479+00:00",
+  "last_seen_at": "2026-04-18T09:21:02.237042+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1072,6 +1072,121 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/claude.yml",
       "source_repo": "maxritter/pilot-shell"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/appimage.yml",
+      "source_repo": "soramimi/Guitar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "soramimi/Guitar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "SuperClaude-Org/SuperClaude_Framework"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull-sync-framework.yml",
+      "source_repo": "SuperClaude-Org/SuperClaude_Framework"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/quick-check.yml",
+      "source_repo": "SuperClaude-Org/SuperClaude_Framework"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/readme-quality-check.yml",
+      "source_repo": "SuperClaude-Org/SuperClaude_Framework"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "SuperClaude-Org/SuperClaude_Framework"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/version-bump.yml",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mikeyobrien/ralph-orchestrator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "mikeyobrien/ralph-orchestrator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "mikeyobrien/ralph-orchestrator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mikeyobrien/ralph-orchestrator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "mikeyobrien/ralph-orchestrator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mikeyobrien/ralph-orchestrator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "evmts/tevm-monorepo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-auto-update.yml",
+      "source_repo": "evmts/tevm-monorepo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "evmts/tevm-monorepo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "evmts/tevm-monorepo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/jsr-publish.yml",
+      "source_repo": "evmts/tevm-monorepo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rsmdt/the-startup"
     }
   ]
 }

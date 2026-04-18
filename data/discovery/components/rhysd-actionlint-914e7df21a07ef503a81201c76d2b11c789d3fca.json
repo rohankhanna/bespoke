@@ -1,0 +1,12 @@
+{
+  "component": "rhysd/actionlint@914e7df21a07ef503a81201c76d2b11c789d3fca",
+  "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
+  "last_seen_at": "2026-04-18T09:21:02.237042+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-site.yml",
+      "source_repo": "agent-sh/agnix"
+    }
+  ]
+}

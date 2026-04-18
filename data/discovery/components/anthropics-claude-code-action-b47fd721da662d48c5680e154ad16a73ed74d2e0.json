@@ -1,0 +1,17 @@
+{
+  "component": "anthropics/claude-code-action@b47fd721da662d48c5680e154ad16a73ed74d2e0",
+  "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
+  "last_seen_at": "2026-04-18T09:21:02.237042+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "agent-sh/agnix"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "agent-sh/agnix"
+    }
+  ]
+}

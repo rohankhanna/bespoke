@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "astro",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
+      "target": "danielrosehill/bash-alias-manager-claude",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
+      "target": "danielrosehill/batch-claudemd-repo-creator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
+      "target": "danielrosehill/agent-junction",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
+      "target": "danielrosehill/ai-human-attribution-adder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
+      "target": "CLAUDE.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
+      "target": "astro",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:21:16.726379+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25354
+    },
+    {
+      "path": "package.json",
+      "size": 346
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "An index of my Claude Code related repos including a wide variety of starter templates for using Claude Code for common and more imaginative purposes!",
+    "full_name": "danielrosehill/Claude-Code-Projects-Index",
+    "html_url": "https://github.com/danielrosehill/Claude-Code-Projects-Index",
+    "language": "Astro",
+    "pushed_at": "2026-04-16T19:46:58Z",
+    "topics": [
+      "claude-code",
+      "claude-code-cli",
+      "index-repos"
+    ],
+    "updated_at": "2026-04-18T07:01:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/agent-junction",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/ai-human-attribution-adder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/bash-alias-manager-claude",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/batch-claudemd-repo-creator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "CLAUDE.md"
+    }
+  ]
+}

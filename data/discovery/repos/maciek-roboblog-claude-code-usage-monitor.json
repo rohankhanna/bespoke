@@ -1,0 +1,553 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version-bump.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version-bump.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version-bump.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "#### Install from Source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "### \ud83d\udce6 Installation with pip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "## \ud83d\udcd6 Usage ### Get Help",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "#### Custom Reset Times",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "#### Usage View Configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "#### Performance and Display Configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "#### Logging and Debugging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "**Unknown Limits**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "**Sprint Development**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "Alternatively, use the virtualenv package:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "#### Step-by-Step Setup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "2. **Use pipx (Isolated Environment)**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "3. **Use virtual environment**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "4. **Force installation (Not Recommended)**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "bash pip install --user claude-monitor --break-system-packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "2. **Add to PATH**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "3. **Verify installation location**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "4. **Run directly with Python**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "bash python3 -m claude_monitor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "bash python3 --version pip3 --version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "2. **Use specific Python version**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "bash uv tool install claude-monitor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "astral-sh/setup-uv@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "astral-sh/setup-uv@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "astral-sh/setup-uv@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "Test Suite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version-bump.yml",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version-bump.yml",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "astral-sh/setup-uv@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version-bump.yml",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "peter-evans/create-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/version-bump.yml",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "pyproject.toml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/version-bump.yml",
+      "source_repo": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+      "target": "CHANGELOG.md",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:21:30.681843+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 35178
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5682
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 1663
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3632
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 3077
+    },
+    {
+      "path": ".github/workflows/version-bump.yml",
+      "size": 4737
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Real-time Claude Code usage monitor with predictions and warnings",
+    "full_name": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+    "html_url": "https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor",
+    "language": "Python",
+    "pushed_at": "2025-09-14T03:40:59Z",
+    "topics": [
+      "ai",
+      "analytics",
+      "claude",
+      "claude-code",
+      "claude-usage",
+      "limits",
+      "monitoring",
+      "terminal",
+      "usage-tracking"
+    ],
+    "updated_at": "2026-04-18T07:32:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "#### Install from Source"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### \ud83d\udce6 Installation with pip"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## \ud83d\udcd6 Usage ### Get Help"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "#### Custom Reset Times"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "#### Usage View Configuration"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "#### Performance and Display Configuration"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "#### Logging and Debugging"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Unknown Limits**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Sprint Development**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Alternatively, use the virtualenv package:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "#### Step-by-Step Setup"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "2. **Use pipx (Isolated Environment)**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "3. **Use virtual environment**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "4. **Force installation (Not Recommended)**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash pip install --user claude-monitor --break-system-packages"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "2. **Add to PATH**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "3. **Verify installation location**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "4. **Run directly with Python**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash python3 -m claude_monitor"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash python3 --version pip3 --version"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "2. **Use specific Python version**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash uv tool install claude-monitor"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test Suite"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/version-bump.yml",
+      "term": "pyproject.toml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/version-bump.yml",
+      "term": "CHANGELOG.md"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "budget_seconds": 360,
+  "elapsed_seconds": 63.424,
+  "generated_at": "2026-04-18T09:21:02.237042+00:00",
+  "processed_repositories": [
+    "danielrosehill/claude-code-projects-index",
+    "ryoppippi/ccusage",
+    "soramimi/guitar",
+    "ykdojo/claude-code-tips",
+    "superclaude-org/superclaude_framework",
+    "maciek-roboblog/claude-code-usage-monitor",
+    "mikeyobrien/ralph-orchestrator",
+    "foxj77/claudectx",
+    "anthropics/claude-code-action",
+    "jeffallan/claude-skills",
+    "layr-labs/avs-vibe-developer-guide",
+    "evmts/tevm-monorepo",
+    "alonw0/web-asset-generator",
+    "harperreed/dotfiles",
+    "rsmdt/the-startup",
+    "opactorai/claudable",
+    "elizaos/elizaos.github.io",
+    "berrydev-ai/blockdoc-python",
+    "agent-sh/agnix"
+  ],
+  "remaining_budget_seconds": 296.576,
+  "remaining_frontier": 299,
+  "repo_timing_summary": {
+    "average_seconds": 3.149,
+    "count": 20,
+    "max_seconds": 14.489,
+    "total_seconds": 62.977
+  },
+  "repo_timings": [
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 14.489,
+      "full_name": "danielrosehill/claude-code-projects-index",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.363,
+      "full_name": "ryoppippi/ccusage",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.326,
+      "full_name": "soramimi/guitar",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.083,
+      "full_name": "ykdojo/claude-code-tips",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 4.11,
+      "full_name": "superclaude-org/superclaude_framework",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.032,
+      "full_name": "maciek-roboblog/claude-code-usage-monitor",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 5.365,
+      "full_name": "ruvnet/ruflo",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 4.473,
+      "full_name": "mikeyobrien/ralph-orchestrator",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.981,
+      "full_name": "foxj77/claudectx",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.471,
+      "full_name": "anthropics/claude-code-action",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.601,
+      "full_name": "jeffallan/claude-skills",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.413,
+      "full_name": "layr-labs/avs-vibe-developer-guide",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.007,
+      "full_name": "evmts/tevm-monorepo",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.077,
+      "full_name": "alonw0/web-asset-generator",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.549,
+      "full_name": "harperreed/dotfiles",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.18,
+      "full_name": "rsmdt/the-startup",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.03,
+      "full_name": "opactorai/claudable",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.589,
+      "full_name": "elizaos/elizaos.github.io",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.936,
+      "full_name": "berrydev-ai/blockdoc-python",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.902,
+      "full_name": "agent-sh/agnix",
+      "graph_distance": 3
+    }
+  ],
+  "run_id": "20260418T092102Z",
+  "skipped_repositories": [],
+  "stopped_due_to_budget": false
+}

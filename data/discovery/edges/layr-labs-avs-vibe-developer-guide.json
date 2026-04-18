@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/avs-vibe-developer-guide",
+      "target": "layr-labs/hello-world-avs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/avs-vibe-developer-guide",
+      "target": "wesfloyd/avs-context-prompt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/avs-vibe-developer-guide",
+      "target": "context",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/avs-vibe-developer-guide",
+      "target": "git clone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/avs-vibe-developer-guide",
+      "target": "avs-vibe-developer-guide",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/avs-vibe-developer-guide",
+      "target": "claude",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T09:21:02.237042+00:00",
+  "source_repo": "Layr-Labs/avs-vibe-developer-guide"
+}

@@ -1,0 +1,175 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "berrydev-ai/blockdoc-python",
+      "target": "pip install blockdoc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "berrydev-ai/blockdoc-python",
+      "target": "## Installation Install BlockDoc from PyPI:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "berrydev-ai/blockdoc-python",
+      "target": "bash pip install blockdoc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "berrydev-ai/blockdoc-python",
+      "target": "## Usage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-lint.yml",
+      "source_repo": "berrydev-ai/blockdoc-python",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-lint.yml",
+      "source_repo": "berrydev-ai/blockdoc-python",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-lint.yml",
+      "source_repo": "berrydev-ai/blockdoc-python",
+      "target": "Python Linting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml",
+      "source_repo": "berrydev-ai/blockdoc-python",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml",
+      "source_repo": "berrydev-ai/blockdoc-python",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml",
+      "source_repo": "berrydev-ai/blockdoc-python",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-tests.yml",
+      "source_repo": "berrydev-ai/blockdoc-python",
+      "target": "Python Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:22:01.744915+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6642
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1069
+    },
+    {
+      "path": "requirements.txt",
+      "size": 68
+    },
+    {
+      "path": ".github/workflows/python-lint.yml",
+      "size": 656
+    },
+    {
+      "path": ".github/workflows/python-tests.yml",
+      "size": 767
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "A simple, powerful standard for structured content that works beautifully with LLMs, humans, and modern editors.",
+    "full_name": "berrydev-ai/blockdoc-python",
+    "html_url": "https://github.com/berrydev-ai/blockdoc-python",
+    "language": "Python",
+    "pushed_at": "2025-04-28T15:54:35Z",
+    "topics": [],
+    "updated_at": "2026-02-24T08:37:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "pip install blockdoc"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## Installation Install BlockDoc from PyPI:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash pip install blockdoc"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## Usage"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-lint.yml",
+      "term": "Python Linting"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/python-tests.yml",
+      "term": "Python Tests"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T09:09:30.058377+00:00",
+  "last_seen_at": "2026-04-18T09:21:02.237042+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -16,6 +16,16 @@
       "discovered_via": "inline-code",
       "source_file": "README.md",
       "source_repo": "larksuite/cli"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mikeyobrien/ralph-orchestrator"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "opactorai/Claudable"
     }
   ],
   "term": "npm install"
