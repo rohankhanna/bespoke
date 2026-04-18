@@ -15,7 +15,22 @@ UA = "bespoke-cli-discovery"
 REPO_URL_RE = re.compile(r"https://github\.com/([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+(?:\.git)?)")
 MANIFEST_CANDIDATES = ["pyproject.toml", "requirements.txt", "package.json", "Cargo.toml", "go.mod", "Dockerfile"]
 README_CANDIDATES = ["README.md", "README.rst", "README.txt"]
-TOPIC_SKIP = {"ai", "llm", "python", "javascript", "typescript"}
+TOPIC_SKIP = {
+    "ai",
+    "agent",
+    "agents",
+    "ai-agent",
+    "ai-agents",
+    "claude",
+    "codex",
+    "copilot",
+    "gpt",
+    "llm",
+    "openai",
+    "python",
+    "javascript",
+    "typescript",
+}
 TOPIC_RESULT_LIMIT = 5
 TOPIC_OWNER_CAP_PER_SOURCE = 1
 
@@ -171,6 +186,18 @@ def dedupe_frontier_entries(entries):
     return [deduped[key] for key in ordered_keys]
 
 
+def build_processed_history(frontier_state, processed_names):
+    processed_history = []
+    seen_processed = set()
+    for full_name in frontier_state.get("processed", []) + processed_names:
+        canonical = repo_identity_key(full_name)
+        if not canonical or canonical in seen_processed:
+            continue
+        seen_processed.add(canonical)
+        processed_history.append(canonical)
+    return processed_history, seen_processed
+
+
 def dedupe_edges(edges):
     seen = set()
     out = []
@@ -230,7 +257,7 @@ def load_frontier(data_root, seeds):
     return pending, {"pending": pending, "processed": [], "generated_at": None}
 
 
-def collect_repo(owner_repo, limits, allow_topic_expansion=True):
+def collect_repo(owner_repo, limits, known_repo_keys, allow_topic_expansion=True):
     repo = github_repo(owner_repo)
     canonical_owner_repo = canonicalize_repo_full_name(repo.get("full_name") or owner_repo)
     source_repo_key = repo_identity_key(canonical_owner_repo)
@@ -270,7 +297,7 @@ def collect_repo(owner_repo, limits, allow_topic_expansion=True):
 
         for match in REPO_URL_RE.findall(text):
             canonical = canonicalize_repo_full_name(match, lowercase=True)
-            if not canonical or canonical == source_repo_key:
+            if not canonical or canonical == source_repo_key or canonical in known_repo_keys:
                 continue
             repo_link_hits.append({"full_name": canonical, "source_file": path, "edge_type": "explicit-github-link"})
             edge_records.append({"source_repo": canonical_owner_repo, "target": canonical, "target_type": "repository", "edge_type": "explicit-github-link", "source_file": path})
@@ -310,7 +337,6 @@ def collect_repo(owner_repo, limits, allow_topic_expansion=True):
 
     source_topics = repo.get("topics") or []
     source_topic_set = comparable_topic_set(source_topics)
-    source_owner = source_repo_key.split('/')[0] if source_repo_key else None
 
     related, seen_related = [], set()
     owner_counts = {}
@@ -326,18 +352,16 @@ def collect_repo(owner_repo, limits, allow_topic_expansion=True):
             continue
         for item in result.get("items", []):
             full_name = canonicalize_repo_full_name(item.get("full_name", ""), lowercase=True)
-            if not full_name or full_name == source_repo_key or full_name in seen_related:
+            if not full_name or full_name == source_repo_key or full_name in seen_related or full_name in known_repo_keys:
                 continue
 
             candidate_topic_set = comparable_topic_set(item.get("topics", []))
             shared_topics = source_topic_set & candidate_topic_set
-            if normalized_topic not in shared_topics:
+            overlap_without_trigger = shared_topics - {normalized_topic}
+            if normalized_topic not in shared_topics or not overlap_without_trigger:
                 continue
 
-            overlap_without_trigger = shared_topics - {normalized_topic}
             candidate_owner = full_name.split('/')[0]
-            if not overlap_without_trigger and candidate_owner != source_owner:
-                continue
             if owner_counts.get(candidate_owner, 0) >= TOPIC_OWNER_CAP_PER_SOURCE:
                 continue
 
@@ -408,7 +432,7 @@ def main():
     run_id = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     newly_discovered = []
     processed_names = []
-    processed_keys = set()
+    processed_history, known_repo_keys = build_processed_history(frontier_state, processed_names)
 
     skipped_repositories = []
 
@@ -427,7 +451,7 @@ def main():
                 not entry.get("discovered_via", "").startswith("topic:")
                 and entry.get("graph_distance", 0) <= 1
             )
-            data = collect_repo(owner_repo, limits, allow_topic_expansion=allow_topic_expansion)
+            data = collect_repo(owner_repo, limits, known_repo_keys, allow_topic_expansion=allow_topic_expansion)
         except urllib.error.HTTPError as e:
             if e.code == 404:
                 skipped_repositories.append({
@@ -441,8 +465,8 @@ def main():
         canonical_owner_repo = canonicalize_repo_full_name(data["repo"]["full_name"] or owner_repo, lowercase=True)
         write_json(repos_dir / f"{slug(canonical_owner_repo)}.json", data)
         write_json(edges_dir / f"{slug(canonical_owner_repo)}.json", {"source_repo": data["repo"]["full_name"], "generated_at": generated_at, "edges": data["edges"]})
-        if canonical_owner_repo not in processed_keys:
-            processed_keys.add(canonical_owner_repo)
+        if canonical_owner_repo not in known_repo_keys:
+            known_repo_keys.add(canonical_owner_repo)
             processed_names.append(canonical_owner_repo)
 
         for hit in data["terms"]:
@@ -472,20 +496,12 @@ def main():
                 "discovered_via": link["edge_type"],
             })
 
+    processed_history, known_repo_keys = build_processed_history(frontier_state, processed_names)
     next_pending = dedupe_frontier_entries(remaining + newly_discovered)
     next_pending = [
         item for item in next_pending
-        if repo_identity_key(item.get("full_name")) not in processed_keys
+        if repo_identity_key(item.get("full_name")) not in known_repo_keys
     ]
-
-    processed_history = []
-    seen_processed = set()
-    for full_name in frontier_state.get("processed", []) + processed_names:
-        canonical = repo_identity_key(full_name)
-        if not canonical or canonical in seen_processed:
-            continue
-        seen_processed.add(canonical)
-        processed_history.append(canonical)
 
     new_frontier = {
         "generated_at": generated_at,
