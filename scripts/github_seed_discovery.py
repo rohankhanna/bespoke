@@ -544,6 +544,36 @@ def normalize_existing_concept_artifacts(concepts_dir):
         write_json(path, obj)
 
 
+def normalize_existing_concept_observations(observations_dir):
+    for path in observations_dir.glob("*.json"):
+        try:
+            obj = json.loads(path.read_text())
+        except Exception:
+            path.unlink(missing_ok=True)
+            continue
+        candidate_buckets = obj.get("candidate_buckets") or []
+        if not candidate_buckets:
+            kind = obj.get("observation_kind")
+            if kind == "repo-topic":
+                candidate_buckets = ["tool-component", "capability"]
+            elif kind == "workflow-name":
+                candidate_buckets = ["workflow-process", "data-document-artifact"]
+            else:
+                candidate_buckets = ["unclassified"]
+        obj["candidate_buckets"] = unique_preserve(candidate_buckets)
+        obj["candidate_primary_bucket"] = obj.get("candidate_primary_bucket") or obj["candidate_buckets"][0]
+        obj.setdefault("ambiguity_status", "unresolved")
+        if not obj.get("candidate_senses"):
+            normalized = obj.get("normalized_form") or slug(obj.get("observed_text", "concept"))
+            obj["candidate_senses"] = [{
+                "sense_id": f"{normalized}#sense-1",
+                "label": obj.get("observed_text") or normalized,
+                "status": "candidate",
+                "candidate_buckets": obj["candidate_buckets"],
+            }]
+        write_json(path, obj)
+
+
 def slow_repo_annotations(repo_timings):
     return [item for item in repo_timings if item.get("elapsed_seconds", 0) >= SLOW_REPO_THRESHOLD_SECONDS]
 
@@ -841,6 +871,7 @@ def main():
     generated_at = datetime.now(timezone.utc).isoformat()
     upsert_seeded_language_concepts(concepts_dir, generated_at)
     normalize_existing_concept_artifacts(concepts_dir)
+    normalize_existing_concept_observations(concept_observations_dir)
     run_id = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     budget = budget_state()
     newly_discovered = []
