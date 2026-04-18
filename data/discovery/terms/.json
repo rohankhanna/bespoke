@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-17T18:04:43.852571+00:00",
+  "last_seen_at": "2026-04-18T02:41:24.975901+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -11,6 +11,16 @@
       "discovered_via": "inline-code",
       "source_file": "README.md",
       "source_repo": "ZailoxTT/ru-grok-jailbreak"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest"
     }
   ],
   "term": "| |---|---|---| |"

@@ -1,0 +1,93 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Livemania18/Idiegti-Sukonfiguruoti-Yiimp-Kasimo-Baseinas-Programine-Iranga-Ubuntu-Linux",
+      "target": "6. Enter the extracted folder:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Livemania18/Idiegti-Sukonfiguruoti-Yiimp-Kasimo-Baseinas-Programine-Iranga-Ubuntu-Linux",
+      "target": "cd your_extracted_folder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Livemania18/Idiegti-Sukonfiguruoti-Yiimp-Kasimo-Baseinas-Programine-Iranga-Ubuntu-Linux",
+      "target": "7. Run the installation script:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Livemania18/Idiegti-Sukonfiguruoti-Yiimp-Kasimo-Baseinas-Programine-Iranga-Ubuntu-Linux",
+      "target": "sudo systemctl restart yiimp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T02:41:29.460422+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5856
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "next",
+    "description": "\ud83d\ude80 Install a Yiimp mining pool software on Ubuntu Linux for any cryptocurrency. Get expert support for Bitcoin, altcoins, and tailored solutions today.",
+    "full_name": "Livemania18/Idiegti-Sukonfiguruoti-Yiimp-Kasimo-Baseinas-Programine-Iranga-Ubuntu-Linux",
+    "html_url": "https://github.com/Livemania18/Idiegti-Sukonfiguruoti-Yiimp-Kasimo-Baseinas-Programine-Iranga-Ubuntu-Linux",
+    "language": null,
+    "pushed_at": "2026-04-18T01:35:29Z",
+    "topics": [
+      "asicboost",
+      "bitcoin",
+      "bitcoincash",
+      "bitcoincashminingpool",
+      "bitcoinminingpool",
+      "blackcoin",
+      "build-crypto-mining-pool",
+      "crypto-mining-pool",
+      "dogecoin",
+      "install-yiimp-mining-pool",
+      "litecoin",
+      "mining-pool",
+      "mining-pool-software",
+      "mining-pools",
+      "miningpool",
+      "miningpools",
+      "source-code",
+      "yiimp"
+    ],
+    "updated_at": "2026-04-18T01:35:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "6. Enter the extracted folder:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cd your_extracted_folder"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "7. Run the installation script:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "sudo systemctl restart yiimp"
+    }
+  ]
+}

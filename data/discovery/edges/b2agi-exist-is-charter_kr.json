@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "b2agi/exist-is-charter_kr",
+      "target": "CHARTER_HASH.txt",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T02:41:24.975901+00:00",
+  "source_repo": "b2agi/exist-is-charter_kr"
+}

@@ -1,0 +1,74 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive",
+      "target": "damacol/ai-hub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto.yml",
+      "source_repo": "Damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto.yml",
+      "source_repo": "Damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive",
+      "target": "Auto-Maintain",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T02:41:26.859946+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4057
+    },
+    {
+      "path": ".github/workflows/auto.yml",
+      "size": 734
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Private, uncensored AI: HauhauCS/Gemma-4-E2B-Uncensored-HauhauCS-Aggressive",
+    "full_name": "Damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive",
+    "html_url": "https://github.com/Damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive",
+    "language": null,
+    "pushed_at": "2026-04-17T18:08:49Z",
+    "topics": [
+      "ai",
+      "gemma-4-e2b-uncensor",
+      "privacy",
+      "uncensored",
+      "venice-ai"
+    ],
+    "updated_at": "2026-04-17T18:08:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "damacol/ai-hub",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto.yml",
+      "term": "Auto-Maintain"
+    }
+  ]
+}

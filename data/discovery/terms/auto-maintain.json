@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-17T18:04:43.852571+00:00",
+  "last_seen_at": "2026-04-18T02:41:24.975901+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -21,6 +21,26 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/auto.yml",
       "source_repo": "Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/auto.yml",
+      "source_repo": "Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/auto.yml",
+      "source_repo": "Damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/auto.yml",
+      "source_repo": "Damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/auto.yml",
+      "source_repo": "Damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive"
     }
   ],
   "term": "Auto-Maintain"

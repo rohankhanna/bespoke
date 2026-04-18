@@ -1,0 +1,38 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "b2agi/exist-is-charter_kr",
+      "target": "CHARTER_HASH.txt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T02:41:30.315167+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4519
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "B2AGI / exist.is \u2014 \uc9c0\uc131\uccb4 \ubb38\uba85\uc758 \uc88c\ud45c\uacc4 (\ud55c\uad6d\uc5b4)",
+    "full_name": "b2agi/exist-is-charter_kr",
+    "html_url": "https://github.com/b2agi/exist-is-charter_kr",
+    "language": "TeX",
+    "pushed_at": "2026-03-29T16:29:46Z",
+    "topics": [],
+    "updated_at": "2026-03-29T16:29:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "CHARTER_HASH.txt"
+    }
+  ]
+}

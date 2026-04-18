@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-18T02:41:32.953003+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4290
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "\ud83d\udce7 Unlock Apple Mail's potential with 42 powerful tools for full scripting control, enabling advanced mailbox and email management.",
+    "full_name": "cyber404/che-apple-mail-mcp",
+    "html_url": "https://github.com/cyber404/che-apple-mail-mcp",
+    "language": "Swift",
+    "pushed_at": "2026-04-18T01:36:05Z",
+    "topics": [
+      "apple-mail",
+      "applescript",
+      "automation",
+      "claude",
+      "email",
+      "macos",
+      "mail-app",
+      "mcp",
+      "model-context-protocol",
+      "swift"
+    ],
+    "updated_at": "2026-04-18T01:36:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,139 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "piqrypt/piqrypt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "pip install piqrypt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "### Build from source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "(string, required): Agent identifier -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "(object, required): Decision data -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "**Returns:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "(array, required): Events to verify **Example:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "(string, required): Agent to export -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "(boolean): Request PiQrypt certification -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "(string):",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "**Example:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "(string, optional): Filter by type -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "(number, optional): Start time -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "(number, optional): End time -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "(number): Max results (default: 100) **Example:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "### HR Automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "@modelcontextprotocol/sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "typescript",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-18T02:41:24.975901+00:00",
+  "source_repo": "PiQrypt/piqrypt-mcp-server"
+}

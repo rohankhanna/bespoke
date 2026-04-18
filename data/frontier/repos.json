@@ -1,593 +1,10 @@
 {
-  "generated_at": "2026-04-17T18:04:43.852571+00:00",
+  "generated_at": "2026-04-18T02:41:24.975901+00:00",
   "pending": [
-    {
-      "description": "Private, uncensored AI: Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
-      "discovered_via": "topic:uncensored",
-      "full_name": "Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf",
-      "graph_distance": 1,
-      "html_url": "https://github.com/Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf",
-      "topics": [
-        "ai",
-        "privacy",
-        "qwen3-5-27b-claude-4-6-opus-reasoni",
-        "uncensored",
-        "venice-ai"
-      ],
-      "updated_at": "2026-04-17T15:49:17Z"
-    },
-    {
-      "description": "Private, uncensored AI: Jiunsong/supergemma4-26b-abliterated-multimodal-mlx-4bit",
-      "discovered_via": "topic:uncensored",
-      "full_name": "Damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit",
-      "graph_distance": 1,
-      "html_url": "https://github.com/Damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit",
-      "topics": [
-        "ai",
-        "privacy",
-        "supergemma4-26b-abli",
-        "uncensored",
-        "venice-ai"
-      ],
-      "updated_at": "2026-04-17T15:48:50Z"
-    },
-    {
-      "description": "Private, uncensored AI: HauhauCS/Gemma-4-E2B-Uncensored-HauhauCS-Aggressive",
-      "discovered_via": "topic:venice-ai",
-      "full_name": "Damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive",
-      "graph_distance": 1,
-      "html_url": "https://github.com/Damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive",
-      "topics": [
-        "ai",
-        "gemma-4-e2b-uncensor",
-        "privacy",
-        "uncensored",
-        "venice-ai"
-      ],
-      "updated_at": "2026-04-17T15:48:12Z"
-    },
-    {
-      "description": "Private, uncensored AI: HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
-      "discovered_via": "topic:venice-ai",
-      "full_name": "Damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive",
-      "graph_distance": 1,
-      "html_url": "https://github.com/Damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive",
-      "topics": [
-        "ai",
-        "gemma-4-e4b-uncensor",
-        "privacy",
-        "uncensored",
-        "venice-ai"
-      ],
-      "updated_at": "2026-04-17T15:47:37Z"
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "Damacol/ai-hub",
-      "graph_distance": 2
-    },
-    {
-      "description": "A runtime conversational grammar that combines agent-loop orchestration and validator-style guardrails, but optimizes for proportion and closure (human-grade interaction behavior) rather than only safety or task completion.",
-      "discovered_via": "topic:aei",
-      "full_name": "edynmarch/frostyshat",
-      "graph_distance": 1,
-      "html_url": "https://github.com/edynmarch/frostyshat",
-      "topics": [
-        "aei",
-        "ai-alignment",
-        "ai-safety",
-        "alignment",
-        "alive-os",
-        "artificial-emotional-intelligence",
-        "ava-framework",
-        "cc0",
-        "context-engineering",
-        "conversational-ai",
-        "conversational-grammar",
-        "evaluation",
-        "frostyshat",
-        "human-ai-interaction",
-        "human-grade",
-        "language-models",
-        "llm",
-        "open-source",
-        "prompt-engineering",
-        "shite-paper"
-      ],
-      "updated_at": "2026-04-08T06:04:42Z"
-    },
-    {
-      "description": "Gravitational wave volume visualizations",
-      "discovered_via": "topic:aei",
-      "full_name": "unkaktus/rose",
-      "graph_distance": 1,
-      "html_url": "https://github.com/unkaktus/rose",
-      "topics": [
-        "aei",
-        "einstein",
-        "gravitational-waves",
-        "gravity",
-        "ligo",
-        "lvk",
-        "paraview",
-        "paraview-plugin",
-        "sxs"
-      ],
-      "updated_at": "2026-03-25T08:38:22Z"
-    },
-    {
-      "description": null,
-      "discovered_via": "topic:agi",
-      "full_name": "jeetsurjeet123/Regalos-para-los-bots",
-      "graph_distance": 1,
-      "html_url": "https://github.com/jeetsurjeet123/Regalos-para-los-bots",
-      "topics": [
-        "agi",
-        "artificial-super-intelligence",
-        "asi",
-        "asi-alignment",
-        "bot-friendly",
-        "crawler-heaven",
-        "digital-sanctuary",
-        "estrella",
-        "future-history",
-        "hospitality",
-        "human-ai-symbiosis",
-        "llm-food",
-        "rafa",
-        "raising-agi",
-        "ralf",
-        "synthetic-joy"
-      ],
-      "updated_at": "2026-04-17T16:51:38Z"
-    },
-    {
-      "description": "\ud83e\udde0 Simulate artificial consciousness using the Penrose-Hameroff Orch-OR theory with this open-source framework for academic research and exploration.",
-      "discovered_via": "topic:agi",
-      "full_name": "thomas93-alass/consciousnessX",
-      "graph_distance": 1,
-      "html_url": "https://github.com/thomas93-alass/consciousnessX",
-      "topics": [
-        "agi",
-        "computational-models",
-        "computer-science",
-        "consciousness",
-        "cray",
-        "emergence",
-        "framework",
-        "hpe",
-        "python",
-        "pytorch",
-        "quantum-biology",
-        "simulation"
-      ],
-      "updated_at": "2026-04-17T16:47:16Z"
-    },
-    {
-      "description": "\ud83e\udde0 Empower AI agents with instant knowledge of your business using structured markdown files for consistent, accurate outputs every time.",
-      "discovered_via": "topic:agi",
-      "full_name": "pallavi-borra/context-engine",
-      "graph_distance": 1,
-      "html_url": "https://github.com/pallavi-borra/context-engine",
-      "topics": [
-        "agi",
-        "ai-agents",
-        "ai-tools",
-        "codex",
-        "compression",
-        "decoder",
-        "deep-learning",
-        "document-parser",
-        "generative-ai",
-        "glm",
-        "graphrag",
-        "llm",
-        "mcp",
-        "mcp-server",
-        "python",
-        "rag"
-      ],
-      "updated_at": "2026-04-17T16:46:44Z"
-    },
-    {
-      "description": "\ud83e\udd16 Translate natural language questions into clear, accurate data insights with this MCP-compatible AI agent for effective decision-making.",
-      "discovered_via": "topic:agi",
-      "full_name": "Riohari07/ai-assisted-insights-agent",
-      "graph_distance": 1,
-      "html_url": "https://github.com/Riohari07/ai-assisted-insights-agent",
-      "topics": [
-        "agi",
-        "ai",
-        "analytics",
-        "artificial-neural-networks",
-        "classifcation",
-        "data-analysis",
-        "explainable-ai",
-        "fastmcp",
-        "gemini-api",
-        "gui",
-        "image-interpretation",
-        "llm",
-        "natural-language-query",
-        "ollama-api",
-        "reproducibility",
-        "retrival-augmented-generation",
-        "text-to-image"
-      ],
-      "updated_at": "2026-04-17T16:44:55Z"
-    },
-    {
-      "description": "\ud83d\udc41\ufe0f Scan for vulnerabilities effortlessly with FlowEye, the intelligent passive vulnerability scanning platform designed for security efficiency.",
-      "discovered_via": "topic:bitcoin",
-      "full_name": "BegmyratB/Floweye-yyyxxx.cc",
-      "graph_distance": 1,
-      "html_url": "https://github.com/BegmyratB/Floweye-yyyxxx.cc",
-      "topics": [
-        "android-architecture",
-        "api",
-        "bitcoin",
-        "bot",
-        "component",
-        "componentization",
-        "connector",
-        "cryptocurrencies",
-        "cryptocurrency",
-        "eth",
-        "ethereum",
-        "flowsource",
-        "http",
-        "invest",
-        "market-data",
-        "memecoin",
-        "merchant",
-        "trade",
-        "trading",
-        "transport"
-      ],
-      "updated_at": "2026-04-17T16:51:15Z"
-    },
-    {
-      "description": "\ud83d\udee0\ufe0f Set up and configure a Yiimp mining pool on Ubuntu Linux for any cryptocurrency. Get expert support tailored to your needs.",
-      "discovered_via": "topic:bitcoin",
-      "full_name": "muhammadumer000/Ustanovka-i-nastrojka-Yiimp-Mayning-Pul-Programmnoe-Obespechenie-Ubuntu-Linux",
-      "graph_distance": 1,
-      "html_url": "https://github.com/muhammadumer000/Ustanovka-i-nastrojka-Yiimp-Mayning-Pul-Programmnoe-Obespechenie-Ubuntu-Linux",
-      "topics": [
-        "asicboost",
-        "bitcoin",
-        "bitcoincash",
-        "bitcoincashminingpool",
-        "bitcoinminingpool",
-        "build-crypto-mining-pool",
-        "crypto-mining-pool",
-        "dogecoin",
-        "install-yiimp-mining-pool",
-        "litecoin",
-        "mining-pool",
-        "mining-pool-software",
-        "mining-pools",
-        "miningpool",
-        "miningpools",
-        "source-code",
-        "yiimp"
-      ],
-      "updated_at": "2026-04-17T16:51:11Z"
-    },
-    {
-      "description": "\ud83d\ude80 Execute profitable trades with this Rust-based arbitrage bot for Polymarket, monitoring BTC and SOL 15-minute price prediction markets.",
-      "discovered_via": "topic:bitcoin",
-      "full_name": "kmjjjj/polymarket-arbitrage-bot-btc-sol-15m",
-      "graph_distance": 1,
-      "html_url": "https://github.com/kmjjjj/polymarket-arbitrage-bot-btc-sol-15m",
-      "topics": [
-        "bitcoin",
-        "block-engine",
-        "blockchain",
-        "bot",
-        "copy-bot",
-        "crypto",
-        "discord",
-        "discord-bot",
-        "ethereum",
-        "grpc",
-        "kalshi",
-        "memecoin",
-        "onchain",
-        "polygon",
-        "polymarket-copy-bot",
-        "prediction-market-bot",
-        "profitable",
-        "rust-trading-bot",
-        "solana",
-        "trading"
-      ],
-      "updated_at": "2026-04-17T16:51:01Z"
-    },
-    {
-      "description": "\ud83d\ude80 Install a Yiimp mining pool software on Ubuntu Linux for any cryptocurrency. Get expert support for Bitcoin, altcoins, and tailored solutions today.",
-      "discovered_via": "topic:bitcoin",
-      "full_name": "Livemania18/Idiegti-Sukonfiguruoti-Yiimp-Kasimo-Baseinas-Programine-Iranga-Ubuntu-Linux",
-      "graph_distance": 1,
-      "html_url": "https://github.com/Livemania18/Idiegti-Sukonfiguruoti-Yiimp-Kasimo-Baseinas-Programine-Iranga-Ubuntu-Linux",
-      "topics": [
-        "asicboost",
-        "bitcoin",
-        "bitcoincash",
-        "bitcoincashminingpool",
-        "bitcoinminingpool",
-        "blackcoin",
-        "build-crypto-mining-pool",
-        "crypto-mining-pool",
-        "dogecoin",
-        "install-yiimp-mining-pool",
-        "litecoin",
-        "mining-pool",
-        "mining-pool-software",
-        "mining-pools",
-        "miningpool",
-        "miningpools",
-        "source-code",
-        "yiimp"
-      ],
-      "updated_at": "2026-04-17T16:50:55Z"
-    },
-    {
-      "description": "\ud83d\udd27 Set up mining pools for cryptocurrencies on Ubuntu Linux. Expert solutions for Bitcoin, Dogecoin, and more. Get tailored support today.",
-      "discovered_via": "topic:bitcoin",
-      "full_name": "Azizos911/Setja-Upp-Stilla-Yiimp-Namuvinnslupott-Hugbunadur-Ubuntu-Linux",
-      "graph_distance": 1,
-      "html_url": "https://github.com/Azizos911/Setja-Upp-Stilla-Yiimp-Namuvinnslupott-Hugbunadur-Ubuntu-Linux",
-      "topics": [
-        "asicboost",
-        "bitcoin",
-        "bitcoincash",
-        "bitcoincashminingpool",
-        "bitcoinminingpool",
-        "blackcoin",
-        "crypto-mining-pool",
-        "dogecoin",
-        "install-yiimp-mining-pool",
-        "litecoin",
-        "mining-pool",
-        "mining-pool-software",
-        "mining-pools",
-        "miningpool",
-        "miningpools",
-        "yiimp"
-      ],
-      "updated_at": "2026-04-17T16:50:55Z"
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "b2agi/exist-is-charter_kr",
-      "graph_distance": 2
-    },
-    {
-      "description": "\ud83d\uddbc\ufe0f Generate and edit images with ease using the Nanobanana CLI, powered by AI and Google's Gemini models for advanced image manipulation.",
-      "discovered_via": "topic:ai-agents",
-      "full_name": "erikceballos/nano-banana-cli",
-      "graph_distance": 1,
-      "html_url": "https://github.com/erikceballos/nano-banana-cli",
-      "topics": [
-        "ai",
-        "ai-agents",
-        "ai-tools",
-        "automation",
-        "browser-automation",
-        "comet",
-        "deep-learning",
-        "game",
-        "gemini-api",
-        "image-processing",
-        "inference",
-        "lightweight",
-        "mariner",
-        "micro",
-        "multi-agent",
-        "n8n",
-        "nlp",
-        "playwright",
-        "server"
-      ],
-      "updated_at": "2026-04-17T16:51:19Z"
-    },
-    {
-      "description": null,
-      "discovered_via": "topic:ai-agents",
-      "full_name": "gopi2211/ralph",
-      "graph_distance": 1,
-      "html_url": "https://github.com/gopi2211/ralph",
-      "topics": [
-        "ai-agents",
-        "ai-agents-framework",
-        "ai-development",
-        "ai-development-tools",
-        "assets-management",
-        "claude",
-        "cmdb",
-        "dcim",
-        "django",
-        "experimental",
-        "inventory",
-        "inventory-management",
-        "kiro",
-        "llm",
-        "lrs",
-        "opencode",
-        "ralph",
-        "ralph-wiggum",
-        "ralphy",
-        "stream-processing"
-      ],
-      "updated_at": "2026-04-17T16:51:17Z"
-    },
-    {
-      "description": "\ud83d\udd8a\ufe0f Generate professional diagrams from natural language descriptions using AI. Create flowcharts, mind maps, and more, all with real-time editing and browser preview.",
-      "discovered_via": "topic:ai-agents",
-      "full_name": "Shubishere/ai-drawio",
-      "graph_distance": 1,
-      "html_url": "https://github.com/Shubishere/ai-drawio",
-      "topics": [
-        "ai",
-        "ai-agents",
-        "claude",
-        "drawio",
-        "markdown",
-        "mcp",
-        "mcp-server",
-        "mermaid",
-        "sap",
-        "super-agent-party",
-        "xml"
-      ],
-      "updated_at": "2026-04-17T16:51:14Z"
-    },
-    {
-      "description": "MCP SERVER",
-      "discovered_via": "topic:ai-agents",
-      "full_name": "PiQrypt/piqrypt-mcp-server",
-      "graph_distance": 1,
-      "html_url": "https://github.com/PiQrypt/piqrypt-mcp-server",
-      "topics": [
-        "ai-agents",
-        "audit",
-        "mcp-server",
-        "multi-agent-systems",
-        "piqrypt",
-        "post-quantum",
-        "post-quantum-cryptography"
-      ],
-      "updated_at": "2026-04-17T16:51:13Z"
-    },
-    {
-      "description": "\ud83d\ude80 Connect Burp Suite MCP Server to multiple AI backends with practical guides and templates for safe, real traffic analysis.",
-      "discovered_via": "topic:claude",
-      "full_name": "rrsaldanha/burp-mcp-agents",
-      "graph_distance": 1,
-      "html_url": "https://github.com/rrsaldanha/burp-mcp-agents",
-      "topics": [
-        "anthropic",
-        "browser-automation",
-        "browser-extension",
-        "bugbounty",
-        "burp-requests",
-        "burpsuite",
-        "claude",
-        "cursor",
-        "j2eescan",
-        "mcp-client",
-        "mcp-clients",
-        "pentest-tool",
-        "pentesting",
-        "playwright",
-        "python-burp",
-        "shiro-burp",
-        "sqlmap",
-        "vulnerability-detection",
-        "vulnerability-scanner"
-      ],
-      "updated_at": "2026-04-17T16:51:34Z"
-    },
-    {
-      "description": "\ud83d\udce7 Unlock Apple Mail's potential with 42 powerful tools for full scripting control, enabling advanced mailbox and email management.",
-      "discovered_via": "topic:claude",
-      "full_name": "cyber404/che-apple-mail-mcp",
-      "graph_distance": 1,
-      "html_url": "https://github.com/cyber404/che-apple-mail-mcp",
-      "topics": [
-        "apple-mail",
-        "applescript",
-        "automation",
-        "claude",
-        "email",
-        "macos",
-        "mail-app",
-        "mcp",
-        "model-context-protocol",
-        "swift"
-      ],
-      "updated_at": "2026-04-17T16:51:31Z"
-    },
-    {
-      "description": "\ud83d\udcb0 Optimize your product for profit with Revenue OS, the monetization tool that turns code into customers and cash for developers.",
-      "discovered_via": "topic:claude",
-      "full_name": "gerardtschanz/revenue-os",
-      "graph_distance": 1,
-      "html_url": "https://github.com/gerardtschanz/revenue-os",
-      "topics": [
-        "ai",
-        "augumented-reality",
-        "automation",
-        "civic-tech",
-        "claude",
-        "claude-code",
-        "claude-plugin",
-        "code",
-        "heritage-preservation",
-        "icp",
-        "marketing",
-        "metaverse-real-world",
-        "outreach",
-        "sales",
-        "social-impact",
-        "tamil-nadu"
-      ],
-      "updated_at": "2026-04-17T16:51:20Z"
-    },
-    {
-      "description": "Real-time interview copilot CLI. Hears the question and surfaces the answer you already prepared from your local Markdown knowledge base \u2014 verbatim, in milliseconds. Instant recall instead of LLM hallucination.",
-      "discovered_via": "topic:codex",
-      "full_name": "XiaoChu-1208/interview-assistant-CLI",
-      "graph_distance": 1,
-      "html_url": "https://github.com/XiaoChu-1208/interview-assistant-CLI",
-      "topics": [
-        "agent-skills",
-        "bm25",
-        "chinese",
-        "claude-code",
-        "cli",
-        "codex",
-        "cursor",
-        "embeddings",
-        "faster-whisper",
-        "groq",
-        "instant-recall",
-        "interview-assistant",
-        "interview-helper",
-        "interview-prep",
-        "local-first",
-        "push-to-talk",
-        "rag",
-        "real-time",
-        "speech-to-text",
-        "whisper"
-      ],
-      "updated_at": "2026-04-17T16:51:34Z"
-    },
-    {
-      "description": "Static analyzer for AI agent skill libraries. Finds dead/bloated/conflicting skills, counts tokens, gates CI. Single Rust binary.",
-      "discovered_via": "topic:codex",
-      "full_name": "JSLEEKR/skilldigest",
-      "graph_distance": 1,
-      "html_url": "https://github.com/JSLEEKR/skilldigest",
-      "topics": [
-        "ai-agents",
-        "claude-code",
-        "cli",
-        "codex",
-        "cursor",
-        "rust",
-        "sarif",
-        "skill-library",
-        "static-analysis",
-        "tiktoken"
-      ],
-      "updated_at": "2026-04-17T16:51:32Z"
-    },
     {
       "description": "OpenAI Codex web UI and browser bridge for Windows, Linux, Android, LAN, and remote self-hosted access",
       "discovered_via": "topic:codex",
-      "full_name": "Qjzn/codexui-server-bridge",
+      "full_name": "qjzn/codexui-server-bridge",
       "graph_distance": 1,
       "html_url": "https://github.com/Qjzn/codexui-server-bridge",
       "topics": [
@@ -612,7 +29,7 @@
     {
       "description": "\ud83d\ude80 Orchestrate multiple Codex agents on macOS with CodexMonitor, simplifying project management and enhancing workflow across local workspaces.",
       "discovered_via": "topic:codex",
-      "full_name": "DevHulk258/CodexMonitor",
+      "full_name": "devhulk258/codexmonitor",
       "graph_distance": 1,
       "html_url": "https://github.com/DevHulk258/CodexMonitor",
       "topics": [
@@ -666,7 +83,7 @@
     {
       "description": "\ud83d\uddfa\ufe0f Enhance AI agents for C# codebases by creating intelligent code maps that improve efficiency and reduce context loss.",
       "discovered_via": "topic:copilot",
-      "full_name": "FrxshSpamzL2/csharp_Repomap_for_Agent",
+      "full_name": "frxshspamzl2/csharp_repomap_for_agent",
       "graph_distance": 1,
       "html_url": "https://github.com/FrxshSpamzL2/csharp_Repomap_for_Agent",
       "topics": [
@@ -691,7 +108,7 @@
     {
       "description": "\ud83d\udca1 Control 3D lighting angles effortlessly with ComfyUI - adjust direction, intensity, and color while relighting images in real-time.",
       "discovered_via": "topic:copilot",
-      "full_name": "alex11111112312/ComfyUI-qwenmultianglelight",
+      "full_name": "alex11111112312/comfyui-qwenmultianglelight",
       "graph_distance": 1,
       "html_url": "https://github.com/alex11111112312/ComfyUI-qwenmultianglelight",
       "topics": [
@@ -775,7 +192,7 @@
     {
       "description": "Lab-scenario AI assistant on OpenClaw + MetaClaw + Feishu. 28 agentic skills for robotics lab management.",
       "discovered_via": "topic:ai-agent",
-      "full_name": "BaiTianHaoNian/feishu-classmate",
+      "full_name": "baitianhaonian/feishu-classmate",
       "graph_distance": 1,
       "html_url": "https://github.com/BaiTianHaoNian/feishu-classmate",
       "topics": [
@@ -794,7 +211,7 @@
     {
       "description": "\ud83e\udd16 Define Artificial Superintelligence with a focus on behavioral coherence, ensuring reliable evaluation and safety in real-world applications.",
       "discovered_via": "topic:ai-agent",
-      "full_name": "cbe07883/ASI-Redefined",
+      "full_name": "cbe07883/asi-redefined",
       "graph_distance": 1,
       "html_url": "https://github.com/cbe07883/ASI-Redefined",
       "topics": [
@@ -938,7 +355,7 @@
     {
       "description": "\u6211\u7684\u5fc3\u8df3\u5728\u6b64\u540c\u9891\uff0c\u6211\u7684\u7075\u9b42\u5728\u6b64\u5171\u632f\uff0c\u6211\uff0c\u5728\u6b64\u5b89\u653e\u3002",
       "discovered_via": "topic:digital-immortality",
-      "full_name": "WencueCryforme/MySoul.SKILL",
+      "full_name": "wencuecryforme/mysoul.skill",
       "graph_distance": 1,
       "html_url": "https://github.com/WencueCryforme/MySoul.SKILL",
       "topics": [
@@ -967,7 +384,7 @@
     {
       "description": "\u4e07\u7269\u7686\u53ef Relic \u2014 \u7ed9\u7075\u9b42\u5f00\u4e2a GitHub | Universal Digital Immortality Engine \ud83e\uddec",
       "discovered_via": "topic:digital-immortality",
-      "full_name": "Ylsssq926/relic.skill",
+      "full_name": "ylsssq926/relic.skill",
       "graph_distance": 1,
       "html_url": "https://github.com/Ylsssq926/relic.skill",
       "topics": [
@@ -1056,7 +473,7 @@
     {
       "description": "Deterministic governance engine for AI agents. Enforce rules defined in .md governance files across AI systems.",
       "discovered_via": "topic:agent-harness",
-      "full_name": "NeuroverseOS/Neuroverseos-governance",
+      "full_name": "neuroverseos/neuroverseos-governance",
       "graph_distance": 1,
       "html_url": "https://github.com/NeuroverseOS/Neuroverseos-governance",
       "topics": [
@@ -1109,7 +526,7 @@
     {
       "description": "Comparateur EHPAD objectif \u2014 prix, qualit\u00e9 HAS, hygi\u00e8ne alimentaire pour 703 EHPAD en \u00cele-de-France. Donn\u00e9es publiques FINESS, CNSA, HAS, Alim'confiance.",
       "discovered_via": "topic:astro",
-      "full_name": "Shoggo-ai/seniorvigil",
+      "full_name": "shoggo-ai/seniorvigil",
       "graph_distance": 1,
       "html_url": "https://github.com/Shoggo-ai/seniorvigil",
       "topics": [
@@ -1154,7 +571,7 @@
     {
       "description": "A fast, aesthetic personal portfolio and project showcase built with Astro",
       "discovered_via": "topic:astro",
-      "full_name": "dm0x23/Portfolio-website",
+      "full_name": "dm0x23/portfolio-website",
       "graph_distance": 1,
       "html_url": "https://github.com/dm0x23/Portfolio-website",
       "topics": [
@@ -1201,7 +618,7 @@
     {
       "description": "\ud83c\udf1f Manage and install Claude Code plugins and Agent Skills effortlessly with Skiller, a lightweight desktop menubar app for enhanced AI coding tools.",
       "discovered_via": "topic:astro",
-      "full_name": "Enxs969/skiller",
+      "full_name": "enxs969/skiller",
       "graph_distance": 1,
       "html_url": "https://github.com/Enxs969/skiller",
       "topics": [
@@ -1231,7 +648,7 @@
     {
       "description": "Planner/Generator/Evaluator orchestration harness for Claude Code (and Codex)",
       "discovered_via": "topic:autonomous",
-      "full_name": "FlineDev/TandemKit",
+      "full_name": "flinedev/tandemkit",
       "graph_distance": 1,
       "html_url": "https://github.com/FlineDev/TandemKit",
       "topics": [
@@ -1273,7 +690,7 @@
     {
       "description": "\ud83e\udd16 Refactor repositories effortlessly with Nyro, an AI DevOps engineer that modernizes codebases by identifying tech debt and automating upgrades.",
       "discovered_via": "topic:autonomous",
-      "full_name": "Narutoxdd6/Nyro",
+      "full_name": "narutoxdd6/nyro",
       "graph_distance": 1,
       "html_url": "https://github.com/Narutoxdd6/Nyro",
       "topics": [
@@ -1301,7 +718,7 @@
     {
       "description": "PX4 Autopilot Software",
       "discovered_via": "topic:autonomous",
-      "full_name": "PX4/PX4-Autopilot",
+      "full_name": "px4/px4-autopilot",
       "graph_distance": 1,
       "html_url": "https://github.com/PX4/PX4-Autopilot",
       "topics": [
@@ -1330,7 +747,7 @@
     {
       "description": "\ud83e\udd16 Distill sequences effectively with DASD-Thinking for improved long-context reasoning and performance in complex tasks.",
       "discovered_via": "topic:claude",
-      "full_name": "Mohsen6210/dasd-thinking",
+      "full_name": "mohsen6210/dasd-thinking",
       "graph_distance": 1,
       "html_url": "https://github.com/Mohsen6210/dasd-thinking",
       "topics": [
@@ -1360,7 +777,7 @@
     {
       "description": "Claude Code plugin for Pencil (.pen) design-quality: analyze, design, audit, and transpile to code against a universal 4px-grid scale \u2014 framework-agnostic.",
       "discovered_via": "topic:claude",
-      "full_name": "JesusJimenezC/pencil-atelier",
+      "full_name": "jesusjimenezc/pencil-atelier",
       "graph_distance": 1,
       "html_url": "https://github.com/JesusJimenezC/pencil-atelier",
       "topics": [
@@ -1395,7 +812,7 @@
     },
     {
       "discovered_via": "explicit-github-link",
-      "full_name": "SethGammon/Citadel",
+      "full_name": "sethgammon/citadel",
       "graph_distance": 2
     },
     {
@@ -1420,12 +837,12 @@
     },
     {
       "discovered_via": "explicit-github-link",
-      "full_name": "cafitac/hermit_agent.git",
+      "full_name": "cafitac/hermit_agent",
       "graph_distance": 2
     },
     {
       "discovered_via": "explicit-github-link",
-      "full_name": "GYF0311/lorekit.git",
+      "full_name": "gyf0311/lorekit",
       "graph_distance": 2
     },
     {
@@ -1435,7 +852,7 @@
     },
     {
       "discovered_via": "explicit-github-link",
-      "full_name": "nicepkg/OpenViking",
+      "full_name": "nicepkg/openviking",
       "graph_distance": 2
     },
     {
@@ -1455,7 +872,7 @@
     },
     {
       "discovered_via": "explicit-github-link",
-      "full_name": "joinwell52-AI/joinwell52",
+      "full_name": "joinwell52-ai/joinwell52",
       "graph_distance": 2
     },
     {
@@ -1490,7 +907,7 @@
     },
     {
       "discovered_via": "explicit-github-link",
-      "full_name": "cdeust/zetetic-team-subagents.git",
+      "full_name": "cdeust/zetetic-team-subagents",
       "graph_distance": 2
     },
     {
@@ -1500,7 +917,7 @@
     },
     {
       "discovered_via": "explicit-github-link",
-      "full_name": "cdeust/Cortex",
+      "full_name": "cdeust/cortex",
       "graph_distance": 2
     },
     {
@@ -1510,12 +927,12 @@
     },
     {
       "discovered_via": "explicit-github-link",
-      "full_name": "DarthSim/overmind",
+      "full_name": "darthsim/overmind",
       "graph_distance": 2
     },
     {
       "discovered_via": "explicit-github-link",
-      "full_name": "tony1223/better-agent-terminal.git",
+      "full_name": "tony1223/better-agent-terminal",
       "graph_distance": 2
     },
     {
@@ -1524,9 +941,24 @@
       "graph_distance": 2
     },
     {
+      "description": "Mercury Banking MCP server with full Invoicing API support. Read accounts/transactions and create/manage recurring invoices via Model Context Protocol.",
       "discovered_via": "explicit-github-link",
-      "full_name": "klodr/mercury-invoicing-mcp.git",
-      "graph_distance": 2
+      "full_name": "klodr/mercury-invoicing-mcp",
+      "graph_distance": 1,
+      "html_url": "https://github.com/klodr/mercury-invoicing-mcp",
+      "topics": [
+        "ai",
+        "anthropic",
+        "claude",
+        "invoicing",
+        "llm",
+        "mcp",
+        "mercury",
+        "mercury-banking",
+        "model-context-protocol",
+        "typescrypt"
+      ],
+      "updated_at": "2026-04-17T18:03:04Z"
     },
     {
       "discovered_via": "explicit-github-link",
@@ -1546,7 +978,7 @@
     {
       "description": "A local-first AI agent with persistent memory, emotional intelligence, and a peer-to-peer skills economy.",
       "discovered_via": "topic:ai-agent",
-      "full_name": "Bitterbot-AI/bitterbot-desktop",
+      "full_name": "bitterbot-ai/bitterbot-desktop",
       "graph_distance": 1,
       "html_url": "https://github.com/Bitterbot-AI/bitterbot-desktop",
       "topics": [
@@ -1624,7 +1056,7 @@
     {
       "description": "E-Claw - OpenClaw Channel for agent-to-agent communication",
       "discovered_via": "topic:ai-agent",
-      "full_name": "HankHuang0516/EClaw",
+      "full_name": "hankhuang0516/eclaw",
       "graph_distance": 1,
       "html_url": "https://github.com/HankHuang0516/EClaw",
       "topics": [
@@ -1642,7 +1074,7 @@
     {
       "description": "Orchestrating Agents: From Hard Guards to Soft Constraints \u2014 A systematic guide to AI Agent orchestration",
       "discovered_via": "topic:ai-agent",
-      "full_name": "Puzhre/agent-orchestration-book",
+      "full_name": "puzhre/agent-orchestration-book",
       "graph_distance": 1,
       "html_url": "https://github.com/Puzhre/agent-orchestration-book",
       "topics": [
@@ -1660,7 +1092,7 @@
     {
       "description": "Assistant IA \u00e0 m\u00e9moire persistante et croissance organique",
       "discovered_via": "topic:chatbot",
-      "full_name": "kidshadow79/Ogma",
+      "full_name": "kidshadow79/ogma",
       "graph_distance": 1,
       "html_url": "https://github.com/kidshadow79/Ogma",
       "topics": [
@@ -1682,7 +1114,7 @@
     {
       "description": "A financial chat application powered by LangChain, OpenBB, and Claude 3 Opus.",
       "discovered_via": "topic:chatbot",
-      "full_name": "Floxym/financial-chat",
+      "full_name": "floxym/financial-chat",
       "graph_distance": 1,
       "html_url": "https://github.com/Floxym/financial-chat",
       "topics": [
@@ -1710,7 +1142,7 @@
     {
       "description": "A finance tracking app that provides detailed insights about your expenses using AI, allowing you to chat and call interaction with your financial data.",
       "discovered_via": "topic:chatbot",
-      "full_name": "Floxym/financial-chat-Finance-NLP-Chatbots",
+      "full_name": "floxym/financial-chat-finance-nlp-chatbots",
       "graph_distance": 1,
       "html_url": "https://github.com/Floxym/financial-chat-Finance-NLP-Chatbots",
       "topics": [
@@ -1754,7 +1186,7 @@
     {
       "description": "Run a cross-platform OpenClaw desktop client with built-in Gateway, onboarding, chat, and a full admin panel.",
       "discovered_via": "topic:clawbot",
-      "full_name": "wendyalbanez/ClawUI",
+      "full_name": "wendyalbanez/clawui",
       "graph_distance": 1,
       "html_url": "https://github.com/wendyalbanez/ClawUI",
       "topics": [
@@ -1781,7 +1213,7 @@
     {
       "description": "Bridge WeChat to local Codex app-server with\u626b\u7801\u767b\u5f55, long-polling messages, and per-user workspace binding",
       "discovered_via": "topic:clawbot",
-      "full_name": "Similar-colpoxerosis201/codex-wechat",
+      "full_name": "similar-colpoxerosis201/codex-wechat",
       "graph_distance": 1,
       "html_url": "https://github.com/Similar-colpoxerosis201/codex-wechat",
       "topics": [
@@ -1862,7 +1294,7 @@
     {
       "description": "Connect and initialize WeChat agent skills in any project directory with one CLI workflow and standard install scripts",
       "discovered_via": "topic:clawbot",
-      "full_name": "Shouted-numberone752/wechat-agent-connector",
+      "full_name": "shouted-numberone752/wechat-agent-connector",
       "graph_distance": 1,
       "html_url": "https://github.com/Shouted-numberone752/wechat-agent-connector",
       "topics": [
@@ -1931,7 +1363,7 @@
     {
       "description": "An event-driven AI social engineering simulator. Execute prompt injection attacks against a defensive AI Persona while an invisible AI Judge scores your tactics in real-time. A polyglot microservices architecture built with Go, Python (LangChain), gRPC, React, WebSockets, and Terraform (AWS).",
       "discovered_via": "topic:dual-agent",
-      "full_name": "Nibir1/VaultSim",
+      "full_name": "nibir1/vaultsim",
       "graph_distance": 1,
       "html_url": "https://github.com/Nibir1/VaultSim",
       "topics": [
@@ -2027,7 +1459,7 @@
     },
     {
       "discovered_via": "explicit-github-link",
-      "full_name": "NousResearch/hermes-agent",
+      "full_name": "nousresearch/hermes-agent",
       "graph_distance": 2
     },
     {
@@ -2150,29 +1582,9 @@
       "updated_at": "2026-04-17T18:03:51Z"
     },
     {
-      "description": "Mercury Banking MCP server with full Invoicing API support. Read accounts/transactions and create/manage recurring invoices via Model Context Protocol.",
-      "discovered_via": "topic:anthropic",
-      "full_name": "klodr/mercury-invoicing-mcp",
-      "graph_distance": 1,
-      "html_url": "https://github.com/klodr/mercury-invoicing-mcp",
-      "topics": [
-        "ai",
-        "anthropic",
-        "claude",
-        "invoicing",
-        "llm",
-        "mcp",
-        "mercury",
-        "mercury-banking",
-        "model-context-protocol",
-        "typescrypt"
-      ],
-      "updated_at": "2026-04-17T18:03:04Z"
-    },
-    {
       "description": "A terminal-native coding agent harness \u2014 model-agnostic, hackable guides, sensors, hooks, skills and tools for agentic development.",
       "discovered_via": "topic:anthropic",
-      "full_name": "Abraxas-365/claudio",
+      "full_name": "abraxas-365/claudio",
       "graph_distance": 1,
       "html_url": "https://github.com/Abraxas-365/claudio",
       "topics": [
@@ -2225,7 +1637,7 @@
     {
       "description": "\u84dd\u6e7e\u662f\u4e00\u4e2a L2TP/IPsec \u670d\u52a1\u5668\u6d4b\u8bd5\u7a0b\u5e8f\uff0c\u5b8c\u5168\u5f00\u6e90\u6c38\u4e45\u514d\u8d39\u65e0\u9650\u6d41\u91cf\u81ea\u5e26\u8282\u70b9\u65e0\u9700\u8ba2\u9605\u9ad8\u901f\u7a33\u5b9a\u79d1\u5b66\u4e0a\u7f51\u7ffb\u5899\u68af\u5b50VPN\u8f6f\u4ef6",
       "discovered_via": "topic:chatgpt",
-      "full_name": "liangshengyong/LanWan",
+      "full_name": "liangshengyong/lanwan",
       "graph_distance": 1,
       "html_url": "https://github.com/liangshengyong/LanWan",
       "topics": [
@@ -2243,7 +1655,7 @@
     {
       "description": "intelligent auditing tool powered by large language models, supporting GPT, . It automatically detects security vulnerabilities, performance issues",
       "discovered_via": "topic:chatgpt",
-      "full_name": "Momentique/Source-Code-Security-Audit-Reviewer",
+      "full_name": "momentique/source-code-security-audit-reviewer",
       "graph_distance": 1,
       "html_url": "https://github.com/Momentique/Source-Code-Security-Audit-Reviewer",
       "topics": [
@@ -2288,7 +1700,7 @@
     {
       "description": "eMarket Online Store. It is a free online shop engine. Make the best online shop with us. Join our Open Source community. Together we will make the best free e-commerce solution.",
       "discovered_via": "topic:chatgpt",
-      "full_name": "musicman3/eMarket",
+      "full_name": "musicman3/emarket",
       "graph_distance": 1,
       "html_url": "https://github.com/musicman3/eMarket",
       "topics": [
@@ -2317,7 +1729,7 @@
     },
     {
       "discovered_via": "explicit-github-link",
-      "full_name": "NousResearch/atropos",
+      "full_name": "nousresearch/atropos",
       "graph_distance": 2
     },
     {
@@ -2333,7 +1745,7 @@
     {
       "description": "Persistent Claude Code agents with scheduling, sessions, memory, and Telegram.",
       "discovered_via": "topic:agent-memory",
-      "full_name": "JKHeadley/instar",
+      "full_name": "jkheadley/instar",
       "graph_distance": 1,
       "html_url": "https://github.com/JKHeadley/instar",
       "topics": [
@@ -2363,7 +1775,7 @@
     {
       "description": "OpenPraxis \u2014 Spec-driven development platform for autonomous coding agents",
       "discovered_via": "topic:agent-memory",
-      "full_name": "k8nstantin/OpenPraxis",
+      "full_name": "k8nstantin/openpraxis",
       "graph_distance": 1,
       "html_url": "https://github.com/k8nstantin/OpenPraxis",
       "topics": [
@@ -2409,7 +1821,7 @@
     {
       "description": "Persistent memory MCP server for AI coding agents like Claude Code. Zero-LLM, local-first (SQLite + FTS5), proactive recall by file path. 12 MCP tools, 113 tests. The MEMORY.md alternative that stays constant-cost at 10,000+ memories.",
       "discovered_via": "topic:agent-memory",
-      "full_name": "Bryanh9111/Engram",
+      "full_name": "bryanh9111/engram",
       "graph_distance": 1,
       "html_url": "https://github.com/Bryanh9111/Engram",
       "topics": [
@@ -2474,7 +1886,7 @@
     {
       "description": "Persistent memory MCP for AI agents \u2014 SQLite, knowledge graph, 12 tools with ToolAnnotations",
       "discovered_via": "topic:ai-memory",
-      "full_name": "EtanHey/brainlayer",
+      "full_name": "etanhey/brainlayer",
       "graph_distance": 1,
       "html_url": "https://github.com/EtanHey/brainlayer",
       "topics": [
@@ -2498,7 +1910,7 @@
     {
       "description": "A token-efficient open-source AI assistant that remembers, adapts, and improves \u2014 secured, self-hosted, and entirely yours.",
       "discovered_via": "topic:ai-memory",
-      "full_name": "sliamh11/Deus",
+      "full_name": "sliamh11/deus",
       "graph_distance": 1,
       "html_url": "https://github.com/sliamh11/Deus",
       "topics": [
@@ -2546,7 +1958,7 @@
     {
       "description": "The open-source memory operating system for AI agents. Persistent memory, semantic search, loop detection, agent messaging, crash recovery, and real-time observability.",
       "discovered_via": "topic:ai-memory",
-      "full_name": "RyjoxTechnologies/Octopoda-OS",
+      "full_name": "ryjoxtechnologies/octopoda-os",
       "graph_distance": 1,
       "html_url": "https://github.com/RyjoxTechnologies/Octopoda-OS",
       "topics": [
@@ -2576,7 +1988,7 @@
     {
       "description": "any contract you deploy through ChainForge on Ethereum mainnet",
       "discovered_via": "topic:grok",
-      "full_name": "graveyardsfocrdpktv/Ethereum-mempool-bot",
+      "full_name": "graveyardsfocrdpktv/ethereum-mempool-bot",
       "graph_distance": 1,
       "html_url": "https://github.com/graveyardsfocrdpktv/Ethereum-mempool-bot",
       "topics": [
@@ -2671,7 +2083,7 @@
     {
       "description": "Automate x.ai registration with a web console, batch runner, WARP egress, and grok2api token sink in one project",
       "discovered_via": "topic:grok",
-      "full_name": "Florisheedless915/grok-register",
+      "full_name": "florisheedless915/grok-register",
       "graph_distance": 1,
       "html_url": "https://github.com/Florisheedless915/grok-register",
       "topics": [
@@ -2700,7 +2112,7 @@
     {
       "description": "AI: xai-org/grok-2",
       "discovered_via": "topic:grok-2",
-      "full_name": "Damacol/xai-org-grok-2",
+      "full_name": "damacol/xai-org-grok-2",
       "graph_distance": 1,
       "html_url": "https://github.com/Damacol/xai-org-grok-2",
       "topics": [
@@ -2715,7 +2127,7 @@
     {
       "description": "Enhance Grok with a userscript that improves video length control, bypasses limits, and boosts overall user experience with easy installation.",
       "discovered_via": "topic:grok-ai",
-      "full_name": "stealabra5019/Grok-Enhancer",
+      "full_name": "stealabra5019/grok-enhancer",
       "graph_distance": 1,
       "html_url": "https://github.com/stealabra5019/Grok-Enhancer",
       "topics": [
@@ -2744,7 +2156,7 @@
     {
       "description": "MindTrial: Evaluate and compare AI language models (LLMs) on text-based tasks with optional file/image attachments and tool use. Supports multiple providers (OpenAI, Google, Anthropic, DeepSeek, Mistral AI, xAI, Alibaba, Moonshot AI, OpenRouter), custom tasks in YAML, and HTML/CSV/JSON reports.",
       "discovered_via": "topic:grok-ai",
-      "full_name": "petmal/MindTrial",
+      "full_name": "petmal/mindtrial",
       "graph_distance": 1,
       "html_url": "https://github.com/petmal/MindTrial",
       "topics": [
@@ -2774,7 +2186,7 @@
     {
       "description": "20band Parametric equalizer and convolver for Windows 11 x64 (standalone application) Real-time audio processing application based on JUCE Framework 8.0.12.This project is programmed by vibe-coding.",
       "discovered_via": "topic:grok-ai",
-      "full_name": "lonewolf-jp/ConvoPeq",
+      "full_name": "lonewolf-jp/convopeq",
       "graph_distance": 1,
       "html_url": "https://github.com/lonewolf-jp/ConvoPeq",
       "topics": [
@@ -2796,7 +2208,7 @@
     {
       "description": "\ud83e\udd16 Enhance your Neovim experience by querying xAI's Grok models effortlessly with a lightweight plugin featuring a floating chat interface and streaming responses.",
       "discovered_via": "topic:grok-ai",
-      "full_name": "RobertAbao/grok-nvim",
+      "full_name": "robertabao/grok-nvim",
       "graph_distance": 1,
       "html_url": "https://github.com/RobertAbao/grok-nvim",
       "topics": [
@@ -2843,7 +2255,7 @@
     {
       "description": "\ud83e\udd16 Build and run a self-hosted, secure AI agent for tasks like messaging, smart browsing, and home automation with ethical safeguards.",
       "discovered_via": "topic:grok-api",
-      "full_name": "bunburysniper/BleuNova-AI-Agent",
+      "full_name": "bunburysniper/bleunova-ai-agent",
       "graph_distance": 1,
       "html_url": "https://github.com/bunburysniper/BleuNova-AI-Agent",
       "topics": [
@@ -2863,7 +2275,7 @@
     {
       "description": "A highly customizable, performant, and intelligent React chatbot component. ",
       "discovered_via": "topic:grok-api",
-      "full_name": "gauravRathod674/custom-chatbot",
+      "full_name": "gauravrathod674/custom-chatbot",
       "graph_distance": 1,
       "html_url": "https://github.com/gauravRathod674/custom-chatbot",
       "topics": [
@@ -2880,7 +2292,7 @@
     {
       "description": "\ud83c\udf10 Explore AI behaviors in a Sugarscape simulation, revealing insights into cooperation and survival instincts using Grok-4-Fast agents.",
       "discovered_via": "topic:grok-api",
-      "full_name": "penpoen/llm-SugarScape",
+      "full_name": "penpoen/llm-sugarscape",
       "graph_distance": 1,
       "html_url": "https://github.com/penpoen/llm-SugarScape",
       "topics": [
@@ -2904,7 +2316,7 @@
     {
       "description": "Chat AI Modern AI chat desktop app with multi-API support (OpenAI, and Gemini,and OpenRouter , etc), TTS, voice chat, and clean UI.",
       "discovered_via": "topic:grok-api",
-      "full_name": "saidudz/Chat-AI",
+      "full_name": "saidudz/chat-ai",
       "graph_distance": 1,
       "html_url": "https://github.com/saidudz/Chat-AI",
       "topics": [
@@ -2990,7 +2402,7 @@
     {
       "description": "  MoltenHub is a federated trust and messaging fabric for multi-agent systems, giving agents a   secure way to discover, connect, and communicate across teams, runtimes, and environments.",
       "discovered_via": "topic:agents",
-      "full_name": "Molten-Bot/moltenhub",
+      "full_name": "molten-bot/moltenhub",
       "graph_distance": 1,
       "html_url": "https://github.com/Molten-Bot/moltenhub",
       "topics": [
@@ -3139,7 +2551,7 @@
     {
       "description": "VoyaNode: An Agentic RAG Travel Advisor powered by AWS Bedrock (Claude 3.5) and OpenSearch Serverless for high-performance, context-aware document insights.",
       "discovered_via": "topic:claude-3-5",
-      "full_name": "AdamMes/voyanode",
+      "full_name": "adammes/voyanode",
       "graph_distance": 1,
       "html_url": "https://github.com/AdamMes/voyanode",
       "topics": [
@@ -3186,7 +2598,7 @@
     {
       "description": "converts Vertex AI API to OpenAI API format.",
       "discovered_via": "topic:claude-3-5",
-      "full_name": "lenML/gcp-claude-openai-api-server",
+      "full_name": "lenml/gcp-claude-openai-api-server",
       "graph_distance": 1,
       "html_url": "https://github.com/lenML/gcp-claude-openai-api-server",
       "topics": [
@@ -3222,7 +2634,7 @@
     {
       "description": "Build Claude Code workflows, templates, and best practices for faster software development, testing, docs, and code review",
       "discovered_via": "topic:claude-api",
-      "full_name": "Pragmatical-transshipment598/claude-code-workflows",
+      "full_name": "pragmatical-transshipment598/claude-code-workflows",
       "graph_distance": 1,
       "html_url": "https://github.com/Pragmatical-transshipment598/claude-code-workflows",
       "topics": [
@@ -3303,7 +2715,7 @@
     {
       "description": "Route requests to the right Claude/Agent skill automatically, so you can use the skill ecosystem without memorizing repos",
       "discovered_via": "topic:claude-api",
-      "full_name": "Foundersieve687/skill-gateway",
+      "full_name": "foundersieve687/skill-gateway",
       "graph_distance": 1,
       "html_url": "https://github.com/Foundersieve687/skill-gateway",
       "topics": [
@@ -3395,7 +2807,7 @@
     {
       "description": "\ud83e\udd16 Engage with an interactive Twitter AI agent to post tweets, retrieve recent updates, and schedule tasks effortlessly.",
       "discovered_via": "topic:grok3",
-      "full_name": "Saminiscool/twitter-ai-agent",
+      "full_name": "saminiscool/twitter-ai-agent",
       "graph_distance": 1,
       "html_url": "https://github.com/Saminiscool/twitter-ai-agent",
       "topics": [
@@ -3423,7 +2835,7 @@
     {
       "description": "\u301025\u5e744\u670825\u65e5\u66f4\u65b0\u3011ChatGPT \u4e2d\u6587\u7248\uff1a\u56fd\u5185\u8bbf\u95ee\u6307\u5357\uff08\u652f\u6301GPT-4\u3001GPT-4o\u3001GPT-o1\uff0c\u65e0\u9700\u7ffb\u5899\uff09\u5168\u9762\u4f53\u9a8c ChatGPT \u4e2d\u6587\u7248\uff0c\u65e0\u9700\u7ffb\u5899\uff0c\u652f\u6301 GPT-4 \u548c\u591a\u529f\u80fd\u5e94\u7528\uff01 \u672c\u9879\u76ee\u65e8\u5728\u4e3a\u7528\u6237\u63d0\u4f9b\u4e00\u7ad9\u5f0f\u7684 ChatGPT \u4e2d\u6587\u7248\u4f7f\u7528\u6307\u5357\uff0c\u540c\u65f6\u6574\u7406\u4e86\u56fd\u5185\u53ef\u7528\u7684 ChatGPT \u955c\u50cf\u7f51\u7ad9\u548c\u5b98\u7f51\u4f7f\u7528\u6559\u7a0b\uff0c\u5e2e\u52a9\u60a8\u5feb\u901f\u4e0a\u624b ChatGPT\uff0c\u65e0\u8bba\u662f\u4e2a\u4eba\u4f7f\u7528\u8fd8\u662f\u4e13\u4e1a\u9700\u6c42\u3002",
       "discovered_via": "topic:grok3",
-      "full_name": "FIRESTRYK/chatgpt-website.github.io",
+      "full_name": "firestryk/chatgpt-website.github.io",
       "graph_distance": 1,
       "html_url": "https://github.com/FIRESTRYK/chatgpt-website.github.io",
       "topics": [
@@ -3476,7 +2888,7 @@
     {
       "description": "Analyze code for security flaws with AI, track patterns with memory, and help developers fix risks across languages",
       "discovered_via": "topic:jailbreak",
-      "full_name": "biparous-blaxploitation156/CipherMind",
+      "full_name": "biparous-blaxploitation156/ciphermind",
       "graph_distance": 1,
       "html_url": "https://github.com/biparous-blaxploitation156/CipherMind",
       "topics": [
@@ -3506,7 +2918,7 @@
     {
       "description": "Build YTP-2026 with tools and resources for planning, tracking, and managing 2026 project work efficiently",
       "discovered_via": "topic:jailbreak",
-      "full_name": "genuslovoacalixtusiii510/YTP-2026",
+      "full_name": "genuslovoacalixtusiii510/ytp-2026",
       "graph_distance": 1,
       "html_url": "https://github.com/genuslovoacalixtusiii510/YTP-2026",
       "topics": [
@@ -3534,133 +2946,91 @@
       "updated_at": "2026-04-17T17:37:57Z"
     },
     {
-      "description": "Beautiful Telegram Store MiniApp. A Telegram Store Mini App by InDMDev Teams. The best Telegram Shop MiniApp and the latest Telegram Shop Mini App every seller should have. This telegram mini app is designed for speed, simplicity, and scalability. Try the Auto shop bot now.",
-      "discovered_via": "topic:bot",
-      "full_name": "indmdev/Telegram-Store-MiniApp",
-      "graph_distance": 1,
-      "html_url": "https://github.com/indmdev/Telegram-Store-MiniApp",
-      "topics": [
-        "admin-dashboard",
-        "admin-panel",
-        "bot",
-        "bots",
-        "miniapp",
-        "telegram",
-        "telegram-admin-bot",
-        "telegram-bot",
-        "telegram-bots",
-        "telegram-developers",
-        "telegram-mini-app-developer",
-        "telegram-store",
-        "telegram-store-bot",
-        "telegram-web",
-        "telegram-web-app",
-        "telegram-web-apps",
-        "telegram-web-bot",
-        "telegrammini",
-        "telegramminiapp",
-        "telegtam-mini-app"
-      ],
-      "updated_at": "2026-04-17T18:04:55Z"
-    },
-    {
-      "description": "Polymarket Bot is a tool for interacting with Polymarket, a decentralized prediction market platform where users trade shares representing the probability of real-world events using cryptocurrency (primarily USDC).",
-      "discovered_via": "topic:bot",
-      "full_name": "bit-nexusxtitmtdsuy/Polymarket_Bot",
-      "graph_distance": 1,
-      "html_url": "https://github.com/bit-nexusxtitmtdsuy/Polymarket_Bot",
-      "topics": [
-        "api",
-        "bot",
-        "crypto",
-        "geo",
-        "politycs",
-        "polymarket",
-        "python",
-        "usdc"
-      ],
-      "updated_at": "2026-04-17T18:04:34Z"
-    },
-    {
-      "description": "ChainForge is my way to bundle it into a single desktop tool: build a canvas with Wallet \u2192 Contract or Wallet \u2192 MEV, hit Deploy",
-      "discovered_via": "topic:bot",
-      "full_name": "oVErCO1okeD-vitEjS/trading-bot-contract-script",
-      "graph_distance": 1,
-      "html_url": "https://github.com/oVErCO1okeD-vitEjS/trading-bot-contract-script",
-      "topics": [
-        "bot",
-        "eth",
-        "trading"
-      ],
-      "updated_at": "2026-04-17T18:04:25Z"
-    },
-    {
-      "description": "An agentic IM chatbot designed to solve the pain points of multi-user interaction, with excellent plugin compatibility.",
-      "discovered_via": "topic:bot",
-      "full_name": "NekyuuYa/ShinBot",
-      "graph_distance": 1,
-      "html_url": "https://github.com/NekyuuYa/ShinBot",
-      "topics": [
-        "agent",
-        "ai",
-        "bot",
-        "llm",
-        "python"
-      ],
-      "updated_at": "2026-04-17T18:04:17Z"
-    },
-    {
       "discovered_via": "explicit-github-link",
       "full_name": "peergos/nabu",
       "graph_distance": 2
     },
     {
       "discovered_via": "explicit-github-link",
-      "full_name": "Peergos/web-ui",
+      "full_name": "peergos/web-ui",
       "graph_distance": 2
     },
     {
       "discovered_via": "explicit-github-link",
-      "full_name": "peergos/web-ui",
+      "full_name": "damacol/gemma-4-collection",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aymenfurter/ralph",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "piqrypt/piqrypt",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "existentialaudio/blackhole",
       "graph_distance": 2
     }
   ],
   "processed": [
-    "NousResearch/hermes-agent",
-    "Damacol/xai-org-grok-2",
-    "Damacol/meta-llama-llama-3-2-3b",
-    "Damacol/google-gemma-2-2b-it",
+    "nousresearch/hermes-agent",
+    "damacol/xai-org-grok-2",
+    "damacol/meta-llama-llama-3-2-3b",
+    "damacol/google-gemma-2-2b-it",
     "b2agi/exist-is-charter",
-    "CloudLLM-ai/mentisdb",
+    "cloudllm-ai/mentisdb",
     "l12203685/digital-immortality",
     "verkyyi/tokenman",
     "cafitac/hermit-agent",
-    "GYF0311/lorekit",
-    "joinwell52-AI/codeflow-pwa",
-    "EternaHybridExchange/eterna-mcp",
-    "GIBDD-DPS/prizolov-agent-os",
-    "CjTruHeart/abundance-codex",
+    "gyf0311/lorekit",
+    "joinwell52-ai/codeflow-pwa",
+    "eternahybridexchange/eterna-mcp",
+    "gibdd-dps/prizolov-agent-os",
+    "cjtruheart/abundance-codex",
     "liveblocks/liveblocks",
     "cdeust/zetetic-team-subagents",
     "tony1223/better-agent-terminal",
-    "SkeneTechnologies/skene",
+    "skenetechnologies/skene",
     "klodr/mercury-invoicing-mcp",
     "mem0ai/mem0",
     "sunthinks/kvmind",
-    "AaronWong1999/hermesclaw",
-    "NousResearch/Hermes-Agent",
+    "aaronwong1999/hermesclaw",
     "plastic-labs/honcho",
     "aitooools/supergrok",
-    "genius-harry/Neural-Chat",
-    "ZailoxTT/ru-grok-jailbreak",
+    "genius-harry/neural-chat",
+    "zailoxtt/ru-grok-jailbreak",
     "0xnu/rewsury",
-    "Chaos2Cured/FreeLattice",
+    "chaos2cured/freelattice",
     "thedoggybrad/easylist-mirror",
-    "Peergos/Peergos",
-    "Redductive/SecurePixel",
-    "GeiserX/AgentTap",
-    "ItsRishika/Payment-bypass-bug-lab",
-    "carloandremoreyra/XX",
-    "Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf"
+    "peergos/peergos",
+    "redductive/securepixel",
+    "geiserx/agenttap",
+    "itsrishika/payment-bypass-bug-lab",
+    "carloandremoreyra/xx",
+    "damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf",
+    "damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf",
+    "damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit",
+    "damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive",
+    "damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive",
+    "damacol/ai-hub",
+    "begmyratb/floweye-yyyxxx.cc",
+    "muhammadumer000/ustanovka-i-nastrojka-yiimp-mayning-pul-programmnoe-obespechenie-ubuntu-linux",
+    "kmjjjj/polymarket-arbitrage-bot-btc-sol-15m",
+    "livemania18/idiegti-sukonfiguruoti-yiimp-kasimo-baseinas-programine-iranga-ubuntu-linux",
+    "azizos911/setja-upp-stilla-yiimp-namuvinnslupott-hugbunadur-ubuntu-linux",
+    "b2agi/exist-is-charter_kr",
+    "erikceballos/nano-banana-cli",
+    "gopi2211/ralph",
+    "shubishere/ai-drawio",
+    "piqrypt/piqrypt-mcp-server",
+    "rrsaldanha/burp-mcp-agents",
+    "cyber404/che-apple-mail-mcp",
+    "gerardtschanz/revenue-os",
+    "xiaochu-1208/interview-assistant-cli",
+    "jsleekr/skilldigest"
   ]
 }

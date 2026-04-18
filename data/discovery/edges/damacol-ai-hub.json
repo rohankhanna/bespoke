@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Damacol/ai-hub",
+      "target": "damacol/gemma-4-collection",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-18T02:41:24.975901+00:00",
+  "source_repo": "Damacol/ai-hub"
+}

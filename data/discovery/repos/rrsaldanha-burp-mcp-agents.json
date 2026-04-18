@@ -1,0 +1,67 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rrsaldanha/burp-mcp-agents",
+      "target": "file, use the command:",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T02:41:32.536428+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4698
+    },
+    {
+      "path": "requirements.txt",
+      "size": 108
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "\ud83d\ude80 Connect Burp Suite MCP Server to multiple AI backends with practical guides and templates for safe, real traffic analysis.",
+    "full_name": "rrsaldanha/burp-mcp-agents",
+    "html_url": "https://github.com/rrsaldanha/burp-mcp-agents",
+    "language": "Python",
+    "pushed_at": "2026-04-18T01:36:03Z",
+    "topics": [
+      "anthropic",
+      "browser-automation",
+      "browser-extension",
+      "bugbounty",
+      "burp-requests",
+      "burpsuite",
+      "claude",
+      "cursor",
+      "j2eescan",
+      "mcp-client",
+      "mcp-clients",
+      "pentest-tool",
+      "pentesting",
+      "playwright",
+      "python-burp",
+      "shiro-burp",
+      "sqlmap",
+      "vulnerability-detection",
+      "vulnerability-scanner"
+    ],
+    "updated_at": "2026-04-18T01:36:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "file, use the command:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "file, use the command:"
+    }
+  ]
+}

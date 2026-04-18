@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "erikceballos/nano-banana-cli",
+      "target": "nano-banana-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "erikceballos/nano-banana-cli",
+      "target": ", you can use:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "erikceballos/nano-banana-cli",
+      "target": "nano-banana-cli icon \"MyApp\" --size 512",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T02:41:30.795988+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4232
+    },
+    {
+      "path": "go.mod",
+      "size": 1825
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "\ud83d\uddbc\ufe0f Generate and edit images with ease using the Nanobanana CLI, powered by AI and Google's Gemini models for advanced image manipulation.",
+    "full_name": "erikceballos/nano-banana-cli",
+    "html_url": "https://github.com/erikceballos/nano-banana-cli",
+    "language": "Go",
+    "pushed_at": "2026-04-18T01:35:57Z",
+    "topics": [
+      "ai",
+      "ai-agents",
+      "ai-tools",
+      "automation",
+      "browser-automation",
+      "comet",
+      "deep-learning",
+      "game",
+      "gemini-api",
+      "image-processing",
+      "inference",
+      "lightweight",
+      "mariner",
+      "micro",
+      "multi-agent",
+      "n8n",
+      "nlp",
+      "playwright",
+      "server"
+    ],
+    "updated_at": "2026-04-18T01:36:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "nano-banana-cli"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ", you can use:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "nano-banana-cli icon \"MyApp\" --size 512"
+    }
+  ]
+}

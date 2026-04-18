@@ -1,0 +1,43 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Damacol/ai-hub",
+      "target": "damacol/gemma-4-collection",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-18T02:41:27.849981+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1903
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Master Directory: 1500+ Private AI Models",
+    "full_name": "Damacol/ai-hub",
+    "html_url": "https://github.com/Damacol/ai-hub",
+    "language": null,
+    "pushed_at": "2026-04-17T14:23:12Z",
+    "topics": [
+      "ai",
+      "directory",
+      "privacy",
+      "venice-ai"
+    ],
+    "updated_at": "2026-04-17T14:23:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "damacol/gemma-4-collection",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

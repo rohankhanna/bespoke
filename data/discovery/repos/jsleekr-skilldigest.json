@@ -1,0 +1,1232 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "SKILL.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "AGENTS.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "CLAUDE.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "tokens",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "loadout",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "antigravity-awesome-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "Vibe-Skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "claude-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "awesome-claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "oh-my-claudecode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "Bash(jq)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "refactor-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "skilldigest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "skillpack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "agentlint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "tokencost",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "rtk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "AGENT.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "GEMINI.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "plugin.toml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "ruleId",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "SKILL001",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "SKILL012",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "unsafe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "### Via",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "### MSRV",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "sarif",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "dot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "cl100k",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "o200k",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "llama3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "2000",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "1048576",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "###",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "subcommand",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "Count tokens in a single file.",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "Emit the skill reference graph.",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "schema_version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "name",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "shortDescription",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "fullDescription",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "defaultConfiguration.level",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "helpUri",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "### Markdown for PR comments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "on an individual skill 3.",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "section 4.",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "tiktoken-rs::cl100k_base",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "tiktoken-rs::o200k_base",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "tokenizer.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "SKILL002",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "SKILL003",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "SKILL004",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "SKILL005",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "SKILL006",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "SKILL007",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "SKILL008",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "SKILL009",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "SKILL010",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "SKILL011",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "## Security and robustness - **",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "simdutf8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "serde_yaml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "bad-frontmatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "mcpbench",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "ragcheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "agentmem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "Module layout (",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "| core data types | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "| petgraph-backed reference graph | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "| orchestration | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "| task-tag loadout recommender | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "loader | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "cargo fmt --check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "cargo clippy -- -D warnings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "cargo test --all-features",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "feat:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "fix:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "docs:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "refactor:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JSLEEKR/skilldigest",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-18T02:41:34.985860+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19788
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1636
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1309
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Static analyzer for AI agent skill libraries. Finds dead/bloated/conflicting skills, counts tokens, gates CI. Single Rust binary.",
+    "full_name": "JSLEEKR/skilldigest",
+    "html_url": "https://github.com/JSLEEKR/skilldigest",
+    "language": "Rust",
+    "pushed_at": "2026-04-17T17:15:47Z",
+    "topics": [
+      "ai-agents",
+      "claude-code",
+      "cli",
+      "codex",
+      "cursor",
+      "rust",
+      "sarif",
+      "skill-library",
+      "static-analysis",
+      "tiktoken"
+    ],
+    "updated_at": "2026-04-17T17:15:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SKILL.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "AGENTS.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "CLAUDE.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "scan"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tokens"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "loadout"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "graph"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "antigravity-awesome-skills"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Vibe-Skills"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude-skills"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "awesome-claude-code"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "oh-my-claudecode"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Bash(jq)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "refactor-tests"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "skilldigest"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "skillpack"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "agentlint"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tokencost"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "rtk"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SKILL.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "AGENT.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "AGENTS.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "CLAUDE.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "GEMINI.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "plugin.toml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ruleId"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SKILL001"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SKILL012"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "unsafe"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Via"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### MSRV"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "text"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "text"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "json"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "sarif"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "markdown"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "dot"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cl100k"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cl100k"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "o200k"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "llama3"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "2000"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "1048576"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "scan"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "###"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "subcommand"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Count tokens in a single file."
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "###"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "subcommand"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "###"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "subcommand"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Emit the skill reference graph."
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "schema_version"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SKILL001"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SKILL012"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "name"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "shortDescription"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "fullDescription"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "defaultConfiguration.level"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "helpUri"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Markdown for PR comments"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "on an individual skill 3."
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "section 4."
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cl100k"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tiktoken-rs::cl100k_base"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "o200k"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tiktoken-rs::o200k_base"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "llama3"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tokenizer.json"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SKILL001"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SKILL002"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SKILL003"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SKILL004"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SKILL005"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SKILL006"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SKILL007"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SKILL008"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SKILL009"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SKILL010"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SKILL011"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SKILL012"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## Security and robustness - **"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "simdutf8"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "serde_yaml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bad-frontmatter"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "skillpack"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "agentlint"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tokencost"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "mcpbench"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ragcheck"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "agentmem"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "skillpack"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "agentlint"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "skilldigest"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Module layout ("
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| core data types | |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| petgraph-backed reference graph | |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| orchestration | |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| task-tag loadout recommender | |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "loader | |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "skillpack"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cargo fmt --check"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cargo clippy -- -D warnings"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cargo test --all-features"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "feat:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "fix:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "docs:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "refactor:"
+    }
+  ]
+}

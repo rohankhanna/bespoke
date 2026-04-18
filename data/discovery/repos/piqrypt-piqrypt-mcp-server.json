@@ -1,0 +1,273 @@
+{
+  "components": [
+    {
+      "component": "@modelcontextprotocol/sdk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "piqrypt/piqrypt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "pip install piqrypt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "### Build from source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "(string, required): Agent identifier -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "(object, required): Decision data -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "**Returns:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "(array, required): Events to verify **Example:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "(string, required): Agent to export -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "(boolean): Request PiQrypt certification -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "(string):",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "**Example:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "(string, optional): Filter by type -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "(number, optional): Start time -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "(number, optional): End time -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "(number): Max results (default: 100) **Example:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "### HR Automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "@modelcontextprotocol/sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "PiQrypt/piqrypt-mcp-server",
+      "target": "typescript",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-18T02:41:32.061900+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8717
+    },
+    {
+      "path": "package.json",
+      "size": 1434
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "MCP SERVER",
+    "full_name": "PiQrypt/piqrypt-mcp-server",
+    "html_url": "https://github.com/PiQrypt/piqrypt-mcp-server",
+    "language": "Python",
+    "pushed_at": "2026-04-17T16:51:10Z",
+    "topics": [
+      "ai-agents",
+      "audit",
+      "mcp-server",
+      "multi-agent-systems",
+      "piqrypt",
+      "post-quantum",
+      "post-quantum-cryptography"
+    ],
+    "updated_at": "2026-04-17T16:51:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "piqrypt/piqrypt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "pip install piqrypt"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Build from source"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(string, required): Agent identifier -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(object, required): Decision data -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Returns:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(array, required): Events to verify **Example:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Returns:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(string, required): Agent to export -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(boolean): Request PiQrypt certification -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(string):"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Example:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(string, optional): Filter by type -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(number, optional): Start time -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(number, optional): End time -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(number): Max results (default: 100) **Example:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### HR Automation"
+    }
+  ]
+}

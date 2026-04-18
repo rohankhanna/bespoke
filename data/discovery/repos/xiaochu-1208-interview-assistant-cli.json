@@ -1,0 +1,950 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "existentialaudio/blackhole",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "interview-knowledge-format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "bge-small-zh-v1.5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "tree",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "prompt-inject",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "homophone-detector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "\u60a0\u60a0\u72ec\u64ad\u5267\u573a",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "\u5b57\u5e55\u7ec4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "Subtitles by the Amara.org community",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "data-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "init",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "scutil --proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "gsettings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "Right Option",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "*.monitor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "find_loopback()",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "i18n.t()",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "knowledge new",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "knowledge ingest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "draft_*.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "knowledge validate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "knowledge status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "ask",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "interview-assistant doctor --fix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "brew install blackhole-2ch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "apt install portaudio19-dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "IA_*",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "bash pip install interview_assistant-0.1.0-py3-none-any.whl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "pipx inject interview-assistant fastembed pynput",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "Or with the modern",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "(zero-install, runs straight from the repo):",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "embed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "fastembed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "hotkey",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "pynput",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "offline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "faster-whisper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "ingest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "pypdf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "python-docx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "tiktoken",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "ia knowledge ingest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "soundcard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "colorama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "all",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "pip install interview-assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "## First run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "bash interview-assistant init",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "always writes to",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "| Stop the listener | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "on macOS (Siri). ## Skill management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "ignores",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "\u611f\u8c22\u89c2\u770b",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "sounddevice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "XiaoChu-1208/interview-assistant-CLI",
+      "target": "password:",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T02:41:34.224943+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17419
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2998
+    },
+    {
+      "path": "requirements.txt",
+      "size": 122
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2135
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 2844
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Real-time interview copilot CLI. Hears the question and surfaces the answer you already prepared from your local Markdown knowledge base \u2014 verbatim, in milliseconds. Instant recall instead of LLM hallucination.",
+    "full_name": "XiaoChu-1208/interview-assistant-CLI",
+    "html_url": "https://github.com/XiaoChu-1208/interview-assistant-CLI",
+    "language": "Python",
+    "pushed_at": "2026-04-17T16:53:54Z",
+    "topics": [
+      "agent-skills",
+      "bm25",
+      "chinese",
+      "claude-code",
+      "cli",
+      "codex",
+      "cursor",
+      "embeddings",
+      "faster-whisper",
+      "groq",
+      "instant-recall",
+      "interview-assistant",
+      "interview-helper",
+      "interview-prep",
+      "local-first",
+      "push-to-talk",
+      "rag",
+      "real-time",
+      "speech-to-text",
+      "whisper"
+    ],
+    "updated_at": "2026-04-17T16:53:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "existentialaudio/blackhole",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "interview-knowledge-format"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bge-small-zh-v1.5"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "interview-knowledge-format"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tree"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "prompt-inject"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "homophone-detector"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u60a0\u60a0\u72ec\u64ad\u5267\u573a"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u5b57\u5e55\u7ec4"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Subtitles by the Amara.org community"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "data-source"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "init"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "scutil --proxy"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "gsettings"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Right Option"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "*.monitor"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "find_loopback()"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "i18n.t()"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "knowledge new"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "knowledge ingest"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "draft_*.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "knowledge validate"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "knowledge status"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ask"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "interview-assistant doctor --fix"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "init"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "brew install blackhole-2ch"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "apt install portaudio19-dev"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tree"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "IA_*"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash pip install interview_assistant-0.1.0-py3-none-any.whl"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "pipx inject interview-assistant fastembed pynput"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Or with the modern"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(zero-install, runs straight from the repo):"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "embed"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "fastembed"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hotkey"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "pynput"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "offline"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "faster-whisper"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ingest"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "pypdf"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "python-docx"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tiktoken"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ia knowledge ingest"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "windows"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "soundcard"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "colorama"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "all"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "pip install interview-assistant"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## First run"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash interview-assistant init"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "interview-knowledge-format"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tree"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "always writes to"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "interview-knowledge-format"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| Stop the listener | |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "on macOS (Siri). ## Skill management"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ignores"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "init"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "scutil --proxy"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "gsettings"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "soundcard"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "interview-knowledge-format"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u60a0\u60a0\u72ec\u64ad\u5267\u573a"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u5b57\u5e55\u7ec4"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u611f\u8c22\u89c2\u770b"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Subtitles by the Amara.org community"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "homophone-detector"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "interview-knowledge-format"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "homophone-detector"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "sounddevice"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "publish"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "password:"
+    }
+  ]
+}
