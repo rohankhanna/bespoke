@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "kubernetes",
+  "definition_status": "unresolved",
   "normalized_form": "kubernetes",
   "observation_id": "4ae4fa2cf0296810",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T12:06:06.216548+00:00",
   "observed_text": "kubernetes",
   "source_file": null,
-  "source_repo": "ahmetb/kubectx"
+  "source_repo": "ahmetb/kubectx",
+  "source_repo_description": null
 }

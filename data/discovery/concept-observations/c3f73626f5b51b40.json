@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "iceberg",
+  "definition_status": "unresolved",
   "normalized_form": "iceberg",
   "observation_id": "c3f73626f5b51b40",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T12:06:06.216548+00:00",
   "observed_text": "iceberg",
   "source_file": null,
-  "source_repo": "Eventual-Inc/Daft"
+  "source_repo": "Eventual-Inc/Daft",
+  "source_repo_description": null
 }

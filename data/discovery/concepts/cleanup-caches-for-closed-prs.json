@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Cleanup caches for closed PRs",
   "concept_id": "cleanup-caches-for-closed-prs",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

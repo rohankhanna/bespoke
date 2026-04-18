@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Open cargo-binstall release PR",
   "concept_id": "open-cargo-binstall-release-pr",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Mutation Testing",
   "concept_id": "mutation-testing",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

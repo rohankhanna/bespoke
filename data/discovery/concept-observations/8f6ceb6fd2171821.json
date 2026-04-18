@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "elm-architecture",
+  "definition_status": "unresolved",
   "normalized_form": "elm-architecture",
   "observation_id": "8f6ceb6fd2171821",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T10:38:37.562216+00:00",
   "observed_text": "elm-architecture",
   "source_file": null,
-  "source_repo": "charmbracelet/bubbletea"
+  "source_repo": "charmbracelet/bubbletea",
+  "source_repo_description": null
 }

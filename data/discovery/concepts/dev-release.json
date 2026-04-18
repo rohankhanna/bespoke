@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Dev Release",
   "concept_id": "dev-release",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

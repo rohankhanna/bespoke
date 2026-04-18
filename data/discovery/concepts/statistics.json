@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "statistics",
   "concept_id": "statistics",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

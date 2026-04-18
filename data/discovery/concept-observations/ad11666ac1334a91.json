@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "cli-integration-test",
+  "definition_status": "unresolved",
   "normalized_form": "cli-integration-test",
   "observation_id": "ad11666ac1334a91",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:56:18.570627+00:00",
   "observed_text": "CLI integration test",
   "source_file": ".github/workflows/_integration_test.yml",
-  "source_repo": "langchain-ai/langgraph"
+  "source_repo": "langchain-ai/langgraph",
+  "source_repo_description": null
 }

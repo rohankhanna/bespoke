@@ -6,8 +6,10 @@
   "buckets": [
     "workflow-process"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Issue Translator",
   "concept_id": "issue-translator",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

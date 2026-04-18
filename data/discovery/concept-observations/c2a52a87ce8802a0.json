@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "lobe-chat-plugin",
+  "definition_status": "unresolved",
   "normalized_form": "lobe-chat-plugin",
   "observation_id": "c2a52a87ce8802a0",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:41:43.530265+00:00",
   "observed_text": "lobe-chat-plugin",
   "source_file": null,
-  "source_repo": "lobehub/chat-plugin-web-crawler"
+  "source_repo": "lobehub/chat-plugin-web-crawler",
+  "source_repo_description": null
 }

@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Go Build",
   "concept_id": "go-build",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

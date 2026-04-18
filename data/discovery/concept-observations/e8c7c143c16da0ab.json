@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "deploy",
+  "definition_status": "unresolved",
   "normalized_form": "deploy",
   "observation_id": "e8c7c143c16da0ab",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:56:18.570627+00:00",
   "observed_text": "Deploy",
   "source_file": ".github/workflows/deploy.yml",
-  "source_repo": "lunarmodules/luacheck"
+  "source_repo": "lunarmodules/luacheck",
+  "source_repo_description": null
 }

@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "quality-gates",
   "concept_id": "quality-gates",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "elm-architecture",
   "concept_id": "elm-architecture",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

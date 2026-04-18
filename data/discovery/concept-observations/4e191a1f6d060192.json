@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "zep-server-docker-build-and-publish",
+  "definition_status": "unresolved",
   "normalized_form": "zep-server-docker-build-and-publish",
   "observation_id": "4e191a1f6d060192",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T10:43:38.551697+00:00",
   "observed_text": "Zep Server Docker Build and Publish",
   "source_file": ".github/workflows/docker-publish.yml.disabled",
-  "source_repo": "getzep/zep"
+  "source_repo": "getzep/zep",
+  "source_repo_description": null
 }

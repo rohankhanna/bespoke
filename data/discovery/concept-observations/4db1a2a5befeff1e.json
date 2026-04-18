@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "automation",
+  "definition_status": "unresolved",
   "normalized_form": "automation",
   "observation_id": "4db1a2a5befeff1e",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T10:43:38.551697+00:00",
   "observed_text": "automation",
   "source_file": null,
-  "source_repo": "tombelieber/claude-backup"
+  "source_repo": "tombelieber/claude-backup",
+  "source_repo_description": null
 }

@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "j2cl",
   "concept_id": "j2cl",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

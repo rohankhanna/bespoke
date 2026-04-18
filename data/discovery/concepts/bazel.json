@@ -6,8 +6,10 @@
   "buckets": [
     "workflow-process"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Bazel",
   "concept_id": "bazel",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

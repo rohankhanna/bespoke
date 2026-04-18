@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "prompt-engineering",
   "concept_id": "prompt-engineering",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

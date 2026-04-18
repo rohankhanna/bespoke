@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "awesome-lists",
   "concept_id": "awesome-lists",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

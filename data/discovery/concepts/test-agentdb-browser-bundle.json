@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Test AgentDB Browser Bundle",
   "concept_id": "test-agentdb-browser-bundle",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

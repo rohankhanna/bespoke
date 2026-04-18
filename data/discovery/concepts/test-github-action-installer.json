@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Test GitHub Action installer",
   "concept_id": "test-github-action-installer",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "agents-ci",
+  "definition_status": "unresolved",
   "normalized_form": "agents-ci",
   "observation_id": "2f22192d57f0f5b2",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T12:46:59.510459+00:00",
   "observed_text": "Agents CI",
   "source_file": ".github/workflows/agents.yml",
-  "source_repo": "vercel-labs/skills"
+  "source_repo": "vercel-labs/skills",
+  "source_repo_description": null
 }

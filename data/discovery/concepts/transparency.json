@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "transparency",
   "concept_id": "transparency",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

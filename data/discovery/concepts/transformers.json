@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "transformers",
   "concept_id": "transformers",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "validate-frontmatter",
+  "definition_status": "unresolved",
   "normalized_form": "validate-frontmatter",
   "observation_id": "6f75f34c11351718",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:57:36.597358+00:00",
   "observed_text": "Validate Frontmatter",
   "source_file": ".github/workflows/validate-frontmatter.yml",
-  "source_repo": "anthropics/claude-plugins-official"
+  "source_repo": "anthropics/claude-plugins-official",
+  "source_repo_description": null
 }

@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "release-pypi-package",
+  "definition_status": "unresolved",
   "normalized_form": "release-pypi-package",
   "observation_id": "1d61e7809a79c8a1",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:57:36.597358+00:00",
   "observed_text": "Release PyPI package",
   "source_file": ".github/workflows/pypi-publish.yml",
-  "source_repo": "DataDog/guarddog"
+  "source_repo": "DataDog/guarddog",
+  "source_repo_description": null
 }

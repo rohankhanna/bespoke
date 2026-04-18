@@ -6,8 +6,10 @@
   "buckets": [
     "workflow-process"
   ],
+  "candidate_definitions": [],
   "canonical_name": "General PR Handling for 1Panel",
   "concept_id": "general-pr-handling-for-1panel",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

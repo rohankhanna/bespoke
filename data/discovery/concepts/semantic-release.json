@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Semantic Release",
   "concept_id": "semantic-release",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "cancel-pr-workflows-on-merge",
+  "definition_status": "unresolved",
   "normalized_form": "cancel-pr-workflows-on-merge",
   "observation_id": "abfd0ce27df7661a",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T10:43:38.551697+00:00",
   "observed_text": "Cancel PR Workflows on Merge",
   "source_file": ".github/workflows/cancel-pr-workflow-on-merge.yml",
-  "source_repo": "sgl-project/sglang"
+  "source_repo": "sgl-project/sglang",
+  "source_repo_description": null
 }

@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Bot Bump Flashinfer Version",
   "concept_id": "bot-bump-flashinfer-version",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

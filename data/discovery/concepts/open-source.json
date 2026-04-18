@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "open-source",
   "concept_id": "open-source",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

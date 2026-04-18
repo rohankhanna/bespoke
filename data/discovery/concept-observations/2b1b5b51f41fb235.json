@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "scorecard-supply-chain-security",
+  "definition_status": "unresolved",
   "normalized_form": "scorecard-supply-chain-security",
   "observation_id": "2b1b5b51f41fb235",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:24:14.688152+00:00",
   "observed_text": "Scorecard supply-chain security",
   "source_file": ".github/workflows/scorecard.yaml",
-  "source_repo": "google/j2cl"
+  "source_repo": "google/j2cl",
+  "source_repo_description": null
 }

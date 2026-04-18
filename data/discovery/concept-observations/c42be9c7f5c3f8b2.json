@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "wasm",
+  "definition_status": "unresolved",
   "normalized_form": "wasm",
   "observation_id": "c42be9c7f5c3f8b2",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:24:14.688152+00:00",
   "observed_text": "wasm",
   "source_file": null,
-  "source_repo": "google/j2cl"
+  "source_repo": "google/j2cl",
+  "source_repo_description": null
 }

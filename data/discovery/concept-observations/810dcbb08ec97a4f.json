@@ -1,0 +1,36 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Send User Notifications on macOS from the command-line."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "objective-c",
+      "sense_id": "objective-c#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "objective-c",
+  "definition_status": "unresolved",
+  "normalized_form": "objective-c",
+  "observation_id": "810dcbb08ec97a4f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T13:15:13.756138+00:00",
+  "observed_text": "objective-c",
+  "source_file": null,
+  "source_repo": "julienXX/terminal-notifier",
+  "source_repo_description": "Send User Notifications on macOS from the command-line."
+}

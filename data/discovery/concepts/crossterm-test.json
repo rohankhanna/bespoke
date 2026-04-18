@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Crossterm Test",
   "concept_id": "crossterm-test",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

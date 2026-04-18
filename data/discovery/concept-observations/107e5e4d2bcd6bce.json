@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "lint-commits",
+  "definition_status": "unresolved",
   "normalized_form": "lint-commits",
   "observation_id": "107e5e4d2bcd6bce",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:32:22.637859+00:00",
   "observed_text": "Lint Commits",
   "source_file": ".github/workflows/committed.yml",
-  "source_repo": "crate-ci/typos"
+  "source_repo": "crate-ci/typos",
+  "source_repo_description": null
 }

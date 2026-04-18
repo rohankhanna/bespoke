@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Version Bump",
   "concept_id": "version-bump",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

@@ -3,6 +3,7 @@
   "candidate_buckets": [
     "tool-component"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -15,11 +16,13 @@
     }
   ],
   "concept_id": "langchain",
+  "definition_status": "unresolved",
   "normalized_form": "langchain",
   "observation_id": "2fe920dde86cb7f1",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T10:25:53.609022+00:00",
   "observed_text": "langchain",
   "source_file": null,
-  "source_repo": "1Panel-dev/MaxKB"
+  "source_repo": "1Panel-dev/MaxKB",
+  "source_repo_description": null
 }

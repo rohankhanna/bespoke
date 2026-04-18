@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "libp2p holepunching interop test",
   "concept_id": "libp2p-holepunching-interop-test",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

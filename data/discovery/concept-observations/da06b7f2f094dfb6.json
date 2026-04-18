@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "firebase-cloud-messaging",
+  "definition_status": "unresolved",
   "normalized_form": "firebase-cloud-messaging",
   "observation_id": "da06b7f2f094dfb6",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T10:38:37.562216+00:00",
   "observed_text": "firebase-cloud-messaging",
   "source_file": null,
-  "source_repo": "firebase/firebase-admin-node"
+  "source_repo": "firebase/firebase-admin-node",
+  "source_repo_description": null
 }

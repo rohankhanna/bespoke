@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "close-stale-pull-requests",
+  "definition_status": "unresolved",
   "normalized_form": "close-stale-pull-requests",
   "observation_id": "bf33e82e516ab13f",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T12:07:11.500453+00:00",
   "observed_text": "Close stale pull requests",
   "source_file": ".github/workflows/close-stale-pull-requests.yml",
-  "source_repo": "nodejs/node"
+  "source_repo": "nodejs/node",
+  "source_repo_description": null
 }

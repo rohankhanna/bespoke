@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Claude PR Review (Manual Trigger)",
   "concept_id": "claude-pr-review-manual-trigger",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

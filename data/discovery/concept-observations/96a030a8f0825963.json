@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "create-releases",
+  "definition_status": "unresolved",
   "normalized_form": "create-releases",
   "observation_id": "96a030a8f0825963",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T12:07:11.500453+00:00",
   "observed_text": "Create releases",
   "source_file": ".github/workflows/create-releases.yml",
-  "source_repo": "openai/openai-python"
+  "source_repo": "openai/openai-python",
+  "source_repo_description": null
 }

@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Run mypy",
   "concept_id": "run-mypy",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

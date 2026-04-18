@@ -6,8 +6,10 @@
   "buckets": [
     "tool-component"
   ],
+  "candidate_definitions": [],
   "canonical_name": "qwenpaw",
   "concept_id": "qwenpaw",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

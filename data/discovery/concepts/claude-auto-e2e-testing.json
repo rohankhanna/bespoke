@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Claude Auto E2E Testing",
   "concept_id": "claude-auto-e2e-testing",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

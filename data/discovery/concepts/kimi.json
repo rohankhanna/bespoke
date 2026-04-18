@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "kimi",
   "concept_id": "kimi",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

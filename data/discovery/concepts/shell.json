@@ -1,0 +1,43 @@
+{
+  "aliases": [
+    "shell"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bats-core/bats-core",
+      "status": "candidate-context",
+      "text": "Bash Automated Testing System"
+    }
+  ],
+  "canonical_name": "shell",
+  "concept_id": "shell",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:15:13.756138+00:00",
+      "source_file": null,
+      "source_repo": "bats-core/bats-core"
+    }
+  ],
+  "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
+  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "shell",
+      "sense_id": "shell#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

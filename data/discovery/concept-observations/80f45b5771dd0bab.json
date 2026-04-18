@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "luau",
+  "definition_status": "unresolved",
   "normalized_form": "luau",
   "observation_id": "80f45b5771dd0bab",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:56:18.570627+00:00",
   "observed_text": "luau",
   "source_file": null,
-  "source_repo": "JohnnyMorganz/StyLua"
+  "source_repo": "JohnnyMorganz/StyLua",
+  "source_repo_description": null
 }

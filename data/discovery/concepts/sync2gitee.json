@@ -6,8 +6,10 @@
   "buckets": [
     "workflow-process"
   ],
+  "candidate_definitions": [],
   "canonical_name": "sync2gitee",
   "concept_id": "sync2gitee",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "verification-pipeline",
+  "definition_status": "unresolved",
   "normalized_form": "verification-pipeline",
   "observation_id": "13dcedc48c79390d",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:57:36.597358+00:00",
   "observed_text": "\ud83d\udd0d Verification Pipeline",
   "source_file": ".github/workflows/verification-pipeline.yml",
-  "source_repo": "ruvnet/ruflo"
+  "source_repo": "ruvnet/ruflo",
+  "source_repo_description": null
 }

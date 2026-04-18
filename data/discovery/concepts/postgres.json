@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "postgres",
   "concept_id": "postgres",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

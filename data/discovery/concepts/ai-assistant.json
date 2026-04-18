@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "ai-assistant",
   "concept_id": "ai-assistant",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

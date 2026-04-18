@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "myisam",
+  "definition_status": "unresolved",
   "normalized_form": "myisam",
   "observation_id": "3622caa5782d43a1",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T10:43:38.551697+00:00",
   "observed_text": "myisam",
   "source_file": null,
-  "source_repo": "musicman3/Cruder"
+  "source_repo": "musicman3/Cruder",
+  "source_repo_description": null
 }

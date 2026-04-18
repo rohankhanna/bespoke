@@ -8,8 +8,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Release Docker Image",
   "concept_id": "release-docker-image",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

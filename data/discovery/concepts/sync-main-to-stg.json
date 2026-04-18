@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Sync main to stg",
   "concept_id": "sync-main-to-stg",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

@@ -3,6 +3,7 @@
   "candidate_buckets": [
     "workflow-process"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -15,11 +16,13 @@
     }
   ],
   "concept_id": "publish-release",
+  "definition_status": "unresolved",
   "normalized_form": "publish-release",
   "observation_id": "8e6c2d857cfb90bf",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T10:25:53.609022+00:00",
   "observed_text": "Publish Release",
   "source_file": ".github/workflows/publish_release.yml",
-  "source_repo": "1runeberg/confichat"
+  "source_repo": "1runeberg/confichat",
+  "source_repo_description": null
 }

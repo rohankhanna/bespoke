@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Label issues based on keywords",
   "concept_id": "label-issues-based-on-keywords",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

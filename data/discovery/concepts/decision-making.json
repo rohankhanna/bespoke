@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "decision-making",
   "concept_id": "decision-making",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

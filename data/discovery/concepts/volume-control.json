@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "volume-control",
   "concept_id": "volume-control",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

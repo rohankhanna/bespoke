@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "bulk-utilities",
   "concept_id": "bulk-utilities",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

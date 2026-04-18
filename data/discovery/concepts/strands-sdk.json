@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "strands-sdk",
   "concept_id": "strands-sdk",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

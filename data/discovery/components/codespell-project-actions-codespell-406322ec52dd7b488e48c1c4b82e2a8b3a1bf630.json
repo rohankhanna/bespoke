@@ -1,0 +1,12 @@
+{
+  "component": "codespell-project/actions-codespell@406322ec52dd7b488e48c1c4b82e2a8b3a1bf630",
+  "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
+  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "bats-core/bats-core"
+    }
+  ]
+}

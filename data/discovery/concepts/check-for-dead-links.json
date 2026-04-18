@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Check for Dead Links",
   "concept_id": "check-for-dead-links",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

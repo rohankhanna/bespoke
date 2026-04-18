@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "\ud83d\udd17 Cross-Agent Integration Tests",
   "concept_id": "cross-agent-integration-tests",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

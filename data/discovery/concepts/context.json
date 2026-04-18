@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "context",
   "concept_id": "context",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

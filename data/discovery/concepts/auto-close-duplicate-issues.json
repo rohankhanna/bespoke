@@ -6,8 +6,10 @@
   "buckets": [
     "workflow-process"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Auto-close duplicate issues",
   "concept_id": "auto-close-duplicate-issues",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

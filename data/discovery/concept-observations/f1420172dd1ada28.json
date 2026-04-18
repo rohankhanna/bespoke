@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "reusable-release-workflow",
+  "definition_status": "unresolved",
   "normalized_form": "reusable-release-workflow",
   "observation_id": "f1420172dd1ada28",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:24:14.688152+00:00",
   "observed_text": "Reusable Release Workflow",
   "source_file": ".github/workflows/release_common.yaml",
-  "source_repo": "google/j2cl"
+  "source_repo": "google/j2cl",
+  "source_repo_description": null
 }

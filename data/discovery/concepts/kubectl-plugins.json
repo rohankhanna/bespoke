@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "kubectl-plugins",
   "concept_id": "kubectl-plugins",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

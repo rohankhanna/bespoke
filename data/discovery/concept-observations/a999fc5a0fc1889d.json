@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "kubernetes-clusters",
+  "definition_status": "unresolved",
   "normalized_form": "kubernetes-clusters",
   "observation_id": "a999fc5a0fc1889d",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T12:06:06.216548+00:00",
   "observed_text": "kubernetes-clusters",
   "source_file": null,
-  "source_repo": "ahmetb/kubectx"
+  "source_repo": "ahmetb/kubectx",
+  "source_repo_description": null
 }

@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Test PyPI Publish",
   "concept_id": "test-pypi-publish",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

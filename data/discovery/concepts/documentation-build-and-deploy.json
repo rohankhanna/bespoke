@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Documentation build and deploy",
   "concept_id": "documentation-build-and-deploy",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

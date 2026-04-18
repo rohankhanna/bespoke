@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "spec-driven",
+  "definition_status": "unresolved",
   "normalized_form": "spec-driven",
   "observation_id": "3db43ba8dc9bb3c3",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:57:36.597358+00:00",
   "observed_text": "spec-driven",
   "source_file": null,
-  "source_repo": "github/spec-kit"
+  "source_repo": "github/spec-kit",
+  "source_repo_description": null
 }

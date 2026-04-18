@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "low-latency",
+  "definition_status": "unresolved",
   "normalized_form": "low-latency",
   "observation_id": "eb22217f12230804",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:57:36.597358+00:00",
   "observed_text": "low-latency",
   "source_file": null,
-  "source_repo": "ruvnet/RuVector"
+  "source_repo": "ruvnet/RuVector",
+  "source_repo_description": null
 }

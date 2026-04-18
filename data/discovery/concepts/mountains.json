@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "mountains",
   "concept_id": "mountains",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

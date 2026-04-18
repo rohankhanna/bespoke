@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "unit-tests",
+  "definition_status": "unresolved",
   "normalized_form": "unit-tests",
   "observation_id": "262826618233588c",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T12:06:06.216548+00:00",
   "observed_text": "Unit Tests",
   "source_file": ".github/workflows/unit-tests.yaml",
-  "source_repo": "korotovsky/slack-mcp-server"
+  "source_repo": "korotovsky/slack-mcp-server",
+  "source_repo_description": null
 }

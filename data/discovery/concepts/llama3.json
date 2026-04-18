@@ -6,8 +6,10 @@
   "buckets": [
     "tool-component"
   ],
+  "candidate_definitions": [],
   "canonical_name": "llama3",
   "concept_id": "llama3",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

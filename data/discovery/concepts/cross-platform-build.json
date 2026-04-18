@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Cross-Platform Build",
   "concept_id": "cross-platform-build",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Transport Interop - Build Implementation Images",
   "concept_id": "transport-interop---build-implementation-images",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

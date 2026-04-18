@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "codex-cli",
   "concept_id": "codex-cli",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

@@ -3,6 +3,7 @@
   "candidate_buckets": [
     "tool-component"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -15,11 +16,13 @@
     }
   ],
   "concept_id": "sqlite-extension",
+  "definition_status": "unresolved",
   "normalized_form": "sqlite-extension",
   "observation_id": "92725471af158886",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T10:25:53.609022+00:00",
   "observed_text": "sqlite-extension",
   "source_file": null,
-  "source_repo": "asg017/sqlite-vss"
+  "source_repo": "asg017/sqlite-vss",
+  "source_repo_description": null
 }

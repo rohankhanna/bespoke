@@ -6,8 +6,10 @@
   "buckets": [
     "workflow-process"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Check Outdated Version Pinning",
   "concept_id": "check-outdated-version-pinning",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

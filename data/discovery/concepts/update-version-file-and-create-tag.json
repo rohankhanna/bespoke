@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Update Version File and Create Tag",
   "concept_id": "update-version-file-and-create-tag",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

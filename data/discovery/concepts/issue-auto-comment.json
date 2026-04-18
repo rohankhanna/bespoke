@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Issue Auto Comment",
   "concept_id": "issue-auto-comment",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "New PR Bot",
   "concept_id": "new-pr-bot",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

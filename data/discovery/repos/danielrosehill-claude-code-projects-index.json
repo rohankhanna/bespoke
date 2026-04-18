@@ -11,36 +11,29 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/bash-alias-manager-claude",
+      "target": "danielrosehill/claude-agent-workspace-model",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/batch-claudemd-repo-creator",
+      "target": "danielrosehill/claude-agent-picker-pattern",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/agent-junction",
+      "target": "danielrosehill/claude-agent-workspace-generator",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/ai-human-attribution-adder",
+      "target": "danielrosehill/claude-app-optimiser",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "CLAUDE.md",
-      "target_type": "term"
     },
     {
       "edge_type": "package-json:dependencies",
@@ -48,9 +41,30 @@
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
       "target": "astro",
       "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
+      "target": "claude-code-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
+      "target": "index-repos",
+      "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T09:21:16.726379+00:00",
+  "fetched_at": "2026-04-18T13:15:36.601914+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -74,35 +88,45 @@
       "claude-code-cli",
       "index-repos"
     ],
-    "updated_at": "2026-04-18T07:01:04Z"
+    "updated_at": "2026-04-18T11:20:55Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/agent-junction",
+      "full_name": "danielrosehill/claude-agent-picker-pattern",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/ai-human-attribution-adder",
+      "full_name": "danielrosehill/claude-agent-workspace-generator",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/bash-alias-manager-claude",
+      "full_name": "danielrosehill/claude-agent-workspace-model",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/batch-claudemd-repo-creator",
+      "full_name": "danielrosehill/claude-app-optimiser",
       "source_file": "README.md"
     }
   ],
   "terms": [
     {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "CLAUDE.md"
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code-cli"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "index-repos"
     }
   ]
 }

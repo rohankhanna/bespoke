@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "firebase-database",
   "concept_id": "firebase-database",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "automation",
+  "definition_status": "unresolved",
   "normalized_form": "automation",
   "observation_id": "e97f060e8ea3c1e2",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:56:18.570627+00:00",
   "observed_text": "automation",
   "source_file": null,
-  "source_repo": "ithiria894/awesome-claude-code-hooks"
+  "source_repo": "ithiria894/awesome-claude-code-hooks",
+  "source_repo_description": null
 }

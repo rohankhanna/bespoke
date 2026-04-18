@@ -9,8 +9,10 @@
     "workflow-process",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "linux",
   "concept_id": "linux",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "close-stale-feature-requests",
+  "definition_status": "unresolved",
   "normalized_form": "close-stale-feature-requests",
   "observation_id": "b9c4f70da2479e1f",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T12:07:11.500453+00:00",
   "observed_text": "Close stale feature requests",
   "source_file": ".github/workflows/close-stale-feature-requests.yml",
-  "source_repo": "nodejs/node"
+  "source_repo": "nodejs/node",
+  "source_repo_description": null
 }

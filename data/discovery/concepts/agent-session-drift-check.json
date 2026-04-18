@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Agent Session Drift Check",
   "concept_id": "agent-session-drift-check",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

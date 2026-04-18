@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "lobe-chat",
   "concept_id": "lobe-chat",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

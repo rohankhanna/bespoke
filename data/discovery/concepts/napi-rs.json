@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "napi-rs",
   "concept_id": "napi-rs",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

@@ -3,6 +3,7 @@
   "candidate_buckets": [
     "tool-component"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -15,11 +16,13 @@
     }
   ],
   "concept_id": "ollama",
+  "definition_status": "unresolved",
   "normalized_form": "ollama",
   "observation_id": "4ed2e4d483765d4d",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T10:25:53.609022+00:00",
   "observed_text": "ollama",
   "source_file": null,
-  "source_repo": "1Panel-dev/1Panel"
+  "source_repo": "1Panel-dev/1Panel",
+  "source_repo_description": null
 }

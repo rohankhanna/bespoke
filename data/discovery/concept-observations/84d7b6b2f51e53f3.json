@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "rust",
+  "definition_status": "unresolved",
   "normalized_form": "rust",
   "observation_id": "84d7b6b2f51e53f3",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:41:43.530265+00:00",
   "observed_text": "rust",
   "source_file": null,
-  "source_repo": "napi-rs/napi-rs"
+  "source_repo": "napi-rs/napi-rs",
+  "source_repo_description": null
 }

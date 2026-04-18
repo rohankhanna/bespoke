@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Integration Tests",
   "concept_id": "integration-tests",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

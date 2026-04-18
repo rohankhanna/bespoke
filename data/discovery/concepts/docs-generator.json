@@ -6,8 +6,10 @@
   "buckets": [
     "tool-component"
   ],
+  "candidate_definitions": [],
   "canonical_name": "docs-generator",
   "concept_id": "docs-generator",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

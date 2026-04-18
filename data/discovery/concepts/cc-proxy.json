@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "cc-proxy",
   "concept_id": "cc-proxy",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "ai-accountability",
   "concept_id": "ai-accountability",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

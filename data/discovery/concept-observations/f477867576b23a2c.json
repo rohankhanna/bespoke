@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "golang",
+  "definition_status": "unresolved",
   "normalized_form": "golang",
   "observation_id": "f477867576b23a2c",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T10:38:37.562216+00:00",
   "observed_text": "golang",
   "source_file": null,
-  "source_repo": "charmbracelet/bubbletea"
+  "source_repo": "charmbracelet/bubbletea",
+  "source_repo_description": null
 }

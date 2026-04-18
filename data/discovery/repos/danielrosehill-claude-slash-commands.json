@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Slash-Commands",
+      "target": "danielrosehill/claude-file-organiser-super-slash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Slash-Commands",
+      "target": "danielrosehill/claude-app-optimiser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Slash-Commands",
+      "target": "danielrosehill/claude-document-this",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Slash-Commands",
+      "target": "danielrosehill/claude-code-sysadmin-workspaces-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Slash-Commands",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Slash-Commands",
+      "target": "slash-commands",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T13:15:38.335450+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24218
+    },
+    {
+      "path": "requirements.txt",
+      "size": 38
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "My Claude Code slash commands",
+    "full_name": "danielrosehill/Claude-Slash-Commands",
+    "html_url": "https://github.com/danielrosehill/Claude-Slash-Commands",
+    "language": "Python",
+    "pushed_at": "2026-03-25T16:19:14Z",
+    "topics": [
+      "claude",
+      "claude-code",
+      "slash-commands"
+    ],
+    "updated_at": "2026-03-25T16:21:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-app-optimiser",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-code-sysadmin-workspaces-index",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-document-this",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-file-organiser-super-slash",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slash-commands"
+    }
+  ]
+}

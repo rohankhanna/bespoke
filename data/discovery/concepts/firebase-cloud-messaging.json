@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "firebase-cloud-messaging",
   "concept_id": "firebase-cloud-messaging",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

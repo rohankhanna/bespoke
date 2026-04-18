@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "base-image",
+  "definition_status": "unresolved",
   "normalized_form": "base-image",
   "observation_id": "7f3085afdaf3faec",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:24:14.688152+00:00",
   "observed_text": "base-image",
   "source_file": ".github/workflows/base-image.yaml",
-  "source_repo": "NVIDIA/NemoClaw"
+  "source_repo": "NVIDIA/NemoClaw",
+  "source_repo_description": null
 }

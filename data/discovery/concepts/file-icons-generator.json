@@ -6,8 +6,10 @@
   "buckets": [
     "workflow-process"
   ],
+  "candidate_definitions": [],
   "canonical_name": "File icons generator",
   "concept_id": "file-icons-generator",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

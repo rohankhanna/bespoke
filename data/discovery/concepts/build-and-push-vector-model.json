@@ -6,8 +6,10 @@
   "buckets": [
     "workflow-process"
   ],
+  "candidate_definitions": [],
   "canonical_name": "build-and-push-vector-model",
   "concept_id": "build-and-push-vector-model",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

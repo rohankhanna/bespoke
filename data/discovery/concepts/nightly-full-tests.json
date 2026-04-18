@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Nightly Full Tests",
   "concept_id": "nightly-full-tests",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

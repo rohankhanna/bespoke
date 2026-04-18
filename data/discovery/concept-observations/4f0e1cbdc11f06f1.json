@@ -1,0 +1,36 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "golang",
+      "sense_id": "golang#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "golang",
+  "definition_status": "unresolved",
+  "normalized_form": "golang",
+  "observation_id": "4f0e1cbdc11f06f1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T13:15:13.756138+00:00",
+  "observed_text": "golang",
+  "source_file": null,
+  "source_repo": "moby/moby",
+  "source_repo_description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems"
+}

@@ -6,8 +6,10 @@
   "buckets": [
     "tool-component"
   ],
+  "candidate_definitions": [],
   "canonical_name": "deepseek-r1",
   "concept_id": "deepseek-r1",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

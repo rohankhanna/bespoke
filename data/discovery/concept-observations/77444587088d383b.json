@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "mcp-client",
+  "definition_status": "unresolved",
   "normalized_form": "mcp-client",
   "observation_id": "77444587088d383b",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T12:06:06.216548+00:00",
   "observed_text": "mcp-client",
   "source_file": null,
-  "source_repo": "google-gemini/gemini-cli"
+  "source_repo": "google-gemini/gemini-cli",
+  "source_repo_description": null
 }

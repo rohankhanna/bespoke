@@ -6,8 +6,10 @@
   "buckets": [
     "workflow-process"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Build And Publish (OSS + R2)",
   "concept_id": "build-and-publish-oss-r2",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

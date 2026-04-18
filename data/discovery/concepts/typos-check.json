@@ -6,8 +6,10 @@
   "buckets": [
     "workflow-process"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Typos Check",
   "concept_id": "typos-check",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

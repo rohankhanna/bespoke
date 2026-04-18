@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "life",
   "concept_id": "life",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

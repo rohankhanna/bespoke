@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Close stale feature requests",
   "concept_id": "close-stale-feature-requests",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

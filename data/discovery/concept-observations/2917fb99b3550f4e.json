@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "openclaw",
+  "definition_status": "unresolved",
   "normalized_form": "openclaw",
   "observation_id": "2917fb99b3550f4e",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:24:14.688152+00:00",
   "observed_text": "openclaw",
   "source_file": null,
-  "source_repo": "zeroclaw-labs/zeroclaw"
+  "source_repo": "zeroclaw-labs/zeroclaw",
+  "source_repo_description": null
 }

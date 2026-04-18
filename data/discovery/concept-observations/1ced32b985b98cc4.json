@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "planning",
+  "definition_status": "unresolved",
   "normalized_form": "planning",
   "observation_id": "1ced32b985b98cc4",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T12:46:59.510459+00:00",
   "observed_text": "planning",
   "source_file": null,
-  "source_repo": "Fission-AI/OpenSpec"
+  "source_repo": "Fission-AI/OpenSpec",
+  "source_repo_description": null
 }

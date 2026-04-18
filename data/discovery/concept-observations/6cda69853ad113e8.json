@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "claude-code",
+  "definition_status": "unresolved",
   "normalized_form": "claude-code",
   "observation_id": "6cda69853ad113e8",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:57:36.597358+00:00",
   "observed_text": "Claude Code",
   "source_file": ".github/workflows/claude.yml",
-  "source_repo": "jarrodwatts/claude-hud"
+  "source_repo": "jarrodwatts/claude-hud",
+  "source_repo_description": null
 }

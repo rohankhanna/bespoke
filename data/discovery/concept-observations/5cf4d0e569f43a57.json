@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "claude-code",
+  "definition_status": "unresolved",
   "normalized_form": "claude-code",
   "observation_id": "5cf4d0e569f43a57",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:57:36.597358+00:00",
   "observed_text": "claude-code",
   "source_file": null,
-  "source_repo": "serpro69/capy"
+  "source_repo": "serpro69/capy",
+  "source_repo_description": null
 }

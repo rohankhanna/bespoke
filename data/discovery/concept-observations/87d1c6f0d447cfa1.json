@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "openrouter",
+  "definition_status": "unresolved",
   "normalized_form": "openrouter",
   "observation_id": "87d1c6f0d447cfa1",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:56:18.570627+00:00",
   "observed_text": "openrouter",
   "source_file": null,
-  "source_repo": "ruvnet/agentic-flow"
+  "source_repo": "ruvnet/agentic-flow",
+  "source_repo_description": null
 }

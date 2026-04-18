@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "copilot-setup-steps",
+  "definition_status": "unresolved",
   "normalized_form": "copilot-setup-steps",
   "observation_id": "2380f4dd838c53ee",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:32:22.637859+00:00",
   "observed_text": "Copilot Setup Steps",
   "source_file": ".github/workflows/copilot-setup-steps.yml",
-  "source_repo": "microsoft/typescript-go"
+  "source_repo": "microsoft/typescript-go",
+  "source_repo_description": null
 }

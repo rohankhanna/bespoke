@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "issue-close-require",
+  "definition_status": "unresolved",
   "normalized_form": "issue-close-require",
   "observation_id": "e259ca22464234d1",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:32:22.637859+00:00",
   "observed_text": "Issue Close Require",
   "source_file": ".github/workflows/issue-close-require.yml",
-  "source_repo": "lobehub/lobe-vidol"
+  "source_repo": "lobehub/lobe-vidol",
+  "source_repo_description": null
 }

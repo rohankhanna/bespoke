@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "rewards-scripts-check",
+  "definition_status": "unresolved",
   "normalized_form": "rewards-scripts-check",
   "observation_id": "8d7a41c9a9eff64e",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T12:06:06.216548+00:00",
   "observed_text": "rewards-scripts-check",
   "source_file": ".github/workflows/rewards-scripts-check.yaml",
-  "source_repo": "Layr-Labs/hello-world-avs"
+  "source_repo": "Layr-Labs/hello-world-avs",
+  "source_repo_description": null
 }

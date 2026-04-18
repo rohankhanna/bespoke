@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "test-ci",
+  "definition_status": "unresolved",
   "normalized_form": "test-ci",
   "observation_id": "bbd6fd785058998d",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:41:43.530265+00:00",
   "observed_text": "Test CI",
   "source_file": ".github/workflows/test.yml",
-  "source_repo": "FineHow/Bingsearch-Plugin"
+  "source_repo": "FineHow/Bingsearch-Plugin",
+  "source_repo_description": null
 }

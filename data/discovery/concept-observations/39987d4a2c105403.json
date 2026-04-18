@@ -3,6 +3,7 @@
   "candidate_buckets": [
     "workflow-process"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -15,11 +16,13 @@
     }
   ],
   "concept_id": "build-and-push",
+  "definition_status": "unresolved",
   "normalized_form": "build-and-push",
   "observation_id": "39987d4a2c105403",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T10:25:53.609022+00:00",
   "observed_text": "build-and-push",
   "source_file": ".github/workflows/build-and-push.yml",
-  "source_repo": "1Panel-dev/MaxKB"
+  "source_repo": "1Panel-dev/MaxKB",
+  "source_repo_description": null
 }

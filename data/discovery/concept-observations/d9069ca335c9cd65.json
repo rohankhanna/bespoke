@@ -3,6 +3,7 @@
   "candidate_buckets": [
     "tool-component"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -15,11 +16,13 @@
     }
   ],
   "concept_id": "react",
+  "definition_status": "unresolved",
   "normalized_form": "react",
   "observation_id": "d9069ca335c9cd65",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T10:25:53.609022+00:00",
   "observed_text": "react",
   "source_file": null,
-  "source_repo": "oven-sh/bun"
+  "source_repo": "oven-sh/bun",
+  "source_repo_description": null
 }

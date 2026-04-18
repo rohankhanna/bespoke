@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "qwen-image",
   "concept_id": "qwen-image",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

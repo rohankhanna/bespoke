@@ -1,0 +1,12 @@
+{
+  "component": "docker/setup-buildx-action@c47758b77c9736f4b2ef4073d4d51994fabfe349",
+  "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
+  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_dockerhub.yml",
+      "source_repo": "bats-core/bats-core"
+    }
+  ]
+}

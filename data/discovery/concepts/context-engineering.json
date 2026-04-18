@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "context-engineering",
   "concept_id": "context-engineering",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

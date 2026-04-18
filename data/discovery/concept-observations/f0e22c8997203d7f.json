@@ -3,6 +3,7 @@
   "candidate_buckets": [
     "tool-component"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -15,11 +16,13 @@
     }
   ],
   "concept_id": "documentation",
+  "definition_status": "unresolved",
   "normalized_form": "documentation",
   "observation_id": "f0e22c8997203d7f",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T10:25:53.609022+00:00",
   "observed_text": "documentation",
   "source_file": null,
-  "source_repo": "withastro/starlight"
+  "source_repo": "withastro/starlight",
+  "source_repo_description": null
 }

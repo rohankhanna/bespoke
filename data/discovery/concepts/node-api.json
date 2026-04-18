@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "node-api",
   "concept_id": "node-api",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

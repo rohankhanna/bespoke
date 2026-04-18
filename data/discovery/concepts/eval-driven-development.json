@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "eval-driven-development",
   "concept_id": "eval-driven-development",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

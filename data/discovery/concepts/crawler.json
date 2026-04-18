@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "crawler",
   "concept_id": "crawler",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

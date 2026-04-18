@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "reinforcement-learning",
+  "definition_status": "unresolved",
   "normalized_form": "reinforcement-learning",
   "observation_id": "7c151c58c8d79432",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T10:43:38.551697+00:00",
   "observed_text": "reinforcement-learning",
   "source_file": null,
-  "source_repo": "sgl-project/sglang"
+  "source_repo": "sgl-project/sglang",
+  "source_repo_description": null
 }

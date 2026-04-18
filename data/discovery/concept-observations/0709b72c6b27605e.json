@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "issue-check-inactive",
+  "definition_status": "unresolved",
   "normalized_form": "issue-check-inactive",
   "observation_id": "0709b72c6b27605e",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:41:43.530265+00:00",
   "observed_text": "Issue Check Inactive",
   "source_file": ".github/workflows/issue-check-inactive.yml",
-  "source_repo": "lobehub/chat-plugin-web-crawler"
+  "source_repo": "lobehub/chat-plugin-web-crawler",
+  "source_repo_description": null
 }

@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Automated Documentation Audit",
   "concept_id": "automated-documentation-audit",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

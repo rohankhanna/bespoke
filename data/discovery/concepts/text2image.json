@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "text2image",
   "concept_id": "text2image",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

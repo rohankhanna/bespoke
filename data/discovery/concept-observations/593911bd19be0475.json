@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "coreaudio",
+  "definition_status": "unresolved",
   "normalized_form": "coreaudio",
   "observation_id": "593911bd19be0475",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:24:14.688152+00:00",
   "observed_text": "coreaudio",
   "source_file": null,
-  "source_repo": "rlxone/MultiSoundChanger"
+  "source_repo": "rlxone/MultiSoundChanger",
+  "source_repo_description": null
 }

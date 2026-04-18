@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "claude-code-proxy",
   "concept_id": "claude-code-proxy",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

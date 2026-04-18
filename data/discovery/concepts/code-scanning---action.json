@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Code Scanning - Action",
   "concept_id": "code-scanning---action",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

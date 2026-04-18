@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "sync-main-to-stg",
+  "definition_status": "unresolved",
   "normalized_form": "sync-main-to-stg",
   "observation_id": "e2d8930670ac4fac",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T12:06:06.216548+00:00",
   "observed_text": "Sync main to stg",
   "source_file": ".github/workflows/sync-stg.yml",
-  "source_repo": "agiletec-inc/airis-mcp-gateway"
+  "source_repo": "agiletec-inc/airis-mcp-gateway",
+  "source_repo_description": null
 }

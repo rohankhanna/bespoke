@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Publish Extension to Chrome Web Store",
   "concept_id": "publish-extension-to-chrome-web-store",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

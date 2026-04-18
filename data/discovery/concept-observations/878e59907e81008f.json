@@ -1,0 +1,36 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Security Scanner for Agent Skills"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "agent-skills",
+      "sense_id": "agent-skills#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "agent-skills",
+  "definition_status": "unresolved",
+  "normalized_form": "agent-skills",
+  "observation_id": "878e59907e81008f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T13:15:13.756138+00:00",
+  "observed_text": "agent-skills",
+  "source_file": null,
+  "source_repo": "cisco-ai-defense/skill-scanner",
+  "source_repo_description": "Security Scanner for Agent Skills"
+}

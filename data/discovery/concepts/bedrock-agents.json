@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "bedrock-agents",
   "concept_id": "bedrock-agents",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

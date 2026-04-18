@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "lint",
+  "definition_status": "unresolved",
   "normalized_form": "lint",
   "observation_id": "4743df9e93d03c20",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T12:46:59.510459+00:00",
   "observed_text": "Lint",
   "source_file": ".github/workflows/lint.yaml",
-  "source_repo": "databus23/helm-diff"
+  "source_repo": "databus23/helm-diff",
+  "source_repo_description": null
 }

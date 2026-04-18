@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "files",
   "concept_id": "files",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

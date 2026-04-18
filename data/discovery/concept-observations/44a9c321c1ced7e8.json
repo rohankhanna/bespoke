@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "claude-pr-code-review",
+  "definition_status": "unresolved",
   "normalized_form": "claude-pr-code-review",
   "observation_id": "44a9c321c1ced7e8",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:24:14.688152+00:00",
   "observed_text": "Claude PR Code Review",
   "source_file": ".github/workflows/claude-code-review.yml",
-  "source_repo": "getzep/graphiti"
+  "source_repo": "getzep/graphiti",
+  "source_repo_description": null
 }

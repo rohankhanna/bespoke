@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "diffusion",
+  "definition_status": "unresolved",
   "normalized_form": "diffusion",
   "observation_id": "0522280d495d5a2e",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:41:43.530265+00:00",
   "observed_text": "diffusion",
   "source_file": null,
-  "source_repo": "AUTOMATIC1111/stable-diffusion-webui"
+  "source_repo": "AUTOMATIC1111/stable-diffusion-webui",
+  "source_repo_description": null
 }

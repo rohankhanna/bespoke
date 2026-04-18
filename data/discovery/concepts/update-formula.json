@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Update Formula",
   "concept_id": "update-formula",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

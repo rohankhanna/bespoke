@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-18T09:09:30.058377+00:00",
+  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "larksuite/cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/.test-unit.yml",
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/.test.yml",
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/.vm.yml",
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/.windows.yml",
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/arm64.yml",
+      "source_repo": "moby/moby"
     }
   ]
 }

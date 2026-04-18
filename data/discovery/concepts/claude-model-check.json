@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Claude Model Check",
   "concept_id": "claude-model-check",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

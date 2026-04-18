@@ -3,6 +3,7 @@
   "candidate_buckets": [
     "workflow-process"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -15,11 +16,13 @@
     }
   ],
   "concept_id": "pull-request-labeler",
+  "definition_status": "unresolved",
   "normalized_form": "pull-request-labeler",
   "observation_id": "001ca67df9c54e1e",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T10:25:53.609022+00:00",
   "observed_text": "Pull Request Labeler",
   "source_file": ".github/workflows/pr-labeler.yml",
-  "source_repo": "withastro/starlight"
+  "source_repo": "withastro/starlight",
+  "source_repo_description": null
 }

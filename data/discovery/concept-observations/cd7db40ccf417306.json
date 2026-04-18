@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "logo",
+  "definition_status": "unresolved",
   "normalized_form": "logo",
   "observation_id": "cd7db40ccf417306",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:41:43.530265+00:00",
   "observed_text": "logo",
   "source_file": null,
-  "source_repo": "lobehub/lobe-assets"
+  "source_repo": "lobehub/lobe-assets",
+  "source_repo_description": null
 }

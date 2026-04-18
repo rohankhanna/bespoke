@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "chromadb",
   "concept_id": "chromadb",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

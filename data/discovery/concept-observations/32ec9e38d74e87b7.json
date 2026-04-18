@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "java",
+  "definition_status": "unresolved",
   "normalized_form": "java",
   "observation_id": "32ec9e38d74e87b7",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:24:14.688152+00:00",
   "observed_text": "java",
   "source_file": null,
-  "source_repo": "google/j2cl"
+  "source_repo": "google/j2cl",
+  "source_repo_description": null
 }

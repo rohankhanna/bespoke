@@ -6,8 +6,10 @@
   "buckets": [
     "tool-component"
   ],
+  "candidate_definitions": [],
   "canonical_name": "maxkb",
   "concept_id": "maxkb",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

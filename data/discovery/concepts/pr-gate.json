@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "PR Gate",
   "concept_id": "pr-gate",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

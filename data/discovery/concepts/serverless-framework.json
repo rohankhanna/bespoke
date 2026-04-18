@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "serverless-framework",
   "concept_id": "serverless-framework",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

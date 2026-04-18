@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googlefonts/noto-emoji",
+      "target": "googlefonts/emoji-metadata",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googlefonts/noto-emoji",
+      "target": "googlei18n/noto-emoji",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "googlefonts/noto-emoji",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "googlefonts/noto-emoji",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "googlefonts/noto-emoji",
+      "target": "Continuous Test + Deploy",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T13:15:13.756138+00:00",
+  "source_repo": "googlefonts/noto-emoji"
+}

@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "golang",
+  "definition_status": "unresolved",
   "normalized_form": "golang",
   "observation_id": "9f98bd95aa41669e",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T10:43:38.551697+00:00",
   "observed_text": "golang",
   "source_file": null,
-  "source_repo": "charmbracelet/lipgloss"
+  "source_repo": "charmbracelet/lipgloss",
+  "source_repo_description": null
 }

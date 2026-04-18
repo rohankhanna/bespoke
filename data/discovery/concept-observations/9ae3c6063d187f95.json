@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "nvim",
+  "definition_status": "unresolved",
   "normalized_form": "nvim",
   "observation_id": "9ae3c6063d187f95",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:56:18.570627+00:00",
   "observed_text": "nvim",
   "source_file": null,
-  "source_repo": "folke/lazy.nvim"
+  "source_repo": "folke/lazy.nvim",
+  "source_repo_description": null
 }

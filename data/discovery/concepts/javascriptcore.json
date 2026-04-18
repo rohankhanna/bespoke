@@ -6,8 +6,10 @@
   "buckets": [
     "tool-component"
   ],
+  "candidate_definitions": [],
   "canonical_name": "javascriptcore",
   "concept_id": "javascriptcore",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "dependency-review",
+  "definition_status": "unresolved",
   "normalized_form": "dependency-review",
   "observation_id": "bdbe3f61d060bfb2",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:56:18.570627+00:00",
   "observed_text": "Dependency Review",
   "source_file": ".github/workflows/dependency-review.yml",
-  "source_repo": "dreamiurg/peakbagger-cli"
+  "source_repo": "dreamiurg/peakbagger-cli",
+  "source_repo_description": null
 }

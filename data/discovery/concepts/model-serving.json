@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "model-serving",
   "concept_id": "model-serving",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

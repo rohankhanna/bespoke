@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "auto-merge-dependabot-prs",
+  "definition_status": "unresolved",
   "normalized_form": "auto-merge-dependabot-prs",
   "observation_id": "a2d8f42936c40824",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:56:18.570627+00:00",
   "observed_text": "Auto-merge Dependabot PRs",
   "source_file": ".github/workflows/dependabot-auto-merge.yml",
-  "source_repo": "dreamiurg/peakbagger-cli"
+  "source_repo": "dreamiurg/peakbagger-cli",
+  "source_repo_description": null
 }

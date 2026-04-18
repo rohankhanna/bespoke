@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Bump plugin SHAs",
   "concept_id": "bump-plugin-shas",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

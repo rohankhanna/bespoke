@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "ai-auditability",
   "concept_id": "ai-auditability",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

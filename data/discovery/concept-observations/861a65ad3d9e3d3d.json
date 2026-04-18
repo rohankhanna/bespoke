@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "codeql",
+  "definition_status": "unresolved",
   "normalized_form": "codeql",
   "observation_id": "861a65ad3d9e3d3d",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:41:43.530265+00:00",
   "observed_text": "CodeQL",
   "source_file": ".github/workflows/codeql.yml",
-  "source_repo": "svg/svgo"
+  "source_repo": "svg/svgo",
+  "source_repo_description": null
 }

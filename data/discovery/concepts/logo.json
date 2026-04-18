@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "logo",
   "concept_id": "logo",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "aqavit",
   "concept_id": "aqavit",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

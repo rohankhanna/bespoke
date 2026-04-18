@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "spec-driven-development",
+  "definition_status": "unresolved",
   "normalized_form": "spec-driven-development",
   "observation_id": "98b7036f1b810e27",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T12:46:59.510459+00:00",
   "observed_text": "spec-driven-development",
   "source_file": null,
-  "source_repo": "ailev/FPF"
+  "source_repo": "ailev/FPF",
+  "source_repo_description": null
 }

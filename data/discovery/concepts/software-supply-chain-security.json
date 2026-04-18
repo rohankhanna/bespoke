@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "software-supply-chain-security",
   "concept_id": "software-supply-chain-security",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

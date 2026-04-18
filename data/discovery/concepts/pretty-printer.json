@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "pretty-printer",
   "concept_id": "pretty-printer",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

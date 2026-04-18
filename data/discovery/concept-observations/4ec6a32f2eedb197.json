@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "ci---libnpmpack",
+  "definition_status": "unresolved",
   "normalized_form": "ci---libnpmpack",
   "observation_id": "4ec6a32f2eedb197",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T12:07:11.500453+00:00",
   "observed_text": "CI - libnpmpack",
   "source_file": ".github/workflows/ci-libnpmpack.yml",
-  "source_repo": "npm/cli"
+  "source_repo": "npm/cli",
+  "source_repo_description": null
 }

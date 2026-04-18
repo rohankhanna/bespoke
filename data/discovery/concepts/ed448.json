@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "ed448",
   "concept_id": "ed448",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

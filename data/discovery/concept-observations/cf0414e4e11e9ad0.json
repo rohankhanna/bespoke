@@ -1,0 +1,36 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. "
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hacktoberfest",
+      "sense_id": "hacktoberfest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "hacktoberfest",
+  "definition_status": "unresolved",
+  "normalized_form": "hacktoberfest",
+  "observation_id": "cf0414e4e11e9ad0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T13:15:13.756138+00:00",
+  "observed_text": "hacktoberfest",
+  "source_file": null,
+  "source_repo": "huggingface/transformers",
+  "source_repo_description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. "
+}

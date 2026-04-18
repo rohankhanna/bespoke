@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "mountains",
+  "definition_status": "unresolved",
   "normalized_form": "mountains",
   "observation_id": "2a0ca38e3e58d824",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:56:18.570627+00:00",
   "observed_text": "mountains",
   "source_file": null,
-  "source_repo": "dreamiurg/peakbagger-cli"
+  "source_repo": "dreamiurg/peakbagger-cli",
+  "source_repo_description": null
 }

@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "dev-release-main",
+  "definition_status": "unresolved",
   "normalized_form": "dev-release-main",
   "observation_id": "f6fcf07784952dcd",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T12:07:11.500453+00:00",
   "observed_text": "Dev Release (main)",
   "source_file": ".github/workflows/dev-release.yml",
-  "source_repo": "shareAI-lab/Kode-Agent"
+  "source_repo": "shareAI-lab/Kode-Agent",
+  "source_repo_description": null
 }

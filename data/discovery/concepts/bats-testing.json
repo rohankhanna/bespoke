@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "bats-testing",
   "concept_id": "bats-testing",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

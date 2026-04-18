@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "installer",
   "concept_id": "installer",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

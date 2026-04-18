@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Mark and close stale issues",
   "concept_id": "mark-and-close-stale-issues",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

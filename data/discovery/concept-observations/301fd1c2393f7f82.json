@@ -4,6 +4,13 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "aider is AI pair programming in your terminal"
+    }
+  ],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +24,13 @@
     }
   ],
   "concept_id": "chatgpt",
+  "definition_status": "unresolved",
   "normalized_form": "chatgpt",
   "observation_id": "301fd1c2393f7f82",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-18T12:07:11.500453+00:00",
+  "observed_at": "2026-04-18T13:15:13.756138+00:00",
   "observed_text": "chatgpt",
   "source_file": null,
-  "source_repo": "Aider-AI/aider"
+  "source_repo": "Aider-AI/aider",
+  "source_repo_description": "aider is AI pair programming in your terminal"
 }

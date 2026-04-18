@@ -1,0 +1,36 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A tamagotchi-style virtual pet that lives in your Claude Code statusline"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ascii-art",
+      "sense_id": "ascii-art#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "ascii-art",
+  "definition_status": "unresolved",
+  "normalized_form": "ascii-art",
+  "observation_id": "72e471cca2ed4a06",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T13:15:13.756138+00:00",
+  "observed_text": "ascii-art",
+  "source_file": null,
+  "source_repo": "vincent-k2026/codachi",
+  "source_repo_description": "A tamagotchi-style virtual pet that lives in your Claude Code statusline"
+}

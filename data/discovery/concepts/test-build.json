@@ -1,23 +1,40 @@
 {
   "aliases": [
-    "test build"
+    "test build",
+    "Test Build"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
-    "workflow-process"
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jpanther/congo",
+      "status": "candidate-context",
+      "text": "A powerful, lightweight theme for Hugo built with Tailwind CSS."
+    }
   ],
   "canonical_name": "test build",
   "concept_id": "test-build",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",
       "observed_at": "2026-04-18T10:25:53.609022+00:00",
       "source_file": ".github/workflows/test.yaml",
       "source_repo": "asg017/sqlite-vss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T13:15:13.756138+00:00",
+      "source_file": ".github/workflows/test-build.yml",
+      "source_repo": "jpanther/congo"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "possible_senses": [
     {
       "buckets": [

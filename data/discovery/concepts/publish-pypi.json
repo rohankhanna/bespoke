@@ -8,8 +8,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "publish pypi",
   "concept_id": "publish-pypi",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v2",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
+  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -77,6 +77,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "junegunn/vim-plug"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "googlefonts/noto-emoji"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "purcell/inheritenv"
     }
   ]
 }

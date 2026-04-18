@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Test Suite - London School TDD",
   "concept_id": "test-suite---london-school-tdd",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "testing-e2e-chained",
+  "definition_status": "unresolved",
   "normalized_form": "testing-e2e-chained",
   "observation_id": "6985c714a7ef3f98",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T12:06:06.216548+00:00",
   "observed_text": "Testing: E2E (Chained)",
   "source_file": ".github/workflows/chained_e2e.yml",
-  "source_repo": "google-gemini/gemini-cli"
+  "source_repo": "google-gemini/gemini-cli",
+  "source_repo_description": null
 }

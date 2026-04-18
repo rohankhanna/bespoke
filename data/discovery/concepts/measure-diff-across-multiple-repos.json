@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Measure Diff Across Multiple Repos",
   "concept_id": "measure-diff-across-multiple-repos",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

@@ -6,8 +6,10 @@
   "buckets": [
     "workflow-process"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Close stale contributor PRs",
   "concept_id": "close-stale-contributor-prs",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

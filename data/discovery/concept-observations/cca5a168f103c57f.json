@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "qwen",
+  "definition_status": "unresolved",
   "normalized_form": "qwen",
   "observation_id": "cca5a168f103c57f",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T10:43:38.551697+00:00",
   "observed_text": "qwen",
   "source_file": null,
-  "source_repo": "sgl-project/sglang"
+  "source_repo": "sgl-project/sglang",
+  "source_repo_description": null
 }

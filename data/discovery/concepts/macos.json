@@ -9,8 +9,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "macOS",
   "concept_id": "macos",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

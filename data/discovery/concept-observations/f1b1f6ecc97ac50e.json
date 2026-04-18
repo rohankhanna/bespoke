@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "prompt-engineering",
+  "definition_status": "unresolved",
   "normalized_form": "prompt-engineering",
   "observation_id": "f1b1f6ecc97ac50e",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:57:36.597358+00:00",
   "observed_text": "prompt-engineering",
   "source_file": null,
-  "source_repo": "protectai/llm-guard"
+  "source_repo": "protectai/llm-guard",
+  "source_repo_description": null
 }

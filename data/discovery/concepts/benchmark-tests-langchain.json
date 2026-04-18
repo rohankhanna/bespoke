@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Benchmark Tests (LangChain)",
   "concept_id": "benchmark-tests-langchain",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

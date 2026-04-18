@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "docs-links-pr",
+  "definition_status": "unresolved",
   "normalized_form": "docs-links-pr",
   "observation_id": "c08e49fc5b83fcf7",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:24:14.688152+00:00",
   "observed_text": "Docs Links PR",
   "source_file": ".github/workflows/docs-links-pr.yaml",
-  "source_repo": "NVIDIA/NemoClaw"
+  "source_repo": "NVIDIA/NemoClaw",
+  "source_repo_description": null
 }

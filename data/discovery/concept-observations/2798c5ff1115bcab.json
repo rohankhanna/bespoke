@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "generative-ai",
+  "definition_status": "unresolved",
   "normalized_form": "generative-ai",
   "observation_id": "2798c5ff1115bcab",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:56:18.570627+00:00",
   "observed_text": "generative-ai",
   "source_file": null,
-  "source_repo": "langchain-ai/langgraph"
+  "source_repo": "langchain-ai/langgraph",
+  "source_repo_description": null
 }

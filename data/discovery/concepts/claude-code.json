@@ -10,8 +10,35 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hluaguo/learn-faster-kit",
+      "status": "candidate-context",
+      "text": "AI-powered learning coach with spaced repetition with Claude Code - master any knowledge faster with personalized syllabi and progress tracking"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
+      "status": "candidate-context",
+      "text": "An index of my Claude Code related repos including a wide variety of starter templates for using Claude Code for common and more imaginative purposes!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Claude-Slash-Commands",
+      "status": "candidate-context",
+      "text": "My Claude Code slash commands"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vincent-k2026/codachi",
+      "status": "candidate-context",
+      "text": "A tamagotchi-style virtual pet that lives in your Claude Code statusline"
+    }
+  ],
   "canonical_name": "claude-code",
   "concept_id": "claude-code",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",
@@ -180,10 +207,34 @@
       "observed_at": "2026-04-18T12:46:59.510459+00:00",
       "source_file": null,
       "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:15:13.756138+00:00",
+      "source_file": null,
+      "source_repo": "hluaguo/learn-faster-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:15:13.756138+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:15:13.756138+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Slash-Commands"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:15:13.756138+00:00",
+      "source_file": null,
+      "source_repo": "vincent-k2026/codachi"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "possible_senses": [
     {
       "buckets": [

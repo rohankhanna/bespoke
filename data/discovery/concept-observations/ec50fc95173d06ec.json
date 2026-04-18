@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "claude-auto-testing-coverage",
+  "definition_status": "unresolved",
   "normalized_form": "claude-auto-testing-coverage",
   "observation_id": "ec50fc95173d06ec",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:32:22.637859+00:00",
   "observed_text": "Claude Auto Testing Coverage",
   "source_file": ".github/workflows/claude-auto-testing.yml",
-  "source_repo": "lobehub/lobehub"
+  "source_repo": "lobehub/lobehub",
+  "source_repo_description": null
 }

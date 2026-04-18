@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Patterns Artifact",
   "concept_id": "patterns-artifact",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

@@ -1,0 +1,36 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Security Scanner for Agent Skills"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run Unit Tests",
+      "sense_id": "run-unit-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "run-unit-tests",
+  "definition_status": "unresolved",
+  "normalized_form": "run-unit-tests",
+  "observation_id": "a5b041d2038ae740",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T13:15:13.756138+00:00",
+  "observed_text": "Run Unit Tests",
+  "source_file": ".github/workflows/python-tests.yml",
+  "source_repo": "cisco-ai-defense/skill-scanner",
+  "source_repo_description": "Security Scanner for Agent Skills"
+}

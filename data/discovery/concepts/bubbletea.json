@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "bubbletea",
   "concept_id": "bubbletea",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

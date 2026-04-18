@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "test-stylua",
+  "definition_status": "unresolved",
   "normalized_form": "test-stylua",
   "observation_id": "699ce618928d73a7",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:56:18.570627+00:00",
   "observed_text": "Test StyLua",
   "source_file": ".github/workflows/ci.yml",
-  "source_repo": "JohnnyMorganz/StyLua"
+  "source_repo": "JohnnyMorganz/StyLua",
+  "source_repo_description": null
 }

@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Lock Threads",
   "concept_id": "lock-threads",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

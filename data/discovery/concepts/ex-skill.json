@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "ex-skill",
   "concept_id": "ex-skill",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

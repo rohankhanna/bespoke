@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "xdg-basedir",
   "concept_id": "xdg-basedir",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Docker images",
   "concept_id": "docker-images",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

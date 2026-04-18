@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "bulk-utilities",
+  "definition_status": "unresolved",
   "normalized_form": "bulk-utilities",
   "observation_id": "03a04ebbc5104931",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T12:06:06.216548+00:00",
   "observed_text": "bulk-utilities",
   "source_file": null,
-  "source_repo": "danielrosehill/Batch-ClaudeMD-Repo-Creator"
+  "source_repo": "danielrosehill/Batch-ClaudeMD-Repo-Creator",
+  "source_repo_description": null
 }

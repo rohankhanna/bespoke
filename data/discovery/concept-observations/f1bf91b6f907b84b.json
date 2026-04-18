@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "deploy-to-github-pages",
+  "definition_status": "unresolved",
   "normalized_form": "deploy-to-github-pages",
   "observation_id": "f1bf91b6f907b84b",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T12:46:59.510459+00:00",
   "observed_text": "Deploy to GitHub Pages",
   "source_file": ".github/workflows/deploy.yml",
-  "source_repo": "slopus/slopus.github.io"
+  "source_repo": "slopus/slopus.github.io",
+  "source_repo_description": null
 }

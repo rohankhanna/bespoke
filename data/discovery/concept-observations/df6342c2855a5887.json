@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "release-integration-packages",
+  "definition_status": "unresolved",
   "normalized_form": "release-integration-packages",
   "observation_id": "df6342c2855a5887",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T10:43:38.551697+00:00",
   "observed_text": "Release Integration Packages",
   "source_file": ".github/workflows/release-integrations.yml",
-  "source_repo": "getzep/zep"
+  "source_repo": "getzep/zep",
+  "source_repo_description": null
 }

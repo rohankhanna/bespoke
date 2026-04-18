@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "life",
+  "definition_status": "unresolved",
   "normalized_form": "life",
   "observation_id": "c5cffd467c9b2a82",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:41:43.530265+00:00",
   "observed_text": "life",
   "source_file": null,
-  "source_repo": "danielmiessler/Fabric"
+  "source_repo": "danielmiessler/Fabric",
+  "source_repo_description": null
 }

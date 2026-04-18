@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stevemolitor/monet",
+      "target": "ahyatt/emacs-websocket",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-18T13:15:13.756138+00:00",
+  "source_repo": "stevemolitor/monet"
+}

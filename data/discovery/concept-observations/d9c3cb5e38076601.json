@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "commit-lint",
+  "definition_status": "unresolved",
   "normalized_form": "commit-lint",
   "observation_id": "d9c3cb5e38076601",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:24:14.688152+00:00",
   "observed_text": "commit-lint",
   "source_file": ".github/workflows/commit-lint.yaml",
-  "source_repo": "NVIDIA/NemoClaw"
+  "source_repo": "NVIDIA/NemoClaw",
+  "source_repo_description": null
 }

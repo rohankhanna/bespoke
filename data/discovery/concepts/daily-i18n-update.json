@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Daily i18n Update",
   "concept_id": "daily-i18n-update",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

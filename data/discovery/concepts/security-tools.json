@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "security-tools",
   "concept_id": "security-tools",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

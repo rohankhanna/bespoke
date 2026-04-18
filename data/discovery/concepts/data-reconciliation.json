@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "data-reconciliation",
   "concept_id": "data-reconciliation",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

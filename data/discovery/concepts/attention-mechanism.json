@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "attention-mechanism",
   "concept_id": "attention-mechanism",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

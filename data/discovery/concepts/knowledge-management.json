@@ -6,8 +6,10 @@
   "buckets": [
     "tool-component"
   ],
+  "candidate_definitions": [],
   "canonical_name": "knowledge-management",
   "concept_id": "knowledge-management",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

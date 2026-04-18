@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "build-diskann-native-modules",
+  "definition_status": "unresolved",
   "normalized_form": "build-diskann-native-modules",
   "observation_id": "e689f41a7231e844",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:57:36.597358+00:00",
   "observed_text": "Build DiskANN Native Modules",
   "source_file": ".github/workflows/build-diskann.yml",
-  "source_repo": "ruvnet/RuVector"
+  "source_repo": "ruvnet/RuVector",
+  "source_repo_description": null
 }

@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Publish Skills to Claude Code Marketplace",
   "concept_id": "publish-skills-to-claude-code-marketplace",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

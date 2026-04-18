@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Check Issue Completeness",
   "concept_id": "check-issue-completeness",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "issue-auto-comment",
+  "definition_status": "unresolved",
   "normalized_form": "issue-auto-comment",
   "observation_id": "d9b01c2f0538eaf4",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:41:43.530265+00:00",
   "observed_text": "Issue Auto Comment",
   "source_file": ".github/workflows/issue-auto-comments.yml",
-  "source_repo": "lobehub/chat-plugin-search-engine"
+  "source_repo": "lobehub/chat-plugin-search-engine",
+  "source_repo_description": null
 }

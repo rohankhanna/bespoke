@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "adversarial-robustness",
   "concept_id": "adversarial-robustness",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

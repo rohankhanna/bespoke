@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "macOS Apple Silicon Smoke Test",
   "concept_id": "macos-apple-silicon-smoke-test",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

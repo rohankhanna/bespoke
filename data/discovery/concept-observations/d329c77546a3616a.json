@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "component-integration-tests",
+  "definition_status": "unresolved",
   "normalized_form": "component-integration-tests",
   "observation_id": "d329c77546a3616a",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T12:07:11.500453+00:00",
   "observed_text": "Component Integration Tests",
   "source_file": ".github/workflows/component-integration.yml",
-  "source_repo": "trailofbits/buttercup"
+  "source_repo": "trailofbits/buttercup",
+  "source_repo_description": null
 }

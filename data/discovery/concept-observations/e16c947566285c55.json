@@ -3,6 +3,7 @@
   "candidate_buckets": [
     "tool-component"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -15,11 +16,13 @@
     }
   ],
   "concept_id": "agent-skill",
+  "definition_status": "unresolved",
   "normalized_form": "agent-skill",
   "observation_id": "e16c947566285c55",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T10:25:53.609022+00:00",
   "observed_text": "agent-skill",
   "source_file": null,
-  "source_repo": "Astro-Han/karpathy-llm-wiki"
+  "source_repo": "Astro-Han/karpathy-llm-wiki",
+  "source_repo_description": null
 }

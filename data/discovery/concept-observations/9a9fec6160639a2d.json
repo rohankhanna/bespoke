@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "pre-commit",
+  "definition_status": "unresolved",
   "normalized_form": "pre-commit",
   "observation_id": "9a9fec6160639a2d",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:32:22.637859+00:00",
   "observed_text": "pre-commit",
   "source_file": ".github/workflows/pre-commit.yml",
-  "source_repo": "crate-ci/typos"
+  "source_repo": "crate-ci/typos",
+  "source_repo_description": null
 }

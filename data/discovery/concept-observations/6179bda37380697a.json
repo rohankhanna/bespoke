@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "audit",
+  "definition_status": "unresolved",
   "normalized_form": "audit",
   "observation_id": "6179bda37380697a",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T12:07:11.500453+00:00",
   "observed_text": "Audit",
   "source_file": ".github/workflows/audit.yml",
-  "source_repo": "npm/cli"
+  "source_repo": "npm/cli",
+  "source_repo_description": null
 }

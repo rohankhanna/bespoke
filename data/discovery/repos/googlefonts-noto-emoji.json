@@ -1,0 +1,96 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googlefonts/noto-emoji",
+      "target": "googlefonts/emoji-metadata",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googlefonts/noto-emoji",
+      "target": "googlei18n/noto-emoji",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "googlefonts/noto-emoji",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "googlefonts/noto-emoji",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "googlefonts/noto-emoji",
+      "target": "Continuous Test + Deploy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T13:15:42.699551+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2489
+    },
+    {
+      "path": "requirements.txt",
+      "size": 71
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 386
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Noto Emoji fonts",
+    "full_name": "googlefonts/noto-emoji",
+    "html_url": "https://github.com/googlefonts/noto-emoji",
+    "language": "Python",
+    "pushed_at": "2025-09-15T22:36:48Z",
+    "topics": [],
+    "updated_at": "2026-04-18T06:11:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlefonts/emoji-metadata",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlei18n/noto-emoji",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous Test + Deploy"
+    }
+  ]
+}

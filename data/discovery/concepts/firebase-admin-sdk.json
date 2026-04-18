@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "firebase-admin-sdk",
   "concept_id": "firebase-admin-sdk",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

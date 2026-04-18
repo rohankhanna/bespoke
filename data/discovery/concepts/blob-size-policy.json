@@ -6,8 +6,10 @@
   "buckets": [
     "workflow-process"
   ],
+  "candidate_definitions": [],
   "canonical_name": "blob-size-policy",
   "concept_id": "blob-size-policy",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

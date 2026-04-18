@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "electron",
+  "definition_status": "unresolved",
   "normalized_form": "electron",
   "observation_id": "f04074e4e3d65917",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T10:43:38.551697+00:00",
   "observed_text": "electron",
   "source_file": null,
-  "source_repo": "op7418/CodePilot"
+  "source_repo": "op7418/CodePilot",
+  "source_repo_description": null
 }

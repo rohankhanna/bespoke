@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "conceptual-modeling",
   "concept_id": "conceptual-modeling",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

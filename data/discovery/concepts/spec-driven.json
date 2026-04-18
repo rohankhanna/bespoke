@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "spec-driven",
   "concept_id": "spec-driven",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

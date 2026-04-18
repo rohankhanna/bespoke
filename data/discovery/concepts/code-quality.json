@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "code-quality",
   "concept_id": "code-quality",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

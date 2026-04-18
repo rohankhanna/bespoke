@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "awesome",
   "concept_id": "awesome",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

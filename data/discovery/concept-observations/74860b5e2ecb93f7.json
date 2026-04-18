@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "run-codeql",
+  "definition_status": "unresolved",
   "normalized_form": "run-codeql",
   "observation_id": "74860b5e2ecb93f7",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T12:07:11.500453+00:00",
   "observed_text": "Run CodeQL",
   "source_file": ".github/workflows/codeql.yml",
-  "source_repo": "nodejs/node"
+  "source_repo": "nodejs/node",
+  "source_repo_description": null
 }

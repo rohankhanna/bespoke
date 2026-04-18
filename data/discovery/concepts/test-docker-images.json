@@ -6,8 +6,10 @@
   "buckets": [
     "workflow-process"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Test Docker Images",
   "concept_id": "test-docker-images",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

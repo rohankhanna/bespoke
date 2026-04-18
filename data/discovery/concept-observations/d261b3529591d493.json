@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "discord-notification",
+  "definition_status": "unresolved",
   "normalized_form": "discord-notification",
   "observation_id": "d261b3529591d493",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:57:36.597358+00:00",
   "observed_text": "Discord Notification",
   "source_file": ".github/workflows/discord.yaml",
-  "source_repo": "bmad-code-org/BMAD-METHOD"
+  "source_repo": "bmad-code-org/BMAD-METHOD",
+  "source_repo_description": null
 }

@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "mcp-server",
   "concept_id": "mcp-server",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

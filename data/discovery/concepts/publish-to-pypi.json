@@ -7,8 +7,17 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cisco-ai-defense/skill-scanner",
+      "status": "candidate-context",
+      "text": "Security Scanner for Agent Skills"
+    }
+  ],
   "canonical_name": "Publish to PyPI",
   "concept_id": "publish-to-pypi",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",
@@ -27,10 +36,16 @@
       "observed_at": "2026-04-18T12:06:06.216548+00:00",
       "source_file": ".github/workflows/publish-pypi.yml",
       "source_repo": "SuperClaude-Org/SuperQwen_Framework"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T13:15:13.756138+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "cisco-ai-defense/skill-scanner"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "possible_senses": [
     {
       "buckets": [

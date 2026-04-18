@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "react",
   "concept_id": "react",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

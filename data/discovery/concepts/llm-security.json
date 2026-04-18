@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "llm-security",
   "concept_id": "llm-security",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

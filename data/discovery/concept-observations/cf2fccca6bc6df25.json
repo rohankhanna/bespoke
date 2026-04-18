@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "docker-build-and-push",
+  "definition_status": "unresolved",
   "normalized_form": "docker-build-and-push",
   "observation_id": "cf2fccca6bc6df25",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T12:07:11.500453+00:00",
   "observed_text": "Docker Build and Push",
   "source_file": ".github/workflows/docker.yml",
-  "source_repo": "trailofbits/buttercup"
+  "source_repo": "trailofbits/buttercup",
+  "source_repo_description": null
 }

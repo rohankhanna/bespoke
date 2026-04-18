@@ -3,6 +3,7 @@
   "candidate_buckets": [
     "workflow-process"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -15,11 +16,13 @@
     }
   ],
   "concept_id": "claude-find-issues-for-pr",
+  "definition_status": "unresolved",
   "normalized_form": "claude-find-issues-for-pr",
   "observation_id": "823312737091a1f0",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T10:25:53.609022+00:00",
   "observed_text": "Claude Find Issues for PR",
   "source_file": ".github/workflows/claude-find-issues-for-pr.yml",
-  "source_repo": "oven-sh/bun"
+  "source_repo": "oven-sh/bun",
+  "source_repo_description": null
 }

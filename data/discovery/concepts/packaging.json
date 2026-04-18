@@ -10,8 +10,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "packaging",
   "concept_id": "packaging",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

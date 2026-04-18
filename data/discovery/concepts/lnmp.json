@@ -6,8 +6,10 @@
   "buckets": [
     "tool-component"
   ],
+  "candidate_definitions": [],
   "canonical_name": "lnmp",
   "concept_id": "lnmp",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

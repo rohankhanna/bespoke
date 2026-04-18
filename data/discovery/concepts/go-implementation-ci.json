@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Go implementation (CI)",
   "concept_id": "go-implementation-ci",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

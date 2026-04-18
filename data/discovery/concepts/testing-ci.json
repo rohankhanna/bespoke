@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Testing: CI",
   "concept_id": "testing-ci",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

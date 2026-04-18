@@ -1,0 +1,422 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-scanning.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-scanning.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-scanning.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-changelog.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-changelog.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-changelog.yml"
+    },
+    {
+      "component": "mikepenz/release-changelog-builder-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-changelog.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release-build.yml"
+    },
+    {
+      "component": "ffurrer2/extract-release-notes@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release-build.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release-build.yml"
+    },
+    {
+      "component": "mislav/bump-homebrew-formula-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release-build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release-docs.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot-build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot-docs.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-with-code.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-with-code.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-with-code.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pinterest/ktlint",
+      "target": "standard/standard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-scanning.yml",
+      "source_repo": "pinterest/ktlint",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-scanning.yml",
+      "source_repo": "pinterest/ktlint",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-scanning.yml",
+      "source_repo": "pinterest/ktlint",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-scanning.yml",
+      "source_repo": "pinterest/ktlint",
+      "target": "CodeQL Advanced",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-changelog.yml",
+      "source_repo": "pinterest/ktlint",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-changelog.yml",
+      "source_repo": "pinterest/ktlint",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-changelog.yml",
+      "source_repo": "pinterest/ktlint",
+      "target": "gradle/actions/setup-gradle@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-changelog.yml",
+      "source_repo": "pinterest/ktlint",
+      "target": "mikepenz/release-changelog-builder-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-changelog.yml",
+      "source_repo": "pinterest/ktlint",
+      "target": "Generate changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release-build.yml",
+      "source_repo": "pinterest/ktlint",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release-build.yml",
+      "source_repo": "pinterest/ktlint",
+      "target": "ffurrer2/extract-release-notes@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release-build.yml",
+      "source_repo": "pinterest/ktlint",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release-build.yml",
+      "source_repo": "pinterest/ktlint",
+      "target": "mislav/bump-homebrew-formula-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-release-build.yml",
+      "source_repo": "pinterest/ktlint",
+      "target": "Publish release build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release-docs.yml",
+      "source_repo": "pinterest/ktlint",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release-docs.yml",
+      "source_repo": "pinterest/ktlint",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-release-docs.yml",
+      "source_repo": "pinterest/ktlint",
+      "target": "Publish release documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot-build.yml",
+      "source_repo": "pinterest/ktlint",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-snapshot-build.yml",
+      "source_repo": "pinterest/ktlint",
+      "target": "Publish snapshot build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot-docs.yml",
+      "source_repo": "pinterest/ktlint",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot-docs.yml",
+      "source_repo": "pinterest/ktlint",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-snapshot-docs.yml",
+      "source_repo": "pinterest/ktlint",
+      "target": "Publish snapshot documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-with-code.yml",
+      "source_repo": "pinterest/ktlint",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request-with-code.yml",
+      "source_repo": "pinterest/ktlint",
+      "target": "Pull request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request-without-code.yml",
+      "source_repo": "pinterest/ktlint",
+      "target": "Pull request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pinterest/ktlint",
+      "target": "kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pinterest/ktlint",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pinterest/ktlint",
+      "target": "linter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T13:15:22.911343+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3141
+    },
+    {
+      "path": ".github/workflows/code-scanning.yml",
+      "size": 2595
+    },
+    {
+      "path": ".github/workflows/generate-changelog.yml",
+      "size": 3096
+    },
+    {
+      "path": ".github/workflows/publish-release-build.yml",
+      "size": 3146
+    },
+    {
+      "path": ".github/workflows/publish-release-docs.yml",
+      "size": 1334
+    },
+    {
+      "path": ".github/workflows/publish-snapshot-build.yml",
+      "size": 2580
+    },
+    {
+      "path": ".github/workflows/publish-snapshot-docs.yml",
+      "size": 1137
+    },
+    {
+      "path": ".github/workflows/pull-request-with-code.yml",
+      "size": 3235
+    },
+    {
+      "path": ".github/workflows/pull-request-without-code.yml",
+      "size": 1461
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "An anti-bikeshedding Kotlin linter with built-in formatter",
+    "full_name": "pinterest/ktlint",
+    "html_url": "https://github.com/pinterest/ktlint",
+    "language": "Kotlin",
+    "pushed_at": "2026-04-18T09:50:30Z",
+    "topics": [
+      "kotlin",
+      "lint",
+      "linter"
+    ],
+    "updated_at": "2026-04-18T09:49:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "standard/standard",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-scanning.yml",
+      "term": "CodeQL Advanced"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-changelog.yml",
+      "term": "Generate changelog"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-release-build.yml",
+      "term": "Publish release build"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-release-docs.yml",
+      "term": "Publish release documentation"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-snapshot-build.yml",
+      "term": "Publish snapshot build"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-snapshot-docs.yml",
+      "term": "Publish snapshot documentation"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request-with-code.yml",
+      "term": "Pull request"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request-without-code.yml",
+      "term": "Pull request"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lint"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    }
+  ]
+}

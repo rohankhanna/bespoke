@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "desktop-app",
   "concept_id": "desktop-app",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

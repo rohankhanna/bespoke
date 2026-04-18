@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "crud",
+  "definition_status": "unresolved",
   "normalized_form": "crud",
   "observation_id": "7cc113bccfb1f688",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T10:43:38.551697+00:00",
   "observed_text": "crud",
   "source_file": null,
-  "source_repo": "musicman3/Cruder"
+  "source_repo": "musicman3/Cruder",
+  "source_repo_description": null
 }

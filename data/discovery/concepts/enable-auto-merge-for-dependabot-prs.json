@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Enable auto-merge for Dependabot PRs",
   "concept_id": "enable-auto-merge-for-dependabot-prs",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

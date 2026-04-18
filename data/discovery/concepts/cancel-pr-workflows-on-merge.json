@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Cancel PR Workflows on Merge",
   "concept_id": "cancel-pr-workflows-on-merge",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

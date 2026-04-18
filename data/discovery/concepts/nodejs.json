@@ -7,8 +7,17 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vincent-k2026/codachi",
+      "status": "candidate-context",
+      "text": "A tamagotchi-style virtual pet that lives in your Claude Code statusline"
+    }
+  ],
   "canonical_name": "nodejs",
   "concept_id": "nodejs",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",
@@ -45,10 +54,16 @@
       "observed_at": "2026-04-18T12:07:11.500453+00:00",
       "source_file": null,
       "source_repo": "npm/cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:15:13.756138+00:00",
+      "source_file": null,
+      "source_repo": "vincent-k2026/codachi"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
+  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "possible_senses": [
     {
       "buckets": [

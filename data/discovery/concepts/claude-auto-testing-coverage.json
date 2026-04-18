@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Claude Auto Testing Coverage",
   "concept_id": "claude-auto-testing-coverage",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

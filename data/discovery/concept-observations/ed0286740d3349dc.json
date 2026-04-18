@@ -3,6 +3,7 @@
   "candidate_buckets": [
     "workflow-process"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -15,11 +16,13 @@
     }
   ],
   "concept_id": "create-sbom-for-the-release",
+  "definition_status": "unresolved",
   "normalized_form": "create-sbom-for-the-release",
   "observation_id": "ed0286740d3349dc",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T10:25:53.609022+00:00",
   "observed_text": "Create SBOM for the release",
   "source_file": ".github/workflows/create_sbom_report.yml",
-  "source_repo": "actions/runner-images"
+  "source_repo": "actions/runner-images",
+  "source_repo_description": null
 }

@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Claude PR Review",
   "concept_id": "claude-pr-review",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

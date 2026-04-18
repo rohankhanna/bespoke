@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "large-language-models",
   "concept_id": "large-language-models",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

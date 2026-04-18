@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "translator-path-guard",
+  "definition_status": "unresolved",
   "normalized_form": "translator-path-guard",
   "observation_id": "ad53a59cbb27d19a",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:24:14.688152+00:00",
   "observed_text": "translator-path-guard",
   "source_file": ".github/workflows/pr-path-guard.yml",
-  "source_repo": "router-for-me/CLIProxyAPI"
+  "source_repo": "router-for-me/CLIProxyAPI",
+  "source_repo_description": null
 }

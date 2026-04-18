@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "climbing",
   "concept_id": "climbing",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

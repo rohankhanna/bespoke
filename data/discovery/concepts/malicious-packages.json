@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "malicious-packages",
   "concept_id": "malicious-packages",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

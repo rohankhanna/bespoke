@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "node.js-integration-tests",
+  "definition_status": "unresolved",
   "normalized_form": "node.js-integration-tests",
   "observation_id": "e1fc6510780315ce",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:41:43.530265+00:00",
   "observed_text": "Node.js Integration Tests",
   "source_file": ".github/workflows/integration.yml",
-  "source_repo": "langchain-ai/langchainjs"
+  "source_repo": "langchain-ai/langchainjs",
+  "source_repo_description": null
 }

@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "amazon-bedrock",
   "concept_id": "amazon-bedrock",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

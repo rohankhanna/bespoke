@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "k8s-sig-architecture",
   "concept_id": "k8s-sig-architecture",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

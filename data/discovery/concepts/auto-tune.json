@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Auto tune",
   "concept_id": "auto-tune",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

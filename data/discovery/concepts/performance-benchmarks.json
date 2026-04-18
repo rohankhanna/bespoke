@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Performance Benchmarks",
   "concept_id": "performance-benchmarks",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

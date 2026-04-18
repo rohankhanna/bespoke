@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "validate-pull-request",
+  "definition_status": "unresolved",
   "normalized_form": "validate-pull-request",
   "observation_id": "3bd6968d788db1ac",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:56:18.570627+00:00",
   "observed_text": "Validate pull request",
   "source_file": ".github/workflows/pr.yml",
-  "source_repo": "jj-vcs/jj"
+  "source_repo": "jj-vcs/jj",
+  "source_repo_description": null
 }

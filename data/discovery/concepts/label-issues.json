@@ -6,8 +6,10 @@
   "buckets": [
     "workflow-process"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Label issues",
   "concept_id": "label-issues",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

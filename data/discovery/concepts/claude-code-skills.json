@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "claude-code-skills",
   "concept_id": "claude-code-skills",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

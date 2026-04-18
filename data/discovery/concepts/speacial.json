@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "speacial",
   "concept_id": "speacial",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

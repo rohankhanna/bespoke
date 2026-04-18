@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "cursor",
   "concept_id": "cursor",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "lobe-ui",
   "concept_id": "lobe-ui",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

@@ -9,8 +9,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Windows",
   "concept_id": "windows",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

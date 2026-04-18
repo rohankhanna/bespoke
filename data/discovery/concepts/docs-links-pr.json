@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Docs Links PR",
   "concept_id": "docs-links-pr",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

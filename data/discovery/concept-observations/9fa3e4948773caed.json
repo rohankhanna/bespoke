@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "transport-interop---build-implementation-images",
+  "definition_status": "unresolved",
   "normalized_form": "transport-interop---build-implementation-images",
   "observation_id": "9fa3e4948773caed",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:24:14.688152+00:00",
   "observed_text": "Transport Interop - Build Implementation Images",
   "source_file": ".github/workflows/transport-interop-build-implementations.yml",
-  "source_repo": "libp2p/test-plans"
+  "source_repo": "libp2p/test-plans",
+  "source_repo_description": null
 }

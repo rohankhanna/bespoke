@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "cncf",
   "concept_id": "cncf",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

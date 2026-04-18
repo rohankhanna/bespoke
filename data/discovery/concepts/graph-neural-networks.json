@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "graph-neural-networks",
   "concept_id": "graph-neural-networks",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

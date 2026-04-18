@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "claude-3-5-sonnet",
   "concept_id": "claude-3-5-sonnet",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

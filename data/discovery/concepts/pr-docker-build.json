@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "PR Docker Build",
   "concept_id": "pr-docker-build",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

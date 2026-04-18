@@ -9,8 +9,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "ecdsa",
   "concept_id": "ecdsa",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

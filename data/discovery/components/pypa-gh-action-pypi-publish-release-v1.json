@@ -1,7 +1,7 @@
 {
   "component": "pypa/gh-action-pypi-publish@release/v1",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -167,6 +167,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/packaging.yml",
       "source_repo": "Delgan/loguru"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "cisco-ai-defense/skill-scanner"
     }
   ]
 }

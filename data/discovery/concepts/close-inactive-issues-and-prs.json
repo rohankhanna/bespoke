@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Close inactive issues and PRs",
   "concept_id": "close-inactive-issues-and-prs",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

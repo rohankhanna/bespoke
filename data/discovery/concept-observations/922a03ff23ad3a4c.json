@@ -1,0 +1,36 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A powerful, lightweight theme for Hugo built with Tailwind CSS."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "accessible",
+      "sense_id": "accessible#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "accessible",
+  "definition_status": "unresolved",
+  "normalized_form": "accessible",
+  "observation_id": "922a03ff23ad3a4c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T13:15:13.756138+00:00",
+  "observed_text": "accessible",
+  "source_file": null,
+  "source_repo": "jpanther/congo",
+  "source_repo_description": "A powerful, lightweight theme for Hugo built with Tailwind CSS."
+}

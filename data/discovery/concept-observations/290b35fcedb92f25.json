@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "binaries",
+  "definition_status": "unresolved",
   "normalized_form": "binaries",
   "observation_id": "290b35fcedb92f25",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:56:18.570627+00:00",
   "observed_text": "binaries",
   "source_file": ".github/workflows/binaries.yml",
-  "source_repo": "jj-vcs/jj"
+  "source_repo": "jj-vcs/jj",
+  "source_repo_description": null
 }

@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "llm-agent",
   "concept_id": "llm-agent",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

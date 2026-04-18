@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "pep8",
   "concept_id": "pep8",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

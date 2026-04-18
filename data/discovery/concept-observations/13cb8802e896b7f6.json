@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "release-prepare",
+  "definition_status": "unresolved",
   "normalized_form": "release-prepare",
   "observation_id": "13cb8802e896b7f6",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T12:46:59.510459+00:00",
   "observed_text": "Release (prepare)",
   "source_file": ".github/workflows/release-prepare.yml",
-  "source_repo": "Fission-AI/OpenSpec"
+  "source_repo": "Fission-AI/OpenSpec",
+  "source_repo_description": null
 }

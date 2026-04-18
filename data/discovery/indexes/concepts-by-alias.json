@@ -11,6 +11,9 @@
   "above": [
     "en-preposition-above"
   ],
+  "accessible": [
+    "accessible"
+  ],
   "across": [
     "en-preposition-across"
   ],
@@ -19,6 +22,9 @@
   ],
   "add label on auto-merge enabled": [
     "add-label-on-auto-merge-enabled"
+  ],
+  "add model like runner": [
+    "add-model-like-runner"
   ],
   "add new implementation versions": [
     "add-new-implementation-versions"
@@ -195,6 +201,9 @@
   "anti": [
     "en-preposition-anti"
   ],
+  "anti-slop": [
+    "anti-slop"
+  ],
   "antigravity": [
     "antigravity"
   ],
@@ -223,6 +232,9 @@
   "are": [
     "en-modal_or_auxiliary-are"
   ],
+  "arm64": [
+    "arm64"
+  ],
   "around": [
     "en-preposition-around"
   ],
@@ -236,8 +248,14 @@
     "en-conjunction-as",
     "en-preposition-as"
   ],
+  "ascii-art": [
+    "ascii-art"
+  ],
   "assets": [
     "assets"
+  ],
+  "assign pr reviewers": [
+    "assign-pr-reviewers"
   ],
   "assistants": [
     "assistants"
@@ -341,6 +359,9 @@
   "basically": [
     "en-discourse_marker-basically"
   ],
+  "bats": [
+    "bats"
+  ],
   "bats-testing": [
     "bats-testing"
   ],
@@ -381,6 +402,9 @@
   "benchmark tests (langchain)": [
     "benchmark-tests-langchain"
   ],
+  "benchmark v2 framework": [
+    "benchmark-v2-framework"
+  ],
   "benchmarks": [
     "benchmarks"
   ],
@@ -411,6 +435,9 @@
   ],
   "bign-genk": [
     "bign-genk"
+  ],
+  "bin-image": [
+    "bin-image"
   ],
   "binaries": [
     "binaries"
@@ -501,6 +528,9 @@
   "build gnn native modules": [
     "build-gnn-native-modules"
   ],
+  "build macos app": [
+    "build-macos-app"
+  ],
   "build native module prebuilds": [
     "build-native-module-prebuilds"
   ],
@@ -512,6 +542,9 @@
   ],
   "build rust ci": [
     "build-rust-ci"
+  ],
+  "build theme": [
+    "build-theme"
   ],
   "build typescript ci": [
     "build-typescript-ci"
@@ -856,6 +889,9 @@
   "continuous integration": [
     "continuous-integration"
   ],
+  "continuous test + deploy": [
+    "continuous-test-deploy"
+  ],
   "conversational-ai": [
     "conversational-ai"
   ],
@@ -927,6 +963,9 @@
   ],
   "dare": [
     "en-modal_or_auxiliary-dare"
+  ],
+  "dark-mode": [
+    "dark-mode"
   ],
   "data-engineering": [
     "data-engineering"
@@ -1167,6 +1206,9 @@
   "editor": [
     "editor"
   ],
+  "education": [
+    "education"
+  ],
   "either": [
     "en-article_or_determiner-either",
     "en-conjunction-either",
@@ -1180,6 +1222,9 @@
   ],
   "embeddings": [
     "embeddings"
+  ],
+  "emoji": [
+    "emoji"
   ],
   "enable auto-merge for dependabot prs": [
     "enable-auto-merge-for-dependabot-prs"
@@ -1345,8 +1390,14 @@
   "gemini-cli": [
     "gemini-cli"
   ],
+  "gemma": [
+    "gemma"
+  ],
   "general pr handling for 1panel": [
     "general-pr-handling-for-1panel"
+  ],
+  "generate changelog": [
+    "generate-changelog"
   ],
   "generate snake": [
     "generate-snake"
@@ -1365,6 +1416,9 @@
   ],
   "github": [
     "github"
+  ],
+  "github pages": [
+    "github-pages"
   ],
   "github-repos": [
     "github-repos"
@@ -1501,6 +1555,12 @@
   "huggingface": [
     "huggingface"
   ],
+  "hugo": [
+    "hugo"
+  ],
+  "hugo-theme": [
+    "hugo-theme"
+  ],
   "human-ai-collaboration": [
     "human-ai-collaboration"
   ],
@@ -1534,6 +1594,12 @@
   "indeed": [
     "en-discourse_marker-indeed"
   ],
+  "index": [
+    "index"
+  ],
+  "index-repos": [
+    "index-repos"
+  ],
   "inference": [
     "inference"
   ],
@@ -1554,6 +1620,9 @@
   ],
   "integration tests": [
     "integration-tests"
+  ],
+  "integration tests (external apis)": [
+    "integration-tests-external-apis"
   ],
   "interactive": [
     "interactive"
@@ -1609,6 +1678,9 @@
   "jetbrains": [
     "jetbrains"
   ],
+  "junit": [
+    "junit"
+  ],
   "k8s-sig-architecture": [
     "k8s-sig-architecture"
   ],
@@ -1636,6 +1708,9 @@
   "knownfolders": [
     "knownfolders"
   ],
+  "kotlin": [
+    "kotlin"
+  ],
   "kubectl": [
     "kubectl"
   ],
@@ -1660,6 +1735,9 @@
   "label pr": [
     "label-pr"
   ],
+  "labeller": [
+    "labeller"
+  ],
   "langchain": [
     "langchain"
   ],
@@ -1680,6 +1758,9 @@
   ],
   "layout": [
     "layout"
+  ],
+  "learning": [
+    "learning"
   ],
   "least": [
     "en-article_or_determiner-least",
@@ -1931,6 +2012,9 @@
   "model-context-protocol": [
     "model-context-protocol"
   ],
+  "model-hub": [
+    "model-hub"
+  ],
   "model-serving": [
     "model-serving"
   ],
@@ -2000,6 +2084,9 @@
   ],
   "napi-rs": [
     "napi-rs"
+  ],
+  "natural-language-processing": [
+    "natural-language-processing"
   ],
   "near": [
     "en-preposition-near"
@@ -2091,6 +2178,9 @@
   "nothing": [
     "en-negation_marker-nothing",
     "en-pronoun-nothing"
+  ],
+  "notifications": [
+    "notifications"
   ],
   "notifier docker build": [
     "notifier-docker-build"
@@ -2303,6 +2393,9 @@
   "pre-commit": [
     "pre-commit"
   ],
+  "pretrained-models": [
+    "pretrained-models"
+  ],
   "pretty-printer": [
     "pretty-printer"
   ],
@@ -2351,14 +2444,29 @@
   "publish release": [
     "publish-release"
   ],
+  "publish release build": [
+    "publish-release-build"
+  ],
+  "publish release documentation": [
+    "publish-release-documentation"
+  ],
   "publish skills to claude code marketplace": [
     "publish-skills-to-claude-code-marketplace"
+  ],
+  "publish snapshot build": [
+    "publish-snapshot-build"
+  ],
+  "publish snapshot documentation": [
+    "publish-snapshot-documentation"
   ],
   "publish to npm": [
     "publish-to-npm"
   ],
   "publish to pypi": [
     "publish-to-pypi"
+  ],
+  "pull request": [
+    "pull-request"
   ],
   "pull request labeler": [
     "pull-request-labeler"
@@ -2395,6 +2503,9 @@
   ],
   "pytorch": [
     "pytorch"
+  ],
+  "pytorch-transformers": [
+    "pytorch-transformers"
   ],
   "pywxdump": [
     "pywxdump"
@@ -2519,6 +2630,9 @@
   "release swarmsdk gem": [
     "release-swarmsdk-gem"
   ],
+  "release to docker hub": [
+    "release-to-docker-hub"
+  ],
   "release to pypi": [
     "release-to-pypi"
   ],
@@ -2531,11 +2645,17 @@
   "render": [
     "render"
   ],
+  "repositories": [
+    "repositories"
+  ],
   "research": [
     "research"
   ],
   "resolver": [
     "resolver"
+  ],
+  "responsive": [
+    "responsive"
   ],
   "restore": [
     "restore"
@@ -2554,6 +2674,9 @@
   ],
   "round": [
     "en-preposition-round"
+  ],
+  "ruby": [
+    "ruby"
   ],
   "ruff": [
     "ruff"
@@ -2576,6 +2699,9 @@
   "run profiling on the tpch benchmark": [
     "run-profiling-on-the-tpch-benchmark"
   ],
+  "run unit tests": [
+    "run-unit-tests"
+  ],
   "runtime": [
     "runtime"
   ],
@@ -2587,6 +2713,9 @@
   ],
   "save": [
     "en-preposition-save"
+  ],
+  "scan agent skills": [
+    "scan-agent-skills"
   ],
   "scorecard supply-chain security": [
     "scorecard-supply-chain-security"
@@ -2600,6 +2729,9 @@
   "secret leaks": [
     "secret-leaks"
   ],
+  "security": [
+    "security"
+  ],
   "security (trivy)": [
     "security-trivy"
   ],
@@ -2611,6 +2743,9 @@
   ],
   "self-healing": [
     "self-healing"
+  ],
+  "self-hosted runner (benchmark)": [
+    "self-hosted-runner-benchmark"
   ],
   "semantic pr": [
     "semantic-pr"
@@ -2638,6 +2773,9 @@
   "she": [
     "en-pronoun-she"
   ],
+  "shell": [
+    "shell"
+  ],
   "should": [
     "en-modal_or_auxiliary-should"
   ],
@@ -2659,6 +2797,9 @@
   ],
   "slack-api": [
     "slack-api"
+  ],
+  "slash-commands": [
+    "slash-commands"
   ],
   "so": [
     "en-conjunction-so",
@@ -2686,6 +2827,9 @@
   "sonnet": [
     "sonnet"
   ],
+  "spaced-repetition": [
+    "spaced-repetition"
+  ],
   "speacial": [
     "speacial"
   ],
@@ -2700,6 +2844,9 @@
   ],
   "specification": [
     "specification"
+  ],
+  "speech-recognition": [
+    "speech-recognition"
   ],
   "spell-checker": [
     "spell-checker"
@@ -2761,6 +2908,9 @@
   "stripe-sdk": [
     "stripe-sdk"
   ],
+  "study": [
+    "study"
+  ],
   "style": [
     "style"
   ],
@@ -2811,6 +2961,12 @@
   ],
   "tagged release": [
     "tagged-release"
+  ],
+  "tailwindcss": [
+    "tailwindcss"
+  ],
+  "tamagotchi": [
+    "tamagotchi"
   ],
   "template sync": [
     "template-sync"
@@ -2875,6 +3031,12 @@
   "test-release": [
     "test-release"
   ],
+  "testing": [
+    "testing"
+  ],
+  "testing-tools": [
+    "testing-tools"
+  ],
   "testing: ci": [
     "testing-ci"
   ],
@@ -2911,6 +3073,9 @@
   ],
   "them": [
     "en-pronoun-them"
+  ],
+  "theme": [
+    "theme"
   ],
   "themselves": [
     "en-pronoun-themselves"
@@ -3024,6 +3189,9 @@
   "unit tests": [
     "unit-tests"
   ],
+  "unlabeller": [
+    "unlabeller"
+  ],
   "unless": [
     "en-conjunction-unless"
   ],
@@ -3042,6 +3210,9 @@
   ],
   "update formula": [
     "update-formula"
+  ],
+  "update homebrew formula": [
+    "update-homebrew-formula"
   ],
   "update repo": [
     "update-repo"
@@ -3248,6 +3419,9 @@
   ],
   "xdg-user-dirs": [
     "xdg-user-dirs"
+  ],
+  "xunit": [
+    "xunit"
   ],
   "yesterday": [
     "en-deictic_or_spatiotemporal_marker-yesterday"

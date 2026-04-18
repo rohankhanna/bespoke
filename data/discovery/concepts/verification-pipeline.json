@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "\ud83d\udd0d Verification Pipeline",
   "concept_id": "verification-pipeline",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

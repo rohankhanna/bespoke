@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "static-checks",
+  "definition_status": "unresolved",
   "normalized_form": "static-checks",
   "observation_id": "493a7a3efc824053",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T12:07:11.500453+00:00",
   "observed_text": "Static Checks",
   "source_file": ".github/workflows/static-checks.yml",
-  "source_repo": "trailofbits/buttercup"
+  "source_repo": "trailofbits/buttercup",
+  "source_repo_description": null
 }

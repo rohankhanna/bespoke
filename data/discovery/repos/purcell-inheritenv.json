@@ -1,0 +1,67 @@
+{
+  "components": [
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "purcell/inheritenv",
+      "target": "purcell/envrc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "purcell/inheritenv",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "purcell/inheritenv",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-18T13:15:46.158424+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2522
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 549
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Make emacs temp buffers inherit buffer-local environment variables",
+    "full_name": "purcell/inheritenv",
+    "html_url": "https://github.com/purcell/inheritenv",
+    "language": "Emacs Lisp",
+    "pushed_at": "2024-11-19T13:55:42Z",
+    "topics": [],
+    "updated_at": "2026-01-26T23:49:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "purcell/envrc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

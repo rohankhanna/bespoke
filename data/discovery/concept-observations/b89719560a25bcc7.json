@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "release-swarmmemory-gem",
+  "definition_status": "unresolved",
   "normalized_form": "release-swarmmemory-gem",
   "observation_id": "b89719560a25bcc7",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T12:46:59.510459+00:00",
   "observed_text": "Release SwarmMemory Gem",
   "source_file": ".github/workflows/release-swarm-memory.yml",
-  "source_repo": "parruda/swarm"
+  "source_repo": "parruda/swarm",
+  "source_repo_description": null
 }

@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Validate Data",
   "concept_id": "validate-data",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

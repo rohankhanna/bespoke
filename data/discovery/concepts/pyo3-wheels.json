@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "PyO3-Wheels",
   "concept_id": "pyo3-wheels",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

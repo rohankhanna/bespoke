@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Bot Bump SGLang Version",
   "concept_id": "bot-bump-sglang-version",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

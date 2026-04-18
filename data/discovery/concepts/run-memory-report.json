@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Run memory report",
   "concept_id": "run-memory-report",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

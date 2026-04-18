@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "midjourney-api",
+  "definition_status": "unresolved",
   "normalized_form": "midjourney-api",
   "observation_id": "66a550d402d49a85",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:41:43.530265+00:00",
   "observed_text": "midjourney-api",
   "source_file": null,
-  "source_repo": "novicezk/midjourney-proxy"
+  "source_repo": "novicezk/midjourney-proxy",
+  "source_repo_description": null
 }

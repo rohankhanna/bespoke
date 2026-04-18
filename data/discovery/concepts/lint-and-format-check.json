@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Lint and Format Check",
   "concept_id": "lint-and-format-check",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

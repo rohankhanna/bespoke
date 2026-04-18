@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "AMD CI Job Monitor",
   "concept_id": "amd-ci-job-monitor",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

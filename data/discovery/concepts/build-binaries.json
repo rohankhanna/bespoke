@@ -8,8 +8,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Build Binaries",
   "concept_id": "build-binaries",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

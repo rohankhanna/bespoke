@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "work",
+  "definition_status": "unresolved",
   "normalized_form": "work",
   "observation_id": "29c77c1c6a10e05c",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:41:43.530265+00:00",
   "observed_text": "work",
   "source_file": null,
-  "source_repo": "danielmiessler/Fabric"
+  "source_repo": "danielmiessler/Fabric",
+  "source_repo_description": null
 }

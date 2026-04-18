@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Build Typescript CI",
   "concept_id": "build-typescript-ci",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

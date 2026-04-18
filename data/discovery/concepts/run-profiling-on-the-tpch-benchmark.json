@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Run Profiling on the TPCH Benchmark",
   "concept_id": "run-profiling-on-the-tpch-benchmark",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

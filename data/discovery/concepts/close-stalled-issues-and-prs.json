@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Close stalled issues and PRs",
   "concept_id": "close-stalled-issues-and-prs",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

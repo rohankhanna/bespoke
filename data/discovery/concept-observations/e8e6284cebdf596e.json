@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "check-broken-links-on-daft.ai",
+  "definition_status": "unresolved",
   "normalized_form": "check-broken-links-on-daft.ai",
   "observation_id": "e8e6284cebdf596e",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T12:06:06.216548+00:00",
   "observed_text": "Check Broken Links on daft.ai",
   "source_file": ".github/workflows/broken-link-checker.yml",
-  "source_repo": "Eventual-Inc/Daft"
+  "source_repo": "Eventual-Inc/Daft",
+  "source_repo_description": null
 }

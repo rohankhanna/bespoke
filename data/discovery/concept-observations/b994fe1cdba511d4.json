@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "context-engineering",
+  "definition_status": "unresolved",
   "normalized_form": "context-engineering",
   "observation_id": "b994fe1cdba511d4",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T12:46:59.510459+00:00",
   "observed_text": "context-engineering",
   "source_file": null,
-  "source_repo": "Fission-AI/OpenSpec"
+  "source_repo": "Fission-AI/OpenSpec",
+  "source_repo_description": null
 }

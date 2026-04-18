@@ -10,8 +10,17 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pinterest/ktlint",
+      "status": "candidate-context",
+      "text": "An anti-bikeshedding Kotlin linter with built-in formatter"
+    }
+  ],
   "canonical_name": "Linter",
   "concept_id": "linter",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",
@@ -30,10 +39,16 @@
       "observed_at": "2026-04-18T12:46:59.510459+00:00",
       "source_file": null,
       "source_repo": "astral-sh/ruff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:15:13.756138+00:00",
+      "source_file": null,
+      "source_repo": "pinterest/ktlint"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "possible_senses": [
     {
       "buckets": [

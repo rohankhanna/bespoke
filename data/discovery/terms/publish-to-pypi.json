@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -41,6 +41,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/publish-pypi.yml",
       "source_repo": "SuperClaude-Org/SuperQwen_Framework"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "cisco-ai-defense/skill-scanner"
     }
   ],
   "term": "Publish to PyPI"

@@ -6,8 +6,10 @@
   "buckets": [
     "workflow-process"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Create SBOM for the release",
   "concept_id": "create-sbom-for-the-release",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

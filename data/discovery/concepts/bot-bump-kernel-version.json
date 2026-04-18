@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Bot Bump Kernel Version",
   "concept_id": "bot-bump-kernel-version",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

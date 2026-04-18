@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "bench",
+  "definition_status": "unresolved",
   "normalized_form": "bench",
   "observation_id": "4f0e59d0ea5db854",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:56:18.570627+00:00",
   "observed_text": "bench",
   "source_file": ".github/workflows/bench.yml",
-  "source_repo": "langchain-ai/langgraph"
+  "source_repo": "langchain-ai/langgraph",
+  "source_repo_description": null
 }

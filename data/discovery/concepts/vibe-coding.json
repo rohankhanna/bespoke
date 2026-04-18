@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "vibe-coding",
   "concept_id": "vibe-coding",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

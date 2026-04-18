@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "libp2p perf test",
   "concept_id": "libp2p-perf-test",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

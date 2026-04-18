@@ -7,8 +7,10 @@
     "language-layer-entity",
     "pronoun"
   ],
+  "candidate_definitions": [],
   "canonical_name": "hers",
   "concept_id": "en-pronoun-hers",
+  "definition_status": "seeded-stable",
   "evidence": [
     {
       "discovered_via": "seeded-language-entity",
@@ -63,10 +65,16 @@
       "observed_at": "2026-04-18T12:46:59.510459+00:00",
       "source_file": "vocabulary/english/stable-closed-classes.json",
       "source_repo": "seed:english"
+    },
+    {
+      "discovered_via": "seeded-language-entity",
+      "observed_at": "2026-04-18T13:15:13.756138+00:00",
+      "source_file": "vocabulary/english/stable-closed-classes.json",
+      "source_repo": "seed:english"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "possible_senses": [
     {
       "buckets": [

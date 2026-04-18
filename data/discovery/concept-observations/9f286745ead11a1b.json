@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "stale-issues-prs",
+  "definition_status": "unresolved",
   "normalized_form": "stale-issues-prs",
   "observation_id": "9f286745ead11a1b",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:56:18.570627+00:00",
   "observed_text": "Stale Issues & PRs",
   "source_file": ".github/workflows/stale.yml",
-  "source_repo": "folke/lazy.nvim"
+  "source_repo": "folke/lazy.nvim",
+  "source_repo_description": null
 }

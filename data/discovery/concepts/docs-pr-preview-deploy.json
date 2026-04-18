@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Docs PR Preview Deploy",
   "concept_id": "docs-pr-preview-deploy",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

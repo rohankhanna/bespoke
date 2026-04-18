@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "query-builder",
   "concept_id": "query-builder",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

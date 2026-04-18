@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "deepseek-v3",
   "concept_id": "deepseek-v3",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

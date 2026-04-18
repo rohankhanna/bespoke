@@ -1,7 +1,7 @@
 {
   "component": "github/codeql-action/upload-sarif@v4",
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-18T11:32:22.637859+00:00",
+  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "crate-ci/typos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scan-skills.yml",
+      "source_repo": "cisco-ai-defense/skill-scanner"
     }
   ]
 }

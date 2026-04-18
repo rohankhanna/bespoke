@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "check-for-dead-links",
+  "definition_status": "unresolved",
   "normalized_form": "check-for-dead-links",
   "observation_id": "3f17126232406cf8",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T12:46:59.510459+00:00",
   "observed_text": "Check for Dead Links",
   "source_file": ".github/workflows/check-links.yml",
-  "source_repo": "slopus/slopus.github.io"
+  "source_repo": "slopus/slopus.github.io",
+  "source_repo_description": null
 }

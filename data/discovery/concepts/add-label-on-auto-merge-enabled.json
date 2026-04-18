@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Add label on auto-merge enabled",
   "concept_id": "add-label-on-auto-merge-enabled",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "regression-tests",
+  "definition_status": "unresolved",
   "normalized_form": "regression-tests",
   "observation_id": "bbda8b9f49735364",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T12:46:59.510459+00:00",
   "observed_text": "Regression Tests",
   "source_file": ".github/workflows/regression.yml",
-  "source_repo": "gastownhall/beads"
+  "source_repo": "gastownhall/beads",
+  "source_repo_description": null
 }

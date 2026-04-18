@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "strands-agents",
+  "definition_status": "unresolved",
   "normalized_form": "strands-agents",
   "observation_id": "76b3c09e02a88f68",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T12:06:06.216548+00:00",
   "observed_text": "strands-agents",
   "source_file": null,
-  "source_repo": "strands-agents/agent-sop"
+  "source_repo": "strands-agents/agent-sop",
+  "source_repo_description": null
 }

@@ -8,8 +8,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Publish",
   "concept_id": "publish",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

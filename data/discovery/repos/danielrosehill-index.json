@@ -1,0 +1,83 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Index",
+      "target": "danielrosehill/index-of-indices",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Index",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Index",
+      "target": "index",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Index",
+      "target": "repositories",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T13:15:40.219610+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2964
+    },
+    {
+      "path": "requirements.txt",
+      "size": 58
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "A repository that indexes my Github projects",
+    "full_name": "danielrosehill/Index",
+    "html_url": "https://github.com/danielrosehill/Index",
+    "language": "Python",
+    "pushed_at": "2026-03-25T18:29:33Z",
+    "topics": [
+      "github",
+      "index",
+      "repositories"
+    ],
+    "updated_at": "2026-04-14T20:42:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/index-of-indices",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "index"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repositories"
+    }
+  ]
+}

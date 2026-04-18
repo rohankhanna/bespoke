@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Docker Build and Publish",
   "concept_id": "docker-build-and-publish",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

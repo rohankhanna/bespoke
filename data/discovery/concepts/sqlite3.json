@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "sqlite3",
   "concept_id": "sqlite3",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

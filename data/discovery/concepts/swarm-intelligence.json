@@ -7,8 +7,10 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [],
   "canonical_name": "swarm-intelligence",
   "concept_id": "swarm-intelligence",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",

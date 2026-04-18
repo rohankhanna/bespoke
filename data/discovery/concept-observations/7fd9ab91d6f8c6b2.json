@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "ed448",
+  "definition_status": "unresolved",
   "normalized_form": "ed448",
   "observation_id": "7fd9ab91d6f8c6b2",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T12:07:11.500453+00:00",
   "observed_text": "ed448",
   "source_file": ".github/workflows/ed448.yml",
-  "source_repo": "RustCrypto/signatures"
+  "source_repo": "RustCrypto/signatures",
+  "source_repo_description": null
 }

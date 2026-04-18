@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "nodejs",
+  "definition_status": "unresolved",
   "normalized_form": "nodejs",
   "observation_id": "a98ad75d69f4f296",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T12:07:11.500453+00:00",
   "observed_text": "nodejs",
   "source_file": null,
-  "source_repo": "npm/cli"
+  "source_repo": "npm/cli",
+  "source_repo_description": null
 }

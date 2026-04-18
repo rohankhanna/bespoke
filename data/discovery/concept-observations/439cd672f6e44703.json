@@ -3,6 +3,7 @@
   "candidate_buckets": [
     "workflow-process"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -15,11 +16,13 @@
     }
   ],
   "concept_id": "bazel",
+  "definition_status": "unresolved",
   "normalized_form": "bazel",
   "observation_id": "439cd672f6e44703",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T10:25:53.609022+00:00",
   "observed_text": "Bazel",
   "source_file": ".github/workflows/bazel.yml",
-  "source_repo": "openai/codex"
+  "source_repo": "openai/codex",
+  "source_repo_description": null
 }

@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "cluade",
+  "definition_status": "unresolved",
   "normalized_form": "cluade",
   "observation_id": "da4260c1b623bcb5",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:24:14.688152+00:00",
   "observed_text": "cluade",
   "source_file": null,
-  "source_repo": "router-for-me/CLIProxyAPI"
+  "source_repo": "router-for-me/CLIProxyAPI",
+  "source_repo_description": null
 }

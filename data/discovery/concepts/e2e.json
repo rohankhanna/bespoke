@@ -6,8 +6,10 @@
   "buckets": [
     "workflow-process"
   ],
+  "candidate_definitions": [],
   "canonical_name": "E2E",
   "concept_id": "e2e",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

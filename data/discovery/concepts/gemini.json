@@ -7,8 +7,17 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Aider-AI/aider",
+      "status": "candidate-context",
+      "text": "aider is AI pair programming in your terminal"
+    }
+  ],
   "canonical_name": "gemini",
   "concept_id": "gemini",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "repo-topic",
@@ -57,10 +66,16 @@
       "observed_at": "2026-04-18T12:07:11.500453+00:00",
       "source_file": null,
       "source_repo": "Aider-AI/aider"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:15:13.756138+00:00",
+      "source_file": null,
+      "source_repo": "Aider-AI/aider"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
+  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "possible_senses": [
     {
       "buckets": [

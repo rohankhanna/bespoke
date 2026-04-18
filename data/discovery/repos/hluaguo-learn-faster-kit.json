@@ -5,57 +5,8 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "hluaguo/learn-faster-kit",
-      "target": "astral-sh/uv",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "hluaguo/learn-faster-kit",
       "target": "cheukyin175/learn-faster-kit",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "hluaguo/learn-faster-kit",
-      "target": "bash learn-faster",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "hluaguo/learn-faster-kit",
-      "target": "2. **Launch in any project directory**",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "hluaguo/learn-faster-kit",
-      "target": "bash cd your-learning-project learn-faster",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "hluaguo/learn-faster-kit",
-      "target": "learn-faster",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "hluaguo/learn-faster-kit",
-      "target": "learn-faster init",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "hluaguo/learn-faster-kit",
-      "target": "learn-faster version",
-      "target_type": "term"
     },
     {
       "edge_type": "explicit-github-link",
@@ -63,9 +14,51 @@
       "source_repo": "hluaguo/learn-faster-kit",
       "target": "cheukyin175/learn-faster-kit",
       "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hluaguo/learn-faster-kit",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hluaguo/learn-faster-kit",
+      "target": "education",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hluaguo/learn-faster-kit",
+      "target": "learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hluaguo/learn-faster-kit",
+      "target": "productivity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hluaguo/learn-faster-kit",
+      "target": "spaced-repetition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hluaguo/learn-faster-kit",
+      "target": "study",
+      "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T09:23:56.237929+00:00",
+  "fetched_at": "2026-04-18T13:15:16.411365+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -98,11 +91,6 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "astral-sh/uv",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "cheukyin175/learn-faster-kit",
       "source_file": "README.md"
     },
@@ -114,34 +102,34 @@
   ],
   "terms": [
     {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "bash learn-faster"
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
     },
     {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "2. **Launch in any project directory**"
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "education"
     },
     {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "bash cd your-learning-project learn-faster"
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "learning"
     },
     {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "learn-faster"
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "productivity"
     },
     {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "learn-faster init"
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spaced-repetition"
     },
     {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "learn-faster version"
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "study"
     }
   ]
 }

@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Add new implementation versions",
   "concept_id": "add-new-implementation-versions",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

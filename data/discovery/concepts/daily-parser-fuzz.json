@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Daily parser fuzz",
   "concept_id": "daily-parser-fuzz",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

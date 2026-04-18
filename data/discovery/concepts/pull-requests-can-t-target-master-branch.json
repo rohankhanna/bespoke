@@ -7,8 +7,10 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definitions": [],
   "canonical_name": "Pull requests can't target master branch",
   "concept_id": "pull-requests-can-t-target-master-branch",
+  "definition_status": "unresolved",
   "evidence": [
     {
       "discovered_via": "workflow-name",

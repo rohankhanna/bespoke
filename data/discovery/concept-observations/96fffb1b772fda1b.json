@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "resolver",
+  "definition_status": "unresolved",
   "normalized_form": "resolver",
   "observation_id": "96fffb1b772fda1b",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T10:43:38.551697+00:00",
   "observed_text": "resolver",
   "source_file": null,
-  "source_repo": "astral-sh/uv"
+  "source_repo": "astral-sh/uv",
+  "source_repo_description": null
 }

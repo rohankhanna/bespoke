@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "lobehub",
+  "definition_status": "unresolved",
   "normalized_form": "lobehub",
   "observation_id": "5a18c3ef1ae43d77",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:41:43.530265+00:00",
   "observed_text": "lobehub",
   "source_file": null,
-  "source_repo": "lobehub/lobe-editor"
+  "source_repo": "lobehub/lobe-editor",
+  "source_repo_description": null
 }

@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "govslack",
+  "definition_status": "unresolved",
   "normalized_form": "govslack",
   "observation_id": "d05b574b82fb178d",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T12:06:06.216548+00:00",
   "observed_text": "govslack",
   "source_file": null,
-  "source_repo": "korotovsky/slack-mcp-server"
+  "source_repo": "korotovsky/slack-mcp-server",
+  "source_repo_description": null
 }

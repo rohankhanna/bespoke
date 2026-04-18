@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "generative-ai",
+  "definition_status": "unresolved",
   "normalized_form": "generative-ai",
   "observation_id": "c0097d4a01032cdc",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:24:14.688152+00:00",
   "observed_text": "generative-ai",
   "source_file": null,
-  "source_repo": "sujithpvarghese/bedrock-full-reconciliation"
+  "source_repo": "sujithpvarghese/bedrock-full-reconciliation",
+  "source_repo_description": null
 }

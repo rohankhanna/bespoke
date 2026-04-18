@@ -4,6 +4,7 @@
     "tool-component",
     "capability"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "img2img",
+  "definition_status": "unresolved",
   "normalized_form": "img2img",
   "observation_id": "a6637f734f465ea1",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:41:43.530265+00:00",
   "observed_text": "img2img",
   "source_file": null,
-  "source_repo": "AUTOMATIC1111/stable-diffusion-webui"
+  "source_repo": "AUTOMATIC1111/stable-diffusion-webui",
+  "source_repo_description": null
 }

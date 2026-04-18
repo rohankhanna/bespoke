@@ -4,6 +4,7 @@
     "workflow-process",
     "data-document-artifact"
   ],
+  "candidate_definition_hints": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
     }
   ],
   "concept_id": "test-agentdb-attention-mechanisms",
+  "definition_status": "unresolved",
   "normalized_form": "test-agentdb-attention-mechanisms",
   "observation_id": "3fe1ebe3dd6581b0",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:56:18.570627+00:00",
   "observed_text": "Test AgentDB Attention Mechanisms",
   "source_file": ".github/workflows/test-agentdb-attention.yml.disabled",
-  "source_repo": "ruvnet/agentic-flow"
+  "source_repo": "ruvnet/agentic-flow",
+  "source_repo_description": null
 }

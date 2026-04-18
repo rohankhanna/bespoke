@@ -1,0 +1,36 @@
+{
+  "aliases": [
+    "Build macOS App"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [],
+  "canonical_name": "Build macOS App",
+  "concept_id": "build-macos-app",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T13:15:13.756138+00:00",
+      "source_file": ".github/workflows/build-macos-app.yml",
+      "source_repo": "marciogranzotto/clawd-tank"
+    }
+  ],
+  "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
+  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build macOS App",
+      "sense_id": "build-macos-app#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}
