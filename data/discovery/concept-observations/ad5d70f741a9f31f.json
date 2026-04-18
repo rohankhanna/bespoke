@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "lock-threads",
+  "normalized_form": "lock-threads",
+  "observation_id": "ad5d70f741a9f31f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:38:37.562216+00:00",
+  "observed_text": "Lock Threads",
+  "source_file": ".github/workflows/lock.yml",
+  "source_repo": "tmux/tmux"
+}

@@ -3,7 +3,8 @@
     "github"
   ],
   "buckets": [
-    "tool-component"
+    "tool-component",
+    "capability"
   ],
   "canonical_name": "github",
   "concept_id": "github",
@@ -13,8 +14,15 @@
       "observed_at": "2026-04-18T10:25:53.609022+00:00",
       "source_file": null,
       "source_repo": "fcakyon/claude-codex-settings"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T10:38:37.562216+00:00",
+      "source_file": null,
+      "source_repo": "tarikmanoar/tarikmanoar"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00"
+  "last_seen_at": "2026-04-18T10:38:37.562216+00:00",
+  "primary_bucket": "tool-component"
 }

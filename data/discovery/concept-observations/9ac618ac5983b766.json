@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "yolo-update-pins",
+  "normalized_form": "yolo-update-pins",
+  "observation_id": "9ac618ac5983b766",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:38:37.562216+00:00",
+  "observed_text": "Yolo Update Pins",
+  "source_file": ".github/workflows/yolo-update.yml",
+  "source_repo": "openclaw/nix-openclaw"
+}

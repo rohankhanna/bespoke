@@ -1,0 +1,22 @@
+{
+  "aliases": [
+    "Yolo Update Pins"
+  ],
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "Yolo Update Pins",
+  "concept_id": "yolo-update-pins",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T10:38:37.562216+00:00",
+      "source_file": ".github/workflows/yolo-update.yml",
+      "source_repo": "openclaw/nix-openclaw"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
+  "last_seen_at": "2026-04-18T10:38:37.562216+00:00",
+  "primary_bucket": "workflow-process"
+}

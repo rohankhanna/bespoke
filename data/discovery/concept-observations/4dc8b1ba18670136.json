@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "release",
+  "normalized_form": "release",
+  "observation_id": "4dc8b1ba18670136",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:38:37.562216+00:00",
+  "observed_text": "Release",
+  "source_file": ".github/workflows/release.yml",
+  "source_repo": "tianrking/weixin-agent-rs"
+}

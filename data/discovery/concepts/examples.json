@@ -1,0 +1,22 @@
+{
+  "aliases": [
+    "examples"
+  ],
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "examples",
+  "concept_id": "examples",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T10:38:37.562216+00:00",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "charmbracelet/bubbletea"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
+  "last_seen_at": "2026-04-18T10:38:37.562216+00:00",
+  "primary_bucket": "workflow-process"
+}

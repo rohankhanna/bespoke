@@ -1,0 +1,96 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubernetes/enhancements",
+      "target": "kubernetes/sig-release",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes/enhancements",
+      "target": "enhancements",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes/enhancements",
+      "target": "k8s-sig-architecture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes/enhancements",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes/enhancements",
+      "target": "kubernetes-releases",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T10:38:39.990214+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7243
+    },
+    {
+      "path": "go.mod",
+      "size": 3248
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "Enhancements tracking repo for Kubernetes",
+    "full_name": "kubernetes/enhancements",
+    "html_url": "https://github.com/kubernetes/enhancements",
+    "language": "Go",
+    "pushed_at": "2026-04-17T22:46:48Z",
+    "topics": [
+      "enhancements",
+      "k8s-sig-architecture",
+      "kubernetes",
+      "kubernetes-releases"
+    ],
+    "updated_at": "2026-04-17T07:29:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes/sig-release",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "enhancements"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k8s-sig-architecture"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes-releases"
+    }
+  ]
+}

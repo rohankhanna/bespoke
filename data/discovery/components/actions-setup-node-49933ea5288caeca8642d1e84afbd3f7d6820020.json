@@ -2,7 +2,7 @@
   "component": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-18T03:42:01.586113+00:00",
+  "last_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -19,6 +19,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "google-github-actions/auth"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "firebase/firebase-admin-node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "firebase/firebase-admin-node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "firebase/firebase-admin-node"
     }
   ]
 }

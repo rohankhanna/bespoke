@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "tmux/tmux",
+      "target": "dessant/lock-threads@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "tmux/tmux",
+      "target": "Lock Threads",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T10:38:37.562216+00:00",
+  "source_repo": "tmux/tmux"
+}

@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "validate-data",
+  "normalized_form": "validate-data",
+  "observation_id": "6887bab40ad647ba",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:38:37.562216+00:00",
+  "observed_text": "Validate Data",
+  "source_file": ".github/workflows/validate_data.yml",
+  "source_repo": "cdeust/cortex-know-when-to-stop-training-model"
+}

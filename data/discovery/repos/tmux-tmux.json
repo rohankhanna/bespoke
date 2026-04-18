@@ -1,0 +1,51 @@
+{
+  "components": [
+    {
+      "component": "dessant/lock-threads@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "tmux/tmux",
+      "target": "dessant/lock-threads@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "tmux/tmux",
+      "target": "Lock Threads",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T10:38:46.465337+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/lock.yml",
+      "size": 942
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "tmux source code",
+    "full_name": "tmux/tmux",
+    "html_url": "https://github.com/tmux/tmux",
+    "language": "C",
+    "pushed_at": "2026-04-16T03:27:10Z",
+    "topics": [],
+    "updated_at": "2026-04-18T10:30:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock.yml",
+      "term": "Lock Threads"
+    }
+  ]
+}

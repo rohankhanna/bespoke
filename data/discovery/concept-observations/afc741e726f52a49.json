@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "build-binaries",
+  "normalized_form": "build-binaries",
+  "observation_id": "afc741e726f52a49",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:38:37.562216+00:00",
+  "observed_text": "Build Binaries",
+  "source_file": ".github/workflows/build-binaries.yml",
+  "source_repo": "badlogic/pi-mono"
+}

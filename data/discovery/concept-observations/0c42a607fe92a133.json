@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "kubernetes-releases",
+  "normalized_form": "kubernetes-releases",
+  "observation_id": "0c42a607fe92a133",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:38:37.562216+00:00",
+  "observed_text": "kubernetes-releases",
+  "source_file": null,
+  "source_repo": "kubernetes/enhancements"
+}

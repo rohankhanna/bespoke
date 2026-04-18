@@ -1,0 +1,28 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-18T10:38:54.711575+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6290
+    },
+    {
+      "path": "go.mod",
+      "size": 176
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Claudio plugin for Treesitter indexer",
+    "full_name": "Abraxas-365/claudio-codex",
+    "html_url": "https://github.com/Abraxas-365/claudio-codex",
+    "language": "Go",
+    "pushed_at": "2026-04-07T00:44:14Z",
+    "topics": [],
+    "updated_at": "2026-04-09T18:22:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "hacktoberfest",
+  "normalized_form": "hacktoberfest",
+  "observation_id": "88b8e4cc9cd57649",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:38:37.562216+00:00",
+  "observed_text": "hacktoberfest",
+  "source_file": null,
+  "source_repo": "charmbracelet/bubbletea"
+}

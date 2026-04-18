@@ -1,0 +1,22 @@
+{
+  "aliases": [
+    "firebase-cloud-messaging"
+  ],
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "canonical_name": "firebase-cloud-messaging",
+  "concept_id": "firebase-cloud-messaging",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T10:38:37.562216+00:00",
+      "source_file": null,
+      "source_repo": "firebase/firebase-admin-node"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
+  "last_seen_at": "2026-04-18T10:38:37.562216+00:00",
+  "primary_bucket": "tool-component"
+}

@@ -3,7 +3,8 @@
     "Release"
   ],
   "buckets": [
-    "workflow-process"
+    "workflow-process",
+    "data-document-artifact"
   ],
   "canonical_name": "Release",
   "concept_id": "release",
@@ -43,8 +44,21 @@
       "observed_at": "2026-04-18T10:25:53.609022+00:00",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "asg017/sqlite-vss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T10:38:37.562216+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "cdeust/Cortex-cowork"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T10:38:37.562216+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tianrking/weixin-agent-rs"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00"
+  "last_seen_at": "2026-04-18T10:38:37.562216+00:00",
+  "primary_bucket": "workflow-process"
 }

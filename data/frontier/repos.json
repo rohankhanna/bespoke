@@ -1,106 +1,6 @@
 {
-  "generated_at": "2026-04-18T10:25:53.609022+00:00",
+  "generated_at": "2026-04-18T10:38:37.562216+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "firebase/firebase-admin-node",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "kubernetes/community",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "kubernetes/enhancements",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "kubernetes/kubernetes",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "cdeust/ai-prd-builder",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "cdeust/cortex-cowork",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "cdeust/cortex-know-when-to-stop-training-model",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "darthsim/hivemind",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ddollar/foreman",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "tmux/tmux",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "stripe/stripe-node",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "stripe/stripe-python",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "tarikmanoar/tarikmanoar",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "tianrking/weixin-agent-rs",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "mitchuski/agentprivacy-docs",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "badlogic/pi-mono",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "openclaw/nix-openclaw",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "abraxas-365/claudio-codex",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "abraxas-365/claudio-screenshot",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "charmbracelet/bubbletea",
-      "graph_distance": 2
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "charmbracelet/lipgloss",
@@ -1400,6 +1300,91 @@
       "discovered_via": "explicit-github-link",
       "full_name": "langchain-ai/langchain",
       "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "kubernetes/sig-release",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "kubernetes/steering",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mohammadtavakoli78/beam",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "arktisklada/crank",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bytegust/spm",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "chrismytton/shoreman",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ddollar/forego",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "stripe-samples/accept-a-payment",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "stripe/stripe-mock",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tc39/proposal-async-iteration",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "microsoft/pyright",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "pyenv/pyenv",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "badlogic/pi-share-hf",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "awslabs/eks-node-viewer",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "azure/aztfy",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bensadeh/circumflex",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "broderick-westrope/tetrigo",
+      "graph_distance": 3
     }
   ],
   "processed": [
@@ -1804,6 +1789,26 @@
     "1panel-dev/1panel",
     "1panel-dev/maxkb",
     "1runeberg/confichat",
-    "abraxas-365/langchain-rust"
+    "abraxas-365/langchain-rust",
+    "firebase/firebase-admin-node",
+    "kubernetes/community",
+    "kubernetes/enhancements",
+    "kubernetes/kubernetes",
+    "cdeust/ai-prd-builder",
+    "cdeust/cortex-cowork",
+    "cdeust/cortex-know-when-to-stop-training-model",
+    "darthsim/hivemind",
+    "ddollar/foreman",
+    "tmux/tmux",
+    "stripe/stripe-node",
+    "stripe/stripe-python",
+    "tarikmanoar/tarikmanoar",
+    "tianrking/weixin-agent-rs",
+    "mitchuski/agentprivacy-docs",
+    "badlogic/pi-mono",
+    "openclaw/nix-openclaw",
+    "abraxas-365/claudio-codex",
+    "abraxas-365/claudio-screenshot",
+    "charmbracelet/bubbletea"
   ]
 }

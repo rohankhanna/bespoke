@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "github",
+  "normalized_form": "github",
+  "observation_id": "735cbe9276294a7f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:38:37.562216+00:00",
+  "observed_text": "github",
+  "source_file": null,
+  "source_repo": "tarikmanoar/tarikmanoar"
+}

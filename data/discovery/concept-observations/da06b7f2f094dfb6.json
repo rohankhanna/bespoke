@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "firebase-cloud-messaging",
+  "normalized_form": "firebase-cloud-messaging",
+  "observation_id": "da06b7f2f094dfb6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:38:37.562216+00:00",
+  "observed_text": "firebase-cloud-messaging",
+  "source_file": null,
+  "source_repo": "firebase/firebase-admin-node"
+}

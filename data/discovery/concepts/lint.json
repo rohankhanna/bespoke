@@ -1,9 +1,11 @@
 {
   "aliases": [
-    "Lint"
+    "Lint",
+    "lint"
   ],
   "buckets": [
-    "workflow-process"
+    "workflow-process",
+    "data-document-artifact"
   ],
   "canonical_name": "Lint",
   "concept_id": "lint",
@@ -13,8 +15,15 @@
       "observed_at": "2026-04-18T10:25:53.609022+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T10:38:37.562216+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "charmbracelet/bubbletea"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00"
+  "last_seen_at": "2026-04-18T10:38:37.562216+00:00",
+  "primary_bucket": "workflow-process"
 }

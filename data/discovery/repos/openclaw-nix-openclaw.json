@@ -1,0 +1,159 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@v13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yolo-update.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yolo-update.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yolo-update.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yolo-update.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@v13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yolo-update.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yolo-update.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@v13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yolo-update.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "openclaw/nix-openclaw",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "openclaw/nix-openclaw",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "openclaw/nix-openclaw",
+      "target": "DeterminateSystems/nix-installer-action@v13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yolo-update.yml",
+      "source_repo": "openclaw/nix-openclaw",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yolo-update.yml",
+      "source_repo": "openclaw/nix-openclaw",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yolo-update.yml",
+      "source_repo": "openclaw/nix-openclaw",
+      "target": "DeterminateSystems/nix-installer-action@v13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/yolo-update.yml",
+      "source_repo": "openclaw/nix-openclaw",
+      "target": "Yolo Update Pins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openclaw/nix-openclaw",
+      "target": "clawdis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T10:38:54.208514+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25675
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1176
+    },
+    {
+      "path": ".github/workflows/yolo-update.yml",
+      "size": 4889
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Packages OpenClaw for nix.",
+    "full_name": "openclaw/nix-openclaw",
+    "html_url": "https://github.com/openclaw/nix-openclaw",
+    "language": "Nix",
+    "pushed_at": "2026-04-14T16:16:01Z",
+    "topics": [
+      "clawdis",
+      "nix"
+    ],
+    "updated_at": "2026-04-17T19:28:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/yolo-update.yml",
+      "term": "Yolo Update Pins"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clawdis"
+    }
+  ]
+}

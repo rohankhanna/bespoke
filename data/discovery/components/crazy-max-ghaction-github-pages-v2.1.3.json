@@ -1,0 +1,12 @@
+{
+  "component": "crazy-max/ghaction-github-pages@v2.1.3",
+  "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
+  "last_seen_at": "2026-04-18T10:38:37.562216+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/snake.yml",
+      "source_repo": "tarikmanoar/tarikmanoar"
+    }
+  ]
+}

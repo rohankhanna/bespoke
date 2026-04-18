@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "readme",
+  "normalized_form": "readme",
+  "observation_id": "cceeb10c8596dd6f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:38:37.562216+00:00",
+  "observed_text": "readme",
+  "source_file": null,
+  "source_repo": "tarikmanoar/tarikmanoar"
+}

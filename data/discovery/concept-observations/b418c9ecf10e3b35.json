@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "generate-snake",
+  "normalized_form": "generate-snake",
+  "observation_id": "b418c9ecf10e3b35",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:38:37.562216+00:00",
+  "observed_text": "Generate Snake",
+  "source_file": ".github/workflows/snake.yml",
+  "source_repo": "tarikmanoar/tarikmanoar"
+}

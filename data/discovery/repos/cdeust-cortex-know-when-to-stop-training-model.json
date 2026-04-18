@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate_data.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate_data.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cdeust/cortex-know-when-to-stop-training-model",
+      "target": "mohammadtavakoli78/beam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate_data.yml",
+      "source_repo": "cdeust/cortex-know-when-to-stop-training-model",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate_data.yml",
+      "source_repo": "cdeust/cortex-know-when-to-stop-training-model",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate_data.yml",
+      "source_repo": "cdeust/cortex-know-when-to-stop-training-model",
+      "target": "Validate Data",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T10:38:43.044032+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6964
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1380
+    },
+    {
+      "path": ".github/workflows/validate_data.yml",
+      "size": 299
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Community-trained retrieval abstention classifier \u2014 teaches RAG to say 'I don't know'",
+    "full_name": "cdeust/cortex-know-when-to-stop-training-model",
+    "html_url": "https://github.com/cdeust/cortex-know-when-to-stop-training-model",
+    "language": "Python",
+    "pushed_at": "2026-04-07T20:02:33Z",
+    "topics": [],
+    "updated_at": "2026-04-07T20:02:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mohammadtavakoli78/beam",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate_data.yml",
+      "term": "Validate Data"
+    }
+  ]
+}
