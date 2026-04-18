@@ -578,6 +578,130 @@ def slow_repo_annotations(repo_timings):
     return [item for item in repo_timings if item.get("elapsed_seconds", 0) >= SLOW_REPO_THRESHOLD_SECONDS]
 
 
+def concept_sort_key(obj):
+    return (obj.get("concept_id") or "", obj.get("canonical_name") or "")
+
+
+def observation_sort_key(obj):
+    return (obj.get("concept_id") or "", obj.get("observation_id") or "")
+
+
+def write_jsonl(path, rows):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8") as f:
+        for row in rows:
+            f.write(json.dumps(row, sort_keys=True) + "\n")
+
+
+def build_embedding_units(concepts_dir, observations_dir):
+    concept_paths = sorted(concepts_dir.glob("*.json"))
+    observation_paths = sorted(observations_dir.glob("*.json"))
+    concepts = [json.loads(path.read_text()) for path in concept_paths]
+    observations = [json.loads(path.read_text()) for path in observation_paths]
+
+    units = []
+    for concept in sorted(concepts, key=concept_sort_key):
+        concept_id = concept.get("concept_id")
+        canonical_name = concept.get("canonical_name") or concept_id
+        units.append({
+            "unit_id": f"concept:{concept_id}",
+            "concept_id": concept_id,
+            "unit_kind": "concept",
+            "text_for_embedding": canonical_name,
+            "metadata": {
+                "canonical_name": canonical_name,
+                "primary_bucket": concept.get("primary_bucket"),
+                "buckets": concept.get("buckets", []),
+                "ambiguity_status": concept.get("ambiguity_status"),
+                "aliases": sorted(concept.get("aliases", [])),
+                "possible_senses": concept.get("possible_senses", []),
+            },
+        })
+        for alias in sorted(set(concept.get("aliases", []))):
+            units.append({
+                "unit_id": f"concept-alias:{concept_id}:{slug(alias)}",
+                "concept_id": concept_id,
+                "unit_kind": "concept-alias",
+                "text_for_embedding": alias,
+                "metadata": {
+                    "canonical_name": canonical_name,
+                    "primary_bucket": concept.get("primary_bucket"),
+                    "buckets": concept.get("buckets", []),
+                    "ambiguity_status": concept.get("ambiguity_status"),
+                },
+            })
+        for sense in concept.get("possible_senses", []):
+            units.append({
+                "unit_id": f"concept-sense:{sense.get('sense_id')}",
+                "concept_id": concept_id,
+                "unit_kind": "concept-sense",
+                "text_for_embedding": sense.get("label") or canonical_name,
+                "metadata": {
+                    "sense_id": sense.get("sense_id"),
+                    "sense_status": sense.get("status"),
+                    "buckets": sense.get("buckets", concept.get("buckets", [])),
+                    "canonical_name": canonical_name,
+                },
+            })
+
+    for observation in sorted(observations, key=observation_sort_key):
+        units.append({
+            "unit_id": f"observation:{observation.get('observation_id')}",
+            "concept_id": observation.get("concept_id"),
+            "unit_kind": "observation",
+            "text_for_embedding": observation.get("observed_text") or observation.get("normalized_form"),
+            "metadata": {
+                "observation_id": observation.get("observation_id"),
+                "observation_kind": observation.get("observation_kind"),
+                "candidate_primary_bucket": observation.get("candidate_primary_bucket"),
+                "candidate_buckets": observation.get("candidate_buckets", []),
+                "ambiguity_status": observation.get("ambiguity_status"),
+                "source_repo": observation.get("source_repo"),
+                "source_file": observation.get("source_file"),
+            },
+        })
+    units.sort(key=lambda row: (row["concept_id"] or "", row["unit_kind"], row["unit_id"]))
+    return units
+
+
+def build_symbolic_indexes(concepts_dir, observations_dir):
+    concept_paths = sorted(concepts_dir.glob("*.json"))
+    observation_paths = sorted(observations_dir.glob("*.json"))
+    concepts = [json.loads(path.read_text()) for path in concept_paths]
+    observations = [json.loads(path.read_text()) for path in observation_paths]
+
+    concepts_by_alias = {}
+    concepts_by_bucket = {}
+    observations_by_concept = {}
+
+    for concept in sorted(concepts, key=concept_sort_key):
+        concept_id = concept.get("concept_id")
+        for alias in set(concept.get("aliases", []) + [concept.get("canonical_name")]):
+            if not alias:
+                continue
+            key = alias.casefold()
+            concepts_by_alias.setdefault(key, [])
+            if concept_id not in concepts_by_alias[key]:
+                concepts_by_alias[key].append(concept_id)
+        for bucket in concept.get("buckets", []):
+            concepts_by_bucket.setdefault(bucket, [])
+            if concept_id not in concepts_by_bucket[bucket]:
+                concepts_by_bucket[bucket].append(concept_id)
+
+    for observation in sorted(observations, key=observation_sort_key):
+        concept_id = observation.get("concept_id")
+        observation_id = observation.get("observation_id")
+        observations_by_concept.setdefault(concept_id, [])
+        if observation_id not in observations_by_concept[concept_id]:
+            observations_by_concept[concept_id].append(observation_id)
+
+    return {
+        "concepts_by_alias": {k: sorted(v) for k, v in sorted(concepts_by_alias.items())},
+        "concepts_by_bucket": {k: sorted(v) for k, v in sorted(concepts_by_bucket.items())},
+        "observations_by_concept": {k: sorted(v) for k, v in sorted(observations_by_concept.items())},
+    }
+
+
 def dedupe_edges(edges):
     seen = set()
     out = []
@@ -860,11 +984,13 @@ def main():
     terms_dir = data_root / "data" / "discovery" / "terms"
     concepts_dir = data_root / "data" / "discovery" / "concepts"
     concept_observations_dir = data_root / "data" / "discovery" / "concept-observations"
+    indexes_dir = data_root / "data" / "discovery" / "indexes"
+    derived_dir = data_root / "data" / "derived"
     comps_dir = data_root / "data" / "discovery" / "components"
     edges_dir = data_root / "data" / "discovery" / "edges"
     frontier_dir = data_root / "data" / "frontier"
     runs_dir = data_root / "data" / "runs"
-    for d in [repos_dir, terms_dir, concepts_dir, concept_observations_dir, comps_dir, edges_dir, frontier_dir, runs_dir]:
+    for d in [repos_dir, terms_dir, concepts_dir, concept_observations_dir, indexes_dir, derived_dir, comps_dir, edges_dir, frontier_dir, runs_dir]:
         d.mkdir(parents=True, exist_ok=True)
     prune_invalid_term_artifacts(terms_dir)
 
@@ -976,6 +1102,13 @@ def main():
     }
     write_json(frontier_dir / "repos.json", new_frontier)
 
+    embedding_units = build_embedding_units(concepts_dir, concept_observations_dir)
+    write_jsonl(derived_dir / "embedding-units.jsonl", embedding_units)
+    symbolic_indexes = build_symbolic_indexes(concepts_dir, concept_observations_dir)
+    write_json(indexes_dir / "concepts-by-alias.json", symbolic_indexes["concepts_by_alias"])
+    write_json(indexes_dir / "concepts-by-bucket.json", symbolic_indexes["concepts_by_bucket"])
+    write_json(indexes_dir / "observations-by-concept.json", symbolic_indexes["observations_by_concept"])
+
     run_summary = {
         "run_id": run_id,
         "generated_at": generated_at,
@@ -990,6 +1123,12 @@ def main():
         "slow_repo_threshold_seconds": SLOW_REPO_THRESHOLD_SECONDS,
         "slow_repositories": slow_repo_annotations(repo_timings),
         "repo_timings": repo_timings,
+        "embedding_unit_count": len(embedding_units),
+        "concept_index_counts": {
+            "aliases": len(symbolic_indexes["concepts_by_alias"]),
+            "buckets": len(symbolic_indexes["concepts_by_bucket"]),
+            "observations_by_concept": len(symbolic_indexes["observations_by_concept"]),
+        },
     }
     write_json(runs_dir / f"{run_id}.json", run_summary)
     print(json.dumps(run_summary, indent=2, sort_keys=True))
