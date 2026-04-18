@@ -6,6 +6,7 @@ on:
 jobs:
   discover:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     permissions:
       contents: write
     concurrency:
@@ -44,6 +45,9 @@ jobs:
       - name: Run seeded GitHub discovery
         env:
           GITHUB_TOKEN: ${{ github.token }}
+          DISCOVERY_BUDGET_SECONDS: "360"
+          DISCOVERY_MIN_REPO_START_SECONDS: "45"
+          DISCOVERY_HARD_STOP_SECONDS: "20"
         run: |
           python scripts/github_seed_discovery.py \
             discovery/config/seed-repos.json \
