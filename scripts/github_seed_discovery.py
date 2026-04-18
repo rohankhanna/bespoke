@@ -363,6 +363,7 @@ def upsert_concept_observation(observations_dir, generated_at, source_repo, hit)
     term = hit["term"]
     observation_id = observation_id_for_term(source_repo, hit.get("source_file"), hit.get("edge_type"), term)
     path = observations_dir / f"{observation_id}.json"
+    buckets = concept_buckets_for_term(hit)
     payload = {
         "observation_id": observation_id,
         "concept_id": concept_id_for_term(term),
@@ -372,7 +373,17 @@ def upsert_concept_observation(observations_dir, generated_at, source_repo, hit)
         "source_repo": source_repo,
         "source_file": hit.get("source_file"),
         "observed_at": generated_at,
-        "candidate_buckets": concept_buckets_for_term(hit),
+        "candidate_buckets": buckets,
+        "candidate_primary_bucket": buckets[0],
+        "ambiguity_status": "unresolved",
+        "candidate_senses": [
+            {
+                "sense_id": f"{concept_id_for_term(term)}#sense-1",
+                "label": term,
+                "status": "candidate",
+                "candidate_buckets": buckets,
+            }
+        ],
     }
     write_json(path, payload)
 
@@ -380,6 +391,12 @@ def upsert_concept_observation(observations_dir, generated_at, source_repo, hit)
 def upsert_seeded_concept(concepts_dir, generated_at, concept_id, canonical_name, buckets, alias, evidence):
     path = concepts_dir / f"{concept_id}.json"
     buckets = unique_preserve(buckets)
+    senses = [{
+        "sense_id": f"{concept_id}#sense-1",
+        "label": canonical_name,
+        "status": "seeded-stable",
+        "buckets": buckets,
+    }]
     if path.exists():
         existing = json.loads(path.read_text())
         existing["last_seen_at"] = generated_at
@@ -392,6 +409,8 @@ def upsert_seeded_concept(concepts_dir, generated_at, concept_id, canonical_name
         if evidence not in existing["evidence"]:
             existing["evidence"].append(evidence)
         existing["primary_bucket"] = existing.get("primary_bucket") or buckets[0]
+        existing.setdefault("ambiguity_status", "seeded-stable")
+        existing.setdefault("possible_senses", senses)
         write_json(path, existing)
         return
     payload = {
@@ -400,6 +419,8 @@ def upsert_seeded_concept(concepts_dir, generated_at, concept_id, canonical_name
         "primary_bucket": buckets[0],
         "buckets": buckets,
         "aliases": [alias],
+        "ambiguity_status": "seeded-stable",
+        "possible_senses": senses,
         "first_seen_at": generated_at,
         "last_seen_at": generated_at,
         "evidence": [evidence],
@@ -419,6 +440,12 @@ def upsert_concept(concepts_dir, generated_at, source_repo, hit):
         "discovered_via": hit.get("edge_type"),
         "observed_at": generated_at,
     }
+    senses = [{
+        "sense_id": f"{concept_id}#sense-1",
+        "label": term,
+        "status": "candidate",
+        "buckets": buckets,
+    }]
     if path.exists():
         existing = json.loads(path.read_text())
         existing["last_seen_at"] = generated_at
@@ -431,6 +458,8 @@ def upsert_concept(concepts_dir, generated_at, source_repo, hit):
         if evidence not in existing["evidence"]:
             existing["evidence"].append(evidence)
         existing["primary_bucket"] = existing.get("primary_bucket") or buckets[0]
+        existing.setdefault("ambiguity_status", "unresolved")
+        existing.setdefault("possible_senses", senses)
         write_json(path, existing)
         return
     payload = {
@@ -439,6 +468,8 @@ def upsert_concept(concepts_dir, generated_at, source_repo, hit):
         "primary_bucket": buckets[0],
         "buckets": buckets,
         "aliases": [alias],
+        "ambiguity_status": "unresolved",
+        "possible_senses": senses,
         "first_seen_at": generated_at,
         "last_seen_at": generated_at,
         "evidence": [evidence],
@@ -500,6 +531,16 @@ def normalize_existing_concept_artifacts(concepts_dir):
         obj.setdefault("aliases", [])
         if obj.get("canonical_name") and obj["canonical_name"] not in obj["aliases"]:
             obj["aliases"].append(obj["canonical_name"])
+        discovered_via = next((item.get("discovered_via") for item in (obj.get("evidence") or []) if item.get("discovered_via")), None)
+        default_status = "seeded-stable" if discovered_via == "seeded-language-entity" else "unresolved"
+        obj.setdefault("ambiguity_status", default_status)
+        if not obj.get("possible_senses"):
+            obj["possible_senses"] = [{
+                "sense_id": f"{obj.get('concept_id', slug(obj.get('canonical_name','concept')))}#sense-1",
+                "label": obj.get("canonical_name") or obj.get("concept_id"),
+                "status": "seeded-stable" if default_status == "seeded-stable" else "candidate",
+                "buckets": obj["buckets"],
+            }]
         write_json(path, obj)
 
 
