@@ -2,6 +2,10 @@ name: github-seed-discovery
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 19 * * *'
+    - cron: '0 22 * * *'
+    - cron: '0 1 * * *'
 
 jobs:
   discover:
