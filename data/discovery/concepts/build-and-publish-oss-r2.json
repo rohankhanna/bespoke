@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    "Build And Publish (OSS + R2)"
+  ],
+  "buckets": [
+    "workflow-process"
+  ],
+  "canonical_name": "Build And Publish (OSS + R2)",
+  "concept_id": "build-and-publish-oss-r2",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T10:25:53.609022+00:00",
+      "source_file": ".github/workflows/build-and-publish.yml",
+      "source_repo": "1Panel-dev/1Panel"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00"
+}

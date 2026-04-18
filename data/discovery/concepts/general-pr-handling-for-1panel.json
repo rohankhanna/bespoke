@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    "General PR Handling for 1Panel"
+  ],
+  "buckets": [
+    "workflow-process"
+  ],
+  "canonical_name": "General PR Handling for 1Panel",
+  "concept_id": "general-pr-handling-for-1panel",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T10:25:53.609022+00:00",
+      "source_file": ".github/workflows/add-labels-for-pr.yml",
+      "source_repo": "1Panel-dev/1Panel"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00"
+}

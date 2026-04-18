@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pedronauck/skills",
+      "target": "pedronauck/kodebase-go",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-18T10:25:53.609022+00:00",
+  "source_repo": "pedronauck/skills"
+}

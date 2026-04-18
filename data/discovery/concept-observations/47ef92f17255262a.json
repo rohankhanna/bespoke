@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "workflow-process"
+  ],
+  "concept_id": "create-pull-request",
+  "normalized_form": "create-pull-request",
+  "observation_id": "47ef92f17255262a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "Create Pull Request",
+  "source_file": ".github/workflows/create_pull_request.yml",
+  "source_repo": "actions/runner-images"
+}

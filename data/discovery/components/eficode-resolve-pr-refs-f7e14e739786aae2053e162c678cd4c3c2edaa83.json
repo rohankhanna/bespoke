@@ -1,0 +1,12 @@
+{
+  "component": "eficode/resolve-pr-refs@f7e14e739786aae2053e162c678cd4c3c2edaa83",
+  "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "withastro/compiler"
+    }
+  ]
+}

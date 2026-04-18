@@ -1,0 +1,12 @@
+{
+  "component": "actions-cool/issues-helper@9861779a695cf1898bd984c727f685f351cfc372",
+  "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-needs-repro.yml",
+      "source_repo": "withastro/compiler"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "tool-component"
+  ],
+  "concept_id": "commit-message",
+  "normalized_form": "commit-message",
+  "observation_id": "425e9d6028c2a408",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "commit-message",
+  "source_file": null,
+  "source_repo": "fcakyon/claude-codex-settings"
+}

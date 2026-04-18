@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "forrestchang/andrej-karpathy-skills",
+      "target": "multica-ai/multica",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-18T10:25:53.609022+00:00",
+  "source_repo": "forrestchang/andrej-karpathy-skills"
+}

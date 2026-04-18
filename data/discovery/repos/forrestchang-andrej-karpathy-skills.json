@@ -1,0 +1,38 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "forrestchang/andrej-karpathy-skills",
+      "target": "multica-ai/multica",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-18T10:26:26.789164+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5786
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+    "full_name": "forrestchang/andrej-karpathy-skills",
+    "html_url": "https://github.com/forrestchang/andrej-karpathy-skills",
+    "language": null,
+    "pushed_at": "2026-04-15T17:47:20Z",
+    "topics": [],
+    "updated_at": "2026-04-18T10:26:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "multica-ai/multica",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "tool-component"
+  ],
+  "concept_id": "ai-tools",
+  "normalized_form": "ai-tools",
+  "observation_id": "e3548be0961a72a5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "ai-tools",
+  "source_file": null,
+  "source_repo": "fcakyon/claude-codex-settings"
+}

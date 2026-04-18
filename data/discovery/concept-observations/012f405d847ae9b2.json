@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "tool-component"
+  ],
+  "concept_id": "clawdbot",
+  "normalized_form": "clawdbot",
+  "observation_id": "012f405d847ae9b2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "clawdbot",
+  "source_file": null,
+  "source_repo": "1Panel-dev/1Panel"
+}

@@ -1,0 +1,28 @@
+{
+  "aliases": [
+    "linux",
+    "Linux"
+  ],
+  "buckets": [
+    "tool-component",
+    "workflow-process"
+  ],
+  "canonical_name": "linux",
+  "concept_id": "linux",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T10:25:53.609022+00:00",
+      "source_file": null,
+      "source_repo": "1Panel-dev/1Panel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T10:25:53.609022+00:00",
+      "source_file": ".github/workflows/linux_build.yml",
+      "source_repo": "1runeberg/confichat"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00"
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-18T09:57:17.167988+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -186,6 +186,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "ldayton/Dippy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "fcakyon/claude-codex-settings"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Astro-Han/karpathy-llm-wiki"
     }
   ],
   "term": "Claude Code"

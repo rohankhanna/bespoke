@@ -1,0 +1,26 @@
+{
+  "aliases": [
+    "claude-code"
+  ],
+  "buckets": [
+    "tool-component"
+  ],
+  "canonical_name": "claude-code",
+  "concept_id": "claude-code",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T10:25:53.609022+00:00",
+      "source_file": null,
+      "source_repo": "fcakyon/claude-codex-settings"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T10:25:53.609022+00:00",
+      "source_file": null,
+      "source_repo": "Astro-Han/karpathy-llm-wiki"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00"
+}

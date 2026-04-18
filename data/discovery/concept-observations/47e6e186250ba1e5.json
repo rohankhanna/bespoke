@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "tool-component"
+  ],
+  "concept_id": "astro",
+  "normalized_form": "astro",
+  "observation_id": "47e6e186250ba1e5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "astro",
+  "source_file": null,
+  "source_repo": "withastro/starlight"
+}

@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    "Discord Release Notification"
+  ],
+  "buckets": [
+    "workflow-process"
+  ],
+  "canonical_name": "Discord Release Notification",
+  "concept_id": "discord-release-notification",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T10:25:53.609022+00:00",
+      "source_file": ".github/workflows/discord-release.yml",
+      "source_repo": "AndyMik90/Aperant"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00"
+}

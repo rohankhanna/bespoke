@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "workflow-process"
+  ],
+  "concept_id": "llm-code-review",
+  "normalized_form": "llm-code-review",
+  "observation_id": "24cb07a833261d21",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "LLM Code Review",
+  "source_file": ".github/workflows/llm-code-review.yml",
+  "source_repo": "1Panel-dev/MaxKB"
+}

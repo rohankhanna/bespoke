@@ -1,0 +1,528 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-python-pg.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-python-pg.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-python-pg.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-python-pg.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-vector-model.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-vector-model.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-vector-model.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-vector-model.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml"
+    },
+    {
+      "component": "jumpserver/action-generic-handler@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-pr-from-push.yml"
+    },
+    {
+      "component": "usthe/issues-translate-action@v2.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-translator.yml"
+    },
+    {
+      "component": "fit2cloud/LLM-CodeReview-Action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llm-code-review.yml"
+    },
+    {
+      "component": "Yikun/hub-mirror-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync2gitee.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos_check.yml"
+    },
+    {
+      "component": "crate-ci/typos@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos_check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-python-pg.yml",
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-python-pg.yml",
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-python-pg.yml",
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-python-pg.yml",
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-vector-model.yml",
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-vector-model.yml",
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-vector-model.yml",
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-vector-model.yml",
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push-vector-model.yml",
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "build-and-push-vector-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml",
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml",
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml",
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml",
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push.yml",
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "build-and-push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-pr-from-push.yml",
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "jumpserver/action-generic-handler@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-translator.yml",
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "usthe/issues-translate-action@v2.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-translator.yml",
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "Issue Translator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llm-code-review.yml",
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "fit2cloud/LLM-CodeReview-Action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/llm-code-review.yml",
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "LLM Code Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync2gitee.yml",
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "Yikun/hub-mirror-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync2gitee.yml",
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "sync2gitee",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos_check.yml",
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typos_check.yml",
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "crate-ci/typos@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/typos_check.yml",
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "Typos Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "agentic-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "deepseek-r1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "knowledgebase",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "langchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "llama3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "maxkb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "mcp-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "ollama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "pgvector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1Panel-dev/MaxKB",
+      "target": "qwen3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T10:26:53.286737+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4787
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2349
+    },
+    {
+      "path": ".github/workflows/build-and-push-python-pg.yml",
+      "size": 1779
+    },
+    {
+      "path": ".github/workflows/build-and-push-vector-model.yml",
+      "size": 1957
+    },
+    {
+      "path": ".github/workflows/build-and-push.yml",
+      "size": 5921
+    },
+    {
+      "path": ".github/workflows/create-pr-from-push.yml",
+      "size": 318
+    },
+    {
+      "path": ".github/workflows/issue-translator.yml",
+      "size": 323
+    },
+    {
+      "path": ".github/workflows/llm-code-review.yml",
+      "size": 964
+    },
+    {
+      "path": ".github/workflows/sync2gitee.yml",
+      "size": 444
+    },
+    {
+      "path": ".github/workflows/typos_check.yml",
+      "size": 685
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "v2",
+    "description": "\ud83d\udd25 MaxKB is an open-source platform for building enterprise-grade agents.  \u5f3a\u5927\u6613\u7528\u7684\u5f00\u6e90\u4f01\u4e1a\u7ea7\u667a\u80fd\u4f53\u5e73\u53f0\u3002",
+    "full_name": "1Panel-dev/MaxKB",
+    "html_url": "https://github.com/1Panel-dev/MaxKB",
+    "language": "Python",
+    "pushed_at": "2026-04-17T09:35:00Z",
+    "topics": [
+      "agent",
+      "agentic-ai",
+      "chatbot",
+      "deepseek-r1",
+      "knowledgebase",
+      "langchain",
+      "llama3",
+      "llm",
+      "maxkb",
+      "mcp-server",
+      "ollama",
+      "pgvector",
+      "qwen3",
+      "rag"
+    ],
+    "updated_at": "2026-04-18T08:11:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push-vector-model.yml",
+      "term": "build-and-push-vector-model"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-push.yml",
+      "term": "build-and-push"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-translator.yml",
+      "term": "Issue Translator"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/llm-code-review.yml",
+      "term": "LLM Code Review"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync2gitee.yml",
+      "term": "sync2gitee"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/typos_check.yml",
+      "term": "Typos Check"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-ai"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbot"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepseek-r1"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledgebase"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langchain"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama3"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maxkb"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-server"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ollama"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pgvector"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qwen3"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "workflow-process"
+  ],
+  "concept_id": "close-stale-robobun-prs",
+  "normalized_form": "close-stale-robobun-prs",
+  "observation_id": "4073669b692bad98",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "Close stale robobun PRs",
+  "source_file": ".github/workflows/close-stale-robobun-prs.yml",
+  "source_repo": "oven-sh/bun"
+}

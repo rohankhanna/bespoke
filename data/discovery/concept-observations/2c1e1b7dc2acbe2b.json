@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "tool-component"
+  ],
+  "concept_id": "chatbot",
+  "normalized_form": "chatbot",
+  "observation_id": "2c1e1b7dc2acbe2b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "chatbot",
+  "source_file": null,
+  "source_repo": "1Panel-dev/MaxKB"
+}

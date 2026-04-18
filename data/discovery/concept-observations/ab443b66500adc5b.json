@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "workflow-process"
+  ],
+  "concept_id": "typos-check",
+  "normalized_form": "typos-check",
+  "observation_id": "ab443b66500adc5b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "Typos Check",
+  "source_file": ".github/workflows/typos_check.yml",
+  "source_repo": "1Panel-dev/MaxKB"
+}

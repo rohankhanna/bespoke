@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "tool-component"
+  ],
+  "concept_id": "frontend-design",
+  "normalized_form": "frontend-design",
+  "observation_id": "b43930c37995c63e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "frontend-design",
+  "source_file": null,
+  "source_repo": "fcakyon/claude-codex-settings"
+}

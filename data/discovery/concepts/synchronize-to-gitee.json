@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    "Synchronize to Gitee"
+  ],
+  "buckets": [
+    "workflow-process"
+  ],
+  "canonical_name": "Synchronize to Gitee",
+  "concept_id": "synchronize-to-gitee",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T10:25:53.609022+00:00",
+      "source_file": ".github/workflows/sync2gitee.yml",
+      "source_repo": "1Panel-dev/1Panel"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "tool-component"
+  ],
+  "concept_id": "pgvector",
+  "normalized_form": "pgvector",
+  "observation_id": "a1fc00a3f45d20c5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "pgvector",
+  "source_file": null,
+  "source_repo": "1Panel-dev/MaxKB"
+}

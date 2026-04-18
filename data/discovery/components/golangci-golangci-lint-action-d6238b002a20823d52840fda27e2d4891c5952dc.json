@@ -1,0 +1,12 @@
+{
+  "component": "golangci/golangci-lint-action@d6238b002a20823d52840fda27e2d4891c5952dc",
+  "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "withastro/compiler"
+    }
+  ]
+}

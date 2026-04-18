@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    "Auto-close duplicate issues"
+  ],
+  "buckets": [
+    "workflow-process"
+  ],
+  "canonical_name": "Auto-close duplicate issues",
+  "concept_id": "auto-close-duplicate-issues",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T10:25:53.609022+00:00",
+      "source_file": ".github/workflows/auto-close-duplicates.yml",
+      "source_repo": "oven-sh/bun"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00"
+}

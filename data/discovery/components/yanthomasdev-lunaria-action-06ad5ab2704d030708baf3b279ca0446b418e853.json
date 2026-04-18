@@ -1,0 +1,12 @@
+{
+  "component": "yanthomasdev/lunaria-action@06ad5ab2704d030708baf3b279ca0446b418e853",
+  "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lunaria.yml",
+      "source_repo": "withastro/starlight"
+    }
+  ]
+}

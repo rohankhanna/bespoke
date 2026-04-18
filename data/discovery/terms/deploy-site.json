@@ -1,7 +1,7 @@
 {
   "discovered_via": "github-hosted-files",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-18T09:50:06.115508+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -18,6 +18,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/deploy-site.yml",
       "source_repo": "agent-sh/agentsys"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/site.yaml",
+      "source_repo": "asg017/sqlite-vss"
     }
   ],
   "term": "Deploy Site"

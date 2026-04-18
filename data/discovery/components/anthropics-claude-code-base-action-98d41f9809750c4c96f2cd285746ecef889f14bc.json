@@ -1,0 +1,17 @@
+{
+  "component": "anthropics/claude-code-base-action@98d41f9809750c4c96f2cd285746ecef889f14bc",
+  "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-dedupe-issues.yml",
+      "source_repo": "oven-sh/bun"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-find-issues-for-pr.yml",
+      "source_repo": "oven-sh/bun"
+    }
+  ]
+}

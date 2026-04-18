@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "tool-component"
+  ],
+  "concept_id": "mcp-server",
+  "normalized_form": "mcp-server",
+  "observation_id": "a54bb8a98db6a1ac",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "mcp-server",
+  "source_file": null,
+  "source_repo": "1Panel-dev/MaxKB"
+}

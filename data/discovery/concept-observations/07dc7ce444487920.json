@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "workflow-process"
+  ],
+  "concept_id": "test",
+  "normalized_form": "test",
+  "observation_id": "07dc7ce444487920",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "Test",
+  "source_file": ".github/workflows/ci.yml",
+  "source_repo": "withastro/compiler"
+}

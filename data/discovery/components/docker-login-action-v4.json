@@ -1,7 +1,7 @@
 {
   "component": "docker/login-action@v4",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-18T04:38:51.315908+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "llama-farm/llamafarm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-python-pg.yml",
+      "source_repo": "1Panel-dev/MaxKB"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-vector-model.yml",
+      "source_repo": "1Panel-dev/MaxKB"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push.yml",
+      "source_repo": "1Panel-dev/MaxKB"
     }
   ]
 }

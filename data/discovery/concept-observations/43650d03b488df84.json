@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "workflow-process"
+  ],
+  "concept_id": "blob-size-policy",
+  "normalized_form": "blob-size-policy",
+  "observation_id": "43650d03b488df84",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "blob-size-policy",
+  "source_file": ".github/workflows/blob-size-policy.yml",
+  "source_repo": "openai/codex"
+}

@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    "slack"
+  ],
+  "buckets": [
+    "tool-component"
+  ],
+  "canonical_name": "slack",
+  "concept_id": "slack",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T10:25:53.609022+00:00",
+      "source_file": null,
+      "source_repo": "fcakyon/claude-codex-settings"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00"
+}

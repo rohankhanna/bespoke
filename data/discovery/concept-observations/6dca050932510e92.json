@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "tool-component"
+  ],
+  "concept_id": "docker",
+  "normalized_form": "docker",
+  "observation_id": "6dca050932510e92",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "docker",
+  "source_file": null,
+  "source_repo": "1Panel-dev/1Panel"
+}

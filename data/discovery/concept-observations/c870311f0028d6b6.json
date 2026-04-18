@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "tool-component"
+  ],
+  "concept_id": "deepseek-r1",
+  "normalized_form": "deepseek-r1",
+  "observation_id": "c870311f0028d6b6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "deepseek-r1",
+  "source_file": null,
+  "source_repo": "1Panel-dev/MaxKB"
+}

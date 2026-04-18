@@ -1,0 +1,12 @@
+{
+  "component": "dtolnay/rust-toolchain@631a55b12751854ce901bb631d5902ceb48146f7",
+  "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cargo-deny.yml",
+      "source_repo": "openai/codex"
+    }
+  ]
+}

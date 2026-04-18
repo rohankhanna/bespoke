@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "workflow-process"
+  ],
+  "concept_id": "close-issues-needs-repro",
+  "normalized_form": "close-issues-needs-repro",
+  "observation_id": "cfc1151716c51527",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "Close Issues (needs repro)",
+  "source_file": ".github/workflows/issue-needs-repro.yml",
+  "source_repo": "withastro/compiler"
+}

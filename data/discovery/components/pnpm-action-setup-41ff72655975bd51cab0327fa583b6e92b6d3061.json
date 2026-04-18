@@ -1,0 +1,17 @@
+{
+  "component": "pnpm/action-setup@41ff72655975bd51cab0327fa583b6e92b6d3061",
+  "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "withastro/compiler"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "withastro/compiler"
+    }
+  ]
+}

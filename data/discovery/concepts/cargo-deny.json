@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    "cargo-deny"
+  ],
+  "buckets": [
+    "workflow-process"
+  ],
+  "canonical_name": "cargo-deny",
+  "concept_id": "cargo-deny",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T10:25:53.609022+00:00",
+      "source_file": ".github/workflows/cargo-deny.yml",
+      "source_repo": "openai/codex"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00"
+}

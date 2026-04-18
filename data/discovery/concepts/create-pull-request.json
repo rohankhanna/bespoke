@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    "Create Pull Request"
+  ],
+  "buckets": [
+    "workflow-process"
+  ],
+  "canonical_name": "Create Pull Request",
+  "concept_id": "create-pull-request",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T10:25:53.609022+00:00",
+      "source_file": ".github/workflows/create_pull_request.yml",
+      "source_repo": "actions/runner-images"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00"
+}

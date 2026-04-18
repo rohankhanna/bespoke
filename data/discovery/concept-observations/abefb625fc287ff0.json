@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "workflow-process"
+  ],
+  "concept_id": "close-stale-contributor-prs",
+  "normalized_form": "close-stale-contributor-prs",
+  "observation_id": "abefb625fc287ff0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "Close stale contributor PRs",
+  "source_file": ".github/workflows/close-stale-contributor-prs.yml",
+  "source_repo": "openai/codex"
+}

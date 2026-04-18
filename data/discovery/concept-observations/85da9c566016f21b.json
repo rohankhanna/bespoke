@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "tool-component"
+  ],
+  "concept_id": "knowledge-management",
+  "normalized_form": "knowledge-management",
+  "observation_id": "85da9c566016f21b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "knowledge-management",
+  "source_file": null,
+  "source_repo": "Astro-Han/karpathy-llm-wiki"
+}

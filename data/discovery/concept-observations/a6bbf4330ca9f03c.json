@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "workflow-process"
+  ],
+  "concept_id": "test",
+  "normalized_form": "test",
+  "observation_id": "a6bbf4330ca9f03c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "Test",
+  "source_file": ".github/workflows/test.yaml",
+  "source_repo": "asg017/sqlite-rembed"
+}

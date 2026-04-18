@@ -1,0 +1,74 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asg017/sqlite-ecosystem",
+      "target": "asg017/sqlite-http",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asg017/sqlite-ecosystem",
+      "target": "asg017/sqlite-html",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asg017/sqlite-ecosystem",
+      "target": "asg017/sqlite-fastrand",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asg017/sqlite-ecosystem",
+      "target": "asg017/sqlite-hello",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-18T10:26:38.802537+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 43774
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "An overview of all my SQLite extensions, and a roadmap for future extensions and tooling!",
+    "full_name": "asg017/sqlite-ecosystem",
+    "html_url": "https://github.com/asg017/sqlite-ecosystem",
+    "language": "TypeScript",
+    "pushed_at": "2023-08-06T02:27:05Z",
+    "topics": [],
+    "updated_at": "2026-04-10T11:31:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asg017/sqlite-fastrand",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asg017/sqlite-hello",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asg017/sqlite-html",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asg017/sqlite-http",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

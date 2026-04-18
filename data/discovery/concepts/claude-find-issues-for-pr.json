@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    "Claude Find Issues for PR"
+  ],
+  "buckets": [
+    "workflow-process"
+  ],
+  "canonical_name": "Claude Find Issues for PR",
+  "concept_id": "claude-find-issues-for-pr",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T10:25:53.609022+00:00",
+      "source_file": ".github/workflows/claude-find-issues-for-pr.yml",
+      "source_repo": "oven-sh/bun"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00"
+}

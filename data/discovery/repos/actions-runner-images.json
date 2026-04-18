@@ -1,0 +1,410 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-pinned-versions.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "ncipollo/release-action@b7eabc95ff50cbeeedec83973935c8f306dfcd0b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_github_release.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_pull_request.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_pull_request.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_pull_request.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_sbom_report.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_sbom_report.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "github/super-linter/slim@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_pull_request.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_pull_request.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_pull_request.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/powershell-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "actions/runner-images",
+      "target": "aws/homebrew-tap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "actions/runner-images",
+      "target": "azure/homebrew-bicep",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "actions/runner-images",
+      "target": "mongodb/homebrew-brew",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-pinned-versions.yml",
+      "source_repo": "actions/runner-images",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-pinned-versions.yml",
+      "source_repo": "actions/runner-images",
+      "target": "Check Outdated Version Pinning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "actions/runner-images",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "actions/runner-images",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "actions/runner-images",
+      "target": "github/codeql-action/autobuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "actions/runner-images",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "actions/runner-images",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_github_release.yml",
+      "source_repo": "actions/runner-images",
+      "target": "ncipollo/release-action@b7eabc95ff50cbeeedec83973935c8f306dfcd0b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create_github_release.yml",
+      "source_repo": "actions/runner-images",
+      "target": "Create GitHub release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_pull_request.yml",
+      "source_repo": "actions/runner-images",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_pull_request.yml",
+      "source_repo": "actions/runner-images",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create_pull_request.yml",
+      "source_repo": "actions/runner-images",
+      "target": "Create Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_sbom_report.yml",
+      "source_repo": "actions/runner-images",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_sbom_report.yml",
+      "source_repo": "actions/runner-images",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create_sbom_report.yml",
+      "source_repo": "actions/runner-images",
+      "target": "Create SBOM for the release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-images.yml",
+      "source_repo": "actions/runner-images",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-images.yml",
+      "source_repo": "actions/runner-images",
+      "target": "Test Docker Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "actions/runner-images",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "actions/runner-images",
+      "target": "github/super-linter/slim@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "actions/runner-images",
+      "target": "Linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_pull_request.yml",
+      "source_repo": "actions/runner-images",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge_pull_request.yml",
+      "source_repo": "actions/runner-images",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge_pull_request.yml",
+      "source_repo": "actions/runner-images",
+      "target": "Merge pull request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/powershell-tests.yml",
+      "source_repo": "actions/runner-images",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/powershell-tests.yml",
+      "source_repo": "actions/runner-images",
+      "target": "PowerShell Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T10:26:18.027923+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18652
+    },
+    {
+      "path": ".github/workflows/check-pinned-versions.yml",
+      "size": 457
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2417
+    },
+    {
+      "path": ".github/workflows/create_github_release.yml",
+      "size": 688
+    },
+    {
+      "path": ".github/workflows/create_pull_request.yml",
+      "size": 2275
+    },
+    {
+      "path": ".github/workflows/create_sbom_report.yml",
+      "size": 4481
+    },
+    {
+      "path": ".github/workflows/docker-images.yml",
+      "size": 584
+    },
+    {
+      "path": ".github/workflows/linter.yml",
+      "size": 799
+    },
+    {
+      "path": ".github/workflows/merge_pull_request.yml",
+      "size": 1544
+    },
+    {
+      "path": ".github/workflows/powershell-tests.yml",
+      "size": 513
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "GitHub Actions runner images",
+    "full_name": "actions/runner-images",
+    "html_url": "https://github.com/actions/runner-images",
+    "language": "PowerShell",
+    "pushed_at": "2026-04-17T12:46:22Z",
+    "topics": [],
+    "updated_at": "2026-04-18T05:41:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/homebrew-tap",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure/homebrew-bicep",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mongodb/homebrew-brew",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-pinned-versions.yml",
+      "term": "Check Outdated Version Pinning"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create_github_release.yml",
+      "term": "Create GitHub release"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create_pull_request.yml",
+      "term": "Create Pull Request"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create_sbom_report.yml",
+      "term": "Create SBOM for the release"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-images.yml",
+      "term": "Test Docker Images"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "term": "Linter"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge_pull_request.yml",
+      "term": "Merge pull request"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/powershell-tests.yml",
+      "term": "PowerShell Tests"
+    }
+  ]
+}

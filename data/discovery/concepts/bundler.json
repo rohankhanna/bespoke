@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    "bundler"
+  ],
+  "buckets": [
+    "tool-component"
+  ],
+  "canonical_name": "bundler",
+  "concept_id": "bundler",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T10:25:53.609022+00:00",
+      "source_file": null,
+      "source_repo": "oven-sh/bun"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00"
+}

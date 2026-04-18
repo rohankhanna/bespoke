@@ -1,7 +1,7 @@
 {
   "component": "pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-18T09:57:17.167988+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -102,6 +102,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "giselles-ai/giselle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "withastro/starlight"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/file-icons.yml",
+      "source_repo": "withastro/starlight"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "withastro/starlight"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lunaria.yml",
+      "source_repo": "withastro/starlight"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/preview-release.yml",
+      "source_repo": "withastro/starlight"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "withastro/starlight"
     }
   ]
 }

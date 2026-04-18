@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "workflow-process"
+  ],
+  "concept_id": "issue-auto-label",
+  "normalized_form": "issue-auto-label",
+  "observation_id": "e5c6b46f7da486b6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "Issue Auto Label",
+  "source_file": ".github/workflows/issue-auto-label.yml",
+  "source_repo": "AndyMik90/Aperant"
+}

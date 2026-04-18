@@ -1,106 +1,6 @@
 {
-  "generated_at": "2026-04-18T09:57:17.167988+00:00",
+  "generated_at": "2026-04-18T10:25:53.609022+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "haleclipse/ccometixline",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "fcakyon/claude-codex-settings",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "andymik90/auto-claude",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "openai/codex",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "actions/virtual-environments",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "withastro/.github",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "withastro/compiler",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "withastro/starlight",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "forrestchang/andrej-karpathy-skills",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "oven-sh/bun",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "astro-han/karpathy-llm-wiki",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "pedronauck/skills",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "asg017/sqlite-ecosystem",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "asg017/sqlite-lembed",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "asg017/sqlite-rembed",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "asg017/sqlite-vss",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "1panel-dev/1panel",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "1panel-dev/maxkb",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "1runeberg/confichat",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "abraxas-365/langchain-rust",
-      "graph_distance": 3
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "firebase/firebase-admin-node",
@@ -1390,6 +1290,116 @@
       "discovered_via": "explicit-github-link",
       "full_name": "ldayton/parable",
       "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cloudflare/skills",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dokploy/cli",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "andymik90/auto-claude",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aws/homebrew-tap",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "azure/homebrew-bicep",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mongodb/homebrew-brew",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "multica-ai/multica",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "atomicmemory/llm-wiki-compiler",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lucasastorian/llmwiki",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "pedronauck/kodebase-go",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "asg017/sqlite-fastrand",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "asg017/sqlite-hello",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "asg017/sqlite-html",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "asg017/sqlite-http",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ggerganov/ggml",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mozilla-ocho/llamafile",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "asg017/sqlite-loadable-rs",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "asg017/sqlite-xsv",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "embeddings-benchmark/mteb",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "haotian-liu/llava",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "langchain-ai/langchain",
+      "graph_distance": 4
     }
   ],
   "processed": [
@@ -1774,6 +1784,26 @@
     "carlrannaberg/claudekit",
     "zuplo/docs",
     "mattgodbolt/jsbeeb",
-    "ldayton/dippy"
+    "ldayton/dippy",
+    "haleclipse/ccometixline",
+    "fcakyon/claude-codex-settings",
+    "andymik90/aperant",
+    "openai/codex",
+    "actions/runner-images",
+    "withastro/.github",
+    "withastro/compiler",
+    "withastro/starlight",
+    "forrestchang/andrej-karpathy-skills",
+    "oven-sh/bun",
+    "astro-han/karpathy-llm-wiki",
+    "pedronauck/skills",
+    "asg017/sqlite-ecosystem",
+    "asg017/sqlite-lembed",
+    "asg017/sqlite-rembed",
+    "asg017/sqlite-vss",
+    "1panel-dev/1panel",
+    "1panel-dev/maxkb",
+    "1runeberg/confichat",
+    "abraxas-365/langchain-rust"
   ]
 }

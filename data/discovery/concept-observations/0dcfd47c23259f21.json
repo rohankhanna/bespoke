@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "workflow-process"
+  ],
+  "concept_id": "sonarcloud-scan",
+  "normalized_form": "sonarcloud-scan",
+  "observation_id": "0dcfd47c23259f21",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "SonarCloud Scan",
+  "source_file": ".github/workflows/sonarcloud-scan.yml",
+  "source_repo": "1Panel-dev/1Panel"
+}

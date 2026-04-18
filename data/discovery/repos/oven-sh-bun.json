@@ -1,0 +1,516 @@
+{
+  "components": [
+    {
+      "component": "@lezer/common",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@lezer/cpp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/bun",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bun-tracestrings",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "esbuild",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mitata",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "peechy",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier-plugin-organize-imports",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "source-map-js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-duplicates.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-label-claude-prs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-dedupe-issues.yml"
+    },
+    {
+      "component": "anthropics/claude-code-base-action@98d41f9809750c4c96f2cd285746ecef889f14bc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-dedupe-issues.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-find-issues-for-pr.yml"
+    },
+    {
+      "component": "anthropics/claude-code-base-action@98d41f9809750c4c96f2cd285746ecef889f14bc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-find-issues-for-pr.yml"
+    },
+    {
+      "component": "anthropics/claude-code-base-action@98d41f9809750c4c96f2cd285746ecef889f14bc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-find-issues-for-pr.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-lint.yml.disabled"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-lint.yml.disabled"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-lint.yml.disabled"
+    },
+    {
+      "component": "peter-evans/find-comment@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-lint.yml.disabled"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-lint.yml.disabled"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-lint.yml.disabled"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oven-sh/bun",
+      "target": "@lezer/common",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oven-sh/bun",
+      "target": "@lezer/cpp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oven-sh/bun",
+      "target": "@types/bun",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oven-sh/bun",
+      "target": "bun-tracestrings",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oven-sh/bun",
+      "target": "esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oven-sh/bun",
+      "target": "mitata",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oven-sh/bun",
+      "target": "peechy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oven-sh/bun",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oven-sh/bun",
+      "target": "prettier-plugin-organize-imports",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oven-sh/bun",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oven-sh/bun",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oven-sh/bun",
+      "target": "source-map-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "oven-sh/bun",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-types.yml",
+      "source_repo": "oven-sh/bun",
+      "target": "Auto Assign Types Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-duplicates.yml",
+      "source_repo": "oven-sh/bun",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-close-duplicates.yml",
+      "source_repo": "oven-sh/bun",
+      "target": "Auto-close duplicate issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-label-claude-prs.yml",
+      "source_repo": "oven-sh/bun",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-label-claude-prs.yml",
+      "source_repo": "oven-sh/bun",
+      "target": "Auto-label Claude PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-dedupe-issues.yml",
+      "source_repo": "oven-sh/bun",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-dedupe-issues.yml",
+      "source_repo": "oven-sh/bun",
+      "target": "anthropics/claude-code-base-action@98d41f9809750c4c96f2cd285746ecef889f14bc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-dedupe-issues.yml",
+      "source_repo": "oven-sh/bun",
+      "target": "Claude Issue Dedupe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-find-issues-for-pr.yml",
+      "source_repo": "oven-sh/bun",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-find-issues-for-pr.yml",
+      "source_repo": "oven-sh/bun",
+      "target": "anthropics/claude-code-base-action@98d41f9809750c4c96f2cd285746ecef889f14bc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-find-issues-for-pr.yml",
+      "source_repo": "oven-sh/bun",
+      "target": "Claude Find Issues for PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stale-robobun-prs.yml",
+      "source_repo": "oven-sh/bun",
+      "target": "Close stale robobun PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-lint.yml.disabled",
+      "source_repo": "oven-sh/bun",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-lint.yml.disabled",
+      "source_repo": "oven-sh/bun",
+      "target": "peter-evans/find-comment@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-lint.yml.disabled",
+      "source_repo": "oven-sh/bun",
+      "target": "peter-evans/create-or-update-comment@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment-lint.yml.disabled",
+      "source_repo": "oven-sh/bun",
+      "target": "C++ Linter comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oven-sh/bun",
+      "target": "bundler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oven-sh/bun",
+      "target": "javascriptcore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oven-sh/bun",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oven-sh/bun",
+      "target": "react",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oven-sh/bun",
+      "target": "transpiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oven-sh/bun",
+      "target": "ziglang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T10:26:30.542009+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23828
+    },
+    {
+      "path": "package.json",
+      "size": 5781
+    },
+    {
+      "path": ".github/workflows/CLAUDE.md",
+      "size": 4183
+    },
+    {
+      "path": ".github/workflows/auto-assign-types.yml",
+      "size": 432
+    },
+    {
+      "path": ".github/workflows/auto-close-duplicates.yml",
+      "size": 707
+    },
+    {
+      "path": ".github/workflows/auto-label-claude-prs.yml",
+      "size": 661
+    },
+    {
+      "path": ".github/workflows/claude-dedupe-issues.yml",
+      "size": 1021
+    },
+    {
+      "path": ".github/workflows/claude-find-issues-for-pr.yml",
+      "size": 1509
+    },
+    {
+      "path": ".github/workflows/close-stale-robobun-prs.yml",
+      "size": 941
+    },
+    {
+      "path": ".github/workflows/comment-lint.yml.disabled",
+      "size": 2734
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager \u2013 all in one",
+    "full_name": "oven-sh/bun",
+    "html_url": "https://github.com/oven-sh/bun",
+    "language": "Zig",
+    "pushed_at": "2026-04-18T10:16:51Z",
+    "topics": [
+      "bun",
+      "bundler",
+      "javascript",
+      "javascriptcore",
+      "jsx",
+      "nodejs",
+      "npm",
+      "react",
+      "transpiler",
+      "typescript",
+      "zig",
+      "ziglang"
+    ],
+    "updated_at": "2026-04-18T08:18:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-types.yml",
+      "term": "Auto Assign Types Issues"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-close-duplicates.yml",
+      "term": "Auto-close duplicate issues"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-label-claude-prs.yml",
+      "term": "Auto-label Claude PRs"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-dedupe-issues.yml",
+      "term": "Claude Issue Dedupe"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-find-issues-for-pr.yml",
+      "term": "Claude Find Issues for PR"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stale-robobun-prs.yml",
+      "term": "Close stale robobun PRs"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment-lint.yml.disabled",
+      "term": "C++ Linter comment"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bundler"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "javascriptcore"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transpiler"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ziglang"
+    }
+  ]
+}

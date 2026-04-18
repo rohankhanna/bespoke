@@ -1,7 +1,7 @@
 {
   "component": "usthe/issues-translate-action@v2.7",
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-18T09:10:17.311509+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/issues-translate.yml",
       "source_repo": "lobehub/lobe-cli-toolbox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-translator.yml",
+      "source_repo": "1Panel-dev/1Panel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-translator.yml",
+      "source_repo": "1Panel-dev/MaxKB"
     }
   ]
 }

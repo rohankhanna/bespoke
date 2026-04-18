@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "tool-component"
+  ],
+  "concept_id": "github",
+  "normalized_form": "github",
+  "observation_id": "481679c9cf24119e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "github",
+  "source_file": null,
+  "source_repo": "fcakyon/claude-codex-settings"
+}

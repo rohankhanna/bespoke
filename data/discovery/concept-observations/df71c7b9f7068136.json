@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "workflow-process"
+  ],
+  "concept_id": "synchronize-to-gitee",
+  "normalized_form": "synchronize-to-gitee",
+  "observation_id": "df71c7b9f7068136",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "Synchronize to Gitee",
+  "source_file": ".github/workflows/sync2gitee.yml",
+  "source_repo": "1Panel-dev/1Panel"
+}

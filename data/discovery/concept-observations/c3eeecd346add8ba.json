@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "tool-component"
+  ],
+  "concept_id": "cursor",
+  "normalized_form": "cursor",
+  "observation_id": "c3eeecd346add8ba",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "cursor",
+  "source_file": null,
+  "source_repo": "Astro-Han/karpathy-llm-wiki"
+}

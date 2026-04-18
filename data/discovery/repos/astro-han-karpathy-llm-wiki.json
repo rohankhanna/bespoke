@@ -1,0 +1,197 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Astro-Han/karpathy-llm-wiki",
+      "target": "lucasastorian/llmwiki",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Astro-Han/karpathy-llm-wiki",
+      "target": "atomicmemory/llm-wiki-compiler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Astro-Han/karpathy-llm-wiki",
+      "target": "agent-skill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Astro-Han/karpathy-llm-wiki",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Astro-Han/karpathy-llm-wiki",
+      "target": "cursor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Astro-Han/karpathy-llm-wiki",
+      "target": "karpathy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Astro-Han/karpathy-llm-wiki",
+      "target": "knowledge-base",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Astro-Han/karpathy-llm-wiki",
+      "target": "knowledge-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Astro-Han/karpathy-llm-wiki",
+      "target": "llm-wiki",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Astro-Han/karpathy-llm-wiki",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Astro-Han/karpathy-llm-wiki",
+      "target": "personal-knowledge-base",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Astro-Han/karpathy-llm-wiki",
+      "target": "productivity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Astro-Han/karpathy-llm-wiki",
+      "target": "rag-alternative",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T10:26:31.974123+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5867
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Agent Skills-compatible LLM wiki for Claude Code, Cursor, and Codex. Build a Karpathy-style knowledge base from raw sources, citations, and linting.",
+    "full_name": "Astro-Han/karpathy-llm-wiki",
+    "html_url": "https://github.com/Astro-Han/karpathy-llm-wiki",
+    "language": null,
+    "pushed_at": "2026-04-13T01:39:31Z",
+    "topics": [
+      "agent-skill",
+      "claude-code",
+      "codex",
+      "cursor",
+      "karpathy",
+      "knowledge-base",
+      "knowledge-management",
+      "llm",
+      "llm-wiki",
+      "markdown",
+      "personal-knowledge-base",
+      "productivity",
+      "rag-alternative"
+    ],
+    "updated_at": "2026-04-18T10:10:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atomicmemory/llm-wiki-compiler",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lucasastorian/llmwiki",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-skill"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cursor"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "karpathy"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge-base"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge-management"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-wiki"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "personal-knowledge-base"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "productivity"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rag-alternative"
+    }
+  ]
+}

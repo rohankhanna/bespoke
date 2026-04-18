@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "tool-component"
+  ],
+  "concept_id": "transpiler",
+  "normalized_form": "transpiler",
+  "observation_id": "88b92c967e74aaf6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "transpiler",
+  "source_file": null,
+  "source_repo": "oven-sh/bun"
+}

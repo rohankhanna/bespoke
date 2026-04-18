@@ -1,0 +1,37 @@
+{
+  "component": "actions/setup-java@v4.2.2",
+  "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/android_build.yml",
+      "source_repo": "1runeberg/confichat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ios_build.yml",
+      "source_repo": "1runeberg/confichat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux_build.yml",
+      "source_repo": "1runeberg/confichat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/macos_build.yml",
+      "source_repo": "1runeberg/confichat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "1runeberg/confichat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows_build.yml",
+      "source_repo": "1runeberg/confichat"
+    }
+  ]
+}

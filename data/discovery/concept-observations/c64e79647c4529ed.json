@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "workflow-process"
+  ],
+  "concept_id": "linux",
+  "normalized_form": "linux",
+  "observation_id": "c64e79647c4529ed",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "Linux",
+  "source_file": ".github/workflows/linux_build.yml",
+  "source_repo": "1runeberg/confichat"
+}

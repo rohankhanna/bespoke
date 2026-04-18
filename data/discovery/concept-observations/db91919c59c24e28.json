@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "tool-component"
+  ],
+  "concept_id": "pull-requests",
+  "normalized_form": "pull-requests",
+  "observation_id": "db91919c59c24e28",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "pull-requests",
+  "source_file": null,
+  "source_repo": "fcakyon/claude-codex-settings"
+}

@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "workflow-process"
+  ],
+  "concept_id": "ios",
+  "normalized_form": "ios",
+  "observation_id": "b2a74951ce5619b9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "iOS",
+  "source_file": ".github/workflows/ios_build.yml",
+  "source_repo": "1runeberg/confichat"
+}

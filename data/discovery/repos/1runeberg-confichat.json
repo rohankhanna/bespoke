@@ -1,0 +1,416 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_build.yml"
+    },
+    {
+      "component": "actions/setup-java@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_build.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v2.16.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_build.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios_build.yml"
+    },
+    {
+      "component": "actions/setup-java@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios_build.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v2.16.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios_build.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_build.yml"
+    },
+    {
+      "component": "actions/setup-java@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_build.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v2.16.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_build.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_build.yml"
+    },
+    {
+      "component": "actions/setup-java@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_build.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v2.16.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_build.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yml"
+    },
+    {
+      "component": "actions/setup-java@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v2.16.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2.0.8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2.0.8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2.0.8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_build.yml"
+    },
+    {
+      "component": "actions/setup-java@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_build.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v2.16.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "1runeberg/confichat",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "1runeberg/confichat",
+      "target": "haotian-liu/llava",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_build.yml",
+      "source_repo": "1runeberg/confichat",
+      "target": "actions/checkout@v4.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_build.yml",
+      "source_repo": "1runeberg/confichat",
+      "target": "actions/setup-java@v4.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_build.yml",
+      "source_repo": "1runeberg/confichat",
+      "target": "subosito/flutter-action@v2.16.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android_build.yml",
+      "source_repo": "1runeberg/confichat",
+      "target": "Android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios_build.yml",
+      "source_repo": "1runeberg/confichat",
+      "target": "actions/checkout@v4.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios_build.yml",
+      "source_repo": "1runeberg/confichat",
+      "target": "actions/setup-java@v4.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios_build.yml",
+      "source_repo": "1runeberg/confichat",
+      "target": "subosito/flutter-action@v2.16.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ios_build.yml",
+      "source_repo": "1runeberg/confichat",
+      "target": "iOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_build.yml",
+      "source_repo": "1runeberg/confichat",
+      "target": "actions/checkout@v4.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_build.yml",
+      "source_repo": "1runeberg/confichat",
+      "target": "actions/setup-java@v4.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_build.yml",
+      "source_repo": "1runeberg/confichat",
+      "target": "subosito/flutter-action@v2.16.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux_build.yml",
+      "source_repo": "1runeberg/confichat",
+      "target": "Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_build.yml",
+      "source_repo": "1runeberg/confichat",
+      "target": "actions/checkout@v4.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_build.yml",
+      "source_repo": "1runeberg/confichat",
+      "target": "actions/setup-java@v4.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_build.yml",
+      "source_repo": "1runeberg/confichat",
+      "target": "subosito/flutter-action@v2.16.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos_build.yml",
+      "source_repo": "1runeberg/confichat",
+      "target": "macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "1runeberg/confichat",
+      "target": "actions/checkout@v4.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "1runeberg/confichat",
+      "target": "actions/setup-java@v4.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "1runeberg/confichat",
+      "target": "subosito/flutter-action@v2.16.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "1runeberg/confichat",
+      "target": "softprops/action-gh-release@v2.0.8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "1runeberg/confichat",
+      "target": "Publish Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_build.yml",
+      "source_repo": "1runeberg/confichat",
+      "target": "actions/checkout@v4.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_build.yml",
+      "source_repo": "1runeberg/confichat",
+      "target": "actions/setup-java@v4.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_build.yml",
+      "source_repo": "1runeberg/confichat",
+      "target": "subosito/flutter-action@v2.16.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows_build.yml",
+      "source_repo": "1runeberg/confichat",
+      "target": "Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1runeberg/confichat",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1runeberg/confichat",
+      "target": "ollama",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T10:26:56.031929+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7837
+    },
+    {
+      "path": ".github/workflows/android_build.yml",
+      "size": 1046
+    },
+    {
+      "path": ".github/workflows/ios_build.yml",
+      "size": 1413
+    },
+    {
+      "path": ".github/workflows/linux_build.yml",
+      "size": 1187
+    },
+    {
+      "path": ".github/workflows/macos_build.yml",
+      "size": 1256
+    },
+    {
+      "path": ".github/workflows/publish_release.yml",
+      "size": 3804
+    },
+    {
+      "path": ".github/workflows/windows_build.yml",
+      "size": 1043
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Lightweight, standalone, multi-platform, and privacy focused local LLM chat interface with optional encryption",
+    "full_name": "1runeberg/confichat",
+    "html_url": "https://github.com/1runeberg/confichat",
+    "language": "Dart",
+    "pushed_at": "2025-04-26T02:38:18Z",
+    "topics": [
+      "ai",
+      "chatgpt",
+      "llm",
+      "ollama",
+      "openai"
+    ],
+    "updated_at": "2026-04-17T14:18:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haotian-liu/llava",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android_build.yml",
+      "term": "Android"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ios_build.yml",
+      "term": "iOS"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux_build.yml",
+      "term": "Linux"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos_build.yml",
+      "term": "macOS"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_release.yml",
+      "term": "Publish Release"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows_build.yml",
+      "term": "Windows"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ollama"
+    }
+  ]
+}

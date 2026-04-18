@@ -1,0 +1,38 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pedronauck/skills",
+      "target": "pedronauck/kodebase-go",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-18T10:26:33.402557+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21354
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "My personal favorite skills",
+    "full_name": "pedronauck/skills",
+    "html_url": "https://github.com/pedronauck/skills",
+    "language": "Python",
+    "pushed_at": "2026-04-16T20:21:51Z",
+    "topics": [],
+    "updated_at": "2026-04-18T09:20:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pedronauck/kodebase-go",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

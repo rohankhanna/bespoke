@@ -1,0 +1,353 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-plugins.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-plugins.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fcakyon/claude-codex-settings",
+      "target": "anthropics/skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fcakyon/claude-codex-settings",
+      "target": "anthropics/claude-plugins-official",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fcakyon/claude-codex-settings",
+      "target": "cloudflare/skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fcakyon/claude-codex-settings",
+      "target": "dokploy/cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-plugins.yml",
+      "source_repo": "fcakyon/claude-codex-settings",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-plugins.yml",
+      "source_repo": "fcakyon/claude-codex-settings",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-plugins.yml",
+      "source_repo": "fcakyon/claude-codex-settings",
+      "target": "Validate Plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fcakyon/claude-codex-settings",
+      "target": "ai-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fcakyon/claude-codex-settings",
+      "target": "claude-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fcakyon/claude-codex-settings",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fcakyon/claude-codex-settings",
+      "target": "claude-code-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fcakyon/claude-codex-settings",
+      "target": "claude-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fcakyon/claude-codex-settings",
+      "target": "claudecode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fcakyon/claude-codex-settings",
+      "target": "claudecode-config",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fcakyon/claude-codex-settings",
+      "target": "codex-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fcakyon/claude-codex-settings",
+      "target": "commit-message",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fcakyon/claude-codex-settings",
+      "target": "cursor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fcakyon/claude-codex-settings",
+      "target": "dokploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fcakyon/claude-codex-settings",
+      "target": "frontend-design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fcakyon/claude-codex-settings",
+      "target": "gemini-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fcakyon/claude-codex-settings",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fcakyon/claude-codex-settings",
+      "target": "hetzner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fcakyon/claude-codex-settings",
+      "target": "plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fcakyon/claude-codex-settings",
+      "target": "pull-requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fcakyon/claude-codex-settings",
+      "target": "slack",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T10:26:04.290713+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 65991
+    },
+    {
+      "path": ".github/workflows/validate-plugins.yml",
+      "size": 847
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "My personal Claude Code and OpenAI Codex setup with battle-tested skills, plugins, hooks and agents that I use daily.",
+    "full_name": "fcakyon/claude-codex-settings",
+    "html_url": "https://github.com/fcakyon/claude-codex-settings",
+    "language": "Python",
+    "pushed_at": "2026-04-17T20:26:18Z",
+    "topics": [
+      "ai-agents",
+      "ai-tools",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "claudecode",
+      "claudecode-config",
+      "codex",
+      "codex-cli",
+      "commit-message",
+      "cursor",
+      "dokploy",
+      "frontend-design",
+      "gemini-cli",
+      "github",
+      "hetzner",
+      "plugin",
+      "pull-requests",
+      "slack"
+    ],
+    "updated_at": "2026-04-17T20:26:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anthropics/claude-plugins-official",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anthropics/skills",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudflare/skills",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dokploy/cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-plugins.yml",
+      "term": "Validate Plugins"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-tools"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-ai"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code-plugin"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-skills"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claudecode"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claudecode-config"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codex-cli"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "commit-message"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cursor"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dokploy"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "frontend-design"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini-cli"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hetzner"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pull-requests"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slack"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "workflow-process"
+  ],
+  "concept_id": "lint",
+  "normalized_form": "lint",
+  "observation_id": "670d5ee5e4e9e36a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "Lint",
+  "source_file": ".github/workflows/lint.yml",
+  "source_repo": "AndyMik90/Aperant"
+}

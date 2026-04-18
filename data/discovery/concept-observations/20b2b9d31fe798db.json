@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "workflow-process"
+  ],
+  "concept_id": "windows",
+  "normalized_form": "windows",
+  "observation_id": "20b2b9d31fe798db",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "Windows",
+  "source_file": ".github/workflows/windows_build.yml",
+  "source_repo": "1runeberg/confichat"
+}

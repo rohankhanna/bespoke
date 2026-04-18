@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "tool-component"
+  ],
+  "concept_id": "sqlite",
+  "normalized_form": "sqlite",
+  "observation_id": "2979b061748523c7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "sqlite",
+  "source_file": null,
+  "source_repo": "asg017/sqlite-vss"
+}

@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    "Close Issues (needs repro)"
+  ],
+  "buckets": [
+    "workflow-process"
+  ],
+  "canonical_name": "Close Issues (needs repro)",
+  "concept_id": "close-issues-needs-repro",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T10:25:53.609022+00:00",
+      "source_file": ".github/workflows/issue-needs-repro.yml",
+      "source_repo": "withastro/compiler"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00"
+}

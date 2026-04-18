@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    "C++ Linter comment"
+  ],
+  "buckets": [
+    "workflow-process"
+  ],
+  "canonical_name": "C++ Linter comment",
+  "concept_id": "c-linter-comment",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T10:25:53.609022+00:00",
+      "source_file": ".github/workflows/comment-lint.yml.disabled",
+      "source_repo": "oven-sh/bun"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00"
+}

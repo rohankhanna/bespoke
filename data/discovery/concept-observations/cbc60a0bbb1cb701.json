@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "workflow-process"
+  ],
+  "concept_id": "release",
+  "normalized_form": "release",
+  "observation_id": "cbc60a0bbb1cb701",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "Release",
+  "source_file": ".github/workflows/release.yml",
+  "source_repo": "withastro/compiler"
+}

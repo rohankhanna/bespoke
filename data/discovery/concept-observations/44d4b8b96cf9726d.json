@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "tool-component"
+  ],
+  "concept_id": "ollama",
+  "normalized_form": "ollama",
+  "observation_id": "44d4b8b96cf9726d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "ollama",
+  "source_file": null,
+  "source_repo": "1runeberg/confichat"
+}

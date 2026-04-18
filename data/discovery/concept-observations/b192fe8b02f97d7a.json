@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "workflow-process"
+  ],
+  "concept_id": "powershell-tests",
+  "normalized_form": "powershell-tests",
+  "observation_id": "b192fe8b02f97d7a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "PowerShell Tests",
+  "source_file": ".github/workflows/powershell-tests.yml",
+  "source_repo": "actions/runner-images"
+}

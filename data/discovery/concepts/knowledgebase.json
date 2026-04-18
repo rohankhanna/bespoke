@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    "knowledgebase"
+  ],
+  "buckets": [
+    "tool-component"
+  ],
+  "canonical_name": "knowledgebase",
+  "concept_id": "knowledgebase",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T10:25:53.609022+00:00",
+      "source_file": null,
+      "source_repo": "1Panel-dev/MaxKB"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00"
+}

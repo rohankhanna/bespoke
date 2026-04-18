@@ -1,11 +1,21 @@
 {
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-18T03:42:01.586113+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/congrats.yml",
       "source_repo": "withastro/astro"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/congrats.yml",
+      "source_repo": "withastro/compiler"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/congratsbot.yml",
+      "source_repo": "withastro/starlight"
     }
   ],
   "term": "Congratsbot"

@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    "Windows"
+  ],
+  "buckets": [
+    "workflow-process"
+  ],
+  "canonical_name": "Windows",
+  "concept_id": "windows",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T10:25:53.609022+00:00",
+      "source_file": ".github/workflows/windows_build.yml",
+      "source_repo": "1runeberg/confichat"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "tool-component"
+  ],
+  "concept_id": "rust",
+  "normalized_form": "rust",
+  "observation_id": "39bbc274b6b67cce",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "rust",
+  "source_file": null,
+  "source_repo": "Abraxas-365/langchain-rust"
+}

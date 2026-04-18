@@ -1,0 +1,160 @@
+{
+  "budget_seconds": 360,
+  "elapsed_seconds": 64.259,
+  "generated_at": "2026-04-18T10:25:53.609022+00:00",
+  "processed_repositories": [
+    "haleclipse/ccometixline",
+    "fcakyon/claude-codex-settings",
+    "andymik90/aperant",
+    "openai/codex",
+    "actions/runner-images",
+    "withastro/.github",
+    "withastro/compiler",
+    "withastro/starlight",
+    "forrestchang/andrej-karpathy-skills",
+    "oven-sh/bun",
+    "astro-han/karpathy-llm-wiki",
+    "pedronauck/skills",
+    "asg017/sqlite-ecosystem",
+    "asg017/sqlite-lembed",
+    "asg017/sqlite-rembed",
+    "asg017/sqlite-vss",
+    "1panel-dev/1panel",
+    "1panel-dev/maxkb",
+    "1runeberg/confichat",
+    "abraxas-365/langchain-rust"
+  ],
+  "remaining_budget_seconds": 295.741,
+  "remaining_frontier": 280,
+  "repo_timing_summary": {
+    "average_seconds": 3.2,
+    "count": 20,
+    "max_seconds": 8.923,
+    "total_seconds": 64.009
+  },
+  "repo_timings": [
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.746,
+      "full_name": "haleclipse/ccometixline",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 8.923,
+      "full_name": "fcakyon/claude-codex-settings",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 4.298,
+      "full_name": "andymik90/aperant",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 4.328,
+      "full_name": "openai/codex",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 5.059,
+      "full_name": "actions/runner-images",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.835,
+      "full_name": "withastro/.github",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.255,
+      "full_name": "withastro/compiler",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.543,
+      "full_name": "withastro/starlight",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.086,
+      "full_name": "forrestchang/andrej-karpathy-skills",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.752,
+      "full_name": "oven-sh/bun",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.416,
+      "full_name": "astro-han/karpathy-llm-wiki",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.424,
+      "full_name": "pedronauck/skills",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 5.4,
+      "full_name": "asg017/sqlite-ecosystem",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.177,
+      "full_name": "asg017/sqlite-lembed",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.274,
+      "full_name": "asg017/sqlite-rembed",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.176,
+      "full_name": "asg017/sqlite-vss",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.658,
+      "full_name": "1panel-dev/1panel",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.111,
+      "full_name": "1panel-dev/maxkb",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.728,
+      "full_name": "1runeberg/confichat",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.82,
+      "full_name": "abraxas-365/langchain-rust",
+      "graph_distance": 3
+    }
+  ],
+  "run_id": "20260418T102553Z",
+  "skipped_repositories": [],
+  "stopped_due_to_budget": false
+}

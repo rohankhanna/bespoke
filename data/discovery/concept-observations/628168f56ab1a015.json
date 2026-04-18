@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "workflow-process"
+  ],
+  "concept_id": "pr-labeler",
+  "normalized_form": "pr-labeler",
+  "observation_id": "628168f56ab1a015",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "PR Labeler",
+  "source_file": ".github/workflows/pr-labeler.yml",
+  "source_repo": "AndyMik90/Aperant"
+}

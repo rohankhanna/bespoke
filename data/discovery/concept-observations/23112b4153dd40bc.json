@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "tool-component"
+  ],
+  "concept_id": "hetzner",
+  "normalized_form": "hetzner",
+  "observation_id": "23112b4153dd40bc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "hetzner",
+  "source_file": null,
+  "source_repo": "fcakyon/claude-codex-settings"
+}

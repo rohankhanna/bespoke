@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    "Create SBOM for the release"
+  ],
+  "buckets": [
+    "workflow-process"
+  ],
+  "canonical_name": "Create SBOM for the release",
+  "concept_id": "create-sbom-for-the-release",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T10:25:53.609022+00:00",
+      "source_file": ".github/workflows/create_sbom_report.yml",
+      "source_repo": "actions/runner-images"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00"
+}

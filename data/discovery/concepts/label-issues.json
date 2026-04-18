@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    "Label issues"
+  ],
+  "buckets": [
+    "workflow-process"
+  ],
+  "canonical_name": "Label issues",
+  "concept_id": "label-issues",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T10:25:53.609022+00:00",
+      "source_file": ".github/workflows/issue-opened.yml",
+      "source_repo": "withastro/compiler"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "tool-component"
+  ],
+  "concept_id": "claude-code",
+  "normalized_form": "claude-code",
+  "observation_id": "8f9f0a27c94cf96a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "claude-code",
+  "source_file": null,
+  "source_repo": "fcakyon/claude-codex-settings"
+}

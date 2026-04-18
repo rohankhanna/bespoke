@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    "pull-requests"
+  ],
+  "buckets": [
+    "tool-component"
+  ],
+  "canonical_name": "pull-requests",
+  "concept_id": "pull-requests",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T10:25:53.609022+00:00",
+      "source_file": null,
+      "source_repo": "fcakyon/claude-codex-settings"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00"
+}

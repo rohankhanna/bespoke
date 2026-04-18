@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "workflow-process"
+  ],
+  "concept_id": "android",
+  "normalized_form": "android",
+  "observation_id": "f538fe02e7fc379d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "Android",
+  "source_file": ".github/workflows/android_build.yml",
+  "source_repo": "1runeberg/confichat"
+}

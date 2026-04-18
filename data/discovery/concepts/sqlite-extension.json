@@ -1,0 +1,32 @@
+{
+  "aliases": [
+    "sqlite-extension"
+  ],
+  "buckets": [
+    "tool-component"
+  ],
+  "canonical_name": "sqlite-extension",
+  "concept_id": "sqlite-extension",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T10:25:53.609022+00:00",
+      "source_file": null,
+      "source_repo": "asg017/sqlite-lembed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T10:25:53.609022+00:00",
+      "source_file": null,
+      "source_repo": "asg017/sqlite-rembed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T10:25:53.609022+00:00",
+      "source_file": null,
+      "source_repo": "asg017/sqlite-vss"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00"
+}

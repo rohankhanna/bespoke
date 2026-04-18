@@ -1,0 +1,13 @@
+{
+  "candidate_buckets": [
+    "workflow-process"
+  ],
+  "concept_id": "release",
+  "normalized_form": "release",
+  "observation_id": "135cb1e29afcba47",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T10:25:53.609022+00:00",
+  "observed_text": "Release",
+  "source_file": ".github/workflows/release.yaml",
+  "source_repo": "asg017/sqlite-rembed"
+}

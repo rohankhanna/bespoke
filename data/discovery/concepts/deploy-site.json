@@ -1,0 +1,20 @@
+{
+  "aliases": [
+    "Deploy Site"
+  ],
+  "buckets": [
+    "workflow-process"
+  ],
+  "canonical_name": "Deploy Site",
+  "concept_id": "deploy-site",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T10:25:53.609022+00:00",
+      "source_file": ".github/workflows/site.yaml",
+      "source_repo": "asg017/sqlite-vss"
+    }
+  ],
+  "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00"
+}

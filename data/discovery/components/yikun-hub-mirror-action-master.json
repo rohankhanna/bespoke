@@ -1,0 +1,17 @@
+{
+  "component": "Yikun/hub-mirror-action@master",
+  "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync2gitee.yml",
+      "source_repo": "1Panel-dev/1Panel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync2gitee.yml",
+      "source_repo": "1Panel-dev/MaxKB"
+    }
+  ]
+}
