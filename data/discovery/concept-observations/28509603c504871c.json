@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "autonomous-agents",
+  "normalized_form": "autonomous-agents",
+  "observation_id": "28509603c504871c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "autonomous-agents",
+  "source_file": null,
+  "source_repo": "sujithpvarghese/bedrock-full-reconciliation"
+}

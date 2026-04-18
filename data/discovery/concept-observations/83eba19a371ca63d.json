@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "dco-check",
+  "normalized_form": "dco-check",
+  "observation_id": "83eba19a371ca63d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "dco-check",
+  "source_file": ".github/workflows/dco-check.yaml",
+  "source_repo": "NVIDIA/NemoClaw"
+}

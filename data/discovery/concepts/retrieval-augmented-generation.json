@@ -1,0 +1,22 @@
+{
+  "aliases": [
+    "retrieval-augmented-generation"
+  ],
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "canonical_name": "retrieval-augmented-generation",
+  "concept_id": "retrieval-augmented-generation",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T11:24:14.688152+00:00",
+      "source_file": null,
+      "source_repo": "roampal-ai/roampal-labs"
+    }
+  ],
+  "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "primary_bucket": "tool-component"
+}

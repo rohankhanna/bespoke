@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "libp2p-holepunching-interop-test",
+  "normalized_form": "libp2p-holepunching-interop-test",
+  "observation_id": "221d7042f0b3d6ad",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "libp2p holepunching interop test",
+  "source_file": ".github/workflows/hole-punch-interop.yml",
+  "source_repo": "libp2p/test-plans"
+}

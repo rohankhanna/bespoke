@@ -1,0 +1,547 @@
+{
+  "components": [
+    {
+      "component": "js-yaml",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "p-retry",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yaml",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@commitlint/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@commitlint/config-conventional",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@eslint/js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@j178/prek",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vitest/coverage-v8",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ajv",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "execa",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-image.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-image.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-image.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-image.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-image.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-image.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-lint.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco-check.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-pin-check.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-links-pr.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview-deploy.yaml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview-deploy.yaml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview-deploy.yaml"
+    },
+    {
+      "component": "rossjrw/pr-preview-action@ffa7509e91a3ec8dfc2e5536c4d5c1acdf7a6de9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview-deploy.yaml"
+    },
+    {
+      "component": "marocchino/sticky-pull-request-comment@70d2764d1a7d5d9560b100cbea0077fc8f633987",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview-deploy.yaml"
+    },
+    {
+      "component": "rossjrw/pr-preview-action@ffa7509e91a3ec8dfc2e5536c4d5c1acdf7a6de9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview-deploy.yaml"
+    },
+    {
+      "component": "marocchino/sticky-pull-request-comment@70d2764d1a7d5d9560b100cbea0077fc8f633987",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview-deploy.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "nvidia/openshell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "js-yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "p-retry",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "@commitlint/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "@commitlint/config-conventional",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "@eslint/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "@j178/prek",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "@vitest/coverage-v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "ajv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "execa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "tsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-image.yaml",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-image.yaml",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-image.yaml",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-image.yaml",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-image.yaml",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "docker/metadata-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-image.yaml",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/base-image.yaml",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "base-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-lint.yaml",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-lint.yaml",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit-lint.yaml",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "commit-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco-check.yaml",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dco-check.yaml",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "dco-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-pin-check.yaml",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-pin-check.yaml",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "docker-pin-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-links-pr.yaml",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-links-pr.yaml",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "Docs Links PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview-deploy.yaml",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview-deploy.yaml",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview-deploy.yaml",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "rossjrw/pr-preview-action@ffa7509e91a3ec8dfc2e5536c4d5c1acdf7a6de9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview-deploy.yaml",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "marocchino/sticky-pull-request-comment@70d2764d1a7d5d9560b100cbea0077fc8f633987",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-preview-deploy.yaml",
+      "source_repo": "NVIDIA/NemoClaw",
+      "target": "Docs PR Preview Deploy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:24:17.885149+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11608
+    },
+    {
+      "path": "Dockerfile",
+      "size": 22675
+    },
+    {
+      "path": "package.json",
+      "size": 2528
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 567
+    },
+    {
+      "path": ".github/workflows/base-image.yaml",
+      "size": 2644
+    },
+    {
+      "path": ".github/workflows/commit-lint.yaml",
+      "size": 864
+    },
+    {
+      "path": ".github/workflows/dco-check.yaml",
+      "size": 1735
+    },
+    {
+      "path": ".github/workflows/docker-pin-check.yaml",
+      "size": 819
+    },
+    {
+      "path": ".github/workflows/docs-links-pr.yaml",
+      "size": 1872
+    },
+    {
+      "path": ".github/workflows/docs-preview-deploy.yaml",
+      "size": 3969
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Run OpenClaw more securely inside NVIDIA OpenShell with managed inference",
+    "full_name": "NVIDIA/NemoClaw",
+    "html_url": "https://github.com/NVIDIA/NemoClaw",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-18T09:41:47Z",
+    "topics": [],
+    "updated_at": "2026-04-18T11:08:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/openshell",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/base-image.yaml",
+      "term": "base-image"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit-lint.yaml",
+      "term": "commit-lint"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dco-check.yaml",
+      "term": "dco-check"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-pin-check.yaml",
+      "term": "docker-pin-check"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-links-pr.yaml",
+      "term": "Docs Links PR"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-preview-deploy.yaml",
+      "term": "Docs PR Preview Deploy"
+    }
+  ]
+}

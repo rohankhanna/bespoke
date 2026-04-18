@@ -1,0 +1,22 @@
+{
+  "aliases": [
+    "bedrock-agents"
+  ],
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "canonical_name": "bedrock-agents",
+  "concept_id": "bedrock-agents",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T11:24:14.688152+00:00",
+      "source_file": null,
+      "source_repo": "sujithpvarghese/bedrock-full-reconciliation"
+    }
+  ],
+  "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "primary_bucket": "tool-component"
+}

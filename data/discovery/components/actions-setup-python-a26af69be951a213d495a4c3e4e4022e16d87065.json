@@ -2,7 +2,7 @@
   "component": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -24,6 +24,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "tombelieber/claude-backup"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "getzep/graphiti"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-run.yml",
+      "source_repo": "zeroclaw-labs/zeroclaw"
     }
   ]
 }

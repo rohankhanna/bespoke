@@ -1,0 +1,22 @@
+{
+  "aliases": [
+    "Close Generated PRs"
+  ],
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "Close Generated PRs",
+  "concept_id": "close-generated-prs",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T11:24:14.688152+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "libp2p/test-plans"
+    }
+  ],
+  "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "primary_bucket": "workflow-process"
+}

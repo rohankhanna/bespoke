@@ -1,10 +1,13 @@
 {
   "aliases": [
-    "claude-code"
+    "claude-code",
+    "Claude Code"
   ],
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "canonical_name": "claude-code",
   "concept_id": "claude-code",
@@ -32,9 +35,33 @@
       "observed_at": "2026-04-18T10:43:38.551697+00:00",
       "source_file": null,
       "source_repo": "tombelieber/claude-backup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T11:24:14.688152+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "getzep/graphiti"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T11:24:14.688152+00:00",
+      "source_file": null,
+      "source_repo": "qwibitai/nanoclaw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T11:24:14.688152+00:00",
+      "source_file": null,
+      "source_repo": "router-for-me/CLIProxyAPI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T11:24:14.688152+00:00",
+      "source_file": null,
+      "source_repo": "zsio/claude-code-hub"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "primary_bucket": "tool-component"
 }

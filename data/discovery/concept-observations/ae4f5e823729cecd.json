@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "lint-with-ruff",
+  "normalized_form": "lint-with-ruff",
+  "observation_id": "ae4f5e823729cecd",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "Lint with Ruff",
+  "source_file": ".github/workflows/lint.yml",
+  "source_repo": "getzep/graphiti"
+}

@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "cluade",
+  "normalized_form": "cluade",
+  "observation_id": "da4260c1b623bcb5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "cluade",
+  "source_file": null,
+  "source_repo": "router-for-me/CLIProxyAPI"
+}

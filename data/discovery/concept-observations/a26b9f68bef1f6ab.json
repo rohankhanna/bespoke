@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "multi-agent-systems",
+  "normalized_form": "multi-agent-systems",
+  "observation_id": "a26b9f68bef1f6ab",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "multi-agent-systems",
+  "source_file": null,
+  "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub"
+}

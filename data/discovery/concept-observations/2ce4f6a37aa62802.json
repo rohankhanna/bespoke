@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "ai-accountability",
+  "normalized_form": "ai-accountability",
+  "observation_id": "2ce4f6a37aa62802",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "ai-accountability",
+  "source_file": null,
+  "source_repo": "PiQrypt/aiss-standard"
+}

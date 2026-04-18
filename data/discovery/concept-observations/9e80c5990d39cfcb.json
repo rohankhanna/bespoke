@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "llm-orchestration",
+  "normalized_form": "llm-orchestration",
+  "observation_id": "9e80c5990d39cfcb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "llm-orchestration",
+  "source_file": null,
+  "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub"
+}

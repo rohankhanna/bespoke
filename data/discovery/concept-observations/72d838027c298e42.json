@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "libp2p-perf-test",
+  "normalized_form": "libp2p-perf-test",
+  "observation_id": "72d838027c298e42",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "libp2p perf test",
+  "source_file": ".github/workflows/perf.yml",
+  "source_repo": "libp2p/test-plans"
+}

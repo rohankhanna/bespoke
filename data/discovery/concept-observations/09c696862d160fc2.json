@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "ci-release",
+  "normalized_form": "ci-release",
+  "observation_id": "09c696862d160fc2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "CI & Release",
+  "source_file": ".github/workflows/ci-release.yml",
+  "source_repo": "prehisle/relay-pulse"
+}

@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "claude-pr-review-manual-trigger",
+  "normalized_form": "claude-pr-review-manual-trigger",
+  "observation_id": "d4b2c93fe6249a2e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "Claude PR Review (Manual Trigger)",
+  "source_file": ".github/workflows/claude-code-review-manual.yml",
+  "source_repo": "getzep/graphiti"
+}

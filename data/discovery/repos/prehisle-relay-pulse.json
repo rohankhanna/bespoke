@@ -1,0 +1,253 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-release.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-release.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-release.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-release.yml"
+    },
+    {
+      "component": "cycjimmy/semantic-release-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-release.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-release.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-release.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notifier-docker.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notifier-docker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notifier-docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notifier-docker.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notifier-docker.yml"
+    },
+    {
+      "component": "docker/metadata-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notifier-docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notifier-docker.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-release.yml",
+      "source_repo": "prehisle/relay-pulse",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-release.yml",
+      "source_repo": "prehisle/relay-pulse",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-release.yml",
+      "source_repo": "prehisle/relay-pulse",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-release.yml",
+      "source_repo": "prehisle/relay-pulse",
+      "target": "cycjimmy/semantic-release-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-release.yml",
+      "source_repo": "prehisle/relay-pulse",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-release.yml",
+      "source_repo": "prehisle/relay-pulse",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-release.yml",
+      "source_repo": "prehisle/relay-pulse",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-release.yml",
+      "source_repo": "prehisle/relay-pulse",
+      "target": "CI & Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notifier-docker.yml",
+      "source_repo": "prehisle/relay-pulse",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notifier-docker.yml",
+      "source_repo": "prehisle/relay-pulse",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notifier-docker.yml",
+      "source_repo": "prehisle/relay-pulse",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notifier-docker.yml",
+      "source_repo": "prehisle/relay-pulse",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notifier-docker.yml",
+      "source_repo": "prehisle/relay-pulse",
+      "target": "docker/metadata-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notifier-docker.yml",
+      "source_repo": "prehisle/relay-pulse",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notifier-docker.yml",
+      "source_repo": "prehisle/relay-pulse",
+      "target": "Notifier Docker Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:24:23.543816+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7358
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3612
+    },
+    {
+      "path": "go.mod",
+      "size": 2447
+    },
+    {
+      "path": ".github/workflows/ci-release.yml",
+      "size": 8544
+    },
+    {
+      "path": ".github/workflows/notifier-docker.yml",
+      "size": 4079
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "\u4f01\u4e1a\u7ea7 LLM \u4e2d\u8f6c\u670d\u52a1\u53ef\u7528\u6027\u76d1\u63a7\u7cfb\u7edf\uff0c\u5b9e\u65f6\u8ffd\u8e2a\u670d\u52a1\u72b6\u6001\u5e76\u63d0\u4f9b\u53ef\u89c6\u5316\u4eea\u8868\u677f\u3002",
+    "full_name": "prehisle/relay-pulse",
+    "html_url": "https://github.com/prehisle/relay-pulse",
+    "language": "Go",
+    "pushed_at": "2026-04-17T08:48:08Z",
+    "topics": [],
+    "updated_at": "2026-04-18T08:39:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-release.yml",
+      "term": "CI & Release"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notifier-docker.yml",
+      "term": "Notifier Docker Build"
+    }
+  ]
+}

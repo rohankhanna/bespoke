@@ -1,0 +1,22 @@
+{
+  "aliases": [
+    "Publish to PyPI"
+  ],
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "Publish to PyPI",
+  "concept_id": "publish-to-pypi",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T11:24:14.688152+00:00",
+      "source_file": ".github/workflows/publish_aiss.yml",
+      "source_repo": "PiQrypt/aiss-standard"
+    }
+  ],
+  "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "primary_bucket": "workflow-process"
+}

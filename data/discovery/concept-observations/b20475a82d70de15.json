@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "claude-code",
+  "normalized_form": "claude-code",
+  "observation_id": "b20475a82d70de15",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "claude-code",
+  "source_file": null,
+  "source_repo": "router-for-me/CLIProxyAPI"
+}

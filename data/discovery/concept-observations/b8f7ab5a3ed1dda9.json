@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "release-docker-image",
+  "normalized_form": "release-docker-image",
+  "observation_id": "b8f7ab5a3ed1dda9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "Release Docker Image",
+  "source_file": ".github/workflows/release.yml",
+  "source_repo": "zsio/claude-code-hub"
+}

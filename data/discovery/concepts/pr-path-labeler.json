@@ -1,0 +1,22 @@
+{
+  "aliases": [
+    "PR Path Labeler"
+  ],
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "PR Path Labeler",
+  "concept_id": "pr-path-labeler",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T11:24:14.688152+00:00",
+      "source_file": ".github/workflows/pr-path-labeler.yml",
+      "source_repo": "zeroclaw-labs/zeroclaw"
+    }
+  ],
+  "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,22 @@
+{
+  "aliases": [
+    "agents-md-guard"
+  ],
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "agents-md-guard",
+  "concept_id": "agents-md-guard",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T11:24:14.688152+00:00",
+      "source_file": ".github/workflows/agents-md-guard.yml",
+      "source_repo": "router-for-me/CLIProxyAPI"
+    }
+  ],
+  "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "primary_bucket": "workflow-process"
+}

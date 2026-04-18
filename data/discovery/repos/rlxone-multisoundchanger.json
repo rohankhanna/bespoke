@@ -1,0 +1,131 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rlxone/MultiSoundChanger",
+      "target": "retrography/audioswitch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rlxone/MultiSoundChanger",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rlxone/MultiSoundChanger",
+      "target": "coreaudio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rlxone/MultiSoundChanger",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rlxone/MultiSoundChanger",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rlxone/MultiSoundChanger",
+      "target": "volume",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rlxone/MultiSoundChanger",
+      "target": "volume-control",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rlxone/MultiSoundChanger",
+      "target": "volume-slider",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:24:39.176937+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1407
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "\ud83c\udfa7 \ud83d\udd08 A small tool for changing sound volume even for aggregate devices cause native sound volume controller can't change volume of aggregate devices",
+    "full_name": "rlxone/MultiSoundChanger",
+    "html_url": "https://github.com/rlxone/MultiSoundChanger",
+    "language": "Swift",
+    "pushed_at": "2021-07-22T00:32:50Z",
+    "topics": [
+      "audio",
+      "coreaudio",
+      "macos",
+      "swift",
+      "volume",
+      "volume-control",
+      "volume-slider"
+    ],
+    "updated_at": "2026-04-16T08:07:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "retrography/audioswitch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coreaudio"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "volume"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "volume-control"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "volume-slider"
+    }
+  ]
+}

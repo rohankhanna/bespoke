@@ -1,0 +1,426 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agents-md-guard.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-retarget-main-pr-to-dev.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-path-guard.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v45",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-path-guard.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test-build.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "router-for-me/CLIProxyAPI",
+      "target": "automazeio/vibeproxy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "router-for-me/CLIProxyAPI",
+      "target": "0xtbug/zero-limit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "router-for-me/CLIProxyAPI",
+      "target": "buddingnewinsights/proxypal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "router-for-me/CLIProxyAPI",
+      "target": "allenreder/cliproxyapi-quota-inspector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agents-md-guard.yml",
+      "source_repo": "router-for-me/CLIProxyAPI",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agents-md-guard.yml",
+      "source_repo": "router-for-me/CLIProxyAPI",
+      "target": "agents-md-guard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-retarget-main-pr-to-dev.yml",
+      "source_repo": "router-for-me/CLIProxyAPI",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-retarget-main-pr-to-dev.yml",
+      "source_repo": "router-for-me/CLIProxyAPI",
+      "target": "auto-retarget-main-pr-to-dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "router-for-me/CLIProxyAPI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "router-for-me/CLIProxyAPI",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "router-for-me/CLIProxyAPI",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "router-for-me/CLIProxyAPI",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "router-for-me/CLIProxyAPI",
+      "target": "docker-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-path-guard.yml",
+      "source_repo": "router-for-me/CLIProxyAPI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-path-guard.yml",
+      "source_repo": "router-for-me/CLIProxyAPI",
+      "target": "tj-actions/changed-files@v45",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-path-guard.yml",
+      "source_repo": "router-for-me/CLIProxyAPI",
+      "target": "translator-path-guard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test-build.yml",
+      "source_repo": "router-for-me/CLIProxyAPI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test-build.yml",
+      "source_repo": "router-for-me/CLIProxyAPI",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-test-build.yml",
+      "source_repo": "router-for-me/CLIProxyAPI",
+      "target": "pr-test-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "router-for-me/CLIProxyAPI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "router-for-me/CLIProxyAPI",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "router-for-me/CLIProxyAPI",
+      "target": "goreleaser/goreleaser-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "router-for-me/CLIProxyAPI",
+      "target": "goreleaser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "router-for-me/CLIProxyAPI",
+      "target": "antigravity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "router-for-me/CLIProxyAPI",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "router-for-me/CLIProxyAPI",
+      "target": "cluade",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "router-for-me/CLIProxyAPI",
+      "target": "gemini",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:24:28.162499+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13862
+    },
+    {
+      "path": "Dockerfile",
+      "size": 694
+    },
+    {
+      "path": "go.mod",
+      "size": 4420
+    },
+    {
+      "path": ".github/workflows/agents-md-guard.yml",
+      "size": 2320
+    },
+    {
+      "path": ".github/workflows/auto-retarget-main-pr-to-dev.yml",
+      "size": 2039
+    },
+    {
+      "path": ".github/workflows/docker-image.yml",
+      "size": 5324
+    },
+    {
+      "path": ".github/workflows/pr-path-guard.yml",
+      "size": 776
+    },
+    {
+      "path": ".github/workflows/pr-test-build.yml",
+      "size": 633
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 1198
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude model through API",
+    "full_name": "router-for-me/CLIProxyAPI",
+    "html_url": "https://github.com/router-for-me/CLIProxyAPI",
+    "language": "Go",
+    "pushed_at": "2026-04-18T09:27:15Z",
+    "topics": [
+      "antigravity",
+      "claude-code",
+      "cluade",
+      "codex",
+      "gemini",
+      "openai"
+    ],
+    "updated_at": "2026-04-18T11:20:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0xtbug/zero-limit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allenreder/cliproxyapi-quota-inspector",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "automazeio/vibeproxy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "buddingnewinsights/proxypal",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agents-md-guard.yml",
+      "term": "agents-md-guard"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-retarget-main-pr-to-dev.yml",
+      "term": "auto-retarget-main-pr-to-dev"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "term": "docker-image"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-path-guard.yml",
+      "term": "translator-path-guard"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-test-build.yml",
+      "term": "pr-test-build"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "goreleaser"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "antigravity"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cluade"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "compiler",
+  "normalized_form": "compiler",
+  "observation_id": "a6dcbcfa60799153",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "compiler",
+  "source_file": null,
+  "source_repo": "google/j2cl"
+}

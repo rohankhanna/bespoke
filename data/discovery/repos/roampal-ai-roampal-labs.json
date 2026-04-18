@@ -1,0 +1,255 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roampal-ai/roampal-labs",
+      "target": "adversarial-robustness",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roampal-ai/roampal-labs",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roampal-ai/roampal-labs",
+      "target": "chromadb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roampal-ai/roampal-labs",
+      "target": "conversational-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roampal-ai/roampal-labs",
+      "target": "conversational-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roampal-ai/roampal-labs",
+      "target": "cross-encoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roampal-ai/roampal-labs",
+      "target": "evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roampal-ai/roampal-labs",
+      "target": "knowledge-graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roampal-ai/roampal-labs",
+      "target": "llm-memory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roampal-ai/roampal-labs",
+      "target": "locomo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roampal-ai/roampal-labs",
+      "target": "long-term-memory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roampal-ai/roampal-labs",
+      "target": "memory-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roampal-ai/roampal-labs",
+      "target": "ollama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roampal-ai/roampal-labs",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roampal-ai/roampal-labs",
+      "target": "research",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roampal-ai/roampal-labs",
+      "target": "retrieval-augmented-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "roampal-ai/roampal-labs",
+      "target": "vector-database",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:24:21.518913+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6122
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 462
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Research benchmark: conversational memory learning on a corrected LoCoMo dataset",
+    "full_name": "roampal-ai/roampal-labs",
+    "html_url": "https://github.com/roampal-ai/roampal-labs",
+    "language": "Python",
+    "pushed_at": "2026-04-13T23:07:24Z",
+    "topics": [
+      "adversarial-robustness",
+      "ai-agents",
+      "benchmark",
+      "chromadb",
+      "conversational-ai",
+      "conversational-learning",
+      "cross-encoder",
+      "evaluation",
+      "knowledge-graph",
+      "llm-memory",
+      "locomo",
+      "long-term-memory",
+      "memory-system",
+      "nlp",
+      "ollama",
+      "open-source",
+      "rag",
+      "research",
+      "retrieval-augmented-generation",
+      "vector-database"
+    ],
+    "updated_at": "2026-04-13T23:07:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adversarial-robustness"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chromadb"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conversational-ai"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conversational-learning"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-encoder"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluation"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge-graph"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-memory"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "locomo"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "long-term-memory"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memory-system"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ollama"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "research"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "retrieval-augmented-generation"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-database"
+    }
+  ]
+}

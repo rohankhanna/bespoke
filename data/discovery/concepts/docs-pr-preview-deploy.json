@@ -1,0 +1,22 @@
+{
+  "aliases": [
+    "Docs PR Preview Deploy"
+  ],
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "Docs PR Preview Deploy",
+  "concept_id": "docs-pr-preview-deploy",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T11:24:14.688152+00:00",
+      "source_file": ".github/workflows/docs-preview-deploy.yaml",
+      "source_repo": "NVIDIA/NemoClaw"
+    }
+  ],
+  "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "primary_bucket": "workflow-process"
+}

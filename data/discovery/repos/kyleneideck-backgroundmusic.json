@@ -1,0 +1,185 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kyleneideck/BackgroundMusic",
+      "target": "0nn0/terminal-mac-cheatsheet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kyleneideck/BackgroundMusic",
+      "target": "mattingalls/soundflower",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kyleneideck/BackgroundMusic",
+      "target": "mountainstorm/llaudio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kyleneideck/BackgroundMusic",
+      "target": "jaredsohn/mutefm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-release.yml",
+      "source_repo": "kyleneideck/BackgroundMusic",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-release.yml",
+      "source_repo": "kyleneideck/BackgroundMusic",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-release.yml",
+      "source_repo": "kyleneideck/BackgroundMusic",
+      "target": "Build, Test and Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kyleneideck/BackgroundMusic",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kyleneideck/BackgroundMusic",
+      "target": "audio-utility",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kyleneideck/BackgroundMusic",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kyleneideck/BackgroundMusic",
+      "target": "objective-c",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:24:38.554343+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12740
+    },
+    {
+      "path": ".github/workflows/build-test-release.yml",
+      "size": 8894
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "Background Music, a macOS audio utility: automatically pause your music, set individual apps' volumes and record system audio.",
+    "full_name": "kyleneideck/BackgroundMusic",
+    "html_url": "https://github.com/kyleneideck/BackgroundMusic",
+    "language": "C++",
+    "pushed_at": "2026-02-22T06:03:50Z",
+    "topics": [
+      "audio",
+      "audio-utility",
+      "cpp",
+      "macos",
+      "objective-c"
+    ],
+    "updated_at": "2026-04-18T05:29:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0nn0/terminal-mac-cheatsheet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jaredsohn/mutefm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mattingalls/soundflower",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mountainstorm/llaudio",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-release.yml",
+      "term": "Build, Test and Release"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-utility"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "objective-c"
+    }
+  ]
+}

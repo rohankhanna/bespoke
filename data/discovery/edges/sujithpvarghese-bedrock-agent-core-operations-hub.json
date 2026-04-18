@@ -1,0 +1,139 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub",
+      "target": "@aws-sdk/client-bedrock-agent-runtime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub",
+      "target": "@aws-sdk/client-bedrock-runtime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub",
+      "target": "@strands-agents/sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub",
+      "target": "esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub",
+      "target": "serverless",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub",
+      "target": "serverless-esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub",
+      "target": "tsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub",
+      "target": "amazon-bedrock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub",
+      "target": "autonomous-agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub",
+      "target": "claude-3-5-sonnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub",
+      "target": "ecommerce",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub",
+      "target": "llm-as-judge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub",
+      "target": "llm-orchestration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub",
+      "target": "multi-agent-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub",
+      "target": "self-healing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub",
+      "target": "serverless-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub",
+      "target": "strands-sdk",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T11:24:14.688152+00:00",
+  "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub"
+}

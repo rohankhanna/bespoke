@@ -1,0 +1,12 @@
+{
+  "component": "archestra-ai/archestra/.github/actions/setup-archestra-platform@ab0c93762d005ccb9475d883c4a47970f480bf5b",
+  "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/on-pull-request.yml",
+      "source_repo": "archestra-ai/terraform-provider-archestra"
+    }
+  ]
+}

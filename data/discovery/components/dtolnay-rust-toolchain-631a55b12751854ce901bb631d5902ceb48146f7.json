@@ -1,12 +1,27 @@
 {
   "component": "dtolnay/rust-toolchain@631a55b12751854ce901bb631d5902ceb48146f7",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cargo-deny.yml",
       "source_repo": "openai/codex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks-on-pr.yml",
+      "source_repo": "zeroclaw-labs/zeroclaw"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-run.yml",
+      "source_repo": "zeroclaw-labs/zeroclaw"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cross-platform-build-manual.yml",
+      "source_repo": "zeroclaw-labs/zeroclaw"
     }
   ]
 }

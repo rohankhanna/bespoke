@@ -1,0 +1,22 @@
+{
+  "aliases": [
+    "claude-code-proxy"
+  ],
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "canonical_name": "claude-code-proxy",
+  "concept_id": "claude-code-proxy",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T11:24:14.688152+00:00",
+      "source_file": null,
+      "source_repo": "zsio/claude-code-hub"
+    }
+  ],
+  "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "primary_bucket": "tool-component"
+}

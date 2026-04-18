@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "llms",
+  "normalized_form": "llms",
+  "observation_id": "6d7b5713a7fee48c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "llms",
+  "source_file": null,
+  "source_repo": "getzep/graphiti"
+}

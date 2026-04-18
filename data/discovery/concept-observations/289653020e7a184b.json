@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "llm-memory",
+  "normalized_form": "llm-memory",
+  "observation_id": "289653020e7a184b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "llm-memory",
+  "source_file": null,
+  "source_repo": "roampal-ai/roampal-labs"
+}

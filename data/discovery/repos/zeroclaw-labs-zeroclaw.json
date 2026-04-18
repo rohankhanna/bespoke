@@ -1,0 +1,512 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks-on-pr.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@631a55b12751854ce901bb631d5902ceb48146f7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks-on-pr.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks-on-pr.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks-on-pr.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@631a55b12751854ce901bb631d5902ceb48146f7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks-on-pr.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks-on-pr.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks-on-pr.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@631a55b12751854ce901bb631d5902ceb48146f7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks-on-pr.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks-on-pr.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks-on-pr.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@631a55b12751854ce901bb631d5902ceb48146f7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks-on-pr.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks-on-pr.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks-on-pr.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@631a55b12751854ce901bb631d5902ceb48146f7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks-on-pr.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks-on-pr.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-run.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@631a55b12751854ce901bb631d5902ceb48146f7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-run.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-run.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-run.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@631a55b12751854ce901bb631d5902ceb48146f7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-run.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-run.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-run.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@631a55b12751854ce901bb631d5902ceb48146f7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-run.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-run.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-run.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@631a55b12751854ce901bb631d5902ceb48146f7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-run.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-run.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-run.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@631a55b12751854ce901bb631d5902ceb48146f7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-run.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-run.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-run.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@631a55b12751854ce901bb631d5902ceb48146f7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-run.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-run.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-run.yml"
+    },
+    {
+      "component": "actions/setup-node@1d0ff469b7ec7b3cb9d8673fde0c81c44821de2a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-run.yml"
+    },
+    {
+      "component": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-run.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-platform-build-manual.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-platform-build-manual.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-platform-build-manual.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-platform-build-manual.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@631a55b12751854ce901bb631d5902ceb48146f7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-platform-build-manual.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-platform-build-manual.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-platform-build-manual.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discord-release.yml"
+    },
+    {
+      "component": "actions/labeler@8558fd74291d67161a8a78ce36a881fa63b766a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-path-labeler.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks-on-pr.yml",
+      "source_repo": "zeroclaw-labs/zeroclaw",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks-on-pr.yml",
+      "source_repo": "zeroclaw-labs/zeroclaw",
+      "target": "dtolnay/rust-toolchain@631a55b12751854ce901bb631d5902ceb48146f7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks-on-pr.yml",
+      "source_repo": "zeroclaw-labs/zeroclaw",
+      "target": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks-on-pr.yml",
+      "source_repo": "zeroclaw-labs/zeroclaw",
+      "target": "Quality Gate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-run.yml",
+      "source_repo": "zeroclaw-labs/zeroclaw",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-run.yml",
+      "source_repo": "zeroclaw-labs/zeroclaw",
+      "target": "dtolnay/rust-toolchain@631a55b12751854ce901bb631d5902ceb48146f7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-run.yml",
+      "source_repo": "zeroclaw-labs/zeroclaw",
+      "target": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-run.yml",
+      "source_repo": "zeroclaw-labs/zeroclaw",
+      "target": "actions/setup-node@1d0ff469b7ec7b3cb9d8673fde0c81c44821de2a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-run.yml",
+      "source_repo": "zeroclaw-labs/zeroclaw",
+      "target": "actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-platform-build-manual.yml",
+      "source_repo": "zeroclaw-labs/zeroclaw",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-platform-build-manual.yml",
+      "source_repo": "zeroclaw-labs/zeroclaw",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-platform-build-manual.yml",
+      "source_repo": "zeroclaw-labs/zeroclaw",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-platform-build-manual.yml",
+      "source_repo": "zeroclaw-labs/zeroclaw",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-platform-build-manual.yml",
+      "source_repo": "zeroclaw-labs/zeroclaw",
+      "target": "dtolnay/rust-toolchain@631a55b12751854ce901bb631d5902ceb48146f7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-platform-build-manual.yml",
+      "source_repo": "zeroclaw-labs/zeroclaw",
+      "target": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-platform-build-manual.yml",
+      "source_repo": "zeroclaw-labs/zeroclaw",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-platform-build-manual.yml",
+      "source_repo": "zeroclaw-labs/zeroclaw",
+      "target": "Cross-Platform Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discord-release.yml",
+      "source_repo": "zeroclaw-labs/zeroclaw",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/discord-release.yml",
+      "source_repo": "zeroclaw-labs/zeroclaw",
+      "target": "Discord Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-path-labeler.yml",
+      "source_repo": "zeroclaw-labs/zeroclaw",
+      "target": "actions/labeler@8558fd74291d67161a8a78ce36a881fa63b766a9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-path-labeler.yml",
+      "source_repo": "zeroclaw-labs/zeroclaw",
+      "target": "PR Path Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zeroclaw-labs/zeroclaw",
+      "target": "agentic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zeroclaw-labs/zeroclaw",
+      "target": "infra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zeroclaw-labs/zeroclaw",
+      "target": "openclaw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zeroclaw-labs/zeroclaw",
+      "target": "zeroclaw",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:24:20.996107+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 34261
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 15201
+    },
+    {
+      "path": "Dockerfile",
+      "size": 6721
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 492
+    },
+    {
+      "path": ".github/workflows/checks-on-pr.yml",
+      "size": 5620
+    },
+    {
+      "path": ".github/workflows/ci-run.yml",
+      "size": 6839
+    },
+    {
+      "path": ".github/workflows/cross-platform-build-manual.yml",
+      "size": 2484
+    },
+    {
+      "path": ".github/workflows/discord-release.yml",
+      "size": 4323
+    },
+    {
+      "path": ".github/workflows/master-branch-flow.md",
+      "size": 6078
+    },
+    {
+      "path": ".github/workflows/pr-path-labeler.yml",
+      "size": 370
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "Fast, small, and fully autonomous AI personal assistant infrastructure, ANY OS, ANY PLATFORM \u2014 deploy anywhere, swap anything \ud83e\udd80",
+    "full_name": "zeroclaw-labs/zeroclaw",
+    "html_url": "https://github.com/zeroclaw-labs/zeroclaw",
+    "language": "Rust",
+    "pushed_at": "2026-04-18T08:55:25Z",
+    "topics": [
+      "agent",
+      "agentic",
+      "ai",
+      "infra",
+      "ml",
+      "openclaw",
+      "os",
+      "zeroclaw"
+    ],
+    "updated_at": "2026-04-18T10:08:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks-on-pr.yml",
+      "term": "Quality Gate"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-platform-build-manual.yml",
+      "term": "Cross-Platform Build"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/discord-release.yml",
+      "term": "Discord Release"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-path-labeler.yml",
+      "term": "PR Path Labeler"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "infra"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openclaw"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zeroclaw"
+    }
+  ]
+}

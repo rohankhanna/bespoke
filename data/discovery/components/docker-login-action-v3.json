@@ -1,7 +1,7 @@
 {
   "component": "docker/login-action@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -97,6 +97,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker-image.yml",
       "source_repo": "letta-ai/letta"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/base-image.yaml",
+      "source_repo": "NVIDIA/NemoClaw"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "router-for-me/CLIProxyAPI"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "zsio/claude-code-hub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/transport-interop-build-and-publish.yml",
+      "source_repo": "libp2p/test-plans"
     }
   ]
 }

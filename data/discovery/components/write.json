@@ -1,7 +1,7 @@
 {
   "component": "write",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cla.yml",
       "source_repo": "openai/codex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "getzep/graphiti"
     }
   ]
 }

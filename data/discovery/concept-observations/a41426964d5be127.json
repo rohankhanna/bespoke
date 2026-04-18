@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "benchmark",
+  "normalized_form": "benchmark",
+  "observation_id": "a41426964d5be127",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "benchmark",
+  "source_file": null,
+  "source_repo": "roampal-ai/roampal-labs"
+}

@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "chromadb",
+  "normalized_form": "chromadb",
+  "observation_id": "4e42836557ffb784",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "chromadb",
+  "source_file": null,
+  "source_repo": "roampal-ai/roampal-labs"
+}

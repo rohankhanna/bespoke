@@ -1,0 +1,24 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-18T11:24:33.375639+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 245
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "simple cmd line chat using nabu primitives",
+    "full_name": "Peergos/nabu-chat",
+    "html_url": "https://github.com/Peergos/nabu-chat",
+    "language": "Java",
+    "pushed_at": "2024-05-08T21:16:54Z",
+    "topics": [],
+    "updated_at": "2025-07-28T08:45:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

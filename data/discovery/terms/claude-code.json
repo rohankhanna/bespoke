@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -206,6 +206,26 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "tombelieber/claude-backup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "getzep/graphiti"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "qwibitai/nanoclaw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "router-for-me/CLIProxyAPI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "zsio/claude-code-hub"
     }
   ],
   "term": "Claude Code"

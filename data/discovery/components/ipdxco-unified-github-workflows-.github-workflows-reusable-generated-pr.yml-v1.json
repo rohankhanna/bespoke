@@ -1,0 +1,12 @@
+{
+  "component": "ipdxco/unified-github-workflows/.github/workflows/reusable-generated-pr.yml@v1",
+  "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "libp2p/test-plans"
+    }
+  ]
+}

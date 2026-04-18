@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "continuity-ai",
+  "normalized_form": "continuity-ai",
+  "observation_id": "33557b644e9b12c3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "continuity-ai",
+  "source_file": null,
+  "source_repo": "PiQrypt/aiss-standard"
+}

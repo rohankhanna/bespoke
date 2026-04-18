@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "aws-lambda",
+  "normalized_form": "aws-lambda",
+  "observation_id": "b5e3b708d858d69a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "aws-lambda",
+  "source_file": null,
+  "source_repo": "sujithpvarghese/bedrock-full-reconciliation"
+}

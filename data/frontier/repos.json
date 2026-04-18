@@ -1,106 +1,6 @@
 {
-  "generated_at": "2026-04-18T10:43:38.551697+00:00",
+  "generated_at": "2026-04-18T11:24:14.688152+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "getzep/graphiti",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "nvidia/nemoclaw",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "qwibitai/nanoclaw",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "zeroclaw-labs/zeroclaw",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "roampal-ai/roampal-labs",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "aitooools/midjourney-hezu",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "sujithpvarghese/bedrock-agent-core-operations-hub",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "sujithpvarghese/bedrock-full-reconciliation",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "prehisle/relay-pulse",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "router-for-me/cliproxyapi",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "zsio/claude-code-hub",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "archestra-ai/terraform-provider-archestra",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "libp2p/test-plans",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "peergos/nabu-chat",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "google/j2cl",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ianopolous/jpack",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "piqrypt/aiss-standard",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "kyleneideck/backgroundmusic",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "rlxone/multisoundchanger",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "tanweai/pua",
-      "graph_distance": 3
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "alchaincyf/darwin-skill",
@@ -1400,6 +1300,111 @@
       "discovered_via": "explicit-github-link",
       "full_name": "open-telemetry/opentelemetry-collector-releases",
       "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "nvidia/openshell",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "apple/container",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "onecli/onecli",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "0xtbug/zero-limit",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "allenreder/cliproxyapi-quota-inspector",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "automazeio/vibeproxy",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "buddingnewinsights/proxypal",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "googleapis/release-please",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tofuutils/tenv",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "libp2p/go-libp2p",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "libp2p/js-libp2p",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "libp2p/rust-libp2p",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "libp2p/specs",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "google/auto",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "google/closure-compiler",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "google/guava",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "0nn0/terminal-mac-cheatsheet",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "jaredsohn/mutefm",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mattingalls/soundflower",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mountainstorm/llaudio",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "retrography/audioswitch",
+      "graph_distance": 4
     }
   ],
   "processed": [
@@ -1844,6 +1849,25 @@
     "huggingface/candle",
     "getzep/zep",
     "letta-ai/claude-subconscious",
-    "letta-ai/letta"
+    "letta-ai/letta",
+    "getzep/graphiti",
+    "nvidia/nemoclaw",
+    "qwibitai/nanoclaw",
+    "zeroclaw-labs/zeroclaw",
+    "roampal-ai/roampal-labs",
+    "sujithpvarghese/bedrock-agent-core-operations-hub",
+    "sujithpvarghese/bedrock-full-reconciliation",
+    "prehisle/relay-pulse",
+    "router-for-me/cliproxyapi",
+    "zsio/claude-code-hub",
+    "archestra-ai/terraform-provider-archestra",
+    "libp2p/test-plans",
+    "peergos/nabu-chat",
+    "google/j2cl",
+    "ianopolous/jpack",
+    "piqrypt/aiss-standard",
+    "kyleneideck/backgroundmusic",
+    "rlxone/multisoundchanger",
+    "tanweai/pua"
   ]
 }

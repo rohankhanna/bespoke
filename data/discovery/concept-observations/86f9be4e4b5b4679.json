@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "post-quantum",
+  "normalized_form": "post-quantum",
+  "observation_id": "86f9be4e4b5b4679",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "post-quantum",
+  "source_file": null,
+  "source_repo": "PiQrypt/aiss-standard"
+}

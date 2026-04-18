@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "ollama",
+  "normalized_form": "ollama",
+  "observation_id": "0cd5359d87872aca",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "ollama",
+  "source_file": null,
+  "source_repo": "roampal-ai/roampal-labs"
+}

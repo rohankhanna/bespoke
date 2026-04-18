@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "libp2p",
+  "normalized_form": "libp2p",
+  "observation_id": "85552f5d5f4b8e7d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "libp2p",
+  "source_file": null,
+  "source_repo": "libp2p/test-plans"
+}

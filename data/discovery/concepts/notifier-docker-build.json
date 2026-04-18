@@ -1,0 +1,22 @@
+{
+  "aliases": [
+    "Notifier Docker Build"
+  ],
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "Notifier Docker Build",
+  "concept_id": "notifier-docker-build",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T11:24:14.688152+00:00",
+      "source_file": ".github/workflows/notifier-docker.yml",
+      "source_repo": "prehisle/relay-pulse"
+    }
+  ],
+  "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "primary_bucket": "workflow-process"
+}

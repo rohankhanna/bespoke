@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "graph",
+  "normalized_form": "graph",
+  "observation_id": "c30034534475f5bd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "graph",
+  "source_file": null,
+  "source_repo": "getzep/graphiti"
+}

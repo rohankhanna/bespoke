@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "knowledge-graph",
+  "normalized_form": "knowledge-graph",
+  "observation_id": "ee13d4fed1e1f541",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "knowledge-graph",
+  "source_file": null,
+  "source_repo": "roampal-ai/roampal-labs"
+}

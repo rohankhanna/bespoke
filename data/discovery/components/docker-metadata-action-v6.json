@@ -1,7 +1,7 @@
 {
   "component": "docker/metadata-action@v6",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-18T04:38:51.315908+00:00",
+  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "llama-farm/llamafarm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/base-image.yaml",
+      "source_repo": "NVIDIA/NemoClaw"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/notifier-docker.yml",
+      "source_repo": "prehisle/relay-pulse"
     }
   ]
 }

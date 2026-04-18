@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "swift",
+  "normalized_form": "swift",
+  "observation_id": "79fe1bb7895a5d91",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "swift",
+  "source_file": null,
+  "source_repo": "rlxone/MultiSoundChanger"
+}

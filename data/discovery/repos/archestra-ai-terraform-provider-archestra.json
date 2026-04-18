@@ -1,0 +1,258 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@38697555549f1db7851b81482ff19f1fa5c4fedc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@38697555549f1db7851b81482ff19f1fa5c4fedc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-pull-request.yml"
+    },
+    {
+      "component": "grafana/shared-workflows/actions/lint-pr-title@19d8fb5687bb386849f7f53673c5f429e6387cf5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-pull-request.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-pull-request.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@4afd733a84b1f43292c63897423277bb7f4313a9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-pull-request.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-pull-request.yml"
+    },
+    {
+      "component": "archestra-ai/archestra/.github/actions/setup-archestra-platform@ab0c93762d005ccb9475d883c4a47970f480bf5b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-pull-request.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "googleapis/release-please-action@c2a5a2bd6a758a0937f1ddb1e8950609867ed15c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-import-gpg@e89d40939c28e39f97cf32126055eeae86ba74ec",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@e435ccd777264be153ace6237001ef4d979d3a7a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "archestra-ai/terraform-provider-archestra",
+      "target": "tofuutils/tenv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "archestra-ai/terraform-provider-archestra",
+      "target": "googleapis/release-please",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "archestra-ai/terraform-provider-archestra",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "archestra-ai/terraform-provider-archestra",
+      "target": "github/codeql-action/init@38697555549f1db7851b81482ff19f1fa5c4fedc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "archestra-ai/terraform-provider-archestra",
+      "target": "github/codeql-action/analyze@38697555549f1db7851b81482ff19f1fa5c4fedc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "archestra-ai/terraform-provider-archestra",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-pull-request.yml",
+      "source_repo": "archestra-ai/terraform-provider-archestra",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-pull-request.yml",
+      "source_repo": "archestra-ai/terraform-provider-archestra",
+      "target": "grafana/shared-workflows/actions/lint-pr-title@19d8fb5687bb386849f7f53673c5f429e6387cf5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-pull-request.yml",
+      "source_repo": "archestra-ai/terraform-provider-archestra",
+      "target": "golangci/golangci-lint-action@4afd733a84b1f43292c63897423277bb7f4313a9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on-pull-request.yml",
+      "source_repo": "archestra-ai/terraform-provider-archestra",
+      "target": "archestra-ai/archestra/.github/actions/setup-archestra-platform@ab0c93762d005ccb9475d883c4a47970f480bf5b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-pull-request.yml",
+      "source_repo": "archestra-ai/terraform-provider-archestra",
+      "target": "On Pull Requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "archestra-ai/terraform-provider-archestra",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "archestra-ai/terraform-provider-archestra",
+      "target": "googleapis/release-please-action@c2a5a2bd6a758a0937f1ddb1e8950609867ed15c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "archestra-ai/terraform-provider-archestra",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "archestra-ai/terraform-provider-archestra",
+      "target": "crazy-max/ghaction-import-gpg@e89d40939c28e39f97cf32126055eeae86ba74ec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "archestra-ai/terraform-provider-archestra",
+      "target": "goreleaser/goreleaser-action@e435ccd777264be153ace6237001ef4d979d3a7a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "archestra-ai/terraform-provider-archestra",
+      "target": "Release Please",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:24:30.538654+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2381
+    },
+    {
+      "path": "go.mod",
+      "size": 3985
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 2807
+    },
+    {
+      "path": ".github/workflows/on-pull-request.yml",
+      "size": 5929
+    },
+    {
+      "path": ".github/workflows/release-please.yml",
+      "size": 3070
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": null,
+    "full_name": "archestra-ai/terraform-provider-archestra",
+    "html_url": "https://github.com/archestra-ai/terraform-provider-archestra",
+    "language": "Go",
+    "pushed_at": "2026-03-30T20:11:36Z",
+    "topics": [],
+    "updated_at": "2026-04-17T13:58:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googleapis/release-please",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tofuutils/tenv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-pull-request.yml",
+      "term": "On Pull Requests"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "term": "Release Please"
+    }
+  ]
+}

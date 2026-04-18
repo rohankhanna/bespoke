@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "gossipsub-interoperability-tests-pr",
+  "normalized_form": "gossipsub-interoperability-tests-pr",
+  "observation_id": "f87997b4dac0a880",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "Gossipsub Interoperability Tests (PR)",
+  "source_file": ".github/workflows/gossipsub-interop-pr.yml",
+  "source_repo": "libp2p/test-plans"
+}

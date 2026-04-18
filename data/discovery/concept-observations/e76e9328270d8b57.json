@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "agents-md-guard",
+  "normalized_form": "agents-md-guard",
+  "observation_id": "e76e9328270d8b57",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "agents-md-guard",
+  "source_file": ".github/workflows/agents-md-guard.yml",
+  "source_repo": "router-for-me/CLIProxyAPI"
+}

@@ -1,0 +1,22 @@
+{
+  "aliases": [
+    "auto-retarget-main-pr-to-dev"
+  ],
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "auto-retarget-main-pr-to-dev",
+  "concept_id": "auto-retarget-main-pr-to-dev",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T11:24:14.688152+00:00",
+      "source_file": ".github/workflows/auto-retarget-main-pr-to-dev.yml",
+      "source_repo": "router-for-me/CLIProxyAPI"
+    }
+  ],
+  "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "primary_bucket": "workflow-process"
+}

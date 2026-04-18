@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "strands-sdk",
+  "normalized_form": "strands-sdk",
+  "observation_id": "f0e04f7f23c4332f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "strands-sdk",
+  "source_file": null,
+  "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub"
+}

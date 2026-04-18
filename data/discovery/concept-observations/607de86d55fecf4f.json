@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "pr-path-labeler",
+  "normalized_form": "pr-path-labeler",
+  "observation_id": "607de86d55fecf4f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "PR Path Labeler",
+  "source_file": ".github/workflows/pr-path-labeler.yml",
+  "source_repo": "zeroclaw-labs/zeroclaw"
+}

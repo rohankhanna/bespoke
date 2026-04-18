@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "build-and-publish-implementation-images",
+  "normalized_form": "build-and-publish-implementation-images",
+  "observation_id": "697dda81dff64586",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "Build and Publish Implementation Images",
+  "source_file": ".github/workflows/transport-interop-build-and-publish.yml",
+  "source_repo": "libp2p/test-plans"
+}

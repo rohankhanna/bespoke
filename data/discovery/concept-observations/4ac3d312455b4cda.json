@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "ai-identity",
+  "normalized_form": "ai-identity",
+  "observation_id": "4ac3d312455b4cda",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "ai-identity",
+  "source_file": null,
+  "source_repo": "PiQrypt/aiss-standard"
+}

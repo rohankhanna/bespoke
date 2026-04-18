@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "pr-build-check",
+  "normalized_form": "pr-build-check",
+  "observation_id": "89a526fc9fa6e98c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "PR Build Check",
+  "source_file": ".github/workflows/pr-check.yml",
+  "source_repo": "zsio/claude-code-hub"
+}

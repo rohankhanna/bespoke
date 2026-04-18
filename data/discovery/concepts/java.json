@@ -1,0 +1,22 @@
+{
+  "aliases": [
+    "java"
+  ],
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "canonical_name": "java",
+  "concept_id": "java",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T11:24:14.688152+00:00",
+      "source_file": null,
+      "source_repo": "google/j2cl"
+    }
+  ],
+  "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "primary_bucket": "tool-component"
+}

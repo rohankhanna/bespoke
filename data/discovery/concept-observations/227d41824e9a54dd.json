@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "cc-proxy",
+  "normalized_form": "cc-proxy",
+  "observation_id": "227d41824e9a54dd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "cc-proxy",
+  "source_file": null,
+  "source_repo": "zsio/claude-code-hub"
+}

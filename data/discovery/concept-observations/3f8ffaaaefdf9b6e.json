@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "transpiler",
+  "normalized_form": "transpiler",
+  "observation_id": "3f8ffaaaefdf9b6e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "transpiler",
+  "source_file": null,
+  "source_repo": "google/j2cl"
+}

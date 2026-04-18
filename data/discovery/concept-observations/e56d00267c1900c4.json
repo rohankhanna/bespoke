@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "vector-database",
+  "normalized_form": "vector-database",
+  "observation_id": "e56d00267c1900c4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "vector-database",
+  "source_file": null,
+  "source_repo": "roampal-ai/roampal-labs"
+}

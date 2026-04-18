@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "wasmgc",
+  "normalized_form": "wasmgc",
+  "observation_id": "8ff546dddd5e9b35",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "wasmgc",
+  "source_file": null,
+  "source_repo": "google/j2cl"
+}

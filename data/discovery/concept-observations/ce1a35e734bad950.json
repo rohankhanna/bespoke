@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "on-pull-requests",
+  "normalized_form": "on-pull-requests",
+  "observation_id": "ce1a35e734bad950",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "On Pull Requests",
+  "source_file": ".github/workflows/on-pull-request.yml",
+  "source_repo": "archestra-ai/terraform-provider-archestra"
+}

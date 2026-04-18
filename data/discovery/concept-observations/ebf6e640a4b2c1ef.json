@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "llm-as-judge",
+  "normalized_form": "llm-as-judge",
+  "observation_id": "ebf6e640a4b2c1ef",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "llm-as-judge",
+  "source_file": null,
+  "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub"
+}

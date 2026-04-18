@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "memory-system",
+  "normalized_form": "memory-system",
+  "observation_id": "940293263a750505",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "memory-system",
+  "source_file": null,
+  "source_repo": "roampal-ai/roampal-labs"
+}

@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "codeql-advanced",
+  "normalized_form": "codeql-advanced",
+  "observation_id": "6669549ce6661508",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "CodeQL Advanced",
+  "source_file": ".github/workflows/codeql.yml",
+  "source_repo": "getzep/graphiti"
+}

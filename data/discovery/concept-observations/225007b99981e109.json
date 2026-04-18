@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "openclaw",
+  "normalized_form": "openclaw",
+  "observation_id": "225007b99981e109",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "openclaw",
+  "source_file": null,
+  "source_repo": "qwibitai/nanoclaw"
+}

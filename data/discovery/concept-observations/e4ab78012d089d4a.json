@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "codeql",
+  "normalized_form": "codeql",
+  "observation_id": "e4ab78012d089d4a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "CodeQL",
+  "source_file": ".github/workflows/codeql.yml",
+  "source_repo": "archestra-ai/terraform-provider-archestra"
+}

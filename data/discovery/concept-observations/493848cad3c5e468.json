@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "evaluation",
+  "normalized_form": "evaluation",
+  "observation_id": "493848cad3c5e468",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "evaluation",
+  "source_file": null,
+  "source_repo": "roampal-ai/roampal-labs"
+}

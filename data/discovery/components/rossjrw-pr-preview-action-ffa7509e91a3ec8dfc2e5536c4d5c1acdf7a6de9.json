@@ -1,0 +1,12 @@
+{
+  "component": "rossjrw/pr-preview-action@ffa7509e91a3ec8dfc2e5536c4d5c1acdf7a6de9",
+  "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-preview-deploy.yaml",
+      "source_repo": "NVIDIA/NemoClaw"
+    }
+  ]
+}

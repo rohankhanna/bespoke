@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "generative-ai",
+  "normalized_form": "generative-ai",
+  "observation_id": "c0097d4a01032cdc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "generative-ai",
+  "source_file": null,
+  "source_repo": "sujithpvarghese/bedrock-full-reconciliation"
+}

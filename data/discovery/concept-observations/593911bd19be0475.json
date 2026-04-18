@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "coreaudio",
+  "normalized_form": "coreaudio",
+  "observation_id": "593911bd19be0475",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "coreaudio",
+  "source_file": null,
+  "source_repo": "rlxone/MultiSoundChanger"
+}

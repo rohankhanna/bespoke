@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "ai-auditability",
+  "normalized_form": "ai-auditability",
+  "observation_id": "50a530fead3f7eec",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "ai-auditability",
+  "source_file": null,
+  "source_repo": "PiQrypt/aiss-standard"
+}

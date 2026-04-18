@@ -2,7 +2,7 @@
   "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -74,6 +74,56 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "tombelieber/claude-backup"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ai-moderator.yml",
+      "source_repo": "getzep/graphiti"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review-manual.yml",
+      "source_repo": "getzep/graphiti"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "getzep/graphiti"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "getzep/graphiti"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "getzep/graphiti"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "getzep/graphiti"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks-on-pr.yml",
+      "source_repo": "zeroclaw-labs/zeroclaw"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-run.yml",
+      "source_repo": "zeroclaw-labs/zeroclaw"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cross-platform-build-manual.yml",
+      "source_repo": "zeroclaw-labs/zeroclaw"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/discord-release.yml",
+      "source_repo": "zeroclaw-labs/zeroclaw"
     }
   ]
 }

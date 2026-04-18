@@ -1,0 +1,161 @@
+{
+  "budget_seconds": 360,
+  "elapsed_seconds": 24.878,
+  "generated_at": "2026-04-18T11:24:14.688152+00:00",
+  "processed_repositories": [
+    "getzep/graphiti",
+    "nvidia/nemoclaw",
+    "qwibitai/nanoclaw",
+    "zeroclaw-labs/zeroclaw",
+    "roampal-ai/roampal-labs",
+    "sujithpvarghese/bedrock-agent-core-operations-hub",
+    "sujithpvarghese/bedrock-full-reconciliation",
+    "prehisle/relay-pulse",
+    "router-for-me/cliproxyapi",
+    "zsio/claude-code-hub",
+    "archestra-ai/terraform-provider-archestra",
+    "libp2p/test-plans",
+    "peergos/nabu-chat",
+    "google/j2cl",
+    "ianopolous/jpack",
+    "piqrypt/aiss-standard",
+    "kyleneideck/backgroundmusic",
+    "rlxone/multisoundchanger",
+    "tanweai/pua"
+  ],
+  "remaining_budget_seconds": 335.122,
+  "remaining_frontier": 281,
+  "repo_timing_summary": {
+    "average_seconds": 1.294,
+    "count": 19,
+    "max_seconds": 4.609,
+    "total_seconds": 24.589
+  },
+  "repo_timings": [
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.437,
+      "full_name": "getzep/graphiti",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.57,
+      "full_name": "nvidia/nemoclaw",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.463,
+      "full_name": "qwibitai/nanoclaw",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.614,
+      "full_name": "zeroclaw-labs/zeroclaw",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.507,
+      "full_name": "roampal-ai/roampal-labs",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.505,
+      "full_name": "sujithpvarghese/bedrock-agent-core-operations-hub",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.484,
+      "full_name": "sujithpvarghese/bedrock-full-reconciliation",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.925,
+      "full_name": "prehisle/relay-pulse",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 4.609,
+      "full_name": "router-for-me/cliproxyapi",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.887,
+      "full_name": "zsio/claude-code-hub",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.448,
+      "full_name": "archestra-ai/terraform-provider-archestra",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.398,
+      "full_name": "libp2p/test-plans",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.413,
+      "full_name": "peergos/nabu-chat",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.986,
+      "full_name": "google/j2cl",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.274,
+      "full_name": "ianopolous/jpack",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.794,
+      "full_name": "piqrypt/aiss-standard",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.101,
+      "full_name": "kyleneideck/backgroundmusic",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.614,
+      "full_name": "rlxone/multisoundchanger",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.56,
+      "full_name": "tanweai/pua",
+      "graph_distance": 3
+    }
+  ],
+  "run_id": "20260418T112414Z",
+  "skipped_repositories": [
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aitooools/midjourney-hezu",
+      "reason": "repo_not_found"
+    }
+  ],
+  "slow_repo_threshold_seconds": 10.0,
+  "slow_repositories": [],
+  "stopped_due_to_budget": false
+}

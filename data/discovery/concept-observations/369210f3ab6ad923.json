@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "conversational-learning",
+  "normalized_form": "conversational-learning",
+  "observation_id": "369210f3ab6ad923",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "conversational-learning",
+  "source_file": null,
+  "source_repo": "roampal-ai/roampal-labs"
+}

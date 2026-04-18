@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "agency",
+  "normalized_form": "agency",
+  "observation_id": "404893de3b584fa3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "agency",
+  "source_file": null,
+  "source_repo": "tanweai/pua"
+}

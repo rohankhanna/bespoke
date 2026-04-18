@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "gemini",
+  "normalized_form": "gemini",
+  "observation_id": "4261d178cb9c5f39",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "gemini",
+  "source_file": null,
+  "source_repo": "router-for-me/CLIProxyAPI"
+}

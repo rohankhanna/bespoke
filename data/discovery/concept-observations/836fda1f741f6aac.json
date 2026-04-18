@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "bedrock-agents",
+  "normalized_form": "bedrock-agents",
+  "observation_id": "836fda1f741f6aac",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "bedrock-agents",
+  "source_file": null,
+  "source_repo": "sujithpvarghese/bedrock-full-reconciliation"
+}

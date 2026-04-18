@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "ai-memory",
+  "normalized_form": "ai-memory",
+  "observation_id": "e5099b57a3fe02f6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "ai-memory",
+  "source_file": null,
+  "source_repo": "PiQrypt/aiss-standard"
+}

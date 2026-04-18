@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "serverless",
+  "normalized_form": "serverless",
+  "observation_id": "b417def263b421ac",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "serverless",
+  "source_file": null,
+  "source_repo": "sujithpvarghese/bedrock-full-reconciliation"
+}

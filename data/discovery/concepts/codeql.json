@@ -3,7 +3,8 @@
     "CodeQL"
   ],
   "buckets": [
-    "workflow-process"
+    "workflow-process",
+    "data-document-artifact"
   ],
   "canonical_name": "CodeQL",
   "concept_id": "codeql",
@@ -13,8 +14,15 @@
       "observed_at": "2026-04-18T10:25:53.609022+00:00",
       "source_file": ".github/workflows/codeql-analysis.yml",
       "source_repo": "actions/runner-images"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T11:24:14.688152+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "archestra-ai/terraform-provider-archestra"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00"
+  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "primary_bucket": "workflow-process"
 }

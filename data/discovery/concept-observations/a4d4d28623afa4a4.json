@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "docs-pr-preview-deploy",
+  "normalized_form": "docs-pr-preview-deploy",
+  "observation_id": "a4d4d28623afa4a4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "Docs PR Preview Deploy",
+  "source_file": ".github/workflows/docs-preview-deploy.yaml",
+  "source_repo": "NVIDIA/NemoClaw"
+}

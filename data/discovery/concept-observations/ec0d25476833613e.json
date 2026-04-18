@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "concept_id": "discord-release",
+  "normalized_form": "discord-release",
+  "observation_id": "ec0d25476833613e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "Discord Release",
+  "source_file": ".github/workflows/discord-release.yml",
+  "source_repo": "zeroclaw-labs/zeroclaw"
+}

@@ -1,0 +1,322 @@
+{
+  "components": [
+    {
+      "component": "@aws-sdk/client-bedrock-agent-runtime",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@aws-sdk/client-bedrock-runtime",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@aws-sdk/client-dynamodb",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@aws-sdk/lib-dynamodb",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "serverless-esbuild",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-full-reconciliation",
+      "target": "@aws-sdk/client-bedrock-agent-runtime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-full-reconciliation",
+      "target": "@aws-sdk/client-bedrock-runtime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-full-reconciliation",
+      "target": "@aws-sdk/client-dynamodb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-full-reconciliation",
+      "target": "@aws-sdk/lib-dynamodb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-full-reconciliation",
+      "target": "@types/jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-full-reconciliation",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-full-reconciliation",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-full-reconciliation",
+      "target": "serverless-esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-full-reconciliation",
+      "target": "ts-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-full-reconciliation",
+      "target": "tsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-full-reconciliation",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sujithpvarghese/bedrock-full-reconciliation",
+      "target": "agentic-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sujithpvarghese/bedrock-full-reconciliation",
+      "target": "amazon-bedrock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sujithpvarghese/bedrock-full-reconciliation",
+      "target": "autonomous-agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sujithpvarghese/bedrock-full-reconciliation",
+      "target": "aws-lambda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sujithpvarghese/bedrock-full-reconciliation",
+      "target": "bedrock-agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sujithpvarghese/bedrock-full-reconciliation",
+      "target": "data-reconciliation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sujithpvarghese/bedrock-full-reconciliation",
+      "target": "ecommerce",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sujithpvarghese/bedrock-full-reconciliation",
+      "target": "generative-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sujithpvarghese/bedrock-full-reconciliation",
+      "target": "llm-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sujithpvarghese/bedrock-full-reconciliation",
+      "target": "self-healing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sujithpvarghese/bedrock-full-reconciliation",
+      "target": "serverless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sujithpvarghese/bedrock-full-reconciliation",
+      "target": "serverless-framework",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:24:22.608781+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4816
+    },
+    {
+      "path": "package.json",
+      "size": 685
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "An autonomous e-commerce diagnostic agent using Amazon Bedrock Agents  and Action Groups. Diagnoses product sellability issues, reconciles  data across Inventory, Pricing and PIM systems, and triggers  self-healing synchronization via AWS Lambda and Serverless Framework.",
+    "full_name": "sujithpvarghese/bedrock-full-reconciliation",
+    "html_url": "https://github.com/sujithpvarghese/bedrock-full-reconciliation",
+    "language": "TypeScript",
+    "pushed_at": "2026-03-27T19:40:31Z",
+    "topics": [
+      "agentic-ai",
+      "amazon-bedrock",
+      "autonomous-agents",
+      "aws-lambda",
+      "bedrock-agents",
+      "claude",
+      "data-reconciliation",
+      "ecommerce",
+      "generative-ai",
+      "llm-agent",
+      "self-healing",
+      "serverless",
+      "serverless-framework",
+      "typescript"
+    ],
+    "updated_at": "2026-03-28T15:02:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-ai"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amazon-bedrock"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-agents"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-lambda"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bedrock-agents"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-reconciliation"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ecommerce"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-ai"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-agent"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-healing"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless-framework"
+    }
+  ]
+}

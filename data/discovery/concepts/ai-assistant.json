@@ -1,0 +1,22 @@
+{
+  "aliases": [
+    "ai-assistant"
+  ],
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "canonical_name": "ai-assistant",
+  "concept_id": "ai-assistant",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T11:24:14.688152+00:00",
+      "source_file": null,
+      "source_repo": "qwibitai/nanoclaw"
+    }
+  ],
+  "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "primary_bucket": "tool-component"
+}

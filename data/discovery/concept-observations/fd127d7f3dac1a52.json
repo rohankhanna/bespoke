@@ -1,0 +1,14 @@
+{
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "concept_id": "cross-encoder",
+  "normalized_form": "cross-encoder",
+  "observation_id": "fd127d7f3dac1a52",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:24:14.688152+00:00",
+  "observed_text": "cross-encoder",
+  "source_file": null,
+  "source_repo": "roampal-ai/roampal-labs"
+}
