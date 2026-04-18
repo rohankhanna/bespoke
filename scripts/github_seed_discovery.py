@@ -445,8 +445,9 @@ def upsert_concept(concepts_dir, generated_at, source_repo, hit):
     write_json(path, payload)
 
 
-def upsert_seeded_language_concepts(concepts_dir, generated_at, data_root):
-    seed_path = data_root / "vocabulary" / "english" / "stable-closed-classes.json"
+def upsert_seeded_language_concepts(concepts_dir, generated_at):
+    seed_path = Path(__file__).resolve().parent.parent / "vocabulary" / "english" / "stable-closed-classes.json"
+    repo_root = Path(__file__).resolve().parent.parent
     if not seed_path.exists():
         return
     seed = json.loads(seed_path.read_text())
@@ -455,7 +456,7 @@ def upsert_seeded_language_concepts(concepts_dir, generated_at, data_root):
             concept_id = f"en-{slug(category)}-{slug(entry)}"
             evidence = {
                 "source_repo": "seed:english",
-                "source_file": str(seed_path.relative_to(data_root)),
+                "source_file": str(seed_path.relative_to(repo_root)),
                 "discovered_via": "seeded-language-entity",
                 "observed_at": generated_at,
             }
@@ -761,7 +762,7 @@ def main():
     prune_invalid_term_artifacts(terms_dir)
 
     generated_at = datetime.now(timezone.utc).isoformat()
-    upsert_seeded_language_concepts(concepts_dir, generated_at, data_root)
+    upsert_seeded_language_concepts(concepts_dir, generated_at)
     run_id = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     budget = budget_state()
     newly_discovered = []
