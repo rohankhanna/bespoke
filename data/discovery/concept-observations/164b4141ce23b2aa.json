@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump plugin SHAs",
+      "sense_id": "bump-plugin-shas#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "bump-plugin-shas",
+  "normalized_form": "bump-plugin-shas",
+  "observation_id": "164b4141ce23b2aa",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:57:36.597358+00:00",
+  "observed_text": "Bump plugin SHAs",
+  "source_file": ".github/workflows/bump-plugin-shas.yml",
+  "source_repo": "anthropics/claude-plugins-official"
+}

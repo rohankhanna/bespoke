@@ -1,0 +1,12 @@
+{
+  "component": "github/codeql-action/analyze@d6bbdef45e766d081b84a2def353b0055f728d3e",
+  "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
+  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "protectai/llm-guard"
+    }
+  ]
+}

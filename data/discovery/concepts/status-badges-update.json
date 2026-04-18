@@ -1,0 +1,34 @@
+{
+  "aliases": [
+    "\ud83d\udcca Status Badges Update"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "\ud83d\udcca Status Badges Update",
+  "concept_id": "status-badges-update",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T11:57:36.597358+00:00",
+      "source_file": ".github/workflows/status-badges.yml",
+      "source_repo": "ruvnet/ruflo"
+    }
+  ],
+  "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
+  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83d\udcca Status Badges Update",
+      "sense_id": "status-badges-update#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

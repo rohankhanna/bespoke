@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "low-latency",
+      "sense_id": "low-latency#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "low-latency",
+  "normalized_form": "low-latency",
+  "observation_id": "eb22217f12230804",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:57:36.597358+00:00",
+  "observed_text": "low-latency",
+  "source_file": null,
+  "source_repo": "ruvnet/RuVector"
+}

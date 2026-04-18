@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Piebald-AI/awesome-gemini-cli",
+      "target": "almogdepaz/wolfpack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Piebald-AI/awesome-gemini-cli",
+      "target": "agents-squads/squads-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Piebald-AI/awesome-gemini-cli",
+      "target": "addyosmani/gemini-cli-tips",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Piebald-AI/awesome-gemini-cli",
+      "target": "abduznik/git-alchemist",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Piebald-AI/awesome-gemini-cli",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Piebald-AI/awesome-gemini-cli",
+      "target": "awesome-gemini-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Piebald-AI/awesome-gemini-cli",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Piebald-AI/awesome-gemini-cli",
+      "target": "awesome-lists",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Piebald-AI/awesome-gemini-cli",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Piebald-AI/awesome-gemini-cli",
+      "target": "gemini-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Piebald-AI/awesome-gemini-cli",
+      "target": "gemini-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Piebald-AI/awesome-gemini-cli",
+      "target": "llxprt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Piebald-AI/awesome-gemini-cli",
+      "target": "qwen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Piebald-AI/awesome-gemini-cli",
+      "target": "qwen-code",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T11:57:36.597358+00:00",
+  "source_repo": "Piebald-AI/awesome-gemini-cli"
+}

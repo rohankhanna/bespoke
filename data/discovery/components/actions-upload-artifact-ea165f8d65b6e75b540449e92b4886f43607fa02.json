@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T10:38:37.562216+00:00",
+  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -42,6 +42,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "firebase/firebase-admin-node"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "DataDog/guarddog"
     }
   ]
 }

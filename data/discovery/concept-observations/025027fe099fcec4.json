@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Docker Build",
+      "sense_id": "pr-docker-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "pr-docker-build",
+  "normalized_form": "pr-docker-build",
+  "observation_id": "025027fe099fcec4",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:57:36.597358+00:00",
+  "observed_text": "PR Docker Build",
+  "source_file": ".github/workflows/docker-pr.yml",
+  "source_repo": "BeehiveInnovations/pal-mcp-server"
+}

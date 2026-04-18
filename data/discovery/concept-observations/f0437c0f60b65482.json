@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "llm-security",
+      "sense_id": "llm-security#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "llm-security",
+  "normalized_form": "llm-security",
+  "observation_id": "f0437c0f60b65482",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:57:36.597358+00:00",
+  "observed_text": "llm-security",
+  "source_file": null,
+  "source_repo": "protectai/llm-guard"
+}

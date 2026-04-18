@@ -1,0 +1,179 @@
+{
+  "budget_seconds": 180,
+  "elapsed_seconds": 92.109,
+  "generated_at": "2026-04-18T11:57:36.597358+00:00",
+  "processed_repositories": [
+    "ruvnet/ruvector",
+    "piebald-ai/awesome-gemini-cli",
+    "beehiveinnovations/pal-mcp-server",
+    "oraios/serena",
+    "serpro69/capy",
+    "serpro69/claude-in-docker",
+    "astro-han/diffpane",
+    "jarrodwatts/claude-hud",
+    "bmad-code-org/bmad-method",
+    "github/spec-kit",
+    "datadog/guarddog",
+    "meta-llama/llama-models",
+    "protectai/llm-guard",
+    "casey/just",
+    "anthropics/claude-plugins-official",
+    "maxritter/pilot-shell-demo",
+    "microsoft/playwright-cli",
+    "danielrosehill/agent-junction"
+  ],
+  "remaining_budget_seconds": 87.891,
+  "remaining_frontier": 302,
+  "repo_timing_summary": {
+    "average_seconds": 4.583,
+    "count": 20,
+    "max_seconds": 21.146,
+    "total_seconds": 91.67
+  },
+  "repo_timings": [
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 4.024,
+      "full_name": "ruvnet/ruflo",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.908,
+      "full_name": "ruvnet/ruvector",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 21.146,
+      "full_name": "piebald-ai/awesome-gemini-cli",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.166,
+      "full_name": "beehiveinnovations/pal-mcp-server",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 4.98,
+      "full_name": "oraios/serena",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.033,
+      "full_name": "serpro69/capy",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.041,
+      "full_name": "serpro69/claude-in-docker",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.345,
+      "full_name": "astro-han/diffpane",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.64,
+      "full_name": "jarrodwatts/claude-hud",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.858,
+      "full_name": "bmad-code-org/bmad-method",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 21.04,
+      "full_name": "github/spec-kit",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.794,
+      "full_name": "datadog/guarddog",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.959,
+      "full_name": "meta-llama/llama-models",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.883,
+      "full_name": "protectai/llm-guard",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.515,
+      "full_name": "vaporif/parry-guard",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 11.47,
+      "full_name": "casey/just",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.407,
+      "full_name": "anthropics/claude-plugins-official",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.817,
+      "full_name": "maxritter/pilot-shell-demo",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.508,
+      "full_name": "microsoft/playwright-cli",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.136,
+      "full_name": "danielrosehill/agent-junction",
+      "graph_distance": 4
+    }
+  ],
+  "run_id": "20260418T115737Z",
+  "skipped_repositories": [],
+  "slow_repo_threshold_seconds": 10.0,
+  "slow_repositories": [
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 21.146,
+      "full_name": "piebald-ai/awesome-gemini-cli",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 21.04,
+      "full_name": "github/spec-kit",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 11.47,
+      "full_name": "casey/just",
+      "graph_distance": 4
+    }
+  ],
+  "stopped_due_to_budget": false
+}

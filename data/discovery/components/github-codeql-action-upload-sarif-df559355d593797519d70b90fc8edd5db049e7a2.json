@@ -1,0 +1,17 @@
+{
+  "component": "github/codeql-action/upload-sarif@df559355d593797519d70b90fc8edd5db049e7a2",
+  "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
+  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/guarddog.yml",
+      "source_repo": "DataDog/guarddog"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "DataDog/guarddog"
+    }
+  ]
+}

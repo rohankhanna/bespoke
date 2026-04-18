@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "playwright",
+      "sense_id": "playwright#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "playwright",
+  "normalized_form": "playwright",
+  "observation_id": "b26db1089922469b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:57:36.597358+00:00",
+  "observed_text": "playwright",
+  "source_file": null,
+  "source_repo": "microsoft/playwright-cli"
+}

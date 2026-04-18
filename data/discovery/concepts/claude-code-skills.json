@@ -1,0 +1,40 @@
+{
+  "aliases": [
+    "claude-code-skills"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "canonical_name": "claude-code-skills",
+  "concept_id": "claude-code-skills",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T11:57:36.597358+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T11:57:36.597358+00:00",
+      "source_file": null,
+      "source_repo": "maxritter/pilot-shell-demo"
+    }
+  ],
+  "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
+  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "claude-code-skills",
+      "sense_id": "claude-code-skills#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

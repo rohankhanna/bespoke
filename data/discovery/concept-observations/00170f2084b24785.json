@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Documentation build and deploy",
+      "sense_id": "documentation-build-and-deploy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "documentation-build-and-deploy",
+  "normalized_form": "documentation-build-and-deploy",
+  "observation_id": "00170f2084b24785",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:57:36.597358+00:00",
+  "observed_text": "Documentation build and deploy",
+  "source_file": ".github/workflows/docs.yml",
+  "source_repo": "protectai/llm-guard"
+}

@@ -1,0 +1,203 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-plugin-shas.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-plugin-shas.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-plugin-shas.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-external-prs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-frontmatter.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-frontmatter.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-marketplace.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-marketplace.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-plugin-shas.yml",
+      "source_repo": "anthropics/claude-plugins-official",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-plugin-shas.yml",
+      "source_repo": "anthropics/claude-plugins-official",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-plugin-shas.yml",
+      "source_repo": "anthropics/claude-plugins-official",
+      "target": "actions/create-github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-plugin-shas.yml",
+      "source_repo": "anthropics/claude-plugins-official",
+      "target": "Bump plugin SHAs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-external-prs.yml",
+      "source_repo": "anthropics/claude-plugins-official",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-external-prs.yml",
+      "source_repo": "anthropics/claude-plugins-official",
+      "target": "Close External PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-frontmatter.yml",
+      "source_repo": "anthropics/claude-plugins-official",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-frontmatter.yml",
+      "source_repo": "anthropics/claude-plugins-official",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-frontmatter.yml",
+      "source_repo": "anthropics/claude-plugins-official",
+      "target": "Validate Frontmatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-marketplace.yml",
+      "source_repo": "anthropics/claude-plugins-official",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-marketplace.yml",
+      "source_repo": "anthropics/claude-plugins-official",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anthropics/claude-plugins-official",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anthropics/claude-plugins-official",
+      "target": "skills",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:59:05.614468+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1900
+    },
+    {
+      "path": ".github/workflows/bump-plugin-shas.yml",
+      "size": 4930
+    },
+    {
+      "path": ".github/workflows/close-external-prs.yml",
+      "size": 1604
+    },
+    {
+      "path": ".github/workflows/validate-frontmatter.yml",
+      "size": 1100
+    },
+    {
+      "path": ".github/workflows/validate-marketplace.yml",
+      "size": 460
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+    "full_name": "anthropics/claude-plugins-official",
+    "html_url": "https://github.com/anthropics/claude-plugins-official",
+    "language": "Python",
+    "pushed_at": "2026-04-17T21:03:26Z",
+    "topics": [
+      "claude-code",
+      "mcp",
+      "skills"
+    ],
+    "updated_at": "2026-04-18T11:38:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-plugin-shas.yml",
+      "term": "Bump plugin SHAs"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-external-prs.yml",
+      "term": "Close External PRs"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-frontmatter.yml",
+      "term": "Validate Frontmatter"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "skills"
+    }
+  ]
+}

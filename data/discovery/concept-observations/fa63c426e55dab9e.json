@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Documentation",
+      "sense_id": "deploy-documentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "deploy-documentation",
+  "normalized_form": "deploy-documentation",
+  "observation_id": "fa63c426e55dab9e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:57:36.597358+00:00",
+  "observed_text": "Deploy Documentation",
+  "source_file": ".github/workflows/docs.yaml",
+  "source_repo": "bmad-code-org/BMAD-METHOD"
+}

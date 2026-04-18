@@ -1,0 +1,204 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Astro-Han/diffpane",
+      "target": "opencode-ai/opencode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Astro-Han/diffpane",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Astro-Han/diffpane",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Astro-Han/diffpane",
+      "target": "goreleaser/goreleaser-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Astro-Han/diffpane",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Astro-Han/diffpane",
+      "target": "ai-coding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Astro-Han/diffpane",
+      "target": "bubbletea",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Astro-Han/diffpane",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Astro-Han/diffpane",
+      "target": "code-review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Astro-Han/diffpane",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Astro-Han/diffpane",
+      "target": "diff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Astro-Han/diffpane",
+      "target": "git-diff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Astro-Han/diffpane",
+      "target": "terminal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:58:17.903575+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2114
+    },
+    {
+      "path": "go.mod",
+      "size": 1283
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 469
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Real-time TUI diff viewer for AI coding agents",
+    "full_name": "Astro-Han/diffpane",
+    "html_url": "https://github.com/Astro-Han/diffpane",
+    "language": "Go",
+    "pushed_at": "2026-04-01T12:44:05Z",
+    "topics": [
+      "ai-coding",
+      "bubbletea",
+      "claude-code",
+      "cli",
+      "code-review",
+      "codex",
+      "developer-tools",
+      "diff",
+      "git-diff",
+      "terminal",
+      "tui"
+    ],
+    "updated_at": "2026-04-17T00:20:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opencode-ai/opencode",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-coding"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bubbletea"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-review"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-tools"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diff"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "git-diff"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    }
+  ]
+}

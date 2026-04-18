@@ -1,0 +1,34 @@
+{
+  "aliases": [
+    "Build and Push Docker Images"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "Build and Push Docker Images",
+  "concept_id": "build-and-push-docker-images",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T11:57:36.597358+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "oraios/serena"
+    }
+  ],
+  "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
+  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Push Docker Images",
+      "sense_id": "build-and-push-docker-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

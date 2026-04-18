@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83d\udd04 Automated Rollback Manager",
+      "sense_id": "automated-rollback-manager#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "automated-rollback-manager",
+  "normalized_form": "automated-rollback-manager",
+  "observation_id": "f7f146060b00994d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:57:36.597358+00:00",
+  "observed_text": "\ud83d\udd04 Automated Rollback Manager",
+  "source_file": ".github/workflows/rollback-manager.yml",
+  "source_repo": "ruvnet/ruflo"
+}

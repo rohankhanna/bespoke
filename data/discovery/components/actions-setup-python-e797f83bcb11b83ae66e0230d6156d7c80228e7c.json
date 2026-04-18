@@ -1,0 +1,22 @@
+{
+  "component": "actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c",
+  "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
+  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "DataDog/guarddog"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/guarddog.yml",
+      "source_repo": "DataDog/guarddog"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "DataDog/guarddog"
+    }
+  ]
+}

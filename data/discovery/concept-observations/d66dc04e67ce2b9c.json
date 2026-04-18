@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build GNN Native Modules",
+      "sense_id": "build-gnn-native-modules#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "build-gnn-native-modules",
+  "normalized_form": "build-gnn-native-modules",
+  "observation_id": "d66dc04e67ce2b9c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:57:36.597358+00:00",
+  "observed_text": "Build GNN Native Modules",
+  "source_file": ".github/workflows/build-gnn.yml",
+  "source_repo": "ruvnet/RuVector"
+}

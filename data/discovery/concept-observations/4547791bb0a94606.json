@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "git-diff",
+      "sense_id": "git-diff#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "git-diff",
+  "normalized_form": "git-diff",
+  "observation_id": "4547791bb0a94606",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:57:36.597358+00:00",
+  "observed_text": "git-diff",
+  "source_file": null,
+  "source_repo": "Astro-Han/diffpane"
+}

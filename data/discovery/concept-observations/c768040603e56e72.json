@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "adversarial-machine-learning",
+      "sense_id": "adversarial-machine-learning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "adversarial-machine-learning",
+  "normalized_form": "adversarial-machine-learning",
+  "observation_id": "c768040603e56e72",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:57:36.597358+00:00",
+  "observed_text": "adversarial-machine-learning",
+  "source_file": null,
+  "source_repo": "protectai/llm-guard"
+}

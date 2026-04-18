@@ -1,0 +1,34 @@
+{
+  "aliases": [
+    "git-diff"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "canonical_name": "git-diff",
+  "concept_id": "git-diff",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T11:57:36.597358+00:00",
+      "source_file": null,
+      "source_repo": "Astro-Han/diffpane"
+    }
+  ],
+  "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
+  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "git-diff",
+      "sense_id": "git-diff#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

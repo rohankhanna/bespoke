@@ -57,10 +57,22 @@
       "observed_at": "2026-04-18T11:41:43.530265+00:00",
       "source_file": null,
       "source_repo": "napi-rs/napi-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T11:57:36.597358+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/RuVector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T11:57:36.597358+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
+  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "possible_senses": [
     {
       "buckets": [

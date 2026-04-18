@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "serpro69/claude-in-docker",
+      "target": "serpro69/claude-starter-kit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "serpro69/claude-in-docker",
+      "target": "dandavison/delta",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "serpro69/claude-in-docker",
+      "target": "deluan/zsh-in-docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-sync.yml",
+      "source_repo": "serpro69/claude-in-docker",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-sync.yml",
+      "source_repo": "serpro69/claude-in-docker",
+      "target": "**",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-sync.yml",
+      "source_repo": "serpro69/claude-in-docker",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-sync.yml",
+      "source_repo": "serpro69/claude-in-docker",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-sync.yml",
+      "source_repo": "serpro69/claude-in-docker",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/template-sync.yml",
+      "source_repo": "serpro69/claude-in-docker",
+      "target": "Template Sync",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T11:57:36.597358+00:00",
+  "source_repo": "serpro69/claude-in-docker"
+}

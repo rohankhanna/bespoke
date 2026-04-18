@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Checks",
+      "sense_id": "checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "checks",
+  "normalized_form": "checks",
+  "observation_id": "606557cbd9e6d4cd",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:57:36.597358+00:00",
+  "observed_text": "Checks",
+  "source_file": ".github/workflows/checks.yml",
+  "source_repo": "DataDog/guarddog"
+}

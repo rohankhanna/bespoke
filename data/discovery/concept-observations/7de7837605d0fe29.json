@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ai-assistant",
+      "sense_id": "ai-assistant#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "ai-assistant",
+  "normalized_form": "ai-assistant",
+  "observation_id": "7de7837605d0fe29",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:57:36.597358+00:00",
+  "observed_text": "ai-assistant",
+  "source_file": null,
+  "source_repo": "ruvnet/ruflo"
+}

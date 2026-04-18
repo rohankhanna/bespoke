@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
+  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -251,6 +251,56 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "ruvnet/agentic-flow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "oraios/serena"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "serpro69/capy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Astro-Han/diffpane"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "jarrodwatts/claude-hud"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "jarrodwatts/claude-hud"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "anthropics/claude-plugins-official"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "maxritter/pilot-shell-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Agent-Junction"
     }
   ],
   "term": "Claude Code"

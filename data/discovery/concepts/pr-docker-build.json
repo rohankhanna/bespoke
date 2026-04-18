@@ -1,0 +1,34 @@
+{
+  "aliases": [
+    "PR Docker Build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "PR Docker Build",
+  "concept_id": "pr-docker-build",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T11:57:36.597358+00:00",
+      "source_file": ".github/workflows/docker-pr.yml",
+      "source_repo": "BeehiveInnovations/pal-mcp-server"
+    }
+  ],
+  "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
+  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Docker Build",
+      "sense_id": "pr-docker-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

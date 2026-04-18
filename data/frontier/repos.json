@@ -1,106 +1,6 @@
 {
-  "generated_at": "2026-04-18T11:56:18.570627+00:00",
+  "generated_at": "2026-04-18T11:57:36.597358+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ruvnet/claude-flow",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ruvnet/ruvector",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "piebald-ai/awesome-gemini-cli",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "beehiveinnovations/pal-mcp-server",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "oraios/serena",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "serpro69/capy",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "serpro69/claude-in-docker",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "astro-han/diffpane",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "jarrodwatts/claude-hud",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "bmad-code-org/bmad-method",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "github/spec-kit",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "datadog/guarddog",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "meta-llama/llama-models",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "protectai/llm-guard",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "vaporif/parry",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "casey/just",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "anthropics/claude-plugins-official",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "maxritter/pilot-shell-demo",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "microsoft/playwright-cli",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "danielrosehill/agent-junction",
-      "graph_distance": 4
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "danielrosehill/ai-human-attribution-adder",
@@ -1460,6 +1360,156 @@
       "discovered_via": "explicit-github-link",
       "full_name": "byron/gitoxide",
       "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "martinvonz/jj",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ruvnet/claude-flow",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "abduznik/git-alchemist",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "addyosmani/gemini-cli-tips",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "agents-squads/squads-cli",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "almogdepaz/wolfpack",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "codespell-project/codespell",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mksglu/context-mode",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "serpro69/claude-starter-kit",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dandavison/delta",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "deluan/zsh-in-docker",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bmad-code-org/bmad-builder",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bmad-code-org/bmad-method-test-architecture-enterprise",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bmad-code-org/bmad-module-creative-intelligence-suite",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bmad-code-org/bmad-module-game-dev-studio",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aaronrsun/spec-kit-checkpoint",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aaronrsun/spec-kit-confluence",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aaronrsun/spec-kit-issue",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "adaumann/speckit-preset-fiction-book-writing",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "semgrep/semgrep",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "virustotal/yara",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "meta-llama/llama-cookbook",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "meta-llama/llama-stack",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "psf/black",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "vaporif/parry",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "vaporif/rvx",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "alexellis/arkade",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "blake3-team/blake3",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "brombal/just-install",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "casey/janus",
+      "graph_distance": 5
     }
   ],
   "processed": [
@@ -1982,6 +2032,24 @@
     "ai-that-works/ai-that-works",
     "marcindulak/learning-api-styles-gen-ai-experiments",
     "jj-vcs/jj",
-    "ruvnet/agentic-flow"
+    "ruvnet/agentic-flow",
+    "ruvnet/ruvector",
+    "piebald-ai/awesome-gemini-cli",
+    "beehiveinnovations/pal-mcp-server",
+    "oraios/serena",
+    "serpro69/capy",
+    "serpro69/claude-in-docker",
+    "astro-han/diffpane",
+    "jarrodwatts/claude-hud",
+    "bmad-code-org/bmad-method",
+    "github/spec-kit",
+    "datadog/guarddog",
+    "meta-llama/llama-models",
+    "protectai/llm-guard",
+    "casey/just",
+    "anthropics/claude-plugins-official",
+    "maxritter/pilot-shell-demo",
+    "microsoft/playwright-cli",
+    "danielrosehill/agent-junction"
   ]
 }

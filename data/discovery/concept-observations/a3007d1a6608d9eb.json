@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "llxprt",
+      "sense_id": "llxprt#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "llxprt",
+  "normalized_form": "llxprt",
+  "observation_id": "a3007d1a6608d9eb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:57:36.597358+00:00",
+  "observed_text": "llxprt",
+  "source_file": null,
+  "source_repo": "Piebald-AI/awesome-gemini-cli"
+}

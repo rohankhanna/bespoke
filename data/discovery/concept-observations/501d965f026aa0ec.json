@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "prompt-injection-llm-security",
+      "sense_id": "prompt-injection-llm-security#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "prompt-injection-llm-security",
+  "normalized_form": "prompt-injection-llm-security",
+  "observation_id": "501d965f026aa0ec",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:57:36.597358+00:00",
+  "observed_text": "prompt-injection-llm-security",
+  "source_file": null,
+  "source_repo": "vaporif/parry-guard"
+}

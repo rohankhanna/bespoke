@@ -1,7 +1,7 @@
 {
   "component": "csv-parse",
   "first_seen_at": "2026-04-18T09:22:19.136418+00:00",
-  "last_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -17,6 +17,11 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "metabase/metabase"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bmad-code-org/BMAD-METHOD"
     }
   ]
 }

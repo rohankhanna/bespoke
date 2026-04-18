@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "diff",
+      "sense_id": "diff#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "diff",
+  "normalized_form": "diff",
+  "observation_id": "18a50f2138dda19b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:57:36.597358+00:00",
+  "observed_text": "diff",
+  "source_file": null,
+  "source_repo": "Astro-Han/diffpane"
+}

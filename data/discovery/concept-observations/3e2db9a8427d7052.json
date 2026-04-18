@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83d\udd17 Cross-Agent Integration Tests",
+      "sense_id": "cross-agent-integration-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "cross-agent-integration-tests",
+  "normalized_form": "cross-agent-integration-tests",
+  "observation_id": "3e2db9a8427d7052",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:57:36.597358+00:00",
+  "observed_text": "\ud83d\udd17 Cross-Agent Integration Tests",
+  "source_file": ".github/workflows/integration-tests.yml",
+  "source_repo": "ruvnet/ruflo"
+}

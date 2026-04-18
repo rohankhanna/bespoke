@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "model-context-protocol",
+      "sense_id": "model-context-protocol#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "model-context-protocol",
+  "normalized_form": "model-context-protocol",
+  "observation_id": "f936c462081054a1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:57:36.597358+00:00",
+  "observed_text": "model-context-protocol",
+  "source_file": null,
+  "source_repo": "ruvnet/ruflo"
+}

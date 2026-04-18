@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spec-driven",
+      "sense_id": "spec-driven#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "spec-driven",
+  "normalized_form": "spec-driven",
+  "observation_id": "3db43ba8dc9bb3c3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:57:36.597358+00:00",
+  "observed_text": "spec-driven",
+  "source_file": null,
+  "source_repo": "github/spec-kit"
+}

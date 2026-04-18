@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "software-supply-chain-security",
+      "sense_id": "software-supply-chain-security#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "software-supply-chain-security",
+  "normalized_form": "software-supply-chain-security",
+  "observation_id": "2a7bad6ba79417ee",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:57:36.597358+00:00",
+  "observed_text": "software-supply-chain-security",
+  "source_file": null,
+  "source_repo": "DataDog/guarddog"
+}

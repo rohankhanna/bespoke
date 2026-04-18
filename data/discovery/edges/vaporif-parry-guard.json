@@ -4,274 +4,29 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "vaporif/parry-guard",
+      "target": "vaporif/rvx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vaporif/parry-guard",
       "target": "vaporif/parry",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Cargo.toml",
       "source_repo": "vaporif/parry-guard",
-      "target": "protectai/llm-guard",
+      "target": "vaporif/parry",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "pyproject.toml",
       "source_repo": "vaporif/parry-guard",
-      "target": "datadog/guarddog",
+      "target": "vaporif/parry",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "meta-llama/llama-models",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "full",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "### Nix (home-manager)",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "PARRY_ASK_ON_NEW_PROJECT=true",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "askOnNewProject = true",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "parry-guard repos",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "path",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "parry-guard serve --idle-timeout 1800",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "fast",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "custom",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "parry-guard diff --full",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "candle",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "PARRY_THRESHOLD",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "PARRY_CLAUDE_MD_THRESHOLD",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "PARRY_SCAN_MODE",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "HF_TOKEN",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "HF_TOKEN_PATH",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "PARRY_ASK_ON_NEW_PROJECT",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "PARRY_IGNORE_DIRS",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "serve --idle-timeout",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "PARRY_IDLE_TIMEOUT",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "diff --full",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "diff -e, --extensions",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "PARRY_LOG",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "trace",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "debug",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "info",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "warn",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "error",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "PARRY_LOG_FILE",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "onnx-fetch",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "onnx",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "ORT_DYLIB_PATH",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "onnx-coreml",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "just bench-candle",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "vaporif/parry-guard",
-      "target": "just bench-onnx",
-      "target_type": "term"
     },
     {
       "edge_type": "workflow-uses",
@@ -419,8 +174,36 @@
       "source_repo": "vaporif/parry-guard",
       "target": "pypa/gh-action-pypi-publish@release/v1",
       "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard",
+      "target": "prompt-injection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard",
+      "target": "prompt-injection-llm-security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard",
+      "target": "rust",
+      "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-18T09:17:12.863479+00:00",
+  "generated_at": "2026-04-18T11:57:36.597358+00:00",
   "source_repo": "vaporif/parry-guard"
 }

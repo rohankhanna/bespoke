@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gnns",
+      "sense_id": "gnns#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "gnns",
+  "normalized_form": "gnns",
+  "observation_id": "67d0ce7aee7954b6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:57:36.597358+00:00",
+  "observed_text": "gnns",
+  "source_file": null,
+  "source_repo": "ruvnet/RuVector"
+}

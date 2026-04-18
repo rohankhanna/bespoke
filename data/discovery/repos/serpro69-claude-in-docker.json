@@ -1,0 +1,154 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-sync.yml"
+    },
+    {
+      "component": "**",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-sync.yml"
+    },
+    {
+      "component": "**",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-sync.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-sync.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-sync.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-sync.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-sync.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "serpro69/claude-in-docker",
+      "target": "serpro69/claude-starter-kit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "serpro69/claude-in-docker",
+      "target": "dandavison/delta",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "serpro69/claude-in-docker",
+      "target": "deluan/zsh-in-docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-sync.yml",
+      "source_repo": "serpro69/claude-in-docker",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-sync.yml",
+      "source_repo": "serpro69/claude-in-docker",
+      "target": "**",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-sync.yml",
+      "source_repo": "serpro69/claude-in-docker",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-sync.yml",
+      "source_repo": "serpro69/claude-in-docker",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-sync.yml",
+      "source_repo": "serpro69/claude-in-docker",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/template-sync.yml",
+      "source_repo": "serpro69/claude-in-docker",
+      "target": "Template Sync",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:58:16.554269+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7144
+    },
+    {
+      "path": "Dockerfile",
+      "size": 4271
+    },
+    {
+      "path": ".github/workflows/template-sync.yml",
+      "size": 14984
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "Run claude-code in an isolated docker container and don't loose your sleep whenever Anthropic releases a new model that bypasses permissions.",
+    "full_name": "serpro69/claude-in-docker",
+    "html_url": "https://github.com/serpro69/claude-in-docker",
+    "language": "Shell",
+    "pushed_at": "2026-03-24T14:50:33Z",
+    "topics": [],
+    "updated_at": "2026-04-11T14:12:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "serpro69/claude-starter-kit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dandavison/delta",
+      "source_file": "Dockerfile"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deluan/zsh-in-docker",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/template-sync.yml",
+      "term": "Template Sync"
+    }
+  ]
+}

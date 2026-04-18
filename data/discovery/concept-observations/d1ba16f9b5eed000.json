@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish",
+      "sense_id": "publish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "publish",
+  "normalized_form": "publish",
+  "observation_id": "d1ba16f9b5eed000",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:57:36.597358+00:00",
+  "observed_text": "Publish",
+  "source_file": ".github/workflows/publish.yml",
+  "source_repo": "microsoft/playwright-cli"
+}

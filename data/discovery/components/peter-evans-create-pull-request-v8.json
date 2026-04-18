@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@v8",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-04-18T09:17:12.863479+00:00",
+  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/claude-docs-updater.yml",
       "source_repo": "eyaltoledano/claude-task-master"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/template-sync.yml",
+      "source_repo": "serpro69/capy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/template-sync.yml",
+      "source_repo": "serpro69/claude-in-docker"
     }
   ]
 }

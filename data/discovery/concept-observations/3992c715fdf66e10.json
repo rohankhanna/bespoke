@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "awesome-lists",
+      "sense_id": "awesome-lists#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "awesome-lists",
+  "normalized_form": "awesome-lists",
+  "observation_id": "3992c715fdf66e10",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:57:36.597358+00:00",
+  "observed_text": "awesome-lists",
+  "source_file": null,
+  "source_repo": "Piebald-AI/awesome-gemini-cli"
+}

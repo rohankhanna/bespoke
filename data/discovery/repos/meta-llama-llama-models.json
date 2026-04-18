@@ -1,0 +1,123 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-test-pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-test-pypi.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-test-pypi.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-test-pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-test-pypi.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meta-llama/llama-models",
+      "target": "meta-llama/llama-cookbook",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meta-llama/llama-models",
+      "target": "meta-llama/llama-stack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-test-pypi.yml",
+      "source_repo": "meta-llama/llama-models",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-test-pypi.yml",
+      "source_repo": "meta-llama/llama-models",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-test-pypi.yml",
+      "source_repo": "meta-llama/llama-models",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-test-pypi.yml",
+      "source_repo": "meta-llama/llama-models",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-test-pypi.yml",
+      "source_repo": "meta-llama/llama-models",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:58:48.281776+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10054
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1421
+    },
+    {
+      "path": "requirements.txt",
+      "size": 418
+    },
+    {
+      "path": ".github/workflows/publish-to-test-pypi.yml",
+      "size": 2143
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Utilities intended for use with Llama models.",
+    "full_name": "meta-llama/llama-models",
+    "html_url": "https://github.com/meta-llama/llama-models",
+    "language": "Python",
+    "pushed_at": "2026-02-11T16:38:31Z",
+    "topics": [],
+    "updated_at": "2026-04-18T07:46:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meta-llama/llama-cookbook",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meta-llama/llama-stack",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Semantic Release",
+      "sense_id": "semantic-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "semantic-release",
+  "normalized_form": "semantic-release",
+  "observation_id": "caa1b75dcbe91cda",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:57:36.597358+00:00",
+  "observed_text": "Semantic Release",
+  "source_file": ".github/workflows/semantic-release.yml",
+  "source_repo": "BeehiveInnovations/pal-mcp-server"
+}

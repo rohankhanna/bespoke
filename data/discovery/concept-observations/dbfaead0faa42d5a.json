@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Trigger",
+      "sense_id": "release-trigger#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "release-trigger",
+  "normalized_form": "release-trigger",
+  "observation_id": "dbfaead0faa42d5a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:57:36.597358+00:00",
+  "observed_text": "Release Trigger",
+  "source_file": ".github/workflows/release-trigger.yml",
+  "source_repo": "github/spec-kit"
+}

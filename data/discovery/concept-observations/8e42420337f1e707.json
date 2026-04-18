@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neo4j",
+      "sense_id": "neo4j#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "neo4j",
+  "normalized_form": "neo4j",
+  "observation_id": "8e42420337f1e707",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:57:36.597358+00:00",
+  "observed_text": "neo4j",
+  "source_file": null,
+  "source_repo": "ruvnet/RuVector"
+}

@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "large-language-models",
+      "sense_id": "large-language-models#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "large-language-models",
+  "normalized_form": "large-language-models",
+  "observation_id": "12f2e33dfc840d80",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:57:36.597358+00:00",
+  "observed_text": "large-language-models",
+  "source_file": null,
+  "source_repo": "protectai/llm-guard"
+}
