@@ -1,0 +1,168 @@
+{
+  "budget_seconds": 18000,
+  "concept_index_counts": {
+    "aliases": 1365,
+    "buckets": 15,
+    "observations_by_concept": 1119
+  },
+  "elapsed_seconds": 67.707,
+  "embedding_unit_count": 6000,
+  "generated_at": "2026-04-18T18:48:44.679047+00:00",
+  "processed_repositories": [
+    "kubernetes/sig-release",
+    "kubernetes/steering",
+    "mohammadtavakoli78/beam",
+    "arktisklada/crank",
+    "bytegust/spm",
+    "chrismytton/shoreman",
+    "ddollar/forego",
+    "stripe-samples/accept-a-payment",
+    "stripe/stripe-mock",
+    "tc39/proposal-async-iteration",
+    "microsoft/pyright",
+    "pyenv/pyenv",
+    "badlogic/pi-share-hf",
+    "awslabs/eks-node-viewer",
+    "azure/aztfexport",
+    "bensadeh/circumflex",
+    "broderick-westrope/tetrigo",
+    "charmbracelet/colorprofile",
+    "charmbracelet/glamour",
+    "knownsec/404starlink"
+  ],
+  "remaining_budget_seconds": 17932.293,
+  "remaining_frontier": 334,
+  "repo_timing_summary": {
+    "average_seconds": 1.688,
+    "count": 20,
+    "max_seconds": 3.497,
+    "total_seconds": 33.75
+  },
+  "repo_timings": [
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.191,
+      "full_name": "kubernetes/sig-release",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.96,
+      "full_name": "kubernetes/steering",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.014,
+      "full_name": "mohammadtavakoli78/beam",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.603,
+      "full_name": "arktisklada/crank",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.406,
+      "full_name": "bytegust/spm",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.951,
+      "full_name": "chrismytton/shoreman",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.76,
+      "full_name": "ddollar/forego",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.996,
+      "full_name": "stripe-samples/accept-a-payment",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.191,
+      "full_name": "stripe/stripe-mock",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.233,
+      "full_name": "tc39/proposal-async-iteration",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.292,
+      "full_name": "microsoft/pyright",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.497,
+      "full_name": "pyenv/pyenv",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.017,
+      "full_name": "badlogic/pi-share-hf",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.324,
+      "full_name": "awslabs/eks-node-viewer",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.425,
+      "full_name": "azure/aztfexport",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.243,
+      "full_name": "bensadeh/circumflex",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.037,
+      "full_name": "broderick-westrope/tetrigo",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.902,
+      "full_name": "charmbracelet/colorprofile",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.914,
+      "full_name": "charmbracelet/glamour",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.794,
+      "full_name": "knownsec/404starlink",
+      "graph_distance": 3
+    }
+  ],
+  "run_id": "20260418T184845Z",
+  "skipped_repositories": [],
+  "slow_repo_threshold_seconds": 10.0,
+  "slow_repositories": [],
+  "stopped_due_to_budget": false
+}

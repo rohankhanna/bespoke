@@ -1,0 +1,270 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_version.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_version.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_version.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_version.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/modified_scripts_build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/modified_scripts_build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/modified_scripts_build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/modified_scripts_build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/modified_scripts_build.yml"
+    },
+    {
+      "component": "lee-dohm/no-response@v0.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no-response.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyenv_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu_build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pyenv/pyenv",
+      "target": "pyenv/pyenv-virtualenv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pyenv/pyenv",
+      "target": "pyenv/pyenv-installer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pyenv/pyenv",
+      "target": "pyenv-win/pyenv-win",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pyenv/pyenv",
+      "target": "pyenv/pyenv-update",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_version.yml",
+      "source_repo": "pyenv/pyenv",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_version.yml",
+      "source_repo": "pyenv/pyenv",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_version.yml",
+      "source_repo": "pyenv/pyenv",
+      "target": "actions/create-github-app-token@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add_version.yml",
+      "source_repo": "pyenv/pyenv",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add_version.yml",
+      "source_repo": "pyenv/pyenv",
+      "target": "Add versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos_build.yml",
+      "source_repo": "pyenv/pyenv",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/modified_scripts_build.yml",
+      "source_repo": "pyenv/pyenv",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/no-response.yml",
+      "source_repo": "pyenv/pyenv",
+      "target": "lee-dohm/no-response@v0.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/no-response.yml",
+      "source_repo": "pyenv/pyenv",
+      "target": "No Response",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyenv_tests.yml",
+      "source_repo": "pyenv/pyenv",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu_build.yml",
+      "source_repo": "pyenv/pyenv",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyenv/pyenv",
+      "target": "shell",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T18:49:22.508895+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31232
+    },
+    {
+      "path": ".github/workflows/add_version.yml",
+      "size": 1813
+    },
+    {
+      "path": ".github/workflows/macos_build.yml",
+      "size": 1147
+    },
+    {
+      "path": ".github/workflows/modified_scripts_build.yml",
+      "size": 12742
+    },
+    {
+      "path": ".github/workflows/no-response.yml",
+      "size": 1016
+    },
+    {
+      "path": ".github/workflows/pyenv_tests.yml",
+      "size": 1068
+    },
+    {
+      "path": ".github/workflows/ubuntu_build.yml",
+      "size": 1330
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "Simple Python version management",
+    "full_name": "pyenv/pyenv",
+    "html_url": "https://github.com/pyenv/pyenv",
+    "language": "Shell",
+    "pushed_at": "2026-04-17T19:53:56Z",
+    "topics": [
+      "python",
+      "shell"
+    ],
+    "updated_at": "2026-04-18T18:02:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pyenv-win/pyenv-win",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pyenv/pyenv-installer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pyenv/pyenv-update",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pyenv/pyenv-virtualenv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Add versions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add_version.yml",
+      "term": "Add versions"
+    },
+    {
+      "context_snippet": "No Response",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/no-response.yml",
+      "term": "No Response"
+    },
+    {
+      "context_snippet": "[![Join the chat at https://gitter.im/yyuu/pyenv](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/yyuu/pyenv?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    }
+  ]
+}

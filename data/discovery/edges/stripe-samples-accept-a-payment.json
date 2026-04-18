@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "vitejs/vite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_e2e.yml",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_e2e.yml",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "reactivecircus/android-emulator-runner@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android_e2e.yml",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "Android e2e tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_android.yaml",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_build_android.yaml",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "Build Android app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_ios.yaml",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_build_ios.yaml",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "Build iOS app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_dotnet.yaml",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "Server Tests (dotnet)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_e2e.yaml",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_e2e.yaml",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_e2e.yaml",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "E2E Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_e2e_snapshot.yaml",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_e2e_snapshot.yaml",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_e2e_snapshot.yaml",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "E2E Snapshot Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_go.yaml",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "Server Tests (Go)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_java.yaml",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "Server Tests (java)",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T18:48:44.679047+00:00",
+  "source_repo": "stripe-samples/accept-a-payment"
+}

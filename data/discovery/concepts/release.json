@@ -200,6 +200,18 @@
       "source_repo": "asg017/sqlite-xsv",
       "status": "candidate-context",
       "text": "\"Release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Broderick-Westrope/tetrigo",
+      "status": "candidate-context",
+      "text": "Play Tetris in your terminal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Broderick-Westrope/tetrigo",
+      "status": "candidate-context",
+      "text": "Release"
     }
   ],
   "candidate_glosses": [
@@ -280,6 +292,12 @@
       "source_repo": "asg017/sqlite-xsv",
       "status": "candidate",
       "text": "\"Release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Broderick-Westrope/tetrigo",
+      "status": "candidate",
+      "text": "Release"
     }
   ],
   "candidate_related_terms": [
@@ -623,11 +641,17 @@
       "observed_at": "2026-04-18T18:30:26.389736+00:00",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "asg017/sqlite-xsv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:48:44.679047+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "Broderick-Westrope/tetrigo"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

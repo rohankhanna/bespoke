@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "awslabs/eks-node-viewer",
+      "target": "actions/checkout@v4.1.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "awslabs/eks-node-viewer",
+      "target": "actions/setup-go@v5.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "awslabs/eks-node-viewer",
+      "target": "goreleaser/goreleaser-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "awslabs/eks-node-viewer",
+      "target": "Binary release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "awslabs/eks-node-viewer",
+      "target": "actions/checkout@v4.1.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "awslabs/eks-node-viewer",
+      "target": "actions/setup-go@v5.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "awslabs/eks-node-viewer",
+      "target": "Go code tests",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T18:48:44.679047+00:00",
+  "source_repo": "awslabs/eks-node-viewer"
+}

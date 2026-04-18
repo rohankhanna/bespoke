@@ -29,6 +29,9 @@
   "add new implementation versions": [
     "add-new-implementation-versions"
   ],
+  "add versions": [
+    "add-versions"
+  ],
   "address sanitizer": [
     "address-sanitizer"
   ],
@@ -215,6 +218,9 @@
   "android": [
     "android"
   ],
+  "android e2e tests": [
+    "android-e2e-tests"
+  ],
   "another": [
     "en-article_or_determiner-another",
     "en-pronoun-another"
@@ -383,6 +389,9 @@
   "aws-lambda": [
     "aws-lambda"
   ],
+  "azure": [
+    "azure"
+  ],
   "backport": [
     "backport"
   ],
@@ -419,6 +428,12 @@
   "be": [
     "en-modal_or_auxiliary-be"
   ],
+  "beam": [
+    "beam"
+  ],
+  "beam-benchmark": [
+    "beam-benchmark"
+  ],
   "because": [
     "en-conjunction-because"
   ],
@@ -452,6 +467,15 @@
   ],
   "benchmark v2 framework": [
     "benchmark-v2-framework"
+  ],
+  "benchmark-long-context": [
+    "benchmark-long-context"
+  ],
+  "benchmark-long-term-memory": [
+    "benchmark-long-term-memory"
+  ],
+  "benchmarking": [
+    "benchmarking"
   ],
   "benchmarks": [
     "benchmarks"
@@ -492,6 +516,9 @@
   ],
   "binary": [
     "binary"
+  ],
+  "binary release": [
+    "binary-release"
   ],
   "bioinformatics": [
     "bioinformatics"
@@ -561,6 +588,9 @@
   "build and test": [
     "build-and-test"
   ],
+  "build android app": [
+    "build-android-app"
+  ],
   "build attention native modules": [
     "build-attention-native-modules"
   ],
@@ -596,6 +626,9 @@
   ],
   "build hf space docker image": [
     "build-hf-space-docker-image"
+  ],
+  "build ios app": [
+    "build-ios-app"
   ],
   "build macos app": [
     "build-macos-app"
@@ -883,6 +916,9 @@
   "cli integration test": [
     "cli-integration-test"
   ],
+  "client": [
+    "client"
+  ],
   "climbing": [
     "climbing"
   ],
@@ -1096,6 +1132,9 @@
   "create sbom for the release": [
     "create-sbom-for-the-release"
   ],
+  "create tag and trigger release": [
+    "create-tag-and-trigger-release"
+  ],
   "cross-encoder": [
     "cross-encoder"
   ],
@@ -1125,6 +1164,9 @@
   ],
   "cybersecurity": [
     "cybersecurity"
+  ],
+  "daemon": [
+    "daemon"
   ],
   "daily i18n update": [
     "daily-i18n-update"
@@ -1255,6 +1297,9 @@
   "development": [
     "development"
   ],
+  "devops": [
+    "devops"
+  ],
   "devsecops": [
     "devsecops"
   ],
@@ -1377,6 +1422,9 @@
   ],
   "e2e": [
     "e2e"
+  ],
+  "e2e snapshot tests": [
+    "e2e-snapshot-tests"
   ],
   "e2e tests": [
     "e2e-tests"
@@ -1564,6 +1612,9 @@
   "for instance": [
     "en-discourse_marker-for-instance"
   ],
+  "foreman": [
+    "foreman"
+  ],
   "forked pr workflow check": [
     "forked-pr-workflow-check"
   ],
@@ -1657,6 +1708,9 @@
   "go build": [
     "go-build"
   ],
+  "go code tests": [
+    "go-code-tests"
+  ],
   "go implementation (ci)": [
     "go-implementation-ci"
   ],
@@ -1719,6 +1773,15 @@
   ],
   "hackathon": [
     "hackathon"
+  ],
+  "hacker": [
+    "hacker"
+  ],
+  "hacker-news": [
+    "hacker-news"
+  ],
+  "hackernews": [
+    "hackernews"
   ],
   "hacktoberfest": [
     "hacktoberfest"
@@ -1933,6 +1996,9 @@
   "k8s-sig-architecture": [
     "k8s-sig-architecture"
   ],
+  "k8s-sig-release": [
+    "k8s-sig-release"
+  ],
   "karpathy": [
     "karpathy"
   ],
@@ -1977,6 +2043,9 @@
   ],
   "kubernetes-releases": [
     "kubernetes-releases"
+  ],
+  "kubernetes-sig": [
+    "kubernetes-sig"
   ],
   "label issues": [
     "label-issues"
@@ -2054,6 +2123,12 @@
   ],
   "life": [
     "life"
+  ],
+  "light": [
+    "light"
+  ],
+  "light-framework": [
+    "light-framework"
   ],
   "like": [
     "en-preposition-like"
@@ -2176,8 +2251,26 @@
   "logo": [
     "logo"
   ],
+  "long-context-evaluation": [
+    "long-context-evaluation"
+  ],
+  "long-context-evaluation-benchmark": [
+    "long-context-evaluation-benchmark"
+  ],
+  "long-context-llm": [
+    "long-context-llm"
+  ],
+  "long-context-llms": [
+    "long-context-llms"
+  ],
   "long-term-memory": [
     "long-term-memory"
+  ],
+  "long-term-memory-benchmark": [
+    "long-term-memory-benchmark"
+  ],
+  "long-term-memory-method": [
+    "long-term-memory-method"
   ],
   "low-latency": [
     "low-latency"
@@ -2209,12 +2302,18 @@
   "malicious-packages": [
     "malicious-packages"
   ],
+  "manager": [
+    "manager"
+  ],
   "many": [
     "en-article_or_determiner-many",
     "en-quantifier-many"
   ],
   "mark and close stale issues": [
     "mark-and-close-stale-issues"
+  ],
+  "mark stale issues and pull requests": [
+    "mark-stale-issues-and-pull-requests"
   ],
   "markdown": [
     "markdown"
@@ -2420,6 +2519,9 @@
   "newcomer": [
     "newcomer"
   ],
+  "news": [
+    "news"
+  ],
   "next": [
     "en-discourse_marker-next"
   ],
@@ -2445,6 +2547,9 @@
   ],
   "no one": [
     "en-pronoun-no-one"
+  ],
+  "no response": [
+    "no-response"
   ],
   "nobody": [
     "en-pronoun-nobody"
@@ -2582,6 +2687,9 @@
   "openrouter": [
     "openrouter"
   ],
+  "opensource": [
+    "opensource"
+  ],
   "openssf scorecard": [
     "openssf-scorecard"
   ],
@@ -2711,6 +2819,9 @@
   "pr build check": [
     "pr-build-check"
   ],
+  "pr check": [
+    "pr-check"
+  ],
   "pr checks": [
     "pr-checks"
   ],
@@ -2755,6 +2866,9 @@
   ],
   "printer": [
     "printer"
+  ],
+  "process": [
+    "process"
   ],
   "process github issues": [
     "process-github-issues"
@@ -2933,6 +3047,9 @@
   "react": [
     "react"
   ],
+  "reader": [
+    "reader"
+  ],
   "readme": [
     "readme"
   ],
@@ -3025,6 +3142,12 @@
   ],
   "release trigger": [
     "release-trigger"
+  ],
+  "release-management": [
+    "release-management"
+  ],
+  "release-planning": [
+    "release-planning"
   ],
   "release-plz": [
     "release-plz"
@@ -3181,6 +3304,15 @@
   ],
   "serialization": [
     "serialization"
+  ],
+  "server tests (dotnet)": [
+    "server-tests-dotnet"
+  ],
+  "server tests (go)": [
+    "server-tests-go"
+  ],
+  "server tests (java)": [
+    "server-tests-java"
   ],
   "serverless": [
     "serverless"
@@ -3433,6 +3565,12 @@
   "terminal": [
     "terminal"
   ],
+  "terraform": [
+    "terraform"
+  ],
+  "terraform-azurerm": [
+    "terraform-azurerm"
+  ],
   "test": [
     "test"
   ],
@@ -3522,6 +3660,9 @@
   ],
   "testsuite": [
     "testsuite"
+  ],
+  "tetris": [
+    "tetris"
   ],
   "text-classification": [
     "text-classification"
@@ -3617,6 +3758,9 @@
   ],
   "tonight": [
     "en-deictic_or_spatiotemporal_marker-tonight"
+  ],
+  "tool": [
+    "tool"
   ],
   "tools": [
     "tools"
@@ -3738,6 +3882,9 @@
   ],
   "validate pull request": [
     "validate-pull-request"
+  ],
+  "validation": [
+    "validation"
   ],
   "vector": [
     "vector"
@@ -3941,6 +4088,9 @@
   ],
   "xunit": [
     "xunit"
+  ],
+  "ycombinator": [
+    "ycombinator"
   ],
   "yesterday": [
     "en-deictic_or_spatiotemporal_marker-yesterday"

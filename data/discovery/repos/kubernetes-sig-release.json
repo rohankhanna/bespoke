@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/krel-release-notes-validate.yaml"
+    },
+    {
+      "component": "actions/setup-go@41dfa10bad2bb2ae585af6ee5bb4d7d973ad74ed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/krel-release-notes-validate.yaml"
+    },
+    {
+      "component": "sigstore/cosign-installer@cad07c2e89fa2edd6e2d7bab4c1aa38e53f76003",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/krel-release-notes-validate.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/krel-release-notes-validate.yaml",
+      "source_repo": "kubernetes/sig-release",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/krel-release-notes-validate.yaml",
+      "source_repo": "kubernetes/sig-release",
+      "target": "actions/setup-go@41dfa10bad2bb2ae585af6ee5bb4d7d973ad74ed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/krel-release-notes-validate.yaml",
+      "source_repo": "kubernetes/sig-release",
+      "target": "sigstore/cosign-installer@cad07c2e89fa2edd6e2d7bab4c1aa38e53f76003",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes/sig-release",
+      "target": "cncf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes/sig-release",
+      "target": "k8s-sig-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes/sig-release",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes/sig-release",
+      "target": "kubernetes-sig",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes/sig-release",
+      "target": "release-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes/sig-release",
+      "target": "release-planning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T18:48:46.542764+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1588
+    },
+    {
+      "path": ".github/workflows/krel-release-notes-validate.yaml",
+      "size": 6019
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "Repo for SIG release",
+    "full_name": "kubernetes/sig-release",
+    "html_url": "https://github.com/kubernetes/sig-release",
+    "language": "Shell",
+    "pushed_at": "2026-04-17T17:37:05Z",
+    "topics": [
+      "cncf",
+      "k8s-sig-release",
+      "kubernetes",
+      "kubernetes-sig",
+      "release-management",
+      "release-planning"
+    ],
+    "updated_at": "2026-04-17T17:37:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The [charter] defines the scope and governance of the Release Special Interest Group.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cncf"
+    },
+    {
+      "context_snippet": "The [charter] defines the scope and governance of the Release Special Interest Group.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k8s-sig-release"
+    },
+    {
+      "context_snippet": "The [charter] defines the scope and governance of the Release Special Interest Group.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "The [charter] defines the scope and governance of the Release Special Interest Group.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes-sig"
+    },
+    {
+      "context_snippet": "The [charter] defines the scope and governance of the Release Special Interest Group.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "release-management"
+    },
+    {
+      "context_snippet": "The [charter] defines the scope and governance of the Release Special Interest Group.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "release-planning"
+    }
+  ]
+}

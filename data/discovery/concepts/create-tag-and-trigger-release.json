@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Create Tag and trigger release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stripe/stripe-mock",
+      "status": "candidate-context",
+      "text": "stripe-mock is a mock HTTP server that responds like the real Stripe API. It can be used instead of Stripe's testmode to make test suites integrating with Stripe faster and less brittle."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stripe/stripe-mock",
+      "status": "candidate-context",
+      "text": "Create Tag and trigger release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stripe/stripe-mock",
+      "status": "candidate",
+      "text": "Create Tag and trigger release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34377,
+      "status": "candidate",
+      "text": "trip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33829,
+      "status": "candidate",
+      "text": "trips"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33658,
+      "status": "candidate",
+      "text": "triggered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33658,
+      "status": "candidate",
+      "text": "triggering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27808,
+      "status": "candidate",
+      "text": "touch"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Create Tag and trigger release",
+  "concept_id": "create-tag-and-trigger-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:48:44.679047+00:00",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "stripe/stripe-mock"
+    }
+  ],
+  "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create Tag and trigger release",
+      "sense_id": "create-tag-and-trigger-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

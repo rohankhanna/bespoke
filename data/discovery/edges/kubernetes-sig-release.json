@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/krel-release-notes-validate.yaml",
+      "source_repo": "kubernetes/sig-release",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/krel-release-notes-validate.yaml",
+      "source_repo": "kubernetes/sig-release",
+      "target": "actions/setup-go@41dfa10bad2bb2ae585af6ee5bb4d7d973ad74ed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/krel-release-notes-validate.yaml",
+      "source_repo": "kubernetes/sig-release",
+      "target": "sigstore/cosign-installer@cad07c2e89fa2edd6e2d7bab4c1aa38e53f76003",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes/sig-release",
+      "target": "cncf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes/sig-release",
+      "target": "k8s-sig-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes/sig-release",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes/sig-release",
+      "target": "kubernetes-sig",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes/sig-release",
+      "target": "release-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes/sig-release",
+      "target": "release-planning",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T18:48:44.679047+00:00",
+  "source_repo": "kubernetes/sig-release"
+}

@@ -1,0 +1,92 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "404StarLink - \u63a8\u8350\u4f18\u8d28\u3001\u6709\u610f\u4e49\u3001\u6709\u8da3\u3001\u575a\u6301\u7ef4\u62a4\u7684\u5b89\u5168\u5f00\u6e90\u9879\u76ee"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10044833,
+      "status": "candidate",
+      "text": "pecker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10044783,
+      "status": "candidate",
+      "text": "shaft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10033851,
+      "status": "candidate",
+      "text": "prick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10032790,
+      "status": "candidate",
+      "text": "joyride"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9995507,
+      "status": "candidate",
+      "text": "puppet"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tools",
+      "sense_id": "tools#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tools",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tools",
+  "observation_id": "8a87861b44b4bc9d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T18:48:44.679047+00:00",
+  "observed_text": "tools",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "knownsec/404StarLink",
+  "source_repo_description": "404StarLink - \u63a8\u8350\u4f18\u8d28\u3001\u6709\u610f\u4e49\u3001\u6709\u8da3\u3001\u575a\u6301\u7ef4\u62a4\u7684\u5b89\u5168\u5f00\u6e90\u9879\u76ee"
+}

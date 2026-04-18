@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "Validation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/pyright",
+      "status": "candidate-context",
+      "text": "Static Type Checker for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/pyright",
+      "status": "candidate-context",
+      "text": "'Validation'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/pyright",
+      "status": "candidate",
+      "text": "'Validation'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997204,
+      "status": "candidate",
+      "text": "proof"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39993254,
+      "status": "candidate",
+      "text": "establishment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39775332,
+      "status": "candidate",
+      "text": "proving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30008098,
+      "status": "candidate",
+      "text": "validating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30008097,
+      "status": "candidate",
+      "text": "validated"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10016,
+      "status": "candidate",
+      "text": "validating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2022,
+      "status": "candidate",
+      "text": "proving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "establishment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "proof"
+    }
+  ],
+  "canonical_name": "Validation",
+  "concept_id": "validation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:48:44.679047+00:00",
+      "source_file": ".github/workflows/validation.yml",
+      "source_repo": "microsoft/pyright"
+    }
+  ],
+  "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validation",
+      "sense_id": "validation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,285 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "mohammadtavakoli78/BEAM",
+      "target": "explosion/spacy-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mohammadtavakoli78/BEAM",
+      "target": "beam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mohammadtavakoli78/BEAM",
+      "target": "beam-benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mohammadtavakoli78/BEAM",
+      "target": "benchmark-long-context",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mohammadtavakoli78/BEAM",
+      "target": "benchmark-long-term-memory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mohammadtavakoli78/BEAM",
+      "target": "benchmarking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mohammadtavakoli78/BEAM",
+      "target": "light",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mohammadtavakoli78/BEAM",
+      "target": "light-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mohammadtavakoli78/BEAM",
+      "target": "long-context-evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mohammadtavakoli78/BEAM",
+      "target": "long-context-evaluation-benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mohammadtavakoli78/BEAM",
+      "target": "long-context-llm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mohammadtavakoli78/BEAM",
+      "target": "long-context-llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mohammadtavakoli78/BEAM",
+      "target": "long-term-memory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mohammadtavakoli78/BEAM",
+      "target": "long-term-memory-benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mohammadtavakoli78/BEAM",
+      "target": "long-term-memory-method",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mohammadtavakoli78/BEAM",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mohammadtavakoli78/BEAM",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mohammadtavakoli78/BEAM",
+      "target": "retrieval-augmented-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T18:48:51.766364+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14221
+    },
+    {
+      "path": "requirements.txt",
+      "size": 3577
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "[ICLR 2026] Beyond a Million Tokens: Benchmarking and Enhancing Long-Term Memory in LLMs",
+    "full_name": "mohammadtavakoli78/BEAM",
+    "html_url": "https://github.com/mohammadtavakoli78/BEAM",
+    "language": "Python",
+    "pushed_at": "2026-02-02T07:43:30Z",
+    "topics": [
+      "beam",
+      "beam-benchmark",
+      "benchmark-long-context",
+      "benchmark-long-term-memory",
+      "benchmarking",
+      "light",
+      "light-framework",
+      "llm",
+      "long-context-evaluation",
+      "long-context-evaluation-benchmark",
+      "long-context-llm",
+      "long-context-llms",
+      "long-term-memory",
+      "long-term-memory-benchmark",
+      "long-term-memory-method",
+      "machine-learning",
+      "natural-language-processing",
+      "nlp",
+      "rag",
+      "retrieval-augmented-generation"
+    ],
+    "updated_at": "2026-04-15T07:02:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "explosion/spacy-models",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "beam"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "beam-benchmark"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark-long-context"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark-long-term-memory"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmarking"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "light"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "light-framework"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "long-context-evaluation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "long-context-evaluation-benchmark"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "long-context-llm"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "long-context-llms"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "long-term-memory"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "long-term-memory-benchmark"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "long-term-memory-method"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "retrieval-augmented-generation"
+    }
+  ]
+}

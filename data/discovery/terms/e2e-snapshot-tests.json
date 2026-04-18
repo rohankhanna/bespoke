@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci_e2e_snapshot.yaml",
+      "source_repo": "stripe-samples/accept-a-payment"
+    }
+  ],
+  "term": "E2E Snapshot Tests"
+}

@@ -7,10 +7,102 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bensadeh/circumflex",
+      "status": "candidate-context",
+      "text": "\ud83c\udf3f It's Hacker News in your terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bensadeh/circumflex",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bensadeh/circumflex",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39899636,
+      "status": "candidate",
+      "text": "pole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39898512,
+      "status": "candidate",
+      "text": "depot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39820396,
+      "status": "candidate",
+      "text": "closing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39819189,
+      "status": "candidate",
+      "text": "final"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39795496,
+      "status": "candidate",
+      "text": "terminus"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26042,
+      "status": "candidate",
+      "text": "terminus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20044,
+      "status": "candidate",
+      "text": "depot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15048,
+      "status": "candidate",
+      "text": "last"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14044,
+      "status": "candidate",
+      "text": "fatal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8044,
+      "status": "candidate",
+      "text": "closing"
+    }
+  ],
   "canonical_name": "terminal",
   "concept_id": "terminal",
   "definition_status": "unresolved",
@@ -26,12 +118,20 @@
       "observed_at": "2026-04-18T12:07:11.500453+00:00",
       "source_file": null,
       "source_repo": "crossterm-rs/crossterm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T18:48:44.679047+00:00",
+      "source_file": null,
+      "source_repo": "bensadeh/circumflex"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

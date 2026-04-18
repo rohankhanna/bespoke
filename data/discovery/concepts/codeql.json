@@ -8,8 +8,28 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/aztfexport",
+      "status": "candidate-context",
+      "text": "A tool to bring existing Azure resources under Terraform's management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/aztfexport",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/aztfexport",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "CodeQL",
@@ -63,12 +83,20 @@
       "observed_at": "2026-04-18T12:46:59.510459+00:00",
       "source_file": ".github/workflows/codeql-analysis.yml",
       "source_repo": "Delgan/loguru"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:48:44.679047+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Azure/aztfexport"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

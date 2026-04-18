@@ -1,0 +1,92 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Simple Python version management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Add versions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Add versions"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12219,
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12219,
+      "status": "candidate",
+      "text": "retrofit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12219,
+      "status": "candidate",
+      "text": "retrofitted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12219,
+      "status": "candidate",
+      "text": "update"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12219,
+      "status": "candidate",
+      "text": "updating"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add versions",
+      "sense_id": "add-versions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "add-versions",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "add-versions",
+  "observation_id": "cc37cd800c0b5b92",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T18:48:44.679047+00:00",
+  "observed_text": "Add versions",
+  "source_context_snippet": "Add versions",
+  "source_file": ".github/workflows/add_version.yml",
+  "source_repo": "pyenv/pyenv",
+  "source_repo_description": "Simple Python version management"
+}

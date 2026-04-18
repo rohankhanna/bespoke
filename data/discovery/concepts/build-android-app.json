@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Android app"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "status": "candidate-context",
+      "text": "Learn how to accept a payment from customers around the world with a variety of payment methods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "status": "candidate-context",
+      "text": "Build Android app"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "status": "candidate",
+      "text": "Build Android app"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37404,
+      "status": "candidate",
+      "text": "play"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19934,
+      "status": "candidate",
+      "text": "icon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19934,
+      "status": "candidate",
+      "text": "user"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19520,
+      "status": "candidate",
+      "text": "robotics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11788,
+      "status": "candidate",
+      "text": "robot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Android app",
+  "concept_id": "build-android-app",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:48:44.679047+00:00",
+      "source_file": ".github/workflows/ci_build_android.yaml",
+      "source_repo": "stripe-samples/accept-a-payment"
+    }
+  ],
+  "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Android app",
+      "sense_id": "build-android-app#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

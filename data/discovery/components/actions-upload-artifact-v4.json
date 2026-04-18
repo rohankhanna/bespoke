@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -757,6 +757,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yaml",
       "source_repo": "asg017/sqlite-xsv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_e2e.yaml",
+      "source_repo": "stripe-samples/accept-a-payment"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "microsoft/pyright"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mypy_primer_pr.yaml",
+      "source_repo": "microsoft/pyright"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mypy_primer_push.yaml",
+      "source_repo": "microsoft/pyright"
     }
   ]
 }

@@ -1,0 +1,79 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytegust/spm",
+      "target": "daemon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytegust/spm",
+      "target": "foreman",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytegust/spm",
+      "target": "manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytegust/spm",
+      "target": "process",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T18:48:58.705311+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "A process manager similar to systemd and foreman with stop feature, written in Go.",
+    "full_name": "bytegust/spm",
+    "html_url": "https://github.com/bytegust/spm",
+    "language": "Go",
+    "pushed_at": "2024-03-20T08:56:47Z",
+    "topics": [
+      "daemon",
+      "foreman",
+      "manager",
+      "process",
+      "spm"
+    ],
+    "updated_at": "2025-06-25T22:26:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A process manager similar to systemd and foreman with stop feature, written in Go.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "daemon"
+    },
+    {
+      "context_snippet": "A process manager similar to systemd and foreman with stop feature, written in Go.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "foreman"
+    },
+    {
+      "context_snippet": "A process manager similar to systemd and foreman with stop feature, written in Go.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manager"
+    },
+    {
+      "context_snippet": "A process manager similar to systemd and foreman with stop feature, written in Go.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "process"
+    }
+  ]
+}

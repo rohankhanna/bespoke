@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "No Response"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyenv/pyenv",
+      "status": "candidate-context",
+      "text": "Simple Python version management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyenv/pyenv",
+      "status": "candidate-context",
+      "text": "No Response"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyenv/pyenv",
+      "status": "candidate",
+      "text": "No Response"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73346,
+      "status": "candidate",
+      "text": "nonresponse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73345,
+      "status": "candidate",
+      "text": "nonresponsive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73344,
+      "status": "candidate",
+      "text": "unresponsive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73343,
+      "status": "candidate",
+      "text": "unresponsiveness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73342,
+      "status": "candidate",
+      "text": "no dice"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "No Response",
+  "concept_id": "no-response",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:48:44.679047+00:00",
+      "source_file": ".github/workflows/no-response.yml",
+      "source_repo": "pyenv/pyenv"
+    }
+  ],
+  "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "No Response",
+      "sense_id": "no-response#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

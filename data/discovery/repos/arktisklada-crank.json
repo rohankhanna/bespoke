@@ -1,0 +1,24 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-18T18:48:58.299071+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 659
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "Foreman port to crystal.",
+    "full_name": "arktisklada/crank",
+    "html_url": "https://github.com/arktisklada/crank",
+    "language": "Crystal",
+    "pushed_at": "2020-07-06T04:30:21Z",
+    "topics": [],
+    "updated_at": "2025-06-25T22:33:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

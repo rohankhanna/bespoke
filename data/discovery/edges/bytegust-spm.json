@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytegust/spm",
+      "target": "daemon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytegust/spm",
+      "target": "foreman",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytegust/spm",
+      "target": "manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytegust/spm",
+      "target": "process",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T18:48:44.679047+00:00",
+  "source_repo": "bytegust/spm"
+}

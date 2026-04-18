@@ -1,0 +1,153 @@
+{
+  "aliases": [
+    "foreman"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytegust/spm",
+      "status": "candidate-context",
+      "text": "A process manager similar to systemd and foreman with stop feature, written in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytegust/spm",
+      "status": "candidate-context",
+      "text": "A process manager similar to systemd and foreman with stop feature, written in Go."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chrismytton/shoreman",
+      "status": "candidate-context",
+      "text": ":shell: foreman in shell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chrismytton/shoreman",
+      "status": "candidate-context",
+      "text": "shoreman(1) ![CI](https://github.com/chrismytton/shoreman/workflows/CI/badge.svg?branch=master&event=push)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytegust/spm",
+      "status": "candidate",
+      "text": "A process manager similar to systemd and foreman with stop feature, written in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chrismytton/shoreman",
+      "status": "candidate",
+      "text": "shoreman(1) ![CI](https://github.com/chrismytton/shoreman/workflows/CI/badge.svg?branch=master&event=push)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046170,
+      "status": "candidate",
+      "text": "boss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044506,
+      "status": "candidate",
+      "text": "honcho"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044423,
+      "status": "candidate",
+      "text": "chief"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29997750,
+      "status": "candidate",
+      "text": "gaffer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20045338,
+      "status": "candidate",
+      "text": "employee"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10038,
+      "status": "candidate",
+      "text": "gaffer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4031,
+      "status": "candidate",
+      "text": "honcho"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "boss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "chief"
+    }
+  ],
+  "canonical_name": "foreman",
+  "concept_id": "foreman",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T18:48:44.679047+00:00",
+      "source_file": null,
+      "source_repo": "bytegust/spm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T18:48:44.679047+00:00",
+      "source_file": null,
+      "source_repo": "chrismytton/shoreman"
+    }
+  ],
+  "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "foreman",
+      "sense_id": "foreman#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

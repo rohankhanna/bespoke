@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "goreleaser"
+    "goreleaser",
+    "GoReleaser"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -25,9 +26,64 @@
       "source_repo": "ethpandaops/xatu",
       "status": "candidate-context",
       "text": "goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bensadeh/circumflex",
+      "status": "candidate-context",
+      "text": "\ud83c\udf3f It's Hacker News in your terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bensadeh/circumflex",
+      "status": "candidate-context",
+      "text": "GoReleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/colorprofile",
+      "status": "candidate-context",
+      "text": "Magical terminal color handling \ud83e\ude84"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/colorprofile",
+      "status": "candidate-context",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/glamour",
+      "status": "candidate-context",
+      "text": "Stylesheet-based markdown rendering for your CLI apps \ud83d\udc87\ud83c\udffb\u200d\u2640\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/glamour",
+      "status": "candidate-context",
+      "text": "goreleaser"
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bensadeh/circumflex",
+      "status": "candidate",
+      "text": "GoReleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/colorprofile",
+      "status": "candidate",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/glamour",
+      "status": "candidate",
+      "text": "goreleaser"
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "goreleaser",
@@ -63,12 +119,32 @@
       "observed_at": "2026-04-18T13:29:00.435097+00:00",
       "source_file": ".github/workflows/goreleaser.yaml",
       "source_repo": "ethpandaops/xatu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:48:44.679047+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bensadeh/circumflex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:48:44.679047+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "charmbracelet/colorprofile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:48:44.679047+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "charmbracelet/glamour"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

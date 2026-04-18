@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/stale@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chrismytton/shoreman",
+      "target": "bmizerany/roundup",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chrismytton/shoreman",
+      "target": "statianzo/dokku-shoreman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chrismytton/shoreman",
+      "target": "progrium/dokku",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "chrismytton/shoreman",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "chrismytton/shoreman",
+      "target": "actions/stale@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "chrismytton/shoreman",
+      "target": "Mark stale issues and pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chrismytton/shoreman",
+      "target": "foreman",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chrismytton/shoreman",
+      "target": "procfile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chrismytton/shoreman",
+      "target": "shell",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T18:49:02.318682+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2048
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 146
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 659
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": ":shell: foreman in shell",
+    "full_name": "chrismytton/shoreman",
+    "html_url": "https://github.com/chrismytton/shoreman",
+    "language": "Shell",
+    "pushed_at": "2025-01-30T11:05:25Z",
+    "topics": [
+      "foreman",
+      "procfile",
+      "shell"
+    ],
+    "updated_at": "2026-03-30T14:34:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bmizerany/roundup",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "progrium/dokku",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "statianzo/dokku-shoreman",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Mark stale issues and pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Mark stale issues and pull requests"
+    },
+    {
+      "context_snippet": "shoreman(1) ![CI](https://github.com/chrismytton/shoreman/workflows/CI/badge.svg?branch=master&event=push)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "foreman"
+    },
+    {
+      "context_snippet": "shoreman(1) ![CI](https://github.com/chrismytton/shoreman/workflows/CI/badge.svg?branch=master&event=push)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "procfile"
+    },
+    {
+      "context_snippet": "shoreman(1) ![CI](https://github.com/chrismytton/shoreman/workflows/CI/badge.svg?branch=master&event=push)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    }
+  ]
+}

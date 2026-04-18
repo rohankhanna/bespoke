@@ -1,0 +1,241 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "tibdex/github-app-token@v1.5.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "stripe/openapi/actions/notify-release@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml"
+    },
+    {
+      "component": "tibdex/github-app-token@v1.5.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml"
+    },
+    {
+      "component": "actions/github-script@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stripe/stripe-mock",
+      "target": "stripe/stripe-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stripe/stripe-mock",
+      "target": "go-bindata/go-bindata",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stripe/stripe-mock",
+      "target": "goreleaser/goreleaser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stripe/stripe-mock",
+      "target": "stripe/openapi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "stripe/stripe-mock",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "stripe/stripe-mock",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "stripe/stripe-mock",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "stripe/stripe-mock",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "stripe/stripe-mock",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "stripe/stripe-mock",
+      "target": "tibdex/github-app-token@v1.5.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "stripe/stripe-mock",
+      "target": "goreleaser/goreleaser-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "stripe/stripe-mock",
+      "target": "stripe/openapi/actions/notify-release@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "stripe/stripe-mock",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "stripe/stripe-mock",
+      "target": "tibdex/github-app-token@v1.5.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "stripe/stripe-mock",
+      "target": "actions/github-script@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "stripe/stripe-mock",
+      "target": "Create Tag and trigger release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T18:49:14.226312+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6562
+    },
+    {
+      "path": "Dockerfile",
+      "size": 339
+    },
+    {
+      "path": "go.mod",
+      "size": 723
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 631
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1363
+    },
+    {
+      "path": ".github/workflows/tag.yml",
+      "size": 1934
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "stripe-mock is a mock HTTP server that responds like the real Stripe API. It can be used instead of Stripe's testmode to make test suites integrating with Stripe faster and less brittle.",
+    "full_name": "stripe/stripe-mock",
+    "html_url": "https://github.com/stripe/stripe-mock",
+    "language": "Go",
+    "pushed_at": "2026-03-25T00:40:44Z",
+    "topics": [],
+    "updated_at": "2026-04-16T14:02:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "go-bindata/go-bindata",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "goreleaser/goreleaser",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stripe/openapi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stripe/stripe-go",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Create Tag and trigger release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag.yml",
+      "term": "Create Tag and trigger release"
+    }
+  ]
+}

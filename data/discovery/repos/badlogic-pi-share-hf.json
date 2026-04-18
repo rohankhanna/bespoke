@@ -1,0 +1,91 @@
+{
+  "components": [
+    {
+      "component": "@huggingface/hub",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript/native-preview",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "badlogic/pi-share-hf",
+      "target": "trufflesecurity/trufflehog",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "badlogic/pi-share-hf",
+      "target": "@huggingface/hub",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "badlogic/pi-share-hf",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "badlogic/pi-share-hf",
+      "target": "@typescript/native-preview",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "badlogic/pi-share-hf",
+      "target": "typescript",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-18T18:49:24.594863+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10686
+    },
+    {
+      "path": "package.json",
+      "size": 1081
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Collect, review, and upload redacted pi session files to a Hugging Face dataset",
+    "full_name": "badlogic/pi-share-hf",
+    "html_url": "https://github.com/badlogic/pi-share-hf",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-13T18:03:26Z",
+    "topics": [],
+    "updated_at": "2026-04-18T12:33:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "trufflesecurity/trufflehog",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "charmbracelet/colorprofile",
+      "target": "charmbracelet/meta/.github/workflows/build.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "charmbracelet/colorprofile",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "charmbracelet/colorprofile",
+      "target": "charmbracelet/meta/.github/workflows/coverage.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "charmbracelet/colorprofile",
+      "target": "coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-sync.yml",
+      "source_repo": "charmbracelet/colorprofile",
+      "target": "charmbracelet/meta/.github/workflows/dependabot-sync.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-sync.yml",
+      "source_repo": "charmbracelet/colorprofile",
+      "target": "dependabot-sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-sync.yml",
+      "source_repo": "charmbracelet/colorprofile",
+      "target": "charmbracelet/meta/.github/workflows/lint-sync.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-sync.yml",
+      "source_repo": "charmbracelet/colorprofile",
+      "target": "lint-sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "charmbracelet/colorprofile",
+      "target": "charmbracelet/meta/.github/workflows/lint.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "charmbracelet/colorprofile",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "charmbracelet/colorprofile",
+      "target": "charmbracelet/meta/.github/workflows/goreleaser.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "charmbracelet/colorprofile",
+      "target": "goreleaser",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T18:48:44.679047+00:00",
+  "source_repo": "charmbracelet/colorprofile"
+}

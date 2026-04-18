@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build iOS app"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "status": "candidate-context",
+      "text": "Learn how to accept a payment from customers around the world with a variety of payment methods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "status": "candidate-context",
+      "text": "Build iOS app"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "status": "candidate",
+      "text": "Build iOS app"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "isle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "unix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "version"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14306,
+      "status": "candidate",
+      "text": "banked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14306,
+      "status": "candidate",
+      "text": "draft"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build iOS app",
+  "concept_id": "build-ios-app",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:48:44.679047+00:00",
+      "source_file": ".github/workflows/ci_build_ios.yaml",
+      "source_repo": "stripe-samples/accept-a-payment"
+    }
+  ],
+  "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build iOS app",
+      "sense_id": "build-ios-app#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

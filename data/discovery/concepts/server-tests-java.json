@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Server Tests (java)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "status": "candidate-context",
+      "text": "Learn how to accept a payment from customers around the world with a variety of payment methods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "status": "candidate-context",
+      "text": "Server Tests (java)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "status": "candidate",
+      "text": "Server Tests (java)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10595,
+      "status": "candidate",
+      "text": "ssa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10517,
+      "status": "candidate",
+      "text": "ace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10517,
+      "status": "candidate",
+      "text": "acer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10517,
+      "status": "candidate",
+      "text": "ase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10517,
+      "status": "candidate",
+      "text": "bar"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Server Tests (java)",
+  "concept_id": "server-tests-java",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:48:44.679047+00:00",
+      "source_file": ".github/workflows/ci_java.yaml",
+      "source_repo": "stripe-samples/accept-a-payment"
+    }
+  ],
+  "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Server Tests (java)",
+      "sense_id": "server-tests-java#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

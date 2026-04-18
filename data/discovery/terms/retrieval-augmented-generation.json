@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "roampal-ai/roampal-labs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "mohammadtavakoli78/BEAM"
     }
   ],
   "term": "retrieval-augmented-generation"

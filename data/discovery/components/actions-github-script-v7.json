@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v7",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
+  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -262,6 +262,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/skill-security-audit.yml",
       "source_repo": "alirezarezvani/claude-skills"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mypy_primer_comment.yaml",
+      "source_repo": "microsoft/pyright"
     }
   ]
 }

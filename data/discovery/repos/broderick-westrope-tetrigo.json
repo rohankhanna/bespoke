@@ -1,0 +1,267 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "arduino/setup-task@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Broderick-Westrope/tetrigo",
+      "target": "adrg/xdg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Broderick-Westrope/tetrigo",
+      "target": "maaslalani/gambit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "Broderick-Westrope/tetrigo",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "Broderick-Westrope/tetrigo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "Broderick-Westrope/tetrigo",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "Broderick-Westrope/tetrigo",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "Broderick-Westrope/tetrigo",
+      "target": "arduino/setup-task@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "Broderick-Westrope/tetrigo",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "Broderick-Westrope/tetrigo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "Broderick-Westrope/tetrigo",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "Broderick-Westrope/tetrigo",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "Broderick-Westrope/tetrigo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "Broderick-Westrope/tetrigo",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Broderick-Westrope/tetrigo",
+      "target": "bubbletea",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Broderick-Westrope/tetrigo",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Broderick-Westrope/tetrigo",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Broderick-Westrope/tetrigo",
+      "target": "tetris",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T18:49:39.499426+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8253
+    },
+    {
+      "path": "Dockerfile",
+      "size": 183
+    },
+    {
+      "path": "go.mod",
+      "size": 2230
+    },
+    {
+      "path": ".github/workflows/lint.yaml",
+      "size": 417
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 534
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 646
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Play Tetris in your terminal.",
+    "full_name": "Broderick-Westrope/tetrigo",
+    "html_url": "https://github.com/Broderick-Westrope/tetrigo",
+    "language": "Go",
+    "pushed_at": "2026-04-05T21:51:57Z",
+    "topics": [
+      "bubbletea",
+      "cli",
+      "go",
+      "golang",
+      "hacktoberfest",
+      "tetris",
+      "tui"
+    ],
+    "updated_at": "2026-04-16T19:05:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adrg/xdg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maaslalani/gambit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "_teh\u00b7tree\u00b7go_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bubbletea"
+    },
+    {
+      "context_snippet": "_teh\u00b7tree\u00b7go_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "_teh\u00b7tree\u00b7go_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "_teh\u00b7tree\u00b7go_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tetris"
+    }
+  ]
+}

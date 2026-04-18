@@ -13,9 +13,46 @@
       "source_repo": "moby/moby",
       "status": "candidate-context",
       "text": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Broderick-Westrope/tetrigo",
+      "status": "candidate-context",
+      "text": "Play Tetris in your terminal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Broderick-Westrope/tetrigo",
+      "status": "candidate-context",
+      "text": "_teh\u00b7tree\u00b7go_"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/glamour",
+      "status": "candidate-context",
+      "text": "Stylesheet-based markdown rendering for your CLI apps \ud83d\udc87\ud83c\udffb\u200d\u2640\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/glamour",
+      "status": "candidate-context",
+      "text": "<p>"
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Broderick-Westrope/tetrigo",
+      "status": "candidate",
+      "text": "_teh\u00b7tree\u00b7go_"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/glamour",
+      "status": "candidate",
+      "text": "<p>"
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "golang",
@@ -39,12 +76,26 @@
       "observed_at": "2026-04-18T13:15:13.756138+00:00",
       "source_file": null,
       "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T18:48:44.679047+00:00",
+      "source_file": null,
+      "source_repo": "Broderick-Westrope/tetrigo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T18:48:44.679047+00:00",
+      "source_file": null,
+      "source_repo": "charmbracelet/glamour"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

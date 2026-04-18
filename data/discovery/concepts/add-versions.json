@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Add versions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyenv/pyenv",
+      "status": "candidate-context",
+      "text": "Simple Python version management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyenv/pyenv",
+      "status": "candidate-context",
+      "text": "Add versions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyenv/pyenv",
+      "status": "candidate",
+      "text": "Add versions"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12219,
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12219,
+      "status": "candidate",
+      "text": "retrofit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12219,
+      "status": "candidate",
+      "text": "retrofitted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12219,
+      "status": "candidate",
+      "text": "update"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12219,
+      "status": "candidate",
+      "text": "updating"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Add versions",
+  "concept_id": "add-versions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:48:44.679047+00:00",
+      "source_file": ".github/workflows/add_version.yml",
+      "source_repo": "pyenv/pyenv"
+    }
+  ],
+  "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add versions",
+      "sense_id": "add-versions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

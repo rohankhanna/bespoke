@@ -1,0 +1,128 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[ICLR 2026] Beyond a Million Tokens: Benchmarking and Enhancing Long-Term Memory in LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39916887,
+      "status": "candidate",
+      "text": "visible light"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39916368,
+      "status": "candidate",
+      "text": "phosphorescent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39915148,
+      "status": "candidate",
+      "text": "flyweight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39911479,
+      "status": "candidate",
+      "text": "bioluminescent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39907538,
+      "status": "candidate",
+      "text": "fluorescent"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "light",
+      "sense_id": "light#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 52040,
+      "status": "candidate",
+      "text": "frivolous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43072,
+      "status": "candidate",
+      "text": "clear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43054,
+      "status": "candidate",
+      "text": "bright"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42045,
+      "status": "candidate",
+      "text": "livid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31034,
+      "status": "candidate",
+      "text": "deficient"
+    }
+  ],
+  "concept_id": "light",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "light",
+  "observation_id": "195ba723089db78d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T18:48:44.679047+00:00",
+  "observed_text": "light",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "mohammadtavakoli78/BEAM",
+  "source_repo_description": "[ICLR 2026] Beyond a Million Tokens: Benchmarking and Enhancing Long-Term Memory in LLMs"
+}

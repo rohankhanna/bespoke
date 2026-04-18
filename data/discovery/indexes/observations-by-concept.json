@@ -11,6 +11,9 @@
   "add-new-implementation-versions": [
     "2c83b01242d340bb"
   ],
+  "add-versions": [
+    "cc37cd800c0b5b92"
+  ],
   "address-sanitizer": [
     "0b55a51c1c3128fc"
   ],
@@ -172,6 +175,9 @@
   ],
   "android": [
     "f538fe02e7fc379d"
+  ],
+  "android-e2e-tests": [
+    "243f1ad8d3ea390f"
   ],
   "anthropic": [
     "58c41912b8f39d6b",
@@ -335,6 +341,9 @@
   "aws-lambda": [
     "b5e3b708d858d69a"
   ],
+  "azure": [
+    "670d79d3df6fdb8c"
+  ],
   "backport": [
     "e78a7c66bf49ce83"
   ],
@@ -367,6 +376,12 @@
   "bazel-release": [
     "3fb0dc8a7059e9ae"
   ],
+  "beam": [
+    "f88c117e7ce17848"
+  ],
+  "beam-benchmark": [
+    "26dce73b804dccc3"
+  ],
   "bedrock-agents": [
     "836fda1f741f6aac"
   ],
@@ -380,11 +395,20 @@
     "a41426964d5be127",
     "e7c9077cb1569142"
   ],
+  "benchmark-long-context": [
+    "99647a5a40d73369"
+  ],
+  "benchmark-long-term-memory": [
+    "b2a48b4966011d9e"
+  ],
   "benchmark-tests-langchain": [
     "b283fd64e13b4e96"
   ],
   "benchmark-v2-framework": [
     "dc346e07c088d770"
+  ],
+  "benchmarking": [
+    "d1a9036885c4256c"
   ],
   "benchmarks": [
     "9940ed46f98a9f51"
@@ -409,6 +433,9 @@
   ],
   "binary": [
     "de8e65a1d4776465"
+  ],
+  "binary-release": [
+    "881c919fba967c15"
   ],
   "bioinformatics": [
     "01fb25818cc71244"
@@ -442,6 +469,7 @@
     "25658a929c305a46"
   ],
   "bubbletea": [
+    "9abc2404ed5451b5",
     "bf708226ea354260"
   ],
   "build": [
@@ -449,7 +477,10 @@
     "1af67dae5626916f",
     "35c378a053d052a8",
     "3b396a3c7efeb8b9",
+    "3d28f6d75aa4948c",
     "4bd6cc27b148ecb7",
+    "86bd9efa0c1aec5f",
+    "a13c3b53e95c01ef",
     "af5a836829e7129a",
     "d677de8c3efc6ef6",
     "e33c7f4091fa9ea2"
@@ -482,7 +513,11 @@
     "94a9bb84dcb3232a"
   ],
   "build-and-test": [
+    "55fbb0cdbbe8c5e9",
     "f517b70097118e8f"
+  ],
+  "build-android-app": [
+    "b7eca70a52b0ca84"
   ],
   "build-attention-native-modules": [
     "a593326b93946019"
@@ -520,6 +555,9 @@
   ],
   "build-hf-space-docker-image": [
     "5090562f832ab14f"
+  ],
+  "build-ios-app": [
+    "1f93ce8f708171f3"
   ],
   "build-macos-app": [
     "afaf7c8f6b352ba8"
@@ -866,6 +904,9 @@
   "cli-integration-test": [
     "ad11666ac1334a91"
   ],
+  "client": [
+    "a168cd95df5c0358"
+  ],
   "climbing": [
     "3634809d71be671f"
   ],
@@ -919,6 +960,7 @@
     "07d695ba2ad34ea8"
   ],
   "cncf": [
+    "f305a63bae048090",
     "fbe0c4e69a9703cd"
   ],
   "code": [
@@ -953,6 +995,7 @@
     "6e669a4919fa277c",
     "861a65ad3d9e3d3d",
     "b550039c65139917",
+    "bb98a087868299bf",
     "e4ab78012d089d4a",
     "ea943330eb7311e8",
     "ee5282154661f0fa"
@@ -991,7 +1034,8 @@
   "command-line": [
     "30e454f9a92fed60",
     "3c6fcd1f09c2a4dd",
-    "9abec85cb51dbca0"
+    "9abec85cb51dbca0",
+    "ad31303c705df450"
   ],
   "comment-on-the-pull-request": [
     "d17d8957ec871b86"
@@ -1030,7 +1074,8 @@
     "f89e575cb1aa0165"
   ],
   "console": [
-    "298cc605a8c2500e"
+    "298cc605a8c2500e",
+    "b612aa9a385cfb86"
   ],
   "containers": [
     "151b973a875012a9",
@@ -1077,7 +1122,9 @@
   ],
   "coverage": [
     "2214da852cf6a53c",
-    "2afe90ec8930ccf6"
+    "2afe90ec8930ccf6",
+    "4fc7b19a3b31987d",
+    "7e44b5a75977a240"
   ],
   "crawler": [
     "df99231ae0d625c5"
@@ -1097,6 +1144,9 @@
   ],
   "create-sbom-for-the-release": [
     "ed0286740d3349dc"
+  ],
+  "create-tag-and-trigger-release": [
+    "b27f5a09b43f6f5e"
   ],
   "cross-agent-integration-tests": [
     "3e2db9a8427d7052"
@@ -1135,6 +1185,9 @@
   ],
   "cybersecurity": [
     "347ad809f8b489a6"
+  ],
+  "daemon": [
+    "48dcc6c2328c812b"
   ],
   "daily-i18n-update": [
     "43638f882910534c"
@@ -1210,6 +1263,8 @@
     "06c0de48487ef4be"
   ],
   "dependabot-sync": [
+    "8c83e0612ad1d8b4",
+    "9d68b7c25f2ebcba",
     "ab7261c3dd7eb12b",
     "c3476cdfaf3724bc"
   ],
@@ -1274,6 +1329,9 @@
   ],
   "development": [
     "d5c701cfb5bf1dab"
+  ],
+  "devops": [
+    "c2a5c63734a9b433"
   ],
   "devsecops": [
     "32882006ae0068e6"
@@ -1387,7 +1445,11 @@
   "e2e": [
     "945c55391df812a8"
   ],
+  "e2e-snapshot-tests": [
+    "443b8589d96a09d4"
+  ],
   "e2e-tests": [
+    "d6bb1287e844e8ba",
     "e1c9d9a7d986407e"
   ],
   "ecdsa": [
@@ -1512,6 +1574,10 @@
   "flourishing": [
     "3f37a0122b85ab21"
   ],
+  "foreman": [
+    "42bebe20b8c8e3ae",
+    "f657f281c4698bb0"
+  ],
   "forked-pr-workflow-check": [
     "fa7c40d7fbfe6c55"
   ],
@@ -1625,6 +1691,9 @@
   "go-build": [
     "20d115dfbd225cc3"
   ],
+  "go-code-tests": [
+    "e42f0c4dd52629fc"
+  ],
   "go-implementation-ci": [
     "18f312fc090a03f8"
   ],
@@ -1634,6 +1703,8 @@
   "golang": [
     "4f0e1cbdc11f06f1",
     "9f98bd95aa41669e",
+    "c79e441018f6b193",
+    "e3f4915f3d6f0324",
     "f477867576b23a2c"
   ],
   "golangci-lint": [
@@ -1647,8 +1718,11 @@
   "goreleaser": [
     "28266dccb717311f",
     "2a2cdcf6dc28262e",
+    "4c8b21083c89acdd",
+    "597f2e103923c0fe",
     "6ff23032f6257209",
     "8be8f4b680afd992",
+    "f1d79a9102a39e80",
     "f6cb0210e3dae4ae"
   ],
   "gossipsub-interoperability-tests-pr": [
@@ -1700,9 +1774,20 @@
   "hackathon": [
     "3cd58dfb0f78c565"
   ],
+  "hacker": [
+    "3f976ab7cefeb1d9"
+  ],
+  "hacker-news": [
+    "6b1de8af684af3ea"
+  ],
+  "hackernews": [
+    "01da3f3bd82ed293"
+  ],
   "hacktoberfest": [
+    "217e06fbdab0d2a0",
     "225eeed414220a9e",
     "60bd626753feba16",
+    "7e00609c241fef6a",
     "88b8e4cc9cd57649",
     "cf0414e4e11e9ad0"
   ],
@@ -1872,6 +1957,9 @@
   "k8s-sig-architecture": [
     "c31ed33119892407"
   ],
+  "k8s-sig-release": [
+    "9d106a43a0f13542"
+  ],
   "karpathy": [
     "602e602b45b7da2b",
     "66f7cfa0b3b0223d",
@@ -1915,6 +2003,7 @@
   ],
   "kubernetes": [
     "1742402f159dc091",
+    "3b30b00e13b08dd8",
     "4ae4fa2cf0296810",
     "764b6f2c00ce4c93",
     "8051727eb490b245",
@@ -1925,6 +2014,9 @@
   ],
   "kubernetes-releases": [
     "0c42a607fe92a133"
+  ],
+  "kubernetes-sig": [
+    "59d73d90aa7aa493"
   ],
   "label-issues": [
     "08182aa8241fad4b"
@@ -1997,15 +2089,24 @@
   "life": [
     "c5cffd467c9b2a82"
   ],
+  "light": [
+    "195ba723089db78d"
+  ],
+  "light-framework": [
+    "f109733f7af62eec"
+  ],
   "link-check": [
     "4ee3d092ab51b33f"
   ],
   "lint": [
     "1ff8d9f9e33b5fe4",
     "2e3711ff2bcd25e3",
+    "32ba82ef9af85026",
     "3e44b8337fa3ec34",
     "4743df9e93d03c20",
+    "5d16164ab87e36b8",
     "670d5ee5e4e9e36a",
+    "ac8f1b0f992ed6e2",
     "c1dc86547dd30802",
     "c86a3343470eb116",
     "cefe407a0a25bf4b",
@@ -2025,7 +2126,9 @@
   ],
   "lint-sync": [
     "45593aba10e847fd",
-    "6bed4835fb1cd5d3"
+    "6bed4835fb1cd5d3",
+    "8218a44f8f879252",
+    "bb66450d7eda6e36"
   ],
   "lint-with-ruff": [
     "ae4f5e823729cecd"
@@ -2144,8 +2247,27 @@
   "logo": [
     "cd7db40ccf417306"
   ],
+  "long-context-evaluation": [
+    "d0398f03f2f6b09c"
+  ],
+  "long-context-evaluation-benchmark": [
+    "e61d0e1f6bec5bfc"
+  ],
+  "long-context-llm": [
+    "a10f3bd116578fa0"
+  ],
+  "long-context-llms": [
+    "b66e56efdbdacd10"
+  ],
   "long-term-memory": [
-    "038e3a5da077ee53"
+    "038e3a5da077ee53",
+    "43c37f5aa642865a"
+  ],
+  "long-term-memory-benchmark": [
+    "e37665b08edf0612"
+  ],
+  "long-term-memory-method": [
+    "b508002ef3d1ec8a"
   ],
   "low-latency": [
     "eb22217f12230804"
@@ -2169,6 +2291,7 @@
     "2b1b88e0fdfcd92c",
     "6ed9a5d8c3cba574",
     "7319192c00a049ad",
+    "e310c3f5fea3f913",
     "fe1822ea43a8aa8a"
   ],
   "macos": [
@@ -2184,13 +2307,20 @@
   "malicious-packages": [
     "af2f3e983cfbffc1"
   ],
+  "manager": [
+    "02064833c79ba238"
+  ],
   "mark-and-close-stale-issues": [
     "5cd05544f309ee82"
+  ],
+  "mark-stale-issues-and-pull-requests": [
+    "71b3418071a9ef28"
   ],
   "markdown": [
     "0ec9169deee4cc06",
     "27027f40738a40b9",
-    "893c768217661245"
+    "893c768217661245",
+    "e9ac5618df058f76"
   ],
   "marketing-automation": [
     "5cd09d069c0214ff",
@@ -2325,7 +2455,8 @@
     "ceea8bf5b0a7ff97"
   ],
   "natural-language-processing": [
-    "1f69f57876b78e73"
+    "1f69f57876b78e73",
+    "ea90aedd98e33861"
   ],
   "neo4j": [
     "8e42420337f1e707"
@@ -2345,6 +2476,9 @@
   "newcomer": [
     "e371924d5299c8b8"
   ],
+  "news": [
+    "bc41594143f5387b"
+  ],
   "nextjs": [
     "a2cc2b002ad7a099",
     "bf4dcd1c373fd09f"
@@ -2360,6 +2494,9 @@
   ],
   "nightly-full-tests": [
     "bf2a21408d76a978"
+  ],
+  "no-response": [
+    "5b68ffdca2cd5d67"
   ],
   "node": [
     "9cf4f62f026d3cc9",
@@ -2473,6 +2610,9 @@
   "openrouter": [
     "87d1c6f0d447cfa1"
   ],
+  "opensource": [
+    "b74eaf24cae37ae6"
+  ],
   "openssf-scorecard": [
     "a5147884d65721c7",
     "ae669f4e7048cd15"
@@ -2572,6 +2712,9 @@
   "pr-build-check": [
     "89a526fc9fa6e98c"
   ],
+  "pr-check": [
+    "075b1b102614ae27"
+  ],
   "pr-checks": [
     "4d06e6043e44e9dd",
     "ba092497117ac05e"
@@ -2621,11 +2764,15 @@
   "printer": [
     "70969114ec3876db"
   ],
+  "process": [
+    "dbf9c545e599863a"
+  ],
   "process-github-issues": [
     "16911686df35ec93"
   ],
   "procfile": [
-    "361b246af457d4a9"
+    "361b246af457d4a9",
+    "d1d5a21804267b4c"
   ],
   "productivity": [
     "6263e0858f9bf397",
@@ -2824,6 +2971,9 @@
     "22debdd7fa8ffa83",
     "d9069ca335c9cd65"
   ],
+  "reader": [
+    "2ffa020d1ef537b9"
+  ],
   "readme": [
     "195b9cef664d4867",
     "cceeb10c8596dd6f"
@@ -2854,6 +3004,7 @@
     "15fd0dbe4f91d026",
     "16da9ff0fbc7c63a",
     "1744ed774d8b7045",
+    "1cbd08edd63ceb26",
     "28ad526aa72da784",
     "2945b16324137005",
     "29ba3904f9f08256",
@@ -2934,8 +3085,14 @@
   "release-integration-packages": [
     "df6342c2855a5887"
   ],
+  "release-management": [
+    "2483d0c65f70abda"
+  ],
   "release-npm": [
     "d19be250f707f90a"
+  ],
+  "release-planning": [
+    "a29fb516b006e48b"
   ],
   "release-please": [
     "11bc58e19aa5b583",
@@ -3001,7 +3158,8 @@
     "64c5840c212491a4"
   ],
   "retrieval-augmented-generation": [
-    "773481b3f2db19e5"
+    "773481b3f2db19e5",
+    "ea39749ba0b7daa8"
   ],
   "reusable-release-workflow": [
     "f1420172dd1ada28"
@@ -3106,6 +3264,7 @@
   ],
   "security": [
     "101522e6293d912a",
+    "7d587809034d14b7",
     "ede650096f1ed682"
   ],
   "security-audit": [
@@ -3140,6 +3299,15 @@
   "serialization": [
     "6e981d2c3a97ae17"
   ],
+  "server-tests-dotnet": [
+    "5a4bb0d3280b1f0c"
+  ],
+  "server-tests-go": [
+    "274805d9f520946e"
+  ],
+  "server-tests-java": [
+    "ebf49ebbcde42f52"
+  ],
   "serverless": [
     "b417def263b421ac"
   ],
@@ -3151,6 +3319,8 @@
     "85e9c8b7c1f577a9"
   ],
   "shell": [
+    "24c8b8e836f72fc4",
+    "692d8fe1f04d9d66",
     "fbca111cd1583443"
   ],
   "signatures": [
@@ -3377,7 +3547,14 @@
   ],
   "terminal": [
     "a8c8a49868768912",
+    "ac3185a0bb25baf7",
     "dd35512eeb8e1c43"
+  ],
+  "terraform": [
+    "a32d78231ef0f08c"
+  ],
+  "terraform-azurerm": [
+    "53abfda4a154f2ff"
   ],
   "test": [
     "07dc7ce444487920",
@@ -3387,6 +3564,7 @@
     "32ffe4a30322670a",
     "3b83e11e64608525",
     "4b5d23e7153e2757",
+    "6d3db9fd9020b576",
     "7d68d7075ca536b8",
     "876ddb9e20ca782d",
     "a3c9636a198aad1f",
@@ -3496,6 +3674,9 @@
   "testsuite": [
     "3b226f307784f9bd"
   ],
+  "tetris": [
+    "38c077c52ba1e2c8"
+  ],
   "text-classification": [
     "d49428582932c80d"
   ],
@@ -3511,7 +3692,11 @@
   "tokio": [
     "8b7993e6a9ee46e1"
   ],
+  "tool": [
+    "61f17494fcaeb923"
+  ],
   "tools": [
+    "8a87861b44b4bc9d",
     "f3a3253ec35c6e54"
   ],
   "torch": [
@@ -3609,6 +3794,9 @@
   ],
   "validate-pull-request": [
     "3bd6968d788db1ac"
+  ],
+  "validation": [
+    "38fa69d6c494e0d6"
   ],
   "vcr-cassette-tests": [
     "f0d4e78b237278ca"
@@ -3726,6 +3914,9 @@
   ],
   "xunit": [
     "7e70d52f9ba81df3"
+  ],
+  "ycombinator": [
+    "3a38be3458cfb88c"
   ],
   "yolo-update-pins": [
     "9ac618ac5983b766"

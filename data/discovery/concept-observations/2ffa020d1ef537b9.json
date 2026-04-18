@@ -1,0 +1,114 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf3f It's Hacker News in your terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39861107,
+      "status": "candidate",
+      "text": "subscriber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39854811,
+      "status": "candidate",
+      "text": "lecturer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39800900,
+      "status": "candidate",
+      "text": "lector"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29866307,
+      "status": "candidate",
+      "text": "readership"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29865658,
+      "status": "candidate",
+      "text": "editor"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reader",
+      "sense_id": "reader#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4033,
+      "status": "candidate",
+      "text": "lecturer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4028,
+      "status": "candidate",
+      "text": "lector"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2037,
+      "status": "candidate",
+      "text": "subscriber"
+    }
+  ],
+  "concept_id": "reader",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reader",
+  "observation_id": "2ffa020d1ef537b9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T18:48:44.679047+00:00",
+  "observed_text": "reader",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "bensadeh/circumflex",
+  "source_repo_description": "\ud83c\udf3f It's Hacker News in your terminal"
+}

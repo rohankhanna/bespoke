@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "E2E Snapshot Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "status": "candidate-context",
+      "text": "Learn how to accept a payment from customers around the world with a variety of payment methods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "status": "candidate-context",
+      "text": "E2E Snapshot Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "status": "candidate",
+      "text": "E2E Snapshot Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10740,
+      "status": "candidate",
+      "text": "freeze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10740,
+      "status": "candidate",
+      "text": "illustration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10740,
+      "status": "candidate",
+      "text": "insight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10740,
+      "status": "candidate",
+      "text": "overview"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10740,
+      "status": "candidate",
+      "text": "summary"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "E2E Snapshot Tests",
+  "concept_id": "e2e-snapshot-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:48:44.679047+00:00",
+      "source_file": ".github/workflows/ci_e2e_snapshot.yaml",
+      "source_repo": "stripe-samples/accept-a-payment"
+    }
+  ],
+  "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "E2E Snapshot Tests",
+      "sense_id": "e2e-snapshot-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

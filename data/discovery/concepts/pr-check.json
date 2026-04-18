@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PR Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/aztfexport",
+      "status": "candidate-context",
+      "text": "A tool to bring existing Azure resources under Terraform's management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/aztfexport",
+      "status": "candidate-context",
+      "text": "PR Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/aztfexport",
+      "status": "candidate",
+      "text": "PR Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13080,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13080,
+      "status": "candidate",
+      "text": "stunt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12101,
+      "status": "candidate",
+      "text": "fint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12101,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12101,
+      "status": "candidate",
+      "text": "keying"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR Check",
+  "concept_id": "pr-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:48:44.679047+00:00",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "Azure/aztfexport"
+    }
+  ],
+  "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Check",
+      "sense_id": "pr-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

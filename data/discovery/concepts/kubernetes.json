@@ -7,9 +7,65 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes/sig-release",
+      "status": "candidate-context",
+      "text": "Repo for SIG release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/sig-release",
+      "status": "candidate-context",
+      "text": "The [charter] defines the scope and governance of the Release Special Interest Group."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/sig-release",
+      "status": "candidate",
+      "text": "The [charter] defines the scope and governance of the Release Special Interest Group."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023447,
+      "status": "candidate",
+      "text": "kube"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023446,
+      "status": "candidate",
+      "text": "openshift"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023445,
+      "status": "candidate",
+      "text": "chromium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023444,
+      "status": "candidate",
+      "text": "kernel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023443,
+      "status": "candidate",
+      "text": "linux"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "kubernetes",
   "concept_id": "kubernetes",
@@ -44,12 +100,20 @@
       "observed_at": "2026-04-18T12:46:59.510459+00:00",
       "source_file": null,
       "source_repo": "databus23/helm-diff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T18:48:44.679047+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes/sig-release"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

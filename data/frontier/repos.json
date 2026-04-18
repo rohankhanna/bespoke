@@ -1,106 +1,6 @@
 {
-  "generated_at": "2026-04-18T18:30:26.389736+00:00",
+  "generated_at": "2026-04-18T18:48:44.679047+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "kubernetes/sig-release",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "kubernetes/steering",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "mohammadtavakoli78/beam",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "arktisklada/crank",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "bytegust/spm",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "chrismytton/shoreman",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ddollar/forego",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "stripe-samples/accept-a-payment",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "stripe/stripe-mock",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "tc39/proposal-async-iteration",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "microsoft/pyright",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "pyenv/pyenv",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "badlogic/pi-share-hf",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "awslabs/eks-node-viewer",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "azure/aztfy",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "bensadeh/circumflex",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "broderick-westrope/tetrigo",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "charmbracelet/colorprofile",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "charmbracelet/glamour",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "knownsec/404starlink",
-      "graph_distance": 3
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "knownsec/404starlink-project",
@@ -1640,6 +1540,136 @@
       "discovered_via": "explicit-github-link",
       "full_name": "facebookresearch/segment-anything",
       "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cncf/foundation",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "explosion/spacy-models",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bmizerany/roundup",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "progrium/dokku",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "statianzo/dokku-shoreman",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "vitejs/vite",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "go-bindata/go-bindata",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "goreleaser/goreleaser",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "stripe/openapi",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "stripe/stripe-go",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "microsoft/chakracore",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "microsoft/pylance-release",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "pyenv-win/pyenv-win",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "pyenv/pyenv-installer",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "pyenv/pyenv-update",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "pyenv/pyenv-virtualenv",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "trufflesecurity/trufflehog",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "azure/terraform-provider-azapi",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "hashicorp/terraform-provider-azurerm",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "magodo/aztft",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "magodo/tfadd",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "adrg/xdg",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "maaslalani/gambit",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "charmbracelet/glow",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cli/cli",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "odpf/meteor",
+      "graph_distance": 4
     }
   ],
   "processed": [
@@ -2310,6 +2340,26 @@
     "asg017/sqlite-xsv",
     "embeddings-benchmark/mteb",
     "haotian-liu/llava",
-    "langchain-ai/langchain"
+    "langchain-ai/langchain",
+    "kubernetes/sig-release",
+    "kubernetes/steering",
+    "mohammadtavakoli78/beam",
+    "arktisklada/crank",
+    "bytegust/spm",
+    "chrismytton/shoreman",
+    "ddollar/forego",
+    "stripe-samples/accept-a-payment",
+    "stripe/stripe-mock",
+    "tc39/proposal-async-iteration",
+    "microsoft/pyright",
+    "pyenv/pyenv",
+    "badlogic/pi-share-hf",
+    "awslabs/eks-node-viewer",
+    "azure/aztfexport",
+    "bensadeh/circumflex",
+    "broderick-westrope/tetrigo",
+    "charmbracelet/colorprofile",
+    "charmbracelet/glamour",
+    "knownsec/404starlink"
   ]
 }

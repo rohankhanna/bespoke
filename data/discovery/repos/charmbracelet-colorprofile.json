@@ -1,0 +1,210 @@
+{
+  "components": [
+    {
+      "component": "charmbracelet/meta/.github/workflows/build.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/build.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/coverage.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/dependabot-sync.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-sync.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/lint-sync.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-sync.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/lint.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/goreleaser.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "charmbracelet/colorprofile",
+      "target": "charmbracelet/meta/.github/workflows/build.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "charmbracelet/colorprofile",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "charmbracelet/colorprofile",
+      "target": "charmbracelet/meta/.github/workflows/coverage.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "charmbracelet/colorprofile",
+      "target": "coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-sync.yml",
+      "source_repo": "charmbracelet/colorprofile",
+      "target": "charmbracelet/meta/.github/workflows/dependabot-sync.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-sync.yml",
+      "source_repo": "charmbracelet/colorprofile",
+      "target": "dependabot-sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-sync.yml",
+      "source_repo": "charmbracelet/colorprofile",
+      "target": "charmbracelet/meta/.github/workflows/lint-sync.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-sync.yml",
+      "source_repo": "charmbracelet/colorprofile",
+      "target": "lint-sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "charmbracelet/colorprofile",
+      "target": "charmbracelet/meta/.github/workflows/lint.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "charmbracelet/colorprofile",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "charmbracelet/colorprofile",
+      "target": "charmbracelet/meta/.github/workflows/goreleaser.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "charmbracelet/colorprofile",
+      "target": "goreleaser",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T18:49:43.620299+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3305
+    },
+    {
+      "path": "go.mod",
+      "size": 506
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 257
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 157
+    },
+    {
+      "path": ".github/workflows/dependabot-sync.yml",
+      "size": 419
+    },
+    {
+      "path": ".github/workflows/lint-sync.yml",
+      "size": 271
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 115
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1106
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Magical terminal color handling \ud83e\ude84",
+    "full_name": "charmbracelet/colorprofile",
+    "html_url": "https://github.com/charmbracelet/colorprofile",
+    "language": "Go",
+    "pushed_at": "2026-04-13T09:40:34Z",
+    "topics": [],
+    "updated_at": "2026-04-15T21:30:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "coverage"
+    },
+    {
+      "context_snippet": "dependabot-sync",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-sync.yml",
+      "term": "dependabot-sync"
+    },
+    {
+      "context_snippet": "lint-sync",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-sync.yml",
+      "term": "lint-sync"
+    },
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "lint"
+    },
+    {
+      "context_snippet": "goreleaser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "goreleaser"
+    }
+  ]
+}

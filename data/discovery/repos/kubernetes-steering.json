@@ -1,0 +1,38 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubernetes/steering",
+      "target": "cncf/foundation",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-18T18:48:50.751715+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6479
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "The Kubernetes Steering Committee",
+    "full_name": "kubernetes/steering",
+    "html_url": "https://github.com/kubernetes/steering",
+    "language": null,
+    "pushed_at": "2026-04-14T21:16:37Z",
+    "topics": [],
+    "updated_at": "2026-04-14T21:16:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cncf/foundation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,7 +1,7 @@
 {
   "component": "typescript",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -717,6 +717,16 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "atomicmemory/llm-wiki-compiler"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/pyright"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "badlogic/pi-share-hf"
     }
   ]
 }

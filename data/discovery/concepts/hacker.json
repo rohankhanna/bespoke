@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "hacker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bensadeh/circumflex",
+      "status": "candidate-context",
+      "text": "\ud83c\udf3f It's Hacker News in your terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bensadeh/circumflex",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bensadeh/circumflex",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39873646,
+      "status": "candidate",
+      "text": "drudge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39809384,
+      "status": "candidate",
+      "text": "hack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29973597,
+      "status": "candidate",
+      "text": "cyber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29962436,
+      "status": "candidate",
+      "text": "tech"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29906624,
+      "status": "candidate",
+      "text": "infiltrator"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23057,
+      "status": "candidate",
+      "text": "hack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16033,
+      "status": "candidate",
+      "text": "drudge"
+    }
+  ],
+  "canonical_name": "hacker",
+  "concept_id": "hacker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T18:48:44.679047+00:00",
+      "source_file": null,
+      "source_repo": "bensadeh/circumflex"
+    }
+  ],
+  "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hacker",
+      "sense_id": "hacker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

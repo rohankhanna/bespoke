@@ -1,0 +1,292 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-go@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "securego/gosec@v2.25.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure/aztfexport",
+      "target": "hashicorp/terraform-provider-azurerm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure/aztfexport",
+      "target": "azure/terraform-provider-azapi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure/aztfexport",
+      "target": "magodo/aztft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure/aztfexport",
+      "target": "magodo/tfadd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Azure/aztfexport",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Azure/aztfexport",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Azure/aztfexport",
+      "target": "actions/setup-go@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Azure/aztfexport",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Azure/aztfexport",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "Azure/aztfexport",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "Azure/aztfexport",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "Azure/aztfexport",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "Azure/aztfexport",
+      "target": "securego/gosec@v2.25.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "Azure/aztfexport",
+      "target": "PR Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/aztfexport",
+      "target": "azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/aztfexport",
+      "target": "devops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/aztfexport",
+      "target": "terraform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/aztfexport",
+      "target": "terraform-azurerm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/aztfexport",
+      "target": "tool",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T18:49:29.187093+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4698
+    },
+    {
+      "path": "go.mod",
+      "size": 9989
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 932
+    },
+    {
+      "path": ".github/workflows/pr.yaml",
+      "size": 976
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "A tool to bring existing Azure resources under Terraform's management",
+    "full_name": "Azure/aztfexport",
+    "html_url": "https://github.com/Azure/aztfexport",
+    "language": "Go",
+    "pushed_at": "2026-04-02T01:25:07Z",
+    "topics": [
+      "azure",
+      "devops",
+      "iac",
+      "terraform",
+      "terraform-azurerm",
+      "tool"
+    ],
+    "updated_at": "2026-04-16T18:47:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure/terraform-provider-azapi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hashicorp/terraform-provider-azurerm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "magodo/aztft",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "magodo/tfadd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "PR Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yaml",
+      "term": "PR Check"
+    },
+    {
+      "context_snippet": "A tool to bring your existing Azure resources under the management of Terraform.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure"
+    },
+    {
+      "context_snippet": "A tool to bring your existing Azure resources under the management of Terraform.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devops"
+    },
+    {
+      "context_snippet": "A tool to bring your existing Azure resources under the management of Terraform.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terraform"
+    },
+    {
+      "context_snippet": "A tool to bring your existing Azure resources under the management of Terraform.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terraform-azurerm"
+    },
+    {
+      "context_snippet": "A tool to bring your existing Azure resources under the management of Terraform.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tool"
+    }
+  ]
+}

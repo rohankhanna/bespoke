@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Android e2e tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "status": "candidate-context",
+      "text": "Learn how to accept a payment from customers around the world with a variety of payment methods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "status": "candidate-context",
+      "text": "Android e2e tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "status": "candidate",
+      "text": "Android e2e tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11271,
+      "status": "candidate",
+      "text": "robot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11092,
+      "status": "candidate",
+      "text": "ash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11092,
+      "status": "candidate",
+      "text": "data"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11092,
+      "status": "candidate",
+      "text": "play"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11092,
+      "status": "candidate",
+      "text": "user"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Android e2e tests",
+  "concept_id": "android-e2e-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:48:44.679047+00:00",
+      "source_file": ".github/workflows/android_e2e.yml",
+      "source_repo": "stripe-samples/accept-a-payment"
+    }
+  ],
+  "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Android e2e tests",
+      "sense_id": "android-e2e-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,291 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_e2e.yml"
+    },
+    {
+      "component": "reactivecircus/android-emulator-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_e2e.yml"
+    },
+    {
+      "component": "reactivecircus/android-emulator-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_e2e.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_android.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_ios.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_e2e.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_e2e.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_e2e.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_e2e_snapshot.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_e2e_snapshot.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_e2e_snapshot.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "vitejs/vite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_e2e.yml",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android_e2e.yml",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "reactivecircus/android-emulator-runner@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android_e2e.yml",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "Android e2e tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_android.yaml",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_build_android.yaml",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "Build Android app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_build_ios.yaml",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_build_ios.yaml",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "Build iOS app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_dotnet.yaml",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "Server Tests (dotnet)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_e2e.yaml",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_e2e.yaml",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_e2e.yaml",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "E2E Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_e2e_snapshot.yaml",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_e2e_snapshot.yaml",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_e2e_snapshot.yaml",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "E2E Snapshot Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_go.yaml",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "Server Tests (Go)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_java.yaml",
+      "source_repo": "stripe-samples/accept-a-payment",
+      "target": "Server Tests (java)",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T18:49:07.518917+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7478
+    },
+    {
+      "path": ".github/workflows/android_e2e.sh",
+      "size": 658
+    },
+    {
+      "path": ".github/workflows/android_e2e.yml",
+      "size": 1214
+    },
+    {
+      "path": ".github/workflows/ci_build_android.yaml",
+      "size": 463
+    },
+    {
+      "path": ".github/workflows/ci_build_ios.yaml",
+      "size": 772
+    },
+    {
+      "path": ".github/workflows/ci_dotnet.yaml",
+      "size": 641
+    },
+    {
+      "path": ".github/workflows/ci_e2e.yaml",
+      "size": 3132
+    },
+    {
+      "path": ".github/workflows/ci_e2e_snapshot.yaml",
+      "size": 2815
+    },
+    {
+      "path": ".github/workflows/ci_go.yaml",
+      "size": 668
+    },
+    {
+      "path": ".github/workflows/ci_java.yaml",
+      "size": 687
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Learn how to accept a payment from customers around the world with a variety of payment methods.",
+    "full_name": "stripe-samples/accept-a-payment",
+    "html_url": "https://github.com/stripe-samples/accept-a-payment",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-14T19:49:13Z",
+    "topics": [],
+    "updated_at": "2026-04-14T19:46:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vitejs/vite",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Android e2e tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android_e2e.yml",
+      "term": "Android e2e tests"
+    },
+    {
+      "context_snippet": "Build Android app",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_build_android.yaml",
+      "term": "Build Android app"
+    },
+    {
+      "context_snippet": "Build iOS app",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_build_ios.yaml",
+      "term": "Build iOS app"
+    },
+    {
+      "context_snippet": "Server Tests (dotnet)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_dotnet.yaml",
+      "term": "Server Tests (dotnet)"
+    },
+    {
+      "context_snippet": "E2E Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_e2e.yaml",
+      "term": "E2E Tests"
+    },
+    {
+      "context_snippet": "E2E Snapshot Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_e2e_snapshot.yaml",
+      "term": "E2E Snapshot Tests"
+    },
+    {
+      "context_snippet": "Server Tests (Go)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_go.yaml",
+      "term": "Server Tests (Go)"
+    },
+    {
+      "context_snippet": "Server Tests (java)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_java.yaml",
+      "term": "Server Tests (java)"
+    }
+  ]
+}

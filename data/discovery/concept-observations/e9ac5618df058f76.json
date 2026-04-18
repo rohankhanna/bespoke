@@ -1,0 +1,92 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Stylesheet-based markdown rendering for your CLI apps \ud83d\udc87\ud83c\udffb\u200d\u2640\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030034,
+      "status": "candidate",
+      "text": "drawdown"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005768,
+      "status": "candidate",
+      "text": "reducing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005275,
+      "status": "candidate",
+      "text": "reduction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19998469,
+      "status": "candidate",
+      "text": "downsizing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19993793,
+      "status": "candidate",
+      "text": "mitigation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "markdown",
+      "sense_id": "markdown#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "markdown",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "markdown",
+  "observation_id": "e9ac5618df058f76",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T18:48:44.679047+00:00",
+  "observed_text": "markdown",
+  "source_context_snippet": "<p>",
+  "source_file": null,
+  "source_repo": "charmbracelet/glamour",
+  "source_repo_description": "Stylesheet-based markdown rendering for your CLI apps \ud83d\udc87\ud83c\udffb\u200d\u2640\ufe0f"
+}

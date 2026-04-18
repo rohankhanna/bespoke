@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -21,6 +21,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "ggml-org/ggml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "mohammadtavakoli78/BEAM"
     }
   ],
   "term": "machine-learning"

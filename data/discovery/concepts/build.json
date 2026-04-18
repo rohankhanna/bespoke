@@ -38,6 +38,42 @@
       "source_repo": "asg017/sqlite-xsv",
       "status": "candidate-context",
       "text": "\"build\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/pyright",
+      "status": "candidate-context",
+      "text": "Static Type Checker for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/pyright",
+      "status": "candidate-context",
+      "text": "'Build'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/colorprofile",
+      "status": "candidate-context",
+      "text": "Magical terminal color handling \ud83e\ude84"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/colorprofile",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/glamour",
+      "status": "candidate-context",
+      "text": "Stylesheet-based markdown rendering for your CLI apps \ud83d\udc87\ud83c\udffb\u200d\u2640\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/glamour",
+      "status": "candidate-context",
+      "text": "build"
     }
   ],
   "candidate_glosses": [
@@ -58,6 +94,24 @@
       "source_repo": "asg017/sqlite-xsv",
       "status": "candidate",
       "text": "\"build\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/pyright",
+      "status": "candidate",
+      "text": "'Build'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/colorprofile",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/glamour",
+      "status": "candidate",
+      "text": "build"
     }
   ],
   "candidate_related_terms": [
@@ -185,11 +239,29 @@
       "observed_at": "2026-04-18T18:30:26.389736+00:00",
       "source_file": ".github/workflows/test.yaml",
       "source_repo": "asg017/sqlite-xsv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:48:44.679047+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "microsoft/pyright"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:48:44.679047+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "charmbracelet/colorprofile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:48:44.679047+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "charmbracelet/glamour"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "lexical_providers": [
     "datamuse"
   ],

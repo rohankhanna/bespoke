@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Go code tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awslabs/eks-node-viewer",
+      "status": "candidate-context",
+      "text": "EKS Node Viewer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/eks-node-viewer",
+      "status": "candidate-context",
+      "text": "Go code tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/eks-node-viewer",
+      "status": "candidate",
+      "text": "Go code tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28559,
+      "status": "candidate",
+      "text": "assert"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28559,
+      "status": "candidate",
+      "text": "assertively"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21670,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20172,
+      "status": "candidate",
+      "text": "law"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048,
+      "status": "candidate",
+      "text": "variance"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Go code tests",
+  "concept_id": "go-code-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:48:44.679047+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "awslabs/eks-node-viewer"
+    }
+  ],
+  "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Go code tests",
+      "sense_id": "go-code-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

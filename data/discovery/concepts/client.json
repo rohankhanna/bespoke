@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "client"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bensadeh/circumflex",
+      "status": "candidate-context",
+      "text": "\ud83c\udf3f It's Hacker News in your terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bensadeh/circumflex",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bensadeh/circumflex",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995281,
+      "status": "candidate",
+      "text": "customer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39973292,
+      "status": "candidate",
+      "text": "guest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39841487,
+      "status": "candidate",
+      "text": "node"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29995299,
+      "status": "candidate",
+      "text": "user"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29995242,
+      "status": "candidate",
+      "text": "employer"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10046,
+      "status": "candidate",
+      "text": "customer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "guest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "node"
+    }
+  ],
+  "canonical_name": "client",
+  "concept_id": "client",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T18:48:44.679047+00:00",
+      "source_file": null,
+      "source_repo": "bensadeh/circumflex"
+    }
+  ],
+  "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "client",
+      "sense_id": "client#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

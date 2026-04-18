@@ -1,0 +1,324 @@
+{
+  "components": [
+    {
+      "component": "charmbracelet/meta/.github/workflows/build.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/semgrep.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/ruleguard.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/dependabot-sync.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-sync.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/lint-sync.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-sync.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/lint.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/goreleaser.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charmbracelet/glamour",
+      "target": "charmbracelet/glow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charmbracelet/glamour",
+      "target": "cli/cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charmbracelet/glamour",
+      "target": "odpf/meteor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "charmbracelet/glamour",
+      "target": "charmbracelet/meta/.github/workflows/build.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "charmbracelet/glamour",
+      "target": "charmbracelet/meta/.github/workflows/semgrep.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "charmbracelet/glamour",
+      "target": "charmbracelet/meta/.github/workflows/ruleguard.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "charmbracelet/glamour",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "charmbracelet/glamour",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "charmbracelet/glamour",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "charmbracelet/glamour",
+      "target": "coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-sync.yml",
+      "source_repo": "charmbracelet/glamour",
+      "target": "charmbracelet/meta/.github/workflows/dependabot-sync.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-sync.yml",
+      "source_repo": "charmbracelet/glamour",
+      "target": "dependabot-sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-sync.yml",
+      "source_repo": "charmbracelet/glamour",
+      "target": "charmbracelet/meta/.github/workflows/lint-sync.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-sync.yml",
+      "source_repo": "charmbracelet/glamour",
+      "target": "lint-sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "charmbracelet/glamour",
+      "target": "charmbracelet/meta/.github/workflows/lint.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "charmbracelet/glamour",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "charmbracelet/glamour",
+      "target": "charmbracelet/meta/.github/workflows/goreleaser.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "charmbracelet/glamour",
+      "target": "goreleaser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charmbracelet/glamour",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charmbracelet/glamour",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "charmbracelet/glamour",
+      "target": "markdown",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T18:49:48.525401+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4576
+    },
+    {
+      "path": "go.mod",
+      "size": 1463
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 370
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 593
+    },
+    {
+      "path": ".github/workflows/dependabot-sync.yml",
+      "size": 419
+    },
+    {
+      "path": ".github/workflows/lint-sync.yml",
+      "size": 271
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 160
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1106
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Stylesheet-based markdown rendering for your CLI apps \ud83d\udc87\ud83c\udffb\u200d\u2640\ufe0f",
+    "full_name": "charmbracelet/glamour",
+    "html_url": "https://github.com/charmbracelet/glamour",
+    "language": "Go",
+    "pushed_at": "2026-03-16T09:03:18Z",
+    "topics": [
+      "cli",
+      "go",
+      "golang",
+      "hacktoberfest",
+      "markdown",
+      "tui"
+    ],
+    "updated_at": "2026-04-18T16:18:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "charmbracelet/glow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cli/cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "odpf/meteor",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "coverage"
+    },
+    {
+      "context_snippet": "dependabot-sync",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-sync.yml",
+      "term": "dependabot-sync"
+    },
+    {
+      "context_snippet": "lint-sync",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-sync.yml",
+      "term": "lint-sync"
+    },
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "lint"
+    },
+    {
+      "context_snippet": "goreleaser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "goreleaser"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    }
+  ]
+}

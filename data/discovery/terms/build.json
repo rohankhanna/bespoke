@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -106,6 +106,21 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/test.yaml",
       "source_repo": "asg017/sqlite-xsv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "microsoft/pyright"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "charmbracelet/colorprofile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "charmbracelet/glamour"
     }
   ],
   "term": "Build"

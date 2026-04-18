@@ -7,8 +7,46 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/colorprofile",
+      "status": "candidate-context",
+      "text": "Magical terminal color handling \ud83e\ude84"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/colorprofile",
+      "status": "candidate-context",
+      "text": "dependabot-sync"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/glamour",
+      "status": "candidate-context",
+      "text": "Stylesheet-based markdown rendering for your CLI apps \ud83d\udc87\ud83c\udffb\u200d\u2640\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/glamour",
+      "status": "candidate-context",
+      "text": "dependabot-sync"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/colorprofile",
+      "status": "candidate",
+      "text": "dependabot-sync"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/glamour",
+      "status": "candidate",
+      "text": "dependabot-sync"
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "dependabot-sync",
@@ -26,12 +64,26 @@
       "observed_at": "2026-04-18T10:43:38.551697+00:00",
       "source_file": ".github/workflows/dependabot-sync.yml",
       "source_repo": "charmbracelet/lipgloss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:48:44.679047+00:00",
+      "source_file": ".github/workflows/dependabot-sync.yml",
+      "source_repo": "charmbracelet/colorprofile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T18:48:44.679047+00:00",
+      "source_file": ".github/workflows/dependabot-sync.yml",
+      "source_repo": "charmbracelet/glamour"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

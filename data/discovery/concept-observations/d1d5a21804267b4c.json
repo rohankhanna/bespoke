@@ -1,0 +1,56 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":shell: foreman in shell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "shoreman(1) ![CI](https://github.com/chrismytton/shoreman/workflows/CI/badge.svg?branch=master&event=push)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "shoreman(1) ![CI](https://github.com/chrismytton/shoreman/workflows/CI/badge.svg?branch=master&event=push)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "procfile",
+      "sense_id": "procfile#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "procfile",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "procfile",
+  "observation_id": "d1d5a21804267b4c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T18:48:44.679047+00:00",
+  "observed_text": "procfile",
+  "source_context_snippet": "shoreman(1) ![CI](https://github.com/chrismytton/shoreman/workflows/CI/badge.svg?branch=master&event=push)",
+  "source_file": null,
+  "source_repo": "chrismytton/shoreman",
+  "source_repo_description": ":shell: foreman in shell"
+}
