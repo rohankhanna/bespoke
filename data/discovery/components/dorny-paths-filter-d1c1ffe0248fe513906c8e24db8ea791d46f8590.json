@@ -1,0 +1,12 @@
+{
+  "component": "dorny/paths-filter@d1c1ffe0248fe513906c8e24db8ea791d46f8590",
+  "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
+  "last_seen_at": "2026-04-18T03:42:01.586113+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "withastro/astro"
+    }
+  ]
+}

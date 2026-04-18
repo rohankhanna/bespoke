@@ -1,0 +1,452 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "realpath",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "console $ git current-branch main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "Alias to",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "master",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "console $ git main-branch main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "Typical example:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "console $ vim (git modified)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "console $ vim (git modified -i)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "console $ vim (git modified-since)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "spinoff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "origin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "console $ git push-current -f",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "git active-branches",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "git log",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "git has-local-commits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "X contains Y",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "not (X is-ancestor Y)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "git add --all",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "git reset HEAD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "git undo-merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "fzf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "brew install fzf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "git shatter-by-file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "git rebase --interactive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "grep -Ee",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "git root",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "git initial-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "git-is-clean",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "console $ git edit-author-dates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "You'll see something like:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "console $ git edit-author-dates HEAD~5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nvie/git-toolbelt",
+      "target": "git-wip",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T03:42:13.363496+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17876
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "A suite of useful Git commands that aid with scripting or every day command line usage",
+    "full_name": "nvie/git-toolbelt",
+    "html_url": "https://github.com/nvie/git-toolbelt",
+    "language": "Shell",
+    "pushed_at": "2026-04-08T07:35:17Z",
+    "topics": [],
+    "updated_at": "2026-04-12T14:01:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "realpath"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "console $ git current-branch main"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Alias to"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "master"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "main"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "main"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "master"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "console $ git main-branch main"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Typical example:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "console $ vim (git modified)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "console $ vim (git modified -i)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "main"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "console $ vim (git modified-since)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "spinoff"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "main"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "origin"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "console $ git push-current -f"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git active-branches"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git log"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "origin"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git has-local-commits"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "X contains Y"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "not (X is-ancestor Y)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git add --all"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git reset HEAD"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git undo-merge"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "fzf"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "brew install fzf"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git shatter-by-file"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git rebase --interactive"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "grep -Ee"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git root"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git initial-commit"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "main"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git-is-clean"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "console $ git edit-author-dates"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "You'll see something like:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "console $ git edit-author-dates HEAD~5"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git-wip"
+    }
+  ]
+}

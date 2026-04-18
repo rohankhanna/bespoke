@@ -1,0 +1,735 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-ccplugins.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-ccplugins.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-ccplugins-fork.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cdeust/Cortex",
+      "target": "cdeust/cortex-know-when-to-stop-training-model",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cdeust/Cortex",
+      "target": "cdeust/cortex-cowork",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cdeust/Cortex",
+      "target": "cdeust/ai-prd-builder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/Cortex",
+      "target": "asyncio.to_thread",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/Cortex",
+      "target": "**Docker:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/Cortex",
+      "target": "$E=\\nabla \\cdot F$",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/Cortex",
+      "target": "$$\u2026$$",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/Cortex",
+      "target": "(Friston 2010)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/Cortex",
+      "target": "Figure 1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/Cortex",
+      "target": "Equation 3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/Cortex",
+      "target": "Section 2.1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/Cortex",
+      "target": "462de01",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/Cortex",
+      "target": "get_causal_chain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/Cortex",
+      "target": "get_project_story",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/Cortex",
+      "target": "detect_gaps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/Cortex",
+      "target": "active",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/Cortex",
+      "target": "area",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/Cortex",
+      "target": "archived",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/Cortex",
+      "target": "evergreen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/Cortex",
+      "target": "labile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/Cortex",
+      "target": "early_ltp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/Cortex",
+      "target": "late_ltp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/Cortex",
+      "target": "consolidated",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/Cortex",
+      "target": "agent_topic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/Cortex",
+      "target": "psycopg_pool.ConnectionPool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/Cortex",
+      "target": "interactive_pool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/Cortex",
+      "target": "batch_pool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/Cortex",
+      "target": "effective_heat()",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/Cortex",
+      "target": "DATABASE_URL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "cdeust/Cortex",
+      "target": "CORTEX_MEMORY_",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cdeust/Cortex",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cdeust/Cortex",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cdeust/Cortex",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cdeust/Cortex",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-ccplugins.yml",
+      "source_repo": "cdeust/Cortex",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-ccplugins.yml",
+      "source_repo": "cdeust/Cortex",
+      "target": "Publish to awesome-claude-code-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/publish-ccplugins.yml",
+      "source_repo": "cdeust/Cortex",
+      "target": "README.md\\",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/publish-ccplugins.yml",
+      "source_repo": "cdeust/Cortex",
+      "target": "uvx\\",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/publish-ccplugins.yml",
+      "source_repo": "cdeust/Cortex",
+      "target": "neuro-cortex-memory\\",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "cdeust/Cortex",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "cdeust/Cortex",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "cdeust/Cortex",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "cdeust/Cortex",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "cdeust/Cortex",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "cdeust/Cortex",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "cdeust/Cortex",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "cdeust/Cortex",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-ccplugins-fork.yml",
+      "source_repo": "cdeust/Cortex",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-ccplugins-fork.yml",
+      "source_repo": "cdeust/Cortex",
+      "target": "Keep ccplugins fork in sync",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T03:42:14.689306+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25526
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2155
+    },
+    {
+      "path": "package.json",
+      "size": 244
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2315
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3724
+    },
+    {
+      "path": ".github/workflows/publish-ccplugins.yml",
+      "size": 8701
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3381
+    },
+    {
+      "path": ".github/workflows/sync-ccplugins-fork.yml",
+      "size": 3125
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Persistent memory for Claude Code \u2014 41 neuroscience papers, 20 biological mechanisms. 97.8% R@10 LongMemEval | 92.6% R@10 LoCoMo | +33.4% BEAM-10M over flat retrieval (0.471 vs 0.353). Stage-Aware Context Assembly. PostgreSQL + pgvector.",
+    "full_name": "cdeust/Cortex",
+    "html_url": "https://github.com/cdeust/Cortex",
+    "language": "Python",
+    "pushed_at": "2026-04-17T22:49:25Z",
+    "topics": [
+      "agent-memory-system",
+      "anthropic",
+      "artificial-intelligence",
+      "causal-inference",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "cognitive-architecture",
+      "cognitive-science",
+      "episodic-memory",
+      "hopfield-network",
+      "llm-memory",
+      "long-term-memory",
+      "mcp-server",
+      "model-context-protocol",
+      "neuroscience",
+      "persistent-memory",
+      "predictive-coding",
+      "retrieval-augmented-generation",
+      "vector-search"
+    ],
+    "updated_at": "2026-04-17T22:49:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cdeust/ai-prd-builder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cdeust/cortex-cowork",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cdeust/cortex-know-when-to-stop-training-model",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "asyncio.to_thread"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Docker:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "$E=\\nabla \\cdot F$"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "$$\u2026$$"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(Friston 2010)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Figure 1"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Equation 3"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Section 2.1"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "462de01"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "get_causal_chain"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "get_project_story"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "detect_gaps"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "active"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "area"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "archived"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "evergreen"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "labile"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "early_ltp"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "late_ltp"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "consolidated"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "agent_topic"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "psycopg_pool.ConnectionPool"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "interactive_pool"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "batch_pool"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "asyncio.to_thread"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "effective_heat()"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "DATABASE_URL"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "CORTEX_MEMORY_"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-ccplugins.yml",
+      "term": "Publish to awesome-claude-code-plugins"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/publish-ccplugins.yml",
+      "term": "README.md\\"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/publish-ccplugins.yml",
+      "term": "uvx\\"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/publish-ccplugins.yml",
+      "term": "neuro-cortex-memory\\"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-ccplugins-fork.yml",
+      "term": "Keep ccplugins fork in sync"
+    }
+  ]
+}

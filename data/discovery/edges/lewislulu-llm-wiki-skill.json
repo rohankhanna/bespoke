@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lewislulu/llm-wiki-skill",
+      "target": "pedronauck/skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lewislulu/llm-wiki-skill",
+      "target": "astro-han/karpathy-llm-wiki",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lewislulu/llm-wiki-skill",
+      "target": "tobi/qmd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lewislulu/llm-wiki-skill",
+      "target": "compile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lewislulu/llm-wiki-skill",
+      "target": "ingest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lewislulu/llm-wiki-skill",
+      "target": "query",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lewislulu/llm-wiki-skill",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lewislulu/llm-wiki-skill",
+      "target": "audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lewislulu/llm-wiki-skill",
+      "target": "## Repo contents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lewislulu/llm-wiki-skill",
+      "target": "## Running the web viewer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lewislulu/llm-wiki-skill",
+      "target": "## Building the Obsidian plugin",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T03:42:01.586113+00:00",
+  "source_repo": "lewislulu/llm-wiki-skill"
+}

@@ -1,12 +1,17 @@
 {
   "component": "actions/upload-pages-artifact@v4",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-18T03:26:22.590180+00:00",
+  "last_seen_at": "2026-04-18T03:42:01.586113+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pages.yml",
       "source_repo": "mupozg823/codelens-mcp-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/site.yaml",
+      "source_repo": "asg017/sqlite-vec"
     }
   ]
 }

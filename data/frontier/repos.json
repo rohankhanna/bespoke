@@ -1,106 +1,6 @@
 {
-  "generated_at": "2026-04-18T03:26:22.590180+00:00",
+  "generated_at": "2026-04-18T03:42:01.586113+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "actions/runner",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "withastro/astro",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "garrytan/gstack",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "humanlayer/humanlayer",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "cafitac/hermit_agent",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lewislulu/llm-wiki-skill",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "nicepkg/openviking",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "asg017/sqlite-vec",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ollama/ollama",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "tobi/qmd",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "joinwell52-ai/joinwell52",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "eterna-exchange/bybit-mcp-server",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "eterna-exchange/mcp-trading-agent",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "eterna-exchange/awesome-mcp-trading",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "google-github-actions/auth",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "kubernetes-sigs/kustomize",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "nvie/git-toolbelt",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "cdeust/ai-automatised-pipeline",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "cdeust/cortex",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "cdeust/prd-spec-generator",
-      "graph_distance": 2
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "darthsim/overmind",
@@ -2800,6 +2700,126 @@
       "discovered_via": "explicit-github-link",
       "full_name": "openai/codex",
       "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "actions/virtual-environments",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "orgs/community",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "withastro/.github",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "withastro/compiler",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "withastro/starlight",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "forrestchang/andrej-karpathy-skills",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "oven-sh/bun",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "astro-han/karpathy-llm-wiki",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "pedronauck/skills",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "asg017/sqlite-ecosystem",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "asg017/sqlite-lembed",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "asg017/sqlite-rembed",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "asg017/sqlite-vss",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "1panel-dev/1panel",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "1panel-dev/maxkb",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "1runeberg/confichat",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "abraxas-365/langchain-rust",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "firebase/firebase-admin-node",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "kubernetes/community",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "kubernetes/enhancements",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "kubernetes/kubernetes",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cdeust/ai-prd-builder",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cdeust/cortex-cowork",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cdeust/cortex-know-when-to-stop-training-model",
+      "graph_distance": 3
     }
   ],
   "processed": [
@@ -2877,6 +2897,19 @@
     "px4/px4-autopilot",
     "anthropics/claude-code",
     "hesreallyhim/awesome-claude-code",
-    "sethgammon/citadel"
+    "sethgammon/citadel",
+    "actions/runner",
+    "withastro/astro",
+    "garrytan/gstack",
+    "humanlayer/humanlayer",
+    "lewislulu/llm-wiki-skill",
+    "asg017/sqlite-vec",
+    "ollama/ollama",
+    "tobi/qmd",
+    "joinwell52-ai/joinwell52",
+    "google-github-actions/auth",
+    "kubernetes-sigs/kustomize",
+    "nvie/git-toolbelt",
+    "cdeust/cortex"
   ]
 }

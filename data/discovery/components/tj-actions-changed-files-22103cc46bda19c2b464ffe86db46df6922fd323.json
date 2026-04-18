@@ -1,0 +1,12 @@
+{
+  "component": "tj-actions/changed-files@22103cc46bda19c2b464ffe86db46df6922fd323",
+  "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
+  "last_seen_at": "2026-04-18T03:42:01.586113+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-merge.yml",
+      "source_repo": "withastro/astro"
+    }
+  ]
+}

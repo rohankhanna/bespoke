@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-04-18T03:42:01.586113+00:00",
+  "processed_repositories": [
+    "actions/runner",
+    "withastro/astro",
+    "garrytan/gstack",
+    "humanlayer/humanlayer",
+    "lewislulu/llm-wiki-skill",
+    "asg017/sqlite-vec",
+    "ollama/ollama",
+    "tobi/qmd",
+    "joinwell52-ai/joinwell52",
+    "google-github-actions/auth",
+    "kubernetes-sigs/kustomize",
+    "nvie/git-toolbelt",
+    "cdeust/cortex"
+  ],
+  "remaining_frontier": 329,
+  "run_id": "20260418T034201Z",
+  "skipped_repositories": [
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cafitac/hermit_agent",
+      "reason": "repo_not_found"
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "nicepkg/openviking",
+      "reason": "repo_not_found"
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "eterna-exchange/bybit-mcp-server",
+      "reason": "repo_not_found"
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "eterna-exchange/mcp-trading-agent",
+      "reason": "repo_not_found"
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "eterna-exchange/awesome-mcp-trading",
+      "reason": "repo_not_found"
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cdeust/ai-automatised-pipeline",
+      "reason": "repo_not_found"
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cdeust/prd-spec-generator",
+      "reason": "repo_not_found"
+    }
+  ]
+}

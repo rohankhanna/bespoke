@@ -1,11 +1,21 @@
 {
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-18T03:26:22.590180+00:00",
+  "last_seen_at": "2026-04-18T03:42:01.586113+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/claude.yml",
       "source_repo": "anthropics/claude-code"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "humanlayer/humanlayer"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ollama/ollama"
     }
   ],
   "term": "Claude Code"

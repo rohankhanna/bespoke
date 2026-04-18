@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "joinwell52-AI/joinwell52",
+      "target": "auto_patrol.py",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T03:42:01.586113+00:00",
+  "source_repo": "joinwell52-AI/joinwell52"
+}

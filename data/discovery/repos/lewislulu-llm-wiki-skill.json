@@ -1,0 +1,159 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lewislulu/llm-wiki-skill",
+      "target": "pedronauck/skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lewislulu/llm-wiki-skill",
+      "target": "astro-han/karpathy-llm-wiki",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lewislulu/llm-wiki-skill",
+      "target": "tobi/qmd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lewislulu/llm-wiki-skill",
+      "target": "compile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lewislulu/llm-wiki-skill",
+      "target": "ingest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lewislulu/llm-wiki-skill",
+      "target": "query",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lewislulu/llm-wiki-skill",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lewislulu/llm-wiki-skill",
+      "target": "audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lewislulu/llm-wiki-skill",
+      "target": "## Repo contents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lewislulu/llm-wiki-skill",
+      "target": "## Running the web viewer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lewislulu/llm-wiki-skill",
+      "target": "## Building the Obsidian plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T03:42:07.224151+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4818
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Karpathy-style LLM knowledge base Agent Skill for OpenClaw/Codex. Experimental \u2014 will iterate over time.",
+    "full_name": "lewislulu/llm-wiki-skill",
+    "html_url": "https://github.com/lewislulu/llm-wiki-skill",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-16T06:01:13Z",
+    "topics": [],
+    "updated_at": "2026-04-18T00:47:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "astro-han/karpathy-llm-wiki",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pedronauck/skills",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tobi/qmd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "compile"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ingest"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "query"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "lint"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "audit"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## Repo contents"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## Running the web viewer"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## Building the Obsidian plugin"
+    }
+  ]
+}
