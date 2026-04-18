@@ -1,0 +1,46 @@
+{
+  "components": [
+    {
+      "component": "inquirer",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "GWUDCAP/cc-sessions",
+      "target": "inquirer",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:50:15.160522+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11050
+    },
+    {
+      "path": "package.json",
+      "size": 1252
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1773
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "an opinionated approach to productive development with Claude Code",
+    "full_name": "GWUDCAP/cc-sessions",
+    "html_url": "https://github.com/GWUDCAP/cc-sessions",
+    "language": "JavaScript",
+    "pushed_at": "2025-12-17T23:16:51Z",
+    "topics": [],
+    "updated_at": "2026-04-18T09:25:08Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -2,13 +2,18 @@
   "component": "actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-17T18:04:43.852571+00:00",
+  "last_seen_at": "2026-04-18T09:50:06.115508+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/deploy-site.yml",
       "source_repo": "NousResearch/Hermes-Agent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-site.yml",
+      "source_repo": "agent-sh/agentsys"
     }
   ]
 }

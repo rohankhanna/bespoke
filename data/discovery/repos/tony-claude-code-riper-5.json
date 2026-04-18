@@ -1,0 +1,105 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tony/claude-code-riper-5",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tony/claude-code-riper-5",
+      "target": "claude-subagents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tony/claude-code-riper-5",
+      "target": "riper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tony/claude-code-riper-5",
+      "target": "riper-5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tony/claude-code-riper-5",
+      "target": "subagent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tony/claude-code-riper-5",
+      "target": "subagents",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:50:16.371761+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7244
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Claude Code (Sub-agent, Custom Commands) for RIPER-5",
+    "full_name": "tony/claude-code-riper-5",
+    "html_url": "https://github.com/tony/claude-code-riper-5",
+    "language": null,
+    "pushed_at": "2026-02-08T00:20:22Z",
+    "topics": [
+      "claude-code",
+      "claude-subagents",
+      "riper",
+      "riper-5",
+      "subagent",
+      "subagents"
+    ],
+    "updated_at": "2026-04-16T09:52:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-subagents"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "riper"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "riper-5"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "subagent"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "subagents"
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+      "target": "anthropics/skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+      "target": "behisecc/awesome-claude-skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+      "target": "anthropics/claude-code-security-review",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+      "target": "blader/claudeception",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebuild-guide-exports.yml",
+      "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebuild-guide-exports.yml",
+      "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+      "target": "quarto-dev/quarto-actions/setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rebuild-guide-exports.yml",
+      "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rebuild-guide-exports.yml",
+      "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+      "target": "Rebuild Guide Exports (PDF + EPUB)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger-landing-deploy.yml",
+      "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trigger-landing-deploy.yml",
+      "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+      "target": "Trigger landing site rebuild",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+      "target": "agentic-coding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+      "target": "ai-assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+      "target": "ai-coding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+      "target": "ai-pair-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+      "target": "ai-security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+      "target": "anthropic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+      "target": "best-practices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+      "target": "claude-code-guide",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+      "target": "claude-code-tutorial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+      "target": "cli-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+      "target": "coding-assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+      "target": "cursor-alternative",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+      "target": "mcp-servers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+      "target": "prompt-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+      "target": "tutorial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FlorianBruniaux/claude-code-ultimate-guide",
+      "target": "vibe-coding",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T09:50:06.115508+00:00",
+  "source_repo": "FlorianBruniaux/claude-code-ultimate-guide"
+}

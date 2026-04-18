@@ -1,0 +1,12 @@
+{
+  "component": "hmarr/auto-approve-action@v4",
+  "first_seen_at": "2026-04-18T09:50:06.115508+00:00",
+  "last_seen_at": "2026-04-18T09:50:06.115508+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-approve.yml",
+      "source_repo": "hashintel/hash"
+    }
+  ]
+}

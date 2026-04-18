@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T09:45:12.634395+00:00",
+  "last_seen_at": "2026-04-18T09:50:06.115508+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1702,6 +1702,86 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "panaversity/claude-code-agent-teams-exercises"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/read-only-gh-pr-review.yml",
+      "source_repo": "jawwadfirdousi/agent-skills"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "lis186/ccxray"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cli-tests.yml",
+      "source_repo": "claude-did-this/claude-hub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "claude-did-this/claude-hub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "claude-did-this/claude-hub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "claude-did-this/claude-hub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "claude-did-this/claude-hub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "claude-did-this/claude-hub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "grahama1970/claude-code-mcp-enhanced"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backend-ci.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backend-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/frontend-ci.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/frontend-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/infrastructure-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/semantic-release.yaml",
+      "source_repo": "Mjvolk3/torchcell"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rebuild-guide-exports.yml",
+      "source_repo": "FlorianBruniaux/claude-code-ultimate-guide"
     }
   ]
 }

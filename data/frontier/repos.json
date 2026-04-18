@@ -1,106 +1,6 @@
 {
-  "generated_at": "2026-04-18T09:45:12.634395+00:00",
+  "generated_at": "2026-04-18T09:50:06.115508+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "brads3290/cclogviewer",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "jawwadfirdousi/agent-skills",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lis186/ccxray",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "yzyydev/ai-engineering-structure",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ddisisto/si",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "comme2e/comm",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "claude-did-this/claude-hub",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "avifenesh/agentsys",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "gwudcap/cc-sessions",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "grahama1970/claude-code-mcp-enhanced",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "tony/claude-code-riper-5",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "hashintel/hash",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "affaan-m/everything-claude-code",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "hackdays-io/toban-contribution-viewer",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "wirasm/claudecode-utils",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "chrisleyva/todo-slash-command",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ethpandaops/xatu-data",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "mjvolk3/torchcell",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "hesreallyhim/inkverse-fork",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "florianbruniaux/claude-code-ultimate-guide",
-      "graph_distance": 3
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "giselles-ai/giselle",
@@ -1410,6 +1310,121 @@
       "discovered_via": "explicit-github-link",
       "full_name": "jezweb/roo-commander",
       "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "askroundtable/expert-skills",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "agent-sh/agent-analyzer",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "agent-sh/can-i-help",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "agent-sh/glidemq",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "agent-sh/onboard",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "steipete/claude-code-mcp",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "hashintel/awesome-hash",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "protocolbuffers/protobuf",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cedar-policy/cedar",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "google/tarpc",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "affaan-m/agentshield",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "agricidaniel/claude-ads",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "agricidaniel/claude-cybersecurity",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "agricidaniel/claude-seo",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ethpandaops/cbt",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ethpandaops/xatu",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ethpandaops/xatu-cbt",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mjvolk3/biocypher",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mjvolk3/dendron-template",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "oxpig/calm",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "anthropics/claude-code-security-review",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "behisecc/awesome-claude-skills",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "blader/claudeception",
+      "graph_distance": 4
     }
   ],
   "processed": [
@@ -1755,6 +1770,26 @@
     "okuvshynov/cubestat",
     "fimeg/networkchronicles",
     "to4iki/ai-project-rules",
-    "panaversity/claude-code-agent-teams-exercises"
+    "panaversity/claude-code-agent-teams-exercises",
+    "brads3290/cclogviewer",
+    "jawwadfirdousi/agent-skills",
+    "lis186/ccxray",
+    "yzyydev/agentic-coding-structure",
+    "ddisisto/si",
+    "comme2e/comm",
+    "claude-did-this/claude-hub",
+    "agent-sh/agentsys",
+    "gwudcap/cc-sessions",
+    "grahama1970/claude-code-mcp-enhanced",
+    "tony/claude-code-riper-5",
+    "hashintel/hash",
+    "affaan-m/everything-claude-code",
+    "hackdays-io/toban-contribution-viewer",
+    "wirasm/dylan",
+    "chrisleyva/todo-slash-command",
+    "ethpandaops/xatu-data",
+    "mjvolk3/torchcell",
+    "hesreallyhim/inkverse-fork",
+    "florianbruniaux/claude-code-ultimate-guide"
   ]
 }

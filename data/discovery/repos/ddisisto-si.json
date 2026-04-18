@@ -1,0 +1,24 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-18T09:50:09.119331+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6698
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": null,
+    "full_name": "ddisisto/si",
+    "html_url": "https://github.com/ddisisto/si",
+    "language": "TypeScript",
+    "pushed_at": "2025-05-20T01:27:58Z",
+    "topics": [],
+    "updated_at": "2025-11-29T07:21:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

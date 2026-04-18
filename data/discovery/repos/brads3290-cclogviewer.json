@@ -1,0 +1,28 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-18T09:50:06.679760+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1262
+    },
+    {
+      "path": "go.mod",
+      "size": 277
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Review Claude Code .jsonl files with a nice HTML UI",
+    "full_name": "Brads3290/cclogviewer",
+    "html_url": "https://github.com/Brads3290/cclogviewer",
+    "language": "Go",
+    "pushed_at": "2025-08-08T08:13:50Z",
+    "topics": [],
+    "updated_at": "2026-04-08T08:42:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

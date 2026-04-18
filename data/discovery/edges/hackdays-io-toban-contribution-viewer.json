@@ -1,0 +1,174 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ci.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ci.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ci.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-ci.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "Backend CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "aws-actions/configure-aws-credentials@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "einaregilsson/beanstalk-deploy@v21",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "rtCamp/action-slack-notify@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "Backend Deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-ci.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-ci.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-ci.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/frontend-ci.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "Frontend CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "aws-actions/configure-aws-credentials@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "rtCamp/action-slack-notify@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/frontend-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "Frontend Deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/infrastructure-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/infrastructure-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/infrastructure-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "aws-actions/configure-aws-credentials@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/infrastructure-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "rtCamp/action-slack-notify@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/infrastructure-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "Infrastructure Deployment",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T09:50:06.115508+00:00",
+  "source_repo": "hackdays-io/toban-contribution-viewer"
+}

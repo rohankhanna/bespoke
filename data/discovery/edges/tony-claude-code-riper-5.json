@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tony/claude-code-riper-5",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tony/claude-code-riper-5",
+      "target": "claude-subagents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tony/claude-code-riper-5",
+      "target": "riper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tony/claude-code-riper-5",
+      "target": "riper-5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tony/claude-code-riper-5",
+      "target": "subagent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tony/claude-code-riper-5",
+      "target": "subagents",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T09:50:06.115508+00:00",
+  "source_repo": "tony/claude-code-riper-5"
+}

@@ -1,12 +1,17 @@
 {
   "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
   "first_seen_at": "2026-04-18T04:44:33.621188+00:00",
-  "last_seen_at": "2026-04-18T04:44:33.621188+00:00",
+  "last_seen_at": "2026-04-18T09:50:06.115508+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/bounty-bot.yml",
       "source_repo": "archestra-ai/archestra"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/monthly-metrics.yml",
+      "source_repo": "affaan-m/everything-claude-code"
     }
   ]
 }

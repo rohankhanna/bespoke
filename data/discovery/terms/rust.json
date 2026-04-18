@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-18T09:17:12.863479+00:00",
+  "last_seen_at": "2026-04-18T09:50:06.115508+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -11,6 +11,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/rust.yml",
       "source_repo": "dtormoen/tsk-tsk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "CommE2E/comm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "hashintel/hash"
     }
   ],
   "term": "Rust"

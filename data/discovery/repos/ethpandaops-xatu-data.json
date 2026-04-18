@@ -1,0 +1,165 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-repo.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-repo.yml"
+    },
+    {
+      "component": "actions/setup-go@0a12ed9d6a96ab950c8f026ed9f722fe0da7ef32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-repo.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@b5ca514318bd6ebac0fb2aedd5d36ec1b5c232a2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-repo.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-availability.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethpandaops/xatu-data",
+      "target": "ethpandaops/xatu-cbt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethpandaops/xatu-data",
+      "target": "ethpandaops/cbt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethpandaops/xatu-data",
+      "target": "ethpandaops/xatu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-homepage.yml",
+      "source_repo": "ethpandaops/xatu-data",
+      "target": "Trigger homepage deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-repo.yml",
+      "source_repo": "ethpandaops/xatu-data",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-repo.yml",
+      "source_repo": "ethpandaops/xatu-data",
+      "target": "actions/setup-go@0a12ed9d6a96ab950c8f026ed9f722fe0da7ef32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-repo.yml",
+      "source_repo": "ethpandaops/xatu-data",
+      "target": "docker/setup-buildx-action@b5ca514318bd6ebac0fb2aedd5d36ec1b5c232a2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-repo.yml",
+      "source_repo": "ethpandaops/xatu-data",
+      "target": "Generate repo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-availability.yml",
+      "source_repo": "ethpandaops/xatu-data",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-availability.yml",
+      "source_repo": "ethpandaops/xatu-data",
+      "target": "Update config",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:50:24.728441+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30033
+    },
+    {
+      "path": ".github/workflows/deploy-homepage.yml",
+      "size": 284
+    },
+    {
+      "path": ".github/workflows/generate-repo.yml",
+      "size": 2841
+    },
+    {
+      "path": ".github/workflows/update-availability.yml",
+      "size": 1280
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": null,
+    "full_name": "ethpandaops/xatu-data",
+    "html_url": "https://github.com/ethpandaops/xatu-data",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-18T06:36:14Z",
+    "topics": [],
+    "updated_at": "2026-04-18T06:36:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethpandaops/cbt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethpandaops/xatu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethpandaops/xatu-cbt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-homepage.yml",
+      "term": "Trigger homepage deploy"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-repo.yml",
+      "term": "Generate repo"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-availability.yml",
+      "term": "Update config"
+    }
+  ]
+}

@@ -1,12 +1,17 @@
 {
   "component": "actions/add-to-project@244f685bbc3b7adfa8466e08b698b5577571133e",
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-04-18T09:21:02.237042+00:00",
+  "last_seen_at": "2026-04-18T09:50:06.115508+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/add-to-project.yml",
       "source_repo": "agent-sh/agnix"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "agent-sh/agentsys"
     }
   ]
 }

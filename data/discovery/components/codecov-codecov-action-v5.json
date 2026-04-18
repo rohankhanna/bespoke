@@ -1,7 +1,7 @@
 {
   "component": "codecov/codecov-action@v5",
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-18T09:45:12.634395+00:00",
+  "last_seen_at": "2026-04-18T09:50:06.115508+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/python-tests.yml",
       "source_repo": "kelp/webdown"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "claude-did-this/claude-hub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "claude-did-this/claude-hub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "claude-did-this/claude-hub"
     }
   ]
 }

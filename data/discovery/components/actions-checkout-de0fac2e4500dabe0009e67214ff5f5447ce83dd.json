@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T09:45:12.634395+00:00",
+  "last_seen_at": "2026-04-18T09:50:06.115508+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -312,6 +312,91 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/tag-release-from-main.yml",
       "source_repo": "JSONbored/claudepro-directory"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "agent-sh/agentsys"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "agent-sh/agentsys"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "agent-sh/agentsys"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-site.yml",
+      "source_repo": "agent-sh/agentsys"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "agent-sh/agentsys"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ai-pr-review.yml",
+      "source_repo": "hashintel/hash"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "hashintel/hash"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/canary-release.yml",
+      "source_repo": "hashintel/hash"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "hashintel/hash"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "hashintel/hash"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "hashintel/hash"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "affaan-m/everything-claude-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maintenance.yml",
+      "source_repo": "affaan-m/everything-claude-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "affaan-m/everything-claude-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml",
+      "source_repo": "affaan-m/everything-claude-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reusable-test.yml",
+      "source_repo": "affaan-m/everything-claude-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reusable-validate.yml",
+      "source_repo": "affaan-m/everything-claude-code"
     }
   ]
 }

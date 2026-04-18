@@ -1,0 +1,339 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-deploy.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-deploy.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-deploy.yml"
+    },
+    {
+      "component": "einaregilsson/beanstalk-deploy@v21",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-deploy.yml"
+    },
+    {
+      "component": "rtCamp/action-slack-notify@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-deploy.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-deploy.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-deploy.yml"
+    },
+    {
+      "component": "rtCamp/action-slack-notify@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/infrastructure-deploy.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/infrastructure-deploy.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/infrastructure-deploy.yml"
+    },
+    {
+      "component": "rtCamp/action-slack-notify@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/infrastructure-deploy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ci.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ci.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ci.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-ci.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "Backend CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "aws-actions/configure-aws-credentials@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "einaregilsson/beanstalk-deploy@v21",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "rtCamp/action-slack-notify@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "Backend Deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-ci.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-ci.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-ci.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/frontend-ci.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "Frontend CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "aws-actions/configure-aws-credentials@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "rtCamp/action-slack-notify@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/frontend-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "Frontend Deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/infrastructure-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/infrastructure-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/infrastructure-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "aws-actions/configure-aws-credentials@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/infrastructure-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "rtCamp/action-slack-notify@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/infrastructure-deploy.yml",
+      "source_repo": "hackdays-io/toban-contribution-viewer",
+      "target": "Infrastructure Deployment",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:50:22.445109+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18961
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 98
+    },
+    {
+      "path": ".github/workflows/backend-ci.yml",
+      "size": 2697
+    },
+    {
+      "path": ".github/workflows/backend-deploy.yml",
+      "size": 2132
+    },
+    {
+      "path": ".github/workflows/frontend-ci.yml",
+      "size": 1832
+    },
+    {
+      "path": ".github/workflows/frontend-deploy.yml",
+      "size": 2138
+    },
+    {
+      "path": ".github/workflows/infrastructure-deploy.yml",
+      "size": 2137
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Visualize team members' contribution",
+    "full_name": "hackdays-io/toban-contribution-viewer",
+    "html_url": "https://github.com/hackdays-io/toban-contribution-viewer",
+    "language": "Python",
+    "pushed_at": "2025-05-17T15:04:48Z",
+    "topics": [],
+    "updated_at": "2026-02-24T08:38:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-ci.yml",
+      "term": "Backend CI"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-deploy.yml",
+      "term": "Backend Deployment"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/frontend-ci.yml",
+      "term": "Frontend CI"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/frontend-deploy.yml",
+      "term": "Frontend Deployment"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/infrastructure-deploy.yml",
+      "term": "Infrastructure Deployment"
+    }
+  ]
+}

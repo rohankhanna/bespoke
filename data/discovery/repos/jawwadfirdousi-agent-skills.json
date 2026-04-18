@@ -1,0 +1,55 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/read-only-gh-pr-review.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/read-only-gh-pr-review.yml",
+      "source_repo": "jawwadfirdousi/agent-skills",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/read-only-gh-pr-review.yml",
+      "source_repo": "jawwadfirdousi/agent-skills",
+      "target": "read-only-gh-pr-review wrapper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:50:07.229478+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1070
+    },
+    {
+      "path": ".github/workflows/read-only-gh-pr-review.yml",
+      "size": 349
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": null,
+    "full_name": "jawwadfirdousi/agent-skills",
+    "html_url": "https://github.com/jawwadfirdousi/agent-skills",
+    "language": "Shell",
+    "pushed_at": "2026-03-08T19:42:23Z",
+    "topics": [],
+    "updated_at": "2026-04-17T06:33:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/read-only-gh-pr-review.yml",
+      "term": "read-only-gh-pr-review wrapper"
+    }
+  ]
+}
