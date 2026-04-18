@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-18T03:26:22.590180+00:00",
+  "last_seen_at": "2026-04-18T09:09:30.058377+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
       "source_file": "README.md",
       "source_repo": "Ylsssq926/relic.skill"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "larksuite/cli"
     }
   ],
   "term": "### \u65b9\u5f0f\u4e8c\uff1anpx \u4e00\u952e\u5b89\u88c5"

@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agenmod/distill-shield-skill",
+      "target": "agenmod/steamer-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "agenmod/distill-shield-skill",
+      "target": "### \u7b2c\u4e00\u6b65\uff1a\u751f\u6210\u57fa\u7840 Shield \u5305",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "agenmod/distill-shield-skill",
+      "target": "\uff08\u8eab\u4efd\u6807\u8bb0\uff09+",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "agenmod/distill-shield-skill",
+      "target": "\uff08\u5143\u6570\u636e\uff09\u3002 ### \u7b2c\u4e8c\u6b65\uff1a\u4e22\u7ed9 AI \u505a\u5b8c\u6574\u52a0\u56fa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "agenmod/distill-shield-skill",
+      "target": "\u8bf7\u8bfb SKILL.md\uff0c\u6309 Phase \u5f15\u5bfc\u6211\u5b8c\u6210\u4e09\u5c42\u52a0\u56fa\u3002",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T09:09:30.058377+00:00",
+  "source_repo": "agenmod/distill-shield-skill"
+}

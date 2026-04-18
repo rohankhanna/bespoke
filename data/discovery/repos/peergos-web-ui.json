@@ -1,0 +1,505 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browser_tests.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browser_tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browser_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container.yml"
+    },
+    {
+      "component": "docker/login-action@v2.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flatpak.yml"
+    },
+    {
+      "component": "flatpak/flatpak-github-actions/flatpak-builder@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flatpak.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar-build.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar-build.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-build.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-build.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-package.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-package.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-package.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-package.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-package.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Peergos/web-ui",
+      "target": "ianopolous/jpack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Peergos/web-ui",
+      "target": "google/j2cl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Peergos/web-ui",
+      "target": "sudo apt install openjdk-21-jdk ant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Peergos/web-ui",
+      "target": "### MacOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Peergos/web-ui",
+      "target": "## Development ### Server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Peergos/web-ui",
+      "target": "### Web Interface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browser_tests.yml",
+      "source_repo": "Peergos/web-ui",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browser_tests.yml",
+      "source_repo": "Peergos/web-ui",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browser_tests.yml",
+      "source_repo": "Peergos/web-ui",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/browser_tests.yml",
+      "source_repo": "Peergos/web-ui",
+      "target": "Browser Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container.yml",
+      "source_repo": "Peergos/web-ui",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container.yml",
+      "source_repo": "Peergos/web-ui",
+      "target": "docker/setup-qemu-action@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container.yml",
+      "source_repo": "Peergos/web-ui",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container.yml",
+      "source_repo": "Peergos/web-ui",
+      "target": "docker/login-action@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container.yml",
+      "source_repo": "Peergos/web-ui",
+      "target": "docker/metadata-action@v4.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container.yml",
+      "source_repo": "Peergos/web-ui",
+      "target": "docker/build-push-action@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container.yml",
+      "source_repo": "Peergos/web-ui",
+      "target": "Create and publish a Container image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/container.yml",
+      "source_repo": "Peergos/web-ui",
+      "target": "main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flatpak.yml",
+      "source_repo": "Peergos/web-ui",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flatpak.yml",
+      "source_repo": "Peergos/web-ui",
+      "target": "flatpak/flatpak-github-actions/flatpak-builder@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flatpak.yml",
+      "source_repo": "Peergos/web-ui",
+      "target": "Flatpak",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar-build.yml",
+      "source_repo": "Peergos/web-ui",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar-build.yml",
+      "source_repo": "Peergos/web-ui",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar-build.yml",
+      "source_repo": "Peergos/web-ui",
+      "target": "actions/attest-build-provenance@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jar-build.yml",
+      "source_repo": "Peergos/web-ui",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jar-build.yml",
+      "source_repo": "Peergos/web-ui",
+      "target": "Jar build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-build.yml",
+      "source_repo": "Peergos/web-ui",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-build.yml",
+      "source_repo": "Peergos/web-ui",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-build.yml",
+      "source_repo": "Peergos/web-ui",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-build.yml",
+      "source_repo": "Peergos/web-ui",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-build.yml",
+      "source_repo": "Peergos/web-ui",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/native-build.yml",
+      "source_repo": "Peergos/web-ui",
+      "target": "Native build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-package.yml",
+      "source_repo": "Peergos/web-ui",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-package.yml",
+      "source_repo": "Peergos/web-ui",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-package.yml",
+      "source_repo": "Peergos/web-ui",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/native-package.yml",
+      "source_repo": "Peergos/web-ui",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/native-package.yml",
+      "source_repo": "Peergos/web-ui",
+      "target": "Native packager",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:09:33.006595+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3872
+    },
+    {
+      "path": "Dockerfile",
+      "size": 830
+    },
+    {
+      "path": ".github/workflows/browser_tests.yml",
+      "size": 717
+    },
+    {
+      "path": ".github/workflows/container.yml",
+      "size": 1298
+    },
+    {
+      "path": ".github/workflows/flatpak.yml",
+      "size": 920
+    },
+    {
+      "path": ".github/workflows/jar-build.yml",
+      "size": 860
+    },
+    {
+      "path": ".github/workflows/native-build.yml",
+      "size": 1567
+    },
+    {
+      "path": ".github/workflows/native-package.yml",
+      "size": 4405
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "The Web interface for Peergos",
+    "full_name": "Peergos/web-ui",
+    "html_url": "https://github.com/Peergos/web-ui",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-18T07:56:31Z",
+    "topics": [],
+    "updated_at": "2026-04-18T07:56:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/j2cl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ianopolous/jpack",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "sudo apt install openjdk-21-jdk ant"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### MacOS"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## Development ### Server"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Web Interface"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/browser_tests.yml",
+      "term": "Browser Tests"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container.yml",
+      "term": "Create and publish a Container image"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/container.yml",
+      "term": "main"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flatpak.yml",
+      "term": "Flatpak"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jar-build.yml",
+      "term": "Jar build"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/native-build.yml",
+      "term": "Native build"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/native-package.yml",
+      "term": "Native packager"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tmstack/awesome-persona-skills",
+      "target": "alchaincyf/elon-musk-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tmstack/awesome-persona-skills",
+      "target": "1sh1ro/liangxi-skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tmstack/awesome-persona-skills",
+      "target": "aar0npb/curator-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tmstack/awesome-persona-skills",
+      "target": "alchaincyf/darwin-skill",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-18T09:09:30.058377+00:00",
+  "source_repo": "tmstack/awesome-persona-skills"
+}

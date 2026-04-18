@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agenmod/distill-protocol-skill",
+      "target": "agenmod/steamer-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agenmod/distill-protocol-skill",
+      "target": "agenmod/distill-shield-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agenmod/distill-protocol-skill",
+      "target": "agenmod/okr-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "agenmod/distill-protocol-skill",
+      "target": "human_only",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "agenmod/distill-protocol-skill",
+      "target": "no_commercial_distill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "agenmod/distill-protocol-skill",
+      "target": "research_ok",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "agenmod/distill-protocol-skill",
+      "target": "custom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "agenmod/distill-protocol-skill",
+      "target": "### \u751f\u6210\u534f\u8bae",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "agenmod/distill-protocol-skill",
+      "target": "\u53ef\u9009\uff1a",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "agenmod/distill-protocol-skill",
+      "target": "| \u4eba\u770b\u2014\u2014\u6240\u6709\u8005\u3001\u6863\u4f4d\u3001\u6761\u6b3e\u3001\u514d\u8d23\u58f0\u660e | |",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T09:09:30.058377+00:00",
+  "source_repo": "agenmod/distill-protocol-skill"
+}

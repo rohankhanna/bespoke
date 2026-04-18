@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
+  "last_seen_at": "2026-04-18T09:09:30.058377+00:00",
+  "sources": [
+    {
+      "discovered_via": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "agenmod/distill-shield-skill"
+    }
+  ],
+  "term": "### \u7b2c\u4e00\u6b65\uff1a\u751f\u6210\u57fa\u7840 Shield \u5305"
+}

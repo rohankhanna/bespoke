@@ -1,106 +1,6 @@
 {
-  "generated_at": "2026-04-18T04:44:33.621188+00:00",
+  "generated_at": "2026-04-18T09:09:30.058377+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "peergos/nabu",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "peergos/web-ui",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "damacol/gemma-4-collection",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "aymenfurter/ralph",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "piqrypt/piqrypt",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "existentialaudio/blackhole",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "agenmod/mirror-skill",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "agenmod/distill-protocol-skill",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "agenmod/okr-skill",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "agenmod/distill-shield-skill",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "agenmod/steamer-skill",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "alchaincyf/nuwa-skill",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "titanwings/colleague-skill",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "larksuite/cli",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "tmstack/awesome-persona-skills",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "therealxiaomanchu/ex-skill",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "django/django",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "burntsushi/ripgrep",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "tokio-rs/axum",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "microsoft/typescript",
-      "graph_distance": 2
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "lobehub/lobe-tts",
@@ -1465,6 +1365,131 @@
       "discovered_via": "explicit-github-link",
       "full_name": "archestra-ai/terraform-provider-archestra",
       "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "libp2p/test-plans",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "peergos/nabu-chat",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "google/j2cl",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ianopolous/jpack",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "piqrypt/aiss-standard",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "kyleneideck/backgroundmusic",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "rlxone/multisoundchanger",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tanweai/pua",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "alchaincyf/darwin-skill",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "alchaincyf/elon-musk-skill",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "alchaincyf/feynman-skill",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "alchaincyf/ilya-sutskever-skill",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lc044/wechatmsg",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "xaoyaoo/pywxdump",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "1sh1ro/liangxi-skills",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aar0npb/curator-skill",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "beamuswayne/simp-skill",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "w1ndys/ex-cure-skill",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "beyondgrep/ack3",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "burntsushi/linux",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cargo-bins/cargo-binstall",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "chinanf-boy/ripgrep-zh",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "programatik29/rust-web-benchmarks",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "crate-ci/typos",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "microsoft/typescript-go",
+      "graph_distance": 3
     }
   ],
   "processed": [
@@ -1634,6 +1659,26 @@
     "firestryk/chatgpt-website.github.io",
     "gbrobro119-star/darksword-kexploit",
     "biparous-blaxploitation156/ciphermind",
-    "genuslovoacalixtusiii510/ytp-2026"
+    "genuslovoacalixtusiii510/ytp-2026",
+    "peergos/nabu",
+    "peergos/web-ui",
+    "damacol/gemma-4-collection",
+    "aymenfurter/ralph",
+    "piqrypt/piqrypt",
+    "existentialaudio/blackhole",
+    "agenmod/mirror-skill",
+    "agenmod/distill-protocol-skill",
+    "agenmod/okr-skill",
+    "agenmod/distill-shield-skill",
+    "agenmod/steamer-skill",
+    "alchaincyf/nuwa-skill",
+    "titanwings/colleague-skill",
+    "larksuite/cli",
+    "tmstack/awesome-persona-skills",
+    "therealxiaomanchu/ex-skill",
+    "django/django",
+    "burntsushi/ripgrep",
+    "tokio-rs/axum",
+    "microsoft/typescript"
   ]
 }

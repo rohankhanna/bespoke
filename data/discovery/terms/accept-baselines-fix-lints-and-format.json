@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
+  "last_seen_at": "2026-04-18T09:09:30.058377+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/accept-baselines-fix-lints.yaml",
+      "source_repo": "microsoft/TypeScript"
+    }
+  ],
+  "term": "Accept Baselines, Fix Lints, and Format"
+}

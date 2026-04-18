@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agenmod/mirror-skill",
+      "target": "agenmod/steamer-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agenmod/mirror-skill",
+      "target": "agenmod/distill-shield-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agenmod/mirror-skill",
+      "target": "agenmod/distill-protocol-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agenmod/mirror-skill",
+      "target": "agenmod/okr-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "agenmod/mirror-skill",
+      "target": "\u8bf7\u8bfb SKILL.md\uff0c\u7528\u6211\u5bfc\u51fa\u7684 AI \u5bf9\u8bdd\u8bb0\u5f55\uff0c\u5e2e\u6211\u84b8\u998f\u51fa\u300c\u6211\u662f\u8c01\u300d\u3002",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:09:37.488960+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11099
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "\u8001\u5df1.skill (Mirror) \u2014 \u4ece AI \u5bf9\u8bdd\u4e2d\u84b8\u998f\u300c\u4f60\u8001\u5df1\u662f\u8c01\u300d| \u8ba4\u77e5\u955c\u50cf \u00b7 \u80fd\u529b\u77e9\u9635 \u00b7 \u8fdb\u5316\u8def\u7ebf\u56fe \u00b7 AI \u8fc1\u79fb\u534f\u8bae",
+    "full_name": "agenmod/mirror-skill",
+    "html_url": "https://github.com/agenmod/mirror-skill",
+    "language": null,
+    "pushed_at": "2026-04-15T04:01:11Z",
+    "topics": [],
+    "updated_at": "2026-04-17T10:31:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agenmod/distill-protocol-skill",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agenmod/distill-shield-skill",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agenmod/okr-skill",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agenmod/steamer-skill",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u8bf7\u8bfb SKILL.md\uff0c\u7528\u6211\u5bfc\u51fa\u7684 AI \u5bf9\u8bdd\u8bb0\u5f55\uff0c\u5e2e\u6211\u84b8\u998f\u51fa\u300c\u6211\u662f\u8c01\u300d\u3002"
+    }
+  ]
+}

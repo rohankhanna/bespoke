@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-04-17T18:04:43.852571+00:00",
+  "last_seen_at": "2026-04-18T09:09:30.058377+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/ant.yml",
       "source_repo": "Peergos/Peergos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "Peergos/nabu"
     }
   ],
   "term": "Java CI"

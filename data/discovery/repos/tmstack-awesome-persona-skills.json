@@ -1,0 +1,74 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tmstack/awesome-persona-skills",
+      "target": "alchaincyf/elon-musk-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tmstack/awesome-persona-skills",
+      "target": "1sh1ro/liangxi-skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tmstack/awesome-persona-skills",
+      "target": "aar0npb/curator-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tmstack/awesome-persona-skills",
+      "target": "alchaincyf/darwin-skill",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:09:53.163675+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5778
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "\u540c\u4e8b.skill\u3001\u8001\u677f.skill\u3001\u524d\u4efb.skill\u3001\u81ea\u5df1.skill\u3001\u6c38\u751f.skill\u3001\u5973\u5a32.skill\u2026\u2026  ",
+    "full_name": "tmstack/awesome-persona-skills",
+    "html_url": "https://github.com/tmstack/awesome-persona-skills",
+    "language": null,
+    "pushed_at": "2026-04-15T11:43:50Z",
+    "topics": [],
+    "updated_at": "2026-04-18T08:46:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "1sh1ro/liangxi-skills",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aar0npb/curator-skill",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alchaincyf/darwin-skill",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alchaincyf/elon-musk-skill",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

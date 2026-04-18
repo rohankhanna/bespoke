@@ -1,0 +1,132 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Peergos/nabu",
+      "target": "libp2p/test-plans",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Peergos/nabu",
+      "target": "peergos/nabu-chat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Peergos/nabu",
+      "target": "Build using Maven",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Peergos/nabu",
+      "target": "mvn package -Dmaven.test.skip=true",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Peergos/nabu",
+      "target": "### Embedded usage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "Peergos/nabu",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "Peergos/nabu",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "Peergos/nabu",
+      "target": "Java CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:09:31.295855+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4820
+    },
+    {
+      "path": "Dockerfile",
+      "size": 656
+    },
+    {
+      "path": ".github/workflows/maven.yml",
+      "size": 504
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "A minimal Java implementation of IPFS",
+    "full_name": "Peergos/nabu",
+    "html_url": "https://github.com/Peergos/nabu",
+    "language": "Java",
+    "pushed_at": "2026-02-23T21:59:18Z",
+    "topics": [],
+    "updated_at": "2026-04-10T08:09:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "libp2p/test-plans",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "peergos/nabu-chat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Build using Maven"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "mvn package -Dmaven.test.skip=true"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Embedded usage"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "term": "Java CI"
+    }
+  ]
+}

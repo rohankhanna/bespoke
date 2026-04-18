@@ -1,0 +1,355 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ExistentialAudio/BlackHole",
+      "target": "rlxone/multisoundchanger",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ExistentialAudio/BlackHole",
+      "target": "kyleneideck/backgroundmusic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ExistentialAudio/BlackHole",
+      "target": "brew install blackhole-2ch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ExistentialAudio/BlackHole",
+      "target": "brew install blackhole-16ch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ExistentialAudio/BlackHole",
+      "target": "brew install blackhole-64ch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ExistentialAudio/BlackHole",
+      "target": "with either",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ExistentialAudio/BlackHole",
+      "target": ", or",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ExistentialAudio/BlackHole",
+      "target": "not",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ExistentialAudio/BlackHole",
+      "target": "Audio MIDI Setup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ExistentialAudio/BlackHole",
+      "target": "Audio Devices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ExistentialAudio/BlackHole",
+      "target": "BlackHoleXch.driver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ExistentialAudio/BlackHole",
+      "target": "sudo killall -9 coreaudiod",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ExistentialAudio/BlackHole",
+      "target": "using",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ExistentialAudio/BlackHole",
+      "target": "kDriver_Name",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ExistentialAudio/BlackHole",
+      "target": "kPlugIn_BundleID",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ExistentialAudio/BlackHole",
+      "target": "kPlugIn_Icon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ExistentialAudio/BlackHole",
+      "target": "xcodebuild",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ExistentialAudio/BlackHole",
+      "target": "kLatency_Frame_Size",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ExistentialAudio/BlackHole",
+      "target": "kSampleRates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ExistentialAudio/BlackHole",
+      "target": "). For example:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ExistentialAudio/BlackHole",
+      "target": "kAudioHardwarePropertyTranslateUIDToDevice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ExistentialAudio/BlackHole",
+      "target": "Sound Preferences",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ExistentialAudio/BlackHole",
+      "target": "System Preferences",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ExistentialAudio/BlackHole",
+      "target": "Security & Privacy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ExistentialAudio/BlackHole",
+      "target": "Privacy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ExistentialAudio/BlackHole",
+      "target": "Microphone",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:09:36.319751+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13968
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "BlackHole is a modern macOS audio loopback driver that allows applications to pass audio to other applications with zero additional latency.",
+    "full_name": "ExistentialAudio/BlackHole",
+    "html_url": "https://github.com/ExistentialAudio/BlackHole",
+    "language": "C",
+    "pushed_at": "2025-12-19T07:50:39Z",
+    "topics": [
+      "audio",
+      "driver",
+      "loopback",
+      "macos",
+      "virtual-audio-cable"
+    ],
+    "updated_at": "2026-04-18T07:55:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kyleneideck/backgroundmusic",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rlxone/multisoundchanger",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "brew install blackhole-2ch"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "brew install blackhole-16ch"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "brew install blackhole-64ch"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "with either"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ", or"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "not"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Audio MIDI Setup"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Audio Devices"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "BlackHoleXch.driver"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "sudo killall -9 coreaudiod"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "using"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "kDriver_Name"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "kPlugIn_BundleID"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "kPlugIn_Icon"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "xcodebuild"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "kLatency_Frame_Size"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "kSampleRates"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "). For example:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "kAudioHardwarePropertyTranslateUIDToDevice"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Audio MIDI Setup"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Sound Preferences"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "System Preferences"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Security & Privacy"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Privacy"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Microphone"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Audio MIDI Setup"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "agenmod/steamer-skill",
+      "target": "\u8bf7\u5148\u8bfb SKILL.md\uff0c\u6309 Phase \u5f15\u5bfc\u6211\u84b8\u998f\u3002",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "agenmod/steamer-skill",
+      "target": "\u8bf7\u5b8c\u6574\u8bfb SKILL.md \u5e76\u4e25\u683c\u6309 Phase \u6267\u884c\u84b8\u998f\u6d41\u7a0b\u3002",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:09:39.292179+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4766
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "\u84b8\u7b3c.skill \u2014 \u84b8\u998f\u4efb\u4f55\u4eba\u7684\u8ba4\u77e5\u6846\u67b6\u5f53\u53c2\u8c0b\u3002\u6c38\u751f.skill \u751f\u6001\u7ec4\u4ef6\u3002",
+    "full_name": "agenmod/steamer-skill",
+    "html_url": "https://github.com/agenmod/steamer-skill",
+    "language": null,
+    "pushed_at": "2026-04-15T02:44:39Z",
+    "topics": [],
+    "updated_at": "2026-04-17T08:40:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u8bf7\u5148\u8bfb SKILL.md\uff0c\u6309 Phase \u5f15\u5bfc\u6211\u84b8\u998f\u3002"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u8bf7\u5b8c\u6574\u8bfb SKILL.md \u5e76\u4e25\u683c\u6309 Phase \u6267\u884c\u84b8\u998f\u6d41\u7a0b\u3002"
+    }
+  ]
+}

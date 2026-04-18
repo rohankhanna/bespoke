@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "agenmod/steamer-skill",
+      "target": "\u8bf7\u5148\u8bfb SKILL.md\uff0c\u6309 Phase \u5f15\u5bfc\u6211\u84b8\u998f\u3002",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "agenmod/steamer-skill",
+      "target": "\u8bf7\u5b8c\u6574\u8bfb SKILL.md \u5e76\u4e25\u683c\u6309 Phase \u6267\u884c\u84b8\u998f\u6d41\u7a0b\u3002",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T09:09:30.058377+00:00",
+  "source_repo": "agenmod/steamer-skill"
+}

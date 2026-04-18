@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
+  "last_seen_at": "2026-04-18T09:09:30.058377+00:00",
+  "sources": [
+    {
+      "discovered_via": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "agenmod/distill-shield-skill"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "agenmod/steamer-skill"
+    }
+  ],
+  "term": "\u8bf7\u8bfb SKILL.md\uff0c\u6309 Phase \u5f15\u5bfc\u6211\u5b8c\u6210\u4e09\u5c42\u52a0\u56fa\u3002"
+}

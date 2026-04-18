@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T04:44:33.621188+00:00",
+  "last_seen_at": "2026-04-18T09:09:30.058377+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -127,6 +127,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/claude-coreteam-review-shared.yml",
       "source_repo": "archestra-ai/archestra"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/accept-baselines-fix-lints.yaml",
+      "source_repo": "microsoft/TypeScript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/TypeScript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "microsoft/TypeScript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "microsoft/TypeScript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-cherry-pick-pr.yml",
+      "source_repo": "microsoft/TypeScript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/insiders.yaml",
+      "source_repo": "microsoft/TypeScript"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lkg.yml",
+      "source_repo": "microsoft/TypeScript"
     }
   ]
 }

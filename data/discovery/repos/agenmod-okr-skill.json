@@ -1,0 +1,80 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agenmod/okr-skill",
+      "target": "tanweai/pua",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "agenmod/okr-skill",
+      "target": "SKILL.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "agenmod/okr-skill",
+      "target": "### \u5b89\u88c5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "agenmod/okr-skill",
+      "target": "FOR_AI.md",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:09:38.461580+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6465
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "OKR Agent Skill (OKRClaw framework)",
+    "full_name": "agenmod/okr-skill",
+    "html_url": "https://github.com/agenmod/okr-skill",
+    "language": "Python",
+    "pushed_at": "2026-04-08T15:04:08Z",
+    "topics": [],
+    "updated_at": "2026-04-17T10:37:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tanweai/pua",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SKILL.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### \u5b89\u88c5"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SKILL.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "FOR_AI.md"
+    }
+  ]
+}

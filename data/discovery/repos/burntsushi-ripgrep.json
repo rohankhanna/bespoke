@@ -1,0 +1,805 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "burntsushi/linux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "beyondgrep/ack3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "cargo-bins/cargo-binstall",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "chinanf-boy/ripgrep-zh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "rg -uuu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "make defconfig && make -j8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "OpenSubtitles.raw.en.gz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "1.664s",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "9.484s",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "rg the",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "ugrep the",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "LC_ALL=C grep the",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "rg -tpy foo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "rg -Tjs foo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "grep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "RegexSet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "crossbeam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "ignore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "$ brew install ripgrep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "$ sudo port install ripgrep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "$ choco install ripgrep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "$ scoop install ripgrep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "$ winget install BurntSushi.ripgrep.MSVC",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "$ sudo pacman -S ripgrep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "$ sudo dnf install ripgrep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "$ sudo zypper install ripgrep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "$ nix-env --install ripgrep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "$ flox install ripgrep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "$ guix install ripgrep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "deb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "$ sudo apt-get install ripgrep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "$ sudo pkg install ripgrep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "$ doas pkg_add ripgrep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "$ sudo pkgin install ripgrep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "$ sudo pkgman install ripgrep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "$ sudo pkgman install ripgrep_x86",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "$ sudo xbps-install -Syv ripgrep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "strip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "$ cargo install ripgrep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "$ cargo binstall ripgrep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "encoding_rs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "pcre2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "$ cargo build --release --features 'pcre2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "pkg-config",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "PCRE2_SYS_STATIC=1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "Applying the",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "musl-gcc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "$ cargo test --all",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "rg --json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "rg --json pattern | delta",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "schedule",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "BurntSushi/ripgrep",
+      "target": "x.y.z",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:09:59.544683+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21615
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3198
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 8938
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 12446
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
+    "full_name": "BurntSushi/ripgrep",
+    "html_url": "https://github.com/BurntSushi/ripgrep",
+    "language": "Rust",
+    "pushed_at": "2026-02-27T16:25:19Z",
+    "topics": [
+      "cli",
+      "command-line",
+      "command-line-tool",
+      "gitignore",
+      "grep",
+      "recursively-search",
+      "regex",
+      "ripgrep",
+      "rust",
+      "search"
+    ],
+    "updated_at": "2026-04-18T08:55:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "beyondgrep/ack3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "burntsushi/linux",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cargo-bins/cargo-binstall",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chinanf-boy/ripgrep-zh",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "rg -uuu"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "make defconfig && make -j8"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "OpenSubtitles.raw.en.gz"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "1.664s"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "9.484s"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "rg the"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ugrep the"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "LC_ALL=C grep the"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "rg -uuu"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "rg -tpy foo"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "rg -Tjs foo"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "grep"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "RegexSet"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "crossbeam"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ignore"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "$ brew install ripgrep"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "$ sudo port install ripgrep"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "$ choco install ripgrep"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "$ scoop install ripgrep"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "$ winget install BurntSushi.ripgrep.MSVC"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "$ sudo pacman -S ripgrep"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "$ sudo dnf install ripgrep"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "$ sudo zypper install ripgrep"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "$ nix-env --install ripgrep"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "$ flox install ripgrep"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "$ guix install ripgrep"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "deb"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "$ sudo apt-get install ripgrep"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "$ sudo apt-get install ripgrep"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "$ sudo apt-get install ripgrep"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "$ sudo pkg install ripgrep"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "$ doas pkg_add ripgrep"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "$ sudo pkgin install ripgrep"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "$ sudo pkgman install ripgrep"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "$ sudo pkgman install ripgrep_x86"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "$ sudo xbps-install -Syv ripgrep"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "strip"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "$ cargo install ripgrep"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "$ cargo binstall ripgrep"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "encoding_rs"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "pcre2"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "$ cargo build --release --features 'pcre2"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "pkg-config"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "PCRE2_SYS_STATIC=1"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Applying the"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "musl-gcc"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "$ cargo test --all"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "rg --json"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "rg --json pattern | delta"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "schedule"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/release.yml",
+      "term": "x.y.z"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "component": "codecov/codecov-action@3f20e214133d0983f9a10f3d63b0faf9241a3daa",
+  "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
+  "last_seen_at": "2026-04-18T09:09:30.058377+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "larksuite/cli"
+    }
+  ]
+}
