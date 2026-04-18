@@ -89,6 +89,8 @@ def normalize_term(text):
     lowered = text.lower()
     if lowered.startswith(("for example", "example:", "e.g.", "i.e.")):
         return None
+    if text[0].isdigit():
+        return None
     if re.fullmatch(r"[-=:_./\\|]+", text):
         return None
     if re.search(r"[{}\[\]<>]", text):
@@ -104,6 +106,8 @@ def normalize_term(text):
     if re.fullmatch(r"[0-9.]+", text):
         return None
     if re.search(r"\b(json|yaml|yml|python|bash|shell|markdown)\b", lowered):
+        return None
+    if re.search(r"\b\d+(?:\.\d+){1,}\b", text):
         return None
     punct = len(re.findall(r"[^A-Za-z0-9\s-]", text))
     alnum = len(re.findall(r"[A-Za-z0-9]", text))
@@ -388,6 +392,18 @@ def upsert_entity(path, payload, key):
         write_json(path, payload)
 
 
+def prune_invalid_term_artifacts(terms_dir):
+    for path in terms_dir.glob("*.json"):
+        try:
+            existing = json.loads(path.read_text())
+        except Exception:
+            path.unlink(missing_ok=True)
+            continue
+        term = existing.get("term")
+        if not term or normalize_term(term) is None:
+            path.unlink(missing_ok=True)
+
+
 def load_frontier(data_root, seeds):
     frontier_file = data_root / "data" / "frontier" / "repos.json"
     if frontier_file.exists():
@@ -583,6 +599,7 @@ def main():
     runs_dir = data_root / "data" / "runs"
     for d in [repos_dir, terms_dir, comps_dir, edges_dir, frontier_dir, runs_dir]:
         d.mkdir(parents=True, exist_ok=True)
+    prune_invalid_term_artifacts(terms_dir)
 
     generated_at = datetime.now(timezone.utc).isoformat()
     run_id = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
