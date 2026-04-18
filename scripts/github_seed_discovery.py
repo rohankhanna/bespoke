@@ -33,6 +33,8 @@ TOPIC_SKIP = {
 }
 TOPIC_RESULT_LIMIT = 5
 TOPIC_OWNER_CAP_PER_SOURCE = 1
+NON_REPO_OWNERS = {"user-attachments", "orgs", "users", "settings", "marketplace", "sponsors"}
+EXPLICIT_REPO_EXISTS_CACHE = {}
 
 
 def api_get_json(url):
@@ -121,6 +123,37 @@ def repo_identity_key(text):
     if not canonical:
         return None
     return canonical
+
+
+def is_plausible_repo_candidate(full_name):
+    canonical = repo_identity_key(full_name)
+    if not canonical:
+        return False
+    owner, repo = canonical.split('/')
+    if owner in NON_REPO_OWNERS:
+        return False
+    if repo in {"assets", "releases", "issues", "pulls", "wiki", "blob", "tree"}:
+        return False
+    return True
+
+
+def explicit_repo_exists(full_name):
+    canonical = repo_identity_key(full_name)
+    if not canonical or not is_plausible_repo_candidate(canonical):
+        return False
+    cached = EXPLICIT_REPO_EXISTS_CACHE.get(canonical)
+    if cached is not None:
+        return cached
+    try:
+        repo = github_repo(canonical)
+    except urllib.error.HTTPError as e:
+        if e.code == 404:
+            EXPLICIT_REPO_EXISTS_CACHE[canonical] = False
+            return False
+        raise
+    result = bool(repo_identity_key(repo.get("full_name", canonical)))
+    EXPLICIT_REPO_EXISTS_CACHE[canonical] = result
+    return result
 
 
 def normalize_topic(topic):
@@ -339,6 +372,8 @@ def collect_repo(owner_repo, limits, known_repo_keys, allow_topic_expansion=True
         for match in REPO_URL_RE.findall(text):
             canonical = canonicalize_repo_full_name(match, lowercase=True)
             if not canonical or canonical == source_repo_key or canonical in known_repo_keys:
+                continue
+            if not explicit_repo_exists(canonical):
                 continue
             repo_link_hits.append({"full_name": canonical, "source_file": path, "edge_type": "explicit-github-link"})
             edge_records.append({"source_repo": canonical_owner_repo, "target": canonical, "target_type": "repository", "edge_type": "explicit-github-link", "source_file": path})
