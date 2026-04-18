@@ -5,6 +5,7 @@
     "data-document-artifact"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -19,11 +20,13 @@
   ],
   "concept_id": "generate-snake",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "generate-snake",
   "observation_id": "b418c9ecf10e3b35",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T10:38:37.562216+00:00",
   "observed_text": "Generate Snake",
+  "source_context_snippet": null,
   "source_file": ".github/workflows/snake.yml",
   "source_repo": "tarikmanoar/tarikmanoar",
   "source_repo_description": null

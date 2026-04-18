@@ -7,7 +7,28 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anthropics/claude-cookbooks",
+      "status": "candidate-context",
+      "text": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anthropics/claude-cookbooks",
+      "status": "candidate-context",
+      "text": "Notebook Quality Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anthropics/claude-cookbooks",
+      "status": "candidate",
+      "text": "Notebook Quality Check"
+    }
+  ],
   "canonical_name": "Notebook Quality Check",
   "concept_id": "notebook-quality-check",
   "definition_status": "unresolved",
@@ -17,10 +38,17 @@
       "observed_at": "2026-04-18T12:46:59.510459+00:00",
       "source_file": ".github/workflows/notebook-quality.yml",
       "source_repo": "anthropics/claude-cookbooks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T13:50:38.061794+00:00",
+      "source_file": ".github/workflows/notebook-quality.yml",
+      "source_repo": "anthropics/claude-cookbooks"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
-  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "possible_senses": [
     {
       "buckets": [

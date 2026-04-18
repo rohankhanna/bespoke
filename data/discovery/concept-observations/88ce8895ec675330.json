@@ -11,6 +11,7 @@
       "text": "test-mainnet"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -25,6 +26,7 @@
   ],
   "concept_id": "test-mainnet",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "test-mainnet",
   "observation_id": "88ce8895ec675330",
   "observation_kind": "workflow-name",

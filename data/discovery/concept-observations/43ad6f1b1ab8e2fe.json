@@ -5,6 +5,7 @@
     "data-document-artifact"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -19,11 +20,13 @@
   ],
   "concept_id": "generate-weekly-community-report",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "generate-weekly-community-report",
   "observation_id": "43ad6f1b1ab8e2fe",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T12:06:06.216548+00:00",
   "observed_text": "Generate Weekly Community Report \ud83d\udcca",
+  "source_context_snippet": null,
   "source_file": ".github/workflows/community-report.yml",
   "source_repo": "google-gemini/gemini-cli",
   "source_repo_description": null

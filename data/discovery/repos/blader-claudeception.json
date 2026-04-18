@@ -1,0 +1,24 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-18T13:51:10.286966+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6107
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "A Claude Code skill for autonomous skill extraction and continuous learning. Have Claude Code get smarter as it works.",
+    "full_name": "blader/Claudeception",
+    "html_url": "https://github.com/blader/Claudeception",
+    "language": "Shell",
+    "pushed_at": "2026-02-21T05:10:15Z",
+    "topics": [],
+    "updated_at": "2026-04-18T03:56:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

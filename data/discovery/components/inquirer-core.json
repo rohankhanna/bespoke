@@ -1,12 +1,17 @@
 {
   "component": "@inquirer/core",
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
-  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "Fission-AI/OpenSpec"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "upstash/context7"
     }
   ]
 }

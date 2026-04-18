@@ -7,7 +7,28 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anthropics/claude-cookbooks",
+      "status": "candidate-context",
+      "text": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anthropics/claude-cookbooks",
+      "status": "candidate-context",
+      "text": "Claude Link Review"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anthropics/claude-cookbooks",
+      "status": "candidate",
+      "text": "Claude Link Review"
+    }
+  ],
   "canonical_name": "Claude Link Review",
   "concept_id": "claude-link-review",
   "definition_status": "unresolved",
@@ -17,10 +38,17 @@
       "observed_at": "2026-04-18T12:46:59.510459+00:00",
       "source_file": ".github/workflows/claude-link-review.yml",
       "source_repo": "anthropics/claude-cookbooks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T13:50:38.061794+00:00",
+      "source_file": ".github/workflows/claude-link-review.yml",
+      "source_repo": "anthropics/claude-cookbooks"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
-  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "possible_senses": [
     {
       "buckets": [

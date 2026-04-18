@@ -5,6 +5,7 @@
     "data-document-artifact"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -19,11 +20,13 @@
   ],
   "concept_id": "bign-genk",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "bign-genk",
   "observation_id": "665733bcce654423",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T12:07:11.500453+00:00",
   "observed_text": "bign-genk",
+  "source_context_snippet": null,
   "source_file": ".github/workflows/bign-genk.yml",
   "source_repo": "RustCrypto/signatures",
   "source_repo_description": null

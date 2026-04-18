@@ -11,6 +11,7 @@
       "text": "Bash Automated Testing System"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -25,11 +26,13 @@
   ],
   "concept_id": "codespell",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "codespell",
   "observation_id": "16a7595c078eedb5",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T13:15:13.756138+00:00",
   "observed_text": "Codespell",
+  "source_context_snippet": null,
   "source_file": ".github/workflows/codespell.yml",
   "source_repo": "bats-core/bats-core",
   "source_repo_description": "Bash Automated Testing System"

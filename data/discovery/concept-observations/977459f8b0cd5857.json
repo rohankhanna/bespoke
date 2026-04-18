@@ -16,6 +16,7 @@
       "text": "An RPC framework for Rust with a focus on ease of use."
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -30,6 +31,7 @@
   ],
   "concept_id": "asynchronous-programming",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "asynchronous-programming",
   "observation_id": "977459f8b0cd5857",
   "observation_kind": "repo-topic",

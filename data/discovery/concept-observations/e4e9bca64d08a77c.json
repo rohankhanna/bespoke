@@ -16,6 +16,7 @@
       "text": "Comprehensive paid advertising audit & optimization skill for Claude Code. 250+ checks across Google, Meta, YouTube, LinkedIn, TikTok, Microsoft & Apple Ads with weighted scoring, parallel agents, industry templates, and AI creative generation."
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -30,6 +31,7 @@
   ],
   "concept_id": "marketing-automation",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "marketing-automation",
   "observation_id": "e4e9bca64d08a77c",
   "observation_kind": "repo-topic",

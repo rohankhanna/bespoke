@@ -8,6 +8,7 @@
     "data-document-artifact"
   ],
   "candidate_definitions": [],
+  "candidate_glosses": [],
   "canonical_name": "dependabot-sync",
   "concept_id": "dependabot-sync",
   "definition_status": "unresolved",
@@ -26,6 +27,7 @@
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
+  "gloss_status": "unresolved",
   "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "possible_senses": [
     {

@@ -4,9 +4,31 @@
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
-    "tool-component"
+    "tool-component",
+    "capability"
   ],
-  "candidate_definitions": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dokploy/cli",
+      "status": "candidate-context",
+      "text": "Dokploy CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dokploy/cli",
+      "status": "candidate-context",
+      "text": "@dokploy/cli \u2014 A CLI to manage dokploy server remotely"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dokploy/cli",
+      "status": "candidate",
+      "text": "@dokploy/cli \u2014 A CLI to manage dokploy server remotely"
+    }
+  ],
   "canonical_name": "dokploy",
   "concept_id": "dokploy",
   "definition_status": "unresolved",
@@ -16,10 +38,17 @@
       "observed_at": "2026-04-18T10:25:53.609022+00:00",
       "source_file": null,
       "source_repo": "fcakyon/claude-codex-settings"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:50:38.061794+00:00",
+      "source_file": null,
+      "source_repo": "Dokploy/cli"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "possible_senses": [
     {
       "buckets": [

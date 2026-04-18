@@ -5,6 +5,7 @@
     "data-document-artifact"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -19,11 +20,13 @@
   ],
   "concept_id": "release-docker-image",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "release-docker-image",
   "observation_id": "b8f7ab5a3ed1dda9",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:24:14.688152+00:00",
   "observed_text": "Release Docker Image",
+  "source_context_snippet": null,
   "source_file": ".github/workflows/release.yml",
   "source_repo": "zsio/claude-code-hub",
   "source_repo_description": null

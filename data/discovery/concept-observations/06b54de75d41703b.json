@@ -16,6 +16,7 @@
       "text": "Node.js CI"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -30,6 +31,7 @@
   ],
   "concept_id": "node.js-ci",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "node.js-ci",
   "observation_id": "06b54de75d41703b",
   "observation_kind": "workflow-name",

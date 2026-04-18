@@ -1,20 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "K-Dense-AI/scientific-agent-skills",
-      "target": "k-dense-ai/k-dense-byok",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "K-Dense-AI/scientific-agent-skills",
-      "target": "cisco-ai-defense/skill-scanner",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-skill-scan.yml",
       "source_repo": "K-Dense-AI/scientific-agent-skills",
@@ -204,6 +190,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-18T09:45:12.634395+00:00",
+  "generated_at": "2026-04-18T13:50:38.061794+00:00",
   "source_repo": "K-Dense-AI/scientific-agent-skills"
 }

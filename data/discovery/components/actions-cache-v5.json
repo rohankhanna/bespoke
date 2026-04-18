@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@v5",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -92,6 +92,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/regression.yml",
       "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "upstash/context7"
     }
   ]
 }

@@ -16,6 +16,7 @@
       "text": "Test GitHub Action"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -30,6 +31,7 @@
   ],
   "concept_id": "test-github-action",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "test-github-action",
   "observation_id": "b908526a428bd490",
   "observation_kind": "workflow-name",

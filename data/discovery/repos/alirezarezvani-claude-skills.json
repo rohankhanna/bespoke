@@ -1,0 +1,741 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-quality-gate.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-quality-gate.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-quality-gate.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enforce-pr-target.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-issue-auto-close.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-issue-auto-close.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-issue-auto-close.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-issue-auto-close.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-issue-auto-close.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skill-quality-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skill-quality-review.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skill-quality-review.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skill-quality-review.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skill-quality-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skill-security-audit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skill-security-audit.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skill-security-audit.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skill-security-audit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smart-sync.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smart-sync.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smart-sync.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "alirezarezvani/claude-code-tresor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "digidai/product-manager-skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-quality-gate.yml",
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-quality-gate.yml",
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-quality-gate.yml",
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-quality-gate.yml",
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "CI Quality Gate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "Claude Code Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enforce-pr-target.yml",
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enforce-pr-target.yml",
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "Enforce PR Target Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-issue-auto-close.yml",
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-issue-auto-close.yml",
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-issue-auto-close.yml",
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "Auto-Close Issues on PR Merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skill-quality-review.yml",
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skill-quality-review.yml",
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skill-quality-review.yml",
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skill-quality-review.yml",
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/skill-quality-review.yml",
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "Skill Quality Review (Tessl)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skill-security-audit.yml",
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skill-security-audit.yml",
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skill-security-audit.yml",
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/skill-security-audit.yml",
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "Skill Security Audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smart-sync.yml",
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/smart-sync.yml",
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "Smart Bidirectional Sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "agent-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "agent-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "agentic-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "ai-coding-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "anthropic-claude",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "claude-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "claude-code-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "claude-code-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "claude-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "codex-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "coding-agent-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "cursor-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "gemini-cli-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "openai-codex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "openclaw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "openclaw-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "openclaw-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-skills",
+      "target": "prompt-engineering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T13:51:25.936133+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18055
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 133
+    },
+    {
+      "path": ".github/workflows/ci-quality-gate.yml",
+      "size": 3992
+    },
+    {
+      "path": ".github/workflows/claude-code-review.yml",
+      "size": 5409
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 1897
+    },
+    {
+      "path": ".github/workflows/enforce-pr-target.yml",
+      "size": 1836
+    },
+    {
+      "path": ".github/workflows/pr-issue-auto-close.yml",
+      "size": 7237
+    },
+    {
+      "path": ".github/workflows/skill-quality-review.yml",
+      "size": 10957
+    },
+    {
+      "path": ".github/workflows/skill-security-audit.yml",
+      "size": 8580
+    },
+    {
+      "path": ".github/workflows/smart-sync.yml",
+      "size": 13834
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "232+ Claude Code skills & agent plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents \u2014 engineering, marketing, product, compliance, C-level advisory.",
+    "full_name": "alirezarezvani/claude-skills",
+    "html_url": "https://github.com/alirezarezvani/claude-skills",
+    "language": "Python",
+    "pushed_at": "2026-04-13T12:23:54Z",
+    "topics": [
+      "agent-plugins",
+      "agent-skills",
+      "agentic-ai",
+      "ai-coding-agent",
+      "anthropic-claude",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugins",
+      "claude-code-skills",
+      "claude-skills",
+      "codex-skills",
+      "coding-agent-plugins",
+      "cursor-skills",
+      "developer-tools",
+      "gemini-cli-skills",
+      "openai-codex",
+      "openclaw",
+      "openclaw-plugins",
+      "openclaw-skills",
+      "prompt-engineering"
+    ],
+    "updated_at": "2026-04-18T13:43:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alirezarezvani/claude-code-tresor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "digidai/product-manager-skills",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI Quality Gate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-quality-gate.yml",
+      "term": "CI Quality Gate"
+    },
+    {
+      "context_snippet": "Claude Code Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "term": "Claude Code Review"
+    },
+    {
+      "context_snippet": "Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude Code"
+    },
+    {
+      "context_snippet": "Enforce PR Target Branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enforce-pr-target.yml",
+      "term": "Enforce PR Target Branch"
+    },
+    {
+      "context_snippet": "Auto-Close Issues on PR Merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-issue-auto-close.yml",
+      "term": "Auto-Close Issues on PR Merge"
+    },
+    {
+      "context_snippet": "Skill Quality Review (Tessl)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/skill-quality-review.yml",
+      "term": "Skill Quality Review (Tessl)"
+    },
+    {
+      "context_snippet": "Skill Security Audit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/skill-security-audit.yml",
+      "term": "Skill Security Audit"
+    },
+    {
+      "context_snippet": "Smart Bidirectional Sync",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/smart-sync.yml",
+      "term": "Smart Bidirectional Sync"
+    },
+    {
+      "context_snippet": "**235 production-ready Claude Code skills, plugins, and agent skills for 12 AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-plugins"
+    },
+    {
+      "context_snippet": "**235 production-ready Claude Code skills, plugins, and agent skills for 12 AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-skills"
+    },
+    {
+      "context_snippet": "**235 production-ready Claude Code skills, plugins, and agent skills for 12 AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-ai"
+    },
+    {
+      "context_snippet": "**235 production-ready Claude Code skills, plugins, and agent skills for 12 AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-coding-agent"
+    },
+    {
+      "context_snippet": "**235 production-ready Claude Code skills, plugins, and agent skills for 12 AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anthropic-claude"
+    },
+    {
+      "context_snippet": "**235 production-ready Claude Code skills, plugins, and agent skills for 12 AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-ai"
+    },
+    {
+      "context_snippet": "**235 production-ready Claude Code skills, plugins, and agent skills for 12 AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "**235 production-ready Claude Code skills, plugins, and agent skills for 12 AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code-plugins"
+    },
+    {
+      "context_snippet": "**235 production-ready Claude Code skills, plugins, and agent skills for 12 AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code-skills"
+    },
+    {
+      "context_snippet": "**235 production-ready Claude Code skills, plugins, and agent skills for 12 AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-skills"
+    },
+    {
+      "context_snippet": "**235 production-ready Claude Code skills, plugins, and agent skills for 12 AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codex-skills"
+    },
+    {
+      "context_snippet": "**235 production-ready Claude Code skills, plugins, and agent skills for 12 AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coding-agent-plugins"
+    },
+    {
+      "context_snippet": "**235 production-ready Claude Code skills, plugins, and agent skills for 12 AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cursor-skills"
+    },
+    {
+      "context_snippet": "**235 production-ready Claude Code skills, plugins, and agent skills for 12 AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-tools"
+    },
+    {
+      "context_snippet": "**235 production-ready Claude Code skills, plugins, and agent skills for 12 AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini-cli-skills"
+    },
+    {
+      "context_snippet": "**235 production-ready Claude Code skills, plugins, and agent skills for 12 AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openai-codex"
+    },
+    {
+      "context_snippet": "**235 production-ready Claude Code skills, plugins, and agent skills for 12 AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openclaw"
+    },
+    {
+      "context_snippet": "**235 production-ready Claude Code skills, plugins, and agent skills for 12 AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openclaw-plugins"
+    },
+    {
+      "context_snippet": "**235 production-ready Claude Code skills, plugins, and agent skills for 12 AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openclaw-skills"
+    },
+    {
+      "context_snippet": "**235 production-ready Claude Code skills, plugins, and agent skills for 12 AI coding tools.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt-engineering"
+    }
+  ]
+}

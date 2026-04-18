@@ -11,6 +11,7 @@
       "text": "Deploy Storybook to GitHub Pages"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -25,6 +26,7 @@
   ],
   "concept_id": "deploy-storybook-to-github-pages",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "deploy-storybook-to-github-pages",
   "observation_id": "59bc7aeeb0b629c7",
   "observation_kind": "workflow-name",

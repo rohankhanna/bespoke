@@ -1,7 +1,7 @@
 {
   "component": "chalk",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -142,6 +142,11 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "affaan-m/agentshield"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Dokploy/cli"
     }
   ]
 }

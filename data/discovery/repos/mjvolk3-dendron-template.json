@@ -1,0 +1,145 @@
+{
+  "components": [
+    {
+      "component": "@dendronhq/dendron-cli",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_app.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_app.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_app.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Mjvolk3/Dendron-Template",
+      "target": "@dendronhq/dendron-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Mjvolk3/Dendron-Template",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Mjvolk3/Dendron-Template",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Mjvolk3/Dendron-Template",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Mjvolk3/Dendron-Template",
+      "target": "Build Dendron Static Site",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_app.yaml",
+      "source_repo": "Mjvolk3/Dendron-Template",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_app.yaml",
+      "source_repo": "Mjvolk3/Dendron-Template",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python_app.yaml",
+      "source_repo": "Mjvolk3/Dendron-Template",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-18T13:50:40.561067+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 660
+    },
+    {
+      "path": "package.json",
+      "size": 69
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1561
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1738
+    },
+    {
+      "path": ".github/workflows/python_app.yaml",
+      "size": 1050
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "A template for starting publishable dendron-code projects",
+    "full_name": "Mjvolk3/Dendron-Template",
+    "html_url": "https://github.com/Mjvolk3/Dendron-Template",
+    "language": "HTML",
+    "pushed_at": "2026-02-20T15:48:17Z",
+    "topics": [],
+    "updated_at": "2026-02-20T15:48:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Dendron Static Site",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Build Dendron Static Site"
+    }
+  ]
+}

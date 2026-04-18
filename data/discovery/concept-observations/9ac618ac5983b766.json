@@ -5,6 +5,7 @@
     "data-document-artifact"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -19,11 +20,13 @@
   ],
   "concept_id": "yolo-update-pins",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "yolo-update-pins",
   "observation_id": "9ac618ac5983b766",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T10:38:37.562216+00:00",
   "observed_text": "Yolo Update Pins",
+  "source_context_snippet": null,
   "source_file": ".github/workflows/yolo-update.yml",
   "source_repo": "openclaw/nix-openclaw",
   "source_repo_description": null

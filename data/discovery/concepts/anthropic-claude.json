@@ -7,7 +7,46 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alirezarezvani/claude-skills",
+      "status": "candidate-context",
+      "text": "232+ Claude Code skills & agent plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents \u2014 engineering, marketing, product, compliance, C-level advisory."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alirezarezvani/claude-skills",
+      "status": "candidate-context",
+      "text": "**235 production-ready Claude Code skills, plugins, and agent skills for 12 AI coding tools.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wshobson/agents",
+      "status": "candidate-context",
+      "text": "Intelligent automation and multi-agent orchestration for Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wshobson/agents",
+      "status": "candidate-context",
+      "text": "> **\u26a1 Updated for Opus 4.7, Sonnet 4.6 & Haiku 4.5** \u2014 Three-tier model strategy for optimal performance"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alirezarezvani/claude-skills",
+      "status": "candidate",
+      "text": "**235 production-ready Claude Code skills, plugins, and agent skills for 12 AI coding tools.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wshobson/agents",
+      "status": "candidate",
+      "text": "> **\u26a1 Updated for Opus 4.7, Sonnet 4.6 & Haiku 4.5** \u2014 Three-tier model strategy for optimal performance"
+    }
+  ],
   "canonical_name": "anthropic-claude",
   "concept_id": "anthropic-claude",
   "definition_status": "unresolved",
@@ -23,10 +62,23 @@
       "observed_at": "2026-04-18T11:57:36.597358+00:00",
       "source_file": null,
       "source_repo": "maxritter/pilot-shell-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:50:38.061794+00:00",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-skills"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:50:38.061794+00:00",
+      "source_file": null,
+      "source_repo": "wshobson/agents"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "possible_senses": [
     {
       "buckets": [

@@ -5,6 +5,7 @@
     "data-document-artifact"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -19,11 +20,13 @@
   ],
   "concept_id": "pr-labeler",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "pr-labeler",
   "observation_id": "57382075902e3468",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:56:18.570627+00:00",
   "observed_text": "PR Labeler",
+  "source_context_snippet": null,
   "source_file": ".github/workflows/labeler.yml",
   "source_repo": "folke/lazy.nvim",
   "source_repo_description": null

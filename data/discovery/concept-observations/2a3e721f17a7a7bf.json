@@ -1,0 +1,50 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> **\ud83d\udd14 Claude Scientific Skills is now Scientific Agent Skills.** Same skills, broader compatibility \u2014 now works with any AI agent that supports the open [Agent Skills](https://agentskills.io/) standard, not just Claude."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> **\ud83d\udd14 Claude Scientific Skills is now Scientific Agent Skills.** Same skills, broader compatibility \u2014 now works with any AI agent that supports the open [Agent Skills](https://agentskills.io/) standard, not just Claude."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scientific-computing",
+      "sense_id": "scientific-computing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "scientific-computing",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "normalized_form": "scientific-computing",
+  "observation_id": "2a3e721f17a7a7bf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T13:50:38.061794+00:00",
+  "observed_text": "scientific-computing",
+  "source_context_snippet": "> **\ud83d\udd14 Claude Scientific Skills is now Scientific Agent Skills.** Same skills, broader compatibility \u2014 now works with any AI agent that supports the open [Agent Skills](https://agentskills.io/) standard, not just Claude.",
+  "source_file": null,
+  "source_repo": "K-Dense-AI/scientific-agent-skills",
+  "source_repo_description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing."
+}

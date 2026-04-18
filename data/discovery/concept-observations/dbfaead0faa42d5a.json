@@ -5,6 +5,7 @@
     "data-document-artifact"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -19,11 +20,13 @@
   ],
   "concept_id": "release-trigger",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "release-trigger",
   "observation_id": "dbfaead0faa42d5a",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:57:36.597358+00:00",
   "observed_text": "Release Trigger",
+  "source_context_snippet": null,
   "source_file": ".github/workflows/release-trigger.yml",
   "source_repo": "github/spec-kit",
   "source_repo_description": null

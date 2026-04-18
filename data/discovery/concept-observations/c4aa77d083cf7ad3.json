@@ -5,6 +5,7 @@
     "data-document-artifact"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -19,11 +20,13 @@
   ],
   "concept_id": "zig-cross-compile",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "zig-cross-compile",
   "observation_id": "c4aa77d083cf7ad3",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:41:43.530265+00:00",
   "observed_text": "Zig-Cross-Compile",
+  "source_context_snippet": null,
   "source_file": ".github/workflows/zig.yaml",
   "source_repo": "napi-rs/napi-rs",
   "source_repo_description": null

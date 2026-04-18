@@ -131,13 +131,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "anthropics/claude-cookbooks",
-      "target": "anthropics/courses",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "anthropics/claude-cookbooks",
       "target": "anthropics/anthropic-cookbook",
       "target_type": "repository"
     },
@@ -373,7 +366,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T12:47:04.446773+00:00",
+  "fetched_at": "2026-04-18T13:51:33.745108+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -425,17 +418,12 @@
     "language": "Jupyter Notebook",
     "pushed_at": "2026-04-17T01:15:54Z",
     "topics": [],
-    "updated_at": "2026-04-18T12:22:07Z"
+    "updated_at": "2026-04-18T13:19:40Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "anthropics/anthropic-cookbook",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "anthropics/courses",
       "source_file": "README.md"
     },
     {
@@ -446,41 +434,49 @@
   ],
   "terms": [
     {
+      "context_snippet": "Claude Link Review",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/claude-link-review.yml",
       "term": "Claude Link Review"
     },
     {
+      "context_snippet": "Claude Model Check",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/claude-model-check.yml",
       "term": "Claude Model Check"
     },
     {
+      "context_snippet": "Claude PR Review",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/claude-pr-review.yml",
       "term": "Claude PR Review"
     },
     {
+      "context_snippet": "Link Check",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/links.yml",
       "term": "Link Check"
     },
     {
+      "context_snippet": "Lint and Format Check",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/lint-format.yml",
       "term": "Lint and Format Check"
     },
     {
+      "context_snippet": "Notebook Diff Comment",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/notebook-diff-comment.yml",
       "term": "Notebook Diff Comment"
     },
     {
+      "context_snippet": "Notebook Quality Check",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/notebook-quality.yml",
       "term": "Notebook Quality Check"
     },
     {
+      "context_snippet": "Notebook Tests",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/notebook-tests.yml",
       "term": "Notebook Tests"

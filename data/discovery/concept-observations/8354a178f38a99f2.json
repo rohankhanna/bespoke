@@ -5,6 +5,7 @@
     "capability"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -19,11 +20,13 @@
   ],
   "concept_id": "plugin",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "plugin",
   "observation_id": "8354a178f38a99f2",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:57:36.597358+00:00",
   "observed_text": "plugin",
+  "source_context_snippet": null,
   "source_file": null,
   "source_repo": "jarrodwatts/claude-hud",
   "source_repo_description": null

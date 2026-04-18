@@ -11,6 +11,7 @@
       "text": "Test"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -25,6 +26,7 @@
   ],
   "concept_id": "test",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "test",
   "observation_id": "084fb408ae47b0f8",
   "observation_kind": "workflow-name",

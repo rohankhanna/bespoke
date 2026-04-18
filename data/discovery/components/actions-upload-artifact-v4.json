@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -702,6 +702,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "affaan-m/agentshield"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "automazeio/proof"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "phiat/claude-esp-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/eval-report.yml",
+      "source_repo": "wshobson/agents"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ldayton/Parable"
     }
   ]
 }

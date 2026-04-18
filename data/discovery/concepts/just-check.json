@@ -1,0 +1,58 @@
+{
+  "aliases": [
+    "Just Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ldayton/Parable",
+      "status": "candidate-context",
+      "text": "\ud83c\udf00 A complete bash parser that handles every edge case \u2014 extensively validated against bash itself \u2014 one file, zero dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldayton/Parable",
+      "status": "candidate-context",
+      "text": "Just Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldayton/Parable",
+      "status": "candidate",
+      "text": "Just Check"
+    }
+  ],
+  "canonical_name": "Just Check",
+  "concept_id": "just-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T13:50:38.061794+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ldayton/Parable"
+    }
+  ],
+  "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Just Check",
+      "sense_id": "just-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -32,6 +32,9 @@
   "agent-harness": [
     "e56c383598a6f6fc"
   ],
+  "agent-plugins": [
+    "a9c15fa6cb8c0991"
+  ],
   "agent-session-drift-check": [
     "57e589854aa5b789"
   ],
@@ -40,7 +43,9 @@
   ],
   "agent-skills": [
     "30a1637cc62aff3e",
-    "878e59907e81008f"
+    "878e59907e81008f",
+    "b6adf30fc7b9b216",
+    "e900dbfb9d3525f3"
   ],
   "agent-to-agent": [
     "43586ce0724f3610"
@@ -55,7 +60,8 @@
     "039c6becad914162",
     "177874857f91a439",
     "27dc29ef2923035e",
-    "2f779fee1e18d3d0"
+    "2f779fee1e18d3d0",
+    "a2d9b22d2d13eeac"
   ],
   "agentic-cli": [
     "e63ead7e4cc3ef02"
@@ -101,6 +107,9 @@
     "774d241862144bfb",
     "e6bc6e944340574a"
   ],
+  "ai-coding-agent": [
+    "04aa4bf75d651eac"
+  ],
   "ai-detection": [
     "a00608a3aa3ef383"
   ],
@@ -127,6 +136,9 @@
   ],
   "ai-pipeline": [
     "62a4f27f775896b1"
+  ],
+  "ai-scientist": [
+    "a9d2657ae2718e10"
   ],
   "ai-seo": [
     "966ea58be9b29e82"
@@ -163,11 +175,14 @@
     "8740b1ae9c5a34c9",
     "98434ee771c766a0",
     "9b2062791949d6ee",
+    "a7b171705ffb82b3",
     "fae14e8db15ce24b"
   ],
   "anthropic-claude": [
+    "251678bbeed9a4a8",
     "b98fdeb5051cb46a",
-    "db73ea616f6c2f75"
+    "db73ea616f6c2f75",
+    "eb77ab95af106fa6"
   ],
   "anthropic-claude-ai": [
     "1e80da91711bd63b"
@@ -248,6 +263,9 @@
   "auto-close-duplicate-issues": [
     "10d5beed230739df"
   ],
+  "auto-close-issues-on-pr-merge": [
+    "59447405ebbf1cb5"
+  ],
   "auto-label-claude-prs": [
     "74e395f3fbcbb3f6"
   ],
@@ -277,6 +295,7 @@
   "automation": [
     "41f974021cae736b",
     "4db1a2a5befeff1e",
+    "8d542baaa233920d",
     "ac7d152f5b783a31",
     "c255bd7c9e144857",
     "e97f060e8ea3c1e2"
@@ -319,6 +338,7 @@
     "e63287ac81cd9a0f"
   ],
   "bash": [
+    "05639fc94de27141",
     "a0fb678fb4f3d871",
     "b52944348c536d18"
   ],
@@ -377,6 +397,9 @@
   ],
   "binary": [
     "de8e65a1d4776465"
+  ],
+  "bioinformatics": [
+    "01fb25818cc71244"
   ],
   "blackwell": [
     "472d83fed2752887",
@@ -449,6 +472,9 @@
   ],
   "build-daft-wheel": [
     "743108ddec8096d3"
+  ],
+  "build-dendron-static-site": [
+    "f7353b7e668bfeac"
   ],
   "build-diskann-native-modules": [
     "e689f41a7231e844"
@@ -528,6 +554,9 @@
   "c-linter-comment": [
     "d7fe61c0af7343bc"
   ],
+  "canary-release": [
+    "a6e99c14251cd66b"
+  ],
   "cancel-pr-workflows-on-merge": [
     "abfd0ce27df7661a"
   ],
@@ -548,6 +577,9 @@
   ],
   "cc-proxy": [
     "227d41824e9a54dd"
+  ],
+  "changeset-check": [
+    "97b46b708086d69d"
   ],
   "charts": [
     "ead00b75f5692c06",
@@ -590,6 +622,9 @@
   "checks": [
     "606557cbd9e6d4cd"
   ],
+  "chemoinformatics": [
+    "e574f933125a23ed"
+  ],
   "chromadb": [
     "4e42836557ffb784"
   ],
@@ -610,6 +645,9 @@
   ],
   "ci---libnpmpack": [
     "4ec6a32f2eedb197"
+  ],
+  "ci-quality-gate": [
+    "624612faad6af0b9"
   ],
   "ci-release": [
     "09c696862d160fc2"
@@ -633,6 +671,7 @@
   "claude-ai": [
     "4d1a951b02150b0f",
     "59a0dc271330ae0b",
+    "6583418270394d28",
     "9e9be17d57a5a57b"
   ],
   "claude-auto-e2e-testing": [
@@ -647,6 +686,7 @@
     "26557da473e8ce9b",
     "274a86ff885ebba1",
     "2b02c5634bad734a",
+    "302992412f64ddf9",
     "30302c0c2b875d26",
     "46e099fca5839f08",
     "47fa7ee3795f9994",
@@ -678,20 +718,32 @@
     "db9d0b060351ceab",
     "dbee39c0394e5acb",
     "dd8d53be4e27ec38",
-    "ebea5c0ee43a4581"
+    "e7e4ad6aebc7a6e3",
+    "ebea5c0ee43a4581",
+    "fc05da53b9ee5138"
   ],
   "claude-code-cli": [
     "5f47c278a2460a00",
-    "acef4beaae1467a6"
+    "acef4beaae1467a6",
+    "c6536d4be09ec382"
+  ],
+  "claude-code-commands": [
+    "791a978915667434"
   ],
   "claude-code-plugin": [
-    "4b7496f9bcd91873"
+    "4b7496f9bcd91873",
+    "9dd9c4c6258908eb"
   ],
   "claude-code-plugins": [
-    "0eca1329dbd63eb1"
+    "0eca1329dbd63eb1",
+    "6a2c193b9a7325a8",
+    "89a753fb1132e9b1"
   ],
   "claude-code-proxy": [
     "75b634ab1fc35e58"
+  ],
+  "claude-code-review": [
+    "eae6b46936ea8110"
   ],
   "claude-code-skill": [
     "2edde4044002971f",
@@ -700,7 +752,12 @@
   ],
   "claude-code-skills": [
     "28ccda7328f26383",
+    "65ea63f28a38888b",
+    "8284218415bbd4b7",
     "b29a9b849ac7bd24"
+  ],
+  "claude-code-subagents": [
+    "1656a9ce7d90b995"
   ],
   "claude-code-system-prompts": [
     "97744719c1b4a571"
@@ -738,13 +795,22 @@
   ],
   "claude-skills": [
     "064ad320a1022eed",
+    "63130b8141257cb6",
+    "8a1791d2b47c3b4d",
+    "b4d09478ef23c658",
     "d0aa1a0118ef5615"
   ],
   "claudecode": [
-    "9e4b88d291647cc9"
+    "69d2b122268949ea",
+    "9e4b88d291647cc9",
+    "b7c94435d04a7213"
   ],
   "claudecode-config": [
+    "3ea6466aac0dc226",
     "b241b13000cb0ca7"
+  ],
+  "claudecode-subagents": [
+    "27d29ce4e1c2a1a0"
   ],
   "clawdbot": [
     "012f405d847ae9b2"
@@ -763,6 +829,9 @@
   ],
   "climbing": [
     "3634809d71be671f"
+  ],
+  "clinical-research": [
+    "0b1b5f43bddb0a82"
   ],
   "close-external-prs": [
     "ff1d1e8d50c93429"
@@ -800,6 +869,9 @@
   ],
   "close-stalled-issues-and-prs": [
     "22c6032247dfaf79"
+  ],
+  "cloudflare": [
+    "58962d7c76e652d3"
   ],
   "cluade": [
     "da4260c1b623bcb5"
@@ -856,8 +928,17 @@
     "56062a6f10d9f79e",
     "77634804ad2e25e9"
   ],
+  "codex-skills": [
+    "3e8f36fdea4420e3"
+  ],
   "coding": [
     "81968221588155e1"
+  ],
+  "coding-agent-plugins": [
+    "fa5b183ae5fee007"
+  ],
+  "codons": [
+    "5d7ccacac703b456"
   ],
   "collective-intelligence": [
     "dd884e17d419ccbf"
@@ -887,6 +968,10 @@
   ],
   "component-integration-tests": [
     "d329c77546a3616a"
+  ],
+  "computational-biology": [
+    "028b034f6ea2ffbe",
+    "760c079eef51d445"
   ],
   "conceptual-modeling": [
     "d3a5f22e7e3d311e"
@@ -957,6 +1042,7 @@
     "47ef92f17255262a"
   ],
   "create-release": [
+    "cfc525b0686a6445",
     "dc822a1677c5f48b"
   ],
   "create-releases": [
@@ -997,6 +1083,9 @@
     "a4ddba91895f3151",
     "c3eeecd346add8ba"
   ],
+  "cursor-skills": [
+    "98fa8c5b586942c6"
+  ],
   "cybersecurity": [
     "347ad809f8b489a6"
   ],
@@ -1008,6 +1097,9 @@
   ],
   "dark-mode": [
     "056fa4f2a62e37cd"
+  ],
+  "data-analysis": [
+    "1648150322632447"
   ],
   "data-engineering": [
     "f5828db705b4fd73"
@@ -1029,6 +1121,7 @@
     "d3f2c160d7385cf6"
   ],
   "deep-learning": [
+    "0230cfa654f97cbd",
     "04092c44c3d50800",
     "45d08ed2155c6315"
   ],
@@ -1098,6 +1191,9 @@
   "deploy-storybook-to-github-pages": [
     "59bc7aeeb0b629c7"
   ],
+  "deploy-to-aws-ecr": [
+    "e653f5d48ea3273e"
+  ],
   "deploy-to-github-pages": [
     "f1bf91b6f907b84b"
   ],
@@ -1115,6 +1211,7 @@
   ],
   "developer-tools": [
     "0f3b5eb2ad3c23e8",
+    "7ccd4b5a8ee83e03",
     "b04f59a29425d4ed",
     "cde070b58808dc44"
   ],
@@ -1216,7 +1313,11 @@
     "00170f2084b24785"
   ],
   "dokploy": [
+    "5cc5b1e6986dfb35",
     "7d25e8ef36f68adc"
+  ],
+  "drug-discovery": [
+    "9cc9b313a242d0dc"
   ],
   "dsa": [
     "eadcef68a528de9f"
@@ -1268,6 +1369,9 @@
   ],
   "enable-auto-merge-for-dependabot-prs": [
     "15e298e2aaa5f035"
+  ],
+  "enforce-pr-target-branch": [
+    "79a253c3cf6835cd"
   ],
   "engineering": [
     "b3d31419b583c5e0",
@@ -1396,6 +1500,9 @@
     "09416f2ccf60bf57",
     "a105460b4f99c0e5"
   ],
+  "gemini-cli-skills": [
+    "b7f6f1387f60ec2c"
+  ],
   "gemma": [
     "12f84068a7772a39"
   ],
@@ -1415,6 +1522,9 @@
   "generative-ai": [
     "2798c5ff1115bcab",
     "c0097d4a01032cdc"
+  ],
+  "genomics": [
+    "6fbb65f7fb79d64c"
   ],
   "git-diff": [
     "4547791bb0a94606"
@@ -1677,6 +1787,9 @@
   "junit": [
     "8eb3140006a5bf84"
   ],
+  "just-check": [
+    "7a7c1250d70c9370"
+  ],
   "k8s-sig-architecture": [
     "c31ed33119892407"
   ],
@@ -1749,6 +1862,9 @@
   ],
   "language-model": [
     "80a5246fe6348ce1"
+  ],
+  "language-models": [
+    "0800d6232a487cad"
   ],
   "language-server": [
     "c337cd0146b739c5"
@@ -1874,6 +1990,7 @@
     "92f548f1d0328cad"
   ],
   "llms": [
+    "3eca709a6d25b085",
     "6d7b5713a7fee48c",
     "bb3b33334450e591",
     "d530e95237be0199"
@@ -1940,7 +2057,8 @@
   ],
   "machine-learning": [
     "2b1b88e0fdfcd92c",
-    "6ed9a5d8c3cba574"
+    "6ed9a5d8c3cba574",
+    "7319192c00a049ad"
   ],
   "macos": [
     "60c50c0fc251784b",
@@ -1969,6 +2087,9 @@
   "marshalling": [
     "9a6a9cbdc663b04e"
   ],
+  "materials-science": [
+    "06e01fc1c6ca363a"
+  ],
   "maxkb": [
     "6dc277fc8049a670"
   ],
@@ -1978,6 +2099,7 @@
   "mcp-server": [
     "0ddbfba73a5f36f4",
     "71338e258399a930",
+    "95713cdf0b375c53",
     "a54bb8a98db6a1ac",
     "ba7b0fd118db0926",
     "c08dfaf31932df83"
@@ -1996,6 +2118,9 @@
   ],
   "merge-pull-request": [
     "00bd155cfdfcdaca"
+  ],
+  "metabolomics": [
+    "e32310d976286560"
   ],
   "midjourney": [
     "9b81a95dcb29b257"
@@ -2187,7 +2312,11 @@
     "427417a598f29ec7",
     "70b303d643aaff28"
   ],
+  "openai-codex": [
+    "5006ef94f573cc69"
+  ],
   "openclaw": [
+    "00021f6bf02292b1",
     "225007b99981e109",
     "2917fb99b3550f4e",
     "83e43b5f24c4d6fe",
@@ -2195,6 +2324,12 @@
   ],
   "openclaw-gate": [
     "8e6d79860ed636ff"
+  ],
+  "openclaw-plugins": [
+    "8654372aa7c64c0a"
+  ],
+  "openclaw-skills": [
+    "bb8b4cff84df3d57"
   ],
   "opencode": [
     "5c0d2d2899c3ccd4",
@@ -2216,6 +2351,9 @@
   "opus": [
     "2ee5811898aad551"
   ],
+  "orchestration": [
+    "8875ba336b287a7a"
+  ],
   "orientation": [
     "babd59d214bf3ef7"
   ],
@@ -2232,6 +2370,9 @@
   ],
   "parquet": [
     "47cdad3fa503f91a"
+  ],
+  "parsing": [
+    "c1901649e77b4bf1"
   ],
   "patterns-artifact": [
     "00095256a896b056"
@@ -2271,6 +2412,9 @@
   "plugin": [
     "477ca425bd4d8237",
     "8354a178f38a99f2"
+  ],
+  "plugin-eval-report": [
+    "adb10d75c3aeb585"
   ],
   "plugin-manager": [
     "2142b3cfa8d1634a"
@@ -2316,6 +2460,9 @@
   "pr-review": [
     "67c047dcad143b46"
   ],
+  "pr-skill-scan": [
+    "f2c5dc8b53b12224"
+  ],
   "pr-test-build": [
     "f4552bdf10953579"
   ],
@@ -2357,6 +2504,7 @@
   ],
   "prompt-engineering": [
     "9058b22aee23d7fa",
+    "c0838a35bb5cc96c",
     "f1b1f6ecc97ac50e"
   ],
   "prompt-injection": [
@@ -2365,6 +2513,12 @@
   ],
   "prompt-injection-llm-security": [
     "501d965f026aa0ec"
+  ],
+  "protein-language-model": [
+    "8f6d3d309ff3d41b"
+  ],
+  "proteomics": [
+    "573415080651843c"
   ],
   "protobuf": [
     "348636da9ec77658",
@@ -2424,6 +2578,9 @@
   ],
   "publish-to-bcr": [
     "784b993d1e3fb958"
+  ],
+  "publish-to-mcp-registry": [
+    "f24fef53e1f836e3"
   ],
   "publish-to-npm": [
     "01ef7ddf879c8094",
@@ -2556,18 +2713,22 @@
     "1744ed774d8b7045",
     "28ad526aa72da784",
     "29ba3904f9f08256",
+    "30a9eb442f64bcb5",
     "31e141949056cd5a",
+    "3783c12435b96c44",
     "37ff09385ccfae82",
     "3f297a355bef0469",
     "4dc8b1ba18670136",
     "54cddcb0f340fbd3",
     "685b8eae824865fe",
     "6916ee1c7820a462",
+    "6d877fbe203f5f71",
     "6f7c92253766a5b0",
     "768d4bb85bc81a51",
     "95e3f84c3e52c452",
     "97c4746dbed2d137",
     "9f1501458d9a69e7",
+    "a2e982b5419dfa8c",
     "a387c983202605ba",
     "ab0487313f5304c0",
     "b3f70b7a6995816c",
@@ -2581,6 +2742,9 @@
     "f42e5ed938ec068b",
     "f5001215515539cc",
     "f887ade62d71c4bc"
+  ],
+  "release-and-publish": [
+    "d3564f2b6ba8b8fe"
   ],
   "release-candidate": [
     "489c25e837bbbee1"
@@ -2743,16 +2907,24 @@
     "b9dbf9c68092925c",
     "bd2d8ea809bc612b",
     "dd03ddd7d1fd5f05",
-    "ed485b985e7e794e"
+    "ed485b985e7e794e",
+    "f8a96f01c8635943"
   ],
   "rustpython": [
     "93be2dd5d95d7cb8"
   ],
   "sast": [
+    "64e660a6028f1e09",
     "b650f4c22566a8d8"
   ],
   "scan-agent-skills": [
     "4746336ac9f52d14"
+  ],
+  "scientific-computing": [
+    "2a3e721f17a7a7bf"
+  ],
+  "scientific-visualization": [
+    "28061b170bf2b542"
   ],
   "scorecard-supply-chain-security": [
     "2b1b5b51f41fb235",
@@ -2814,7 +2986,14 @@
   "signatures": [
     "376fb4f78c763724"
   ],
+  "skill-quality-review-tessl": [
+    "08d4e483a7199f88"
+  ],
+  "skill-security-audit": [
+    "ab754d5763136414"
+  ],
   "skills": [
+    "406bc371dde5486d",
     "9adef701e572738f",
     "a16c96ba65db8d0d",
     "db7a7ea6ae2df7df"
@@ -2828,6 +3007,9 @@
   ],
   "slash-commands": [
     "2238cd0f168a0056"
+  ],
+  "smart-bidirectional-sync": [
+    "b50548e524bcc9f1"
   ],
   "software-supply-chain-security": [
     "2a7bad6ba79417ee"
@@ -2909,6 +3091,9 @@
   "static-site-generator": [
     "67e51575577ecf00"
   ],
+  "staticcheck": [
+    "db980edf38aee52e"
+  ],
   "statistics": [
     "3b2670075c8e5e25"
   ],
@@ -2947,6 +3132,12 @@
   ],
   "stylua": [
     "c426f021d3a48bd3"
+  ],
+  "sub-agents": [
+    "ea2f853709e77897"
+  ],
+  "subagents": [
+    "e638123bbf30cb7d"
   ],
   "svgo": [
     "73d9f1290351750f"
@@ -3006,9 +3197,11 @@
     "07dc7ce444487920",
     "084fb408ae47b0f8",
     "113ef3577bbcaf79",
+    "16f78148075971a3",
     "32ffe4a30322670a",
     "3b83e11e64608525",
     "876ddb9e20ca782d",
+    "a3c9636a198aad1f",
     "a6bbf4330ca9f03c",
     "bf8e63ee3a506307",
     "cf8534c6e085ca5d",
@@ -3037,6 +3230,9 @@
     "d220ac352370d107",
     "e1662ddd3d64a1fd",
     "e84e17b722ffca45"
+  ],
+  "test-claudecode-integration": [
+    "958546c6f371384b"
   ],
   "test-docker-images": [
     "c9e85d6566a98771"
@@ -3098,6 +3294,7 @@
     "2e38210a57fa3b3c",
     "64525c046caac673",
     "7d65aa3410d1397d",
+    "8236c3d7b0b5a18f",
     "e6f8204c1d7c4cfd"
   ],
   "tests-and-code-quality": [
@@ -3137,7 +3334,8 @@
   ],
   "transpiler": [
     "3f8ffaaaefdf9b6e",
-    "88b92c967e74aaf6"
+    "88b92c967e74aaf6",
+    "f52e669b09b7799e"
   ],
   "transport-interop---build-implementation-images": [
     "9fa3e4948773caed"
@@ -3186,6 +3384,9 @@
   "upscaling": [
     "7d94875a6a526ddd"
   ],
+  "validate": [
+    "d976012508c308f0"
+  ],
   "validate-data": [
     "6887bab40ad647ba"
   ],
@@ -3220,7 +3421,8 @@
     "a671db71c23edf04"
   ],
   "vibe-coding": [
-    "04c55472c197650c"
+    "04c55472c197650c",
+    "8300a06a013340b0"
   ],
   "virtual-idols": [
     "0fe3d50f5ca96c12"
@@ -3265,6 +3467,9 @@
   "wechat": [
     "51dee1ef4fb95baa"
   ],
+  "weekly-security-scan": [
+    "ad4bae7e29eeaec7"
+  ],
   "wiki-sync": [
     "f668dab8e87e306d"
   ],
@@ -3277,6 +3482,12 @@
   ],
   "work": [
     "29c77c1c6a10e05c"
+  ],
+  "workers": [
+    "bb8009f95f519f2a"
+  ],
+  "workflows": [
+    "7b379c49b7ca6910"
   ],
   "wxdump": [
     "454b5824f50a6df5"

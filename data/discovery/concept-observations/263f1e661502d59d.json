@@ -5,6 +5,7 @@
     "capability"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -19,11 +20,13 @@
   ],
   "concept_id": "mountaineering",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "mountaineering",
   "observation_id": "263f1e661502d59d",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:56:18.570627+00:00",
   "observed_text": "mountaineering",
+  "source_context_snippet": null,
   "source_file": null,
   "source_repo": "dreamiurg/mountaineers-mcp",
   "source_repo_description": null

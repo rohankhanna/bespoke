@@ -5,6 +5,7 @@
     "capability"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -19,11 +20,13 @@
   ],
   "concept_id": "searcher",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "searcher",
   "observation_id": "ec9e89eaef777b1b",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:32:22.637859+00:00",
   "observed_text": "searcher",
+  "source_context_snippet": null,
   "source_file": null,
   "source_repo": "chinanf-boy/ripgrep-zh",
   "source_repo_description": null

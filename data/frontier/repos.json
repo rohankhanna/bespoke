@@ -1,106 +1,6 @@
 {
-  "generated_at": "2026-04-18T13:29:00.435097+00:00",
+  "generated_at": "2026-04-18T13:50:38.061794+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "mjvolk3/dendron-template",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "oxpig/calm",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "anthropics/claude-code-security-review",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "behisecc/awesome-claude-skills",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "blader/claudeception",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "automazeio/proof",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "beehiveinnovations/zen-mcp-server",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "upstash/context7",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "fsnotify/fsnotify",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "phiat/claude-esp-rs",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "alirezarezvani/claude-skills",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "k-dense-ai/claude-scientific-skills",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "wshobson/agents",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "anthropics/anthropic-cookbook",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dp111/6502timing",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "klaus2m5/6502_65c02_functional_tests",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "stardot/b-em",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ldayton/parable",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "cloudflare/skills",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dokploy/cli",
-      "graph_distance": 4
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "andymik90/auto-claude",
@@ -1580,6 +1480,101 @@
       "discovered_via": "explicit-github-link",
       "full_name": "fatiando/pooch",
       "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "1nickpappas/move-code-quality-skill",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "8144225309/superscalar-mcp",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "adiny/moodtrip-hotel-search",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "agamm/claude-code-owasp",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "automazeio/open-royalties",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "automazeio/proof-go",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ratatui/ratatui",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "alirezarezvani/claude-code-tresor",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "digidai/product-manager-skills",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "major7apps/pensyve",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "anthropics/anthropic-cookbook",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "stardot/beebasm",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "liballeg/allegro5",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "idank/bashlex",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ldayton/bash-oracle",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ldayton/tongues",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mvdan/sh",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cloudflare/agents",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cloudflare/agents-starter",
+      "graph_distance": 5
     }
   ],
   "processed": [
@@ -2214,6 +2209,23 @@
     "ethpandaops/cbt",
     "ethpandaops/xatu",
     "ethpandaops/xatu-cbt",
-    "mjvolk3/biocypher"
+    "mjvolk3/biocypher",
+    "mjvolk3/dendron-template",
+    "oxpig/calm",
+    "anthropics/claude-code-security-review",
+    "behisecc/awesome-claude-skills",
+    "blader/claudeception",
+    "automazeio/proof",
+    "upstash/context7",
+    "fsnotify/fsnotify",
+    "phiat/claude-esp-rs",
+    "alirezarezvani/claude-skills",
+    "wshobson/agents",
+    "dp111/6502timing",
+    "klaus2m5/6502_65c02_functional_tests",
+    "stardot/b-em",
+    "ldayton/parable",
+    "cloudflare/skills",
+    "dokploy/cli"
   ]
 }

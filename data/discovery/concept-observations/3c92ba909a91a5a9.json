@@ -16,6 +16,7 @@
       "text": "Protocol Buffers - Google's data interchange format"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -30,6 +31,7 @@
   ],
   "concept_id": "protoc",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "protoc",
   "observation_id": "3c92ba909a91a5a9",
   "observation_kind": "repo-topic",

@@ -8,6 +8,7 @@
     "capability"
   ],
   "candidate_definitions": [],
+  "candidate_glosses": [],
   "canonical_name": "kubectl-plugins",
   "concept_id": "kubectl-plugins",
   "definition_status": "unresolved",
@@ -20,6 +21,7 @@
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "gloss_status": "unresolved",
   "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "possible_senses": [
     {

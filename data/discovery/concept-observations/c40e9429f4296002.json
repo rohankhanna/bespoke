@@ -16,6 +16,7 @@
       "text": "AI agent security scanner. Detect vulnerabilities in agent configurations, MCP servers, and tool permissions. Available as CLI, GitHub Action, ECC plugin, and GitHub App integration. \ud83d\udee1\ufe0f"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -30,6 +31,7 @@
   ],
   "concept_id": "claude-code",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "claude-code",
   "observation_id": "c40e9429f4296002",
   "observation_kind": "repo-topic",

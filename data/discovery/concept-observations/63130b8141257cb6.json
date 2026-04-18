@@ -1,0 +1,50 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "232+ Claude Code skills & agent plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents \u2014 engineering, marketing, product, compliance, C-level advisory."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**235 production-ready Claude Code skills, plugins, and agent skills for 12 AI coding tools.**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**235 production-ready Claude Code skills, plugins, and agent skills for 12 AI coding tools.**"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "claude-skills",
+      "sense_id": "claude-skills#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "claude-skills",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "normalized_form": "claude-skills",
+  "observation_id": "63130b8141257cb6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T13:50:38.061794+00:00",
+  "observed_text": "claude-skills",
+  "source_context_snippet": "**235 production-ready Claude Code skills, plugins, and agent skills for 12 AI coding tools.**",
+  "source_file": null,
+  "source_repo": "alirezarezvani/claude-skills",
+  "source_repo_description": "232+ Claude Code skills & agent plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents \u2014 engineering, marketing, product, compliance, C-level advisory."
+}

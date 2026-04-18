@@ -16,6 +16,7 @@
       "text": "Claude PR Assistant"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -30,6 +31,7 @@
   ],
   "concept_id": "claude-pr-assistant",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "claude-pr-assistant",
   "observation_id": "b384c10be38953bd",
   "observation_kind": "workflow-name",

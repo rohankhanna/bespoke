@@ -5,6 +5,7 @@
     "data-document-artifact"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -19,11 +20,13 @@
   ],
   "concept_id": "auto-tune",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "auto-tune",
   "observation_id": "20d31818c95b91f9",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T10:43:38.551697+00:00",
   "observed_text": "Auto tune",
+  "source_context_snippet": null,
   "source_file": ".github/workflows/auto-tune.yml",
   "source_repo": "sgl-project/sglang",
   "source_repo_description": null

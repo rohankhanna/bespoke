@@ -4,6 +4,7 @@
     "workflow-process"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
   ],
   "concept_id": "close-stale-contributor-prs",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "close-stale-contributor-prs",
   "observation_id": "abefb625fc287ff0",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T10:25:53.609022+00:00",
   "observed_text": "Close stale contributor PRs",
+  "source_context_snippet": null,
   "source_file": ".github/workflows/close-stale-contributor-prs.yml",
   "source_repo": "openai/codex",
   "source_repo_description": null

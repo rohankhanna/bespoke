@@ -16,6 +16,7 @@
       "text": "Cannon Smoke Test"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -30,6 +31,7 @@
   ],
   "concept_id": "cannon-smoke-test",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "cannon-smoke-test",
   "observation_id": "904129e479632bb1",
   "observation_kind": "workflow-name",

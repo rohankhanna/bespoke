@@ -16,6 +16,7 @@
       "text": "Docs"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -30,6 +31,7 @@
   ],
   "concept_id": "docs",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "docs",
   "observation_id": "b3267a657a704a68",
   "observation_kind": "workflow-name",

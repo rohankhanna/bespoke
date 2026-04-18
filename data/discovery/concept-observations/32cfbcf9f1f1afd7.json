@@ -11,6 +11,7 @@
       "text": "An anti-bikeshedding Kotlin linter with built-in formatter"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -25,11 +26,13 @@
   ],
   "concept_id": "generate-changelog",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "generate-changelog",
   "observation_id": "32cfbcf9f1f1afd7",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T13:15:13.756138+00:00",
   "observed_text": "Generate changelog",
+  "source_context_snippet": null,
   "source_file": ".github/workflows/generate-changelog.yml",
   "source_repo": "pinterest/ktlint",
   "source_repo_description": "An anti-bikeshedding Kotlin linter with built-in formatter"

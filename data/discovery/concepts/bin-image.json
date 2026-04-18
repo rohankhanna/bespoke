@@ -15,6 +15,7 @@
       "text": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems"
     }
   ],
+  "candidate_glosses": [],
   "canonical_name": "bin-image",
   "concept_id": "bin-image",
   "definition_status": "unresolved",
@@ -27,6 +28,7 @@
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
+  "gloss_status": "unresolved",
   "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "possible_senses": [
     {

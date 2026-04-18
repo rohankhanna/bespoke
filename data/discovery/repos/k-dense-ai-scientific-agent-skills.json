@@ -43,20 +43,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "K-Dense-AI/scientific-agent-skills",
-      "target": "k-dense-ai/k-dense-byok",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "K-Dense-AI/scientific-agent-skills",
-      "target": "cisco-ai-defense/skill-scanner",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pr-skill-scan.yml",
       "source_repo": "K-Dense-AI/scientific-agent-skills",
@@ -246,7 +232,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T09:45:27.667689+00:00",
+  "fetched_at": "2026-04-18T13:51:28.301979+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -296,112 +282,120 @@
       "scientific-computing",
       "scientific-visualization"
     ],
-    "updated_at": "2026-04-18T09:20:51Z"
+    "updated_at": "2026-04-18T13:37:43Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "cisco-ai-defense/skill-scanner",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "k-dense-ai/k-dense-byok",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
+      "context_snippet": "PR Skill Scan",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/pr-skill-scan.yml",
       "term": "PR Skill Scan"
     },
     {
+      "context_snippet": "Create Release",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/release.yml",
       "term": "Create Release"
     },
     {
+      "context_snippet": "Weekly Security Scan",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/security-scan.yml",
       "term": "Weekly Security Scan"
     },
     {
+      "context_snippet": "> **\ud83d\udd14 Claude Scientific Skills is now Scientific Agent Skills.** Same skills, broader compatibility \u2014 now works with any AI agent that supports the open [Agent Skills](https://agentskills.io/) standard, not just Claude.",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "agent-skills"
     },
     {
+      "context_snippet": "> **\ud83d\udd14 Claude Scientific Skills is now Scientific Agent Skills.** Same skills, broader compatibility \u2014 now works with any AI agent that supports the open [Agent Skills](https://agentskills.io/) standard, not just Claude.",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "ai-scientist"
     },
     {
+      "context_snippet": "> **\ud83d\udd14 Claude Scientific Skills is now Scientific Agent Skills.** Same skills, broader compatibility \u2014 now works with any AI agent that supports the open [Agent Skills](https://agentskills.io/) standard, not just Claude.",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "bioinformatics"
     },
     {
+      "context_snippet": "> **\ud83d\udd14 Claude Scientific Skills is now Scientific Agent Skills.** Same skills, broader compatibility \u2014 now works with any AI agent that supports the open [Agent Skills](https://agentskills.io/) standard, not just Claude.",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "chemoinformatics"
     },
     {
+      "context_snippet": "> **\ud83d\udd14 Claude Scientific Skills is now Scientific Agent Skills.** Same skills, broader compatibility \u2014 now works with any AI agent that supports the open [Agent Skills](https://agentskills.io/) standard, not just Claude.",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "claude-skills"
     },
     {
+      "context_snippet": "> **\ud83d\udd14 Claude Scientific Skills is now Scientific Agent Skills.** Same skills, broader compatibility \u2014 now works with any AI agent that supports the open [Agent Skills](https://agentskills.io/) standard, not just Claude.",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "claudecode"
     },
     {
+      "context_snippet": "> **\ud83d\udd14 Claude Scientific Skills is now Scientific Agent Skills.** Same skills, broader compatibility \u2014 now works with any AI agent that supports the open [Agent Skills](https://agentskills.io/) standard, not just Claude.",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "clinical-research"
     },
     {
+      "context_snippet": "> **\ud83d\udd14 Claude Scientific Skills is now Scientific Agent Skills.** Same skills, broader compatibility \u2014 now works with any AI agent that supports the open [Agent Skills](https://agentskills.io/) standard, not just Claude.",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "computational-biology"
     },
     {
+      "context_snippet": "> **\ud83d\udd14 Claude Scientific Skills is now Scientific Agent Skills.** Same skills, broader compatibility \u2014 now works with any AI agent that supports the open [Agent Skills](https://agentskills.io/) standard, not just Claude.",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "data-analysis"
     },
     {
+      "context_snippet": "> **\ud83d\udd14 Claude Scientific Skills is now Scientific Agent Skills.** Same skills, broader compatibility \u2014 now works with any AI agent that supports the open [Agent Skills](https://agentskills.io/) standard, not just Claude.",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "drug-discovery"
     },
     {
+      "context_snippet": "> **\ud83d\udd14 Claude Scientific Skills is now Scientific Agent Skills.** Same skills, broader compatibility \u2014 now works with any AI agent that supports the open [Agent Skills](https://agentskills.io/) standard, not just Claude.",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "genomics"
     },
     {
+      "context_snippet": "> **\ud83d\udd14 Claude Scientific Skills is now Scientific Agent Skills.** Same skills, broader compatibility \u2014 now works with any AI agent that supports the open [Agent Skills](https://agentskills.io/) standard, not just Claude.",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "materials-science"
     },
     {
+      "context_snippet": "> **\ud83d\udd14 Claude Scientific Skills is now Scientific Agent Skills.** Same skills, broader compatibility \u2014 now works with any AI agent that supports the open [Agent Skills](https://agentskills.io/) standard, not just Claude.",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "metabolomics"
     },
     {
+      "context_snippet": "> **\ud83d\udd14 Claude Scientific Skills is now Scientific Agent Skills.** Same skills, broader compatibility \u2014 now works with any AI agent that supports the open [Agent Skills](https://agentskills.io/) standard, not just Claude.",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "proteomics"
     },
     {
+      "context_snippet": "> **\ud83d\udd14 Claude Scientific Skills is now Scientific Agent Skills.** Same skills, broader compatibility \u2014 now works with any AI agent that supports the open [Agent Skills](https://agentskills.io/) standard, not just Claude.",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "scientific-computing"
     },
     {
+      "context_snippet": "> **\ud83d\udd14 Claude Scientific Skills is now Scientific Agent Skills.** Same skills, broader compatibility \u2014 now works with any AI agent that supports the open [Agent Skills](https://agentskills.io/) standard, not just Claude.",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "scientific-visualization"

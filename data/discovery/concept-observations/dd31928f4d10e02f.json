@@ -16,6 +16,7 @@
       "text": "Make your AI think like Munger, Feynman, or Paul Graham \u2014 load real mental models, not personas."
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -30,6 +31,7 @@
   ],
   "concept_id": "windsurf",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "windsurf",
   "observation_id": "dd31928f4d10e02f",
   "observation_kind": "repo-topic",

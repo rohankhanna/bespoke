@@ -4,7 +4,25 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definition_hints": [],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The power of Claude Code / GeminiCLI / CodexCLI + [Gemini / OpenAI / OpenRouter / Azure / Grok / Ollama / Custom Model / All Of The Above] working as one."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "PR Docker Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "PR Docker Build"
+    }
+  ],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -19,12 +37,14 @@
   ],
   "concept_id": "pr-docker-build",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "pr-docker-build",
   "observation_id": "025027fe099fcec4",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-18T11:57:36.597358+00:00",
+  "observed_at": "2026-04-18T13:50:38.061794+00:00",
   "observed_text": "PR Docker Build",
+  "source_context_snippet": "PR Docker Build",
   "source_file": ".github/workflows/docker-pr.yml",
   "source_repo": "BeehiveInnovations/pal-mcp-server",
-  "source_repo_description": null
+  "source_repo_description": "The power of Claude Code / GeminiCLI / CodexCLI + [Gemini / OpenAI / OpenRouter / Azure / Grok / Ollama / Custom Model / All Of The Above] working as one."
 }

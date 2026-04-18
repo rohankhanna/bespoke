@@ -8,6 +8,7 @@
     "capability"
   ],
   "candidate_definitions": [],
+  "candidate_glosses": [],
   "canonical_name": "kubernetes",
   "concept_id": "kubernetes",
   "definition_status": "unresolved",
@@ -44,6 +45,7 @@
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
+  "gloss_status": "unresolved",
   "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "possible_senses": [
     {

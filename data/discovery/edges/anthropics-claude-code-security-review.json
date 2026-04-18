@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sast.yml",
+      "source_repo": "anthropics/claude-code-security-review",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sast.yml",
+      "source_repo": "anthropics/claude-code-security-review",
+      "target": "SAST",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-claudecode.yml",
+      "source_repo": "anthropics/claude-code-security-review",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-claudecode.yml",
+      "source_repo": "anthropics/claude-code-security-review",
+      "target": "actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-claudecode.yml",
+      "source_repo": "anthropics/claude-code-security-review",
+      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-claudecode.yml",
+      "source_repo": "anthropics/claude-code-security-review",
+      "target": "oven-sh/setup-bun@b7a1c7ccf290d58743029c4f6903da283811b979",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-claudecode.yml",
+      "source_repo": "anthropics/claude-code-security-review",
+      "target": "Test ClaudeCode Integration",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T13:50:38.061794+00:00",
+  "source_repo": "anthropics/claude-code-security-review"
+}

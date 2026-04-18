@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BehiSecc/awesome-claude-skills",
+      "target": "1nickpappas/move-code-quality-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BehiSecc/awesome-claude-skills",
+      "target": "8144225309/superscalar-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BehiSecc/awesome-claude-skills",
+      "target": "agamm/claude-code-owasp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BehiSecc/awesome-claude-skills",
+      "target": "adiny/moodtrip-hotel-search",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-18T13:50:38.061794+00:00",
+  "source_repo": "BehiSecc/awesome-claude-skills"
+}

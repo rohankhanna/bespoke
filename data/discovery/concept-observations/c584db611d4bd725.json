@@ -5,6 +5,7 @@
     "data-document-artifact"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -19,11 +20,13 @@
   ],
   "concept_id": "build-typescript-ci",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "build-typescript-ci",
   "observation_id": "c584db611d4bd725",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T12:06:06.216548+00:00",
   "observed_text": "Build Typescript CI",
+  "source_context_snippet": null,
   "source_file": ".github/workflows/ci_ts.yml",
   "source_repo": "Layr-Labs/hello-world-avs",
   "source_repo_description": null

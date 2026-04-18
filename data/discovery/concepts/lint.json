@@ -24,6 +24,7 @@
       "text": "Lint"
     }
   ],
+  "candidate_glosses": [],
   "canonical_name": "Lint",
   "concept_id": "lint",
   "definition_status": "unresolved",
@@ -102,6 +103,7 @@
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "gloss_status": "unresolved",
   "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "possible_senses": [
     {

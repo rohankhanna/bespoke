@@ -27,6 +27,7 @@
       "text": "goreleaser"
     }
   ],
+  "candidate_glosses": [],
   "canonical_name": "goreleaser",
   "concept_id": "goreleaser",
   "definition_status": "unresolved",
@@ -63,6 +64,7 @@
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
+  "gloss_status": "unresolved",
   "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "possible_senses": [
     {

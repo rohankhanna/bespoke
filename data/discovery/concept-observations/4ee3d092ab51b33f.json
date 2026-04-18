@@ -4,7 +4,25 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definition_hints": [],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Link Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Link Check"
+    }
+  ],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -19,12 +37,14 @@
   ],
   "concept_id": "link-check",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "link-check",
   "observation_id": "4ee3d092ab51b33f",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-18T12:46:59.510459+00:00",
+  "observed_at": "2026-04-18T13:50:38.061794+00:00",
   "observed_text": "Link Check",
+  "source_context_snippet": "Link Check",
   "source_file": ".github/workflows/links.yml",
   "source_repo": "anthropics/claude-cookbooks",
-  "source_repo_description": null
+  "source_repo_description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude."
 }

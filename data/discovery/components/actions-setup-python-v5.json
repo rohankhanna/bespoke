@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v5",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
+  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -567,6 +567,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/scan-skills.yml",
       "source_repo": "cisco-ai-defense/skill-scanner"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "automazeio/proof"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-quality-gate.yml",
+      "source_repo": "alirezarezvani/claude-skills"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/skill-quality-review.yml",
+      "source_repo": "alirezarezvani/claude-skills"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/skill-security-audit.yml",
+      "source_repo": "alirezarezvani/claude-skills"
     }
   ]
 }

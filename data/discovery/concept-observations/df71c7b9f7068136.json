@@ -4,6 +4,7 @@
     "workflow-process"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
   ],
   "concept_id": "synchronize-to-gitee",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "synchronize-to-gitee",
   "observation_id": "df71c7b9f7068136",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T10:25:53.609022+00:00",
   "observed_text": "Synchronize to Gitee",
+  "source_context_snippet": null,
   "source_file": ".github/workflows/sync2gitee.yml",
   "source_repo": "1Panel-dev/1Panel",
   "source_repo_description": null

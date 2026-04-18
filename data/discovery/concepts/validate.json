@@ -1,0 +1,58 @@
+{
+  "aliases": [
+    "Validate"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wshobson/agents",
+      "status": "candidate-context",
+      "text": "Intelligent automation and multi-agent orchestration for Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wshobson/agents",
+      "status": "candidate-context",
+      "text": "Validate"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wshobson/agents",
+      "status": "candidate",
+      "text": "Validate"
+    }
+  ],
+  "canonical_name": "Validate",
+  "concept_id": "validate",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T13:50:38.061794+00:00",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "wshobson/agents"
+    }
+  ],
+  "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate",
+      "sense_id": "validate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

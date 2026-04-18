@@ -16,6 +16,7 @@
       "text": "Comment on the pull request"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -30,6 +31,7 @@
   ],
   "concept_id": "comment-on-the-pull-request",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "comment-on-the-pull-request",
   "observation_id": "d17d8957ec871b86",
   "observation_kind": "workflow-name",

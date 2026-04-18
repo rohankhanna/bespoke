@@ -16,6 +16,7 @@
       "text": "Nightly build"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -30,6 +31,7 @@
   ],
   "concept_id": "nightly-build",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "nightly-build",
   "observation_id": "9bead1cc036de3f4",
   "observation_kind": "workflow-name",

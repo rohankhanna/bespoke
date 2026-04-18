@@ -1,0 +1,58 @@
+{
+  "aliases": [
+    "language-models"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oxpig/CaLM",
+      "status": "candidate-context",
+      "text": "Protein language model trained on coding DNA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oxpig/CaLM",
+      "status": "candidate-context",
+      "text": "This repository encapsulates all code required to reproduce the results of the paper [\"Codon language embeddings provide strong signals for use in protein engineering\"](https://www.nature.com/articles/s42256-024-00791-0), by Carlos Outeiral and Charlotte M. Deane."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oxpig/CaLM",
+      "status": "candidate",
+      "text": "This repository encapsulates all code required to reproduce the results of the paper [\"Codon language embeddings provide strong signals for use in protein engineering\"](https://www.nature.com/articles/s42256-024-00791-0), by Carlos Outeiral and Charlotte M. Deane."
+    }
+  ],
+  "canonical_name": "language-models",
+  "concept_id": "language-models",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:50:38.061794+00:00",
+      "source_file": null,
+      "source_repo": "oxpig/CaLM"
+    }
+  ],
+  "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "language-models",
+      "sense_id": "language-models#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

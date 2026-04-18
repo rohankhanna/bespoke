@@ -5,6 +5,7 @@
     "data-document-artifact"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -19,11 +20,13 @@
   ],
   "concept_id": "test-and-lint",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "test-and-lint",
   "observation_id": "f8b862e493c9ee28",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T12:46:59.510459+00:00",
   "observed_text": "Test and Lint",
+  "source_context_snippet": null,
   "source_file": ".github/workflows/test.yml",
   "source_repo": "joshsymonds/cc-tools",
   "source_repo_description": null

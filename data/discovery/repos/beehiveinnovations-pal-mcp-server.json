@@ -108,13 +108,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "BeehiveInnovations/pal-mcp-server",
-      "target": "google-gemini/gemini-cli",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker-pr.yml",
       "source_repo": "BeehiveInnovations/pal-mcp-server",
@@ -269,7 +262,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T11:58:07.438037+00:00",
+  "fetched_at": "2026-04-18T13:51:15.482728+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -317,37 +310,36 @@
     "language": "Python",
     "pushed_at": "2025-12-15T17:07:31Z",
     "topics": [],
-    "updated_at": "2026-04-18T07:12:50Z"
+    "updated_at": "2026-04-18T13:27:50Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "google-gemini/gemini-cli",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
+      "context_snippet": "PR Docker Build",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/docker-pr.yml",
       "term": "PR Docker Build"
     },
     {
+      "context_snippet": "Docker Release Build",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/docker-release.yml",
       "term": "Docker Release Build"
     },
     {
+      "context_snippet": "Semantic PR",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/semantic-pr.yml",
       "term": "Semantic PR"
     },
     {
+      "context_snippet": "Semantic Release",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/semantic-release.yml",
       "term": "Semantic Release"
     },
     {
+      "context_snippet": "Tests",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/test.yml",
       "term": "Tests"

@@ -11,6 +11,7 @@
       "text": "Security Scanner for Agent Skills"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -25,11 +26,13 @@
   ],
   "concept_id": "scan-agent-skills",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "scan-agent-skills",
   "observation_id": "4746336ac9f52d14",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T13:15:13.756138+00:00",
   "observed_text": "Scan Agent Skills",
+  "source_context_snippet": null,
   "source_file": ".github/workflows/scan-skills.yml",
   "source_repo": "cisco-ai-defense/skill-scanner",
   "source_repo_description": "Security Scanner for Agent Skills"

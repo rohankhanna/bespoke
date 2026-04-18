@@ -11,6 +11,7 @@
       "text": "A powerful, lightweight theme for Hugo built with Tailwind CSS."
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -25,11 +26,13 @@
   ],
   "concept_id": "responsive",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "responsive",
   "observation_id": "b434817ea9f0f32b",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T13:15:13.756138+00:00",
   "observed_text": "responsive",
+  "source_context_snippet": null,
   "source_file": null,
   "source_repo": "jpanther/congo",
   "source_repo_description": "A powerful, lightweight theme for Hugo built with Tailwind CSS."

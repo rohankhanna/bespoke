@@ -5,6 +5,7 @@
     "capability"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -19,11 +20,13 @@
   ],
   "concept_id": "j2cl",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "j2cl",
   "observation_id": "af7bea407e97cd53",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:24:14.688152+00:00",
   "observed_text": "j2cl",
+  "source_context_snippet": null,
   "source_file": null,
   "source_repo": "google/j2cl",
   "source_repo_description": null

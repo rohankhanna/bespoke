@@ -16,6 +16,7 @@
       "text": "alpha releases"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -30,6 +31,7 @@
   ],
   "concept_id": "alpha-releases",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "alpha-releases",
   "observation_id": "d6499f7a25fc1780",
   "observation_kind": "workflow-name",

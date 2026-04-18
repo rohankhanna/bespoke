@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v7",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -232,6 +232,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/check-links.yml",
       "source_repo": "slopus/slopus.github.io"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/changeset-check.yml",
+      "source_repo": "upstash/context7"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "alirezarezvani/claude-skills"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/enforce-pr-target.yml",
+      "source_repo": "alirezarezvani/claude-skills"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-issue-auto-close.yml",
+      "source_repo": "alirezarezvani/claude-skills"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/skill-quality-review.yml",
+      "source_repo": "alirezarezvani/claude-skills"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/skill-security-audit.yml",
+      "source_repo": "alirezarezvani/claude-skills"
     }
   ]
 }

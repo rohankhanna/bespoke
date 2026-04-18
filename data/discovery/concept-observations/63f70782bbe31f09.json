@@ -16,6 +16,7 @@
       "text": "Tests and code quality"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -30,6 +31,7 @@
   ],
   "concept_id": "tests-and-code-quality",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "tests-and-code-quality",
   "observation_id": "63f70782bbe31f09",
   "observation_kind": "workflow-name",

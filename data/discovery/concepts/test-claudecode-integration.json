@@ -1,0 +1,58 @@
+{
+  "aliases": [
+    "Test ClaudeCode Integration"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anthropics/claude-code-security-review",
+      "status": "candidate-context",
+      "text": "An AI-powered security review GitHub Action using Claude to analyze code changes for security vulnerabilities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anthropics/claude-code-security-review",
+      "status": "candidate-context",
+      "text": "Test ClaudeCode Integration"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anthropics/claude-code-security-review",
+      "status": "candidate",
+      "text": "Test ClaudeCode Integration"
+    }
+  ],
+  "canonical_name": "Test ClaudeCode Integration",
+  "concept_id": "test-claudecode-integration",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T13:50:38.061794+00:00",
+      "source_file": ".github/workflows/test-claudecode.yml",
+      "source_repo": "anthropics/claude-code-security-review"
+    }
+  ],
+  "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test ClaudeCode Integration",
+      "sense_id": "test-claudecode-integration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

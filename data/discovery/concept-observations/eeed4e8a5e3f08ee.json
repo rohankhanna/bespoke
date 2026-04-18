@@ -11,6 +11,7 @@
       "text": "Test Build"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -25,6 +26,7 @@
   ],
   "concept_id": "test-build",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "test-build",
   "observation_id": "eeed4e8a5e3f08ee",
   "observation_kind": "workflow-name",

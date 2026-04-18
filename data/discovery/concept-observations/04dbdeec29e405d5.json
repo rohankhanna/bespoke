@@ -5,6 +5,7 @@
     "data-document-artifact"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -19,11 +20,13 @@
   ],
   "concept_id": "run-profiling-on-the-tpch-benchmark",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "run-profiling-on-the-tpch-benchmark",
   "observation_id": "04dbdeec29e405d5",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T12:06:06.216548+00:00",
   "observed_text": "Run Profiling on the TPCH Benchmark",
+  "source_context_snippet": null,
   "source_file": ".github/workflows/daft-profiling.yml",
   "source_repo": "Eventual-Inc/Daft",
   "source_repo_description": null

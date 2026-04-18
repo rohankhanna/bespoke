@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oxpig/CaLM",
+      "target": "codons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oxpig/CaLM",
+      "target": "computational-biology",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oxpig/CaLM",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oxpig/CaLM",
+      "target": "language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oxpig/CaLM",
+      "target": "llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oxpig/CaLM",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oxpig/CaLM",
+      "target": "protein-language-model",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T13:50:38.061794+00:00",
+  "source_repo": "oxpig/CaLM"
+}

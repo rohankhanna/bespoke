@@ -16,6 +16,7 @@
       "text": "Quick codebase summary for new projects - /onboard command"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -30,6 +31,7 @@
   ],
   "concept_id": "orientation",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "orientation",
   "observation_id": "babd59d214bf3ef7",
   "observation_kind": "repo-topic",

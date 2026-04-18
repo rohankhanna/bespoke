@@ -1,0 +1,58 @@
+{
+  "aliases": [
+    "Canary Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "upstash/context7",
+      "status": "candidate-context",
+      "text": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "upstash/context7",
+      "status": "candidate-context",
+      "text": "Canary Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "upstash/context7",
+      "status": "candidate",
+      "text": "Canary Release"
+    }
+  ],
+  "canonical_name": "Canary Release",
+  "concept_id": "canary-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T13:50:38.061794+00:00",
+      "source_file": ".github/workflows/canary-release.yml",
+      "source_repo": "upstash/context7"
+    }
+  ],
+  "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Canary Release",
+      "sense_id": "canary-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -16,6 +16,7 @@
       "text": "Forked PR workflow check"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -30,6 +31,7 @@
   ],
   "concept_id": "forked-pr-workflow-check",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "forked-pr-workflow-check",
   "observation_id": "fa7c40d7fbfe6c55",
   "observation_kind": "workflow-name",

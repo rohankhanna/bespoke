@@ -9,6 +9,7 @@
     "data-document-artifact"
   ],
   "candidate_definitions": [],
+  "candidate_glosses": [],
   "canonical_name": "CodeQL",
   "concept_id": "codeql",
   "definition_status": "unresolved",
@@ -63,6 +64,7 @@
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "gloss_status": "unresolved",
   "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "possible_senses": [
     {

@@ -16,6 +16,7 @@
       "text": "Protocol Buffers - Google's data interchange format"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -30,6 +31,7 @@
   ],
   "concept_id": "marshalling",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "marshalling",
   "observation_id": "9a6a9cbdc663b04e",
   "observation_kind": "repo-topic",

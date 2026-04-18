@@ -1,0 +1,50 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Cross-platform filesystem notifications for Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'test'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'test'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "test",
+      "sense_id": "test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "test",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "normalized_form": "test",
+  "observation_id": "a3c9636a198aad1f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T13:50:38.061794+00:00",
+  "observed_text": "test",
+  "source_context_snippet": "'test'",
+  "source_file": ".github/workflows/test.yml",
+  "source_repo": "fsnotify/fsnotify",
+  "source_repo_description": "Cross-platform filesystem notifications for Go."
+}

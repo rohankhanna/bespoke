@@ -1,0 +1,394 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eval-report.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eval-report.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eval-report.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wshobson/agents",
+      "target": "major7apps/pensyve",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eval-report.yml",
+      "source_repo": "wshobson/agents",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eval-report.yml",
+      "source_repo": "wshobson/agents",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eval-report.yml",
+      "source_repo": "wshobson/agents",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/eval-report.yml",
+      "source_repo": "wshobson/agents",
+      "target": "Plugin Eval Report",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "wshobson/agents",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "wshobson/agents",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "wshobson/agents",
+      "target": "Validate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wshobson/agents",
+      "target": "anthropic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wshobson/agents",
+      "target": "anthropic-claude",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wshobson/agents",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wshobson/agents",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wshobson/agents",
+      "target": "claude-code-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wshobson/agents",
+      "target": "claude-code-commands",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wshobson/agents",
+      "target": "claude-code-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wshobson/agents",
+      "target": "claude-code-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wshobson/agents",
+      "target": "claude-code-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wshobson/agents",
+      "target": "claude-code-subagents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wshobson/agents",
+      "target": "claude-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wshobson/agents",
+      "target": "claudecode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wshobson/agents",
+      "target": "claudecode-config",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wshobson/agents",
+      "target": "claudecode-subagents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wshobson/agents",
+      "target": "orchestration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wshobson/agents",
+      "target": "sub-agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wshobson/agents",
+      "target": "subagents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wshobson/agents",
+      "target": "workflows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T13:51:29.929641+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18947
+    },
+    {
+      "path": ".github/workflows/eval-report.yml",
+      "size": 2075
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "size": 2767
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Intelligent automation and multi-agent orchestration for Claude Code",
+    "full_name": "wshobson/agents",
+    "html_url": "https://github.com/wshobson/agents",
+    "language": "Python",
+    "pushed_at": "2026-04-17T17:15:37Z",
+    "topics": [
+      "agents",
+      "anthropic",
+      "anthropic-claude",
+      "automation",
+      "claude",
+      "claude-code",
+      "claude-code-cli",
+      "claude-code-commands",
+      "claude-code-plugin",
+      "claude-code-plugins",
+      "claude-code-skills",
+      "claude-code-subagents",
+      "claude-skills",
+      "claudecode",
+      "claudecode-config",
+      "claudecode-subagents",
+      "orchestration",
+      "sub-agents",
+      "subagents",
+      "workflows"
+    ],
+    "updated_at": "2026-04-18T13:44:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "major7apps/pensyve",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Plugin Eval Report",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/eval-report.yml",
+      "term": "Plugin Eval Report"
+    },
+    {
+      "context_snippet": "Validate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate.yml",
+      "term": "Validate"
+    },
+    {
+      "context_snippet": "> **\u26a1 Updated for Opus 4.7, Sonnet 4.6 & Haiku 4.5** \u2014 Three-tier model strategy for optimal performance",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anthropic"
+    },
+    {
+      "context_snippet": "> **\u26a1 Updated for Opus 4.7, Sonnet 4.6 & Haiku 4.5** \u2014 Three-tier model strategy for optimal performance",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anthropic-claude"
+    },
+    {
+      "context_snippet": "> **\u26a1 Updated for Opus 4.7, Sonnet 4.6 & Haiku 4.5** \u2014 Three-tier model strategy for optimal performance",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "> **\u26a1 Updated for Opus 4.7, Sonnet 4.6 & Haiku 4.5** \u2014 Three-tier model strategy for optimal performance",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "> **\u26a1 Updated for Opus 4.7, Sonnet 4.6 & Haiku 4.5** \u2014 Three-tier model strategy for optimal performance",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code-cli"
+    },
+    {
+      "context_snippet": "> **\u26a1 Updated for Opus 4.7, Sonnet 4.6 & Haiku 4.5** \u2014 Three-tier model strategy for optimal performance",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code-commands"
+    },
+    {
+      "context_snippet": "> **\u26a1 Updated for Opus 4.7, Sonnet 4.6 & Haiku 4.5** \u2014 Three-tier model strategy for optimal performance",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code-plugin"
+    },
+    {
+      "context_snippet": "> **\u26a1 Updated for Opus 4.7, Sonnet 4.6 & Haiku 4.5** \u2014 Three-tier model strategy for optimal performance",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code-plugins"
+    },
+    {
+      "context_snippet": "> **\u26a1 Updated for Opus 4.7, Sonnet 4.6 & Haiku 4.5** \u2014 Three-tier model strategy for optimal performance",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code-skills"
+    },
+    {
+      "context_snippet": "> **\u26a1 Updated for Opus 4.7, Sonnet 4.6 & Haiku 4.5** \u2014 Three-tier model strategy for optimal performance",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code-subagents"
+    },
+    {
+      "context_snippet": "> **\u26a1 Updated for Opus 4.7, Sonnet 4.6 & Haiku 4.5** \u2014 Three-tier model strategy for optimal performance",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-skills"
+    },
+    {
+      "context_snippet": "> **\u26a1 Updated for Opus 4.7, Sonnet 4.6 & Haiku 4.5** \u2014 Three-tier model strategy for optimal performance",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claudecode"
+    },
+    {
+      "context_snippet": "> **\u26a1 Updated for Opus 4.7, Sonnet 4.6 & Haiku 4.5** \u2014 Three-tier model strategy for optimal performance",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claudecode-config"
+    },
+    {
+      "context_snippet": "> **\u26a1 Updated for Opus 4.7, Sonnet 4.6 & Haiku 4.5** \u2014 Three-tier model strategy for optimal performance",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claudecode-subagents"
+    },
+    {
+      "context_snippet": "> **\u26a1 Updated for Opus 4.7, Sonnet 4.6 & Haiku 4.5** \u2014 Three-tier model strategy for optimal performance",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "orchestration"
+    },
+    {
+      "context_snippet": "> **\u26a1 Updated for Opus 4.7, Sonnet 4.6 & Haiku 4.5** \u2014 Three-tier model strategy for optimal performance",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sub-agents"
+    },
+    {
+      "context_snippet": "> **\u26a1 Updated for Opus 4.7, Sonnet 4.6 & Haiku 4.5** \u2014 Three-tier model strategy for optimal performance",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "subagents"
+    },
+    {
+      "context_snippet": "> **\u26a1 Updated for Opus 4.7, Sonnet 4.6 & Haiku 4.5** \u2014 Three-tier model strategy for optimal performance",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflows"
+    }
+  ]
+}

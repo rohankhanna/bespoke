@@ -9,6 +9,7 @@
     "data-document-artifact"
   ],
   "candidate_definitions": [],
+  "candidate_glosses": [],
   "canonical_name": "Release Docker Image",
   "concept_id": "release-docker-image",
   "definition_status": "unresolved",
@@ -27,6 +28,7 @@
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "gloss_status": "unresolved",
   "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "possible_senses": [
     {

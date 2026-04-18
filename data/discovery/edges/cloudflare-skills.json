@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudflare/skills",
+      "target": "cloudflare/agents",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudflare/skills",
+      "target": "cloudflare/agents-starter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudflare/skills",
+      "target": "cloudflare",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudflare/skills",
+      "target": "skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudflare/skills",
+      "target": "workers",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T13:50:38.061794+00:00",
+  "source_repo": "cloudflare/skills"
+}

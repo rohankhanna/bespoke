@@ -7,7 +7,28 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oxpig/CaLM",
+      "status": "candidate-context",
+      "text": "Protein language model trained on coding DNA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oxpig/CaLM",
+      "status": "candidate-context",
+      "text": "This repository encapsulates all code required to reproduce the results of the paper [\"Codon language embeddings provide strong signals for use in protein engineering\"](https://www.nature.com/articles/s42256-024-00791-0), by Carlos Outeiral and Charlotte M. Deane."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oxpig/CaLM",
+      "status": "candidate",
+      "text": "This repository encapsulates all code required to reproduce the results of the paper [\"Codon language embeddings provide strong signals for use in protein engineering\"](https://www.nature.com/articles/s42256-024-00791-0), by Carlos Outeiral and Charlotte M. Deane."
+    }
+  ],
   "canonical_name": "llms",
   "concept_id": "llms",
   "definition_status": "unresolved",
@@ -29,10 +50,17 @@
       "observed_at": "2026-04-18T11:32:22.637859+00:00",
       "source_file": null,
       "source_repo": "LC044/WeChatMsg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:50:38.061794+00:00",
+      "source_file": null,
+      "source_repo": "oxpig/CaLM"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T11:32:22.637859+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "possible_senses": [
     {
       "buckets": [

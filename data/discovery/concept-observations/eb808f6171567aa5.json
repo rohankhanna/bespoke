@@ -11,6 +11,7 @@
       "text": "Lint"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -25,6 +26,7 @@
   ],
   "concept_id": "lint",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "lint",
   "observation_id": "eb808f6171567aa5",
   "observation_kind": "workflow-name",

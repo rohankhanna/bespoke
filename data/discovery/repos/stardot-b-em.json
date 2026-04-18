@@ -1,0 +1,38 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "stardot/b-em",
+      "target": "liballeg/allegro5",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-18T13:51:36.432606+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18708
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "An opensource BBC Micro emulator for Win32 and Linux",
+    "full_name": "stardot/b-em",
+    "html_url": "https://github.com/stardot/b-em",
+    "language": "C",
+    "pushed_at": "2026-02-06T19:23:49Z",
+    "topics": [],
+    "updated_at": "2026-03-12T14:26:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liballeg/allegro5",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -16,6 +16,7 @@
       "text": "Nightly Build Downstream Dependencies"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -30,6 +31,7 @@
   ],
   "concept_id": "nightly-build-downstream-dependencies",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "nightly-build-downstream-dependencies",
   "observation_id": "eee9f5284cb1d3da",
   "observation_kind": "workflow-name",

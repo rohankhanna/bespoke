@@ -4,9 +4,31 @@
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
-    "tool-component"
+    "tool-component",
+    "capability"
   ],
-  "candidate_definitions": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wshobson/agents",
+      "status": "candidate-context",
+      "text": "Intelligent automation and multi-agent orchestration for Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wshobson/agents",
+      "status": "candidate-context",
+      "text": "> **\u26a1 Updated for Opus 4.7, Sonnet 4.6 & Haiku 4.5** \u2014 Three-tier model strategy for optimal performance"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wshobson/agents",
+      "status": "candidate",
+      "text": "> **\u26a1 Updated for Opus 4.7, Sonnet 4.6 & Haiku 4.5** \u2014 Three-tier model strategy for optimal performance"
+    }
+  ],
   "canonical_name": "claude-code-plugin",
   "concept_id": "claude-code-plugin",
   "definition_status": "unresolved",
@@ -16,10 +38,17 @@
       "observed_at": "2026-04-18T10:25:53.609022+00:00",
       "source_file": null,
       "source_repo": "fcakyon/claude-codex-settings"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:50:38.061794+00:00",
+      "source_file": null,
+      "source_repo": "wshobson/agents"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "possible_senses": [
     {
       "buckets": [

@@ -5,6 +5,7 @@
     "data-document-artifact"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -19,11 +20,13 @@
   ],
   "concept_id": "ai-moderator",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "ai-moderator",
   "observation_id": "dc0560ea9cd88191",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:24:14.688152+00:00",
   "observed_text": "AI Moderator",
+  "source_context_snippet": null,
   "source_file": ".github/workflows/ai-moderator.yml",
   "source_repo": "getzep/graphiti",
   "source_repo_description": null

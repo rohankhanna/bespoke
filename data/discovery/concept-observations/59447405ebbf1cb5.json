@@ -1,0 +1,50 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "232+ Claude Code skills & agent plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents \u2014 engineering, marketing, product, compliance, C-level advisory."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Auto-Close Issues on PR Merge"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Auto-Close Issues on PR Merge"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto-Close Issues on PR Merge",
+      "sense_id": "auto-close-issues-on-pr-merge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "auto-close-issues-on-pr-merge",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "normalized_form": "auto-close-issues-on-pr-merge",
+  "observation_id": "59447405ebbf1cb5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T13:50:38.061794+00:00",
+  "observed_text": "Auto-Close Issues on PR Merge",
+  "source_context_snippet": "Auto-Close Issues on PR Merge",
+  "source_file": ".github/workflows/pr-issue-auto-close.yml",
+  "source_repo": "alirezarezvani/claude-skills",
+  "source_repo_description": "232+ Claude Code skills & agent plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents \u2014 engineering, marketing, product, compliance, C-level advisory."
+}

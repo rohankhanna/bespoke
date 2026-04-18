@@ -16,6 +16,7 @@
       "text": "Static analysis binary for agent-sh ecosystem - git history, AST mapping, collectors"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -30,6 +31,7 @@
   ],
   "concept_id": "static-analysis",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "static-analysis",
   "observation_id": "24dae80c6110cec4",
   "observation_kind": "repo-topic",

@@ -16,6 +16,7 @@
       "text": "golangci-lint"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -30,6 +31,7 @@
   ],
   "concept_id": "golangci-lint",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "golangci-lint",
   "observation_id": "6ab02cb111b526f5",
   "observation_kind": "workflow-name",

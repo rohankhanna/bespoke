@@ -11,6 +11,7 @@
       "text": "A powerful, lightweight theme for Hugo built with Tailwind CSS."
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -25,11 +26,13 @@
   ],
   "concept_id": "labeller",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "labeller",
   "observation_id": "36610592d7723829",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T13:15:13.756138+00:00",
   "observed_text": "Labeller",
+  "source_context_snippet": null,
   "source_file": ".github/workflows/label.yml",
   "source_repo": "jpanther/congo",
   "source_repo_description": "A powerful, lightweight theme for Hugo built with Tailwind CSS."

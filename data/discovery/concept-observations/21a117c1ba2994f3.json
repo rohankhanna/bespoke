@@ -4,7 +4,25 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definition_hints": [],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The power of Claude Code / GeminiCLI / CodexCLI + [Gemini / OpenAI / OpenRouter / Azure / Grok / Ollama / Custom Model / All Of The Above] working as one."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Semantic PR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Semantic PR"
+    }
+  ],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -19,12 +37,14 @@
   ],
   "concept_id": "semantic-pr",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "semantic-pr",
   "observation_id": "21a117c1ba2994f3",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-18T11:57:36.597358+00:00",
+  "observed_at": "2026-04-18T13:50:38.061794+00:00",
   "observed_text": "Semantic PR",
+  "source_context_snippet": "Semantic PR",
   "source_file": ".github/workflows/semantic-pr.yml",
   "source_repo": "BeehiveInnovations/pal-mcp-server",
-  "source_repo_description": null
+  "source_repo_description": "The power of Claude Code / GeminiCLI / CodexCLI + [Gemini / OpenAI / OpenRouter / Azure / Grok / Ollama / Custom Model / All Of The Above] working as one."
 }

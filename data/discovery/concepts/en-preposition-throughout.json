@@ -8,6 +8,7 @@
     "preposition"
   ],
   "candidate_definitions": [],
+  "candidate_glosses": [],
   "canonical_name": "throughout",
   "concept_id": "en-preposition-throughout",
   "definition_status": "seeded-stable",
@@ -77,10 +78,17 @@
       "observed_at": "2026-04-18T13:29:00.435097+00:00",
       "source_file": "vocabulary/english/stable-closed-classes.json",
       "source_repo": "seed:english"
+    },
+    {
+      "discovered_via": "seeded-language-entity",
+      "observed_at": "2026-04-18T13:50:38.061794+00:00",
+      "source_file": "vocabulary/english/stable-closed-classes.json",
+      "source_repo": "seed:english"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "gloss_status": "seeded-stable",
+  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "possible_senses": [
     {
       "buckets": [

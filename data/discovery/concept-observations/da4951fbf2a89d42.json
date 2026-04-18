@@ -5,6 +5,7 @@
     "data-document-artifact"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -19,11 +20,13 @@
   ],
   "concept_id": "quality-gate",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "quality-gate",
   "observation_id": "da4951fbf2a89d42",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:24:14.688152+00:00",
   "observed_text": "Quality Gate",
+  "source_context_snippet": null,
   "source_file": ".github/workflows/checks-on-pr.yml",
   "source_repo": "zeroclaw-labs/zeroclaw",
   "source_repo_description": null

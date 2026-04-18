@@ -16,6 +16,7 @@
       "text": "Protobuf Janitor"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -30,6 +31,7 @@
   ],
   "concept_id": "protobuf-janitor",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "protobuf-janitor",
   "observation_id": "8cf432ca45f62505",
   "observation_kind": "workflow-name",

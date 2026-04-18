@@ -16,6 +16,7 @@
       "text": "Cargo Build & Test"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -30,6 +31,7 @@
   ],
   "concept_id": "cargo-build-test",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "cargo-build-test",
   "observation_id": "d37c3646d5322605",
   "observation_kind": "workflow-name",

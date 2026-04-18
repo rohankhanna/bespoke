@@ -15,6 +15,7 @@
       "text": "AI-powered learning coach with spaced repetition with Claude Code - master any knowledge faster with personalized syllabi and progress tracking"
     }
   ],
+  "candidate_glosses": [],
   "canonical_name": "education",
   "concept_id": "education",
   "definition_status": "unresolved",
@@ -27,6 +28,7 @@
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
+  "gloss_status": "unresolved",
   "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "possible_senses": [
     {

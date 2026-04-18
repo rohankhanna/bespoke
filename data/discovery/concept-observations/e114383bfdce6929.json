@@ -11,6 +11,7 @@
       "text": "A powerful, lightweight theme for Hugo built with Tailwind CSS."
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -25,11 +26,13 @@
   ],
   "concept_id": "emoji",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "emoji",
   "observation_id": "e114383bfdce6929",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T13:15:13.756138+00:00",
   "observed_text": "emoji",
+  "source_context_snippet": null,
   "source_file": null,
   "source_repo": "jpanther/congo",
   "source_repo_description": "A powerful, lightweight theme for Hugo built with Tailwind CSS."

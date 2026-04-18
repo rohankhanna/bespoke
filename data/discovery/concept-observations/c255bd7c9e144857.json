@@ -16,6 +16,7 @@
       "text": "Quick codebase summary for new projects - /onboard command"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -30,6 +31,7 @@
   ],
   "concept_id": "automation",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "automation",
   "observation_id": "c255bd7c9e144857",
   "observation_kind": "repo-topic",

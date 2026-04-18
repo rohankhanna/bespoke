@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
+  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -72,6 +72,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/notebook-tests.yml",
       "source_repo": "anthropics/claude-cookbooks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ldayton/Parable"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ldayton/Parable"
     }
   ]
 }

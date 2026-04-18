@@ -5,6 +5,7 @@
     "capability"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -19,11 +20,13 @@
   ],
   "concept_id": "ai-accountability",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "ai-accountability",
   "observation_id": "2ce4f6a37aa62802",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:24:14.688152+00:00",
   "observed_text": "ai-accountability",
+  "source_context_snippet": null,
   "source_file": null,
   "source_repo": "PiQrypt/aiss-standard",
   "source_repo_description": null

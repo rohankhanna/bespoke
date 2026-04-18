@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
+  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -21,6 +21,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "serpro69/capy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-skills"
     }
   ],
   "term": "openclaw"

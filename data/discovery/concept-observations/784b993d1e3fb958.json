@@ -16,6 +16,7 @@
       "text": "Publish to BCR"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -30,6 +31,7 @@
   ],
   "concept_id": "publish-to-bcr",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "publish-to-bcr",
   "observation_id": "784b993d1e3fb958",
   "observation_kind": "workflow-name",

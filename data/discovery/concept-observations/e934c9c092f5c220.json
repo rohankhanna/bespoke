@@ -16,6 +16,7 @@
       "text": "Continuous Integration"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -30,6 +31,7 @@
   ],
   "concept_id": "continuous-integration",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "continuous-integration",
   "observation_id": "e934c9c092f5c220",
   "observation_kind": "workflow-name",

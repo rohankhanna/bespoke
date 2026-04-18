@@ -5,6 +5,7 @@
     "data-document-artifact"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -19,11 +20,13 @@
   ],
   "concept_id": "publish",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "publish",
   "observation_id": "103a7b52795eeb68",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:57:36.597358+00:00",
   "observed_text": "Publish",
+  "source_context_snippet": null,
   "source_file": ".github/workflows/publish.yaml",
   "source_repo": "bmad-code-org/BMAD-METHOD",
   "source_repo_description": null

@@ -5,6 +5,7 @@
     "data-document-artifact"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -19,11 +20,13 @@
   ],
   "concept_id": "update-token-count",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "update-token-count",
   "observation_id": "95c4c9f8997ff57b",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:24:14.688152+00:00",
   "observed_text": "Update token count",
+  "source_context_snippet": null,
   "source_file": ".github/workflows/update-tokens.yml",
   "source_repo": "qwibitai/nanoclaw",
   "source_repo_description": null

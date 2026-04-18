@@ -4,7 +4,25 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definition_hints": [],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Notebook Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Notebook Tests"
+    }
+  ],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -19,12 +37,14 @@
   ],
   "concept_id": "notebook-tests",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "notebook-tests",
   "observation_id": "0bce957a1980cc85",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-18T12:46:59.510459+00:00",
+  "observed_at": "2026-04-18T13:50:38.061794+00:00",
   "observed_text": "Notebook Tests",
+  "source_context_snippet": "Notebook Tests",
   "source_file": ".github/workflows/notebook-tests.yml",
   "source_repo": "anthropics/claude-cookbooks",
-  "source_repo_description": null
+  "source_repo_description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude."
 }

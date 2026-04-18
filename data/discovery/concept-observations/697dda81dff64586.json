@@ -5,6 +5,7 @@
     "data-document-artifact"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -19,11 +20,13 @@
   ],
   "concept_id": "build-and-publish-implementation-images",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "build-and-publish-implementation-images",
   "observation_id": "697dda81dff64586",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:24:14.688152+00:00",
   "observed_text": "Build and Publish Implementation Images",
+  "source_context_snippet": null,
   "source_file": ".github/workflows/transport-interop-build-and-publish.yml",
   "source_repo": "libp2p/test-plans",
   "source_repo_description": null

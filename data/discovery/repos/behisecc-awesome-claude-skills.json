@@ -1,0 +1,74 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BehiSecc/awesome-claude-skills",
+      "target": "1nickpappas/move-code-quality-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BehiSecc/awesome-claude-skills",
+      "target": "8144225309/superscalar-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BehiSecc/awesome-claude-skills",
+      "target": "agamm/claude-code-owasp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BehiSecc/awesome-claude-skills",
+      "target": "adiny/moodtrip-hotel-search",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-18T13:51:09.531125+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27811
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "A curated list of Claude Skills.",
+    "full_name": "BehiSecc/awesome-claude-skills",
+    "html_url": "https://github.com/BehiSecc/awesome-claude-skills",
+    "language": null,
+    "pushed_at": "2026-04-01T08:24:45Z",
+    "topics": [],
+    "updated_at": "2026-04-18T13:40:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "1nickpappas/move-code-quality-skill",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "8144225309/superscalar-mcp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adiny/moodtrip-hotel-search",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agamm/claude-code-owasp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

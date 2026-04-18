@@ -16,6 +16,7 @@
       "text": "Make your AI think like Munger, Feynman, or Paul Graham \u2014 load real mental models, not personas."
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -30,6 +31,7 @@
   ],
   "concept_id": "prompt-engineering",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "prompt-engineering",
   "observation_id": "9058b22aee23d7fa",
   "observation_kind": "repo-topic",

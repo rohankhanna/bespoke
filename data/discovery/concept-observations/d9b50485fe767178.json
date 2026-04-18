@@ -5,6 +5,7 @@
     "capability"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -19,11 +20,13 @@
   ],
   "concept_id": "research",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "research",
   "observation_id": "d9b50485fe767178",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:24:14.688152+00:00",
   "observed_text": "research",
+  "source_context_snippet": null,
   "source_file": null,
   "source_repo": "roampal-ai/roampal-labs",
   "source_repo_description": null

@@ -5,6 +5,7 @@
     "data-document-artifact"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -19,11 +20,13 @@
   ],
   "concept_id": "publish-extension-to-chrome-web-store",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "publish-extension-to-chrome-web-store",
   "observation_id": "154ae5dc5e882589",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T12:06:06.216548+00:00",
   "observed_text": "Publish Extension to Chrome Web Store",
+  "source_context_snippet": null,
   "source_file": ".github/workflows/publish-extension.yml",
   "source_repo": "microsoft/playwright-mcp",
   "source_repo_description": null

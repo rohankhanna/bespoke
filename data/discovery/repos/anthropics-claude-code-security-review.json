@@ -1,0 +1,121 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sast.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-claudecode.yml"
+    },
+    {
+      "component": "actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-claudecode.yml"
+    },
+    {
+      "component": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-claudecode.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@b7a1c7ccf290d58743029c4f6903da283811b979",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-claudecode.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sast.yml",
+      "source_repo": "anthropics/claude-code-security-review",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sast.yml",
+      "source_repo": "anthropics/claude-code-security-review",
+      "target": "SAST",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-claudecode.yml",
+      "source_repo": "anthropics/claude-code-security-review",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-claudecode.yml",
+      "source_repo": "anthropics/claude-code-security-review",
+      "target": "actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-claudecode.yml",
+      "source_repo": "anthropics/claude-code-security-review",
+      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-claudecode.yml",
+      "source_repo": "anthropics/claude-code-security-review",
+      "target": "oven-sh/setup-bun@b7a1c7ccf290d58743029c4f6903da283811b979",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-claudecode.yml",
+      "source_repo": "anthropics/claude-code-security-review",
+      "target": "Test ClaudeCode Integration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T13:50:42.789737+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8552
+    },
+    {
+      "path": ".github/workflows/sast.yml",
+      "size": 580
+    },
+    {
+      "path": ".github/workflows/test-claudecode.yml",
+      "size": 1520
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "An AI-powered security review GitHub Action using Claude to analyze code changes for security vulnerabilities.",
+    "full_name": "anthropics/claude-code-security-review",
+    "html_url": "https://github.com/anthropics/claude-code-security-review",
+    "language": "Python",
+    "pushed_at": "2026-02-11T18:01:23Z",
+    "topics": [],
+    "updated_at": "2026-04-18T12:33:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "SAST",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sast.yml",
+      "term": "SAST"
+    },
+    {
+      "context_snippet": "Test ClaudeCode Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-claudecode.yml",
+      "term": "Test ClaudeCode Integration"
+    }
+  ]
+}

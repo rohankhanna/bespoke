@@ -5,6 +5,7 @@
     "data-document-artifact"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -19,11 +20,13 @@
   ],
   "concept_id": "status-badges-update",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "status-badges-update",
   "observation_id": "aa9b1b0dfa737f6d",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:57:36.597358+00:00",
   "observed_text": "\ud83d\udcca Status Badges Update",
+  "source_context_snippet": null,
   "source_file": ".github/workflows/status-badges.yml",
   "source_repo": "ruvnet/ruflo",
   "source_repo_description": null

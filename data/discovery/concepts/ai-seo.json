@@ -21,6 +21,7 @@
       "text": "Universal SEO skill for Claude Code. 19 sub-skills, 12 subagents, 3 extensions (DataForSEO, Firecrawl, Banana). Technical SEO, E-E-A-T, schema, GEO/AEO, backlinks, local SEO, maps intelligence, Google APIs, and PDF/Excel reporting."
     }
   ],
+  "candidate_glosses": [],
   "canonical_name": "ai-seo",
   "concept_id": "ai-seo",
   "definition_status": "unresolved",
@@ -33,6 +34,7 @@
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "gloss_status": "unresolved",
   "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "possible_senses": [
     {

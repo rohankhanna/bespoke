@@ -1,0 +1,50 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "232+ Claude Code skills & agent plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents \u2014 engineering, marketing, product, compliance, C-level advisory."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Skill Quality Review (Tessl)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Skill Quality Review (Tessl)"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Skill Quality Review (Tessl)",
+      "sense_id": "skill-quality-review-tessl#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "skill-quality-review-tessl",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "normalized_form": "skill-quality-review-tessl",
+  "observation_id": "08d4e483a7199f88",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T13:50:38.061794+00:00",
+  "observed_text": "Skill Quality Review (Tessl)",
+  "source_context_snippet": "Skill Quality Review (Tessl)",
+  "source_file": ".github/workflows/skill-quality-review.yml",
+  "source_repo": "alirezarezvani/claude-skills",
+  "source_repo_description": "232+ Claude Code skills & agent plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents \u2014 engineering, marketing, product, compliance, C-level advisory."
+}

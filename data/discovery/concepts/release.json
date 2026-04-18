@@ -56,6 +56,80 @@
       "source_repo": "affaan-m/agentshield",
       "status": "candidate-context",
       "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "automazeio/proof",
+      "status": "candidate-context",
+      "text": "Visual proof of work for automated code changes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "automazeio/proof",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "upstash/context7",
+      "status": "candidate-context",
+      "text": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "upstash/context7",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "phiat/claude-esp-rs",
+      "status": "candidate-context",
+      "text": "Stream Claude Code's hidden output (thinking, tool calls, subagents) to a separate terminal in real-time (Rust port)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phiat/claude-esp-rs",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ldayton/Parable",
+      "status": "candidate-context",
+      "text": "\ud83c\udf00 A complete bash parser that handles every edge case \u2014 extensively validated against bash itself \u2014 one file, zero dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldayton/Parable",
+      "status": "candidate-context",
+      "text": "Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "automazeio/proof",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "upstash/context7",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "phiat/claude-esp-rs",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ldayton/Parable",
+      "status": "candidate",
+      "text": "Release"
     }
   ],
   "canonical_name": "Release",
@@ -247,10 +321,35 @@
       "observed_at": "2026-04-18T13:29:00.435097+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "affaan-m/agentshield"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T13:50:38.061794+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "automazeio/proof"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T13:50:38.061794+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "upstash/context7"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T13:50:38.061794+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "phiat/claude-esp-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T13:50:38.061794+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ldayton/Parable"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "possible_senses": [
     {
       "buckets": [

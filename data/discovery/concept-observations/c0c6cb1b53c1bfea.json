@@ -5,6 +5,7 @@
     "data-document-artifact"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -19,11 +20,13 @@
   ],
   "concept_id": "code-coverage",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "code-coverage",
   "observation_id": "c0c6cb1b53c1bfea",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:56:18.570627+00:00",
   "observed_text": "Code Coverage",
+  "source_context_snippet": null,
   "source_file": ".github/workflows/coverage.yml",
   "source_repo": "JohnnyMorganz/StyLua",
   "source_repo_description": null

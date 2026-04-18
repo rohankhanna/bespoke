@@ -16,6 +16,7 @@
       "text": "Build and Test"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -30,6 +31,7 @@
   ],
   "concept_id": "build-and-test",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "build-and-test",
   "observation_id": "f517b70097118e8f",
   "observation_kind": "workflow-name",

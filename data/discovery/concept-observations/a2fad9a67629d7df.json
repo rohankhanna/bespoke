@@ -4,6 +4,7 @@
     "workflow-process"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -17,11 +18,13 @@
   ],
   "concept_id": "lunaria",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "lunaria",
   "observation_id": "a2fad9a67629d7df",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T10:25:53.609022+00:00",
   "observed_text": "Lunaria",
+  "source_context_snippet": null,
   "source_file": ".github/workflows/lunaria.yml",
   "source_repo": "withastro/starlight",
   "source_repo_description": null

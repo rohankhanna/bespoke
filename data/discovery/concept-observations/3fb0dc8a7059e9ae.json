@@ -16,6 +16,7 @@
       "text": "Bazel Release"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -30,6 +31,7 @@
   ],
   "concept_id": "bazel-release",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "bazel-release",
   "observation_id": "3fb0dc8a7059e9ae",
   "observation_kind": "workflow-name",

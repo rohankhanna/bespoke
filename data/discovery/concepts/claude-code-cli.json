@@ -13,6 +13,26 @@
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
       "status": "candidate-context",
       "text": "An index of my Claude Code related repos including a wide variety of starter templates for using Claude Code for common and more imaginative purposes!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wshobson/agents",
+      "status": "candidate-context",
+      "text": "Intelligent automation and multi-agent orchestration for Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wshobson/agents",
+      "status": "candidate-context",
+      "text": "> **\u26a1 Updated for Opus 4.7, Sonnet 4.6 & Haiku 4.5** \u2014 Three-tier model strategy for optimal performance"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wshobson/agents",
+      "status": "candidate",
+      "text": "> **\u26a1 Updated for Opus 4.7, Sonnet 4.6 & Haiku 4.5** \u2014 Three-tier model strategy for optimal performance"
     }
   ],
   "canonical_name": "claude-code-cli",
@@ -30,10 +50,17 @@
       "observed_at": "2026-04-18T13:15:13.756138+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/Claude-Code-Projects-Index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:50:38.061794+00:00",
+      "source_file": null,
+      "source_repo": "wshobson/agents"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "possible_senses": [
     {
       "buckets": [

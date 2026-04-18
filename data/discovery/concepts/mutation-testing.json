@@ -8,6 +8,7 @@
     "data-document-artifact"
   ],
   "candidate_definitions": [],
+  "candidate_glosses": [],
   "canonical_name": "Mutation Testing",
   "concept_id": "mutation-testing",
   "definition_status": "unresolved",
@@ -20,6 +21,7 @@
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
+  "gloss_status": "unresolved",
   "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "possible_senses": [
     {

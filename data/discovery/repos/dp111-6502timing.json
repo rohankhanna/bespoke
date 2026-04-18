@@ -1,0 +1,38 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dp111/6502Timing",
+      "target": "stardot/beebasm",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-18T13:51:34.828037+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2532
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "6502 Instruction timing",
+    "full_name": "dp111/6502Timing",
+    "html_url": "https://github.com/dp111/6502Timing",
+    "language": "Assembly",
+    "pushed_at": "2026-04-11T09:31:38Z",
+    "topics": [],
+    "updated_at": "2026-04-11T09:31:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stardot/beebasm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

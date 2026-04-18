@@ -63,6 +63,9 @@
   "agent-harness": [
     "agent-harness"
   ],
+  "agent-plugins": [
+    "agent-plugins"
+  ],
   "agent-skill": [
     "agent-skill"
   ],
@@ -126,6 +129,9 @@
   "ai-coding": [
     "ai-coding"
   ],
+  "ai-coding-agent": [
+    "ai-coding-agent"
+  ],
   "ai-detection": [
     "ai-detection"
   ],
@@ -149,6 +155,9 @@
   ],
   "ai-pipeline": [
     "ai-pipeline"
+  ],
+  "ai-scientist": [
+    "ai-scientist"
   ],
   "ai-seo": [
     "ai-seo"
@@ -329,6 +338,9 @@
   "auto-close duplicate issues": [
     "auto-close-duplicate-issues"
   ],
+  "auto-close issues on pr merge": [
+    "auto-close-issues-on-pr-merge"
+  ],
   "auto-label claude prs": [
     "auto-label-claude-prs"
   ],
@@ -472,6 +484,9 @@
   "binary": [
     "binary"
   ],
+  "bioinformatics": [
+    "bioinformatics"
+  ],
   "blackwell": [
     "blackwell"
   ],
@@ -539,6 +554,9 @@
   ],
   "build daft wheel": [
     "build-daft-wheel"
+  ],
+  "build dendron static site": [
+    "build-dendron-static-site"
   ],
   "build diskann native modules": [
     "build-diskann-native-modules"
@@ -631,6 +649,9 @@
   "can": [
     "en-modal_or_auxiliary-can"
   ],
+  "canary release": [
+    "canary-release"
+  ],
   "cancel pr workflows on merge": [
     "cancel-pr-workflows-on-merge"
   ],
@@ -651,6 +672,9 @@
   ],
   "cc-proxy": [
     "cc-proxy"
+  ],
+  "changeset check": [
+    "changeset-check"
   ],
   "charts": [
     "charts"
@@ -682,6 +706,9 @@
   "checks": [
     "checks"
   ],
+  "chemoinformatics": [
+    "chemoinformatics"
+  ],
   "chromadb": [
     "chromadb"
   ],
@@ -706,6 +733,9 @@
   "ci - libnpmpack": [
     "ci---libnpmpack"
   ],
+  "ci quality gate": [
+    "ci-quality-gate"
+  ],
   "ci tests": [
     "ci-tests"
   ],
@@ -720,6 +750,9 @@
   ],
   "claude code": [
     "claude-code"
+  ],
+  "claude code review": [
+    "claude-code-review"
   ],
   "claude find issues for pr": [
     "claude-find-issues-for-pr"
@@ -766,6 +799,9 @@
   "claude-code-cli": [
     "claude-code-cli"
   ],
+  "claude-code-commands": [
+    "claude-code-commands"
+  ],
   "claude-code-plugin": [
     "claude-code-plugin"
   ],
@@ -781,6 +817,9 @@
   "claude-code-skills": [
     "claude-code-skills"
   ],
+  "claude-code-subagents": [
+    "claude-code-subagents"
+  ],
   "claude-code-system-prompts": [
     "claude-code-system-prompts"
   ],
@@ -795,6 +834,9 @@
   ],
   "claudecode-config": [
     "claudecode-config"
+  ],
+  "claudecode-subagents": [
+    "claudecode-subagents"
   ],
   "clawdbot": [
     "clawdbot"
@@ -813,6 +855,9 @@
   ],
   "climbing": [
     "climbing"
+  ],
+  "clinical-research": [
+    "clinical-research"
   ],
   "close external prs": [
     "close-external-prs"
@@ -849,6 +894,9 @@
   ],
   "close stalled issues and prs": [
     "close-stalled-issues-and-prs"
+  ],
+  "cloudflare": [
+    "cloudflare"
   ],
   "cluade": [
     "cluade"
@@ -892,8 +940,17 @@
   "codex-cli": [
     "codex-cli"
   ],
+  "codex-skills": [
+    "codex-skills"
+  ],
   "coding": [
     "coding"
+  ],
+  "coding-agent-plugins": [
+    "coding-agent-plugins"
+  ],
+  "codons": [
+    "codons"
   ],
   "collective-intelligence": [
     "collective-intelligence"
@@ -921,6 +978,9 @@
   ],
   "component integration tests": [
     "component-integration-tests"
+  ],
+  "computational-biology": [
+    "computational-biology"
   ],
   "conceptual-modeling": [
     "conceptual-modeling"
@@ -1027,6 +1087,9 @@
   "cursor": [
     "cursor"
   ],
+  "cursor-skills": [
+    "cursor-skills"
+  ],
   "cybersecurity": [
     "cybersecurity"
   ],
@@ -1041,6 +1104,9 @@
   ],
   "dark-mode": [
     "dark-mode"
+  ],
+  "data-analysis": [
+    "data-analysis"
   ],
   "data-engineering": [
     "data-engineering"
@@ -1119,6 +1185,9 @@
   ],
   "deploy storybook to github pages": [
     "deploy-storybook-to-github-pages"
+  ],
+  "deploy to aws ecr": [
+    "deploy-to-aws-ecr"
   ],
   "deploy to github pages": [
     "deploy-to-github-pages"
@@ -1252,6 +1321,9 @@
   "down": [
     "en-preposition-down"
   ],
+  "drug-discovery": [
+    "drug-discovery"
+  ],
   "dsa": [
     "dsa"
   ],
@@ -1315,6 +1387,9 @@
   ],
   "enable auto-merge for dependabot prs": [
     "enable-auto-merge-for-dependabot-prs"
+  ],
+  "enforce pr target branch": [
+    "enforce-pr-target-branch"
   ],
   "engineering": [
     "engineering"
@@ -1483,6 +1558,9 @@
   "gemini-cli": [
     "gemini-cli"
   ],
+  "gemini-cli-skills": [
+    "gemini-cli-skills"
+  ],
   "gemma": [
     "gemma"
   ],
@@ -1500,6 +1578,9 @@
   ],
   "generative-ai": [
     "generative-ai"
+  ],
+  "genomics": [
+    "genomics"
   ],
   "git status": [
     "git-status"
@@ -1789,6 +1870,9 @@
   "junit": [
     "junit"
   ],
+  "just check": [
+    "just-check"
+  ],
   "k8s-sig-architecture": [
     "k8s-sig-architecture"
   ],
@@ -1854,6 +1938,9 @@
   ],
   "language-model": [
     "language-model"
+  ],
+  "language-models": [
+    "language-models"
   ],
   "language-server": [
     "language-server"
@@ -2060,6 +2147,9 @@
   "marshalling": [
     "marshalling"
   ],
+  "materials-science": [
+    "materials-science"
+  ],
   "maxkb": [
     "maxkb"
   ],
@@ -2092,6 +2182,9 @@
   ],
   "merge pull request": [
     "merge-pull-request"
+  ],
+  "metabolomics": [
+    "metabolomics"
   ],
   "midjourney": [
     "midjourney"
@@ -2372,11 +2465,20 @@
   "open-source": [
     "open-source"
   ],
+  "openai-codex": [
+    "openai-codex"
+  ],
   "openclaw": [
     "openclaw"
   ],
   "openclaw gate": [
     "openclaw-gate"
+  ],
+  "openclaw-plugins": [
+    "openclaw-plugins"
+  ],
+  "openclaw-skills": [
+    "openclaw-skills"
   ],
   "opencode": [
     "opencode"
@@ -2401,6 +2503,9 @@
   ],
   "or": [
     "en-conjunction-or"
+  ],
+  "orchestration": [
+    "orchestration"
   ],
   "orientation": [
     "orientation"
@@ -2440,6 +2545,9 @@
   ],
   "parquet": [
     "parquet"
+  ],
+  "parsing": [
+    "parsing"
   ],
   "past": [
     "en-preposition-past"
@@ -2482,6 +2590,9 @@
   ],
   "plugin": [
     "plugin"
+  ],
+  "plugin eval report": [
+    "plugin-eval-report"
   ],
   "plugin-manager": [
     "plugin-manager"
@@ -2528,6 +2639,9 @@
   "pr review": [
     "pr-review"
   ],
+  "pr skill scan": [
+    "pr-skill-scan"
+  ],
   "pr title": [
     "pr-title"
   ],
@@ -2569,6 +2683,12 @@
   ],
   "prompt-injection-llm-security": [
     "prompt-injection-llm-security"
+  ],
+  "protein-language-model": [
+    "protein-language-model"
+  ],
+  "proteomics": [
+    "proteomics"
   ],
   "protobuf": [
     "protobuf"
@@ -2623,6 +2743,9 @@
   ],
   "publish to bcr": [
     "publish-to-bcr"
+  ],
+  "publish to mcp registry": [
+    "publish-to-mcp-registry"
   ],
   "publish to npm": [
     "publish-to-npm"
@@ -2746,6 +2869,9 @@
   ],
   "release (prepare)": [
     "release-prepare"
+  ],
+  "release and publish": [
+    "release-and-publish"
   ],
   "release candidate": [
     "release-candidate"
@@ -2894,6 +3020,12 @@
   "scan agent skills": [
     "scan-agent-skills"
   ],
+  "scientific-computing": [
+    "scientific-computing"
+  ],
+  "scientific-visualization": [
+    "scientific-visualization"
+  ],
   "scorecard supply-chain security": [
     "scorecard-supply-chain-security"
   ],
@@ -2972,6 +3104,12 @@
     "en-conjunction-since",
     "en-preposition-since"
   ],
+  "skill quality review (tessl)": [
+    "skill-quality-review-tessl"
+  ],
+  "skill security audit": [
+    "skill-security-audit"
+  ],
   "skills": [
     "skills"
   ],
@@ -2983,6 +3121,9 @@
   ],
   "slash-commands": [
     "slash-commands"
+  ],
+  "smart bidirectional sync": [
+    "smart-bidirectional-sync"
   ],
   "so": [
     "en-conjunction-so",
@@ -3073,6 +3214,9 @@
   "static-site-generator": [
     "static-site-generator"
   ],
+  "staticcheck": [
+    "staticcheck"
+  ],
   "statistics": [
     "statistics"
   ],
@@ -3108,6 +3252,12 @@
   ],
   "stylua": [
     "stylua"
+  ],
+  "sub-agents": [
+    "sub-agents"
+  ],
+  "subagents": [
+    "subagents"
   ],
   "such": [
     "en-article_or_determiner-such"
@@ -3183,6 +3333,9 @@
   ],
   "test ci": [
     "test-ci"
+  ],
+  "test claudecode integration": [
+    "test-claudecode-integration"
   ],
   "test docker images": [
     "test-docker-images"
@@ -3433,6 +3586,9 @@
   "us": [
     "en-pronoun-us"
   ],
+  "validate": [
+    "validate"
+  ],
   "validate data": [
     "validate-data"
   ],
@@ -3519,6 +3675,9 @@
   ],
   "wechat": [
     "wechat"
+  ],
+  "weekly security scan": [
+    "weekly-security-scan"
   ],
   "well": [
     "en-discourse_marker-well"
@@ -3611,6 +3770,12 @@
   ],
   "work": [
     "work"
+  ],
+  "workers": [
+    "workers"
+  ],
+  "workflows": [
+    "workflows"
   ],
   "would": [
     "en-modal_or_auxiliary-would"

@@ -5,6 +5,7 @@
     "data-document-artifact"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -19,11 +20,13 @@
   ],
   "concept_id": "secret-leaks",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "secret-leaks",
   "observation_id": "fa8554fcf797fedf",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T10:43:38.551697+00:00",
   "observed_text": "Secret Leaks",
+  "source_context_snippet": null,
   "source_file": ".github/workflows/trufflehog.yml",
   "source_repo": "huggingface/candle",
   "source_repo_description": null

@@ -7,7 +7,28 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alirezarezvani/claude-skills",
+      "status": "candidate-context",
+      "text": "232+ Claude Code skills & agent plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents \u2014 engineering, marketing, product, compliance, C-level advisory."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alirezarezvani/claude-skills",
+      "status": "candidate-context",
+      "text": "**235 production-ready Claude Code skills, plugins, and agent skills for 12 AI coding tools.**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alirezarezvani/claude-skills",
+      "status": "candidate",
+      "text": "**235 production-ready Claude Code skills, plugins, and agent skills for 12 AI coding tools.**"
+    }
+  ],
   "canonical_name": "openclaw",
   "concept_id": "openclaw",
   "definition_status": "unresolved",
@@ -35,10 +56,17 @@
       "observed_at": "2026-04-18T11:57:36.597358+00:00",
       "source_file": null,
       "source_repo": "serpro69/capy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:50:38.061794+00:00",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-skills"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "possible_senses": [
     {
       "buckets": [

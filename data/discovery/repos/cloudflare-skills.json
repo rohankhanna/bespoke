@@ -1,0 +1,95 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudflare/skills",
+      "target": "cloudflare/agents",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudflare/skills",
+      "target": "cloudflare/agents-starter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudflare/skills",
+      "target": "cloudflare",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudflare/skills",
+      "target": "skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudflare/skills",
+      "target": "workers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T13:51:41.071917+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3982
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Skills for teaching agents how to build on Cloudflare.",
+    "full_name": "cloudflare/skills",
+    "html_url": "https://github.com/cloudflare/skills",
+    "language": null,
+    "pushed_at": "2026-04-16T12:56:33Z",
+    "topics": [
+      "agents",
+      "cloudflare",
+      "skills",
+      "workers"
+    ],
+    "updated_at": "2026-04-18T13:06:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudflare/agents",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudflare/agents-starter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A collection of [Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) for building on Cloudflare, Workers, the Agents SDK, and the wider Cloudflare Developer Platform.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudflare"
+    },
+    {
+      "context_snippet": "A collection of [Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) for building on Cloudflare, Workers, the Agents SDK, and the wider Cloudflare Developer Platform.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "skills"
+    },
+    {
+      "context_snippet": "A collection of [Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) for building on Cloudflare, Workers, the Agents SDK, and the wider Cloudflare Developer Platform.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workers"
+    }
+  ]
+}

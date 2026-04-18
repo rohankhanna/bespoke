@@ -16,6 +16,7 @@
       "text": "Protobuf"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -30,6 +31,7 @@
   ],
   "concept_id": "protobuf",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "protobuf",
   "observation_id": "fbb76ed4c4743d12",
   "observation_kind": "workflow-name",

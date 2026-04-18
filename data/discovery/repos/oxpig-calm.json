@@ -1,0 +1,130 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oxpig/CaLM",
+      "target": "codons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oxpig/CaLM",
+      "target": "computational-biology",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oxpig/CaLM",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oxpig/CaLM",
+      "target": "language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oxpig/CaLM",
+      "target": "llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oxpig/CaLM",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oxpig/CaLM",
+      "target": "protein-language-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T13:50:41.492435+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 749
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 735
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Protein language model trained on coding DNA",
+    "full_name": "oxpig/CaLM",
+    "html_url": "https://github.com/oxpig/CaLM",
+    "language": "Python",
+    "pushed_at": "2024-10-20T17:56:44Z",
+    "topics": [
+      "codons",
+      "computational-biology",
+      "deep-learning",
+      "dna",
+      "language-models",
+      "llms",
+      "machine-learning",
+      "protein-language-model"
+    ],
+    "updated_at": "2026-03-30T10:05:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository encapsulates all code required to reproduce the results of the paper [\"Codon language embeddings provide strong signals for use in protein engineering\"](https://www.nature.com/articles/s42256-024-00791-0), by Carlos Outeiral and Charlotte M. Deane.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codons"
+    },
+    {
+      "context_snippet": "This repository encapsulates all code required to reproduce the results of the paper [\"Codon language embeddings provide strong signals for use in protein engineering\"](https://www.nature.com/articles/s42256-024-00791-0), by Carlos Outeiral and Charlotte M. Deane.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computational-biology"
+    },
+    {
+      "context_snippet": "This repository encapsulates all code required to reproduce the results of the paper [\"Codon language embeddings provide strong signals for use in protein engineering\"](https://www.nature.com/articles/s42256-024-00791-0), by Carlos Outeiral and Charlotte M. Deane.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This repository encapsulates all code required to reproduce the results of the paper [\"Codon language embeddings provide strong signals for use in protein engineering\"](https://www.nature.com/articles/s42256-024-00791-0), by Carlos Outeiral and Charlotte M. Deane.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-models"
+    },
+    {
+      "context_snippet": "This repository encapsulates all code required to reproduce the results of the paper [\"Codon language embeddings provide strong signals for use in protein engineering\"](https://www.nature.com/articles/s42256-024-00791-0), by Carlos Outeiral and Charlotte M. Deane.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms"
+    },
+    {
+      "context_snippet": "This repository encapsulates all code required to reproduce the results of the paper [\"Codon language embeddings provide strong signals for use in protein engineering\"](https://www.nature.com/articles/s42256-024-00791-0), by Carlos Outeiral and Charlotte M. Deane.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "This repository encapsulates all code required to reproduce the results of the paper [\"Codon language embeddings provide strong signals for use in protein engineering\"](https://www.nature.com/articles/s42256-024-00791-0), by Carlos Outeiral and Charlotte M. Deane.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protein-language-model"
+    }
+  ]
+}

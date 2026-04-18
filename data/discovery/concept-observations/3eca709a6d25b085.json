@@ -1,0 +1,50 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Protein language model trained on coding DNA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository encapsulates all code required to reproduce the results of the paper [\"Codon language embeddings provide strong signals for use in protein engineering\"](https://www.nature.com/articles/s42256-024-00791-0), by Carlos Outeiral and Charlotte M. Deane."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository encapsulates all code required to reproduce the results of the paper [\"Codon language embeddings provide strong signals for use in protein engineering\"](https://www.nature.com/articles/s42256-024-00791-0), by Carlos Outeiral and Charlotte M. Deane."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "llms",
+      "sense_id": "llms#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "llms",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "normalized_form": "llms",
+  "observation_id": "3eca709a6d25b085",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T13:50:38.061794+00:00",
+  "observed_text": "llms",
+  "source_context_snippet": "This repository encapsulates all code required to reproduce the results of the paper [\"Codon language embeddings provide strong signals for use in protein engineering\"](https://www.nature.com/articles/s42256-024-00791-0), by Carlos Outeiral and Charlotte M. Deane.",
+  "source_file": null,
+  "source_repo": "oxpig/CaLM",
+  "source_repo_description": "Protein language model trained on coding DNA"
+}

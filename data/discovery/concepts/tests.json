@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Tests"
+    "Tests",
+    "tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,44 @@
       "source_repo": "steipete/claude-code-mcp",
       "status": "candidate-context",
       "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BeehiveInnovations/pal-mcp-server",
+      "status": "candidate-context",
+      "text": "The power of Claude Code / GeminiCLI / CodexCLI + [Gemini / OpenAI / OpenRouter / Azure / Grok / Ollama / Custom Model / All Of The Above] working as one."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BeehiveInnovations/pal-mcp-server",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dokploy/cli",
+      "status": "candidate-context",
+      "text": "Dokploy CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dokploy/cli",
+      "status": "candidate-context",
+      "text": "tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BeehiveInnovations/pal-mcp-server",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dokploy/cli",
+      "status": "candidate",
+      "text": "tests"
     }
   ],
   "canonical_name": "Tests",
@@ -54,10 +93,23 @@
       "observed_at": "2026-04-18T13:29:00.435097+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "steipete/claude-code-mcp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T13:50:38.061794+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "BeehiveInnovations/pal-mcp-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T13:50:38.061794+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Dokploy/cli"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "possible_senses": [
     {
       "buckets": [

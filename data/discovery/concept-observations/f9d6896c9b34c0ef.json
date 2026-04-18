@@ -5,6 +5,7 @@
     "capability"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -19,11 +20,13 @@
   ],
   "concept_id": "state-machine",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "state-machine",
   "observation_id": "f9d6896c9b34c0ef",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:56:18.570627+00:00",
   "observed_text": "state-machine",
+  "source_context_snippet": null,
   "source_file": null,
   "source_repo": "alfredolopez80/multi-agent-ralph-loop",
   "source_repo_description": null

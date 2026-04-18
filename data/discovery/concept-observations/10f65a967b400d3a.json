@@ -5,6 +5,7 @@
     "capability"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -19,11 +20,13 @@
   ],
   "concept_id": "unstable",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "unstable",
   "observation_id": "10f65a967b400d3a",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T11:41:43.530265+00:00",
   "observed_text": "unstable",
+  "source_context_snippet": null,
   "source_file": null,
   "source_repo": "AUTOMATIC1111/stable-diffusion-webui",
   "source_repo_description": null

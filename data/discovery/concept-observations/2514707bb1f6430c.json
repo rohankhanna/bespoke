@@ -5,6 +5,7 @@
     "data-document-artifact"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -19,11 +20,13 @@
   ],
   "concept_id": "auto-retarget-main-pr-to-dev",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "auto-retarget-main-pr-to-dev",
   "observation_id": "2514707bb1f6430c",
   "observation_kind": "workflow-name",
   "observed_at": "2026-04-18T11:24:14.688152+00:00",
   "observed_text": "auto-retarget-main-pr-to-dev",
+  "source_context_snippet": null,
   "source_file": ".github/workflows/auto-retarget-main-pr-to-dev.yml",
   "source_repo": "router-for-me/CLIProxyAPI",
   "source_repo_description": null

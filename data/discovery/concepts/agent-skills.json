@@ -13,6 +13,44 @@
       "source_repo": "cisco-ai-defense/skill-scanner",
       "status": "candidate-context",
       "text": "Security Scanner for Agent Skills"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alirezarezvani/claude-skills",
+      "status": "candidate-context",
+      "text": "232+ Claude Code skills & agent plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents \u2014 engineering, marketing, product, compliance, C-level advisory."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alirezarezvani/claude-skills",
+      "status": "candidate-context",
+      "text": "**235 production-ready Claude Code skills, plugins, and agent skills for 12 AI coding tools.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "status": "candidate-context",
+      "text": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "status": "candidate-context",
+      "text": "> **\ud83d\udd14 Claude Scientific Skills is now Scientific Agent Skills.** Same skills, broader compatibility \u2014 now works with any AI agent that supports the open [Agent Skills](https://agentskills.io/) standard, not just Claude."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alirezarezvani/claude-skills",
+      "status": "candidate",
+      "text": "**235 production-ready Claude Code skills, plugins, and agent skills for 12 AI coding tools.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "status": "candidate",
+      "text": "> **\ud83d\udd14 Claude Scientific Skills is now Scientific Agent Skills.** Same skills, broader compatibility \u2014 now works with any AI agent that supports the open [Agent Skills](https://agentskills.io/) standard, not just Claude."
     }
   ],
   "canonical_name": "agent-skills",
@@ -30,10 +68,23 @@
       "observed_at": "2026-04-18T13:15:13.756138+00:00",
       "source_file": null,
       "source_repo": "cisco-ai-defense/skill-scanner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:50:38.061794+00:00",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-skills"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:50:38.061794+00:00",
+      "source_file": null,
+      "source_repo": "K-Dense-AI/scientific-agent-skills"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "possible_senses": [
     {
       "buckets": [

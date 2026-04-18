@@ -11,6 +11,7 @@
       "text": "An index of my Claude Code related repos including a wide variety of starter templates for using Claude Code for common and more imaginative purposes!"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -25,11 +26,13 @@
   ],
   "concept_id": "claude-code-cli",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "claude-code-cli",
   "observation_id": "5f47c278a2460a00",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T13:15:13.756138+00:00",
   "observed_text": "claude-code-cli",
+  "source_context_snippet": null,
   "source_file": null,
   "source_repo": "danielrosehill/Claude-Code-Projects-Index",
   "source_repo_description": "An index of my Claude Code related repos including a wide variety of starter templates for using Claude Code for common and more imaginative purposes!"

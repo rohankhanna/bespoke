@@ -5,6 +5,7 @@
     "capability"
   ],
   "candidate_definition_hints": [],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "tool-component",
   "candidate_senses": [
     {
@@ -19,11 +20,13 @@
   ],
   "concept_id": "slack",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "slack",
   "observation_id": "4ab7e0e3ecb0122c",
   "observation_kind": "repo-topic",
   "observed_at": "2026-04-18T12:06:06.216548+00:00",
   "observed_text": "slack",
+  "source_context_snippet": null,
   "source_file": null,
   "source_repo": "korotovsky/slack-mcp-server",
   "source_repo_description": null

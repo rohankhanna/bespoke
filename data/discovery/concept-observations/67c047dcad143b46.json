@@ -16,6 +16,7 @@
       "text": "PR Review"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -30,6 +31,7 @@
   ],
   "concept_id": "pr-review",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "pr-review",
   "observation_id": "67c047dcad143b46",
   "observation_kind": "workflow-name",

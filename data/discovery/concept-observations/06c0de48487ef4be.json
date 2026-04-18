@@ -16,6 +16,7 @@
       "text": "Dependabot Auto-Merge"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -30,6 +31,7 @@
   ],
   "concept_id": "dependabot-auto-merge",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "dependabot-auto-merge",
   "observation_id": "06c0de48487ef4be",
   "observation_kind": "workflow-name",

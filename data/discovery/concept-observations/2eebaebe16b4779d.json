@@ -16,6 +16,7 @@
       "text": "Scorecard supply-chain security"
     }
   ],
+  "candidate_glosses": [],
   "candidate_primary_bucket": "workflow-process",
   "candidate_senses": [
     {
@@ -30,6 +31,7 @@
   ],
   "concept_id": "scorecard-supply-chain-security",
   "definition_status": "unresolved",
+  "gloss_status": "unresolved",
   "normalized_form": "scorecard-supply-chain-security",
   "observation_id": "2eebaebe16b4779d",
   "observation_kind": "workflow-name",

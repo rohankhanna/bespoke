@@ -21,6 +21,7 @@
       "text": "Static analysis binary for agent-sh ecosystem - git history, AST mapping, collectors"
     }
   ],
+  "candidate_glosses": [],
   "canonical_name": "ai-detection",
   "concept_id": "ai-detection",
   "definition_status": "unresolved",
@@ -33,6 +34,7 @@
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "gloss_status": "unresolved",
   "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "possible_senses": [
     {

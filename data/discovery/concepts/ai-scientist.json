@@ -1,0 +1,58 @@
+{
+  "aliases": [
+    "ai-scientist"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "status": "candidate-context",
+      "text": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "status": "candidate-context",
+      "text": "> **\ud83d\udd14 Claude Scientific Skills is now Scientific Agent Skills.** Same skills, broader compatibility \u2014 now works with any AI agent that supports the open [Agent Skills](https://agentskills.io/) standard, not just Claude."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "K-Dense-AI/scientific-agent-skills",
+      "status": "candidate",
+      "text": "> **\ud83d\udd14 Claude Scientific Skills is now Scientific Agent Skills.** Same skills, broader compatibility \u2014 now works with any AI agent that supports the open [Agent Skills](https://agentskills.io/) standard, not just Claude."
+    }
+  ],
+  "canonical_name": "ai-scientist",
+  "concept_id": "ai-scientist",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T13:50:38.061794+00:00",
+      "source_file": null,
+      "source_repo": "K-Dense-AI/scientific-agent-skills"
+    }
+  ],
+  "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ai-scientist",
+      "sense_id": "ai-scientist#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}
