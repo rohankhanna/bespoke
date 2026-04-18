@@ -1,0 +1,96 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "musicman3/eMarket",
+      "target": "musicman3/cruder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "musicman3/eMarket",
+      "target": "musicman3/r2-d2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "musicman3/eMarket",
+      "target": "error_reporting(-1)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "musicman3/eMarket",
+      "target": "install.zip",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T03:55:06.687533+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2988
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "eMarket Online Store. It is a free online shop engine. Make the best online shop with us. Join our Open Source community. Together we will make the best free e-commerce solution.",
+    "full_name": "musicman3/eMarket",
+    "html_url": "https://github.com/musicman3/eMarket",
+    "language": "PHP",
+    "pushed_at": "2026-04-17T17:57:22Z",
+    "topics": [
+      "bootstrap",
+      "cart",
+      "chatgpt",
+      "cms",
+      "ecommerce",
+      "js-market",
+      "market",
+      "online-cart",
+      "online-shop",
+      "online-shopping-cart",
+      "online-store",
+      "online-store-website",
+      "php-javascript",
+      "shop",
+      "shop-framework",
+      "shopping",
+      "shopping-basket",
+      "shopping-cart",
+      "store",
+      "store-engine"
+    ],
+    "updated_at": "2026-04-17T17:57:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "musicman3/cruder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "musicman3/r2-d2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "error_reporting(-1)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "install.zip"
+    }
+  ]
+}

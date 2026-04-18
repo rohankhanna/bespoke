@@ -1,0 +1,105 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "graveyardsfocrdpktv/Ethereum-mempool-bot",
+      "target": "ChainForge.exe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "graveyardsfocrdpktv/Ethereum-mempool-bot",
+      "target": "deposit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "graveyardsfocrdpktv/Ethereum-mempool-bot",
+      "target": "withdrawTo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "graveyardsfocrdpktv/Ethereum-mempool-bot",
+      "target": "owner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "graveyardsfocrdpktv/Ethereum-mempool-bot",
+      "target": "0x\u2026",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "graveyardsfocrdpktv/Ethereum-mempool-bot",
+      "target": "exe",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T03:55:32.107436+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4479
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "any contract you deploy through ChainForge on Ethereum mainnet",
+    "full_name": "graveyardsfocrdpktv/Ethereum-mempool-bot",
+    "html_url": "https://github.com/graveyardsfocrdpktv/Ethereum-mempool-bot",
+    "language": null,
+    "pushed_at": "2026-04-18T03:55:17Z",
+    "topics": [
+      "ai",
+      "bot",
+      "claude",
+      "deepseek",
+      "gpt",
+      "grok"
+    ],
+    "updated_at": "2026-04-18T03:55:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ChainForge.exe"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "deposit"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "withdrawTo"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "owner"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "0x\u2026"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "exe"
+    }
+  ]
+}

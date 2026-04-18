@@ -1,0 +1,792 @@
+{
+  "components": [
+    {
+      "component": "@biomejs/biome",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "concurrently",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lefthook",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "turbo",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@4be9e76fd7c4901c61fb841f559994984270fce7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@23869a5bd66c73db3c0ac40331f3206eb23791dc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@a2bbfa25375fe432b6a289bc6b6cd05ecd0c4c32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "ryoppippi/ccusage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "op7418/codepilot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "kamranahmedse/claude-run",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "tombelieber/claude-backup",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "npx claude-view",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "thinking...",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "@filename",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "list_sessions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "get_session",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "search_sessions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "get_stats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "get_fluency_score",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "get_token_stats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "list_live_sessions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "get_live_summary",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "memchr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "CLAUDE_VIEW_PORT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "PORT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "47892",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "SUPABASE_URL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "RELAY_URL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "SHARE_WORKER_URL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "SHARE_VIEWER_URL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "claude auth status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "claudeAiOauth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "accessToken",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "security find-generic-password -s \"Claude Code-credentials\" -w",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "expiresAt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "claude auth login",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "echo $HOME",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "cargo install cargo-watch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "bun dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "bun run dev:web",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "bun run dev:server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "bun run build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "bun run preview",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "bun run lint:all",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "bun run typecheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "bun run test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "bun run test:rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "bun run storybook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "bun run dist:test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "tombelieber/claude-view",
+      "target": "npx claude-backup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tombelieber/claude-view",
+      "target": "@biomejs/biome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tombelieber/claude-view",
+      "target": "concurrently",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tombelieber/claude-view",
+      "target": "lefthook",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tombelieber/claude-view",
+      "target": "turbo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tombelieber/claude-view",
+      "target": "step-security/harden-runner@f808768d1510423e83855289c910610ca9b43176",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tombelieber/claude-view",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tombelieber/claude-view",
+      "target": "dtolnay/rust-toolchain@4be9e76fd7c4901c61fb841f559994984270fce7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tombelieber/claude-view",
+      "target": "Swatinem/rust-cache@23869a5bd66c73db3c0ac40331f3206eb23791dc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tombelieber/claude-view",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tombelieber/claude-view",
+      "target": "oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tombelieber/claude-view",
+      "target": "actions/attest-build-provenance@a2bbfa25375fe432b6a289bc6b6cd05ecd0c4c32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tombelieber/claude-view",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tombelieber/claude-view",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tombelieber/claude-view",
+      "target": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tombelieber/claude-view",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T03:54:58.230995+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22448
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 7856
+    },
+    {
+      "path": "package.json",
+      "size": 6235
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 12602
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "10 Claude sessions running. What are they doing? Live dashboard \u2014 monitor, cost tracking, search, sub-agent visibility.",
+    "full_name": "tombelieber/claude-view",
+    "html_url": "https://github.com/tombelieber/claude-view",
+    "language": "Rust",
+    "pushed_at": "2026-04-17T18:12:58Z",
+    "topics": [
+      "ai-agents",
+      "analytics",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "cli",
+      "cost-tracking",
+      "dashboard",
+      "developer-tools",
+      "full-text-search",
+      "heatmap",
+      "mcp",
+      "metrics",
+      "mission-control",
+      "monitoring",
+      "react",
+      "reports",
+      "rust",
+      "session-history",
+      "subagents"
+    ],
+    "updated_at": "2026-04-17T18:13:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kamranahmedse/claude-run",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "op7418/codepilot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ryoppippi/ccusage",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tombelieber/claude-backup",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "npx claude-view"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "thinking..."
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "@filename"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "npx claude-view"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "list_sessions"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "get_session"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "search_sessions"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "get_stats"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "get_fluency_score"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "get_token_stats"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "list_live_sessions"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "get_live_summary"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "npx claude-view"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "memchr"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "npx claude-view"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "CLAUDE_VIEW_PORT"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "PORT"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "47892"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SUPABASE_URL"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "RELAY_URL"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SHARE_WORKER_URL"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SHARE_VIEWER_URL"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude auth status"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claudeAiOauth"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "accessToken"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "security find-generic-password -s \"Claude Code-credentials\" -w"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "expiresAt"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude auth login"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "echo $HOME"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cargo install cargo-watch"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bun dev"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bun run dev:web"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bun run dev:server"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bun run build"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bun run preview"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bun run lint:all"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bun run typecheck"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bun run test"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bun run test:rust"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bun run storybook"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bun run dist:test"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "npx claude-backup"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    }
+  ]
+}

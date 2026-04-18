@@ -1,0 +1,104 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fetch-ovpn.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fetch.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fetch.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fetch-ovpn.yml",
+      "source_repo": "liangshengyong/LanWan",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fetch-ovpn.yml",
+      "source_repo": "liangshengyong/LanWan",
+      "target": "Fetch VPNGate OpenVPN Base64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fetch.yml",
+      "source_repo": "liangshengyong/LanWan",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fetch.yml",
+      "source_repo": "liangshengyong/LanWan",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fetch.yml",
+      "source_repo": "liangshengyong/LanWan",
+      "target": "Fetch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T03:54:59.593003+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 538
+    },
+    {
+      "path": ".github/workflows/fetch-ovpn.yml",
+      "size": 1767
+    },
+    {
+      "path": ".github/workflows/fetch.yml",
+      "size": 1096
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "\u84dd\u6e7e\u662f\u4e00\u4e2a L2TP/IPsec \u670d\u52a1\u5668\u6d4b\u8bd5\u7a0b\u5e8f\uff0c\u5b8c\u5168\u5f00\u6e90\u6c38\u4e45\u514d\u8d39\u65e0\u9650\u6d41\u91cf\u81ea\u5e26\u8282\u70b9\u65e0\u9700\u8ba2\u9605\u9ad8\u901f\u7a33\u5b9a\u79d1\u5b66\u4e0a\u7f51\u7ffb\u5899\u68af\u5b50VPN\u8f6f\u4ef6",
+    "full_name": "liangshengyong/LanWan",
+    "html_url": "https://github.com/liangshengyong/LanWan",
+    "language": "C",
+    "pushed_at": "2026-04-18T03:27:39Z",
+    "topics": [
+      "chatgpt",
+      "gfw",
+      "proxy",
+      "vpn",
+      "vpn-client",
+      "vpn-server",
+      "vpn-service",
+      "windows"
+    ],
+    "updated_at": "2026-04-18T03:27:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fetch-ovpn.yml",
+      "term": "Fetch VPNGate OpenVPN Base64"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fetch.yml",
+      "term": "Fetch"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-18T03:55:12.540005+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 319
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3393
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Training API and CLI",
+    "full_name": "thinking-machines-lab/tinker",
+    "html_url": "https://github.com/thinking-machines-lab/tinker",
+    "language": "Python",
+    "pushed_at": "2026-04-17T00:45:04Z",
+    "topics": [],
+    "updated_at": "2026-04-17T00:45:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

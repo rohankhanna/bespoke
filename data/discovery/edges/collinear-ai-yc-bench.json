@@ -1,0 +1,146 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "astral-sh/uv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "sim resume",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "employee list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "company status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "market browse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "task list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "task inspect --task-id T",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "client list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "client history",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "finance ledger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "task accept --task-id T",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "task assign --task-id T --employees E",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "task dispatch --task-id T",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "task cancel --task-id T --reason R",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "scratchpad write --content C",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "scratchpad append --content C",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "### API key",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "### Run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "Outputs a SQLite DB in",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "and a JSON rollout in",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T03:54:46.759203+00:00",
+  "source_repo": "collinear-ai/yc-bench"
+}

@@ -1,0 +1,756 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": "huggingface/candle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": "learn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": "search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": "## \ud83d\ude80 Quick Start ### Installation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": "### MCP Server (Recommended)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": "**Configure your AI assistant:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": "MEMORY_MODEL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": "bge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": "nomic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": "minilm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": "agent-memory-proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": "### CLI Usage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": "### Programmatic Usage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": "sqlite-vec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": "## \ud83e\uddea Testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": "### Building",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": "cargo test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": "#### Search (Query Memories)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": "Response:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": "## \ud83d\udcda Architecture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": ") -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": "server.rs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": "tools.rs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": "by default:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": "## \ud83e\uddea Testing Run all tests:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": "bash cargo test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": "Run specific test suites:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": ": Primary key -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": ": Workspace name (unique) -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": ": Filesystem path -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": ": Timestamp **agents** -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": ": Foreign key to workspaces -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": ": Agent name -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": ": Timestamp **memories** -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": ": Memory content -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": ": Comma-separated tags -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": ": Float 0-1 -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": ": Usage tracking -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": ": Timestamp -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": ": Optional conversation grouping -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": ": Optional memory hierarchy -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": ": Optional feedback text -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": ": Timestamps **vec0** (virtual table) -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": ": Foreign key to memories -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": ": Fast workspace filtering -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": ": Fast agent filtering -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": ": Importance-based queries -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": ": Temporal queries -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": "#### Search Tool **Input Schema:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": "## \ud83c\udf93 Examples See",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": "directory for complete examples: -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kensave/agent-memory-rs",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-18T03:55:18.807248+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18556
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1775
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 908
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Comprehensive memory management system for LLM agents implementing episodic, semantic. Built in Rust with MCP server support for Kiro CLI",
+    "full_name": "kensave/agent-memory-rs",
+    "html_url": "https://github.com/kensave/agent-memory-rs",
+    "language": "Rust",
+    "pushed_at": "2026-04-17T19:30:34Z",
+    "topics": [
+      "agent-memory",
+      "agentic-ai",
+      "kiro-cli",
+      "mcp",
+      "mcp-server",
+      "memory"
+    ],
+    "updated_at": "2026-04-17T19:29:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/candle",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "learn"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "search"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## \ud83d\ude80 Quick Start ### Installation"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### MCP Server (Recommended)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Configure your AI assistant:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "MEMORY_MODEL"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bge"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "nomic"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "minilm"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bge"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bge"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "nomic"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "minilm"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "agent-memory-proxy"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### CLI Usage"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Programmatic Usage"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "sqlite-vec"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## \ud83e\uddea Testing"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Building"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cargo test"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "#### Search (Query Memories)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Response:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## \ud83d\udcda Architecture"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ") -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "server.rs"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tools.rs"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "by default:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## \ud83e\uddea Testing Run all tests:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash cargo test"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Run specific test suites:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Primary key -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Workspace name (unique) -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Filesystem path -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Timestamp **agents** -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Primary key -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Foreign key to workspaces -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Agent name -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Timestamp **memories** -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Primary key -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Foreign key to workspaces -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Memory content -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Comma-separated tags -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Float 0-1 -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Usage tracking -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Timestamp -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Optional conversation grouping -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Optional memory hierarchy -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Optional feedback text -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Timestamps **vec0** (virtual table) -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Foreign key to memories -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Fast workspace filtering -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Fast agent filtering -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Importance-based queries -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Temporal queries -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "#### Search Tool **Input Schema:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## \ud83c\udf93 Examples See"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "directory for complete examples: -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cargo test"
+    }
+  ]
+}

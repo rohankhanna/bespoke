@@ -1,426 +1,6 @@
 {
-  "generated_at": "2026-04-18T03:50:57.229967+00:00",
+  "generated_at": "2026-04-18T03:54:46.759203+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "openclaw/openclaw",
-      "graph_distance": 2
-    },
-    {
-      "description": "A terminal-native coding agent harness \u2014 model-agnostic, hackable guides, sensors, hooks, skills and tools for agentic development.",
-      "discovered_via": "topic:anthropic",
-      "full_name": "abraxas-365/claudio",
-      "graph_distance": 1,
-      "html_url": "https://github.com/Abraxas-365/claudio",
-      "topics": [
-        "agent-harness",
-        "agentic-coding",
-        "anthropic",
-        "cli",
-        "coding-agent",
-        "coding-assistant",
-        "context-engineering",
-        "developer-tools",
-        "golang",
-        "harness",
-        "llm",
-        "model-agnostic",
-        "terminal"
-      ],
-      "updated_at": "2026-04-17T18:02:34Z"
-    },
-    {
-      "description": "10 Claude sessions running. What are they doing? Live dashboard \u2014 monitor, cost tracking, search, sub-agent visibility.",
-      "discovered_via": "topic:anthropic",
-      "full_name": "tombelieber/claude-view",
-      "graph_distance": 1,
-      "html_url": "https://github.com/tombelieber/claude-view",
-      "topics": [
-        "ai-agents",
-        "analytics",
-        "anthropic",
-        "claude",
-        "claude-code",
-        "cli",
-        "cost-tracking",
-        "dashboard",
-        "developer-tools",
-        "full-text-search",
-        "heatmap",
-        "mcp",
-        "metrics",
-        "mission-control",
-        "monitoring",
-        "react",
-        "reports",
-        "rust",
-        "session-history",
-        "subagents"
-      ],
-      "updated_at": "2026-04-17T18:01:53Z"
-    },
-    {
-      "description": "\u84dd\u6e7e\u662f\u4e00\u4e2a L2TP/IPsec \u670d\u52a1\u5668\u6d4b\u8bd5\u7a0b\u5e8f\uff0c\u5b8c\u5168\u5f00\u6e90\u6c38\u4e45\u514d\u8d39\u65e0\u9650\u6d41\u91cf\u81ea\u5e26\u8282\u70b9\u65e0\u9700\u8ba2\u9605\u9ad8\u901f\u7a33\u5b9a\u79d1\u5b66\u4e0a\u7f51\u7ffb\u5899\u68af\u5b50VPN\u8f6f\u4ef6",
-      "discovered_via": "topic:chatgpt",
-      "full_name": "liangshengyong/lanwan",
-      "graph_distance": 1,
-      "html_url": "https://github.com/liangshengyong/LanWan",
-      "topics": [
-        "chatgpt",
-        "gfw",
-        "proxy",
-        "vpn",
-        "vpn-client",
-        "vpn-server",
-        "vpn-service",
-        "windows"
-      ],
-      "updated_at": "2026-04-17T18:04:17Z"
-    },
-    {
-      "description": "intelligent auditing tool powered by large language models, supporting GPT, . It automatically detects security vulnerabilities, performance issues",
-      "discovered_via": "topic:chatgpt",
-      "full_name": "momentique/source-code-security-audit-reviewer",
-      "graph_distance": 1,
-      "html_url": "https://github.com/Momentique/Source-Code-Security-Audit-Reviewer",
-      "topics": [
-        "ai",
-        "application-security",
-        "chatgpt",
-        "code-audit",
-        "code-review",
-        "react",
-        "security-audit",
-        "security-tools",
-        "source-code",
-        "typescript",
-        "vulnerability-detection"
-      ],
-      "updated_at": "2026-04-17T18:03:48Z"
-    },
-    {
-      "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
-      "discovered_via": "topic:chatgpt",
-      "full_name": "onyx-dot-app/onyx",
-      "graph_distance": 1,
-      "html_url": "https://github.com/onyx-dot-app/onyx",
-      "topics": [
-        "ai",
-        "ai-chat",
-        "chatgpt",
-        "chatui",
-        "enterprise-search",
-        "gen-ai",
-        "information-retrieval",
-        "llm",
-        "llm-ui",
-        "nextjs",
-        "python",
-        "rag",
-        "self-hosted",
-        "vector-search"
-      ],
-      "updated_at": "2026-04-17T18:03:34Z"
-    },
-    {
-      "description": "eMarket Online Store. It is a free online shop engine. Make the best online shop with us. Join our Open Source community. Together we will make the best free e-commerce solution.",
-      "discovered_via": "topic:chatgpt",
-      "full_name": "musicman3/emarket",
-      "graph_distance": 1,
-      "html_url": "https://github.com/musicman3/eMarket",
-      "topics": [
-        "bootstrap",
-        "cart",
-        "chatgpt",
-        "cms",
-        "ecommerce",
-        "js-market",
-        "market",
-        "online-cart",
-        "online-shop",
-        "online-shopping-cart",
-        "online-store",
-        "online-store-website",
-        "php-javascript",
-        "shop",
-        "shop-framework",
-        "shopping",
-        "shopping-basket",
-        "shopping-cart",
-        "store",
-        "store-engine"
-      ],
-      "updated_at": "2026-04-17T17:57:26Z"
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "nousresearch/atropos",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "collinear-ai/yc-bench",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "thinking-machines-lab/tinker",
-      "graph_distance": 2
-    },
-    {
-      "description": "Persistent Claude Code agents with scheduling, sessions, memory, and Telegram.",
-      "discovered_via": "topic:agent-memory",
-      "full_name": "jkheadley/instar",
-      "graph_distance": 1,
-      "html_url": "https://github.com/JKHeadley/instar",
-      "topics": [
-        "agent-framework",
-        "agent-identity",
-        "agent-infrastructure",
-        "agent-memory",
-        "agent-skills",
-        "ai-agents",
-        "ai-safety",
-        "autonomous-agents",
-        "claude-code",
-        "cli",
-        "cron",
-        "job-scheduler",
-        "llm",
-        "mcp",
-        "npm-package",
-        "open-source",
-        "persistency",
-        "telegram-bot",
-        "typescript",
-        "whatsapp"
-      ],
-      "updated_at": "2026-04-17T18:03:23Z"
-    },
-    {
-      "description": "OpenPraxis \u2014 Spec-driven development platform for autonomous coding agents",
-      "discovered_via": "topic:agent-memory",
-      "full_name": "k8nstantin/openpraxis",
-      "graph_distance": 1,
-      "html_url": "https://github.com/k8nstantin/OpenPraxis",
-      "topics": [
-        "agent-memory",
-        "agent-orchestration",
-        "ai-agents",
-        "anthropic",
-        "autonomous-agents",
-        "claude-code",
-        "coding-agent",
-        "cost-tracking",
-        "dashboard",
-        "developer-tools",
-        "golang",
-        "llm",
-        "mcp",
-        "mcp-server",
-        "observability",
-        "peer-to-peer",
-        "self-hosted",
-        "semantic-search",
-        "spec-driven-development",
-        "vector-search"
-      ],
-      "updated_at": "2026-04-17T17:58:51Z"
-    },
-    {
-      "description": "Comprehensive memory management system for LLM agents implementing episodic, semantic. Built in Rust with MCP server support for Kiro CLI",
-      "discovered_via": "topic:agent-memory",
-      "full_name": "kensave/agent-memory-rs",
-      "graph_distance": 1,
-      "html_url": "https://github.com/kensave/agent-memory-rs",
-      "topics": [
-        "agent-memory",
-        "agentic-ai",
-        "kiro-cli",
-        "mcp",
-        "mcp-server",
-        "memory"
-      ],
-      "updated_at": "2026-04-17T17:50:59Z"
-    },
-    {
-      "description": "Persistent memory MCP server for AI coding agents like Claude Code. Zero-LLM, local-first (SQLite + FTS5), proactive recall by file path. 12 MCP tools, 113 tests. The MEMORY.md alternative that stays constant-cost at 10,000+ memories.",
-      "discovered_via": "topic:agent-memory",
-      "full_name": "bryanh9111/engram",
-      "graph_distance": 1,
-      "html_url": "https://github.com/Bryanh9111/Engram",
-      "topics": [
-        "agent-memory",
-        "ai-agents",
-        "ai-memory",
-        "anthropic-claude",
-        "claude-code",
-        "developer-tools",
-        "fts5",
-        "knowledge-base",
-        "llm-memory",
-        "local-first",
-        "mcp",
-        "mcp-server",
-        "memory",
-        "model-context-protocol",
-        "persistent-memory",
-        "proactive-recall",
-        "python",
-        "second-brain",
-        "sqlite",
-        "zero-llm"
-      ],
-      "updated_at": "2026-04-17T17:50:39Z"
-    },
-    {
-      "description": "Persistent memory MCP for AI agents \u2014 SQLite, knowledge graph, 12 tools with ToolAnnotations",
-      "discovered_via": "topic:ai-memory",
-      "full_name": "etanhey/brainlayer",
-      "graph_distance": 1,
-      "html_url": "https://github.com/EtanHey/brainlayer",
-      "topics": [
-        "ai-agents",
-        "ai-memory",
-        "claude-code",
-        "knowledge-graph",
-        "llm",
-        "mcp",
-        "mcp-server",
-        "memory",
-        "model-context-protocol",
-        "python",
-        "rag",
-        "semantic-search",
-        "sentence-transformers",
-        "sqlite-vec"
-      ],
-      "updated_at": "2026-04-17T18:01:24Z"
-    },
-    {
-      "description": "A token-efficient open-source AI assistant that remembers, adapts, and improves \u2014 secured, self-hosted, and entirely yours.",
-      "discovered_via": "topic:ai-memory",
-      "full_name": "sliamh11/deus",
-      "graph_distance": 1,
-      "html_url": "https://github.com/sliamh11/Deus",
-      "topics": [
-        "ai-assistant",
-        "ai-memory",
-        "claude-code",
-        "container-isolation",
-        "persistent-memory",
-        "self-improving-ai",
-        "semantic-memory",
-        "semantic-search"
-      ],
-      "updated_at": "2026-04-17T18:00:42Z"
-    },
-    {
-      "description": "Memory that learns what works.",
-      "discovered_via": "topic:ai-memory",
-      "full_name": "roampal-ai/roampal",
-      "graph_distance": 1,
-      "html_url": "https://github.com/roampal-ai/roampal",
-      "topics": [
-        "ai-assistant",
-        "ai-memory",
-        "chromadb",
-        "desktop-app",
-        "llm",
-        "lm-studio",
-        "local-ai",
-        "local-llm",
-        "mcp-server",
-        "model-context-protocol",
-        "offline-ai",
-        "ollama",
-        "outcome-learning",
-        "persistent-memory",
-        "privacy-first",
-        "rag",
-        "self-hosted",
-        "semantic-search",
-        "tauri",
-        "windows"
-      ],
-      "updated_at": "2026-04-17T17:55:33Z"
-    },
-    {
-      "description": "The open-source memory operating system for AI agents. Persistent memory, semantic search, loop detection, agent messaging, crash recovery, and real-time observability.",
-      "discovered_via": "topic:ai-memory",
-      "full_name": "ryjoxtechnologies/octopoda-os",
-      "graph_distance": 1,
-      "html_url": "https://github.com/RyjoxTechnologies/Octopoda-OS",
-      "topics": [
-        "agent-framework",
-        "ai-agents",
-        "ai-memory",
-        "autogen",
-        "crash-recovery",
-        "crewai",
-        "developer-tools",
-        "knowledge-graph",
-        "langchain",
-        "llm-agents",
-        "loop-detection",
-        "mcp",
-        "mcp-server",
-        "memory-engine",
-        "multi-agent",
-        "observability",
-        "openai",
-        "persistent-memory",
-        "python",
-        "semantic-search"
-      ],
-      "updated_at": "2026-04-17T17:53:20Z"
-    },
-    {
-      "description": "any contract you deploy through ChainForge on Ethereum mainnet",
-      "discovered_via": "topic:grok",
-      "full_name": "graveyardsfocrdpktv/ethereum-mempool-bot",
-      "graph_distance": 1,
-      "html_url": "https://github.com/graveyardsfocrdpktv/Ethereum-mempool-bot",
-      "topics": [
-        "ai",
-        "bot",
-        "claude",
-        "deepseek",
-        "gpt",
-        "grok"
-      ],
-      "updated_at": "2026-04-17T18:04:40Z"
-    },
-    {
-      "description": "Free LLM API keys for GPT-5.4, Claude, DeepSeek, Gemini, Grok \u2014 copy, paste, use. Updated 3-5x daily. No credit card needed.",
-      "discovered_via": "topic:grok",
-      "full_name": "alistaitsacle/free-llm-api-keys",
-      "graph_distance": 1,
-      "html_url": "https://github.com/alistaitsacle/free-llm-api-keys",
-      "topics": [
-        "ai",
-        "api",
-        "api-key",
-        "api-keys",
-        "chatgpt",
-        "claude",
-        "deepseek",
-        "free",
-        "free-api",
-        "free-api-key",
-        "free-gpt",
-        "free-llm",
-        "gemini",
-        "gpt",
-        "gpt4",
-        "grok",
-        "large-language-models",
-        "llm",
-        "llm-api",
-        "openai"
-      ],
-      "updated_at": "2026-04-17T17:53:44Z"
-    },
     {
       "description": "Deploy any AI model, agent, database, RAG, and pipeline locally or remotely in minutes",
       "discovered_via": "topic:grok",
@@ -1596,7 +1176,7 @@
     {
       "discovered_via": "explicit-github-link",
       "full_name": "ryoppippi/ccusage",
-      "graph_distance": 3
+      "graph_distance": 2
     },
     {
       "discovered_via": "explicit-github-link",
@@ -2320,11 +1900,6 @@
     },
     {
       "discovered_via": "explicit-github-link",
-      "full_name": "orgs/community",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
       "full_name": "withastro/.github",
       "graph_distance": 3
     },
@@ -2472,6 +2047,156 @@
       "discovered_via": "explicit-github-link",
       "full_name": "mitchuski/agentprivacy-docs",
       "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "badlogic/pi-mono",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "openclaw/nix-openclaw",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "abraxas-365/claudio-codex",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "abraxas-365/claudio-screenshot",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "charmbracelet/bubbletea",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "charmbracelet/lipgloss",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "kamranahmedse/claude-run",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "op7418/codepilot",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tombelieber/claude-backup",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lorexxar/kunlun-m",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "taikinman/langrila",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "yuag/code-audit",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "onyx-dot-app/onyx_deep_research_bench",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "musicman3/cruder",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "musicman3/r2-d2",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "axolotl-ai-cloud/plugin-atropos",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "nousresearch/tinker-atropos",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "sgl-project/sglang",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "vllm-project/vllm",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "astral-sh/uv",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "steipete/imsg",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "huggingface/candle",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "getzep/zep",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "letta-ai/claude-subconscious",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "letta-ai/letta",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "getzep/graphiti",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "nvidia/nemoclaw",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "qwibitai/nanoclaw",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "zeroclaw-labs/zeroclaw",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "roampal-ai/roampal-labs",
+      "graph_distance": 2
     }
   ],
   "processed": [
@@ -2581,6 +2306,26 @@
     "nibir1/vaultsim",
     "nesquena/hermes-webui",
     "eikarna/hermes-rs",
-    "mohfer/nous-proxy"
+    "mohfer/nous-proxy",
+    "openclaw/openclaw",
+    "abraxas-365/claudio",
+    "tombelieber/claude-view",
+    "liangshengyong/lanwan",
+    "momentique/source-code-security-audit-reviewer",
+    "onyx-dot-app/onyx",
+    "musicman3/emarket",
+    "nousresearch/atropos",
+    "collinear-ai/yc-bench",
+    "thinking-machines-lab/tinker",
+    "jkheadley/instar",
+    "k8nstantin/openpraxis",
+    "kensave/agent-memory-rs",
+    "bryanh9111/engram",
+    "etanhey/brainlayer",
+    "sliamh11/deus",
+    "roampal-ai/roampal",
+    "ryjoxtechnologies/octopoda-os",
+    "graveyardsfocrdpktv/ethereum-mempool-bot",
+    "alistaitsacle/free-llm-api-keys"
   ]
 }

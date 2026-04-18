@@ -1,0 +1,12 @@
+{
+  "component": "azure/setup-helm@dda3372f752e03dde6b3237bc9431cdc2f7a02a2",
+  "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
+  "last_seen_at": "2026-04-18T03:54:46.759203+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/helm-chart-releases.yml",
+      "source_repo": "onyx-dot-app/onyx"
+    }
+  ]
+}

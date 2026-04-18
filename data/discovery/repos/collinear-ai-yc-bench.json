@@ -1,0 +1,281 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "astral-sh/uv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "sim resume",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "employee list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "company status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "market browse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "task list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "task inspect --task-id T",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "client list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "client history",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "finance ledger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "task accept --task-id T",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "task assign --task-id T --employees E",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "task dispatch --task-id T",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "task cancel --task-id T --reason R",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "scratchpad write --content C",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "scratchpad append --content C",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "### API key",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "### Run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "Outputs a SQLite DB in",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "collinear-ai/yc-bench",
+      "target": "and a JSON rollout in",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T03:55:11.310255+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5965
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1057
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Your Company Bench: Long-horizon coherence benchmark in simulated time to test AI agent abilities to manage resources and maximize returns as a tech startup founder",
+    "full_name": "collinear-ai/yc-bench",
+    "html_url": "https://github.com/collinear-ai/yc-bench",
+    "language": "Python",
+    "pushed_at": "2026-04-05T03:21:26Z",
+    "topics": [],
+    "updated_at": "2026-04-16T09:09:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "astral-sh/uv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "sim resume"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "employee list"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "company status"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "employee list"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "market browse"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "task list"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "task inspect --task-id T"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "client list"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "client history"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "finance ledger"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "task accept --task-id T"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "task assign --task-id T --employees E"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "task dispatch --task-id T"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "task cancel --task-id T --reason R"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "sim resume"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "scratchpad write --content C"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "scratchpad append --content C"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### API key"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Run"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Outputs a SQLite DB in"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "and a JSON rollout in"
+    }
+  ]
+}

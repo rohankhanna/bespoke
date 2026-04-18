@@ -1,12 +1,17 @@
 {
   "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-17T16:51:41.136432+00:00",
+  "last_seen_at": "2026-04-18T03:54:46.759203+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/e2e-todo-list.yml",
       "source_repo": "liveblocks/liveblocks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tombelieber/claude-view"
     }
   ]
 }

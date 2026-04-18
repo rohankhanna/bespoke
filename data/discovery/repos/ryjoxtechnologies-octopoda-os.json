@@ -1,0 +1,437 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "appleboy/ssh-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "RyjoxTechnologies/Octopoda-OS",
+      "target": "bash pip install octopoda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "RyjoxTechnologies/Octopoda-OS",
+      "target": "python agent.remember(\"key\", \"value\") agent.recall(\"key\")",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "RyjoxTechnologies/Octopoda-OS",
+      "target": "Want the dashboard? Run the server:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "RyjoxTechnologies/Octopoda-OS",
+      "target": "bash export OCTOPODA_API_KEY=sk-octopoda-...",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "RyjoxTechnologies/Octopoda-OS",
+      "target": "pip install octopoda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "RyjoxTechnologies/Octopoda-OS",
+      "target": "OCTOPODA_API_KEY",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "RyjoxTechnologies/Octopoda-OS",
+      "target": "AgentRuntime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "RyjoxTechnologies/Octopoda-OS",
+      "target": "Every",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "RyjoxTechnologies/Octopoda-OS",
+      "target": "### Memory Management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "RyjoxTechnologies/Octopoda-OS",
+      "target": "### Snapshots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "RyjoxTechnologies/Octopoda-OS",
+      "target": "python bundle = agent.export_memories() new_agent.import_memories(bundle)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "RyjoxTechnologies/Octopoda-OS",
+      "target": "Add to Claude Code:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "RyjoxTechnologies/Octopoda-OS",
+      "target": "Or run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "RyjoxTechnologies/Octopoda-OS",
+      "target": "to sign up from your terminal.",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "RyjoxTechnologies/Octopoda-OS",
+      "target": "OCTOPODA_LLM_PROVIDER",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "RyjoxTechnologies/Octopoda-OS",
+      "target": "none",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "RyjoxTechnologies/Octopoda-OS",
+      "target": "openai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "RyjoxTechnologies/Octopoda-OS",
+      "target": "anthropic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "RyjoxTechnologies/Octopoda-OS",
+      "target": "ollama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "RyjoxTechnologies/Octopoda-OS",
+      "target": "OCTOPODA_OPENAI_API_KEY",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "RyjoxTechnologies/Octopoda-OS",
+      "target": "OCTOPODA_EMBEDDING_MODEL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "RyjoxTechnologies/Octopoda-OS",
+      "target": "SYNRIX_DATA_DIR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "RyjoxTechnologies/Octopoda-OS",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "RyjoxTechnologies/Octopoda-OS",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "RyjoxTechnologies/Octopoda-OS",
+      "target": "appleboy/ssh-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "RyjoxTechnologies/Octopoda-OS",
+      "target": "CI & Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke.yml",
+      "source_repo": "RyjoxTechnologies/Octopoda-OS",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke.yml",
+      "source_repo": "RyjoxTechnologies/Octopoda-OS",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/smoke.yml",
+      "source_repo": "RyjoxTechnologies/Octopoda-OS",
+      "target": "Smoke tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T03:55:31.371124+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12663
+    },
+    {
+      "path": "Dockerfile",
+      "size": 894
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3250
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1576
+    },
+    {
+      "path": ".github/workflows/smoke.yml",
+      "size": 2687
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "The open-source memory operating system for AI agents. Persistent memory, semantic search, loop detection, agent messaging, crash recovery, and real-time observability.",
+    "full_name": "RyjoxTechnologies/Octopoda-OS",
+    "html_url": "https://github.com/RyjoxTechnologies/Octopoda-OS",
+    "language": "Python",
+    "pushed_at": "2026-04-17T20:05:00Z",
+    "topics": [
+      "agent-framework",
+      "ai-agents",
+      "ai-memory",
+      "autogen",
+      "crash-recovery",
+      "crewai",
+      "developer-tools",
+      "knowledge-graph",
+      "langchain",
+      "llm-agents",
+      "loop-detection",
+      "mcp",
+      "mcp-server",
+      "memory-engine",
+      "multi-agent",
+      "observability",
+      "openai",
+      "persistent-memory",
+      "python",
+      "semantic-search"
+    ],
+    "updated_at": "2026-04-18T00:00:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash pip install octopoda"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "python agent.remember(\"key\", \"value\") agent.recall(\"key\")"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Want the dashboard? Run the server:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash export OCTOPODA_API_KEY=sk-octopoda-..."
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "pip install octopoda"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "OCTOPODA_API_KEY"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "AgentRuntime"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Every"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Memory Management"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Snapshots"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "python bundle = agent.export_memories() new_agent.import_memories(bundle)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Add to Claude Code:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash export OCTOPODA_API_KEY=sk-octopoda-..."
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Or run"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "to sign up from your terminal."
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "OCTOPODA_API_KEY"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "OCTOPODA_LLM_PROVIDER"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "none"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "openai"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "anthropic"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ollama"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "OCTOPODA_OPENAI_API_KEY"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "OCTOPODA_EMBEDDING_MODEL"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SYNRIX_DATA_DIR"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "CI & Deploy"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/smoke.yml",
+      "term": "Smoke tests"
+    }
+  ]
+}

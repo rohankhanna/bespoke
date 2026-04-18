@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "roampal-ai/roampal",
+      "target": "roampal-ai/roampal-labs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "roampal-ai/roampal",
+      "target": "Roampal.exe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "roampal-ai/roampal",
+      "target": "**7 tools available**:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "roampal-ai/roampal",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "roampal-ai/roampal",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "roampal-ai/roampal",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "roampal-ai/roampal",
+      "target": "Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T03:55:29.590252+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6813
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1674
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "Memory that learns what works.",
+    "full_name": "roampal-ai/roampal",
+    "html_url": "https://github.com/roampal-ai/roampal",
+    "language": "Python",
+    "pushed_at": "2026-04-17T18:38:16Z",
+    "topics": [
+      "ai-assistant",
+      "ai-memory",
+      "chromadb",
+      "desktop-app",
+      "llm",
+      "lm-studio",
+      "local-ai",
+      "local-llm",
+      "mcp-server",
+      "model-context-protocol",
+      "offline-ai",
+      "ollama",
+      "outcome-learning",
+      "persistent-memory",
+      "privacy-first",
+      "rag",
+      "self-hosted",
+      "semantic-search",
+      "tauri",
+      "windows"
+    ],
+    "updated_at": "2026-04-17T18:38:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "roampal-ai/roampal-labs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Roampal.exe"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**7 tools available**:"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "graveyardsfocrdpktv/Ethereum-mempool-bot",
+      "target": "ChainForge.exe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "graveyardsfocrdpktv/Ethereum-mempool-bot",
+      "target": "deposit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "graveyardsfocrdpktv/Ethereum-mempool-bot",
+      "target": "withdrawTo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "graveyardsfocrdpktv/Ethereum-mempool-bot",
+      "target": "owner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "graveyardsfocrdpktv/Ethereum-mempool-bot",
+      "target": "0x\u2026",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "graveyardsfocrdpktv/Ethereum-mempool-bot",
+      "target": "exe",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T03:54:46.759203+00:00",
+  "source_repo": "graveyardsfocrdpktv/Ethereum-mempool-bot"
+}

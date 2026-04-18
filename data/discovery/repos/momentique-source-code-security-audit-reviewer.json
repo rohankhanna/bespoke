@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Momentique/Source-Code-Security-Audit-Reviewer",
+      "target": "yuag/code-audit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Momentique/Source-Code-Security-Audit-Reviewer",
+      "target": "taikinman/langrila",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Momentique/Source-Code-Security-Audit-Reviewer",
+      "target": "lorexxar/kunlun-m",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Momentique/Source-Code-Security-Audit-Reviewer",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Momentique/Source-Code-Security-Audit-Reviewer",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Momentique/Source-Code-Security-Audit-Reviewer",
+      "target": "Star",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Momentique/Source-Code-Security-Audit-Reviewer",
+      "target": "date '+%Y-%m-%d %H:%M:%S",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T03:55:01.613621+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 727
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1180
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "intelligent auditing tool powered by large language models, supporting GPT, . It automatically detects security vulnerabilities, performance issues",
+    "full_name": "Momentique/Source-Code-Security-Audit-Reviewer",
+    "html_url": "https://github.com/Momentique/Source-Code-Security-Audit-Reviewer",
+    "language": "Python",
+    "pushed_at": "2026-04-18T03:28:27Z",
+    "topics": [
+      "ai",
+      "application-security",
+      "chatgpt",
+      "code-audit",
+      "code-review",
+      "react",
+      "security-audit",
+      "security-tools",
+      "source-code",
+      "typescript",
+      "vulnerability-detection"
+    ],
+    "updated_at": "2026-04-18T03:28:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lorexxar/kunlun-m",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "taikinman/langrila",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuag/code-audit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Star"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/main.yml",
+      "term": "date '+%Y-%m-%d %H:%M:%S"
+    }
+  ]
+}

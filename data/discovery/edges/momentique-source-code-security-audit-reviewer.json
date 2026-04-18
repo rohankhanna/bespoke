@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Momentique/Source-Code-Security-Audit-Reviewer",
+      "target": "yuag/code-audit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Momentique/Source-Code-Security-Audit-Reviewer",
+      "target": "taikinman/langrila",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Momentique/Source-Code-Security-Audit-Reviewer",
+      "target": "lorexxar/kunlun-m",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Momentique/Source-Code-Security-Audit-Reviewer",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Momentique/Source-Code-Security-Audit-Reviewer",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Momentique/Source-Code-Security-Audit-Reviewer",
+      "target": "Star",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Momentique/Source-Code-Security-Audit-Reviewer",
+      "target": "date '+%Y-%m-%d %H:%M:%S",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T03:54:46.759203+00:00",
+  "source_repo": "Momentique/Source-Code-Security-Audit-Reviewer"
+}

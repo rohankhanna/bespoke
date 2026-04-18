@@ -1,0 +1,1022 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "getzep/zep",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "letta-ai/letta",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "letta-ai/claude-subconscious",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "astral-sh/uv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "recall()",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "MEMORY.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "proactive()",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "ARCHITECTURE.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "constraint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "decision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "procedure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "fact",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "guardrail",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "insight",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "human",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "compost",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "source_trace",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "expires_at",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "micro_index()",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "stats()",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "remember()",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "recall(budget=tiny, 5)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "recall(budget=normal, 5)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "recall(budget=deep, 5)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "proactive(file_path)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "health()",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "compile(project)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "Verify:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "bash uv --version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "Expected output:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "### Step 3: Install dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "Expected:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "claude mcp add",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "**Replace",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "with your actual absolute path** (from",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "in Step 2). The",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "bash claude mcp list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "You should see:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "If you see",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "claude mcp add -s user",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "uv: command not found",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "No module named 'engram",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "uv sync --extra dev --extra mcp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "claude mcp list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "\u2713 Connected",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "\u2717 Failed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "uv run engram-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "remember",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "recall",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "tiny",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "normal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "deep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "proactive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "forget",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "resolve",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "unpin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "suppress",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "compile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "consolidate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "health",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "micro_index",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "stats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "stream_for_compost",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "origin=compost",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "invalidate_compost_fact",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "budget=tiny",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "bash engram lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "check_stale=True",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "uv sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "engram search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "engram add",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "path_scope",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "engram export",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Bryanh9111/Engram",
+      "target": "export-stream",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T03:55:21.816588+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23773
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 548
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Persistent memory MCP server for AI coding agents like Claude Code. Zero-LLM, local-first (SQLite + FTS5), proactive recall by file path. 12 MCP tools, 113 tests. The MEMORY.md alternative that stays constant-cost at 10,000+ memories.",
+    "full_name": "Bryanh9111/Engram",
+    "html_url": "https://github.com/Bryanh9111/Engram",
+    "language": "Python",
+    "pushed_at": "2026-04-18T03:01:43Z",
+    "topics": [
+      "agent-memory",
+      "ai-agents",
+      "ai-memory",
+      "anthropic-claude",
+      "claude-code",
+      "developer-tools",
+      "fts5",
+      "knowledge-base",
+      "llm-memory",
+      "local-first",
+      "mcp",
+      "mcp-server",
+      "memory",
+      "model-context-protocol",
+      "persistent-memory",
+      "proactive-recall",
+      "python",
+      "second-brain",
+      "sqlite",
+      "zero-llm"
+    ],
+    "updated_at": "2026-04-18T03:01:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "astral-sh/uv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "getzep/zep",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "letta-ai/claude-subconscious",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "letta-ai/letta",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "recall()"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "MEMORY.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "proactive()"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "recall()"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ARCHITECTURE.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "constraint"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "decision"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "procedure"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "fact"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "guardrail"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "insight"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "human"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "agent"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "compost"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "source_trace"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "expires_at"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "micro_index()"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "stats()"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "remember()"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "recall(budget=tiny, 5)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "recall(budget=normal, 5)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "recall(budget=deep, 5)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "proactive(file_path)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "health()"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "compile(project)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Verify:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash uv --version"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Expected output:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Step 3: Install dependencies"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Expected:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude mcp add"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Replace"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "with your actual absolute path** (from"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "in Step 2). The"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash claude mcp list"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "You should see:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "If you see"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude mcp add -s user"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "remember()"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "recall()"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "proactive()"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "uv: command not found"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "No module named 'engram"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "uv sync --extra dev --extra mcp"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude mcp list"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u2713 Connected"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u2717 Failed"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "uv run engram-server"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "uv sync --extra dev --extra mcp"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "remember"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "recall"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tiny"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "normal"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "deep"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "proactive"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "forget"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "resolve"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "unpin"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "suppress"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "compile"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "consolidate"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "health"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "micro_index"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "stats"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "stream_for_compost"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "origin=compost"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "invalidate_compost_fact"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "budget=tiny"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash engram lint"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "check_stale=True"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "remember"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "recall"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "proactive"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "forget"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "resolve"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "compile"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "uv sync"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "engram search"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "engram add"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "path_scope"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "engram export"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "proactive()"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "stream_for_compost"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "invalidate_compost_fact"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "export-stream"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "component": "github/codeql-action/autobuild@b25d0ebf40e5b63ee81e1bd6e5d2a12b7c2aeb61",
+  "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
+  "last_seen_at": "2026-04-18T03:54:46.759203+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "openclaw/openclaw"
+    }
+  ]
+}

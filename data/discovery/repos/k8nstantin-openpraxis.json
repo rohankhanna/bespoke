@@ -1,0 +1,988 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "visceral_rules",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "visceral_confirm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "depends_on",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "memory_store",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "memory_search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "memory_recall",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "memory_list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "memory_forget",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "memory_status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "memory_peers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "conversation_save",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "conversation_search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "conversation_list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "conversation_get",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "visceral_set",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "visceral_remove",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "manifest_create",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "manifest_get",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "manifest_list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "manifest_update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "manifest_delete",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "manifest_search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "product_create",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "product_get",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "product_list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "product_update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "product_delete",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "task_create",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "task_list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "task_get",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "task_start",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "task_pause",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "task_resume",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "task_cancel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "task_link_manifest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "task_unlink_manifest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "idea_add",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "idea_list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "idea_update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "link_idea_manifest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "unlink_idea_manifest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "marker_flag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "marker_list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "marker_done",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "nomic-embed-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "### Build and Run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "memories",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "conversations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "manifests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "tasks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "task_runs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "products",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "ideas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "sessions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "amnesia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "delusions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "visceral_confirmations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "watcher_audits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "rule_patterns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "vec_memories",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "vec_conversations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "task_manifests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "idea_manifest_links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "task_runtime_state",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "mcp__openpraxis__*",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "k8nstantin/OpenPraxis",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T03:55:16.580748+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22187
+    },
+    {
+      "path": "go.mod",
+      "size": 933
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 701
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 5362
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "OpenPraxis \u2014 Spec-driven development platform for autonomous coding agents",
+    "full_name": "k8nstantin/OpenPraxis",
+    "html_url": "https://github.com/k8nstantin/OpenPraxis",
+    "language": "Go",
+    "pushed_at": "2026-04-17T20:15:45Z",
+    "topics": [
+      "agent-memory",
+      "agent-orchestration",
+      "ai-agents",
+      "anthropic",
+      "autonomous-agents",
+      "claude-code",
+      "coding-agent",
+      "cost-tracking",
+      "dashboard",
+      "developer-tools",
+      "golang",
+      "llm",
+      "mcp",
+      "mcp-server",
+      "observability",
+      "peer-to-peer",
+      "self-hosted",
+      "semantic-search",
+      "spec-driven-development",
+      "vector-search"
+    ],
+    "updated_at": "2026-04-17T20:09:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "visceral_rules"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "visceral_confirm"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "depends_on"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "depends_on"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "visceral_rules"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "visceral_confirm"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "memory_store"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "memory_search"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "memory_recall"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "memory_list"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "memory_forget"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "memory_status"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "memory_peers"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "conversation_save"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "conversation_search"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "conversation_list"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "conversation_get"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "visceral_rules"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "visceral_confirm"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "visceral_set"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "visceral_remove"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "manifest_create"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "manifest_get"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "manifest_list"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "manifest_update"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "manifest_delete"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "manifest_search"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "product_create"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "product_get"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "product_list"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "product_update"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "product_delete"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "task_create"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "task_list"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "task_get"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "task_start"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "task_pause"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "task_resume"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "task_cancel"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "task_link_manifest"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "task_unlink_manifest"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "idea_add"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "idea_list"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "idea_update"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "link_idea_manifest"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "unlink_idea_manifest"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "marker_flag"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "marker_list"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "marker_done"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "nomic-embed-text"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Build and Run"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "visceral_rules"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "visceral_confirm"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "memories"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "conversations"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "manifests"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tasks"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "task_runs"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "products"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ideas"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "actions"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "sessions"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "amnesia"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "delusions"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "visceral_confirmations"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "watcher_audits"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "rule_patterns"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "vec_memories"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "vec_conversations"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "task_manifests"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "idea_manifest_links"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "task_runtime_state"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "mcp__openpraxis__*"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    }
+  ]
+}

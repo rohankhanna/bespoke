@@ -1,0 +1,12 @@
+{
+  "component": "tauri-apps/tauri-action@73fb865345c54760d875b94642314f8c0c894afa",
+  "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
+  "last_seen_at": "2026-04-18T03:54:46.759203+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deployment.yml",
+      "source_repo": "onyx-dot-app/onyx"
+    }
+  ]
+}
