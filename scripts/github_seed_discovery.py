@@ -364,6 +364,29 @@ def compact_text(text, limit=280):
     return text[:limit] if len(text) <= limit else text[: limit - 1] + "…"
 
 
+def contextual_snippet_for_file(path, text):
+    if path in README_CANDIDATES:
+        lines = [line.strip() for line in text.splitlines() if line.strip()]
+        for line in lines:
+            if line.startswith('#'):
+                continue
+            return compact_text(line)
+        return compact_text(text)
+    if path.startswith('.github/workflows/'):
+        workflow_name = re.search(r"^name:\s*(.+)$", text, flags=re.MULTILINE)
+        if workflow_name:
+            return compact_text(workflow_name.group(1))
+        return compact_text(text)
+    if path.endswith('package.json'):
+        try:
+            pkg = json.loads(text)
+            parts = [pkg.get('name'), pkg.get('description')]
+            return compact_text(' — '.join([part for part in parts if part])) if any(parts) else compact_text(text)
+        except Exception:
+            return compact_text(text)
+    return compact_text(text)
+
+
 def upsert_concept_observation(observations_dir, generated_at, source_repo, source_repo_description, hit):
     term = hit["term"]
     observation_id = observation_id_for_term(source_repo, hit.get("source_file"), hit.get("edge_type"), term)
@@ -382,6 +405,19 @@ def upsert_concept_observation(observations_dir, generated_at, source_repo, sour
             "source_kind": "source-snippet",
             "status": "context-only",
         })
+    candidate_glosses = []
+    if hit.get("context_snippet"):
+        candidate_glosses.append({
+            "text": hit.get("context_snippet"),
+            "source_kind": "source-snippet",
+            "status": "candidate",
+        })
+    elif source_repo_description:
+        candidate_glosses.append({
+            "text": compact_text(source_repo_description, 160),
+            "source_kind": "repo-description",
+            "status": "candidate",
+        })
     payload = {
         "observation_id": observation_id,
         "concept_id": concept_id_for_term(term),
@@ -398,6 +434,8 @@ def upsert_concept_observation(observations_dir, generated_at, source_repo, sour
         "ambiguity_status": "unresolved",
         "definition_status": "unresolved",
         "candidate_definition_hints": definition_hints,
+        "gloss_status": "unresolved",
+        "candidate_glosses": candidate_glosses,
         "candidate_senses": [
             {
                 "sense_id": f"{concept_id_for_term(term)}#sense-1",
@@ -477,6 +515,21 @@ def upsert_concept(concepts_dir, generated_at, source_repo, source_repo_descript
             "source_kind": "source-snippet",
             "status": "candidate-context",
         })
+    gloss_candidates = []
+    if hit.get("context_snippet"):
+        gloss_candidates.append({
+            "text": hit.get("context_snippet"),
+            "source_repo": source_repo,
+            "source_kind": "source-snippet",
+            "status": "candidate",
+        })
+    elif source_repo_description:
+        gloss_candidates.append({
+            "text": compact_text(source_repo_description, 160),
+            "source_repo": source_repo,
+            "source_kind": "repo-description",
+            "status": "candidate",
+        })
     senses = [{
         "sense_id": f"{concept_id}#sense-1",
         "label": term,
@@ -502,6 +555,11 @@ def upsert_concept(concepts_dir, generated_at, source_repo, source_repo_descript
         for item in definition_candidates:
             if item not in existing["candidate_definitions"]:
                 existing["candidate_definitions"].append(item)
+        existing.setdefault("gloss_status", "unresolved")
+        existing.setdefault("candidate_glosses", [])
+        for item in gloss_candidates:
+            if item not in existing["candidate_glosses"]:
+                existing["candidate_glosses"].append(item)
         write_json(path, existing)
         return
     payload = {
@@ -514,6 +572,8 @@ def upsert_concept(concepts_dir, generated_at, source_repo, source_repo_descript
         "possible_senses": senses,
         "definition_status": "unresolved",
         "candidate_definitions": definition_candidates,
+        "gloss_status": "unresolved",
+        "candidate_glosses": gloss_candidates,
         "first_seen_at": generated_at,
         "last_seen_at": generated_at,
         "evidence": [evidence],
@@ -580,6 +640,8 @@ def normalize_existing_concept_artifacts(concepts_dir):
         obj.setdefault("ambiguity_status", default_status)
         obj.setdefault("definition_status", "seeded-stable" if default_status == "seeded-stable" else "unresolved")
         obj.setdefault("candidate_definitions", [])
+        obj.setdefault("gloss_status", "seeded-stable" if default_status == "seeded-stable" else "unresolved")
+        obj.setdefault("candidate_glosses", [])
         if not obj.get("possible_senses"):
             obj["possible_senses"] = [{
                 "sense_id": f"{obj.get('concept_id', slug(obj.get('canonical_name','concept')))}#sense-1",
@@ -612,6 +674,9 @@ def normalize_existing_concept_observations(observations_dir):
         obj.setdefault("definition_status", "unresolved")
         obj.setdefault("candidate_definition_hints", [])
         obj.setdefault("source_repo_description", None)
+        obj.setdefault("source_context_snippet", None)
+        obj.setdefault("gloss_status", "unresolved")
+        obj.setdefault("candidate_glosses", [])
         if not obj.get("candidate_senses"):
             normalized = obj.get("normalized_form") or slug(obj.get("observed_text", "concept"))
             obj["candidate_senses"] = [{
@@ -895,6 +960,7 @@ def collect_repo(owner_repo, limits, known_repo_keys, allow_topic_expansion=True
 
     file_candidates = (readme_paths + manifest_paths + workflow_paths)[: limits["max_file_fetches_per_repo"]]
     fetched_files, term_hits, component_hits, repo_link_hits, edge_records = [], [], [], [], []
+    repo_context_snippet = None
 
     for path in file_candidates:
         try:
@@ -904,9 +970,9 @@ def collect_repo(owner_repo, limits, known_repo_keys, allow_topic_expansion=True
             continue
         fetched_files.append({"path": path, "size": len(text)})
 
-        file_context_snippet = None
-        if path in README_CANDIDATES:
-            file_context_snippet = compact_text(text)
+        file_context_snippet = contextual_snippet_for_file(path, text)
+        if file_context_snippet and not repo_context_snippet:
+            repo_context_snippet = file_context_snippet
 
         for match in REPO_URL_RE.findall(text):
             canonical = canonicalize_repo_full_name(match, lowercase=True)
@@ -927,7 +993,7 @@ def collect_repo(owner_repo, limits, known_repo_keys, allow_topic_expansion=True
             if workflow_name:
                 normalized = normalize_term(workflow_name.group(1))
                 if normalized:
-                    term_hits.append({"term": normalized, "source_file": path, "edge_type": "workflow-name", "context_snippet": compact_text(workflow_name.group(1))})
+                    term_hits.append({"term": normalized, "source_file": path, "edge_type": "workflow-name", "context_snippet": file_context_snippet})
                     edge_records.append({"source_repo": canonical_owner_repo, "target": normalized, "target_type": "term", "edge_type": "workflow-name", "source_file": path})
 
         if path.endswith("package.json"):
@@ -947,7 +1013,7 @@ def collect_repo(owner_repo, limits, known_repo_keys, allow_topic_expansion=True
         normalized_topic_term = normalize_topic(topic)
         if not is_specific_topic(topic):
             continue
-        term_hits.append({"term": normalized_topic_term, "source_file": None, "edge_type": "repo-topic", "context_snippet": compact_text(repo.get("description") or normalized_topic_term)})
+        term_hits.append({"term": normalized_topic_term, "source_file": None, "edge_type": "repo-topic", "context_snippet": repo_context_snippet or compact_text(repo.get("description") or normalized_topic_term)})
         edge_records.append({"source_repo": canonical_owner_repo, "target": normalized_topic_term, "target_type": "term", "edge_type": "repo-topic", "source_file": None})
     source_topic_set = comparable_topic_set(source_topics)
 
