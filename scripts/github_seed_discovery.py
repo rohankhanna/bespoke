@@ -322,13 +322,31 @@ def summarize_repo_timings(repo_timings):
     }
 
 
-def concept_class_for_term(hit):
+def unique_preserve(items):
+    seen = set()
+    out = []
+    for item in items:
+        if item in seen:
+            continue
+        seen.add(item)
+        out.append(item)
+    return out
+
+
+def concept_buckets_for_term(hit):
     edge_type = hit.get("edge_type")
+    buckets = []
     if edge_type == "repo-topic":
-        return "tool-component"
-    if edge_type == "workflow-name":
-        return "workflow-process"
-    return "unclassified"
+        buckets.extend(["tool-component", "capability"])
+    elif edge_type == "workflow-name":
+        buckets.extend(["workflow-process", "data-document-artifact"])
+    else:
+        buckets.append("unclassified")
+    return unique_preserve(buckets)
+
+
+def concept_primary_bucket(hit):
+    return concept_buckets_for_term(hit)[0]
 
 
 def concept_id_for_term(term):
@@ -353,7 +371,37 @@ def upsert_concept_observation(observations_dir, generated_at, source_repo, hit)
         "source_repo": source_repo,
         "source_file": hit.get("source_file"),
         "observed_at": generated_at,
-        "candidate_buckets": [concept_class_for_term(hit)],
+        "candidate_buckets": concept_buckets_for_term(hit),
+    }
+    write_json(path, payload)
+
+
+def upsert_seeded_concept(concepts_dir, generated_at, concept_id, canonical_name, buckets, alias, evidence):
+    path = concepts_dir / f"{concept_id}.json"
+    buckets = unique_preserve(buckets)
+    if path.exists():
+        existing = json.loads(path.read_text())
+        existing["last_seen_at"] = generated_at
+        existing.setdefault("aliases", [])
+        if alias not in existing["aliases"]:
+            existing["aliases"].append(alias)
+        existing.setdefault("buckets", [])
+        existing["buckets"] = unique_preserve(existing["buckets"] + buckets)
+        existing.setdefault("evidence", [])
+        if evidence not in existing["evidence"]:
+            existing["evidence"].append(evidence)
+        existing["primary_bucket"] = existing.get("primary_bucket") or buckets[0]
+        write_json(path, existing)
+        return
+    payload = {
+        "concept_id": concept_id,
+        "canonical_name": canonical_name,
+        "primary_bucket": buckets[0],
+        "buckets": buckets,
+        "aliases": [alias],
+        "first_seen_at": generated_at,
+        "last_seen_at": generated_at,
+        "evidence": [evidence],
     }
     write_json(path, payload)
 
@@ -362,7 +410,7 @@ def upsert_concept(concepts_dir, generated_at, source_repo, hit):
     term = hit["term"]
     concept_id = concept_id_for_term(term)
     path = concepts_dir / f"{concept_id}.json"
-    bucket = concept_class_for_term(hit)
+    buckets = concept_buckets_for_term(hit)
     alias = term
     evidence = {
         "source_repo": source_repo,
@@ -377,23 +425,49 @@ def upsert_concept(concepts_dir, generated_at, source_repo, hit):
         if alias not in existing["aliases"]:
             existing["aliases"].append(alias)
         existing.setdefault("buckets", [])
-        if bucket not in existing["buckets"]:
-            existing["buckets"].append(bucket)
+        existing["buckets"] = unique_preserve(existing["buckets"] + buckets)
         existing.setdefault("evidence", [])
         if evidence not in existing["evidence"]:
             existing["evidence"].append(evidence)
+        existing["primary_bucket"] = existing.get("primary_bucket") or buckets[0]
         write_json(path, existing)
         return
     payload = {
         "concept_id": concept_id,
         "canonical_name": term,
-        "buckets": [bucket],
+        "primary_bucket": buckets[0],
+        "buckets": buckets,
         "aliases": [alias],
         "first_seen_at": generated_at,
         "last_seen_at": generated_at,
         "evidence": [evidence],
     }
     write_json(path, payload)
+
+
+def upsert_seeded_language_concepts(concepts_dir, generated_at, data_root):
+    seed_path = data_root / "vocabulary" / "english" / "stable-closed-classes.json"
+    if not seed_path.exists():
+        return
+    seed = json.loads(seed_path.read_text())
+    for category, entries in (seed.get("categories") or {}).items():
+        for entry in entries:
+            concept_id = f"en-{slug(category)}-{slug(entry)}"
+            evidence = {
+                "source_repo": "seed:english",
+                "source_file": str(seed_path.relative_to(data_root)),
+                "discovered_via": "seeded-language-entity",
+                "observed_at": generated_at,
+            }
+            upsert_seeded_concept(
+                concepts_dir,
+                generated_at,
+                concept_id,
+                entry,
+                ["language-layer-entity", slug(category)],
+                entry,
+                evidence,
+            )
 
 
 def dedupe_edges(edges):
@@ -687,6 +761,7 @@ def main():
     prune_invalid_term_artifacts(terms_dir)
 
     generated_at = datetime.now(timezone.utc).isoformat()
+    upsert_seeded_language_concepts(concepts_dir, generated_at, data_root)
     run_id = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     budget = budget_state()
     newly_discovered = []
