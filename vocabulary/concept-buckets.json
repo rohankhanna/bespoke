@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "description": "Concept buckets for the concept-first vocabulary pipeline. A concept may belong to one or more buckets, and one observed form may map to multiple concepts or senses.",
+  "buckets": [
+    {
+      "bucket_id": "language-layer-entity",
+      "display_name": "Language-layer entity",
+      "description": "Closed-class English entities and other linguistic substrate concepts used to analyze phrase structure and meaning.",
+      "allows_multi_membership": true
+    },
+    {
+      "bucket_id": "provider-platform",
+      "display_name": "Provider/platform",
+      "description": "Organizations, hosted services, platforms, ecosystems, and delivery surfaces.",
+      "allows_multi_membership": true
+    },
+    {
+      "bucket_id": "model-family",
+      "display_name": "Model family",
+      "description": "Named model families, model lines, or related AI model groupings.",
+      "allows_multi_membership": true
+    },
+    {
+      "bucket_id": "tool-component",
+      "display_name": "Tool/component",
+      "description": "Software tools, components, packages, libraries, CLIs, plugins, and reusable building blocks.",
+      "allows_multi_membership": true
+    },
+    {
+      "bucket_id": "workflow-process",
+      "display_name": "Workflow/process",
+      "description": "Operational processes, pipelines, developer workflows, orchestration patterns, and repeated procedures.",
+      "allows_multi_membership": true
+    },
+    {
+      "bucket_id": "capability",
+      "display_name": "Capability",
+      "description": "Things a system can do or support, including functional and non-functional abilities.",
+      "allows_multi_membership": true
+    },
+    {
+      "bucket_id": "evaluation-benchmark",
+      "display_name": "Evaluation/benchmark",
+      "description": "Tests, benchmarks, evaluation methods, scoring schemes, and measurement-oriented concepts.",
+      "allows_multi_membership": true
+    },
+    {
+      "bucket_id": "infrastructure-runtime",
+      "display_name": "Infrastructure/runtime",
+      "description": "Execution environments, deployment substrates, OS/runtime concepts, and environment-level infrastructure.",
+      "allows_multi_membership": true
+    },
+    {
+      "bucket_id": "governance-policy",
+      "display_name": "Governance/policy",
+      "description": "Rules, policies, guardrails, governance structures, and decision constraints.",
+      "allows_multi_membership": true
+    },
+    {
+      "bucket_id": "data-document-artifact",
+      "display_name": "Data/document artifact",
+      "description": "Named artifact types such as plans, specs, templates, manifests, datasets, and records.",
+      "allows_multi_membership": true
+    }
+  ],
+  "ambiguity_policy": {
+    "supports_polysemy": true,
+    "supports_multi_bucket_membership": true,
+    "supports_deferred_disambiguation": true,
+    "note": "Observed forms and concept meanings are not assumed to be one-to-one. Bucket assignment may be partial or provisional until more evidence is available."
+  }
+}
