@@ -1,0 +1,237 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RustCrypto/signatures",
+      "target": "rustcrypto/rsa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bign-genk.yml",
+      "source_repo": "RustCrypto/signatures",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bign-genk.yml",
+      "source_repo": "RustCrypto/signatures",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bign-genk.yml",
+      "source_repo": "RustCrypto/signatures",
+      "target": "bign-genk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dsa.yml",
+      "source_repo": "RustCrypto/signatures",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dsa.yml",
+      "source_repo": "RustCrypto/signatures",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dsa.yml",
+      "source_repo": "RustCrypto/signatures",
+      "target": "dsa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecdsa.yml",
+      "source_repo": "RustCrypto/signatures",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecdsa.yml",
+      "source_repo": "RustCrypto/signatures",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecdsa.yml",
+      "source_repo": "RustCrypto/signatures",
+      "target": "RustCrypto/actions/cargo-hack-install@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ecdsa.yml",
+      "source_repo": "RustCrypto/signatures",
+      "target": "ecdsa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ed25519.yml",
+      "source_repo": "RustCrypto/signatures",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ed25519.yml",
+      "source_repo": "RustCrypto/signatures",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ed25519.yml",
+      "source_repo": "RustCrypto/signatures",
+      "target": "ed25519",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ed448.yml",
+      "source_repo": "RustCrypto/signatures",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ed448.yml",
+      "source_repo": "RustCrypto/signatures",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ed448.yml",
+      "source_repo": "RustCrypto/signatures",
+      "target": "ed448",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lms.yml",
+      "source_repo": "RustCrypto/signatures",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lms.yml",
+      "source_repo": "RustCrypto/signatures",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lms.yml",
+      "source_repo": "RustCrypto/signatures",
+      "target": "lms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ml-dsa.yml",
+      "source_repo": "RustCrypto/signatures",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ml-dsa.yml",
+      "source_repo": "RustCrypto/signatures",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ml-dsa.yml",
+      "source_repo": "RustCrypto/signatures",
+      "target": "RustCrypto/actions/cargo-hack-install@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ml-dsa.yml",
+      "source_repo": "RustCrypto/signatures",
+      "target": "ml-dsa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mutation-testing.yml",
+      "source_repo": "RustCrypto/signatures",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mutation-testing.yml",
+      "source_repo": "RustCrypto/signatures",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mutation-testing.yml",
+      "source_repo": "RustCrypto/signatures",
+      "target": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mutation-testing.yml",
+      "source_repo": "RustCrypto/signatures",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mutation-testing.yml",
+      "source_repo": "RustCrypto/signatures",
+      "target": "Mutation Testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RustCrypto/signatures",
+      "target": "ecdsa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RustCrypto/signatures",
+      "target": "ed25519",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RustCrypto/signatures",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RustCrypto/signatures",
+      "target": "signatures",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T12:07:11.500453+00:00",
+  "source_repo": "RustCrypto/signatures"
+}

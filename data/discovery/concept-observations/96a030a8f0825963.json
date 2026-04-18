@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create releases",
+      "sense_id": "create-releases#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "create-releases",
+  "normalized_form": "create-releases",
+  "observation_id": "96a030a8f0825963",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T12:07:11.500453+00:00",
+  "observed_text": "Create releases",
+  "source_file": ".github/workflows/create-releases.yml",
+  "source_repo": "openai/openai-python"
+}

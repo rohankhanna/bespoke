@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "trailofbits/claude-code-config",
+      "target": "trailofbits/claude-code-devcontainer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "trailofbits/claude-code-config",
+      "target": "trailofbits/dropkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "trailofbits/claude-code-config",
+      "target": "crytic/slither",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "trailofbits/claude-code-config",
+      "target": "clearbluejar/pyghidra-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trailofbits/claude-code-config",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trailofbits/claude-code-config",
+      "target": "claude-code-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trailofbits/claude-code-config",
+      "target": "developer-tool",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T12:07:11.500453+00:00",
+  "source_repo": "trailofbits/claude-code-config"
+}

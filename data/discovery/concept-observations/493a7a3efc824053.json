@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Static Checks",
+      "sense_id": "static-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "static-checks",
+  "normalized_form": "static-checks",
+  "observation_id": "493a7a3efc824053",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T12:07:11.500453+00:00",
+  "observed_text": "Static Checks",
+  "source_file": ".github/workflows/static-checks.yml",
+  "source_repo": "trailofbits/buttercup"
+}

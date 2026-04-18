@@ -1,0 +1,42 @@
+{
+  "aliases": [
+    "ed25519"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact",
+    "tool-component",
+    "capability"
+  ],
+  "canonical_name": "ed25519",
+  "concept_id": "ed25519",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T12:07:11.500453+00:00",
+      "source_file": ".github/workflows/ed25519.yml",
+      "source_repo": "RustCrypto/signatures"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T12:07:11.500453+00:00",
+      "source_file": null,
+      "source_repo": "RustCrypto/signatures"
+    }
+  ],
+  "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
+  "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ed25519",
+      "sense_id": "ed25519#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

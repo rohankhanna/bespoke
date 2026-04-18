@@ -1,0 +1,136 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dirs-dev/dirs-rs",
+      "target": "dirs-dev/directories-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dirs-dev/dirs-rs",
+      "target": "dirs-dev/directories-jvm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "dirs-dev/dirs-rs",
+      "target": "soc/dirs-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dirs-dev/dirs-rs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dirs-dev/dirs-rs",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dirs-dev/dirs-rs",
+      "target": "knownfolders",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dirs-dev/dirs-rs",
+      "target": "xdg-basedir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dirs-dev/dirs-rs",
+      "target": "xdg-user-dirs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T12:07:38.784317+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13779
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 718
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 503
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "moved to https://codeberg.org/dirs/dirs-rs",
+    "full_name": "dirs-dev/dirs-rs",
+    "html_url": "https://github.com/dirs-dev/dirs-rs",
+    "language": "Rust",
+    "pushed_at": "2025-01-12T19:35:17Z",
+    "topics": [
+      "knownfolders",
+      "xdg-basedir",
+      "xdg-user-dirs"
+    ],
+    "updated_at": "2026-04-18T08:26:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dirs-dev/directories-jvm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dirs-dev/directories-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "soc/dirs-rs",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knownfolders"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xdg-basedir"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xdg-user-dirs"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI Tests",
+      "sense_id": "ci-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "ci-tests",
+  "normalized_form": "ci-tests",
+  "observation_id": "b5cedfea1e74d0b9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T12:07:11.500453+00:00",
+  "observed_text": "CI Tests",
+  "source_file": ".github/workflows/ci.yml",
+  "source_repo": "shareAI-lab/kode-agent-sdk"
+}

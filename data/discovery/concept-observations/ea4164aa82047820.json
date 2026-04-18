@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Version Bump",
+      "sense_id": "version-bump#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "version-bump",
+  "normalized_form": "version-bump",
+  "observation_id": "ea4164aa82047820",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T12:07:11.500453+00:00",
+  "observed_text": "Version Bump",
+  "source_file": ".github/workflows/version-bump.yml",
+  "source_repo": "shareAI-lab/Kode-Agent"
+}

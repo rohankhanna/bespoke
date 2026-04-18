@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mutation Testing",
+      "sense_id": "mutation-testing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "mutation-testing",
+  "normalized_form": "mutation-testing",
+  "observation_id": "2e81436a8631904a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T12:07:11.500453+00:00",
+  "observed_text": "Mutation Testing",
+  "source_file": ".github/workflows/mutation-testing.yml",
+  "source_repo": "RustCrypto/signatures"
+}

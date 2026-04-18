@@ -1,0 +1,34 @@
+{
+  "aliases": [
+    "Docker Build Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "Docker Build Test",
+  "concept_id": "docker-build-test",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T12:07:11.500453+00:00",
+      "source_file": ".github/workflows/docker-build-test.yml",
+      "source_repo": "Aider-AI/aider"
+    }
+  ],
+  "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
+  "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docker Build Test",
+      "sense_id": "docker-build-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

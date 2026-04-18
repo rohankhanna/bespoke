@@ -162,10 +162,22 @@
       "observed_at": "2026-04-18T12:06:06.216548+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/Batch-ClaudeMD-Repo-Creator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T12:07:11.500453+00:00",
+      "source_file": null,
+      "source_repo": "trailofbits/claude-code-config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T12:07:11.500453+00:00",
+      "source_file": null,
+      "source_repo": "bl-ue/tweakcc-system-prompts"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "possible_senses": [
     {
       "buckets": [

@@ -1,0 +1,34 @@
+{
+  "aliases": [
+    "Import Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "Import Test",
+  "concept_id": "import-test",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T12:07:11.500453+00:00",
+      "source_file": ".github/workflows/import.yml",
+      "source_repo": "googleapis/python-genai"
+    }
+  ],
+  "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
+  "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Import Test",
+      "sense_id": "import-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

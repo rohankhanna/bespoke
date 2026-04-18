@@ -33,10 +33,22 @@
       "observed_at": "2026-04-18T11:41:43.530265+00:00",
       "source_file": null,
       "source_repo": "svg/svgo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T12:07:11.500453+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T12:07:11.500453+00:00",
+      "source_file": null,
+      "source_repo": "npm/cli"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
+  "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "possible_senses": [
     {
       "buckets": [

@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check PyPI Version",
+      "sense_id": "check-pypi-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "check-pypi-version",
+  "normalized_form": "check-pypi-version",
+  "observation_id": "29c04445b87cddd3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T12:07:11.500453+00:00",
+  "observed_text": "Check PyPI Version",
+  "source_file": ".github/workflows/check_pypi_version.yml",
+  "source_repo": "Aider-AI/aider"
+}

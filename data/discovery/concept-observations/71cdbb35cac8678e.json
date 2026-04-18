@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gpt-35-turbo",
+      "sense_id": "gpt-35-turbo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "gpt-35-turbo",
+  "normalized_form": "gpt-35-turbo",
+  "observation_id": "71cdbb35cac8678e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T12:07:11.500453+00:00",
+  "observed_text": "gpt-35-turbo",
+  "source_file": null,
+  "source_repo": "Aider-AI/aider"
+}

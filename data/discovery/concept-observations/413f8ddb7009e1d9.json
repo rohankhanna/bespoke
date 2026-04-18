@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ollama",
+      "sense_id": "ollama#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "ollama",
+  "normalized_form": "ollama",
+  "observation_id": "413f8ddb7009e1d9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T12:07:11.500453+00:00",
+  "observed_text": "ollama",
+  "source_file": null,
+  "source_repo": "ollama/ollama-python"
+}

@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PyPI Release",
+      "sense_id": "pypi-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "pypi-release",
+  "normalized_form": "pypi-release",
+  "observation_id": "05c7403acbf4ec4c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T12:07:11.500453+00:00",
+  "observed_text": "PyPI Release",
+  "source_file": ".github/workflows/release.yml",
+  "source_repo": "Aider-AI/aider"
+}

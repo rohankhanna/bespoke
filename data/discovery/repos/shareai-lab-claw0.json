@@ -1,0 +1,28 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-18T12:07:24.269666+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7704
+    },
+    {
+      "path": "requirements.txt",
+      "size": 112
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "0 - 1 learn OpenClaw: sections to build an claw-AI agent from scratch",
+    "full_name": "shareAI-lab/claw0",
+    "html_url": "https://github.com/shareAI-lab/claw0",
+    "language": "Python",
+    "pushed_at": "2026-03-18T10:58:44Z",
+    "topics": [],
+    "updated_at": "2026-04-18T11:02:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

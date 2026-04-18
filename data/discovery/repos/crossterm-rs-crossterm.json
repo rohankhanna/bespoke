@@ -1,0 +1,200 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crossterm_test.yml"
+    },
+    {
+      "component": "hecrj/setup-rust-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crossterm_test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crossterm-rs/crossterm",
+      "target": "crossterm-rs/examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crossterm-rs/crossterm",
+      "target": "gyscos/cursive",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crossterm-rs/crossterm",
+      "target": "ecumene/rust-sloth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crossterm-rs/crossterm",
+      "target": "cowboy8625/rusty-rain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crossterm_test.yml",
+      "source_repo": "crossterm-rs/crossterm",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crossterm_test.yml",
+      "source_repo": "crossterm-rs/crossterm",
+      "target": "hecrj/setup-rust-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/crossterm_test.yml",
+      "source_repo": "crossterm-rs/crossterm",
+      "target": "Crossterm Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crossterm-rs/crossterm",
+      "target": "color",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crossterm-rs/crossterm",
+      "target": "console",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crossterm-rs/crossterm",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crossterm-rs/crossterm",
+      "target": "cursor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crossterm-rs/crossterm",
+      "target": "input",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crossterm-rs/crossterm",
+      "target": "terminal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T12:07:37.352013+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8596
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3773
+    },
+    {
+      "path": ".github/workflows/crossterm_test.yml",
+      "size": 2858
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "Cross platform terminal library rust",
+    "full_name": "crossterm-rs/crossterm",
+    "html_url": "https://github.com/crossterm-rs/crossterm",
+    "language": "Rust",
+    "pushed_at": "2026-04-08T18:58:28Z",
+    "topics": [
+      "color",
+      "console",
+      "cross-platform",
+      "cursor",
+      "input",
+      "terminal",
+      "tui"
+    ],
+    "updated_at": "2026-04-18T08:26:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cowboy8625/rusty-rain",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "crossterm-rs/examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ecumene/rust-sloth",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gyscos/cursive",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/crossterm_test.yml",
+      "term": "Crossterm Test"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "color"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "console"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cursor"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "input"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    }
+  ]
+}

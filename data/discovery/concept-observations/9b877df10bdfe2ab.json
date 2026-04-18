@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ml-dsa",
+      "sense_id": "ml-dsa#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "ml-dsa",
+  "normalized_form": "ml-dsa",
+  "observation_id": "9b877df10bdfe2ab",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T12:07:11.500453+00:00",
+  "observed_text": "ml-dsa",
+  "source_file": ".github/workflows/ml-dsa.yml",
+  "source_repo": "RustCrypto/signatures"
+}

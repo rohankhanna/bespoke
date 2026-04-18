@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ed25519",
+      "sense_id": "ed25519#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "ed25519",
+  "normalized_form": "ed25519",
+  "observation_id": "5c0aa7b8727b42d8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T12:07:11.500453+00:00",
+  "observed_text": "ed25519",
+  "source_file": null,
+  "source_repo": "RustCrypto/signatures"
+}

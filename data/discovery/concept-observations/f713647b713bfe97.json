@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ecdsa",
+      "sense_id": "ecdsa#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "ecdsa",
+  "normalized_form": "ecdsa",
+  "observation_id": "f713647b713bfe97",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T12:07:11.500453+00:00",
+  "observed_text": "ecdsa",
+  "source_file": null,
+  "source_repo": "RustCrypto/signatures"
+}

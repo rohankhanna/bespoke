@@ -1,0 +1,116 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "trailofbits/claude-code-config",
+      "target": "trailofbits/claude-code-devcontainer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "trailofbits/claude-code-config",
+      "target": "trailofbits/dropkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "trailofbits/claude-code-config",
+      "target": "crytic/slither",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "trailofbits/claude-code-config",
+      "target": "clearbluejar/pyghidra-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trailofbits/claude-code-config",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trailofbits/claude-code-config",
+      "target": "claude-code-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "trailofbits/claude-code-config",
+      "target": "developer-tool",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T12:07:17.884873+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 42165
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Opinionated defaults, documentation, and workflows for Claude Code at Trail of Bits",
+    "full_name": "trailofbits/claude-code-config",
+    "html_url": "https://github.com/trailofbits/claude-code-config",
+    "language": "Shell",
+    "pushed_at": "2026-04-02T09:26:12Z",
+    "topics": [
+      "claude",
+      "claude-code",
+      "claude-code-cli",
+      "developer-tool"
+    ],
+    "updated_at": "2026-04-18T03:20:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clearbluejar/pyghidra-mcp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "crytic/slither",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "trailofbits/claude-code-devcontainer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "trailofbits/dropkit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code-cli"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-tool"
+    }
+  ]
+}

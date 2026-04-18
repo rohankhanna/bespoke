@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "rust"
+    "rust",
+    "Rust"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "canonical_name": "rust",
   "concept_id": "rust",
@@ -75,10 +78,22 @@
       "observed_at": "2026-04-18T12:06:06.216548+00:00",
       "source_file": null,
       "source_repo": "Eventual-Inc/Daft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T12:07:11.500453+00:00",
+      "source_file": null,
+      "source_repo": "RustCrypto/signatures"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T12:07:11.500453+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dirs-dev/dirs-rs"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "possible_senses": [
     {
       "buckets": [

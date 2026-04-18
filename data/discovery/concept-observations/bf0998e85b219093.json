@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "lms",
+      "sense_id": "lms#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "lms",
+  "normalized_form": "lms",
+  "observation_id": "bf0998e85b219093",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T12:07:11.500453+00:00",
+  "observed_text": "lms",
+  "source_file": ".github/workflows/lms.yml",
+  "source_repo": "RustCrypto/signatures"
+}

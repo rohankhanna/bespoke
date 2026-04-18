@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI - libnpmexec",
+      "sense_id": "ci---libnpmexec#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "ci---libnpmexec",
+  "normalized_form": "ci---libnpmexec",
+  "observation_id": "74aa320c41192828",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T12:07:11.500453+00:00",
+  "observed_text": "CI - libnpmexec",
+  "source_file": ".github/workflows/ci-libnpmexec.yml",
+  "source_repo": "npm/cli"
+}

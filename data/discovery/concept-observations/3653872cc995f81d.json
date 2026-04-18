@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "claude-3",
+      "sense_id": "claude-3#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "claude-3",
+  "normalized_form": "claude-3",
+  "observation_id": "3653872cc995f81d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T12:07:11.500453+00:00",
+  "observed_text": "claude-3",
+  "source_file": null,
+  "source_repo": "Aider-AI/aider"
+}

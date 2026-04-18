@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Publish"
+    "Publish",
+    "publish"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -27,10 +28,16 @@
       "observed_at": "2026-04-18T12:06:06.216548+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "microsoft/playwright-mcp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T12:07:11.500453+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "ollama/ollama-python"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "possible_senses": [
     {
       "buckets": [

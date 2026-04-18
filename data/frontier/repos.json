@@ -1,106 +1,6 @@
 {
-  "generated_at": "2026-04-18T12:06:06.216548+00:00",
+  "generated_at": "2026-04-18T12:07:11.500453+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "revfactory/harness-100",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "rustcrypto/signatures",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "trailofbits/buttercup",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "trailofbits/claude-code-config",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "trailofbits/claude-code-devcontainer",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "nodejs/node",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "npm/cli",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "shareai-lab/claw0",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "shareai-lab/kode-agent-sdk",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "shareai-lab/kode-cli",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "googleapis/python-genai",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ollama/ollama-python",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "openai/openai-python",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "aider-ai/aider",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "bl-ue/tweakcc-system-prompts",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "danielnappa/tweakgc-cli",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "fgrehm/clotilde",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "crossterm-rs/crossterm",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dirs-dev/dirs-rs",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dtolnay/anyhow",
-      "graph_distance": 4
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "unicode-rs/unicode-width",
@@ -1525,6 +1425,136 @@
       "discovered_via": "explicit-github-link",
       "full_name": "googlecloudplatform/vertex-ai-creative-studio",
       "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "rustcrypto/rsa",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tob-challenges/example-libpng",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "clearbluejar/pyghidra-mcp",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "crytic/slither",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "trailofbits/dropkit",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "abiosoft/colima",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "nodejs/admin",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "nodejs/release",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "nodejs/release-keys",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "nodejs/tsc",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "npm/rfcs",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "shareai-lab/kode",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "vercel-labs/add-skill",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aio-libs/aiohttp",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "encode/httpx",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "openai/openai-openapi",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "python/mypy",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "daaain/claude-code-log",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "simonw/claude-code-transcripts",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "winfunc/opcode",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "gyscos/cursive",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dirs-dev/directories-jvm",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dirs-dev/directories-rs",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "soc/dirs-rs",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dtolnay/thiserror",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "rust-lang/rfcs",
+      "graph_distance": 5
     }
   ],
   "processed": [
@@ -2085,6 +2115,26 @@
     "qwenlm/qwen-code",
     "simonw/sqlite-diffable",
     "google-gemini/gemini-cli",
-    "revfactory/claude-code-harness"
+    "revfactory/claude-code-harness",
+    "revfactory/harness-100",
+    "rustcrypto/signatures",
+    "trailofbits/buttercup",
+    "trailofbits/claude-code-config",
+    "trailofbits/claude-code-devcontainer",
+    "nodejs/node",
+    "npm/cli",
+    "shareai-lab/claw0",
+    "shareai-lab/kode-agent-sdk",
+    "shareai-lab/kode-agent",
+    "googleapis/python-genai",
+    "ollama/ollama-python",
+    "openai/openai-python",
+    "aider-ai/aider",
+    "bl-ue/tweakcc-system-prompts",
+    "danielnappa/tweakgc-cli",
+    "fgrehm/clotilde",
+    "crossterm-rs/crossterm",
+    "dirs-dev/dirs-rs",
+    "dtolnay/anyhow"
   ]
 }

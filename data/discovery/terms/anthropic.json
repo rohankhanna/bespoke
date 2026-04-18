@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
+  "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -66,6 +66,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "jarrodwatts/claude-hud"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Aider-AI/aider"
     }
   ],
   "term": "anthropic"

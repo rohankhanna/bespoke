@@ -1,7 +1,7 @@
 {
   "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/check-docs.yml",
       "source_repo": "astral-sh/uv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mutation-testing.yml",
+      "source_repo": "RustCrypto/signatures"
     }
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Doctor",
+      "sense_id": "release-doctor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "release-doctor",
+  "normalized_form": "release-doctor",
+  "observation_id": "ca60c3c75ffd78d0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T12:07:11.500453+00:00",
+  "observed_text": "Release Doctor",
+  "source_file": ".github/workflows/release-doctor.yml",
+  "source_repo": "openai/openai-python"
+}

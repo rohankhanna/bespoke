@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cursor",
+      "sense_id": "cursor#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "cursor",
+  "normalized_form": "cursor",
+  "observation_id": "50da79704f4d73ea",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T12:07:11.500453+00:00",
+  "observed_text": "cursor",
+  "source_file": null,
+  "source_repo": "crossterm-rs/crossterm"
+}

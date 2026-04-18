@@ -1,0 +1,156 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/import.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/import.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml"
+    },
+    {
+      "component": "actions/stale@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/python-genai",
+      "target": "aio-libs/aiohttp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/import.yml",
+      "source_repo": "googleapis/python-genai",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/import.yml",
+      "source_repo": "googleapis/python-genai",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/import.yml",
+      "source_repo": "googleapis/python-genai",
+      "target": "Import Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "googleapis/python-genai",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "googleapis/python-genai",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "googleapis/python-genai",
+      "target": "Run mypy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "googleapis/python-genai",
+      "target": "actions/stale@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "googleapis/python-genai",
+      "target": "Mark and close stale issues",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T12:07:28.603455+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 50806
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2260
+    },
+    {
+      "path": "requirements.txt",
+      "size": 596
+    },
+    {
+      "path": ".github/workflows/import.yml",
+      "size": 788
+    },
+    {
+      "path": ".github/workflows/mypy.yml",
+      "size": 953
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1236
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Google Gen AI Python SDK provides an interface for developers to integrate Google's generative models into their Python applications.",
+    "full_name": "googleapis/python-genai",
+    "html_url": "https://github.com/googleapis/python-genai",
+    "language": "Python",
+    "pushed_at": "2026-04-17T13:46:38Z",
+    "topics": [],
+    "updated_at": "2026-04-17T21:37:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aio-libs/aiohttp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/import.yml",
+      "term": "Import Test"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mypy.yml",
+      "term": "Run mypy"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Mark and close stale issues"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI - libnpmfund",
+      "sense_id": "ci---libnpmfund#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "ci---libnpmfund",
+  "normalized_form": "ci---libnpmfund",
+  "observation_id": "34323062e7957e78",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T12:07:11.500453+00:00",
+  "observed_text": "CI - libnpmfund",
+  "source_file": ".github/workflows/ci-libnpmfund.yml",
+  "source_repo": "npm/cli"
+}

@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "xdg-basedir",
+      "sense_id": "xdg-basedir#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "xdg-basedir",
+  "normalized_form": "xdg-basedir",
+  "observation_id": "1562ad4a868a9db7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T12:07:11.500453+00:00",
+  "observed_text": "xdg-basedir",
+  "source_file": null,
+  "source_repo": "dirs-dev/dirs-rs"
+}

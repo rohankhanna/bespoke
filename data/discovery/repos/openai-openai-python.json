@@ -1,0 +1,323 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "eifinger/setup-rye@c694239a43768373e87d0103d7f547027a23f3c8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "eifinger/setup-rye@c694239a43768373e87d0103d7f547027a23f3c8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "eifinger/setup-rye@c694239a43768373e87d0103d7f547027a23f3c8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "eifinger/setup-rye@c694239a43768373e87d0103d7f547027a23f3c8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-releases.yml"
+    },
+    {
+      "component": "stainless-api/trigger-release-please@bb6677c5a04578eec1ccfd9e1913b5b78ed64c61",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-releases.yml"
+    },
+    {
+      "component": "eifinger/setup-rye@c694239a43768373e87d0103d7f547027a23f3c8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-releases.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect-breaking-changes.yml"
+    },
+    {
+      "component": "eifinger/setup-rye@c694239a43768373e87d0103d7f547027a23f3c8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect-breaking-changes.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect-breaking-changes.yml"
+    },
+    {
+      "component": "eifinger/setup-rye@c694239a43768373e87d0103d7f547027a23f3c8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect-breaking-changes.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect-breaking-changes.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@e58605a9b6da7c637471fab8847a5e5a6b8df081",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect-breaking-changes.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml"
+    },
+    {
+      "component": "eifinger/setup-rye@c694239a43768373e87d0103d7f547027a23f3c8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-doctor.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openai/openai-python",
+      "target": "encode/httpx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openai/openai-python",
+      "target": "openai/openai-openapi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "openai/openai-python",
+      "target": "python/mypy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "openai/openai-python",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "openai/openai-python",
+      "target": "eifinger/setup-rye@c694239a43768373e87d0103d7f547027a23f3c8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "openai/openai-python",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-releases.yml",
+      "source_repo": "openai/openai-python",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-releases.yml",
+      "source_repo": "openai/openai-python",
+      "target": "stainless-api/trigger-release-please@bb6677c5a04578eec1ccfd9e1913b5b78ed64c61",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-releases.yml",
+      "source_repo": "openai/openai-python",
+      "target": "eifinger/setup-rye@c694239a43768373e87d0103d7f547027a23f3c8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-releases.yml",
+      "source_repo": "openai/openai-python",
+      "target": "Create releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect-breaking-changes.yml",
+      "source_repo": "openai/openai-python",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect-breaking-changes.yml",
+      "source_repo": "openai/openai-python",
+      "target": "eifinger/setup-rye@c694239a43768373e87d0103d7f547027a23f3c8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect-breaking-changes.yml",
+      "source_repo": "openai/openai-python",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect-breaking-changes.yml",
+      "source_repo": "openai/openai-python",
+      "target": "astral-sh/setup-uv@e58605a9b6da7c637471fab8847a5e5a6b8df081",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "openai/openai-python",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "openai/openai-python",
+      "target": "eifinger/setup-rye@c694239a43768373e87d0103d7f547027a23f3c8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "openai/openai-python",
+      "target": "Publish PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-doctor.yml",
+      "source_repo": "openai/openai-python",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-doctor.yml",
+      "source_repo": "openai/openai-python",
+      "target": "Release Doctor",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T12:07:31.451687+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29725
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 7415
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 4143
+    },
+    {
+      "path": ".github/workflows/create-releases.yml",
+      "size": 1092
+    },
+    {
+      "path": ".github/workflows/detect-breaking-changes.yml",
+      "size": 2584
+    },
+    {
+      "path": ".github/workflows/publish-pypi.yml",
+      "size": 764
+    },
+    {
+      "path": ".github/workflows/release-doctor.yml",
+      "size": 734
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "The official Python library for the OpenAI API",
+    "full_name": "openai/openai-python",
+    "html_url": "https://github.com/openai/openai-python",
+    "language": "Python",
+    "pushed_at": "2026-04-17T19:50:27Z",
+    "topics": [
+      "openai",
+      "python"
+    ],
+    "updated_at": "2026-04-18T11:24:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "encode/httpx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/openai-openapi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "python/mypy",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-releases.yml",
+      "term": "Create releases"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "term": "Publish PyPI"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-doctor.yml",
+      "term": "Release Doctor"
+    }
+  ]
+}

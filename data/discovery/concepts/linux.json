@@ -6,7 +6,8 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "workflow-process"
+    "workflow-process",
+    "capability"
   ],
   "canonical_name": "linux",
   "concept_id": "linux",
@@ -22,10 +23,16 @@
       "observed_at": "2026-04-18T10:25:53.609022+00:00",
       "source_file": ".github/workflows/linux_build.yml",
       "source_repo": "1runeberg/confichat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T12:07:11.500453+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/node"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "possible_senses": [
     {
       "buckets": [

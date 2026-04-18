@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run CodeQL",
+      "sense_id": "run-codeql#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "run-codeql",
+  "normalized_form": "run-codeql",
+  "observation_id": "74860b5e2ecb93f7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T12:07:11.500453+00:00",
+  "observed_text": "Run CodeQL",
+  "source_file": ".github/workflows/codeql.yml",
+  "source_repo": "nodejs/node"
+}

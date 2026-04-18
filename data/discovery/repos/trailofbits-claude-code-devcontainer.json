@@ -1,0 +1,78 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "trailofbits/claude-code-devcontainer",
+      "target": "abiosoft/colima",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "trailofbits/claude-code-devcontainer",
+      "target": "dandavison/delta",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "trailofbits/claude-code-devcontainer",
+      "target": "junegunn/fzf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "trailofbits/claude-code-devcontainer",
+      "target": "deluan/zsh-in-docker",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-18T12:07:19.471022+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10056
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3866
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Sandboxed devcontainer for running Claude Code in bypass mode safely. Built for security audits and untrusted code review.",
+    "full_name": "trailofbits/claude-code-devcontainer",
+    "html_url": "https://github.com/trailofbits/claude-code-devcontainer",
+    "language": "Shell",
+    "pushed_at": "2026-04-09T11:23:30Z",
+    "topics": [],
+    "updated_at": "2026-04-17T18:59:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abiosoft/colima",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dandavison/delta",
+      "source_file": "Dockerfile"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deluan/zsh-in-docker",
+      "source_file": "Dockerfile"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "junegunn/fzf",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": []
+}
