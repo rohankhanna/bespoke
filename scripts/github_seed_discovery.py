@@ -89,6 +89,8 @@ def normalize_term(text):
     lowered = text.lower()
     if lowered.startswith(("for example", "example:", "e.g.", "i.e.")):
         return None
+    if text.startswith("###") or text.startswith("##") or text.startswith("#"):
+        return None
     if text[0].isdigit():
         return None
     if re.fullmatch(r"[-=:_./\\|]+", text):
@@ -96,6 +98,8 @@ def normalize_term(text):
     if re.search(r"[{}\[\]<>]", text):
         return None
     if text.startswith((".", "-", "_", ")", "(", "|", "*")):
+        return None
+    if "_" in text:
         return None
     if "/" in text or "\\" in text:
         return None
@@ -400,6 +404,10 @@ def prune_invalid_term_artifacts(terms_dir):
             path.unlink(missing_ok=True)
             continue
         term = existing.get("term")
+        sources = existing.get("sources", [])
+        if sources and all(source.get("discovered_via") == "inline-code" for source in sources):
+            path.unlink(missing_ok=True)
+            continue
         if not term or normalize_term(term) is None:
             path.unlink(missing_ok=True)
 
