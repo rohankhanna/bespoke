@@ -31,6 +31,11 @@ jobs:
       - name: Prepare data branch worktree
         run: |
           git fetch origin data:data || true
+          if git ls-remote --exit-code --heads origin data >/tmp/origin-data-ref.txt 2>/dev/null; then
+            awk '{print $1}' /tmp/origin-data-ref.txt > /tmp/origin-data-start.sha
+          else
+            echo "" > /tmp/origin-data-start.sha
+          fi
           if git show-ref --verify --quiet refs/heads/data; then
             git worktree add --detach ../bespoke-data data
           else
@@ -40,6 +45,7 @@ jobs:
             git push origin HEAD:data
             git worktree add --detach ../bespoke-data data
             git checkout -
+            git rev-parse HEAD:data > /tmp/origin-data-start.sha
           fi
 
       - name: Run seeded GitHub discovery
@@ -56,6 +62,13 @@ jobs:
 
       - name: Commit and push data updates
         run: |
+          current_remote=$(git ls-remote --exit-code --heads origin data | awk '{print $1}' || true)
+          recorded_remote=$(cat /tmp/origin-data-start.sha)
+          if [ "$current_remote" != "$recorded_remote" ]; then
+            echo "origin/data changed during the run; refusing to push stale state"
+            echo "recorded=$recorded_remote current=$current_remote"
+            exit 1
+          fi
           cd ../bespoke-data
           git add data/
           if git diff --cached --quiet; then
