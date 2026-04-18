@@ -86,11 +86,28 @@ def normalize_term(text):
         return None
     if text.count(" ") > 5:
         return None
-    if re.fullmatch(r"[-=:_./\\]+", text):
+    lowered = text.lower()
+    if lowered.startswith(("for example", "example:", "e.g.", "i.e.")):
+        return None
+    if re.fullmatch(r"[-=:_./\\|]+", text):
         return None
     if re.search(r"[{}\[\]<>]", text):
         return None
-    if text.startswith((".", "-", "_")):
+    if text.startswith((".", "-", "_", ")", "(", "|", "*")):
+        return None
+    if "/" in text or "\\" in text:
+        return None
+    if "|" in text:
+        return None
+    if "*." in text or text.endswith((".json", ".yaml", ".yml", ".py", ".sh", ".md", ".txt")):
+        return None
+    if re.fullmatch(r"[0-9.]+", text):
+        return None
+    if re.search(r"\b(json|yaml|yml|python|bash|shell|markdown)\b", lowered):
+        return None
+    punct = len(re.findall(r"[^A-Za-z0-9\s-]", text))
+    alnum = len(re.findall(r"[A-Za-z0-9]", text))
+    if alnum == 0 or punct > max(2, alnum // 2):
         return None
     return text
 
@@ -467,15 +484,13 @@ def collect_repo(owner_repo, limits, known_repo_keys, allow_topic_expansion=True
             except Exception:
                 pass
 
-        for inline in re.findall(r"`([^`]{2,80})`", text):
-            if "/" in inline or len(inline.split()) > 6:
-                continue
-            normalized = normalize_term(inline)
-            if normalized:
-                term_hits.append({"term": normalized, "source_file": path, "edge_type": "inline-code"})
-                edge_records.append({"source_repo": canonical_owner_repo, "target": normalized, "target_type": "term", "edge_type": "inline-code", "source_file": path})
-
     source_topics = repo.get("topics") or []
+    for topic in source_topics:
+        normalized_topic_term = normalize_topic(topic)
+        if not is_specific_topic(topic):
+            continue
+        term_hits.append({"term": normalized_topic_term, "source_file": None, "edge_type": "repo-topic"})
+        edge_records.append({"source_repo": canonical_owner_repo, "target": normalized_topic_term, "target_type": "term", "edge_type": "repo-topic", "source_file": None})
     source_topic_set = comparable_topic_set(source_topics)
 
     related, seen_related = [], set()
