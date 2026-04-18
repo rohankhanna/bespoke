@@ -1,0 +1,293 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "PROMPT.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "IMPLEMENTATION_PLAN.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "AGENTS.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "git reset --hard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "loop.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "PROMPT_plan.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "PROMPT_build.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "for building (implementation) -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "keyword \u2192 Uses",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "sonnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "loop_streamed.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "parse_stream.js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "###",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "bash chmod +x loop.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "0a. Study",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "####",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "git add -A",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "git commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "git push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "AskUserQuestionTool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "#####",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "artifact: \"Your content here",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "fast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "smart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "llm-review.test.ts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "artifact: string",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "Insert this:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "examples during",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "plan-work",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "Template _Note:_ Identical to",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "but with scoping instructions and",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "AUDIENCE_JTBD.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "##### Notes _Why",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "01-range-optimization.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "specs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "PROMPT_specs.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": ":_ insert a new",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "branch in the argument parsing:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": ":_ same change \u2014 add the",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "PROMPT_reverse_engineer_specs.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ClaytonFarr/ralph-playbook",
+      "target": "01-session-management.md",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T09:17:12.863479+00:00",
+  "source_repo": "ClaytonFarr/ralph-playbook"
+}

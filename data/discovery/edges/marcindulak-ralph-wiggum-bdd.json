@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/ralph-wiggum-bdd",
+      "target": "marcindulak/learning-api-styles-gen-ai-experiments",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/ralph-wiggum-bdd",
+      "target": "ai-that-works/ai-that-works",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/ralph-wiggum-bdd",
+      "target": "claude",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/ralph-wiggum-bdd",
+      "target": "ralph-wiggum-bdd.sh --interactive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/ralph-wiggum-bdd",
+      "target": "## Directory structure after running",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/ralph-wiggum-bdd",
+      "target": "@status-todo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/ralph-wiggum-bdd",
+      "target": "@status-active",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/ralph-wiggum-bdd",
+      "target": "@status-done",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/ralph-wiggum-bdd",
+      "target": "ELN.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/ralph-wiggum-bdd",
+      "target": "implementation plan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/ralph-wiggum-bdd",
+      "target": "progress",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/ralph-wiggum-bdd",
+      "target": "Run a selected example:",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T09:17:12.863479+00:00",
+  "source_repo": "marcindulak/ralph-wiggum-bdd"
+}

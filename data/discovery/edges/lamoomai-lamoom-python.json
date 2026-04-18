@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "LamoomAI/lamoom-python",
+      "target": "test_data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "LamoomAI/lamoom-python",
+      "target": "create_test()",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "LamoomAI/lamoom-python",
+      "target": "mermaid sequenceDiagram alt Direct",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "LamoomAI/lamoom-python",
+      "target": "call",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "LamoomAI/lamoom-python",
+      "target": "add_ideal_answer()",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "LamoomAI/lamoom-python",
+      "target": "bash pip install lamoom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "LamoomAI/lamoom-python",
+      "target": "LAMOOM_API_TOKEN",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "LamoomAI/lamoom-python",
+      "target": "## Usage Examples: ### Basic Usage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "LamoomAI/lamoom-python",
+      "target": "### Creating Tests While Using Prompts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "LamoomAI/lamoom-python",
+      "target": "### Creating Tests Explicitly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "LamoomAI/lamoom-python",
+      "target": "### Adding Feedback to Previous Responses",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "LamoomAI/lamoom-python",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "LamoomAI/lamoom-python",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "LamoomAI/lamoom-python",
+      "target": "publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests.yaml",
+      "source_repo": "LamoomAI/lamoom-python",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests.yaml",
+      "source_repo": "LamoomAI/lamoom-python",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests.yaml",
+      "source_repo": "LamoomAI/lamoom-python",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-unit-tests.yaml",
+      "source_repo": "LamoomAI/lamoom-python",
+      "target": "run-unit-tests",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T09:17:12.863479+00:00",
+  "source_repo": "LamoomAI/lamoom-python"
+}

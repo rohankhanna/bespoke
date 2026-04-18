@@ -1,0 +1,360 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Talieisin/britfix",
+      "target": "astral-sh/uv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Talieisin/britfix",
+      "target": "casey/just",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Talieisin/britfix",
+      "target": "colorScheme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Talieisin/britfix",
+      "target": "## Usage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Talieisin/britfix",
+      "target": "### Options -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Talieisin/britfix",
+      "target": "config.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Talieisin/britfix",
+      "target": "**NOT converted** (code and API references):",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Talieisin/britfix",
+      "target": "## Ignoring Words (",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Talieisin/britfix",
+      "target": ") Create a",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Talieisin/britfix",
+      "target": "comments, blank lines skipped - Optional",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Talieisin/britfix",
+      "target": "color*",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Talieisin/britfix",
+      "target": "color",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Talieisin/britfix",
+      "target": "colors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Talieisin/britfix",
+      "target": "colored",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Talieisin/britfix",
+      "target": "colorful",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Talieisin/britfix",
+      "target": "colorize",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Talieisin/britfix",
+      "target": "colour",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Talieisin/britfix",
+      "target": "%APPDATA%\\britfix\\ignore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Talieisin/britfix",
+      "target": "text dialog* code:color* code:center",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Talieisin/britfix",
+      "target": "Running britfix on a Python file:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Talieisin/britfix",
+      "target": "Running britfix on a Markdown file:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Talieisin/britfix",
+      "target": "## Configuration Edit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Talieisin/britfix",
+      "target": "to customise file type handling:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Talieisin/britfix",
+      "target": "## Hook Integration The",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Talieisin/britfix",
+      "target": "just sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Talieisin/britfix",
+      "target": "Then watch:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Talieisin/britfix",
+      "target": "## Development",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:17:39.613234+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6167
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 447
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Convert American spellings to British English - fix LLM output and documents",
+    "full_name": "Talieisin/britfix",
+    "html_url": "https://github.com/Talieisin/britfix",
+    "language": "Python",
+    "pushed_at": "2026-03-12T08:25:00Z",
+    "topics": [],
+    "updated_at": "2026-03-31T23:25:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "astral-sh/uv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "casey/just",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "colorScheme"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## Usage"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Options -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "config.json"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**NOT converted** (code and API references):"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## Ignoring Words ("
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ") Create a"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "comments, blank lines skipped - Optional"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "color*"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "color"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "colors"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "colored"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "colorful"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "colorize"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "color"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "colour"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "%APPDATA%\\britfix\\ignore"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "text dialog* code:color* code:center"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Running britfix on a Python file:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Running britfix on a Markdown file:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## Configuration Edit"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "to customise file type handling:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## Hook Integration The"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "just sync"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Then watch:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## Development"
+    }
+  ]
+}

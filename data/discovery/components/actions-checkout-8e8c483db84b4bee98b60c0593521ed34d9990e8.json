@@ -1,0 +1,32 @@
+{
+  "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+  "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
+  "last_seen_at": "2026-04-18T09:17:12.863479+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "dyoshikawa/rulesync"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dyoshikawa/rulesync"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "dyoshikawa/rulesync"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-binaries.yml",
+      "source_repo": "dyoshikawa/rulesync"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-assets.yml",
+      "source_repo": "dyoshikawa/rulesync"
+    }
+  ]
+}

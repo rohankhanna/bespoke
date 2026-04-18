@@ -1,0 +1,176 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/ralph-wiggum-bdd",
+      "target": "marcindulak/learning-api-styles-gen-ai-experiments",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/ralph-wiggum-bdd",
+      "target": "ai-that-works/ai-that-works",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/ralph-wiggum-bdd",
+      "target": "claude",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/ralph-wiggum-bdd",
+      "target": "ralph-wiggum-bdd.sh --interactive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/ralph-wiggum-bdd",
+      "target": "## Directory structure after running",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/ralph-wiggum-bdd",
+      "target": "@status-todo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/ralph-wiggum-bdd",
+      "target": "@status-active",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/ralph-wiggum-bdd",
+      "target": "@status-done",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/ralph-wiggum-bdd",
+      "target": "ELN.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/ralph-wiggum-bdd",
+      "target": "implementation plan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/ralph-wiggum-bdd",
+      "target": "progress",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/ralph-wiggum-bdd",
+      "target": "Run a selected example:",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:17:13.824382+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6439
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "A standalone Bash script for Behavior-Driven Development with Ralph Wiggum Loop",
+    "full_name": "marcindulak/ralph-wiggum-bdd",
+    "html_url": "https://github.com/marcindulak/ralph-wiggum-bdd",
+    "language": "Shell",
+    "pushed_at": "2026-04-12T07:50:42Z",
+    "topics": [],
+    "updated_at": "2026-04-12T07:50:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ai-that-works/ai-that-works",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marcindulak/learning-api-styles-gen-ai-experiments",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ralph-wiggum-bdd.sh --interactive"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## Directory structure after running"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "@status-todo"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "@status-active"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "@status-done"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ELN.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "implementation plan"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "progress"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ELN.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Run a selected example:"
+    }
+  ]
+}

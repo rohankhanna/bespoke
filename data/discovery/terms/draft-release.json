@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-18T03:42:01.586113+00:00",
+  "last_seen_at": "2026-04-18T09:17:12.863479+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/draft-release.yml",
       "source_repo": "google-github-actions/auth"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/draft-release.yml",
+      "source_repo": "dyoshikawa/rulesync"
     }
   ],
   "term": "Draft release"

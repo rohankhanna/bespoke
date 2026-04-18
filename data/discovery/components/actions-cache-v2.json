@@ -1,0 +1,17 @@
+{
+  "component": "actions/cache@v2",
+  "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
+  "last_seen_at": "2026-04-18T09:17:12.863479+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks-workflow.yml",
+      "source_repo": "inkline/inkline"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-workflow.yml",
+      "source_repo": "inkline/inkline"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "budget_seconds": 360,
+  "elapsed_seconds": 30.905,
+  "generated_at": "2026-04-18T09:17:12.863479+00:00",
+  "processed_repositories": [
+    "marcindulak/ralph-wiggum-bdd",
+    "ruvnet/ruflo",
+    "dyoshikawa/rulesync",
+    "snipeship/ccflare",
+    "dtormoen/tsk-tsk",
+    "lamoomai/lamoom-python",
+    "serpro69/claude-toolbox",
+    "sculptdotfun/viberank",
+    "astro-han/claude-pace",
+    "karpeleslab/tpl",
+    "claytonfarr/ralph-playbook",
+    "mbailey/voicemode",
+    "eyaltoledano/claude-task-master",
+    "flinedev/contextkit",
+    "inkline/inkline",
+    "vaporif/parry-guard",
+    "talieisin/britfix",
+    "haleclipse/claudix",
+    "kunwar-shah/claudex",
+    "maxritter/pilot-shell"
+  ],
+  "remaining_budget_seconds": 329.095,
+  "remaining_frontier": 300,
+  "repo_timing_summary": {
+    "average_seconds": 1.525,
+    "count": 20,
+    "max_seconds": 3.508,
+    "total_seconds": 30.499
+  },
+  "repo_timings": [
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.961,
+      "full_name": "marcindulak/ralph-wiggum-bdd",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.508,
+      "full_name": "ruvnet/ruflo",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.27,
+      "full_name": "dyoshikawa/rulesync",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.708,
+      "full_name": "snipeship/ccflare",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.284,
+      "full_name": "dtormoen/tsk-tsk",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.14,
+      "full_name": "lamoomai/lamoom-python",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.266,
+      "full_name": "serpro69/claude-toolbox",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.887,
+      "full_name": "sculptdotfun/viberank",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.57,
+      "full_name": "astro-han/claude-pace",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.063,
+      "full_name": "karpeleslab/tpl",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.537,
+      "full_name": "claytonfarr/ralph-playbook",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.83,
+      "full_name": "mbailey/voicemode",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.961,
+      "full_name": "eyaltoledano/claude-task-master",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.966,
+      "full_name": "flinedev/contextkit",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.487,
+      "full_name": "inkline/inkline",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.939,
+      "full_name": "vaporif/parry-guard",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.117,
+      "full_name": "talieisin/britfix",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.655,
+      "full_name": "haleclipse/claudix",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.937,
+      "full_name": "kunwar-shah/claudex",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.413,
+      "full_name": "maxritter/pilot-shell",
+      "graph_distance": 3
+    }
+  ],
+  "run_id": "20260418T091712Z",
+  "skipped_repositories": [],
+  "stopped_due_to_budget": false
+}

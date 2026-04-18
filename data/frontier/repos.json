@@ -1,106 +1,6 @@
 {
-  "generated_at": "2026-04-18T09:11:35.827547+00:00",
+  "generated_at": "2026-04-18T09:17:12.863479+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "marcindulak/ralph-wiggum-bdd",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ruvnet/ruflo",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dyoshikawa/rulesync",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "snipeship/ccflare",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dtormoen/tsk",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lamoomai/lamoom-python",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "serpro69/claude-toolbox",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "sculptdotfun/viberank",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "astro-han/claude-pace",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "karpeleslab/tpl",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "claytonfarr/ralph-playbook",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "mbailey/voicemode",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "eyaltoledano/claude-task-master",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "flinedev/contextkit",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "inkline/inkline",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "vaporif/parry",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "talieisin/britfix",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "haleclipse/claudix",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "kunwar-shah/claudex",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "maxritter/claude-codepro",
-      "graph_distance": 3
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "danielrosehill/claude-code-repos-index",
@@ -1485,6 +1385,121 @@
       "discovered_via": "explicit-github-link",
       "full_name": "lunarmodules/luacheck",
       "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ai-that-works/ai-that-works",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "marcindulak/learning-api-styles-gen-ai-experiments",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "martinvonz/jj",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ruvnet/agentic-flow",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ruvnet/claude-flow",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ruvnet/ruvector",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "piebald-ai/awesome-gemini-cli",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "beehiveinnovations/pal-mcp-server",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "oraios/serena",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "serpro69/capy",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "serpro69/claude-in-docker",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "astro-han/diffpane",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "jarrodwatts/claude-hud",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bmad-code-org/bmad-method",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "github/spec-kit",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "datadog/guarddog",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "meta-llama/llama-models",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "protectai/llm-guard",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "vaporif/parry",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "casey/just",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "anthropics/claude-plugins-official",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "maxritter/pilot-shell-demo",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "microsoft/playwright-cli",
+      "graph_distance": 4
     }
   ],
   "processed": [
@@ -1711,6 +1726,26 @@
     "gowaylee/cchooks",
     "pchalasani/claude-code-tools",
     "greggh/claude-code.nvim",
-    "icanhasjonas/run-claude-docker"
+    "icanhasjonas/run-claude-docker",
+    "marcindulak/ralph-wiggum-bdd",
+    "ruvnet/ruflo",
+    "dyoshikawa/rulesync",
+    "snipeship/ccflare",
+    "dtormoen/tsk-tsk",
+    "lamoomai/lamoom-python",
+    "serpro69/claude-toolbox",
+    "sculptdotfun/viberank",
+    "astro-han/claude-pace",
+    "karpeleslab/tpl",
+    "claytonfarr/ralph-playbook",
+    "mbailey/voicemode",
+    "eyaltoledano/claude-task-master",
+    "flinedev/contextkit",
+    "inkline/inkline",
+    "vaporif/parry-guard",
+    "talieisin/britfix",
+    "haleclipse/claudix",
+    "kunwar-shah/claudex",
+    "maxritter/pilot-shell"
   ]
 }

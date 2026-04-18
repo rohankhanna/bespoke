@@ -1,12 +1,22 @@
 {
   "component": "fuse.js",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-18T03:26:22.590180+00:00",
+  "last_seen_at": "2026-04-18T09:17:12.863479+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "lobehub/lobehub"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "eyaltoledano/claude-task-master"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Haleclipse/Claudix"
     }
   ]
 }

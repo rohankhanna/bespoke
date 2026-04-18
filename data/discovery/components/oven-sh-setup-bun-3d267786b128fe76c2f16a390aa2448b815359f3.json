@@ -1,0 +1,17 @@
+{
+  "component": "oven-sh/setup-bun@3d267786b128fe76c2f16a390aa2448b815359f3",
+  "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
+  "last_seen_at": "2026-04-18T09:17:12.863479+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-dev.yml",
+      "source_repo": "maxritter/pilot-shell"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "maxritter/pilot-shell"
+    }
+  ]
+}

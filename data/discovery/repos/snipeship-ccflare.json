@@ -1,0 +1,97 @@
+{
+  "components": [
+    {
+      "component": "@biomejs/biome",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bun-types",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/bun",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "snipeship/ccflare",
+      "target": "bun run ccflare",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "snipeship/ccflare",
+      "target": "@biomejs/biome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "snipeship/ccflare",
+      "target": "bun-types",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "snipeship/ccflare",
+      "target": "@types/bun",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "snipeship/ccflare",
+      "target": "typescript",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:17:20.445115+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3021
+    },
+    {
+      "path": "package.json",
+      "size": 1039
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "The ultimate CC proxy",
+    "full_name": "snipeship/ccflare",
+    "html_url": "https://github.com/snipeship/ccflare",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-15T16:27:34Z",
+    "topics": [
+      "anthropic-api",
+      "anthropic-claude",
+      "claude",
+      "claude-api",
+      "claude-code"
+    ],
+    "updated_at": "2026-04-17T11:32:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bun run ccflare"
+    }
+  ]
+}
