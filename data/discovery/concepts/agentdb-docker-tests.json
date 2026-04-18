@@ -1,0 +1,34 @@
+{
+  "aliases": [
+    "AgentDB Docker Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "AgentDB Docker Tests",
+  "concept_id": "agentdb-docker-tests",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T11:56:18.570627+00:00",
+      "source_file": ".github/workflows/agentdb-docker-test.yml",
+      "source_repo": "ruvnet/agentic-flow"
+    }
+  ],
+  "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
+  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "AgentDB Docker Tests",
+      "sense_id": "agentdb-docker-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

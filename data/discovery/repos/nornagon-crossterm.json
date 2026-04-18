@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crossterm_test.yml"
+    },
+    {
+      "component": "hecrj/setup-rust-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crossterm_test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nornagon/crossterm",
+      "target": "crossterm-rs/examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nornagon/crossterm",
+      "target": "ecumene/rust-sloth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nornagon/crossterm",
+      "target": "cowboy8625/rusty-rain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nornagon/crossterm",
+      "target": "crossterm-rs/crossterm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crossterm_test.yml",
+      "source_repo": "nornagon/crossterm",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crossterm_test.yml",
+      "source_repo": "nornagon/crossterm",
+      "target": "hecrj/setup-rust-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/crossterm_test.yml",
+      "source_repo": "nornagon/crossterm",
+      "target": "Crossterm Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:56:45.273755+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8596
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3773
+    },
+    {
+      "path": ".github/workflows/crossterm_test.yml",
+      "size": 2858
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "Cross platform terminal library rust",
+    "full_name": "nornagon/crossterm",
+    "html_url": "https://github.com/nornagon/crossterm",
+    "language": null,
+    "pushed_at": "2025-10-29T23:22:01Z",
+    "topics": [],
+    "updated_at": "2026-03-22T21:49:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cowboy8625/rusty-rain",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "crossterm-rs/crossterm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "crossterm-rs/examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ecumene/rust-sloth",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/crossterm_test.yml",
+      "term": "Crossterm Test"
+    }
+  ]
+}

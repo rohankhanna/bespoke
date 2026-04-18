@@ -1,0 +1,34 @@
+{
+  "aliases": [
+    "langgraph"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "canonical_name": "langgraph",
+  "concept_id": "langgraph",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T11:56:18.570627+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langgraph"
+    }
+  ],
+  "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
+  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "langgraph",
+      "sense_id": "langgraph#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

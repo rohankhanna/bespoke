@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "baseline",
+      "sense_id": "baseline#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "baseline",
+  "normalized_form": "baseline",
+  "observation_id": "e63287ac81cd9a0f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:56:18.570627+00:00",
+  "observed_text": "baseline",
+  "source_file": ".github/workflows/baseline.yml",
+  "source_repo": "langchain-ai/langgraph"
+}

@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Redirects to GitHub Pages",
+      "sense_id": "deploy-redirects-to-github-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "deploy-redirects-to-github-pages",
+  "normalized_form": "deploy-redirects-to-github-pages",
+  "observation_id": "74e0a9042cc1275b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:56:18.570627+00:00",
+  "observed_text": "Deploy Redirects to GitHub Pages",
+  "source_file": ".github/workflows/deploy-redirects.yml",
+  "source_repo": "langchain-ai/langgraph"
+}

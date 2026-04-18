@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Enable auto-merge for Dependabot PRs",
+      "sense_id": "enable-auto-merge-for-dependabot-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "enable-auto-merge-for-dependabot-prs",
+  "normalized_form": "enable-auto-merge-for-dependabot-prs",
+  "observation_id": "15e298e2aaa5f035",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:56:18.570627+00:00",
+  "observed_text": "Enable auto-merge for Dependabot PRs",
+  "source_file": ".github/workflows/dependabot.yml",
+  "source_repo": "jj-vcs/jj"
+}

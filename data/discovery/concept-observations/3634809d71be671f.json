@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "climbing",
+      "sense_id": "climbing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "climbing",
+  "normalized_form": "climbing",
+  "observation_id": "3634809d71be671f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:56:18.570627+00:00",
+  "observed_text": "climbing",
+  "source_file": null,
+  "source_repo": "dreamiurg/peakbagger-cli"
+}

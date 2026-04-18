@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -56,6 +56,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "charmbracelet/lipgloss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/_lint.yml",
+      "source_repo": "langchain-ai/langgraph"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ithiria894/awesome-claude-code-hooks"
     }
   ],
   "term": "lint"

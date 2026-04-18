@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Checks",
+      "sense_id": "pr-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "pr-checks",
+  "normalized_form": "pr-checks",
+  "observation_id": "ba092497117ac05e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:56:18.570627+00:00",
+  "observed_text": "PR Checks",
+  "source_file": ".github/workflows/pr.yml",
+  "source_repo": "dreamiurg/mountaineers-mcp"
+}

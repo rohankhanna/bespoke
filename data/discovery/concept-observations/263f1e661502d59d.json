@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mountaineering",
+      "sense_id": "mountaineering#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "mountaineering",
+  "normalized_form": "mountaineering",
+  "observation_id": "263f1e661502d59d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:56:18.570627+00:00",
+  "observed_text": "mountaineering",
+  "source_file": null,
+  "source_repo": "dreamiurg/mountaineers-mcp"
+}

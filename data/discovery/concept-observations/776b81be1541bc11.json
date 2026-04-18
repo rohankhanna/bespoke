@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multiagent",
+      "sense_id": "multiagent#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "multiagent",
+  "normalized_form": "multiagent",
+  "observation_id": "776b81be1541bc11",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:56:18.570627+00:00",
+  "observed_text": "multiagent",
+  "source_file": null,
+  "source_repo": "langchain-ai/langgraph"
+}

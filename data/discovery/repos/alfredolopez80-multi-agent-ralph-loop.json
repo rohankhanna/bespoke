@@ -1,0 +1,315 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alfredolopez80/multi-agent-ralph-loop",
+      "target": "karpathy/autoresearch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alfredolopez80/multi-agent-ralph-loop",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alfredolopez80/multi-agent-ralph-loop",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alfredolopez80/multi-agent-ralph-loop",
+      "target": "ai-orchestration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alfredolopez80/multi-agent-ralph-loop",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alfredolopez80/multi-agent-ralph-loop",
+      "target": "bats-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alfredolopez80/multi-agent-ralph-loop",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alfredolopez80/multi-agent-ralph-loop",
+      "target": "code-quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alfredolopez80/multi-agent-ralph-loop",
+      "target": "codex-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alfredolopez80/multi-agent-ralph-loop",
+      "target": "dynamic-contexts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alfredolopez80/multi-agent-ralph-loop",
+      "target": "eval-driven-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alfredolopez80/multi-agent-ralph-loop",
+      "target": "minimax",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alfredolopez80/multi-agent-ralph-loop",
+      "target": "multi-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alfredolopez80/multi-agent-ralph-loop",
+      "target": "multi-agent-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alfredolopez80/multi-agent-ralph-loop",
+      "target": "observability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alfredolopez80/multi-agent-ralph-loop",
+      "target": "opencode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alfredolopez80/multi-agent-ralph-loop",
+      "target": "plan-lifecycle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alfredolopez80/multi-agent-ralph-loop",
+      "target": "quality-gates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alfredolopez80/multi-agent-ralph-loop",
+      "target": "ralph-loop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alfredolopez80/multi-agent-ralph-loop",
+      "target": "state-machine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alfredolopez80/multi-agent-ralph-loop",
+      "target": "ultrathink",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:56:37.507352+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11476
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2798
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Autonomous orchestration framework for Claude Code with MemPalace-inspired memory (4-layer stack, 818-token wake-up), parallel-first Agent Teams (6 teammates), Aristotle First Principles methodology, and 4-stage quality gates. 925+ tests, 22 active hooks, automatic learning pipeline.",
+    "full_name": "alfredolopez80/multi-agent-ralph-loop",
+    "html_url": "https://github.com/alfredolopez80/multi-agent-ralph-loop",
+    "language": "Shell",
+    "pushed_at": "2026-04-15T09:06:33Z",
+    "topics": [
+      "ai-orchestration",
+      "automation",
+      "bats-testing",
+      "claude-code",
+      "code-quality",
+      "codex",
+      "codex-cli",
+      "dynamic-contexts",
+      "eval-driven-development",
+      "llm",
+      "minimax",
+      "multi-agent",
+      "multi-agent-system",
+      "observability",
+      "opencode",
+      "plan-lifecycle",
+      "quality-gates",
+      "ralph-loop",
+      "state-machine",
+      "ultrathink"
+    ],
+    "updated_at": "2026-04-16T11:40:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "karpathy/autoresearch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-orchestration"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bats-testing"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-quality"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codex-cli"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dynamic-contexts"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eval-driven-development"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minimax"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent-system"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "observability"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencode"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plan-lifecycle"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quality-gates"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ralph-loop"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "state-machine"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ultrathink"
+    }
+  ]
+}

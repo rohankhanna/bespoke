@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run Benchmark Batch",
+      "sense_id": "run-benchmark-batch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "run-benchmark-batch",
+  "normalized_form": "run-benchmark-batch",
+  "observation_id": "328e2298aece72d5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:56:18.570627+00:00",
+  "observed_text": "Run Benchmark Batch",
+  "source_file": ".github/workflows/eval.yaml",
+  "source_repo": "browser-use/benchmark"
+}

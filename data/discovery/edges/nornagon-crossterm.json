@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nornagon/crossterm",
+      "target": "crossterm-rs/examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nornagon/crossterm",
+      "target": "ecumene/rust-sloth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nornagon/crossterm",
+      "target": "cowboy8625/rusty-rain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nornagon/crossterm",
+      "target": "crossterm-rs/crossterm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crossterm_test.yml",
+      "source_repo": "nornagon/crossterm",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crossterm_test.yml",
+      "source_repo": "nornagon/crossterm",
+      "target": "hecrj/setup-rust-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/crossterm_test.yml",
+      "source_repo": "nornagon/crossterm",
+      "target": "Crossterm Test",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T11:56:18.570627+00:00",
+  "source_repo": "nornagon/crossterm"
+}

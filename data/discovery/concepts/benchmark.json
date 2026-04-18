@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "benchmark"
+    "benchmark",
+    "Benchmark"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "canonical_name": "benchmark",
   "concept_id": "benchmark",
@@ -21,10 +24,16 @@
       "observed_at": "2026-04-18T11:32:22.637859+00:00",
       "source_file": null,
       "source_repo": "programatik29/rust-web-benchmarks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T11:56:18.570627+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "JohnnyMorganz/StyLua"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-18T11:32:22.637859+00:00",
+  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "possible_senses": [
     {
       "buckets": [

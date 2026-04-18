@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "docs"
+    "docs",
+    "Docs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "canonical_name": "docs",
   "concept_id": "docs",
@@ -15,10 +18,16 @@
       "observed_at": "2026-04-18T11:32:22.637859+00:00",
       "source_file": null,
       "source_repo": "chinanf-boy/ripgrep-zh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T11:56:18.570627+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "folke/lazy.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
-  "last_seen_at": "2026-04-18T11:32:22.637859+00:00",
+  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "possible_senses": [
     {
       "buckets": [

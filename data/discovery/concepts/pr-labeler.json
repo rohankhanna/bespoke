@@ -4,7 +4,8 @@
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
-    "workflow-process"
+    "workflow-process",
+    "data-document-artifact"
   ],
   "canonical_name": "PR Labeler",
   "concept_id": "pr-labeler",
@@ -14,10 +15,16 @@
       "observed_at": "2026-04-18T10:25:53.609022+00:00",
       "source_file": ".github/workflows/pr-labeler.yml",
       "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T11:56:18.570627+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "folke/lazy.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "possible_senses": [
     {
       "buckets": [

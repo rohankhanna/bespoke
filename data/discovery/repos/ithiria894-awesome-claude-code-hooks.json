@@ -1,0 +1,183 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ithiria894/awesome-claude-code-hooks",
+      "target": "cloudrepo-io/founder-os",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ithiria894/awesome-claude-code-hooks",
+      "target": "aedelon/claude-code-blueprint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ithiria894/awesome-claude-code-hooks",
+      "target": "decider/claude-hooks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ithiria894/awesome-claude-code-hooks",
+      "target": "composiohq/awesome-claude-skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ithiria894/awesome-claude-code-hooks",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ithiria894/awesome-claude-code-hooks",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ithiria894/awesome-claude-code-hooks",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ithiria894/awesome-claude-code-hooks",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ithiria894/awesome-claude-code-hooks",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ithiria894/awesome-claude-code-hooks",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ithiria894/awesome-claude-code-hooks",
+      "target": "event-driven",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ithiria894/awesome-claude-code-hooks",
+      "target": "hooks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:56:56.848458+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16969
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 215
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Curated collection of Claude Code hooks for event-driven automation",
+    "full_name": "ithiria894/awesome-claude-code-hooks",
+    "html_url": "https://github.com/ithiria894/awesome-claude-code-hooks",
+    "language": null,
+    "pushed_at": "2026-03-24T21:08:05Z",
+    "topics": [
+      "automation",
+      "awesome",
+      "awesome-list",
+      "claude-code",
+      "event-driven",
+      "hooks"
+    ],
+    "updated_at": "2026-04-12T18:37:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aedelon/claude-code-blueprint",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudrepo-io/founder-os",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "composiohq/awesome-claude-skills",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "decider/claude-hooks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "event-driven"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hooks"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "awesome",
+      "sense_id": "awesome#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "awesome",
+  "normalized_form": "awesome",
+  "observation_id": "4a5d8546c5698069",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:56:18.570627+00:00",
+  "observed_text": "awesome",
+  "source_file": null,
+  "source_repo": "ithiria894/awesome-claude-code-hooks"
+}

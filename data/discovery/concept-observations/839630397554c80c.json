@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neovim-plugin",
+      "sense_id": "neovim-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "neovim-plugin",
+  "normalized_form": "neovim-plugin",
+  "observation_id": "839630397554c80c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:56:18.570627+00:00",
+  "observed_text": "neovim-plugin",
+  "source_file": null,
+  "source_repo": "folke/lazy.nvim"
+}

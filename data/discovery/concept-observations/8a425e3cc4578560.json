@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test AgentDB Browser Bundle",
+      "sense_id": "test-agentdb-browser-bundle#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "test-agentdb-browser-bundle",
+  "normalized_form": "test-agentdb-browser-bundle",
+  "observation_id": "8a425e3cc4578560",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:56:18.570627+00:00",
+  "observed_text": "Test AgentDB Browser Bundle",
+  "source_file": ".github/workflows/test-agentdb.yml",
+  "source_repo": "ruvnet/agentic-flow"
+}

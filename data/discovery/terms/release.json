@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -291,6 +291,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "tanweai/pua"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dreamiurg/peakbagger-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "jj-vcs/jj"
     }
   ],
   "term": "Release"

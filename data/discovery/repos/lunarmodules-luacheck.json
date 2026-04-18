@@ -1,0 +1,316 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/busted.yml"
+    },
+    {
+      "component": "luarocks/gh-actions-lua@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/busted.yml"
+    },
+    {
+      "component": "luarocks/gh-actions-luarocks@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/busted.yml"
+    },
+    {
+      "component": "lunarmodules/.github/.github/workflows/list_affected_rockspecs.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "lunarmodules/.github/.github/workflows/test_build_rock.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "lunarmodules/.github/.github/workflows/upload_to_luarocks.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "lunarmodules/.github/.github/workflows/docker_ghcr_deploy.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luacheck.yml"
+    },
+    {
+      "component": "luarocks/gh-actions-lua@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luacheck.yml"
+    },
+    {
+      "component": "luarocks/gh-actions-luarocks@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luacheck.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/versioning.yml"
+    },
+    {
+      "component": "Actions-R-Us/actions-tagger@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/versioning.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lunarmodules/luacheck",
+      "target": "lualanes/lanes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lunarmodules/luacheck",
+      "target": "ers35/luastatic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lunarmodules/luacheck",
+      "target": "luarocks/luarocks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lunarmodules/luacheck",
+      "target": "garrettalbright/luacheck.novaextension",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/busted.yml",
+      "source_repo": "lunarmodules/luacheck",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/busted.yml",
+      "source_repo": "lunarmodules/luacheck",
+      "target": "luarocks/gh-actions-lua@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/busted.yml",
+      "source_repo": "lunarmodules/luacheck",
+      "target": "luarocks/gh-actions-luarocks@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/busted.yml",
+      "source_repo": "lunarmodules/luacheck",
+      "target": "Busted",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "lunarmodules/luacheck",
+      "target": "lunarmodules/.github/.github/workflows/list_affected_rockspecs.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "lunarmodules/luacheck",
+      "target": "lunarmodules/.github/.github/workflows/test_build_rock.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "lunarmodules/luacheck",
+      "target": "lunarmodules/.github/.github/workflows/upload_to_luarocks.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "lunarmodules/luacheck",
+      "target": "lunarmodules/.github/.github/workflows/docker_ghcr_deploy.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "lunarmodules/luacheck",
+      "target": "Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luacheck.yml",
+      "source_repo": "lunarmodules/luacheck",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luacheck.yml",
+      "source_repo": "lunarmodules/luacheck",
+      "target": "luarocks/gh-actions-lua@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/luacheck.yml",
+      "source_repo": "lunarmodules/luacheck",
+      "target": "luarocks/gh-actions-luarocks@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luacheck.yml",
+      "source_repo": "lunarmodules/luacheck",
+      "target": "Luacheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/versioning.yml",
+      "source_repo": "lunarmodules/luacheck",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/versioning.yml",
+      "source_repo": "lunarmodules/luacheck",
+      "target": "Actions-R-Us/actions-tagger@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/versioning.yml",
+      "source_repo": "lunarmodules/luacheck",
+      "target": "Versioning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lunarmodules/luacheck",
+      "target": "linting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lunarmodules/luacheck",
+      "target": "static-analysis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:57:12.460462+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10400
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1034
+    },
+    {
+      "path": ".github/workflows/busted.yml",
+      "size": 1175
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 1623
+    },
+    {
+      "path": ".github/workflows/luacheck.yml",
+      "size": 1423
+    },
+    {
+      "path": ".github/workflows/versioning.yml",
+      "size": 322
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": " A tool for linting and static analysis of Lua code. ",
+    "full_name": "lunarmodules/luacheck",
+    "html_url": "https://github.com/lunarmodules/luacheck",
+    "language": "Lua",
+    "pushed_at": "2026-04-14T12:53:39Z",
+    "topics": [
+      "linting",
+      "lua",
+      "static-analysis"
+    ],
+    "updated_at": "2026-04-14T13:08:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ers35/luastatic",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "garrettalbright/luacheck.novaextension",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lualanes/lanes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "luarocks/luarocks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/busted.yml",
+      "term": "Busted"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Deploy"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/luacheck.yml",
+      "term": "Luacheck"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/versioning.yml",
+      "term": "Versioning"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linting"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-analysis"
+    }
+  ]
+}

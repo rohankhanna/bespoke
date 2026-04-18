@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ithiria894/awesome-claude-code-hooks",
+      "target": "cloudrepo-io/founder-os",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ithiria894/awesome-claude-code-hooks",
+      "target": "aedelon/claude-code-blueprint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ithiria894/awesome-claude-code-hooks",
+      "target": "decider/claude-hooks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ithiria894/awesome-claude-code-hooks",
+      "target": "composiohq/awesome-claude-skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ithiria894/awesome-claude-code-hooks",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ithiria894/awesome-claude-code-hooks",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ithiria894/awesome-claude-code-hooks",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ithiria894/awesome-claude-code-hooks",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ithiria894/awesome-claude-code-hooks",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ithiria894/awesome-claude-code-hooks",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ithiria894/awesome-claude-code-hooks",
+      "target": "event-driven",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ithiria894/awesome-claude-code-hooks",
+      "target": "hooks",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T11:56:18.570627+00:00",
+  "source_repo": "ithiria894/awesome-claude-code-hooks"
+}

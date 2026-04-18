@@ -1,0 +1,12 @@
+{
+  "component": "lunarmodules/.github/.github/workflows/upload_to_luarocks.yml@main",
+  "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
+  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "lunarmodules/luacheck"
+    }
+  ]
+}

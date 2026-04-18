@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Formula",
+      "sense_id": "update-formula#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "update-formula",
+  "normalized_form": "update-formula",
+  "observation_id": "a770f013159d164e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:56:18.570627+00:00",
+  "observed_text": "Update Formula",
+  "source_file": ".github/workflows/update-formula.yml",
+  "source_repo": "steipete/homebrew-tap"
+}

@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "plan-lifecycle",
+      "sense_id": "plan-lifecycle#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "plan-lifecycle",
+  "normalized_form": "plan-lifecycle",
+  "observation_id": "371a7f271827f795",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:56:18.570627+00:00",
+  "observed_text": "plan-lifecycle",
+  "source_file": null,
+  "source_repo": "alfredolopez80/multi-agent-ralph-loop"
+}

@@ -1,0 +1,12 @@
+{
+  "component": "actions/configure-pages@v6",
+  "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
+  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-redirects.yml",
+      "source_repo": "langchain-ai/langgraph"
+    }
+  ]
+}

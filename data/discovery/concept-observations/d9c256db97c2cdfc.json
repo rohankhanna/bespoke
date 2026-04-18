@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "claude-agent-sdk",
+      "sense_id": "claude-agent-sdk#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "claude-agent-sdk",
+  "normalized_form": "claude-agent-sdk",
+  "observation_id": "d9c256db97c2cdfc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:56:18.570627+00:00",
+  "observed_text": "claude-agent-sdk",
+  "source_file": null,
+  "source_repo": "ruvnet/agentic-flow"
+}

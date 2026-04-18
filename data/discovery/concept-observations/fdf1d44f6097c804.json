@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "package-manager",
+      "sense_id": "package-manager#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "package-manager",
+  "normalized_form": "package-manager",
+  "observation_id": "fdf1d44f6097c804",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:56:18.570627+00:00",
+  "observed_text": "package-manager",
+  "source_file": null,
+  "source_repo": "folke/lazy.nvim"
+}

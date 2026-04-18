@@ -1,0 +1,12 @@
+{
+  "component": "google-github-actions/release-please-action@e4dc86ba9405554aeba3c6bb2d169500e7d3b4ee",
+  "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
+  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "dreamiurg/peakbagger-cli"
+    }
+  ]
+}

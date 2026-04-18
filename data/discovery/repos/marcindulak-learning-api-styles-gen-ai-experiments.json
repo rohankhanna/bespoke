@@ -1,0 +1,78 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/learning-api-styles-gen-ai-experiments",
+      "target": "django/daphne",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/learning-api-styles-gen-ai-experiments",
+      "target": "behave/behave-django",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/learning-api-styles-gen-ai-experiments",
+      "target": "graphql-python/graphene",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/learning-api-styles-gen-ai-experiments",
+      "target": "containers/podman-compose",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:57:18.844170+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 45454
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2704
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Learning API Styles Book - Generative AI Experiments",
+    "full_name": "marcindulak/learning-api-styles-gen-ai-experiments",
+    "html_url": "https://github.com/marcindulak/learning-api-styles-gen-ai-experiments",
+    "language": "Dockerfile",
+    "pushed_at": "2026-04-08T07:48:26Z",
+    "topics": [],
+    "updated_at": "2026-04-10T20:14:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "behave/behave-django",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "containers/podman-compose",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "django/daphne",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "graphql-python/graphene",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

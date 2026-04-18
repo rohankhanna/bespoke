@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "observability",
+      "sense_id": "observability#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "observability",
+  "normalized_form": "observability",
+  "observation_id": "1247196db806ce7d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:56:18.570627+00:00",
+  "observed_text": "observability",
+  "source_file": null,
+  "source_repo": "alfredolopez80/multi-agent-ralph-loop"
+}

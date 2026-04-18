@@ -1,0 +1,679 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_integration_test.yml"
+    },
+    {
+      "component": "Ana06/get-changed-files@25f79e676e7ea1868813e21465014798211fad8c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_integration_test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_lint.yml"
+    },
+    {
+      "component": "Ana06/get-changed-files@25f79e676e7ea1868813e21465014798211fad8c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_lint.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_lint.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test.yml"
+    },
+    {
+      "component": "docker/login-action@b45d80f862d83dbcd57f89517bcf500b2ab88fb2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_langgraph.yml"
+    },
+    {
+      "component": "docker/login-action@b45d80f862d83dbcd57f89517bcf500b2ab88fb2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_langgraph.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baseline.yml"
+    },
+    {
+      "component": "actions/cache/save@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baseline.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "Ana06/get-changed-files@25f79e676e7ea1868813e21465014798211fad8c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-redirects.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-redirects.yml"
+    },
+    {
+      "component": "actions/configure-pages@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-redirects.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-redirects.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-redirects.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "langchain-ai/deepagents",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "langchain-ai/langchain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_integration_test.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_integration_test.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "Ana06/get-changed-files@25f79e676e7ea1868813e21465014798211fad8c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_integration_test.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "CLI integration test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_lint.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_lint.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "Ana06/get-changed-files@25f79e676e7ea1868813e21465014798211fad8c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_lint.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_lint.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "docker/login-action@b45d80f862d83dbcd57f89517bcf500b2ab88fb2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_test.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_langgraph.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_langgraph.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "docker/login-action@b45d80f862d83dbcd57f89517bcf500b2ab88fb2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_test_langgraph.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_release.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_release.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_release.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_release.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_test_release.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "test-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baseline.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/baseline.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "actions/cache/save@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/baseline.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "baseline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "Ana06/get-changed-files@25f79e676e7ea1868813e21465014798211fad8c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "bench",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-redirects.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-redirects.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-redirects.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "actions/configure-pages@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-redirects.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-redirects.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "actions/deploy-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-redirects.yml",
+      "source_repo": "langchain-ai/langgraph",
+      "target": "Deploy Redirects to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "langchain-ai/langgraph",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "langchain-ai/langgraph",
+      "target": "deepagents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "langchain-ai/langgraph",
+      "target": "enterprise",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "langchain-ai/langgraph",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "langchain-ai/langgraph",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "langchain-ai/langgraph",
+      "target": "generative-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "langchain-ai/langgraph",
+      "target": "langchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "langchain-ai/langgraph",
+      "target": "langgraph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "langchain-ai/langgraph",
+      "target": "multiagent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "langchain-ai/langgraph",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "langchain-ai/langgraph",
+      "target": "pydantic",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:56:41.727210+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6276
+    },
+    {
+      "path": ".github/workflows/_integration_test.yml",
+      "size": 8582
+    },
+    {
+      "path": ".github/workflows/_lint.yml",
+      "size": 3837
+    },
+    {
+      "path": ".github/workflows/_test.yml",
+      "size": 1815
+    },
+    {
+      "path": ".github/workflows/_test_langgraph.yml",
+      "size": 1784
+    },
+    {
+      "path": ".github/workflows/_test_release.yml",
+      "size": 3327
+    },
+    {
+      "path": ".github/workflows/baseline.yml",
+      "size": 939
+    },
+    {
+      "path": ".github/workflows/bench.yml",
+      "size": 2056
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 5593
+    },
+    {
+      "path": ".github/workflows/deploy-redirects.yml",
+      "size": 994
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Build resilient language agents as graphs.",
+    "full_name": "langchain-ai/langgraph",
+    "html_url": "https://github.com/langchain-ai/langgraph",
+    "language": "Python",
+    "pushed_at": "2026-04-17T20:54:18Z",
+    "topics": [
+      "agents",
+      "ai",
+      "ai-agents",
+      "chatgpt",
+      "deepagents",
+      "enterprise",
+      "framework",
+      "gemini",
+      "generative-ai",
+      "langchain",
+      "langgraph",
+      "llm",
+      "multiagent",
+      "open-source",
+      "openai",
+      "pydantic",
+      "python",
+      "rag"
+    ],
+    "updated_at": "2026-04-18T11:43:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "langchain-ai/deepagents",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "langchain-ai/langchain",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_integration_test.yml",
+      "term": "CLI integration test"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_lint.yml",
+      "term": "lint"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_test.yml",
+      "term": "test"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_test_langgraph.yml",
+      "term": "test"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_test_release.yml",
+      "term": "test-release"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/baseline.yml",
+      "term": "baseline"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench.yml",
+      "term": "bench"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-redirects.yml",
+      "term": "Deploy Redirects to GitHub Pages"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepagents"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "enterprise"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-ai"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langchain"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langgraph"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiagent"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pydantic"
+    }
+  ]
+}

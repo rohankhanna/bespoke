@@ -1,0 +1,34 @@
+{
+  "aliases": [
+    "pretty-printer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "canonical_name": "pretty-printer",
+  "concept_id": "pretty-printer",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T11:56:18.570627+00:00",
+      "source_file": null,
+      "source_repo": "JohnnyMorganz/StyLua"
+    }
+  ],
+  "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
+  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pretty-printer",
+      "sense_id": "pretty-printer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

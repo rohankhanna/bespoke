@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "junegunn/vim-plug",
+      "target": "junegunn/vim-startuptime-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "junegunn/vim-plug",
+      "target": "junegunn/seoul256.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "junegunn/vim-plug",
+      "target": "junegunn/vim-easy-align",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "junegunn/vim-plug",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "junegunn/vim-plug",
+      "target": "Test vim-plug",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:57:06.907555+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16052
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1260
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": ":hibiscus: Minimalist Vim Plugin Manager",
+    "full_name": "junegunn/vim-plug",
+    "html_url": "https://github.com/junegunn/vim-plug",
+    "language": "Vim Script",
+    "pushed_at": "2026-02-18T16:23:49Z",
+    "topics": [
+      "vim"
+    ],
+    "updated_at": "2026-04-18T08:26:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "junegunn/seoul256.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "junegunn/vim-easy-align",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "junegunn/vim-startuptime-benchmark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test vim-plug"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "event-driven",
+      "sense_id": "event-driven#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "event-driven",
+  "normalized_form": "event-driven",
+  "observation_id": "e3ae9edbd002f710",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:56:18.570627+00:00",
+  "observed_text": "event-driven",
+  "source_file": null,
+  "source_repo": "ithiria894/awesome-claude-code-hooks"
+}

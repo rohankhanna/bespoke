@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "formatter",
+      "sense_id": "formatter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "formatter",
+  "normalized_form": "formatter",
+  "observation_id": "c37a3a1c9d30762c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:56:18.570627+00:00",
+  "observed_text": "formatter",
+  "source_file": null,
+  "source_repo": "JohnnyMorganz/StyLua"
+}

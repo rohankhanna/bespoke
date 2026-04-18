@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "eval-driven-development",
+      "sense_id": "eval-driven-development#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "eval-driven-development",
+  "normalized_form": "eval-driven-development",
+  "observation_id": "397b3cc37e94175a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:56:18.570627+00:00",
+  "observed_text": "eval-driven-development",
+  "source_file": null,
+  "source_repo": "alfredolopez80/multi-agent-ralph-loop"
+}

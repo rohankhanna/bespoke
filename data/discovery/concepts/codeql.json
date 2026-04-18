@@ -33,10 +33,16 @@
       "observed_at": "2026-04-18T11:41:43.530265+00:00",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "svg/svgo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T11:56:18.570627+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "dreamiurg/peakbagger-cli"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
+  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "possible_senses": [
     {
       "buckets": [

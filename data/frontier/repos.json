@@ -1,106 +1,6 @@
 {
-  "generated_at": "2026-04-18T11:41:43.530265+00:00",
+  "generated_at": "2026-04-18T11:56:18.570627+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "flinedev/recall",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "browser-use/benchmark",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "steipete/homebrew-tap",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dreamiurg/mountaineers-assistant",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dreamiurg/mountaineers-mcp",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dreamiurg/peakbagger-cli",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "klaudworks/ralph-meets-rex",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "agrimsingh/ralph-wiggum-cursor",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "alfredolopez80/multi-agent-ralph-loop",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "langchain-ai/langgraph",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "nornagon/crossterm",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ithiria894/awesome-claude-code-hooks",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "folke/lazy.nvim",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "johnnymorganz/stylua",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "junegunn/vim-plug",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lunarmodules/luacheck",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ai-that-works/ai-that-works",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "marcindulak/learning-api-styles-gen-ai-experiments",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "martinvonz/jj",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ruvnet/agentic-flow",
-      "graph_distance": 4
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "ruvnet/claude-flow",
@@ -1415,6 +1315,151 @@
       "discovered_via": "explicit-github-link",
       "full_name": "harfbuzz/ttf-parser",
       "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "snarktank/antfarm",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "toon-format/toon",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "charmbracelet/gum",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "langchain-ai/deepagents",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cowboy8625/rusty-rain",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "crossterm-rs/examples",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ecumene/rust-sloth",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aedelon/claude-code-blueprint",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cloudrepo-io/founder-os",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "composiohq/awesome-claude-skills",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "decider/claude-hooks",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aerobounce/sublime-pretty-lua",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ckipp01/stylua-nvim",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "kampfkarren/full-moon",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lpghatguy/aftman",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "junegunn/seoul256.vim",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "junegunn/vim-easy-align",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "junegunn/vim-startuptime-benchmark",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ers35/luastatic",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "garrettalbright/luacheck.novaextension",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lualanes/lanes",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "luarocks/luarocks",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "boundaryml/baml",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "hellovai/ai-that-works",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "behave/behave-django",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "containers/podman-compose",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "django/daphne",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "graphql-python/graphene",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "byron/gitoxide",
+      "graph_distance": 5
     }
   ],
   "processed": [
@@ -1917,6 +1962,26 @@
     "napi-rs/napi-rs",
     "linebender/resvg",
     "svg/svgo",
-    "flinedev/customstatusline"
+    "flinedev/customstatusline",
+    "flinedev/recall",
+    "browser-use/benchmark",
+    "steipete/homebrew-tap",
+    "dreamiurg/mountaineers-assistant",
+    "dreamiurg/mountaineers-mcp",
+    "dreamiurg/peakbagger-cli",
+    "klaudworks/ralph-meets-rex",
+    "agrimsingh/ralph-wiggum-cursor",
+    "alfredolopez80/multi-agent-ralph-loop",
+    "langchain-ai/langgraph",
+    "nornagon/crossterm",
+    "ithiria894/awesome-claude-code-hooks",
+    "folke/lazy.nvim",
+    "johnnymorganz/stylua",
+    "junegunn/vim-plug",
+    "lunarmodules/luacheck",
+    "ai-that-works/ai-that-works",
+    "marcindulak/learning-api-styles-gen-ai-experiments",
+    "jj-vcs/jj",
+    "ruvnet/agentic-flow"
   ]
 }

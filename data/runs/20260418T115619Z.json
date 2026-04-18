@@ -1,0 +1,169 @@
+{
+  "budget_seconds": 360,
+  "elapsed_seconds": 67.014,
+  "generated_at": "2026-04-18T11:56:18.570627+00:00",
+  "processed_repositories": [
+    "flinedev/recall",
+    "browser-use/benchmark",
+    "steipete/homebrew-tap",
+    "dreamiurg/mountaineers-assistant",
+    "dreamiurg/mountaineers-mcp",
+    "dreamiurg/peakbagger-cli",
+    "klaudworks/ralph-meets-rex",
+    "agrimsingh/ralph-wiggum-cursor",
+    "alfredolopez80/multi-agent-ralph-loop",
+    "langchain-ai/langgraph",
+    "nornagon/crossterm",
+    "ithiria894/awesome-claude-code-hooks",
+    "folke/lazy.nvim",
+    "johnnymorganz/stylua",
+    "junegunn/vim-plug",
+    "lunarmodules/luacheck",
+    "ai-that-works/ai-that-works",
+    "marcindulak/learning-api-styles-gen-ai-experiments",
+    "jj-vcs/jj",
+    "ruvnet/agentic-flow"
+  ],
+  "remaining_budget_seconds": 292.986,
+  "remaining_frontier": 292,
+  "repo_timing_summary": {
+    "average_seconds": 3.337,
+    "count": 20,
+    "max_seconds": 11.574,
+    "total_seconds": 66.749
+  },
+  "repo_timings": [
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.872,
+      "full_name": "flinedev/recall",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.633,
+      "full_name": "browser-use/benchmark",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.196,
+      "full_name": "steipete/homebrew-tap",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.422,
+      "full_name": "dreamiurg/mountaineers-assistant",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.554,
+      "full_name": "dreamiurg/mountaineers-mcp",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.709,
+      "full_name": "dreamiurg/peakbagger-cli",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.747,
+      "full_name": "klaudworks/ralph-meets-rex",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.172,
+      "full_name": "agrimsingh/ralph-wiggum-cursor",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.847,
+      "full_name": "alfredolopez80/multi-agent-ralph-loop",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 4.208,
+      "full_name": "langchain-ai/langgraph",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.527,
+      "full_name": "nornagon/crossterm",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 11.574,
+      "full_name": "ithiria894/awesome-claude-code-hooks",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.663,
+      "full_name": "folke/lazy.nvim",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 5.188,
+      "full_name": "johnnymorganz/stylua",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.152,
+      "full_name": "junegunn/vim-plug",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 5.552,
+      "full_name": "lunarmodules/luacheck",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.919,
+      "full_name": "ai-that-works/ai-that-works",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 4.458,
+      "full_name": "marcindulak/learning-api-styles-gen-ai-experiments",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.98,
+      "full_name": "jj-vcs/jj",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.376,
+      "full_name": "ruvnet/agentic-flow",
+      "graph_distance": 4
+    }
+  ],
+  "run_id": "20260418T115619Z",
+  "skipped_repositories": [],
+  "slow_repo_threshold_seconds": 10.0,
+  "slow_repositories": [
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 11.574,
+      "full_name": "ithiria894/awesome-claude-code-hooks",
+      "graph_distance": 4
+    }
+  ],
+  "stopped_due_to_budget": false
+}

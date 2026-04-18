@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/learning-api-styles-gen-ai-experiments",
+      "target": "django/daphne",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/learning-api-styles-gen-ai-experiments",
+      "target": "behave/behave-django",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/learning-api-styles-gen-ai-experiments",
+      "target": "graphql-python/graphene",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "marcindulak/learning-api-styles-gen-ai-experiments",
+      "target": "containers/podman-compose",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-18T11:56:18.570627+00:00",
+  "source_repo": "marcindulak/learning-api-styles-gen-ai-experiments"
+}

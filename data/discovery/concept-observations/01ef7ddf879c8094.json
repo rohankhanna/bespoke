@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish to npm",
+      "sense_id": "publish-to-npm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "publish-to-npm",
+  "normalized_form": "publish-to-npm",
+  "observation_id": "01ef7ddf879c8094",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:56:18.570627+00:00",
+  "observed_text": "Publish to npm",
+  "source_file": ".github/workflows/publish.yml",
+  "source_repo": "klaudworks/ralph-meets-rex"
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
+  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -2352,6 +2352,96 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "linebender/resvg"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/eval.yaml",
+      "source_repo": "browser-use/benchmark"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-formula.yml",
+      "source_repo": "steipete/homebrew-tap"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "klaudworks/ralph-meets-rex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alfredolopez80/multi-agent-ralph-loop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ithiria894/awesome-claude-code-hooks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "JohnnyMorganz/StyLua"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "JohnnyMorganz/StyLua"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "JohnnyMorganz/StyLua"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/extension-release.yml",
+      "source_repo": "JohnnyMorganz/StyLua"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/extension.yml",
+      "source_repo": "JohnnyMorganz/StyLua"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/large-scale-test.yml",
+      "source_repo": "JohnnyMorganz/StyLua"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/agentdb-docker-test.yml",
+      "source_repo": "ruvnet/agentic-flow"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "ruvnet/agentic-flow"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-agentic-jujutsu.yml",
+      "source_repo": "ruvnet/agentic-flow"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "ruvnet/agentic-flow"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-agentdb-attention.yml.disabled",
+      "source_repo": "ruvnet/agentic-flow"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-agentdb.yml",
+      "source_repo": "ruvnet/agentic-flow"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ruvnet/agentic-flow"
     }
   ]
 }

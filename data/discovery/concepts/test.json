@@ -34,10 +34,22 @@
       "observed_at": "2026-04-18T11:41:43.530265+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "vadimdemedes/ink"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T11:56:18.570627+00:00",
+      "source_file": ".github/workflows/_test.yml",
+      "source_repo": "langchain-ai/langgraph"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T11:56:18.570627+00:00",
+      "source_file": ".github/workflows/_test_langgraph.yml",
+      "source_repo": "langchain-ai/langgraph"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
+  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "possible_senses": [
     {
       "buckets": [

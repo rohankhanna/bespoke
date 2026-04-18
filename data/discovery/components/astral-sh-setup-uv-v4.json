@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T09:57:17.167988+00:00",
+  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -47,6 +47,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "ldayton/Dippy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/eval.yaml",
+      "source_repo": "browser-use/benchmark"
     }
   ]
 }

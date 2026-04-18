@@ -1,11 +1,26 @@
 {
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-04-18T09:11:35.827547+00:00",
+  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/dependabot-auto-merge.yml",
       "source_repo": "dreamiurg/claude-mountaineering-skills"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "dreamiurg/mountaineers-assistant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "dreamiurg/mountaineers-mcp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dependabot-auto-merge.yml",
+      "source_repo": "dreamiurg/peakbagger-cli"
     }
   ],
   "term": "Auto-merge Dependabot PRs"

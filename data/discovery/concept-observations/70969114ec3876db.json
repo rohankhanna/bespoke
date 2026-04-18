@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "printer",
+      "sense_id": "printer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "printer",
+  "normalized_form": "printer",
+  "observation_id": "70969114ec3876db",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:56:18.570627+00:00",
+  "observed_text": "printer",
+  "source_file": null,
+  "source_repo": "JohnnyMorganz/StyLua"
+}

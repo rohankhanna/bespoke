@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ai-orchestration",
+      "sense_id": "ai-orchestration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "ai-orchestration",
+  "normalized_form": "ai-orchestration",
+  "observation_id": "9723704af59c4ae5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:56:18.570627+00:00",
+  "observed_text": "ai-orchestration",
+  "source_file": null,
+  "source_repo": "alfredolopez80/multi-agent-ralph-loop"
+}

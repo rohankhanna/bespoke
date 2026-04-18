@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dynamic-contexts",
+      "sense_id": "dynamic-contexts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "dynamic-contexts",
+  "normalized_form": "dynamic-contexts",
+  "observation_id": "8754af6bef2bb395",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:56:18.570627+00:00",
+  "observed_text": "dynamic-contexts",
+  "source_file": null,
+  "source_repo": "alfredolopez80/multi-agent-ralph-loop"
+}

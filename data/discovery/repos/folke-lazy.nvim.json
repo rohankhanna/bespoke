@@ -1,0 +1,313 @@
+{
+  "components": [
+    {
+      "component": "folke/github/.github/workflows/ci.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community.yml"
+    },
+    {
+      "component": "folke/github/neovim@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "folke/github/.github/workflows/labeler.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "folke/github/.github/workflows/pr.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "folke/github/.github/workflows/stale.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "folke/github/.github/workflows/update.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "folke/lazy.nvim",
+      "target": "folke/github/.github/workflows/ci.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community.yml",
+      "source_repo": "folke/lazy.nvim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community.yml",
+      "source_repo": "folke/lazy.nvim",
+      "target": "folke/github/neovim@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community.yml",
+      "source_repo": "folke/lazy.nvim",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community.yml",
+      "source_repo": "folke/lazy.nvim",
+      "target": "stefanzweifel/git-auto-commit-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/community.yml",
+      "source_repo": "folke/lazy.nvim",
+      "target": "Community",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "folke/lazy.nvim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "folke/lazy.nvim",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "folke/lazy.nvim",
+      "target": "folke/github/.github/workflows/labeler.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "folke/lazy.nvim",
+      "target": "PR Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "folke/lazy.nvim",
+      "target": "folke/github/.github/workflows/pr.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "folke/lazy.nvim",
+      "target": "PR Title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "folke/lazy.nvim",
+      "target": "folke/github/.github/workflows/stale.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "folke/lazy.nvim",
+      "target": "Stale Issues & PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "folke/lazy.nvim",
+      "target": "folke/github/.github/workflows/update.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "folke/lazy.nvim",
+      "target": "Update Repo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "folke/lazy.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "folke/lazy.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "folke/lazy.nvim",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "folke/lazy.nvim",
+      "target": "package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "folke/lazy.nvim",
+      "target": "plugin-manager",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:56:59.516331+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3633
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 234
+    },
+    {
+      "path": ".github/workflows/community.yml",
+      "size": 950
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 414
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 144
+    },
+    {
+      "path": ".github/workflows/pr.yml",
+      "size": 275
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 236
+    },
+    {
+      "path": ".github/workflows/update.yml",
+      "size": 272
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "\ud83d\udca4 A modern plugin manager for Neovim",
+    "full_name": "folke/lazy.nvim",
+    "html_url": "https://github.com/folke/lazy.nvim",
+    "language": "Lua",
+    "pushed_at": "2025-12-17T12:08:49Z",
+    "topics": [
+      "neovim",
+      "neovim-plugin",
+      "nvim",
+      "package-manager",
+      "plugin-manager"
+    ],
+    "updated_at": "2026-04-18T10:59:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/community.yml",
+      "term": "Community"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Docs"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "PR Labeler"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "term": "PR Title"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Stale Issues & PRs"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "term": "Update Repo"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-manager"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin-manager"
+    }
+  ]
+}

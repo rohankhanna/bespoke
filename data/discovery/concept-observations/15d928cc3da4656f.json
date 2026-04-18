@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Measure Diff Across Multiple Repos",
+      "sense_id": "measure-diff-across-multiple-repos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "measure-diff-across-multiple-repos",
+  "normalized_form": "measure-diff-across-multiple-repos",
+  "observation_id": "15d928cc3da4656f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:56:18.570627+00:00",
+  "observed_text": "Measure Diff Across Multiple Repos",
+  "source_file": ".github/workflows/large-scale-test.yml",
+  "source_repo": "JohnnyMorganz/StyLua"
+}

@@ -1,0 +1,12 @@
+{
+  "component": "@ruvector/sona",
+  "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
+  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
+  "sources": [
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ruvnet/agentic-flow"
+    }
+  ]
+}

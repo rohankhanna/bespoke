@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-18T11:32:22.637859+00:00",
+  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -231,6 +231,26 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "W1ndys/ex-cure-skill"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "dreamiurg/mountaineers-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "alfredolopez80/multi-agent-ralph-loop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ithiria894/awesome-claude-code-hooks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ruvnet/agentic-flow"
     }
   ],
   "term": "Claude Code"

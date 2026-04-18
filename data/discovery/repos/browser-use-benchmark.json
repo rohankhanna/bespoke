@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eval.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eval.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eval.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eval.yaml",
+      "source_repo": "browser-use/benchmark",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eval.yaml",
+      "source_repo": "browser-use/benchmark",
+      "target": "astral-sh/setup-uv@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eval.yaml",
+      "source_repo": "browser-use/benchmark",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/eval.yaml",
+      "source_repo": "browser-use/benchmark",
+      "target": "Run Benchmark Batch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:56:21.804760+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8789
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 434
+    },
+    {
+      "path": ".github/workflows/eval.yaml",
+      "size": 2011
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": null,
+    "full_name": "browser-use/benchmark",
+    "html_url": "https://github.com/browser-use/benchmark",
+    "language": "Python",
+    "pushed_at": "2026-04-09T04:31:34Z",
+    "topics": [],
+    "updated_at": "2026-04-18T05:12:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/eval.yaml",
+      "term": "Run Benchmark Batch"
+    }
+  ]
+}

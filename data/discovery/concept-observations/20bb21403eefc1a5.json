@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Suite - London School TDD",
+      "sense_id": "test-suite---london-school-tdd#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "test-suite---london-school-tdd",
+  "normalized_form": "test-suite---london-school-tdd",
+  "observation_id": "20bb21403eefc1a5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:56:18.570627+00:00",
+  "observed_text": "Test Suite - London School TDD",
+  "source_file": ".github/workflows/test.yml",
+  "source_repo": "ruvnet/agentic-flow"
+}

@@ -4,7 +4,8 @@
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
-    "tool-component"
+    "tool-component",
+    "capability"
   ],
   "canonical_name": "codex-cli",
   "concept_id": "codex-cli",
@@ -14,10 +15,16 @@
       "observed_at": "2026-04-18T10:25:53.609022+00:00",
       "source_file": null,
       "source_repo": "fcakyon/claude-codex-settings"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T11:56:18.570627+00:00",
+      "source_file": null,
+      "source_repo": "alfredolopez80/multi-agent-ralph-loop"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "possible_senses": [
     {
       "buckets": [

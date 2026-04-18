@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dependency Review",
+      "sense_id": "dependency-review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "dependency-review",
+  "normalized_form": "dependency-review",
+  "observation_id": "f8d03f603023d4df",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:56:18.570627+00:00",
+  "observed_text": "Dependency Review",
+  "source_file": ".github/workflows/dependency-review.yml",
+  "source_repo": "dreamiurg/mountaineers-mcp"
+}

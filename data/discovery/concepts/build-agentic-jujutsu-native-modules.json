@@ -1,0 +1,34 @@
+{
+  "aliases": [
+    "Build Agentic-Jujutsu Native Modules"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "Build Agentic-Jujutsu Native Modules",
+  "concept_id": "build-agentic-jujutsu-native-modules",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T11:56:18.570627+00:00",
+      "source_file": ".github/workflows/build-agentic-jujutsu.yml",
+      "source_repo": "ruvnet/agentic-flow"
+    }
+  ],
+  "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
+  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Agentic-Jujutsu Native Modules",
+      "sense_id": "build-agentic-jujutsu-native-modules#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

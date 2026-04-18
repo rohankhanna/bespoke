@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Please",
+      "sense_id": "release-please#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "release-please",
+  "normalized_form": "release-please",
+  "observation_id": "11bc58e19aa5b583",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:56:18.570627+00:00",
+  "observed_text": "Release Please",
+  "source_file": ".github/workflows/release-please.yml",
+  "source_repo": "dreamiurg/mountaineers-assistant"
+}

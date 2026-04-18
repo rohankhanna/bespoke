@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-18T11:32:22.637859+00:00",
+  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -26,6 +26,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "programatik29/rust-web-benchmarks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "JohnnyMorganz/StyLua"
     }
   ],
   "term": "Benchmark"

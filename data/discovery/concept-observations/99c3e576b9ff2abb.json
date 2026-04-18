@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multi-agent-system",
+      "sense_id": "multi-agent-system#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "multi-agent-system",
+  "normalized_form": "multi-agent-system",
+  "observation_id": "99c3e576b9ff2abb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:56:18.570627+00:00",
+  "observed_text": "multi-agent-system",
+  "source_file": null,
+  "source_repo": "alfredolopez80/multi-agent-ralph-loop"
+}

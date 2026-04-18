@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "peakbagging",
+      "sense_id": "peakbagging#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "peakbagging",
+  "normalized_form": "peakbagging",
+  "observation_id": "2e31fd91bb3baad1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:56:18.570627+00:00",
+  "observed_text": "peakbagging",
+  "source_file": null,
+  "source_repo": "dreamiurg/peakbagger-cli"
+}

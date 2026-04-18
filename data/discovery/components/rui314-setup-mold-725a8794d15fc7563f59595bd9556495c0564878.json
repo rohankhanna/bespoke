@@ -1,0 +1,12 @@
+{
+  "component": "rui314/setup-mold@725a8794d15fc7563f59595bd9556495c0564878",
+  "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
+  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jj-vcs/jj"
+    }
+  ]
+}

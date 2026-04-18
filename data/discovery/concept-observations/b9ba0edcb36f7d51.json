@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "langchain",
+      "sense_id": "langchain#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "langchain",
+  "normalized_form": "langchain",
+  "observation_id": "b9ba0edcb36f7d51",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:56:18.570627+00:00",
+  "observed_text": "langchain",
+  "source_file": null,
+  "source_repo": "langchain-ai/langgraph"
+}
