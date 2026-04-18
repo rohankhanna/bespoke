@@ -1,0 +1,12 @@
+{
+  "component": "lycheeverse/lychee-action@885c65f3dc543b57c898c8099f4e08c8afd178a2",
+  "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-gemini/gemini-cli"
+    }
+  ]
+}

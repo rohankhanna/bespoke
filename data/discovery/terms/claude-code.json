@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
+  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -301,6 +301,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "danielrosehill/Agent-Junction"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Bash-Alias-Manager-Claude"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Batch-ClaudeMD-Repo-Creator"
     }
   ],
   "term": "Claude Code"

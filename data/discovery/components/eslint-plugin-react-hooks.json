@@ -1,7 +1,7 @@
 {
   "component": "eslint-plugin-react-hooks",
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-04-18T09:50:06.115508+00:00",
+  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -32,6 +32,16 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "CommE2E/comm"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "QwenLM/qwen-code"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "google-gemini/gemini-cli"
     }
   ]
 }

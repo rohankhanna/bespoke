@@ -1,0 +1,17 @@
+{
+  "component": "github/codeql-action/analyze@df559355d593797519d70b90fc8edd5db049e7a2",
+  "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "QwenLM/qwen-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-gemini/gemini-cli"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "aliases": [
+    "Release NPM"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "Release NPM",
+  "concept_id": "release-npm",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T12:06:06.216548+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "korotovsky/slack-mcp-server"
+    }
+  ],
+  "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release NPM",
+      "sense_id": "release-npm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "slack",
+      "sense_id": "slack#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "slack",
+  "normalized_form": "slack",
+  "observation_id": "4ab7e0e3ecb0122c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T12:06:06.216548+00:00",
+  "observed_text": "slack",
+  "source_file": null,
+  "source_repo": "korotovsky/slack-mcp-server"
+}

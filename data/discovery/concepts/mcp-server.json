@@ -27,10 +27,22 @@
       "observed_at": "2026-04-18T11:57:36.597358+00:00",
       "source_file": null,
       "source_repo": "oraios/serena"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T12:06:06.216548+00:00",
+      "source_file": null,
+      "source_repo": "korotovsky/slack-mcp-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T12:06:06.216548+00:00",
+      "source_file": null,
+      "source_repo": "google-gemini/gemini-cli"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
+  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "possible_senses": [
     {
       "buckets": [

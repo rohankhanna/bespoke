@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ai-pipeline",
+      "sense_id": "ai-pipeline#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "ai-pipeline",
+  "normalized_form": "ai-pipeline",
+  "observation_id": "62a4f27f775896b1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T12:06:06.216548+00:00",
+  "observed_text": "ai-pipeline",
+  "source_file": null,
+  "source_repo": "Eventual-Inc/Daft"
+}

@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Daft wheel",
+      "sense_id": "build-daft-wheel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "build-daft-wheel",
+  "normalized_form": "build-daft-wheel",
+  "observation_id": "743108ddec8096d3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T12:06:06.216548+00:00",
+  "observed_text": "Build Daft wheel",
+  "source_file": ".github/workflows/build-wheel.yml",
+  "source_repo": "Eventual-Inc/Daft"
+}

@@ -1,0 +1,22 @@
+{
+  "component": "foundry-rs/foundry-toolchain@v1",
+  "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_rust.yaml",
+      "source_repo": "Layr-Labs/hello-world-avs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml",
+      "source_repo": "Layr-Labs/hello-world-avs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rewards-scripts-check.yaml",
+      "source_repo": "Layr-Labs/hello-world-avs"
+    }
+  ]
+}

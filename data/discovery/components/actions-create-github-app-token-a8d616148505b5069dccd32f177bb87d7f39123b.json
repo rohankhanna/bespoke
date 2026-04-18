@@ -1,0 +1,17 @@
+{
+  "component": "actions/create-github-app-token@a8d616148505b5069dccd32f177bb87d7f39123b",
+  "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/community-report.yml",
+      "source_repo": "QwenLM/qwen-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/community-report.yml",
+      "source_repo": "google-gemini/gemini-cli"
+    }
+  ]
+}

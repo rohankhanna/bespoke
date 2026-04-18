@@ -1,0 +1,34 @@
+{
+  "aliases": [
+    "Automated Documentation Audit"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "Automated Documentation Audit",
+  "concept_id": "automated-documentation-audit",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T12:06:06.216548+00:00",
+      "source_file": ".github/workflows/docs-audit.yml",
+      "source_repo": "google-gemini/gemini-cli"
+    }
+  ],
+  "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Automated Documentation Audit",
+      "sense_id": "automated-documentation-audit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

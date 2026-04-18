@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish to PyPI",
+      "sense_id": "publish-to-pypi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "publish-to-pypi",
+  "normalized_form": "publish-to-pypi",
+  "observation_id": "2372b01897973e1a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T12:06:06.216548+00:00",
+  "observed_text": "Publish to PyPI",
+  "source_file": ".github/workflows/publish-pypi.yml",
+  "source_repo": "SuperClaude-Org/SuperQwen_Framework"
+}

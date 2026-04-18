@@ -1,0 +1,17 @@
+{
+  "component": "actions/jekyll-build-pages@44a6e6beabd48582f863aeeb6cb2151cc1716697",
+  "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-page-action.yml",
+      "source_repo": "QwenLM/qwen-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-page-action.yml",
+      "source_repo": "google-gemini/gemini-cli"
+    }
+  ]
+}

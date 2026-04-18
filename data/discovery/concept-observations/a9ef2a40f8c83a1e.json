@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "huggingface",
+      "sense_id": "huggingface#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "huggingface",
+  "normalized_form": "huggingface",
+  "observation_id": "a9ef2a40f8c83a1e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T12:06:06.216548+00:00",
+  "observed_text": "huggingface",
+  "source_file": null,
+  "source_repo": "Eventual-Inc/Daft"
+}

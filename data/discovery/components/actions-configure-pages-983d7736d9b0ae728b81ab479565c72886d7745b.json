@@ -1,12 +1,22 @@
 {
   "component": "actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b",
   "first_seen_at": "2026-04-18T09:50:06.115508+00:00",
-  "last_seen_at": "2026-04-18T09:50:06.115508+00:00",
+  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/deploy-site.yml",
       "source_repo": "agent-sh/agentsys"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-page-action.yml",
+      "source_repo": "QwenLM/qwen-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-page-action.yml",
+      "source_repo": "google-gemini/gemini-cli"
     }
   ]
 }

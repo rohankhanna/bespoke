@@ -1,0 +1,34 @@
+{
+  "aliases": [
+    "strands-agents"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "canonical_name": "strands-agents",
+  "concept_id": "strands-agents",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T12:06:06.216548+00:00",
+      "source_file": null,
+      "source_repo": "strands-agents/agent-sop"
+    }
+  ],
+  "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "strands-agents",
+      "sense_id": "strands-agents#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,34 @@
+{
+  "aliases": [
+    "transparency"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "canonical_name": "transparency",
+  "concept_id": "transparency",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T12:06:06.216548+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Human-Attribution-Adder"
+    }
+  ],
+  "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "transparency",
+      "sense_id": "transparency#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

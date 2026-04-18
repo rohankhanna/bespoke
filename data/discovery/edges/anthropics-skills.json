@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anthropics/skills",
+      "target": "agent-skills",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T12:06:06.216548+00:00",
+  "source_repo": "anthropics/skills"
+}

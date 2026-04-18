@@ -1,0 +1,12 @@
+{
+  "component": "aquasecurity/trivy-action@0.34.0",
+  "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/security-trivy.yaml",
+      "source_repo": "korotovsky/slack-mcp-server"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "aliases": [
+    "Build and Publish Docker Image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "Build and Publish Docker Image",
+  "concept_id": "build-and-publish-docker-image",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T12:06:06.216548+00:00",
+      "source_file": ".github/workflows/build-and-publish-image.yml",
+      "source_repo": "QwenLM/qwen-code"
+    }
+  ],
+  "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Publish Docker Image",
+      "sense_id": "build-and-publish-docker-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

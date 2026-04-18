@@ -112,10 +112,28 @@
       "observed_at": "2026-04-18T11:57:36.597358+00:00",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "casey/just"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T12:06:06.216548+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "opencode-ai/opencode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T12:06:06.216548+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "agiletec-inc/airis-mcp-gateway"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T12:06:06.216548+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ahmetb/kubectx"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
+  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "possible_senses": [
     {
       "buckets": [

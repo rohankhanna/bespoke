@@ -1,0 +1,34 @@
+{
+  "aliases": [
+    "Agent Session Drift Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "Agent Session Drift Check",
+  "concept_id": "agent-session-drift-check",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T12:06:06.216548+00:00",
+      "source_file": ".github/workflows/agent-session-drift-check.yml",
+      "source_repo": "google-gemini/gemini-cli"
+    }
+  ],
+  "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Agent Session Drift Check",
+      "sense_id": "agent-session-drift-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

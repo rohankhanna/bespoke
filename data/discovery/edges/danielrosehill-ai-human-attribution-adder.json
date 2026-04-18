@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Human-Attribution-Adder",
+      "target": "agentic-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Human-Attribution-Adder",
+      "target": "readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Human-Attribution-Adder",
+      "target": "transparency",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T12:06:06.216548+00:00",
+  "source_repo": "danielrosehill/AI-Human-Attribution-Adder"
+}

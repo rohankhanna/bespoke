@@ -1,0 +1,91 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Batch-ClaudeMD-Repo-Creator",
+      "target": "danielrosehill/claude-code-repos-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Batch-ClaudeMD-Repo-Creator",
+      "target": "danielrosehill/github-master-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Batch-ClaudeMD-Repo-Creator",
+      "target": "bulk-utilities",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Batch-ClaudeMD-Repo-Creator",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Batch-ClaudeMD-Repo-Creator",
+      "target": "github-repos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T12:06:10.707516+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6367
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "For batch CLAUDE.md creation in large repository collections",
+    "full_name": "danielrosehill/Batch-ClaudeMD-Repo-Creator",
+    "html_url": "https://github.com/danielrosehill/Batch-ClaudeMD-Repo-Creator",
+    "language": "Shell",
+    "pushed_at": "2025-10-26T14:17:07Z",
+    "topics": [
+      "bulk-utilities",
+      "claude-code",
+      "github-repos"
+    ],
+    "updated_at": "2025-10-26T14:17:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-code-repos-index",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/github-master-index",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bulk-utilities"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-repos"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@v5",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
+  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -62,6 +62,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/community.yml",
       "source_repo": "folke/lazy.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/daft-profiling.yml",
+      "source_repo": "Eventual-Inc/Daft"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly-publish-s3.yml",
+      "source_repo": "Eventual-Inc/Daft"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ahmetb/kubectx"
     }
   ]
 }

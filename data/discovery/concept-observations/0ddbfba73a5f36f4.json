@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mcp-server",
+      "sense_id": "mcp-server#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "mcp-server",
+  "normalized_form": "mcp-server",
+  "observation_id": "0ddbfba73a5f36f4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T12:06:06.216548+00:00",
+  "observed_text": "mcp-server",
+  "source_file": null,
+  "source_repo": "google-gemini/gemini-cli"
+}

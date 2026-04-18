@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Bash-Alias-Manager-Claude",
+      "target": "danielrosehill/claude-code-repos-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Bash-Alias-Manager-Claude",
+      "target": "danielrosehill/github-master-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Bash-Alias-Manager-Claude",
+      "target": "bash-aliases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Bash-Alias-Manager-Claude",
+      "target": "claude-code",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T12:06:06.216548+00:00",
+  "source_repo": "danielrosehill/Bash-Alias-Manager-Claude"
+}

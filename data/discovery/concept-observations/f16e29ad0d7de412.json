@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy GitHub Pages",
+      "sense_id": "deploy-github-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "deploy-github-pages",
+  "normalized_form": "deploy-github-pages",
+  "observation_id": "f16e29ad0d7de412",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T12:06:06.216548+00:00",
+  "observed_text": "Deploy GitHub Pages",
+  "source_file": ".github/workflows/docs-page-action.yml",
+  "source_repo": "google-gemini/gemini-cli"
+}

@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "github-repos",
+      "sense_id": "github-repos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "github-repos",
+  "normalized_form": "github-repos",
+  "observation_id": "a9d278503015913f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T12:06:06.216548+00:00",
+  "observed_text": "github-repos",
+  "source_file": null,
+  "source_repo": "danielrosehill/Batch-ClaudeMD-Repo-Creator"
+}

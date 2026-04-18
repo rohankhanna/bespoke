@@ -1,0 +1,66 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Human-Attribution-Adder",
+      "target": "agentic-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Human-Attribution-Adder",
+      "target": "readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Human-Attribution-Adder",
+      "target": "transparency",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T12:06:07.630471+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1785
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Slash command for AI agents to note who did what!",
+    "full_name": "danielrosehill/AI-Human-Attribution-Adder",
+    "html_url": "https://github.com/danielrosehill/AI-Human-Attribution-Adder",
+    "language": null,
+    "pushed_at": "2025-10-31T17:29:36Z",
+    "topics": [
+      "agentic-ai",
+      "readme",
+      "transparency"
+    ],
+    "updated_at": "2025-10-31T17:29:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-ai"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "readme"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transparency"
+    }
+  ]
+}

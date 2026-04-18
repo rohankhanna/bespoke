@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bash-aliases",
+      "sense_id": "bash-aliases#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "bash-aliases",
+  "normalized_form": "bash-aliases",
+  "observation_id": "ea9ca7a4c08d81a5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T12:06:06.216548+00:00",
+  "observed_text": "bash-aliases",
+  "source_file": null,
+  "source_repo": "danielrosehill/Bash-Alias-Manager-Claude"
+}

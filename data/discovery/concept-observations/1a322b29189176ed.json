@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Rust CI",
+      "sense_id": "build-rust-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "build-rust-ci",
+  "normalized_form": "build-rust-ci",
+  "observation_id": "1a322b29189176ed",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T12:06:06.216548+00:00",
+  "observed_text": "Build Rust CI",
+  "source_file": ".github/workflows/ci_rust.yaml",
+  "source_repo": "Layr-Labs/hello-world-avs"
+}

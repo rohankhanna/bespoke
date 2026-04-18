@@ -1,0 +1,28 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-18T12:06:27.354396+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3817
+    },
+    {
+      "path": "package.json",
+      "size": 541
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Security scanner for Claude Code settings files. Scans for dangerous patterns in your approved commands that could compromise your host machine. You can run it manually or ask Claude Code to run it with npx cc-safe .",
+    "full_name": "ykdojo/cc-safe",
+    "html_url": "https://github.com/ykdojo/cc-safe",
+    "language": "JavaScript",
+    "pushed_at": "2025-12-10T01:16:28Z",
+    "topics": [],
+    "updated_at": "2026-04-16T16:21:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

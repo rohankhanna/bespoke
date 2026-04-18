@@ -1,0 +1,17 @@
+{
+  "component": "cariad-tech/merge-queue-ci-skipper@1032489e59437862c90a08a2c92809c903883772",
+  "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/chained_e2e.yml",
+      "source_repo": "google-gemini/gemini-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "google-gemini/gemini-cli"
+    }
+  ]
+}

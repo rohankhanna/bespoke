@@ -1,0 +1,34 @@
+{
+  "aliases": [
+    "Publish Skills to Claude Code Marketplace"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "Publish Skills to Claude Code Marketplace",
+  "concept_id": "publish-skills-to-claude-code-marketplace",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T12:06:06.216548+00:00",
+      "source_file": ".github/workflows/publish-skills.yml",
+      "source_repo": "strands-agents/agent-sop"
+    }
+  ],
+  "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Skills to Claude Code Marketplace",
+      "sense_id": "publish-skills-to-claude-code-marketplace#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

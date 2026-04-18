@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "agentic-ai",
+      "sense_id": "agentic-ai#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "agentic-ai",
+  "normalized_form": "agentic-ai",
+  "observation_id": "2f779fee1e18d3d0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T12:06:06.216548+00:00",
+  "observed_text": "agentic-ai",
+  "source_file": null,
+  "source_repo": "danielrosehill/AI-Human-Attribution-Adder"
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:45:12.634395+00:00",
-  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
+  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -21,6 +21,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "oraios/serena"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "korotovsky/slack-mcp-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-gemini/gemini-cli"
     }
   ],
   "term": "mcp-server"

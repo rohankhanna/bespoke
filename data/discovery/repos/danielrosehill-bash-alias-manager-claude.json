@@ -1,0 +1,78 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Bash-Alias-Manager-Claude",
+      "target": "danielrosehill/claude-code-repos-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Bash-Alias-Manager-Claude",
+      "target": "danielrosehill/github-master-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Bash-Alias-Manager-Claude",
+      "target": "bash-aliases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Bash-Alias-Manager-Claude",
+      "target": "claude-code",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T12:06:09.825942+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1678
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Claude agent directory for managing bash aliases",
+    "full_name": "danielrosehill/Bash-Alias-Manager-Claude",
+    "html_url": "https://github.com/danielrosehill/Bash-Alias-Manager-Claude",
+    "language": "Shell",
+    "pushed_at": "2025-10-25T22:56:35Z",
+    "topics": [
+      "bash-aliases",
+      "claude-code"
+    ],
+    "updated_at": "2026-04-09T13:09:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-code-repos-index",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/github-master-index",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash-aliases"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    }
+  ]
+}

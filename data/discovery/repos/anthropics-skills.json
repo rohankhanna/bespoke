@@ -1,0 +1,40 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anthropics/skills",
+      "target": "agent-skills",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T12:06:49.718072+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5460
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Public repository for Agent Skills",
+    "full_name": "anthropics/skills",
+    "html_url": "https://github.com/anthropics/skills",
+    "language": "Python",
+    "pushed_at": "2026-04-16T19:12:59Z",
+    "topics": [
+      "agent-skills"
+    ],
+    "updated_at": "2026-04-18T12:01:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-skills"
+    }
+  ]
+}

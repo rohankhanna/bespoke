@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "datasette-tool",
+      "sense_id": "datasette-tool#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "datasette-tool",
+  "normalized_form": "datasette-tool",
+  "observation_id": "3a83a45163f5a5f3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T12:06:06.216548+00:00",
+  "observed_text": "datasette-tool",
+  "source_file": null,
+  "source_repo": "simonw/sqlite-diffable"
+}

@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "agent-skills",
+      "sense_id": "agent-skills#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "agent-skills",
+  "normalized_form": "agent-skills",
+  "observation_id": "30a1637cc62aff3e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T12:06:06.216548+00:00",
+  "observed_text": "agent-skills",
+  "source_file": null,
+  "source_repo": "anthropics/skills"
+}

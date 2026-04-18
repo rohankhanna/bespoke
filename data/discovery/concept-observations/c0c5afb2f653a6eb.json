@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multimodal",
+      "sense_id": "multimodal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "multimodal",
+  "normalized_form": "multimodal",
+  "observation_id": "c0c5afb2f653a6eb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T12:06:06.216548+00:00",
+  "observed_text": "multimodal",
+  "source_file": null,
+  "source_repo": "Eventual-Inc/Daft"
+}

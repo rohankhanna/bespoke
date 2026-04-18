@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Issue Completeness",
+      "sense_id": "check-issue-completeness#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "check-issue-completeness",
+  "normalized_form": "check-issue-completeness",
+  "observation_id": "282fbfeeb917033b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T12:06:06.216548+00:00",
+  "observed_text": "Check Issue Completeness",
+  "source_file": ".github/workflows/check-issue-completeness.yml",
+  "source_repo": "QwenLM/qwen-code"
+}

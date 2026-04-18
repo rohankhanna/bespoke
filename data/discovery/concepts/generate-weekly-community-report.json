@@ -1,0 +1,40 @@
+{
+  "aliases": [
+    "Generate Weekly Community Report \ud83d\udcca"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "Generate Weekly Community Report \ud83d\udcca",
+  "concept_id": "generate-weekly-community-report",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T12:06:06.216548+00:00",
+      "source_file": ".github/workflows/community-report.yml",
+      "source_repo": "QwenLM/qwen-code"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T12:06:06.216548+00:00",
+      "source_file": ".github/workflows/community-report.yml",
+      "source_repo": "google-gemini/gemini-cli"
+    }
+  ],
+  "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate Weekly Community Report \ud83d\udcca",
+      "sense_id": "generate-weekly-community-report#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

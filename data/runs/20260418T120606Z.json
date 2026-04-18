@@ -1,0 +1,162 @@
+{
+  "budget_seconds": 180,
+  "elapsed_seconds": 55.289,
+  "generated_at": "2026-04-18T12:06:06.216548+00:00",
+  "processed_repositories": [
+    "danielrosehill/ai-human-attribution-adder",
+    "danielrosehill/bash-alias-manager-claude",
+    "danielrosehill/batch-claudemd-repo-creator",
+    "opencode-ai/opencode",
+    "eventual-inc/daft",
+    "korotovsky/slack-mcp-server",
+    "microsoft/playwright-mcp",
+    "ykdojo/cc-safe",
+    "agiletec-inc/airis-mcp-gateway",
+    "superclaude-org/supergemini_framework",
+    "superclaude-org/superqwen_framework",
+    "strands-agents/agent-sop",
+    "ahmetb/kubectx",
+    "layr-labs/hello-world-avs",
+    "wesfloyd/avs-context-prompt",
+    "anthropics/skills",
+    "qwenlm/qwen-code",
+    "simonw/sqlite-diffable",
+    "google-gemini/gemini-cli",
+    "revfactory/claude-code-harness"
+  ],
+  "remaining_budget_seconds": 124.711,
+  "remaining_frontier": 305,
+  "repo_timing_summary": {
+    "average_seconds": 2.744,
+    "count": 20,
+    "max_seconds": 6.268,
+    "total_seconds": 54.879
+  },
+  "repo_timings": [
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.955,
+      "full_name": "danielrosehill/ai-human-attribution-adder",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.193,
+      "full_name": "danielrosehill/bash-alias-manager-claude",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.88,
+      "full_name": "danielrosehill/batch-claudemd-repo-creator",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.769,
+      "full_name": "opencode-ai/opencode",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 6.268,
+      "full_name": "eventual-inc/daft",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.161,
+      "full_name": "korotovsky/slack-mcp-server",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.985,
+      "full_name": "microsoft/playwright-mcp",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.193,
+      "full_name": "ykdojo/cc-safe",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.519,
+      "full_name": "agiletec-inc/airis-mcp-gateway",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.366,
+      "full_name": "superclaude-org/supergemini_framework",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.152,
+      "full_name": "superclaude-org/superqwen_framework",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 4.179,
+      "full_name": "strands-agents/agent-sop",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 4.796,
+      "full_name": "ahmetb/kubectx",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 4.475,
+      "full_name": "layr-labs/hello-world-avs",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.917,
+      "full_name": "wesfloyd/avs-context-prompt",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.895,
+      "full_name": "anthropics/skills",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 4.49,
+      "full_name": "qwenlm/qwen-code",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.311,
+      "full_name": "simonw/sqlite-diffable",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 4.505,
+      "full_name": "google-gemini/gemini-cli",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.87,
+      "full_name": "revfactory/claude-code-harness",
+      "graph_distance": 4
+    }
+  ],
+  "run_id": "20260418T120606Z",
+  "skipped_repositories": [],
+  "slow_repo_threshold_seconds": 10.0,
+  "slow_repositories": [],
+  "stopped_due_to_budget": false
+}

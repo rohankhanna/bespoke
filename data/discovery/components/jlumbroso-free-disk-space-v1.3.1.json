@@ -1,0 +1,17 @@
+{
+  "component": "jlumbroso/free-disk-space@v1.3.1",
+  "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "Eventual-Inc/Daft"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly-publish-s3.yml",
+      "source_repo": "Eventual-Inc/Daft"
+    }
+  ]
+}

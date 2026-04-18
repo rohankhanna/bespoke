@@ -1,106 +1,6 @@
 {
-  "generated_at": "2026-04-18T11:57:36.597358+00:00",
+  "generated_at": "2026-04-18T12:06:06.216548+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "danielrosehill/ai-human-attribution-adder",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "danielrosehill/bash-alias-manager-claude",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "danielrosehill/batch-claudemd-repo-creator",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "opencode-ai/opencode",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "eventual-inc/daft",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "korotovsky/slack-mcp-server",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "microsoft/playwright-mcp",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ykdojo/cc-safe",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "agiletec-inc/airis-mcp-gateway",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "superclaude-org/supergemini_framework",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "superclaude-org/superqwen_framework",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "strands-agents/agent-sop",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ahmetb/kubectx",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "layr-labs/hello-world-avs",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "wesfloyd/avs-context-prompt",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "anthropics/skills",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "qwenlm/qwen-code",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "simonw/sqlite-diffable",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "google-gemini/gemini-cli",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "revfactory/claude-code-harness",
-      "graph_distance": 4
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "revfactory/harness-100",
@@ -1510,6 +1410,121 @@
       "discovered_via": "explicit-github-link",
       "full_name": "casey/janus",
       "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "charmbracelet/crush",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "isaacphi/mcp-language-server",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "apache/spark",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dask/dask",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "modin-project/modin",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "pandas-dev/pandas",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "strands-agents/agent-builder",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "strands-agents/evals",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "strands-agents/mcp-server",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "strands-agents/samples",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ahmetb/kubectl-aliases",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "jonmosco/kube-ps1",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "junegunn/fzf",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "kubernetes-sigs/krew",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "eigenfoundation/elips",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "layr-labs/eigenlayer-middleware",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "layr-labs/incredible-squaring-avs",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "layr-labs/incredible-squaring-avs-rs",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "iofficeai/aionui",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "piebald-ai/gemini-cli-desktop",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "simonw/simonwillisonblog-backup",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "google-github-actions/run-gemini-cli",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "googlecloudplatform/vertex-ai-creative-studio",
+      "graph_distance": 5
     }
   ],
   "processed": [
@@ -2050,6 +2065,26 @@
     "anthropics/claude-plugins-official",
     "maxritter/pilot-shell-demo",
     "microsoft/playwright-cli",
-    "danielrosehill/agent-junction"
+    "danielrosehill/agent-junction",
+    "danielrosehill/ai-human-attribution-adder",
+    "danielrosehill/bash-alias-manager-claude",
+    "danielrosehill/batch-claudemd-repo-creator",
+    "opencode-ai/opencode",
+    "eventual-inc/daft",
+    "korotovsky/slack-mcp-server",
+    "microsoft/playwright-mcp",
+    "ykdojo/cc-safe",
+    "agiletec-inc/airis-mcp-gateway",
+    "superclaude-org/supergemini_framework",
+    "superclaude-org/superqwen_framework",
+    "strands-agents/agent-sop",
+    "ahmetb/kubectx",
+    "layr-labs/hello-world-avs",
+    "wesfloyd/avs-context-prompt",
+    "anthropics/skills",
+    "qwenlm/qwen-code",
+    "simonw/sqlite-diffable",
+    "google-gemini/gemini-cli",
+    "revfactory/claude-code-harness"
   ]
 }

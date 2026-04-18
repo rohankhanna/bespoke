@@ -1,0 +1,24 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-18T12:06:48.822394+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3134
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "EigenLayer AVS context window prompt file ",
+    "full_name": "wesfloyd/avs-context-prompt",
+    "html_url": "https://github.com/wesfloyd/avs-context-prompt",
+    "language": null,
+    "pushed_at": "2025-04-09T19:13:31Z",
+    "topics": [],
+    "updated_at": "2025-04-09T19:13:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

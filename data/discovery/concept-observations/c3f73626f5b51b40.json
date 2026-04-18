@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "iceberg",
+      "sense_id": "iceberg#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "iceberg",
+  "normalized_form": "iceberg",
+  "observation_id": "c3f73626f5b51b40",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T12:06:06.216548+00:00",
+  "observed_text": "iceberg",
+  "source_file": null,
+  "source_repo": "Eventual-Inc/Daft"
+}

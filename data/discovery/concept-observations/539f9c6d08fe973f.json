@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gemini",
+      "sense_id": "gemini#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "gemini",
+  "normalized_form": "gemini",
+  "observation_id": "539f9c6d08fe973f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T12:06:06.216548+00:00",
+  "observed_text": "gemini",
+  "source_file": null,
+  "source_repo": "google-gemini/gemini-cli"
+}

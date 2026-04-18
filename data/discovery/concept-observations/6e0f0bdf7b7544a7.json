@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "assistants",
+      "sense_id": "assistants#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "assistants",
+  "normalized_form": "assistants",
+  "observation_id": "6e0f0bdf7b7544a7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T12:06:06.216548+00:00",
+  "observed_text": "assistants",
+  "source_file": null,
+  "source_repo": "korotovsky/slack-mcp-server"
+}
