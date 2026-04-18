@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "workflow-process",
     "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "AMD AITER Scout",
+      "sense_id": "amd-aiter-scout#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "amd-aiter-scout",
   "normalized_form": "amd-aiter-scout",

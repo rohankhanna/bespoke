@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "tool-component",
     "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bash",
+      "sense_id": "bash#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "bash",
   "normalized_form": "bash",

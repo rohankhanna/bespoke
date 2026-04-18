@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lobe-ui",
+      "sense_id": "lobe-ui#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "lobe-ui",
+  "normalized_form": "lobe-ui",
+  "observation_id": "94c0e93341b8e6f6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:41:43.530265+00:00",
+  "observed_text": "lobe-ui",
+  "source_file": null,
+  "source_repo": "lobehub/lobe-assets"
+}

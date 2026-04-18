@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "tool-component",
     "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "llm-memory",
+      "sense_id": "llm-memory#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "llm-memory",
   "normalized_form": "llm-memory",

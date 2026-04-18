@@ -1,0 +1,34 @@
+{
+  "aliases": [
+    "Dev Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "Dev Release",
+  "concept_id": "dev-release",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T11:41:43.530265+00:00",
+      "source_file": ".github/workflows/dev-release.yml",
+      "source_repo": "langchain-ai/langchainjs"
+    }
+  ],
+  "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
+  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dev Release",
+      "sense_id": "dev-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

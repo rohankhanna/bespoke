@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "tool-component",
     "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "claude-skills",
+      "sense_id": "claude-skills#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "claude-skills",
   "normalized_form": "claude-skills",

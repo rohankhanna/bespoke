@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "favicons",
+      "sense_id": "favicons#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "favicons",
+  "normalized_form": "favicons",
+  "observation_id": "0333b28fbfc30e8a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:41:43.530265+00:00",
+  "observed_text": "favicons",
+  "source_file": null,
+  "source_repo": "lobehub/lobe-assets"
+}

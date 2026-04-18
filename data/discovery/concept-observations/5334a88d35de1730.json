@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "tool-component",
     "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "firebase-admin-sdk",
+      "sense_id": "firebase-admin-sdk#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "firebase-admin-sdk",
   "normalized_form": "firebase-admin-sdk",

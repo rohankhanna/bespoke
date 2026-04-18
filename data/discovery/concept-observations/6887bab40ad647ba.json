@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "workflow-process",
     "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate Data",
+      "sense_id": "validate-data#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "validate-data",
   "normalized_form": "validate-data",

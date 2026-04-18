@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "tool-component",
     "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aws-lambda",
+      "sense_id": "aws-lambda#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "aws-lambda",
   "normalized_form": "aws-lambda",

@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "tool-component",
     "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "knowledge-graphs",
+      "sense_id": "knowledge-graphs#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "knowledge-graphs",
   "normalized_form": "knowledge-graphs",

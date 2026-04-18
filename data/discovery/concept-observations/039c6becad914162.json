@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "tool-component",
     "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "agentic-ai",
+      "sense_id": "agentic-ai#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "agentic-ai",
   "normalized_form": "agentic-ai",

@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Examples",
+      "sense_id": "build-examples#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "build-examples",
+  "normalized_form": "build-examples",
+  "observation_id": "a2a42852c1a0f87d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:41:43.530265+00:00",
+  "observed_text": "Build Examples",
+  "source_file": ".github/workflows/examples.yml",
+  "source_repo": "langchain-ai/langchainjs"
+}

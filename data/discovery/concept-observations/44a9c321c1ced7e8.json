@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "workflow-process",
     "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Claude PR Code Review",
+      "sense_id": "claude-pr-code-review#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "claude-pr-code-review",
   "normalized_form": "claude-pr-code-review",

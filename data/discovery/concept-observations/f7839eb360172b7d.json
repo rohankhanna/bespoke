@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue Close Require",
+      "sense_id": "issue-close-require#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "issue-close-require",
+  "normalized_form": "issue-close-require",
+  "observation_id": "f7839eb360172b7d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:41:43.530265+00:00",
+  "observed_text": "Issue Close Require",
+  "source_file": ".github/workflows/issue-auto-comments.yml",
+  "source_repo": "lobehub/chat-plugin-realtime-weather"
+}

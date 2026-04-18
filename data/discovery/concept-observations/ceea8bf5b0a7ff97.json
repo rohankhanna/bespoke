@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "napi-rs",
+      "sense_id": "napi-rs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "napi-rs",
+  "normalized_form": "napi-rs",
+  "observation_id": "ceea8bf5b0a7ff97",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:41:43.530265+00:00",
+  "observed_text": "napi-rs",
+  "source_file": null,
+  "source_repo": "napi-rs/napi-rs"
+}

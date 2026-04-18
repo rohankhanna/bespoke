@@ -1,0 +1,24 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-18T11:42:49.345492+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4710
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "A custom statusline for Claude Code that shows real-time usage monitoring.",
+    "full_name": "FlineDev/CustomStatusline",
+    "html_url": "https://github.com/FlineDev/CustomStatusline",
+    "language": "Shell",
+    "pushed_at": "2026-03-10T01:28:48Z",
+    "topics": [],
+    "updated_at": "2026-03-10T01:28:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

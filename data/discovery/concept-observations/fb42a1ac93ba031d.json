@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Go Release",
+      "sense_id": "go-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "go-release",
+  "normalized_form": "go-release",
+  "observation_id": "fb42a1ac93ba031d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:41:43.530265+00:00",
+  "observed_text": "Go Release",
+  "source_file": ".github/workflows/release.yml",
+  "source_repo": "danielmiessler/Fabric"
+}

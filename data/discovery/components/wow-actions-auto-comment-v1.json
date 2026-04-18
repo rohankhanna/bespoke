@@ -1,7 +1,7 @@
 {
   "component": "wow-actions/auto-comment@v1",
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-18T11:32:22.637859+00:00",
+  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -62,6 +62,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/issue-auto-comments.yml",
       "source_repo": "lobehub/lobe-charts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-auto-comments.yml",
+      "source_repo": "lobehub/lobe-editor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-auto-comments.yml",
+      "source_repo": "lobehub/chat-plugin-search-engine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-auto-comments.yml",
+      "source_repo": "lobehub/chat-plugin-web-crawler"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-auto-comments.yml",
+      "source_repo": "lobehub/lobe-assets"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-auto-comments.yml",
+      "source_repo": "ccdanpian/current-datetime"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-auto-comments.yml",
+      "source_repo": "FineHow/Bingsearch-Plugin"
     }
   ]
 }

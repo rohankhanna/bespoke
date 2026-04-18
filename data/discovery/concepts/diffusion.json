@@ -15,10 +15,16 @@
       "observed_at": "2026-04-18T10:43:38.551697+00:00",
       "source_file": null,
       "source_repo": "sgl-project/sglang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T11:41:43.530265+00:00",
+      "source_file": null,
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "possible_senses": [
     {
       "buckets": [

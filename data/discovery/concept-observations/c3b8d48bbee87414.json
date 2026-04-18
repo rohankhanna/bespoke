@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "tool-component",
     "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "conversational-ai",
+      "sense_id": "conversational-ai#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "conversational-ai",
   "normalized_form": "conversational-ai",

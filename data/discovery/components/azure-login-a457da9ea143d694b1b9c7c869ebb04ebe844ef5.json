@@ -1,0 +1,12 @@
+{
+  "component": "azure/login@a457da9ea143d694b1b9c7c869ebb04ebe844ef5",
+  "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
+  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml",
+      "source_repo": "denoland/deno"
+    }
+  ]
+}

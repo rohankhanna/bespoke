@@ -1,0 +1,427 @@
+{
+  "components": [
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "target": "automatic1111/stable-diffusion-webui-aesthetic-gradients",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "target": "basujindal/stable-diffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "target": "birch-san/diffusers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "target": "aminrezaei0x443/memory-efficient-attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml",
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml",
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml",
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on_pull_request.yaml",
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "target": "Linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/warns_merge_master.yml",
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "target": "Pull requests can't target master branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "target": "ai-art",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "target": "gradio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "target": "image2image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "target": "img2img",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "target": "text2image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "target": "torch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "target": "txt2img",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "target": "unstable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui",
+      "target": "upscaling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:42:15.035951+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12924
+    },
+    {
+      "path": "package.json",
+      "size": 185
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 841
+    },
+    {
+      "path": "requirements.txt",
+      "size": 389
+    },
+    {
+      "path": ".github/workflows/on_pull_request.yaml",
+      "size": 1231
+    },
+    {
+      "path": ".github/workflows/run_tests.yaml",
+      "size": 2529
+    },
+    {
+      "path": ".github/workflows/warns_merge_master.yml",
+      "size": 424
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "Stable Diffusion web UI",
+    "full_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "html_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "language": "Python",
+    "pushed_at": "2026-03-02T07:00:53Z",
+    "topics": [
+      "ai",
+      "ai-art",
+      "deep-learning",
+      "diffusion",
+      "gradio",
+      "image-generation",
+      "image2image",
+      "img2img",
+      "pytorch",
+      "stable-diffusion",
+      "text2image",
+      "torch",
+      "txt2img",
+      "unstable",
+      "upscaling",
+      "web"
+    ],
+    "updated_at": "2026-04-18T11:21:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aminrezaei0x443/memory-efficient-attention",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "automatic1111/stable-diffusion-webui-aesthetic-gradients",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "basujindal/stable-diffusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "birch-san/diffusers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on_pull_request.yaml",
+      "term": "Linter"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "term": "Tests"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/warns_merge_master.yml",
+      "term": "Pull requests can't target master branch"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-art"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradio"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image2image"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "img2img"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text2image"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torch"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "txt2img"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unstable"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "upscaling"
+    }
+  ]
+}

@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "tool-component",
     "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "language-model",
+      "sense_id": "language-model#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "language-model",
   "normalized_form": "language-model",

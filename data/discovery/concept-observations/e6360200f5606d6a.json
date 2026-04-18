@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "tool-component",
     "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "qwen-image",
+      "sense_id": "qwen-image#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "qwen-image",
   "normalized_form": "qwen-image",

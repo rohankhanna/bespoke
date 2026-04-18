@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "tool-component",
     "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "memory-system",
+      "sense_id": "memory-system#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "memory-system",
   "normalized_form": "memory-system",

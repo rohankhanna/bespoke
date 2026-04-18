@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Address Sanitizer",
+      "sense_id": "address-sanitizer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "address-sanitizer",
+  "normalized_form": "address-sanitizer",
+  "observation_id": "0b55a51c1c3128fc",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:41:43.530265+00:00",
+  "observed_text": "Address Sanitizer",
+  "source_file": ".github/workflows/asan.yml",
+  "source_repo": "napi-rs/napi-rs"
+}

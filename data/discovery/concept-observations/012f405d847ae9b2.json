@@ -1,6 +1,18 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "tool-component"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component"
+      ],
+      "label": "clawdbot",
+      "sense_id": "clawdbot#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "clawdbot",
   "normalized_form": "clawdbot",

@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "tool-component",
     "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stripe-sdk",
+      "sense_id": "stripe-sdk#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "stripe-sdk",
   "normalized_form": "stripe-sdk",

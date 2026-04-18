@@ -1,0 +1,2228 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_publish.generated.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_publish.generated.yml"
+    },
+    {
+      "component": "denoland/setup-deno@667a34cdef165d8d2b2e98dde39547c9daac7282",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_publish.generated.yml"
+    },
+    {
+      "component": "actions/checkout@v6\",",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_publish.ts"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_publish.ts"
+    },
+    {
+      "component": "denoland/setup-deno@v2\",",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_publish.ts"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "denoland/setup-deno@667a34cdef165d8d2b2e98dde39547c9daac7282",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "denoland/setup-deno@667a34cdef165d8d2b2e98dde39547c9daac7282",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "denoland/setup-deno@667a34cdef165d8d2b2e98dde39547c9daac7282",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "denoland/setup-deno@667a34cdef165d8d2b2e98dde39547c9daac7282",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "denoland/setup-deno@667a34cdef165d8d2b2e98dde39547c9daac7282",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "denoland/setup-deno@667a34cdef165d8d2b2e98dde39547c9daac7282",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "denoland/setup-deno@667a34cdef165d8d2b2e98dde39547c9daac7282",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "denoland/setup-deno@667a34cdef165d8d2b2e98dde39547c9daac7282",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "azure/login@a457da9ea143d694b1b9c7c869ebb04ebe844ef5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "Azure/artifact-signing-action@1d365fec12862c4aa68fcac418143d73f0cea293",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "azure/login@a457da9ea143d694b1b9c7c869ebb04ebe844ef5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "Azure/artifact-signing-action@1d365fec12862c4aa68fcac418143d73f0cea293",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "denoland/setup-deno@667a34cdef165d8d2b2e98dde39547c9daac7282",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "denoland/setup-deno@667a34cdef165d8d2b2e98dde39547c9daac7282",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "denoland/setup-deno@667a34cdef165d8d2b2e98dde39547c9daac7282",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "cargo-bins/cargo-binstall@0b24824336e2b3800b0f89d9e08b2c08bfa3dcdd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@3c5f7ea28cd621ae0bf5283f0e981fb97b8a7af9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml"
+    },
+    {
+      "component": "actions/checkout@v6\",",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ts"
+    },
+    {
+      "component": "denoland/setup-deno@v2\",",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ts"
+    },
+    {
+      "component": "actions/setup-node@v6\",",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ts"
+    },
+    {
+      "component": "actions/cache/restore@v4\",",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ts"
+    },
+    {
+      "component": "actions/cache/save@v4\",",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ts"
+    },
+    {
+      "component": "dsherret/rust-toolchain-file@v1\",",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ts"
+    },
+    {
+      "component": "actions/setup-python@v6\",",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ts"
+    },
+    {
+      "component": "azure/login@v2\",",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ts"
+    },
+    {
+      "component": "Azure/artifact-signing-action@v0\",",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ts"
+    },
+    {
+      "component": "softprops/action-gh-release@v2\",",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ts"
+    },
+    {
+      "component": "actions/cache@v5\",",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ts"
+    },
+    {
+      "component": "actions/upload-artifact@v6\",",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ts"
+    },
+    {
+      "component": "cargo-bins/cargo-binstall@main\",",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ts"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master\",",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ts"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_prerelease_tag.generated.yml"
+    },
+    {
+      "component": "denoland/setup-deno@667a34cdef165d8d2b2e98dde39547c9daac7282",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_prerelease_tag.generated.yml"
+    },
+    {
+      "component": "actions/checkout@v6\",",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_prerelease_tag.ts"
+    },
+    {
+      "component": "denoland/setup-deno@v2\",",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_prerelease_tag.ts"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem_compat_test.generated.yml"
+    },
+    {
+      "component": "denoland/setup-deno@667a34cdef165d8d2b2e98dde39547c9daac7282",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem_compat_test.generated.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem_compat_test.generated.yml"
+    },
+    {
+      "component": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem_compat_test.generated.yml"
+    },
+    {
+      "component": "google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem_compat_test.generated.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem_compat_test.generated.yml"
+    },
+    {
+      "component": "denoland/setup-deno@667a34cdef165d8d2b2e98dde39547c9daac7282",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem_compat_test.generated.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem_compat_test.generated.yml"
+    },
+    {
+      "component": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem_compat_test.generated.yml"
+    },
+    {
+      "component": "google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem_compat_test.generated.yml"
+    },
+    {
+      "component": "actions/checkout@v6\",",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem_compat_test.ts"
+    },
+    {
+      "component": "denoland/setup-deno@v2\",",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem_compat_test.ts"
+    },
+    {
+      "component": "actions/setup-python@v6\",",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem_compat_test.ts"
+    },
+    {
+      "component": "google-github-actions/auth@v3\",",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem_compat_test.ts"
+    },
+    {
+      "component": "google-github-actions/setup-gcloud@v3\",",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem_compat_test.ts"
+    },
+    {
+      "component": "actions/checkout@v6\",",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem_compat_test.ts"
+    },
+    {
+      "component": "denoland/setup-deno@v2\",",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem_compat_test.ts"
+    },
+    {
+      "component": "actions/setup-python@v6\",",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem_compat_test.ts"
+    },
+    {
+      "component": "google-github-actions/auth@v3\",",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem_compat_test.ts"
+    },
+    {
+      "component": "google-github-actions/setup-gcloud@v3\",",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem_compat_test.ts"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "denoland/deno",
+      "target": "seanmonstar/reqwest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_publish.generated.yml",
+      "source_repo": "denoland/deno",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_publish.generated.yml",
+      "source_repo": "denoland/deno",
+      "target": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_publish.generated.yml",
+      "source_repo": "denoland/deno",
+      "target": "denoland/setup-deno@667a34cdef165d8d2b2e98dde39547c9daac7282",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_publish.ts",
+      "source_repo": "denoland/deno",
+      "target": "actions/checkout@v6\",",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_publish.ts",
+      "source_repo": "denoland/deno",
+      "target": "dsherret/rust-toolchain-file@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cargo_publish.ts",
+      "source_repo": "denoland/deno",
+      "target": "denoland/setup-deno@v2\",",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml",
+      "source_repo": "denoland/deno",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml",
+      "source_repo": "denoland/deno",
+      "target": "denoland/setup-deno@667a34cdef165d8d2b2e98dde39547c9daac7282",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml",
+      "source_repo": "denoland/deno",
+      "target": "actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml",
+      "source_repo": "denoland/deno",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml",
+      "source_repo": "denoland/deno",
+      "target": "dsherret/rust-toolchain-file@3551321aa44dd44a0393eb3b6bdfbc5d25ecf621",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml",
+      "source_repo": "denoland/deno",
+      "target": "actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml",
+      "source_repo": "denoland/deno",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml",
+      "source_repo": "denoland/deno",
+      "target": "actions/download-artifact@018cc2cf5baa6db3ef3c5f8a56943fffe632ef53",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml",
+      "source_repo": "denoland/deno",
+      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml",
+      "source_repo": "denoland/deno",
+      "target": "softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml",
+      "source_repo": "denoland/deno",
+      "target": "azure/login@a457da9ea143d694b1b9c7c869ebb04ebe844ef5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml",
+      "source_repo": "denoland/deno",
+      "target": "Azure/artifact-signing-action@1d365fec12862c4aa68fcac418143d73f0cea293",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml",
+      "source_repo": "denoland/deno",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml",
+      "source_repo": "denoland/deno",
+      "target": "cargo-bins/cargo-binstall@0b24824336e2b3800b0f89d9e08b2c08bfa3dcdd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.generated.yml",
+      "source_repo": "denoland/deno",
+      "target": "dtolnay/rust-toolchain@3c5f7ea28cd621ae0bf5283f0e981fb97b8a7af9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ts",
+      "source_repo": "denoland/deno",
+      "target": "actions/checkout@v6\",",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ts",
+      "source_repo": "denoland/deno",
+      "target": "denoland/setup-deno@v2\",",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ts",
+      "source_repo": "denoland/deno",
+      "target": "actions/setup-node@v6\",",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ts",
+      "source_repo": "denoland/deno",
+      "target": "actions/cache/restore@v4\",",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ts",
+      "source_repo": "denoland/deno",
+      "target": "actions/cache/save@v4\",",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ts",
+      "source_repo": "denoland/deno",
+      "target": "dsherret/rust-toolchain-file@v1\",",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ts",
+      "source_repo": "denoland/deno",
+      "target": "actions/setup-python@v6\",",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ts",
+      "source_repo": "denoland/deno",
+      "target": "azure/login@v2\",",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ts",
+      "source_repo": "denoland/deno",
+      "target": "Azure/artifact-signing-action@v0\",",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ts",
+      "source_repo": "denoland/deno",
+      "target": "softprops/action-gh-release@v2\",",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ts",
+      "source_repo": "denoland/deno",
+      "target": "actions/cache@v5\",",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ts",
+      "source_repo": "denoland/deno",
+      "target": "actions/upload-artifact@v6\",",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ts",
+      "source_repo": "denoland/deno",
+      "target": "cargo-bins/cargo-binstall@main\",",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.ts",
+      "source_repo": "denoland/deno",
+      "target": "dtolnay/rust-toolchain@master\",",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_prerelease_tag.generated.yml",
+      "source_repo": "denoland/deno",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_prerelease_tag.generated.yml",
+      "source_repo": "denoland/deno",
+      "target": "denoland/setup-deno@667a34cdef165d8d2b2e98dde39547c9daac7282",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_prerelease_tag.ts",
+      "source_repo": "denoland/deno",
+      "target": "actions/checkout@v6\",",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_prerelease_tag.ts",
+      "source_repo": "denoland/deno",
+      "target": "denoland/setup-deno@v2\",",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem_compat_test.generated.yml",
+      "source_repo": "denoland/deno",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem_compat_test.generated.yml",
+      "source_repo": "denoland/deno",
+      "target": "denoland/setup-deno@667a34cdef165d8d2b2e98dde39547c9daac7282",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem_compat_test.generated.yml",
+      "source_repo": "denoland/deno",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem_compat_test.generated.yml",
+      "source_repo": "denoland/deno",
+      "target": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem_compat_test.generated.yml",
+      "source_repo": "denoland/deno",
+      "target": "google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem_compat_test.ts",
+      "source_repo": "denoland/deno",
+      "target": "actions/checkout@v6\",",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem_compat_test.ts",
+      "source_repo": "denoland/deno",
+      "target": "denoland/setup-deno@v2\",",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem_compat_test.ts",
+      "source_repo": "denoland/deno",
+      "target": "actions/setup-python@v6\",",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem_compat_test.ts",
+      "source_repo": "denoland/deno",
+      "target": "google-github-actions/auth@v3\",",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem_compat_test.ts",
+      "source_repo": "denoland/deno",
+      "target": "google-github-actions/setup-gcloud@v3\",",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "denoland/deno",
+      "target": "deno",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "denoland/deno",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:42:35.623312+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3794
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 19447
+    },
+    {
+      "path": ".github/workflows/cargo_publish.generated.yml",
+      "size": 1746
+    },
+    {
+      "path": ".github/workflows/cargo_publish.ts",
+      "size": 2249
+    },
+    {
+      "path": ".github/workflows/ci.generated.yml",
+      "size": 316379
+    },
+    {
+      "path": ".github/workflows/ci.ts",
+      "size": 60814
+    },
+    {
+      "path": ".github/workflows/create_prerelease_tag.generated.yml",
+      "size": 1308
+    },
+    {
+      "path": ".github/workflows/create_prerelease_tag.ts",
+      "size": 1900
+    },
+    {
+      "path": ".github/workflows/ecosystem_compat_test.generated.yml",
+      "size": 3458
+    },
+    {
+      "path": ".github/workflows/ecosystem_compat_test.ts",
+      "size": 3825
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "A modern runtime for JavaScript and TypeScript.",
+    "full_name": "denoland/deno",
+    "html_url": "https://github.com/denoland/deno",
+    "language": "Rust",
+    "pushed_at": "2026-04-18T11:29:57Z",
+    "topics": [
+      "deno",
+      "javascript",
+      "rust",
+      "typescript"
+    ],
+    "updated_at": "2026-04-18T11:30:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "seanmonstar/reqwest",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deno"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

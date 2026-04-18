@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "workflow-process",
     "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "translator-path-guard",
+      "sense_id": "translator-path-guard#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "translator-path-guard",
   "normalized_form": "translator-path-guard",

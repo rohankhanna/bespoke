@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stable-diffusion",
+      "sense_id": "stable-diffusion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "stable-diffusion",
+  "normalized_form": "stable-diffusion",
+  "observation_id": "ce9b9e3110dfe501",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:41:43.530265+00:00",
+  "observed_text": "stable-diffusion",
+  "source_file": null,
+  "source_repo": "AUTOMATIC1111/stable-diffusion-webui"
+}

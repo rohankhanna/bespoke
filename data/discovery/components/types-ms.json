@@ -1,12 +1,17 @@
 {
   "component": "@types/ms",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-18T09:09:30.058377+00:00",
+  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "microsoft/TypeScript"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vadimdemedes/ink"
     }
   ]
 }

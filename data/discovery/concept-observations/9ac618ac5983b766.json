@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "workflow-process",
     "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Yolo Update Pins",
+      "sense_id": "yolo-update-pins#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "yolo-update-pins",
   "normalized_form": "yolo-update-pins",

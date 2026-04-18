@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@v7",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-18T11:32:22.637859+00:00",
+  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -112,6 +112,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/maturin.yml",
       "source_repo": "crate-ci/typos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "langchain-ai/langchainjs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/asan.yml",
+      "source_repo": "napi-rs/napi-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-release.yaml",
+      "source_repo": "napi-rs/napi-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/zig.yaml",
+      "source_repo": "napi-rs/napi-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml",
+      "source_repo": "svg/svgo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-report.yml",
+      "source_repo": "svg/svgo"
     }
   ]
 }

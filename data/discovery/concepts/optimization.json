@@ -1,0 +1,34 @@
+{
+  "aliases": [
+    "optimization"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "canonical_name": "optimization",
+  "concept_id": "optimization",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T11:41:43.530265+00:00",
+      "source_file": null,
+      "source_repo": "svg/svgo"
+    }
+  ],
+  "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
+  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "optimization",
+      "sense_id": "optimization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

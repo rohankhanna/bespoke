@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "tool-component",
     "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "llms",
+      "sense_id": "llms#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "llms",
   "normalized_form": "llms",

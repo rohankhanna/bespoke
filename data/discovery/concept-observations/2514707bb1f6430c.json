@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "workflow-process",
     "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "auto-retarget-main-pr-to-dev",
+      "sense_id": "auto-retarget-main-pr-to-dev#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "auto-retarget-main-pr-to-dev",
   "normalized_form": "auto-retarget-main-pr-to-dev",

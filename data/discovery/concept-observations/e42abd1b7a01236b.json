@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "tool-component",
     "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "volume-slider",
+      "sense_id": "volume-slider#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "volume-slider",
   "normalized_form": "volume-slider",

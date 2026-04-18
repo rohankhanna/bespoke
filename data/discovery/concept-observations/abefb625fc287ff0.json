@@ -1,6 +1,18 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "workflow-process"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process"
+      ],
+      "label": "Close stale contributor PRs",
+      "sense_id": "close-stale-contributor-prs#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "close-stale-contributor-prs",
   "normalized_form": "close-stale-contributor-prs",

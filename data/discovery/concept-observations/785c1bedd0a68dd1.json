@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "tool-component",
     "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ai-act",
+      "sense_id": "ai-act#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "ai-act",
   "normalized_form": "ai-act",

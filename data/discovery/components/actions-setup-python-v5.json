@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v5",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -447,6 +447,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish_aiss.yml",
       "source_repo": "PiQrypt/aiss-standard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml",
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui"
     }
   ]
 }

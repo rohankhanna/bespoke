@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "node-api",
+      "sense_id": "node-api#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "node-api",
+  "normalized_form": "node-api",
+  "observation_id": "50e7b0c56d14c23e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:41:43.530265+00:00",
+  "observed_text": "node-api",
+  "source_file": null,
+  "source_repo": "napi-rs/napi-rs"
+}

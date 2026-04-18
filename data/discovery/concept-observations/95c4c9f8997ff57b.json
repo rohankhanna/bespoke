@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "workflow-process",
     "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update token count",
+      "sense_id": "update-token-count#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "update-token-count",
   "normalized_form": "update-token-count",

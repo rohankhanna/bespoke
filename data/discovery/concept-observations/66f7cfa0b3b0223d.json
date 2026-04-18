@@ -1,6 +1,18 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "tool-component"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component"
+      ],
+      "label": "karpathy",
+      "sense_id": "karpathy#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "karpathy",
   "normalized_form": "karpathy",

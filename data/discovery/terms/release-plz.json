@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-04-18T11:32:22.637859+00:00",
+  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -11,6 +11,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/release-plz.yml",
       "source_repo": "cargo-bins/cargo-binstall"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release-crates.yml",
+      "source_repo": "napi-rs/napi-rs"
     }
   ],
   "term": "Release-plz"

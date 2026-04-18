@@ -1,106 +1,6 @@
 {
-  "generated_at": "2026-04-18T11:32:22.637859+00:00",
+  "generated_at": "2026-04-18T11:41:43.530265+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lobehub/lobe-editor",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "novicezk/midjourney-proxy",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "danielmiessler/fabric",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lobehub/chat-plugin-realtime-weather",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lobehub/chat-plugin-search-engine",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lobehub/chat-plugin-web-crawler",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "automatic1111/stable-diffusion-webui",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "gerschel/sd-web-ui-quickcss",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lobehub/lobe-assets",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "hwchase17/langchainjs",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "vadimdemedes/ink",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "arvinxx/lobe-plugin-tikzjax",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ccdanpian/current-datetime",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "fatwang2/search1api-lobechat",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "finehow/bingsearch-plugin",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "denoland/deno",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "napi-rs/napi-rs",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "razrfalcon/resvg",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "svg/svgo",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "flinedev/customstatusline",
-      "graph_distance": 3
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "flinedev/recall",
@@ -1415,6 +1315,106 @@
       "discovered_via": "explicit-github-link",
       "full_name": "tremorlabs/tremor",
       "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "calcium-ion/new-api",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "connectai-e/midjourney-web",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "deeptrain-community/chatnio",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dooy/chatgpt-web-midjourney-proxy",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ksylvan/fabric",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aminrezaei0x443/memory-efficient-attention",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "automatic1111/stable-diffusion-webui-aesthetic-gradients",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "basujindal/stable-diffusion",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "birch-san/diffusers",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ikki2000/harmonyos-fonts",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "langchain-ai/.github",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "seanmonstar/reqwest",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "atom/xray",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "infinyon/node-bindgen",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "napi-rs/node-rs",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "napi-rs/package-template",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "google/skia",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "harfbuzz/harfbuzz",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "harfbuzz/rustybuzz",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "harfbuzz/ttf-parser",
+      "graph_distance": 4
     }
   ],
   "processed": [
@@ -1897,6 +1897,26 @@
     "crate-ci/typos",
     "microsoft/typescript-go",
     "lobehub/lobe-vidol",
-    "lobehub/lobe-charts"
+    "lobehub/lobe-charts",
+    "lobehub/lobe-editor",
+    "novicezk/midjourney-proxy",
+    "danielmiessler/fabric",
+    "lobehub/chat-plugin-realtime-weather",
+    "lobehub/chat-plugin-search-engine",
+    "lobehub/chat-plugin-web-crawler",
+    "automatic1111/stable-diffusion-webui",
+    "gerschel/sd-web-ui-quickcss",
+    "lobehub/lobe-assets",
+    "langchain-ai/langchainjs",
+    "vadimdemedes/ink",
+    "arvinxx/lobe-plugin-tikzjax",
+    "ccdanpian/current-datetime",
+    "fatwang2/search1api-lobechat",
+    "finehow/bingsearch-plugin",
+    "denoland/deno",
+    "napi-rs/napi-rs",
+    "linebender/resvg",
+    "svg/svgo",
+    "flinedev/customstatusline"
   ]
 }

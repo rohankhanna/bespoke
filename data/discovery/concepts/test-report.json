@@ -1,0 +1,34 @@
+{
+  "aliases": [
+    "Test Report"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "Test Report",
+  "concept_id": "test-report",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T11:41:43.530265+00:00",
+      "source_file": ".github/workflows/test-report.yml",
+      "source_repo": "svg/svgo"
+    }
+  ],
+  "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
+  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Report",
+      "sense_id": "test-report#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

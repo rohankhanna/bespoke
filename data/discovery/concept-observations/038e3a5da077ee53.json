@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "tool-component",
     "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "long-term-memory",
+      "sense_id": "long-term-memory#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "long-term-memory",
   "normalized_form": "long-term-memory",

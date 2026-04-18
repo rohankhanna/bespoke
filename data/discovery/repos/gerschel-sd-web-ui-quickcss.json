@@ -1,0 +1,66 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "sangonzal/repository-traffic-action@v.0.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Gerschel/sd-web-ui-quickcss",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Gerschel/sd-web-ui-quickcss",
+      "target": "sangonzal/repository-traffic-action@v.0.1.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Gerschel/sd-web-ui-quickcss",
+      "target": "EndBug/add-and-commit@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:42:16.361070+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6587
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 962
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "I just setup a quick css apply using the style here https://github.com/AUTOMATIC1111/stable-diffusion-webui/discussions/5813 This is a tool for designers to worry more about designing their css, rather than worry about how to manage them for sd-web-ui",
+    "full_name": "Gerschel/sd-web-ui-quickcss",
+    "html_url": "https://github.com/Gerschel/sd-web-ui-quickcss",
+    "language": "CSS",
+    "pushed_at": "2024-02-11T23:58:35Z",
+    "topics": [],
+    "updated_at": "2026-01-12T06:32:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

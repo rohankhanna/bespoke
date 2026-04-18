@@ -1,0 +1,34 @@
+{
+  "aliases": [
+    "Test & Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "Test & Release",
+  "concept_id": "test-release",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T11:41:43.530265+00:00",
+      "source_file": ".github/workflows/test-release.yaml",
+      "source_repo": "napi-rs/napi-rs"
+    }
+  ],
+  "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
+  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test & Release",
+      "sense_id": "test-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

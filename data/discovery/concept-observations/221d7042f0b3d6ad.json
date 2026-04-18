@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "workflow-process",
     "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "libp2p holepunching interop test",
+      "sense_id": "libp2p-holepunching-interop-test#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "libp2p-holepunching-interop-test",
   "normalized_form": "libp2p-holepunching-interop-test",

@@ -1,0 +1,106 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "novicezk/midjourney-proxy",
+      "target": "dooy/chatgpt-web-midjourney-proxy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "novicezk/midjourney-proxy",
+      "target": "deeptrain-community/chatnio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "novicezk/midjourney-proxy",
+      "target": "calcium-ion/new-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "novicezk/midjourney-proxy",
+      "target": "connectai-e/midjourney-web",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "novicezk/midjourney-proxy",
+      "target": "midjourney",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "novicezk/midjourney-proxy",
+      "target": "midjourney-api",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:41:51.124129+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3651
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1106
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "\u4ee3\u7406 MidJourney \u7684discord\u9891\u9053\uff0c\u5b9e\u73b0api\u5f62\u5f0f\u8c03\u7528AI\u7ed8\u56fe",
+    "full_name": "novicezk/midjourney-proxy",
+    "html_url": "https://github.com/novicezk/midjourney-proxy",
+    "language": "Java",
+    "pushed_at": "2025-08-03T07:41:19Z",
+    "topics": [
+      "midjourney",
+      "midjourney-api"
+    ],
+    "updated_at": "2026-04-17T13:33:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "calcium-ion/new-api",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "connectai-e/midjourney-web",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deeptrain-community/chatnio",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dooy/chatgpt-web-midjourney-proxy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midjourney"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midjourney-api"
+    }
+  ]
+}

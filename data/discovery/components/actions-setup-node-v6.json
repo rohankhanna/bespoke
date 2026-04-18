@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v6",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -182,6 +182,56 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci-release.yml",
       "source_repo": "prehisle/relay-pulse"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vadimdemedes/ink"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.ts",
+      "source_repo": "denoland/deno"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/asan.yml",
+      "source_repo": "napi-rs/napi-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/memory-test.yml",
+      "source_repo": "napi-rs/napi-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-release.yaml",
+      "source_repo": "napi-rs/napi-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/zig.yaml",
+      "source_repo": "napi-rs/napi-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "svg/svgo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "svg/svgo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/regression.yml",
+      "source_repo": "svg/svgo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-report.yml",
+      "source_repo": "svg/svgo"
     }
   ]
 }

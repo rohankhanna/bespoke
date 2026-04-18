@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "tool-component",
     "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cross-encoder",
+      "sense_id": "cross-encoder#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "cross-encoder",
   "normalized_form": "cross-encoder",

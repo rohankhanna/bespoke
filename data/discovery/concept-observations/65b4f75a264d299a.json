@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "workflow-process",
     "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PyO3-Wheels",
+      "sense_id": "pyo3-wheels#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "pyo3-wheels",
   "normalized_form": "pyo3-wheels",

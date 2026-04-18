@@ -1,0 +1,309 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "crate-ci/typos@v1.28.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagged-release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagged-release.yml"
+    },
+    {
+      "component": "battila7/get-version-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagged-release.yml"
+    },
+    {
+      "component": "alexellis/upload-assets@0.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagged-release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagged-release.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagged-release.yml"
+    },
+    {
+      "component": "alexellis/upload-assets@0.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagged-release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagged-release.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagged-release.yml"
+    },
+    {
+      "component": "alexellis/upload-assets@0.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagged-release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagged-release.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagged-release.yml"
+    },
+    {
+      "component": "alexellis/upload-assets@0.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagged-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "linebender/resvg",
+      "target": "google/skia",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "linebender/resvg",
+      "target": "harfbuzz/harfbuzz",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "linebender/resvg",
+      "target": "harfbuzz/rustybuzz",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "linebender/resvg",
+      "target": "harfbuzz/ttf-parser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "linebender/resvg",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "linebender/resvg",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "linebender/resvg",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "linebender/resvg",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "linebender/resvg",
+      "target": "crate-ci/typos@v1.28.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "linebender/resvg",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagged-release.yml",
+      "source_repo": "linebender/resvg",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagged-release.yml",
+      "source_repo": "linebender/resvg",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagged-release.yml",
+      "source_repo": "linebender/resvg",
+      "target": "battila7/get-version-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagged-release.yml",
+      "source_repo": "linebender/resvg",
+      "target": "alexellis/upload-assets@0.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagged-release.yml",
+      "source_repo": "linebender/resvg",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tagged-release.yml",
+      "source_repo": "linebender/resvg",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tagged-release.yml",
+      "source_repo": "linebender/resvg",
+      "target": "Tagged Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "linebender/resvg",
+      "target": "render",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:42:46.086579+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7378
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 248
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2527
+    },
+    {
+      "path": ".github/workflows/tagged-release.yml",
+      "size": 6657
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "An SVG rendering library.",
+    "full_name": "linebender/resvg",
+    "html_url": "https://github.com/linebender/resvg",
+    "language": "Rust",
+    "pushed_at": "2026-04-09T18:28:45Z",
+    "topics": [
+      "render",
+      "svg"
+    ],
+    "updated_at": "2026-04-18T07:36:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/skia",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "harfbuzz/harfbuzz",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "harfbuzz/rustybuzz",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "harfbuzz/ttf-parser",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Build"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tagged-release.yml",
+      "term": "Tagged Release"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "render"
+    }
+  ]
+}

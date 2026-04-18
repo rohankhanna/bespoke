@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "tool-component",
     "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "swift",
+      "sense_id": "swift#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "swift",
   "normalized_form": "swift",

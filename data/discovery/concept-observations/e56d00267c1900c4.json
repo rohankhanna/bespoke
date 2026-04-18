@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "tool-component",
     "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vector-database",
+      "sense_id": "vector-database#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "vector-database",
   "normalized_form": "vector-database",

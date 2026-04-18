@@ -1,0 +1,34 @@
+{
+  "aliases": [
+    "Pull requests can't target master branch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "Pull requests can't target master branch",
+  "concept_id": "pull-requests-can-t-target-master-branch",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T11:41:43.530265+00:00",
+      "source_file": ".github/workflows/warns_merge_master.yml",
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui"
+    }
+  ],
+  "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
+  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pull requests can't target master branch",
+      "sense_id": "pull-requests-can-t-target-master-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,6 +1,18 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "tool-component"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component"
+      ],
+      "label": "pull-requests",
+      "sense_id": "pull-requests#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "pull-requests",
   "normalized_form": "pull-requests",

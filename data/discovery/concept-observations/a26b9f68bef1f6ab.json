@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "tool-component",
     "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multi-agent-systems",
+      "sense_id": "multi-agent-systems#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "multi-agent-systems",
   "normalized_form": "multi-agent-systems",

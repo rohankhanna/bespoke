@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lobe-chat-plugin",
+      "sense_id": "lobe-chat-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "lobe-chat-plugin",
+  "normalized_form": "lobe-chat-plugin",
+  "observation_id": "7d2e71fe32352b32",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:41:43.530265+00:00",
+  "observed_text": "lobe-chat-plugin",
+  "source_file": null,
+  "source_repo": "lobehub/chat-plugin-search-engine"
+}

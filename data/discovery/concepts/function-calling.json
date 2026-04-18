@@ -1,0 +1,46 @@
+{
+  "aliases": [
+    "function-calling"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "canonical_name": "function-calling",
+  "concept_id": "function-calling",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T11:41:43.530265+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/chat-plugin-realtime-weather"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T11:41:43.530265+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/chat-plugin-search-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T11:41:43.530265+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/chat-plugin-web-crawler"
+    }
+  ],
+  "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
+  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "function-calling",
+      "sense_id": "function-calling#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

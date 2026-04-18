@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "tool-component",
     "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "j2cl",
+      "sense_id": "j2cl#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "j2cl",
   "normalized_form": "j2cl",

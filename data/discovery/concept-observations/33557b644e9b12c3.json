@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "tool-component",
     "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "continuity-ai",
+      "sense_id": "continuity-ai#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "continuity-ai",
   "normalized_form": "continuity-ai",

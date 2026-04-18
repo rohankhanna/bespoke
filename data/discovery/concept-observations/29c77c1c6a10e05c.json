@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "work",
+      "sense_id": "work#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "work",
+  "normalized_form": "work",
+  "observation_id": "29c77c1c6a10e05c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:41:43.530265+00:00",
+  "observed_text": "work",
+  "source_file": null,
+  "source_repo": "danielmiessler/Fabric"
+}

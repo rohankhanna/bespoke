@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "tool-component",
     "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "claude-3-5-sonnet",
+      "sense_id": "claude-3-5-sonnet#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "claude-3-5-sonnet",
   "normalized_form": "claude-3-5-sonnet",

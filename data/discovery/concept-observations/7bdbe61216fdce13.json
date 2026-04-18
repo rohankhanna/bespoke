@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release CI",
+      "sense_id": "release-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "release-ci",
+  "normalized_form": "release-ci",
+  "observation_id": "7bdbe61216fdce13",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:41:43.530265+00:00",
+  "observed_text": "Release CI",
+  "source_file": ".github/workflows/release.yml",
+  "source_repo": "ccdanpian/current-datetime"
+}

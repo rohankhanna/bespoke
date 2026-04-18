@@ -1,6 +1,18 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "tool-component"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component"
+      ],
+      "label": "cursor",
+      "sense_id": "cursor#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "cursor",
   "normalized_form": "cursor",

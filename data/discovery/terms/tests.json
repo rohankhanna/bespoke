@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T09:22:19.136418+00:00",
+  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -46,6 +46,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/run-tests.yml",
       "source_repo": "beyondcode/claude-hooks-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui"
     }
   ],
   "term": "Tests"

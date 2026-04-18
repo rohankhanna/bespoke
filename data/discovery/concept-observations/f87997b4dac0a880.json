@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "workflow-process",
     "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Gossipsub Interoperability Tests (PR)",
+      "sense_id": "gossipsub-interoperability-tests-pr#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "gossipsub-interoperability-tests-pr",
   "normalized_form": "gossipsub-interoperability-tests-pr",

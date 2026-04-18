@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "workflow-process",
     "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bot Cherry Pick to Release Branch",
+      "sense_id": "bot-cherry-pick-to-release-branch#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "bot-cherry-pick-to-release-branch",
   "normalized_form": "bot-cherry-pick-to-release-branch",

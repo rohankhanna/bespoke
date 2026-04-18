@@ -1,0 +1,27 @@
+{
+  "component": "denoland/setup-deno@v2\",",
+  "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
+  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cargo_publish.ts",
+      "source_repo": "denoland/deno"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.ts",
+      "source_repo": "denoland/deno"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create_prerelease_tag.ts",
+      "source_repo": "denoland/deno"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ecosystem_compat_test.ts",
+      "source_repo": "denoland/deno"
+    }
+  ]
+}

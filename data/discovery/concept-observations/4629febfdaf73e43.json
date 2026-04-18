@@ -1,6 +1,18 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "tool-component"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component"
+      ],
+      "label": "vector-search",
+      "sense_id": "vector-search#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "vector-search",
   "normalized_form": "vector-search",

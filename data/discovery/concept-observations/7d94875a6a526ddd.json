@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "upscaling",
+      "sense_id": "upscaling#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "upscaling",
+  "normalized_form": "upscaling",
+  "observation_id": "7d94875a6a526ddd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:41:43.530265+00:00",
+  "observed_text": "upscaling",
+  "source_file": null,
+  "source_repo": "AUTOMATIC1111/stable-diffusion-webui"
+}

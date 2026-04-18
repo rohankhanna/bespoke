@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "workflow-process",
     "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bot Bump Kernel Version to SGLang",
+      "sense_id": "bot-bump-kernel-version-to-sglang#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "bot-bump-kernel-version-to-sglang",
   "normalized_form": "bot-bump-kernel-version-to-sglang",

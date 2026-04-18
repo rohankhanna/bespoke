@@ -1,6 +1,18 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "tool-component"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component"
+      ],
+      "label": "knowledge-base",
+      "sense_id": "knowledge-base#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "knowledge-base",
   "normalized_form": "knowledge-base",

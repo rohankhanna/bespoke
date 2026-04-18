@@ -1,6 +1,18 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "workflow-process"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process"
+      ],
+      "label": "sync2gitee",
+      "sense_id": "sync2gitee#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "sync2gitee",
   "normalized_form": "sync2gitee",

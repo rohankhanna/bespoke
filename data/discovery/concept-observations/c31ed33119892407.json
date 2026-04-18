@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "tool-component",
     "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "k8s-sig-architecture",
+      "sense_id": "k8s-sig-architecture#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "k8s-sig-architecture",
   "normalized_form": "k8s-sig-architecture",

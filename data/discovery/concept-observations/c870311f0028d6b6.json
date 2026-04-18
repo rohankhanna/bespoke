@@ -1,6 +1,18 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "tool-component"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component"
+      ],
+      "label": "deepseek-r1",
+      "sense_id": "deepseek-r1#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "deepseek-r1",
   "normalized_form": "deepseek-r1",

@@ -1,7 +1,20 @@
 {
+  "ambiguity_status": "unresolved",
   "candidate_buckets": [
     "tool-component",
     "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "llm-agent",
+      "sense_id": "llm-agent#sense-1",
+      "status": "candidate"
+    }
   ],
   "concept_id": "llm-agent",
   "normalized_form": "llm-agent",
