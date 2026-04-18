@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/claude-pro-recharge",
+      "target": "aitooools/aitooools.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/claude-pro-recharge",
+      "target": "aitooools/claude-pro-hezu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/claude-pro-recharge",
+      "target": "aitooools/nf-video",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-18T04:44:35.382612+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8603
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "2026\u5e74\u6700\u9760\u8c31\u7684Claude Pro\u4ee3\u5145\u503c\u5e73\u53f0\u63a8\u8350\uff01\u63d0\u4f9b\u5168\u7a0b\u8d28\u4fdd\uff0c\u652f\u6301\u5f00\u5177\u53d1\u7968\uff01",
+    "full_name": "aitooools/claude-pro-recharge",
+    "html_url": "https://github.com/aitooools/claude-pro-recharge",
+    "language": null,
+    "pushed_at": "2026-04-17T13:51:14Z",
+    "topics": [
+      "claude",
+      "claude-3",
+      "claude-3-5-sonnet",
+      "claude-3-opus",
+      "claude-3-sonnet",
+      "claude-4",
+      "claude-4-opus",
+      "claude-4-sonnet",
+      "claude-ai",
+      "claude-api",
+      "claude-pro",
+      "claude2",
+      "claude3"
+    ],
+    "updated_at": "2026-04-17T14:04:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/aitooools.github.io",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/claude-pro-hezu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/nf-video",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

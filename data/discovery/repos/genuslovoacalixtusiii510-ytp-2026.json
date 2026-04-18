@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-18T04:45:00.617637+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Build YTP-2026 with tools and resources for planning, tracking, and managing 2026 project work efficiently",
+    "full_name": "genuslovoacalixtusiii510/YTP-2026",
+    "html_url": "https://github.com/genuslovoacalixtusiii510/YTP-2026",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-18T04:38:47Z",
+    "topics": [
+      "astronomy",
+      "astrophysics",
+      "cli",
+      "data",
+      "data-visualization",
+      "ios",
+      "jailbreak",
+      "nuclear-engineering",
+      "python",
+      "scientific-computing",
+      "sponsorblock",
+      "tweak",
+      "tweaks",
+      "video",
+      "visualization",
+      "youtube",
+      "youtube-dl",
+      "youtube-downloader",
+      "yt-dlp",
+      "ytlite"
+    ],
+    "updated_at": "2026-04-18T04:38:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

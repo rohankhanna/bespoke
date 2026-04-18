@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/claude-pro-hezu",
+      "target": "aitooools/aitooools.github.io",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-18T04:44:33.621188+00:00",
+  "source_repo": "aitooools/claude-pro-hezu"
+}

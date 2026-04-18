@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "AdamMes/voyanode",
+      "target": "voyanode-index",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "AdamMes/voyanode",
+      "target": "with the required k-NN settings.",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "AdamMes/voyanode",
+      "target": "The UI will be accessible at",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "AdamMes/voyanode",
+      "target": "t3.medium",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T04:44:33.621188+00:00",
+  "source_repo": "AdamMes/voyanode"
+}

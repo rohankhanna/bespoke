@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/nf-video",
+      "target": "aitooools/aitooools.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/nf-video",
+      "target": "aitooools/claude-pro-hezu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/nf-video",
+      "target": "aitooools/midjourney-hezu",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-18T04:44:33.621188+00:00",
+  "source_repo": "aitooools/nf-video"
+}

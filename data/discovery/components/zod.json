@@ -1,7 +1,7 @@
 {
   "component": "zod",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T04:38:51.315908+00:00",
+  "last_seen_at": "2026-04-18T04:44:33.621188+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -47,6 +47,26 @@
       "discovered_via": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "anojndr/grok-to-openai"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "fekkak1998/scira"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Saminiscool/twitter-ai-agent"
     }
   ]
 }

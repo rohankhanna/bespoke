@@ -1,0 +1,1623 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "zsio/claude-code-hub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "router-for-me/cliproxyapi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "prehisle/relay-pulse",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "\u6216\u8005\u4f7f\u7528 wget\uff1a",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "**Windows (PowerShell \u7ba1\u7406\u5458\u6a21\u5f0f):**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "**\u90e8\u7f72\u76ee\u5f55\uff1a** - Linux:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "**\u5206\u652f\u9009\u62e9\uff1a** \u811a\u672c\u4f1a\u63d0\u793a\u9009\u62e9\u90e8\u7f72\u5206\u652f\uff1a -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "\uff08\u9ed8\u8ba4\uff09\uff1a\u7a33\u5b9a\u7248\u672c\uff0c\u63a8\u8350\u751f\u4ea7\u73af\u5883\u4f7f\u7528 -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "2. **\u4fee\u6539\u914d\u7f6e\u6587\u4ef6** \u7f16\u8f91",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "\u6587\u4ef6\uff0c**\u5fc5\u987b\u4fee\u6539**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "\uff08\u540e\u53f0\u767b\u5f55\u4ee4\u724c\uff09\uff1a",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "3. **\u542f\u52a8\u670d\u52a1**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "bash docker compose up -d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "\u67e5\u770b\u542f\u52a8\u72b6\u6001\uff1a",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "### \u8bbf\u95ee\u5e94\u7528 \u542f\u52a8\u6210\u529f\u540e\uff1a - **\u7ba1\u7406\u540e\u53f0**\uff1a",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "\uff08\u4f7f\u7528",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "\u767b\u5f55\uff09 - **API \u6587\u6863\uff08Scalar UI\uff09**\uff1a",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "docker-compose.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "ports",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "ProxyAuthenticator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "SessionManager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "RateLimitService",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "ProviderResolver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "ProxyForwarder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "ProxyResponseHandler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "repository",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "DSN",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "REDIS_URL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "3. \u67e5\u770b\u65e5\u5fd7\u4e0e\u72b6\u6001\uff1a",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "4. \u5347\u7ea7\uff1a",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "\u82e5\u9700\u505c\u6b62\u5e76\u6e05\u7406\uff0c\u6267\u884c",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "\u76ee\u5f55\uff1a",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "\uff1a\u4ec5\u542f\u52a8\u6570\u636e\u5e93\u4e0e Redis -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "\uff1a\u5feb\u901f\u67e5\u770b\u670d\u52a1\u65e5\u5fd7 -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "\uff1a\u6e05\u7406\u6216\u91cd\u7f6e\u73af\u5883 4. \u63a8\u8350\u4f7f\u7528",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "make db-shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "bash bun run start",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "4. \u6ce8\u610f\uff1a\u9996\u6b21\u8fd0\u884c\u53ef\u5f00\u542f",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "\u81ea\u52a8\u8fc1\u79fb\uff0c\u751f\u4ea7\u73af\u5883\u5b8c\u6210\u540e\u5efa\u8bae\u6539\u4e3a",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "ADMIN_TOKEN",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "change-me",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "DB_POOL_MAX",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "max_connections",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "DB_POOL_IDLE_TIMEOUT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "DB_POOL_CONNECT_TIMEOUT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "MESSAGE_REQUEST_WRITE_MODE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "async",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "MESSAGE_REQUEST_ASYNC_FLUSH_INTERVAL_MS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "250",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "MESSAGE_REQUEST_ASYNC_BATCH_SIZE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "200",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "MESSAGE_REQUEST_ASYNC_MAX_PENDING",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "5000",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "AUTO_MIGRATE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "true",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "REDIS_TLS_REJECT_UNAUTHORIZED",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "false",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "ENABLE_RATE_LIMIT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "ENABLE_API_KEY_VACUUM_FILTER",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "ENABLE_API_KEY_REDIS_CACHE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "API_KEY_AUTH_CACHE_TTL_SECONDS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "SESSION_TTL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "300",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "ENABLE_SECURE_COOKIES",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "ENABLE_CIRCUIT_BREAKER_ON_NETWORK_ERRORS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "APP_PORT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "23000",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "APP_URL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "servers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "API_TEST_TIMEOUT_MS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "15000",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "postgres:5432",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "docker compose ps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "proxy_fallback_to_direct",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@bull-board/api",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@bull-board/express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@hono/swagger-ui",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@hono/zod-openapi",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@hookform/resolvers",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@iarna/toml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@langfuse/client",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@langfuse/otel",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@langfuse/tracing",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@lobehub/icons",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@opentelemetry/sdk-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@radix-ui/react-alert-dialog",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@radix-ui/react-avatar",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@radix-ui/react-checkbox",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@radix-ui/react-collapsible",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@radix-ui/react-dialog",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@radix-ui/react-dropdown-menu",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@radix-ui/react-label",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@radix-ui/react-popover",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@radix-ui/react-progress",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@radix-ui/react-scroll-area",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@radix-ui/react-select",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@radix-ui/react-slider",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@radix-ui/react-slot",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@radix-ui/react-switch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@radix-ui/react-tabs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@radix-ui/react-tooltip",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@scalar/hono-api-reference",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@tanstack/react-query",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@tanstack/react-virtual",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@tanstack/virtual-core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "agentation",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "antd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "bull",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "class-variance-authority",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "clsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "cmdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "date-fns",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "date-fns-tz",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "decimal.js-light",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "dotenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "drizzle-orm",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "fetch-socks",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "framer-motion",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "hono",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "html2canvas",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "ioredis",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "jspdf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "lucide-react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "next",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "next-intl",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "next-themes",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "pino",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "pino-pretty",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "postgres",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "react-day-picker",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "react-hook-form",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "react-syntax-highlighter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "recharts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "safe-regex",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "server-only",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "sonner",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "tailwind-merge",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "timeago.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "tw-animate-css",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "undici",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "vaul",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "zod",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@biomejs/biome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@tailwindcss/postcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@types/ioredis",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@types/pg",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@types/react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@types/react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@types/react-syntax-highlighter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@typescript/native-preview",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@vitest/coverage-v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "@vitest/ui",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "bun-types",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "drizzle-kit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "happy-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "tailwindcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-ci-autofix.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-ci-autofix.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-ci-autofix.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-ci-autofix.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "Claude CI Auto-Fix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-ci-autofix.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "### Phase 2: Rebase Attempt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-ci-autofix.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "bash git status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-ci-autofix.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "VERSION",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-ci-autofix.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "package.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-ci-autofix.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "bun.lockb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-ci-autofix.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "package-lock.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-ci-autofix.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "### Phase 5: Push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-ci-autofix.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "Expected indentation of X spaces",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-ci-autofix.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "bun run lint:fix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-ci-autofix.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "Missing semicolon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-ci-autofix.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "Strings must use doublequote",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-ci-autofix.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "X' is defined but never used",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-ci-autofix.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "X' is declared but never used",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-ci-autofix.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "Delete \\",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-ci-autofix.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "### Phase 4: Verification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-ci-autofix.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "bun run typecheck\\",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-ci-autofix.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "bun run lint\\",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-ci-autofix.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "**For non-PR branch (hasPR = false):**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-auto-response.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-auto-response.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-auto-response.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-issue-auto-response.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "Claude Issue Auto Response (Fallback)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-issue-auto-response.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "**If the issue has",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-issue-auto-response.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "### Phase 7: Post Response",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-duplicate-check.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-duplicate-check.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-issue-duplicate-check.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "Claude Issue Duplicate Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-issue-duplicate-check.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "2. Post a helpful comment:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-issue-duplicate-check.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "3. Close the issue:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-oncall-triage.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-oncall-triage.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-issue-oncall-triage.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "Claude Oncall Issue Triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-stale-cleanup.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-stale-cleanup.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-issue-stale-cleanup.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "Claude Issue Stale Cleanup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "Claude Issue Triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "bug",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "feature-request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "question",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "enhancement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "P1-critical",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "P2-high",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "P3-medium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "P4-low",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "auth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "proxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "config",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "good-first-issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "help-wanted",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "needs-info",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "duplicate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-mention-responder.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-mention-responder.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-mention-responder.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "Claude Mention Responder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-mention-responder.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-mention-responder.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-mention-responder.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "2. Provide a helpful response:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-mention-responder.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "**Response Format**:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-mention-responder.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "**Commit and Push**:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-mention-responder.yml",
+      "source_repo": "ding113/claude-code-hub",
+      "target": "**Post Confirmation**:",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T04:44:33.621188+00:00",
+  "source_repo": "ding113/claude-code-hub"
+}

@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-18T04:44:33.621188+00:00",
+  "last_seen_at": "2026-04-18T04:44:33.621188+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/bounty-bot.yml",
+      "source_repo": "archestra-ai/archestra"
+    }
+  ],
+  "term": "Bounty Bot"
+}

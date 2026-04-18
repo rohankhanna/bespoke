@@ -1,0 +1,294 @@
+{
+  "components": [
+    {
+      "component": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-archestra-banner.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bounty-bot.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bounty-bot.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-base-mcp-server-docker-image.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-base-mcp-server-docker-image.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-native-multi-arch-image.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-native-multi-arch-image.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-coreteam-mentions-shared.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-coreteam-review-shared.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "archestra-ai/archestra",
+      "target": "archestra-ai/terraform-provider-archestra",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-archestra-banner.yml",
+      "source_repo": "archestra-ai/archestra",
+      "target": "actions/create-github-app-token@1b10c78c7865c340bc4f6099eb2f838309f1e8c3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bounty-bot.yml",
+      "source_repo": "archestra-ai/archestra",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bounty-bot.yml",
+      "source_repo": "archestra-ai/archestra",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bounty-bot.yml",
+      "source_repo": "archestra-ai/archestra",
+      "target": "Bounty Bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-base-mcp-server-docker-image.yml",
+      "source_repo": "archestra-ai/archestra",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-base-mcp-server-docker-image.yml",
+      "source_repo": "archestra-ai/archestra",
+      "target": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-base-mcp-server-docker-image.yml",
+      "source_repo": "archestra-ai/archestra",
+      "target": "Build MCP Server Base Docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-dockerhub-image.yml",
+      "source_repo": "archestra-ai/archestra",
+      "target": "Build Docker Hub image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-native-multi-arch-image.yml",
+      "source_repo": "archestra-ai/archestra",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-native-multi-arch-image.yml",
+      "source_repo": "archestra-ai/archestra",
+      "target": "Build Native Multi-Arch Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-coreteam-mentions-shared.yml",
+      "source_repo": "archestra-ai/archestra",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-coreteam-mentions-shared.yml",
+      "source_repo": "archestra-ai/archestra",
+      "target": "Claude Core Team Mentions (Shared)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-coreteam-mentions.yml",
+      "source_repo": "archestra-ai/archestra",
+      "target": "Claude Core Team Mentions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-coreteam-review-shared.yml",
+      "source_repo": "archestra-ai/archestra",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-coreteam-review-shared.yml",
+      "source_repo": "archestra-ai/archestra",
+      "target": "Claude Core Team Review (Shared)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-coreteam-review.yml",
+      "source_repo": "archestra-ai/archestra",
+      "target": "Claude Core Team Review",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T04:44:54.992596+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7406
+    },
+    {
+      "path": ".github/workflows/add-archestra-banner.yml",
+      "size": 1969
+    },
+    {
+      "path": ".github/workflows/bounty-bot.yml",
+      "size": 2330
+    },
+    {
+      "path": ".github/workflows/build-base-mcp-server-docker-image.yml",
+      "size": 2560
+    },
+    {
+      "path": ".github/workflows/build-dockerhub-image.yml",
+      "size": 2317
+    },
+    {
+      "path": ".github/workflows/build-native-multi-arch-image.yml",
+      "size": 7575
+    },
+    {
+      "path": ".github/workflows/claude-coreteam-mentions-shared.yml",
+      "size": 2226
+    },
+    {
+      "path": ".github/workflows/claude-coreteam-mentions.yml",
+      "size": 3557
+    },
+    {
+      "path": ".github/workflows/claude-coreteam-review-shared.yml",
+      "size": 1569
+    },
+    {
+      "path": ".github/workflows/claude-coreteam-review.yml",
+      "size": 3621
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Enterprise AI Platform with guardrails, MCP registry, gateway & orchestrator",
+    "full_name": "archestra-ai/archestra",
+    "html_url": "https://github.com/archestra-ai/archestra",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-18T02:59:22Z",
+    "topics": [
+      "a2a",
+      "a2a-mcp",
+      "acp",
+      "agent",
+      "ai",
+      "chatgpt",
+      "chatgpt-api",
+      "claude",
+      "deepseek",
+      "gemini",
+      "k8s",
+      "mcp",
+      "mcp-client",
+      "mcp-gateway",
+      "mcp-host",
+      "mcp-server",
+      "mcp-servers",
+      "mcp-tools",
+      "openai",
+      "runtime"
+    ],
+    "updated_at": "2026-04-18T02:55:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "archestra-ai/terraform-provider-archestra",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bounty-bot.yml",
+      "term": "Bounty Bot"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-base-mcp-server-docker-image.yml",
+      "term": "Build MCP Server Base Docker Image"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-dockerhub-image.yml",
+      "term": "Build Docker Hub image"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-native-multi-arch-image.yml",
+      "term": "Build Native Multi-Arch Image"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-coreteam-mentions-shared.yml",
+      "term": "Claude Core Team Mentions (Shared)"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-coreteam-mentions.yml",
+      "term": "Claude Core Team Mentions"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-coreteam-review-shared.yml",
+      "term": "Claude Core Team Review (Shared)"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-coreteam-review.yml",
+      "term": "Claude Core Team Review"
+    }
+  ]
+}

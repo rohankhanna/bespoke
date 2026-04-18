@@ -1,0 +1,40 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-18T04:44:49.478117+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Route WireGuard VPN traffic through VK voice call TURN servers to bypass Russia\u2019s IP blocks with DTLS/STUN relaying",
+    "full_name": "vivianalaced749/vk-calls-tunnel",
+    "html_url": "https://github.com/vivianalaced749/vk-calls-tunnel",
+    "language": null,
+    "pushed_at": "2026-04-18T04:40:50Z",
+    "topics": [
+      "chatgpt",
+      "claude-api",
+      "conference",
+      "convolution",
+      "fft",
+      "hardware-acceleration",
+      "hip",
+      "hpc",
+      "metal",
+      "nuget",
+      "python",
+      "real-time",
+      "streaming",
+      "vulkan",
+      "webcam"
+    ],
+    "updated_at": "2026-04-18T04:40:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

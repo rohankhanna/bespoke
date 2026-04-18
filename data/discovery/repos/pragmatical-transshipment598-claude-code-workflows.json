@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-18T04:44:48.644367+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5363
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Build Claude Code workflows, templates, and best practices for faster software development, testing, docs, and code review",
+    "full_name": "Pragmatical-transshipment598/claude-code-workflows",
+    "html_url": "https://github.com/Pragmatical-transshipment598/claude-code-workflows",
+    "language": null,
+    "pushed_at": "2026-04-18T04:41:08Z",
+    "topics": [
+      "agent",
+      "agentic-coding",
+      "agents",
+      "antigravity",
+      "claude-ai",
+      "claude-api",
+      "claude-code-plugin",
+      "claude-code-skills",
+      "claude-skills",
+      "clawdbot",
+      "developer-tools",
+      "factory-ai",
+      "kilocode",
+      "manus-ai",
+      "mcp",
+      "n8n",
+      "prompt-engineering",
+      "workflow-automation",
+      "workflows"
+    ],
+    "updated_at": "2026-04-18T04:41:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,70 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/nf-video",
+      "target": "aitooools/aitooools.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/nf-video",
+      "target": "aitooools/claude-pro-hezu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/nf-video",
+      "target": "aitooools/midjourney-hezu",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-18T04:44:36.484457+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9642
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "\u94f6\u6cb3\u5f55\u50cf\u5c40\uff1a2026\u5e74\u6700\u9760\u8c31\u7684AI\u5de5\u5177\u4e0e\u6d41\u5a92\u4f53\u5408\u79df\u5e73\u53f0\uff01\u94f6\u6cb3\u5f55\u50cf\u5c40\u63d0\u4f9b\u591a\u79cd\u6d77\u5916\u6d41\u5a92\u4f53\u8d26\u53f7\u5408\u79df\u3001AI\u5de5\u5177\u8d26\u53f7\u8d2d\u4e70\u4e0e\u4ee3\u5145\u503c\u670d\u52a1\uff0c\u4ee5\u53ca\u82f9\u679c\u8d26\u53f7\u548c\u8c37\u6b4c\u8d26\u53f7\u7b49\u589e\u503c\u9879\u76ee\u3002\u73b0\u5728\u4f7f\u7528\u94f6\u6cb3\u5f55\u50cf\u5c40\u4f18\u60e0\u7801ANYOFAI\uff0c\u8fd8\u53ef\u4ee5\u4eab\u53d7\u5168\u573a\u4e5d\u6298\u4f18\u60e0\uff01",
+    "full_name": "aitooools/nf-video",
+    "html_url": "https://github.com/aitooools/nf-video",
+    "language": null,
+    "pushed_at": "2026-04-17T13:36:54Z",
+    "topics": [
+      "ai",
+      "chagtgpt",
+      "claude",
+      "gpt",
+      "grok",
+      "midjourney",
+      "netflix"
+    ],
+    "updated_at": "2026-04-17T14:05:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/aitooools.github.io",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/claude-pro-hezu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/midjourney-hezu",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

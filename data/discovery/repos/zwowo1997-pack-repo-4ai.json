@@ -1,0 +1,55 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "zwowo1997/pack-repo-4ai",
+      "target": "pack-repo-4ai",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T04:44:42.285609+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1371
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 495
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "CLI tool to format codebases for DeepSeek R1 and Claude 3.5",
+    "full_name": "zwowo1997/pack-repo-4ai",
+    "html_url": "https://github.com/zwowo1997/pack-repo-4ai",
+    "language": "Python",
+    "pushed_at": "2026-01-31T19:20:45Z",
+    "topics": [
+      "claude-3-5",
+      "context-limit",
+      "deepseek",
+      "llm",
+      "llm-context",
+      "llm-tools",
+      "pack-repo"
+    ],
+    "updated_at": "2026-02-19T07:51:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "pack-repo-4ai"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "pack-repo-4ai"
+    }
+  ]
+}

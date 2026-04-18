@@ -1,0 +1,370 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "ANTHROPIC_VERTEX_PROJECT_ID",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "CLOUD_ML_REGION",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "GOOGLE_APPLICATION_CREDENTIALS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "HTTPS_PROXY",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "## Configuration Example Here's a sample",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "file:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "continue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "remove",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "all",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "only_system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "merge_all",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "merge_top_user",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "merge_top_assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "only_first_user",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "only_first_assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "only_first_remove",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "## System Variables Explanation ### ENSURE_FIRST_MODE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "The",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "PromptMergeMode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "SystemMergeMode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "@anthropic-ai/vertex-sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "@huggingface/jinja",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "@lenml/tokenizer-claude",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "@lenml/tokenizers",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "dotenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "fastify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "fastify-sse-v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "http-proxy-agent",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "https-proxy-agent",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "node-abort-controller",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "node-fetch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "@babel/preset-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "@rollup/plugin-commonjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "@rollup/plugin-json",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "@rollup/plugin-node-resolve",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "@rollup/plugin-replace",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "@rollup/plugin-typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "magic-string",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "nexe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "rollup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "rollup-plugin-babel",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "rollup-plugin-esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "rollup-plugin-typescript2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "tslib",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "tsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "xresloader/upload-to-github-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "lenML/gcp-claude-openai-api-server",
+      "target": "Manual Release",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T04:44:33.621188+00:00",
+  "source_repo": "lenML/gcp-claude-openai-api-server"
+}

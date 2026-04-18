@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "chafingdishposition355/go-skills",
+      "target": "main.go",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "chafingdishposition355/go-skills",
+      "target": "cmd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "chafingdishposition355/go-skills",
+      "target": "README",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "chafingdishposition355/go-skills",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "chafingdishposition355/go-skills",
+      "target": "examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "chafingdishposition355/go-skills",
+      "target": "README.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "chafingdishposition355/go-skills",
+      "target": "go.mod",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "chafingdishposition355/go-skills",
+      "target": "go.sum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "chafingdishposition355/go-skills",
+      "target": "Makefile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "chafingdishposition355/go-skills",
+      "target": "LICENSE",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T04:44:33.621188+00:00",
+  "source_repo": "chafingdishposition355/go-skills"
+}

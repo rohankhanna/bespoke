@@ -1,0 +1,43 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-18T04:44:51.039777+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6613
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Route requests to the right Claude/Agent skill automatically, so you can use the skill ecosystem without memorizing repos",
+    "full_name": "Foundersieve687/skill-gateway",
+    "html_url": "https://github.com/Foundersieve687/skill-gateway",
+    "language": null,
+    "pushed_at": "2026-04-18T04:39:14Z",
+    "topics": [
+      "agentic",
+      "agentic-workflow",
+      "ai",
+      "ai-agents",
+      "algorithms-and-data-structures",
+      "assistant",
+      "claude",
+      "claude-api",
+      "claude-code",
+      "claude-skills",
+      "clawdhub",
+      "harness",
+      "linux",
+      "mcp",
+      "nodejs",
+      "python",
+      "termux",
+      "typescript"
+    ],
+    "updated_at": "2026-04-18T04:39:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

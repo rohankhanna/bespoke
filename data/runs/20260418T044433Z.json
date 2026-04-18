@@ -1,0 +1,160 @@
+{
+  "budget_seconds": 360,
+  "elapsed_seconds": 26.999,
+  "generated_at": "2026-04-18T04:44:33.621188+00:00",
+  "processed_repositories": [
+    "aitooools/claude-pro-recharge",
+    "aitooools/nf-video",
+    "aitooools/claude-pro-hezu",
+    "aitooools/aitooools.github.io",
+    "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+    "adammes/voyanode",
+    "zwowo1997/pack-repo-4ai",
+    "lenml/gcp-claude-openai-api-server",
+    "ding113/claude-code-hub",
+    "pragmatical-transshipment598/claude-code-workflows",
+    "vivianalaced749/vk-calls-tunnel",
+    "chafingdishposition355/go-skills",
+    "foundersieve687/skill-gateway",
+    "archestra-ai/archestra",
+    "fekkak1998/scira",
+    "saminiscool/twitter-ai-agent",
+    "firestryk/chatgpt-website.github.io",
+    "gbrobro119-star/darksword-kexploit",
+    "biparous-blaxploitation156/ciphermind",
+    "genuslovoacalixtusiii510/ytp-2026"
+  ],
+  "remaining_budget_seconds": 333.001,
+  "remaining_frontier": 293,
+  "repo_timing_summary": {
+    "average_seconds": 1.345,
+    "count": 20,
+    "max_seconds": 3.983,
+    "total_seconds": 26.894
+  },
+  "repo_timings": [
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.761,
+      "full_name": "aitooools/claude-pro-recharge",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.101,
+      "full_name": "aitooools/nf-video",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.773,
+      "full_name": "aitooools/claude-pro-hezu",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.871,
+      "full_name": "aitooools/aitooools.github.io",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "topic:claude-3-5",
+      "elapsed_seconds": 1.871,
+      "full_name": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "graph_distance": 1
+    },
+    {
+      "discovered_via": "topic:claude-3-5",
+      "elapsed_seconds": 1.271,
+      "full_name": "adammes/voyanode",
+      "graph_distance": 1
+    },
+    {
+      "discovered_via": "topic:claude-3-5",
+      "elapsed_seconds": 1.008,
+      "full_name": "zwowo1997/pack-repo-4ai",
+      "graph_distance": 1
+    },
+    {
+      "discovered_via": "topic:claude-3-5",
+      "elapsed_seconds": 1.499,
+      "full_name": "lenml/gcp-claude-openai-api-server",
+      "graph_distance": 1
+    },
+    {
+      "discovered_via": "topic:claude-api",
+      "elapsed_seconds": 3.983,
+      "full_name": "ding113/claude-code-hub",
+      "graph_distance": 1
+    },
+    {
+      "discovered_via": "topic:claude-api",
+      "elapsed_seconds": 0.83,
+      "full_name": "pragmatical-transshipment598/claude-code-workflows",
+      "graph_distance": 1
+    },
+    {
+      "discovered_via": "topic:claude-api",
+      "elapsed_seconds": 0.833,
+      "full_name": "vivianalaced749/vk-calls-tunnel",
+      "graph_distance": 1
+    },
+    {
+      "discovered_via": "topic:claude-api",
+      "elapsed_seconds": 0.775,
+      "full_name": "chafingdishposition355/go-skills",
+      "graph_distance": 1
+    },
+    {
+      "discovered_via": "topic:claude-api",
+      "elapsed_seconds": 0.783,
+      "full_name": "foundersieve687/skill-gateway",
+      "graph_distance": 1
+    },
+    {
+      "discovered_via": "topic:deepseek",
+      "elapsed_seconds": 3.952,
+      "full_name": "archestra-ai/archestra",
+      "graph_distance": 1
+    },
+    {
+      "discovered_via": "topic:grok3",
+      "elapsed_seconds": 1.314,
+      "full_name": "fekkak1998/scira",
+      "graph_distance": 1
+    },
+    {
+      "discovered_via": "topic:grok3",
+      "elapsed_seconds": 1.117,
+      "full_name": "saminiscool/twitter-ai-agent",
+      "graph_distance": 1
+    },
+    {
+      "discovered_via": "topic:grok3",
+      "elapsed_seconds": 0.801,
+      "full_name": "firestryk/chatgpt-website.github.io",
+      "graph_distance": 1
+    },
+    {
+      "discovered_via": "topic:jailbreak",
+      "elapsed_seconds": 0.798,
+      "full_name": "gbrobro119-star/darksword-kexploit",
+      "graph_distance": 1
+    },
+    {
+      "discovered_via": "topic:jailbreak",
+      "elapsed_seconds": 0.785,
+      "full_name": "biparous-blaxploitation156/ciphermind",
+      "graph_distance": 1
+    },
+    {
+      "discovered_via": "topic:jailbreak",
+      "elapsed_seconds": 0.768,
+      "full_name": "genuslovoacalixtusiii510/ytp-2026",
+      "graph_distance": 1
+    }
+  ],
+  "run_id": "20260418T044433Z",
+  "skipped_repositories": [],
+  "stopped_due_to_budget": false
+}

@@ -1,0 +1,17 @@
+{
+  "component": "@ai-sdk/react",
+  "first_seen_at": "2026-04-18T04:44:33.621188+00:00",
+  "last_seen_at": "2026-04-18T04:44:33.621188+00:00",
+  "sources": [
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "fekkak1998/scira"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Saminiscool/twitter-ai-agent"
+    }
+  ]
+}

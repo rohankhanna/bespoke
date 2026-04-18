@@ -1,0 +1,189 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "chafingdishposition355/go-skills",
+      "target": "main.go",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "chafingdishposition355/go-skills",
+      "target": "cmd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "chafingdishposition355/go-skills",
+      "target": "README",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "chafingdishposition355/go-skills",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "chafingdishposition355/go-skills",
+      "target": "examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "chafingdishposition355/go-skills",
+      "target": "README.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "chafingdishposition355/go-skills",
+      "target": "go.mod",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "chafingdishposition355/go-skills",
+      "target": "go.sum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "chafingdishposition355/go-skills",
+      "target": "Makefile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "chafingdishposition355/go-skills",
+      "target": "LICENSE",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T04:44:50.254001+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6708
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Build pragmatic Go apps with an idiomatic, flat project layout guide for clean code, clear flow, and maintainable APIs",
+    "full_name": "chafingdishposition355/go-skills",
+    "html_url": "https://github.com/chafingdishposition355/go-skills",
+    "language": null,
+    "pushed_at": "2026-04-18T04:40:14Z",
+    "topics": [
+      "ai",
+      "antigravity",
+      "automation",
+      "claude-api",
+      "claude-code",
+      "claude-code-skills",
+      "claude-commands",
+      "claude-desktop",
+      "claude-mcp",
+      "claude-skills",
+      "codex",
+      "cursor",
+      "gemini-cli-extension",
+      "job-search",
+      "mcp-agents",
+      "mcp-tools",
+      "skills"
+    ],
+    "updated_at": "2026-04-18T04:40:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "main.go"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "main.go"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cmd"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "README"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "docs"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "examples"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "README.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "main.go"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "README.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "main.go"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "go.mod"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "go.sum"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Makefile"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "LICENSE"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "main.go"
+    }
+  ]
+}

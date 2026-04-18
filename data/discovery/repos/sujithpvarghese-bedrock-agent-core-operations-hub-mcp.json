@@ -1,0 +1,393 @@
+{
+  "components": [
+    {
+      "component": "@aws-sdk/client-bedrock-agent-runtime",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@aws-sdk/client-bedrock-agentcore",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@aws-sdk/client-bedrock-runtime",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@aws-sdk/client-cloudwatch-logs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@modelcontextprotocol/sdk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@strands-agents/sdk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "zod",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "zod-to-json-schema",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/aws-lambda",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "esbuild",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "serverless",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "serverless-esbuild",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "target": "sujithpvarghese/bedrock-full-reconciliation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "target": "sujithpvarghese/bedrock-agent-core-operations-hub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "target": "bedrock-full-reconciliation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "target": "agent-core-operations-hub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "target": "BedrockAgentCore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "target": "OPERATIONAL_POLICY_ERROR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "target": "$0.00",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "target": "GFT-",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "target": "SAMPLE-",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "target": "statusHub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "target": "bash npm install",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "target": "bash npm run eval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "target": "bash sls deploy --stage dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "target": "generate-complaints.ts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "target": "@aws-sdk/client-bedrock-agent-runtime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "target": "@aws-sdk/client-bedrock-agentcore",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "target": "@aws-sdk/client-bedrock-runtime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "target": "@aws-sdk/client-cloudwatch-logs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "target": "@modelcontextprotocol/sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "target": "@strands-agents/sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "target": "zod",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "target": "zod-to-json-schema",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "target": "@types/aws-lambda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "target": "esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "target": "serverless",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "target": "serverless-esbuild",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "target": "tsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+      "target": "typescript",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-18T04:44:40.000582+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11569
+    },
+    {
+      "path": "package.json",
+      "size": 1440
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "An enterprise-grade AI Operations Hub built on Amazon Bedrock AgentCore. Features a distributed 11-node Serverless MCP mesh, Agent-to-Agent (A2A) escalation, and stateful self-healing for e-commerce diagnostics.",
+    "full_name": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+    "html_url": "https://github.com/sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-17T23:26:47Z",
+    "topics": [
+      "agentic-architecture",
+      "ai-agents",
+      "amazon-bedrock",
+      "aws-lambda",
+      "claude-3-5",
+      "generative-ai",
+      "mcp",
+      "microservices",
+      "model-context-protocol",
+      "self-healing-systems",
+      "serverless",
+      "typescript"
+    ],
+    "updated_at": "2026-04-17T02:48:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sujithpvarghese/bedrock-agent-core-operations-hub",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sujithpvarghese/bedrock-full-reconciliation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bedrock-full-reconciliation"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "agent-core-operations-hub"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "BedrockAgentCore"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "OPERATIONAL_POLICY_ERROR"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "$0.00"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "GFT-"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SAMPLE-"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "statusHub"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash npm install"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash npm run eval"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash sls deploy --stage dev"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "generate-complaints.ts"
+    }
+  ]
+}

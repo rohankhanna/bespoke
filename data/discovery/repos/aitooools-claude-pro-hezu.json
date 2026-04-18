@@ -1,0 +1,55 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aitooools/claude-pro-hezu",
+      "target": "aitooools/aitooools.github.io",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-18T04:44:37.257810+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8724
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "2026\u5e74\u6700\u65b0Claude\u5408\u79df\u653b\u7565\uff1a\u6700\u9760\u8c31\u7684Claude\u62fc\u8f66(14\u5143\u8d77)\u548cClaude Code\u62fc\u8f66(299\u5143/\u6708)\u6e20\u9053\u63a8\u8350\uff01",
+    "full_name": "aitooools/claude-pro-hezu",
+    "html_url": "https://github.com/aitooools/claude-pro-hezu",
+    "language": null,
+    "pushed_at": "2026-04-17T13:34:01Z",
+    "topics": [
+      "claude",
+      "claude-3",
+      "claude-3-5-sonnet",
+      "claude-3-haiku",
+      "claude-3-opus",
+      "claude-3-sonnet",
+      "claude-4-opus",
+      "claude-4-sonnet",
+      "claude-ai",
+      "claude-api",
+      "claude-opus",
+      "claude-sonnet-4",
+      "claude-sonnet-4-5",
+      "claude-sonnet-4-6",
+      "claude-sonnet-45",
+      "claude3"
+    ],
+    "updated_at": "2026-04-17T14:05:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aitooools/aitooools.github.io",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}
