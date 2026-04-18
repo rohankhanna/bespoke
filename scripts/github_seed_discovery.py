@@ -41,6 +41,7 @@ DEFAULT_DISCOVERY_BUDGET_SECONDS = 360
 DEFAULT_DISCOVERY_MIN_REPO_START_SECONDS = 15
 DEFAULT_DISCOVERY_HARD_STOP_SECONDS = 20
 SLOW_REPO_THRESHOLD_SECONDS = 10.0
+LEXICAL_ENRICHMENT_PROVIDERS = ["datamuse"]
 
 
 def api_get_json(url):
@@ -49,6 +50,15 @@ def api_get_json(url):
     if token:
         headers["Authorization"] = f"Bearer {token}"
     req = urllib.request.Request(url, headers=headers)
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        return json.loads(resp.read().decode("utf-8"))
+
+
+def api_get_json_generic(url, headers=None):
+    request_headers = {"User-Agent": UA}
+    if headers:
+        request_headers.update(headers)
+    req = urllib.request.Request(url, headers=request_headers)
     with urllib.request.urlopen(req, timeout=30) as resp:
         return json.loads(resp.read().decode("utf-8"))
 
@@ -387,6 +397,63 @@ def contextual_snippet_for_file(path, text):
     return compact_text(text)
 
 
+def datamuse_words(params):
+    query = urllib.parse.urlencode(params)
+    return api_get_json_generic(f"https://api.datamuse.com/words?{query}")
+
+
+def lexical_candidates_for_term(term):
+    candidates = {
+        "candidate_synonyms": [],
+        "candidate_related_terms": [],
+        "lexical_providers": [],
+    }
+    normalized = term.strip()
+    if not normalized:
+        return candidates
+    for provider in LEXICAL_ENRICHMENT_PROVIDERS:
+        if provider != "datamuse":
+            continue
+        try:
+            syn_rows = datamuse_words({"rel_syn": normalized, "max": 5})
+            ml_rows = datamuse_words({"ml": normalized, "max": 5})
+        except Exception:
+            continue
+        candidates["lexical_providers"].append(provider)
+        for row in syn_rows:
+            word = normalize_term(row.get("word", "") or "")
+            if word and word.casefold() != normalized.casefold():
+                candidates["candidate_synonyms"].append({
+                    "text": word,
+                    "provider": provider,
+                    "relation": "synonym",
+                    "score": row.get("score"),
+                    "status": "candidate",
+                })
+        for row in ml_rows:
+            word = normalize_term(row.get("word", "") or "")
+            if word and word.casefold() != normalized.casefold():
+                candidates["candidate_related_terms"].append({
+                    "text": word,
+                    "provider": provider,
+                    "relation": "meaning-like",
+                    "score": row.get("score"),
+                    "status": "candidate",
+                })
+    for key in ("candidate_synonyms", "candidate_related_terms"):
+        deduped = []
+        seen = set()
+        for item in candidates[key]:
+            marker = (item["text"].casefold(), item["provider"], item["relation"])
+            if marker in seen:
+                continue
+            seen.add(marker)
+            deduped.append(item)
+        candidates[key] = deduped
+    candidates["lexical_providers"] = sorted(set(candidates["lexical_providers"]))
+    return candidates
+
+
 def upsert_concept_observation(observations_dir, generated_at, source_repo, source_repo_description, hit):
     term = hit["term"]
     observation_id = observation_id_for_term(source_repo, hit.get("source_file"), hit.get("edge_type"), term)
@@ -418,6 +485,7 @@ def upsert_concept_observation(observations_dir, generated_at, source_repo, sour
             "source_kind": "repo-description",
             "status": "candidate",
         })
+    lexical = lexical_candidates_for_term(term)
     payload = {
         "observation_id": observation_id,
         "concept_id": concept_id_for_term(term),
@@ -436,6 +504,10 @@ def upsert_concept_observation(observations_dir, generated_at, source_repo, sour
         "candidate_definition_hints": definition_hints,
         "gloss_status": "unresolved",
         "candidate_glosses": candidate_glosses,
+        "lexical_status": "unresolved",
+        "lexical_providers": lexical["lexical_providers"],
+        "candidate_synonyms": lexical["candidate_synonyms"],
+        "candidate_related_terms": lexical["candidate_related_terms"],
         "candidate_senses": [
             {
                 "sense_id": f"{concept_id_for_term(term)}#sense-1",
@@ -530,6 +602,7 @@ def upsert_concept(concepts_dir, generated_at, source_repo, source_repo_descript
             "source_kind": "repo-description",
             "status": "candidate",
         })
+    lexical = lexical_candidates_for_term(term)
     senses = [{
         "sense_id": f"{concept_id}#sense-1",
         "label": term,
@@ -560,6 +633,19 @@ def upsert_concept(concepts_dir, generated_at, source_repo, source_repo_descript
         for item in gloss_candidates:
             if item not in existing["candidate_glosses"]:
                 existing["candidate_glosses"].append(item)
+        existing.setdefault("lexical_status", "unresolved")
+        existing.setdefault("lexical_providers", [])
+        for provider in lexical["lexical_providers"]:
+            if provider not in existing["lexical_providers"]:
+                existing["lexical_providers"].append(provider)
+        existing.setdefault("candidate_synonyms", [])
+        for item in lexical["candidate_synonyms"]:
+            if item not in existing["candidate_synonyms"]:
+                existing["candidate_synonyms"].append(item)
+        existing.setdefault("candidate_related_terms", [])
+        for item in lexical["candidate_related_terms"]:
+            if item not in existing["candidate_related_terms"]:
+                existing["candidate_related_terms"].append(item)
         write_json(path, existing)
         return
     payload = {
@@ -574,6 +660,10 @@ def upsert_concept(concepts_dir, generated_at, source_repo, source_repo_descript
         "candidate_definitions": definition_candidates,
         "gloss_status": "unresolved",
         "candidate_glosses": gloss_candidates,
+        "lexical_status": "unresolved",
+        "lexical_providers": lexical["lexical_providers"],
+        "candidate_synonyms": lexical["candidate_synonyms"],
+        "candidate_related_terms": lexical["candidate_related_terms"],
         "first_seen_at": generated_at,
         "last_seen_at": generated_at,
         "evidence": [evidence],
@@ -642,6 +732,10 @@ def normalize_existing_concept_artifacts(concepts_dir):
         obj.setdefault("candidate_definitions", [])
         obj.setdefault("gloss_status", "seeded-stable" if default_status == "seeded-stable" else "unresolved")
         obj.setdefault("candidate_glosses", [])
+        obj.setdefault("lexical_status", "unresolved")
+        obj.setdefault("lexical_providers", [])
+        obj.setdefault("candidate_synonyms", [])
+        obj.setdefault("candidate_related_terms", [])
         if not obj.get("possible_senses"):
             obj["possible_senses"] = [{
                 "sense_id": f"{obj.get('concept_id', slug(obj.get('canonical_name','concept')))}#sense-1",
@@ -677,6 +771,10 @@ def normalize_existing_concept_observations(observations_dir):
         obj.setdefault("source_context_snippet", None)
         obj.setdefault("gloss_status", "unresolved")
         obj.setdefault("candidate_glosses", [])
+        obj.setdefault("lexical_status", "unresolved")
+        obj.setdefault("lexical_providers", [])
+        obj.setdefault("candidate_synonyms", [])
+        obj.setdefault("candidate_related_terms", [])
         if not obj.get("candidate_senses"):
             normalized = obj.get("normalized_form") or slug(obj.get("observed_text", "concept"))
             obj["candidate_senses"] = [{
