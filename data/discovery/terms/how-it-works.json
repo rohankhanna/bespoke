@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-17T16:51:41.136432+00:00",
+  "last_seen_at": "2026-04-18T09:11:35.827547+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
       "source_file": "README.md",
       "source_repo": "l12203685/digital-immortality"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "icanhasjonas/run-claude-docker"
     }
   ],
   "term": "## How It Works"

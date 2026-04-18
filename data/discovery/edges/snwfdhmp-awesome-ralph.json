@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "snwfdhmp/awesome-ralph",
+      "target": "claytonfarr/ralph-playbook",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "snwfdhmp/awesome-ralph",
+      "target": "frankbria/ralph-claude-code",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "snwfdhmp/awesome-ralph",
+      "target": "agrimsingh/ralph-wiggum-cursor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "snwfdhmp/awesome-ralph",
+      "target": "alfredolopez80/multi-agent-ralph-loop",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-18T09:11:35.827547+00:00",
+  "source_repo": "snwfdhmp/awesome-ralph"
+}

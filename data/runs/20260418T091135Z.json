@@ -1,0 +1,159 @@
+{
+  "budget_seconds": 360,
+  "elapsed_seconds": 34.081,
+  "generated_at": "2026-04-18T09:11:35.827547+00:00",
+  "processed_repositories": [
+    "vercel/satori",
+    "flinedev/marketplace",
+    "android/skills",
+    "flinedev/plankit",
+    "browser-use/browser-use",
+    "openai/codex-plugin-cc",
+    "steipete/peekaboo",
+    "getsentry/xcodebuildmcp",
+    "dreamiurg/claude-mountaineering-skills",
+    "skills-directory/skill-codex",
+    "snwfdhmp/awesome-ralph",
+    "langchain-ai/langgraphjs",
+    "dredozubov/prd-generator",
+    "zippoxer/recall",
+    "possibilities/claude-composer",
+    "gowaylee/cchooks",
+    "pchalasani/claude-code-tools",
+    "greggh/claude-code.nvim",
+    "icanhasjonas/run-claude-docker"
+  ],
+  "remaining_budget_seconds": 325.919,
+  "remaining_frontier": 297,
+  "repo_timing_summary": {
+    "average_seconds": 1.778,
+    "count": 19,
+    "max_seconds": 5.862,
+    "total_seconds": 33.781
+  },
+  "repo_timings": [
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.321,
+      "full_name": "vercel/satori",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.372,
+      "full_name": "flinedev/marketplace",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.155,
+      "full_name": "android/skills",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.581,
+      "full_name": "flinedev/plankit",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.632,
+      "full_name": "browser-use/browser-use",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.107,
+      "full_name": "openai/codex-plugin-cc",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.169,
+      "full_name": "steipete/peekaboo",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.173,
+      "full_name": "getsentry/xcodebuildmcp",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.318,
+      "full_name": "dreamiurg/claude-mountaineering-skills",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.812,
+      "full_name": "skills-directory/skill-codex",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 5.862,
+      "full_name": "snwfdhmp/awesome-ralph",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.165,
+      "full_name": "langchain-ai/langgraphjs",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.562,
+      "full_name": "dredozubov/prd-generator",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.602,
+      "full_name": "zippoxer/recall",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.963,
+      "full_name": "possibilities/claude-composer",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.845,
+      "full_name": "gowaylee/cchooks",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.259,
+      "full_name": "pchalasani/claude-code-tools",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.193,
+      "full_name": "greggh/claude-code.nvim",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.69,
+      "full_name": "icanhasjonas/run-claude-docker",
+      "graph_distance": 3
+    }
+  ],
+  "run_id": "20260418T091135Z",
+  "skipped_repositories": [
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "skiller-dev/skiller",
+      "reason": "repo_not_found"
+    }
+  ],
+  "stopped_due_to_budget": false
+}

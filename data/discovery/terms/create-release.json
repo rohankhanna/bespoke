@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
+  "last_seen_at": "2026-04-18T09:11:35.827547+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "android/skills"
+    }
+  ],
+  "term": "Create Release"
+}

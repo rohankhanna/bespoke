@@ -1,0 +1,188 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "icanhasjonas/run-claude-docker",
+      "target": "claude auth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "icanhasjonas/run-claude-docker",
+      "target": "UNSPLASH_ACCESS_KEY",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "icanhasjonas/run-claude-docker",
+      "target": "## Script Options ### Build Commands",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "icanhasjonas/run-claude-docker",
+      "target": "### Runtime Options",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "icanhasjonas/run-claude-docker",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "icanhasjonas/run-claude-docker",
+      "target": "unsplash-mcp-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "icanhasjonas/run-claude-docker",
+      "target": "CLAUDE_CODE_IMAGE_NAME",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "icanhasjonas/run-claude-docker",
+      "target": "OPENAI_API_KEY",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "icanhasjonas/run-claude-docker",
+      "target": "NUGET_API_KEY",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "icanhasjonas/run-claude-docker",
+      "target": "CLAUDE_DANGEROUS_MODE=1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "icanhasjonas/run-claude-docker",
+      "target": "NODE_OPTIONS=--max-old-space-size=8192",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "icanhasjonas/run-claude-docker",
+      "target": "TERM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "icanhasjonas/run-claude-docker",
+      "target": "$(pwd)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "icanhasjonas/run-claude-docker",
+      "target": "### 2. Test Build Commands",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "icanhasjonas/run-claude-docker",
+      "target": "### 3. Test File Operations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "icanhasjonas/run-claude-docker",
+      "target": "### 4. Test MCP Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "icanhasjonas/run-claude-docker",
+      "target": "### Verbose Output",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "icanhasjonas/run-claude-docker",
+      "target": "### Environment Variable Setup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "icanhasjonas/run-claude-docker",
+      "target": "After the initial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "icanhasjonas/run-claude-docker",
+      "target": "### Image Not Found",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "icanhasjonas/run-claude-docker",
+      "target": "### Container Management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "icanhasjonas/run-claude-docker",
+      "target": "## How It Works",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "icanhasjonas/run-claude-docker",
+      "target": "The",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "icanhasjonas/run-claude-docker",
+      "target": "run-claude.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "icanhasjonas/run-claude-docker",
+      "target": "generate_dockerfile_content()",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "icanhasjonas/run-claude-docker",
+      "target": "3. **Export for standalone use** (optional):",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T09:11:35.827547+00:00",
+  "source_repo": "icanhasjonas/run-claude-docker"
+}

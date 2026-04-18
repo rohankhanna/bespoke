@@ -1,0 +1,868 @@
+{
+  "components": [
+    {
+      "component": "chrome-devtools-mcp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commander-multiplatform.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commander-multiplatform.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commander-multiplatform.yml"
+    },
+    {
+      "component": "SwiftyLab/setup-swift@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commander-multiplatform.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-ci.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-homebrew.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-homebrew.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "steipete/homebrew-tap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "## Quick start",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "cmd,shift,t",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "move",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "resize",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "focus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "set-bounds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "launch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "quit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "relaunch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "switch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "move-window",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "list-all",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "click",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "click-extra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "right-click",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "hide",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "show",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "input",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "dismiss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "apps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "screens",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "menubar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "permissions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "init",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "add",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "login",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "grant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "serve",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "PEEKABOO_AI_PROVIDERS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "peekaboo config add",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "pnpm install",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "pnpm run build:cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steipete/Peekaboo",
+      "target": "pnpm run test:safe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "steipete/Peekaboo",
+      "target": "chrome-devtools-mcp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commander-multiplatform.yml",
+      "source_repo": "steipete/Peekaboo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commander-multiplatform.yml",
+      "source_repo": "steipete/Peekaboo",
+      "target": "SwiftyLab/setup-swift@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commander-multiplatform.yml",
+      "source_repo": "steipete/Peekaboo",
+      "target": "Commander Multiplatform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "source_repo": "steipete/Peekaboo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "source_repo": "steipete/Peekaboo",
+      "target": "oven-sh/setup-bun@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "source_repo": "steipete/Peekaboo",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "source_repo": "steipete/Peekaboo",
+      "target": "macOS CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "source_repo": "steipete/Peekaboo",
+      "target": "swift-configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "source_repo": "steipete/Peekaboo",
+      "target": "JSONSupport",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "source_repo": "steipete/Peekaboo",
+      "target": "JSON",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "steipete/Peekaboo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "steipete/Peekaboo",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "steipete/Peekaboo",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "steipete/Peekaboo",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "steipete/Peekaboo",
+      "target": "Website (GitHub Pages)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-homebrew.yml",
+      "source_repo": "steipete/Peekaboo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-homebrew.yml",
+      "source_repo": "steipete/Peekaboo",
+      "target": "Update Homebrew Formula",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:11:46.344706+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7530
+    },
+    {
+      "path": "package.json",
+      "size": 3811
+    },
+    {
+      "path": ".github/workflows/commander-multiplatform.yml",
+      "size": 1793
+    },
+    {
+      "path": ".github/workflows/macos-ci.yml",
+      "size": 16372
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "size": 965
+    },
+    {
+      "path": ".github/workflows/update-homebrew.yml",
+      "size": 4282
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Peekaboo is a macOS CLI & optional MCP server that enables AI agents to capture screenshots of applications, or the entire system, with optional visual question answering through local or remote AI models.",
+    "full_name": "steipete/Peekaboo",
+    "html_url": "https://github.com/steipete/Peekaboo",
+    "language": "Swift",
+    "pushed_at": "2026-03-28T04:18:13Z",
+    "topics": [
+      "ai",
+      "macos",
+      "mcp",
+      "screenshots",
+      "swift"
+    ],
+    "updated_at": "2026-04-18T08:23:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "steipete/homebrew-tap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## Quick start"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cmd,shift,t"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "list"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "move"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "resize"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "focus"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "set-bounds"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "launch"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "quit"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "relaunch"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "switch"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "list"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "list"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "switch"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "move-window"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "list"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "list-all"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "click"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "click-extra"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "list"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "click"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "launch"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "right-click"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hide"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "show"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "list"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "list"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "click"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "input"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "file"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "dismiss"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "apps"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "windows"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "screens"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "menubar"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "permissions"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "init"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "show"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "add"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "login"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "models"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "status"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "grant"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "serve"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "PEEKABOO_AI_PROVIDERS"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "peekaboo config add"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "pnpm install"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "pnpm run build:cli"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "pnpm run test:safe"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commander-multiplatform.yml",
+      "term": "Commander Multiplatform"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "term": "macOS CI"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "term": "swift-configuration"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "term": "JSONSupport"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "term": "JSON"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "term": "swift-configuration"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "term": "JSONSupport"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "term": "JSON"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "term": "swift-configuration"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "term": "JSONSupport"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "term": "JSON"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "term": "Website (GitHub Pages)"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-homebrew.yml",
+      "term": "Update Homebrew Formula"
+    }
+  ]
+}

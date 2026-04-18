@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-18T09:10:17.311509+00:00",
+  "last_seen_at": "2026-04-18T09:11:35.827547+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
       "source_file": "README.md",
       "source_repo": "anthropics/claudes-c-compiler"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "openai/codex-plugin-cc"
     }
   ],
   "term": "## Usage"

@@ -1,0 +1,175 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "skills-directory/skill-codex",
+      "target": "klaudworks/ralph-meets-rex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "skills-directory/skill-codex",
+      "target": "codex exec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "skills-directory/skill-codex",
+      "target": "codex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "skills-directory/skill-codex",
+      "target": "PATH",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "skills-directory/skill-codex",
+      "target": "codex --version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "skills-directory/skill-codex",
+      "target": "gpt-5.4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "skills-directory/skill-codex",
+      "target": "gpt-5.3-codex-spark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "skills-directory/skill-codex",
+      "target": "gpt-5.3-codex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "skills-directory/skill-codex",
+      "target": "low",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "skills-directory/skill-codex",
+      "target": "medium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "skills-directory/skill-codex",
+      "target": "high",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "skills-directory/skill-codex",
+      "target": "read-only",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:11:51.697699+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2884
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "A claude code skill to delegate prompts to codex",
+    "full_name": "skills-directory/skill-codex",
+    "html_url": "https://github.com/skills-directory/skill-codex",
+    "language": null,
+    "pushed_at": "2026-04-10T08:15:32Z",
+    "topics": [
+      "claude",
+      "claude-code",
+      "codex"
+    ],
+    "updated_at": "2026-04-18T02:49:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "klaudworks/ralph-meets-rex",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "codex exec"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "codex"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "PATH"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "codex --version"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "gpt-5.4"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "gpt-5.3-codex-spark"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "gpt-5.3-codex"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "low"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "medium"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "high"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "read-only"
+    }
+  ]
+}

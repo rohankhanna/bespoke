@@ -1,106 +1,6 @@
 {
-  "generated_at": "2026-04-18T09:10:17.311509+00:00",
+  "generated_at": "2026-04-18T09:11:35.827547+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "vercel/satori",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "skiller-dev/skiller",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "flinedev/marketplace",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "android/skills",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "flinedev/plankit",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "browser-use/browser-use",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "openai/codex-plugin-cc",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "steipete/peekaboo",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "getsentry/xcodebuildmcp",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dreamiurg/claude-mountaineering-skills",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "skills-directory/skill-codex",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "snwfdhmp/awesome-ralph",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "langchain-ai/langgraphjs",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dredozubov/prd-generator",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "zippoxer/recall",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "possibilities/claude-composer",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "gowaylee/cchooks",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "pchalasani/claude-code-tools",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "greggh/claude-code.nvim",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "icanhasjonas/run-claude-docker",
-      "graph_distance": 3
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "marcindulak/ralph-wiggum-bdd",
@@ -1500,6 +1400,91 @@
       "discovered_via": "explicit-github-link",
       "full_name": "svg/svgo",
       "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "flinedev/customstatusline",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "flinedev/recall",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "browser-use/benchmark",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "steipete/homebrew-tap",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dreamiurg/mountaineers-assistant",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dreamiurg/mountaineers-mcp",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dreamiurg/peakbagger-cli",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "klaudworks/ralph-meets-rex",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "agrimsingh/ralph-wiggum-cursor",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "alfredolopez80/multi-agent-ralph-loop",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "langchain-ai/langgraph",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "nornagon/crossterm",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ithiria894/awesome-claude-code-hooks",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "folke/lazy.nvim",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "johnnymorganz/stylua",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "junegunn/vim-plug",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lunarmodules/luacheck",
+      "graph_distance": 4
     }
   ],
   "processed": [
@@ -1707,6 +1692,25 @@
     "neuroverseos/negotiator",
     "neuroverseos/neuroverseos-openclaw-governance",
     "thx/resvg-js",
-    "natemoo-re/astro-icon"
+    "natemoo-re/astro-icon",
+    "vercel/satori",
+    "flinedev/marketplace",
+    "android/skills",
+    "flinedev/plankit",
+    "browser-use/browser-use",
+    "openai/codex-plugin-cc",
+    "steipete/peekaboo",
+    "getsentry/xcodebuildmcp",
+    "dreamiurg/claude-mountaineering-skills",
+    "skills-directory/skill-codex",
+    "snwfdhmp/awesome-ralph",
+    "langchain-ai/langgraphjs",
+    "dredozubov/prd-generator",
+    "zippoxer/recall",
+    "possibilities/claude-composer",
+    "gowaylee/cchooks",
+    "pchalasani/claude-code-tools",
+    "greggh/claude-code.nvim",
+    "icanhasjonas/run-claude-docker"
   ]
 }

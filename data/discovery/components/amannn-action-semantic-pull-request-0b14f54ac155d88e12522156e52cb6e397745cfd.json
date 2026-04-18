@@ -1,0 +1,12 @@
+{
+  "component": "amannn/action-semantic-pull-request@0b14f54ac155d88e12522156e52cb6e397745cfd",
+  "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
+  "last_seen_at": "2026-04-18T09:11:35.827547+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "vercel/satori"
+    }
+  ]
+}

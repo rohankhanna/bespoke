@@ -1,0 +1,82 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "snwfdhmp/awesome-ralph",
+      "target": "claytonfarr/ralph-playbook",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "snwfdhmp/awesome-ralph",
+      "target": "frankbria/ralph-claude-code",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "snwfdhmp/awesome-ralph",
+      "target": "agrimsingh/ralph-wiggum-cursor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "snwfdhmp/awesome-ralph",
+      "target": "alfredolopez80/multi-agent-ralph-loop",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:11:57.561859+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13180
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "A curated list of resources about Ralph, the AI coding technique that runs AI coding agents in automated loops until specifications are fulfilled.",
+    "full_name": "snwfdhmp/awesome-ralph",
+    "html_url": "https://github.com/snwfdhmp/awesome-ralph",
+    "language": null,
+    "pushed_at": "2026-02-03T08:34:43Z",
+    "topics": [
+      "ai-coding",
+      "claude",
+      "claude-code",
+      "ralph",
+      "ralph-loop",
+      "ralph-wiggum",
+      "vibe-coding"
+    ],
+    "updated_at": "2026-04-18T07:50:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agrimsingh/ralph-wiggum-cursor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alfredolopez80/multi-agent-ralph-loop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "claytonfarr/ralph-playbook",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "frankbria/ralph-claude-code",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}
