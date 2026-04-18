@@ -1,106 +1,6 @@
 {
-  "generated_at": "2026-04-18T09:50:06.115508+00:00",
+  "generated_at": "2026-04-18T09:57:17.167988+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "giselles-ai/giselle",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "arustydev/pre-commit-hooks",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "automazeio/ccpm",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ctoth/claudio",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "paretosecurity/pareto-mac",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "touchlab/droidconkotlin",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "tott/laravel-tall-claude-ai-configs",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "zscott/pane",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "phiat/claude-esp",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "davila7/claude-code-templates",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "anthropics/awesome-claude-code",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "johnlindquist/claude-hooks",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "grahama1970/claude-task-runner",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "oneredoak/claude-code-workflows",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "thibautmelen/agentic-workflow-patterns",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "nyatinte/ccexp",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "carlrannaberg/claudekit",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "zuplo/docs",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "mattgodbolt/jsbeeb",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ldayton/dippy",
-      "graph_distance": 3
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "haleclipse/ccometixline",
@@ -1425,6 +1325,71 @@
       "discovered_via": "explicit-github-link",
       "full_name": "blader/claudeception",
       "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "automazeio/proof",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "beehiveinnovations/zen-mcp-server",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "upstash/context7",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "fsnotify/fsnotify",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "phiat/claude-esp-rs",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "alirezarezvani/claude-skills",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "k-dense-ai/claude-scientific-skills",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "wshobson/agents",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "anthropics/anthropic-cookbook",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dp111/6502timing",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "klaus2m5/6502_65c02_functional_tests",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "stardot/b-em",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ldayton/parable",
+      "graph_distance": 4
     }
   ],
   "processed": [
@@ -1790,6 +1755,25 @@
     "ethpandaops/xatu-data",
     "mjvolk3/torchcell",
     "hesreallyhim/inkverse-fork",
-    "florianbruniaux/claude-code-ultimate-guide"
+    "florianbruniaux/claude-code-ultimate-guide",
+    "giselles-ai/giselle",
+    "arustydev/pre-commit-hooks",
+    "automazeio/ccpm",
+    "ctoth/claudio",
+    "paretosecurity/pareto-mac",
+    "touchlab/droidconkotlin",
+    "tott/laravel-tall-claude-ai-configs",
+    "zscott/pane",
+    "phiat/claude-esp",
+    "davila7/claude-code-templates",
+    "johnlindquist/claude-hooks",
+    "grahama1970/claude-task-runner",
+    "oneredoak/claude-code-workflows",
+    "thibautmelen/agentic-ai-systems",
+    "nyatinte/ccexp",
+    "carlrannaberg/claudekit",
+    "zuplo/docs",
+    "mattgodbolt/jsbeeb",
+    "ldayton/dippy"
   ]
 }

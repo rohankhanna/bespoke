@@ -1,0 +1,62 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tott/laravel-tall-claude-ai-configs",
+      "target": "beehiveinnovations/zen-mcp-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tott/laravel-tall-claude-ai-configs",
+      "target": "oraios/serena",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tott/laravel-tall-claude-ai-configs",
+      "target": "upstash/context7",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:57:24.320411+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3722
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "AI Assisted Laravel TALL stack coding configuration for Claude Code ",
+    "full_name": "tott/laravel-tall-claude-ai-configs",
+    "html_url": "https://github.com/tott/laravel-tall-claude-ai-configs",
+    "language": null,
+    "pushed_at": "2025-08-08T14:35:08Z",
+    "topics": [],
+    "updated_at": "2026-03-06T15:12:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "beehiveinnovations/zen-mcp-server",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oraios/serena",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "upstash/context7",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

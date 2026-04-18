@@ -1,16 +1,11 @@
 {
-  "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-18T09:23:05.253565+00:00",
+  "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
+  "last_seen_at": "2026-04-18T09:57:17.167988+00:00",
   "sources": [
     {
-      "discovered_via": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobe-chat-agents"
-    },
-    {
-      "discovered_via": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "basicmachines-co/basic-memory"
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "automazeio/ccpm"
     }
   ],
   "term": "project-management"

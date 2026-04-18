@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-18T09:50:06.115508+00:00",
+  "last_seen_at": "2026-04-18T09:57:17.167988+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -151,6 +151,41 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "FlorianBruniaux/claude-code-ultimate-guide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "automazeio/ccpm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ctoth/claudio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "davila7/claude-code-templates"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ThibautMelen/agentic-ai-systems"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "nyatinte/ccexp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "mattgodbolt/jsbeeb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ldayton/Dippy"
     }
   ],
   "term": "Claude Code"

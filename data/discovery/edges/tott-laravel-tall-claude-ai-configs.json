@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tott/laravel-tall-claude-ai-configs",
+      "target": "beehiveinnovations/zen-mcp-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tott/laravel-tall-claude-ai-configs",
+      "target": "oraios/serena",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tott/laravel-tall-claude-ai-configs",
+      "target": "upstash/context7",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-18T09:57:17.167988+00:00",
+  "source_repo": "tott/laravel-tall-claude-ai-configs"
+}

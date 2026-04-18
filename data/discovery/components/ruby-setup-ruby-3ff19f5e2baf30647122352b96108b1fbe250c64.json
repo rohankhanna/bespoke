@@ -1,12 +1,17 @@
 {
   "component": "ruby/setup-ruby@3ff19f5e2baf30647122352b96108b1fbe250c64",
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "last_seen_at": "2026-04-18T09:57:17.167988+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/license.yml",
       "source_repo": "toyamarinyon/giselle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/license.yml",
+      "source_repo": "giselles-ai/giselle"
     }
   ]
 }

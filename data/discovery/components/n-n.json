@@ -1,0 +1,12 @@
+{
+  "component": "\\n\\n-",
+  "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
+  "last_seen_at": "2026-04-18T09:57:17.167988+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/daily-community-help-discord.yml",
+      "source_repo": "davila7/claude-code-templates"
+    }
+  ]
+}

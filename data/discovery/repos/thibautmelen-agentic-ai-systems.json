@@ -1,0 +1,226 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ThibautMelen/agentic-ai-systems",
+      "target": "anthropics/anthropic-cookbook",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ThibautMelen/agentic-ai-systems",
+      "target": "agent-sdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ThibautMelen/agentic-ai-systems",
+      "target": "agentic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ThibautMelen/agentic-ai-systems",
+      "target": "agentic-frameworks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ThibautMelen/agentic-ai-systems",
+      "target": "agentic-patterns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ThibautMelen/agentic-ai-systems",
+      "target": "agentic-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ThibautMelen/agentic-ai-systems",
+      "target": "anthropic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ThibautMelen/agentic-ai-systems",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ThibautMelen/agentic-ai-systems",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ThibautMelen/agentic-ai-systems",
+      "target": "design-patterns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ThibautMelen/agentic-ai-systems",
+      "target": "llm-patterns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ThibautMelen/agentic-ai-systems",
+      "target": "orchestration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ThibautMelen/agentic-ai-systems",
+      "target": "subagents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ThibautMelen/agentic-ai-systems",
+      "target": "tool-use",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ThibautMelen/agentic-ai-systems",
+      "target": "workflows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:57:32.114007+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10132
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "\ud83d\udc14 Agentic systems explained with chickens. Workflows, agents & orchestration made simple. Mermaid diagrams included",
+    "full_name": "ThibautMelen/agentic-ai-systems",
+    "html_url": "https://github.com/ThibautMelen/agentic-ai-systems",
+    "language": null,
+    "pushed_at": "2025-12-08T13:10:04Z",
+    "topics": [
+      "agent-sdk",
+      "agentic",
+      "agentic-frameworks",
+      "agentic-patterns",
+      "agentic-systems",
+      "ai-agents",
+      "anthropic",
+      "awesome",
+      "claude",
+      "claude-code",
+      "design-patterns",
+      "llm",
+      "llm-patterns",
+      "mcp",
+      "orchestration",
+      "subagents",
+      "tool-use",
+      "workflows"
+    ],
+    "updated_at": "2026-04-18T08:51:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anthropics/anthropic-cookbook",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-sdk"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-frameworks"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-patterns"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-systems"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anthropic"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "design-patterns"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-patterns"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "orchestration"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "subagents"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tool-use"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflows"
+    }
+  ]
+}

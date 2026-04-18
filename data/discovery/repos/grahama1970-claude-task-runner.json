@@ -1,0 +1,28 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-18T09:57:30.684408+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16190
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1946
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": null,
+    "full_name": "grahama1970/claude-task-runner",
+    "html_url": "https://github.com/grahama1970/claude-task-runner",
+    "language": "Python",
+    "pushed_at": "2025-05-13T23:43:03Z",
+    "topics": [],
+    "updated_at": "2026-03-23T04:43:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,171 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "android-actions/setup-android@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper.yaml"
+    },
+    {
+      "component": "gradle/actions/wrapper-validation@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "touchlab/DroidconKotlin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "touchlab/DroidconKotlin",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "touchlab/DroidconKotlin",
+      "target": "gradle/actions/setup-gradle@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "touchlab/DroidconKotlin",
+      "target": "android-actions/setup-android@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "touchlab/DroidconKotlin",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper.yaml",
+      "source_repo": "touchlab/DroidconKotlin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-wrapper.yaml",
+      "source_repo": "touchlab/DroidconKotlin",
+      "target": "gradle/actions/wrapper-validation@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-wrapper.yaml",
+      "source_repo": "touchlab/DroidconKotlin",
+      "target": "gradle-wrapper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "touchlab/DroidconKotlin",
+      "target": "droidcon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "touchlab/DroidconKotlin",
+      "target": "kotlin-multiplatform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "touchlab/DroidconKotlin",
+      "target": "kotlin-native",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:57:23.243404+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1832
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 676
+    },
+    {
+      "path": ".github/workflows/gradle-wrapper.yaml",
+      "size": 263
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Kotlin Multiplatfom app for Droidcon Events",
+    "full_name": "touchlab/DroidconKotlin",
+    "html_url": "https://github.com/touchlab/DroidconKotlin",
+    "language": "Kotlin",
+    "pushed_at": "2026-02-13T21:48:08Z",
+    "topics": [
+      "droidcon",
+      "kotlin-multiplatform",
+      "kotlin-native"
+    ],
+    "updated_at": "2026-04-06T13:50:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-wrapper.yaml",
+      "term": "gradle-wrapper"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "droidcon"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin-multiplatform"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin-native"
+    }
+  ]
+}

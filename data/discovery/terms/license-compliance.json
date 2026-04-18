@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "last_seen_at": "2026-04-18T09:57:17.167988+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/license.yml",
       "source_repo": "toyamarinyon/giselle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/license.yml",
+      "source_repo": "giselles-ai/giselle"
     }
   ],
   "term": "License Compliance"

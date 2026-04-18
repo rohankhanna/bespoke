@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T09:50:06.115508+00:00",
+  "last_seen_at": "2026-04-18T09:57:17.167988+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/reusable-test.yml",
       "source_repo": "affaan-m/everything-claude-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "giselles-ai/giselle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/license.yml",
+      "source_repo": "giselles-ai/giselle"
     }
   ]
 }

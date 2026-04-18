@@ -1,0 +1,38 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OneRedOak/claude-code-workflows",
+      "target": "microsoft/playwright-mcp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:57:31.244327+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2065
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "The best workflows and configurations I've developed, having heavily used Claude Code since the day of it's release. Workflows are based off applied learnings from our AI-native startup.",
+    "full_name": "OneRedOak/claude-code-workflows",
+    "html_url": "https://github.com/OneRedOak/claude-code-workflows",
+    "language": null,
+    "pushed_at": "2025-09-14T07:33:32Z",
+    "topics": [],
+    "updated_at": "2026-04-18T04:03:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/playwright-mcp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

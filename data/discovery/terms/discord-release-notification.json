@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
+  "last_seen_at": "2026-04-18T09:57:17.167988+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/discord-release-notification.yml",
+      "source_repo": "davila7/claude-code-templates"
+    }
+  ],
+  "term": "Discord Release Notification"
+}
