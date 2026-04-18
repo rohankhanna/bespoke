@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steadycursor/steadystart",
+      "target": "steadystart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steadycursor/steadystart",
+      "target": "Steady Start",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "steadycursor/steadystart",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "steadycursor/steadystart",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "steadycursor/steadystart",
+      "target": "env-cmd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "steadycursor/steadystart",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "steadycursor/steadystart",
+      "target": "eslint-plugin-import",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-18T09:23:05.253565+00:00",
+  "source_repo": "steadycursor/steadystart"
+}

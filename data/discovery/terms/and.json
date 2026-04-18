@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T09:22:19.136418+00:00",
+  "last_seen_at": "2026-04-18T09:23:05.253565+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -71,6 +71,11 @@
       "discovered_via": "inline-code",
       "source_file": "README.md",
       "source_repo": "Piebald-AI/tweakcc"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline"
     }
   ],
   "term": ", and"

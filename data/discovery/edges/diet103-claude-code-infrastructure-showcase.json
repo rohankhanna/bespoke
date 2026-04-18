@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "diet103/claude-code-infrastructure-showcase",
+      "target": "CLAUDE_INTEGRATION_GUIDE.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "diet103/claude-code-infrastructure-showcase",
+      "target": "skill-rules.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "diet103/claude-code-infrastructure-showcase",
+      "target": "settings.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "diet103/claude-code-infrastructure-showcase",
+      "target": "tsc-check.sh",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T09:23:05.253565+00:00",
+  "source_repo": "diet103/claude-code-infrastructure-showcase"
+}

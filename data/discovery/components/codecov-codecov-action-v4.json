@@ -1,7 +1,7 @@
 {
   "component": "codecov/codecov-action@v4",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-18T09:21:02.237042+00:00",
+  "last_seen_at": "2026-04-18T09:23:05.253565+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "SuperClaude-Org/SuperClaude_Framework"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "joshsymonds/cc-tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backend-cloverage.yml",
+      "source_repo": "rzykov/metabase"
     }
   ]
 }

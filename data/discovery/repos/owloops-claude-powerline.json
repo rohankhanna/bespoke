@@ -1,0 +1,3046 @@
+{
+  "components": [
+    {
+      "component": "@eslint/js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@semantic-release/changelog",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@semantic-release/git",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semantic-release",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsdown",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pricing.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pricing.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "The wizard writes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "and updates your",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "automatically. Run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "dark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "light",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "nord",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "tokyo-night",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "rose-pine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "gruvbox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "custom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "minimal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "powerline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "capsule",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "tui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "unicode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "**Environment Variables:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "**Options:** -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": ": Display format -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": ": Show complete path (e.g.,",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": ") -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": ": Fish-shell style abbreviation (e.g.,",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": ": Show only folder name (e.g.,",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": ": Show abbreviated commit SHA -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": ": Show nearest tag -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": ": Show stash count -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": ": Show upstream branch -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "Branch &#8226;",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "SHA &#8226;",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "Tag &#8226;",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "Stash &#8226;",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "Clean &#8226;",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "Dirty &#8226;",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "Conflicts &#8226;",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "Ahead &#8226;",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "Behind &#8226;",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "**Symbols:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "Model (unicode) &#8226;",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": ": Cost calculation method -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "(ccusage-style) |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "(hook data) **Symbols:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "Session (unicode) &#8226;",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "Today (unicode) &#8226;",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": ": How to display the percentage.",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "counts down from 100% (context left),",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "for",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "\u25d4 34,040 (79%)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "ball",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "\u2500\u2500\u2500\u2500\u2500\u25cf\u2500\u2500\u2500\u2500 50%",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "bar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "\u2593\u2593\u2593\u2593\u2593\u2591\u2591\u2591\u2591\u2591 50%",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "blocks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591 50%",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "blocks-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "\u2588\u2588\u2588\u2588\u2588\u2500\u2500\u2500\u2500\u2500 50%",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "capped",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "\u2501\u2501\u2501\u2501\u2578\u2504\u2504\u2504\u2504\u2504 50%",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "dots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "\u25cf\u25cf\u25cf\u25cf\u25cf\u25cb\u25cb\u25cb\u25cb\u25cb 50%",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "filled",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "\u25a0\u25a0\u25a0\u25a0\u25a0\u25a1\u25a1\u25a1\u25a1\u25a1 50%",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "geometric",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "\u25b0\u25b0\u25b0\u25b0\u25b0\u25b1\u25b1\u25b1\u25b1\u25b1 50%",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "\u2501\u2501\u2501\u2501\u2501\u2504\u2504\u2504\u2504\u2504 50%",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "squares",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "\u25fc\u25fc\u25fc\u25fc\u25fc\u25fb\u25fb\u25fb\u25fb\u25fb 50%",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "Context (unicode) &#8226;",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "**Available Model Types:** -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": ": Claude Opus models -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "sonnet\": 1000000",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "rate_limits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "\u25f1 23% (4h 12m)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "\u25f1 \u25aa\u25aa\u25ab\u25ab\u25ab\u25ab\u25ab\u25ab\u25ab\u25ab 23% (4h 12m)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "\u25f1 \u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591 23% (4h 12m)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "\u25f1 \u2588\u2588\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 23% (4h 12m)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "\u25f1 \u2501\u2578\u2504\u2504\u2504\u2504\u2504\u2504\u2504\u2504 23% (4h 12m)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "\u25f1 \u25cf\u25cf\u25cb\u25cb\u25cb\u25cb\u25cb\u25cb\u25cb\u25cb 23% (4h 12m)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "\u25f1 \u25a0\u25a0\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1 23% (4h 12m)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "\u25f1 \u25b0\u25b0\u25b1\u25b1\u25b1\u25b1\u25b1\u25b1\u25b1\u25b1 23% (4h 12m)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "\u25f1 \u2501\u2501\u2504\u2504\u2504\u2504\u2504\u2504\u2504\u2504 23% (4h 12m)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "\u25f1 \u25fc\u25fc\u25fb\u25fb\u25fb\u25fb\u25fb\u25fb\u25fb\u25fb 23% (4h 12m)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "\u25f1 \u2500\u2500\u25cf\u2500\u2500\u2500\u2500\u2500\u2500\u2500 23% (4h 12m)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "Block (unicode) &#8226;",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "rate_limits.seven_day",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "Weekly (unicode) &#8226;",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": ": Total session duration -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "Total API time &#8226;",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "Last response &#8226;",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "Session duration &#8226;",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "Messages &#8226;",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "Lines added &#8226;",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "Lines removed - Text:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "**Display:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "Version (unicode) &#8226;",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": ": Show the",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": ") **Display:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "Session ID (unicode) &#8226;",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "Env (unicode) &#8226;",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": ": Budget type -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "(USD) |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "(for token-based limits) -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "Normal &#8226;",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "Moderate (50-79%) &#8226;",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "Set to",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "for compact,",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "autoWrap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "**Color Options:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "(hex,",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": ") &#8226;",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "context",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "context.bar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "**Compatibility Modes:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "(default),",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "**Environment Variables:** -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "FORCE_COLOR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "COLORTERM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "NO_COLOR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "display.tui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": ") | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "| Minimum panel width | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "| Maximum panel width | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "| Extra horizontal padding in",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "mode | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "divider rows | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "minWidth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "| yes | Column sizing:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": ", or a fixed number like",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "| |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "| no | Per-column alignment:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": ", or",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "(defaults to",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": ") | **Column sizing:** -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "context.bar context.bar context.bar context.pct context.tokens",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "Here",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "#### Dot-Notation Subsegments Use",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "git",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "icon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "ahead",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "behind",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "working",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "head",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "pct",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "tokens",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "block",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "value",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "budget",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "session",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "cost",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "today",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "weekly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "response",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "responseIcon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "responseVal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "lastResponse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "lastResponseIcon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "lastResponseVal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "added",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "addedIcon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "addedVal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "removed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "removedIcon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "removedVal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "activity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "duration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "durationIcon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "durationVal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "messages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "messagesIcon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "messagesVal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "tmux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "dir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "env",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "prefix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": ", and",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "nativeUtilization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "used_percentage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "| Right-side text, or",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "segments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "| required | Part references like",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "or literal strings | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "| Spaces between items | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "packs items left;",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "for colors:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "(background),",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "(foreground),",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "(reset). Example:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "@eslint/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "@semantic-release/changelog",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "@semantic-release/git",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "@types/jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "eslint-plugin-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "semantic-release",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "ts-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "tsdown",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pricing.yml",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pricing.yml",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pricing.yml",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "Update Pricing Data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Owloops/claude-powerline",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:23:30.463745+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25592
+    },
+    {
+      "path": "package.json",
+      "size": 2115
+    },
+    {
+      "path": ".github/workflows/pricing.yml",
+      "size": 1678
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1303
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Beautiful vim-style powerline for Claude Code",
+    "full_name": "Owloops/claude-powerline",
+    "html_url": "https://github.com/Owloops/claude-powerline",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-14T15:21:51Z",
+    "topics": [
+      "claude-code",
+      "cli",
+      "developer-tools",
+      "git",
+      "lightweight",
+      "statusline"
+    ],
+    "updated_at": "2026-04-17T20:25:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "The wizard writes"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "and updates your"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "automatically. Run"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "dark"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "light"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "nord"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tokyo-night"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "rose-pine"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "gruvbox"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "custom"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "minimal"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "powerline"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "capsule"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tui"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "unicode"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "text"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Environment Variables:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Options:** -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Display format -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Show complete path (e.g.,"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ") -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Fish-shell style abbreviation (e.g.,"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ") -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Show only folder name (e.g.,"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Options:** -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Show abbreviated commit SHA -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Show nearest tag -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Show stash count -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Show upstream branch -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Branch &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SHA &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Tag &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Stash &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Clean &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Dirty &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Conflicts &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Ahead &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Behind &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Branch &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SHA &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Tag &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Stash &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Clean &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Dirty &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Conflicts &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Ahead &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Behind &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Symbols:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Model (unicode) &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Options:** -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Display format -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Cost calculation method -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(ccusage-style) |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(hook data) **Symbols:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Session (unicode) &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Options:** -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Display format -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Symbols:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Today (unicode) &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Options:** -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ") -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": How to display the percentage."
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "counts down from 100% (context left),"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "for"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "text"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u25d4 34,040 (79%)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ball"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u2500\u2500\u2500\u2500\u2500\u25cf\u2500\u2500\u2500\u2500 50%"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bar"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u2593\u2593\u2593\u2593\u2593\u2591\u2591\u2591\u2591\u2591 50%"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "blocks"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591 50%"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "blocks-line"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u2588\u2588\u2588\u2588\u2588\u2500\u2500\u2500\u2500\u2500 50%"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "capped"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u2501\u2501\u2501\u2501\u2578\u2504\u2504\u2504\u2504\u2504 50%"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "dots"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u25cf\u25cf\u25cf\u25cf\u25cf\u25cb\u25cb\u25cb\u25cb\u25cb 50%"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "filled"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u25a0\u25a0\u25a0\u25a0\u25a0\u25a1\u25a1\u25a1\u25a1\u25a1 50%"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "geometric"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u25b0\u25b0\u25b0\u25b0\u25b0\u25b1\u25b1\u25b1\u25b1\u25b1 50%"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "line"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u2501\u2501\u2501\u2501\u2501\u2504\u2504\u2504\u2504\u2504 50%"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "squares"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u25fc\u25fc\u25fc\u25fc\u25fc\u25fb\u25fb\u25fb\u25fb\u25fb 50%"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Context (unicode) &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Available Model Types:** -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Claude Opus models -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "sonnet\": 1000000"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Options:** -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "rate_limits"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "text"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u25f1 23% (4h 12m)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bar"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u25f1 \u25aa\u25aa\u25ab\u25ab\u25ab\u25ab\u25ab\u25ab\u25ab\u25ab 23% (4h 12m)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "blocks"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u25f1 \u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591 23% (4h 12m)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "blocks-line"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u25f1 \u2588\u2588\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 23% (4h 12m)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "capped"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u25f1 \u2501\u2578\u2504\u2504\u2504\u2504\u2504\u2504\u2504\u2504 23% (4h 12m)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "dots"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u25f1 \u25cf\u25cf\u25cb\u25cb\u25cb\u25cb\u25cb\u25cb\u25cb\u25cb 23% (4h 12m)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "filled"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u25f1 \u25a0\u25a0\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1\u25a1 23% (4h 12m)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "geometric"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u25f1 \u25b0\u25b0\u25b1\u25b1\u25b1\u25b1\u25b1\u25b1\u25b1\u25b1 23% (4h 12m)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "line"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u25f1 \u2501\u2501\u2504\u2504\u2504\u2504\u2504\u2504\u2504\u2504 23% (4h 12m)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "squares"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u25f1 \u25fc\u25fc\u25fb\u25fb\u25fb\u25fb\u25fb\u25fb\u25fb\u25fb 23% (4h 12m)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ball"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u25f1 \u2500\u2500\u25cf\u2500\u2500\u2500\u2500\u2500\u2500\u2500 23% (4h 12m)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Block (unicode) &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Options:** -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "rate_limits.seven_day"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Weekly (unicode) &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Options:** -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Total session duration -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Total API time &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Last response &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Session duration &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Messages &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Lines added &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Lines removed - Text:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Total API time &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Last response &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Session duration &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Messages &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Lines added &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Display:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Symbols:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Version (unicode) &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Display:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Options:** -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Show the"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ") **Display:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Symbols:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Session ID (unicode) &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Options:** -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Env (unicode) &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Options:** -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ": Budget type -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(USD) |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(for token-based limits) -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Normal &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Moderate (50-79%) &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Options:** -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "minimal"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "unicode"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "text"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "powerline"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "unicode"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "text"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "capsule"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "unicode"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "text"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tui"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "unicode"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "text"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Set to"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "for compact,"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "autoWrap"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Color Options:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(hex,"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ") &#8226;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "context"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "context.bar"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Compatibility Modes:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(default),"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Environment Variables:** -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "FORCE_COLOR"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "COLORTERM"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "FORCE_COLOR"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "NO_COLOR"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "display.tui"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "display.tui"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ") | |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| Minimum panel width | |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| Maximum panel width | |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| Extra horizontal padding in"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "mode | |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "divider rows | |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "minWidth"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| yes | Column sizing:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ", or a fixed number like"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| no | Per-column alignment:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ", or"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(defaults to"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ") | **Column sizing:** -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "context.bar context.bar context.bar context.pct context.tokens"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Here"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "#### Dot-Notation Subsegments Use"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "icon"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "branch"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "status"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ahead"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "behind"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "working"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "head"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "context"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "icon"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bar"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "pct"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tokens"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "block"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "icon"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bar"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "value"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "time"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "budget"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "session"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "icon"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cost"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tokens"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "budget"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "today"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "icon"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cost"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "label"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "budget"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "weekly"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "icon"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bar"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "pct"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "time"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "metrics"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "response"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "responseIcon"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "responseVal"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "lastResponse"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "lastResponseIcon"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "lastResponseVal"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "added"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "addedIcon"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "addedVal"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "removed"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "removedIcon"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "removedVal"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "activity"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "duration"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "durationIcon"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "durationVal"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "messages"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "messagesIcon"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "messagesVal"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "version"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "icon"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "value"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tmux"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "label"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "value"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "dir"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "value"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "env"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "prefix"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "value"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ", and"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "nativeUtilization"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "used_percentage"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "unicode"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "text"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| Right-side text, or"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "segments"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| required | Part references like"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "or literal strings | |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| Spaces between items | |"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "packs items left;"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "for colors:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(background),"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(foreground),"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(reset). Example:"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pricing.yml",
+      "term": "Update Pricing Data"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    }
+  ]
+}

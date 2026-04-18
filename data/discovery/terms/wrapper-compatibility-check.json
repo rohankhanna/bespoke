@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-18T09:23:05.253565+00:00",
+  "last_seen_at": "2026-04-18T09:23:05.253565+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/compat-check.yml",
+      "source_repo": "akin-ozer/cc-devops-skills"
+    }
+  ],
+  "term": "Wrapper Compatibility Check"
+}

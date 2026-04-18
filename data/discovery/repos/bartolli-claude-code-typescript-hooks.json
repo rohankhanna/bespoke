@@ -1,0 +1,146 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "bartolli/claude-code-typescript-hooks",
+      "target": "hook-config.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "bartolli/claude-code-typescript-hooks",
+      "target": "### Environment Variable Overrides",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "bartolli/claude-code-typescript-hooks",
+      "target": "## Testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "bartolli/claude-code-typescript-hooks",
+      "target": "tsconfig*.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "bartolli/claude-code-typescript-hooks",
+      "target": "tsconfig.webview.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "bartolli/claude-code-typescript-hooks",
+      "target": "**3. Cache Structure**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "bartolli/claude-code-typescript-hooks",
+      "target": "**4. Cache Lifecycle**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "bartolli/claude-code-typescript-hooks",
+      "target": "tsc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "bartolli/claude-code-typescript-hooks",
+      "target": "as any",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "bartolli/claude-code-typescript-hooks",
+      "target": "**Hook not running?**",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:23:11.245734+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7550
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": null,
+    "full_name": "bartolli/claude-code-typescript-hooks",
+    "html_url": "https://github.com/bartolli/claude-code-typescript-hooks",
+    "language": "JavaScript",
+    "pushed_at": "2025-08-26T17:11:20Z",
+    "topics": [],
+    "updated_at": "2026-04-11T09:16:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hook-config.json"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Environment Variable Overrides"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## Testing"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tsconfig*.json"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tsconfig.webview.json"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**3. Cache Structure**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**4. Cache Lifecycle**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tsc"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "as any"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Hook not running?**"
+    }
+  ]
+}

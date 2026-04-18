@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-18T09:10:17.311509+00:00",
+  "last_seen_at": "2026-04-18T09:23:05.253565+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -11,6 +11,11 @@
       "discovered_via": "inline-code",
       "source_file": "README.md",
       "source_repo": "anthropics/claudes-c-compiler"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills"
     }
   ],
   "term": "with"

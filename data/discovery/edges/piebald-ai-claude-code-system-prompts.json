@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Piebald-AI/claude-code-system-prompts",
+      "target": "piebald-ai/.github",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Piebald-AI/claude-code-system-prompts",
+      "target": "piebald-ai/piebald",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Piebald-AI/claude-code-system-prompts",
+      "target": "Write",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Piebald-AI/claude-code-system-prompts",
+      "target": "Bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Piebald-AI/claude-code-system-prompts",
+      "target": "TodoWrite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Piebald-AI/claude-code-system-prompts",
+      "target": "CLAUDE.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Piebald-AI/claude-code-system-prompts",
+      "target": "summary.md",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T09:23:05.253565+00:00",
+  "source_repo": "Piebald-AI/claude-code-system-prompts"
+}

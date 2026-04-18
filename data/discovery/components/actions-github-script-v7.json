@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v7",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-18T09:22:19.136418+00:00",
+  "last_seen_at": "2026-04-18T09:23:05.253565+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -87,6 +87,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test-binaries.yml",
       "source_repo": "hagan/claudia-statusline"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign.yml",
+      "source_repo": "rzykov/metabase"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-backport.yml",
+      "source_repo": "rzykov/metabase"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backend.yml",
+      "source_repo": "rzykov/metabase"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compat-check.yml",
+      "source_repo": "akin-ozer/cc-devops-skills"
     }
   ]
 }

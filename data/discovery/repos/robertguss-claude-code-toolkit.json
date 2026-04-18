@@ -1,0 +1,109 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "robertguss/claude-code-toolkit",
+      "target": "casey/just",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "robertguss/claude-code-toolkit",
+      "target": "PostToolUse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "robertguss/claude-code-toolkit",
+      "target": "Stop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "robertguss/claude-code-toolkit",
+      "target": "PreCompact",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "robertguss/claude-code-toolkit",
+      "target": "2. Add to",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "robertguss/claude-code-toolkit",
+      "target": "## Directory Structure",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:23:12.254281+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5695
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 376
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "A collection of custom skills that extend Claude's capabilities with specialized workflows, methods, and domain knowledge.",
+    "full_name": "robertguss/claude-code-toolkit",
+    "html_url": "https://github.com/robertguss/claude-code-toolkit",
+    "language": "Shell",
+    "pushed_at": "2026-03-22T19:14:06Z",
+    "topics": [
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-skills",
+      "skills"
+    ],
+    "updated_at": "2026-04-18T01:49:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "casey/just",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "PostToolUse"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Stop"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "PreCompact"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "2. Add to"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## Directory Structure"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T09:22:19.136418+00:00",
+  "last_seen_at": "2026-04-18T09:23:05.253565+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1417,6 +1417,151 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update-changelog.yml",
       "source_repo": "beyondcode/claude-hooks-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "parruda/swarm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-claude-swarm.yml",
+      "source_repo": "parruda/swarm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-swarm-cli.yml",
+      "source_repo": "parruda/swarm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-swarm-memory.yml",
+      "source_repo": "parruda/swarm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-swarm-sdk.yml",
+      "source_repo": "parruda/swarm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "parruda/swarm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "joshsymonds/cc-tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "joshsymonds/cc-tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/athena.yml",
+      "source_repo": "rzykov/metabase"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign.yml",
+      "source_repo": "rzykov/metabase"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-backport.yml",
+      "source_repo": "rzykov/metabase"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backend-cloverage.yml",
+      "source_repo": "rzykov/metabase"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backend.yml",
+      "source_repo": "rzykov/metabase"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "basicmachines-co/basic-memory"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "basicmachines-co/basic-memory"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "basicmachines-co/basic-memory"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dev-release.yml",
+      "source_repo": "basicmachines-co/basic-memory"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "basicmachines-co/basic-memory"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "basicmachines-co/basic-memory"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "source_repo": "sudocode-ai/sudocode"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "sudocode-ai/sudocode"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "sudocode-ai/sudocode"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/version_test.yml",
+      "source_repo": "sudocode-ai/sudocode"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cli-smoke-test.yml",
+      "source_repo": "slopus/happy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/typecheck.yml",
+      "source_repo": "slopus/happy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pricing.yml",
+      "source_repo": "Owloops/claude-powerline"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Owloops/claude-powerline"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "matt1398/claude-devtools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "matt1398/claude-devtools"
     }
   ]
 }

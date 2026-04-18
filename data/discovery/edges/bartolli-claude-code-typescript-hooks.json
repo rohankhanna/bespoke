@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "bartolli/claude-code-typescript-hooks",
+      "target": "hook-config.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "bartolli/claude-code-typescript-hooks",
+      "target": "### Environment Variable Overrides",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "bartolli/claude-code-typescript-hooks",
+      "target": "## Testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "bartolli/claude-code-typescript-hooks",
+      "target": "tsconfig*.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "bartolli/claude-code-typescript-hooks",
+      "target": "tsconfig.webview.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "bartolli/claude-code-typescript-hooks",
+      "target": "**3. Cache Structure**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "bartolli/claude-code-typescript-hooks",
+      "target": "**4. Cache Lifecycle**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "bartolli/claude-code-typescript-hooks",
+      "target": "tsc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "bartolli/claude-code-typescript-hooks",
+      "target": "as any",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "bartolli/claude-code-typescript-hooks",
+      "target": "**Hook not running?**",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T09:23:05.253565+00:00",
+  "source_repo": "bartolli/claude-code-typescript-hooks"
+}

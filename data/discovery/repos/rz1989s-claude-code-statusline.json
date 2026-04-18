@@ -1,0 +1,1969 @@
+{
+  "components": [
+    {
+      "component": "bats",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@beta",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-gitlab.yml"
+    },
+    {
+      "component": "webfactory/ssh-agent@v0.10.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-gitlab.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "brew install jq curl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "sudo apt install jq curl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "sudo pacman -S jq curl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "sudo dnf install jq curl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "apk add jq curl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "**\ud83d\udd0d Quick Security Check**: Open",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "or modify system files - Uses",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "### \ud83d\udd0d Enhanced Installer Options",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "### \u2705 Verify Installation Success",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "Config.toml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "commits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "submodules",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "cost_monthly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "cost_weekly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "cost_daily",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "30DAY $660.87 7DAY $9.31 DAY $36.10",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "Config.modular-atomic.toml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "collect_data()",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "render()",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "get_config()",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "repo_info.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "commits.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "submodules.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "version_info.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "time_display.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "model_info.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "cost_repo.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "cost_monthly.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "cost_weekly.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "cost_daily.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "cost_live.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "mcp_status.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "reset_timer.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "prayer_times.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "DEFAULT_VERSION_TIMEOUT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "CACHE_CONFIG_ATOMIC_TIMEOUT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "git check-ref-format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "claude --version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "claude mcp list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "version.txt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "parse_timeout_to_seconds()",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "validate_timeout_bounds()",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "ENV_CONFIG_*",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "**Creative Reordering (6-line):**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "repo_info",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "version_info",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "time_display",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "model_info",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "cost_repo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "cost_live",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "mcp_status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "reset_timer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "prayer_times",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "prayer.location_mode = \"manual",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "core.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "security.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "config.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "themes.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "components.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "git.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "mcp.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "cost.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "prayer.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "display.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "cache.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "command -v git",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "command -v claude",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "command -v jq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "command -v bunx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "is_git_repository()",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "get_git_branch()",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "get_git_status()",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "git config --get",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "git submodule status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "uname -s",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "uname -m",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "pwd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "CLAUDE_INSTANCE_ID=DEV_001",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "CLAUDE_INSTANCE_ID=PROD_002",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "**Cache Management Commands:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "**Environment Override:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "**CLI Generation:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "**Advanced Custom Configuration:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "#### Method 2: Homebrew (macOS)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "curl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "#### Method 3: Manual Installation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "#### Quick Theme Change",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "**Quick Component Arrangement Testing:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "#### **Quick Layout Changes (Environment Overrides)**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "display.lineN.components",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "### Advanced Custom Colors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "### Live Reload & Management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "### Help & Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "**Key Features from",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": ":**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "#### Comprehensive Configuration (7-line)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "**Traditional feature-based configuration:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "#### Performance-Optimized Configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "### Context-Specific Configuration Files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "(4h 15m left)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "(waiting API response...)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "brew",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "apt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "pacman",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "dnf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "yum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "apk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "pkg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "brew install jq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "sudo apt install jq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "sudo yum install jq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "git",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "grep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "sed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "date",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "timeout",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "gtimeout",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "brew install coreutils",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "brew install corelocationcli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "sudo apt install geoclue-2.0-dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "sudo yum install geoclue2-devel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "test-ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "test-all",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "lint-all",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "bats",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "anthropics/claude-code-action@beta",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-gitlab.yml",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror-gitlab.yml",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "webfactory/ssh-agent@v0.10.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mirror-gitlab.yml",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "Mirror to GitLab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rz1989s/claude-code-statusline",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:23:24.745970+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 88590
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1120
+    },
+    {
+      "path": "package.json",
+      "size": 2452
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3702
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 2313
+    },
+    {
+      "path": ".github/workflows/mirror-gitlab.yml",
+      "size": 607
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 5228
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Transform your Claude Code terminal with atomic precision statusline. Features flexible layouts, real-time cost tracking, MCP monitoring, prayer times, and beautiful themes.",
+    "full_name": "rz1989s/claude-code-statusline",
+    "html_url": "https://github.com/rz1989s/claude-code-statusline",
+    "language": "Shell",
+    "pushed_at": "2026-04-17T17:11:17Z",
+    "topics": [
+      "ai-tools",
+      "bash",
+      "caching",
+      "claude-code",
+      "cli-tool",
+      "cost-tracking",
+      "cross-platform",
+      "developer-tools",
+      "git-integration",
+      "islamic-prayer-times",
+      "modular-architecture",
+      "productivity",
+      "shell-script",
+      "statusline",
+      "terminal",
+      "toml"
+    ],
+    "updated_at": "2026-04-18T08:23:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "brew install jq curl"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "sudo apt install jq curl"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "sudo pacman -S jq curl"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "sudo dnf install jq curl"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "apk add jq curl"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**\ud83d\udd0d Quick Security Check**: Open"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "or modify system files - Uses"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### \ud83d\udd0d Enhanced Installer Options"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### \u2705 Verify Installation Success"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Config.toml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "commits"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "submodules"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cost_monthly"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cost_weekly"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cost_daily"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "30DAY $660.87 7DAY $9.31 DAY $36.10"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "commits"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Config.modular-atomic.toml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "collect_data()"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "render()"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "get_config()"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "repo_info.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "commits.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "submodules.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "version_info.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "time_display.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "model_info.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cost_repo.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cost_monthly.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cost_weekly.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cost_daily.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cost_live.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "mcp_status.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "reset_timer.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "prayer_times.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "DEFAULT_VERSION_TIMEOUT"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "CACHE_CONFIG_ATOMIC_TIMEOUT"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git check-ref-format"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude --version"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude mcp list"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "version.txt"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "parse_timeout_to_seconds()"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "validate_timeout_bounds()"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Config.toml"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ENV_CONFIG_*"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Creative Reordering (6-line):**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "repo_info"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "commits"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "submodules"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "version_info"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "time_display"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "model_info"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cost_repo"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cost_monthly"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cost_weekly"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cost_daily"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cost_live"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "mcp_status"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "reset_timer"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "prayer_times"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "repo_info"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "commits"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "submodules"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "version_info"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "time_display"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "model_info"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cost_repo"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cost_monthly"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cost_weekly"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cost_daily"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cost_live"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "mcp_status"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "reset_timer"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "prayer_times"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "prayer.location_mode = \"manual"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "core.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "security.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "config.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "themes.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "components.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "mcp.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cost.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "prayer.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "display.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cache.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ENV_CONFIG_*"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "command -v git"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "command -v claude"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "command -v jq"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "command -v bunx"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "is_git_repository()"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "get_git_branch()"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "get_git_status()"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git config --get"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git submodule status"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude --version"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude mcp list"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "uname -s"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "uname -m"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "pwd"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "CLAUDE_INSTANCE_ID=DEV_001"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "CLAUDE_INSTANCE_ID=PROD_002"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Cache Management Commands:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Environment Override:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**CLI Generation:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Environment Override:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Environment Override:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Advanced Custom Configuration:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "#### Method 2: Homebrew (macOS)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "curl"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "python3"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "#### Method 3: Manual Installation"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "#### Quick Theme Change"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Quick Component Arrangement Testing:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "#### **Quick Layout Changes (Environment Overrides)**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "display.lineN.components"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ENV_CONFIG_*"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Advanced Custom Colors"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Live Reload & Management"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Help & Documentation"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Key Features from"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ":**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "#### Comprehensive Configuration (7-line)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Key Features from"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ":**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Traditional feature-based configuration:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "#### Performance-Optimized Configuration"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Context-Specific Configuration Files"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(4h 15m left)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(waiting API response...)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "brew"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "apt"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "apt"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "pacman"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "dnf"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "dnf"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "yum"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "apk"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "pkg"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "brew install jq"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "sudo apt install jq"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "sudo yum install jq"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "grep"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "sed"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "date"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "timeout"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "gtimeout"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "brew install coreutils"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "gtimeout"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "brew install corelocationcli"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "sudo apt install geoclue-2.0-dev"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "sudo yum install geoclue2-devel"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "dev"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "test"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "test-ubuntu"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "test-all"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "lint"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "lint-all"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude Code"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mirror-gitlab.yml",
+      "term": "Mirror to GitLab"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    }
+  ]
+}

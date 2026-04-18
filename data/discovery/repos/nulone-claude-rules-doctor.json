@@ -1,0 +1,246 @@
+{
+  "components": [
+    {
+      "component": "chalk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "commander",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "glob",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yaml",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nulone/claude-rules-doctor",
+      "target": "paths:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nulone/claude-rules-doctor",
+      "target": "## Problem Claude rules with",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nulone/claude-rules-doctor",
+      "target": "bash rules-doctor check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nulone/claude-rules-doctor",
+      "target": "bash rules-doctor check --ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nulone/claude-rules-doctor",
+      "target": "### JSON output",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nulone/claude-rules-doctor",
+      "target": "bash rules-doctor check --json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nulone/claude-rules-doctor",
+      "target": "### Verbose mode (show matched files)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nulone/claude-rules-doctor",
+      "target": "bash rules-doctor check --verbose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nulone/claude-rules-doctor",
+      "target": "### Check specific directory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "nulone/claude-rules-doctor",
+      "target": "## CI (GitHub Actions)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "nulone/claude-rules-doctor",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "nulone/claude-rules-doctor",
+      "target": "commander",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "nulone/claude-rules-doctor",
+      "target": "glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "nulone/claude-rules-doctor",
+      "target": "yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nulone/claude-rules-doctor",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nulone/claude-rules-doctor",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nulone/claude-rules-doctor",
+      "target": "vitest",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:23:25.443446+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2473
+    },
+    {
+      "path": "package.json",
+      "size": 1173
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Catch dead Claude rules before they silently do nothing.",
+    "full_name": "nulone/claude-rules-doctor",
+    "html_url": "https://github.com/nulone/claude-rules-doctor",
+    "language": "TypeScript",
+    "pushed_at": "2026-02-25T02:41:48Z",
+    "topics": [
+      "claude",
+      "claude-code",
+      "cli",
+      "dead-rules",
+      "glob",
+      "linter",
+      "npm",
+      "rules",
+      "typescript",
+      "validation"
+    ],
+    "updated_at": "2026-04-18T02:00:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "paths:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## Problem Claude rules with"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash rules-doctor check"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash rules-doctor check --ci"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### JSON output"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash rules-doctor check --json"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Verbose mode (show matched files)"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash rules-doctor check --verbose"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Check specific directory"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "## CI (GitHub Actions)"
+    }
+  ]
+}

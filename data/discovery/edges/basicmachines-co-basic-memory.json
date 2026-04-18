@@ -1,0 +1,622 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "astral-sh/ruff",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "delgan/loguru",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "BMFOSS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "schema_infer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "schema_validate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "schema_diff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "basic-memory project set-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "edit_note",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "write_note",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "uv tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "86400",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "basic-memory mcp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "uvx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "Config options in",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "To disable automatic updates, set",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "basic-memory sync --watch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "Look at",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "for context about pour over coffee",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "Entity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "Observations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "Relations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "category",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "tags",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "context",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "Examples of observations:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "Examples of relations:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "Ctrl + Shift + P",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "Preferences: Open User Settings (JSON)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "2. Sync your knowledge:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "3. Cloud features (optional, requires subscription):",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "tool edit-note",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "**Knowledge Graph Navigation:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "**Search & Discovery:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "**Project Management:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "defaults to",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "and can be switched to",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "**Visualization:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "5. Example prompts to try:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "bash export BASIC_MEMORY_NO_PROMOS=1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "BASIC_MEMORY_LOG_LEVEL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "INFO",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "BASIC_MEMORY_CLOUD_MODE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "false",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "true",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "BASIC_MEMORY_FORCE_LOCAL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "BASIC_MEMORY_FORCE_CLOUD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "BASIC_MEMORY_EXPLICIT_ROUTING",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "BASIC_MEMORY_ENV",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "BASIC_MEMORY_NO_PROMOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "BASIC_MEMORY_TEST_POSTGRES=1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "**Available Test Commands:** -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "just testmon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "smoke",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "**Type Checking Strategy:** -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "(Astral",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "Claude Code Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "# pragma: no cover",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "Claude Issue Triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "gh search issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-release.yml",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-release.yml",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-release.yml",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev-release.yml",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "Dev Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "Docker Image CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "amannn/action-semantic-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "Pull Request Title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "mislav/bump-homebrew-formula-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "basicmachines-co/basic-memory",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T09:23:05.253565+00:00",
+  "source_repo": "basicmachines-co/basic-memory"
+}

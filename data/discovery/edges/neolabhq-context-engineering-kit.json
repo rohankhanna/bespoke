@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "vercel-labs/skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "numman-ali/openskills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "ailev/fpf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "Alternatively, you can use the",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "word in the initial prompt:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "Then run the following commands:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "researcher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "code-explorer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "business-analyst",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "software-architect",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "tech-lead",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "team-lead",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "qa-engineer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "developer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "tech-writer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "depends_on",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "#### Usage workflow",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T09:23:05.253565+00:00",
+  "source_repo": "NeoLabHQ/context-engineering-kit"
+}

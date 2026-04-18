@@ -1,0 +1,97 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ViperJuice/Flutter-Structurizr",
+      "target": "fix_sourceposition_constructors.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ViperJuice/Flutter-Structurizr",
+      "target": "bash cp .env.example .env",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ViperJuice/Flutter-Structurizr",
+      "target": "2. Edit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ViperJuice/Flutter-Structurizr",
+      "target": "bash cp .mcp.example.json .mcp.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ViperJuice/Flutter-Structurizr",
+      "target": "2. Install dependencies:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ViperJuice/Flutter-Structurizr",
+      "target": "bash flutter pub get",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ViperJuice/Flutter-Structurizr",
+      "target": "3. Generate necessary code:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ViperJuice/Flutter-Structurizr",
+      "target": "4. Run the demo app:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ViperJuice/Flutter-Structurizr",
+      "target": "Replace",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ViperJuice/Flutter-Structurizr",
+      "target": "show",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ViperJuice/Flutter-Structurizr",
+      "target": "hide",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ViperJuice/Flutter-Structurizr",
+      "target": "flutter test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ViperJuice/Flutter-Structurizr",
+      "target": "dart test",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T09:23:05.253565+00:00",
+  "source_repo": "ViperJuice/Flutter-Structurizr"
+}

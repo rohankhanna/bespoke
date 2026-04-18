@@ -1,0 +1,244 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-smoke-test.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-smoke-test.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-smoke-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-smoke-test.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-smoke-test.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-smoke-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typecheck.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typecheck.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typecheck.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "slopus/happy",
+      "target": "slopus/slopus.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "slopus/happy",
+      "target": "bash npm install -g happy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "slopus/happy",
+      "target": "happy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "slopus/happy",
+      "target": "claude",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "slopus/happy",
+      "target": "codex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "slopus/happy",
+      "target": "instead of",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-smoke-test.yml",
+      "source_repo": "slopus/happy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-smoke-test.yml",
+      "source_repo": "slopus/happy",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-smoke-test.yml",
+      "source_repo": "slopus/happy",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cli-smoke-test.yml",
+      "source_repo": "slopus/happy",
+      "target": "CLI Smoke Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typecheck.yml",
+      "source_repo": "slopus/happy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typecheck.yml",
+      "source_repo": "slopus/happy",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typecheck.yml",
+      "source_repo": "slopus/happy",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/typecheck.yml",
+      "source_repo": "slopus/happy",
+      "target": "Expo App TypeScript typecheck",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:23:27.952094+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4101
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2104
+    },
+    {
+      "path": "package.json",
+      "size": 2031
+    },
+    {
+      "path": ".github/workflows/cli-smoke-test.yml",
+      "size": 6541
+    },
+    {
+      "path": ".github/workflows/typecheck.yml",
+      "size": 894
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Mobile and Web client for Codex and Claude Code, with realtime voice, encryption and fully featured",
+    "full_name": "slopus/happy",
+    "html_url": "https://github.com/slopus/happy",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-18T05:50:19Z",
+    "topics": [
+      "claude-code",
+      "claude-desktop",
+      "claude-mobile",
+      "codex",
+      "codex-cli",
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-04-18T08:22:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "slopus/slopus.github.io",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash npm install -g happy"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "happy"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "happy"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claude"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "codex"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "instead of"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "instead of"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cli-smoke-test.yml",
+      "term": "CLI Smoke Test"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/typecheck.yml",
+      "term": "Expo App TypeScript typecheck"
+    }
+  ]
+}

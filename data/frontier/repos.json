@@ -1,106 +1,6 @@
 {
-  "generated_at": "2026-04-18T09:22:19.136418+00:00",
+  "generated_at": "2026-04-18T09:23:05.253565+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "neolabhq/context-engineering-kit",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "parruda/claude-swarm",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "veraticus/cc-tools",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "bartolli/claude-code-typescript-hooks",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "robertguss/claude-skills",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "rzykov/metabase",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "slunsford/coffee-analytics",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "piebald-ai/claude-code-system-prompts",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "basicmachines-co/basic-memory",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "steadycursor/steadystart",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "sudocode-ai/sudocode",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "rz1989s/claude-code-statusline",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "nulone/claude-rules-doctor",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "akin-ozer/cc-devops-skills",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "slopus/happy",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "diet103/claude-code-infrastructure-showcase",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "consiliency/flutter-structurizr",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "owloops/claude-powerline",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dagger/container-use",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "matt1398/claude-devtools",
-      "graph_distance": 3
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "everyinc/compound-engineering-plugin",
@@ -1525,6 +1425,81 @@
       "discovered_via": "explicit-github-link",
       "full_name": "stephenschoettler/taches-oc-prompts",
       "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ailev/fpf",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "numman-ali/openskills",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "vercel-labs/skills",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "parruda/claude-swarm",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "parruda/ruby_llm",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "veraticus/cc-tools",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "adoptium/adoptium",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "piebald-ai/.github",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "piebald-ai/piebald",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "astral-sh/ruff",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "delgan/loguru",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "fission-ai/openspec",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "steveyegge/beads",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "databus23/helm-diff",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "slopus/slopus.github.io",
+      "graph_distance": 4
     }
   ],
   "processed": [
@@ -1810,6 +1785,26 @@
     "stravu/crystal",
     "zarazhangrui/codebase-to-course",
     "beyondcode/claude-hooks-sdk",
-    "glittercowboy/taches-cc-resources"
+    "glittercowboy/taches-cc-resources",
+    "neolabhq/context-engineering-kit",
+    "parruda/swarm",
+    "joshsymonds/cc-tools",
+    "bartolli/claude-code-typescript-hooks",
+    "robertguss/claude-code-toolkit",
+    "rzykov/metabase",
+    "slunsford/coffee-analytics",
+    "piebald-ai/claude-code-system-prompts",
+    "basicmachines-co/basic-memory",
+    "steadycursor/steadystart",
+    "sudocode-ai/sudocode",
+    "rz1989s/claude-code-statusline",
+    "nulone/claude-rules-doctor",
+    "akin-ozer/cc-devops-skills",
+    "slopus/happy",
+    "diet103/claude-code-infrastructure-showcase",
+    "viperjuice/flutter-structurizr",
+    "owloops/claude-powerline",
+    "dagger/container-use",
+    "matt1398/claude-devtools"
   ]
 }

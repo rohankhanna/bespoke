@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-18T09:21:02.237042+00:00",
+  "last_seen_at": "2026-04-18T09:23:05.253565+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -31,6 +31,11 @@
       "discovered_via": "inline-code",
       "source_file": "README.md",
       "source_repo": "foxj77/claudectx"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "diet103/claude-code-infrastructure-showcase"
     }
   ],
   "term": "settings.json"

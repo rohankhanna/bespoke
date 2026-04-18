@@ -1,0 +1,115 @@
+{
+  "components": [
+    {
+      "component": "prettier",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "env-cmd",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-import",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steadycursor/steadystart",
+      "target": "steadystart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "steadycursor/steadystart",
+      "target": "Steady Start",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "steadycursor/steadystart",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "steadycursor/steadystart",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "steadycursor/steadystart",
+      "target": "env-cmd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "steadycursor/steadystart",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "steadycursor/steadystart",
+      "target": "eslint-plugin-import",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:23:20.546894+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3573
+    },
+    {
+      "path": "package.json",
+      "size": 562
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": null,
+    "full_name": "steadycursor/steadystart",
+    "html_url": "https://github.com/steadycursor/steadystart",
+    "language": "TypeScript",
+    "pushed_at": "2025-08-03T20:24:58Z",
+    "topics": [],
+    "updated_at": "2026-03-14T05:58:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "steadystart"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Steady Start"
+    }
+  ]
+}

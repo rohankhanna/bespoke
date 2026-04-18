@@ -1,0 +1,486 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-claude-swarm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-claude-swarm.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-claude-swarm.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-claude-swarm.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-claude-swarm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-swarm-cli.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-swarm-cli.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-swarm-cli.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-swarm-cli.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-swarm-memory.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-swarm-memory.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-swarm-sdk.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-swarm-sdk.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-swarm-sdk.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-swarm-sdk.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "parruda/swarm",
+      "target": "parruda/claude-swarm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "parruda/swarm",
+      "target": "parruda/ruby_llm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "parruda/swarm",
+      "target": "Run it:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "parruda/swarm",
+      "target": "Run the code review:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "parruda/swarm",
+      "target": "bash gem install swarm_memory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "parruda/swarm",
+      "target": "bash gem install claude_swarm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "parruda/swarm",
+      "target": "git checkout -b my-new-feature",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "parruda/swarm",
+      "target": "git commit -am 'Add some feature",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "parruda/swarm",
+      "target": "git push origin my-new-feature",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "parruda/swarm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "parruda/swarm",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "parruda/swarm",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "parruda/swarm",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-claude-swarm.yml",
+      "source_repo": "parruda/swarm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-claude-swarm.yml",
+      "source_repo": "parruda/swarm",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-claude-swarm.yml",
+      "source_repo": "parruda/swarm",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-claude-swarm.yml",
+      "source_repo": "parruda/swarm",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-claude-swarm.yml",
+      "source_repo": "parruda/swarm",
+      "target": "Release ClaudeSwarm Gem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-swarm-cli.yml",
+      "source_repo": "parruda/swarm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-swarm-cli.yml",
+      "source_repo": "parruda/swarm",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-swarm-cli.yml",
+      "source_repo": "parruda/swarm",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-swarm-cli.yml",
+      "source_repo": "parruda/swarm",
+      "target": "Release SwarmCLI Gem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-swarm-memory.yml",
+      "source_repo": "parruda/swarm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-swarm-memory.yml",
+      "source_repo": "parruda/swarm",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-swarm-memory.yml",
+      "source_repo": "parruda/swarm",
+      "target": "Release SwarmMemory Gem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-swarm-sdk.yml",
+      "source_repo": "parruda/swarm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-swarm-sdk.yml",
+      "source_repo": "parruda/swarm",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-swarm-sdk.yml",
+      "source_repo": "parruda/swarm",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-swarm-sdk.yml",
+      "source_repo": "parruda/swarm",
+      "target": "Release SwarmSDK Gem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "parruda/swarm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "parruda/swarm",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "parruda/swarm",
+      "target": "Release Gem",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:23:09.059102+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14008
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 7094
+    },
+    {
+      "path": ".github/workflows/release-claude-swarm.yml",
+      "size": 3178
+    },
+    {
+      "path": ".github/workflows/release-swarm-cli.yml",
+      "size": 3362
+    },
+    {
+      "path": ".github/workflows/release-swarm-memory.yml",
+      "size": 2089
+    },
+    {
+      "path": ".github/workflows/release-swarm-sdk.yml",
+      "size": 3072
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 853
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Ruby gems for general-purpose AI agent systems: automation, research, data processing, customer support, content creation. SwarmSDK provides single-process orchestration, persistent memory with semantic   search, node workflows, and hooks. SwarmMemory/SwarmCLI included. Claude Swarm v1 for dev teams.",
+    "full_name": "parruda/swarm",
+    "html_url": "https://github.com/parruda/swarm",
+    "language": "Ruby",
+    "pushed_at": "2026-02-17T02:07:40Z",
+    "topics": [],
+    "updated_at": "2026-04-16T08:17:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "parruda/claude-swarm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "parruda/ruby_llm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Run it:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Run the code review:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash gem install swarm_memory"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash gem install claude_swarm"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git checkout -b my-new-feature"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git commit -am 'Add some feature"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git push origin my-new-feature"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-claude-swarm.yml",
+      "term": "Release ClaudeSwarm Gem"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-swarm-cli.yml",
+      "term": "Release SwarmCLI Gem"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-swarm-memory.yml",
+      "term": "Release SwarmMemory Gem"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-swarm-sdk.yml",
+      "term": "Release SwarmSDK Gem"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release Gem"
+    }
+  ]
+}

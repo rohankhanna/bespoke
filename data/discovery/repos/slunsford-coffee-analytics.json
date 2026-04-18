@@ -1,0 +1,167 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_job.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_job.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_dbt_and_docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_dbt_and_docs.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_dbt_and_docs.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_dbt_and_docs.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_dbt_and_docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "slunsford/coffee-analytics",
+      "target": "Title Case",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "slunsford/coffee-analytics",
+      "target": "snake_case",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_job.yml",
+      "source_repo": "slunsford/coffee-analytics",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_job.yml",
+      "source_repo": "slunsford/coffee-analytics",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_job.yml",
+      "source_repo": "slunsford/coffee-analytics",
+      "target": "CI job",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_dbt_and_docs.yml",
+      "source_repo": "slunsford/coffee-analytics",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_dbt_and_docs.yml",
+      "source_repo": "slunsford/coffee-analytics",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_dbt_and_docs.yml",
+      "source_repo": "slunsford/coffee-analytics",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_dbt_and_docs.yml",
+      "source_repo": "slunsford/coffee-analytics",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_dbt_and_docs.yml",
+      "source_repo": "slunsford/coffee-analytics",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_dbt_and_docs.yml",
+      "source_repo": "slunsford/coffee-analytics",
+      "target": "Deploy dbt and Docs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:23:16.255268+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 987
+    },
+    {
+      "path": ".github/workflows/ci_job.yml",
+      "size": 843
+    },
+    {
+      "path": ".github/workflows/deploy_dbt_and_docs.yml",
+      "size": 2112
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Tracking and analyzing coffee preferences",
+    "full_name": "slunsford/coffee-analytics",
+    "html_url": "https://github.com/slunsford/coffee-analytics",
+    "language": "Svelte",
+    "pushed_at": "2025-11-27T01:50:12Z",
+    "topics": [],
+    "updated_at": "2026-02-24T08:38:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Title Case"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "snake_case"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_job.yml",
+      "term": "CI job"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_dbt_and_docs.yml",
+      "term": "Deploy dbt and Docs"
+    }
+  ]
+}

@@ -1,0 +1,524 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "databus23/helm-diff",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "k8s-debug",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "### Codex Desktop Skills only:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "2. Create or update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "so Codex can discover the plugin:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "If you already use",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": ", append the",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "With:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "Behavior stays compatible with upstream",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "Tag policy: -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "tracks this wrapper's latest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "release. - The wrapper internally calls",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "Typical prompts:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "terraform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "tflint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "checkov",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "helm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "kubeconform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "actionlint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "act",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "ansible-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "ansible-validator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "terraform-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "terraform-validator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "terragrunt-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "terragrunt-validator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "azure-pipelines-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "azure-pipelines.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "azure-pipelines-validator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "github-actions-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "action.yml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "github-actions-validator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "gitlab-ci-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "gitlab-ci-validator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "jenkinsfile-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "jenkinsfile-validator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "dockerfile-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "dockerfile-validator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "helm-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "helm-validator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "k8s-yaml-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "k8s-yaml-validator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "fluentbit-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "INPUT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "FILTER",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "OUTPUT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "fluentbit-validator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "logql-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "loki-config-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "promql-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "promql-validator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "bash-script-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "bash-script-validator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "makefile-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "makefile-validator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "terraform fmt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "terraform validate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "terraform plan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "kubectl --dry-run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "helm lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "helm template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "terragrunt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "kubectl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "yamllint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "hadolint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "shellcheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "promtool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "## Repo Layout",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compat-check.yml",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compat-check.yml",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compat-check.yml",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "Wrapper Compatibility Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/compat-check.yml",
+      "source_repo": "akin-ozer/cc-devops-skills",
+      "target": "action.yml",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T09:23:05.253565+00:00",
+  "source_repo": "akin-ozer/cc-devops-skills"
+}

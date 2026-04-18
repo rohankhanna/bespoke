@@ -1,0 +1,182 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ViperJuice/Flutter-Structurizr",
+      "target": "fix_sourceposition_constructors.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ViperJuice/Flutter-Structurizr",
+      "target": "bash cp .env.example .env",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ViperJuice/Flutter-Structurizr",
+      "target": "2. Edit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ViperJuice/Flutter-Structurizr",
+      "target": "bash cp .mcp.example.json .mcp.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ViperJuice/Flutter-Structurizr",
+      "target": "2. Install dependencies:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ViperJuice/Flutter-Structurizr",
+      "target": "bash flutter pub get",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ViperJuice/Flutter-Structurizr",
+      "target": "3. Generate necessary code:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ViperJuice/Flutter-Structurizr",
+      "target": "4. Run the demo app:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ViperJuice/Flutter-Structurizr",
+      "target": "Replace",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ViperJuice/Flutter-Structurizr",
+      "target": "show",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ViperJuice/Flutter-Structurizr",
+      "target": "hide",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ViperJuice/Flutter-Structurizr",
+      "target": "flutter test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "ViperJuice/Flutter-Structurizr",
+      "target": "dart test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:23:29.318296+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22974
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Flutter Structurizr diagram manipulation implementation. ",
+    "full_name": "ViperJuice/Flutter-Structurizr",
+    "html_url": "https://github.com/ViperJuice/Flutter-Structurizr",
+    "language": "Dart",
+    "pushed_at": "2025-05-22T23:41:26Z",
+    "topics": [],
+    "updated_at": "2026-04-05T16:17:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "fix_sourceposition_constructors.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash cp .env.example .env"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "2. Edit"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash cp .mcp.example.json .mcp.json"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "2. Install dependencies:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bash flutter pub get"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "3. Generate necessary code:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "4. Run the demo app:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Replace"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "show"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hide"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "flutter test"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "dart test"
+    }
+  ]
+}

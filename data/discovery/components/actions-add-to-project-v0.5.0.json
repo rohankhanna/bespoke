@@ -1,0 +1,12 @@
+{
+  "component": "actions/add-to-project@v0.5.0",
+  "first_seen_at": "2026-04-18T09:23:05.253565+00:00",
+  "last_seen_at": "2026-04-18T09:23:05.253565+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign.yml",
+      "source_repo": "rzykov/metabase"
+    }
+  ]
+}

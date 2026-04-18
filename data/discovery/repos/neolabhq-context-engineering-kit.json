@@ -1,0 +1,241 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "vercel-labs/skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "numman-ali/openskills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "ailev/fpf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "Alternatively, you can use the",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "word in the initial prompt:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "Then run the following commands:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "researcher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "code-explorer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "business-analyst",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "software-architect",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "tech-lead",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "team-lead",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "qa-engineer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "developer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "tech-writer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "depends_on",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeoLabHQ/context-engineering-kit",
+      "target": "#### Usage workflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:23:06.617625+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 40474
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "Hand-crafted Claude Code Skills focused on improving agent results quality. Compatible with OpenCode, Cursor, Antigravity, Gemini CLI, and others.",
+    "full_name": "NeoLabHQ/context-engineering-kit",
+    "html_url": "https://github.com/NeoLabHQ/context-engineering-kit",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-16T22:42:59Z",
+    "topics": [
+      "agent",
+      "ai",
+      "claude",
+      "cline",
+      "cursor",
+      "llm",
+      "marketplace",
+      "opencode",
+      "windsurf"
+    ],
+    "updated_at": "2026-04-18T01:50:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ailev/fpf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "numman-ali/openskills",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vercel-labs/skills",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Alternatively, you can use the"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "word in the initial prompt:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Then run the following commands:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "researcher"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "code-explorer"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "business-analyst"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "software-architect"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tech-lead"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "team-lead"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "qa-engineer"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "developer"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tech-writer"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "depends_on"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "#### Usage workflow"
+    }
+  ]
+}

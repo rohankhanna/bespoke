@@ -1,0 +1,74 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "diet103/claude-code-infrastructure-showcase",
+      "target": "CLAUDE_INTEGRATION_GUIDE.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "diet103/claude-code-infrastructure-showcase",
+      "target": "skill-rules.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "diet103/claude-code-infrastructure-showcase",
+      "target": "settings.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "diet103/claude-code-infrastructure-showcase",
+      "target": "tsc-check.sh",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:23:28.451960+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11202
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Examples of my Claude Code infrastructure with skill auto-activation, hooks, and agents",
+    "full_name": "diet103/claude-code-infrastructure-showcase",
+    "html_url": "https://github.com/diet103/claude-code-infrastructure-showcase",
+    "language": "Shell",
+    "pushed_at": "2026-04-17T04:22:53Z",
+    "topics": [],
+    "updated_at": "2026-04-18T08:32:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "CLAUDE_INTEGRATION_GUIDE.md"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "skill-rules.json"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "settings.json"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tsc-check.sh"
+    }
+  ]
+}

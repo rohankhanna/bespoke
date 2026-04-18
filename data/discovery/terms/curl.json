@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-04-18T09:21:02.237042+00:00",
+  "last_seen_at": "2026-04-18T09:23:05.253565+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "mikeyobrien/ralph-orchestrator"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "rz1989s/claude-code-statusline"
     }
   ],
   "term": "curl"

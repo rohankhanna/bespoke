@@ -1,0 +1,537 @@
+{
+  "components": [
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version_test.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version_test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "steveyegge/beads",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "github/spec-kit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "fission-ai/openspec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "sudocode plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "blocks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "related",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "parent-child",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "discovered-from",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "cursor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "windsurf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "idea",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "zed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "xed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "**Supported Editor Types:** -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "field) **Custom Editor Example:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "git pull",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "Build Binaries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "Publish to NPM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version_test.yml",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version_test.yml",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/version_test.yml",
+      "source_repo": "sudocode-ai/sudocode",
+      "target": "Test Versions",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:23:22.935304+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14563
+    },
+    {
+      "path": "package.json",
+      "size": 2363
+    },
+    {
+      "path": ".github/workflows/build-binaries.yml",
+      "size": 21775
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 5219
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 559
+    },
+    {
+      "path": ".github/workflows/version_test.yml",
+      "size": 1384
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Lightweight agent orchestration dev tool that lives in your repo",
+    "full_name": "sudocode-ai/sudocode",
+    "html_url": "https://github.com/sudocode-ai/sudocode",
+    "language": "TypeScript",
+    "pushed_at": "2026-03-18T23:20:38Z",
+    "topics": [
+      "agents",
+      "ai",
+      "automation",
+      "claude-code",
+      "cli",
+      "coding-agents",
+      "mcp",
+      "mcp-server",
+      "multi-agent",
+      "typescript",
+      "vibe-engineering",
+      "workflows"
+    ],
+    "updated_at": "2026-04-13T18:43:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fission-ai/openspec",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "github/spec-kit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "steveyegge/beads",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "sudocode plugin"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "blocks"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "related"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "parent-child"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "discovered-from"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "code"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cursor"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "windsurf"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "idea"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "zed"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "xed"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**Supported Editor Types:** -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "field) **Custom Editor Example:**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git pull"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "blocks"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "related"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "parent-child"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "term": "Build Binaries"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to NPM"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/version_test.yml",
+      "term": "Test Versions"
+    }
+  ]
+}

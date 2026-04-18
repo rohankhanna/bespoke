@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T18:04:43.852571+00:00",
-  "last_seen_at": "2026-04-18T09:21:02.237042+00:00",
+  "last_seen_at": "2026-04-18T09:23:05.253565+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -16,6 +16,16 @@
       "discovered_via": "inline-code",
       "source_file": "README.md",
       "source_repo": "Layr-Labs/avs-vibe-developer-guide"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "basicmachines-co/basic-memory"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Owloops/claude-powerline"
     }
   ],
   "term": "context"
