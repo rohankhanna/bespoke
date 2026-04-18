@@ -7,6 +7,7 @@ import sys
 import urllib.parse
 import urllib.request
 import urllib.error
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -35,6 +36,9 @@ TOPIC_RESULT_LIMIT = 5
 TOPIC_OWNER_CAP_PER_SOURCE = 1
 NON_REPO_OWNERS = {"user-attachments", "orgs", "users", "settings", "marketplace", "sponsors"}
 EXPLICIT_REPO_EXISTS_CACHE = {}
+DEFAULT_DISCOVERY_BUDGET_SECONDS = 360
+DEFAULT_DISCOVERY_MIN_REPO_START_SECONDS = 45
+DEFAULT_DISCOVERY_HARD_STOP_SECONDS = 20
 
 
 def api_get_json(url):
@@ -290,6 +294,46 @@ def load_json(path):
     return json.loads(Path(path).read_text())
 
 
+def env_int(name, default):
+    raw = os.getenv(name)
+    if raw in (None, ""):
+        return default
+    try:
+        value = int(raw)
+    except ValueError:
+        return default
+    return max(0, value)
+
+
+def budget_state():
+    budget_seconds = env_int("DISCOVERY_BUDGET_SECONDS", DEFAULT_DISCOVERY_BUDGET_SECONDS)
+    min_repo_start_seconds = env_int("DISCOVERY_MIN_REPO_START_SECONDS", DEFAULT_DISCOVERY_MIN_REPO_START_SECONDS)
+    hard_stop_seconds = env_int("DISCOVERY_HARD_STOP_SECONDS", DEFAULT_DISCOVERY_HARD_STOP_SECONDS)
+    started_monotonic = time.monotonic()
+    return {
+        "budget_seconds": budget_seconds,
+        "min_repo_start_seconds": min_repo_start_seconds,
+        "hard_stop_seconds": hard_stop_seconds,
+        "started_monotonic": started_monotonic,
+    }
+
+
+def elapsed_seconds(budget):
+    return time.monotonic() - budget["started_monotonic"]
+
+
+def remaining_seconds(budget):
+    return max(0.0, budget["budget_seconds"] - elapsed_seconds(budget))
+
+
+def should_stop_before_repo(budget):
+    return remaining_seconds(budget) < budget["min_repo_start_seconds"]
+
+
+def past_hard_stop(budget):
+    return remaining_seconds(budget) < budget["hard_stop_seconds"]
+
+
 def write_json(path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(data, indent=2, sort_keys=True) + "\n")
@@ -509,13 +553,20 @@ def main():
 
     generated_at = datetime.now(timezone.utc).isoformat()
     run_id = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    budget = budget_state()
     newly_discovered = []
     processed_names = []
     processed_history, known_repo_keys = build_processed_history(frontier_state, processed_names)
 
     skipped_repositories = []
+    stopped_due_to_budget = False
+    deferred_entries = []
 
-    for entry in to_process:
+    for index, entry in enumerate(to_process):
+        if should_stop_before_repo(budget):
+            stopped_due_to_budget = True
+            deferred_entries = to_process[index:]
+            break
         owner_repo = canonicalize_repo_full_name(entry["full_name"], lowercase=True)
         if not owner_repo or not is_valid_repo_full_name(owner_repo):
             skipped_repositories.append({
@@ -575,8 +626,13 @@ def main():
                 "discovered_via": link["edge_type"],
             })
 
+        if past_hard_stop(budget):
+            stopped_due_to_budget = True
+            deferred_entries = to_process[index + 1 :]
+            break
+
     processed_history, known_repo_keys = build_processed_history(frontier_state, processed_names)
-    next_pending = dedupe_frontier_entries(remaining + newly_discovered)
+    next_pending = dedupe_frontier_entries(deferred_entries + remaining + newly_discovered)
     next_pending = [
         item for item in next_pending
         if repo_identity_key(item.get("full_name")) not in known_repo_keys
@@ -595,6 +651,10 @@ def main():
         "processed_repositories": processed_names,
         "skipped_repositories": skipped_repositories,
         "remaining_frontier": len(next_pending),
+        "elapsed_seconds": round(elapsed_seconds(budget), 3),
+        "budget_seconds": budget["budget_seconds"],
+        "remaining_budget_seconds": round(remaining_seconds(budget), 3),
+        "stopped_due_to_budget": stopped_due_to_budget,
     }
     write_json(runs_dir / f"{run_id}.json", run_summary)
     print(json.dumps(run_summary, indent=2, sort_keys=True))
