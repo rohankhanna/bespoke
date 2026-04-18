@@ -1,0 +1,363 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "\u2014 Something to notice (light) -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "\u2014 Worth exploring (medium) -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "signal-classifier.ts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "neuroverseos-governance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "mentraos-smartglasses.nv-world.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "negotiator-app.nv-world.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "signals_not_truth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "no_single_signal_escalation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "context_before_signal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "no_camera_confidence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "human_dignity_floor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "bystander_analysis_consent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "no_diagnostic_labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "ambient_never_persisted",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "signals_only_no_interpretation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "session_trust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "signals_surfaced",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "false_positive_dismissals",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "behavioral-signals.nv-world.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "philosophy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "COMPLIANCE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "example_without",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "example_with",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "MentraGovernedExecutor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "evaluateGuard()",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "bash npm install npm run dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "### Production",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "bash npm start",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "### Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "app_config.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "sensitivity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "standard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "camera_signals",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "ai_api_key",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "ai_provider",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "anthropic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "ai_model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "auto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "ambient_context",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "ambient_bystander_ack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "ambient_buffer_duration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "mentra.app.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "@mentra/sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "neuroverseos-governance",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "@anthropic-ai/sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "openai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "tsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "NeuroverseOS/negotiator",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-18T09:10:17.311509+00:00",
+  "source_repo": "NeuroverseOS/negotiator"
+}

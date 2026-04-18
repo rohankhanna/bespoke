@@ -1,0 +1,195 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anthropics/claudes-c-compiler",
+      "target": "aarch64-linux-gnu-gcc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anthropics/claudes-c-compiler",
+      "target": "riscv64-linux-gnu-gcc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anthropics/claudes-c-compiler",
+      "target": "bash cargo build --release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anthropics/claudes-c-compiler",
+      "target": "This produces five binaries in",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anthropics/claudes-c-compiler",
+      "target": "ccc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anthropics/claudes-c-compiler",
+      "target": "ccc-x86",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anthropics/claudes-c-compiler",
+      "target": "ccc-arm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anthropics/claudes-c-compiler",
+      "target": "ccc-riscv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anthropics/claudes-c-compiler",
+      "target": "ccc-i686",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anthropics/claudes-c-compiler",
+      "target": "## Usage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anthropics/claudes-c-compiler",
+      "target": "Backend: standalone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anthropics/claudes-c-compiler",
+      "target": "| Use GCC for",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anthropics/claudes-c-compiler",
+      "target": "Backend: gcc_assembler, gcc_linker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anthropics/claudes-c-compiler",
+      "target": "long double",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anthropics/claudes-c-compiler",
+      "target": "bash cargo test --release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anthropics/claudes-c-compiler",
+      "target": "**Integration tests** (end-to-end compilation tests in",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anthropics/claudes-c-compiler",
+      "target": "source file and expected output files:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anthropics/claudes-c-compiler",
+      "target": "Tests are run by compiling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anthropics/claudes-c-compiler",
+      "target": "with",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anthropics/claudes-c-compiler",
+      "target": "CCC_TIME_PHASES",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anthropics/claudes-c-compiler",
+      "target": "CCC_TIME_PASSES",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anthropics/claudes-c-compiler",
+      "target": "CCC_DISABLE_PASSES",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anthropics/claudes-c-compiler",
+      "target": "all",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anthropics/claudes-c-compiler",
+      "target": "CCC_KEEP_ASM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anthropics/claudes-c-compiler",
+      "target": "CCC_ASM_DEBUG",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anthropics/claudes-c-compiler",
+      "target": "Each",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "anthropics/claudes-c-compiler",
+      "target": "subdirectory has its own",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T09:10:17.311509+00:00",
+  "source_repo": "anthropics/claudes-c-compiler"
+}

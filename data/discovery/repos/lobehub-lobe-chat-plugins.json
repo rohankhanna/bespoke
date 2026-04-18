@@ -1,0 +1,1492 @@
+{
+  "components": [
+    {
+      "component": "@lobehub/chat-plugin-sdk",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@lobehub/lint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@octokit/rest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/fs-extra",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/lodash-es",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "consola",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dayjs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dirty-json",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dotenv",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fs-extra",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "langchain",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lodash-es",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "p-map",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "remark",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "remark-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "remark-pangu",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semantic-release",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "zod",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "zod-to-json-schema",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml"
+    },
+    {
+      "component": "actions-cool/pr-welcome@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-welcome.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "oven-sh/setup-bun@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "finehow/bingsearch-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "fatwang2/search1api-lobechat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "ccdanpian/current-datetime",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "arvinxx/lobe-plugin-tikzjax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "Plugins Index",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "plugin-template.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "src",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "createAt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "seo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "keyword",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "shopping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "e-bay",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "ali-express",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "coupons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "video-to-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "youtube",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "oss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "weather",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "forms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "checklists",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "productivity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "book",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "stock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "web",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "bingsearch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "tongyi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "wanxiang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "analyze",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "calendar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "schedule",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "will-auto-generate-i-18-n-in-workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "steam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "game",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "bilibili",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "translate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "website",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "research-paper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "google",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "sheets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "excel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "podcast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "scientific-literature",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "travel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "hotel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "charity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "crypto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "de-fi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "ai-image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "midjourney",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "visualization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "latex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "svg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "diagram",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "math",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "mindmap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "drawing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "clock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "content-crawler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "realtime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "If you need to run the",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "OPENAI_API_KEY",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "sk-xxxxxx...xxxxxx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "OPENAI_PROXY_URL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "@lobehub/chat-plugin-sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "@lobehub/lint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "@octokit/rest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "@types/fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "@types/lodash-es",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "consola",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "dayjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "dirty-json",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "dotenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "langchain",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "lodash-es",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "p-map",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "remark",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "remark-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "remark-pangu",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "semantic-release",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "zod",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "zod-to-json-schema",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "oven-sh/setup-bun@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "Format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-welcome.yml",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "actions-cool/pr-welcome@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-welcome.yml",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "PR Welcome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "oven-sh/setup-bun@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "Build and Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "oven-sh/setup-bun@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "Sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "oven-sh/setup-bun@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lobehub/lobe-chat-plugins",
+      "target": "Test CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T09:11:07.006447+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18428
+    },
+    {
+      "path": "package.json",
+      "size": 1632
+    },
+    {
+      "path": ".github/workflows/format.yml",
+      "size": 1284
+    },
+    {
+      "path": ".github/workflows/pr-welcome.yml",
+      "size": 781
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2110
+    },
+    {
+      "path": ".github/workflows/sync.yml",
+      "size": 1278
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 312
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "\ud83e\udde9 / \ud83c\udfea  Plugin Index - This is the plugin index for LobeChat. It accesses index.json from this repository to display a list of available plugins for LobeChat to the user.",
+    "full_name": "lobehub/lobe-chat-plugins",
+    "html_url": "https://github.com/lobehub/lobe-chat-plugins",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-17T00:25:46Z",
+    "topics": [
+      "ai",
+      "awesome",
+      "chatgpt",
+      "function-calling",
+      "lobe-chat",
+      "lobe-chat-plugin",
+      "lobehub",
+      "openai"
+    ],
+    "updated_at": "2026-04-17T00:25:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arvinxx/lobe-plugin-tikzjax",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ccdanpian/current-datetime",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fatwang2/search1api-lobechat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "finehow/bingsearch-plugin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Plugins Index"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "plugins"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "plugin-template.json"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "plugin-template.json"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "src"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "createAt"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "seo"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "keyword"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "shopping"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "e-bay"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ali-express"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "coupons"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "video-to-text"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "youtube"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "github"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "oss"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "weather"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "forms"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "checklists"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "productivity"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "book"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "search"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "stock"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "seo"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "web"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "search"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bingsearch"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "web"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "search"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "image"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tongyi"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "wanxiang"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "stock"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "analyze"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "web"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "search"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "web"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "search"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "calendar"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "schedule"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "will-auto-generate-i-18-n-in-workflow"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "steam"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "game"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "video"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "bilibili"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "search"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "time"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "translate"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "website"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "performance"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "test"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "research-paper"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "search"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "google"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "sheets"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "excel"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "podcast"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "search"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "weather"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "game"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "search"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "scientific-literature"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "search"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "video-to-text"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "youtube"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "travel"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "hotel"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "search"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "charity"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "crypto"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "de-fi"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ai-image-generation"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "midjourney"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "visualization"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "latex"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "svg"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "visualization"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "diagram"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "math"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "mindmap"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "drawing"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "image"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "clock"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "time"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "web"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "content-crawler"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "web"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "search"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "weather"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "realtime"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "If you need to run the"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "OPENAI_API_KEY"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "sk-xxxxxx...xxxxxx"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "OPENAI_PROXY_URL"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "term": "Format"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-welcome.yml",
+      "term": "PR Welcome"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Build and Release"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync.yml",
+      "term": "Sync"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test CI"
+    }
+  ]
+}

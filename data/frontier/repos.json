@@ -1,106 +1,6 @@
 {
-  "generated_at": "2026-04-18T09:09:30.058377+00:00",
+  "generated_at": "2026-04-18T09:10:17.311509+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lobehub/lobe-tts",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lobehub/.github",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "actions/workflows",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lobehub/chat-plugins-gateway",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lobehub/chat-plugin-sdk",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lobehub/lobe-midjourney-webui",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "codespaces/badge.svg",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lobehub/lobe-chat-agents",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lobehub/chat-plugin-template",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lobehub/lobe-icons",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lobehub/lobe-ui",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lobehub/lobe-lint",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lobehub/sd-webui-lobe-theme",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lobehub/lobe-commit",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lobehub/lobe-chat-plugins",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "anthropics/claudes-c-compiler",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "neuroverseos/negotiator",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "neuroverseos/neuroverseos-openclaw-governance",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "yisibl/resvg-js",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "natemoo-re/astro-icon",
-      "graph_distance": 2
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "vercel/satori",
@@ -1490,6 +1390,116 @@
       "discovered_via": "explicit-github-link",
       "full_name": "microsoft/typescript-go",
       "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lobehub/lobe-chat",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lobehub/lobe-vidol",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lobehub/lobe-charts",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lobehub/lobe-editor",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "novicezk/midjourney-proxy",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "danielmiessler/fabric",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lobehub/chat-plugin-realtime-weather",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lobehub/chat-plugin-search-engine",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lobehub/chat-plugin-web-crawler",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "automatic1111/stable-diffusion-webui",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "gerschel/sd-web-ui-quickcss",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lobehub/lobe-assets",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "hwchase17/langchainjs",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "vadimdemedes/ink",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "arvinxx/lobe-plugin-tikzjax",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ccdanpian/current-datetime",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "fatwang2/search1api-lobechat",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "finehow/bingsearch-plugin",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "denoland/deno",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "napi-rs/napi-rs",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "razrfalcon/resvg",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "svg/svgo",
+      "graph_distance": 3
     }
   ],
   "processed": [
@@ -1679,6 +1689,24 @@
     "django/django",
     "burntsushi/ripgrep",
     "tokio-rs/axum",
-    "microsoft/typescript"
+    "microsoft/typescript",
+    "lobehub/lobe-tts",
+    "lobehub/.github",
+    "lobehub/chat-plugins-gateway",
+    "lobehub/chat-plugin-sdk",
+    "lobehub/lobe-midjourney-webui",
+    "lobehub/lobe-chat-agents",
+    "lobehub/chat-plugin-template",
+    "lobehub/lobe-icons",
+    "lobehub/lobe-ui",
+    "lobehub/lobe-lint",
+    "lobehub/sd-webui-lobe-theme",
+    "lobehub/lobe-cli-toolbox",
+    "lobehub/lobe-chat-plugins",
+    "anthropics/claudes-c-compiler",
+    "neuroverseos/negotiator",
+    "neuroverseos/neuroverseos-openclaw-governance",
+    "thx/resvg-js",
+    "natemoo-re/astro-icon"
   ]
 }

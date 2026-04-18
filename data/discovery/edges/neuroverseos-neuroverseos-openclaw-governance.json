@@ -1,0 +1,97 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/neuroverseos-openclaw-governance",
+      "target": "creates a pending world -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/neuroverseos-openclaw-governance",
+      "target": "shows structured changes -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/neuroverseos-openclaw-governance",
+      "target": "Then in code:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/neuroverseos-openclaw-governance",
+      "target": "Or as an OpenClaw plugin:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/neuroverseos-openclaw-governance",
+      "target": "For local development:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/neuroverseos-openclaw-governance",
+      "target": "bash openclaw plugins install -l .",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/neuroverseos-openclaw-governance",
+      "target": "This directory contains: -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/neuroverseos-openclaw-governance",
+      "target": "This compiles your",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/neuroverseos-openclaw-governance",
+      "target": "**Example PAUSE:**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/neuroverseos-openclaw-governance",
+      "target": "All verdicts are logged to",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/neuroverseos-openclaw-governance",
+      "target": "Bindings are stored in",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NeuroverseOS/neuroverseos-openclaw-governance",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "NeuroverseOS/neuroverseos-openclaw-governance",
+      "target": "openclaw",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-18T09:10:17.311509+00:00",
+  "source_repo": "NeuroverseOS/neuroverseos-openclaw-governance"
+}

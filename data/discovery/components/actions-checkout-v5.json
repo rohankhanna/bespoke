@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v5",
   "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
-  "last_seen_at": "2026-04-18T04:44:33.621188+00:00",
+  "last_seen_at": "2026-04-18T09:10:17.311509+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -72,6 +72,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/claude-mention-responder.yml",
       "source_repo": "ding113/claude-code-hub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkg.pr.new.yml",
+      "source_repo": "lobehub/lobe-ui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "lobehub/lobe-ui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lobehub/lobe-ui"
     }
   ]
 }

@@ -1,12 +1,17 @@
 {
   "component": "taiki-e/install-action@v2",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-18T09:09:30.058377+00:00",
+  "last_seen_at": "2026-04-18T09:10:17.311509+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/CI.yml",
       "source_repo": "tokio-rs/axum"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yaml",
+      "source_repo": "thx/resvg-js"
     }
   ]
 }

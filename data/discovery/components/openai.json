@@ -1,7 +1,7 @@
 {
   "component": "openai",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-18T04:38:51.315908+00:00",
+  "last_seen_at": "2026-04-18T09:10:17.311509+00:00",
   "sources": [
     {
       "discovered_via": "package-json:dependencies",
@@ -27,6 +27,26 @@
       "discovered_via": "package-json:peerDependencies",
       "source_file": "package.json",
       "source_repo": "gauravRathod674/custom-chatbot"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobe-tts"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobe-chat-agents"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobe-cli-toolbox"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "NeuroverseOS/negotiator"
     }
   ]
 }

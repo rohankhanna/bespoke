@@ -1,0 +1,67 @@
+{
+  "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
+  "last_seen_at": "2026-04-18T09:10:17.311509+00:00",
+  "sources": [
+    {
+      "discovered_via": "inline-code",
+      "source_file": ".github/workflows/issue-close-require.yml",
+      "source_repo": "lobehub/lobe-tts"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": ".github/workflows/issue-close-require.yml",
+      "source_repo": "lobehub/chat-plugins-gateway"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": ".github/workflows/issue-close-require.yml",
+      "source_repo": "lobehub/chat-plugin-sdk"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": ".github/workflows/issue-close-require.yml",
+      "source_repo": "lobehub/lobe-midjourney-webui"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": ".github/workflows/issue-close-require.yml",
+      "source_repo": "lobehub/lobe-chat-agents"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": ".github/workflows/issue-close-require.yml",
+      "source_repo": "lobehub/chat-plugin-template"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": ".github/workflows/issue-close-require.yml",
+      "source_repo": "lobehub/lobe-icons"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": ".github/workflows/issue-close-require.yml",
+      "source_repo": "lobehub/lobe-ui"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": ".github/workflows/issue-close-require.yml",
+      "source_repo": "lobehub/lobe-lint"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "lobehub/sd-webui-lobe-theme"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": ".github/workflows/issue-close-require.yml",
+      "source_repo": "lobehub/sd-webui-lobe-theme"
+    },
+    {
+      "discovered_via": "inline-code",
+      "source_file": ".github/workflows/issue-close-require.yml",
+      "source_repo": "lobehub/lobe-cli-toolbox"
+    }
+  ],
+  "term": "\u2705 Fixed"
+}

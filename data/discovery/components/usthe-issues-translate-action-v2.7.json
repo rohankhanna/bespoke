@@ -1,0 +1,17 @@
+{
+  "component": "usthe/issues-translate-action@v2.7",
+  "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
+  "last_seen_at": "2026-04-18T09:10:17.311509+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issues-translate.yml",
+      "source_repo": "lobehub/sd-webui-lobe-theme"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issues-translate.yml",
+      "source_repo": "lobehub/lobe-cli-toolbox"
+    }
+  ]
+}
