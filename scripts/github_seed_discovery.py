@@ -359,6 +359,11 @@ def observation_id_for_term(source_repo, source_file, edge_type, term):
     return hashlib.sha1(raw.encode("utf-8")).hexdigest()[:16]
 
 
+def compact_text(text, limit=280):
+    text = re.sub(r"\s+", " ", (text or "").strip())
+    return text[:limit] if len(text) <= limit else text[: limit - 1] + "…"
+
+
 def upsert_concept_observation(observations_dir, generated_at, source_repo, source_repo_description, hit):
     term = hit["term"]
     observation_id = observation_id_for_term(source_repo, hit.get("source_file"), hit.get("edge_type"), term)
@@ -371,6 +376,12 @@ def upsert_concept_observation(observations_dir, generated_at, source_repo, sour
             "source_kind": "repo-description",
             "status": "context-only",
         })
+    if hit.get("context_snippet"):
+        definition_hints.append({
+            "text": hit.get("context_snippet"),
+            "source_kind": "source-snippet",
+            "status": "context-only",
+        })
     payload = {
         "observation_id": observation_id,
         "concept_id": concept_id_for_term(term),
@@ -381,6 +392,7 @@ def upsert_concept_observation(observations_dir, generated_at, source_repo, sour
         "source_file": hit.get("source_file"),
         "observed_at": generated_at,
         "source_repo_description": source_repo_description,
+        "source_context_snippet": hit.get("context_snippet"),
         "candidate_buckets": buckets,
         "candidate_primary_bucket": buckets[0],
         "ambiguity_status": "unresolved",
@@ -456,6 +468,13 @@ def upsert_concept(concepts_dir, generated_at, source_repo, source_repo_descript
             "text": source_repo_description,
             "source_repo": source_repo,
             "source_kind": "repo-description",
+            "status": "candidate-context",
+        })
+    if hit.get("context_snippet"):
+        definition_candidates.append({
+            "text": hit.get("context_snippet"),
+            "source_repo": source_repo,
+            "source_kind": "source-snippet",
             "status": "candidate-context",
         })
     senses = [{
@@ -885,6 +904,10 @@ def collect_repo(owner_repo, limits, known_repo_keys, allow_topic_expansion=True
             continue
         fetched_files.append({"path": path, "size": len(text)})
 
+        file_context_snippet = None
+        if path in README_CANDIDATES:
+            file_context_snippet = compact_text(text)
+
         for match in REPO_URL_RE.findall(text):
             canonical = canonicalize_repo_full_name(match, lowercase=True)
             if not canonical or canonical == source_repo_key or canonical in known_repo_keys:
@@ -904,7 +927,7 @@ def collect_repo(owner_repo, limits, known_repo_keys, allow_topic_expansion=True
             if workflow_name:
                 normalized = normalize_term(workflow_name.group(1))
                 if normalized:
-                    term_hits.append({"term": normalized, "source_file": path, "edge_type": "workflow-name"})
+                    term_hits.append({"term": normalized, "source_file": path, "edge_type": "workflow-name", "context_snippet": compact_text(workflow_name.group(1))})
                     edge_records.append({"source_repo": canonical_owner_repo, "target": normalized, "target_type": "term", "edge_type": "workflow-name", "source_file": path})
 
         if path.endswith("package.json"):
@@ -924,7 +947,7 @@ def collect_repo(owner_repo, limits, known_repo_keys, allow_topic_expansion=True
         normalized_topic_term = normalize_topic(topic)
         if not is_specific_topic(topic):
             continue
-        term_hits.append({"term": normalized_topic_term, "source_file": None, "edge_type": "repo-topic"})
+        term_hits.append({"term": normalized_topic_term, "source_file": None, "edge_type": "repo-topic", "context_snippet": compact_text(repo.get("description") or normalized_topic_term)})
         edge_records.append({"source_repo": canonical_owner_repo, "target": normalized_topic_term, "target_type": "term", "edge_type": "repo-topic", "source_file": None})
     source_topic_set = comparable_topic_set(source_topics)
 
