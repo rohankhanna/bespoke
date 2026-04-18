@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-18T03:26:32.174365+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3666
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "\ud83c\udf99\ufe0f Automate podcasting with skills: download YouTube videos, process audio, and manage content efficiently\u2014all in one comprehensive toolkit.",
+    "full_name": "frank-syncmarket/skills",
+    "html_url": "https://github.com/frank-syncmarket/skills",
+    "language": "Python",
+    "pushed_at": "2026-04-18T01:34:26Z",
+    "topics": [
+      "agent-skills",
+      "anthropic",
+      "anthropic-ai",
+      "astro",
+      "awesome",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "css",
+      "hacktoberfest",
+      "learn-to-code",
+      "learning-resources",
+      "miniprojects",
+      "pandas",
+      "programming",
+      "python",
+      "python-pandas",
+      "skills",
+      "stuff"
+    ],
+    "updated_at": "2026-04-18T01:34:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,12 @@
+{
+  "component": "jakejarvis/s3-sync-action@master",
+  "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
+  "last_seen_at": "2026-04-18T03:26:22.590180+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_all_targets.yml",
+      "source_repo": "PX4/PX4-Autopilot"
+    }
+  ]
+}

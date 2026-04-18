@@ -1,0 +1,61 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Narutoxdd6/Nyro",
+      "target": "Nyro-macos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T03:26:34.476739+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3915
+    },
+    {
+      "path": "go.mod",
+      "size": 81
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "\ud83e\udd16 Refactor repositories effortlessly with Nyro, an AI DevOps engineer that modernizes codebases by identifying tech debt and automating upgrades.",
+    "full_name": "Narutoxdd6/Nyro",
+    "html_url": "https://github.com/Narutoxdd6/Nyro",
+    "language": null,
+    "pushed_at": "2026-04-18T01:08:11Z",
+    "topics": [
+      "anonymity",
+      "autonomous",
+      "axios",
+      "best-practices",
+      "chi",
+      "fetch",
+      "github",
+      "got",
+      "graphs",
+      "http",
+      "outdated",
+      "patch",
+      "proxy",
+      "release-automation",
+      "releases",
+      "request",
+      "semantic",
+      "tech-debt"
+    ],
+    "updated_at": "2026-04-18T01:08:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Nyro-macos"
+    }
+  ]
+}

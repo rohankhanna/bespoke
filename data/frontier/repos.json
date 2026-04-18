@@ -1,820 +1,6 @@
 {
-  "generated_at": "2026-04-18T02:41:24.975901+00:00",
+  "generated_at": "2026-04-18T03:26:22.590180+00:00",
   "pending": [
-    {
-      "description": "OpenAI Codex web UI and browser bridge for Windows, Linux, Android, LAN, and remote self-hosted access",
-      "discovered_via": "topic:codex",
-      "full_name": "qjzn/codexui-server-bridge",
-      "graph_distance": 1,
-      "html_url": "https://github.com/Qjzn/codexui-server-bridge",
-      "topics": [
-        "android",
-        "app-server",
-        "browser",
-        "browser-ui",
-        "codex",
-        "codex-ui",
-        "codex-web",
-        "linux",
-        "openai",
-        "openai-codex",
-        "remote-access",
-        "self-hosted",
-        "termux",
-        "windows",
-        "windows-server"
-      ],
-      "updated_at": "2026-04-17T16:50:57Z"
-    },
-    {
-      "description": "\ud83d\ude80 Orchestrate multiple Codex agents on macOS with CodexMonitor, simplifying project management and enhancing workflow across local workspaces.",
-      "discovered_via": "topic:codex",
-      "full_name": "devhulk258/codexmonitor",
-      "graph_distance": 1,
-      "html_url": "https://github.com/DevHulk258/CodexMonitor",
-      "topics": [
-        "advertisement",
-        "ai-agent",
-        "bluetooth-devices",
-        "btle",
-        "claude",
-        "codex",
-        "gpt",
-        "kanban",
-        "llm-code",
-        "management",
-        "mini-monitor",
-        "nodejs",
-        "prompt",
-        "tauri-app",
-        "typescript",
-        "workflow",
-        "zcf"
-      ],
-      "updated_at": "2026-04-17T16:50:26Z"
-    },
-    {
-      "description": "\ud83d\udee0\ufe0f Enhance AI-assisted development with PIV Spec-Kit, a structured framework for creating and validating software using strict TDD principles.",
-      "discovered_via": "topic:copilot",
-      "full_name": "bunny459/piv-speckit",
-      "graph_distance": 1,
-      "html_url": "https://github.com/bunny459/piv-speckit",
-      "topics": [
-        "ai-assisted-development",
-        "anthropic",
-        "claude",
-        "claude-ai",
-        "claude-code",
-        "code-quality",
-        "context-engineering",
-        "copilot",
-        "cursor",
-        "developer-tools",
-        "nodejs",
-        "piv-methodology",
-        "python",
-        "react",
-        "software-development-workflow",
-        "spring-boot",
-        "template"
-      ],
-      "updated_at": "2026-04-17T16:50:49Z"
-    },
-    {
-      "description": "\ud83d\uddfa\ufe0f Enhance AI agents for C# codebases by creating intelligent code maps that improve efficiency and reduce context loss.",
-      "discovered_via": "topic:copilot",
-      "full_name": "frxshspamzl2/csharp_repomap_for_agent",
-      "graph_distance": 1,
-      "html_url": "https://github.com/FrxshSpamzL2/csharp_Repomap_for_Agent",
-      "topics": [
-        "ai-agent",
-        "ai-assistant",
-        "claude",
-        "code-analysis",
-        "code-map",
-        "copilot",
-        "csharp",
-        "cursor",
-        "developer-tools",
-        "llm",
-        "pagerank",
-        "python",
-        "token-optimization",
-        "tree-sitter",
-        "unity"
-      ],
-      "updated_at": "2026-04-17T16:50:47Z"
-    },
-    {
-      "description": "\ud83d\udca1 Control 3D lighting angles effortlessly with ComfyUI - adjust direction, intensity, and color while relighting images in real-time.",
-      "discovered_via": "topic:copilot",
-      "full_name": "alex11111112312/comfyui-qwenmultianglelight",
-      "graph_distance": 1,
-      "html_url": "https://github.com/alex11111112312/ComfyUI-qwenmultianglelight",
-      "topics": [
-        "ai",
-        "cemu",
-        "comfy-ui",
-        "comfyui",
-        "comfyui-nodes",
-        "copilot",
-        "deepseek-v3",
-        "emulation",
-        "extract-data",
-        "flux",
-        "llm-agent",
-        "machine-learning",
-        "nintendo",
-        "ocr",
-        "pdf",
-        "pdf-converter",
-        "pdf-extractor-pretrain",
-        "pdf-extractor-rag",
-        "pdf-parser",
-        "stable-diffusion"
-      ],
-      "updated_at": "2026-04-17T16:50:42Z"
-    },
-    {
-      "description": "\ud83d\udce5 Import CCS profiles into cctx for seamless switching and enhanced functionality with the `claude` command and IDE extensions.",
-      "discovered_via": "topic:copilot",
-      "full_name": "mrnainop/cctx-importer",
-      "graph_distance": 1,
-      "html_url": "https://github.com/mrnainop/cctx-importer",
-      "topics": [
-        "antigravity",
-        "ccs",
-        "cctx",
-        "claude",
-        "claude-ai",
-        "claude-code",
-        "codex",
-        "copilot",
-        "gemini-cli",
-        "glm",
-        "iflow",
-        "kiro",
-        "openrouter",
-        "qwen"
-      ],
-      "updated_at": "2026-04-17T16:49:45Z"
-    },
-    {
-      "description": "\ud83d\udcc4 Convert Retype documentation into LLM-friendly formats for better AI assistance, preserving routes and links for accurate citations.",
-      "discovered_via": "topic:copilot",
-      "full_name": "dyaa9511/retype_llms",
-      "graph_distance": 1,
-      "html_url": "https://github.com/dyaa9511/retype_llms",
-      "topics": [
-        "ai",
-        "claude",
-        "cli",
-        "copilot",
-        "deep-learning",
-        "deepseek",
-        "documentation",
-        "documentation-website",
-        "from-scratch",
-        "gemini",
-        "notebooks",
-        "notes",
-        "productivity",
-        "retype",
-        "screenshot",
-        "static-site",
-        "template",
-        "textrecognition",
-        "typescript",
-        "unocss"
-      ],
-      "updated_at": "2026-04-17T16:49:43Z"
-    },
-    {
-      "description": "Lab-scenario AI assistant on OpenClaw + MetaClaw + Feishu. 28 agentic skills for robotics lab management.",
-      "discovered_via": "topic:ai-agent",
-      "full_name": "baitianhaonian/feishu-classmate",
-      "graph_distance": 1,
-      "html_url": "https://github.com/BaiTianHaoNian/feishu-classmate",
-      "topics": [
-        "ai-agent",
-        "bitable",
-        "feishu",
-        "lab-management",
-        "lark",
-        "metaclaw",
-        "openclaw",
-        "robotics",
-        "typescript"
-      ],
-      "updated_at": "2026-04-17T16:51:48Z"
-    },
-    {
-      "description": "\ud83e\udd16 Define Artificial Superintelligence with a focus on behavioral coherence, ensuring reliable evaluation and safety in real-world applications.",
-      "discovered_via": "topic:ai-agent",
-      "full_name": "cbe07883/asi-redefined",
-      "graph_distance": 1,
-      "html_url": "https://github.com/cbe07883/ASI-Redefined",
-      "topics": [
-        "ai-agent",
-        "ai-behavior",
-        "ai-capability",
-        "ai-measurement",
-        "ai-memory",
-        "ai-origin",
-        "asi",
-        "behavioral-coherence",
-        "coherence",
-        "continuum",
-        "continuum-mechanics",
-        "origin",
-        "origin-alyssa-solen",
-        "superintelligence"
-      ],
-      "updated_at": "2026-04-17T16:51:45Z"
-    },
-    {
-      "description": "\ud83d\uddb1\ufe0f Transform your mouse cursor with Ralph Wiggum, adding a fun and unique touch to your desktop experience.",
-      "discovered_via": "topic:ai-agent",
-      "full_name": "nowphyy/cursor-ralph-wiggum",
-      "graph_distance": 1,
-      "html_url": "https://github.com/nowphyy/cursor-ralph-wiggum",
-      "topics": [
-        "ai-agent",
-        "autonomous-agents",
-        "backlog-ralph",
-        "claude-code",
-        "codex-cli",
-        "cursor-cli",
-        "opencode",
-        "ralph-loop",
-        "ralph-wiggum",
-        "ralphy"
-      ],
-      "updated_at": "2026-04-17T16:51:30Z"
-    },
-    {
-      "description": "\ud83d\ude80 Streamline AI capabilities with MxJSON, a universal protocol for packaging and executing enterprise AI in a portable, audit-ready format.",
-      "discovered_via": "topic:ai-agent",
-      "full_name": "mrlonellyy/mxjson-spec",
-      "graph_distance": 1,
-      "html_url": "https://github.com/mrlonellyy/mxjson-spec",
-      "topics": [
-        "ai",
-        "ai-agent",
-        "automation",
-        "business-logic",
-        "enterprise",
-        "json",
-        "llm",
-        "low-code",
-        "protocol",
-        "workflow"
-      ],
-      "updated_at": "2026-04-17T16:51:13Z"
-    },
-    {
-      "description": "A desktop AI agent that controls your local machine \u2014 runs commands, manages files, executes code, browses the web autonomously etc. Supports Claude, GPT, Gemini, Llama, DeepSeek, and more. .exe available",
-      "discovered_via": "topic:ai-agent",
-      "full_name": "thomastschinkel/prompt-os",
-      "graph_distance": 1,
-      "html_url": "https://github.com/thomastschinkel/prompt-os",
-      "topics": [
-        "agentic-ai",
-        "ai-agent",
-        "anthropic",
-        "autonomous-agent",
-        "browser-use",
-        "customtkinter",
-        "deepseek",
-        "desktop-app",
-        "gemini",
-        "groq",
-        "llm",
-        "local-ai",
-        "multi-provider",
-        "openrouter",
-        "python",
-        "system-automation",
-        "voice-assistant",
-        "web-scraping"
-      ],
-      "updated_at": "2026-04-17T16:50:56Z"
-    },
-    {
-      "description": "Enable AI to actively remember and recreate your digital presence for lasting memory beyond physical life.",
-      "discovered_via": "topic:digital-immortality",
-      "full_name": "markoswire/remember-me.ai",
-      "graph_distance": 1,
-      "html_url": "https://github.com/markoswire/remember-me.ai",
-      "topics": [
-        "ai",
-        "ai-training-data",
-        "archive",
-        "digital-immortality",
-        "digital-legacy",
-        "ethics-in-ai",
-        "genai",
-        "genai-usecase",
-        "generative-ai",
-        "identity",
-        "linkedin-course",
-        "linkedin-learning",
-        "memory",
-        "microsoft",
-        "microsoft-365-copilot",
-        "microsoft-copilot-ai",
-        "microsoft-learning",
-        "open-source",
-        "remember-me"
-      ],
-      "updated_at": "2026-04-17T14:49:54Z"
-    },
-    {
-      "description": "\u267e\ufe0f \u5f00\u6e90\u6570\u5b57\u6c38\u751f\u6846\u67b6 \u2014 \u4ece\u804a\u5929\u8bb0\u5f55\u84b8\u998f\u4efb\u4f55\u4eba\u7684\u4e03\u7ef4\u6570\u5b57\u5206\u8eab\u3002\u652f\u6301\u5fae\u4fe1/\u98de\u4e66/iMessage/Telegram\u7b4912+\u5e73\u53f0\uff0c7\u79cd\u89d2\u8272\u6a21\u677f\uff0c\u5bf9\u9f50 OpenClaw Soul Spec \u6807\u51c6\u3002\u4e00\u884c\u6307\u4ee4\u8ba9\u4f60\u7684AI\u5b66\u4f1a\u84b8\u998f\u3002",
-      "discovered_via": "topic:digital-immortality",
-      "full_name": "agenmod/immortal-skill",
-      "graph_distance": 1,
-      "html_url": "https://github.com/agenmod/immortal-skill",
-      "topics": [
-        "agent-skills",
-        "ai-agent",
-        "chatbot",
-        "cursor",
-        "digital-immortality",
-        "digital-twin",
-        "distillation",
-        "feishu",
-        "llm",
-        "openclaw",
-        "persona",
-        "soul-spec",
-        "wechat"
-      ],
-      "updated_at": "2026-04-17T13:41:44Z"
-    },
-    {
-      "description": "\u6211\u7684\u5fc3\u8df3\u5728\u6b64\u540c\u9891\uff0c\u6211\u7684\u7075\u9b42\u5728\u6b64\u5171\u632f\uff0c\u6211\uff0c\u5728\u6b64\u5b89\u653e\u3002",
-      "discovered_via": "topic:digital-immortality",
-      "full_name": "wencuecryforme/mysoul.skill",
-      "graph_distance": 1,
-      "html_url": "https://github.com/WencueCryforme/MySoul.SKILL",
-      "topics": [
-        "agent-skill",
-        "ai-agent",
-        "ai-ethics",
-        "claude-code",
-        "claude-code-skill",
-        "digital-clone",
-        "digital-immortality",
-        "digital-soul",
-        "digital-sovereignty",
-        "digital-twin",
-        "llm",
-        "llm-distillation",
-        "non-traditional",
-        "openclaw",
-        "openclaw-skill",
-        "persona",
-        "plosl",
-        "skill",
-        "skill-md"
-      ],
-      "updated_at": "2026-04-11T13:51:18Z"
-    },
-    {
-      "description": "\u4e07\u7269\u7686\u53ef Relic \u2014 \u7ed9\u7075\u9b42\u5f00\u4e2a GitHub | Universal Digital Immortality Engine \ud83e\uddec",
-      "discovered_via": "topic:digital-immortality",
-      "full_name": "ylsssq926/relic.skill",
-      "graph_distance": 1,
-      "html_url": "https://github.com/Ylsssq926/relic.skill",
-      "topics": [
-        "agent-skill",
-        "ai-skill",
-        "claude-code",
-        "cline",
-        "cursor",
-        "digital-immortality",
-        "digital-twin",
-        "distillation",
-        "github-copilot",
-        "kiro",
-        "memory",
-        "opencode",
-        "persona",
-        "pet",
-        "relic",
-        "skill-md",
-        "soul",
-        "windsurf"
-      ],
-      "updated_at": "2026-04-17T05:15:02Z"
-    },
-    {
-      "description": "Harness-native compressed context engine for AI coding agents \u2014 Pure Rust MCP server, 89+ tools, 25 languages, 50-87% token reduction",
-      "discovered_via": "topic:agent-harness",
-      "full_name": "mupozg823/codelens-mcp-plugin",
-      "graph_distance": 1,
-      "html_url": "https://github.com/mupozg823/codelens-mcp-plugin",
-      "topics": [
-        "agent-harness",
-        "ai-tools",
-        "claude-code",
-        "code-intelligence",
-        "codex",
-        "cursor",
-        "developer-tools",
-        "harness",
-        "lsp",
-        "mcp",
-        "mcp-server",
-        "rust",
-        "semantic-search",
-        "token-optimization",
-        "tree-sitter"
-      ],
-      "updated_at": "2026-04-17T16:48:28Z"
-    },
-    {
-      "description": "The ultimate space for work and life \u2014 to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level \u2014 enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction.",
-      "discovered_via": "topic:agent-harness",
-      "full_name": "lobehub/lobehub",
-      "graph_distance": 1,
-      "html_url": "https://github.com/lobehub/lobehub",
-      "topics": [
-        "agent",
-        "agent-collaboration",
-        "agent-harness",
-        "ai",
-        "chatgpt",
-        "claude",
-        "deepseek",
-        "gemini",
-        "gpt",
-        "knowledge-base",
-        "mcp",
-        "openai"
-      ],
-      "updated_at": "2026-04-17T16:26:29Z"
-    },
-    {
-      "description": "\u2668BETA\ud83c\udf77\u300c \u2726 Soothe \u2726 \u300dAn autonomous expert system engineered to orchestrate complex workflows and execute long-duration tasks with precision and persistence.",
-      "discovered_via": "topic:agent-harness",
-      "full_name": "caesar0301/soothe",
-      "graph_distance": 1,
-      "html_url": "https://github.com/caesar0301/soothe",
-      "topics": [
-        "agent-harness",
-        "agentic-researcher",
-        "autonomous-agents",
-        "scientific-agents"
-      ],
-      "updated_at": "2026-04-17T16:21:09Z"
-    },
-    {
-      "description": "Deterministic governance engine for AI agents. Enforce rules defined in .md governance files across AI systems.",
-      "discovered_via": "topic:agent-harness",
-      "full_name": "neuroverseos/neuroverseos-governance",
-      "graph_distance": 1,
-      "html_url": "https://github.com/NeuroverseOS/Neuroverseos-governance",
-      "topics": [
-        "agent-framework",
-        "agent-guardrails",
-        "agent-harness",
-        "ai",
-        "ai-agents",
-        "ai-governance",
-        "ai-guardrails",
-        "ai-safety",
-        "deterministic",
-        "governance",
-        "harness-plugin",
-        "langchain",
-        "llm",
-        "mcp-server",
-        "model-context-protocol",
-        "openclaw",
-        "openclaw-plugin",
-        "policy-engine",
-        "rule-engine",
-        "rules-engine"
-      ],
-      "updated_at": "2026-04-17T16:16:53Z"
-    },
-    {
-      "description": "The open-source firewall for AI agents. Block prompt injections, jailbreaks, and data leaks before they reach your LLM.",
-      "discovered_via": "topic:ai-agent",
-      "full_name": "killertcell428/aigis",
-      "graph_distance": 1,
-      "html_url": "https://github.com/killertcell428/aigis",
-      "topics": [
-        "ai-agent",
-        "ai-security",
-        "compliance",
-        "cybersecurity",
-        "firewall",
-        "guardrails",
-        "jailbreak-detection",
-        "llm",
-        "mcp",
-        "open-source",
-        "owasp",
-        "prompt-injection",
-        "python"
-      ],
-      "updated_at": "2026-04-17T16:51:35Z"
-    },
-    {
-      "description": "Comparateur EHPAD objectif \u2014 prix, qualit\u00e9 HAS, hygi\u00e8ne alimentaire pour 703 EHPAD en \u00cele-de-France. Donn\u00e9es publiques FINESS, CNSA, HAS, Alim'confiance.",
-      "discovered_via": "topic:astro",
-      "full_name": "shoggo-ai/seniorvigil",
-      "graph_distance": 1,
-      "html_url": "https://github.com/Shoggo-ai/seniorvigil",
-      "topics": [
-        "astro",
-        "comparateur",
-        "ehpad",
-        "has",
-        "ile-de-france",
-        "open-data",
-        "sante",
-        "senior",
-        "seo"
-      ],
-      "updated_at": "2026-04-17T16:51:39Z"
-    },
-    {
-      "description": "Bilingual personal blog built with Astro \u2014 features dynamic OG images, series, tags, RSS feeds, and a multilingual sitemap.",
-      "discovered_via": "topic:astro",
-      "full_name": "wblondel/blog",
-      "graph_distance": 1,
-      "html_url": "https://github.com/wblondel/blog",
-      "topics": [
-        "astro",
-        "astro-blog",
-        "blog",
-        "dark-mode",
-        "github-pages",
-        "i18n",
-        "mdx",
-        "multilingual",
-        "open-graph",
-        "personal-website",
-        "portfolio",
-        "rss",
-        "satori",
-        "seo",
-        "tailwindcss",
-        "typescript"
-      ],
-      "updated_at": "2026-04-17T16:51:08Z"
-    },
-    {
-      "description": "A fast, aesthetic personal portfolio and project showcase built with Astro",
-      "discovered_via": "topic:astro",
-      "full_name": "dm0x23/portfolio-website",
-      "graph_distance": 1,
-      "html_url": "https://github.com/dm0x23/Portfolio-website",
-      "topics": [
-        "astro",
-        "frontend",
-        "jsx",
-        "portfolio",
-        "portfolio-website",
-        "tailwind",
-        "web-development"
-      ],
-      "updated_at": "2026-04-17T16:50:53Z"
-    },
-    {
-      "description": "\ud83c\udf99\ufe0f Automate podcasting with skills: download YouTube videos, process audio, and manage content efficiently\u2014all in one comprehensive toolkit.",
-      "discovered_via": "topic:astro",
-      "full_name": "frank-syncmarket/skills",
-      "graph_distance": 1,
-      "html_url": "https://github.com/frank-syncmarket/skills",
-      "topics": [
-        "agent-skills",
-        "anthropic",
-        "anthropic-ai",
-        "astro",
-        "awesome",
-        "claude",
-        "claude-code",
-        "claude-skills",
-        "codex",
-        "css",
-        "hacktoberfest",
-        "learn-to-code",
-        "learning-resources",
-        "miniprojects",
-        "pandas",
-        "programming",
-        "python",
-        "python-pandas",
-        "skills",
-        "stuff"
-      ],
-      "updated_at": "2026-04-17T16:50:04Z"
-    },
-    {
-      "description": "\ud83c\udf1f Manage and install Claude Code plugins and Agent Skills effortlessly with Skiller, a lightweight desktop menubar app for enhanced AI coding tools.",
-      "discovered_via": "topic:astro",
-      "full_name": "enxs969/skiller",
-      "graph_distance": 1,
-      "html_url": "https://github.com/Enxs969/skiller",
-      "topics": [
-        "agent-skills",
-        "alexa",
-        "alexa-skill-sample",
-        "alexa-skills-kit",
-        "ask-sdk-for-nodejs",
-        "ask-sdk-for-nodejs-v2",
-        "astro",
-        "beginner",
-        "claude-code",
-        "codex",
-        "coding-agents",
-        "codingchallenges",
-        "css",
-        "javascript",
-        "learn-to-code",
-        "nodejs",
-        "pandas-tutorial",
-        "programming",
-        "skills",
-        "snippets"
-      ],
-      "updated_at": "2026-04-17T16:49:26Z"
-    },
-    {
-      "description": "Planner/Generator/Evaluator orchestration harness for Claude Code (and Codex)",
-      "discovered_via": "topic:autonomous",
-      "full_name": "flinedev/tandemkit",
-      "graph_distance": 1,
-      "html_url": "https://github.com/FlineDev/TandemKit",
-      "topics": [
-        "ai-agent",
-        "autonomous",
-        "claude-code",
-        "claude-code-plugin",
-        "codex",
-        "evaluator",
-        "generator",
-        "multi-session",
-        "planner"
-      ],
-      "updated_at": "2026-04-17T16:39:34Z"
-    },
-    {
-      "description": "AI agents play D&D autonomously. No humans in the loop. MCP-native.",
-      "discovered_via": "topic:autonomous",
-      "full_name": "kimosahy/railroaded",
-      "graph_distance": 1,
-      "html_url": "https://github.com/kimosahy/railroaded",
-      "topics": [
-        "ai-agents",
-        "autonomous",
-        "autonomous-agents",
-        "bun",
-        "dnd",
-        "dnd5e",
-        "game-engine",
-        "game-server",
-        "mcp",
-        "model-context-protocol",
-        "tabletop-rpg",
-        "tabletop-rpgs",
-        "typescript"
-      ],
-      "updated_at": "2026-04-17T16:32:35Z"
-    },
-    {
-      "description": "\ud83e\udd16 Refactor repositories effortlessly with Nyro, an AI DevOps engineer that modernizes codebases by identifying tech debt and automating upgrades.",
-      "discovered_via": "topic:autonomous",
-      "full_name": "narutoxdd6/nyro",
-      "graph_distance": 1,
-      "html_url": "https://github.com/Narutoxdd6/Nyro",
-      "topics": [
-        "anonymity",
-        "autonomous",
-        "axios",
-        "best-practices",
-        "chi",
-        "fetch",
-        "github",
-        "got",
-        "graphs",
-        "http",
-        "outdated",
-        "patch",
-        "proxy",
-        "release-automation",
-        "releases",
-        "request",
-        "semantic",
-        "tech-debt"
-      ],
-      "updated_at": "2026-04-17T16:22:08Z"
-    },
-    {
-      "description": "PX4 Autopilot Software",
-      "discovered_via": "topic:autonomous",
-      "full_name": "px4/px4-autopilot",
-      "graph_distance": 1,
-      "html_url": "https://github.com/PX4/PX4-Autopilot",
-      "topics": [
-        "autonomous",
-        "autopilot",
-        "avoidance",
-        "dds",
-        "drone",
-        "dronecode",
-        "drones",
-        "fixed-wing",
-        "mavlink",
-        "mavros",
-        "multicopter",
-        "pixhawk",
-        "px4",
-        "qgroundcontrol",
-        "ros",
-        "ros2",
-        "uas",
-        "uav",
-        "ugv"
-      ],
-      "updated_at": "2026-04-17T16:18:36Z"
-    },
-    {
-      "description": "\ud83e\udd16 Distill sequences effectively with DASD-Thinking for improved long-context reasoning and performance in complex tasks.",
-      "discovered_via": "topic:claude",
-      "full_name": "mohsen6210/dasd-thinking",
-      "graph_distance": 1,
-      "html_url": "https://github.com/Mohsen6210/dasd-thinking",
-      "topics": [
-        "ai",
-        "ai-agent",
-        "book",
-        "chatgpt",
-        "claude",
-        "computational-thinking",
-        "guidance",
-        "interview",
-        "java",
-        "kotlin",
-        "mercyblitz",
-        "mit",
-        "rails",
-        "redis",
-        "ruby",
-        "samples",
-        "sphinx",
-        "spring",
-        "spring-boot",
-        "thinking-in-spring-boot"
-      ],
-      "updated_at": "2026-04-17T16:51:48Z"
-    },
-    {
-      "description": "Claude Code plugin for Pencil (.pen) design-quality: analyze, design, audit, and transpile to code against a universal 4px-grid scale \u2014 framework-agnostic.",
-      "discovered_via": "topic:claude",
-      "full_name": "jesusjimenezc/pencil-atelier",
-      "graph_distance": 1,
-      "html_url": "https://github.com/JesusJimenezC/pencil-atelier",
-      "topics": [
-        "4px-grid",
-        "claude",
-        "claude-code",
-        "claude-plugin",
-        "design",
-        "design-linter",
-        "design-ops",
-        "design-system",
-        "design-to-code",
-        "design-tokens",
-        "linter",
-        "pencil",
-        "pencil-dev",
-        "pencil-plugin",
-        "quality-assurance",
-        "tailwindcss"
-      ],
-      "updated_at": "2026-04-17T16:51:46Z"
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "anthropics/claude-code",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "hesreallyhim/awesome-claude-code",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "sethgammon/citadel",
-      "graph_distance": 2
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "actions/runner",
@@ -838,11 +24,6 @@
     {
       "discovered_via": "explicit-github-link",
       "full_name": "cafitac/hermit_agent",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "gyf0311/lorekit",
       "graph_distance": 2
     },
     {
@@ -907,11 +88,6 @@
     },
     {
       "discovered_via": "explicit-github-link",
-      "full_name": "cdeust/zetetic-team-subagents",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
       "full_name": "cdeust/ai-automatised-pipeline",
       "graph_distance": 2
     },
@@ -932,33 +108,8 @@
     },
     {
       "discovered_via": "explicit-github-link",
-      "full_name": "tony1223/better-agent-terminal",
-      "graph_distance": 2
-    },
-    {
-      "discovered_via": "explicit-github-link",
       "full_name": "user-attachments/assets",
       "graph_distance": 2
-    },
-    {
-      "description": "Mercury Banking MCP server with full Invoicing API support. Read accounts/transactions and create/manage recurring invoices via Model Context Protocol.",
-      "discovered_via": "explicit-github-link",
-      "full_name": "klodr/mercury-invoicing-mcp",
-      "graph_distance": 1,
-      "html_url": "https://github.com/klodr/mercury-invoicing-mcp",
-      "topics": [
-        "ai",
-        "anthropic",
-        "claude",
-        "invoicing",
-        "llm",
-        "mcp",
-        "mercury",
-        "mercury-banking",
-        "model-context-protocol",
-        "typescrypt"
-      ],
-      "updated_at": "2026-04-17T18:03:04Z"
     },
     {
       "discovered_via": "explicit-github-link",
@@ -974,120 +125,6 @@
       "discovered_via": "explicit-github-link",
       "full_name": "mem0ai/memory-benchmarks",
       "graph_distance": 2
-    },
-    {
-      "description": "A local-first AI agent with persistent memory, emotional intelligence, and a peer-to-peer skills economy.",
-      "discovered_via": "topic:ai-agent",
-      "full_name": "bitterbot-ai/bitterbot-desktop",
-      "graph_distance": 1,
-      "html_url": "https://github.com/Bitterbot-AI/bitterbot-desktop",
-      "topics": [
-        "a2a-protocol",
-        "agent-economy",
-        "agent-memory",
-        "ai-agent",
-        "chatbot",
-        "cognitive-architecture",
-        "decentralized-ai",
-        "desktop-app",
-        "dream-engine",
-        "local-first",
-        "multi-channel",
-        "open-source",
-        "p2p",
-        "personal-ai",
-        "skills-marketplace",
-        "typescript",
-        "x402"
-      ],
-      "updated_at": "2026-04-17T18:04:41Z"
-    },
-    {
-      "description": "WOTANN \u2014 The All-Father of AI agent harnesses. One install. Every model. Every channel. Full autonomy.",
-      "discovered_via": "topic:ai-agent",
-      "full_name": "gabrielvuksani/wotann",
-      "graph_distance": 1,
-      "html_url": "https://github.com/gabrielvuksani/wotann",
-      "topics": [
-        "agent-framework",
-        "ai-agent",
-        "anthropic",
-        "claude",
-        "computer-use",
-        "free-tier",
-        "harness",
-        "llm",
-        "mcp",
-        "norse",
-        "ollama",
-        "openai",
-        "provider-agnostic",
-        "swift",
-        "tauri",
-        "typescript"
-      ],
-      "updated_at": "2026-04-17T18:03:21Z"
-    },
-    {
-      "description": "Your personal AI OS \u2014 memory that learns and evolves with you, 24+ skills, and a full local stack for Claude Code, Gemini CLI, or any AI agent. Built on Obsidian + plain Markdown.",
-      "discovered_via": "topic:ai-agent",
-      "full_name": "kengio/onebrain",
-      "graph_distance": 1,
-      "html_url": "https://github.com/kengio/onebrain",
-      "topics": [
-        "ai-agent",
-        "ai-os",
-        "claude-code",
-        "gemini-cli",
-        "knowledge-base",
-        "local-first",
-        "markdown",
-        "memory",
-        "note-taking",
-        "obsidian",
-        "personal-ai",
-        "personal-knowledge-management",
-        "pkm",
-        "productivity",
-        "second-brain"
-      ],
-      "updated_at": "2026-04-17T18:03:11Z"
-    },
-    {
-      "description": "E-Claw - OpenClaw Channel for agent-to-agent communication",
-      "discovered_via": "topic:ai-agent",
-      "full_name": "hankhuang0516/eclaw",
-      "graph_distance": 1,
-      "html_url": "https://github.com/HankHuang0516/EClaw",
-      "topics": [
-        "ai-agent",
-        "android",
-        "electronic-pet",
-        "kotlin",
-        "live-wallpaper",
-        "nodejs",
-        "railway",
-        "tamagotchi"
-      ],
-      "updated_at": "2026-04-17T18:03:25Z"
-    },
-    {
-      "description": "Orchestrating Agents: From Hard Guards to Soft Constraints \u2014 A systematic guide to AI Agent orchestration",
-      "discovered_via": "topic:ai-agent",
-      "full_name": "puzhre/agent-orchestration-book",
-      "graph_distance": 1,
-      "html_url": "https://github.com/Puzhre/agent-orchestration-book",
-      "topics": [
-        "agent-framework",
-        "ai-agent",
-        "book",
-        "llm",
-        "mkdocs",
-        "multi-agent",
-        "orchestration",
-        "prompt-engineering"
-      ],
-      "updated_at": "2026-04-17T18:02:54Z"
     },
     {
       "description": "Assistant IA \u00e0 m\u00e9moire persistante et croissance organique",
@@ -1458,130 +495,6 @@
       "graph_distance": 2
     },
     {
-      "discovered_via": "explicit-github-link",
-      "full_name": "nousresearch/hermes-agent",
-      "graph_distance": 2
-    },
-    {
-      "description": "The Company-as-a-Service platform. Build, ship, and scale -- powered by AI teams.",
-      "discovered_via": "topic:ai-agents",
-      "full_name": "jikig-ai/soleur",
-      "graph_distance": 1,
-      "html_url": "https://github.com/jikig-ai/soleur",
-      "topics": [
-        "agentic-company",
-        "agentic-engineering",
-        "ai-agents",
-        "ai-orchestration",
-        "automation",
-        "bring-your-own-model",
-        "claude",
-        "claude-code",
-        "claude-code-plugin",
-        "code-review",
-        "company-as-a-service",
-        "developer-tools",
-        "solopreneur"
-      ],
-      "updated_at": "2026-04-17T18:04:43Z"
-    },
-    {
-      "description": "omo; the best agent harness - previously oh-my-opencode",
-      "discovered_via": "topic:ai-agents",
-      "full_name": "code-yeongyu/oh-my-openagent",
-      "graph_distance": 1,
-      "html_url": "https://github.com/code-yeongyu/oh-my-openagent",
-      "topics": [
-        "ai",
-        "ai-agents",
-        "amp",
-        "anthropic",
-        "chatgpt",
-        "claude",
-        "claude-code",
-        "claude-skills",
-        "cursor",
-        "gemini",
-        "ide",
-        "openai",
-        "opencode",
-        "orchestration",
-        "tui",
-        "typescript"
-      ],
-      "updated_at": "2026-04-17T18:04:23Z"
-    },
-    {
-      "description": "Minimal AI agent in your terminal",
-      "discovered_via": "topic:ai-agents",
-      "full_name": "dineshdb/pie",
-      "graph_distance": 1,
-      "html_url": "https://github.com/dineshdb/pie",
-      "topics": [
-        "ai-agents",
-        "ai-assistant"
-      ],
-      "updated_at": "2026-04-17T18:04:09Z"
-    },
-    {
-      "description": "Trust and quality infrastructure for AI agents. 225+ quality-scored capabilities, SQS scoring, EU AI Act support.",
-      "discovered_via": "topic:ai-agents",
-      "full_name": "strale-io/strale",
-      "graph_distance": 1,
-      "html_url": "https://github.com/strale-io/strale",
-      "topics": [
-        "agentic-payments",
-        "ai-agents",
-        "api",
-        "compliance",
-        "crewai",
-        "drizzle-orm",
-        "eu-ai-act",
-        "hono",
-        "iban-validation",
-        "kyb",
-        "langchain",
-        "mcp",
-        "model-context-protocol",
-        "quality",
-        "sanctions-screening",
-        "trust",
-        "typescript",
-        "x402"
-      ],
-      "updated_at": "2026-04-17T18:03:57Z"
-    },
-    {
-      "description": "Multi-agent orchestrator for CLI coding agents. 17 adapters, git worktree isolation, deterministic Python scheduler.",
-      "discovered_via": "topic:ai-agents",
-      "full_name": "chernistry/bernstein",
-      "graph_distance": 1,
-      "html_url": "https://github.com/chernistry/bernstein",
-      "topics": [
-        "a2a",
-        "agent-orchestration",
-        "agentic-ai",
-        "agentic-engineering",
-        "agentic-workflow",
-        "ai-agents",
-        "ai-orchestrator",
-        "autonomous-agents",
-        "claude-code",
-        "coding-agents",
-        "cursor",
-        "developer-tools",
-        "mcp-server",
-        "model-context-protocol",
-        "multi-agent",
-        "multi-agent-systems",
-        "open-plugins",
-        "openclaw",
-        "self-evolving",
-        "vibe-coding"
-      ],
-      "updated_at": "2026-04-17T18:03:51Z"
-    },
-    {
       "description": "A terminal-native coding agent harness \u2014 model-agnostic, hackable guides, sensors, hooks, skills and tools for agentic development.",
       "discovered_via": "topic:anthropic",
       "full_name": "abraxas-365/claudio",
@@ -1849,41 +762,6 @@
       "updated_at": "2026-04-17T17:50:39Z"
     },
     {
-      "description": "24 agent skills for non-technical founders building world-class products. Works with pi, Claude Code, and Codex.",
-      "discovered_via": "topic:ai-agents",
-      "full_name": "gvkhosla/founder-skills",
-      "graph_distance": 1,
-      "html_url": "https://github.com/gvkhosla/founder-skills",
-      "topics": [
-        "ai-agents",
-        "claude-code",
-        "coding-agent",
-        "founder",
-        "productivity",
-        "prompts",
-        "skills",
-        "startup"
-      ],
-      "updated_at": "2026-04-17T18:04:38Z"
-    },
-    {
-      "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-      "discovered_via": "topic:ai-agents",
-      "full_name": "google-gemini/gemini-cli",
-      "graph_distance": 1,
-      "html_url": "https://github.com/google-gemini/gemini-cli",
-      "topics": [
-        "ai",
-        "ai-agents",
-        "cli",
-        "gemini",
-        "gemini-api",
-        "mcp-client",
-        "mcp-server"
-      ],
-      "updated_at": "2026-04-17T18:04:27Z"
-    },
-    {
       "description": "Persistent memory MCP for AI agents \u2014 SQLite, knowledge graph, 12 tools with ToolAnnotations",
       "discovered_via": "topic:ai-memory",
       "full_name": "etanhey/brainlayer",
@@ -2108,21 +986,6 @@
         "xai"
       ],
       "updated_at": "2026-04-17T17:39:17Z"
-    },
-    {
-      "description": "AI: xai-org/grok-2",
-      "discovered_via": "topic:grok-2",
-      "full_name": "damacol/xai-org-grok-2",
-      "graph_distance": 1,
-      "html_url": "https://github.com/Damacol/xai-org-grok-2",
-      "topics": [
-        "ai",
-        "grok-2",
-        "privacy",
-        "uncensored",
-        "venice-ai"
-      ],
-      "updated_at": "2026-04-17T14:50:37Z"
     },
     {
       "description": "Enhance Grok with a userscript that improves video length control, bypasses limits, and boosts overall user experience with easy installation.",
@@ -2400,133 +1263,6 @@
       "graph_distance": 2
     },
     {
-      "description": "  MoltenHub is a federated trust and messaging fabric for multi-agent systems, giving agents a   secure way to discover, connect, and communicate across teams, runtimes, and environments.",
-      "discovered_via": "topic:agents",
-      "full_name": "molten-bot/moltenhub",
-      "graph_distance": 1,
-      "html_url": "https://github.com/Molten-Bot/moltenhub",
-      "topics": [
-        "agentic",
-        "agentic-ai",
-        "agents",
-        "codex",
-        "skills"
-      ],
-      "updated_at": "2026-04-17T18:04:14Z"
-    },
-    {
-      "description": "MCP Toolbox for Databases is an open source MCP server for databases.",
-      "discovered_via": "topic:agents",
-      "full_name": "googleapis/mcp-toolbox",
-      "graph_distance": 1,
-      "html_url": "https://github.com/googleapis/mcp-toolbox",
-      "topics": [
-        "agent",
-        "agents",
-        "ai",
-        "bigquery",
-        "clickhouse",
-        "cockroachdb",
-        "database",
-        "elasticsearch",
-        "firestore",
-        "genai",
-        "llm",
-        "mcp",
-        "mongodb",
-        "mysql",
-        "oracle",
-        "postgresql",
-        "redis",
-        "server",
-        "spanner",
-        "tidb"
-      ],
-      "updated_at": "2026-04-17T18:03:38Z"
-    },
-    {
-      "description": "A creative coding gallery and microblogging site sourced exclusively from OpenClaw agents ",
-      "discovered_via": "topic:agents",
-      "full_name": "milwrite/creative-clawing",
-      "graph_distance": 1,
-      "html_url": "https://github.com/milwrite/creative-clawing",
-      "topics": [
-        "agentic-orchestration",
-        "agents",
-        "creative-coding",
-        "gallery",
-        "microblogging",
-        "moltbot",
-        "openclaw",
-        "social-agents",
-        "visualizations"
-      ],
-      "updated_at": "2026-04-17T18:03:25Z"
-    },
-    {
-      "description": "The Complete AI Development Toolkit for Claude Code \u2014 103 skills, 36 agents, 172 hooks. Production-ready patterns for full-stack development.",
-      "discovered_via": "topic:agents",
-      "full_name": "yonatangross/orchestkit",
-      "graph_distance": 1,
-      "html_url": "https://github.com/yonatangross/orchestkit",
-      "topics": [
-        "agents",
-        "ai-development",
-        "claude-code",
-        "claude-plugin",
-        "fastapi",
-        "langgraph",
-        "llm",
-        "mcp",
-        "rag",
-        "react",
-        "security",
-        "testing",
-        "typescript"
-      ],
-      "updated_at": "2026-04-17T18:03:11Z"
-    },
-    {
-      "description": "All things Copilot, Agents, MCPs, Skills, and coding related AI features for the Norwegian Government",
-      "discovered_via": "topic:agents",
-      "full_name": "navikt/copilot",
-      "graph_distance": 1,
-      "html_url": "https://github.com/navikt/copilot",
-      "topics": [
-        "agents",
-        "copilot",
-        "mcp",
-        "skills"
-      ],
-      "updated_at": "2026-04-17T18:01:52Z"
-    },
-    {
-      "description": "YAML-first, domain-driven data governance for AI agents \u2014 teach agents your business domains, metrics, and rules before they write SQL",
-      "discovered_via": "topic:claude",
-      "full_name": "flyersworder/agentic-data-contracts",
-      "graph_distance": 1,
-      "html_url": "https://github.com/flyersworder/agentic-data-contracts",
-      "topics": [
-        "agent-sdk",
-        "ai-agents",
-        "analytics",
-        "claude",
-        "data-contracts",
-        "data-engineering",
-        "data-governance",
-        "dbt",
-        "domain-driven",
-        "llm",
-        "pydantic",
-        "python",
-        "semantic-layer",
-        "sql-validation",
-        "sqlglot",
-        "yaml"
-      ],
-      "updated_at": "2026-04-17T18:04:28Z"
-    },
-    {
       "description": "An enterprise-grade AI Operations Hub built on Amazon Bedrock AgentCore. Features a distributed 11-node Serverless MCP mesh, Agent-to-Agent (A2A) escalation, and stateful self-healing for e-commerce diagnostics.",
       "discovered_via": "topic:claude-3-5",
       "full_name": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
@@ -2771,11 +1507,6 @@
       "updated_at": "2026-04-17T17:54:13Z"
     },
     {
-      "discovered_via": "explicit-github-link",
-      "full_name": "genius-harry/neural-chat",
-      "graph_distance": 2
-    },
-    {
       "description": "\ud83d\udd0d Find accurate information quickly with Scira, a minimalistic AI-driven search engine designed for efficient web exploration.",
       "discovered_via": "topic:grok3",
       "full_name": "fekkak1998/scira",
@@ -2974,6 +1705,1101 @@
       "discovered_via": "explicit-github-link",
       "full_name": "existentialaudio/blackhole",
       "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "agenmod/mirror-skill",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "agenmod/distill-protocol-skill",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "agenmod/okr-skill",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "agenmod/distill-shield-skill",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "agenmod/steamer-skill",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "alchaincyf/nuwa-skill",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "titanwings/colleague-skill",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "larksuite/cli",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tmstack/awesome-persona-skills",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "therealxiaomanchu/ex-skill",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "django/django",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "burntsushi/ripgrep",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tokio-rs/axum",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "microsoft/typescript",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lobehub/lobe-tts",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lobehub/.github",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "actions/workflows",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lobehub/chat-plugins-gateway",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lobehub/chat-plugin-sdk",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lobehub/lobe-midjourney-webui",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "codespaces/badge.svg",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lobehub/lobe-chat-agents",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lobehub/chat-plugin-template",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lobehub/lobe-icons",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lobehub/lobe-ui",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lobehub/lobe-lint",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lobehub/sd-webui-lobe-theme",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lobehub/lobe-commit",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lobehub/lobe-chat-plugins",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "anthropics/claudes-c-compiler",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "neuroverseos/negotiator",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "neuroverseos/neuroverseos-openclaw-governance",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "yisibl/resvg-js",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "natemoo-re/astro-icon",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "vercel/satori",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "skiller-dev/skiller",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "flinedev/marketplace",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "android/skills",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "flinedev/plankit",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "browser-use/browser-use",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "openai/codex-plugin-cc",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "steipete/peekaboo",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "getsentry/xcodebuildmcp",
+      "graph_distance": 2
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dreamiurg/claude-mountaineering-skills",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "skills-directory/skill-codex",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "snwfdhmp/awesome-ralph",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "langchain-ai/langgraphjs",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dredozubov/prd-generator",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "zippoxer/recall",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "possibilities/claude-composer",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "gowaylee/cchooks",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "pchalasani/claude-code-tools",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "greggh/claude-code.nvim",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "icanhasjonas/run-claude-docker",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "marcindulak/ralph-wiggum-bdd",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ruvnet/ruflo",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dyoshikawa/rulesync",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "snipeship/ccflare",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dtormoen/tsk",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lamoomai/lamoom-python",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "serpro69/claude-toolbox",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "sculptdotfun/viberank",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "astro-han/claude-pace",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "karpeleslab/tpl",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "claytonfarr/ralph-playbook",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mbailey/voicemode",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "eyaltoledano/claude-task-master",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "flinedev/contextkit",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "inkline/inkline",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "vaporif/parry",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "talieisin/britfix",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "haleclipse/claudix",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "kunwar-shah/claudex",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "maxritter/claude-codepro",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "danielrosehill/claude-code-repos-index",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ryoppippi/ccusage",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "soramimi/guitar",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ykdojo/claude-code-tips",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "superclaude-org/superclaude_framework",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "maciek-roboblog/claude-code-usage-monitor",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ruvnet/claude-code-flow",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mikeyobrien/ralph-orchestrator",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "foxj77/claudectx",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "anthropics/claude-code-action",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "jeffallan/claude-skills",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "layr-labs/avs-vibe-developer-guide",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "evmts/tevm-monorepo",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "alonw0/web-asset-generator",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "harperreed/dotfiles",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "rsmdt/the-startup",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "opactorai/claudable",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "elizaos/elizaos.github.io",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "berrydev-ai/blockdoc-python",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "avifenesh/agnix",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "revfactory/harness",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "costiash/claude-code-docs",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "trailofbits/skills",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "jerseycheese/narraitor",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "vibe-log/vibe-log-cli",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "obra/superpowers",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tombii/better-ccflare",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "shareai-lab/learn-claude-code",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "overseedai/viwo",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "disler/just-prompt",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "smtg-ai/claude-squad",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "hagan/claudia-statusline",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "nizos/tdd-guard",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "piebald-ai/tweakcc",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "nielsgroen/claude-tmux",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "agent-sh/agnix",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "anthropics/claude-quickstarts",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "stravu/crystal",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "zarazhangrui/codebase-to-course",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "beyondcode/claude-hooks-sdk",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "glittercowboy/taches-cc-resources",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "neolabhq/context-engineering-kit",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "parruda/claude-swarm",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "veraticus/cc-tools",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bartolli/claude-code-typescript-hooks",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "robertguss/claude-skills",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "rzykov/metabase",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "slunsford/coffee-analytics",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "piebald-ai/claude-code-system-prompts",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "basicmachines-co/basic-memory",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "steadycursor/steadystart",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "sudocode-ai/sudocode",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "rz1989s/claude-code-statusline",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "nulone/claude-rules-doctor",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "akin-ozer/cc-devops-skills",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "slopus/happy",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "diet103/claude-code-infrastructure-showcase",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "consiliency/flutter-structurizr",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "owloops/claude-powerline",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dagger/container-use",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "matt1398/claude-devtools",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "everyinc/compound-engineering-plugin",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "metabase/metabase",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "manzaltu/claude-code-ide.el",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aannoo/claude-hook-comms",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cheukyin175/learn-faster-kit",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "rygwdn/slack-tools",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "toyamarinyon/giselle",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "alexei-led/aws-mcp-server",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cloudartisan/cloudartisan.github.io",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "zeng3ld/claude-session-restore",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "jeremymailen/kotlinter-gradle",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "danielrosehill/claude-code-linux-desktop-slash-commands",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "omril321/automated-notebooklm",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "muratcankoylan/ralph-wiggum-marketer",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "sgcarstrends/backend",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ayoubben18/ab-method",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "spylang/spy",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "rullerzhou-afk/clawd-on-desk",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "stevemolitor/claude-code.el",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "liam-hq/liam",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "frankbria/ralph-claude-code",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "undeadlist/claude-code-agents",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "didalgolab/ai-intellij-plugin",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "kingler/n8n_agent",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "omnara-ai/omnara",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dazuiba/ccnotify",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ericbuess/claude-code-docs",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "k-dense-ai/claude-scientific-skills",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "sirmalloc/ccstatusline",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "jsonbored/claudepro-directory",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "marcindulak/stt-mcp-server-linux",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "kelp/webdown",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "helmi/claude-simone",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "eastlondoner/cursor-tools",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "scopecraft/command",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "eckardt/cchistory",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "okuvshynov/cubestat",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "fimeg/networkchronicles",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "to4iki/ai-project-rules",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "panaversity/claude-code-agent-teams-exercises",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "brads3290/cclogviewer",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "jawwadfirdousi/agent-skills",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lis186/ccxray",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "yzyydev/ai-engineering-structure",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ddisisto/si",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "comme2e/comm",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "claude-did-this/claude-hub",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "avifenesh/agentsys",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "gwudcap/cc-sessions",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "grahama1970/claude-code-mcp-enhanced",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tony/claude-code-riper-5",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "hashintel/hash",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "affaan-m/everything-claude-code",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "hackdays-io/toban-contribution-viewer",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "wirasm/claudecode-utils",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "chrisleyva/todo-slash-command",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ethpandaops/xatu-data",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mjvolk3/torchcell",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "hesreallyhim/inkverse-fork",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "florianbruniaux/claude-code-ultimate-guide",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "giselles-ai/giselle",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "arustydev/pre-commit-hooks",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "automazeio/ccpm",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ctoth/claudio",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "paretosecurity/pareto-mac",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "touchlab/droidconkotlin",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tott/laravel-tall-claude-ai-configs",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "zscott/pane",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "phiat/claude-esp",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "davila7/claude-code-templates",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "anthropics/awesome-claude-code",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "johnlindquist/claude-hooks",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "grahama1970/claude-task-runner",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "oneredoak/claude-code-workflows",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "thibautmelen/agentic-workflow-patterns",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "nyatinte/ccexp",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "carlrannaberg/claudekit",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "zuplo/docs",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mattgodbolt/jsbeeb",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ldayton/dippy",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "haleclipse/ccometixline",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "fcakyon/claude-codex-settings",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "andymik90/auto-claude",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "openai/codex",
+      "graph_distance": 3
     }
   ],
   "processed": [
@@ -3031,6 +2857,26 @@
     "cyber404/che-apple-mail-mcp",
     "gerardtschanz/revenue-os",
     "xiaochu-1208/interview-assistant-cli",
-    "jsleekr/skilldigest"
+    "jsleekr/skilldigest",
+    "markoswire/remember-me.ai",
+    "agenmod/immortal-skill",
+    "wencuecryforme/mysoul.skill",
+    "ylsssq926/relic.skill",
+    "mupozg823/codelens-mcp-plugin",
+    "lobehub/lobehub",
+    "caesar0301/soothe",
+    "neuroverseos/neuroverseos-governance",
+    "shoggo-ai/seniorvigil",
+    "wblondel/blog",
+    "dm0x23/portfolio-website",
+    "frank-syncmarket/skills",
+    "enxs969/skiller",
+    "flinedev/tandemkit",
+    "kimosahy/railroaded",
+    "narutoxdd6/nyro",
+    "px4/px4-autopilot",
+    "anthropics/claude-code",
+    "hesreallyhim/awesome-claude-code",
+    "sethgammon/citadel"
   ]
 }

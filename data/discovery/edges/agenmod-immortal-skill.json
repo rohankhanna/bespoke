@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agenmod/immortal-skill",
+      "target": "agenmod/steamer-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agenmod/immortal-skill",
+      "target": "agenmod/distill-shield-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agenmod/immortal-skill",
+      "target": "agenmod/distill-protocol-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agenmod/immortal-skill",
+      "target": "agenmod/mirror-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agenmod/immortal-skill",
+      "target": "agenmod/okr-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "agenmod/immortal-skill",
+      "target": "SKILL.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "agenmod/immortal-skill",
+      "target": "FOR_AI.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "agenmod/immortal-skill",
+      "target": "**\u7ed9 AI \u7684\u4e00\u53e5\u8bdd\uff08\u6574\u4ed3\uff09**\uff1a",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "agenmod/immortal-skill",
+      "target": "\u84b8\u998f\u51fa\u6765\u7684\u6bcf\u4e00\u6761\u90fd\u6807\u6ce8**\u8bc1\u636e\u7b49\u7ea7**\uff1a -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "agenmod/immortal-skill",
+      "target": "\u539f\u8bdd \u2014\u2014 TA \u4eb2\u53e3\u8bf4\u7684 -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "agenmod/immortal-skill",
+      "target": "\u6587\u6863 \u2014\u2014 \u7559\u4e0b\u7684\u6587\u5b57\u6750\u6599 -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "agenmod/immortal-skill",
+      "target": "\u9a8c\u8bc1\u4e00\u4e0b\uff1a",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T03:26:22.590180+00:00",
+  "source_repo": "agenmod/immortal-skill"
+}

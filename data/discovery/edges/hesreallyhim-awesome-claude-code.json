@@ -1,0 +1,1609 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "astro-han/claude-pace",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "rullerzhou-afk/clawd-on-desk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "lis186/ccxray",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "avifenesh/agentsys",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "avifenesh/agnix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "robertguss/claude-skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "akin-ozer/cc-devops-skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "undeadlist/claude-code-agents",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "fcakyon/claude-codex-settings",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "dreamiurg/claude-mountaineering-skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "k-dense-ai/claude-scientific-skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "zarazhangrui/codebase-to-course",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "skills-directory/skill-codex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "everyinc/compound-engineering-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "neolabhq/context-engineering-kit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "affaan-m/everything-claude-code",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "jeffallan/claude-skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "jawwadfirdousi/agent-skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "obra/superpowers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "trailofbits/skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "glittercowboy/taches-cc-resources",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "alonw0/web-asset-generator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "ayoubben18/ab-method",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "thibautmelen/agentic-workflow-patterns",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "cloudartisan/cloudartisan.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "ericbuess/claude-code-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "diet103/claude-code-infrastructure-showcase",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "automazeio/ccpm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "danielrosehill/claude-code-repos-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "piebald-ai/claude-code-system-prompts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "ykdojo/claude-code-tips",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "florianbruniaux/claude-code-ultimate-guide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "maxritter/claude-codepro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "costiash/claude-code-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "jsonbored/claudepro-directory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "disler/just-prompt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "oneredoak/claude-code-workflows",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "tott/laravel-tall-claude-ai-configs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "shareai-lab/learn-claude-code",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "cheukyin175/learn-faster-kit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "kingler/n8n_agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "steadycursor/steadystart",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "scopecraft/command",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "harperreed/dotfiles",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "tony/claude-code-riper-5",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "helmi/claude-simone",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "panaversity/claude-code-agent-teams-exercises",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "revfactory/harness",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "snwfdhmp/awesome-ralph",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "frankbria/ralph-claude-code",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "muratcankoylan/ralph-wiggum-marketer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "mikeyobrien/ralph-orchestrator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "marcindulak/ralph-wiggum-bdd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "claytonfarr/ralph-playbook",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "gwudcap/cc-sessions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "veraticus/cc-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "nyatinte/ccexp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "eckardt/cchistory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "brads3290/cclogviewer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "davila7/claude-code-templates",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "possibilities/claude-composer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "claude-did-this/claude-hub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "zeng3ld/claude-session-restore",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "pchalasani/claude-code-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "matt1398/claude-devtools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "serpro69/claude-toolbox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "carlrannaberg/claudekit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "dagger/container-use",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "flinedev/contextkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "zippoxer/recall",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "dyoshikawa/rulesync",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "icanhasjonas/run-claude-docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "marcindulak/stt-mcp-server-linux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "superclaude-org/superclaude_framework",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "piebald-ai/tweakcc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "vibe-log/vibe-log-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "overseedai/viwo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "mbailey/voicemode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "manzaltu/claude-code-ide.el",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "stevemolitor/claude-code.el",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "greggh/claude-code.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "haleclipse/claudix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "ryoppippi/ccusage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "snipeship/ccflare",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "tombii/better-ccflare",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "maciek-roboblog/claude-code-usage-monitor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "kunwar-shah/claudex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "sculptdotfun/viberank",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "andymik90/auto-claude",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "ruvnet/claude-code-flow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "smtg-ai/claude-squad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "parruda/claude-swarm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "eyaltoledano/claude-task-master",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "grahama1970/claude-task-runner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "slopus/happy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "ruvnet/ruflo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "sudocode-ai/sudocode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "rsmdt/the-startup",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "dtormoen/tsk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "agent-sh/agnix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "nulone/claude-rules-doctor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "foxj77/claudectx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "haleclipse/ccometixline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "sirmalloc/ccstatusline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "rz1989s/claude-code-statusline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "owloops/claude-powerline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "hagan/claudia-statusline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "talieisin/britfix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "dazuiba/ccnotify",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "gowaylee/cchooks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "aannoo/claude-hook-comms",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "beyondcode/claude-hooks-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "johnlindquist/claude-hooks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "ctoth/claudio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "ldayton/dippy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "vaporif/parry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "nizos/tdd-guard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "bartolli/claude-code-typescript-hooks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "omril321/automated-notebooklm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "danielrosehill/claude-code-linux-desktop-slash-commands",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "jerseycheese/narraitor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "evmts/tevm-monorepo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "toyamarinyon/giselle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "liam-hq/liam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "jeremymailen/kotlinter-gradle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "metabase/metabase",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "giselles-ai/giselle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "rygwdn/slack-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "to4iki/ai-project-rules",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "rzykov/metabase",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "zscott/pane",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "elizaos/elizaos.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "okuvshynov/cubestat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "ethpandaops/xatu-data",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "mjvolk3/torchcell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "yzyydev/ai-engineering-structure",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "ddisisto/si",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "berrydev-ai/blockdoc-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "slunsford/coffee-analytics",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "hackdays-io/toban-contribution-viewer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "consiliency/flutter-structurizr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "kelp/webdown",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "hesreallyhim/inkverse-fork",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "wirasm/claudecode-utils",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "dredozubov/prd-generator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "chrisleyva/todo-slash-command",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "zuplo/docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "didalgolab/ai-intellij-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "alexei-led/aws-mcp-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "touchlab/droidconkotlin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "hashintel/hash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "inkline/inkline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "mattgodbolt/jsbeeb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "lamoomai/lamoom-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "langchain-ai/langgraphjs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "sgcarstrends/backend",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "spylang/spy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "karpeleslab/tpl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "layr-labs/avs-vibe-developer-guide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "comme2e/comm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "eastlondoner/cursor-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "soramimi/guitar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "fimeg/networkchronicles",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "paretosecurity/pareto-mac",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "arustydev/pre-commit-hooks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "basicmachines-co/basic-memory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "grahama1970/claude-code-mcp-enhanced",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "opactorai/claudable",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "phiat/claude-esp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "nielsgroen/claude-tmux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "stravu/crystal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "omnara-ai/omnara",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "anthropics/claude-quickstarts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "anthropics/claude-code-action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "claude-code-docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "CLAUDE.md",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "recall",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "claude --resume",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "ccflare",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "better-ccflare",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "paths:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "anthropics/awesome-claude-code",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "resource-submission",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "issues.opened",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "issues.reopened",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "issues.edited",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "THE_RESOURCES_TABLE.csv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "validation-passed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "validation-failed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "Display Name:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "Category:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "Primary Link:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "needs-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "### Related Scripts -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "issue_comment.created",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "bash python -m scripts.maintenance.update_github_release_data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "#### Options",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "bash python -m scripts.maintenance.update_github_release_data --help",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "bash make check-repo-health",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "Or directly with Python:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "bash python3 -m scripts.maintenance.check_repo_health",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "bash python3 -m scripts.maintenance.check_repo_health --help",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "### Environment Variables -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "GITHUB_TOKEN",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-repo-health.yml",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-repo-health.yml",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-repo-health.yml",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "Check Repository Health",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-resource-pr.yml",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-resource-pr.yml",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "Close Resource Submission PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-resource-prs.yml",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-resource-prs.yml",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "Close Resource Submission PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/handle-resource-submission-commands.yml",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/handle-resource-submission-commands.yml",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/handle-resource-submission-commands.yml",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/handle-resource-submission-commands.yml",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "Handle Resource Submission Commands",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-on-merge.yml",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-on-merge.yml",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notify-on-merge.yml",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/submission-enforcement-v2.yml",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/submission-enforcement-v2.yml",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "Submission Enforcement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/submission-enforcement-v2.yml",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "has been applied to this account.",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/submission-enforcement-v2.yml",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "automation.\\n\\n",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/submission-enforcement-v2.yml",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "**To submit your resource correctly:**\\n",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/submission-enforcement-v2.yml",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "\\n\\n---\\n*This PR was automatically closed.*",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/submission-enforcement-v2.yml",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "submitting recommendations due to repeated violations.",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/submission-enforcement-v2.yml",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "or contact the maintainer.",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/submission-enforcement-v2.yml",
+      "source_repo": "hesreallyhim/awesome-claude-code",
+      "target": "); console.log(",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T03:26:22.590180+00:00",
+  "source_repo": "hesreallyhim/awesome-claude-code"
+}

@@ -1,0 +1,307 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "neuroverseos/negotiator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "neuroverseos/neuroverseos-openclaw-governance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "### Three views for different scopes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "### Output structure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "radiant_emergent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "| | LangChain |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "| | OpenClaw |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "| | MCP |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "#### Scenario C \u2014 Destructive action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "ALLOW",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "BLOCK",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "PAUSE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "MODIFY",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "PENALIZE",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "REWARD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "The parser reads the",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "section, the emitter produces",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "behavioral-interpreter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "Run the end-to-end demo:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "WorldDefinition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "### Create a world",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "### Guard an action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "### Interactive playground",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "Opens a web UI at",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "### With Lenses",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "| 28 adversarial attacks | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "| Interactive web demo | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "| Human-readable world summary | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "| State evolution simulation | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "| MCP governance server | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "| Plan enforcement commands | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "@types/react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "@types/react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "@vitejs/plugin-react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "tsup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "NeuroverseOS/Neuroverseos-governance",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-18T03:26:22.590180+00:00",
+  "source_repo": "NeuroverseOS/Neuroverseos-governance"
+}

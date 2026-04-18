@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v6",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-17T16:51:41.136432+00:00",
+  "last_seen_at": "2026-04-18T03:26:22.590180+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -42,6 +42,91 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/growth.yml",
       "source_repo": "verkyyi/tokenman"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-i18n.yml",
+      "source_repo": "lobehub/lobehub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-tag-release.yml",
+      "source_repo": "lobehub/lobehub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bundle-analyzer.yml",
+      "source_repo": "lobehub/lobehub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-auto-e2e-testing.yml",
+      "source_repo": "lobehub/lobehub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-auto-testing.yml",
+      "source_repo": "lobehub/lobehub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-dedupe-issues.yml",
+      "source_repo": "lobehub/lobehub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "lobehub/lobehub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "wblondel/blog"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_all_targets.yml",
+      "source_repo": "PX4/PX4-Autopilot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_deb_package.yml",
+      "source_repo": "PX4/PX4-Autopilot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "PX4/PX4-Autopilot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "PX4/PX4-Autopilot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/commit_checks.yml",
+      "source_repo": "PX4/PX4-Autopilot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compile_macos.yml",
+      "source_repo": "PX4/PX4-Autopilot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compile_ubuntu.yml",
+      "source_repo": "PX4/PX4-Autopilot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dev_container.yml",
+      "source_repo": "PX4/PX4-Autopilot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-orchestrator.yml",
+      "source_repo": "PX4/PX4-Autopilot"
     }
   ]
 }

@@ -1,0 +1,42 @@
+{
+  "component": "actions/github-script@v7",
+  "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
+  "last_seen_at": "2026-04-18T03:26:22.590180+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/welcome.yml",
+      "source_repo": "Ylsssq926/relic.skill"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lock-closed-issues.yml",
+      "source_repo": "anthropics/claude-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/close-resource-pr.yml",
+      "source_repo": "hesreallyhim/awesome-claude-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/close-resource-prs.yml",
+      "source_repo": "hesreallyhim/awesome-claude-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/handle-resource-submission-commands.yml",
+      "source_repo": "hesreallyhim/awesome-claude-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/notify-on-merge.yml",
+      "source_repo": "hesreallyhim/awesome-claude-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/submission-enforcement-v2.yml",
+      "source_repo": "hesreallyhim/awesome-claude-code"
+    }
+  ]
+}

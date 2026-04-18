@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "markoswire/remember-me.ai",
+      "target": "remember-me-setup.exe",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T03:26:22.994520+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5889
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Enable AI to actively remember and recreate your digital presence for lasting memory beyond physical life.",
+    "full_name": "markoswire/remember-me.ai",
+    "html_url": "https://github.com/markoswire/remember-me.ai",
+    "language": "HTML",
+    "pushed_at": "2026-04-18T01:58:49Z",
+    "topics": [
+      "ai",
+      "ai-training-data",
+      "archive",
+      "digital-immortality",
+      "digital-legacy",
+      "ethics-in-ai",
+      "genai",
+      "genai-usecase",
+      "generative-ai",
+      "identity",
+      "linkedin-course",
+      "linkedin-learning",
+      "memory",
+      "microsoft",
+      "microsoft-365-copilot",
+      "microsoft-copilot-ai",
+      "microsoft-learning",
+      "open-source",
+      "remember-me"
+    ],
+    "updated_at": "2026-04-18T01:58:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "remember-me-setup.exe"
+    }
+  ]
+}

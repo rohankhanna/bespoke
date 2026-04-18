@@ -1,7 +1,7 @@
 {
   "component": "actions/download-artifact@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T02:41:24.975901+00:00",
+  "last_seen_at": "2026-04-18T03:26:22.590180+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "XiaoChu-1208/interview-assistant-CLI"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin"
     }
   ]
 }

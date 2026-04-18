@@ -1,0 +1,285 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/etl.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/etl.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/etl.yml"
+    },
+    {
+      "component": "amondnet/vercel-action@v25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/etl.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monitor-seo.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monitor-seo.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monitor-sources.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monitor-sources.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monitor-sources.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monitor-sources.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monitor-sources.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monitor-sources.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monitor-sources.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monitor-sources.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monitor-sources.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monitor-sources.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Shoggo-ai/seniorvigil",
+      "target": "main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/etl.yml",
+      "source_repo": "Shoggo-ai/seniorvigil",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/etl.yml",
+      "source_repo": "Shoggo-ai/seniorvigil",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/etl.yml",
+      "source_repo": "Shoggo-ai/seniorvigil",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/etl.yml",
+      "source_repo": "Shoggo-ai/seniorvigil",
+      "target": "amondnet/vercel-action@v25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/etl.yml",
+      "source_repo": "Shoggo-ai/seniorvigil",
+      "target": "ETL & Build EHPAD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monitor-seo.yml",
+      "source_repo": "Shoggo-ai/seniorvigil",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monitor-seo.yml",
+      "source_repo": "Shoggo-ai/seniorvigil",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/monitor-seo.yml",
+      "source_repo": "Shoggo-ai/seniorvigil",
+      "target": "Veille SEO",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monitor-sources.yml",
+      "source_repo": "Shoggo-ai/seniorvigil",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monitor-sources.yml",
+      "source_repo": "Shoggo-ai/seniorvigil",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monitor-sources.yml",
+      "source_repo": "Shoggo-ai/seniorvigil",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/monitor-sources.yml",
+      "source_repo": "Shoggo-ai/seniorvigil",
+      "target": "Veille sources donn\u00e9es",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/monitor-sources.yml",
+      "source_repo": "Shoggo-ai/seniorvigil",
+      "target": "ars_inspections.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/monitor-sources.yml",
+      "source_repo": "Shoggo-ai/seniorvigil",
+      "target": "judilibre_decisions.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/monitor-sources.yml",
+      "source_repo": "Shoggo-ai/seniorvigil",
+      "target": "legifrance_texts.json",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T03:26:30.338327+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1280
+    },
+    {
+      "path": "requirements.txt",
+      "size": 46
+    },
+    {
+      "path": ".github/workflows/etl.yml",
+      "size": 2454
+    },
+    {
+      "path": ".github/workflows/monitor-seo.yml",
+      "size": 1929
+    },
+    {
+      "path": ".github/workflows/monitor-sources.yml",
+      "size": 16975
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Comparateur EHPAD objectif \u2014 prix, qualit\u00e9 HAS, hygi\u00e8ne alimentaire pour 703 EHPAD en \u00cele-de-France. Donn\u00e9es publiques FINESS, CNSA, HAS, Alim'confiance.",
+    "full_name": "Shoggo-ai/seniorvigil",
+    "html_url": "https://github.com/Shoggo-ai/seniorvigil",
+    "language": "Astro",
+    "pushed_at": "2026-04-17T21:52:38Z",
+    "topics": [
+      "astro",
+      "comparateur",
+      "ehpad",
+      "has",
+      "ile-de-france",
+      "open-data",
+      "sante",
+      "senior",
+      "seo"
+    ],
+    "updated_at": "2026-04-17T21:52:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "main"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/etl.yml",
+      "term": "ETL & Build EHPAD"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/monitor-seo.yml",
+      "term": "Veille SEO"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/monitor-sources.yml",
+      "term": "Veille sources donn\u00e9es"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/monitor-sources.yml",
+      "term": "ars_inspections.json"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/monitor-sources.yml",
+      "term": "ars_inspections.json"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/monitor-sources.yml",
+      "term": "judilibre_decisions.json"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/monitor-sources.yml",
+      "term": "legifrance_texts.json"
+    }
+  ]
+}

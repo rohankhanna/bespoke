@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Narutoxdd6/Nyro",
+      "target": "Nyro-macos",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T03:26:22.590180+00:00",
+  "source_repo": "Narutoxdd6/Nyro"
+}

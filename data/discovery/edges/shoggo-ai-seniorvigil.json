@@ -1,0 +1,118 @@
+{
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Shoggo-ai/seniorvigil",
+      "target": "main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/etl.yml",
+      "source_repo": "Shoggo-ai/seniorvigil",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/etl.yml",
+      "source_repo": "Shoggo-ai/seniorvigil",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/etl.yml",
+      "source_repo": "Shoggo-ai/seniorvigil",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/etl.yml",
+      "source_repo": "Shoggo-ai/seniorvigil",
+      "target": "amondnet/vercel-action@v25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/etl.yml",
+      "source_repo": "Shoggo-ai/seniorvigil",
+      "target": "ETL & Build EHPAD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monitor-seo.yml",
+      "source_repo": "Shoggo-ai/seniorvigil",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monitor-seo.yml",
+      "source_repo": "Shoggo-ai/seniorvigil",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/monitor-seo.yml",
+      "source_repo": "Shoggo-ai/seniorvigil",
+      "target": "Veille SEO",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monitor-sources.yml",
+      "source_repo": "Shoggo-ai/seniorvigil",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monitor-sources.yml",
+      "source_repo": "Shoggo-ai/seniorvigil",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monitor-sources.yml",
+      "source_repo": "Shoggo-ai/seniorvigil",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/monitor-sources.yml",
+      "source_repo": "Shoggo-ai/seniorvigil",
+      "target": "Veille sources donn\u00e9es",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/monitor-sources.yml",
+      "source_repo": "Shoggo-ai/seniorvigil",
+      "target": "ars_inspections.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/monitor-sources.yml",
+      "source_repo": "Shoggo-ai/seniorvigil",
+      "target": "judilibre_decisions.json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/monitor-sources.yml",
+      "source_repo": "Shoggo-ai/seniorvigil",
+      "target": "legifrance_texts.json",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T03:26:22.590180+00:00",
+  "source_repo": "Shoggo-ai/seniorvigil"
+}

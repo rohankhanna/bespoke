@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
+  "last_seen_at": "2026-04-18T03:26:22.590180+00:00",
+  "sources": [
+    {
+      "discovered_via": "inline-code",
+      "source_file": ".github/workflows/submission-enforcement-v2.yml",
+      "source_repo": "hesreallyhim/awesome-claude-code"
+    }
+  ],
+  "term": "submitting recommendations due to repeated violations."
+}

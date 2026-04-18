@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
+  "last_seen_at": "2026-04-18T03:26:22.590180+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/etl.yml",
+      "source_repo": "Shoggo-ai/seniorvigil"
+    }
+  ],
+  "term": "ETL & Build EHPAD"
+}

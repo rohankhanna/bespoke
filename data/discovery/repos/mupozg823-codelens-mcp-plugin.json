@@ -1,0 +1,1559 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-3arm.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-3arm.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-3arm.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-3arm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/attest@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/attest@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/metadata-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "sigstore/cosign-installer@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "1.9.43",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": ") - Registered tool definitions:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "across",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "extensions - Profiles:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "(35),",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "(36),",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "(14),",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "(49),",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "(43),",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "(19) - Presets:",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "(27),",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "(76),",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "cargo install codelens-mcp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "cargo install codelens-mcp --features http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "cargo install --git ...",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "CodeLens standalone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "codelens-mcp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "Shared HTTP + multi-agent coordination",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "codelens-mcp --version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "prepare_harness_session",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "register_agent_work",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "claim_files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "verify_change_readiness",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "overlapping_claims",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "caution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "CodeLens only",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "Semantic retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "SCIP precise navigation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "codex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "Failed to reconnect",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "refresh_symbol_index",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "cargo clean",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "lsof -iTCP:7837 -sTCP:LISTEN",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "darwin-arm64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "linux-x86_64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "windows-x86_64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "install.sh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "cargo build --release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "explore_codebase",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "trace_request_path",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "review_architecture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "plan_safe_refactor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "review_changes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "diagnose_issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "cleanup_duplicate_logic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "planner-readonly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "builder-minimal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "reviewer-graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "refactor-full",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "ci-audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "start_analysis_job \u2192 get_analysis_job \u2192 get_analysis_section(\"impact\")",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "codelens_engine::lang_registry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "find_symbol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "get_symbols_overview",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "get_ranked_context",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "get_impact_analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "semantic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "CODELENS_MODEL_DIR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "26d513e",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "MiniLM-L12-CodeSearchNet-INT8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "ef1d1e9c",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "MRR 0.935",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "84c825d..26d513e",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "main.rs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "schema_version: \"1.0",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "tree_sitter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "lsp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "scip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "get_capabilities",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "CODELENS_OTEL_ENDPOINT",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "tool.success",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "tool.backend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "tool.elapsed_ms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "otel.status_code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "Dockerfile.release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "otel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "scip-backend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "query_project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "suggested_next_tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "Build & Verify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": ".github/workflows/external-3arm.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "tokio-rs/axum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": ".github/workflows/external-3arm.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "burntsushi/ripgrep",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": ".github/workflows/external-3arm.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "django/django",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": ".github/workflows/external-3arm.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "microsoft/typescript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-3arm.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-3arm.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-3arm.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/external-3arm.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/external-3arm.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "External 3-arm benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "actions/upload-pages-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "Deploy Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "actions/attest@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "docker/metadata-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "sigstore/cosign-installer@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mupozg823/codelens-mcp-plugin",
+      "target": "cargo publish",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T03:26:25.871718+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27913
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3123
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 945
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 6751
+    },
+    {
+      "path": ".github/workflows/external-3arm.yml",
+      "size": 3869
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "size": 1254
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 13231
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Harness-native compressed context engine for AI coding agents \u2014 Pure Rust MCP server, 89+ tools, 25 languages, 50-87% token reduction",
+    "full_name": "mupozg823/codelens-mcp-plugin",
+    "html_url": "https://github.com/mupozg823/codelens-mcp-plugin",
+    "language": "Rust",
+    "pushed_at": "2026-04-17T18:45:58Z",
+    "topics": [
+      "agent-harness",
+      "ai-tools",
+      "claude-code",
+      "code-intelligence",
+      "codex",
+      "cursor",
+      "developer-tools",
+      "harness",
+      "lsp",
+      "mcp",
+      "mcp-server",
+      "rust",
+      "semantic-search",
+      "token-optimization",
+      "tree-sitter"
+    ],
+    "updated_at": "2026-04-17T18:46:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "django/django",
+      "source_file": ".github/workflows/external-3arm.yml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "burntsushi/ripgrep",
+      "source_file": ".github/workflows/external-3arm.yml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tokio-rs/axum",
+      "source_file": ".github/workflows/external-3arm.yml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/typescript",
+      "source_file": ".github/workflows/external-3arm.yml"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "1.9.43"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": ") - Registered tool definitions:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "across"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "extensions - Profiles:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(35),"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(36),"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(35),"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(14),"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(49),"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(43),"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(19) - Presets:"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(27),"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "(76),"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cargo install codelens-mcp"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cargo install codelens-mcp --features http"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cargo install --git ..."
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "main"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "CodeLens standalone"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "codelens-mcp"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Shared HTTP + multi-agent coordination"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "http"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "codelens-mcp --version"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "codelens-mcp"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "http"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "prepare_harness_session"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "register_agent_work"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "claim_files"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "verify_change_readiness"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "overlapping_claims"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "caution"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "CodeLens only"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Semantic retrieval"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "SCIP precise navigation"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "codex"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Failed to reconnect"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "refresh_symbol_index"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cargo clean"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "lsof -iTCP:7837 -sTCP:LISTEN"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cargo install codelens-mcp"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "darwin-arm64"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "linux-x86_64"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "windows-x86_64"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "install.sh"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cargo build --release"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "explore_codebase"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "trace_request_path"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "review_architecture"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "plan_safe_refactor"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "review_changes"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "diagnose_issues"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "cleanup_duplicate_logic"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "planner-readonly"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "builder-minimal"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "reviewer-graph"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "refactor-full"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ci-audit"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "start_analysis_job \u2192 get_analysis_job \u2192 get_analysis_section(\"impact\")"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "codelens_engine::lang_registry"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "find_symbol"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "get_symbols_overview"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "get_ranked_context"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "get_impact_analysis"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "semantic"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "CODELENS_MODEL_DIR"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "get_ranked_context"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "26d513e"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "MiniLM-L12-CodeSearchNet-INT8"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "ef1d1e9c"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "get_ranked_context"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "MRR 0.935"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "84c825d..26d513e"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "main.rs"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "schema_version: \"1.0"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tree_sitter"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "lsp"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "semantic"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "scip"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "get_capabilities"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "CODELENS_OTEL_ENDPOINT"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tool.success"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tool.backend"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "tool.elapsed_ms"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "otel.status_code"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "Dockerfile.release"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "semantic"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "http"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "otel"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "scip-backend"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "query_project"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "suggested_next_tools"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build & Verify"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/external-3arm.yml",
+      "term": "External 3-arm benchmark"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "term": "Deploy Docs"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": ".github/workflows/release.yml",
+      "term": "cargo publish"
+    }
+  ]
+}

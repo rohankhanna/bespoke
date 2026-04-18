@@ -1,0 +1,12 @@
+{
+  "component": "dorny/paths-filter@v4",
+  "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
+  "last_seen_at": "2026-04-18T03:26:22.590180+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-orchestrator.yml",
+      "source_repo": "PX4/PX4-Autopilot"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "WencueCryforme/MySoul.SKILL",
+      "target": "\u8fd9\u5c06\u4e3a\u4f60\u521b\u5efa\u4e00\u4e2a\u65b0\u7684\u6570\u5b57\u514b\u9686\u4f53\u9879\u76ee\u6846\u67b6\uff0c\u7cfb\u7edf\u4f1a\u5206\u914d\u4e00\u4e2a\u552f\u4e00\u7684\u9879\u76eeID\u3002 #### 2. \u5bfc\u5165\u6216\u8ffd\u52a0\u6570\u636e \u4f7f\u7528\u547d\u4ee4\uff1a",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T03:26:23.807209+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5706
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "\u6211\u7684\u5fc3\u8df3\u5728\u6b64\u540c\u9891\uff0c\u6211\u7684\u7075\u9b42\u5728\u6b64\u5171\u632f\uff0c\u6211\uff0c\u5728\u6b64\u5b89\u653e\u3002",
+    "full_name": "WencueCryforme/MySoul.SKILL",
+    "html_url": "https://github.com/WencueCryforme/MySoul.SKILL",
+    "language": null,
+    "pushed_at": "2026-04-11T13:51:13Z",
+    "topics": [
+      "agent-skill",
+      "ai-agent",
+      "ai-ethics",
+      "claude-code",
+      "claude-code-skill",
+      "digital-clone",
+      "digital-immortality",
+      "digital-soul",
+      "digital-sovereignty",
+      "digital-twin",
+      "llm",
+      "llm-distillation",
+      "non-traditional",
+      "openclaw",
+      "openclaw-skill",
+      "persona",
+      "plosl",
+      "skill",
+      "skill-md"
+    ],
+    "updated_at": "2026-04-11T13:51:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u8fd9\u5c06\u4e3a\u4f60\u521b\u5efa\u4e00\u4e2a\u65b0\u7684\u6570\u5b57\u514b\u9686\u4f53\u9879\u76ee\u6846\u67b6\uff0c\u7cfb\u7edf\u4f1a\u5206\u914d\u4e00\u4e2a\u552f\u4e00\u7684\u9879\u76eeID\u3002 #### 2. \u5bfc\u5165\u6216\u8ffd\u52a0\u6570\u636e \u4f7f\u7528\u547d\u4ee4\uff1a"
+    }
+  ]
+}

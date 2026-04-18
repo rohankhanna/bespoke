@@ -1,0 +1,356 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "DavidAnson/markdownlint-cli2-action@v17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/welcome.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ylsssq926/relic.skill",
+      "target": "larksuite/cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ylsssq926/relic.skill",
+      "target": "therealxiaomanchu/ex-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ylsssq926/relic.skill",
+      "target": "tmstack/awesome-persona-skills",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ylsssq926/relic.skill",
+      "target": "alchaincyf/nuwa-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ylsssq926/relic.skill",
+      "target": "titanwings/colleague-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Ylsssq926/relic.skill",
+      "target": "### \ud83c\udfe2 \u661f\u706b\u5de5\u4f5c\u5ba4 \u00b7 5\u4eba\u521b\u4e1a\u56e2\u961f",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Ylsssq926/relic.skill",
+      "target": "\u6bcf\u6761\u4fe1\u606f\u6807\u6ce8\u8bc1\u636e\u7b49\u7ea7\uff1a -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Ylsssq926/relic.skill",
+      "target": "\u2014 \u539f\u8bdd\uff0c\u4e00\u5b57\u4e0d\u6539 -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Ylsssq926/relic.skill",
+      "target": "\u2014 \u6765\u81ea\u6587\u6863\u3001\u7167\u7247\u3001\u5f55\u97f3 -",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Ylsssq926/relic.skill",
+      "target": "### \u65b9\u5f0f\u4e8c\uff1anpx \u4e00\u952e\u5b89\u88c5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Ylsssq926/relic.skill",
+      "target": "### \u65b9\u5f0f\u4e09\uff1a\u5168\u5c40\u5b89\u88c5\uff08\u6240\u6709\u9879\u76ee\u53ef\u7528\uff09",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Ylsssq926/relic.skill",
+      "target": "git clone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Ylsssq926/relic.skill",
+      "target": "### Slash \u547d\u4ee4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Ylsssq926/relic.skill",
+      "target": "### CLI \u5de5\u5177",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Ylsssq926/relic.skill",
+      "target": "**\u4f5c\u4e3a\u300c\u624b\u300d\u2014\u2014\u4e3b\u52a8\u884c\u4e3a\uff1a**",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "source_repo": "Ylsssq926/relic.skill",
+      "target": "| \u4ece\u4f1a\u8bae\u7eaa\u8981\u63d0\u53d6\u51b3\u7b56\u8bb0\u5f55 | |",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Ylsssq926/relic.skill",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Ylsssq926/relic.skill",
+      "target": "DavidAnson/markdownlint-cli2-action@v17",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Ylsssq926/relic.skill",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/welcome.yml",
+      "source_repo": "Ylsssq926/relic.skill",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/welcome.yml",
+      "source_repo": "Ylsssq926/relic.skill",
+      "target": "Welcome",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T03:26:24.638766+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11756
+    },
+    {
+      "path": "requirements.txt",
+      "size": 38
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 987
+    },
+    {
+      "path": ".github/workflows/welcome.yml",
+      "size": 1543
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "\u4e07\u7269\u7686\u53ef Relic \u2014 \u7ed9\u7075\u9b42\u5f00\u4e2a GitHub | Universal Digital Immortality Engine \ud83e\uddec",
+    "full_name": "Ylsssq926/relic.skill",
+    "html_url": "https://github.com/Ylsssq926/relic.skill",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-17T23:16:15Z",
+    "topics": [
+      "agent-skill",
+      "ai-skill",
+      "claude-code",
+      "cline",
+      "cursor",
+      "digital-immortality",
+      "digital-twin",
+      "distillation",
+      "github-copilot",
+      "kiro",
+      "memory",
+      "opencode",
+      "persona",
+      "pet",
+      "relic",
+      "skill-md",
+      "soul",
+      "windsurf"
+    ],
+    "updated_at": "2026-04-17T23:16:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alchaincyf/nuwa-skill",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "titanwings/colleague-skill",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "larksuite/cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmstack/awesome-persona-skills",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "therealxiaomanchu/ex-skill",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### \ud83c\udfe2 \u661f\u706b\u5de5\u4f5c\u5ba4 \u00b7 5\u4eba\u521b\u4e1a\u56e2\u961f"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u6bcf\u6761\u4fe1\u606f\u6807\u6ce8\u8bc1\u636e\u7b49\u7ea7\uff1a -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u2014 \u539f\u8bdd\uff0c\u4e00\u5b57\u4e0d\u6539 -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "\u2014 \u6765\u81ea\u6587\u6863\u3001\u7167\u7247\u3001\u5f55\u97f3 -"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### \u65b9\u5f0f\u4e8c\uff1anpx \u4e00\u952e\u5b89\u88c5"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### \u65b9\u5f0f\u4e09\uff1a\u5168\u5c40\u5b89\u88c5\uff08\u6240\u6709\u9879\u76ee\u53ef\u7528\uff09"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git clone"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git clone"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git clone"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git clone"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git clone"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git clone"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git clone"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git clone"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "git clone"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### Slash \u547d\u4ee4"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "### CLI \u5de5\u5177"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "**\u4f5c\u4e3a\u300c\u624b\u300d\u2014\u2014\u4e3b\u52a8\u884c\u4e3a\uff1a**"
+    },
+    {
+      "edge_type": "inline-code",
+      "source_file": "README.md",
+      "term": "| \u4ece\u4f1a\u8bae\u7eaa\u8981\u63d0\u53d6\u51b3\u7b56\u8bb0\u5f55 | |"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/welcome.yml",
+      "term": "Welcome"
+    }
+  ]
+}
