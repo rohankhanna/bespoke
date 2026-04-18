@@ -2,6 +2,7 @@
   "aliases": [
     "Create Pull Request"
   ],
+  "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process"
   ],
@@ -17,5 +18,15 @@
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process"
+      ],
+      "label": "Create Pull Request",
+      "sense_id": "create-pull-request#sense-1",
+      "status": "candidate"
+    }
+  ],
   "primary_bucket": "workflow-process"
 }

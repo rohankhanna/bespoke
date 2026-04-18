@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test CI",
+      "sense_id": "test-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "test-ci",
+  "normalized_form": "test-ci",
+  "observation_id": "144c2c6eb17558e9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:32:22.637859+00:00",
+  "observed_text": "Test CI",
+  "source_file": ".github/workflows/test.yml",
+  "source_repo": "lobehub/lobe-vidol"
+}

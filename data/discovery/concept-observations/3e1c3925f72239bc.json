@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cleanup caches for closed PRs",
+      "sense_id": "cleanup-caches-for-closed-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "cleanup-caches-for-closed-prs",
+  "normalized_form": "cleanup-caches-for-closed-prs",
+  "observation_id": "3e1c3925f72239bc",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:32:22.637859+00:00",
+  "observed_text": "Cleanup caches for closed PRs",
+  "source_file": ".github/workflows/cache-cleanup.yml",
+  "source_repo": "cargo-bins/cargo-binstall"
+}

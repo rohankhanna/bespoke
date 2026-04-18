@@ -2,6 +2,7 @@
   "aliases": [
     "rust"
   ],
+  "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
     "capability"
@@ -20,9 +21,44 @@
       "observed_at": "2026-04-18T11:24:14.688152+00:00",
       "source_file": null,
       "source_repo": "libp2p/test-plans"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T11:32:22.637859+00:00",
+      "source_file": null,
+      "source_repo": "cargo-bins/cargo-binstall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T11:32:22.637859+00:00",
+      "source_file": null,
+      "source_repo": "chinanf-boy/ripgrep-zh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T11:32:22.637859+00:00",
+      "source_file": null,
+      "source_repo": "programatik29/rust-web-benchmarks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T11:32:22.637859+00:00",
+      "source_file": null,
+      "source_repo": "crate-ci/typos"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "last_seen_at": "2026-04-18T11:32:22.637859+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rust",
+      "sense_id": "rust#sense-1",
+      "status": "candidate"
+    }
+  ],
   "primary_bucket": "tool-component"
 }

@@ -2,6 +2,7 @@
   "aliases": [
     "our"
   ],
+  "ambiguity_status": "seeded-stable",
   "buckets": [
     "language-layer-entity",
     "pronoun"
@@ -20,9 +21,26 @@
       "observed_at": "2026-04-18T11:24:14.688152+00:00",
       "source_file": "vocabulary/english/stable-closed-classes.json",
       "source_repo": "seed:english"
+    },
+    {
+      "discovered_via": "seeded-language-entity",
+      "observed_at": "2026-04-18T11:32:22.637859+00:00",
+      "source_file": "vocabulary/english/stable-closed-classes.json",
+      "source_repo": "seed:english"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "last_seen_at": "2026-04-18T11:32:22.637859+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "language-layer-entity",
+        "pronoun"
+      ],
+      "label": "our",
+      "sense_id": "en-pronoun-our#sense-1",
+      "status": "seeded-stable"
+    }
+  ],
   "primary_bucket": "language-layer-entity"
 }

@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "installer",
+      "sense_id": "installer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "installer",
+  "normalized_form": "installer",
+  "observation_id": "1decba0419434ff0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:32:22.637859+00:00",
+  "observed_text": "installer",
+  "source_file": null,
+  "source_repo": "cargo-bins/cargo-binstall"
+}

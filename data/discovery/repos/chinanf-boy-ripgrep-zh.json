@@ -1,0 +1,75 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chinanf-boy/ripgrep-zh",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chinanf-boy/ripgrep-zh",
+      "target": "files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chinanf-boy/ripgrep-zh",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chinanf-boy/ripgrep-zh",
+      "target": "searcher",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:32:39.555669+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "\u4e2d\u6587\u7ffb\u8bd1:<BurntSushi/ripgrep> \u4e00\u4e2a\u9762\u5411\u884c\u7684\u641c\u7d22\u5de5\u5177 :heart: \u6821\u5bf9 \u2705",
+    "full_name": "chinanf-boy/ripgrep-zh",
+    "html_url": "https://github.com/chinanf-boy/ripgrep-zh",
+    "language": "Shell",
+    "pushed_at": "2022-06-11T01:35:12Z",
+    "topics": [
+      "docs",
+      "files",
+      "rust",
+      "searcher",
+      "zh"
+    ],
+    "updated_at": "2026-04-17T07:11:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docs"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "files"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "searcher"
+    }
+  ]
+}

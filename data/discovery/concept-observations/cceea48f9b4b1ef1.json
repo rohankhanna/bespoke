@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pkg Pr New CI",
+      "sense_id": "pkg-pr-new-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "pkg-pr-new-ci",
+  "normalized_form": "pkg-pr-new-ci",
+  "observation_id": "cceea48f9b4b1ef1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:32:22.637859+00:00",
+  "observed_text": "Pkg Pr New CI",
+  "source_file": ".github/workflows/pkg.pr.new.yml",
+  "source_repo": "lobehub/lobe-charts"
+}

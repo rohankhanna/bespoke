@@ -1,0 +1,74 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alchaincyf/feynman-skill",
+      "target": "alchaincyf/steve-jobs-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alchaincyf/feynman-skill",
+      "target": "alchaincyf/naval-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alchaincyf/feynman-skill",
+      "target": "alchaincyf/munger-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alchaincyf/feynman-skill",
+      "target": "alchaincyf/taleb-skill",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:32:27.030017+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7723
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "\u8d39\u66fc.skill \u2014 \u7406\u67e5\u5fb7\u00b7\u8d39\u66fc\u7684\u8ba4\u77e5\u64cd\u4f5c\u7cfb\u7edf\u3002\u7531\u5973\u5a32.skill\u751f\u6210\u3002",
+    "full_name": "alchaincyf/feynman-skill",
+    "html_url": "https://github.com/alchaincyf/feynman-skill",
+    "language": null,
+    "pushed_at": "2026-04-10T02:28:13Z",
+    "topics": [],
+    "updated_at": "2026-04-18T07:08:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alchaincyf/munger-skill",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alchaincyf/naval-skill",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alchaincyf/steve-jobs-skill",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alchaincyf/taleb-skill",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -2,6 +2,7 @@
   "aliases": [
     "language-model"
   ],
+  "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
     "capability"
@@ -18,5 +19,16 @@
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "language-model",
+      "sense_id": "language-model#sense-1",
+      "status": "candidate"
+    }
+  ],
   "primary_bucket": "tool-component"
 }

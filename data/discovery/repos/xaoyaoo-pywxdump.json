@@ -1,0 +1,66 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xaoyaoo/PyWxDump",
+      "target": "pywxdump",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xaoyaoo/PyWxDump",
+      "target": "wxdump",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xaoyaoo/PyWxDump",
+      "target": "wxexport",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:32:29.004865+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 823
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "\u5220\u5e93",
+    "full_name": "xaoyaoo/PyWxDump",
+    "html_url": "https://github.com/xaoyaoo/PyWxDump",
+    "language": null,
+    "pushed_at": "2025-10-20T10:36:39Z",
+    "topics": [
+      "pywxdump",
+      "wxdump",
+      "wxexport"
+    ],
+    "updated_at": "2026-04-17T14:15:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pywxdump"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wxdump"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wxexport"
+    }
+  ]
+}

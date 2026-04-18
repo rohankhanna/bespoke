@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T09:17:12.863479+00:00",
+  "last_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -36,6 +36,11 @@
       "discovered_via": "inline-code",
       "source_file": "README.md",
       "source_repo": "eyaltoledano/claude-task-master"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "chinanf-boy/ripgrep-zh"
     }
   ],
   "term": "Docs"

@@ -2,6 +2,7 @@
   "aliases": [
     "lint-sync"
   ],
+  "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
     "data-document-artifact"
@@ -24,5 +25,16 @@
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "lint-sync",
+      "sense_id": "lint-sync#sense-1",
+      "status": "candidate"
+    }
+  ],
   "primary_bucket": "workflow-process"
 }

@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "docs",
+      "sense_id": "docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "docs",
+  "normalized_form": "docs",
+  "observation_id": "ed5075113ba3dcae",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:32:22.637859+00:00",
+  "observed_text": "docs",
+  "source_file": null,
+  "source_repo": "chinanf-boy/ripgrep-zh"
+}

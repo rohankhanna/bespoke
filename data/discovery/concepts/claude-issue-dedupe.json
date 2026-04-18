@@ -2,8 +2,10 @@
   "aliases": [
     "Claude Issue Dedupe"
   ],
+  "ambiguity_status": "unresolved",
   "buckets": [
-    "workflow-process"
+    "workflow-process",
+    "data-document-artifact"
   ],
   "canonical_name": "Claude Issue Dedupe",
   "concept_id": "claude-issue-dedupe",
@@ -13,9 +15,25 @@
       "observed_at": "2026-04-18T10:25:53.609022+00:00",
       "source_file": ".github/workflows/claude-dedupe-issues.yml",
       "source_repo": "oven-sh/bun"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T11:32:22.637859+00:00",
+      "source_file": ".github/workflows/claude-dedupe-issues.yml",
+      "source_repo": "lobehub/lobehub"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T11:32:22.637859+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process"
+      ],
+      "label": "Claude Issue Dedupe",
+      "sense_id": "claude-issue-dedupe#sense-1",
+      "status": "candidate"
+    }
+  ],
   "primary_bucket": "workflow-process"
 }

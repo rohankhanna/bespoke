@@ -2,6 +2,7 @@
   "aliases": [
     "goreleaser"
   ],
+  "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
     "data-document-artifact"
@@ -30,5 +31,16 @@
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "goreleaser",
+      "sense_id": "goreleaser#sense-1",
+      "status": "candidate"
+    }
+  ],
   "primary_bucket": "workflow-process"
 }

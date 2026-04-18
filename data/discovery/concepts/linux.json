@@ -3,6 +3,7 @@
     "linux",
     "Linux"
   ],
+  "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
     "workflow-process"
@@ -25,5 +26,16 @@
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "workflow-process"
+      ],
+      "label": "linux",
+      "sense_id": "linux#sense-1",
+      "status": "candidate"
+    }
+  ],
   "primary_bucket": "tool-component"
 }

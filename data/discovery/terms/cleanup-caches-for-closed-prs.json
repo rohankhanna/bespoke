@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
+  "last_seen_at": "2026-04-18T11:32:22.637859+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cache-cleanup.yml",
+      "source_repo": "cargo-bins/cargo-binstall"
+    }
+  ],
+  "term": "Cleanup caches for closed PRs"
+}

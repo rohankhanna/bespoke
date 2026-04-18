@@ -2,6 +2,7 @@
   "aliases": [
     "pre-commit"
   ],
+  "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
     "data-document-artifact"
@@ -14,9 +15,26 @@
       "observed_at": "2026-04-18T10:43:38.551697+00:00",
       "source_file": ".github/workflows/pre-commit.yml",
       "source_repo": "vllm-project/vllm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T11:32:22.637859+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "crate-ci/typos"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "last_seen_at": "2026-04-18T11:32:22.637859+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "pre-commit",
+      "sense_id": "pre-commit#sense-1",
+      "status": "candidate"
+    }
+  ],
   "primary_bucket": "workflow-process"
 }

@@ -1,0 +1,34 @@
+{
+  "aliases": [
+    "Claude Auto E2E Testing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "canonical_name": "Claude Auto E2E Testing",
+  "concept_id": "claude-auto-e2e-testing",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-18T11:32:22.637859+00:00",
+      "source_file": ".github/workflows/claude-auto-e2e-testing.yml",
+      "source_repo": "lobehub/lobehub"
+    }
+  ],
+  "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
+  "last_seen_at": "2026-04-18T11:32:22.637859+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Claude Auto E2E Testing",
+      "sense_id": "claude-auto-e2e-testing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

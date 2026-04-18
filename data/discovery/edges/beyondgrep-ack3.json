@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testsuite.yml",
+      "source_repo": "beyondgrep/ack3",
+      "target": "perl-actions/perl-versions@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testsuite.yml",
+      "source_repo": "beyondgrep/ack3",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testsuite.yml",
+      "source_repo": "beyondgrep/ack3",
+      "target": "perl-actions/install-with-cpanm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/testsuite.yml",
+      "source_repo": "beyondgrep/ack3",
+      "target": "testsuite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beyondgrep/ack3",
+      "target": "grep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "beyondgrep/ack3",
+      "target": "perl",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-18T11:32:22.637859+00:00",
+  "source_repo": "beyondgrep/ack3"
+}

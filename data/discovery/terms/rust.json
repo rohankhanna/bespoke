@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "last_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -31,6 +31,26 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "libp2p/test-plans"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "cargo-bins/cargo-binstall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "chinanf-boy/ripgrep-zh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "programatik29/rust-web-benchmarks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "crate-ci/typos"
     }
   ],
   "term": "Rust"

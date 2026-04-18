@@ -1,0 +1,38 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alchaincyf/darwin-skill",
+      "target": "karpathy/autoresearch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:32:23.793608+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3372
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "\u8fbe\u5c14\u6587.skill \u2014\u2014 \u4e00\u4e2a\u8ba9\u4f60\u7684Skill\u65e0\u9650\u8fdb\u5316\u7684\u7cfb\u7edf\uff1a\u8bc4\u4f30\u2192\u6539\u8fdb\u2192\u6d4b\u8bd5\u2192\u4fdd\u7559\u6216\u56de\u6eda | Autoresearch-inspired autonomous skill optimization for Claude Code. Evaluate, improve, test, keep or revert.",
+    "full_name": "alchaincyf/darwin-skill",
+    "html_url": "https://github.com/alchaincyf/darwin-skill",
+    "language": "HTML",
+    "pushed_at": "2026-04-14T15:37:16Z",
+    "topics": [],
+    "updated_at": "2026-04-18T11:16:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "karpathy/autoresearch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,74 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alchaincyf/ilya-sutskever-skill",
+      "target": "alchaincyf/munger-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alchaincyf/ilya-sutskever-skill",
+      "target": "alchaincyf/naval-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alchaincyf/ilya-sutskever-skill",
+      "target": "alchaincyf/taleb-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alchaincyf/ilya-sutskever-skill",
+      "target": "alchaincyf/steve-jobs-skill",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:32:27.778539+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7923
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "Ilya Sutskever\u7684\u8ba4\u77e5\u64cd\u4f5c\u7cfb\u7edf\u3002\u4e0d\u662f\u8bed\u5f55\u5408\u96c6\uff0c\u662f\u53ef\u8fd0\u884c\u7684\u601d\u7ef4\u6846\u67b6\u3002Made with \u5973\u5a32.skill",
+    "full_name": "alchaincyf/ilya-sutskever-skill",
+    "html_url": "https://github.com/alchaincyf/ilya-sutskever-skill",
+    "language": null,
+    "pushed_at": "2026-04-10T02:28:35Z",
+    "topics": [],
+    "updated_at": "2026-04-16T06:22:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alchaincyf/munger-skill",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alchaincyf/naval-skill",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alchaincyf/steve-jobs-skill",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alchaincyf/taleb-skill",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,105 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "programatik29/rust-web-benchmarks",
+      "target": "chillfish8/rewrk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "programatik29/rust-web-benchmarks",
+      "target": "rust-lang/rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "programatik29/rust-web-benchmarks",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "programatik29/rust-web-benchmarks",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "programatik29/rust-web-benchmarks",
+      "target": "rewrk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "programatik29/rust-web-benchmarks",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:32:41.107435+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1303
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "Benchmarking web frameworks written in rust with rewrk tool.",
+    "full_name": "programatik29/rust-web-benchmarks",
+    "html_url": "https://github.com/programatik29/rust-web-benchmarks",
+    "language": "Rust",
+    "pushed_at": "2024-01-01T18:14:58Z",
+    "topics": [
+      "benchmark",
+      "framework",
+      "rewrk",
+      "rust",
+      "web"
+    ],
+    "updated_at": "2026-04-03T12:06:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chillfish8/rewrk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-lang/rust",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rewrk"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

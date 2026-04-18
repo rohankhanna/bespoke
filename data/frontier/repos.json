@@ -1,106 +1,6 @@
 {
-  "generated_at": "2026-04-18T11:24:14.688152+00:00",
+  "generated_at": "2026-04-18T11:32:22.637859+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "alchaincyf/darwin-skill",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "alchaincyf/elon-musk-skill",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "alchaincyf/feynman-skill",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "alchaincyf/ilya-sutskever-skill",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lc044/wechatmsg",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "xaoyaoo/pywxdump",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "1sh1ro/liangxi-skills",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "aar0npb/curator-skill",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "beamuswayne/simp-skill",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "w1ndys/ex-cure-skill",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "beyondgrep/ack3",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "burntsushi/linux",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "cargo-bins/cargo-binstall",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "chinanf-boy/ripgrep-zh",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "programatik29/rust-web-benchmarks",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "crate-ci/typos",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "microsoft/typescript-go",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lobehub/lobe-chat",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lobehub/lobe-vidol",
-      "graph_distance": 3
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "lobehub/lobe-charts",
-      "graph_distance": 3
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "lobehub/lobe-editor",
@@ -1405,6 +1305,116 @@
       "discovered_via": "explicit-github-link",
       "full_name": "retrography/audioswitch",
       "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "karpathy/autoresearch",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "alchaincyf/munger-skill",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "alchaincyf/naval-skill",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "alchaincyf/steve-jobs-skill",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "alchaincyf/taleb-skill",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "alsuren/cargo-quickinstall",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cargo-bins/cargo-quickinstall",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dustinblackman/cargo-run-bin",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "nabijaczleweli/cargo-update",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "chillfish8/rewrk",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "rust-lang/rust",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "crate-ci/gh-install",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "putoutjs/putout-processor-typos",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tahv/typos-gitlab-code-quality",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tekumara/typos-vscode",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lobehub/lobe-commit",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lobehub/lobe-chat",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lokerl/tts-vue",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "pixiv/three-vrm",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "grubersjoe/react-activity-calendar",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "recharts/recharts",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tremorlabs/tremor",
+      "graph_distance": 4
     }
   ],
   "processed": [
@@ -1868,6 +1878,25 @@
     "piqrypt/aiss-standard",
     "kyleneideck/backgroundmusic",
     "rlxone/multisoundchanger",
-    "tanweai/pua"
+    "tanweai/pua",
+    "alchaincyf/darwin-skill",
+    "alchaincyf/elon-musk-skill",
+    "alchaincyf/feynman-skill",
+    "alchaincyf/ilya-sutskever-skill",
+    "lc044/wechatmsg",
+    "xaoyaoo/pywxdump",
+    "1sh1ro/liangxi-skills",
+    "aar0npb/curator-skill",
+    "beamuswayne/simp-skill",
+    "w1ndys/ex-cure-skill",
+    "beyondgrep/ack3",
+    "burntsushi/linux",
+    "cargo-bins/cargo-binstall",
+    "chinanf-boy/ripgrep-zh",
+    "programatik29/rust-web-benchmarks",
+    "crate-ci/typos",
+    "microsoft/typescript-go",
+    "lobehub/lobe-vidol",
+    "lobehub/lobe-charts"
   ]
 }

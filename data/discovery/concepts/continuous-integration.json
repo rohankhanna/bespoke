@@ -3,6 +3,7 @@
     "Continuous Integration",
     "Continuous integration"
   ],
+  "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
     "data-document-artifact"
@@ -25,5 +26,16 @@
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Continuous Integration",
+      "sense_id": "continuous-integration#sense-1",
+      "status": "candidate"
+    }
+  ],
   "primary_bucket": "workflow-process"
 }

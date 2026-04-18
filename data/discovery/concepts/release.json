@@ -3,6 +3,7 @@
     "Release",
     "release"
   ],
+  "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
     "data-document-artifact"
@@ -79,5 +80,16 @@
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release",
+      "sense_id": "release#sense-1",
+      "status": "candidate"
+    }
+  ],
   "primary_bucket": "workflow-process"
 }

@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rewrk",
+      "sense_id": "rewrk#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "rewrk",
+  "normalized_form": "rewrk",
+  "observation_id": "de97d9d81fdcbc6f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:32:22.637859+00:00",
+  "observed_text": "rewrk",
+  "source_file": null,
+  "source_repo": "programatik29/rust-web-benchmarks"
+}

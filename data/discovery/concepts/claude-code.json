@@ -3,6 +3,7 @@
     "claude-code",
     "Claude Code"
   ],
+  "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
     "capability",
@@ -59,9 +60,28 @@
       "observed_at": "2026-04-18T11:24:14.688152+00:00",
       "source_file": null,
       "source_repo": "zsio/claude-code-hub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T11:32:22.637859+00:00",
+      "source_file": null,
+      "source_repo": "W1ndys/ex-cure-skill"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "last_seen_at": "2026-04-18T11:32:22.637859+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability",
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "claude-code",
+      "sense_id": "claude-code#sense-1",
+      "status": "candidate"
+    }
+  ],
   "primary_bucket": "tool-component"
 }

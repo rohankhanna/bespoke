@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ex-skill",
+      "sense_id": "ex-skill#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "ex-skill",
+  "normalized_form": "ex-skill",
+  "observation_id": "cc395c85db22cf7d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:32:22.637859+00:00",
+  "observed_text": "ex-skill",
+  "source_file": null,
+  "source_repo": "W1ndys/ex-cure-skill"
+}

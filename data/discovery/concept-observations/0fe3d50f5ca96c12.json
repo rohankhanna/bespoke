@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "virtual-idols",
+      "sense_id": "virtual-idols#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "virtual-idols",
+  "normalized_form": "virtual-idols",
+  "observation_id": "0fe3d50f5ca96c12",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:32:22.637859+00:00",
+  "observed_text": "virtual-idols",
+  "source_file": null,
+  "source_repo": "lobehub/lobe-vidol"
+}

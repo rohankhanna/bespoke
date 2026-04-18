@@ -1,0 +1,74 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LC044/WeChatMsg",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LC044/WeChatMsg",
+      "target": "llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LC044/WeChatMsg",
+      "target": "pyqt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LC044/WeChatMsg",
+      "target": "wechat",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-18T11:32:28.246049+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": null,
+    "full_name": "LC044/WeChatMsg",
+    "html_url": "https://github.com/LC044/WeChatMsg",
+    "language": null,
+    "pushed_at": "2025-12-30T13:31:16Z",
+    "topics": [
+      "chatgpt",
+      "llms",
+      "pyqt",
+      "wechat"
+    ],
+    "updated_at": "2026-04-18T11:24:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyqt"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wechat"
+    }
+  ]
+}

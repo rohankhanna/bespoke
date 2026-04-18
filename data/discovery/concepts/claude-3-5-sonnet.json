@@ -2,6 +2,7 @@
   "aliases": [
     "claude-3-5-sonnet"
   ],
+  "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
     "capability"
@@ -18,5 +19,16 @@
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "claude-3-5-sonnet",
+      "sense_id": "claude-3-5-sonnet#sense-1",
+      "status": "candidate"
+    }
+  ],
   "primary_bucket": "tool-component"
 }

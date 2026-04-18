@@ -1,0 +1,12 @@
+{
+  "component": "rust-lang/crates-io-auth-action@v1",
+  "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
+  "last_seen_at": "2026-04-18T11:32:22.637859+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-cli.yml",
+      "source_repo": "cargo-bins/cargo-binstall"
+    }
+  ]
+}

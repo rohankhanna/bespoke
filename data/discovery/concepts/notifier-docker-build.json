@@ -2,6 +2,7 @@
   "aliases": [
     "Notifier Docker Build"
   ],
+  "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
     "data-document-artifact"
@@ -18,5 +19,16 @@
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Notifier Docker Build",
+      "sense_id": "notifier-docker-build#sense-1",
+      "status": "candidate"
+    }
+  ],
   "primary_bucket": "workflow-process"
 }

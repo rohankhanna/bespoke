@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nextjs",
+      "sense_id": "nextjs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "nextjs",
+  "normalized_form": "nextjs",
+  "observation_id": "a2cc2b002ad7a099",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-18T11:32:22.637859+00:00",
+  "observed_text": "nextjs",
+  "source_file": null,
+  "source_repo": "lobehub/lobe-vidol"
+}

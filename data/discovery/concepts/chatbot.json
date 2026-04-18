@@ -2,8 +2,10 @@
   "aliases": [
     "chatbot"
   ],
+  "ambiguity_status": "unresolved",
   "buckets": [
-    "tool-component"
+    "tool-component",
+    "capability"
   ],
   "canonical_name": "chatbot",
   "concept_id": "chatbot",
@@ -13,9 +15,25 @@
       "observed_at": "2026-04-18T10:25:53.609022+00:00",
       "source_file": null,
       "source_repo": "1Panel-dev/MaxKB"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-18T11:32:22.637859+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-vidol"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-18T11:32:22.637859+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component"
+      ],
+      "label": "chatbot",
+      "sense_id": "chatbot#sense-1",
+      "status": "candidate"
+    }
+  ],
   "primary_bucket": "tool-component"
 }

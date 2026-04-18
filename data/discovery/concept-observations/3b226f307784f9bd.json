@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "testsuite",
+      "sense_id": "testsuite#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "testsuite",
+  "normalized_form": "testsuite",
+  "observation_id": "3b226f307784f9bd",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:32:22.637859+00:00",
+  "observed_text": "testsuite",
+  "source_file": ".github/workflows/testsuite.yml",
+  "source_repo": "beyondgrep/ack3"
+}

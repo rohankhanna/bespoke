@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Daily i18n Update",
+      "sense_id": "daily-i18n-update#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "daily-i18n-update",
+  "normalized_form": "daily-i18n-update",
+  "observation_id": "43638f882910534c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:32:22.637859+00:00",
+  "observed_text": "Daily i18n Update",
+  "source_file": ".github/workflows/auto-i18n.yml",
+  "source_repo": "lobehub/lobehub"
+}

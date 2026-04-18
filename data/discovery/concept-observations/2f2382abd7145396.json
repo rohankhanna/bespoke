@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test GitHub Action installer",
+      "sense_id": "test-github-action-installer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "test-github-action-installer",
+  "normalized_form": "test-github-action-installer",
+  "observation_id": "2f2382abd7145396",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:32:22.637859+00:00",
+  "observed_text": "Test GitHub Action installer",
+  "source_file": ".github/workflows/gh-action.yml",
+  "source_repo": "cargo-bins/cargo-binstall"
+}

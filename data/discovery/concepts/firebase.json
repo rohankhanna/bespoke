@@ -2,6 +2,7 @@
   "aliases": [
     "firebase"
   ],
+  "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
     "capability"
@@ -18,5 +19,16 @@
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "last_seen_at": "2026-04-18T10:38:37.562216+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "firebase",
+      "sense_id": "firebase#sense-1",
+      "status": "candidate"
+    }
+  ],
   "primary_bucket": "tool-component"
 }

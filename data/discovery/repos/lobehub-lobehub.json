@@ -1896,379 +1896,8 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lobehub/lobehub",
-      "target": "user-attachments/assets",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "lobehub/.github",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "lobehub/chat-plugin-sdk",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "lobehub/chat-plugin-template",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "lobehub/chat-plugins-gateway",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "codespaces/badge.svg",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "actions/workflows",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "lobehub/lobe-chat-plugins",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
       "target": "lobehub/lobe-commit",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "lobehub/lobe-icons",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "lobehub/lobe-lint",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "lobehub/lobe-midjourney-webui",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "lobehub/sd-webui-lobe-theme",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "lobehub/lobe-tts",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "lobehub/lobe-ui",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "lobehub/lobe-chat-agents",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "gpt-4-vision",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "DALL-E 3",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "MidJourney",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "Pollinations",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "shopping",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "e-bay",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "ali-express",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "coupons",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "seo",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "keyword",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "video-to-text",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "youtube",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "weather",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "turtle-soup",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "reasoning",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "interaction",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "puzzle",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "role-playing",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "academic-writing",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "research",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "formal-style",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "gourmet",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "review",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "writing",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "development",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "programming",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "minecraft",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "java",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "Better Auth",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "OPENAI_API_KEY",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "2. init the LobeHub infrastructure",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "3. Start the LobeHub service",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "fish docker compose up -d",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "sk-xxxxxx...xxxxxx",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "OPENAI_PROXY_URL",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "OPENAI_MODEL_LIST",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "to add a model,",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobehub",
-      "target": "to hide a model, and",
-      "target_type": "term"
     },
     {
       "edge_type": "package-json:dependencies",
@@ -4833,13 +4462,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/auto-i18n.yml",
-      "source_repo": "lobehub/lobehub",
-      "target": "bash $(cat i18n_update.log)",
-      "target_type": "term"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/auto-tag-release.yml",
       "source_repo": "lobehub/lobehub",
@@ -4882,34 +4504,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/bundle-analyzer.yml",
-      "source_repo": "lobehub/lobehub",
-      "target": "bundle-report\\",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/bundle-analyzer.yml",
-      "source_repo": "lobehub/lobehub",
-      "target": "client.html\\",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/bundle-analyzer.yml",
-      "source_repo": "lobehub/lobehub",
-      "target": "server.html\\",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/bundle-analyzer.yml",
-      "source_repo": "lobehub/lobehub",
-      "target": "pnpm-lock.yaml\\",
-      "target_type": "term"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/claude-auto-e2e-testing.yml",
       "source_repo": "lobehub/lobehub",
@@ -4935,13 +4529,6 @@
       "source_file": ".github/workflows/claude-auto-e2e-testing.yml",
       "source_repo": "lobehub/lobehub",
       "target": "Claude Auto E2E Testing",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/claude-auto-e2e-testing.yml",
-      "source_repo": "lobehub/lobehub",
-      "target": "bunx next start -p 3006 &",
       "target_type": "term"
     },
     {
@@ -5006,9 +4593,51 @@
       "source_repo": "lobehub/lobehub",
       "target": "Claude Issue Triage",
       "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lobehub/lobehub",
+      "target": "agent-collaboration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lobehub/lobehub",
+      "target": "agent-harness",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lobehub/lobehub",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lobehub/lobehub",
+      "target": "deepseek",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lobehub/lobehub",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lobehub/lobehub",
+      "target": "knowledge-base",
+      "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T03:26:27.459650+00:00",
+  "fetched_at": "2026-04-18T11:32:52.693953+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -5058,7 +4687,7 @@
     "full_name": "lobehub/lobehub",
     "html_url": "https://github.com/lobehub/lobehub",
     "language": "TypeScript",
-    "pushed_at": "2026-04-18T03:10:34Z",
+    "pushed_at": "2026-04-18T11:31:01Z",
     "topics": [
       "agent",
       "agent-collaboration",
@@ -5073,300 +4702,20 @@
       "mcp",
       "openai"
     ],
-    "updated_at": "2026-04-18T03:09:18Z"
+    "updated_at": "2026-04-18T11:00:23Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "lobehub/lobe-tts",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lobehub/.github",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "user-attachments/assets",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "actions/workflows",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lobehub/chat-plugins-gateway",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lobehub/chat-plugin-sdk",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lobehub/lobe-midjourney-webui",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "codespaces/badge.svg",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lobehub/lobe-chat-agents",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lobehub/chat-plugin-template",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lobehub/lobe-icons",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lobehub/lobe-ui",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lobehub/lobe-lint",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lobehub/sd-webui-lobe-theme",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "lobehub/lobe-commit",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lobehub/lobe-chat-plugins",
       "source_file": "README.md"
     }
   ],
   "terms": [
     {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "gpt-4-vision"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "DALL-E 3"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "MidJourney"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "Pollinations"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "shopping"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "e-bay"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "ali-express"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "coupons"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "seo"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "keyword"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "video-to-text"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "youtube"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "weather"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "turtle-soup"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "reasoning"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "interaction"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "puzzle"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "role-playing"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "academic-writing"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "research"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "formal-style"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "gourmet"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "review"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "writing"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "development"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "programming"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "minecraft"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "java"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "Better Auth"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "Better Auth"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "OPENAI_API_KEY"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "2. init the LobeHub infrastructure"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "3. Start the LobeHub service"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "fish docker compose up -d"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "OPENAI_API_KEY"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "sk-xxxxxx...xxxxxx"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "OPENAI_PROXY_URL"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "OPENAI_MODEL_LIST"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "to add a model,"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "to hide a model, and"
-    },
-    {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/auto-i18n.yml",
       "term": "Daily i18n Update"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/auto-i18n.yml",
-      "term": "bash $(cat i18n_update.log)"
     },
     {
       "edge_type": "workflow-name",
@@ -5379,44 +4728,9 @@
       "term": "Bundle Analyzer"
     },
     {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/bundle-analyzer.yml",
-      "term": "bundle-report\\"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/bundle-analyzer.yml",
-      "term": "client.html\\"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/bundle-analyzer.yml",
-      "term": "server.html\\"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/bundle-analyzer.yml",
-      "term": "client.html\\"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/bundle-analyzer.yml",
-      "term": "server.html\\"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/bundle-analyzer.yml",
-      "term": "pnpm-lock.yaml\\"
-    },
-    {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/claude-auto-e2e-testing.yml",
       "term": "Claude Auto E2E Testing"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/claude-auto-e2e-testing.yml",
-      "term": "bunx next start -p 3006 &"
     },
     {
       "edge_type": "workflow-name",
@@ -5432,6 +4746,36 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/claude-issue-triage.yml",
       "term": "Claude Issue Triage"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-collaboration"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-harness"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepseek"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge-base"
     }
   ]
 }

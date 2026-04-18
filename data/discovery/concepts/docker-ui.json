@@ -2,6 +2,7 @@
   "aliases": [
     "docker-ui"
   ],
+  "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component"
   ],
@@ -17,5 +18,15 @@
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component"
+      ],
+      "label": "docker-ui",
+      "sense_id": "docker-ui#sense-1",
+      "status": "candidate"
+    }
+  ],
   "primary_bucket": "tool-component"
 }

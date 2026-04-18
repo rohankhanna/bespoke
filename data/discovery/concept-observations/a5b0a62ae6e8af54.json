@@ -1,0 +1,27 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build packages for release",
+      "sense_id": "build-packages-for-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "concept_id": "build-packages-for-release",
+  "normalized_form": "build-packages-for-release",
+  "observation_id": "a5b0a62ae6e8af54",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-18T11:32:22.637859+00:00",
+  "observed_text": "Build packages for release",
+  "source_file": ".github/workflows/release-packages.yml",
+  "source_repo": "cargo-bins/cargo-binstall"
+}

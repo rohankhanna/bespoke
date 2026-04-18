@@ -2,6 +2,7 @@
   "aliases": [
     "Auto-close duplicate issues"
   ],
+  "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process"
   ],
@@ -17,5 +18,15 @@
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process"
+      ],
+      "label": "Auto-close duplicate issues",
+      "sense_id": "auto-close-duplicate-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
   "primary_bucket": "workflow-process"
 }
