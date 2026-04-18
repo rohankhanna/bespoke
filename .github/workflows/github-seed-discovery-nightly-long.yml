@@ -1,12 +1,13 @@
-name: github-seed-discovery-dev
+name: github-seed-discovery-nightly-long
 
 on:
-  workflow_dispatch:
+  schedule:
+    - cron: '30 18 * * *'
 
 jobs:
   discover:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 330
     permissions:
       contents: write
     concurrency:
@@ -45,9 +46,9 @@ jobs:
       - name: Run seeded GitHub discovery
         env:
           GITHUB_TOKEN: ${{ github.token }}
-          DISCOVERY_BUDGET_SECONDS: "180"
-          DISCOVERY_MIN_REPO_START_SECONDS: "15"
-          DISCOVERY_HARD_STOP_SECONDS: "20"
+          DISCOVERY_BUDGET_SECONDS: "18000"
+          DISCOVERY_MIN_REPO_START_SECONDS: "300"
+          DISCOVERY_HARD_STOP_SECONDS: "120"
         run: |
           python scripts/github_seed_discovery.py \
             discovery/config/seed-repos.json \
