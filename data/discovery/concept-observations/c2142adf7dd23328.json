@@ -1,0 +1,100 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GraphQL framework for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[\ud83d\udcac Join the community on Discord](https://discord.gg/T6Gp6NFYHe)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[\ud83d\udcac Join the community on Discord](https://discord.gg/T6Gp6NFYHe)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29831357,
+      "status": "candidate",
+      "text": "electrical relay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29831356,
+      "status": "candidate",
+      "text": "roadhouse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29820855,
+      "status": "candidate",
+      "text": "baton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29794426,
+      "status": "candidate",
+      "text": "conduit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29764604,
+      "status": "candidate",
+      "text": "relais"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "relay",
+      "sense_id": "relay#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "electrical relay"
+    }
+  ],
+  "concept_id": "relay",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "relay",
+  "observation_id": "c2142adf7dd23328",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-19T04:47:57.443742+00:00",
+  "observed_text": "relay",
+  "source_context_snippet": "[\ud83d\udcac Join the community on Discord](https://discord.gg/T6Gp6NFYHe)",
+  "source_file": null,
+  "source_repo": "graphql-python/graphene",
+  "source_repo_description": "GraphQL framework for Python"
+}

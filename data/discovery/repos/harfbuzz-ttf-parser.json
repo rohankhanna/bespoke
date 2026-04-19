@@ -1,0 +1,131 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "harfbuzz/ttf-parser",
+      "target": "alexheretic/ab-glyph",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "harfbuzz/ttf-parser",
+      "target": "mooman219/fontdue",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "harfbuzz/ttf-parser",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "harfbuzz/ttf-parser",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "harfbuzz/ttf-parser",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "harfbuzz/ttf-parser",
+      "target": "opentype",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "harfbuzz/ttf-parser",
+      "target": "truetype",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T04:48:29.078400+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11941
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2341
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1469
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A high-level, safe, zero-allocation TrueType font parser.",
+    "fork": false,
+    "full_name": "harfbuzz/ttf-parser",
+    "html_url": "https://github.com/harfbuzz/ttf-parser",
+    "language": "Rust",
+    "pushed_at": "2025-11-22T11:57:15Z",
+    "stargazers_count": 760,
+    "topics": [
+      "opentype",
+      "otf",
+      "truetype",
+      "ttf"
+    ],
+    "updated_at": "2026-04-04T18:45:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexheretic/ab-glyph",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mooman219/fontdue",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Rust"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/harfbuzz/ttf-parser/workflows/Rust/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentype"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/harfbuzz/ttf-parser/workflows/Rust/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "truetype"
+    }
+  ]
+}

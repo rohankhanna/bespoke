@@ -1,0 +1,49 @@
+{
+  "counts": {
+    "components": 248,
+    "concepts": 61,
+    "observations": 61,
+    "repos": 33,
+    "terms": 84
+  },
+  "facet_version": 1,
+  "filters": {
+    "updated_bucket": "updated_61_90d"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "agrimsingh/ralph-wiggum-cursor",
+    "alonw0/web-asset-generator",
+    "anthropics/claude-code-security-review",
+    "anthropics/claude-quickstarts",
+    "anthropics/claudes-c-compiler",
+    "asg017/sqlite-hello",
+    "bats-core/bats-core",
+    "cloudrepo-io/founder-os",
+    "genius-harry/Neural-Chat",
+    "greggh/claude-code.nvim",
+    "hesreallyhim/inkverse-fork",
+    "kunwar-shah/claudex",
+    "lobehub/.github",
+    "lobehub/lobe-cli-toolbox",
+    "meta-llama/llama-models",
+    "Mjvolk3/torchcell",
+    "mohammadtavakoli78/BEAM",
+    "ollama/ollama-python",
+    "omnara-ai/omnara",
+    "omril321/automated-notebooklm",
+    "panaversity/claude-code-agent-teams-exercises",
+    "parruda/swarm",
+    "Piebald-AI/.github",
+    "sculptdotfun/viberank",
+    "shareAI-lab/Kode-Agent",
+    "snwfdhmp/awesome-ralph",
+    "stardot/b-em",
+    "SuperClaude-Org/SuperGemini_Framework",
+    "tony/claude-code-riper-5",
+    "touchlab/DroidconKotlin",
+    "withastro/.github",
+    "ZENG3LD/claude-session-restore",
+    "zwowo1997/pack-repo-4ai"
+  ]
+}

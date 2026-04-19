@@ -1,0 +1,56 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A tool for glamorous shell scripts \ud83c\udf80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "goreleaser"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "goreleaser"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "goreleaser",
+      "sense_id": "goreleaser#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "goreleaser",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "goreleaser",
+  "observation_id": "7a2563a7f1de9064",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T04:47:57.443742+00:00",
+  "observed_text": "goreleaser",
+  "source_context_snippet": "goreleaser",
+  "source_file": ".github/workflows/goreleaser.yml",
+  "source_repo": "charmbracelet/gum",
+  "source_repo_description": "A tool for glamorous shell scripts \ud83c\udf80"
+}

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "skill"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ComposioHQ/awesome-claude-skills",
+      "status": "candidate-context",
+      "text": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ComposioHQ/awesome-claude-skills",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Awesome Claude Skills</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ComposioHQ/awesome-claude-skills",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Awesome Claude Skills</h1>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39953577,
+      "status": "candidate",
+      "text": "accomplishment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39952786,
+      "status": "candidate",
+      "text": "acquirement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39952323,
+      "status": "candidate",
+      "text": "acquisition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39951505,
+      "status": "candidate",
+      "text": "attainment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39951017,
+      "status": "candidate",
+      "text": "science"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29059,
+      "status": "candidate",
+      "text": "acquisition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17032,
+      "status": "candidate",
+      "text": "accomplishment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15033,
+      "status": "candidate",
+      "text": "attainment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1064,
+      "status": "candidate",
+      "text": "science"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1024,
+      "status": "candidate",
+      "text": "acquirement"
+    }
+  ],
+  "canonical_name": "skill",
+  "concept_id": "skill",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": null,
+      "source_repo": "ComposioHQ/awesome-claude-skills"
+    }
+  ],
+  "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "skill",
+      "sense_id": "skill#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

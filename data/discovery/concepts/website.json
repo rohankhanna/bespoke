@@ -7,9 +7,65 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jj-vcs/jj",
+      "status": "candidate-context",
+      "text": "A Git-compatible VCS that is both simple and powerful"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jj-vcs/jj",
+      "status": "candidate-context",
+      "text": "website"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jj-vcs/jj",
+      "status": "candidate",
+      "text": "website"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049056,
+      "status": "candidate",
+      "text": "extranet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049001,
+      "status": "candidate",
+      "text": "url"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048621,
+      "status": "candidate",
+      "text": "internet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048574,
+      "status": "candidate",
+      "text": "cyber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047296,
+      "status": "candidate",
+      "text": "webpage"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "website",
   "concept_id": "website",
@@ -20,12 +76,20 @@
       "observed_at": "2026-04-18T11:56:18.570627+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "jj-vcs/jj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "jj-vcs/jj"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

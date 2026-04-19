@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "persistent-memory"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agents-squads/squads-cli",
+      "status": "candidate-context",
+      "text": "CLI for managing AI agent squads. Status, memory, goals, feedback, and dashboard for your autonomous agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agents-squads/squads-cli",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agents-squads/squads-cli",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "persistent-memory",
+  "concept_id": "persistent-memory",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": null,
+      "source_repo": "agents-squads/squads-cli"
+    }
+  ],
+  "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "persistent-memory",
+      "sense_id": "persistent-memory#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

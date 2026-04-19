@@ -1,7 +1,8 @@
 {
   "aliases": [
     "build",
-    "Build"
+    "Build",
+    "\ud83d\udce6 Build"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -86,6 +87,42 @@
       "source_repo": "LokerL/tts-vue",
       "status": "candidate-context",
       "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/gum",
+      "status": "candidate-context",
+      "text": "A tool for glamorous shell scripts \ud83c\udf80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/gum",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ecumene/rust-sloth",
+      "status": "candidate-context",
+      "text": "A 3D software rasterizer... for the terminal!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecumene/rust-sloth",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql-python/graphene",
+      "status": "candidate-context",
+      "text": "GraphQL framework for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-python/graphene",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 Build"
     }
   ],
   "candidate_glosses": [
@@ -130,6 +167,24 @@
       "source_repo": "LokerL/tts-vue",
       "status": "candidate",
       "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/gum",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecumene/rust-sloth",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-python/graphene",
+      "status": "candidate",
+      "text": "\ud83d\udce6 Build"
     }
   ],
   "candidate_related_terms": [
@@ -167,6 +222,41 @@
       "score": 39995568,
       "status": "candidate",
       "text": "build up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "add"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "assemble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "basis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "benefit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "broaden"
     }
   ],
   "candidate_synonyms": [
@@ -287,11 +377,29 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": ".github/workflows/main-win.yml",
       "source_repo": "LokerL/tts-vue"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "charmbracelet/gum"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "ecumene/rust-sloth"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "graphql-python/graphene"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "lexical_providers": [
     "datamuse"
   ],

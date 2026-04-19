@@ -1,0 +1,21 @@
+{
+  "counts": {
+    "components": 27,
+    "concepts": 16,
+    "observations": 16,
+    "repos": 4,
+    "terms": 16
+  },
+  "facet_version": 1,
+  "filters": {
+    "star_bucket": "stars_1000_9999",
+    "updated_bucket": "updated_1_7d"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "ai-that-works/ai-that-works",
+    "containers/podman-compose",
+    "junegunn/seoul256.vim",
+    "napi-rs/node-rs"
+  ]
+}

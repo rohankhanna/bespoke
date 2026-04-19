@@ -1,0 +1,40 @@
+{
+  "facet_version": 1,
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "language_counts": {
+    "c_cpp": 25,
+    "go": 64,
+    "java": 8,
+    "javascript": 47,
+    "other": 95,
+    "python": 169,
+    "rust": 79,
+    "shell": 42,
+    "typescript": 167,
+    "unknown": 102
+  },
+  "matrix_updated_stars_language_nonempty": 110,
+  "matrix_updated_stars_nonempty": 29,
+  "repo_count": 798,
+  "star_counts": {
+    "stars_0": 1,
+    "stars_1000000_plus": 0,
+    "stars_100000_999999": 0,
+    "stars_10000_99999": 9,
+    "stars_1000_9999": 13,
+    "stars_100_999": 11,
+    "stars_10_99": 8,
+    "stars_1_9": 3,
+    "stars_unknown": 753
+  },
+  "updated_counts": {
+    "updated_0_1d": 67,
+    "updated_15_30d": 53,
+    "updated_181d_plus": 129,
+    "updated_1_7d": 365,
+    "updated_31_60d": 50,
+    "updated_61_90d": 33,
+    "updated_8_14d": 54,
+    "updated_91_180d": 47
+  }
+}

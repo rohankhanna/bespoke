@@ -1,0 +1,27 @@
+{
+  "counts": {
+    "components": 51,
+    "concepts": 30,
+    "observations": 30,
+    "repos": 9,
+    "terms": 45
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "python",
+    "star_bucket": "stars_unknown",
+    "updated_bucket": "updated_91_180d"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "aRustyDev/pre-commit-hooks",
+    "BeehiveInnovations/pal-mcp-server",
+    "hluaguo/learn-faster-kit",
+    "LoRexxar/Kunlun-M",
+    "marcindulak/stt-mcp-server-linux",
+    "okuvshynov/cubestat",
+    "protectai/llm-guard",
+    "tahv/typos-gitlab-code-quality",
+    "Wirasm/dylan"
+  ]
+}

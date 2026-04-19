@@ -1,0 +1,22 @@
+{
+  "counts": {
+    "components": 19,
+    "concepts": 2,
+    "observations": 2,
+    "repos": 4,
+    "terms": 3
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "javascript",
+    "star_bucket": "stars_unknown",
+    "updated_bucket": "updated_91_180d"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "ayoubben18/ab-method",
+    "GWUDCAP/cc-sessions",
+    "steipete/claude-code-mcp",
+    "ykdojo/cc-safe"
+  ]
+}

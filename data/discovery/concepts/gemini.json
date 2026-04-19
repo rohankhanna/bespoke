@@ -73,6 +73,30 @@
       "source_repo": "coaidev/coai",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abduznik/Git-Alchemist",
+      "status": "candidate-context",
+      "text": "Transform Git history: rewrite, clean, and optimize your repositories with ease."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abduznik/Git-Alchemist",
+      "status": "candidate-context",
+      "text": "**Git-Alchemist \u2697\ufe0f** is a unified AI-powered CLI tool for automating GitHub repository management. It consolidates multiple technical utilities into a single, intelligent system powered by Google's Gemini 3 and Gemma 3 models."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "addyosmani/gemini-cli-tips",
+      "status": "candidate-context",
+      "text": "Gemini CLI Tips and Tricks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "addyosmani/gemini-cli-tips",
+      "status": "candidate-context",
+      "text": "**This guide covers \\~30 pro-tips for effectively using Gemini CLI for agentic coding**"
     }
   ],
   "candidate_glosses": [
@@ -105,6 +129,18 @@
       "source_repo": "coaidev/coai",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abduznik/Git-Alchemist",
+      "status": "candidate",
+      "text": "**Git-Alchemist \u2697\ufe0f** is a unified AI-powered CLI tool for automating GitHub repository management. It consolidates multiple technical utilities into a single, intelligent system powered by Google's Gemini 3 and Gemma 3 models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "addyosmani/gemini-cli-tips",
+      "status": "candidate",
+      "text": "**This guide covers \\~30 pro-tips for effectively using Gemini CLI for agentic coding**"
     }
   ],
   "candidate_related_terms": [
@@ -240,11 +276,23 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": null,
       "source_repo": "coaidev/coai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": null,
+      "source_repo": "abduznik/Git-Alchemist"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": null,
+      "source_repo": "addyosmani/gemini-cli-tips"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "lexical_providers": [
     "datamuse"
   ],

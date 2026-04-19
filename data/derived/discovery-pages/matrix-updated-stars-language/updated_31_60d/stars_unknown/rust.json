@@ -1,0 +1,21 @@
+{
+  "counts": {
+    "components": 14,
+    "concepts": 2,
+    "observations": 2,
+    "repos": 3,
+    "terms": 3
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "rust",
+    "star_bucket": "stars_unknown",
+    "updated_bucket": "updated_31_60d"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "BurntSushi/ripgrep",
+    "Haleclipse/CCometixLine",
+    "unicode-rs/unicode-width"
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ComposioHQ/awesome-claude-skills",
+      "target": "bluzername/claude-code-terminal-title",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ComposioHQ/awesome-claude-skills",
+      "target": "chrisvoncsefalvay/claude-d3js-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ComposioHQ/awesome-claude-skills",
+      "target": "1nickpappas/move-code-quality-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ComposioHQ/awesome-claude-skills",
+      "target": "coffeefuelbump/csv-data-summarizer-claude-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ComposioHQ/awesome-claude-skills",
+      "target": "agent-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ComposioHQ/awesome-claude-skills",
+      "target": "antigravity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ComposioHQ/awesome-claude-skills",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ComposioHQ/awesome-claude-skills",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ComposioHQ/awesome-claude-skills",
+      "target": "composio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ComposioHQ/awesome-claude-skills",
+      "target": "cursor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ComposioHQ/awesome-claude-skills",
+      "target": "gemini-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ComposioHQ/awesome-claude-skills",
+      "target": "rube",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ComposioHQ/awesome-claude-skills",
+      "target": "saas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ComposioHQ/awesome-claude-skills",
+      "target": "skill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ComposioHQ/awesome-claude-skills",
+      "target": "workflow-automation",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-19T04:47:57.443742+00:00",
+  "source_repo": "ComposioHQ/awesome-claude-skills"
+}

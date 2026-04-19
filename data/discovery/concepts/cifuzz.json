@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "CIFuzz"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "harfbuzz/harfbuzz",
+      "status": "candidate-context",
+      "text": "HarfBuzz text shaping engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harfbuzz/harfbuzz",
+      "status": "candidate-context",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GitoxideLabs/gitoxide",
+      "status": "candidate-context",
+      "text": "An idiomatic, lean, fast & safe pure Rust implementation of Git"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GitoxideLabs/gitoxide",
+      "status": "candidate-context",
+      "text": "CIFuzz"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harfbuzz/harfbuzz",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GitoxideLabs/gitoxide",
+      "status": "candidate",
+      "text": "CIFuzz"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "CIFuzz",
+  "concept_id": "cifuzz",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "GitoxideLabs/gitoxide"
+    }
+  ],
+  "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CIFuzz",
+      "sense_id": "cifuzz#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

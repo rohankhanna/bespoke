@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "crossterm-rs/examples",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "crossterm-rs/examples",
+      "target": "hecrj/setup-rust-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "crossterm-rs/examples",
+      "target": "Crossterm Examples Test",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-19T04:47:57.443742+00:00",
+  "source_repo": "crossterm-rs/examples"
+}

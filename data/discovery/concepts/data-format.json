@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "data-format"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "toon-format/toon",
+      "status": "candidate-context",
+      "text": "\ud83c\udf92 Token-Oriented Object Notation (TOON) \u2013 Compact, human-readable, schema-aware JSON for LLM prompts. Spec, benchmarks, TypeScript SDK."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "toon-format/toon",
+      "status": "candidate-context",
+      "text": "![TOON logo with step\u2011by\u2011step guide](./.github/og.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "toon-format/toon",
+      "status": "candidate",
+      "text": "![TOON logo with step\u2011by\u2011step guide](./.github/og.png)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "data-format",
+  "concept_id": "data-format",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": null,
+      "source_repo": "toon-format/toon"
+    }
+  ],
+  "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "data-format",
+      "sense_id": "data-format#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

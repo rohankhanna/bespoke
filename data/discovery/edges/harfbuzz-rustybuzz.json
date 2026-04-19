@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "harfbuzz/rustybuzz",
+      "target": "razrfalcon/ttf-parser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "harfbuzz/rustybuzz",
+      "target": "yeslogic/allsorts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "harfbuzz/rustybuzz",
+      "target": "dfrg/swash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "harfbuzz/rustybuzz",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "harfbuzz/rustybuzz",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "harfbuzz/rustybuzz",
+      "target": "text-shaping",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-19T04:47:57.443742+00:00",
+  "source_repo": "harfbuzz/rustybuzz"
+}

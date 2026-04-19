@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "built-with-rust"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GitoxideLabs/gitoxide",
+      "status": "candidate-context",
+      "text": "An idiomatic, lean, fast & safe pure Rust implementation of Git"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GitoxideLabs/gitoxide",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/GitoxideLabs/gitoxide/workflows/ci/badge.svg)](https://github.com/GitoxideLabs/gitoxide/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GitoxideLabs/gitoxide",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/GitoxideLabs/gitoxide/workflows/ci/badge.svg)](https://github.com/GitoxideLabs/gitoxide/actions)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "built-with-rust",
+  "concept_id": "built-with-rust",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": null,
+      "source_repo": "GitoxideLabs/gitoxide"
+    }
+  ],
+  "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "built-with-rust",
+      "sense_id": "built-with-rust#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

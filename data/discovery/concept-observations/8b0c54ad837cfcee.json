@@ -1,0 +1,92 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Easy way to write Node.js module using Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Tag, Build, Release and Publish"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Tag, Build, Release and Publish"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43380,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27715,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27715,
+      "status": "candidate",
+      "text": "points"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27713,
+      "status": "candidate",
+      "text": "print"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27641,
+      "status": "candidate",
+      "text": "lock"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Tag, Build, Release and Publish",
+      "sense_id": "tag-build-release-and-publish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tag-build-release-and-publish",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tag-build-release-and-publish",
+  "observation_id": "8b0c54ad837cfcee",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T04:47:57.443742+00:00",
+  "observed_text": "Tag, Build, Release and Publish",
+  "source_context_snippet": "Tag, Build, Release and Publish",
+  "source_file": ".github/workflows/release.yml",
+  "source_repo": "infinyon/node-bindgen",
+  "source_repo_description": "Easy way to write Node.js module using Rust"
+}

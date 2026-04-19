@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "crossbuild-mingw"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "harfbuzz/harfbuzz",
+      "status": "candidate-context",
+      "text": "HarfBuzz text shaping engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harfbuzz/harfbuzz",
+      "status": "candidate-context",
+      "text": "crossbuild-mingw"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harfbuzz/harfbuzz",
+      "status": "candidate",
+      "text": "crossbuild-mingw"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "crossbuild-mingw",
+  "concept_id": "crossbuild-mingw",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": ".github/workflows/crossbuild-mingw.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    }
+  ],
+  "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "crossbuild-mingw",
+      "sense_id": "crossbuild-mingw#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

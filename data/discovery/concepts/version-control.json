@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "version-control"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GitoxideLabs/gitoxide",
+      "status": "candidate-context",
+      "text": "An idiomatic, lean, fast & safe pure Rust implementation of Git"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GitoxideLabs/gitoxide",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/GitoxideLabs/gitoxide/workflows/ci/badge.svg)](https://github.com/GitoxideLabs/gitoxide/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abduznik/Git-Alchemist",
+      "status": "candidate-context",
+      "text": "Transform Git history: rewrite, clean, and optimize your repositories with ease."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abduznik/Git-Alchemist",
+      "status": "candidate-context",
+      "text": "**Git-Alchemist \u2697\ufe0f** is a unified AI-powered CLI tool for automating GitHub repository management. It consolidates multiple technical utilities into a single, intelligent system powered by Google's Gemini 3 and Gemma 3 models."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GitoxideLabs/gitoxide",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/GitoxideLabs/gitoxide/workflows/ci/badge.svg)](https://github.com/GitoxideLabs/gitoxide/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abduznik/Git-Alchemist",
+      "status": "candidate",
+      "text": "**Git-Alchemist \u2697\ufe0f** is a unified AI-powered CLI tool for automating GitHub repository management. It consolidates multiple technical utilities into a single, intelligent system powered by Google's Gemini 3 and Gemma 3 models."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "version-control",
+  "concept_id": "version-control",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": null,
+      "source_repo": "GitoxideLabs/gitoxide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": null,
+      "source_repo": "abduznik/Git-Alchemist"
+    }
+  ],
+  "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "version-control",
+      "sense_id": "version-control#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

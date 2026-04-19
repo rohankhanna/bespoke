@@ -1,0 +1,26 @@
+{
+  "counts": {
+    "components": 32,
+    "concepts": 27,
+    "observations": 27,
+    "repos": 8,
+    "terms": 27
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "other",
+    "star_bucket": "stars_unknown",
+    "updated_bucket": "updated_31_60d"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "ClaytonFarr/ralph-playbook",
+    "jpanther/congo",
+    "junegunn/vim-plug",
+    "Mjvolk3/Dendron-Template",
+    "musicman3/Cruder",
+    "musicman3/r2-d2",
+    "revfactory/claude-code-harness",
+    "steipete/imsg"
+  ]
+}

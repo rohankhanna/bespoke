@@ -1,0 +1,24 @@
+{
+  "counts": {
+    "components": 443,
+    "concepts": 30,
+    "observations": 31,
+    "repos": 6,
+    "terms": 41
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "other",
+    "star_bucket": "stars_unknown",
+    "updated_bucket": "updated_0_1d"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "ethpandaops/xatu-data",
+    "jeremymailen/kotlinter-gradle",
+    "metabase/metabase",
+    "oven-sh/bun",
+    "pinterest/ktlint",
+    "tarikmanoar/tarikmanoar"
+  ]
+}

@@ -192,6 +192,9 @@
   "ai-tools": [
     "ai-tools"
   ],
+  "ai-workforce": [
+    "ai-workforce"
+  ],
   "aiagents": [
     "aiagents"
   ],
@@ -297,6 +300,9 @@
   ],
   "are": [
     "en-modal_or_auxiliary-are"
+  ],
+  "arm": [
+    "arm"
   ],
   "arm64": [
     "arm64"
@@ -452,6 +458,21 @@
   "backup": [
     "backup"
   ],
+  "baml": [
+    "baml"
+  ],
+  "baml release - build baml cli": [
+    "baml-release---build-baml-cli"
+  ],
+  "baml release - build jetbrains": [
+    "baml-release---build-jetbrains"
+  ],
+  "baml release - build ruby": [
+    "baml-release---build-ruby"
+  ],
+  "baml release - build typescript": [
+    "baml-release---build-typescript"
+  ],
   "base-image": [
     "base-image"
   ],
@@ -479,6 +500,9 @@
   "bazel release": [
     "bazel-release"
   ],
+  "bcrypt": [
+    "bcrypt"
+  ],
   "be": [
     "en-modal_or_auxiliary-be"
   ],
@@ -500,6 +524,9 @@
   "before": [
     "en-conjunction-before",
     "en-preposition-before"
+  ],
+  "behave": [
+    "behave"
   ],
   "behind": [
     "en-preposition-behind"
@@ -536,6 +563,9 @@
   ],
   "beneath": [
     "en-preposition-beneath"
+  ],
+  "beps (reusable)": [
+    "beps-reusable"
   ],
   "beside": [
     "en-preposition-beside"
@@ -583,6 +613,9 @@
   "blackwell": [
     "blackwell"
   ],
+  "blazingly-fast": [
+    "blazingly-fast"
+  ],
   "blob-size-policy": [
     "blob-size-policy"
   ],
@@ -605,6 +638,9 @@
     "en-article_or_determiner-both",
     "en-pronoun-both",
     "en-quantifier-both"
+  ],
+  "boundaryml": [
+    "boundaryml"
   ],
   "bounded-context": [
     "bounded-context"
@@ -768,6 +804,9 @@
   "build-test": [
     "build-test"
   ],
+  "built-with-rust": [
+    "built-with-rust"
+  ],
   "bulk-utilities": [
     "bulk-utilities"
   ],
@@ -801,6 +840,12 @@
   ],
   "c++ linter comment": [
     "c-linter-comment"
+  ],
+  "c++ versions": [
+    "c-versions"
+  ],
+  "c-plus-plus": [
+    "c-plus-plus"
   ],
   "cache": [
     "cache"
@@ -879,6 +924,9 @@
   ],
   "check outdated version pinning": [
     "check-outdated-version-pinning"
+  ],
+  "check pr title": [
+    "check-pr-title"
   ],
   "check pypi version": [
     "check-pypi-version"
@@ -978,6 +1026,9 @@
   ],
   "ci-cd-base": [
     "ci-cd-base"
+  ],
+  "cifuzz": [
+    "cifuzz"
   ],
   "cla assistant": [
     "cla-assistant"
@@ -1093,6 +1144,9 @@
   "cli integration test": [
     "cli-integration-test"
   ],
+  "cli-app": [
+    "cli-app"
+  ],
   "cli-proxy": [
     "cli-proxy"
   ],
@@ -1104,6 +1158,9 @@
   ],
   "clinical-research": [
     "clinical-research"
+  ],
+  "clippy": [
+    "clippy"
   ],
   "cliproxyapi": [
     "cliproxyapi"
@@ -1155,6 +1212,9 @@
   ],
   "clustering": [
     "clustering"
+  ],
+  "cmatrix": [
+    "cmatrix"
   ],
   "cncf": [
     "cncf"
@@ -1249,8 +1309,14 @@
   "components": [
     "components"
   ],
+  "composio": [
+    "composio"
+  ],
   "computational-biology": [
     "computational-biology"
+  ],
+  "computer-graphics": [
+    "computer-graphics"
   ],
   "conceptual-modeling": [
     "conceptual-modeling"
@@ -1260,6 +1326,9 @@
   ],
   "config": [
     "config"
+  ],
+  "configs": [
+    "configs"
   ],
   "congratsbot": [
     "congratsbot"
@@ -1330,8 +1399,17 @@
   "coverage": [
     "coverage"
   ],
+  "coverity-scan": [
+    "coverity-scan"
+  ],
   "crawler": [
     "crawler"
+  ],
+  "crc32c": [
+    "crc32c"
+  ],
+  "create and publish container image": [
+    "create-and-publish-container-image"
   ],
   "create github release": [
     "create-github-release"
@@ -1354,6 +1432,12 @@
   "create tag and trigger release": [
     "create-tag-and-trigger-release"
   ],
+  "crewai-alternative": [
+    "crewai-alternative"
+  ],
+  "cron": [
+    "cron"
+  ],
   "cronjob": [
     "cronjob"
   ],
@@ -1368,6 +1452,12 @@
   ],
   "cross-version smoke tests": [
     "cross-version-smoke-tests"
+  ],
+  "crossbuild-mingw": [
+    "crossbuild-mingw"
+  ],
+  "crossterm examples test": [
+    "crossterm-examples-test"
   ],
   "crossterm test": [
     "crossterm-test"
@@ -1431,6 +1521,9 @@
   ],
   "data-engineering": [
     "data-engineering"
+  ],
+  "data-format": [
+    "data-format"
   ],
   "data-reconciliation": [
     "data-reconciliation"
@@ -1519,6 +1612,9 @@
   "deploy application website": [
     "deploy-application-website"
   ],
+  "deploy docs": [
+    "deploy-docs"
+  ],
   "deploy documentation": [
     "deploy-documentation"
   ],
@@ -1554,6 +1650,9 @@
   ],
   "deploy-docs": [
     "deploy-docs"
+  ],
+  "deprecate old versions": [
+    "deprecate-old-versions"
   ],
   "desktop-app": [
     "desktop-app"
@@ -1615,6 +1714,9 @@
   "distributed-systems": [
     "distributed-systems"
   ],
+  "django": [
+    "django"
+  ],
   "do": [
     "en-modal_or_auxiliary-do"
   ],
@@ -1650,6 +1752,9 @@
   ],
   "docker release build": [
     "docker-release-build"
+  ],
+  "docker-compose": [
+    "docker-compose"
   ],
   "docker-image": [
     "docker-image"
@@ -1778,6 +1883,9 @@
   "emoji": [
     "emoji"
   ],
+  "emojis": [
+    "emojis"
+  ],
   "enable auto-merge for dependabot prs": [
     "enable-auto-merge-for-dependabot-prs"
   ],
@@ -1796,6 +1904,9 @@
   ],
   "enterprise": [
     "enterprise"
+  ],
+  "eslint": [
+    "eslint"
   ],
   "eval": [
     "eval"
@@ -1917,6 +2028,12 @@
   "following": [
     "en-preposition-following"
   ],
+  "font": [
+    "font"
+  ],
+  "fonts": [
+    "fonts"
+  ],
   "for": [
     "en-conjunction-for",
     "en-preposition-for"
@@ -2016,6 +2133,9 @@
   ],
   "git-diff": [
     "git-diff"
+  ],
+  "git-management": [
+    "git-management"
   ],
   "github": [
     "github"
@@ -2122,11 +2242,26 @@
   "graph-neural-networks": [
     "graph-neural-networks"
   ],
+  "graphene": [
+    "graphene"
+  ],
+  "graphics": [
+    "graphics"
+  ],
+  "graphics-3d": [
+    "graphics-3d"
+  ],
+  "graphql": [
+    "graphql"
+  ],
   "grep": [
     "grep"
   ],
   "guarddog": [
     "guarddog"
+  ],
+  "guardrails": [
+    "guardrails"
   ],
   "guava": [
     "guava"
@@ -2157,6 +2292,9 @@
   ],
   "had": [
     "en-modal_or_auxiliary-had"
+  ],
+  "harmonyos": [
+    "harmonyos"
   ],
   "has": [
     "en-modal_or_auxiliary-has"
@@ -2233,6 +2371,9 @@
   "http": [
     "http"
   ],
+  "http-client": [
+    "http-client"
+  ],
   "huggingface": [
     "huggingface"
   ],
@@ -2298,6 +2439,9 @@
   ],
   "infra": [
     "infra"
+  ],
+  "inject version on release": [
+    "inject-version-on-release"
   ],
   "innodb": [
     "innodb"
@@ -2389,6 +2533,9 @@
   "jetbrains": [
     "jetbrains"
   ],
+  "jieba": [
+    "jieba"
+  ],
   "js-ipfs": [
     "js-ipfs"
   ],
@@ -2472,6 +2619,9 @@
   ],
   "langchain": [
     "langchain"
+  ],
+  "langchain-alternative": [
+    "langchain-alternative"
   ],
   "langchainjs": [
     "langchainjs"
@@ -2583,6 +2733,9 @@
   "linux": [
     "linux"
   ],
+  "linux-containers": [
+    "linux-containers"
+  ],
   "little": [
     "en-article_or_determiner-little",
     "en-quantifier-little"
@@ -2622,6 +2775,9 @@
   ],
   "llm-orchestration": [
     "llm-orchestration"
+  ],
+  "llm-playground": [
+    "llm-playground"
   ],
   "llm-security": [
     "llm-security"
@@ -2704,11 +2860,20 @@
   "lsp-server": [
     "lsp-server"
   ],
+  "lua-modules": [
+    "lua-modules"
+  ],
   "luacheck": [
     "luacheck"
   ],
   "luaformatter": [
     "luaformatter"
+  ],
+  "luajit": [
+    "luajit"
+  ],
+  "luarocks": [
+    "luarocks"
   ],
   "luau": [
     "luau"
@@ -2761,6 +2926,15 @@
   ],
   "materials-science": [
     "materials-science"
+  ],
+  "matrix": [
+    "matrix"
+  ],
+  "matrix-rain": [
+    "matrix-rain"
+  ],
+  "matrix-rain-ch": [
+    "matrix-rain-ch"
   ],
   "maxkb": [
     "maxkb"
@@ -2996,6 +3170,9 @@
   "nextjs": [
     "nextjs"
   ],
+  "nightly": [
+    "nightly"
+  ],
   "nightly build": [
     "nightly-build"
   ],
@@ -3188,6 +3365,9 @@
   "opentofu": [
     "opentofu"
   ],
+  "opentype": [
+    "opentype"
+  ],
   "opposite": [
     "en-preposition-opposite"
   ],
@@ -3236,6 +3416,9 @@
   "package tests": [
     "package-tests"
   ],
+  "package-management": [
+    "package-management"
+  ],
   "package-manager": [
     "package-manager"
   ],
@@ -3272,6 +3455,9 @@
   "perl": [
     "perl"
   ],
+  "persistent-memory": [
+    "persistent-memory"
+  ],
   "personal-knowledge-base": [
     "personal-knowledge-base"
   ],
@@ -3290,6 +3476,9 @@
   "planning": [
     "planning"
   ],
+  "playground": [
+    "playground"
+  ],
   "playwright": [
     "playwright"
   ],
@@ -3307,6 +3496,9 @@
   ],
   "plus": [
     "en-preposition-plus"
+  ],
+  "podman": [
+    "podman"
   ],
   "post merge analysis": [
     "post-merge-analysis"
@@ -3358,6 +3550,9 @@
   ],
   "pr labeller": [
     "pr-labeller"
+  ],
+  "pr on gh actions": [
+    "pr-on-gh-actions"
   ],
   "pr path labeler": [
     "pr-path-labeler"
@@ -3413,6 +3608,12 @@
   "programming-language": [
     "programming-language"
   ],
+  "prompt": [
+    "prompt"
+  ],
+  "prompt-config": [
+    "prompt-config"
+  ],
   "prompt-engineering": [
     "prompt-engineering"
   ],
@@ -3421,6 +3622,9 @@
   ],
   "prompt-injection-llm-security": [
     "prompt-injection-llm-security"
+  ],
+  "prompt-templates": [
+    "prompt-templates"
   ],
   "protein-language-model": [
     "protein-language-model"
@@ -3500,11 +3704,17 @@
   "publish to npm": [
     "publish-to-npm"
   ],
+  "publish to npm (manual)": [
+    "publish-to-npm-manual"
+  ],
   "publish to npmjs": [
     "publish-to-npmjs"
   ],
   "publish to pypi": [
     "publish-to-pypi"
+  ],
+  "publish to pypi and github release": [
+    "publish-to-pypi-and-github-release"
   ],
   "publish-mirror": [
     "publish-mirror"
@@ -3638,6 +3848,9 @@
   "reinforcement-learning": [
     "reinforcement-learning"
   ],
+  "relay": [
+    "relay"
+  ],
   "release": [
     "release"
   ],
@@ -3646,6 +3859,9 @@
   ],
   "release (prepare)": [
     "release-prepare"
+  ],
+  "release + publish": [
+    "release-publish"
   ],
   "release and publish": [
     "release-and-publish"
@@ -3734,6 +3950,9 @@
   "repository": [
     "repository"
   ],
+  "repository-manager": [
+    "repository-manager"
+  ],
   "rerank": [
     "rerank"
   ],
@@ -3785,11 +4004,17 @@
   "roocode": [
     "roocode"
   ],
+  "rootless-containers": [
+    "rootless-containers"
+  ],
   "round": [
     "en-preposition-round"
   ],
   "rpc-framework": [
     "rpc-framework"
+  ],
+  "rube": [
+    "rube"
   ],
   "ruby": [
     "ruby"
@@ -3851,6 +4076,15 @@
   "rustpython": [
     "rustpython"
   ],
+  "rusty-rain": [
+    "rusty-rain"
+  ],
+  "rusty-rain test": [
+    "rusty-rain-test"
+  ],
+  "saas": [
+    "saas"
+  ],
   "sast": [
     "sast"
   ],
@@ -3871,6 +4105,9 @@
   ],
   "scorecard supply-chain security": [
     "scorecard-supply-chain-security"
+  ],
+  "screensaver": [
+    "screensaver"
   ],
   "sdlc": [
     "sdlc"
@@ -3907,6 +4144,9 @@
   ],
   "self-hosted runner (benchmark)": [
     "self-hosted-runner-benchmark"
+  ],
+  "self-improving-ai": [
+    "self-improving-ai"
   ],
   "semantic pr": [
     "semantic-pr"
@@ -3970,6 +4210,9 @@
   "since": [
     "en-conjunction-since",
     "en-preposition-since"
+  ],
+  "skill": [
+    "skill"
   ],
   "skill quality review (tessl)": [
     "skill-quality-review-tessl"
@@ -4117,6 +4360,15 @@
   "stripe-sdk": [
     "stripe-sdk"
   ],
+  "structured-data": [
+    "structured-data"
+  ],
+  "structured-generation": [
+    "structured-generation"
+  ],
+  "structured-output": [
+    "structured-output"
+  ],
   "study": [
     "study"
   ],
@@ -4137,6 +4389,21 @@
   ],
   "subagents": [
     "subagents"
+  ],
+  "sublime": [
+    "sublime"
+  ],
+  "sublime-package": [
+    "sublime-package"
+  ],
+  "sublime-text": [
+    "sublime-text"
+  ],
+  "sublime-text-3": [
+    "sublime-text-3"
+  ],
+  "sublime-text-plugin": [
+    "sublime-text-plugin"
   ],
   "such": [
     "en-article_or_determiner-such"
@@ -4185,6 +4452,9 @@
   ],
   "systems-engineering": [
     "systems-engineering"
+  ],
+  "tag, build, release and publish": [
+    "tag-build-release-and-publish"
   ],
   "tagged release": [
     "tagged-release"
@@ -4257,6 +4527,9 @@
   ],
   "test docker images": [
     "test-docker-images"
+  ],
+  "test full-moon": [
+    "test-full-moon"
   ],
   "test github action": [
     "test-github-action"
@@ -4338,6 +4611,12 @@
   ],
   "text-embedding": [
     "text-embedding"
+  ],
+  "text-rendering": [
+    "text-rendering"
+  ],
+  "text-shaping": [
+    "text-shaping"
   ],
   "text2image": [
     "text2image"
@@ -4431,6 +4710,9 @@
   "tofuenv": [
     "tofuenv"
   ],
+  "tokenization": [
+    "tokenization"
+  ],
   "tokio": [
     "tokio"
   ],
@@ -4479,6 +4761,9 @@
   "trigger coderabbit on ready for review": [
     "trigger-coderabbit-on-ready-for-review"
   ],
+  "truetype": [
+    "truetype"
+  ],
   "tunix nightly regression tests": [
     "tunix-nightly-regression-tests"
   ],
@@ -4494,6 +4779,9 @@
   "typechecking": [
     "typechecking"
   ],
+  "typography": [
+    "typography"
+  ],
   "typos": [
     "typos"
   ],
@@ -4508,6 +4796,9 @@
   ],
   "underneath": [
     "en-preposition-underneath"
+  ],
+  "unicode": [
+    "unicode"
   ],
   "unit tests": [
     "unit-tests"
@@ -4594,6 +4885,9 @@
   "validation": [
     "validation"
   ],
+  "variable-fonts": [
+    "variable-fonts"
+  ],
   "vault": [
     "vault"
   ],
@@ -4614,6 +4908,9 @@
   ],
   "version bump": [
     "version-bump"
+  ],
+  "version-control": [
+    "version-control"
   ],
   "versioning": [
     "versioning"
@@ -4683,6 +4980,9 @@
   ],
   "webfont": [
     "webfont"
+  ],
+  "webfonts": [
+    "webfonts"
   ],
   "webgl": [
     "webgl"
@@ -4800,6 +5100,9 @@
   "workers": [
     "workers"
   ],
+  "workflow-automation": [
+    "workflow-automation"
+  ],
   "workflows": [
     "workflows"
   ],
@@ -4866,8 +5169,20 @@
   "\ud83d\udc0d pydantic version testing": [
     "pydantic-version-testing"
   ],
+  "\ud83d\udc85 lint": [
+    "lint"
+  ],
+  "\ud83d\udcc4 tests": [
+    "tests"
+  ],
   "\ud83d\udcca status badges update": [
     "status-badges-update"
+  ],
+  "\ud83d\udce6 build": [
+    "build"
+  ],
+  "\ud83d\udce6 check partner bounds": [
+    "check-partner-bounds"
   ],
   "\ud83d\udcfc vcr cassette tests": [
     "vcr-cassette-tests"
@@ -4875,14 +5190,29 @@
   "\ud83d\udd04 automated rollback manager": [
     "automated-rollback-manager"
   ],
+  "\ud83d\udd0d check extras sync": [
+    "check-extras-sync"
+  ],
+  "\ud83d\udd0d check version equality": [
+    "check-version-equality"
+  ],
   "\ud83d\udd0d verification pipeline": [
     "verification-pipeline"
+  ],
+  "\ud83d\udd12 check lockfiles": [
+    "check-lockfiles"
+  ],
+  "\ud83d\udd17 check sdk pin": [
+    "check-sdk-pin"
   ],
   "\ud83d\udd17 compile integration tests": [
     "compile-integration-tests"
   ],
   "\ud83d\udd17 cross-agent integration tests": [
     "cross-agent-integration-tests"
+  ],
+  "\ud83d\ude80 deploy to pypi": [
+    "deploy-to-pypi"
   ],
   "\ud83d\ude80 package release": [
     "package-release"

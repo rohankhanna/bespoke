@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -36,6 +36,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "tofuutils/tenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ecumene/rust-sloth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kampfkarren/full-moon"
     }
   ],
   "term": "hacktoberfest"

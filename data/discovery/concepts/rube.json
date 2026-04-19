@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "rube"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ComposioHQ/awesome-claude-skills",
+      "status": "candidate-context",
+      "text": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ComposioHQ/awesome-claude-skills",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Awesome Claude Skills</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ComposioHQ/awesome-claude-skills",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Awesome Claude Skills</h1>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000821,
+      "status": "candidate",
+      "text": "hick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000678,
+      "status": "candidate",
+      "text": "bumpkin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000533,
+      "status": "candidate",
+      "text": "yokel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997874,
+      "status": "candidate",
+      "text": "chawbacon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39983136,
+      "status": "candidate",
+      "text": "yahoo"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8037,
+      "status": "candidate",
+      "text": "bumpkin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7055,
+      "status": "candidate",
+      "text": "yahoo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4031,
+      "status": "candidate",
+      "text": "yokel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3023,
+      "status": "candidate",
+      "text": "hayseed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3014,
+      "status": "candidate",
+      "text": "chawbacon"
+    }
+  ],
+  "canonical_name": "rube",
+  "concept_id": "rube",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": null,
+      "source_repo": "ComposioHQ/awesome-claude-skills"
+    }
+  ],
+  "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rube",
+      "sense_id": "rube#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

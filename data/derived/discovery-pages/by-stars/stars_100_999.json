@@ -1,0 +1,27 @@
+{
+  "counts": {
+    "components": 56,
+    "concepts": 34,
+    "observations": 34,
+    "repos": 11,
+    "terms": 34
+  },
+  "facet_version": 1,
+  "filters": {
+    "star_bucket": "stars_100_999"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "behave/behave-django",
+    "cowboy8625/rusty-rain",
+    "ecumene/rust-sloth",
+    "ers35/luastatic",
+    "harfbuzz/rustybuzz",
+    "harfbuzz/ttf-parser",
+    "infinyon/node-bindgen",
+    "Kampfkarren/full-moon",
+    "LPGhatguy/aftman",
+    "LuaLanes/lanes",
+    "napi-rs/package-template"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "junegunn/vim-easy-align",
+      "target": "godlygeek/tabular",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-19T04:49:23.891327+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25299
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":sunflower: A Vim alignment plugin",
+    "fork": false,
+    "full_name": "junegunn/vim-easy-align",
+    "html_url": "https://github.com/junegunn/vim-easy-align",
+    "language": "Vim Script",
+    "pushed_at": "2024-07-23T03:28:14Z",
+    "stargazers_count": 4230,
+    "topics": [
+      "vim"
+    ],
+    "updated_at": "2026-04-18T15:17:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "godlygeek/tabular",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

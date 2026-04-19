@@ -1,0 +1,56 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf92 Token-Oriented Object Notation (TOON) \u2013 Compact, human-readable, schema-aware JSON for LLM prompts. Spec, benchmarks, TypeScript SDK."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![TOON logo with step\u2011by\u2011step guide](./.github/og.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![TOON logo with step\u2011by\u2011step guide](./.github/og.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "data-format",
+      "sense_id": "data-format#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "data-format",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "data-format",
+  "observation_id": "0fd4662c6029b15e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-19T04:47:57.443742+00:00",
+  "observed_text": "data-format",
+  "source_context_snippet": "![TOON logo with step\u2011by\u2011step guide](./.github/og.png)",
+  "source_file": null,
+  "source_repo": "toon-format/toon",
+  "source_repo_description": "\ud83c\udf92 Token-Oriented Object Notation (TOON) \u2013 Compact, human-readable, schema-aware JSON for LLM prompts. Spec, benchmarks, TypeScript SDK."
+}

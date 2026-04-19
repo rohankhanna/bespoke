@@ -19,11 +19,74 @@
       "source_repo": "protocolbuffers/protobuf",
       "status": "candidate-context",
       "text": "Protocol Buffers - Google's data interchange format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "toon-format/toon",
+      "status": "candidate-context",
+      "text": "\ud83c\udf92 Token-Oriented Object Notation (TOON) \u2013 Compact, human-readable, schema-aware JSON for LLM prompts. Spec, benchmarks, TypeScript SDK."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "toon-format/toon",
+      "status": "candidate-context",
+      "text": "![TOON logo with step\u2011by\u2011step guide](./.github/og.png)"
     }
   ],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "toon-format/toon",
+      "status": "candidate",
+      "text": "![TOON logo with step\u2011by\u2011step guide](./.github/og.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018130,
+      "status": "candidate",
+      "text": "serialisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050759,
+      "status": "candidate",
+      "text": "translation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050758,
+      "status": "candidate",
+      "text": "reserialization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050757,
+      "status": "candidate",
+      "text": "transactionalization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050756,
+      "status": "candidate",
+      "text": "decoding"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16,
+      "status": "candidate",
+      "text": "serialisation"
+    }
+  ],
   "canonical_name": "serialization",
   "concept_id": "serialization",
   "definition_status": "unresolved",
@@ -33,12 +96,20 @@
       "observed_at": "2026-04-18T13:29:00.435097+00:00",
       "source_file": null,
       "source_repo": "protocolbuffers/protobuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": null,
+      "source_repo": "toon-format/toon"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

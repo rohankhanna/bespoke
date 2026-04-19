@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-19T04:49:01.276412+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9106
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Production-grade Claude Code configuration: skills, agents, hooks, rules, and permissions working as a system.",
+    "fork": false,
+    "full_name": "Aedelon/claude-code-blueprint",
+    "html_url": "https://github.com/Aedelon/claude-code-blueprint",
+    "language": "Shell",
+    "pushed_at": "2026-03-04T16:08:44Z",
+    "stargazers_count": 78,
+    "topics": [],
+    "updated_at": "2026-04-18T19:40:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

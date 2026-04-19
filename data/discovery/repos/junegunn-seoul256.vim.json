@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "junegunn/seoul256.vim",
+      "target": "anandpiyer/seoul256-emacs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "junegunn/seoul256.vim",
+      "target": "guilhermedeandrade/seoul256-kitty",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "junegunn/seoul256.vim",
+      "target": "jcmorrow/seoul256-ghostty",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "junegunn/seoul256.vim",
+      "target": "jcmorrow/seoul256-zed",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-19T04:49:23.053110+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3586
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":deciduous_tree: Low-contrast Vim color scheme based on Seoul Colors",
+    "fork": false,
+    "full_name": "junegunn/seoul256.vim",
+    "html_url": "https://github.com/junegunn/seoul256.vim",
+    "language": "Vim Script",
+    "pushed_at": "2026-04-17T08:06:17Z",
+    "stargazers_count": 1735,
+    "topics": [],
+    "updated_at": "2026-04-18T04:52:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anandpiyer/seoul256-emacs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guilhermedeandrade/seoul256-kitty",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jcmorrow/seoul256-ghostty",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jcmorrow/seoul256-zed",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

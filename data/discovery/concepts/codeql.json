@@ -20,6 +20,18 @@
       "source_repo": "Azure/aztfexport",
       "status": "candidate-context",
       "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GitoxideLabs/gitoxide",
+      "status": "candidate-context",
+      "text": "An idiomatic, lean, fast & safe pure Rust implementation of Git"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GitoxideLabs/gitoxide",
+      "status": "candidate-context",
+      "text": "CodeQL"
     }
   ],
   "candidate_glosses": [
@@ -28,6 +40,12 @@
       "source_repo": "Azure/aztfexport",
       "status": "candidate",
       "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GitoxideLabs/gitoxide",
+      "status": "candidate",
+      "text": "CodeQL"
     }
   ],
   "candidate_related_terms": [],
@@ -89,11 +107,17 @@
       "observed_at": "2026-04-18T18:48:44.679047+00:00",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "Azure/aztfexport"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "GitoxideLabs/gitoxide"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "lexical_providers": [
     "datamuse"
   ],

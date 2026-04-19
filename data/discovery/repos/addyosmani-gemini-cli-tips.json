@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "addyosmani/gemini-cli-tips",
+      "target": "google-github-actions/run-gemini-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "addyosmani/gemini-cli-tips",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "addyosmani/gemini-cli-tips",
+      "target": "gemini-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "addyosmani/gemini-cli-tips",
+      "target": "gemini-cli",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T04:50:30.456092+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 138624
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Gemini CLI Tips and Tricks",
+    "fork": false,
+    "full_name": "addyosmani/gemini-cli-tips",
+    "html_url": "https://github.com/addyosmani/gemini-cli-tips",
+    "language": null,
+    "pushed_at": "2025-10-19T03:25:32Z",
+    "stargazers_count": 2327,
+    "topics": [
+      "gemini",
+      "gemini-api",
+      "gemini-cli"
+    ],
+    "updated_at": "2026-04-18T06:24:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-github-actions/run-gemini-cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**This guide covers \\~30 pro-tips for effectively using Gemini CLI for agentic coding**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini"
+    },
+    {
+      "context_snippet": "**This guide covers \\~30 pro-tips for effectively using Gemini CLI for agentic coding**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini-api"
+    },
+    {
+      "context_snippet": "**This guide covers \\~30 pro-tips for effectively using Gemini CLI for agentic coding**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini-cli"
+    }
+  ]
+}

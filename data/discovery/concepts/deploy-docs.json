@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "deploy-docs"
+    "deploy-docs",
+    "Deploy Docs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "arogozhnikov/einops",
       "status": "candidate-context",
       "text": "deploy-docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "toon-format/toon",
+      "status": "candidate-context",
+      "text": "\ud83c\udf92 Token-Oriented Object Notation (TOON) \u2013 Compact, human-readable, schema-aware JSON for LLM prompts. Spec, benchmarks, TypeScript SDK."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "toon-format/toon",
+      "status": "candidate-context",
+      "text": "Deploy Docs"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "arogozhnikov/einops",
       "status": "candidate",
       "text": "deploy-docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "toon-format/toon",
+      "status": "candidate",
+      "text": "Deploy Docs"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10479,
+      "status": "candidate",
+      "text": "after"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10479,
+      "status": "candidate",
+      "text": "archive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10479,
+      "status": "candidate",
+      "text": "archived"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10479,
+      "status": "candidate",
+      "text": "archives"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10479,
+      "status": "candidate",
+      "text": "beepers"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "deploy-docs",
   "concept_id": "deploy-docs",
@@ -40,11 +95,17 @@
       "observed_at": "2026-04-19T01:08:57.644140+00:00",
       "source_file": ".github/workflows/deploy_docs.yml",
       "source_repo": "arogozhnikov/einops"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "toon-format/toon"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "lexical_providers": [
     "datamuse"
   ],

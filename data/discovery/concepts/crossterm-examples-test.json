@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Crossterm Examples Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crossterm-rs/examples",
+      "status": "candidate-context",
+      "text": "Crossterm Examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossterm-rs/examples",
+      "status": "candidate-context",
+      "text": "Crossterm Examples Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossterm-rs/examples",
+      "status": "candidate",
+      "text": "Crossterm Examples Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12030,
+      "status": "candidate",
+      "text": "demonstrator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12030,
+      "status": "candidate",
+      "text": "evidence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12030,
+      "status": "candidate",
+      "text": "initiation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12030,
+      "status": "candidate",
+      "text": "monitoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12030,
+      "status": "candidate",
+      "text": "sample"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Crossterm Examples Test",
+  "concept_id": "crossterm-examples-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "crossterm-rs/examples"
+    }
+  ],
+  "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Crossterm Examples Test",
+      "sense_id": "crossterm-examples-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

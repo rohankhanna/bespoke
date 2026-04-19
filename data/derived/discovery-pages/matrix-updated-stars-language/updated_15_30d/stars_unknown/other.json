@@ -1,0 +1,25 @@
+{
+  "counts": {
+    "components": 53,
+    "concepts": 2,
+    "observations": 2,
+    "repos": 7,
+    "terms": 6
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "other",
+    "star_bucket": "stars_unknown",
+    "updated_bucket": "updated_15_30d"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "aws/homebrew-tap",
+    "Azure/homebrew-bicep",
+    "b2agi/exist-is-charter_kr",
+    "Haleclipse/Claudix",
+    "manzaltu/claude-code-ide.el",
+    "steipete/Peekaboo",
+    "zarazhangrui/codebase-to-course"
+  ]
+}

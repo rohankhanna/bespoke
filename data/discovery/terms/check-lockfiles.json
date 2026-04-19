@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/check_lockfiles.yml",
+      "source_repo": "langchain-ai/deepagents"
+    }
+  ],
+  "term": "\ud83d\udd12 Check Lockfiles"
+}

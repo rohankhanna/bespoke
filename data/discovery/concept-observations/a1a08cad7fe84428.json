@@ -1,0 +1,92 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The AI framework that adds the engineering to prompt engineering (Python/TS/Ruby/Java/C#/Rust/Go compatible)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "BAML Release - Build Typescript"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "BAML Release - Build Typescript"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22667,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22537,
+      "status": "candidate",
+      "text": "compile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22537,
+      "status": "candidate",
+      "text": "preparing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22489,
+      "status": "candidate",
+      "text": "communication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22489,
+      "status": "candidate",
+      "text": "reporting"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "BAML Release - Build Typescript",
+      "sense_id": "baml-release---build-typescript#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "baml-release---build-typescript",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "baml-release---build-typescript",
+  "observation_id": "a1a08cad7fe84428",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T04:47:57.443742+00:00",
+  "observed_text": "BAML Release - Build Typescript",
+  "source_context_snippet": "BAML Release - Build Typescript",
+  "source_file": ".github/workflows/build-typescript-release.reusable.yaml",
+  "source_repo": "BoundaryML/baml",
+  "source_repo_description": "The AI framework that adds the engineering to prompt engineering (Python/TS/Ruby/Java/C#/Rust/Go compatible)"
+}

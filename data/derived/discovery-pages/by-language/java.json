@@ -1,0 +1,24 @@
+{
+  "counts": {
+    "components": 34,
+    "concepts": 14,
+    "observations": 14,
+    "repos": 8,
+    "terms": 17
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "java"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "didalgolab/ai-intellij-plugin",
+    "google/auto",
+    "google/guava",
+    "google/j2cl",
+    "novicezk/midjourney-proxy",
+    "Peergos/nabu",
+    "Peergos/nabu-chat",
+    "Peergos/Peergos"
+  ]
+}

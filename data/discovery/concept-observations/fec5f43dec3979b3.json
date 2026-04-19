@@ -1,0 +1,114 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A 3D software rasterizer... for the terminal!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![pikachu](models/demo/pikachu.gif)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![pikachu](models/demo/pikachu.gif)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032078,
+      "status": "candidate",
+      "text": "artwork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030220,
+      "status": "candidate",
+      "text": "art"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033109,
+      "status": "candidate",
+      "text": "nontextual matter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033108,
+      "status": "candidate",
+      "text": "picture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30032546,
+      "status": "candidate",
+      "text": "imagery"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "graphics",
+      "sense_id": "graphics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13067,
+      "status": "candidate",
+      "text": "art"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11034,
+      "status": "candidate",
+      "text": "artwork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "nontextual matter"
+    }
+  ],
+  "concept_id": "graphics",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "graphics",
+  "observation_id": "fec5f43dec3979b3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-19T04:47:57.443742+00:00",
+  "observed_text": "graphics",
+  "source_context_snippet": "![pikachu](models/demo/pikachu.gif)",
+  "source_file": null,
+  "source_repo": "ecumene/rust-sloth",
+  "source_repo_description": "A 3D software rasterizer... for the terminal!"
+}

@@ -1,0 +1,92 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "HarfBuzz text shaping engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10031422,
+      "status": "candidate",
+      "text": "baptistry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10031408,
+      "status": "candidate",
+      "text": "baptismal font"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030832,
+      "status": "candidate",
+      "text": "baptistery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9928683,
+      "status": "candidate",
+      "text": "typeface"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9800679,
+      "status": "candidate",
+      "text": "fount"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fonts",
+      "sense_id": "fonts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "fonts",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fonts",
+  "observation_id": "cd85f56967403fa9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-19T04:47:57.443742+00:00",
+  "observed_text": "fonts",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "harfbuzz/harfbuzz",
+  "source_repo_description": "HarfBuzz text shaping engine"
+}

@@ -1,0 +1,20 @@
+{
+  "counts": {
+    "components": 0,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 2,
+    "terms": 0
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "rust",
+    "star_bucket": "stars_unknown",
+    "updated_bucket": "updated_61_90d"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "anthropics/claudes-c-compiler",
+    "ZENG3LD/claude-session-restore"
+  ]
+}

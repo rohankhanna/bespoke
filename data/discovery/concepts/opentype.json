@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "opentype"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "harfbuzz/harfbuzz",
+      "status": "candidate-context",
+      "text": "HarfBuzz text shaping engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harfbuzz/harfbuzz",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "harfbuzz/ttf-parser",
+      "status": "candidate-context",
+      "text": "A high-level, safe, zero-allocation TrueType font parser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harfbuzz/ttf-parser",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/harfbuzz/ttf-parser/workflows/Rust/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harfbuzz/harfbuzz",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harfbuzz/ttf-parser",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/harfbuzz/ttf-parser/workflows/Rust/badge.svg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "playing cards in unicode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "fonts on macintosh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "embedded opentype"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "computer font"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "glyph bitmap distribution format"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "opentype",
+  "concept_id": "opentype",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": null,
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": null,
+      "source_repo": "harfbuzz/ttf-parser"
+    }
+  ],
+  "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "opentype",
+      "sense_id": "opentype#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,92 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">Awesome Claude Skills</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Awesome Claude Skills</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29948309,
+      "status": "candidate",
+      "text": "asa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29923756,
+      "status": "candidate",
+      "text": "aoa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29826528,
+      "status": "candidate",
+      "text": "saa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29812045,
+      "status": "candidate",
+      "text": "handle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29618967,
+      "status": "candidate",
+      "text": "zermatt"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "saas",
+      "sense_id": "saas#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "saas",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "saas",
+  "observation_id": "f28a9f1ef624d487",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-19T04:47:57.443742+00:00",
+  "observed_text": "saas",
+  "source_context_snippet": "<h1 align=\"center\">Awesome Claude Skills</h1>",
+  "source_file": null,
+  "source_repo": "ComposioHQ/awesome-claude-skills",
+  "source_repo_description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows"
+}

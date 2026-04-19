@@ -1,0 +1,24 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-19T04:49:24.848654+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Build a standalone executable from a Lua program.",
+    "fork": false,
+    "full_name": "ers35/luastatic",
+    "html_url": "https://github.com/ers35/luastatic",
+    "language": "Lua",
+    "pushed_at": "2023-10-28T13:25:11Z",
+    "stargazers_count": 856,
+    "topics": [
+      "lua"
+    ],
+    "updated_at": "2026-04-13T14:36:27Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

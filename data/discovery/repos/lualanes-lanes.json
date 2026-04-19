@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-19T04:49:26.127671+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Lanes is a lightweight, native, lazy evaluating multithreading library for Lua 5.1 to 5.5.",
+    "fork": false,
+    "full_name": "LuaLanes/lanes",
+    "html_url": "https://github.com/LuaLanes/lanes",
+    "language": "C++",
+    "pushed_at": "2026-03-12T10:21:59Z",
+    "stargazers_count": 530,
+    "topics": [],
+    "updated_at": "2026-04-13T10:02:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

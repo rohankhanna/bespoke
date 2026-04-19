@@ -7,9 +7,65 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aerobounce/Sublime-Pretty-Lua",
+      "status": "candidate-context",
+      "text": "\ud83c\udf19 Lua Formatter (Powered by StyLua)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerobounce/Sublime-Pretty-Lua",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerobounce/Sublime-Pretty-Lua",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023730,
+      "status": "candidate",
+      "text": "reformatter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023729,
+      "status": "candidate",
+      "text": "formalizer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023728,
+      "status": "candidate",
+      "text": "formularizer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023727,
+      "status": "candidate",
+      "text": "formulizer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023726,
+      "status": "candidate",
+      "text": "stylizer"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "formatter",
   "concept_id": "formatter",
@@ -20,12 +76,20 @@
       "observed_at": "2026-04-18T11:56:18.570627+00:00",
       "source_file": null,
       "source_repo": "JohnnyMorganz/StyLua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-Pretty-Lua"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

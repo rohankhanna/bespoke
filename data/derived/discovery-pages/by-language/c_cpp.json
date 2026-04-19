@@ -1,0 +1,41 @@
+{
+  "counts": {
+    "components": 124,
+    "concepts": 69,
+    "observations": 69,
+    "repos": 25,
+    "terms": 87
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "c_cpp"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "asg017/sqlite-lembed",
+    "asg017/sqlite-vec",
+    "asg017/sqlite-vss",
+    "BurntSushi/linux",
+    "ExistentialAudio/BlackHole",
+    "gbrobro119-star/darksword-kexploit",
+    "ggml-org/ggml",
+    "ggml-org/llama.cpp",
+    "google/skia",
+    "harfbuzz/harfbuzz",
+    "julienXX/terminal-notifier",
+    "kyleneideck/BackgroundMusic",
+    "liangshengyong/LanWan",
+    "lonewolf-jp/ConvoPeq",
+    "LuaLanes/lanes",
+    "marciogranzotto/clawd-tank",
+    "mattingalls/Soundflower",
+    "mountainstorm/llaudio",
+    "mozilla-ai/llamafile",
+    "protocolbuffers/protobuf",
+    "PX4/PX4-Autopilot",
+    "retrography/audioswitch",
+    "soramimi/Guitar",
+    "stardot/b-em",
+    "tmux/tmux"
+  ]
+}

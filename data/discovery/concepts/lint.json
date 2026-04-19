@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Lint",
-    "lint"
+    "lint",
+    "\ud83d\udc85 Lint"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -94,6 +95,30 @@
       "source_repo": "lnx-search/rewrk",
       "status": "candidate-context",
       "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/gum",
+      "status": "candidate-context",
+      "text": "A tool for glamorous shell scripts \ud83c\udf80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/gum",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql-python/graphene",
+      "status": "candidate-context",
+      "text": "GraphQL framework for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-python/graphene",
+      "status": "candidate-context",
+      "text": "\ud83d\udc85 Lint"
     }
   ],
   "candidate_glosses": [
@@ -132,6 +157,18 @@
       "source_repo": "lnx-search/rewrk",
       "status": "candidate",
       "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/gum",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-python/graphene",
+      "status": "candidate",
+      "text": "\ud83d\udc85 Lint"
     }
   ],
   "candidate_related_terms": [
@@ -169,6 +206,41 @@
       "score": 20006155,
       "status": "candidate",
       "text": "stuffed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "fluff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "bellybutton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "brush"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "screen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6364,
+      "status": "candidate",
+      "text": "bit"
     }
   ],
   "candidate_synonyms": [],
@@ -283,11 +355,23 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "charmbracelet/gum"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "graphql-python/graphene"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "lexical_providers": [
     "datamuse"
   ],

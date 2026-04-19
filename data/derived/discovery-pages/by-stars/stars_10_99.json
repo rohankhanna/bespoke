@@ -1,0 +1,24 @@
+{
+  "counts": {
+    "components": 34,
+    "concepts": 31,
+    "observations": 32,
+    "repos": 8,
+    "terms": 31
+  },
+  "facet_version": 1,
+  "filters": {
+    "star_bucket": "stars_10_99"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "abduznik/Git-Alchemist",
+    "Aedelon/claude-code-blueprint",
+    "agents-squads/squads-cli",
+    "ckipp01/stylua-nvim",
+    "cloudrepo-io/founder-os",
+    "decider/claude-hooks",
+    "IKKI2000/harmonyos-fonts",
+    "junegunn/vim-startuptime-benchmark"
+  ]
+}

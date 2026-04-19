@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-19T04:49:11.561936+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4174
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Comprehensive hooks for Claude Code to enforce clean code practices and automate workflows",
+    "fork": false,
+    "full_name": "decider/claude-hooks",
+    "html_url": "https://github.com/decider/claude-hooks",
+    "language": "Python",
+    "pushed_at": "2025-07-20T23:25:34Z",
+    "stargazers_count": 70,
+    "topics": [],
+    "updated_at": "2026-04-08T17:01:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

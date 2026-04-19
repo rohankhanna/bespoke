@@ -1,0 +1,22 @@
+{
+  "counts": {
+    "components": 6,
+    "concepts": 8,
+    "observations": 8,
+    "repos": 4,
+    "terms": 8
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "other",
+    "star_bucket": "stars_unknown",
+    "updated_bucket": "updated_8_14d"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "dp111/6502Timing",
+    "guidance-ai/guidance",
+    "marcindulak/learning-api-styles-gen-ai-experiments",
+    "steipete/homebrew-tap"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "counts": {
+    "components": 445,
+    "concepts": 38,
+    "observations": 38,
+    "repos": 21,
+    "terms": 49
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "other",
+    "star_bucket": "stars_unknown",
+    "updated_bucket": "updated_181d_plus"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "1runeberg/confichat",
+    "arktisklada/crank",
+    "basujindal/stable-diffusion",
+    "beyondgrep/ack3",
+    "cdeust/ai-prd-builder",
+    "ddollar/foreman",
+    "Gerschel/sd-web-ui-quickcss",
+    "jaredsohn/mutefm",
+    "LamoomAI/lamoom-python",
+    "lazychanger/docker-kunlun-mirror",
+    "lobehub/chat-plugin-web-crawler",
+    "lobehub/lobe-assets",
+    "natemoo-re/astro-icon",
+    "purcell/inheritenv",
+    "rlxone/MultiSoundChanger",
+    "rzykov/metabase",
+    "stevemolitor/monet",
+    "taikinman/langrila",
+    "tc39/proposal-async-iteration",
+    "ViperJuice/Flutter-Structurizr",
+    "zscott/pane"
+  ]
+}

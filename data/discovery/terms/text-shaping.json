@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "sources": [
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "harfbuzz/rustybuzz"
+    }
+  ],
+  "term": "text-shaping"
+}

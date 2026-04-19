@@ -1,0 +1,318 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-gh-actions.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "hishamhm/gh-actions-lua@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "luarocks/gh-actions-luarocks@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "hishamhm/gh-actions-lua@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "hishamhm/gh-actions-lua@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "luarocks/gh-actions-lua@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-gh-actions.yml",
+      "source_repo": "luarocks/luarocks",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-gh-actions.yml",
+      "source_repo": "luarocks/luarocks",
+      "target": "PR on GH Actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "luarocks/luarocks",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "luarocks/luarocks",
+      "target": "hishamhm/gh-actions-lua@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "luarocks/luarocks",
+      "target": "luarocks/gh-actions-luarocks@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "luarocks/luarocks",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "luarocks/luarocks",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "luarocks/luarocks",
+      "target": "luarocks/gh-actions-lua@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "luarocks/luarocks",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "luarocks/luarocks",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "luarocks/luarocks",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "luarocks/luarocks",
+      "target": "actions/cache/save@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "luarocks/luarocks",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luarocks/luarocks",
+      "target": "lua-modules",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luarocks/luarocks",
+      "target": "luajit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luarocks/luarocks",
+      "target": "luarocks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luarocks/luarocks",
+      "target": "package-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luarocks/luarocks",
+      "target": "package-manager",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T04:49:27.621369+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 961
+    },
+    {
+      "path": ".github/workflows/pr-gh-actions.yml",
+      "size": 3263
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 23719
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LuaRocks is the package manager for the Lua programming language.",
+    "fork": false,
+    "full_name": "luarocks/luarocks",
+    "html_url": "https://github.com/luarocks/luarocks",
+    "language": "Lua",
+    "pushed_at": "2026-04-06T19:39:45Z",
+    "stargazers_count": 3673,
+    "topics": [
+      "lua",
+      "lua-modules",
+      "luajit",
+      "luarocks",
+      "package-management",
+      "package-manager"
+    ],
+    "updated_at": "2026-04-15T02:55:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "PR on GH Actions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-gh-actions.yml",
+      "term": "PR on GH Actions"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://luarocks.org\"><img border=\"0\" src=\"https://luarocks.github.io/luarocks/luarocks.png\" alt=\"LuaRocks\" width=\"500px\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lua-modules"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://luarocks.org\"><img border=\"0\" src=\"https://luarocks.github.io/luarocks/luarocks.png\" alt=\"LuaRocks\" width=\"500px\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "luajit"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://luarocks.org\"><img border=\"0\" src=\"https://luarocks.github.io/luarocks/luarocks.png\" alt=\"LuaRocks\" width=\"500px\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "luarocks"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://luarocks.org\"><img border=\"0\" src=\"https://luarocks.github.io/luarocks/luarocks.png\" alt=\"LuaRocks\" width=\"500px\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-management"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><a href=\"https://luarocks.org\"><img border=\"0\" src=\"https://luarocks.github.io/luarocks/luarocks.png\" alt=\"LuaRocks\" width=\"500px\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-manager"
+    }
+  ]
+}

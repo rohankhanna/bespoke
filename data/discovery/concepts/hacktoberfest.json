@@ -49,6 +49,30 @@
       "source_repo": "tofuutils/tenv",
       "status": "candidate-context",
       "text": "<!-- BADGES -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ecumene/rust-sloth",
+      "status": "candidate-context",
+      "text": "A 3D software rasterizer... for the terminal!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecumene/rust-sloth",
+      "status": "candidate-context",
+      "text": "![pikachu](models/demo/pikachu.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kampfkarren/full-moon",
+      "status": "candidate-context",
+      "text": "A lossless Lua 5.1 parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kampfkarren/full-moon",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -69,6 +93,18 @@
       "source_repo": "tofuutils/tenv",
       "status": "candidate",
       "text": "<!-- BADGES -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecumene/rust-sloth",
+      "status": "candidate",
+      "text": "![pikachu](models/demo/pikachu.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kampfkarren/full-moon",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +154,23 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": null,
       "source_repo": "tofuutils/tenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": null,
+      "source_repo": "ecumene/rust-sloth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": null,
+      "source_repo": "Kampfkarren/full-moon"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "lexical_providers": [
     "datamuse"
   ],

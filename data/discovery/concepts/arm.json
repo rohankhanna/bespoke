@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "arm"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "harfbuzz/harfbuzz",
+      "status": "candidate-context",
+      "text": "HarfBuzz text shaping engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harfbuzz/harfbuzz",
+      "status": "candidate-context",
+      "text": "arm"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harfbuzz/harfbuzz",
+      "status": "candidate",
+      "text": "arm"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39947265,
+      "status": "candidate",
+      "text": "branch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39909168,
+      "status": "candidate",
+      "text": "sleeve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39900035,
+      "status": "candidate",
+      "text": "gird"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39851880,
+      "status": "candidate",
+      "text": "weapon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39825546,
+      "status": "candidate",
+      "text": "fortify"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28037,
+      "status": "candidate",
+      "text": "fortify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7047,
+      "status": "candidate",
+      "text": "subdivision"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6038,
+      "status": "candidate",
+      "text": "gird"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4046,
+      "status": "candidate",
+      "text": "sleeve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1041,
+      "status": "candidate",
+      "text": "weapon"
+    }
+  ],
+  "canonical_name": "arm",
+  "concept_id": "arm",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": ".github/workflows/arm.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    }
+  ],
+  "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "arm",
+      "sense_id": "arm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

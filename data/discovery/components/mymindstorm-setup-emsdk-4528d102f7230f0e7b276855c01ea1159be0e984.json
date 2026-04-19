@@ -1,0 +1,12 @@
+{
+  "component": "mymindstorm/setup-emsdk@4528d102f7230f0e7b276855c01ea1159be0e984",
+  "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    }
+  ]
+}

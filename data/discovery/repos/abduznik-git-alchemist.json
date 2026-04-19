@@ -1,0 +1,263 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "abduznik/Git-Alchemist",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "abduznik/Git-Alchemist",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "abduznik/Git-Alchemist",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "abduznik/Git-Alchemist",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "abduznik/Git-Alchemist",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "abduznik/Git-Alchemist",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "abduznik/Git-Alchemist",
+      "target": "Publish to PyPI and GitHub Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abduznik/Git-Alchemist",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abduznik/Git-Alchemist",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abduznik/Git-Alchemist",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abduznik/Git-Alchemist",
+      "target": "gemma",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abduznik/Git-Alchemist",
+      "target": "git-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abduznik/Git-Alchemist",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abduznik/Git-Alchemist",
+      "target": "productivity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abduznik/Git-Alchemist",
+      "target": "repository-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abduznik/Git-Alchemist",
+      "target": "version-control",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T04:50:25.844536+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3386
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 637
+    },
+    {
+      "path": "requirements.txt",
+      "size": 31
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 439
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 2500
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Transform Git history: rewrite, clean, and optimize your repositories with ease.",
+    "fork": false,
+    "full_name": "abduznik/Git-Alchemist",
+    "html_url": "https://github.com/abduznik/Git-Alchemist",
+    "language": "Python",
+    "pushed_at": "2026-02-24T07:58:47Z",
+    "stargazers_count": 21,
+    "topics": [
+      "ai",
+      "automation",
+      "cli",
+      "developer-tools",
+      "gemini",
+      "gemma",
+      "git",
+      "git-management",
+      "github",
+      "llm",
+      "productivity",
+      "python",
+      "repository-manager",
+      "version-control"
+    ],
+    "updated_at": "2026-03-29T20:21:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish to PyPI and GitHub Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to PyPI and GitHub Release"
+    },
+    {
+      "context_snippet": "**Git-Alchemist \u2697\ufe0f** is a unified AI-powered CLI tool for automating GitHub repository management. It consolidates multiple technical utilities into a single, intelligent system powered by Google's Gemini 3 and Gemma 3 models.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "**Git-Alchemist \u2697\ufe0f** is a unified AI-powered CLI tool for automating GitHub repository management. It consolidates multiple technical utilities into a single, intelligent system powered by Google's Gemini 3 and Gemma 3 models.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-tools"
+    },
+    {
+      "context_snippet": "**Git-Alchemist \u2697\ufe0f** is a unified AI-powered CLI tool for automating GitHub repository management. It consolidates multiple technical utilities into a single, intelligent system powered by Google's Gemini 3 and Gemma 3 models.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini"
+    },
+    {
+      "context_snippet": "**Git-Alchemist \u2697\ufe0f** is a unified AI-powered CLI tool for automating GitHub repository management. It consolidates multiple technical utilities into a single, intelligent system powered by Google's Gemini 3 and Gemma 3 models.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemma"
+    },
+    {
+      "context_snippet": "**Git-Alchemist \u2697\ufe0f** is a unified AI-powered CLI tool for automating GitHub repository management. It consolidates multiple technical utilities into a single, intelligent system powered by Google's Gemini 3 and Gemma 3 models.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "git-management"
+    },
+    {
+      "context_snippet": "**Git-Alchemist \u2697\ufe0f** is a unified AI-powered CLI tool for automating GitHub repository management. It consolidates multiple technical utilities into a single, intelligent system powered by Google's Gemini 3 and Gemma 3 models.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": "**Git-Alchemist \u2697\ufe0f** is a unified AI-powered CLI tool for automating GitHub repository management. It consolidates multiple technical utilities into a single, intelligent system powered by Google's Gemini 3 and Gemma 3 models.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "productivity"
+    },
+    {
+      "context_snippet": "**Git-Alchemist \u2697\ufe0f** is a unified AI-powered CLI tool for automating GitHub repository management. It consolidates multiple technical utilities into a single, intelligent system powered by Google's Gemini 3 and Gemma 3 models.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repository-manager"
+    },
+    {
+      "context_snippet": "**Git-Alchemist \u2697\ufe0f** is a unified AI-powered CLI tool for automating GitHub repository management. It consolidates multiple technical utilities into a single, intelligent system powered by Google's Gemini 3 and Gemma 3 models.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "version-control"
+    }
+  ]
+}

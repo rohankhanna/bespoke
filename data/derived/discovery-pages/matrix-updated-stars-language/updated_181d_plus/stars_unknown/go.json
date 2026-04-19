@@ -1,0 +1,25 @@
+{
+  "counts": {
+    "components": 35,
+    "concepts": 16,
+    "observations": 16,
+    "repos": 7,
+    "terms": 19
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "go",
+    "star_bucket": "stars_unknown",
+    "updated_bucket": "updated_181d_plus"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "asg017/sqlite-html",
+    "asg017/sqlite-http",
+    "Brads3290/cclogviewer",
+    "bytegust/spm",
+    "DarthSim/hivemind",
+    "DarthSim/overmind",
+    "opencode-ai/opencode"
+  ]
+}

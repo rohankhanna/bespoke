@@ -4,8 +4,25 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definition_hints": [],
-  "candidate_glosses": [],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf0a The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
   "candidate_primary_bucket": "tool-component",
   "candidate_related_terms": [],
   "candidate_senses": [
@@ -23,15 +40,17 @@
   "concept_id": "model-context-protocol",
   "definition_status": "unresolved",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "model-context-protocol",
   "observation_id": "f936c462081054a1",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-18T11:57:36.597358+00:00",
+  "observed_at": "2026-04-19T04:47:57.443742+00:00",
   "observed_text": "model-context-protocol",
-  "source_context_snippet": null,
+  "source_context_snippet": "<div align=\"center\">",
   "source_file": null,
   "source_repo": "ruvnet/ruflo",
-  "source_repo_description": null
+  "source_repo_description": "\ud83c\udf0a The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration"
 }

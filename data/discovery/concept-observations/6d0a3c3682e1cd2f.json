@@ -1,0 +1,56 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "a script to run docker-compose.yml using podman"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Codespell"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Codespell"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Codespell",
+      "sense_id": "codespell#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "codespell",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "codespell",
+  "observation_id": "6d0a3c3682e1cd2f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T04:47:57.443742+00:00",
+  "observed_text": "Codespell",
+  "source_context_snippet": "Codespell",
+  "source_file": ".github/workflows/codespell.yml",
+  "source_repo": "containers/podman-compose",
+  "source_repo_description": "a script to run docker-compose.yml using podman"
+}

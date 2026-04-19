@@ -19,11 +19,74 @@
       "source_repo": "hashintel/awesome-hash",
       "status": "candidate-context",
       "text": "\ud83d\ude0e A curated list of the best resources in the HASH ecosystem"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "napi-rs/node-rs",
+      "status": "candidate-context",
+      "text": "Node.js bindings \u2764\ufe0f Rust crates "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "napi-rs/node-rs",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/napi-rs/node-rs/workflows/CI/badge.svg)](https://github.com/napi-rs/node-rs/actions/workflows/ci.yaml)"
     }
   ],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "napi-rs/node-rs",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/napi-rs/node-rs/workflows/CI/badge.svg)](https://github.com/napi-rs/node-rs/actions/workflows/ci.yaml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39582684,
+      "status": "candidate",
+      "text": "hashish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29594969,
+      "status": "candidate",
+      "text": "olio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29591651,
+      "status": "candidate",
+      "text": "corned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29589532,
+      "status": "candidate",
+      "text": "mince"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29583252,
+      "status": "candidate",
+      "text": "cannabis"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37,
+      "status": "candidate",
+      "text": "hashish"
+    }
+  ],
   "canonical_name": "hash",
   "concept_id": "hash",
   "definition_status": "unresolved",
@@ -33,12 +96,20 @@
       "observed_at": "2026-04-18T13:29:00.435097+00:00",
       "source_file": null,
       "source_repo": "hashintel/awesome-hash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": null,
+      "source_repo": "napi-rs/node-rs"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

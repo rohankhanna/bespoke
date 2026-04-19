@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aerobounce/Sublime-Pretty-Lua",
+      "target": "aerobounce/sublime-autoclosepanel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-Pretty-Lua",
+      "target": "formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-Pretty-Lua",
+      "target": "sublime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-Pretty-Lua",
+      "target": "sublime-package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-Pretty-Lua",
+      "target": "sublime-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-Pretty-Lua",
+      "target": "sublime-text-3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-Pretty-Lua",
+      "target": "sublime-text-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T04:49:12.437890+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1020
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83c\udf19 Lua Formatter (Powered by StyLua)",
+    "fork": false,
+    "full_name": "aerobounce/Sublime-Pretty-Lua",
+    "html_url": "https://github.com/aerobounce/Sublime-Pretty-Lua",
+    "language": "Python",
+    "pushed_at": "2023-05-10T21:08:44Z",
+    "stargazers_count": 6,
+    "topics": [
+      "formatter",
+      "lua",
+      "sublime",
+      "sublime-package",
+      "sublime-text",
+      "sublime-text-3",
+      "sublime-text-plugin"
+    ],
+    "updated_at": "2025-10-02T15:13:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aerobounce/sublime-autoclosepanel",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatter"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime-package"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime-text"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime-text-3"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime-text-plugin"
+    }
+  ]
+}

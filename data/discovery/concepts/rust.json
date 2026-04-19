@@ -148,6 +148,66 @@
       "source_repo": "rust-lang/rust",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "seanmonstar/reqwest",
+      "status": "candidate-context",
+      "text": "An easy and powerful Rust HTTP Client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seanmonstar/reqwest",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/v/reqwest.svg)](https://crates.io/crates/reqwest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "harfbuzz/rustybuzz",
+      "status": "candidate-context",
+      "text": "A complete harfbuzz's shaping algorithm port to Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harfbuzz/rustybuzz",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "harfbuzz/ttf-parser",
+      "status": "candidate-context",
+      "text": "A high-level, safe, zero-allocation TrueType font parser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harfbuzz/ttf-parser",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cowboy8625/rusty-rain",
+      "status": "candidate-context",
+      "text": "A cross platform matrix rain made with Rust. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cowboy8625/rusty-rain",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ecumene/rust-sloth",
+      "status": "candidate-context",
+      "text": "A 3D software rasterizer... for the terminal!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecumene/rust-sloth",
+      "status": "candidate-context",
+      "text": "![pikachu](models/demo/pikachu.gif)"
     }
   ],
   "candidate_glosses": [
@@ -210,6 +270,36 @@
       "source_repo": "rust-lang/rust",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seanmonstar/reqwest",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/reqwest.svg)](https://crates.io/crates/reqwest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harfbuzz/rustybuzz",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harfbuzz/ttf-parser",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cowboy8625/rusty-rain",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecumene/rust-sloth",
+      "status": "candidate",
+      "text": "![pikachu](models/demo/pikachu.gif)"
     }
   ],
   "candidate_related_terms": [
@@ -445,11 +535,41 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": null,
       "source_repo": "rust-lang/rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": null,
+      "source_repo": "seanmonstar/reqwest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "harfbuzz/rustybuzz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "harfbuzz/ttf-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": null,
+      "source_repo": "cowboy8625/rusty-rain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": null,
+      "source_repo": "ecumene/rust-sloth"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "lexical_providers": [
     "datamuse"
   ],

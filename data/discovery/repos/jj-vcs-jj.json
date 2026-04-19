@@ -444,7 +444,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T11:57:22.824123+00:00",
+  "fetched_at": "2026-04-19T04:50:10.556468+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -489,14 +489,17 @@
   ],
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A Git-compatible VCS that is both simple and powerful",
+    "fork": false,
     "full_name": "jj-vcs/jj",
     "html_url": "https://github.com/jj-vcs/jj",
     "language": "Rust",
     "pushed_at": "2026-04-17T16:52:57Z",
+    "stargazers_count": 28124,
     "topics": [],
-    "updated_at": "2026-04-18T11:15:38Z"
+    "updated_at": "2026-04-19T04:08:03Z"
   },
   "repo_links": [
     {
@@ -507,26 +510,31 @@
   ],
   "terms": [
     {
+      "context_snippet": "binaries",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/binaries.yml",
       "term": "binaries"
     },
     {
+      "context_snippet": "Enable auto-merge for Dependabot PRs",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/dependabot.yml",
       "term": "Enable auto-merge for Dependabot PRs"
     },
     {
+      "context_snippet": "website",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/docs.yml",
       "term": "website"
     },
     {
+      "context_snippet": "Validate pull request",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/pr.yml",
       "term": "Validate pull request"
     },
     {
+      "context_snippet": "Release",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/release.yml",
       "term": "Release"

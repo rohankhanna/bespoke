@@ -1,0 +1,21 @@
+{
+  "counts": {
+    "components": 0,
+    "concepts": 4,
+    "observations": 4,
+    "repos": 4,
+    "terms": 4
+  },
+  "facet_version": 1,
+  "filters": {
+    "star_bucket": "stars_10_99",
+    "updated_bucket": "updated_181d_plus"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "ckipp01/stylua-nvim",
+    "decider/claude-hooks",
+    "IKKI2000/harmonyos-fonts",
+    "junegunn/vim-startuptime-benchmark"
+  ]
+}

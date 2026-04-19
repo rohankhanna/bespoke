@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GarrettAlbright/Luacheck.novaextension",
+      "target": "mpeterv/luacheck",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-19T04:49:25.675849+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4928
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Integration of the Luacheck code linter with the Nova code editor.",
+    "fork": false,
+    "full_name": "GarrettAlbright/Luacheck.novaextension",
+    "html_url": "https://github.com/GarrettAlbright/Luacheck.novaextension",
+    "language": "JavaScript",
+    "pushed_at": "2023-03-22T08:40:45Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2023-11-27T20:21:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mpeterv/luacheck",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

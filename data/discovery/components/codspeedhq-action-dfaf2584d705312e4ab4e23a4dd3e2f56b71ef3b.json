@@ -1,0 +1,12 @@
+{
+  "component": "CodSpeedHQ/action@dfaf2584d705312e4ab4e23a4dd3e2f56b71ef3b",
+  "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_benchmark.yml",
+      "source_repo": "langchain-ai/deepagents"
+    }
+  ]
+}

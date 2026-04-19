@@ -1,0 +1,23 @@
+{
+  "counts": {
+    "components": 21,
+    "concepts": 11,
+    "observations": 11,
+    "repos": 5,
+    "terms": 14
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "other",
+    "star_bucket": "stars_unknown",
+    "updated_bucket": "updated_91_180d"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "anthropics/courses",
+    "folke/lazy.nvim",
+    "parruda/ruby_llm",
+    "slunsford/coffee-analytics",
+    "stevemolitor/claude-code.el"
+  ]
+}

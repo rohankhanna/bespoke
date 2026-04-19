@@ -1,7 +1,7 @@
 {
   "component": "actions/download-artifact@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -417,6 +417,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/electron-build.yml",
       "source_repo": "QuantumNous/new-api"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-vscode-release.reusable.yaml",
+      "source_repo": "BoundaryML/baml"
     }
   ]
 }

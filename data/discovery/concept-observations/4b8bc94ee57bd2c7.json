@@ -1,0 +1,92 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Node.js bindings \u2764\ufe0f Rust crates "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI](https://github.com/napi-rs/node-rs/workflows/CI/badge.svg)](https://github.com/napi-rs/node-rs/actions/workflows/ci.yaml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/napi-rs/node-rs/workflows/CI/badge.svg)](https://github.com/napi-rs/node-rs/actions/workflows/ci.yaml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "blowfish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "paillier cryptosystem"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "macguffin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "sha-2"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24994,
+      "status": "candidate",
+      "text": "advanced encryption standard"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bcrypt",
+      "sense_id": "bcrypt#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bcrypt",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bcrypt",
+  "observation_id": "4b8bc94ee57bd2c7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-19T04:47:57.443742+00:00",
+  "observed_text": "bcrypt",
+  "source_context_snippet": "[![CI](https://github.com/napi-rs/node-rs/workflows/CI/badge.svg)](https://github.com/napi-rs/node-rs/actions/workflows/ci.yaml)",
+  "source_file": null,
+  "source_repo": "napi-rs/node-rs",
+  "source_repo_description": "Node.js bindings \u2764\ufe0f Rust crates "
+}

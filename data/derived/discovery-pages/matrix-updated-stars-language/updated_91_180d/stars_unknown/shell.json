@@ -1,0 +1,22 @@
+{
+  "counts": {
+    "components": 6,
+    "concepts": 8,
+    "observations": 8,
+    "repos": 4,
+    "terms": 7
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "shell",
+    "star_bucket": "stars_unknown",
+    "updated_bucket": "updated_91_180d"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "crate-ci/gh-install",
+    "danielrosehill/Bash-Alias-Manager-Claude",
+    "danielrosehill/Batch-ClaudeMD-Repo-Creator",
+    "danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands"
+  ]
+}

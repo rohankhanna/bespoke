@@ -13,9 +13,28 @@
       "source_repo": "bats-core/bats-core",
       "status": "candidate-context",
       "text": "Bash Automated Testing System"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containers/podman-compose",
+      "status": "candidate-context",
+      "text": "a script to run docker-compose.yml using podman"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/podman-compose",
+      "status": "candidate-context",
+      "text": "Codespell"
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/podman-compose",
+      "status": "candidate",
+      "text": "Codespell"
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "Codespell",
@@ -33,12 +52,20 @@
       "observed_at": "2026-04-18T13:15:13.756138+00:00",
       "source_file": ".github/workflows/codespell.yml",
       "source_repo": "bats-core/bats-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "containers/podman-compose"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

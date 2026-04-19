@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "cron"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GitoxideLabs/gitoxide",
+      "status": "candidate-context",
+      "text": "An idiomatic, lean, fast & safe pure Rust implementation of Git"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GitoxideLabs/gitoxide",
+      "status": "candidate-context",
+      "text": "cron"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GitoxideLabs/gitoxide",
+      "status": "candidate",
+      "text": "cron"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19852928,
+      "status": "candidate",
+      "text": "cronjob"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19852927,
+      "status": "candidate",
+      "text": "crontab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19852926,
+      "status": "candidate",
+      "text": "scheduler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19852925,
+      "status": "candidate",
+      "text": "dispatcher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19852924,
+      "status": "candidate",
+      "text": "job scheduler"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "cron",
+  "concept_id": "cron",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": ".github/workflows/cron.yml",
+      "source_repo": "GitoxideLabs/gitoxide"
+    }
+  ],
+  "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "cron",
+      "sense_id": "cron#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

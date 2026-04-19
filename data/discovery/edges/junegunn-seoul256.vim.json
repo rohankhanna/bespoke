@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "junegunn/seoul256.vim",
+      "target": "anandpiyer/seoul256-emacs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "junegunn/seoul256.vim",
+      "target": "guilhermedeandrade/seoul256-kitty",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "junegunn/seoul256.vim",
+      "target": "jcmorrow/seoul256-ghostty",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "junegunn/seoul256.vim",
+      "target": "jcmorrow/seoul256-zed",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-19T04:47:57.443742+00:00",
+  "source_repo": "junegunn/seoul256.vim"
+}

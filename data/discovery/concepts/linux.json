@@ -7,11 +7,68 @@
   "buckets": [
     "tool-component",
     "workflow-process",
-    "capability"
+    "capability",
+    "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "harfbuzz/harfbuzz",
+      "status": "candidate-context",
+      "text": "HarfBuzz text shaping engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harfbuzz/harfbuzz",
+      "status": "candidate-context",
+      "text": "linux"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "harfbuzz/harfbuzz",
+      "status": "candidate",
+      "text": "linux"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029064,
+      "status": "candidate",
+      "text": "gnu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029063,
+      "status": "candidate",
+      "text": "unix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29823310,
+      "status": "candidate",
+      "text": "pam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29731501,
+      "status": "candidate",
+      "text": "links"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28992238,
+      "status": "candidate",
+      "text": "lenox"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "linux",
   "concept_id": "linux",
@@ -34,12 +91,20 @@
       "observed_at": "2026-04-18T12:07:11.500453+00:00",
       "source_file": null,
       "source_repo": "nodejs/node"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "harfbuzz/harfbuzz"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

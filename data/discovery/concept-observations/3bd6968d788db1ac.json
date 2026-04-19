@@ -4,10 +4,63 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definition_hints": [],
-  "candidate_glosses": [],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Git-compatible VCS that is both simple and powerful"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Validate pull request"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Validate pull request"
+    }
+  ],
   "candidate_primary_bucket": "workflow-process",
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24476,
+      "status": "candidate",
+      "text": "affirm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24476,
+      "status": "candidate",
+      "text": "confirm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24476,
+      "status": "candidate",
+      "text": "prove"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24476,
+      "status": "candidate",
+      "text": "ratified"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24476,
+      "status": "candidate",
+      "text": "ratify"
+    }
+  ],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -23,15 +76,17 @@
   "concept_id": "validate-pull-request",
   "definition_status": "unresolved",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "validate-pull-request",
   "observation_id": "3bd6968d788db1ac",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-18T11:56:18.570627+00:00",
+  "observed_at": "2026-04-19T04:47:57.443742+00:00",
   "observed_text": "Validate pull request",
-  "source_context_snippet": null,
+  "source_context_snippet": "Validate pull request",
   "source_file": ".github/workflows/pr.yml",
   "source_repo": "jj-vcs/jj",
-  "source_repo_description": null
+  "source_repo_description": "A Git-compatible VCS that is both simple and powerful"
 }

@@ -1,0 +1,28 @@
+{
+  "counts": {
+    "components": 66,
+    "concepts": 52,
+    "observations": 53,
+    "repos": 10,
+    "terms": 52
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "rust",
+    "star_bucket": "stars_unknown",
+    "updated_bucket": "updated_181d_plus"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "asg017/sqlite-fastrand",
+    "asg017/sqlite-loadable-rs",
+    "asg017/sqlite-rembed",
+    "asg017/sqlite-xsv",
+    "chelsea0x3b/dfdx",
+    "dirs-dev/dirs-rs",
+    "Layr-Labs/hello-world-avs",
+    "lnx-search/rewrk",
+    "njsmith/posy",
+    "programatik29/rust-web-benchmarks"
+  ]
+}

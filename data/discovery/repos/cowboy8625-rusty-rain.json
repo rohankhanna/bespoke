@@ -1,0 +1,284 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker-image.yml"
+    },
+    {
+      "component": "docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker-image.yml"
+    },
+    {
+      "component": "docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker-image.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rusty-rain.yml"
+    },
+    {
+      "component": "hecrj/setup-rust-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rusty-rain.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cowboy8625/rusty-rain",
+      "target": "zyedidia/eget",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker-image.yml",
+      "source_repo": "cowboy8625/rusty-rain",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker-image.yml",
+      "source_repo": "cowboy8625/rusty-rain",
+      "target": "docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker-image.yml",
+      "source_repo": "cowboy8625/rusty-rain",
+      "target": "docker/metadata-action@98669ae865ea3cffbcbaa878cf57c20bbf1c6c38",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker-image.yml",
+      "source_repo": "cowboy8625/rusty-rain",
+      "target": "docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docker-image.yml",
+      "source_repo": "cowboy8625/rusty-rain",
+      "target": "Create and publish container image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rusty-rain.yml",
+      "source_repo": "cowboy8625/rusty-rain",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rusty-rain.yml",
+      "source_repo": "cowboy8625/rusty-rain",
+      "target": "hecrj/setup-rust-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rusty-rain.yml",
+      "source_repo": "cowboy8625/rusty-rain",
+      "target": "rusty-rain Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cowboy8625/rusty-rain",
+      "target": "cmatrix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cowboy8625/rusty-rain",
+      "target": "emojis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cowboy8625/rusty-rain",
+      "target": "matrix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cowboy8625/rusty-rain",
+      "target": "matrix-rain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cowboy8625/rusty-rain",
+      "target": "matrix-rain-ch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cowboy8625/rusty-rain",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cowboy8625/rusty-rain",
+      "target": "rusty-rain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cowboy8625/rusty-rain",
+      "target": "screensaver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cowboy8625/rusty-rain",
+      "target": "terminal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T04:48:51.921787+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7693
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1183
+    },
+    {
+      "path": "Dockerfile",
+      "size": 172
+    },
+    {
+      "path": ".github/workflows/publish-docker-image.yml",
+      "size": 1150
+    },
+    {
+      "path": ".github/workflows/rusty-rain.yml",
+      "size": 1395
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A cross platform matrix rain made with Rust. ",
+    "fork": false,
+    "full_name": "cowboy8625/rusty-rain",
+    "html_url": "https://github.com/cowboy8625/rusty-rain",
+    "language": "Rust",
+    "pushed_at": "2026-02-26T02:14:16Z",
+    "stargazers_count": 445,
+    "topics": [
+      "cmatrix",
+      "emojis",
+      "matrix",
+      "matrix-rain",
+      "matrix-rain-ch",
+      "rust",
+      "rusty-rain",
+      "screensaver",
+      "terminal"
+    ],
+    "updated_at": "2026-04-18T07:59:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zyedidia/eget",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Create and publish container image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-docker-image.yml",
+      "term": "Create and publish container image"
+    },
+    {
+      "context_snippet": "rusty-rain Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rusty-rain.yml",
+      "term": "rusty-rain Test"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmatrix"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emojis"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matrix"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matrix-rain"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matrix-rain-ch"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rusty-rain"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "screensaver"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    }
+  ]
+}

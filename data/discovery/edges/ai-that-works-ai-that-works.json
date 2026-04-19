@@ -4,17 +4,10 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ai-that-works/ai-that-works",
-      "target": "boundaryml/baml",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ai-that-works/ai-that-works",
       "target": "hellovai/ai-that-works",
       "target_type": "repository"
     }
   ],
-  "generated_at": "2026-04-18T11:56:18.570627+00:00",
+  "generated_at": "2026-04-19T04:47:57.443742+00:00",
   "source_repo": "ai-that-works/ai-that-works"
 }

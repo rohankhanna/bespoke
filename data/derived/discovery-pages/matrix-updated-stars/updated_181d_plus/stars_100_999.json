@@ -1,0 +1,22 @@
+{
+  "counts": {
+    "components": 19,
+    "concepts": 11,
+    "observations": 11,
+    "repos": 5,
+    "terms": 11
+  },
+  "facet_version": 1,
+  "filters": {
+    "star_bucket": "stars_100_999",
+    "updated_bucket": "updated_181d_plus"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "ecumene/rust-sloth",
+    "ers35/luastatic",
+    "harfbuzz/rustybuzz",
+    "infinyon/node-bindgen",
+    "LPGhatguy/aftman"
+  ]
+}

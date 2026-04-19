@@ -1,0 +1,56 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Gemini CLI Tips and Tricks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**This guide covers \\~30 pro-tips for effectively using Gemini CLI for agentic coding**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**This guide covers \\~30 pro-tips for effectively using Gemini CLI for agentic coding**"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gemini-cli",
+      "sense_id": "gemini-cli#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gemini-cli",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gemini-cli",
+  "observation_id": "af9f4ea7c0f8ad96",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-19T04:47:57.443742+00:00",
+  "observed_text": "gemini-cli",
+  "source_context_snippet": "**This guide covers \\~30 pro-tips for effectively using Gemini CLI for agentic coding**",
+  "source_file": null,
+  "source_repo": "addyosmani/gemini-cli-tips",
+  "source_repo_description": "Gemini CLI Tips and Tricks"
+}

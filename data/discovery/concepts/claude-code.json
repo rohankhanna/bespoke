@@ -160,6 +160,30 @@
       "source_repo": "automazeio/vibeproxy",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ComposioHQ/awesome-claude-skills",
+      "status": "candidate-context",
+      "text": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ComposioHQ/awesome-claude-skills",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Awesome Claude Skills</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruvnet/ruflo",
+      "status": "candidate-context",
+      "text": "\ud83c\udf0a The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruvnet/ruflo",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -198,6 +222,18 @@
       "source_repo": "automazeio/vibeproxy",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ComposioHQ/awesome-claude-skills",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Awesome Claude Skills</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruvnet/ruflo",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -499,11 +535,23 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": null,
       "source_repo": "automazeio/vibeproxy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": null,
+      "source_repo": "ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "lexical_providers": [
     "datamuse"
   ],

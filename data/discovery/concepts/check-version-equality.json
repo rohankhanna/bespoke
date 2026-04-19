@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "\ud83d\udd0d Check Version Equality"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langchain-ai/deepagents",
+      "status": "candidate-context",
+      "text": "Agent harness built with LangChain and LangGraph. Equipped with a planning tool, a filesystem backend, and the ability to spawn subagents - well-equipped to handle complex agentic tasks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/deepagents",
+      "status": "candidate-context",
+      "text": "\"\ud83d\udd0d Check Version Equality\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/deepagents",
+      "status": "candidate",
+      "text": "\"\ud83d\udd0d Check Version Equality\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18157,
+      "status": "candidate",
+      "text": "equate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18115,
+      "status": "candidate",
+      "text": "pass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18106,
+      "status": "candidate",
+      "text": "sex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18025,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18021,
+      "status": "candidate",
+      "text": "even"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "\ud83d\udd0d Check Version Equality",
+  "concept_id": "check-version-equality",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": ".github/workflows/check_versions.yml",
+      "source_repo": "langchain-ai/deepagents"
+    }
+  ],
+  "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83d\udd0d Check Version Equality",
+      "sense_id": "check-version-equality#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

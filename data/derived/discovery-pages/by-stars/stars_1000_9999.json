@@ -1,0 +1,29 @@
+{
+  "counts": {
+    "components": 85,
+    "concepts": 70,
+    "observations": 70,
+    "repos": 13,
+    "terms": 70
+  },
+  "facet_version": 1,
+  "filters": {
+    "star_bucket": "stars_1000_9999"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "addyosmani/gemini-cli-tips",
+    "ai-that-works/ai-that-works",
+    "atom-archive/xray",
+    "BoundaryML/baml",
+    "containers/podman-compose",
+    "django/daphne",
+    "graphql-python/graphene",
+    "harfbuzz/harfbuzz",
+    "junegunn/seoul256.vim",
+    "junegunn/vim-easy-align",
+    "luarocks/luarocks",
+    "napi-rs/node-rs",
+    "snarktank/antfarm"
+  ]
+}

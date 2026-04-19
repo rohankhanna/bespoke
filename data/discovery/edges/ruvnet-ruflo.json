@@ -16,13 +16,6 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ruvnet/ruflo",
-      "target": "ruvnet/ruvector",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "package.json",
       "source_repo": "ruvnet/ruflo",
       "target": "ruvnet/claude-flow",
@@ -428,6 +421,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-18T11:57:36.597358+00:00",
+  "generated_at": "2026-04-19T04:47:57.443742+00:00",
   "source_repo": "ruvnet/ruflo"
 }

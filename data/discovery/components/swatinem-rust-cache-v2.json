@@ -1,7 +1,7 @@
 {
   "component": "Swatinem/rust-cache@v2",
   "first_seen_at": "2026-04-18T02:41:24.975901+00:00",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -192,6 +192,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/desktop.yml",
       "source_repo": "Dooy/chatgpt-web-midjourney-proxy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "seanmonstar/reqwest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "infinyon/node-bindgen"
     }
   ]
 }

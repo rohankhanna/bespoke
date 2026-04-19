@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-19T04:48:05.325902+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16404
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 127
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "An experimental next-generation Electron-based text editor",
+    "fork": false,
+    "full_name": "atom-archive/xray",
+    "html_url": "https://github.com/atom-archive/xray",
+    "language": "Rust",
+    "pushed_at": "2019-07-22T17:46:06Z",
+    "stargazers_count": 8427,
+    "topics": [],
+    "updated_at": "2026-04-10T17:47:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,18 @@
+{
+  "counts": {
+    "components": 6,
+    "concepts": 1,
+    "observations": 1,
+    "repos": 1,
+    "terms": 1
+  },
+  "facet_version": 1,
+  "filters": {
+    "star_bucket": "stars_1000_9999",
+    "updated_bucket": "updated_31_60d"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "snarktank/antfarm"
+  ]
+}

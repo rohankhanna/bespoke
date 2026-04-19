@@ -1,0 +1,24 @@
+{
+  "counts": {
+    "components": 36,
+    "concepts": 26,
+    "observations": 26,
+    "repos": 6,
+    "terms": 26
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "go",
+    "star_bucket": "stars_unknown",
+    "updated_bucket": "updated_8_14d"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "Abraxas-365/claudio-codex",
+    "Abraxas-365/claudio-screenshot",
+    "ahmetb/kubectx",
+    "Broderick-Westrope/tetrigo",
+    "ethpandaops/xatu",
+    "ethpandaops/xatu-cbt"
+  ]
+}

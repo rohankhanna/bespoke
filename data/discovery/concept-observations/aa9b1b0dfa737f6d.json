@@ -4,10 +4,63 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definition_hints": [],
-  "candidate_glosses": [],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf0a The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\ud83d\udcca Status Badges Update"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\ud83d\udcca Status Badges Update"
+    }
+  ],
   "candidate_primary_bucket": "workflow-process",
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21357,
+      "status": "candidate",
+      "text": "dummy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14945,
+      "status": "candidate",
+      "text": "insignia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14035,
+      "status": "candidate",
+      "text": "stripes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13790,
+      "status": "candidate",
+      "text": "blue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13790,
+      "status": "candidate",
+      "text": "gray"
+    }
+  ],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -23,15 +76,17 @@
   "concept_id": "status-badges-update",
   "definition_status": "unresolved",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "status-badges-update",
   "observation_id": "aa9b1b0dfa737f6d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-18T11:57:36.597358+00:00",
+  "observed_at": "2026-04-19T04:47:57.443742+00:00",
   "observed_text": "\ud83d\udcca Status Badges Update",
-  "source_context_snippet": null,
+  "source_context_snippet": "\ud83d\udcca Status Badges Update",
   "source_file": ".github/workflows/status-badges.yml",
   "source_repo": "ruvnet/ruflo",
-  "source_repo_description": null
+  "source_repo_description": "\ud83c\udf0a The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features    enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration"
 }

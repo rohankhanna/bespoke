@@ -1,0 +1,56 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "a script to run docker-compose.yml using podman"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "An implementation of [Compose Spec](https://compose-spec.io/) with [Podman](https://podman.io/) backend."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "An implementation of [Compose Spec](https://compose-spec.io/) with [Podman](https://podman.io/) backend."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rootless-containers",
+      "sense_id": "rootless-containers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rootless-containers",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rootless-containers",
+  "observation_id": "f9e8b8b6d1289b81",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-19T04:47:57.443742+00:00",
+  "observed_text": "rootless-containers",
+  "source_context_snippet": "An implementation of [Compose Spec](https://compose-spec.io/) with [Podman](https://podman.io/) backend.",
+  "source_file": null,
+  "source_repo": "containers/podman-compose",
+  "source_repo_description": "a script to run docker-compose.yml using podman"
+}

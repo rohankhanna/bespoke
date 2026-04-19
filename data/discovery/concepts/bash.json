@@ -25,6 +25,18 @@
       "source_repo": "ldayton/Parable",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/gum",
+      "status": "candidate-context",
+      "text": "A tool for glamorous shell scripts \ud83c\udf80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/gum",
+      "status": "candidate-context",
+      "text": "<p>"
     }
   ],
   "candidate_glosses": [
@@ -33,10 +45,88 @@
       "source_repo": "ldayton/Parable",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/gum",
+      "status": "candidate",
+      "text": "<p>"
     }
   ],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39950273,
+      "status": "candidate",
+      "text": "whap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39950124,
+      "status": "candidate",
+      "text": "smash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39950042,
+      "status": "candidate",
+      "text": "knock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39949946,
+      "status": "candidate",
+      "text": "bang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39949855,
+      "status": "candidate",
+      "text": "bop"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36052,
+      "status": "candidate",
+      "text": "bang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19036,
+      "status": "candidate",
+      "text": "brawl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17047,
+      "status": "candidate",
+      "text": "smash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13046,
+      "status": "candidate",
+      "text": "knock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12038,
+      "status": "candidate",
+      "text": "bonk"
+    }
+  ],
   "canonical_name": "bash",
   "concept_id": "bash",
   "definition_status": "unresolved",
@@ -58,12 +148,20 @@
       "observed_at": "2026-04-18T13:50:38.061794+00:00",
       "source_file": null,
       "source_repo": "ldayton/Parable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": null,
+      "source_repo": "charmbracelet/gum"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

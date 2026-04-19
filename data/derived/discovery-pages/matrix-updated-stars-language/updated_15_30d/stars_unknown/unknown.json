@@ -1,0 +1,22 @@
+{
+  "counts": {
+    "components": 1,
+    "concepts": 7,
+    "observations": 7,
+    "repos": 4,
+    "terms": 7
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "unknown",
+    "star_bucket": "stars_unknown",
+    "updated_bucket": "updated_15_30d"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "BehiSecc/awesome-claude-skills",
+    "ithiria894/awesome-claude-code-hooks",
+    "onyx-dot-app/onyx_deep_research_bench",
+    "revfactory/harness-100"
+  ]
+}

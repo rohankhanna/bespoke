@@ -1,0 +1,156 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kampfkarren/full-moon",
+      "target": "rust-lang/rust-clippy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kampfkarren/full-moon",
+      "target": "facebook/jscodeshift",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kampfkarren/full-moon",
+      "target": "lpghatguy/mab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kampfkarren/full-moon",
+      "target": "benjamn/recast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clippy.yml",
+      "source_repo": "Kampfkarren/full-moon",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clippy.yml",
+      "source_repo": "Kampfkarren/full-moon",
+      "target": "Clippy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Kampfkarren/full-moon",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Kampfkarren/full-moon",
+      "target": "Test full-moon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kampfkarren/full-moon",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T04:49:17.825696+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1320
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 77
+    },
+    {
+      "path": ".github/workflows/clippy.yml",
+      "size": 371
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1329
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A lossless Lua 5.1 parser",
+    "fork": false,
+    "full_name": "Kampfkarren/full-moon",
+    "html_url": "https://github.com/Kampfkarren/full-moon",
+    "language": "Rust",
+    "pushed_at": "2026-04-15T17:40:38Z",
+    "stargazers_count": 503,
+    "topics": [
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-04-18T06:45:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "benjamn/recast",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebook/jscodeshift",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lpghatguy/mab",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-lang/rust-clippy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Clippy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clippy.yml",
+      "term": "Clippy"
+    },
+    {
+      "context_snippet": "Test full-moon",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test full-moon"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

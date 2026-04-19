@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 2,
+    "concepts": 3,
+    "observations": 3,
+    "repos": 1,
+    "terms": 3
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "rust",
+    "star_bucket": "stars_100_999",
+    "updated_bucket": "updated_91_180d"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "harfbuzz/ttf-parser"
+  ]
+}

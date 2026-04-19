@@ -19,6 +19,18 @@
       "source_repo": "orogene/orogene",
       "status": "candidate-context",
       "text": "<div style=\"display: flex; justify-content: center;\" align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "luarocks/luarocks",
+      "status": "candidate-context",
+      "text": "LuaRocks is the package manager for the Lua programming language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luarocks/luarocks",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"https://luarocks.org\"><img border=\"0\" src=\"https://luarocks.github.io/luarocks/luarocks.png\" alt=\"LuaRocks\" width=\"500px\"></a></p>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "orogene/orogene",
       "status": "candidate",
       "text": "<div style=\"display: flex; justify-content: center;\" align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luarocks/luarocks",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://luarocks.org\"><img border=\"0\" src=\"https://luarocks.github.io/luarocks/luarocks.png\" alt=\"LuaRocks\" width=\"500px\"></a></p>"
     }
   ],
   "candidate_related_terms": [],
@@ -52,11 +70,17 @@
       "observed_at": "2026-04-19T01:08:57.644140+00:00",
       "source_file": null,
       "source_repo": "orogene/orogene"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": null,
+      "source_repo": "luarocks/luarocks"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "lexical_providers": [
     "datamuse"
   ],

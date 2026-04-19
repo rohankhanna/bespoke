@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "sublime"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aerobounce/Sublime-Pretty-Lua",
+      "status": "candidate-context",
+      "text": "\ud83c\udf19 Lua Formatter (Powered by StyLua)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerobounce/Sublime-Pretty-Lua",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerobounce/Sublime-Pretty-Lua",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39990157,
+      "status": "candidate",
+      "text": "sublimate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39927658,
+      "status": "candidate",
+      "text": "glorious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39924349,
+      "status": "candidate",
+      "text": "elated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39920843,
+      "status": "candidate",
+      "text": "empyreal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39918709,
+      "status": "candidate",
+      "text": "empyrean"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 59029,
+      "status": "candidate",
+      "text": "elated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46035,
+      "status": "candidate",
+      "text": "glorious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45032,
+      "status": "candidate",
+      "text": "empyrean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40024,
+      "status": "candidate",
+      "text": "empyreal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38044,
+      "status": "candidate",
+      "text": "sacred"
+    }
+  ],
+  "canonical_name": "sublime",
+  "concept_id": "sublime",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-Pretty-Lua"
+    }
+  ],
+  "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sublime",
+      "sense_id": "sublime#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

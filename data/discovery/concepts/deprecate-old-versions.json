@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deprecate old versions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agents-squads/squads-cli",
+      "status": "candidate-context",
+      "text": "CLI for managing AI agent squads. Status, memory, goals, feedback, and dashboard for your autonomous agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agents-squads/squads-cli",
+      "status": "candidate-context",
+      "text": "Deprecate old versions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agents-squads/squads-cli",
+      "status": "candidate",
+      "text": "Deprecate old versions"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14577,
+      "status": "candidate",
+      "text": "apocrypha"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14577,
+      "status": "candidate",
+      "text": "vulgate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14566,
+      "status": "candidate",
+      "text": "tetrapla"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14556,
+      "status": "candidate",
+      "text": "banked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14556,
+      "status": "candidate",
+      "text": "draft"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deprecate old versions",
+  "concept_id": "deprecate-old-versions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": ".github/workflows/deprecate.yml",
+      "source_repo": "agents-squads/squads-cli"
+    }
+  ],
+  "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deprecate old versions",
+      "sense_id": "deprecate-old-versions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

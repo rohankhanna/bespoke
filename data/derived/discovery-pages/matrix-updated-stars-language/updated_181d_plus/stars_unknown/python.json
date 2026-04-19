@@ -1,0 +1,36 @@
+{
+  "counts": {
+    "components": 54,
+    "concepts": 46,
+    "observations": 46,
+    "repos": 18,
+    "terms": 53
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "python",
+    "star_bucket": "stars_unknown",
+    "updated_bucket": "updated_181d_plus"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "AminRezaei0x443/memory-efficient-attention",
+    "AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients",
+    "axolotl-ai-cloud/plugin-atropos",
+    "berrydev-ai/blockdoc-python",
+    "Birch-san/diffusers",
+    "dazuiba/CCNotify",
+    "disler/just-prompt",
+    "eth-sri/lmql",
+    "googlefonts/noto-emoji",
+    "grahama1970/claude-task-runner",
+    "hackdays-io/toban-contribution-viewer",
+    "haotian-liu/LLaVA",
+    "Maciek-roboblog/Claude-Code-Usage-Monitor",
+    "Mjvolk3/biocypher",
+    "oxpig/CaLM",
+    "simonw/sqlite-diffable",
+    "SuperClaude-Org/SuperQwen_Framework",
+    "yuag/Code-audit"
+  ]
+}

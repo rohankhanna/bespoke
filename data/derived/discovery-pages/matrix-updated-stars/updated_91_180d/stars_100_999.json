@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 4,
+    "concepts": 9,
+    "observations": 9,
+    "repos": 2,
+    "terms": 9
+  },
+  "facet_version": 1,
+  "filters": {
+    "star_bucket": "stars_100_999",
+    "updated_bucket": "updated_91_180d"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "behave/behave-django",
+    "harfbuzz/ttf-parser"
+  ]
+}

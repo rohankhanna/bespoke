@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Deploy to pypi"
+    "Deploy to pypi",
+    "\ud83d\ude80 Deploy to PyPI"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "arogozhnikov/einops",
       "status": "candidate-context",
       "text": "Deploy to pypi"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql-python/graphene",
+      "status": "candidate-context",
+      "text": "GraphQL framework for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-python/graphene",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Deploy to PyPI"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "arogozhnikov/einops",
       "status": "candidate",
       "text": "Deploy to pypi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-python/graphene",
+      "status": "candidate",
+      "text": "\ud83d\ude80 Deploy to PyPI"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-19T01:08:57.644140+00:00",
       "source_file": ".github/workflows/deploy_to_pypi.yml",
       "source_repo": "arogozhnikov/einops"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "graphql-python/graphene"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "lexical_providers": [
     "datamuse"
   ],

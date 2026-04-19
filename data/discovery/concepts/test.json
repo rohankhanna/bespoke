@@ -74,6 +74,18 @@
       "source_repo": "Broderick-Westrope/tetrigo",
       "status": "candidate-context",
       "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "luarocks/luarocks",
+      "status": "candidate-context",
+      "text": "LuaRocks is the package manager for the Lua programming language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luarocks/luarocks",
+      "status": "candidate-context",
+      "text": "test"
     }
   ],
   "candidate_glosses": [
@@ -106,6 +118,12 @@
       "source_repo": "Broderick-Westrope/tetrigo",
       "status": "candidate",
       "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luarocks/luarocks",
+      "status": "candidate",
+      "text": "test"
     }
   ],
   "candidate_related_terms": [
@@ -275,11 +293,17 @@
       "observed_at": "2026-04-18T18:48:44.679047+00:00",
       "source_file": ".github/workflows/test.yaml",
       "source_repo": "Broderick-Westrope/tetrigo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "luarocks/luarocks"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "lexical_providers": [
     "datamuse"
   ],

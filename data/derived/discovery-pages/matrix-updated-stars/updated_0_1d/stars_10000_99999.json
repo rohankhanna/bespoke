@@ -1,0 +1,20 @@
+{
+  "counts": {
+    "components": 21,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 3,
+    "terms": 19
+  },
+  "facet_version": 1,
+  "filters": {
+    "star_bucket": "stars_10000_99999",
+    "updated_bucket": "updated_0_1d"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "GitoxideLabs/gitoxide",
+    "google/skia",
+    "langchain-ai/deepagents"
+  ]
+}

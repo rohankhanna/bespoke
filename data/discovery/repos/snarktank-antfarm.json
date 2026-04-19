@@ -1,0 +1,136 @@
+{
+  "components": [
+    {
+      "component": "json5",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yaml",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inject-version.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inject-version.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "snarktank/antfarm",
+      "target": "snarktank/ralph",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "snarktank/antfarm",
+      "target": "json5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "snarktank/antfarm",
+      "target": "yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "snarktank/antfarm",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "snarktank/antfarm",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inject-version.yml",
+      "source_repo": "snarktank/antfarm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inject-version.yml",
+      "source_repo": "snarktank/antfarm",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/inject-version.yml",
+      "source_repo": "snarktank/antfarm",
+      "target": "Inject version on release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T04:48:31.334783+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7346
+    },
+    {
+      "path": "package.json",
+      "size": 533
+    },
+    {
+      "path": ".github/workflows/inject-version.yml",
+      "size": 798
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Build your agent team in OpenClaw with one command.",
+    "fork": false,
+    "full_name": "snarktank/antfarm",
+    "html_url": "https://github.com/snarktank/antfarm",
+    "language": "TypeScript",
+    "pushed_at": "2026-02-26T17:39:07Z",
+    "stargazers_count": 2409,
+    "topics": [],
+    "updated_at": "2026-04-18T20:46:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "snarktank/ralph",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Inject version on release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/inject-version.yml",
+      "term": "Inject version on release"
+    }
+  ]
+}

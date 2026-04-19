@@ -13,10 +13,65 @@
       "source_repo": "huggingface/transformers",
       "status": "candidate-context",
       "text": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. "
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abduznik/Git-Alchemist",
+      "status": "candidate-context",
+      "text": "Transform Git history: rewrite, clean, and optimize your repositories with ease."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abduznik/Git-Alchemist",
+      "status": "candidate-context",
+      "text": "**Git-Alchemist \u2697\ufe0f** is a unified AI-powered CLI tool for automating GitHub repository management. It consolidates multiple technical utilities into a single, intelligent system powered by Google's Gemini 3 and Gemma 3 models."
     }
   ],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abduznik/Git-Alchemist",
+      "status": "candidate",
+      "text": "**Git-Alchemist \u2697\ufe0f** is a unified AI-powered CLI tool for automating GitHub repository management. It consolidates multiple technical utilities into a single, intelligent system powered by Google's Gemini 3 and Gemma 3 models."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029711,
+      "status": "candidate",
+      "text": "gemmule"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029710,
+      "status": "candidate",
+      "text": "gemmation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029709,
+      "status": "candidate",
+      "text": "gemmification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029708,
+      "status": "candidate",
+      "text": "gemmiparity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029707,
+      "status": "candidate",
+      "text": "gemmulation"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "gemma",
   "concept_id": "gemma",
@@ -27,12 +82,20 @@
       "observed_at": "2026-04-18T13:15:13.756138+00:00",
       "source_file": null,
       "source_repo": "huggingface/transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": null,
+      "source_repo": "abduznik/Git-Alchemist"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

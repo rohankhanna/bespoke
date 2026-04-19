@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pr-gh-actions.yml",
+      "source_repo": "luarocks/luarocks"
+    }
+  ],
+  "term": "PR on GH Actions"
+}

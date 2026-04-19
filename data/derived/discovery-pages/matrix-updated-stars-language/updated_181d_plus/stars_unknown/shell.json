@@ -1,0 +1,22 @@
+{
+  "counts": {
+    "components": 2,
+    "concepts": 8,
+    "observations": 8,
+    "repos": 4,
+    "terms": 8
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "shell",
+    "star_bucket": "stars_unknown",
+    "updated_bucket": "updated_181d_plus"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "chinanf-boy/ripgrep-zh",
+    "chrismytton/shoreman",
+    "icanhasjonas/run-claude-docker",
+    "to4iki/ai-project-rules"
+  ]
+}

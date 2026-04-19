@@ -1,0 +1,887 @@
+{
+  "components": [
+    {
+      "component": "@infisical/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@biomejs/biome",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "turbo",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vercel",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pnpm",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beps.reusable.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beps.reusable.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beps.reusable.yaml"
+    },
+    {
+      "component": "bobheadxi/deployments@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beps.reusable.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beps.reusable.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beps.reusable.yaml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beps.reusable.yaml"
+    },
+    {
+      "component": "bobheadxi/deployments@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beps.reusable.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beps.reusable.yaml"
+    },
+    {
+      "component": "bobheadxi/deployments@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beps.reusable.yaml"
+    },
+    {
+      "component": "thollander/actions-comment-pull-request@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beps.reusable.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beps.reusable.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beps.reusable.yaml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beps.reusable.yaml"
+    },
+    {
+      "component": "thollander/actions-comment-pull-request@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beps.reusable.yaml"
+    },
+    {
+      "component": "thollander/actions-comment-pull-request@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beps.reusable.yaml"
+    },
+    {
+      "component": "bobheadxi/deployments@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beps.reusable.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cli-release.reusable.yaml"
+    },
+    {
+      "component": "jdx/mise-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cli-release.reusable.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cli-release.reusable.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cli-release.reusable.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cli-release.reusable.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-jetbrains-release.reusable.yaml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-jetbrains-release.reusable.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-jetbrains-release.reusable.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-jetbrains-release.reusable.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-jetbrains-release.reusable.yaml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-jetbrains-release.reusable.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-jetbrains-release.reusable.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-jetbrains-release.reusable.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-jetbrains-release.reusable.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-jetbrains-release.reusable.yaml"
+    },
+    {
+      "component": "JetBrains/qodana-action@v2025.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-jetbrains-release.reusable.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-jetbrains-release.reusable.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-jetbrains-release.reusable.yaml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-jetbrains-release.reusable.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-jetbrains-release.reusable.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-jetbrains-release.reusable.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python-release.reusable.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python-release.reusable.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python-release.reusable.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python-release.reusable.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python-release.reusable.yaml"
+    },
+    {
+      "component": "PyO3/maturin-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python-release.reusable.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python-release.reusable.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python-release.reusable.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ruby-release.reusable.yaml"
+    },
+    {
+      "component": "oxidize-rb/actions/setup-ruby-and-rust@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ruby-release.reusable.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ruby-release.reusable.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-typescript-release.reusable.yaml"
+    },
+    {
+      "component": "mlugg/setup-zig@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-typescript-release.reusable.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-typescript-release.reusable.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-vscode-release.reusable.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-vscode-release.reusable.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-vscode-release.reusable.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-vscode-release.reusable.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "BoundaryML/baml",
+      "target": "@infisical/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "BoundaryML/baml",
+      "target": "@biomejs/biome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "BoundaryML/baml",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "BoundaryML/baml",
+      "target": "turbo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "BoundaryML/baml",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "BoundaryML/baml",
+      "target": "vercel",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "BoundaryML/baml",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "BoundaryML/baml",
+      "target": "pnpm",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beps.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beps.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beps.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "bobheadxi/deployments@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beps.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beps.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "aws-actions/configure-aws-credentials@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beps.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "thollander/actions-comment-pull-request@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/beps.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "BEPs (Reusable)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cli-release.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cli-release.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "jdx/mise-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cli-release.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cli-release.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "BAML Release - Build BAML CLI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-jetbrains-release.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-jetbrains-release.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "gradle/actions/setup-gradle@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-jetbrains-release.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-jetbrains-release.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-jetbrains-release.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-jetbrains-release.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "JetBrains/qodana-action@v2025.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-jetbrains-release.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-jetbrains-release.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "BAML Release - Build JetBrains",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python-release.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python-release.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python-release.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "PyO3/maturin-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python-release.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-python-release.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ruby-release.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ruby-release.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "oxidize-rb/actions/setup-ruby-and-rust@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ruby-release.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ruby-release.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "BAML Release - Build Ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-typescript-release.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-typescript-release.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "mlugg/setup-zig@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-typescript-release.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-typescript-release.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "BAML Release - Build Typescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-vscode-release.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-vscode-release.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-vscode-release.reusable.yaml",
+      "source_repo": "BoundaryML/baml",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BoundaryML/baml",
+      "target": "baml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BoundaryML/baml",
+      "target": "boundaryml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BoundaryML/baml",
+      "target": "guardrails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BoundaryML/baml",
+      "target": "llm-playground",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BoundaryML/baml",
+      "target": "playground",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BoundaryML/baml",
+      "target": "prompt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BoundaryML/baml",
+      "target": "prompt-config",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BoundaryML/baml",
+      "target": "prompt-templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BoundaryML/baml",
+      "target": "structured-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BoundaryML/baml",
+      "target": "structured-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BoundaryML/baml",
+      "target": "structured-output",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BoundaryML/baml",
+      "target": "vscode",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T04:49:34.123074+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11342
+    },
+    {
+      "path": "go.mod",
+      "size": 276
+    },
+    {
+      "path": "package.json",
+      "size": 2014
+    },
+    {
+      "path": ".github/workflows/beps.reusable.yaml",
+      "size": 8776
+    },
+    {
+      "path": ".github/workflows/build-cli-release.reusable.yaml",
+      "size": 16720
+    },
+    {
+      "path": ".github/workflows/build-jetbrains-release.reusable.yaml",
+      "size": 5641
+    },
+    {
+      "path": ".github/workflows/build-python-release.reusable.yaml",
+      "size": 6510
+    },
+    {
+      "path": ".github/workflows/build-ruby-release.reusable.yaml",
+      "size": 4540
+    },
+    {
+      "path": ".github/workflows/build-typescript-release.reusable.yaml",
+      "size": 5443
+    },
+    {
+      "path": ".github/workflows/build-vscode-release.reusable.yaml",
+      "size": 10005
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "canary",
+    "description": "The AI framework that adds the engineering to prompt engineering (Python/TS/Ruby/Java/C#/Rust/Go compatible)",
+    "fork": false,
+    "full_name": "BoundaryML/baml",
+    "html_url": "https://github.com/BoundaryML/baml",
+    "language": "Rust",
+    "pushed_at": "2026-04-18T18:26:25Z",
+    "stargazers_count": 8015,
+    "topics": [
+      "baml",
+      "boundaryml",
+      "guardrails",
+      "llm",
+      "llm-playground",
+      "playground",
+      "prompt",
+      "prompt-config",
+      "prompt-templates",
+      "structured-data",
+      "structured-generation",
+      "structured-output",
+      "vscode"
+    ],
+    "updated_at": "2026-04-19T03:33:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "BEPs (Reusable)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/beps.reusable.yaml",
+      "term": "BEPs (Reusable)"
+    },
+    {
+      "context_snippet": "BAML Release - Build BAML CLI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cli-release.reusable.yaml",
+      "term": "BAML Release - Build BAML CLI"
+    },
+    {
+      "context_snippet": "BAML Release - Build JetBrains",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-jetbrains-release.reusable.yaml",
+      "term": "BAML Release - Build JetBrains"
+    },
+    {
+      "context_snippet": "BAML Release - Build Ruby",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ruby-release.reusable.yaml",
+      "term": "BAML Release - Build Ruby"
+    },
+    {
+      "context_snippet": "BAML Release - Build Typescript",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-typescript-release.reusable.yaml",
+      "term": "BAML Release - Build Typescript"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "baml"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "boundaryml"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "guardrails"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-playground"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "playground"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt-config"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt-templates"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "structured-data"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "structured-generation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "structured-output"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode"
+    }
+  ]
+}

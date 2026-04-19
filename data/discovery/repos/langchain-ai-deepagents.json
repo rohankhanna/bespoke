@@ -1,0 +1,396 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_benchmark.yml"
+    },
+    {
+      "component": "CodSpeedHQ/action@dfaf2584d705312e4ab4e23a4dd3e2f56b71ef3b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_benchmark.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_lint.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-label-by-package.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_extras_sync.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_lockfiles.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_partner_bounds.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_partner_bounds.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_sdk_pin.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_sdk_pin.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_versions.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "langchain-ai/deepagents",
+      "target": "langchain-ai/deepagentsjs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "langchain-ai/deepagents",
+      "target": "langchain-ai/langchain-mcp-adapters",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_benchmark.yml",
+      "source_repo": "langchain-ai/deepagents",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_benchmark.yml",
+      "source_repo": "langchain-ai/deepagents",
+      "target": "CodSpeedHQ/action@dfaf2584d705312e4ab4e23a4dd3e2f56b71ef3b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_benchmark.yml",
+      "source_repo": "langchain-ai/deepagents",
+      "target": "Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_lint.yml",
+      "source_repo": "langchain-ai/deepagents",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_lint.yml",
+      "source_repo": "langchain-ai/deepagents",
+      "target": "\ud83e\uddf9 Linting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test.yml",
+      "source_repo": "langchain-ai/deepagents",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_test.yml",
+      "source_repo": "langchain-ai/deepagents",
+      "target": "\ud83e\uddea Unit Testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-label-by-package.yml",
+      "source_repo": "langchain-ai/deepagents",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-label-by-package.yml",
+      "source_repo": "langchain-ai/deepagents",
+      "target": "Auto Label Issues by Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_extras_sync.yml",
+      "source_repo": "langchain-ai/deepagents",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_extras_sync.yml",
+      "source_repo": "langchain-ai/deepagents",
+      "target": "\ud83d\udd0d Check Extras Sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_lockfiles.yml",
+      "source_repo": "langchain-ai/deepagents",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_lockfiles.yml",
+      "source_repo": "langchain-ai/deepagents",
+      "target": "\ud83d\udd12 Check Lockfiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_partner_bounds.yml",
+      "source_repo": "langchain-ai/deepagents",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_partner_bounds.yml",
+      "source_repo": "langchain-ai/deepagents",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_partner_bounds.yml",
+      "source_repo": "langchain-ai/deepagents",
+      "target": "\ud83d\udce6 Check Partner Bounds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_sdk_pin.yml",
+      "source_repo": "langchain-ai/deepagents",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_sdk_pin.yml",
+      "source_repo": "langchain-ai/deepagents",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_sdk_pin.yml",
+      "source_repo": "langchain-ai/deepagents",
+      "target": "\ud83d\udd17 Check SDK Pin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_versions.yml",
+      "source_repo": "langchain-ai/deepagents",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_versions.yml",
+      "source_repo": "langchain-ai/deepagents",
+      "target": "\ud83d\udd0d Check Version Equality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "langchain-ai/deepagents",
+      "target": "deepagents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "langchain-ai/deepagents",
+      "target": "langchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "langchain-ai/deepagents",
+      "target": "langgraph",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T04:48:45.451731+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6239
+    },
+    {
+      "path": ".github/workflows/_benchmark.yml",
+      "size": 1754
+    },
+    {
+      "path": ".github/workflows/_lint.yml",
+      "size": 1329
+    },
+    {
+      "path": ".github/workflows/_test.yml",
+      "size": 6165
+    },
+    {
+      "path": ".github/workflows/auto-label-by-package.yml",
+      "size": 3759
+    },
+    {
+      "path": ".github/workflows/check_extras_sync.yml",
+      "size": 1060
+    },
+    {
+      "path": ".github/workflows/check_lockfiles.yml",
+      "size": 805
+    },
+    {
+      "path": ".github/workflows/check_partner_bounds.yml",
+      "size": 8160
+    },
+    {
+      "path": ".github/workflows/check_sdk_pin.yml",
+      "size": 6510
+    },
+    {
+      "path": ".github/workflows/check_versions.yml",
+      "size": 945
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Agent harness built with LangChain and LangGraph. Equipped with a planning tool, a filesystem backend, and the ability to spawn subagents - well-equipped to handle complex agentic tasks.",
+    "fork": false,
+    "full_name": "langchain-ai/deepagents",
+    "html_url": "https://github.com/langchain-ai/deepagents",
+    "language": "Python",
+    "pushed_at": "2026-04-19T03:52:17Z",
+    "stargazers_count": 21210,
+    "topics": [
+      "ai",
+      "deepagents",
+      "langchain",
+      "langgraph"
+    ],
+    "updated_at": "2026-04-19T04:28:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "langchain-ai/deepagentsjs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "langchain-ai/langchain-mcp-adapters",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Benchmark\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_benchmark.yml",
+      "term": "Benchmark"
+    },
+    {
+      "context_snippet": "\"\ud83e\uddf9 Linting\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_lint.yml",
+      "term": "\ud83e\uddf9 Linting"
+    },
+    {
+      "context_snippet": "\"\ud83e\uddea Unit Testing\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_test.yml",
+      "term": "\ud83e\uddea Unit Testing"
+    },
+    {
+      "context_snippet": "Auto Label Issues by Package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-label-by-package.yml",
+      "term": "Auto Label Issues by Package"
+    },
+    {
+      "context_snippet": "\"\ud83d\udd0d Check Extras Sync\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_extras_sync.yml",
+      "term": "\ud83d\udd0d Check Extras Sync"
+    },
+    {
+      "context_snippet": "\"\ud83d\udd12 Check Lockfiles\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_lockfiles.yml",
+      "term": "\ud83d\udd12 Check Lockfiles"
+    },
+    {
+      "context_snippet": "\"\ud83d\udce6 Check Partner Bounds\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_partner_bounds.yml",
+      "term": "\ud83d\udce6 Check Partner Bounds"
+    },
+    {
+      "context_snippet": "\"\ud83d\udd17 Check SDK Pin\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_sdk_pin.yml",
+      "term": "\ud83d\udd17 Check SDK Pin"
+    },
+    {
+      "context_snippet": "\"\ud83d\udd0d Check Version Equality\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_versions.yml",
+      "term": "\ud83d\udd0d Check Version Equality"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepagents"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langchain"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langgraph"
+    }
+  ]
+}

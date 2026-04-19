@@ -1,0 +1,92 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Agent harness built with LangChain and LangGraph. Equipped with a planning tool, a filesystem backend, and the ability to spawn subagents - well-equipped to handle complex agentic tasks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"\ud83d\udd17 Check SDK Pin\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"\ud83d\udd17 Check SDK Pin\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10328,
+      "status": "candidate",
+      "text": "demo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10328,
+      "status": "candidate",
+      "text": "dvd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10328,
+      "status": "candidate",
+      "text": "installation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9672,
+      "status": "candidate",
+      "text": "nip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9672,
+      "status": "candidate",
+      "text": "peg"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83d\udd17 Check SDK Pin",
+      "sense_id": "check-sdk-pin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-sdk-pin",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-sdk-pin",
+  "observation_id": "be43f6890cfe9b83",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T04:47:57.443742+00:00",
+  "observed_text": "\ud83d\udd17 Check SDK Pin",
+  "source_context_snippet": "\"\ud83d\udd17 Check SDK Pin\"",
+  "source_file": ".github/workflows/check_sdk_pin.yml",
+  "source_repo": "langchain-ai/deepagents",
+  "source_repo_description": "Agent harness built with LangChain and LangGraph. Equipped with a planning tool, a filesystem backend, and the ability to spawn subagents - well-equipped to handle complex agentic tasks."
+}

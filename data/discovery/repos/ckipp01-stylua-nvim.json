@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-19T04:49:15.341065+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 731
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Let's just use a formatter and never discuss formatting again.",
+    "fork": false,
+    "full_name": "ckipp01/stylua-nvim",
+    "html_url": "https://github.com/ckipp01/stylua-nvim",
+    "language": "Lua",
+    "pushed_at": "2022-05-05T06:41:15Z",
+    "stargazers_count": 62,
+    "topics": [],
+    "updated_at": "2025-12-29T10:32:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

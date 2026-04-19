@@ -1,0 +1,22 @@
+{
+  "counts": {
+    "components": 36,
+    "concepts": 15,
+    "observations": 15,
+    "repos": 4,
+    "terms": 24
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "go",
+    "star_bucket": "stars_unknown",
+    "updated_bucket": "updated_31_60d"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "charmbracelet/glamour",
+    "ctoth/claudio",
+    "dagger/container-use",
+    "withastro/compiler"
+  ]
+}

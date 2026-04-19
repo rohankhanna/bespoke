@@ -19,6 +19,18 @@
       "source_repo": "wshobson/agents",
       "status": "candidate-context",
       "text": "> **\u26a1 Updated for Opus 4.7, Sonnet 4.6 & Haiku 4.5** \u2014 Three-tier model strategy for optimal performance"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agents-squads/squads-cli",
+      "status": "candidate-context",
+      "text": "CLI for managing AI agent squads. Status, memory, goals, feedback, and dashboard for your autonomous agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agents-squads/squads-cli",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +39,51 @@
       "source_repo": "wshobson/agents",
       "status": "candidate",
       "text": "> **\u26a1 Updated for Opus 4.7, Sonnet 4.6 & Haiku 4.5** \u2014 Three-tier model strategy for optimal performance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agents-squads/squads-cli",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29721949,
+      "status": "candidate",
+      "text": "coordination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29713891,
+      "status": "candidate",
+      "text": "focal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29708887,
+      "status": "candidate",
+      "text": "coordinated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29708093,
+      "status": "candidate",
+      "text": "coordinating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29707769,
+      "status": "candidate",
+      "text": "organization"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "orchestration",
   "concept_id": "orchestration",
@@ -40,12 +94,20 @@
       "observed_at": "2026-04-18T13:50:38.061794+00:00",
       "source_file": null,
       "source_repo": "wshobson/agents"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": null,
+      "source_repo": "agents-squads/squads-cli"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

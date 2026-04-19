@@ -1,0 +1,276 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "containers/podman-compose",
+      "target": "containers/dnsname",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "containers/podman-compose",
+      "target": "compose-spec/compose-spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "containers/podman-compose",
+      "target": "rancher/k3s",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "containers/podman-compose",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "containers/podman-compose",
+      "target": "codespell-project/actions-codespell@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "containers/podman-compose",
+      "target": "Codespell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "containers/podman-compose",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "containers/podman-compose",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "containers/podman-compose",
+      "target": "Build and Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/static-checks.yml",
+      "source_repo": "containers/podman-compose",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static-checks.yml",
+      "source_repo": "containers/podman-compose",
+      "target": "Static checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "containers/podman-compose",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "containers/podman-compose",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "containers/podman-compose",
+      "target": "docker-compose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "containers/podman-compose",
+      "target": "linux-containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "containers/podman-compose",
+      "target": "podman",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "containers/podman-compose",
+      "target": "rootless-containers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T04:49:49.209523+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4394
+    },
+    {
+      "path": "Dockerfile",
+      "size": 683
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3012
+    },
+    {
+      "path": "requirements.txt",
+      "size": 233
+    },
+    {
+      "path": ".github/workflows/codespell.yml",
+      "size": 371
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 620
+    },
+    {
+      "path": ".github/workflows/static-checks.yml",
+      "size": 782
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 7611
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "a script to run docker-compose.yml using podman",
+    "fork": false,
+    "full_name": "containers/podman-compose",
+    "html_url": "https://github.com/containers/podman-compose",
+    "language": "Python",
+    "pushed_at": "2026-04-13T21:46:52Z",
+    "stargazers_count": 6046,
+    "topics": [
+      "docker-compose",
+      "linux-containers",
+      "podman",
+      "rootless-containers"
+    ],
+    "updated_at": "2026-04-18T10:25:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "compose-spec/compose-spec",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "containers/dnsname",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rancher/k3s",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Codespell",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "term": "Codespell"
+    },
+    {
+      "context_snippet": "Build and Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Build and Release"
+    },
+    {
+      "context_snippet": "Static checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/static-checks.yml",
+      "term": "Static checks"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "An implementation of [Compose Spec](https://compose-spec.io/) with [Podman](https://podman.io/) backend.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-compose"
+    },
+    {
+      "context_snippet": "An implementation of [Compose Spec](https://compose-spec.io/) with [Podman](https://podman.io/) backend.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux-containers"
+    },
+    {
+      "context_snippet": "An implementation of [Compose Spec](https://compose-spec.io/) with [Podman](https://podman.io/) backend.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "podman"
+    },
+    {
+      "context_snippet": "An implementation of [Compose Spec](https://compose-spec.io/) with [Podman](https://podman.io/) backend.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rootless-containers"
+    }
+  ]
+}

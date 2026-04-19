@@ -4,10 +4,63 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definition_hints": [],
-  "candidate_glosses": [],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Git-compatible VCS that is both simple and powerful"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "binaries"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "binaries"
+    }
+  ],
   "candidate_primary_bucket": "workflow-process",
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25000,
+      "status": "candidate",
+      "text": "binary file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "binary system"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "binary code"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "binary star"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "binary compound"
+    }
+  ],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -23,15 +76,17 @@
   "concept_id": "binaries",
   "definition_status": "unresolved",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "binaries",
   "observation_id": "290b35fcedb92f25",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-18T11:56:18.570627+00:00",
+  "observed_at": "2026-04-19T04:47:57.443742+00:00",
   "observed_text": "binaries",
-  "source_context_snippet": null,
+  "source_context_snippet": "binaries",
   "source_file": ".github/workflows/binaries.yml",
   "source_repo": "jj-vcs/jj",
-  "source_repo_description": null
+  "source_repo_description": "A Git-compatible VCS that is both simple and powerful"
 }

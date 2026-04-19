@@ -1,0 +1,49 @@
+{
+  "counts": {
+    "components": 194,
+    "concepts": 155,
+    "observations": 156,
+    "repos": 31,
+    "terms": 174
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "go",
+    "star_bucket": "stars_unknown",
+    "updated_bucket": "updated_1_7d"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "1Panel-dev/1Panel",
+    "Abraxas-365/claudio",
+    "AllenReder/CLIProxyAPI-Quota-Inspector",
+    "awslabs/eks-node-viewer",
+    "bensadeh/circumflex",
+    "charmbracelet/bubbletea",
+    "charmbracelet/colorprofile",
+    "charmbracelet/lipgloss",
+    "compozy/kb",
+    "danielmiessler/Fabric",
+    "erikceballos/nano-banana-cli",
+    "fgrehm/clotilde",
+    "foxj77/claudectx",
+    "gastownhall/beads",
+    "jonislutheran87/weclaw",
+    "joshsymonds/cc-tools",
+    "k8nstantin/OpenPraxis",
+    "korotovsky/slack-mcp-server",
+    "ksylvan/fabric",
+    "kubernetes-sigs/kustomize",
+    "kubernetes/enhancements",
+    "kubernetes/kubernetes",
+    "libp2p/go-libp2p",
+    "ollama/ollama",
+    "open-telemetry/opentelemetry-collector-releases",
+    "petmal/MindTrial",
+    "phiat/claude-esp",
+    "prehisle/relay-pulse",
+    "serpro69/capy",
+    "SkeneTechnologies/skene",
+    "tofuutils/tenv"
+  ]
+}

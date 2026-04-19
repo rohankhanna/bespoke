@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Tag, Build, Release and Publish"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "infinyon/node-bindgen",
+      "status": "candidate-context",
+      "text": "Easy way to write Node.js module using Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "infinyon/node-bindgen",
+      "status": "candidate-context",
+      "text": "Tag, Build, Release and Publish"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "infinyon/node-bindgen",
+      "status": "candidate",
+      "text": "Tag, Build, Release and Publish"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43380,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27715,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27715,
+      "status": "candidate",
+      "text": "points"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27713,
+      "status": "candidate",
+      "text": "print"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27641,
+      "status": "candidate",
+      "text": "lock"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Tag, Build, Release and Publish",
+  "concept_id": "tag-build-release-and-publish",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "infinyon/node-bindgen"
+    }
+  ],
+  "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Tag, Build, Release and Publish",
+      "sense_id": "tag-build-release-and-publish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

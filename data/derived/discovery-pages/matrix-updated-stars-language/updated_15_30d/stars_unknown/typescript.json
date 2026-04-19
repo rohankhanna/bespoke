@@ -1,0 +1,31 @@
+{
+  "counts": {
+    "components": 347,
+    "concepts": 46,
+    "observations": 46,
+    "repos": 13,
+    "terms": 81
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "typescript",
+    "star_bucket": "stars_unknown",
+    "updated_bucket": "updated_15_30d"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "AndyMik90/Aperant",
+    "automazeio/proof",
+    "carlrannaberg/claudekit",
+    "glittercowboy/taches-cc-resources",
+    "lobehub/lobe-chat-agents",
+    "lobehub/lobe-midjourney-webui",
+    "NeuroverseOS/negotiator",
+    "ruvnet/agentic-flow",
+    "shareAI-lab/kode-agent-sdk",
+    "slopus/slopus.github.io",
+    "sujithpvarghese/bedrock-agent-core-operations-hub",
+    "sujithpvarghese/bedrock-full-reconciliation",
+    "vercel/satori"
+  ]
+}

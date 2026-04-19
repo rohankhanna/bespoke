@@ -1,0 +1,25 @@
+{
+  "counts": {
+    "components": 77,
+    "concepts": 74,
+    "observations": 74,
+    "repos": 9,
+    "terms": 83
+  },
+  "facet_version": 1,
+  "filters": {
+    "star_bucket": "stars_10000_99999"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "charmbracelet/gum",
+    "ComposioHQ/awesome-claude-skills",
+    "GitoxideLabs/gitoxide",
+    "google/skia",
+    "jj-vcs/jj",
+    "langchain-ai/deepagents",
+    "ruvnet/ruflo",
+    "seanmonstar/reqwest",
+    "toon-format/toon"
+  ]
+}

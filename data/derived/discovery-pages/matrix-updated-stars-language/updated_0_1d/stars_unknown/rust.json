@@ -1,0 +1,28 @@
+{
+  "counts": {
+    "components": 175,
+    "concepts": 94,
+    "observations": 94,
+    "repos": 10,
+    "terms": 107
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "rust",
+    "star_bucket": "stars_unknown",
+    "updated_bucket": "updated_0_1d"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "astral-sh/ruff",
+    "cargo-bins/cargo-quickinstall",
+    "denoland/deno",
+    "Eventual-Inc/Daft",
+    "hashintel/hash",
+    "openai/codex",
+    "rust-lang/rust",
+    "tekumara/typos-lsp",
+    "tracel-ai/burn",
+    "zeroclaw-labs/zeroclaw"
+  ]
+}

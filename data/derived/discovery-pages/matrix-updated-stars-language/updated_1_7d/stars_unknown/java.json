@@ -1,0 +1,22 @@
+{
+  "counts": {
+    "components": 23,
+    "concepts": 12,
+    "observations": 12,
+    "repos": 4,
+    "terms": 13
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "java",
+    "star_bucket": "stars_unknown",
+    "updated_bucket": "updated_1_7d"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "google/auto",
+    "google/guava",
+    "google/j2cl",
+    "Peergos/Peergos"
+  ]
+}

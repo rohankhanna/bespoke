@@ -1,0 +1,100 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Node.js bindings \u2764\ufe0f Rust crates "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI](https://github.com/napi-rs/node-rs/workflows/CI/badge.svg)](https://github.com/napi-rs/node-rs/actions/workflows/ci.yaml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/napi-rs/node-rs/workflows/CI/badge.svg)](https://github.com/napi-rs/node-rs/actions/workflows/ci.yaml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39582684,
+      "status": "candidate",
+      "text": "hashish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29594969,
+      "status": "candidate",
+      "text": "olio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29591651,
+      "status": "candidate",
+      "text": "corned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29589532,
+      "status": "candidate",
+      "text": "mince"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29583252,
+      "status": "candidate",
+      "text": "cannabis"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hash",
+      "sense_id": "hash#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37,
+      "status": "candidate",
+      "text": "hashish"
+    }
+  ],
+  "concept_id": "hash",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hash",
+  "observation_id": "9fab083bdb896e82",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-19T04:47:57.443742+00:00",
+  "observed_text": "hash",
+  "source_context_snippet": "[![CI](https://github.com/napi-rs/node-rs/workflows/CI/badge.svg)](https://github.com/napi-rs/node-rs/actions/workflows/ci.yaml)",
+  "source_file": null,
+  "source_repo": "napi-rs/node-rs",
+  "source_repo_description": "Node.js bindings \u2764\ufe0f Rust crates "
+}

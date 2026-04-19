@@ -1,0 +1,21 @@
+{
+  "counts": {
+    "components": 6,
+    "concepts": 11,
+    "observations": 11,
+    "repos": 4,
+    "terms": 11
+  },
+  "facet_version": 1,
+  "filters": {
+    "star_bucket": "stars_1000_9999",
+    "updated_bucket": "updated_181d_plus"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "addyosmani/gemini-cli-tips",
+    "atom-archive/xray",
+    "graphql-python/graphene",
+    "junegunn/vim-easy-align"
+  ]
+}

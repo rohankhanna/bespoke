@@ -1,0 +1,25 @@
+{
+  "counts": {
+    "components": 266,
+    "concepts": 6,
+    "observations": 6,
+    "repos": 7,
+    "terms": 20
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "typescript",
+    "star_bucket": "stars_unknown",
+    "updated_bucket": "updated_8_14d"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "buddingnewinsights/proxypal",
+    "danielrosehill/Agent-Junction",
+    "jerseycheese/Narraitor",
+    "lobehub/lobe-icons",
+    "opactorai/Claudable",
+    "thx/resvg-js",
+    "tobi/qmd"
+  ]
+}

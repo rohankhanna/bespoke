@@ -1,0 +1,50 @@
+{
+  "counts": {
+    "components": 329,
+    "concepts": 128,
+    "observations": 130,
+    "repos": 32,
+    "terms": 171
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "rust",
+    "star_bucket": "stars_unknown",
+    "updated_bucket": "updated_1_7d"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "aannoo/hcom",
+    "Abraxas-365/langchain-rust",
+    "agent-sh/agent-analyzer",
+    "agent-sh/agnix",
+    "aipurposes1587-max/weixin-agent-rs",
+    "astral-sh/uv",
+    "cargo-bins/cargo-binstall",
+    "casey/just",
+    "cedar-policy/cedar",
+    "CloudLLM-ai/mentisdb",
+    "crate-ci/typos",
+    "dtormoen/tsk-tsk",
+    "eikarna/hermes-rs",
+    "hagan/claudia-statusline",
+    "huggingface/candle",
+    "JohnnyMorganz/StyLua",
+    "JSLEEKR/skilldigest",
+    "kensave/agent-memory-rs",
+    "kmjjjj/polymarket-arbitrage-bot-btc-sol-15m",
+    "libp2p/rust-libp2p",
+    "mikeyobrien/ralph-orchestrator",
+    "mupozg823/codelens-mcp-plugin",
+    "napi-rs/napi-rs",
+    "nielsgroen/claude-tmux",
+    "NVIDIA/OpenShell",
+    "phiat/claude-esp-rs",
+    "RustCrypto/signatures",
+    "ruvnet/RuVector",
+    "tianrking/weixin-agent-rs",
+    "tokio-rs/axum",
+    "tombelieber/claude-view",
+    "vaporif/parry-guard"
+  ]
+}

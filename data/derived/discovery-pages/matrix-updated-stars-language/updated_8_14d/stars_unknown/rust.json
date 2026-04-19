@@ -1,0 +1,21 @@
+{
+  "counts": {
+    "components": 13,
+    "concepts": 11,
+    "observations": 11,
+    "repos": 3,
+    "terms": 11
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "rust",
+    "star_bucket": "stars_unknown",
+    "updated_bucket": "updated_8_14d"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "crossterm-rs/crossterm",
+    "linebender/resvg",
+    "nabijaczleweli/cargo-update"
+  ]
+}

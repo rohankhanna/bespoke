@@ -1,0 +1,92 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A cross platform matrix rain made with Rust. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Create and publish container image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Create and publish container image"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43497,
+      "status": "candidate",
+      "text": "cast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33913,
+      "status": "candidate",
+      "text": "represent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33699,
+      "status": "candidate",
+      "text": "mold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33699,
+      "status": "candidate",
+      "text": "mould"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33513,
+      "status": "candidate",
+      "text": "imagine"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create and publish container image",
+      "sense_id": "create-and-publish-container-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "create-and-publish-container-image",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "create-and-publish-container-image",
+  "observation_id": "34136fe972fa421c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T04:47:57.443742+00:00",
+  "observed_text": "Create and publish container image",
+  "source_context_snippet": "Create and publish container image",
+  "source_file": ".github/workflows/publish-docker-image.yml",
+  "source_repo": "cowboy8625/rusty-rain",
+  "source_repo_description": "A cross platform matrix rain made with Rust. "
+}

@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 2,
+    "concepts": 1,
+    "observations": 1,
+    "repos": 1,
+    "terms": 1
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "rust",
+    "star_bucket": "stars_1_9",
+    "updated_bucket": "updated_181d_plus"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "crossterm-rs/examples"
+  ]
+}

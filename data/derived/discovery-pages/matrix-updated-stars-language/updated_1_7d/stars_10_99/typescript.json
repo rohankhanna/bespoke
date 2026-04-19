@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 29,
+    "concepts": 17,
+    "observations": 18,
+    "repos": 1,
+    "terms": 17
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "typescript",
+    "star_bucket": "stars_10_99",
+    "updated_bucket": "updated_1_7d"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "agents-squads/squads-cli"
+  ]
+}

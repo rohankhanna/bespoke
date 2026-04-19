@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 26,
+    "concepts": 17,
+    "observations": 17,
+    "repos": 1,
+    "terms": 17
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "rust",
+    "star_bucket": "stars_1000_9999",
+    "updated_bucket": "updated_0_1d"
+  },
+  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "repo_ids": [
+    "BoundaryML/baml"
+  ]
+}

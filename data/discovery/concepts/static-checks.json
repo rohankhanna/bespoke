@@ -1,15 +1,72 @@
 {
   "aliases": [
-    "Static Checks"
+    "Static Checks",
+    "Static checks"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containers/podman-compose",
+      "status": "candidate-context",
+      "text": "a script to run docker-compose.yml using podman"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/podman-compose",
+      "status": "candidate-context",
+      "text": "Static checks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/podman-compose",
+      "status": "candidate",
+      "text": "Static checks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10603,
+      "status": "candidate",
+      "text": "dead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10603,
+      "status": "candidate",
+      "text": "dynamic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10603,
+      "status": "candidate",
+      "text": "electricity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10603,
+      "status": "candidate",
+      "text": "fluid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10603,
+      "status": "candidate",
+      "text": "force"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Static Checks",
   "concept_id": "static-checks",
@@ -20,12 +77,20 @@
       "observed_at": "2026-04-18T12:07:11.500453+00:00",
       "source_file": ".github/workflows/static-checks.yml",
       "source_repo": "trailofbits/buttercup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T04:47:57.443742+00:00",
+      "source_file": ".github/workflows/static-checks.yml",
+      "source_repo": "containers/podman-compose"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {
