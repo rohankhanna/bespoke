@@ -89,11 +89,29 @@ def github_repo(owner_repo):
     return api_get_json(f"{API_ROOT}/repos/{owner_repo}")
 
 
+def normalize_repo_schema(repo):
+    normalized = dict(repo or {})
+    normalized.setdefault("full_name", None)
+    normalized.setdefault("html_url", None)
+    normalized.setdefault("description", None)
+    normalized.setdefault("topics", [])
+    normalized.setdefault("updated_at", None)
+    normalized.setdefault("pushed_at", None)
+    normalized.setdefault("default_branch", None)
+    normalized.setdefault("language", None)
+    normalized.setdefault("stargazers_count", None)
+    normalized.setdefault("archived", None)
+    normalized.setdefault("fork", None)
+    return normalized
+
+
 def refresh_repo_wrapper(path: Path):
     wrapper = load_json(path)
-    repo = wrapper.get("repo") or {}
+    repo = normalize_repo_schema(wrapper.get("repo") or {})
     full_name = canonical_repo(repo.get("full_name"))
     if not full_name:
+        wrapper["repo"] = repo
+        write_json(path, wrapper)
         return None, "missing_full_name"
     live = github_repo(full_name)
     repo["full_name"] = canonical_repo(live.get("full_name") or full_name)
@@ -150,6 +168,11 @@ def main():
             full_name, error_reason = refresh_repo_wrapper(path)
         except urllib.error.HTTPError as e:
             if e.code == 404:
+                wrapper_obj = load_json(path)
+                wrapper_obj["repo"] = normalize_repo_schema(wrapper_obj.get("repo") or {})
+                wrapper_obj["metadata_refreshed_at"] = datetime.now(timezone.utc).isoformat()
+                wrapper_obj["metadata_refresh_error"] = "repo_not_found"
+                write_json(path, wrapper_obj)
                 skipped.append(canonical_repo(((wrapper.get("repo") or {}).get("full_name"))))
                 continue
             raise
