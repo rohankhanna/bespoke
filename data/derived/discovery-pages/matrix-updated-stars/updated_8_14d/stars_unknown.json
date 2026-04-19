@@ -1,19 +1,18 @@
 {
   "counts": {
-    "components": 288,
-    "concepts": 73,
-    "observations": 74,
-    "repos": 30,
-    "terms": 92
+    "components": 205,
+    "concepts": 59,
+    "observations": 60,
+    "repos": 21,
+    "terms": 69
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
-    "agenmod/okr-skill",
     "ahmetb/kubectx",
     "Aider-AI/aider",
     "alchaincyf/elon-musk-skill",
@@ -22,26 +21,18 @@
     "alchaincyf/naval-skill",
     "alchaincyf/steve-jobs-skill",
     "alchaincyf/taleb-skill",
-    "asg017/sqlite-vec",
     "browser-use/benchmark",
     "buddingnewinsights/proxypal",
     "cisco-ai-defense/skill-scanner",
     "crossterm-rs/crossterm",
-    "Delgan/loguru",
-    "getzep/zep",
-    "GowayLee/cchooks",
     "guidance-ai/guidance",
     "jarrodwatts/claude-hud",
     "linebender/resvg",
     "lobehub/lobe-icons",
-    "muratcankoylan/ralph-wiggum-marketer",
     "nabijaczleweli/cargo-update",
     "opactorai/Claudable",
     "openai/codex-plugin-cc",
-    "skills-directory/skill-codex",
     "therealXiaomanChu/ex-skill",
-    "thx/resvg-js",
-    "tobi/qmd",
-    "trailofbits/claude-code-devcontainer"
+    "tobi/qmd"
   ]
 }

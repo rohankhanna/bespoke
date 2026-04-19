@@ -170,14 +170,18 @@
       "size": 9726
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:58.958826+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Managed MCP server for Bybit perpetual futures trading",
-    "full_name": "EternaHybridExchange/eterna-mcp",
+    "fork": false,
+    "full_name": "eternahybridexchange/eterna-mcp",
     "html_url": "https://github.com/EternaHybridExchange/eterna-mcp",
     "language": null,
     "pushed_at": "2026-04-17T12:50:01Z",
+    "stargazers_count": 6,
     "topics": [
       "ai-agents",
       "algorithmic-trading",

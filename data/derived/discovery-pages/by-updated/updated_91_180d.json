@@ -10,7 +10,7 @@
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
     "anthropics/courses",
     "arustydev/pre-commit-hooks",
@@ -24,7 +24,7 @@
     "danielrosehill/ai-human-attribution-adder",
     "danielrosehill/bash-alias-manager-claude",
     "danielrosehill/batch-claudemd-repo-creator",
-    "danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands",
+    "danielrosehill/claude-code-linux-desktop-slash-commands",
     "ddollar/forego",
     "dredozubov/prd-generator",
     "dustinblackman/cargo-run-bin",
@@ -36,11 +36,11 @@
     "harfbuzz/ttf-parser",
     "hluaguo/learn-faster-kit",
     "jezweb/roo-commander",
-    "julienXX/terminal-notifier",
+    "julienxx/terminal-notifier",
     "karpeleslab/tpl",
     "LC044/WeChatMsg",
     "LokerL/tts-vue",
-    "LoRexxar/Kunlun-M",
+    "lorexxar/kunlun-m",
     "marcindulak/stt-mcp-server-linux",
     "nornagon/crossterm",
     "numman-ali/openskills",

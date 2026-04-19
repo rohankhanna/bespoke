@@ -187,14 +187,18 @@
       "size": 5626
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:37.652477+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Practical productivity tools for Claude Code, Codex-CLI, and similar CLI coding agents.",
+    "fork": false,
     "full_name": "pchalasani/claude-code-tools",
     "html_url": "https://github.com/pchalasani/claude-code-tools",
     "language": "Python",
-    "pushed_at": "2026-04-02T22:18:04Z",
+    "pushed_at": "2026-04-19T11:14:00Z",
+    "stargazers_count": 1727,
     "topics": [
       "claude-code",
       "cli",
@@ -206,7 +210,7 @@
       "llm",
       "tmux"
     ],
-    "updated_at": "2026-04-17T23:40:18Z"
+    "updated_at": "2026-04-19T11:14:04Z"
   },
   "repo_links": [],
   "terms": [

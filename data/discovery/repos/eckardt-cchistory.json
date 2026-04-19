@@ -244,14 +244,18 @@
       "size": 998
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:52.903785+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Like the shell history command but for your Claude Code sessions.",
+    "fork": false,
     "full_name": "eckardt/cchistory",
     "html_url": "https://github.com/eckardt/cchistory",
     "language": "TypeScript",
     "pushed_at": "2026-02-28T16:49:23Z",
+    "stargazers_count": 107,
     "topics": [
       "bash",
       "claude",

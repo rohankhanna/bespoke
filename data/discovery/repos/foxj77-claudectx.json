@@ -358,14 +358,18 @@
       "size": 1325
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:37.982933+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Fast way to switch between Claude Code configuration profiles",
+    "fork": false,
     "full_name": "foxj77/claudectx",
     "html_url": "https://github.com/foxj77/claudectx",
     "language": "Go",
     "pushed_at": "2026-04-16T11:32:37Z",
+    "stargazers_count": 104,
     "topics": [],
     "updated_at": "2026-04-17T23:42:24Z"
   },

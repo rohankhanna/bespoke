@@ -45,14 +45,18 @@
       "size": 552
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:49.021549+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Practical exercises for Claude Code Agent Teams - 6 exercises + 2 capstones covering team creation, task coordination, quality hooks, and parallel code review",
+    "fork": false,
     "full_name": "panaversity/claude-code-agent-teams-exercises",
     "html_url": "https://github.com/panaversity/claude-code-agent-teams-exercises",
     "language": null,
     "pushed_at": "2026-02-11T07:23:13Z",
+    "stargazers_count": 22,
     "topics": [],
     "updated_at": "2026-04-18T01:56:28Z"
   },

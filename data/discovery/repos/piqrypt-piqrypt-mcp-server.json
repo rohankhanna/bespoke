@@ -162,14 +162,18 @@
       "size": 1434
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:15.554639+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "MCP SERVER",
-    "full_name": "PiQrypt/piqrypt-mcp-server",
+    "fork": false,
+    "full_name": "piqrypt/piqrypt-mcp-server",
     "html_url": "https://github.com/PiQrypt/piqrypt-mcp-server",
     "language": "Python",
-    "pushed_at": "2026-04-17T16:51:10Z",
+    "pushed_at": "2026-04-18T08:14:52Z",
+    "stargazers_count": 0,
     "topics": [
       "ai-agents",
       "audit",
@@ -179,7 +183,7 @@
       "post-quantum",
       "post-quantum-cryptography"
     ],
-    "updated_at": "2026-04-17T16:51:13Z"
+    "updated_at": "2026-04-18T08:14:56Z"
   },
   "repo_links": [
     {

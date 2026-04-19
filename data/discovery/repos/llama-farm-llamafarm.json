@@ -986,14 +986,18 @@
       "size": 4120
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:18.948526+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Deploy any AI model, agent, database, RAG, and pipeline locally or remotely in minutes",
+    "fork": false,
     "full_name": "llama-farm/llamafarm",
     "html_url": "https://github.com/llama-farm/llamafarm",
     "language": "Python",
     "pushed_at": "2026-04-17T22:10:54Z",
+    "stargazers_count": 817,
     "topics": [
       "ai",
       "aiproject",

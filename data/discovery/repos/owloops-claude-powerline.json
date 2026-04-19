@@ -1637,14 +1637,18 @@
       "size": 1303
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:28.595455+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Beautiful vim-style powerline for Claude Code",
-    "full_name": "Owloops/claude-powerline",
+    "fork": false,
+    "full_name": "owloops/claude-powerline",
     "html_url": "https://github.com/Owloops/claude-powerline",
     "language": "TypeScript",
-    "pushed_at": "2026-04-14T15:21:51Z",
+    "pushed_at": "2026-04-19T04:49:49Z",
+    "stargazers_count": 1017,
     "topics": [
       "claude-code",
       "cli",
@@ -1653,7 +1657,7 @@
       "lightweight",
       "statusline"
     ],
-    "updated_at": "2026-04-17T20:25:21Z"
+    "updated_at": "2026-04-19T10:25:47Z"
   },
   "repo_links": [],
   "terms": [

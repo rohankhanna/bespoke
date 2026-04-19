@@ -1,0 +1,20 @@
+{
+  "counts": {
+    "components": 0,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 2,
+    "terms": 0
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "unknown",
+    "star_bucket": "stars_0",
+    "updated_bucket": "updated_1_7d"
+  },
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "repo_ids": [
+    "damacol/ai-hub",
+    "damacol/gemma-4-collection"
+  ]
+}

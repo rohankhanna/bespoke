@@ -550,6 +550,7 @@
       "size": 1107
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:20.927297+00:00",
   "related_repositories": [
     {
       "description": "A local-first AI agent with persistent memory, emotional intelligence, and a peer-to-peer skills economy.",
@@ -952,12 +953,15 @@
     }
   ],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "The agent that grows with you",
-    "full_name": "NousResearch/hermes-agent",
+    "fork": false,
+    "full_name": "nousresearch/hermes-agent",
     "html_url": "https://github.com/NousResearch/hermes-agent",
     "language": "Python",
-    "pushed_at": "2026-04-17T16:42:42Z",
+    "pushed_at": "2026-04-19T13:56:31Z",
+    "stargazers_count": 101073,
     "topics": [
       "ai",
       "ai-agent",
@@ -976,7 +980,7 @@
       "openai",
       "openclaw"
     ],
-    "updated_at": "2026-04-17T18:04:31Z"
+    "updated_at": "2026-04-19T14:02:05Z"
   },
   "repo_links": [
     {

@@ -317,14 +317,18 @@
       "size": 1253
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:51.538996+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A high-performance Rust implementation of the Hermes-Agent orchestration loop for LLM-driven tool execution.",
+    "fork": false,
     "full_name": "eikarna/hermes-rs",
     "html_url": "https://github.com/eikarna/hermes-rs",
     "language": "Rust",
-    "pushed_at": "2026-04-18T02:16:53Z",
+    "pushed_at": "2026-04-19T09:37:31Z",
+    "stargazers_count": 6,
     "topics": [
       "ai",
       "ai-agent",
@@ -344,7 +348,7 @@
       "openai",
       "openclaw"
     ],
-    "updated_at": "2026-04-18T02:16:57Z"
+    "updated_at": "2026-04-19T11:25:17Z"
   },
   "repo_links": [],
   "terms": [

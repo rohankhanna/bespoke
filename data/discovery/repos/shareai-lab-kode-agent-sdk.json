@@ -305,16 +305,20 @@
       "size": 7477
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:52.322575+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
-    "description": "runtime for building Claude Code & Manus like Agent Product",
-    "full_name": "shareAI-lab/kode-agent-sdk",
+    "description": "Open runtime for building Claude Code & Manus like Agent Product",
+    "fork": false,
+    "full_name": "shareai-lab/kode-agent-sdk",
     "html_url": "https://github.com/shareAI-lab/kode-agent-sdk",
     "language": "TypeScript",
     "pushed_at": "2026-03-29T12:38:03Z",
+    "stargazers_count": 297,
     "topics": [],
-    "updated_at": "2026-04-17T09:08:04Z"
+    "updated_at": "2026-04-19T09:47:55Z"
   },
   "repo_links": [],
   "terms": [

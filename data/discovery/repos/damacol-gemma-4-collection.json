@@ -8,14 +8,18 @@
       "size": 1372
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:04.616964+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "The Ultimate Gemma 4 Collection - Private & Uncensored AI",
-    "full_name": "Damacol/gemma-4-collection",
+    "fork": false,
+    "full_name": "damacol/gemma-4-collection",
     "html_url": "https://github.com/Damacol/gemma-4-collection",
     "language": null,
     "pushed_at": "2026-04-17T14:08:38Z",
+    "stargazers_count": 0,
     "topics": [
       "gemma-4",
       "google-gemma",

@@ -41,16 +41,20 @@
       "size": 3866
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:25.169365+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Sandboxed devcontainer for running Claude Code in bypass mode safely. Built for security audits and untrusted code review.",
+    "fork": false,
     "full_name": "trailofbits/claude-code-devcontainer",
     "html_url": "https://github.com/trailofbits/claude-code-devcontainer",
     "language": "Shell",
     "pushed_at": "2026-04-09T11:23:30Z",
+    "stargazers_count": 721,
     "topics": [],
-    "updated_at": "2026-04-17T18:59:28Z"
+    "updated_at": "2026-04-18T23:59:25Z"
   },
   "repo_links": [
     {

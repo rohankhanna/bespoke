@@ -10,7 +10,7 @@
   "filters": {
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
     "0nn0/terminal-mac-cheatsheet",
     "0xnu/rewsury",
@@ -50,8 +50,8 @@
     "connectai-e/midjourney-web",
     "crossterm-rs/examples",
     "danielnappa/tweakgc-cli",
-    "DarthSim/hivemind",
-    "DarthSim/overmind",
+    "darthsim/hivemind",
+    "darthsim/overmind",
     "dazuiba/ccnotify",
     "ddisisto/si",
     "ddollar/foreman",
@@ -90,7 +90,7 @@
     "junegunn/vim-startuptime-benchmark",
     "kingler/n8n_agent",
     "klaus2m5/6502_65c02_functional_tests",
-    "knownsec/404StarLink-Project",
+    "knownsec/404starlink-project",
     "lamoomai/lamoom-python",
     "layr-labs/avs-vibe-developer-guide",
     "layr-labs/hello-world-avs",
@@ -135,7 +135,7 @@
     "tremorlabs/tremor",
     "viperjuice/flutter-structurizr",
     "wesfloyd/avs-context-prompt",
-    "xaoyaoo/PyWxDump",
+    "xaoyaoo/pywxdump",
     "yuag/code-audit",
     "yzyydev/agentic-coding-structure",
     "zailoxtt/ru-grok-jailbreak",

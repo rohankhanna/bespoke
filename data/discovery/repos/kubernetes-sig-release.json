@@ -92,14 +92,18 @@
       "size": 6019
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:18.099413+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Repo for SIG release",
+    "fork": false,
     "full_name": "kubernetes/sig-release",
     "html_url": "https://github.com/kubernetes/sig-release",
     "language": "Shell",
     "pushed_at": "2026-04-17T17:37:05Z",
+    "stargazers_count": 607,
     "topics": [
       "cncf",
       "k8s-sig-release",

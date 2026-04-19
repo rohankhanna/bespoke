@@ -876,14 +876,18 @@
       "size": 27408
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:07.166745+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Make Claude Code production-ready \u2014 spec-driven plans, enforced quality gates, persistent knowledge",
+    "fork": false,
     "full_name": "maxritter/pilot-shell",
     "html_url": "https://github.com/maxritter/pilot-shell",
     "language": "TypeScript",
     "pushed_at": "2026-04-17T08:34:27Z",
+    "stargazers_count": 1650,
     "topics": [
       "ai-agents",
       "ai-assistant",
@@ -902,7 +906,7 @@
       "model-context-protocol",
       "spec-driven-development"
     ],
-    "updated_at": "2026-04-17T14:28:16Z"
+    "updated_at": "2026-04-18T23:31:18Z"
   },
   "repo_links": [
     {

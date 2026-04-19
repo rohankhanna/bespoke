@@ -848,19 +848,23 @@
       "size": 8676
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:17.117543+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A vector search SQLite extension that runs anywhere!",
+    "fork": false,
     "full_name": "asg017/sqlite-vec",
     "html_url": "https://github.com/asg017/sqlite-vec",
     "language": "C",
     "pushed_at": "2026-04-08T14:54:34Z",
+    "stargazers_count": 7451,
     "topics": [
       "sqlite",
       "sqlite-extension"
     ],
-    "updated_at": "2026-04-17T17:23:36Z"
+    "updated_at": "2026-04-19T11:33:52Z"
   },
   "repo_links": [
     {

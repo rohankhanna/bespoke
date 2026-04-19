@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · Unknown stars · Unknown
 
-Generated at: `2026-04-19T07:52:38.223094+00:00`
+Generated at: `2026-04-19T14:03:00.009749+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 4
+- repos: 3
 - terms: 22
 - components: 0
 - concepts: 8
@@ -26,7 +26,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [dredozubov/prd-generator](https://github.com/dredozubov/prd-generator) | unknown | 2026-01-14T10:29:46Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [LC044/WeChatMsg](https://github.com/LC044/WeChatMsg) | unknown | 2025-12-30T13:31:16Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [ThibautMelen/agentic-ai-systems](https://github.com/ThibautMelen/agentic-ai-systems) | unknown | 2025-12-08T13:10:04Z | Unknown | Unknown | 14 | 0 | 0 | 0 |
 | [bl-ue/tweakcc-system-prompts](https://github.com/bl-ue/tweakcc-system-prompts) | unknown | 2025-11-23T18:05:33Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
@@ -35,7 +34,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [dredozubov/prd-generator](https://github.com/dredozubov/prd-generator) | unknown | 2026-01-14T10:29:46Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [LC044/WeChatMsg](https://github.com/LC044/WeChatMsg) | unknown | 2025-12-30T13:31:16Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [ThibautMelen/agentic-ai-systems](https://github.com/ThibautMelen/agentic-ai-systems) | unknown | 2025-12-08T13:10:04Z | Unknown | Unknown | 14 | 0 | 0 | 0 |
 | [bl-ue/tweakcc-system-prompts](https://github.com/bl-ue/tweakcc-system-prompts) | unknown | 2025-11-23T18:05:33Z | Unknown | Unknown | 4 | 0 | 4 | 4 |

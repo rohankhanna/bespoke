@@ -8,14 +8,18 @@
       "size": 61
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:53.107388+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Automate x.ai registration with a web console, batch runner, WARP egress, and grok2api token sink in one project",
-    "full_name": "Florisheedless915/grok-register",
+    "fork": false,
+    "full_name": "florisheedless915/grok-register",
     "html_url": "https://github.com/Florisheedless915/grok-register",
     "language": "Python",
-    "pushed_at": "2026-04-18T02:18:53Z",
+    "pushed_at": "2026-04-19T12:38:12Z",
+    "stargazers_count": 0,
     "topics": [
       "algorithm",
       "cloudflare",
@@ -37,7 +41,7 @@
       "website",
       "xai"
     ],
-    "updated_at": "2026-04-18T02:18:57Z"
+    "updated_at": "2026-04-19T12:38:16Z"
   },
   "repo_links": [],
   "terms": []

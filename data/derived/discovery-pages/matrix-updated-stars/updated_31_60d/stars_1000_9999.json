@@ -1,19 +1,21 @@
 {
   "counts": {
-    "components": 56,
+    "components": 87,
     "concepts": 18,
     "observations": 18,
-    "repos": 4,
-    "terms": 22
+    "repos": 6,
+    "terms": 52
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
+    "dagger/container-use",
     "jpanther/congo",
+    "lobehub/lobe-chat-agents",
     "orogene/orogene",
     "snarktank/antfarm",
     "stravu/crystal"

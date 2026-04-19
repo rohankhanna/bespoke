@@ -707,14 +707,18 @@
       "size": 19355
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:57.843264+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "The best way to get AI coding agents to solve hard problems in complex codebases.",
+    "fork": false,
     "full_name": "humanlayer/humanlayer",
     "html_url": "https://github.com/humanlayer/humanlayer",
     "language": "TypeScript",
     "pushed_at": "2026-03-07T22:34:40Z",
+    "stargazers_count": 10485,
     "topics": [
       "agents",
       "ai",
@@ -727,7 +731,7 @@
       "llms",
       "opencode"
     ],
-    "updated_at": "2026-04-18T03:27:30Z"
+    "updated_at": "2026-04-19T11:19:25Z"
   },
   "repo_links": [],
   "terms": [

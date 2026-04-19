@@ -3,7 +3,7 @@
     "components": 13,
     "concepts": 10,
     "observations": 10,
-    "repos": 2,
+    "repos": 3,
     "terms": 10
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
+    "agenmod/okr-skill",
     "cdeust/cortex-cowork",
     "piqrypt/aiss-standard"
   ]

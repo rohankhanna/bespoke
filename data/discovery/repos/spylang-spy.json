@@ -462,14 +462,18 @@
       "size": 2988
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:57.112439+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "SPy language",
+    "fork": false,
     "full_name": "spylang/spy",
     "html_url": "https://github.com/spylang/spy",
     "language": "Python",
     "pushed_at": "2026-04-17T11:51:57Z",
+    "stargazers_count": 732,
     "topics": [],
     "updated_at": "2026-04-17T11:52:01Z"
   },

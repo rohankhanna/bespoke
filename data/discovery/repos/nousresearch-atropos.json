@@ -514,16 +514,20 @@
       "size": 2639
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:51.278916+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Atropos is a Language Model Reinforcement Learning Environments framework for collecting and evaluating LLM trajectories through diverse environments",
-    "full_name": "NousResearch/atropos",
+    "fork": false,
+    "full_name": "nousresearch/atropos",
     "html_url": "https://github.com/NousResearch/atropos",
     "language": "Python",
     "pushed_at": "2026-04-13T16:40:30Z",
+    "stargazers_count": 1083,
     "topics": [],
-    "updated_at": "2026-04-18T02:05:01Z"
+    "updated_at": "2026-04-19T09:41:10Z"
   },
   "repo_links": [
     {

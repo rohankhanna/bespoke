@@ -44,14 +44,18 @@
       "size": 4843
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:56.622379+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "\ud83e\udd16 Enhance your Neovim experience by querying xAI's Grok models effortlessly with a lightweight plugin featuring a floating chat interface and streaming responses.",
-    "full_name": "RobertAbao/grok-nvim",
+    "fork": false,
+    "full_name": "robertabao/grok-nvim",
     "html_url": "https://github.com/RobertAbao/grok-nvim",
     "language": "Lua",
-    "pushed_at": "2026-04-18T03:15:24Z",
+    "pushed_at": "2026-04-19T13:37:47Z",
+    "stargazers_count": 0,
     "topics": [
       "ai",
       "ai-integration",
@@ -68,7 +72,7 @@
       "utilities",
       "xai-api"
     ],
-    "updated_at": "2026-04-18T03:15:28Z"
+    "updated_at": "2026-04-19T13:37:52Z"
   },
   "repo_links": [],
   "terms": [

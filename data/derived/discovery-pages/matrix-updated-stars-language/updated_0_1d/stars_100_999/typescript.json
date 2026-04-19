@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 129,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 3,
-    "terms": 14
+    "components": 236,
+    "concepts": 6,
+    "observations": 6,
+    "repos": 6,
+    "terms": 31
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
     "elizaos/elizaos.github.io",
+    "grubersjoe/react-activity-calendar",
     "lobehub/lobe-chat-plugins",
-    "napi-rs/package-template"
+    "napi-rs/package-template",
+    "tombii/better-ccflare",
+    "tony1223/better-agent-terminal"
   ]
 }

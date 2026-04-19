@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9,
-    "concepts": 35,
-    "observations": 35,
-    "repos": 48,
-    "terms": 45
+    "components": 1,
+    "concepts": 24,
+    "observations": 24,
+    "repos": 26,
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,8 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
-    "agenmod/mirror-skill",
-    "agenmod/steamer-skill",
-    "ailev/FPF",
     "aitooools/chatgpt",
     "aitooools/chatgpt-plus-hezu",
     "aitooools/chatgpt-plus-recharge",
@@ -32,35 +29,16 @@
     "aitooools/youtube-hezu",
     "android/skills",
     "Astro-Han/karpathy-llm-wiki",
-    "Azizos911/Setja-Upp-Stilla-Yiimp-Namuvinnslupott-Hugbunadur-Ubuntu-Linux",
-    "BegmyratB/Floweye-yyyxxx.cc",
     "biparous-blaxploitation156/CipherMind",
-    "carloandremoreyra/XX",
     "chafingdishposition355/go-skills",
     "cloudflare/skills",
-    "Damacol/ai-hub",
-    "Damacol/gemma-4-collection",
-    "Damacol/google-gemma-2-2b-it",
-    "Damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive",
-    "Damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive",
-    "Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf",
-    "Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf",
-    "Damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit",
-    "Damacol/meta-llama-llama-3-2-3b",
-    "Damacol/xai-org-grok-2",
-    "EternaHybridExchange/eterna-mcp",
     "forrestchang/andrej-karpathy-skills",
     "Foundersieve687/skill-gateway",
     "graveyardsfocrdpktv/Ethereum-mempool-bot",
-    "Livemania18/Idiegti-Sukonfiguruoti-Yiimp-Kasimo-Baseinas-Programine-Iranga-Ubuntu-Linux",
-    "muhammadumer000/Ustanovka-i-nastrojka-Yiimp-Mayning-Pul-Programmnoe-Obespechenie-Ubuntu-Linux",
-    "Narutoxdd6/Nyro",
     "Nimbalyst/nimbalyst",
     "Piebald-AI/awesome-gemini-cli",
     "Pragmatical-transshipment598/claude-code-workflows",
-    "Shouted-numberone752/wechat-agent-connector",
     "tmstack/awesome-persona-skills",
-    "vivianalaced749/vk-calls-tunnel",
-    "wendyalbanez/ClawUI"
+    "vivianalaced749/vk-calls-tunnel"
   ]
 }

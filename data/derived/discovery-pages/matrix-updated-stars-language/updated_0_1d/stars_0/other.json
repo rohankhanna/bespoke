@@ -1,0 +1,23 @@
+{
+  "counts": {
+    "components": 4,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 5,
+    "terms": 4
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "other",
+    "star_bucket": "stars_0",
+    "updated_bucket": "updated_0_1d"
+  },
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "repo_ids": [
+    "b2agi/exist-is-charter",
+    "firestryk/chatgpt-website.github.io",
+    "markoswire/remember-me.ai",
+    "robertabao/grok-nvim",
+    "shoggo-ai/seniorvigil"
+  ]
+}

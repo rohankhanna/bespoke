@@ -149,14 +149,18 @@
       "size": 2587
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:25.426978+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Stream Claude Code's hidden output (thinking, tool calls, subagents) to a separate terminal in real-time (Rust port)",
+    "fork": false,
     "full_name": "phiat/claude-esp-rs",
     "html_url": "https://github.com/phiat/claude-esp-rs",
     "language": "Rust",
     "pushed_at": "2026-04-17T23:00:46Z",
+    "stargazers_count": 20,
     "topics": [
       "agents",
       "claude",

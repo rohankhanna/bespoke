@@ -167,14 +167,18 @@
       "size": 5218
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:54.575816+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Automatically audit your Mac for basic security hygiene.",
-    "full_name": "ParetoSecurity/pareto-mac",
+    "fork": false,
+    "full_name": "paretosecurity/pareto-mac",
     "html_url": "https://github.com/ParetoSecurity/pareto-mac",
     "language": "Swift",
     "pushed_at": "2026-04-12T09:59:57Z",
+    "stargazers_count": 437,
     "topics": [
       "endpoint-security",
       "macos",

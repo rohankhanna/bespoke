@@ -143,14 +143,18 @@
       "size": 6892
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:30.073026+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Git GUI Client",
-    "full_name": "soramimi/Guitar",
+    "fork": false,
+    "full_name": "soramimi/guitar",
     "html_url": "https://github.com/soramimi/Guitar",
     "language": "C",
-    "pushed_at": "2026-04-18T05:59:07Z",
+    "pushed_at": "2026-04-19T13:23:50Z",
+    "stargazers_count": 1673,
     "topics": [
       "client",
       "git",
@@ -166,7 +170,7 @@
       "raspberry-pi",
       "windows"
     ],
-    "updated_at": "2026-04-17T21:02:55Z"
+    "updated_at": "2026-04-19T13:23:54Z"
   },
   "repo_links": [],
   "terms": [

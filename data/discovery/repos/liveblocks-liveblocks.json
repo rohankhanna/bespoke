@@ -545,14 +545,18 @@
       "size": 2925
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:08.759810+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Realtime infrastructure for multiplayer apps and agents",
+    "fork": false,
     "full_name": "liveblocks/liveblocks",
     "html_url": "https://github.com/liveblocks/liveblocks",
     "language": "TypeScript",
     "pushed_at": "2026-04-17T15:15:29Z",
+    "stargazers_count": 4552,
     "topics": [
       "ai-agents",
       "ai-copilot",
@@ -571,7 +575,7 @@
       "yjs",
       "yjs-provider"
     ],
-    "updated_at": "2026-04-17T15:15:34Z"
+    "updated_at": "2026-04-18T09:18:44Z"
   },
   "repo_links": [
     {

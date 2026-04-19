@@ -194,14 +194,18 @@
       "size": 1543
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:36.180637+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\u4e07\u7269\u7686\u53ef Relic \u2014 \u7ed9\u7075\u9b42\u5f00\u4e2a GitHub | Universal Digital Immortality Engine \ud83e\uddec",
-    "full_name": "Ylsssq926/relic.skill",
+    "fork": false,
+    "full_name": "ylsssq926/relic.skill",
     "html_url": "https://github.com/Ylsssq926/relic.skill",
     "language": "TypeScript",
     "pushed_at": "2026-04-17T23:16:15Z",
+    "stargazers_count": 73,
     "topics": [
       "agent-skill",
       "ai-skill",
@@ -222,7 +226,7 @@
       "soul",
       "windsurf"
     ],
-    "updated_at": "2026-04-17T23:16:19Z"
+    "updated_at": "2026-04-18T17:00:20Z"
   },
   "repo_links": [
     {

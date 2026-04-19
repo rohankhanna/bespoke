@@ -154,18 +154,22 @@
       "size": 2156
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:26.079977+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Natural language workflows that enable AI agents to perform complex, multi-step tasks with consistency and reliability.",
+    "fork": false,
     "full_name": "strands-agents/agent-sop",
     "html_url": "https://github.com/strands-agents/agent-sop",
     "language": "Python",
     "pushed_at": "2026-04-15T23:04:31Z",
+    "stargazers_count": 908,
     "topics": [
       "strands-agents"
     ],
-    "updated_at": "2026-04-17T19:29:34Z"
+    "updated_at": "2026-04-19T13:46:42Z"
   },
   "repo_links": [
     {

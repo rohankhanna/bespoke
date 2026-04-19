@@ -1,0 +1,20 @@
+{
+  "counts": {
+    "components": 4,
+    "concepts": 1,
+    "observations": 1,
+    "repos": 2,
+    "terms": 4
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "go",
+    "star_bucket": "stars_1000_9999",
+    "updated_bucket": "updated_181d_plus"
+  },
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "repo_ids": [
+    "darthsim/hivemind",
+    "darthsim/overmind"
+  ]
+}

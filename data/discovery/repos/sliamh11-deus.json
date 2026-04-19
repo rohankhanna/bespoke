@@ -891,14 +891,18 @@
       "size": 2048
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:35.626668+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A token-efficient open-source AI assistant that remembers, adapts, and improves \u2014 secured, self-hosted, and entirely yours.",
-    "full_name": "sliamh11/Deus",
+    "fork": false,
+    "full_name": "sliamh11/deus",
     "html_url": "https://github.com/sliamh11/Deus",
     "language": "Python",
-    "pushed_at": "2026-04-17T23:01:46Z",
+    "pushed_at": "2026-04-19T13:44:37Z",
+    "stargazers_count": 18,
     "topics": [
       "ai-assistant",
       "ai-memory",
@@ -909,7 +913,7 @@
       "semantic-memory",
       "semantic-search"
     ],
-    "updated_at": "2026-04-17T23:01:30Z"
+    "updated_at": "2026-04-19T13:44:23Z"
   },
   "repo_links": [
     {

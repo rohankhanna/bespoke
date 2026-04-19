@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · Unknown stars · Other
 
-Generated at: `2026-04-19T07:52:38.223094+00:00`
+Generated at: `2026-04-19T14:03:00.009749+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 4
+- repos: 3
 - terms: 4
-- components: 48
+- components: 11
 - concepts: 0
 - observations: 0
 
@@ -27,7 +27,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [manzaltu/claude-code-ide.el](https://github.com/manzaltu/claude-code-ide.el) | unknown | 2026-04-02T05:20:26Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
-| [Haleclipse/Claudix](https://github.com/Haleclipse/Claudix) | unknown | 2026-04-01T19:15:31Z | Other | Unknown | 0 | 37 | 0 | 0 |
 | [zarazhangrui/codebase-to-course](https://github.com/zarazhangrui/codebase-to-course) | unknown | 2026-03-30T18:26:09Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [steipete/Peekaboo](https://github.com/steipete/Peekaboo) | unknown | 2026-03-28T04:18:13Z | Other | CLI | 4 | 8 | 0 | 0 |
 
@@ -36,6 +35,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [manzaltu/claude-code-ide.el](https://github.com/manzaltu/claude-code-ide.el) | unknown | 2026-04-02T05:20:26Z | Other | Infrastructure/tooling | 0 | 3 | 0 | 0 |
-| [Haleclipse/Claudix](https://github.com/Haleclipse/Claudix) | unknown | 2026-04-01T19:15:31Z | Other | Unknown | 0 | 37 | 0 | 0 |
 | [zarazhangrui/codebase-to-course](https://github.com/zarazhangrui/codebase-to-course) | unknown | 2026-03-30T18:26:09Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [steipete/Peekaboo](https://github.com/steipete/Peekaboo) | unknown | 2026-03-28T04:18:13Z | Other | CLI | 4 | 8 | 0 | 0 |

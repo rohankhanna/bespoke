@@ -218,14 +218,18 @@
       "size": 16975
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:32.340926+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Comparateur EHPAD objectif \u2014 prix, qualit\u00e9 HAS, hygi\u00e8ne alimentaire pour 703 EHPAD en \u00cele-de-France. Donn\u00e9es publiques FINESS, CNSA, HAS, Alim'confiance.",
-    "full_name": "Shoggo-ai/seniorvigil",
+    "fork": false,
+    "full_name": "shoggo-ai/seniorvigil",
     "html_url": "https://github.com/Shoggo-ai/seniorvigil",
     "language": "Astro",
-    "pushed_at": "2026-04-17T21:52:38Z",
+    "pushed_at": "2026-04-19T12:17:34Z",
+    "stargazers_count": 0,
     "topics": [
       "astro",
       "comparateur",
@@ -237,7 +241,7 @@
       "senior",
       "seo"
     ],
-    "updated_at": "2026-04-17T21:52:42Z"
+    "updated_at": "2026-04-19T12:17:39Z"
   },
   "repo_links": [],
   "terms": [

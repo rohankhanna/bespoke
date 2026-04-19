@@ -8,14 +8,18 @@
       "size": 4290
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:45.784872+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83d\udce7 Unlock Apple Mail's potential with 42 powerful tools for full scripting control, enabling advanced mailbox and email management.",
+    "fork": false,
     "full_name": "cyber404/che-apple-mail-mcp",
     "html_url": "https://github.com/cyber404/che-apple-mail-mcp",
     "language": "Swift",
-    "pushed_at": "2026-04-18T01:36:05Z",
+    "pushed_at": "2026-04-19T11:53:10Z",
+    "stargazers_count": 1,
     "topics": [
       "apple-mail",
       "applescript",
@@ -28,7 +32,7 @@
       "model-context-protocol",
       "swift"
     ],
-    "updated_at": "2026-04-18T01:36:09Z"
+    "updated_at": "2026-04-19T11:53:14Z"
   },
   "repo_links": [],
   "terms": []

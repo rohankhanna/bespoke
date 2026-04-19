@@ -299,14 +299,18 @@
       "size": 2886
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:54.850539+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "AI agent governance layer \u2014 sign, monitor and control every agent action. EU AI Act \u00b7 ANSSI \u00b7 NIST ready.",
-    "full_name": "PiQrypt/piqrypt",
+    "fork": false,
+    "full_name": "piqrypt/piqrypt",
     "html_url": "https://github.com/PiQrypt/piqrypt",
     "language": "Python",
     "pushed_at": "2026-04-17T10:34:51Z",
+    "stargazers_count": 2,
     "topics": [
       "a2a",
       "a2a-agent",

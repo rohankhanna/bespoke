@@ -511,14 +511,18 @@
       "size": 3125
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:35.093863+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Persistent memory for Claude Code \u2014 41 neuroscience papers, 20 biological mechanisms. 97.8% R@10 LongMemEval | 92.6% R@10 LoCoMo | +33.4% BEAM-10M over flat retrieval (0.471 vs 0.353). Stage-Aware Context Assembly. PostgreSQL + pgvector.",
-    "full_name": "cdeust/Cortex",
+    "fork": false,
+    "full_name": "cdeust/cortex",
     "html_url": "https://github.com/cdeust/Cortex",
     "language": "Python",
     "pushed_at": "2026-04-17T22:49:25Z",
+    "stargazers_count": 21,
     "topics": [
       "agent-memory-system",
       "anthropic",

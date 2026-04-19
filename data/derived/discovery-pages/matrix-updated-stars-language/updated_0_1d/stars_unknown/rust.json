@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 157,
-    "concepts": 73,
-    "observations": 73,
-    "repos": 9,
-    "terms": 86
+    "components": 47,
+    "concepts": 38,
+    "observations": 38,
+    "repos": 3,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,10 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
-    "astral-sh/ruff",
-    "cargo-bins/cargo-quickinstall",
-    "denoland/deno",
-    "hashintel/hash",
-    "openai/codex",
     "rust-lang/rust",
     "tekumara/typos-lsp",
-    "tracel-ai/burn",
-    "zeroclaw-labs/zeroclaw"
+    "tracel-ai/burn"
   ]
 }

@@ -951,14 +951,18 @@
       "size": 1556
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:54.557213+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "One UI is all done with chatgpt web, midjourney, gpts,suno,luma,runway,viggle,flux,ideogram,realtime,pika,udio; Simultaneous support  Web / PWA / Linux / Win / MacOS platform",
-    "full_name": "Dooy/chatgpt-web-midjourney-proxy",
+    "fork": false,
+    "full_name": "dooy/chatgpt-web-midjourney-proxy",
     "html_url": "https://github.com/Dooy/chatgpt-web-midjourney-proxy",
     "language": "JavaScript",
     "pushed_at": "2026-03-28T11:40:44Z",
+    "stargazers_count": 6655,
     "topics": [
       "chatgpt-ui",
       "fal-ai",
@@ -977,7 +981,7 @@
       "veo3",
       "viggle"
     ],
-    "updated_at": "2026-04-18T02:52:08Z"
+    "updated_at": "2026-04-19T08:12:23Z"
   },
   "repo_links": [
     {

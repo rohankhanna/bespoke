@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 0,
-    "concepts": 5,
-    "observations": 5,
-    "repos": 3,
-    "terms": 5
+    "concepts": 0,
+    "observations": 0,
+    "repos": 1,
+    "terms": 0
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,8 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
-    "knownsec/404StarLink-Project",
-    "OneRedOak/claude-code-workflows",
-    "xaoyaoo/PyWxDump"
+    "OneRedOak/claude-code-workflows"
   ]
 }

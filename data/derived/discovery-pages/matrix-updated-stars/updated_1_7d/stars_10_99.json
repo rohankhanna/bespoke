@@ -1,29 +1,40 @@
 {
   "counts": {
-    "components": 133,
-    "concepts": 24,
-    "observations": 25,
-    "repos": 12,
-    "terms": 54
+    "components": 253,
+    "concepts": 45,
+    "observations": 46,
+    "repos": 23,
+    "terms": 85
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
     "agents-squads/squads-cli",
+    "agricidaniel/claude-cybersecurity",
+    "allenreder/cliproxyapi-quota-inspector",
     "beyondcode/claude-hooks-sdk",
-    "cloudartisan/cloudartisan.github.io",
+    "cdeust/cortex",
+    "compozy/kb",
     "dreamiurg/claude-mountaineering-skills",
     "fgrehm/clotilde",
     "flinedev/plankit",
     "hagan/claudia-statusline",
+    "joshsymonds/cc-tools",
     "kubernetes/steering",
     "lobehub/lobe-lint",
+    "marciogranzotto/clawd-tank",
+    "mem0ai/memory-benchmarks",
+    "musicman3/emarket",
+    "phiat/claude-esp-rs",
     "sgcarstrends/sgcarstrends",
     "tianrking/weixin-agent-rs",
-    "vaporif/parry-guard"
+    "tombelieber/claude-view",
+    "vaporif/parry-guard",
+    "ylsssq926/relic.skill",
+    "zuplo/docs"
   ]
 }

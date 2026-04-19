@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 290,
-    "concepts": 61,
-    "observations": 61,
-    "repos": 24,
-    "terms": 113
+    "components": 161,
+    "concepts": 60,
+    "observations": 60,
+    "repos": 16,
+    "terms": 65
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "AUTOMATIC1111/stable-diffusion-webui",
@@ -21,19 +21,11 @@
     "charmbracelet/glamour",
     "ClaytonFarr/ralph-playbook",
     "coaidev/coai",
-    "dagger/container-use",
-    "eckardt/cchistory",
     "Haleclipse/CCometixLine",
-    "humanlayer/humanlayer",
-    "jawwadfirdousi/agent-skills",
     "junegunn/vim-plug",
     "kamranahmedse/claude-run",
-    "klaudworks/ralph-meets-rex",
     "knownsec/404StarLink",
     "kyleneideck/BackgroundMusic",
-    "lobehub/lobe-chat-agents",
-    "lobehub/lobe-tts",
-    "nulone/claude-rules-doctor",
     "shareAI-lab/claw0",
     "steipete/imsg",
     "vercel/satori"

@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · Shell
 
-Generated at: `2026-04-19T07:52:38.223094+00:00`
+Generated at: `2026-04-19T14:03:00.009749+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1
-- terms: 18
-- components: 2
+- repos: 2
+- terms: 22
+- components: 7
 - concepts: 18
 - observations: 18
 
@@ -26,10 +26,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [serpro69/claude-toolbox](https://github.com/serpro69/claude-toolbox) | 128 | 2026-04-19T13:54:46Z | Shell | Infrastructure/tooling | 4 | 5 | 0 | 0 |
 | [alfredolopez80/multi-agent-ralph-loop](https://github.com/alfredolopez80/multi-agent-ralph-loop) | 122 | 2026-04-18T21:55:35Z | Shell | CLI | 18 | 2 | 18 | 18 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [serpro69/claude-toolbox](https://github.com/serpro69/claude-toolbox) | 128 | 2026-04-19T13:54:46Z | Shell | Infrastructure/tooling | 4 | 5 | 0 | 0 |
 | [alfredolopez80/multi-agent-ralph-loop](https://github.com/alfredolopez80/multi-agent-ralph-loop) | 122 | 2026-04-18T21:55:35Z | Shell | CLI | 18 | 2 | 18 | 18 |

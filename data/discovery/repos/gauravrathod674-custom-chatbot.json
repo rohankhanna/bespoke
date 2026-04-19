@@ -1111,14 +1111,18 @@
       "size": 1448
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:40.872437+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A highly customizable, performant, and intelligent React chatbot component. ",
-    "full_name": "gauravRathod674/custom-chatbot",
+    "fork": false,
+    "full_name": "gauravrathod674/custom-chatbot",
     "html_url": "https://github.com/gauravRathod674/custom-chatbot",
     "language": "JavaScript",
-    "pushed_at": "2026-04-18T01:05:12Z",
+    "pushed_at": "2026-04-19T08:39:25Z",
+    "stargazers_count": 3,
     "topics": [
       "chatbot",
       "claude-api",
@@ -1128,7 +1132,7 @@
       "react",
       "reactjs"
     ],
-    "updated_at": "2026-04-18T01:05:15Z"
+    "updated_at": "2026-04-19T08:39:29Z"
   },
   "repo_links": [],
   "terms": [

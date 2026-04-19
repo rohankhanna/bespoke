@@ -1,0 +1,1207 @@
+{
+  "budget_seconds": 2400,
+  "elapsed_seconds": 72.671,
+  "generated_at": "2026-04-19T14:01:47.273319+00:00",
+  "refresh_limit": 250,
+  "refreshed_count": 235,
+  "refreshed_repositories": [
+    "harperreed/dotfiles",
+    "dyoshikawa/rulesync",
+    "danielrosehill/claude-code-linux-desktop-slash-commands",
+    "zippoxer/recall",
+    "ksylvan/fabric",
+    "rustcrypto/signatures",
+    "darthsim/hivemind",
+    "jawwadfirdousi/agent-skills",
+    "chinanf-boy/ripgrep-zh",
+    "libp2p/go-libp2p",
+    "knownsec/404starlink-project",
+    "lorexxar/kunlun-m",
+    "kubernetes/enhancements",
+    "lobehub/lobe-editor",
+    "agenmod/steamer-skill",
+    "shareai-lab/kode-agent-sdk",
+    "haleclipse/claudix",
+    "eckardt/cchistory",
+    "agenmod/distill-shield-skill",
+    "agenmod/distill-protocol-skill",
+    "aannoo/hcom",
+    "grubersjoe/react-activity-calendar",
+    "agenmod/mirror-skill",
+    "paretosecurity/pareto-mac",
+    "piqrypt/piqrypt",
+    "agenmod/okr-skill",
+    "mem0ai/memory-benchmarks",
+    "julienxx/terminal-notifier",
+    "kubernetes-sigs/kustomize",
+    "thx/resvg-js",
+    "snipeship/ccflare",
+    "google-github-actions/auth",
+    "spylang/spy",
+    "zuplo/docs",
+    "sunthinks/kvmind",
+    "cdeust/zetetic-team-subagents",
+    "cloudllm-ai/mentisdb",
+    "cjtruheart/abundance-codex",
+    "eternahybridexchange/eterna-mcp",
+    "seunghunbae-3svs/solo-cto-agent",
+    "cargo-bins/cargo-quickinstall",
+    "skenetechnologies/skene",
+    "cafitac/hermit-agent",
+    "novicezk/midjourney-proxy",
+    "tony1223/better-agent-terminal",
+    "gyf0311/lorekit",
+    "archestra-ai/terraform-provider-archestra",
+    "lnx-search/rewrk",
+    "damacol/gemma-4-collection",
+    "asg017/sqlite-vss",
+    "xaoyaoo/pywxdump",
+    "lobehub/lobe-tts",
+    "allenreder/cliproxyapi-quota-inspector",
+    "1runeberg/confichat",
+    "damacol/ai-hub",
+    "gibdd-dps/prizolov-agent-os",
+    "maxritter/pilot-shell",
+    "damacol/meta-llama-llama-3-2-3b",
+    "damacol/xai-org-grok-2",
+    "damacol/google-gemma-2-2b-it",
+    "joinwell52-ai/codeflow-pwa",
+    "liveblocks/liveblocks",
+    "saidudz/chat-ai",
+    "ailev/fpf",
+    "aaronwong1999/hermesclaw",
+    "carloandremoreyra/xx",
+    "klodr/mercury-invoicing-mcp",
+    "anthropics/claudes-c-compiler",
+    "agrimsingh/ralph-wiggum-cursor",
+    "lonewolf-jp/convopeq",
+    "caesar0301/soothe",
+    "petmal/mindtrial",
+    "lobehub/lobe-chat-agents",
+    "kimosahy/railroaded",
+    "toyamarinyon/giselle",
+    "mem0ai/mem0",
+    "flinedev/tandemkit",
+    "itsrishika/payment-bypass-bug-lab",
+    "protectai/llm-guard",
+    "verkyyi/tokenman",
+    "l12203685/digital-immortality",
+    "b2agi/exist-is-charter",
+    "redductive/securepixel",
+    "dm0x23/portfolio-website",
+    "piqrypt/piqrypt-mcp-server",
+    "xiaochu-1208/interview-assistant-cli",
+    "wblondel/blog",
+    "jsleekr/skilldigest",
+    "asg017/sqlite-vec",
+    "tombii/better-ccflare",
+    "peergos/peergos",
+    "kubernetes/sig-release",
+    "mohfer/nous-proxy",
+    "anojndr/grok-to-openai",
+    "llama-farm/llamafarm",
+    "plastic-labs/honcho",
+    "musicman3/emarket",
+    "chaos2cured/freelattice",
+    "etanhey/brainlayer",
+    "thedoggybrad/easylist-mirror",
+    "damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf",
+    "nousresearch/hermes-agent",
+    "tornikepe/ai-chatbot",
+    "jsonbored/claudepro-directory",
+    "sethgammon/citadel",
+    "damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive",
+    "damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive",
+    "damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf",
+    "damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit",
+    "tombelieber/claude-view",
+    "trailofbits/buttercup",
+    "google/j2cl",
+    "kidshadow79/ogma",
+    "px4/px4-autopilot",
+    "roampal-ai/roampal",
+    "mupozg823/codelens-mcp-plugin",
+    "trailofbits/claude-code-devcontainer",
+    "phiat/claude-esp-rs",
+    "openclaw/nix-openclaw",
+    "strands-agents/agent-sop",
+    "kensave/agent-memory-rs",
+    "stripe/stripe-python",
+    "glittercowboy/taches-cc-resources",
+    "eth-sri/lmql",
+    "omnara-ai/omnara",
+    "k8nstantin/openpraxis",
+    "nielsgroen/claude-tmux",
+    "owloops/claude-powerline",
+    "libp2p/rust-libp2p",
+    "fcakyon/claude-codex-settings",
+    "steipete/claude-code-mcp",
+    "lobehub/sd-webui-lobe-theme",
+    "soramimi/guitar",
+    "neuroverseos/neuroverseos-governance",
+    "stripe/stripe-node",
+    "giselles-ai/giselle",
+    "googleapis/python-genai",
+    "getzep/zep",
+    "serpro69/capy",
+    "shoggo-ai/seniorvigil",
+    "dredozubov/prd-generator",
+    "serpro69/claude-toolbox",
+    "actions/runner",
+    "rsmdt/the-startup",
+    "npm/cli",
+    "phiat/claude-esp",
+    "nyatinte/ccexp",
+    "delgan/loguru",
+    "klaudworks/ralph-meets-rex",
+    "cdeust/cortex",
+    "hashintel/hash",
+    "sliamh11/deus",
+    "shareai-lab/kode-agent",
+    "ylsssq926/relic.skill",
+    "google/auto",
+    "marciogranzotto/clawd-tank",
+    "korotovsky/slack-mcp-server",
+    "agent-sh/agentsys",
+    "pchalasani/claude-code-tools",
+    "foxj77/claudectx",
+    "eventual-inc/daft",
+    "greggh/claude-code.nvim",
+    "ryjoxtechnologies/octopoda-os",
+    "databus23/helm-diff",
+    "langchain-ai/langchainjs",
+    "agricidaniel/claude-cybersecurity",
+    "lewislulu/llm-wiki-skill",
+    "floxym/financial-chat-finance-nlp-chatbots",
+    "floxym/financial-chat",
+    "gauravrathod674/custom-chatbot",
+    "narutoxdd6/nyro",
+    "evmts/tevm-monorepo",
+    "jkheadley/instar",
+    "darthsim/overmind",
+    "enxs969/skiller",
+    "frank-syncmarket/skills",
+    "livemania18/idiegti-sukonfiguruoti-yiimp-kasimo-baseinas-programine-iranga-ubuntu-linux",
+    "muhammadumer000/ustanovka-i-nastrojka-yiimp-mayning-pul-programmnoe-obespechenie-ubuntu-linux",
+    "azizos911/setja-upp-stilla-yiimp-namuvinnslupott-hugbunadur-ubuntu-linux",
+    "kmjjjj/polymarket-arbitrage-bot-btc-sol-15m",
+    "shubishere/ai-drawio",
+    "gopi2211/ralph",
+    "erikceballos/nano-banana-cli",
+    "gerardtschanz/revenue-os",
+    "begmyratb/floweye-yyyxxx.cc",
+    "rrsaldanha/burp-mcp-agents",
+    "cyber404/che-apple-mail-mcp",
+    "stripe/ai",
+    "undeadlist/claude-code-agents",
+    "astro-han/claude-pace",
+    "lis186/ccxray",
+    "robertguss/claude-code-toolkit",
+    "akin-ozer/cc-devops-skills",
+    "neolabhq/context-engineering-kit",
+    "alonw0/web-asset-generator",
+    "agenmod/immortal-skill",
+    "compozy/kb",
+    "panaversity/claude-code-agent-teams-exercises",
+    "muratcankoylan/ralph-wiggum-marketer",
+    "joshsymonds/cc-tools",
+    "markoswire/remember-me.ai",
+    "dagger/container-use",
+    "agent-sh/agnix",
+    "nulone/claude-rules-doctor",
+    "gowaylee/cchooks",
+    "nousresearch/atropos",
+    "eikarna/hermes-rs",
+    "jonislutheran87/weclaw",
+    "shouted-numberone752/wechat-agent-connector",
+    "aipurposes1587-max/weixin-agent-rs",
+    "similar-colpoxerosis201/codex-wechat",
+    "florisheedless915/grok-register",
+    "wendyalbanez/clawui",
+    "firestryk/chatgpt-website.github.io",
+    "liam-hq/liam",
+    "skills-directory/skill-codex",
+    "dooy/chatgpt-web-midjourney-proxy",
+    "saminiscool/twitter-ai-agent",
+    "archestra-ai/archestra",
+    "abraxas-365/claudio",
+    "bryanh9111/engram",
+    "withastro/astro",
+    "hesreallyhim/awesome-claude-code",
+    "robertabao/grok-nvim",
+    "trailofbits/claude-code-config",
+    "penpoen/llm-sugarscape",
+    "anthropics/claude-code",
+    "humanlayer/humanlayer",
+    "liangshengyong/lanwan",
+    "momentique/source-code-security-audit-reviewer",
+    "kubernetes/community",
+    "onyx-dot-app/onyx",
+    "letta-ai/claude-subconscious",
+    "garrytan/gstack",
+    "ollama/ollama"
+  ],
+  "remaining_budget_seconds": 2327.329,
+  "repo_timings": [
+    {
+      "elapsed_seconds": 0.284,
+      "full_name": "harperreed/dotfiles"
+    },
+    {
+      "elapsed_seconds": 0.286,
+      "full_name": "dyoshikawa/rulesync"
+    },
+    {
+      "elapsed_seconds": 0.284,
+      "full_name": "danielrosehill/claude-code-linux-desktop-slash-commands"
+    },
+    {
+      "elapsed_seconds": 0.271,
+      "full_name": "zippoxer/recall"
+    },
+    {
+      "elapsed_seconds": 0.341,
+      "full_name": "ksylvan/fabric"
+    },
+    {
+      "elapsed_seconds": 0.324,
+      "full_name": "rustcrypto/signatures"
+    },
+    {
+      "elapsed_seconds": 0.287,
+      "full_name": "darthsim/hivemind"
+    },
+    {
+      "elapsed_seconds": 0.279,
+      "full_name": "jawwadfirdousi/agent-skills"
+    },
+    {
+      "elapsed_seconds": 0.421,
+      "full_name": "chinanf-boy/ripgrep-zh"
+    },
+    {
+      "elapsed_seconds": 0.299,
+      "full_name": "libp2p/go-libp2p"
+    },
+    {
+      "elapsed_seconds": 0.295,
+      "full_name": "knownsec/404starlink-project"
+    },
+    {
+      "elapsed_seconds": 0.302,
+      "full_name": "lorexxar/kunlun-m"
+    },
+    {
+      "elapsed_seconds": 0.279,
+      "full_name": "kubernetes/enhancements"
+    },
+    {
+      "elapsed_seconds": 0.42,
+      "full_name": "lobehub/lobe-editor"
+    },
+    {
+      "elapsed_seconds": 0.273,
+      "full_name": "agenmod/steamer-skill"
+    },
+    {
+      "elapsed_seconds": 0.321,
+      "full_name": "shareai-lab/kode-agent-sdk"
+    },
+    {
+      "elapsed_seconds": 0.294,
+      "full_name": "haleclipse/claudix"
+    },
+    {
+      "elapsed_seconds": 0.287,
+      "full_name": "eckardt/cchistory"
+    },
+    {
+      "elapsed_seconds": 0.288,
+      "full_name": "agenmod/distill-shield-skill"
+    },
+    {
+      "elapsed_seconds": 0.285,
+      "full_name": "agenmod/distill-protocol-skill"
+    },
+    {
+      "elapsed_seconds": 0.264,
+      "full_name": "aannoo/hcom"
+    },
+    {
+      "elapsed_seconds": 0.27,
+      "full_name": "grubersjoe/react-activity-calendar"
+    },
+    {
+      "elapsed_seconds": 0.288,
+      "full_name": "agenmod/mirror-skill"
+    },
+    {
+      "elapsed_seconds": 0.277,
+      "full_name": "paretosecurity/pareto-mac"
+    },
+    {
+      "elapsed_seconds": 0.275,
+      "full_name": "piqrypt/piqrypt"
+    },
+    {
+      "elapsed_seconds": 0.279,
+      "full_name": "agenmod/okr-skill"
+    },
+    {
+      "elapsed_seconds": 0.279,
+      "full_name": "mem0ai/memory-benchmarks"
+    },
+    {
+      "elapsed_seconds": 0.264,
+      "full_name": "julienxx/terminal-notifier"
+    },
+    {
+      "elapsed_seconds": 0.292,
+      "full_name": "kubernetes-sigs/kustomize"
+    },
+    {
+      "elapsed_seconds": 0.297,
+      "full_name": "thx/resvg-js"
+    },
+    {
+      "elapsed_seconds": 0.252,
+      "full_name": "snipeship/ccflare"
+    },
+    {
+      "elapsed_seconds": 0.281,
+      "full_name": "google-github-actions/auth"
+    },
+    {
+      "elapsed_seconds": 0.317,
+      "full_name": "spylang/spy"
+    },
+    {
+      "elapsed_seconds": 0.326,
+      "full_name": "zuplo/docs"
+    },
+    {
+      "elapsed_seconds": 0.307,
+      "full_name": "sunthinks/kvmind"
+    },
+    {
+      "elapsed_seconds": 0.335,
+      "full_name": "cdeust/zetetic-team-subagents"
+    },
+    {
+      "elapsed_seconds": 0.325,
+      "full_name": "cloudllm-ai/mentisdb"
+    },
+    {
+      "elapsed_seconds": 0.272,
+      "full_name": "cjtruheart/abundance-codex"
+    },
+    {
+      "elapsed_seconds": 0.281,
+      "full_name": "eternahybridexchange/eterna-mcp"
+    },
+    {
+      "elapsed_seconds": 0.292,
+      "full_name": "seunghunbae-3svs/solo-cto-agent"
+    },
+    {
+      "elapsed_seconds": 0.292,
+      "full_name": "cargo-bins/cargo-quickinstall"
+    },
+    {
+      "elapsed_seconds": 0.316,
+      "full_name": "skenetechnologies/skene"
+    },
+    {
+      "elapsed_seconds": 0.26,
+      "full_name": "cafitac/hermit-agent"
+    },
+    {
+      "elapsed_seconds": 0.3,
+      "full_name": "novicezk/midjourney-proxy"
+    },
+    {
+      "elapsed_seconds": 0.277,
+      "full_name": "tony1223/better-agent-terminal"
+    },
+    {
+      "elapsed_seconds": 0.266,
+      "full_name": "gyf0311/lorekit"
+    },
+    {
+      "elapsed_seconds": 0.35,
+      "full_name": "archestra-ai/terraform-provider-archestra"
+    },
+    {
+      "elapsed_seconds": 0.349,
+      "full_name": "lnx-search/rewrk"
+    },
+    {
+      "elapsed_seconds": 0.299,
+      "full_name": "damacol/gemma-4-collection"
+    },
+    {
+      "elapsed_seconds": 0.277,
+      "full_name": "asg017/sqlite-vss"
+    },
+    {
+      "elapsed_seconds": 0.305,
+      "full_name": "xaoyaoo/pywxdump"
+    },
+    {
+      "elapsed_seconds": 0.311,
+      "full_name": "lobehub/lobe-tts"
+    },
+    {
+      "elapsed_seconds": 0.289,
+      "full_name": "allenreder/cliproxyapi-quota-inspector"
+    },
+    {
+      "elapsed_seconds": 0.297,
+      "full_name": "1runeberg/confichat"
+    },
+    {
+      "elapsed_seconds": 0.277,
+      "full_name": "damacol/ai-hub"
+    },
+    {
+      "elapsed_seconds": 0.289,
+      "full_name": "gibdd-dps/prizolov-agent-os"
+    },
+    {
+      "elapsed_seconds": 0.292,
+      "full_name": "maxritter/pilot-shell"
+    },
+    {
+      "elapsed_seconds": 0.287,
+      "full_name": "damacol/meta-llama-llama-3-2-3b"
+    },
+    {
+      "elapsed_seconds": 0.283,
+      "full_name": "damacol/xai-org-grok-2"
+    },
+    {
+      "elapsed_seconds": 0.41,
+      "full_name": "damacol/google-gemma-2-2b-it"
+    },
+    {
+      "elapsed_seconds": 0.29,
+      "full_name": "joinwell52-ai/codeflow-pwa"
+    },
+    {
+      "elapsed_seconds": 0.322,
+      "full_name": "liveblocks/liveblocks"
+    },
+    {
+      "elapsed_seconds": 0.27,
+      "full_name": "saidudz/chat-ai"
+    },
+    {
+      "elapsed_seconds": 0.282,
+      "full_name": "ailev/fpf"
+    },
+    {
+      "elapsed_seconds": 0.278,
+      "full_name": "aaronwong1999/hermesclaw"
+    },
+    {
+      "elapsed_seconds": 0.281,
+      "full_name": "carloandremoreyra/xx"
+    },
+    {
+      "elapsed_seconds": 0.286,
+      "full_name": "klodr/mercury-invoicing-mcp"
+    },
+    {
+      "elapsed_seconds": 0.303,
+      "full_name": "anthropics/claudes-c-compiler"
+    },
+    {
+      "elapsed_seconds": 0.278,
+      "full_name": "agrimsingh/ralph-wiggum-cursor"
+    },
+    {
+      "elapsed_seconds": 0.292,
+      "full_name": "lonewolf-jp/convopeq"
+    },
+    {
+      "elapsed_seconds": 0.3,
+      "full_name": "caesar0301/soothe"
+    },
+    {
+      "elapsed_seconds": 0.31,
+      "full_name": "petmal/mindtrial"
+    },
+    {
+      "elapsed_seconds": 0.328,
+      "full_name": "lobehub/lobe-chat-agents"
+    },
+    {
+      "elapsed_seconds": 0.288,
+      "full_name": "kimosahy/railroaded"
+    },
+    {
+      "elapsed_seconds": 0.36,
+      "full_name": "toyamarinyon/giselle"
+    },
+    {
+      "elapsed_seconds": 0.309,
+      "full_name": "mem0ai/mem0"
+    },
+    {
+      "elapsed_seconds": 0.307,
+      "full_name": "flinedev/tandemkit"
+    },
+    {
+      "elapsed_seconds": 0.298,
+      "full_name": "itsrishika/payment-bypass-bug-lab"
+    },
+    {
+      "elapsed_seconds": 0.294,
+      "full_name": "protectai/llm-guard"
+    },
+    {
+      "elapsed_seconds": 0.285,
+      "full_name": "verkyyi/tokenman"
+    },
+    {
+      "elapsed_seconds": 0.256,
+      "full_name": "l12203685/digital-immortality"
+    },
+    {
+      "elapsed_seconds": 0.292,
+      "full_name": "b2agi/exist-is-charter"
+    },
+    {
+      "elapsed_seconds": 0.286,
+      "full_name": "redductive/securepixel"
+    },
+    {
+      "elapsed_seconds": 0.278,
+      "full_name": "dm0x23/portfolio-website"
+    },
+    {
+      "elapsed_seconds": 0.33,
+      "full_name": "piqrypt/piqrypt-mcp-server"
+    },
+    {
+      "elapsed_seconds": 0.288,
+      "full_name": "xiaochu-1208/interview-assistant-cli"
+    },
+    {
+      "elapsed_seconds": 0.272,
+      "full_name": "wblondel/blog"
+    },
+    {
+      "elapsed_seconds": 0.295,
+      "full_name": "jsleekr/skilldigest"
+    },
+    {
+      "elapsed_seconds": 0.471,
+      "full_name": "asg017/sqlite-vec"
+    },
+    {
+      "elapsed_seconds": 0.369,
+      "full_name": "tombii/better-ccflare"
+    },
+    {
+      "elapsed_seconds": 0.298,
+      "full_name": "peergos/peergos"
+    },
+    {
+      "elapsed_seconds": 0.314,
+      "full_name": "kubernetes/sig-release"
+    },
+    {
+      "elapsed_seconds": 0.281,
+      "full_name": "mohfer/nous-proxy"
+    },
+    {
+      "elapsed_seconds": 0.272,
+      "full_name": "anojndr/grok-to-openai"
+    },
+    {
+      "elapsed_seconds": 0.296,
+      "full_name": "llama-farm/llamafarm"
+    },
+    {
+      "elapsed_seconds": 0.321,
+      "full_name": "plastic-labs/honcho"
+    },
+    {
+      "elapsed_seconds": 0.266,
+      "full_name": "musicman3/emarket"
+    },
+    {
+      "elapsed_seconds": 0.261,
+      "full_name": "chaos2cured/freelattice"
+    },
+    {
+      "elapsed_seconds": 0.297,
+      "full_name": "etanhey/brainlayer"
+    },
+    {
+      "elapsed_seconds": 0.291,
+      "full_name": "thedoggybrad/easylist-mirror"
+    },
+    {
+      "elapsed_seconds": 0.258,
+      "full_name": "damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf"
+    },
+    {
+      "elapsed_seconds": 0.285,
+      "full_name": "nousresearch/hermes-agent"
+    },
+    {
+      "elapsed_seconds": 0.284,
+      "full_name": "tornikepe/ai-chatbot"
+    },
+    {
+      "elapsed_seconds": 0.265,
+      "full_name": "jsonbored/claudepro-directory"
+    },
+    {
+      "elapsed_seconds": 0.288,
+      "full_name": "sethgammon/citadel"
+    },
+    {
+      "elapsed_seconds": 0.278,
+      "full_name": "damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive"
+    },
+    {
+      "elapsed_seconds": 0.283,
+      "full_name": "damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive"
+    },
+    {
+      "elapsed_seconds": 0.273,
+      "full_name": "damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf"
+    },
+    {
+      "elapsed_seconds": 0.268,
+      "full_name": "damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit"
+    },
+    {
+      "elapsed_seconds": 0.272,
+      "full_name": "tombelieber/claude-view"
+    },
+    {
+      "elapsed_seconds": 0.315,
+      "full_name": "trailofbits/buttercup"
+    },
+    {
+      "elapsed_seconds": 0.309,
+      "full_name": "google/j2cl"
+    },
+    {
+      "elapsed_seconds": 0.263,
+      "full_name": "kidshadow79/ogma"
+    },
+    {
+      "elapsed_seconds": 0.307,
+      "full_name": "px4/px4-autopilot"
+    },
+    {
+      "elapsed_seconds": 0.262,
+      "full_name": "roampal-ai/roampal"
+    },
+    {
+      "elapsed_seconds": 0.28,
+      "full_name": "mupozg823/codelens-mcp-plugin"
+    },
+    {
+      "elapsed_seconds": 0.293,
+      "full_name": "trailofbits/claude-code-devcontainer"
+    },
+    {
+      "elapsed_seconds": 0.258,
+      "full_name": "phiat/claude-esp-rs"
+    },
+    {
+      "elapsed_seconds": 0.298,
+      "full_name": "openclaw/nix-openclaw"
+    },
+    {
+      "elapsed_seconds": 0.355,
+      "full_name": "strands-agents/agent-sop"
+    },
+    {
+      "elapsed_seconds": 0.306,
+      "full_name": "kensave/agent-memory-rs"
+    },
+    {
+      "elapsed_seconds": 0.328,
+      "full_name": "stripe/stripe-python"
+    },
+    {
+      "elapsed_seconds": 0.284,
+      "full_name": "glittercowboy/taches-cc-resources"
+    },
+    {
+      "elapsed_seconds": 0.323,
+      "full_name": "eth-sri/lmql"
+    },
+    {
+      "elapsed_seconds": 0.437,
+      "full_name": "omnara-ai/omnara"
+    },
+    {
+      "elapsed_seconds": 0.265,
+      "full_name": "k8nstantin/openpraxis"
+    },
+    {
+      "elapsed_seconds": 0.257,
+      "full_name": "nielsgroen/claude-tmux"
+    },
+    {
+      "elapsed_seconds": 0.317,
+      "full_name": "owloops/claude-powerline"
+    },
+    {
+      "elapsed_seconds": 0.341,
+      "full_name": "libp2p/rust-libp2p"
+    },
+    {
+      "elapsed_seconds": 0.271,
+      "full_name": "fcakyon/claude-codex-settings"
+    },
+    {
+      "elapsed_seconds": 0.285,
+      "full_name": "steipete/claude-code-mcp"
+    },
+    {
+      "elapsed_seconds": 0.299,
+      "full_name": "lobehub/sd-webui-lobe-theme"
+    },
+    {
+      "elapsed_seconds": 0.279,
+      "full_name": "soramimi/guitar"
+    },
+    {
+      "elapsed_seconds": 0.305,
+      "full_name": "neuroverseos/neuroverseos-governance"
+    },
+    {
+      "elapsed_seconds": 0.337,
+      "full_name": "stripe/stripe-node"
+    },
+    {
+      "elapsed_seconds": 0.32,
+      "full_name": "giselles-ai/giselle"
+    },
+    {
+      "elapsed_seconds": 0.335,
+      "full_name": "googleapis/python-genai"
+    },
+    {
+      "elapsed_seconds": 0.345,
+      "full_name": "getzep/zep"
+    },
+    {
+      "elapsed_seconds": 0.324,
+      "full_name": "serpro69/capy"
+    },
+    {
+      "elapsed_seconds": 0.302,
+      "full_name": "shoggo-ai/seniorvigil"
+    },
+    {
+      "elapsed_seconds": 0.261,
+      "full_name": "dredozubov/prd-generator"
+    },
+    {
+      "elapsed_seconds": 0.263,
+      "full_name": "serpro69/claude-toolbox"
+    },
+    {
+      "elapsed_seconds": 0.295,
+      "full_name": "actions/runner"
+    },
+    {
+      "elapsed_seconds": 0.268,
+      "full_name": "rsmdt/the-startup"
+    },
+    {
+      "elapsed_seconds": 0.288,
+      "full_name": "npm/cli"
+    },
+    {
+      "elapsed_seconds": 0.31,
+      "full_name": "phiat/claude-esp"
+    },
+    {
+      "elapsed_seconds": 0.259,
+      "full_name": "nyatinte/ccexp"
+    },
+    {
+      "elapsed_seconds": 0.29,
+      "full_name": "delgan/loguru"
+    },
+    {
+      "elapsed_seconds": 0.271,
+      "full_name": "klaudworks/ralph-meets-rex"
+    },
+    {
+      "elapsed_seconds": 0.248,
+      "full_name": "cdeust/cortex"
+    },
+    {
+      "elapsed_seconds": 0.263,
+      "full_name": "hashintel/hash"
+    },
+    {
+      "elapsed_seconds": 0.27,
+      "full_name": "sliamh11/deus"
+    },
+    {
+      "elapsed_seconds": 0.269,
+      "full_name": "shareai-lab/kode-agent"
+    },
+    {
+      "elapsed_seconds": 0.285,
+      "full_name": "ylsssq926/relic.skill"
+    },
+    {
+      "elapsed_seconds": 0.305,
+      "full_name": "google/auto"
+    },
+    {
+      "elapsed_seconds": 0.305,
+      "full_name": "marciogranzotto/clawd-tank"
+    },
+    {
+      "elapsed_seconds": 0.269,
+      "full_name": "korotovsky/slack-mcp-server"
+    },
+    {
+      "elapsed_seconds": 0.31,
+      "full_name": "agent-sh/agentsys"
+    },
+    {
+      "elapsed_seconds": 0.282,
+      "full_name": "pchalasani/claude-code-tools"
+    },
+    {
+      "elapsed_seconds": 0.331,
+      "full_name": "foxj77/claudectx"
+    },
+    {
+      "elapsed_seconds": 0.306,
+      "full_name": "eventual-inc/daft"
+    },
+    {
+      "elapsed_seconds": 0.289,
+      "full_name": "greggh/claude-code.nvim"
+    },
+    {
+      "elapsed_seconds": 0.301,
+      "full_name": "ryjoxtechnologies/octopoda-os"
+    },
+    {
+      "elapsed_seconds": 0.275,
+      "full_name": "databus23/helm-diff"
+    },
+    {
+      "elapsed_seconds": 0.278,
+      "full_name": "langchain-ai/langchainjs"
+    },
+    {
+      "elapsed_seconds": 0.287,
+      "full_name": "agricidaniel/claude-cybersecurity"
+    },
+    {
+      "elapsed_seconds": 0.274,
+      "full_name": "lewislulu/llm-wiki-skill"
+    },
+    {
+      "elapsed_seconds": 0.295,
+      "full_name": "floxym/financial-chat-finance-nlp-chatbots"
+    },
+    {
+      "elapsed_seconds": 0.291,
+      "full_name": "floxym/financial-chat"
+    },
+    {
+      "elapsed_seconds": 0.296,
+      "full_name": "gauravrathod674/custom-chatbot"
+    },
+    {
+      "elapsed_seconds": 0.275,
+      "full_name": "narutoxdd6/nyro"
+    },
+    {
+      "elapsed_seconds": 0.298,
+      "full_name": "evmts/tevm-monorepo"
+    },
+    {
+      "elapsed_seconds": 0.292,
+      "full_name": "jkheadley/instar"
+    },
+    {
+      "elapsed_seconds": 0.311,
+      "full_name": "darthsim/overmind"
+    },
+    {
+      "elapsed_seconds": 0.289,
+      "full_name": "enxs969/skiller"
+    },
+    {
+      "elapsed_seconds": 0.302,
+      "full_name": "frank-syncmarket/skills"
+    },
+    {
+      "elapsed_seconds": 0.289,
+      "full_name": "livemania18/idiegti-sukonfiguruoti-yiimp-kasimo-baseinas-programine-iranga-ubuntu-linux"
+    },
+    {
+      "elapsed_seconds": 0.256,
+      "full_name": "muhammadumer000/ustanovka-i-nastrojka-yiimp-mayning-pul-programmnoe-obespechenie-ubuntu-linux"
+    },
+    {
+      "elapsed_seconds": 0.282,
+      "full_name": "azizos911/setja-upp-stilla-yiimp-namuvinnslupott-hugbunadur-ubuntu-linux"
+    },
+    {
+      "elapsed_seconds": 0.265,
+      "full_name": "kmjjjj/polymarket-arbitrage-bot-btc-sol-15m"
+    },
+    {
+      "elapsed_seconds": 0.263,
+      "full_name": "shubishere/ai-drawio"
+    },
+    {
+      "elapsed_seconds": 0.27,
+      "full_name": "gopi2211/ralph"
+    },
+    {
+      "elapsed_seconds": 0.301,
+      "full_name": "erikceballos/nano-banana-cli"
+    },
+    {
+      "elapsed_seconds": 0.265,
+      "full_name": "gerardtschanz/revenue-os"
+    },
+    {
+      "elapsed_seconds": 0.381,
+      "full_name": "begmyratb/floweye-yyyxxx.cc"
+    },
+    {
+      "elapsed_seconds": 0.279,
+      "full_name": "rrsaldanha/burp-mcp-agents"
+    },
+    {
+      "elapsed_seconds": 0.294,
+      "full_name": "cyber404/che-apple-mail-mcp"
+    },
+    {
+      "elapsed_seconds": 0.308,
+      "full_name": "stripe/ai"
+    },
+    {
+      "elapsed_seconds": 0.29,
+      "full_name": "undeadlist/claude-code-agents"
+    },
+    {
+      "elapsed_seconds": 0.288,
+      "full_name": "astro-han/claude-pace"
+    },
+    {
+      "elapsed_seconds": 0.289,
+      "full_name": "lis186/ccxray"
+    },
+    {
+      "elapsed_seconds": 0.262,
+      "full_name": "robertguss/claude-code-toolkit"
+    },
+    {
+      "elapsed_seconds": 0.299,
+      "full_name": "akin-ozer/cc-devops-skills"
+    },
+    {
+      "elapsed_seconds": 0.298,
+      "full_name": "neolabhq/context-engineering-kit"
+    },
+    {
+      "elapsed_seconds": 0.272,
+      "full_name": "alonw0/web-asset-generator"
+    },
+    {
+      "elapsed_seconds": 0.306,
+      "full_name": "agenmod/immortal-skill"
+    },
+    {
+      "elapsed_seconds": 0.302,
+      "full_name": "compozy/kb"
+    },
+    {
+      "elapsed_seconds": 0.322,
+      "full_name": "panaversity/claude-code-agent-teams-exercises"
+    },
+    {
+      "elapsed_seconds": 0.287,
+      "full_name": "muratcankoylan/ralph-wiggum-marketer"
+    },
+    {
+      "elapsed_seconds": 0.282,
+      "full_name": "joshsymonds/cc-tools"
+    },
+    {
+      "elapsed_seconds": 0.304,
+      "full_name": "markoswire/remember-me.ai"
+    },
+    {
+      "elapsed_seconds": 0.306,
+      "full_name": "dagger/container-use"
+    },
+    {
+      "elapsed_seconds": 0.279,
+      "full_name": "agent-sh/agnix"
+    },
+    {
+      "elapsed_seconds": 0.262,
+      "full_name": "nulone/claude-rules-doctor"
+    },
+    {
+      "elapsed_seconds": 0.263,
+      "full_name": "gowaylee/cchooks"
+    },
+    {
+      "elapsed_seconds": 0.275,
+      "full_name": "nousresearch/atropos"
+    },
+    {
+      "elapsed_seconds": 0.26,
+      "full_name": "eikarna/hermes-rs"
+    },
+    {
+      "elapsed_seconds": 0.379,
+      "full_name": "jonislutheran87/weclaw"
+    },
+    {
+      "elapsed_seconds": 0.282,
+      "full_name": "shouted-numberone752/wechat-agent-connector"
+    },
+    {
+      "elapsed_seconds": 0.286,
+      "full_name": "aipurposes1587-max/weixin-agent-rs"
+    },
+    {
+      "elapsed_seconds": 0.333,
+      "full_name": "similar-colpoxerosis201/codex-wechat"
+    },
+    {
+      "elapsed_seconds": 0.289,
+      "full_name": "florisheedless915/grok-register"
+    },
+    {
+      "elapsed_seconds": 0.261,
+      "full_name": "wendyalbanez/clawui"
+    },
+    {
+      "elapsed_seconds": 0.291,
+      "full_name": "firestryk/chatgpt-website.github.io"
+    },
+    {
+      "elapsed_seconds": 0.3,
+      "full_name": "liam-hq/liam"
+    },
+    {
+      "elapsed_seconds": 0.3,
+      "full_name": "skills-directory/skill-codex"
+    },
+    {
+      "elapsed_seconds": 0.299,
+      "full_name": "dooy/chatgpt-web-midjourney-proxy"
+    },
+    {
+      "elapsed_seconds": 0.264,
+      "full_name": "saminiscool/twitter-ai-agent"
+    },
+    {
+      "elapsed_seconds": 0.314,
+      "full_name": "archestra-ai/archestra"
+    },
+    {
+      "elapsed_seconds": 0.317,
+      "full_name": "abraxas-365/claudio"
+    },
+    {
+      "elapsed_seconds": 0.284,
+      "full_name": "bryanh9111/engram"
+    },
+    {
+      "elapsed_seconds": 0.324,
+      "full_name": "withastro/astro"
+    },
+    {
+      "elapsed_seconds": 0.271,
+      "full_name": "hesreallyhim/awesome-claude-code"
+    },
+    {
+      "elapsed_seconds": 0.29,
+      "full_name": "robertabao/grok-nvim"
+    },
+    {
+      "elapsed_seconds": 0.317,
+      "full_name": "trailofbits/claude-code-config"
+    },
+    {
+      "elapsed_seconds": 0.285,
+      "full_name": "penpoen/llm-sugarscape"
+    },
+    {
+      "elapsed_seconds": 0.305,
+      "full_name": "anthropics/claude-code"
+    },
+    {
+      "elapsed_seconds": 0.314,
+      "full_name": "humanlayer/humanlayer"
+    },
+    {
+      "elapsed_seconds": 0.262,
+      "full_name": "liangshengyong/lanwan"
+    },
+    {
+      "elapsed_seconds": 0.312,
+      "full_name": "momentique/source-code-security-audit-reviewer"
+    },
+    {
+      "elapsed_seconds": 0.31,
+      "full_name": "kubernetes/community"
+    },
+    {
+      "elapsed_seconds": 0.318,
+      "full_name": "onyx-dot-app/onyx"
+    },
+    {
+      "elapsed_seconds": 0.329,
+      "full_name": "letta-ai/claude-subconscious"
+    },
+    {
+      "elapsed_seconds": 0.281,
+      "full_name": "garrytan/gstack"
+    },
+    {
+      "elapsed_seconds": 0.29,
+      "full_name": "ollama/ollama"
+    }
+  ],
+  "run_id": "20260419T140147Z",
+  "skipped_count": 15,
+  "skipped_repositories": [
+    "aitooools/chatgpt-plus-hezu",
+    "aitooools/chatgpt",
+    "aitooools/gemini-pro",
+    "aitooools/claude-pro-recharge",
+    "aitooools/claude-pro",
+    "aitooools/poe",
+    "aitooools/spotify-hezu",
+    "aitooools/supergrok",
+    "aitooools/youtube-hezu",
+    "aitooools/netflix-hezu",
+    "aitooools/nf-video",
+    "aitooools/claude-pro-hezu",
+    "aitooools/chatgpt-plus-recharge",
+    "aitooools/aitooools.github.io",
+    "geiserx/agenttap"
+  ],
+  "stopped_due_to_budget": false
+}

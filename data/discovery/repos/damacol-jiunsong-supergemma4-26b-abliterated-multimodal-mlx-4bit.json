@@ -40,14 +40,18 @@
       "size": 734
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:22.868026+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Private, uncensored AI: Jiunsong/supergemma4-26b-abliterated-multimodal-mlx-4bit",
-    "full_name": "Damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit",
+    "fork": false,
+    "full_name": "damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit",
     "html_url": "https://github.com/Damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit",
     "language": null,
-    "pushed_at": "2026-04-17T18:08:52Z",
+    "pushed_at": "2026-04-19T05:59:03Z",
+    "stargazers_count": 0,
     "topics": [
       "ai",
       "privacy",
@@ -55,7 +59,7 @@
       "uncensored",
       "venice-ai"
     ],
-    "updated_at": "2026-04-17T18:09:05Z"
+    "updated_at": "2026-04-19T05:59:06Z"
   },
   "repo_links": [
     {

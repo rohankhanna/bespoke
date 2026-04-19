@@ -128,14 +128,18 @@
       "size": 40474
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:47.818832+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Hand-crafted Claude Code Skills focused on improving agent results quality. Compatible with OpenCode, Cursor, Antigravity, Gemini CLI, and others.",
-    "full_name": "NeoLabHQ/context-engineering-kit",
+    "fork": false,
+    "full_name": "neolabhq/context-engineering-kit",
     "html_url": "https://github.com/NeoLabHQ/context-engineering-kit",
     "language": "TypeScript",
     "pushed_at": "2026-04-16T22:42:59Z",
+    "stargazers_count": 830,
     "topics": [
       "agent",
       "ai",
@@ -147,7 +151,7 @@
       "opencode",
       "windsurf"
     ],
-    "updated_at": "2026-04-18T01:50:49Z"
+    "updated_at": "2026-04-19T08:46:55Z"
   },
   "repo_links": [
     {

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 0,
-    "concepts": 3,
-    "observations": 3,
-    "repos": 2,
-    "terms": 3
+    "concepts": 6,
+    "observations": 6,
+    "repos": 3,
+    "terms": 6
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
     "0nn0/terminal-mac-cheatsheet",
-    "addyosmani/gemini-cli-tips"
+    "addyosmani/gemini-cli-tips",
+    "xaoyaoo/pywxdump"
   ]
 }

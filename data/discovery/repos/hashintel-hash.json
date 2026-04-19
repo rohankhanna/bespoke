@@ -537,14 +537,18 @@
       "size": 3843
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:35.356585+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83d\ude80  The open-source, multi-tenant platform for self-building knowledge graphs and simulation",
+    "fork": false,
     "full_name": "hashintel/hash",
     "html_url": "https://github.com/hashintel/hash",
     "language": "Rust",
-    "pushed_at": "2026-04-18T08:36:12Z",
+    "pushed_at": "2026-04-19T08:43:04Z",
+    "stargazers_count": 1519,
     "topics": [
       "ai",
       "database",
@@ -555,7 +559,7 @@
       "type-system",
       "typescript"
     ],
-    "updated_at": "2026-04-17T23:00:38Z"
+    "updated_at": "2026-04-19T11:39:23Z"
   },
   "repo_links": [
     {

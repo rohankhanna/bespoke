@@ -447,14 +447,18 @@
       "size": 9001
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:37.369989+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "AI writes code. This automates everything else \u00b7 19 plugins, 47 agents, and 40 skills \u00b7 for Claude Code, OpenCode, Codex, Cursor, Kiro.",
+    "fork": false,
     "full_name": "agent-sh/agentsys",
     "html_url": "https://github.com/agent-sh/agentsys",
     "language": "JavaScript",
     "pushed_at": "2026-04-15T08:43:46Z",
+    "stargazers_count": 743,
     "topics": [
       "agent",
       "ai",
@@ -477,7 +481,7 @@
       "vibe-coding",
       "workflow"
     ],
-    "updated_at": "2026-04-17T23:29:44Z"
+    "updated_at": "2026-04-19T01:10:47Z"
   },
   "repo_links": [
     {

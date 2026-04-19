@@ -541,14 +541,18 @@
       "size": 2844
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:16.077538+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Real-time interview copilot CLI. Hears the question and surfaces the answer you already prepared from your local Markdown knowledge base \u2014 verbatim, in milliseconds. Instant recall instead of LLM hallucination.",
-    "full_name": "XiaoChu-1208/interview-assistant-CLI",
+    "fork": false,
+    "full_name": "xiaochu-1208/interview-assistant-cli",
     "html_url": "https://github.com/XiaoChu-1208/interview-assistant-CLI",
     "language": "Python",
     "pushed_at": "2026-04-17T16:53:54Z",
+    "stargazers_count": 1,
     "topics": [
       "agent-skills",
       "bm25",

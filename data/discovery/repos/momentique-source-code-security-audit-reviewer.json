@@ -73,14 +73,18 @@
       "size": 1180
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:58.417709+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "intelligent auditing tool powered by large language models, supporting GPT, . It automatically detects security vulnerabilities, performance issues",
-    "full_name": "Momentique/Source-Code-Security-Audit-Reviewer",
+    "fork": false,
+    "full_name": "momentique/source-code-security-audit-reviewer",
     "html_url": "https://github.com/Momentique/Source-Code-Security-Audit-Reviewer",
     "language": "Python",
-    "pushed_at": "2026-04-18T03:28:27Z",
+    "pushed_at": "2026-04-19T13:42:15Z",
+    "stargazers_count": 1,
     "topics": [
       "ai",
       "application-security",
@@ -94,7 +98,7 @@
       "typescript",
       "vulnerability-detection"
     ],
-    "updated_at": "2026-04-18T03:28:31Z"
+    "updated_at": "2026-04-19T13:42:18Z"
   },
   "repo_links": [
     {

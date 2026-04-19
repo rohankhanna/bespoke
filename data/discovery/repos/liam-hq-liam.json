@@ -524,14 +524,18 @@
       "size": 1250
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:53.958161+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Automatically generates beautiful and easy-to-read ER diagrams from your database.",
+    "fork": false,
     "full_name": "liam-hq/liam",
     "html_url": "https://github.com/liam-hq/liam",
     "language": "TypeScript",
     "pushed_at": "2026-04-18T01:06:22Z",
+    "stargazers_count": 4766,
     "topics": [
       "data-visualization",
       "database",
@@ -554,7 +558,7 @@
       "visualization",
       "webassembly"
     ],
-    "updated_at": "2026-04-18T02:47:56Z"
+    "updated_at": "2026-04-19T11:28:53Z"
   },
   "repo_links": [],
   "terms": [

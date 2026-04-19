@@ -1145,16 +1145,20 @@
       "size": 1819
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:35.895533+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Kode Agent \u2014 Design for post-human workflows. One unit agent for every human & computer task.",
-    "full_name": "shareAI-lab/Kode-Agent",
+    "fork": false,
+    "full_name": "shareai-lab/kode-agent",
     "html_url": "https://github.com/shareAI-lab/Kode-Agent",
     "language": "TypeScript",
     "pushed_at": "2026-01-23T20:20:17Z",
+    "stargazers_count": 4947,
     "topics": [],
-    "updated_at": "2026-04-17T23:05:48Z"
+    "updated_at": "2026-04-19T12:28:18Z"
   },
   "repo_links": [
     {

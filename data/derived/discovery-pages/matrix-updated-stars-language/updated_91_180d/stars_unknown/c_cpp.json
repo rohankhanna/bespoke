@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 0,
-    "concepts": 4,
-    "observations": 4,
-    "repos": 2,
-    "terms": 4
+    "concepts": 0,
+    "observations": 0,
+    "repos": 1,
+    "terms": 0
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
-    "ExistentialAudio/BlackHole",
-    "julienXX/terminal-notifier"
+    "ExistentialAudio/BlackHole"
   ]
 }

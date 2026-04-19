@@ -1,18 +1,19 @@
 {
   "counts": {
-    "components": 380,
-    "concepts": 80,
-    "observations": 80,
-    "repos": 34,
-    "terms": 85
+    "components": 393,
+    "concepts": 99,
+    "observations": 100,
+    "repos": 38,
+    "terms": 104
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
+    "1runeberg/confichat",
     "aminrezaei0x443/memory-efficient-attention",
     "asg017/sqlite-ecosystem",
     "asg017/sqlite-html",
@@ -24,6 +25,7 @@
     "automatic1111/stable-diffusion-webui-aesthetic-gradients",
     "bartolli/claude-code-typescript-hooks",
     "beyondgrep/ack3",
+    "chinanf-boy/ripgrep-zh",
     "chrismytton/shoreman",
     "connectai-e/midjourney-web",
     "dazuiba/ccnotify",
@@ -37,7 +39,9 @@
     "johnlindquist/claude-hooks",
     "kingler/n8n_agent",
     "klaus2m5/6502_65c02_functional_tests",
+    "knownsec/404starlink-project",
     "layr-labs/hello-world-avs",
+    "lnx-search/rewrk",
     "lobehub/lobe-vidol",
     "LPGhatguy/aftman",
     "njsmith/posy",

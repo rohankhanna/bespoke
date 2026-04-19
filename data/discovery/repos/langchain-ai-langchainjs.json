@@ -770,16 +770,20 @@
       "size": 1201
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:39.430331+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "The agent engineering platform",
+    "fork": false,
     "full_name": "langchain-ai/langchainjs",
     "html_url": "https://github.com/langchain-ai/langchainjs",
     "language": "TypeScript",
-    "pushed_at": "2026-04-18T06:37:27Z",
+    "pushed_at": "2026-04-19T09:42:10Z",
+    "stargazers_count": 17519,
     "topics": [],
-    "updated_at": "2026-04-18T00:46:56Z"
+    "updated_at": "2026-04-19T00:52:34Z"
   },
   "repo_links": [
     {

@@ -206,14 +206,18 @@
       "size": 720
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:15.224896+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A fast, aesthetic personal portfolio and project showcase built with Astro",
-    "full_name": "dm0x23/Portfolio-website",
+    "fork": false,
+    "full_name": "dm0x23/portfolio-website",
     "html_url": "https://github.com/dm0x23/Portfolio-website",
     "language": "Astro",
     "pushed_at": "2026-04-17T16:50:49Z",
+    "stargazers_count": 2,
     "topics": [
       "astro",
       "frontend",

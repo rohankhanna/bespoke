@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 256,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 10,
-    "terms": 65
+    "components": 130,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 4,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,11 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "coaidev/coai",
-    "eckardt/cchistory",
-    "humanlayer/humanlayer",
     "kamranahmedse/claude-run",
-    "klaudworks/ralph-meets-rex",
-    "lobehub/lobe-chat-agents",
-    "lobehub/lobe-tts",
-    "nulone/claude-rules-doctor",
     "vercel/satori"
   ]
 }

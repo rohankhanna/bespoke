@@ -269,14 +269,18 @@
       "size": 2687
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:38.878158+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "The open-source memory operating system for AI agents. Persistent memory, semantic search, loop detection, agent messaging, crash recovery, and real-time observability.",
-    "full_name": "RyjoxTechnologies/Octopoda-OS",
+    "fork": false,
+    "full_name": "ryjoxtechnologies/octopoda-os",
     "html_url": "https://github.com/RyjoxTechnologies/Octopoda-OS",
     "language": "Python",
     "pushed_at": "2026-04-17T20:05:00Z",
+    "stargazers_count": 151,
     "topics": [
       "agent-framework",
       "ai-agents",

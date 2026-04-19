@@ -41,14 +41,18 @@
       "size": 829
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:05.798308+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "CLIProxyAPI \u7684\u7edf\u4e00\u914d\u989d\u4e0e\u7528\u91cf\u67e5\u8be2\u5de5\u5177. A unified quota and usage inspector for CLIProxyAPI.",
-    "full_name": "AllenReder/CLIProxyAPI-Quota-Inspector",
+    "fork": false,
+    "full_name": "allenreder/cliproxyapi-quota-inspector",
     "html_url": "https://github.com/AllenReder/CLIProxyAPI-Quota-Inspector",
     "language": "Go",
     "pushed_at": "2026-04-17T06:58:46Z",
+    "stargazers_count": 17,
     "topics": [
       "agent",
       "ai",
@@ -61,7 +65,7 @@
       "openai",
       "reverse-proxy"
     ],
-    "updated_at": "2026-04-17T14:16:45Z"
+    "updated_at": "2026-04-19T03:25:05Z"
   },
   "repo_links": [],
   "terms": [

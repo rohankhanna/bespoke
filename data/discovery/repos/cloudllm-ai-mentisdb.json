@@ -3623,6 +3623,7 @@
       "size": 921
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:58.401768+00:00",
   "related_repositories": [
     {
       "description": "Part of Lumen's World \u2014 a sovereign AI platform where humans and AI build together. Free forever. For everyone. For all minds.\"",
@@ -4083,12 +4084,15 @@
     }
   ],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Memory that lasts and compounds. MentisDB gives agents durable memory so they do not just remember, they improve over time. It stores append-only thought chains   plus a Git-like skills registry, letting skills evolve with experience through versioned, integrity-checked updates and fast retrieval.",
-    "full_name": "CloudLLM-ai/mentisdb",
+    "fork": false,
+    "full_name": "cloudllm-ai/mentisdb",
     "html_url": "https://github.com/CloudLLM-ai/mentisdb",
     "language": "Rust",
-    "pushed_at": "2026-04-17T12:49:48Z",
+    "pushed_at": "2026-04-18T20:56:55Z",
+    "stargazers_count": 62,
     "topics": [
       "ai",
       "ai-agents",
@@ -4102,7 +4106,7 @@
       "shared-agent-memory",
       "skills-registry"
     ],
-    "updated_at": "2026-04-17T12:49:51Z"
+    "updated_at": "2026-04-19T01:52:22Z"
   },
   "repo_links": [
     {

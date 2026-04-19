@@ -188,14 +188,18 @@
       "size": 4875
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:48.820793+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Main developer and maintainer of the upstream Fabric repo. https://buymeacoffee.com/kayvansylvan",
+    "fork": true,
     "full_name": "ksylvan/fabric",
     "html_url": "https://github.com/ksylvan/fabric",
     "language": "Go",
     "pushed_at": "2026-04-17T03:25:25Z",
+    "stargazers_count": 8,
     "topics": [],
     "updated_at": "2026-04-17T03:25:29Z"
   },

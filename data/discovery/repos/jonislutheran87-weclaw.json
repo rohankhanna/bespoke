@@ -16,14 +16,18 @@
       "size": 442
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:51.918171+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Bridge WeChat to AI agents like Claude, Codex, and Gemini for automated chat replies and account management",
+    "fork": false,
     "full_name": "jonislutheran87/weclaw",
     "html_url": "https://github.com/jonislutheran87/weclaw",
     "language": "Go",
-    "pushed_at": "2026-04-18T02:18:01Z",
+    "pushed_at": "2026-04-19T12:37:21Z",
+    "stargazers_count": 0,
     "topics": [
       "agents",
       "claude-code",
@@ -43,7 +47,7 @@
       "weclaw",
       "weixin-agent-sdk"
     ],
-    "updated_at": "2026-04-18T02:18:04Z"
+    "updated_at": "2026-04-19T12:37:25Z"
   },
   "repo_links": [],
   "terms": []

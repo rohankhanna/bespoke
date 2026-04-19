@@ -37,14 +37,18 @@
       "size": 6465
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:55.130016+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "OKR Agent Skill (OKRClaw framework)",
+    "fork": false,
     "full_name": "agenmod/okr-skill",
     "html_url": "https://github.com/agenmod/okr-skill",
     "language": "Python",
     "pushed_at": "2026-04-08T15:04:08Z",
+    "stargazers_count": 3,
     "topics": [],
     "updated_at": "2026-04-17T10:37:10Z"
   },

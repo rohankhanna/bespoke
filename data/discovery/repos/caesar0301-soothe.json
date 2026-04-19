@@ -186,21 +186,25 @@
       "size": 9221
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:11.332068+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\u2668BETA\ud83c\udf77\u300c \u2726 Soothe \u2726 \u300dAn autonomous expert system engineered to orchestrate complex workflows and execute long-duration tasks with precision and persistence.",
+    "fork": false,
     "full_name": "caesar0301/soothe",
     "html_url": "https://github.com/caesar0301/soothe",
     "language": "Python",
-    "pushed_at": "2026-04-17T16:21:06Z",
+    "pushed_at": "2026-04-19T11:39:59Z",
+    "stargazers_count": 2,
     "topics": [
       "agent-harness",
       "agentic-researcher",
       "autonomous-agents",
       "scientific-agents"
     ],
-    "updated_at": "2026-04-17T16:21:09Z"
+    "updated_at": "2026-04-19T11:40:03Z"
   },
   "repo_links": [
     {

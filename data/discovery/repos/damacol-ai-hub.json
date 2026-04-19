@@ -16,14 +16,18 @@
       "size": 1903
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:06.372370+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Master Directory: 1500+ Private AI Models",
-    "full_name": "Damacol/ai-hub",
+    "fork": false,
+    "full_name": "damacol/ai-hub",
     "html_url": "https://github.com/Damacol/ai-hub",
     "language": null,
     "pushed_at": "2026-04-17T14:23:12Z",
+    "stargazers_count": 0,
     "topics": [
       "ai",
       "directory",

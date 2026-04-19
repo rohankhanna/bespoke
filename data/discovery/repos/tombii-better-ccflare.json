@@ -629,16 +629,20 @@
       "size": 12355
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:17.487045+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "The ultimate CC proxy",
+    "fork": true,
     "full_name": "tombii/better-ccflare",
     "html_url": "https://github.com/tombii/better-ccflare",
     "language": "TypeScript",
-    "pushed_at": "2026-04-16T05:34:29Z",
+    "pushed_at": "2026-04-18T20:42:27Z",
+    "stargazers_count": 187,
     "topics": [],
-    "updated_at": "2026-04-17T17:33:30Z"
+    "updated_at": "2026-04-18T21:29:34Z"
   },
   "repo_links": [
     {

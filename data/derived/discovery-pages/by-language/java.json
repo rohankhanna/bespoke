@@ -10,7 +10,7 @@
   "filters": {
     "language_bucket": "java"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
     "didalgolab/ai-intellij-plugin",
     "google/auto",
@@ -19,6 +19,6 @@
     "novicezk/midjourney-proxy",
     "peergos/nabu",
     "peergos/nabu-chat",
-    "Peergos/Peergos"
+    "peergos/peergos"
   ]
 }

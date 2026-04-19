@@ -198,14 +198,18 @@
       "size": 7314
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:57.746007+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "AI-powered KVM assistant for PiKVM \u2014 natural-language remote server control via keyboard, mouse and screen analysis",
+    "fork": false,
     "full_name": "sunthinks/kvmind",
     "html_url": "https://github.com/sunthinks/kvmind",
     "language": "Python",
-    "pushed_at": "2026-04-17T12:56:23Z",
+    "pushed_at": "2026-04-18T02:03:25Z",
+    "stargazers_count": 1,
     "topics": [
       "ai-assistant",
       "arch-linux-arm",
@@ -223,7 +227,7 @@
       "remote-control",
       "self-hosted"
     ],
-    "updated_at": "2026-04-17T12:47:23Z"
+    "updated_at": "2026-04-18T02:03:29Z"
   },
   "repo_links": [
     {

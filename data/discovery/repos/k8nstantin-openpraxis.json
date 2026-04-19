@@ -580,14 +580,18 @@
       "size": 5362
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:28.022792+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "OpenPraxis \u2014 Spec-driven development platform for autonomous coding agents",
-    "full_name": "k8nstantin/OpenPraxis",
+    "fork": false,
+    "full_name": "k8nstantin/openpraxis",
     "html_url": "https://github.com/k8nstantin/OpenPraxis",
     "language": "Go",
-    "pushed_at": "2026-04-17T20:15:45Z",
+    "pushed_at": "2026-04-19T13:50:23Z",
+    "stargazers_count": 2,
     "topics": [
       "agent-memory",
       "agent-orchestration",
@@ -610,7 +614,7 @@
       "spec-driven-development",
       "vector-search"
     ],
-    "updated_at": "2026-04-17T20:09:20Z"
+    "updated_at": "2026-04-19T13:50:26Z"
   },
   "repo_links": [],
   "terms": [

@@ -455,16 +455,20 @@
       "size": 1179
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:59.653970+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+    "fork": false,
     "full_name": "garrytan/gstack",
     "html_url": "https://github.com/garrytan/gstack",
     "language": "TypeScript",
-    "pushed_at": "2026-04-18T03:39:37Z",
+    "pushed_at": "2026-04-19T11:21:38Z",
+    "stargazers_count": 77075,
     "topics": [],
-    "updated_at": "2026-04-18T03:36:08Z"
+    "updated_at": "2026-04-19T14:01:38Z"
   },
   "repo_links": [
     {

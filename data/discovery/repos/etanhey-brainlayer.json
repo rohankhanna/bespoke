@@ -548,14 +548,18 @@
       "size": 401
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:20.093576+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Persistent memory MCP for AI agents \u2014 SQLite, knowledge graph, 12 tools with ToolAnnotations",
-    "full_name": "EtanHey/brainlayer",
+    "fork": false,
+    "full_name": "etanhey/brainlayer",
     "html_url": "https://github.com/EtanHey/brainlayer",
     "language": "Python",
-    "pushed_at": "2026-04-18T02:18:31Z",
+    "pushed_at": "2026-04-18T17:54:55Z",
+    "stargazers_count": 6,
     "topics": [
       "ai-agents",
       "ai-memory",

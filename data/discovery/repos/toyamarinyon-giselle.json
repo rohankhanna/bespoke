@@ -414,14 +414,18 @@
       "size": 1064
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:12.619304+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Giselle: AI for Agentic Workflows. Human-AI Collaboration. Open Source.",
+    "fork": true,
     "full_name": "toyamarinyon/giselle",
     "html_url": "https://github.com/toyamarinyon/giselle",
     "language": "TypeScript",
     "pushed_at": "2026-04-17T16:35:04Z",
+    "stargazers_count": 4,
     "topics": [],
     "updated_at": "2026-04-17T16:35:15Z"
   },

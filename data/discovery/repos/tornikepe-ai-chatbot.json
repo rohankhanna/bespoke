@@ -281,14 +281,18 @@
       "size": 603
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:21.211872+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "AI-powered customer support chatbot with streaming responses and embeddable widget",
+    "fork": false,
     "full_name": "tornikepe/ai-chatbot",
     "html_url": "https://github.com/tornikepe/ai-chatbot",
     "language": "JavaScript",
-    "pushed_at": "2026-04-17T18:05:13Z",
+    "pushed_at": "2026-04-18T19:51:12Z",
+    "stargazers_count": 0,
     "topics": [
       "ai",
       "chatbot",
@@ -297,7 +301,7 @@
       "react",
       "tailwindcss"
     ],
-    "updated_at": "2026-04-17T18:05:41Z"
+    "updated_at": "2026-04-18T19:51:15Z"
   },
   "repo_links": [],
   "terms": [

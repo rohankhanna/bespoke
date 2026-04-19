@@ -436,14 +436,18 @@
       "size": 908
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:26.385993+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Comprehensive memory management system for LLM agents implementing episodic, semantic. Built in Rust with MCP server support for Kiro CLI",
+    "fork": false,
     "full_name": "kensave/agent-memory-rs",
     "html_url": "https://github.com/kensave/agent-memory-rs",
     "language": "Rust",
     "pushed_at": "2026-04-17T19:30:34Z",
+    "stargazers_count": 2,
     "topics": [
       "agent-memory",
       "agentic-ai",

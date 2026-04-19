@@ -755,14 +755,18 @@
       "size": 220
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:28.938101+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "The Rust Implementation of the libp2p networking stack. ",
+    "fork": false,
     "full_name": "libp2p/rust-libp2p",
     "html_url": "https://github.com/libp2p/rust-libp2p",
     "language": "Rust",
     "pushed_at": "2026-04-16T15:29:42Z",
+    "stargazers_count": 5478,
     "topics": [
       "decentralization",
       "libp2p",

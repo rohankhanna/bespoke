@@ -1,26 +1,45 @@
 {
   "counts": {
-    "components": 129,
-    "concepts": 62,
-    "observations": 62,
-    "repos": 9,
-    "terms": 61
+    "components": 458,
+    "concepts": 153,
+    "observations": 154,
+    "repos": 28,
+    "terms": 190
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
+    "actions/runner",
     "ai-that-works/ai-that-works",
     "containers/podman-compose",
     "datadog/guarddog",
+    "eventual-inc/daft",
     "firebase/firebase-admin-node",
     "google/closure-compiler",
+    "google/j2cl",
+    "googleapis/python-genai",
     "johnnymorganz/stylua",
     "junegunn/seoul256.vim",
+    "korotovsky/slack-mcp-server",
+    "kubernetes/enhancements",
+    "letta-ai/claude-subconscious",
+    "liam-hq/liam",
+    "libp2p/go-libp2p",
+    "libp2p/rust-libp2p",
     "libp2p/specs",
-    "napi-rs/node-rs"
+    "liveblocks/liveblocks",
+    "maxritter/pilot-shell",
+    "napi-rs/node-rs",
+    "nousresearch/atropos",
+    "npm/cli",
+    "plastic-labs/honcho",
+    "stripe/ai",
+    "stripe/stripe-node",
+    "stripe/stripe-python",
+    "trailofbits/buttercup"
   ]
 }

@@ -8,14 +8,18 @@
       "size": 1451
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:32.601835+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Claude Code plugin to generate comprehensive Product Requirements Documents (PRDs)",
+    "fork": false,
     "full_name": "dredozubov/prd-generator",
     "html_url": "https://github.com/dredozubov/prd-generator",
     "language": null,
     "pushed_at": "2026-01-14T10:29:46Z",
+    "stargazers_count": 43,
     "topics": [
       "claude-code",
       "claude-code-plugin",
@@ -24,7 +28,7 @@
       "prd",
       "product-requirements"
     ],
-    "updated_at": "2026-04-17T21:56:26Z"
+    "updated_at": "2026-04-19T00:46:16Z"
   },
   "repo_links": [],
   "terms": []

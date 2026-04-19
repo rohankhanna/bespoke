@@ -34,14 +34,18 @@
       "size": 1825
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:44.565777+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83d\uddbc\ufe0f Generate and edit images with ease using the Nanobanana CLI, powered by AI and Google's Gemini models for advanced image manipulation.",
+    "fork": false,
     "full_name": "erikceballos/nano-banana-cli",
     "html_url": "https://github.com/erikceballos/nano-banana-cli",
     "language": "Go",
-    "pushed_at": "2026-04-18T01:35:57Z",
+    "pushed_at": "2026-04-19T11:53:09Z",
+    "stargazers_count": 4,
     "topics": [
       "ai",
       "ai-agents",
@@ -63,7 +67,7 @@
       "playwright",
       "server"
     ],
-    "updated_at": "2026-04-18T01:36:01Z"
+    "updated_at": "2026-04-19T11:53:13Z"
   },
   "repo_links": [],
   "terms": [

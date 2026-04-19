@@ -300,16 +300,20 @@
       "size": 1403
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:57.529694+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+    "fork": false,
     "full_name": "anthropics/claude-code",
     "html_url": "https://github.com/anthropics/claude-code",
     "language": "Shell",
     "pushed_at": "2026-04-18T01:34:30Z",
+    "stargazers_count": 115768,
     "topics": [],
-    "updated_at": "2026-04-18T03:24:16Z"
+    "updated_at": "2026-04-19T13:54:43Z"
   },
   "repo_links": [],
   "terms": [

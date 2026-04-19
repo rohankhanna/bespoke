@@ -235,14 +235,18 @@
       "size": 5420
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:38.577236+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Seamless integration between Claude Code AI assistant and Neovim",
+    "fork": false,
     "full_name": "greggh/claude-code.nvim",
     "html_url": "https://github.com/greggh/claude-code.nvim",
     "language": "Lua",
     "pushed_at": "2026-02-04T14:44:51Z",
+    "stargazers_count": 2007,
     "topics": [
       "ai-assistant",
       "anthropic",
@@ -253,7 +257,7 @@
       "plugin",
       "terminal"
     ],
-    "updated_at": "2026-04-17T23:56:20Z"
+    "updated_at": "2026-04-18T13:40:52Z"
   },
   "repo_links": [
     {

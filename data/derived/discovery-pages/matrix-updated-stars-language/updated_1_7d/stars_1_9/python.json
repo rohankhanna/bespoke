@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 20,
+    "components": 35,
     "concepts": 10,
     "observations": 10,
-    "repos": 2,
-    "terms": 13
+    "repos": 9,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,16 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
+    "agenmod/distill-protocol-skill",
+    "agenmod/distill-shield-skill",
+    "bryanh9111/engram",
     "dreamiurg/peakbagger-cli",
-    "kelp/webdown"
+    "gibdd-dps/prizolov-agent-os",
+    "kelp/webdown",
+    "piqrypt/piqrypt",
+    "sunthinks/kvmind",
+    "xiaochu-1208/interview-assistant-cli"
   ]
 }

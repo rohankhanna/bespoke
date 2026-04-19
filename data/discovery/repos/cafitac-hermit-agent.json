@@ -258,6 +258,7 @@
       "size": 1935
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:00.118170+00:00",
   "related_repositories": [
     {
       "description": "Lab-scenario AI assistant on OpenClaw + MetaClaw + Feishu. 28 agentic skills for robotics lab management.",
@@ -377,25 +378,35 @@
     }
   ],
   "repo": {
+    "archived": false,
     "default_branch": "main",
-    "description": "Local LLM coding agent that reproduces the Claude Code workflow \u2014 on your hardware, with your models.",
+    "description": "Run Claude Code 50\u201380% cheaper. Hermit plugs into CC as an MCP sub-agent so ollama or z.ai handles the grunt work while Claude stays the orchestrator.",
+    "fork": false,
     "full_name": "cafitac/hermit-agent",
     "html_url": "https://github.com/cafitac/hermit-agent",
     "language": "Python",
-    "pushed_at": "2026-04-17T12:49:00Z",
+    "pushed_at": "2026-04-19T13:28:48Z",
+    "stargazers_count": 2,
     "topics": [
       "ai-agent",
       "claude-code",
+      "claude-code-extension",
       "coding-agent",
+      "cost-optimization",
       "developer-tools",
       "fastapi",
+      "glm",
       "llm",
       "local-llm",
       "mcp",
+      "mcp-server",
       "ollama",
-      "python"
+      "python",
+      "sub-agent",
+      "token-savings",
+      "z-ai"
     ],
-    "updated_at": "2026-04-17T13:10:10Z"
+    "updated_at": "2026-04-19T13:28:54Z"
   },
   "repo_links": [
     {

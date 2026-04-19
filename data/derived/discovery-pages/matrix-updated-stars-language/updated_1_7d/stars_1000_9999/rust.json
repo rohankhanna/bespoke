@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 37,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 2,
-    "terms": 21
+    "components": 77,
+    "concepts": 55,
+    "observations": 55,
+    "repos": 4,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
+    "eventual-inc/daft",
     "johnnymorganz/stylua",
+    "libp2p/rust-libp2p",
     "napi-rs/node-rs"
   ]
 }

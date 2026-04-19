@@ -709,14 +709,18 @@
       "size": 3385
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:04.893386+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A SQLite extension for efficient vector search, based on Faiss!",
+    "fork": false,
     "full_name": "asg017/sqlite-vss",
     "html_url": "https://github.com/asg017/sqlite-vss",
     "language": "C++",
     "pushed_at": "2024-05-05T20:00:16Z",
+    "stargazers_count": 1986,
     "topics": [
       "faiss",
       "sqlite",

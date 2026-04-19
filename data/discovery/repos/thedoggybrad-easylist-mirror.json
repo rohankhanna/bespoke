@@ -37,14 +37,18 @@
       "size": 14128
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:20.384903+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "An unofficial mirror for EasyList family of AdBlock filterlists by TheDoggyBrad Software Lab.",
+    "fork": false,
     "full_name": "thedoggybrad/easylist-mirror",
     "html_url": "https://github.com/thedoggybrad/easylist-mirror",
     "language": "PHP",
-    "pushed_at": "2026-04-17T18:02:04Z",
+    "pushed_at": "2026-04-19T14:01:21Z",
+    "stargazers_count": 11,
     "topics": [
       "abp",
       "adblock",
@@ -61,7 +65,7 @@
       "ublock-origin-filters",
       "ubo"
     ],
-    "updated_at": "2026-04-17T18:02:08Z"
+    "updated_at": "2026-04-19T14:01:24Z"
   },
   "repo_links": [],
   "terms": [

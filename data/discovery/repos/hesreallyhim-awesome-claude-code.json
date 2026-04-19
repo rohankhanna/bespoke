@@ -1764,14 +1764,18 @@
       "size": 25693
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:56.330139+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A curated list of awesome skills, hooks, slash-commands, agent orchestrators, applications, and plugins for Claude Code by Anthropic",
+    "fork": false,
     "full_name": "hesreallyhim/awesome-claude-code",
     "html_url": "https://github.com/hesreallyhim/awesome-claude-code",
     "language": "Python",
-    "pushed_at": "2026-04-18T00:52:43Z",
+    "pushed_at": "2026-04-19T12:23:23Z",
+    "stargazers_count": 39678,
     "topics": [
       "agent-skills",
       "agentic-code",
@@ -1793,7 +1797,7 @@
       "coding-assistants",
       "llm"
     ],
-    "updated_at": "2026-04-18T03:11:39Z"
+    "updated_at": "2026-04-19T14:02:39Z"
   },
   "repo_links": [
     {

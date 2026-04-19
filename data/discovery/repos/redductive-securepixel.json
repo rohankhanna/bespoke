@@ -8,14 +8,18 @@
       "size": 4188
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:14.946735+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83d\udee1\ufe0f Encrypt your images securely in your browser. Keep your photos private with 100% client-side processing and no server uploads.",
-    "full_name": "Redductive/SecurePixel",
+    "fork": false,
+    "full_name": "redductive/securepixel",
     "html_url": "https://github.com/Redductive/SecurePixel",
     "language": "JavaScript",
-    "pushed_at": "2026-04-17T16:50:46Z",
+    "pushed_at": "2026-04-19T11:52:32Z",
+    "stargazers_count": 0,
     "topics": [
       "client-side",
       "client-side-encryption",
@@ -35,7 +39,7 @@
       "visual-cryptography",
       "zero-dependency"
     ],
-    "updated_at": "2026-04-17T16:50:51Z"
+    "updated_at": "2026-04-19T11:52:36Z"
   },
   "repo_links": [],
   "terms": []

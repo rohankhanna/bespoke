@@ -206,14 +206,18 @@
       "size": 808
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:17.785138+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "A p2p, secure file storage, social network and application protocol",
-    "full_name": "Peergos/Peergos",
+    "fork": false,
+    "full_name": "peergos/peergos",
     "html_url": "https://github.com/Peergos/Peergos",
     "language": "Java",
-    "pushed_at": "2026-04-17T17:34:49Z",
+    "pushed_at": "2026-04-18T23:06:04Z",
+    "stargazers_count": 2393,
     "topics": [
       "cryptography",
       "decentralized",
@@ -235,7 +239,7 @@
       "social-network",
       "storage"
     ],
-    "updated_at": "2026-04-17T17:34:53Z"
+    "updated_at": "2026-04-18T23:06:08Z"
   },
   "repo_links": [
     {

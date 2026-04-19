@@ -129,19 +129,23 @@
       "size": 4889
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:25.724909+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Packages OpenClaw for nix.",
+    "fork": false,
     "full_name": "openclaw/nix-openclaw",
     "html_url": "https://github.com/openclaw/nix-openclaw",
     "language": "Nix",
     "pushed_at": "2026-04-14T16:16:01Z",
+    "stargazers_count": 653,
     "topics": [
       "clawdis",
       "nix"
     ],
-    "updated_at": "2026-04-17T19:28:47Z"
+    "updated_at": "2026-04-18T20:33:37Z"
   },
   "repo_links": [],
   "terms": [

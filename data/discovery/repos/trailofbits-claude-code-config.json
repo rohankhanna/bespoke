@@ -58,21 +58,25 @@
       "size": 42165
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:56.939553+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Opinionated defaults, documentation, and workflows for Claude Code at Trail of Bits",
+    "fork": false,
     "full_name": "trailofbits/claude-code-config",
     "html_url": "https://github.com/trailofbits/claude-code-config",
     "language": "Shell",
     "pushed_at": "2026-04-02T09:26:12Z",
+    "stargazers_count": 1870,
     "topics": [
       "claude",
       "claude-code",
       "claude-code-cli",
       "developer-tool"
     ],
-    "updated_at": "2026-04-18T03:20:29Z"
+    "updated_at": "2026-04-19T09:42:51Z"
   },
   "repo_links": [
     {

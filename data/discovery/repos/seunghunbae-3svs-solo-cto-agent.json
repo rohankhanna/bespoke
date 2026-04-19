@@ -505,14 +505,18 @@
       "size": 377
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:59.250869+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Dual-agent AI code review for solo founders. Sends diffs to Claude + GPT, cross-checks findings, auto-detects secrets. CLI, GitHub Action, VS Code extension.",
+    "fork": false,
     "full_name": "seunghunbae-3svs/solo-cto-agent",
     "html_url": "https://github.com/seunghunbae-3svs/solo-cto-agent",
     "language": "JavaScript",
-    "pushed_at": "2026-04-17T12:53:22Z",
+    "pushed_at": "2026-04-18T22:11:15Z",
+    "stargazers_count": 1,
     "topics": [
       "ai-code-review",
       "ci-cd",
@@ -527,7 +531,7 @@
       "secret-detection",
       "solo-founder"
     ],
-    "updated_at": "2026-04-17T12:59:24Z"
+    "updated_at": "2026-04-18T22:11:19Z"
   },
   "repo_links": [],
   "terms": [

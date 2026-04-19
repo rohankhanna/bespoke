@@ -1,25 +1,37 @@
 {
   "counts": {
-    "components": 77,
-    "concepts": 74,
-    "observations": 74,
-    "repos": 9,
-    "terms": 83
+    "components": 239,
+    "concepts": 89,
+    "observations": 89,
+    "repos": 21,
+    "terms": 141
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
     "charmbracelet/gum",
     "ComposioHQ/awesome-claude-skills",
+    "delgan/loguru",
+    "garrytan/gstack",
     "GitoxideLabs/gitoxide",
+    "google/auto",
     "google/skia",
+    "hesreallyhim/awesome-claude-code",
+    "humanlayer/humanlayer",
     "jj-vcs/jj",
+    "kubernetes-sigs/kustomize",
+    "kubernetes/community",
     "langchain-ai/deepagents",
+    "langchain-ai/langchainjs",
+    "mem0ai/mem0",
+    "onyx-dot-app/onyx",
+    "px4/px4-autopilot",
     "ruvnet/ruflo",
     "seanmonstar/reqwest",
-    "toon-format/toon"
+    "toon-format/toon",
+    "withastro/astro"
   ]
 }

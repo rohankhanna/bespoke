@@ -8,14 +8,18 @@
       "size": 3666
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:42.640469+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83c\udf99\ufe0f Automate podcasting with skills: download YouTube videos, process audio, and manage content efficiently\u2014all in one comprehensive toolkit.",
+    "fork": false,
     "full_name": "frank-syncmarket/skills",
     "html_url": "https://github.com/frank-syncmarket/skills",
     "language": "Python",
-    "pushed_at": "2026-04-18T01:34:26Z",
+    "pushed_at": "2026-04-19T11:51:14Z",
+    "stargazers_count": 3,
     "topics": [
       "agent-skills",
       "anthropic",
@@ -38,7 +42,7 @@
       "skills",
       "stuff"
     ],
-    "updated_at": "2026-04-18T01:34:29Z"
+    "updated_at": "2026-04-19T11:51:18Z"
   },
   "repo_links": [],
   "terms": []

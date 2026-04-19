@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 70,
+    "components": 72,
     "concepts": 19,
     "observations": 19,
-    "repos": 10,
-    "terms": 27
+    "repos": 11,
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
     "asg017/sqlite-hello",
     "cloudrepo-io/founder-os",
@@ -19,6 +19,7 @@
     "lobehub/.github",
     "mohammadtavakoli78/beam",
     "omril321/automated-notebooklm",
+    "panaversity/claude-code-agent-teams-exercises",
     "sculptdotfun/viberank",
     "tony/claude-code-riper-5",
     "withastro/.github",

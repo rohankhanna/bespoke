@@ -12,14 +12,18 @@
       "size": 483
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:43.732630+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83d\ude80 Execute profitable trades with this Rust-based arbitrage bot for Polymarket, monitoring BTC and SOL 15-minute price prediction markets.",
+    "fork": false,
     "full_name": "kmjjjj/polymarket-arbitrage-bot-btc-sol-15m",
     "html_url": "https://github.com/kmjjjj/polymarket-arbitrage-bot-btc-sol-15m",
     "language": "Rust",
-    "pushed_at": "2026-04-18T01:35:40Z",
+    "pushed_at": "2026-04-19T11:52:48Z",
+    "stargazers_count": 1,
     "topics": [
       "bitcoin",
       "block-engine",
@@ -42,7 +46,7 @@
       "solana",
       "trading"
     ],
-    "updated_at": "2026-04-18T01:35:43Z"
+    "updated_at": "2026-04-19T11:52:52Z"
   },
   "repo_links": [],
   "terms": []

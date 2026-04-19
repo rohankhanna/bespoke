@@ -704,21 +704,25 @@
       "size": 853
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:54.010790+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "React component for displaying activity data in a calendar (heatmap)",
+    "fork": false,
     "full_name": "grubersjoe/react-activity-calendar",
     "html_url": "https://github.com/grubersjoe/react-activity-calendar",
     "language": "TypeScript",
-    "pushed_at": "2026-04-17T10:22:03Z",
+    "pushed_at": "2026-04-19T09:08:16Z",
+    "stargazers_count": 564,
     "topics": [
       "activity",
       "calendar",
       "component",
       "react"
     ],
-    "updated_at": "2026-04-17T10:22:07Z"
+    "updated_at": "2026-04-19T09:08:20Z"
   },
   "repo_links": [
     {

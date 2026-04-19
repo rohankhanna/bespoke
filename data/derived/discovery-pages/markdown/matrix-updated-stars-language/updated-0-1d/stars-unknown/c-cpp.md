@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · Unknown stars · C/C++
 
-Generated at: `2026-04-19T07:52:38.223094+00:00`
+Generated at: `2026-04-19T14:03:00.009749+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 21
-- components: 25
-- concepts: 21
-- observations: 21
+- repos: 1
+- terms: 8
+- components: 15
+- concepts: 8
+- observations: 8
 
 ## Static behavior
 
@@ -27,11 +27,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | unknown | 2026-04-18T18:12:05Z | C/C++ | Infrastructure/tooling | 8 | 15 | 8 | 8 |
-| [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | unknown | 2026-04-18T11:17:57Z | C/C++ | Infrastructure/tooling | 13 | 10 | 13 | 13 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | unknown | 2026-04-18T18:12:05Z | C/C++ | Infrastructure/tooling | 8 | 15 | 8 | 8 |
-| [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) | unknown | 2026-04-18T11:17:57Z | C/C++ | Infrastructure/tooling | 13 | 10 | 13 | 13 |

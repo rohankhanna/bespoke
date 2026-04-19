@@ -118,16 +118,20 @@
       "size": 1236
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:31.370257+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Google Gen AI Python SDK provides an interface for developers to integrate Google's generative models into their Python applications.",
+    "fork": false,
     "full_name": "googleapis/python-genai",
     "html_url": "https://github.com/googleapis/python-genai",
     "language": "Python",
     "pushed_at": "2026-04-17T13:46:38Z",
+    "stargazers_count": 3621,
     "topics": [],
-    "updated_at": "2026-04-17T21:37:39Z"
+    "updated_at": "2026-04-19T12:55:33Z"
   },
   "repo_links": [
     {

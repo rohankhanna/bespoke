@@ -16,14 +16,18 @@
       "size": 5099
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:57.224676+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83c\udf10 Explore AI behaviors in a Sugarscape simulation, revealing insights into cooperation and survival instincts using Grok-4-Fast agents.",
-    "full_name": "penpoen/llm-SugarScape",
+    "fork": false,
+    "full_name": "penpoen/llm-sugarscape",
     "html_url": "https://github.com/penpoen/llm-SugarScape",
     "language": "Python",
-    "pushed_at": "2026-04-18T03:22:08Z",
+    "pushed_at": "2026-04-19T13:44:54Z",
+    "stargazers_count": 1,
     "topics": [
       "agent-based-modeling",
       "ai-testing",
@@ -40,7 +44,7 @@
       "sugarscape",
       "xai-api"
     ],
-    "updated_at": "2026-04-18T03:22:12Z"
+    "updated_at": "2026-04-19T13:44:57Z"
   },
   "repo_links": [],
   "terms": [

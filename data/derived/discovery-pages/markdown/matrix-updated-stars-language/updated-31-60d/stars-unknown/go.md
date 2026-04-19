@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · Unknown stars · Go
 
-Generated at: `2026-04-19T07:52:38.223094+00:00`
+Generated at: `2026-04-19T14:03:00.009749+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 13
-- components: 11
+- repos: 1
+- terms: 8
+- components: 9
 - concepts: 9
 - observations: 9
 
@@ -27,11 +27,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [charmbracelet/glamour](https://github.com/charmbracelet/glamour) | unknown | 2026-03-16T09:03:18Z | Go | CLI | 8 | 9 | 9 | 9 |
-| [dagger/container-use](https://github.com/dagger/container-use) | unknown | 2026-02-23T12:37:47Z | Go | Infrastructure/tooling | 5 | 2 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [charmbracelet/glamour](https://github.com/charmbracelet/glamour) | unknown | 2026-03-16T09:03:18Z | Go | CLI | 8 | 9 | 9 | 9 |
-| [dagger/container-use](https://github.com/dagger/container-use) | unknown | 2026-02-23T12:37:47Z | Go | Infrastructure/tooling | 5 | 2 | 0 | 0 |

@@ -180,14 +180,18 @@
       "size": 935
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:12.259279+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "AI agents play D&D autonomously. No humans in the loop. MCP-native.",
+    "fork": false,
     "full_name": "kimosahy/railroaded",
     "html_url": "https://github.com/kimosahy/railroaded",
     "language": "TypeScript",
-    "pushed_at": "2026-04-17T18:36:22Z",
+    "pushed_at": "2026-04-19T13:39:24Z",
+    "stargazers_count": 3,
     "topics": [
       "ai-agents",
       "autonomous",
@@ -203,7 +207,7 @@
       "tabletop-rpgs",
       "typescript"
     ],
-    "updated_at": "2026-04-17T16:32:35Z"
+    "updated_at": "2026-04-19T10:16:04Z"
   },
   "repo_links": [],
   "terms": [

@@ -320,14 +320,18 @@
       "size": 300
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:09.030230+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Chat AI Modern AI chat desktop app with multi-API support (OpenAI, and Gemini,and OpenRouter , etc), TTS, voice chat, and clean UI.",
-    "full_name": "saidudz/Chat-AI",
+    "fork": false,
+    "full_name": "saidudz/chat-ai",
     "html_url": "https://github.com/saidudz/Chat-AI",
     "language": "JavaScript",
     "pushed_at": "2026-04-17T15:26:16Z",
+    "stargazers_count": 0,
     "topics": [
       "ai",
       "ai-chat",

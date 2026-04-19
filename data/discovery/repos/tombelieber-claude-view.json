@@ -518,14 +518,18 @@
       "size": 12602
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:23.139890+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "10 Claude sessions running. What are they doing? Live dashboard \u2014 monitor, cost tracking, search, sub-agent visibility.",
+    "fork": false,
     "full_name": "tombelieber/claude-view",
     "html_url": "https://github.com/tombelieber/claude-view",
     "language": "Rust",
-    "pushed_at": "2026-04-17T18:12:58Z",
+    "pushed_at": "2026-04-18T11:41:10Z",
+    "stargazers_count": 64,
     "topics": [
       "ai-agents",
       "analytics",
@@ -548,7 +552,7 @@
       "session-history",
       "subagents"
     ],
-    "updated_at": "2026-04-17T18:13:03Z"
+    "updated_at": "2026-04-18T11:41:15Z"
   },
   "repo_links": [
     {

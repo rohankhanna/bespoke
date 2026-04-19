@@ -33,14 +33,18 @@
       "size": 349
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:49.712221+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": null,
+    "fork": false,
     "full_name": "jawwadfirdousi/agent-skills",
     "html_url": "https://github.com/jawwadfirdousi/agent-skills",
     "language": "Shell",
     "pushed_at": "2026-03-08T19:42:23Z",
+    "stargazers_count": 10,
     "topics": [],
     "updated_at": "2026-04-17T06:33:16Z"
   },

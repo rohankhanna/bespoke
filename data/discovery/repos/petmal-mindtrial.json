@@ -539,14 +539,18 @@
       "size": 542
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:11.641779+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "MindTrial: Evaluate and compare AI language models (LLMs) on text-based tasks with optional file/image attachments and tool use. Supports multiple providers (OpenAI, Google, Anthropic, DeepSeek, Mistral AI, xAI, Alibaba, Moonshot AI, OpenRouter), custom tasks in YAML, and HTML/CSV/JSON reports.",
-    "full_name": "petmal/MindTrial",
+    "fork": false,
+    "full_name": "petmal/mindtrial",
     "html_url": "https://github.com/petmal/MindTrial",
     "language": "Go",
     "pushed_at": "2026-04-17T16:26:12Z",
+    "stargazers_count": 8,
     "topics": [
       "ai-benchmark",
       "ai-evaluation-tools",

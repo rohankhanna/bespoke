@@ -68,14 +68,18 @@
       "size": 795
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:49.308946+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A Claude Code Plugin that provides an autonomous AI copywriter.",
+    "fork": false,
     "full_name": "muratcankoylan/ralph-wiggum-marketer",
     "html_url": "https://github.com/muratcankoylan/ralph-wiggum-marketer",
     "language": "JavaScript",
     "pushed_at": "2026-04-09T14:00:57Z",
+    "stargazers_count": 721,
     "topics": [],
     "updated_at": "2026-04-18T01:57:41Z"
   },

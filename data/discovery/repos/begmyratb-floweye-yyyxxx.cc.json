@@ -8,14 +8,18 @@
       "size": 4077
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:45.211901+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83d\udc41\ufe0f Scan for vulnerabilities effortlessly with FlowEye, the intelligent passive vulnerability scanning platform designed for security efficiency.",
-    "full_name": "BegmyratB/Floweye-yyyxxx.cc",
+    "fork": false,
+    "full_name": "begmyratb/floweye-yyyxxx.cc",
     "html_url": "https://github.com/BegmyratB/Floweye-yyyxxx.cc",
     "language": null,
-    "pushed_at": "2026-04-18T01:36:00Z",
+    "pushed_at": "2026-04-19T11:52:57Z",
+    "stargazers_count": 0,
     "topics": [
       "android-architecture",
       "api",
@@ -38,7 +42,7 @@
       "trading",
       "transport"
     ],
-    "updated_at": "2026-04-18T01:36:04Z"
+    "updated_at": "2026-04-19T11:53:00Z"
   },
   "repo_links": [],
   "terms": []

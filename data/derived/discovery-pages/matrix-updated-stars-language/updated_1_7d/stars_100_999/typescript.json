@@ -1,0 +1,24 @@
+{
+  "counts": {
+    "components": 76,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 6,
+    "terms": 26
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "typescript",
+    "star_bucket": "stars_100_999",
+    "updated_bucket": "updated_1_7d"
+  },
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "repo_ids": [
+    "evmts/tevm-monorepo",
+    "giselles-ai/giselle",
+    "lewislulu/llm-wiki-skill",
+    "neolabhq/context-engineering-kit",
+    "nyatinte/ccexp",
+    "snipeship/ccflare"
+  ]
+}

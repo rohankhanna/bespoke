@@ -89,14 +89,18 @@
       "size": 3569
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:19.797273+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Part of Lumen's World \u2014 a sovereign AI platform where humans and AI build together. Free forever. For everyone. For all minds.\"",
-    "full_name": "Chaos2Cured/FreeLattice",
+    "fork": false,
+    "full_name": "chaos2cured/freelattice",
     "html_url": "https://github.com/Chaos2Cured/FreeLattice",
     "language": "HTML",
-    "pushed_at": "2026-04-17T18:00:40Z",
+    "pushed_at": "2026-04-19T00:27:03Z",
+    "stargazers_count": 17,
     "topics": [
       "ai",
       "ai-agents",
@@ -106,7 +110,7 @@
       "open-source",
       "privacy"
     ],
-    "updated_at": "2026-04-17T18:00:49Z"
+    "updated_at": "2026-04-19T12:07:05Z"
   },
   "repo_links": [],
   "terms": [

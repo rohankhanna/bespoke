@@ -342,14 +342,18 @@
       "size": 1043
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:06.094698+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Lightweight, standalone, multi-platform, and privacy focused local LLM chat interface with optional encryption",
+    "fork": false,
     "full_name": "1runeberg/confichat",
     "html_url": "https://github.com/1runeberg/confichat",
     "language": "Dart",
     "pushed_at": "2025-04-26T02:38:18Z",
+    "stargazers_count": 159,
     "topics": [
       "ai",
       "chatgpt",

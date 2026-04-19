@@ -1,18 +1,19 @@
 {
   "counts": {
-    "components": 16,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 1,
-    "terms": 31
+    "components": 25,
+    "concepts": 29,
+    "observations": 29,
+    "repos": 2,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
+    "delgan/loguru",
     "ruvnet/ruflo"
   ]
 }

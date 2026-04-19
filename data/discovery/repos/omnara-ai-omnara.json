@@ -150,16 +150,20 @@
       "size": 5642
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:27.758569+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": true,
     "default_branch": "main",
     "description": "Omnara (YC S25) - Talk to Your AI Agents from Anywhere!",
+    "fork": false,
     "full_name": "omnara-ai/omnara",
     "html_url": "https://github.com/omnara-ai/omnara",
     "language": "TypeScript",
     "pushed_at": "2026-01-19T19:14:13Z",
+    "stargazers_count": 2621,
     "topics": [],
-    "updated_at": "2026-04-17T19:49:14Z"
+    "updated_at": "2026-04-19T04:02:05Z"
   },
   "repo_links": [
     {

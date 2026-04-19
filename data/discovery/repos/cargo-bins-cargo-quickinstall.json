@@ -347,14 +347,18 @@
       "size": 4621
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:59.542662+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "pre-compiled binary packages for `cargo install`",
+    "fork": false,
     "full_name": "cargo-bins/cargo-quickinstall",
     "html_url": "https://github.com/cargo-bins/cargo-quickinstall",
     "language": "Rust",
-    "pushed_at": "2026-04-18T23:47:58Z",
+    "pushed_at": "2026-04-19T13:18:39Z",
+    "stargazers_count": 300,
     "topics": [],
     "updated_at": "2026-04-17T13:03:55Z"
   },

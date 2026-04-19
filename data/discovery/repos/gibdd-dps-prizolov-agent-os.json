@@ -140,14 +140,18 @@
       "size": 4722
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:06.875133+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Prizolov Agent OS: The Open-Source Orchestration Framework for Autonomous AI Empires. Built by Dm.Andreyanov for RAG-driven business automation.",
-    "full_name": "GIBDD-DPS/prizolov-agent-os",
+    "fork": false,
+    "full_name": "gibdd-dps/prizolov-agent-os",
     "html_url": "https://github.com/GIBDD-DPS/prizolov-agent-os",
     "language": "Python",
-    "pushed_at": "2026-04-17T14:28:06Z",
+    "pushed_at": "2026-04-18T09:26:30Z",
+    "stargazers_count": 5,
     "topics": [
       "ai-agents",
       "orchestration",
@@ -155,7 +159,7 @@
       "rag-architecture",
       "sovereign-ai"
     ],
-    "updated_at": "2026-04-17T14:28:10Z"
+    "updated_at": "2026-04-18T09:26:34Z"
   },
   "repo_links": [
     {

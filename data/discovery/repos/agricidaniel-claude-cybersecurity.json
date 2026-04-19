@@ -122,14 +122,18 @@
       "size": 867
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:39.718068+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "AI-powered cybersecurity code review skill for Claude Code. 8 specialist agents, OWASP 2025, CWE Top 25, MITRE ATT&CK, 11 languages, zero configuration.",
-    "full_name": "AgriciDaniel/claude-cybersecurity",
+    "fork": false,
+    "full_name": "agricidaniel/claude-cybersecurity",
     "html_url": "https://github.com/AgriciDaniel/claude-cybersecurity",
     "language": "Shell",
     "pushed_at": "2026-04-15T09:43:43Z",
+    "stargazers_count": 58,
     "topics": [
       "appsec",
       "claude-code",
@@ -142,7 +146,7 @@
       "security-audit",
       "vulnerability-scanner"
     ],
-    "updated_at": "2026-04-18T00:47:24Z"
+    "updated_at": "2026-04-19T13:13:46Z"
   },
   "repo_links": [
     {

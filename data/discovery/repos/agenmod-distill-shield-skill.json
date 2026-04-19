@@ -44,14 +44,18 @@
       "size": 4846
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:53.192036+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\u9632\u84b8\u998f.skill \u2014 \u4e09\u5c42\u7eb5\u6df1\u9632\u5fa1\uff0c\u4e0d\u505a\u6570\u5b57\u88f8\u5954\u3002\u6c38\u751f.skill \u751f\u6001\u7ec4\u4ef6\u3002",
+    "fork": false,
     "full_name": "agenmod/distill-shield-skill",
     "html_url": "https://github.com/agenmod/distill-shield-skill",
     "language": "Python",
     "pushed_at": "2026-04-15T02:44:42Z",
+    "stargazers_count": 1,
     "topics": [],
     "updated_at": "2026-04-17T09:44:09Z"
   },

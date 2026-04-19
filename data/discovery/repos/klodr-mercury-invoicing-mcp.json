@@ -1083,27 +1083,32 @@
       "size": 1139
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:10.156877+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Mercury Banking MCP server with full Invoicing API support. Read accounts/transactions and create/manage recurring invoices via Model Context Protocol.",
+    "fork": false,
     "full_name": "klodr/mercury-invoicing-mcp",
     "html_url": "https://github.com/klodr/mercury-invoicing-mcp",
     "language": "TypeScript",
-    "pushed_at": "2026-04-17T16:07:33Z",
+    "pushed_at": "2026-04-19T08:42:02Z",
+    "stargazers_count": 2,
     "topics": [
       "ai",
-      "anthropic",
-      "claude",
+      "bank-statements",
+      "banking",
       "invoicing",
       "llm",
       "mcp",
       "mercury",
       "mercury-banking",
       "model-context-protocol",
+      "openclaw",
       "typescrypt"
     ],
-    "updated_at": "2026-04-17T16:07:31Z"
+    "updated_at": "2026-04-19T08:41:13Z"
   },
   "repo_links": [
     {

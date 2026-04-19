@@ -153,16 +153,20 @@
       "size": 612
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:28.280016+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Manage Claude Code within tmux. A tmux popup with session management, git worktree and pull request support.",
+    "fork": false,
     "full_name": "nielsgroen/claude-tmux",
     "html_url": "https://github.com/nielsgroen/claude-tmux",
     "language": "Rust",
     "pushed_at": "2026-04-17T20:14:31Z",
+    "stargazers_count": 143,
     "topics": [],
-    "updated_at": "2026-04-17T20:14:35Z"
+    "updated_at": "2026-04-19T11:14:38Z"
   },
   "repo_links": [
     {

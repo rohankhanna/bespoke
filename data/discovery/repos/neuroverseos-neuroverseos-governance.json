@@ -389,14 +389,18 @@
       "size": 1408
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:30.378087+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Deterministic governance engine for AI agents. Enforce rules defined in .md governance files across AI systems.",
-    "full_name": "NeuroverseOS/Neuroverseos-governance",
+    "fork": false,
+    "full_name": "neuroverseos/neuroverseos-governance",
     "html_url": "https://github.com/NeuroverseOS/Neuroverseos-governance",
     "language": "TypeScript",
-    "pushed_at": "2026-04-18T03:13:43Z",
+    "pushed_at": "2026-04-18T22:21:38Z",
+    "stargazers_count": 1,
     "topics": [
       "agent-framework",
       "agent-guardrails",
@@ -419,7 +423,7 @@
       "rule-engine",
       "rules-engine"
     ],
-    "updated_at": "2026-04-17T21:17:51Z"
+    "updated_at": "2026-04-18T22:21:41Z"
   },
   "repo_links": [
     {

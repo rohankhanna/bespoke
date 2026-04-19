@@ -1,18 +1,23 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 1,
-    "terms": 0
+    "components": 41,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 6,
+    "terms": 24
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
-    "ddollar/forego"
+    "ddollar/forego",
+    "google-github-actions/auth",
+    "julienxx/terminal-notifier",
+    "lorexxar/kunlun-m",
+    "protectai/llm-guard",
+    "steipete/claude-code-mcp"
   ]
 }

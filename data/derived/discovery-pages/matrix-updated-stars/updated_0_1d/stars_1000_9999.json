@@ -1,19 +1,28 @@
 {
   "counts": {
-    "components": 34,
-    "concepts": 34,
-    "observations": 34,
-    "repos": 2,
-    "terms": 34
+    "components": 229,
+    "concepts": 41,
+    "observations": 41,
+    "repos": 11,
+    "terms": 82
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
+    "archestra-ai/archestra",
     "BoundaryML/baml",
-    "harfbuzz/harfbuzz"
+    "databus23/helm-diff",
+    "dyoshikawa/rulesync",
+    "harfbuzz/harfbuzz",
+    "hashintel/hash",
+    "lobehub/sd-webui-lobe-theme",
+    "owloops/claude-powerline",
+    "pchalasani/claude-code-tools",
+    "peergos/peergos",
+    "soramimi/guitar"
   ]
 }

@@ -1,20 +1,24 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 3,
-    "terms": 15
+    "components": 116,
+    "concepts": 36,
+    "observations": 36,
+    "repos": 7,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
     "azure/aztfexport",
+    "dooy/chatgpt-web-midjourney-proxy",
+    "glittercowboy/taches-cc-resources",
     "google/tarpc",
-    "stripe/stripe-mock"
+    "haleclipse/claudix",
+    "stripe/stripe-mock",
+    "trailofbits/claude-code-config"
   ]
 }

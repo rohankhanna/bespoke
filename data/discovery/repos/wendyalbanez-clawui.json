@@ -8,14 +8,18 @@
       "size": 8
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:53.368168+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Run a cross-platform OpenClaw desktop client with built-in Gateway, onboarding, chat, and a full admin panel.",
-    "full_name": "wendyalbanez/ClawUI",
+    "fork": false,
+    "full_name": "wendyalbanez/clawui",
     "html_url": "https://github.com/wendyalbanez/ClawUI",
     "language": null,
-    "pushed_at": "2026-04-18T02:19:46Z",
+    "pushed_at": "2026-04-19T12:39:07Z",
+    "stargazers_count": 0,
     "topics": [
       "agent-orchestration",
       "agentic-workflow",
@@ -35,7 +39,7 @@
       "terminal",
       "vibe-coding"
     ],
-    "updated_at": "2026-04-18T02:19:50Z"
+    "updated_at": "2026-04-19T12:39:11Z"
   },
   "repo_links": [],
   "terms": []

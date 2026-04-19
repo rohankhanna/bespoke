@@ -287,14 +287,18 @@
       "size": 133
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:55.408686+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Open-source evaluation suite for memory-augmented LLM systems",
+    "fork": false,
     "full_name": "mem0ai/memory-benchmarks",
     "html_url": "https://github.com/mem0ai/memory-benchmarks",
     "language": "Python",
     "pushed_at": "2026-04-13T22:32:55Z",
+    "stargazers_count": 10,
     "topics": [],
     "updated_at": "2026-04-17T10:38:54Z"
   },

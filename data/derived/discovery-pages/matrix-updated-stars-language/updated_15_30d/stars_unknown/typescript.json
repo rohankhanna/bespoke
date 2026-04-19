@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 119,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 4,
-    "terms": 21
+    "components": 99,
+    "concepts": 20,
+    "observations": 20,
+    "repos": 2,
+    "terms": 20
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
     "AndyMik90/Aperant",
-    "glittercowboy/taches-cc-resources",
-    "ruvnet/agentic-flow",
-    "shareAI-lab/kode-agent-sdk"
+    "ruvnet/agentic-flow"
   ]
 }

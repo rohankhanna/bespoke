@@ -1,23 +1,25 @@
 {
   "counts": {
-    "components": 112,
+    "components": 177,
     "concepts": 28,
     "observations": 28,
-    "repos": 10,
-    "terms": 37
+    "repos": 12,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
     "alexei-led/aws-mcp-server",
     "aymenfurter/ralph",
     "cowboy8625/rusty-rain",
+    "eckardt/cchistory",
     "flinedev/contextkit",
     "lobehub/lobe-charts",
+    "lobehub/lobe-tts",
     "LuaLanes/lanes",
     "peergos/nabu",
     "sudocode-ai/sudocode",

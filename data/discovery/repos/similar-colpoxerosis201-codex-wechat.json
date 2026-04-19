@@ -120,14 +120,18 @@
       "size": 1565
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:52.818109+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Bridge WeChat to local Codex app-server with\u626b\u7801\u767b\u5f55, long-polling messages, and per-user workspace binding",
-    "full_name": "Similar-colpoxerosis201/codex-wechat",
+    "fork": false,
+    "full_name": "similar-colpoxerosis201/codex-wechat",
     "html_url": "https://github.com/Similar-colpoxerosis201/codex-wechat",
     "language": "JavaScript",
-    "pushed_at": "2026-04-18T02:18:14Z",
+    "pushed_at": "2026-04-19T12:37:32Z",
+    "stargazers_count": 0,
     "topics": [
       "acp",
       "agent",
@@ -150,7 +154,7 @@
       "slack-bot",
       "wechat-bot"
     ],
-    "updated_at": "2026-04-18T02:18:18Z"
+    "updated_at": "2026-04-19T12:37:36Z"
   },
   "repo_links": [],
   "terms": [

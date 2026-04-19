@@ -472,16 +472,20 @@
       "size": 4938
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:52.616325+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Gorgeous Claude Code Extend for VS Code.",
-    "full_name": "Haleclipse/Claudix",
+    "fork": false,
+    "full_name": "haleclipse/claudix",
     "html_url": "https://github.com/Haleclipse/Claudix",
     "language": "Vue",
     "pushed_at": "2026-04-01T19:15:31Z",
+    "stargazers_count": 1078,
     "topics": [],
-    "updated_at": "2026-04-17T09:25:08Z"
+    "updated_at": "2026-04-18T13:06:57Z"
   },
   "repo_links": [],
   "terms": [

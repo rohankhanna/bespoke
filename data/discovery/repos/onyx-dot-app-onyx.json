@@ -989,14 +989,18 @@
       "size": 13023
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:59.044120+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
+    "fork": false,
     "full_name": "onyx-dot-app/onyx",
     "html_url": "https://github.com/onyx-dot-app/onyx",
     "language": "Python",
-    "pushed_at": "2026-04-18T01:32:40Z",
+    "pushed_at": "2026-04-19T10:18:18Z",
+    "stargazers_count": 27628,
     "topics": [
       "ai",
       "ai-chat",
@@ -1013,7 +1017,7 @@
       "self-hosted",
       "vector-search"
     ],
-    "updated_at": "2026-04-18T03:33:04Z"
+    "updated_at": "2026-04-19T14:02:31Z"
   },
   "repo_links": [
     {

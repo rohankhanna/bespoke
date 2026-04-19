@@ -168,14 +168,18 @@
       "size": 1173
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:50.741056+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Catch dead Claude rules before they silently do nothing.",
+    "fork": false,
     "full_name": "nulone/claude-rules-doctor",
     "html_url": "https://github.com/nulone/claude-rules-doctor",
     "language": "TypeScript",
     "pushed_at": "2026-02-25T02:41:48Z",
+    "stargazers_count": 11,
     "topics": [
       "claude",
       "claude-code",

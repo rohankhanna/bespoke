@@ -724,14 +724,18 @@
       "size": 1451
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:56.261788+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A high-performance SVG renderer and toolkit, powered by Rust based resvg and napi-rs.",
+    "fork": false,
     "full_name": "thx/resvg-js",
     "html_url": "https://github.com/thx/resvg-js",
     "language": "TypeScript",
     "pushed_at": "2026-04-10T03:39:02Z",
+    "stargazers_count": 1915,
     "topics": [
       "nodejs",
       "rust",

@@ -240,14 +240,18 @@
       "size": 742
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:01.660274+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "A more modern http framework benchmarker supporting HTTP/1 and HTTP/2 benchmarks.",
+    "fork": false,
     "full_name": "lnx-search/rewrk",
     "html_url": "https://github.com/lnx-search/rewrk",
     "language": "Rust",
     "pushed_at": "2024-03-25T12:30:23Z",
+    "stargazers_count": 583,
     "topics": [
       "benchmark",
       "http",

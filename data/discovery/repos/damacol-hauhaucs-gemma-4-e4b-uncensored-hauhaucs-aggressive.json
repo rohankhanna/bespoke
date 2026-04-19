@@ -40,14 +40,18 @@
       "size": 734
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:22.043504+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Private, uncensored AI: HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive",
-    "full_name": "Damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive",
+    "fork": false,
+    "full_name": "damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive",
     "html_url": "https://github.com/Damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive",
     "language": null,
-    "pushed_at": "2026-04-17T18:08:45Z",
+    "pushed_at": "2026-04-19T05:24:46Z",
+    "stargazers_count": 0,
     "topics": [
       "ai",
       "gemma-4-e4b-uncensor",
@@ -55,7 +59,7 @@
       "uncensored",
       "venice-ai"
     ],
-    "updated_at": "2026-04-17T18:08:50Z"
+    "updated_at": "2026-04-19T05:24:50Z"
   },
   "repo_links": [
     {

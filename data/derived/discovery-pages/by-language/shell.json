@@ -1,24 +1,24 @@
 {
   "counts": {
-    "components": 95,
+    "components": 84,
     "concepts": 86,
     "observations": 86,
-    "repos": 42,
-    "terms": 131
+    "repos": 41,
+    "terms": 123
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "shell"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
     "Aedelon/claude-code-blueprint",
     "agent-sh/glidemq",
-    "AgriciDaniel/claude-cybersecurity",
+    "agricidaniel/claude-cybersecurity",
     "agrimsingh/ralph-wiggum-cursor",
     "alfredolopez80/multi-agent-ralph-loop",
     "anthropics/claude-code",
-    "Astro-Han/claude-pace",
+    "astro-han/claude-pace",
     "automazeio/ccpm",
     "bats-core/bats-core",
     "blader/Claudeception",
@@ -28,12 +28,12 @@
     "crate-ci/gh-install",
     "danielrosehill/bash-alias-manager-claude",
     "danielrosehill/batch-claudemd-repo-creator",
-    "danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands",
+    "danielrosehill/claude-code-linux-desktop-slash-commands",
     "diet103/claude-code-infrastructure-showcase",
     "ericbuess/claude-code-docs",
     "flinedev/contextkit",
     "flinedev/customstatusline",
-    "FlineDev/TandemKit",
+    "flinedev/tandemkit",
     "frankbria/ralph-claude-code",
     "gerardtschanz/revenue-os",
     "icanhasjonas/run-claude-docker",
@@ -52,7 +52,6 @@
     "tombelieber/claude-backup",
     "trailofbits/claude-code-config",
     "trailofbits/claude-code-devcontainer",
-    "undeadlist/claude-code-agents",
-    "verkyyi/tokenman"
+    "undeadlist/claude-code-agents"
   ]
 }

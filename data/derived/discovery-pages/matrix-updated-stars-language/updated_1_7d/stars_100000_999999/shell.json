@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 5,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 1,
+    "terms": 9
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "shell",
+    "star_bucket": "stars_100000_999999",
+    "updated_bucket": "updated_1_7d"
+  },
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "repo_ids": [
+    "anthropics/claude-code"
+  ]
+}

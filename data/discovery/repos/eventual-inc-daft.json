@@ -761,14 +761,18 @@
       "size": 492
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:38.288238+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "High-performance data engine for AI and multimodal workloads. Process images, audio, video, and structured data at any scale",
-    "full_name": "Eventual-Inc/Daft",
+    "fork": false,
+    "full_name": "eventual-inc/daft",
     "html_url": "https://github.com/Eventual-Inc/Daft",
     "language": "Rust",
     "pushed_at": "2026-04-18T06:31:22Z",
+    "stargazers_count": 5427,
     "topics": [
       "ai-engineering",
       "ai-pipeline",
@@ -790,7 +794,7 @@
       "ray",
       "rust"
     ],
-    "updated_at": "2026-04-17T23:54:39Z"
+    "updated_at": "2026-04-19T04:16:16Z"
   },
   "repo_links": [
     {

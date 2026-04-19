@@ -198,16 +198,20 @@
       "size": 392
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:50.200477+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Development environments for coding agents. Enable multiple agents to work safely and independently with your preferred stack.",
+    "fork": false,
     "full_name": "dagger/container-use",
     "html_url": "https://github.com/dagger/container-use",
     "language": "Go",
     "pushed_at": "2026-02-23T12:37:47Z",
+    "stargazers_count": 3730,
     "topics": [],
-    "updated_at": "2026-04-18T01:59:04Z"
+    "updated_at": "2026-04-18T17:26:19Z"
   },
   "repo_links": [],
   "terms": [

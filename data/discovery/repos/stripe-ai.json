@@ -318,14 +318,18 @@
       "size": 1775
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:46.091848+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "One-stop shop for building AI-powered products and businesses with Stripe.",
+    "fork": false,
     "full_name": "stripe/ai",
     "html_url": "https://github.com/stripe/ai",
     "language": "TypeScript",
     "pushed_at": "2026-04-17T00:29:21Z",
+    "stargazers_count": 1487,
     "topics": [
       "ai",
       "llm",
@@ -335,7 +339,7 @@
       "typescript",
       "workflows"
     ],
-    "updated_at": "2026-04-18T01:37:10Z"
+    "updated_at": "2026-04-19T11:32:02Z"
   },
   "repo_links": [
     {

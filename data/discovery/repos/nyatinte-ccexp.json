@@ -528,14 +528,18 @@
       "size": 1045
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:34.284817+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "interactive terminal interface for discovering, previewing, and managing Claude Code configuration files and slash commands.",
+    "fork": false,
     "full_name": "nyatinte/ccexp",
     "html_url": "https://github.com/nyatinte/ccexp",
     "language": "TypeScript",
     "pushed_at": "2026-04-17T19:05:38Z",
+    "stargazers_count": 268,
     "topics": [
       "claude",
       "claude-code"

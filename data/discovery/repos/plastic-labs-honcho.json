@@ -843,6 +843,7 @@
       "size": 4653
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:19.269070+00:00",
   "related_repositories": [
     {
       "description": "A local-first AI agent with persistent memory, emotional intelligence, and a peer-to-peer skills economy.",
@@ -1276,12 +1277,15 @@
     }
   ],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": " Memory library for building stateful agents",
+    "fork": false,
     "full_name": "plastic-labs/honcho",
     "html_url": "https://github.com/plastic-labs/honcho",
     "language": "Python",
-    "pushed_at": "2026-04-17T17:02:12Z",
+    "pushed_at": "2026-04-18T01:40:14Z",
+    "stargazers_count": 2597,
     "topics": [
       "agent-memory",
       "ai",
@@ -1304,7 +1308,7 @@
       "typescript",
       "vector-database"
     ],
-    "updated_at": "2026-04-17T17:48:45Z"
+    "updated_at": "2026-04-19T13:36:01Z"
   },
   "repo_links": [],
   "terms": [

@@ -27,18 +27,22 @@
       "size": 271
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:49.432812+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Process manager for Procfile-based applications",
-    "full_name": "DarthSim/hivemind",
+    "fork": false,
+    "full_name": "darthsim/hivemind",
     "html_url": "https://github.com/DarthSim/hivemind",
     "language": "Go",
     "pushed_at": "2023-12-12T00:59:00Z",
+    "stargazers_count": 1131,
     "topics": [
       "procfile"
     ],
-    "updated_at": "2026-04-17T05:40:01Z"
+    "updated_at": "2026-04-18T20:49:06Z"
   },
   "repo_links": [
     {

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 157,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 3,
-    "terms": 27
+    "components": 95,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 2,
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
-    "Dooy/chatgpt-web-midjourney-proxy",
     "eyaltoledano/claude-task-master",
     "ykdojo/claude-code-tips"
   ]

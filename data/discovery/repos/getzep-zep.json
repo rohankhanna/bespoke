@@ -320,21 +320,25 @@
       "size": 1263
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:31.715129+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Zep | Examples, Integrations, & More",
+    "fork": false,
     "full_name": "getzep/zep",
     "html_url": "https://github.com/getzep/zep",
     "language": "Python",
     "pushed_at": "2026-04-09T01:30:25Z",
+    "stargazers_count": 4454,
     "topics": [
       "ai",
       "knowledge-graphs",
       "language-model",
       "llm"
     ],
-    "updated_at": "2026-04-17T21:44:21Z"
+    "updated_at": "2026-04-19T01:49:49Z"
   },
   "repo_links": [
     {

@@ -580,14 +580,18 @@
       "size": 13649
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:59.943397+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+    "fork": false,
     "full_name": "ollama/ollama",
     "html_url": "https://github.com/ollama/ollama",
     "language": "Go",
-    "pushed_at": "2026-04-18T00:36:42Z",
+    "pushed_at": "2026-04-19T02:26:28Z",
+    "stargazers_count": 169423,
     "topics": [
       "deepseek",
       "gemma",
@@ -605,7 +609,7 @@
       "ollama",
       "qwen"
     ],
-    "updated_at": "2026-04-18T03:38:48Z"
+    "updated_at": "2026-04-19T13:59:09Z"
   },
   "repo_links": [
     {

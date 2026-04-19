@@ -164,14 +164,18 @@
       "size": 610
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:58.677826+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Evidence-anchored narrative dataset that shifts AI reasoning from scarcity-default to abundance-aware (+9% in benchmark)",
-    "full_name": "CjTruHeart/abundance-codex",
+    "fork": false,
+    "full_name": "cjtruheart/abundance-codex",
     "html_url": "https://github.com/CjTruHeart/abundance-codex",
     "language": "Python",
-    "pushed_at": "2026-04-17T12:49:50Z",
+    "pushed_at": "2026-04-18T16:44:22Z",
+    "stargazers_count": 1,
     "topics": [
       "abundance",
       "ai-agents",
@@ -186,7 +190,7 @@
       "rag",
       "system-prompts"
     ],
-    "updated_at": "2026-04-17T12:49:55Z"
+    "updated_at": "2026-04-18T16:44:25Z"
   },
   "repo_links": [
     {

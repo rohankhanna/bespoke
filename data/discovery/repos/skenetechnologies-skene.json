@@ -480,14 +480,18 @@
       "size": 2597
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:59.858575+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Product-Led Growth (PLG) analysis toolkit that detects tech stacks, plans growth loops and builds the loop iteratively.",
-    "full_name": "SkeneTechnologies/skene",
+    "fork": false,
+    "full_name": "skenetechnologies/skene",
     "html_url": "https://github.com/SkeneTechnologies/skene",
     "language": "Go",
-    "pushed_at": "2026-04-17T12:51:52Z",
+    "pushed_at": "2026-04-18T15:18:21Z",
+    "stargazers_count": 291,
     "topics": [
       "ai-tools",
       "anthropic",
@@ -510,7 +514,7 @@
       "python3",
       "tech-stack-detection"
     ],
-    "updated_at": "2026-04-17T13:04:50Z"
+    "updated_at": "2026-04-19T11:07:35Z"
   },
   "repo_links": [
     {

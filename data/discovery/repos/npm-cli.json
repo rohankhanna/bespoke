@@ -1419,14 +1419,18 @@
       "size": 3280
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:33.715068+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "latest",
     "description": "the package manager for JavaScript",
+    "fork": false,
     "full_name": "npm/cli",
     "html_url": "https://github.com/npm/cli",
     "language": "JavaScript",
     "pushed_at": "2026-04-17T20:33:39Z",
+    "stargazers_count": 9687,
     "topics": [
       "javascript",
       "nodejs",
@@ -1435,7 +1439,7 @@
       "package-manager",
       "tools"
     ],
-    "updated_at": "2026-04-17T22:28:15Z"
+    "updated_at": "2026-04-19T11:03:48Z"
   },
   "repo_links": [
     {

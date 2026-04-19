@@ -226,14 +226,18 @@
       "size": 427
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:48.479516+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Full-text search and resume for Claude/Codex conversations",
+    "fork": false,
     "full_name": "zippoxer/recall",
     "html_url": "https://github.com/zippoxer/recall",
     "language": "Rust",
     "pushed_at": "2026-01-14T07:49:57Z",
+    "stargazers_count": 178,
     "topics": [
       "claude",
       "claude-ai",
@@ -244,7 +248,7 @@
       "openai-codex",
       "openai-codex-cli"
     ],
-    "updated_at": "2026-04-17T03:08:49Z"
+    "updated_at": "2026-04-19T08:19:03Z"
   },
   "repo_links": [
     {

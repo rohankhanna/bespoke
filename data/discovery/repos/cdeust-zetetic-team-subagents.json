@@ -751,14 +751,18 @@
       "size": 24938
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:58.080560+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "97 reasoning patterns from history's greatest minds \u2014 as Claude Code agents. Curie to Toulmin. Engineering to humanities. Every claim cites its source. Every commit is checked. The only agent system where \"I don't know\" is a feature.",
+    "fork": false,
     "full_name": "cdeust/zetetic-team-subagents",
     "html_url": "https://github.com/cdeust/zetetic-team-subagents",
     "language": "Shell",
     "pushed_at": "2026-04-17T12:49:20Z",
+    "stargazers_count": 2,
     "topics": [
       "ai-agents",
       "anthropic",

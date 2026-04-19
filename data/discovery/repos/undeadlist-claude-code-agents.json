@@ -59,16 +59,20 @@
       "size": 833
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:46.382730+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Claude Code Agents Prompt templates for Claude Code's subagent system. Run parallel code audits, automate fix cycles, get stuff reviewed. Built for the Claude Code Task tool. Not a framework. Just prompts that work. What This Does Claude Code can spawn subagents via Task(). These are the prompts those agents receive.",
+    "fork": false,
     "full_name": "undeadlist/claude-code-agents",
     "html_url": "https://github.com/undeadlist/claude-code-agents",
     "language": "Shell",
     "pushed_at": "2026-04-13T21:33:09Z",
+    "stargazers_count": 123,
     "topics": [],
-    "updated_at": "2026-04-18T01:38:16Z"
+    "updated_at": "2026-04-18T15:43:45Z"
   },
   "repo_links": [],
   "terms": [

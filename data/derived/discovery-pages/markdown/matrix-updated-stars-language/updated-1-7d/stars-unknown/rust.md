@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · Unknown stars · Rust
 
-Generated at: `2026-04-19T07:52:38.223094+00:00`
+Generated at: `2026-04-19T14:03:00.009749+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 27
-- terms: 155
-- components: 292
-- concepts: 120
-- observations: 122
+- repos: 16
+- terms: 109
+- components: 248
+- concepts: 103
+- observations: 103
 
 ## Static behavior
 
@@ -26,31 +26,20 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [Eventual-Inc/Daft](https://github.com/Eventual-Inc/Daft) | unknown | 2026-04-18T06:31:22Z | Rust | Infrastructure/tooling | 21 | 18 | 21 | 21 |
+| [astral-sh/ruff](https://github.com/astral-sh/ruff) | unknown | 2026-04-18T12:22:10Z | Rust | Infrastructure/tooling | 14 | 24 | 14 | 14 |
+| [denoland/deno](https://github.com/denoland/deno) | unknown | 2026-04-18T11:29:57Z | Rust | Infrastructure/tooling | 2 | 33 | 2 | 2 |
+| [openai/codex](https://github.com/openai/codex) | unknown | 2026-04-18T09:13:22Z | Rust | CLI | 5 | 12 | 5 | 5 |
+| [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | unknown | 2026-04-18T08:55:25Z | Rust | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell) | unknown | 2026-04-18T03:07:41Z | Rust | Infrastructure/tooling | 7 | 6 | 7 | 7 |
-| [aipurposes1587-max/weixin-agent-rs](https://github.com/aipurposes1587-max/weixin-agent-rs) | unknown | 2026-04-18T02:18:04Z | Rust | CLI | 0 | 0 | 0 | 0 |
-| [eikarna/hermes-rs](https://github.com/eikarna/hermes-rs) | unknown | 2026-04-18T02:16:53Z | Rust | Infrastructure/tooling | 2 | 5 | 0 | 0 |
-| [kmjjjj/polymarket-arbitrage-bot-btc-sol-15m](https://github.com/kmjjjj/polymarket-arbitrage-bot-btc-sol-15m) | unknown | 2026-04-18T01:35:40Z | Rust | Unknown | 0 | 0 | 0 | 0 |
-| [phiat/claude-esp-rs](https://github.com/phiat/claude-esp-rs) | unknown | 2026-04-17T23:00:46Z | Rust | CLI | 2 | 5 | 2 | 2 |
 | [astral-sh/uv](https://github.com/astral-sh/uv) | unknown | 2026-04-17T21:25:53Z | Rust | Infrastructure/tooling | 4 | 16 | 4 | 4 |
-| [nielsgroen/claude-tmux](https://github.com/nielsgroen/claude-tmux) | unknown | 2026-04-17T20:14:31Z | Rust | Unknown | 0 | 0 | 0 | 0 |
-| [agent-sh/agnix](https://github.com/agent-sh/agnix) | unknown | 2026-04-17T19:46:45Z | Rust | CLI | 6 | 12 | 0 | 0 |
-| [kensave/agent-memory-rs](https://github.com/kensave/agent-memory-rs) | unknown | 2026-04-17T19:30:34Z | Rust | CLI | 0 | 3 | 0 | 0 |
-| [mupozg823/codelens-mcp-plugin](https://github.com/mupozg823/codelens-mcp-plugin) | unknown | 2026-04-17T18:45:58Z | Rust | Infrastructure/tooling | 5 | 16 | 0 | 0 |
 | [cedar-policy/cedar](https://github.com/cedar-policy/cedar) | unknown | 2026-04-17T18:38:54Z | Rust | Infrastructure/tooling | 8 | 15 | 8 | 8 |
-| [tombelieber/claude-view](https://github.com/tombelieber/claude-view) | unknown | 2026-04-17T18:12:58Z | Rust | CLI | 1 | 14 | 0 | 0 |
-| [JSLEEKR/skilldigest](https://github.com/JSLEEKR/skilldigest) | unknown | 2026-04-17T17:15:47Z | Rust | CLI | 3 | 4 | 0 | 0 |
 | [cargo-bins/cargo-binstall](https://github.com/cargo-bins/cargo-binstall) | unknown | 2026-04-17T17:15:34Z | Rust | Infrastructure/tooling | 10 | 14 | 10 | 10 |
 | [napi-rs/napi-rs](https://github.com/napi-rs/napi-rs) | unknown | 2026-04-17T15:09:54Z | Rust | Infrastructure/tooling | 12 | 43 | 12 | 12 |
 | [Abraxas-365/langchain-rust](https://github.com/Abraxas-365/langchain-rust) | unknown | 2026-04-17T14:50:53Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
-| [CloudLLM-ai/mentisdb](https://github.com/CloudLLM-ai/mentisdb) | unknown | 2026-04-17T12:49:48Z | Rust | Infrastructure/tooling | 8 | 6 | 0 | 0 |
 | [crate-ci/typos](https://github.com/crate-ci/typos) | unknown | 2026-04-16T19:22:27Z | Rust | CLI | 7 | 14 | 7 | 7 |
 | [ruvnet/RuVector](https://github.com/ruvnet/RuVector) | unknown | 2026-04-16T19:19:43Z | Rust | Infrastructure/tooling | 18 | 13 | 18 | 18 |
-| [libp2p/rust-libp2p](https://github.com/libp2p/rust-libp2p) | unknown | 2026-04-16T15:29:42Z | Rust | Infrastructure/tooling | 13 | 22 | 13 | 13 |
 | [huggingface/candle](https://github.com/huggingface/candle) | unknown | 2026-04-16T12:37:54Z | Rust | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [casey/just](https://github.com/casey/just) | unknown | 2026-04-16T05:56:35Z | Rust | Infrastructure/tooling | 1 | 10 | 1 | 1 |
-| [aannoo/hcom](https://github.com/aannoo/hcom) | unknown | 2026-04-16T01:21:34Z | Rust | CLI | 4 | 11 | 0 | 0 |
-| [RustCrypto/signatures](https://github.com/RustCrypto/signatures) | unknown | 2026-04-15T19:41:34Z | Rust | Infrastructure/tooling | 10 | 7 | 10 | 12 |
 | [tokio-rs/axum](https://github.com/tokio-rs/axum) | unknown | 2026-04-15T11:06:41Z | Rust | Infrastructure/tooling | 1 | 11 | 0 | 0 |
 | [mikeyobrien/ralph-orchestrator](https://github.com/mikeyobrien/ralph-orchestrator) | unknown | 2026-04-15T03:14:33Z | Rust | CLI | 5 | 10 | 0 | 0 |
 
@@ -58,30 +47,19 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [Eventual-Inc/Daft](https://github.com/Eventual-Inc/Daft) | unknown | 2026-04-18T06:31:22Z | Rust | Infrastructure/tooling | 21 | 18 | 21 | 21 |
+| [astral-sh/ruff](https://github.com/astral-sh/ruff) | unknown | 2026-04-18T12:22:10Z | Rust | Infrastructure/tooling | 14 | 24 | 14 | 14 |
+| [denoland/deno](https://github.com/denoland/deno) | unknown | 2026-04-18T11:29:57Z | Rust | Infrastructure/tooling | 2 | 33 | 2 | 2 |
+| [openai/codex](https://github.com/openai/codex) | unknown | 2026-04-18T09:13:22Z | Rust | CLI | 5 | 12 | 5 | 5 |
+| [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | unknown | 2026-04-18T08:55:25Z | Rust | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell) | unknown | 2026-04-18T03:07:41Z | Rust | Infrastructure/tooling | 7 | 6 | 7 | 7 |
-| [aipurposes1587-max/weixin-agent-rs](https://github.com/aipurposes1587-max/weixin-agent-rs) | unknown | 2026-04-18T02:18:04Z | Rust | CLI | 0 | 0 | 0 | 0 |
-| [eikarna/hermes-rs](https://github.com/eikarna/hermes-rs) | unknown | 2026-04-18T02:16:53Z | Rust | Infrastructure/tooling | 2 | 5 | 0 | 0 |
-| [kmjjjj/polymarket-arbitrage-bot-btc-sol-15m](https://github.com/kmjjjj/polymarket-arbitrage-bot-btc-sol-15m) | unknown | 2026-04-18T01:35:40Z | Rust | Unknown | 0 | 0 | 0 | 0 |
-| [phiat/claude-esp-rs](https://github.com/phiat/claude-esp-rs) | unknown | 2026-04-17T23:00:46Z | Rust | CLI | 2 | 5 | 2 | 2 |
 | [astral-sh/uv](https://github.com/astral-sh/uv) | unknown | 2026-04-17T21:25:53Z | Rust | Infrastructure/tooling | 4 | 16 | 4 | 4 |
-| [nielsgroen/claude-tmux](https://github.com/nielsgroen/claude-tmux) | unknown | 2026-04-17T20:14:31Z | Rust | Unknown | 0 | 0 | 0 | 0 |
-| [agent-sh/agnix](https://github.com/agent-sh/agnix) | unknown | 2026-04-17T19:46:45Z | Rust | CLI | 6 | 12 | 0 | 0 |
-| [kensave/agent-memory-rs](https://github.com/kensave/agent-memory-rs) | unknown | 2026-04-17T19:30:34Z | Rust | CLI | 0 | 3 | 0 | 0 |
-| [mupozg823/codelens-mcp-plugin](https://github.com/mupozg823/codelens-mcp-plugin) | unknown | 2026-04-17T18:45:58Z | Rust | Infrastructure/tooling | 5 | 16 | 0 | 0 |
 | [cedar-policy/cedar](https://github.com/cedar-policy/cedar) | unknown | 2026-04-17T18:38:54Z | Rust | Infrastructure/tooling | 8 | 15 | 8 | 8 |
-| [tombelieber/claude-view](https://github.com/tombelieber/claude-view) | unknown | 2026-04-17T18:12:58Z | Rust | CLI | 1 | 14 | 0 | 0 |
-| [JSLEEKR/skilldigest](https://github.com/JSLEEKR/skilldigest) | unknown | 2026-04-17T17:15:47Z | Rust | CLI | 3 | 4 | 0 | 0 |
 | [cargo-bins/cargo-binstall](https://github.com/cargo-bins/cargo-binstall) | unknown | 2026-04-17T17:15:34Z | Rust | Infrastructure/tooling | 10 | 14 | 10 | 10 |
 | [napi-rs/napi-rs](https://github.com/napi-rs/napi-rs) | unknown | 2026-04-17T15:09:54Z | Rust | Infrastructure/tooling | 12 | 43 | 12 | 12 |
 | [Abraxas-365/langchain-rust](https://github.com/Abraxas-365/langchain-rust) | unknown | 2026-04-17T14:50:53Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
-| [CloudLLM-ai/mentisdb](https://github.com/CloudLLM-ai/mentisdb) | unknown | 2026-04-17T12:49:48Z | Rust | Infrastructure/tooling | 8 | 6 | 0 | 0 |
 | [crate-ci/typos](https://github.com/crate-ci/typos) | unknown | 2026-04-16T19:22:27Z | Rust | CLI | 7 | 14 | 7 | 7 |
 | [ruvnet/RuVector](https://github.com/ruvnet/RuVector) | unknown | 2026-04-16T19:19:43Z | Rust | Infrastructure/tooling | 18 | 13 | 18 | 18 |
-| [libp2p/rust-libp2p](https://github.com/libp2p/rust-libp2p) | unknown | 2026-04-16T15:29:42Z | Rust | Infrastructure/tooling | 13 | 22 | 13 | 13 |
 | [huggingface/candle](https://github.com/huggingface/candle) | unknown | 2026-04-16T12:37:54Z | Rust | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [casey/just](https://github.com/casey/just) | unknown | 2026-04-16T05:56:35Z | Rust | Infrastructure/tooling | 1 | 10 | 1 | 1 |
-| [aannoo/hcom](https://github.com/aannoo/hcom) | unknown | 2026-04-16T01:21:34Z | Rust | CLI | 4 | 11 | 0 | 0 |
-| [RustCrypto/signatures](https://github.com/RustCrypto/signatures) | unknown | 2026-04-15T19:41:34Z | Rust | Infrastructure/tooling | 10 | 7 | 10 | 12 |
 | [tokio-rs/axum](https://github.com/tokio-rs/axum) | unknown | 2026-04-15T11:06:41Z | Rust | Infrastructure/tooling | 1 | 11 | 0 | 0 |
 | [mikeyobrien/ralph-orchestrator](https://github.com/mikeyobrien/ralph-orchestrator) | unknown | 2026-04-15T03:14:33Z | Rust | CLI | 5 | 10 | 0 | 0 |

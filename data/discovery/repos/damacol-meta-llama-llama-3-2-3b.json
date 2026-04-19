@@ -138,6 +138,7 @@
       "size": 734
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:07.454324+00:00",
   "related_repositories": [
     {
       "description": "Part of Lumen's World \u2014 a sovereign AI platform where humans and AI build together. Free forever. For everyone. For all minds.\"",
@@ -401,12 +402,15 @@
     }
   ],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "AI: meta-llama/Llama-3.2-3B",
-    "full_name": "Damacol/meta-llama-llama-3-2-3b",
+    "fork": false,
+    "full_name": "damacol/meta-llama-llama-3-2-3b",
     "html_url": "https://github.com/Damacol/meta-llama-llama-3-2-3b",
     "language": null,
-    "pushed_at": "2026-04-17T14:50:20Z",
+    "pushed_at": "2026-04-19T05:35:01Z",
+    "stargazers_count": 0,
     "topics": [
       "ai",
       "llama-3-2-3b",
@@ -414,7 +418,7 @@
       "uncensored",
       "venice-ai"
     ],
-    "updated_at": "2026-04-17T14:50:24Z"
+    "updated_at": "2026-04-19T05:35:05Z"
   },
   "repo_links": [
     {

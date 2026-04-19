@@ -272,14 +272,18 @@
       "size": 1624
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:13.827667+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "The Security Toolkit for LLM Interactions",
+    "fork": false,
     "full_name": "protectai/llm-guard",
     "html_url": "https://github.com/protectai/llm-guard",
     "language": "Python",
     "pushed_at": "2025-12-15T13:07:25Z",
+    "stargazers_count": 2842,
     "topics": [
       "adversarial-machine-learning",
       "chatgpt",
@@ -292,7 +296,7 @@
       "security-tools",
       "transformers"
     ],
-    "updated_at": "2026-04-17T16:42:04Z"
+    "updated_at": "2026-04-19T08:13:31Z"
   },
   "repo_links": [
     {

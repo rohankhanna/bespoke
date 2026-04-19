@@ -264,14 +264,18 @@
       "size": 15922
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:32.038764+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "\ud83e\uddab Privacy-first virtualization layer for LLM context with MCP protocol for tool access.",
+    "fork": false,
     "full_name": "serpro69/capy",
     "html_url": "https://github.com/serpro69/capy",
     "language": "Go",
-    "pushed_at": "2026-04-17T21:45:52Z",
+    "pushed_at": "2026-04-19T09:18:43Z",
+    "stargazers_count": 4,
     "topics": [
       "agents",
       "ai",
@@ -290,7 +294,7 @@
       "opencode",
       "skills"
     ],
-    "updated_at": "2026-04-17T21:45:58Z"
+    "updated_at": "2026-04-19T09:18:47Z"
   },
   "repo_links": [
     {

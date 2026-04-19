@@ -8,14 +8,18 @@
       "size": 5196
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:43.468100+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "next",
     "description": "\ud83d\udd27 Set up mining pools for cryptocurrencies on Ubuntu Linux. Expert solutions for Bitcoin, Dogecoin, and more. Get tailored support today.",
-    "full_name": "Azizos911/Setja-Upp-Stilla-Yiimp-Namuvinnslupott-Hugbunadur-Ubuntu-Linux",
+    "fork": false,
+    "full_name": "azizos911/setja-upp-stilla-yiimp-namuvinnslupott-hugbunadur-ubuntu-linux",
     "html_url": "https://github.com/Azizos911/Setja-Upp-Stilla-Yiimp-Namuvinnslupott-Hugbunadur-Ubuntu-Linux",
     "language": null,
-    "pushed_at": "2026-04-18T01:35:36Z",
+    "pushed_at": "2026-04-19T11:52:34Z",
+    "stargazers_count": 0,
     "topics": [
       "asicboost",
       "bitcoin",
@@ -34,7 +38,7 @@
       "miningpools",
       "yiimp"
     ],
-    "updated_at": "2026-04-18T01:35:39Z"
+    "updated_at": "2026-04-19T11:52:37Z"
   },
   "repo_links": [],
   "terms": []

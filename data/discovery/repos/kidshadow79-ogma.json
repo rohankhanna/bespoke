@@ -69,14 +69,18 @@
       "size": 4664
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:24.027104+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Assistant IA \u00e0 m\u00e9moire persistante et croissance organique",
-    "full_name": "kidshadow79/Ogma",
+    "fork": false,
+    "full_name": "kidshadow79/ogma",
     "html_url": "https://github.com/kidshadow79/Ogma",
     "language": "Python",
-    "pushed_at": "2026-04-17T18:24:44Z",
+    "pushed_at": "2026-04-18T22:33:31Z",
+    "stargazers_count": 0,
     "topics": [
       "ai",
       "chatbot",
@@ -91,7 +95,7 @@
       "rag",
       "sqlite3"
     ],
-    "updated_at": "2026-04-17T18:24:48Z"
+    "updated_at": "2026-04-18T22:33:35Z"
   },
   "repo_links": [],
   "terms": [

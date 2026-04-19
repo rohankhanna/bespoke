@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 11,
+    "concepts": 2,
+    "observations": 2,
+    "repos": 1,
+    "terms": 2
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "javascript",
+    "star_bucket": "stars_1000_9999",
+    "updated_bucket": "updated_91_180d"
+  },
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "repo_ids": [
+    "steipete/claude-code-mcp"
+  ]
+}

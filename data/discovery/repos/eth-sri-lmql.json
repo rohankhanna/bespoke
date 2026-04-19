@@ -309,14 +309,18 @@
       "size": 3113
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:27.321762+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A language for constraint-guided and efficient LLM programming.",
+    "fork": false,
     "full_name": "eth-sri/lmql",
     "html_url": "https://github.com/eth-sri/lmql",
     "language": "Python",
     "pushed_at": "2025-05-22T07:32:31Z",
+    "stargazers_count": 4167,
     "topics": [
       "chatgpt",
       "huggingface",

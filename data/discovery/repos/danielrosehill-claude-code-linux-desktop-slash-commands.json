@@ -100,14 +100,18 @@
       "size": 6579
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:48.208686+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Slash commands for Linux desktop sysadmin with Claude Code (or any other agent)",
-    "full_name": "danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands",
+    "fork": false,
+    "full_name": "danielrosehill/claude-code-linux-desktop-slash-commands",
     "html_url": "https://github.com/danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands",
     "language": "Shell",
     "pushed_at": "2025-10-31T22:31:21Z",
+    "stargazers_count": 28,
     "topics": [
       "claude-code",
       "linux-desktop",

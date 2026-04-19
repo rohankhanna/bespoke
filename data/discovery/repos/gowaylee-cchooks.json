@@ -361,14 +361,18 @@
       "size": 507
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:51.003919+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A Python SDK for claude-code hooks",
-    "full_name": "GowayLee/cchooks",
+    "fork": false,
+    "full_name": "gowaylee/cchooks",
     "html_url": "https://github.com/GowayLee/cchooks",
     "language": "Python",
     "pushed_at": "2026-04-08T08:38:42Z",
+    "stargazers_count": 129,
     "topics": [
       "agentic-ai",
       "claude-code",

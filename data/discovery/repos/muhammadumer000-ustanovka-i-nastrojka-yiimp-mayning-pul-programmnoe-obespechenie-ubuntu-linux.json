@@ -37,14 +37,18 @@
       "size": 5378
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:43.185697+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "next",
     "description": "\ud83d\udee0\ufe0f Set up and configure a Yiimp mining pool on Ubuntu Linux for any cryptocurrency. Get expert support tailored to your needs.",
-    "full_name": "muhammadumer000/Ustanovka-i-nastrojka-Yiimp-Mayning-Pul-Programmnoe-Obespechenie-Ubuntu-Linux",
+    "fork": false,
+    "full_name": "muhammadumer000/ustanovka-i-nastrojka-yiimp-mayning-pul-programmnoe-obespechenie-ubuntu-linux",
     "html_url": "https://github.com/muhammadumer000/Ustanovka-i-nastrojka-Yiimp-Mayning-Pul-Programmnoe-Obespechenie-Ubuntu-Linux",
     "language": null,
-    "pushed_at": "2026-04-18T01:35:31Z",
+    "pushed_at": "2026-04-19T11:52:36Z",
+    "stargazers_count": 0,
     "topics": [
       "asicboost",
       "bitcoin",
@@ -64,7 +68,7 @@
       "source-code",
       "yiimp"
     ],
-    "updated_at": "2026-04-18T01:35:34Z"
+    "updated_at": "2026-04-19T11:52:40Z"
   },
   "repo_links": [],
   "terms": [

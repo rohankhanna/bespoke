@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 749,
-    "concepts": 68,
-    "observations": 68,
-    "repos": 12,
-    "terms": 75
+    "components": 543,
+    "concepts": 40,
+    "observations": 40,
+    "repos": 5,
+    "terms": 40
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,12 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
-    "EveryInc/compound-engineering-plugin",
     "letta-ai/letta-code",
     "libp2p/js-libp2p",
     "lobehub/lobehub",
     "multica-ai/multica",
-    "nizos/tdd-guard",
-    "NVIDIA/NemoClaw",
-    "QwenLM/qwen-code",
-    "qwibitai/nanoclaw",
-    "recharts/recharts",
-    "ryoppippi/ccusage",
-    "upstash/context7"
+    "recharts/recharts"
   ]
 }

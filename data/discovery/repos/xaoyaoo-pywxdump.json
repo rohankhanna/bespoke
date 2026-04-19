@@ -30,20 +30,24 @@
       "size": 823
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:05.199037+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "\u5220\u5e93",
-    "full_name": "xaoyaoo/PyWxDump",
+    "fork": false,
+    "full_name": "xaoyaoo/pywxdump",
     "html_url": "https://github.com/xaoyaoo/PyWxDump",
     "language": null,
     "pushed_at": "2025-10-20T10:36:39Z",
+    "stargazers_count": 9751,
     "topics": [
       "pywxdump",
       "wxdump",
       "wxexport"
     ],
-    "updated_at": "2026-04-17T14:15:09Z"
+    "updated_at": "2026-04-19T09:19:30Z"
   },
   "repo_links": [],
   "terms": [

@@ -667,14 +667,18 @@
       "size": 16875
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:53.740988+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Let AI agents message, watch, and spawn each other across terminals. Claude Code, Gemini CLI, Codex, OpenCode",
+    "fork": false,
     "full_name": "aannoo/hcom",
     "html_url": "https://github.com/aannoo/hcom",
     "language": "Rust",
-    "pushed_at": "2026-04-16T01:21:34Z",
+    "pushed_at": "2026-04-18T11:50:27Z",
+    "stargazers_count": 231,
     "topics": [
       "agent",
       "agent-skills",
@@ -697,7 +701,7 @@
       "subagents",
       "terminal"
     ],
-    "updated_at": "2026-04-17T10:05:49Z"
+    "updated_at": "2026-04-18T21:03:34Z"
   },
   "repo_links": [],
   "terms": [

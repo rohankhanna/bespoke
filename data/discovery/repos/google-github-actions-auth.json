@@ -692,14 +692,18 @@
       "size": 1576
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:56.795137+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A GitHub Action for authenticating to Google Cloud.",
+    "fork": false,
     "full_name": "google-github-actions/auth",
     "html_url": "https://github.com/google-github-actions/auth",
     "language": "TypeScript",
     "pushed_at": "2025-11-15T11:18:16Z",
+    "stargazers_count": 1300,
     "topics": [
       "actions",
       "authentication",
@@ -711,7 +715,7 @@
       "identity",
       "security"
     ],
-    "updated_at": "2026-04-17T11:40:03Z"
+    "updated_at": "2026-04-18T03:45:52Z"
   },
   "repo_links": [
     {

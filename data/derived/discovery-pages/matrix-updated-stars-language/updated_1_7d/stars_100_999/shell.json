@@ -1,0 +1,22 @@
+{
+  "counts": {
+    "components": 11,
+    "concepts": 6,
+    "observations": 6,
+    "repos": 4,
+    "terms": 12
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "shell",
+    "star_bucket": "stars_100_999",
+    "updated_bucket": "updated_1_7d"
+  },
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "repo_ids": [
+    "astro-han/claude-pace",
+    "kubernetes/sig-release",
+    "rsmdt/the-startup",
+    "undeadlist/claude-code-agents"
+  ]
+}

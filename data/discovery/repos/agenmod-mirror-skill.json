@@ -44,14 +44,18 @@
       "size": 11099
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:54.299316+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\u8001\u5df1.skill (Mirror) \u2014 \u4ece AI \u5bf9\u8bdd\u4e2d\u84b8\u998f\u300c\u4f60\u8001\u5df1\u662f\u8c01\u300d| \u8ba4\u77e5\u955c\u50cf \u00b7 \u80fd\u529b\u77e9\u9635 \u00b7 \u8fdb\u5316\u8def\u7ebf\u56fe \u00b7 AI \u8fc1\u79fb\u534f\u8bae",
+    "fork": false,
     "full_name": "agenmod/mirror-skill",
     "html_url": "https://github.com/agenmod/mirror-skill",
     "language": null,
     "pushed_at": "2026-04-15T04:01:11Z",
+    "stargazers_count": 2,
     "topics": [],
     "updated_at": "2026-04-17T10:31:56Z"
   },

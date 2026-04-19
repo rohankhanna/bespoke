@@ -1030,14 +1030,18 @@
       "size": 13231
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:24.875281+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Harness-native compressed context engine for AI coding agents \u2014 Pure Rust MCP server, 89+ tools, 25 languages, 50-87% token reduction",
+    "fork": false,
     "full_name": "mupozg823/codelens-mcp-plugin",
     "html_url": "https://github.com/mupozg823/codelens-mcp-plugin",
     "language": "Rust",
-    "pushed_at": "2026-04-17T18:45:58Z",
+    "pushed_at": "2026-04-19T04:32:58Z",
+    "stargazers_count": 0,
     "topics": [
       "agent-harness",
       "ai-tools",
@@ -1055,7 +1059,7 @@
       "token-optimization",
       "tree-sitter"
     ],
-    "updated_at": "2026-04-17T18:46:01Z"
+    "updated_at": "2026-04-19T00:16:57Z"
   },
   "repo_links": [
     {

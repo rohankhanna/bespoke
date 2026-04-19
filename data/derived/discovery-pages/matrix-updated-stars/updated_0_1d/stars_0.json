@@ -1,18 +1,53 @@
 {
   "counts": {
-    "components": 15,
+    "components": 86,
     "concepts": 0,
     "observations": 0,
-    "repos": 1,
-    "terms": 0
+    "repos": 36,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
-    "sujithpvarghese/bedrock-agent-core-operations-hub-mcp"
+    "aipurposes1587-max/weixin-agent-rs",
+    "azizos911/setja-upp-stilla-yiimp-namuvinnslupott-hugbunadur-ubuntu-linux",
+    "b2agi/exist-is-charter",
+    "begmyratb/floweye-yyyxxx.cc",
+    "carloandremoreyra/xx",
+    "damacol/google-gemma-2-2b-it",
+    "damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive",
+    "damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive",
+    "damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf",
+    "damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf",
+    "damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit",
+    "damacol/meta-llama-llama-3-2-3b",
+    "damacol/xai-org-grok-2",
+    "firestryk/chatgpt-website.github.io",
+    "florisheedless915/grok-register",
+    "gerardtschanz/revenue-os",
+    "gopi2211/ralph",
+    "gyf0311/lorekit",
+    "jonislutheran87/weclaw",
+    "kidshadow79/ogma",
+    "l12203685/digital-immortality",
+    "livemania18/idiegti-sukonfiguruoti-yiimp-kasimo-baseinas-programine-iranga-ubuntu-linux",
+    "markoswire/remember-me.ai",
+    "mohfer/nous-proxy",
+    "muhammadumer000/ustanovka-i-nastrojka-yiimp-mayning-pul-programmnoe-obespechenie-ubuntu-linux",
+    "mupozg823/codelens-mcp-plugin",
+    "narutoxdd6/nyro",
+    "redductive/securepixel",
+    "robertabao/grok-nvim",
+    "shoggo-ai/seniorvigil",
+    "shouted-numberone752/wechat-agent-connector",
+    "shubishere/ai-drawio",
+    "similar-colpoxerosis201/codex-wechat",
+    "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+    "tornikepe/ai-chatbot",
+    "wendyalbanez/clawui"
   ]
 }

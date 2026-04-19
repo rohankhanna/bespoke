@@ -760,14 +760,18 @@
       "size": 1147
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:00.960780+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Personal LLM Wiki toolkit \u2014 let AI build and maintain your knowledge base. Based on Karpathy's LLM Wiki pattern. TypeScript, ollama+bge-m3, works with any AI coding agent.",
-    "full_name": "GYF0311/lorekit",
+    "fork": false,
+    "full_name": "gyf0311/lorekit",
     "html_url": "https://github.com/GYF0311/lorekit",
     "language": "JavaScript",
-    "pushed_at": "2026-04-17T13:54:08Z",
+    "pushed_at": "2026-04-19T12:31:05Z",
+    "stargazers_count": 0,
     "topics": [
       "ai-agent",
       "claude-code",
@@ -780,7 +784,7 @@
       "typescript",
       "wiki"
     ],
-    "updated_at": "2026-04-17T13:54:12Z"
+    "updated_at": "2026-04-19T12:31:15Z"
   },
   "repo_links": [
     {

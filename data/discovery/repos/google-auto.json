@@ -92,14 +92,18 @@
       "size": 3407
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:36.486369+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A collection of source code generators for Java.",
+    "fork": false,
     "full_name": "google/auto",
     "html_url": "https://github.com/google/auto",
     "language": "Java",
     "pushed_at": "2026-04-15T21:25:44Z",
+    "stargazers_count": 10556,
     "topics": [],
     "updated_at": "2026-04-17T23:21:25Z"
   },

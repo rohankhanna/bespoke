@@ -226,14 +226,18 @@
       "size": 20946
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:13.235933+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Planner/Generator/Evaluator orchestration harness for Claude Code (and Codex)",
-    "full_name": "FlineDev/TandemKit",
+    "fork": false,
+    "full_name": "flinedev/tandemkit",
     "html_url": "https://github.com/FlineDev/TandemKit",
     "language": "Shell",
-    "pushed_at": "2026-04-17T16:39:31Z",
+    "pushed_at": "2026-04-18T15:56:29Z",
+    "stargazers_count": 15,
     "topics": [
       "ai-agent",
       "autonomous",
@@ -245,7 +249,7 @@
       "multi-session",
       "planner"
     ],
-    "updated_at": "2026-04-17T16:39:34Z"
+    "updated_at": "2026-04-18T15:56:32Z"
   },
   "repo_links": [
     {

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 226,
-    "concepts": 155,
-    "observations": 156,
-    "repos": 31,
-    "terms": 174
+    "components": 160,
+    "concepts": 122,
+    "observations": 122,
+    "repos": 15,
+    "terms": 128
   },
   "facet_version": 1,
   "filters": {
@@ -12,38 +12,22 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
     "1Panel-dev/1Panel",
-    "Abraxas-365/claudio",
-    "AllenReder/CLIProxyAPI-Quota-Inspector",
     "awslabs/eks-node-viewer",
     "bensadeh/circumflex",
     "charmbracelet/bubbletea",
     "charmbracelet/lipgloss",
-    "compozy/kb",
     "danielmiessler/Fabric",
-    "erikceballos/nano-banana-cli",
-    "foxj77/claudectx",
     "gastownhall/beads",
-    "jonislutheran87/weclaw",
-    "joshsymonds/cc-tools",
-    "k8nstantin/OpenPraxis",
-    "korotovsky/slack-mcp-server",
-    "ksylvan/fabric",
-    "kubernetes-sigs/kustomize",
-    "kubernetes/enhancements",
     "kubernetes/kubernetes",
-    "libp2p/go-libp2p",
+    "larksuite/cli",
     "microsoft/typescript-go",
     "moby/moby",
-    "ollama/ollama",
-    "petmal/MindTrial",
-    "phiat/claude-esp",
     "prehisle/relay-pulse",
     "QuantumNous/new-api",
-    "serpro69/capy",
-    "SkeneTechnologies/skene",
+    "router-for-me/CLIProxyAPI",
     "tofuutils/tenv"
   ]
 }

@@ -437,14 +437,18 @@
       "size": 2913
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:49.144905+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Cryptographic signature algorithms: DSA, ECDSA, Ed25519",
-    "full_name": "RustCrypto/signatures",
+    "fork": false,
+    "full_name": "rustcrypto/signatures",
     "html_url": "https://github.com/RustCrypto/signatures",
     "language": "Rust",
     "pushed_at": "2026-04-15T19:41:34Z",
+    "stargazers_count": 621,
     "topics": [
       "dsa",
       "ecdsa",
@@ -452,7 +456,7 @@
       "rust",
       "signatures"
     ],
-    "updated_at": "2026-04-17T03:27:47Z"
+    "updated_at": "2026-04-19T01:48:40Z"
   },
   "repo_links": [
     {

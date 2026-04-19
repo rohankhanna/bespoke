@@ -69,14 +69,18 @@
       "size": 1039
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:56.514739+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "The ultimate CC proxy",
+    "fork": false,
     "full_name": "snipeship/ccflare",
     "html_url": "https://github.com/snipeship/ccflare",
     "language": "TypeScript",
     "pushed_at": "2026-04-15T16:27:34Z",
+    "stargazers_count": 948,
     "topics": [
       "anthropic-api",
       "anthropic-claude",

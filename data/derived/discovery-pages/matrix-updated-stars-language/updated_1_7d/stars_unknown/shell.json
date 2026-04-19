@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 60,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 16,
-    "terms": 59
+    "components": 29,
+    "concepts": 3,
+    "observations": 3,
+    "repos": 6,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,13 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
-    "AgriciDaniel/claude-cybersecurity",
-    "anthropics/claude-code",
-    "Astro-Han/claude-pace",
-    "cdeust/zetetic-team-subagents",
     "diet103/claude-code-infrastructure-showcase",
-    "FlineDev/TandemKit",
+    "ericbuess/claude-code-docs",
     "frankbria/ralph-claude-code",
-    "gerardtschanz/revenue-os",
-    "kubernetes/sig-release",
     "obra/superpowers",
     "pyenv/pyenv",
-    "rsmdt/the-startup",
-    "rz1989s/claude-code-statusline",
-    "serpro69/claude-toolbox",
-    "undeadlist/claude-code-agents",
-    "verkyyi/tokenman"
+    "rz1989s/claude-code-statusline"
   ]
 }

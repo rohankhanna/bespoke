@@ -664,14 +664,18 @@
       "size": 1309
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:16.646450+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Static analyzer for AI agent skill libraries. Finds dead/bloated/conflicting skills, counts tokens, gates CI. Single Rust binary.",
-    "full_name": "JSLEEKR/skilldigest",
+    "fork": false,
+    "full_name": "jsleekr/skilldigest",
     "html_url": "https://github.com/JSLEEKR/skilldigest",
     "language": "Rust",
-    "pushed_at": "2026-04-17T17:15:47Z",
+    "pushed_at": "2026-04-18T09:04:42Z",
+    "stargazers_count": 0,
     "topics": [
       "ai-agents",
       "claude-code",
@@ -684,7 +688,7 @@
       "static-analysis",
       "tiktoken"
     ],
-    "updated_at": "2026-04-17T17:15:51Z"
+    "updated_at": "2026-04-18T08:31:04Z"
   },
   "repo_links": [],
   "terms": [

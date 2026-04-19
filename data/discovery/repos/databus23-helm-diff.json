@@ -273,20 +273,24 @@
       "size": 859
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:39.152988+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "A helm plugin that shows a diff explaining what a helm upgrade would change",
+    "fork": false,
     "full_name": "databus23/helm-diff",
     "html_url": "https://github.com/databus23/helm-diff",
     "language": "Go",
-    "pushed_at": "2026-04-18T12:41:49Z",
+    "pushed_at": "2026-04-19T00:05:20Z",
+    "stargazers_count": 3404,
     "topics": [
       "charts",
       "helm",
       "kubernetes"
     ],
-    "updated_at": "2026-04-18T00:03:39Z"
+    "updated_at": "2026-04-19T00:04:25Z"
   },
   "repo_links": [
     {

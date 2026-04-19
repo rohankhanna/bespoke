@@ -215,14 +215,18 @@
       "size": 3070
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:01.310937+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": null,
+    "fork": false,
     "full_name": "archestra-ai/terraform-provider-archestra",
     "html_url": "https://github.com/archestra-ai/terraform-provider-archestra",
     "language": "Go",
     "pushed_at": "2026-03-30T20:11:36Z",
+    "stargazers_count": 7,
     "topics": [],
     "updated_at": "2026-04-17T13:58:30Z"
   },

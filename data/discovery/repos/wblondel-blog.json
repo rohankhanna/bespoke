@@ -424,14 +424,18 @@
       "size": 1252
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:16.351600+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Bilingual personal blog built with Astro \u2014 features dynamic OG images, series, tags, RSS feeds, and a multilingual sitemap.",
+    "fork": false,
     "full_name": "wblondel/blog",
     "html_url": "https://github.com/wblondel/blog",
     "language": "Astro",
-    "pushed_at": "2026-04-17T16:56:29Z",
+    "pushed_at": "2026-04-18T10:03:41Z",
+    "stargazers_count": 0,
     "topics": [
       "astro",
       "astro-blog",

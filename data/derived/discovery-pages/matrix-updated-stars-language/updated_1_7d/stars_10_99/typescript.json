@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 79,
+    "components": 141,
     "concepts": 17,
     "observations": 18,
-    "repos": 3,
-    "terms": 33
+    "repos": 5,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
     "agents-squads/squads-cli",
     "lobehub/lobe-lint",
-    "sgcarstrends/sgcarstrends"
+    "sgcarstrends/sgcarstrends",
+    "ylsssq926/relic.skill",
+    "zuplo/docs"
   ]
 }

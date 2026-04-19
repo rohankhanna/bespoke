@@ -409,14 +409,18 @@
       "size": 2096
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:21.477143+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "HeyClaude (formerly Claude Pro Directory) is a searchable collection of pre-built AI skills, agents, MCP servers, guides, hooks, statuslines, and other custom configs, designed to enhance Claude, Codex, Cursor, OpenClaw, and various other agentic workflows/platforms.",
-    "full_name": "JSONbored/claudepro-directory",
+    "fork": false,
+    "full_name": "jsonbored/claudepro-directory",
     "html_url": "https://github.com/JSONbored/claudepro-directory",
     "language": "MDX",
-    "pushed_at": "2026-04-12T09:42:31Z",
+    "pushed_at": "2026-04-19T06:16:00Z",
+    "stargazers_count": 209,
     "topics": [
       "agent-skills",
       "ai-agents",
@@ -439,7 +443,7 @@
       "openclaw-skills",
       "prompt-engineering"
     ],
-    "updated_at": "2026-04-17T18:07:27Z"
+    "updated_at": "2026-04-18T22:04:52Z"
   },
   "repo_links": [],
   "terms": [

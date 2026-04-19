@@ -20,14 +20,18 @@
       "size": 108
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:45.490656+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83d\ude80 Connect Burp Suite MCP Server to multiple AI backends with practical guides and templates for safe, real traffic analysis.",
+    "fork": false,
     "full_name": "rrsaldanha/burp-mcp-agents",
     "html_url": "https://github.com/rrsaldanha/burp-mcp-agents",
     "language": "Python",
-    "pushed_at": "2026-04-18T01:36:03Z",
+    "pushed_at": "2026-04-19T11:53:12Z",
+    "stargazers_count": 2,
     "topics": [
       "anthropic",
       "browser-automation",
@@ -49,7 +53,7 @@
       "vulnerability-detection",
       "vulnerability-scanner"
     ],
-    "updated_at": "2026-04-18T01:36:07Z"
+    "updated_at": "2026-04-19T11:53:16Z"
   },
   "repo_links": [],
   "terms": [

@@ -142,14 +142,18 @@
       "size": 1301
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:34.845860+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": null,
+    "fork": false,
     "full_name": "klaudworks/ralph-meets-rex",
     "html_url": "https://github.com/klaudworks/ralph-meets-rex",
     "language": "TypeScript",
     "pushed_at": "2026-03-17T21:05:11Z",
+    "stargazers_count": 79,
     "topics": [],
     "updated_at": "2026-04-17T22:48:40Z"
   },

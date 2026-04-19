@@ -205,14 +205,18 @@
       "size": 14209
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:11.031481+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "20band Parametric equalizer and convolver for Windows 11 x64 (standalone application) Real-time audio processing application based on JUCE Framework 8.0.12.This project is programmed by vibe-coding.",
-    "full_name": "lonewolf-jp/ConvoPeq",
+    "fork": false,
+    "full_name": "lonewolf-jp/convopeq",
     "html_url": "https://github.com/lonewolf-jp/ConvoPeq",
     "language": "C++",
-    "pushed_at": "2026-04-17T16:17:24Z",
+    "pushed_at": "2026-04-19T12:04:07Z",
+    "stargazers_count": 3,
     "topics": [
       "chatgpt-codex",
       "claude-ai",
@@ -227,7 +231,7 @@
       "vibe-coding",
       "windows11"
     ],
-    "updated_at": "2026-04-17T16:17:29Z"
+    "updated_at": "2026-04-19T11:51:14Z"
   },
   "repo_links": [],
   "terms": [

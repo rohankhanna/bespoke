@@ -177,14 +177,18 @@
       "size": 1376
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:42.338688+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83c\udf1f Manage and install Claude Code plugins and Agent Skills effortlessly with Skiller, a lightweight desktop menubar app for enhanced AI coding tools.",
-    "full_name": "Enxs969/skiller",
+    "fork": false,
+    "full_name": "enxs969/skiller",
     "html_url": "https://github.com/Enxs969/skiller",
     "language": "TypeScript",
-    "pushed_at": "2026-04-18T01:34:17Z",
+    "pushed_at": "2026-04-19T11:51:10Z",
+    "stargazers_count": 1,
     "topics": [
       "agent-skills",
       "alexa",
@@ -207,7 +211,7 @@
       "skills",
       "snippets"
     ],
-    "updated_at": "2026-04-18T01:34:22Z"
+    "updated_at": "2026-04-19T11:51:14Z"
   },
   "repo_links": [
     {

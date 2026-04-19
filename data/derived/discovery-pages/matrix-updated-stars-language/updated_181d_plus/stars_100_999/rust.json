@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 56,
-    "concepts": 31,
-    "observations": 31,
-    "repos": 10,
-    "terms": 31
+    "components": 65,
+    "concepts": 36,
+    "observations": 37,
+    "repos": 11,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
     "asg017/sqlite-loadable-rs",
     "asg017/sqlite-rembed",
@@ -21,6 +21,7 @@
     "harfbuzz/rustybuzz",
     "infinyon/node-bindgen",
     "layr-labs/hello-world-avs",
+    "lnx-search/rewrk",
     "LPGhatguy/aftman",
     "njsmith/posy",
     "programatik29/rust-web-benchmarks"

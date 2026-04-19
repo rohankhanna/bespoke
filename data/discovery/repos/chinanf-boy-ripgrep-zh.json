@@ -32,14 +32,18 @@
   ],
   "fetched_at": "2026-04-18T11:32:39.555669+00:00",
   "fetched_files": [],
+  "metadata_refreshed_at": "2026-04-19T14:01:50.132842+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "\u4e2d\u6587\u7ffb\u8bd1:<BurntSushi/ripgrep> \u4e00\u4e2a\u9762\u5411\u884c\u7684\u641c\u7d22\u5de5\u5177 :heart: \u6821\u5bf9 \u2705",
+    "fork": false,
     "full_name": "chinanf-boy/ripgrep-zh",
     "html_url": "https://github.com/chinanf-boy/ripgrep-zh",
     "language": "Shell",
     "pushed_at": "2022-06-11T01:35:12Z",
+    "stargazers_count": 180,
     "topics": [
       "docs",
       "files",

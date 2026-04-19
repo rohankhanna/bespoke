@@ -1008,14 +1008,18 @@
       "size": 1350
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:57.438096+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Zuplo Documentation",
+    "fork": false,
     "full_name": "zuplo/docs",
     "html_url": "https://github.com/zuplo/docs",
     "language": "TypeScript",
     "pushed_at": "2026-04-17T12:46:53Z",
+    "stargazers_count": 18,
     "topics": [],
     "updated_at": "2026-04-17T12:46:57Z"
   },

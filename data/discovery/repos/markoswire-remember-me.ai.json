@@ -16,14 +16,18 @@
       "size": 5889
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:49.894392+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Enable AI to actively remember and recreate your digital presence for lasting memory beyond physical life.",
+    "fork": false,
     "full_name": "markoswire/remember-me.ai",
     "html_url": "https://github.com/markoswire/remember-me.ai",
     "language": "HTML",
-    "pushed_at": "2026-04-18T01:58:49Z",
+    "pushed_at": "2026-04-19T12:17:13Z",
+    "stargazers_count": 0,
     "topics": [
       "ai",
       "ai-training-data",
@@ -45,7 +49,7 @@
       "open-source",
       "remember-me"
     ],
-    "updated_at": "2026-04-18T01:58:52Z"
+    "updated_at": "2026-04-19T12:17:17Z"
   },
   "repo_links": [],
   "terms": [

@@ -1049,14 +1049,18 @@
       "size": 5570
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:47.924163+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A Utility CLI for AI Coding Agents",
+    "fork": false,
     "full_name": "dyoshikawa/rulesync",
     "html_url": "https://github.com/dyoshikawa/rulesync",
     "language": "TypeScript",
-    "pushed_at": "2026-04-17T07:48:27Z",
+    "pushed_at": "2026-04-19T10:40:53Z",
+    "stargazers_count": 1014,
     "topics": [
       "ai",
       "ai-agents",
@@ -1066,7 +1070,7 @@
       "rules",
       "skills"
     ],
-    "updated_at": "2026-04-17T02:53:26Z"
+    "updated_at": "2026-04-19T10:40:56Z"
   },
   "repo_links": [
     {

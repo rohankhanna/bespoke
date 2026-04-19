@@ -1,37 +1,29 @@
 {
   "counts": {
-    "components": 165,
-    "concepts": 48,
-    "observations": 49,
-    "repos": 20,
-    "terms": 78
+    "components": 118,
+    "concepts": 29,
+    "observations": 30,
+    "repos": 12,
+    "terms": 52
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
     "anthropics/courses",
     "BeehiveInnovations/pal-mcp-server",
     "bl-ue/tweakcc-system-prompts",
     "claude-did-this/claude-hub",
-    "danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands",
-    "dredozubov/prd-generator",
     "ExistentialAudio/BlackHole",
     "folke/lazy.nvim",
     "fsnotify/fsnotify",
-    "google-github-actions/auth",
     "GWUDCAP/cc-sessions",
-    "julienXX/terminal-notifier",
     "LC044/WeChatMsg",
     "LokerL/tts-vue",
-    "LoRexxar/Kunlun-M",
     "numman-ali/openskills",
-    "protectai/llm-guard",
-    "steipete/claude-code-mcp",
-    "ThibautMelen/agentic-ai-systems",
-    "zippoxer/recall"
+    "ThibautMelen/agentic-ai-systems"
   ]
 }

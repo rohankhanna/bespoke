@@ -473,37 +473,41 @@
       "size": 15922
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:32.864387+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
-    "description": "Minimal by design, production-ready and battle-tested collection of configs and \"tools\" for your Claude Code workflows: mcp, configs, skills, agents and more.",
+    "description": "Minimal by design, explicitly multi-lang, production-ready and battle-tested collection of configs and \"tools\" for your Claude Code agentic development workflows: mcp, configs, skills, agents and more.",
+    "fork": false,
     "full_name": "serpro69/claude-toolbox",
     "html_url": "https://github.com/serpro69/claude-toolbox",
     "language": "Shell",
-    "pushed_at": "2026-04-17T21:45:48Z",
+    "pushed_at": "2026-04-19T13:54:46Z",
+    "stargazers_count": 128,
     "topics": [
       "agent-skills",
       "agents",
       "claude",
-      "claude-ai",
       "claude-code",
       "claude-code-plugin",
       "claude-config",
       "claude-plugin",
       "claude-skills",
+      "claude-starter",
       "go",
       "java",
       "js",
       "kotlin",
       "python",
-      "serena-mcp",
-      "starter-kit",
+      "skill",
+      "skills",
       "starter-project",
       "starter-template",
       "typescript",
       "vibe-coding"
     ],
-    "updated_at": "2026-04-17T22:24:07Z"
+    "updated_at": "2026-04-19T11:45:17Z"
   },
   "repo_links": [
     {

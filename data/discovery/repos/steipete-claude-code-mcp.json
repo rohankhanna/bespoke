@@ -192,14 +192,18 @@
       "size": 924
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:29.495079+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Claude Code as one-shot MCP server to have an agent in your agent.",
+    "fork": false,
     "full_name": "steipete/claude-code-mcp",
     "html_url": "https://github.com/steipete/claude-code-mcp",
     "language": "JavaScript",
     "pushed_at": "2026-01-01T13:18:45Z",
+    "stargazers_count": 1236,
     "topics": [
       "agent",
       "claude",

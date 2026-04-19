@@ -122,14 +122,18 @@
       "size": 1180
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:40.577892+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A financial chat application powered by LangChain, OpenBB, and Claude 3 Opus.",
-    "full_name": "Floxym/financial-chat",
+    "fork": false,
+    "full_name": "floxym/financial-chat",
     "html_url": "https://github.com/Floxym/financial-chat",
     "language": "Python",
-    "pushed_at": "2026-04-18T01:04:42Z",
+    "pushed_at": "2026-04-19T13:20:11Z",
+    "stargazers_count": 5,
     "topics": [
       "ai",
       "chatbot",
@@ -150,7 +154,7 @@
       "streamlit",
       "technical-analysis"
     ],
-    "updated_at": "2026-04-18T01:04:46Z"
+    "updated_at": "2026-04-19T13:20:16Z"
   },
   "repo_links": [],
   "terms": [

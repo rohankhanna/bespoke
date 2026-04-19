@@ -828,14 +828,18 @@
       "size": 14295
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:24.333044+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "PX4 Autopilot Software",
-    "full_name": "PX4/PX4-Autopilot",
+    "fork": false,
+    "full_name": "px4/px4-autopilot",
     "html_url": "https://github.com/PX4/PX4-Autopilot",
     "language": "C++",
-    "pushed_at": "2026-04-17T18:25:11Z",
+    "pushed_at": "2026-04-19T12:18:21Z",
+    "stargazers_count": 11541,
     "topics": [
       "autonomous",
       "autopilot",
@@ -857,7 +861,7 @@
       "uav",
       "ugv"
     ],
-    "updated_at": "2026-04-17T18:25:18Z"
+    "updated_at": "2026-04-19T09:40:02Z"
   },
   "repo_links": [],
   "terms": [

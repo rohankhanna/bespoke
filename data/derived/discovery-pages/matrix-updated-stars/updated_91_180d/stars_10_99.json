@@ -3,7 +3,7 @@
     "components": 13,
     "concepts": 3,
     "observations": 3,
-    "repos": 6,
+    "repos": 8,
     "terms": 14
   },
   "facet_version": 1,
@@ -11,9 +11,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
     "crate-ci/gh-install",
+    "danielrosehill/claude-code-linux-desktop-slash-commands",
+    "dredozubov/prd-generator",
     "marcindulak/stt-mcp-server-linux",
     "okuvshynov/cubestat",
     "stephenschoettler/taches-oc-prompts",

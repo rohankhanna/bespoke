@@ -8,14 +8,18 @@
       "size": 4303
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:44.830889+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83d\udcb0 Optimize your product for profit with Revenue OS, the monetization tool that turns code into customers and cash for developers.",
+    "fork": false,
     "full_name": "gerardtschanz/revenue-os",
     "html_url": "https://github.com/gerardtschanz/revenue-os",
     "language": "Shell",
-    "pushed_at": "2026-04-18T01:35:59Z",
+    "pushed_at": "2026-04-19T11:53:17Z",
+    "stargazers_count": 0,
     "topics": [
       "ai",
       "augumented-reality",
@@ -34,7 +38,7 @@
       "social-impact",
       "tamil-nadu"
     ],
-    "updated_at": "2026-04-18T01:36:03Z"
+    "updated_at": "2026-04-19T11:53:21Z"
   },
   "repo_links": [],
   "terms": []

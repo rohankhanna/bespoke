@@ -51,14 +51,18 @@
       "size": 12338
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:26.998653+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A collection of my favorite custom Claude Code resources to make life easier.",
+    "fork": false,
     "full_name": "glittercowboy/taches-cc-resources",
     "html_url": "https://github.com/glittercowboy/taches-cc-resources",
     "language": "TypeScript",
     "pushed_at": "2026-04-01T15:10:58Z",
+    "stargazers_count": 1813,
     "topics": [
       "anthropic",
       "claude",
@@ -68,7 +72,7 @@
       "skills",
       "subagents"
     ],
-    "updated_at": "2026-04-17T19:34:55Z"
+    "updated_at": "2026-04-19T06:32:56Z"
   },
   "repo_links": [
     {

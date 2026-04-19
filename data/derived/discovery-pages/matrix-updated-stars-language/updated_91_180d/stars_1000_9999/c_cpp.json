@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 0,
+    "concepts": 4,
+    "observations": 4,
+    "repos": 1,
+    "terms": 4
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "c_cpp",
+    "star_bucket": "stars_1000_9999",
+    "updated_bucket": "updated_91_180d"
+  },
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "repo_ids": [
+    "julienxx/terminal-notifier"
+  ]
+}

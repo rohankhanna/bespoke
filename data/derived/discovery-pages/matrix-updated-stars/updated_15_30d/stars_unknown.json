@@ -1,42 +1,33 @@
 {
   "counts": {
-    "components": 383,
-    "concepts": 48,
-    "observations": 48,
-    "repos": 27,
-    "terms": 83
+    "components": 244,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 18,
+    "terms": 54
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
-    "akin-ozer/cc-devops-skills",
     "AndyMik90/Aperant",
-    "archestra-ai/terraform-provider-archestra",
     "BehiSecc/awesome-claude-skills",
-    "Dooy/chatgpt-web-midjourney-proxy",
     "dtolnay/anyhow",
     "eyaltoledano/claude-task-master",
-    "glittercowboy/taches-cc-resources",
-    "Haleclipse/Claudix",
     "Jeffallan/claude-skills",
     "karpathy/autoresearch",
     "ldayton/Dippy",
     "manzaltu/claude-code-ide.el",
     "NousResearch/tinker-atropos",
     "onyx-dot-app/onyx_deep_research_bench",
-    "pchalasani/claude-code-tools",
     "revfactory/harness-100",
-    "robertguss/claude-code-toolkit",
     "ruvnet/agentic-flow",
-    "shareAI-lab/kode-agent-sdk",
     "smtg-ai/claude-squad",
     "steipete/Peekaboo",
     "SuperClaude-Org/SuperClaude_Framework",
-    "trailofbits/claude-code-config",
     "W1ndys/ex-cure-skill",
     "ykdojo/claude-code-tips",
     "zarazhangrui/codebase-to-course"

@@ -1,36 +1,26 @@
 {
   "counts": {
-    "components": 163,
-    "concepts": 67,
-    "observations": 68,
-    "repos": 19,
-    "terms": 76
+    "components": 119,
+    "concepts": 27,
+    "observations": 27,
+    "repos": 9,
+    "terms": 33
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
-    "1runeberg/confichat",
-    "asg017/sqlite-vss",
-    "chinanf-boy/ripgrep-zh",
-    "DarthSim/hivemind",
-    "DarthSim/overmind",
     "dirs-dev/dirs-rs",
     "eastlondoner/vibe-tools",
-    "eth-sri/lmql",
     "googlefonts/noto-emoji",
     "haotian-liu/LLaVA",
     "Helmi/claude-simone",
-    "knownsec/404StarLink-Project",
-    "lnx-search/rewrk",
     "Maciek-roboblog/Claude-Code-Usage-Monitor",
-    "novicezk/midjourney-proxy",
     "OneRedOak/claude-code-workflows",
     "opencode-ai/opencode",
-    "tremorlabs/tremor",
-    "xaoyaoo/PyWxDump"
+    "tremorlabs/tremor"
   ]
 }

@@ -20,14 +20,18 @@
       "size": 81
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:41.148817+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83e\udd16 Refactor repositories effortlessly with Nyro, an AI DevOps engineer that modernizes codebases by identifying tech debt and automating upgrades.",
-    "full_name": "Narutoxdd6/Nyro",
+    "fork": false,
+    "full_name": "narutoxdd6/nyro",
     "html_url": "https://github.com/Narutoxdd6/Nyro",
     "language": null,
-    "pushed_at": "2026-04-18T01:08:11Z",
+    "pushed_at": "2026-04-19T13:52:12Z",
+    "stargazers_count": 0,
     "topics": [
       "anonymity",
       "autonomous",
@@ -48,7 +52,7 @@
       "semantic",
       "tech-debt"
     ],
-    "updated_at": "2026-04-18T01:08:14Z"
+    "updated_at": "2026-04-19T13:52:17Z"
   },
   "repo_links": [],
   "terms": [

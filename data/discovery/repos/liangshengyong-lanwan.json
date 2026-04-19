@@ -68,14 +68,18 @@
       "size": 1096
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:58.106056+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "\u84dd\u6e7e\u662f\u4e00\u4e2a L2TP/IPsec \u670d\u52a1\u5668\u6d4b\u8bd5\u7a0b\u5e8f\uff0c\u5b8c\u5168\u5f00\u6e90\u6c38\u4e45\u514d\u8d39\u65e0\u9650\u6d41\u91cf\u81ea\u5e26\u8282\u70b9\u65e0\u9700\u8ba2\u9605\u9ad8\u901f\u7a33\u5b9a\u79d1\u5b66\u4e0a\u7f51\u7ffb\u5899\u68af\u5b50VPN\u8f6f\u4ef6",
-    "full_name": "liangshengyong/LanWan",
+    "fork": false,
+    "full_name": "liangshengyong/lanwan",
     "html_url": "https://github.com/liangshengyong/LanWan",
     "language": "C",
-    "pushed_at": "2026-04-18T03:27:39Z",
+    "pushed_at": "2026-04-19T13:40:33Z",
+    "stargazers_count": 29,
     "topics": [
       "chatgpt",
       "gfw",
@@ -86,7 +90,7 @@
       "vpn-service",
       "windows"
     ],
-    "updated_at": "2026-04-18T03:27:43Z"
+    "updated_at": "2026-04-19T13:40:37Z"
   },
   "repo_links": [],
   "terms": [

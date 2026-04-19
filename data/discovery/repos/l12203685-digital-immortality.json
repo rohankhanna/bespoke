@@ -306,6 +306,7 @@
       "size": 1928
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:14.368710+00:00",
   "related_repositories": [
     {
       "description": "Lab-scenario AI assistant on OpenClaw + MetaClaw + Feishu. 28 agentic skills for robotics lab management.",
@@ -529,18 +530,21 @@
     }
   ],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Digital immortality recursive engine",
+    "fork": false,
     "full_name": "l12203685/digital-immortality",
     "html_url": "https://github.com/l12203685/digital-immortality",
     "language": "Python",
-    "pushed_at": "2026-04-17T16:49:37Z",
+    "pushed_at": "2026-04-19T11:01:55Z",
+    "stargazers_count": 0,
     "topics": [
       "ai-agent",
       "digital-immortality",
       "recursive-engine"
     ],
-    "updated_at": "2026-04-17T16:49:41Z"
+    "updated_at": "2026-04-19T11:02:00Z"
   },
   "repo_links": [],
   "terms": [

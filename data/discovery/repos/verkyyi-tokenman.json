@@ -802,6 +802,7 @@
       "size": 10983
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:14.111707+00:00",
   "related_repositories": [
     {
       "description": "Harness-native compressed context engine for AI coding agents \u2014 Pure Rust MCP server, 89+ tools, 25 languages, 50-87% token reduction",
@@ -1279,12 +1280,15 @@
     }
   ],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A self-evolving scaffold for autonomous web projects. 9 workflows, hourly self-evolution, self-healing pipeline, feedback learning loop. The repo is the system.",
+    "fork": false,
     "full_name": "verkyyi/tokenman",
     "html_url": "https://github.com/verkyyi/tokenman",
-    "language": "Shell",
-    "pushed_at": "2026-04-17T16:47:45Z",
+    "language": "Python",
+    "pushed_at": "2026-04-19T06:57:48Z",
+    "stargazers_count": 2,
     "topics": [
       "agent-harness",
       "ai-agent",
@@ -1297,7 +1301,7 @@
       "self-evolving",
       "self-healing"
     ],
-    "updated_at": "2026-04-17T16:47:49Z"
+    "updated_at": "2026-04-19T06:57:52Z"
   },
   "repo_links": [
     {

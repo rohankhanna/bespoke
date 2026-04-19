@@ -3,7 +3,7 @@
     "components": 0,
     "concepts": 0,
     "observations": 0,
-    "repos": 7,
+    "repos": 6,
     "terms": 0
   },
   "facet_version": 1,
@@ -12,14 +12,13 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
     "alchaincyf/elon-musk-skill",
     "alchaincyf/feynman-skill",
     "alchaincyf/munger-skill",
     "alchaincyf/naval-skill",
     "alchaincyf/steve-jobs-skill",
-    "alchaincyf/taleb-skill",
-    "skills-directory/skill-codex"
+    "alchaincyf/taleb-skill"
   ]
 }

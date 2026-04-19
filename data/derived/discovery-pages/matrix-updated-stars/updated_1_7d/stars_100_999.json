@@ -1,25 +1,55 @@
 {
   "counts": {
-    "components": 49,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 8,
-    "terms": 32
+    "components": 237,
+    "concepts": 73,
+    "observations": 75,
+    "repos": 38,
+    "terms": 161
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
+    "aannoo/hcom",
+    "aaronwong1999/hermesclaw",
+    "agenmod/immortal-skill",
+    "agent-sh/agentsys",
+    "agent-sh/agnix",
+    "ailev/fpf",
+    "astro-han/claude-pace",
     "charmbracelet/colorprofile",
     "dtormoen/tsk-tsk",
+    "evmts/tevm-monorepo",
+    "fcakyon/claude-codex-settings",
+    "foxj77/claudectx",
+    "giselles-ai/giselle",
+    "harperreed/dotfiles",
     "Kampfkarren/full-moon",
+    "kubernetes/sig-release",
+    "lewislulu/llm-wiki-skill",
+    "lis186/ccxray",
+    "llama-farm/llamafarm",
     "lunarmodules/luacheck",
     "mattgodbolt/jsbeeb",
     "mongodb/homebrew-brew",
+    "neolabhq/context-engineering-kit",
+    "nielsgroen/claude-tmux",
+    "nyatinte/ccexp",
+    "openclaw/nix-openclaw",
+    "phiat/claude-esp",
+    "roampal-ai/roampal",
+    "rsmdt/the-startup",
+    "rustcrypto/signatures",
+    "ryjoxtechnologies/octopoda-os",
+    "sethgammon/citadel",
+    "snipeship/ccflare",
+    "spylang/spy",
+    "strands-agents/agent-sop",
     "stripe-samples/accept-a-payment",
-    "thinking-machines-lab/tinker"
+    "thinking-machines-lab/tinker",
+    "undeadlist/claude-code-agents"
   ]
 }

@@ -116,14 +116,18 @@
       "size": 1786
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:36.791015+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": null,
+    "fork": false,
     "full_name": "marciogranzotto/clawd-tank",
     "html_url": "https://github.com/marciogranzotto/clawd-tank",
     "language": "C",
     "pushed_at": "2026-04-17T13:36:43Z",
+    "stargazers_count": 60,
     "topics": [],
     "updated_at": "2026-04-17T23:26:56Z"
   },

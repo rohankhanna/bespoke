@@ -48,14 +48,18 @@
       "size": 3248
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:51.308484+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Enhancements tracking repo for Kubernetes",
+    "fork": false,
     "full_name": "kubernetes/enhancements",
     "html_url": "https://github.com/kubernetes/enhancements",
     "language": "Go",
     "pushed_at": "2026-04-17T22:46:48Z",
+    "stargazers_count": 3866,
     "topics": [
       "enhancements",
       "k8s-sig-architecture",

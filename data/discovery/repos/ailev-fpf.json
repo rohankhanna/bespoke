@@ -81,14 +81,18 @@
   ],
   "fetched_at": "2026-04-18T12:47:07.281803+00:00",
   "fetched_files": [],
+  "metadata_refreshed_at": "2026-04-19T14:02:09.312525+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "First Principles Framework (FPF): Operating system for open-ended thought for engieering, research, and mixed human/AI teams: bounded contexts, auditable reasoning, decision records, and multi-view publication.",
-    "full_name": "ailev/FPF",
+    "fork": false,
+    "full_name": "ailev/fpf",
     "html_url": "https://github.com/ailev/FPF",
     "language": null,
     "pushed_at": "2026-04-17T12:33:55Z",
+    "stargazers_count": 324,
     "topics": [
       "ai-agents",
       "auditability",
@@ -103,7 +107,7 @@
       "spec-driven-development",
       "systems-engineering"
     ],
-    "updated_at": "2026-04-17T15:35:12Z"
+    "updated_at": "2026-04-19T09:43:36Z"
   },
   "repo_links": [],
   "terms": [

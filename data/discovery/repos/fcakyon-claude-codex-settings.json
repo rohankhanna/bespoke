@@ -199,14 +199,18 @@
       "size": 847
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:29.209585+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "My personal Claude Code and OpenAI Codex setup with battle-tested skills, plugins, hooks and agents that I use daily.",
+    "fork": false,
     "full_name": "fcakyon/claude-codex-settings",
     "html_url": "https://github.com/fcakyon/claude-codex-settings",
     "language": "Python",
     "pushed_at": "2026-04-17T20:26:18Z",
+    "stargazers_count": 615,
     "topics": [
       "ai-agents",
       "ai-tools",
@@ -229,7 +233,7 @@
       "pull-requests",
       "slack"
     ],
-    "updated_at": "2026-04-17T20:26:21Z"
+    "updated_at": "2026-04-18T23:55:55Z"
   },
   "repo_links": [
     {

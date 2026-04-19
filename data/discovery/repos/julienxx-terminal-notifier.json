@@ -32,14 +32,18 @@
   ],
   "fetched_at": "2026-04-18T13:15:56.195873+00:00",
   "fetched_files": [],
+  "metadata_refreshed_at": "2026-04-19T14:01:55.672981+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Send User Notifications on macOS from the command-line.",
-    "full_name": "julienXX/terminal-notifier",
+    "fork": false,
+    "full_name": "julienxx/terminal-notifier",
     "html_url": "https://github.com/julienXX/terminal-notifier",
     "language": "Objective-C",
     "pushed_at": "2025-11-02T14:24:58Z",
+    "stargazers_count": 7150,
     "topics": [
       "command-line",
       "notifications",
@@ -47,7 +51,7 @@
       "osx",
       "ruby"
     ],
-    "updated_at": "2026-04-17T10:40:09Z"
+    "updated_at": "2026-04-19T04:11:55Z"
   },
   "repo_links": [],
   "terms": [

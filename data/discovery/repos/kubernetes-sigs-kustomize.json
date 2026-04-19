@@ -242,19 +242,23 @@
       "size": 627
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:55.964814+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Customization of kubernetes YAML configurations",
+    "fork": false,
     "full_name": "kubernetes-sigs/kustomize",
     "html_url": "https://github.com/kubernetes-sigs/kustomize",
     "language": "Go",
     "pushed_at": "2026-04-17T22:42:22Z",
+    "stargazers_count": 12022,
     "topics": [
       "hacktoberfest",
       "k8s-sig-cli"
     ],
-    "updated_at": "2026-04-17T11:20:28Z"
+    "updated_at": "2026-04-19T09:04:28Z"
   },
   "repo_links": [
     {

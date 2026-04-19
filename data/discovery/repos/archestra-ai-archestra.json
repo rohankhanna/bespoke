@@ -210,14 +210,18 @@
       "size": 3621
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:55.135914+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Enterprise AI Platform with guardrails, MCP registry, gateway & orchestrator",
+    "fork": false,
     "full_name": "archestra-ai/archestra",
     "html_url": "https://github.com/archestra-ai/archestra",
     "language": "TypeScript",
-    "pushed_at": "2026-04-18T02:59:22Z",
+    "pushed_at": "2026-04-19T10:31:44Z",
+    "stargazers_count": 3588,
     "topics": [
       "a2a",
       "a2a-mcp",
@@ -240,7 +244,7 @@
       "openai",
       "runtime"
     ],
-    "updated_at": "2026-04-18T02:55:45Z"
+    "updated_at": "2026-04-19T09:17:38Z"
   },
   "repo_links": [
     {

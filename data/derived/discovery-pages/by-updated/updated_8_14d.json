@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 482,
+    "components": 488,
     "concepts": 158,
     "observations": 159,
-    "repos": 56,
-    "terms": 201
+    "repos": 58,
+    "terms": 210
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
     "1sh1ro/liangxi-skills",
     "aar0npb/curator-skill",
@@ -35,16 +35,17 @@
     "cdeust/cortex-cowork",
     "cdeust/cortex-know-when-to-stop-training-model",
     "cisco-ai-defense/skill-scanner",
+    "cloudartisan/cloudartisan.github.io",
     "comme2e/comm",
     "crossterm-rs/crossterm",
     "danielrosehill/agent-junction",
-    "Delgan/loguru",
+    "delgan/loguru",
     "django/daphne",
     "dp111/6502timing",
     "ethpandaops/xatu",
     "ethpandaops/xatu-cbt",
     "getzep/zep",
-    "GowayLee/cchooks",
+    "gowaylee/cchooks",
     "guidance-ai/guidance",
     "jarrodwatts/claude-hud",
     "jerseycheese/narraitor",
@@ -59,6 +60,7 @@
     "nvie/git-toolbelt",
     "opactorai/Claudable",
     "openai/codex-plugin-cc",
+    "paretosecurity/pareto-mac",
     "piebald-ai/piebald",
     "piqrypt/aiss-standard",
     "ruvnet/ruflo",

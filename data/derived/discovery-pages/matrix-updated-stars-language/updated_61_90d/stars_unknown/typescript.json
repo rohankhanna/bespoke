@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 114,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 3,
-    "terms": 20
+    "components": 38,
+    "concepts": 15,
+    "observations": 15,
+    "repos": 1,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,8 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
-    "lobehub/lobe-cli-toolbox",
-    "omnara-ai/omnara",
-    "shareAI-lab/Kode-Agent"
+    "lobehub/lobe-cli-toolbox"
   ]
 }

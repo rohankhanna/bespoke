@@ -1,0 +1,21 @@
+{
+  "counts": {
+    "components": 73,
+    "concepts": 7,
+    "observations": 7,
+    "repos": 3,
+    "terms": 19
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "typescript",
+    "star_bucket": "stars_10000_99999",
+    "updated_bucket": "updated_0_1d"
+  },
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "repo_ids": [
+    "garrytan/gstack",
+    "langchain-ai/langchainjs",
+    "withastro/astro"
+  ]
+}

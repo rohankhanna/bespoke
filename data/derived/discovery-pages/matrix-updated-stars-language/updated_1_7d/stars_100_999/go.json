@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6,
+    "components": 14,
     "concepts": 6,
     "observations": 6,
-    "repos": 1,
-    "terms": 6
+    "repos": 3,
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
-    "charmbracelet/colorprofile"
+    "charmbracelet/colorprofile",
+    "foxj77/claudectx",
+    "phiat/claude-esp"
   ]
 }

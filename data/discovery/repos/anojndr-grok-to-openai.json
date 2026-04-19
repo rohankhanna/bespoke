@@ -772,14 +772,18 @@
       "size": 528
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:18.652144+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "OpenAI-compatible bridge for authenticated grok.com web sessions with Responses API, Chat Completions, streaming, and file uploads",
+    "fork": false,
     "full_name": "anojndr/grok-to-openai",
     "html_url": "https://github.com/anojndr/grok-to-openai",
     "language": "JavaScript",
-    "pushed_at": "2026-04-17T17:44:05Z",
+    "pushed_at": "2026-04-19T12:57:02Z",
+    "stargazers_count": 2,
     "topics": [
       "api-bridge",
       "chat-completions",
@@ -792,7 +796,7 @@
       "responses-api",
       "xai"
     ],
-    "updated_at": "2026-04-17T17:44:09Z"
+    "updated_at": "2026-04-19T12:57:06Z"
   },
   "repo_links": [],
   "terms": [

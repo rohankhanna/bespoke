@@ -8,14 +8,18 @@
       "size": 4823
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:13.534030+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83d\udcb3 Explore payment bypass vulnerabilities and learn key techniques for bug bounty hunting in this hands-on lab environment.",
-    "full_name": "ItsRishika/Payment-bypass-bug-lab",
+    "fork": false,
+    "full_name": "itsrishika/payment-bypass-bug-lab",
     "html_url": "https://github.com/ItsRishika/Payment-bypass-bug-lab",
     "language": "JavaScript",
-    "pushed_at": "2026-04-17T16:40:38Z",
+    "pushed_at": "2026-04-19T11:42:16Z",
+    "stargazers_count": 18,
     "topics": [
       "bugbounty",
       "censorship-circumvention",
@@ -38,7 +42,7 @@
       "weixin-pay",
       "works-with-react"
     ],
-    "updated_at": "2026-04-17T16:40:42Z"
+    "updated_at": "2026-04-19T11:42:20Z"
   },
   "repo_links": [],
   "terms": []

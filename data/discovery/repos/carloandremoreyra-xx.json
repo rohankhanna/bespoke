@@ -8,14 +8,18 @@
       "size": 3796
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:09.871918+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83d\ude80 Enhance your workflow with XX, a streamlined tool that simplifies tasks and boosts productivity for developers and teams.",
-    "full_name": "carloandremoreyra/XX",
+    "fork": false,
+    "full_name": "carloandremoreyra/xx",
     "html_url": "https://github.com/carloandremoreyra/XX",
     "language": null,
-    "pushed_at": "2026-04-17T15:57:07Z",
+    "pushed_at": "2026-04-19T13:26:55Z",
+    "stargazers_count": 0,
     "topics": [
       "a311d",
       "debian",
@@ -36,7 +40,7 @@
       "uncensored",
       "xx-net"
     ],
-    "updated_at": "2026-04-17T15:57:19Z"
+    "updated_at": "2026-04-19T13:26:59Z"
   },
   "repo_links": [],
   "terms": []

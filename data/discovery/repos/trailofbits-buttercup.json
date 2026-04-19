@@ -386,14 +386,18 @@
       "size": 7443
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:23.455489+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Buttercup finds and patches software vulnerabilities",
+    "fork": false,
     "full_name": "trailofbits/buttercup",
     "html_url": "https://github.com/trailofbits/buttercup",
     "language": "Python",
     "pushed_at": "2026-04-15T22:36:02Z",
+    "stargazers_count": 1564,
     "topics": [],
     "updated_at": "2026-04-17T18:23:05Z"
   },

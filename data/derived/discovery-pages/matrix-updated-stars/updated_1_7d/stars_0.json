@@ -1,19 +1,25 @@
 {
   "counts": {
-    "components": 0,
+    "components": 54,
     "concepts": 17,
     "observations": 17,
-    "repos": 2,
-    "terms": 17
+    "repos": 8,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
+    "damacol/ai-hub",
+    "damacol/gemma-4-collection",
+    "jsleekr/skilldigest",
     "mitchuski/agentprivacy-skills",
-    "roampal-ai/roampal-labs"
+    "piqrypt/piqrypt-mcp-server",
+    "roampal-ai/roampal-labs",
+    "saidudz/chat-ai",
+    "wblondel/blog"
   ]
 }

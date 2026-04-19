@@ -473,19 +473,23 @@
       "size": 965
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:30.714935+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Node.js library for the Stripe API.    ",
+    "fork": false,
     "full_name": "stripe/stripe-node",
     "html_url": "https://github.com/stripe/stripe-node",
     "language": "TypeScript",
     "pushed_at": "2026-04-17T22:32:03Z",
+    "stargazers_count": 4388,
     "topics": [
       "stripe",
       "stripe-sdk"
     ],
-    "updated_at": "2026-04-17T21:33:15Z"
+    "updated_at": "2026-04-18T15:54:58Z"
   },
   "repo_links": [
     {

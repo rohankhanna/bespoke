@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · Unknown stars · Python
 
-Generated at: `2026-04-19T07:52:38.223094+00:00`
+Generated at: `2026-04-19T14:03:00.009749+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 9
-- terms: 126
-- components: 91
-- concepts: 126
-- observations: 126
+- repos: 3
+- terms: 54
+- components: 25
+- concepts: 54
+- observations: 54
 
 ## Static behavior
 
@@ -29,12 +29,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [arogozhnikov/einops](https://github.com/arogozhnikov/einops) | unknown | 2026-04-19T01:00:19Z | Python | Infrastructure/tooling | 11 | 4 | 11 | 11 |
 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | unknown | 2026-04-18T17:12:15Z | Python | Infrastructure/tooling | 20 | 10 | 20 | 20 |
 | [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) | unknown | 2026-04-18T16:46:33Z | Python | Infrastructure/tooling | 23 | 11 | 23 | 23 |
-| [Ayanami0730/deep_research_bench](https://github.com/Ayanami0730/deep_research_bench) | unknown | 2026-04-18T13:28:47Z | Python | Unknown | 2 | 0 | 2 | 2 |
-| [flashinfer-ai/flashinfer](https://github.com/flashinfer-ai/flashinfer) | unknown | 2026-04-18T13:27:11Z | Python | Infrastructure/tooling | 14 | 9 | 14 | 14 |
-| [huggingface/transformers](https://github.com/huggingface/transformers) | unknown | 2026-04-18T13:05:53Z | Python | Infrastructure/tooling | 19 | 6 | 19 | 19 |
-| [oraios/serena](https://github.com/oraios/serena) | unknown | 2026-04-18T11:23:47Z | Python | Infrastructure/tooling | 12 | 35 | 12 | 12 |
-| [sgl-project/sglang](https://github.com/sgl-project/sglang) | unknown | 2026-04-18T10:14:40Z | Python | Infrastructure/tooling | 22 | 5 | 22 | 22 |
-| [agiletec-inc/airis-mcp-gateway](https://github.com/agiletec-inc/airis-mcp-gateway) | unknown | 2026-04-18T09:30:28Z | Python | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -43,9 +37,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [arogozhnikov/einops](https://github.com/arogozhnikov/einops) | unknown | 2026-04-19T01:00:19Z | Python | Infrastructure/tooling | 11 | 4 | 11 | 11 |
 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | unknown | 2026-04-18T17:12:15Z | Python | Infrastructure/tooling | 20 | 10 | 20 | 20 |
 | [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) | unknown | 2026-04-18T16:46:33Z | Python | Infrastructure/tooling | 23 | 11 | 23 | 23 |
-| [Ayanami0730/deep_research_bench](https://github.com/Ayanami0730/deep_research_bench) | unknown | 2026-04-18T13:28:47Z | Python | Unknown | 2 | 0 | 2 | 2 |
-| [flashinfer-ai/flashinfer](https://github.com/flashinfer-ai/flashinfer) | unknown | 2026-04-18T13:27:11Z | Python | Infrastructure/tooling | 14 | 9 | 14 | 14 |
-| [huggingface/transformers](https://github.com/huggingface/transformers) | unknown | 2026-04-18T13:05:53Z | Python | Infrastructure/tooling | 19 | 6 | 19 | 19 |
-| [oraios/serena](https://github.com/oraios/serena) | unknown | 2026-04-18T11:23:47Z | Python | Infrastructure/tooling | 12 | 35 | 12 | 12 |
-| [sgl-project/sglang](https://github.com/sgl-project/sglang) | unknown | 2026-04-18T10:14:40Z | Python | Infrastructure/tooling | 22 | 5 | 22 | 22 |
-| [agiletec-inc/airis-mcp-gateway](https://github.com/agiletec-inc/airis-mcp-gateway) | unknown | 2026-04-18T09:30:28Z | Python | Infrastructure/tooling | 3 | 11 | 3 | 3 |

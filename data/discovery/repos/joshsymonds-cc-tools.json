@@ -193,14 +193,18 @@
       "size": 2761
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:49.590654+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Claude Code tools",
+    "fork": false,
     "full_name": "joshsymonds/cc-tools",
     "html_url": "https://github.com/joshsymonds/cc-tools",
     "language": "Go",
     "pushed_at": "2026-04-16T13:45:42Z",
+    "stargazers_count": 50,
     "topics": [],
     "updated_at": "2026-04-18T01:58:20Z"
   },

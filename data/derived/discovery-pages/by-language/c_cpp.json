@@ -10,7 +10,7 @@
   "filters": {
     "language_bucket": "c_cpp"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
     "asg017/sqlite-lembed",
     "asg017/sqlite-vec",
@@ -22,19 +22,19 @@
     "ggml-org/llama.cpp",
     "google/skia",
     "harfbuzz/harfbuzz",
-    "julienXX/terminal-notifier",
+    "julienxx/terminal-notifier",
     "kyleneideck/BackgroundMusic",
-    "liangshengyong/LanWan",
-    "lonewolf-jp/ConvoPeq",
+    "liangshengyong/lanwan",
+    "lonewolf-jp/convopeq",
     "LuaLanes/lanes",
     "marciogranzotto/clawd-tank",
     "mattingalls/soundflower",
     "mountainstorm/llaudio",
     "mozilla-ai/llamafile",
     "protocolbuffers/protobuf",
-    "PX4/PX4-Autopilot",
+    "px4/px4-autopilot",
     "retrography/audioswitch",
-    "soramimi/Guitar",
+    "soramimi/guitar",
     "stardot/b-em",
     "tmux/tmux"
   ]

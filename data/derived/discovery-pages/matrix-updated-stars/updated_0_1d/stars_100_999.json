@@ -1,24 +1,32 @@
 {
   "counts": {
-    "components": 145,
-    "concepts": 28,
-    "observations": 28,
-    "repos": 7,
-    "terms": 43
+    "components": 368,
+    "concepts": 49,
+    "observations": 49,
+    "repos": 15,
+    "terms": 108
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
     "alfredolopez80/multi-agent-ralph-loop",
+    "cargo-bins/cargo-quickinstall",
     "elizaos/elizaos.github.io",
+    "grubersjoe/react-activity-calendar",
+    "jsonbored/claudepro-directory",
     "lobehub/lobe-chat-plugins",
+    "lobehub/lobe-editor",
     "napi-rs/package-template",
     "open-telemetry/opentelemetry-collector-releases",
+    "serpro69/claude-toolbox",
+    "skenetechnologies/skene",
     "stevemolitor/claude-code.el",
-    "stevemolitor/monet"
+    "stevemolitor/monet",
+    "tombii/better-ccflare",
+    "tony1223/better-agent-terminal"
   ]
 }

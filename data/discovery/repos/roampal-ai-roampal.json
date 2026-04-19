@@ -83,14 +83,18 @@
       "size": 1674
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:24.595892+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Memory that learns what works.",
+    "fork": false,
     "full_name": "roampal-ai/roampal",
     "html_url": "https://github.com/roampal-ai/roampal",
     "language": "Python",
     "pushed_at": "2026-04-17T18:38:16Z",
+    "stargazers_count": 116,
     "topics": [
       "ai-assistant",
       "ai-memory",
@@ -113,7 +117,7 @@
       "tauri",
       "windows"
     ],
-    "updated_at": "2026-04-17T18:38:21Z"
+    "updated_at": "2026-04-18T20:35:53Z"
   },
   "repo_links": [
     {

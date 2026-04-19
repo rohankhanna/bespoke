@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 292,
-    "concepts": 120,
-    "observations": 122,
-    "repos": 27,
-    "terms": 155
+    "components": 248,
+    "concepts": 103,
+    "observations": 103,
+    "repos": 16,
+    "terms": 109
   },
   "facet_version": 1,
   "filters": {
@@ -12,34 +12,23 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
-    "aannoo/hcom",
     "Abraxas-365/langchain-rust",
-    "agent-sh/agnix",
-    "aipurposes1587-max/weixin-agent-rs",
+    "astral-sh/ruff",
     "astral-sh/uv",
     "cargo-bins/cargo-binstall",
     "casey/just",
     "cedar-policy/cedar",
-    "CloudLLM-ai/mentisdb",
     "crate-ci/typos",
-    "eikarna/hermes-rs",
-    "Eventual-Inc/Daft",
+    "denoland/deno",
     "huggingface/candle",
-    "JSLEEKR/skilldigest",
-    "kensave/agent-memory-rs",
-    "kmjjjj/polymarket-arbitrage-bot-btc-sol-15m",
-    "libp2p/rust-libp2p",
     "mikeyobrien/ralph-orchestrator",
-    "mupozg823/codelens-mcp-plugin",
     "napi-rs/napi-rs",
-    "nielsgroen/claude-tmux",
     "NVIDIA/OpenShell",
-    "phiat/claude-esp-rs",
-    "RustCrypto/signatures",
+    "openai/codex",
     "ruvnet/RuVector",
     "tokio-rs/axum",
-    "tombelieber/claude-view"
+    "zeroclaw-labs/zeroclaw"
   ]
 }

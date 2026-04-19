@@ -55,14 +55,18 @@
       "size": 376
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:47.222419+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A collection of custom skills that extend Claude's capabilities with specialized workflows, methods, and domain knowledge.",
+    "fork": false,
     "full_name": "robertguss/claude-code-toolkit",
     "html_url": "https://github.com/robertguss/claude-code-toolkit",
     "language": "Shell",
     "pushed_at": "2026-03-22T19:14:06Z",
+    "stargazers_count": 76,
     "topics": [
       "claude",
       "claude-ai",
@@ -70,7 +74,7 @@
       "claude-skills",
       "skills"
     ],
-    "updated_at": "2026-04-18T01:49:22Z"
+    "updated_at": "2026-04-18T13:18:29Z"
   },
   "repo_links": [
     {

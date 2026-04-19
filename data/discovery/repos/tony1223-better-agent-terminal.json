@@ -814,14 +814,18 @@
       "size": 7744
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:00.694674+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Multi-workspace terminal aggregator with Claude Code AI integration",
+    "fork": false,
     "full_name": "tony1223/better-agent-terminal",
     "html_url": "https://github.com/tony1223/better-agent-terminal",
     "language": "TypeScript",
-    "pushed_at": "2026-04-17T12:48:22Z",
+    "pushed_at": "2026-04-19T09:50:58Z",
+    "stargazers_count": 321,
     "topics": [
       "ai-agent",
       "anthropic",
@@ -834,7 +838,7 @@
       "terminal-emulator",
       "workspace"
     ],
-    "updated_at": "2026-04-17T13:50:30Z"
+    "updated_at": "2026-04-19T09:50:40Z"
   },
   "repo_links": [
     {

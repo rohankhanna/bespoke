@@ -265,6 +265,7 @@
       "size": 34
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:09.590420+00:00",
   "related_repositories": [
     {
       "description": "A local-first AI agent with persistent memory, emotional intelligence, and a peer-to-peer skills economy.",
@@ -745,12 +746,15 @@
     }
   ],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Run Hermes Agent and OpenClaw on the same WeChat account",
-    "full_name": "AaronWong1999/hermesclaw",
+    "fork": false,
+    "full_name": "aaronwong1999/hermesclaw",
     "html_url": "https://github.com/AaronWong1999/hermesclaw",
     "language": "Python",
     "pushed_at": "2026-04-16T08:33:55Z",
+    "stargazers_count": 144,
     "topics": [
       "ai-agent",
       "chatbot",
@@ -765,7 +769,7 @@
       "wechat",
       "wechat-bot"
     ],
-    "updated_at": "2026-04-17T15:44:32Z"
+    "updated_at": "2026-04-19T13:21:03Z"
   },
   "repo_links": [
     {

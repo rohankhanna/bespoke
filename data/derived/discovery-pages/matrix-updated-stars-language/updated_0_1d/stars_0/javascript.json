@@ -1,0 +1,22 @@
+{
+  "counts": {
+    "components": 25,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 4,
+    "terms": 0
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "javascript",
+    "star_bucket": "stars_0",
+    "updated_bucket": "updated_0_1d"
+  },
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "repo_ids": [
+    "gyf0311/lorekit",
+    "redductive/securepixel",
+    "similar-colpoxerosis201/codex-wechat",
+    "tornikepe/ai-chatbot"
+  ]
+}

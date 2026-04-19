@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 597,
+    "components": 589,
     "concepts": 123,
     "observations": 123,
-    "repos": 51,
-    "terms": 168
+    "repos": 50,
+    "terms": 166
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
     "adammes/voyanode",
     "akin-ozer/cc-devops-skills",
@@ -27,13 +27,13 @@
     "collinear-ai/yc-bench",
     "danielrosehill/claude-slash-commands",
     "danielrosehill/index",
-    "Dooy/chatgpt-web-midjourney-proxy",
+    "dooy/chatgpt-web-midjourney-proxy",
     "dtolnay/anyhow",
     "ethpandaops/cbt",
     "eyaltoledano/claude-task-master",
     "glittercowboy/taches-cc-resources",
     "google/tarpc",
-    "Haleclipse/Claudix",
+    "haleclipse/claudix",
     "ithiria894/awesome-claude-code-hooks",
     "Jeffallan/claude-skills",
     "karpathy/autoresearch",
@@ -46,12 +46,11 @@
     "nibir1/vaultsim",
     "NousResearch/tinker-atropos",
     "onyx-dot-app/onyx_deep_research_bench",
-    "pchalasani/claude-code-tools",
     "revfactory/harness-100",
     "robertguss/claude-code-toolkit",
     "ruvnet/agentic-flow",
     "serpro69/claude-in-docker",
-    "shareAI-lab/kode-agent-sdk",
+    "shareai-lab/kode-agent-sdk",
     "slopus/slopus.github.io",
     "smtg-ai/claude-squad",
     "steipete/Peekaboo",

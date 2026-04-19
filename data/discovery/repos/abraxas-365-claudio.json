@@ -2679,14 +2679,18 @@
       "size": 158
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:55.450164+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A terminal-native coding agent harness \u2014 model-agnostic, hackable guides, sensors, hooks, skills and tools for agentic development.",
-    "full_name": "Abraxas-365/claudio",
+    "fork": false,
+    "full_name": "abraxas-365/claudio",
     "html_url": "https://github.com/Abraxas-365/claudio",
     "language": "Go",
-    "pushed_at": "2026-04-18T03:00:38Z",
+    "pushed_at": "2026-04-19T13:47:51Z",
+    "stargazers_count": 3,
     "topics": [
       "agent-harness",
       "agentic-coding",
@@ -2702,7 +2706,7 @@
       "model-agnostic",
       "terminal"
     ],
-    "updated_at": "2026-04-18T03:00:43Z"
+    "updated_at": "2026-04-19T13:47:55Z"
   },
   "repo_links": [
     {

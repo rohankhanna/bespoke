@@ -3,14 +3,18 @@
   "edges": [],
   "fetched_at": "2026-04-18T02:41:31.572497+00:00",
   "fetched_files": [],
+  "metadata_refreshed_at": "2026-04-19T14:02:43.995138+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83d\udd8a\ufe0f Generate professional diagrams from natural language descriptions using AI. Create flowcharts, mind maps, and more, all with real-time editing and browser preview.",
-    "full_name": "Shubishere/ai-drawio",
+    "fork": false,
+    "full_name": "shubishere/ai-drawio",
     "html_url": "https://github.com/Shubishere/ai-drawio",
     "language": "Python",
-    "pushed_at": "2026-04-18T01:35:48Z",
+    "pushed_at": "2026-04-19T11:52:57Z",
+    "stargazers_count": 0,
     "topics": [
       "ai",
       "ai-agents",
@@ -24,7 +28,7 @@
       "super-agent-party",
       "xml"
     ],
-    "updated_at": "2026-04-18T01:35:53Z"
+    "updated_at": "2026-04-19T11:53:01Z"
   },
   "repo_links": [],
   "terms": []

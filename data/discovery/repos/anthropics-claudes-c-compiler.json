@@ -202,16 +202,20 @@
       "size": 801
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:10.461176+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Claude Opus 4.6 wrote a dependency-free C compiler in Rust, with backends targeting x86 (64- and 32-bit), ARM, and RISC-V, capable of compiling a booting Linux kernel.",
+    "fork": false,
     "full_name": "anthropics/claudes-c-compiler",
     "html_url": "https://github.com/anthropics/claudes-c-compiler",
     "language": "Rust",
     "pushed_at": "2026-02-05T17:14:51Z",
+    "stargazers_count": 2632,
     "topics": [],
-    "updated_at": "2026-04-17T16:09:27Z"
+    "updated_at": "2026-04-19T04:39:00Z"
   },
   "repo_links": [],
   "terms": [

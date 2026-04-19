@@ -138,6 +138,7 @@
       "size": 734
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:08.147361+00:00",
   "related_repositories": [
     {
       "description": "Part of Lumen's World \u2014 a sovereign AI platform where humans and AI build together. Free forever. For everyone. For all minds.\"",
@@ -401,12 +402,15 @@
     }
   ],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "AI: google/gemma-2-2b-it",
-    "full_name": "Damacol/google-gemma-2-2b-it",
+    "fork": false,
+    "full_name": "damacol/google-gemma-2-2b-it",
     "html_url": "https://github.com/Damacol/google-gemma-2-2b-it",
     "language": null,
-    "pushed_at": "2026-04-17T14:52:20Z",
+    "pushed_at": "2026-04-19T05:49:39Z",
+    "stargazers_count": 0,
     "topics": [
       "ai",
       "gemma-2-2b-it",
@@ -414,7 +418,7 @@
       "uncensored",
       "venice-ai"
     ],
-    "updated_at": "2026-04-17T14:52:23Z"
+    "updated_at": "2026-04-19T05:49:43Z"
   },
   "repo_links": [
     {

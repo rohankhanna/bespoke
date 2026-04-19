@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 18,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 4,
-    "terms": 23
+    "components": 9,
+    "concepts": 14,
+    "observations": 14,
+    "repos": 3,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
-    "eth-sri/lmql",
     "googlefonts/noto-emoji",
     "haotian-liu/LLaVA",
     "Maciek-roboblog/Claude-Code-Usage-Monitor"

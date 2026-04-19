@@ -166,6 +166,7 @@
       "size": 734
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:07.737086+00:00",
   "related_repositories": [
     {
       "description": "2026\u5e74\u6700\u65b0SuperGrok\u8ba2\u9605\u6559\u7a0b\uff1a\u5982\u4f55\u4e3aSuperGrok\u4ee3\u5145\u503c\uff1f\u5982\u4f55\u8d2d\u4e70SuperGrok\u72ec\u7acb\u8d26\u53f7\uff1f\u5982\u4f55\u62fc\u8f66\u5408\u79dfSuperGrok\u8d26\u53f7\uff1f",
@@ -516,12 +517,15 @@
     }
   ],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "AI: xai-org/grok-2",
-    "full_name": "Damacol/xai-org-grok-2",
+    "fork": false,
+    "full_name": "damacol/xai-org-grok-2",
     "html_url": "https://github.com/Damacol/xai-org-grok-2",
     "language": null,
-    "pushed_at": "2026-04-17T14:50:33Z",
+    "pushed_at": "2026-04-19T05:22:08Z",
+    "stargazers_count": 0,
     "topics": [
       "ai",
       "grok-2",
@@ -529,7 +533,7 @@
       "uncensored",
       "venice-ai"
     ],
-    "updated_at": "2026-04-17T14:50:37Z"
+    "updated_at": "2026-04-19T05:22:12Z"
   },
   "repo_links": [
     {

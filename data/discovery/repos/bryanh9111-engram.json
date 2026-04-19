@@ -538,14 +538,18 @@
       "size": 548
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:55.736658+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Persistent memory MCP server for AI coding agents like Claude Code. Zero-LLM, local-first (SQLite + FTS5), proactive recall by file path. 12 MCP tools, 113 tests. The MEMORY.md alternative that stays constant-cost at 10,000+ memories.",
-    "full_name": "Bryanh9111/Engram",
+    "fork": false,
+    "full_name": "bryanh9111/engram",
     "html_url": "https://github.com/Bryanh9111/Engram",
     "language": "Python",
     "pushed_at": "2026-04-18T03:01:43Z",
+    "stargazers_count": 1,
     "topics": [
       "agent-memory",
       "ai-agents",

@@ -1140,14 +1140,18 @@
       "size": 460
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:29.793564+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83c\udd70\ufe0f Lobe theme - The modern theme for stable diffusion webui, exquisite interface design, highly customizable UI, and efficiency boosting features.",
+    "fork": false,
     "full_name": "lobehub/sd-webui-lobe-theme",
     "html_url": "https://github.com/lobehub/sd-webui-lobe-theme",
     "language": "TypeScript",
-    "pushed_at": "2026-04-17T11:40:28Z",
+    "pushed_at": "2026-04-19T10:10:10Z",
+    "stargazers_count": 2684,
     "topics": [
       "extension",
       "lobehub",

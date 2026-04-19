@@ -564,14 +564,18 @@
       "size": 4394
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:41.738849+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Persistent Claude Code agents with scheduling, sessions, memory, and Telegram.",
-    "full_name": "JKHeadley/instar",
+    "fork": false,
+    "full_name": "jkheadley/instar",
     "html_url": "https://github.com/JKHeadley/instar",
     "language": "TypeScript",
-    "pushed_at": "2026-04-18T01:16:11Z",
+    "pushed_at": "2026-04-19T06:38:45Z",
+    "stargazers_count": 59,
     "topics": [
       "agent-framework",
       "agent-identity",
@@ -594,7 +598,7 @@
       "typescript",
       "whatsapp"
     ],
-    "updated_at": "2026-04-18T01:16:16Z"
+    "updated_at": "2026-04-19T05:20:07Z"
   },
   "repo_links": [
     {

@@ -59,14 +59,18 @@
       "size": 466
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:18.380946+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "OpenAI + Anthropic compatible REST API proxy backed by NousResearch Portal OAuth \u2014 run your own inference gateway with subscription-based rate limits. Works with agentic coding tools like OpenCode, Claude Code, and OpenAI Codex CLI.",
+    "fork": false,
     "full_name": "mohfer/nous-proxy",
     "html_url": "https://github.com/mohfer/nous-proxy",
     "language": "Python",
-    "pushed_at": "2026-04-17T17:40:48Z",
+    "pushed_at": "2026-04-19T07:29:33Z",
+    "stargazers_count": 0,
     "topics": [
       "agentic-ai",
       "anthropic",
@@ -79,7 +83,7 @@
       "opencode",
       "proxy"
     ],
-    "updated_at": "2026-04-17T17:40:51Z"
+    "updated_at": "2026-04-19T07:29:36Z"
   },
   "repo_links": [],
   "terms": [

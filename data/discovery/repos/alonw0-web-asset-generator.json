@@ -86,16 +86,20 @@
       "size": 8949
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:48.091153+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Claude skill to generate favicons, app icons, and social media images from logos, text, or emojis. Supports emoji suggestions, validation, and framework auto-integration.",
+    "fork": false,
     "full_name": "alonw0/web-asset-generator",
     "html_url": "https://github.com/alonw0/web-asset-generator",
     "language": "Python",
     "pushed_at": "2026-01-28T09:11:01Z",
+    "stargazers_count": 322,
     "topics": [],
-    "updated_at": "2026-04-18T01:52:02Z"
+    "updated_at": "2026-04-19T02:05:41Z"
   },
   "repo_links": [
     {

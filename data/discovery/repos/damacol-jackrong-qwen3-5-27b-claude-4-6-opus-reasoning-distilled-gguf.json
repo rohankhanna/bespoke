@@ -40,14 +40,18 @@
       "size": 734
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:20.643151+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Private, uncensored AI: Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
-    "full_name": "Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf",
+    "fork": false,
+    "full_name": "damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf",
     "html_url": "https://github.com/Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf",
     "language": null,
-    "pushed_at": "2026-04-17T18:03:17Z",
+    "pushed_at": "2026-04-19T05:52:06Z",
+    "stargazers_count": 0,
     "topics": [
       "ai",
       "privacy",
@@ -55,7 +59,7 @@
       "uncensored",
       "venice-ai"
     ],
-    "updated_at": "2026-04-17T18:03:33Z"
+    "updated_at": "2026-04-19T05:52:10Z"
   },
   "repo_links": [
     {

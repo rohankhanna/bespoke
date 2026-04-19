@@ -200,19 +200,23 @@
       "size": 562
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:26.714708+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Python library for the Stripe API.    ",
+    "fork": false,
     "full_name": "stripe/stripe-python",
     "html_url": "https://github.com/stripe/stripe-python",
     "language": "Python",
     "pushed_at": "2026-04-17T22:34:00Z",
+    "stargazers_count": 1986,
     "topics": [
       "stripe",
       "stripe-sdk"
     ],
-    "updated_at": "2026-04-17T19:30:34Z"
+    "updated_at": "2026-04-18T20:37:14Z"
   },
   "repo_links": [
     {

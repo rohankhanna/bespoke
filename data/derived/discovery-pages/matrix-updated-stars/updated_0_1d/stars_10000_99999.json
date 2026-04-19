@@ -1,20 +1,27 @@
 {
   "counts": {
-    "components": 21,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 3,
-    "terms": 19
+    "components": 148,
+    "concepts": 26,
+    "observations": 26,
+    "repos": 10,
+    "terms": 60
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
+    "garrytan/gstack",
     "GitoxideLabs/gitoxide",
     "google/skia",
-    "langchain-ai/deepagents"
+    "hesreallyhim/awesome-claude-code",
+    "langchain-ai/deepagents",
+    "langchain-ai/langchainjs",
+    "mem0ai/mem0",
+    "onyx-dot-app/onyx",
+    "px4/px4-autopilot",
+    "withastro/astro"
   ]
 }

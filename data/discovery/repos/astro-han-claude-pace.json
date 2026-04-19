@@ -178,14 +178,18 @@
       "size": 466
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:46.670471+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Claude Code statusline and rate limit tracker with pace-aware quota monitoring. Pure Bash + jq, single file.",
-    "full_name": "Astro-Han/claude-pace",
+    "fork": false,
+    "full_name": "astro-han/claude-pace",
     "html_url": "https://github.com/Astro-Han/claude-pace",
     "language": "Shell",
     "pushed_at": "2026-04-13T07:49:49Z",
+    "stargazers_count": 117,
     "topics": [
       "anthropic",
       "bash",
@@ -203,7 +207,7 @@
       "usage-monitor",
       "usage-tracking"
     ],
-    "updated_at": "2026-04-18T01:47:01Z"
+    "updated_at": "2026-04-18T21:12:53Z"
   },
   "repo_links": [
     {

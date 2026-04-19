@@ -93,20 +93,24 @@
       "size": 2884
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:54.258707+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A claude code skill to delegate prompts to codex",
+    "fork": false,
     "full_name": "skills-directory/skill-codex",
     "html_url": "https://github.com/skills-directory/skill-codex",
     "language": null,
     "pushed_at": "2026-04-10T08:15:32Z",
+    "stargazers_count": 1170,
     "topics": [
       "claude",
       "claude-code",
       "codex"
     ],
-    "updated_at": "2026-04-18T02:49:43Z"
+    "updated_at": "2026-04-18T23:18:08Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,34 @@
+{
+  "counts": {
+    "components": 8,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 16,
+    "terms": 8
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "unknown",
+    "star_bucket": "stars_0",
+    "updated_bucket": "updated_0_1d"
+  },
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "repo_ids": [
+    "azizos911/setja-upp-stilla-yiimp-namuvinnslupott-hugbunadur-ubuntu-linux",
+    "begmyratb/floweye-yyyxxx.cc",
+    "carloandremoreyra/xx",
+    "damacol/google-gemma-2-2b-it",
+    "damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive",
+    "damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive",
+    "damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf",
+    "damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf",
+    "damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit",
+    "damacol/meta-llama-llama-3-2-3b",
+    "damacol/xai-org-grok-2",
+    "livemania18/idiegti-sukonfiguruoti-yiimp-kasimo-baseinas-programine-iranga-ubuntu-linux",
+    "muhammadumer000/ustanovka-i-nastrojka-yiimp-mayning-pul-programmnoe-obespechenie-ubuntu-linux",
+    "narutoxdd6/nyro",
+    "shouted-numberone752/wechat-agent-connector",
+    "wendyalbanez/clawui"
+  ]
+}

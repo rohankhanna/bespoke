@@ -100,6 +100,7 @@
       "size": 4519
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:14.660491+00:00",
   "related_repositories": [
     {
       "description": "A runtime conversational grammar that combines agent-loop orchestration and validator-style guardrails, but optimizes for proportion and closure (human-grade interaction behavior) rather than only safety or task completion.",
@@ -394,12 +395,15 @@
     }
   ],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A coordinate system for intelligence. Sealed on Bitcoin Block 940717.",
+    "fork": false,
     "full_name": "b2agi/exist-is-charter",
     "html_url": "https://github.com/b2agi/exist-is-charter",
     "language": "TeX",
-    "pushed_at": "2026-04-17T16:50:00Z",
+    "pushed_at": "2026-04-19T13:51:54Z",
+    "stargazers_count": 0,
     "topics": [
       "aei",
       "agi",
@@ -414,7 +418,7 @@
       "philosophy",
       "protocol"
     ],
-    "updated_at": "2026-04-17T16:50:04Z"
+    "updated_at": "2026-04-19T13:51:58Z"
   },
   "repo_links": [
     {

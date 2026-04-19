@@ -470,14 +470,18 @@
       "size": 1633
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:54.821847+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83e\udd16 Engage with an interactive Twitter AI agent to post tweets, retrieve recent updates, and schedule tasks effortlessly.",
-    "full_name": "Saminiscool/twitter-ai-agent",
+    "fork": false,
+    "full_name": "saminiscool/twitter-ai-agent",
     "html_url": "https://github.com/Saminiscool/twitter-ai-agent",
     "language": "TypeScript",
-    "pushed_at": "2026-04-18T02:54:58Z",
+    "pushed_at": "2026-04-19T13:16:17Z",
+    "stargazers_count": 2,
     "topics": [
       "agent",
       "agent-twitter-client",
@@ -498,7 +502,7 @@
       "twitter-api",
       "voice-assistant"
     ],
-    "updated_at": "2026-04-18T02:55:03Z"
+    "updated_at": "2026-04-19T13:16:21Z"
   },
   "repo_links": [],
   "terms": []

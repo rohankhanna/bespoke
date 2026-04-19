@@ -282,21 +282,25 @@
       "size": 5021
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:33.428277+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "The Agentic Startup - A collection of Claude Code commands, skills, and agents.",
+    "fork": false,
     "full_name": "rsmdt/the-startup",
     "html_url": "https://github.com/rsmdt/the-startup",
     "language": "Shell",
     "pushed_at": "2026-04-17T11:42:47Z",
+    "stargazers_count": 255,
     "topics": [
       "claude-code",
       "claude-code-plugin",
       "claude-marketplace",
       "claude-plugin"
     ],
-    "updated_at": "2026-04-17T22:26:58Z"
+    "updated_at": "2026-04-19T00:53:42Z"
   },
   "repo_links": [],
   "terms": [

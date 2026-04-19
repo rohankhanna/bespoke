@@ -86,16 +86,20 @@
       "size": 4818
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:39.992333+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Karpathy-style LLM knowledge base Agent Skill for OpenClaw/Codex. Experimental \u2014 will iterate over time.",
+    "fork": false,
     "full_name": "lewislulu/llm-wiki-skill",
     "html_url": "https://github.com/lewislulu/llm-wiki-skill",
     "language": "TypeScript",
     "pushed_at": "2026-04-16T06:01:13Z",
+    "stargazers_count": 339,
     "topics": [],
-    "updated_at": "2026-04-18T00:47:44Z"
+    "updated_at": "2026-04-19T13:49:09Z"
   },
   "repo_links": [
     {

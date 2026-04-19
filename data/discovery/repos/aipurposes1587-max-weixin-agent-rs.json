@@ -55,14 +55,18 @@
       "size": 1507
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:52.485617+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Build a Rust WeChat iLink bot SDK with pluggable agents, unified startup, and clear terminal logs for reliable multi-account use",
+    "fork": false,
     "full_name": "aipurposes1587-max/weixin-agent-rs",
     "html_url": "https://github.com/aipurposes1587-max/weixin-agent-rs",
     "language": "Rust",
-    "pushed_at": "2026-04-18T02:18:04Z",
+    "pushed_at": "2026-04-19T12:37:20Z",
+    "stargazers_count": 0,
     "topics": [
       "agent",
       "ai",
@@ -79,7 +83,7 @@
       "wechat",
       "wechat-bot"
     ],
-    "updated_at": "2026-04-18T02:18:12Z"
+    "updated_at": "2026-04-19T12:37:23Z"
   },
   "repo_links": [
     {

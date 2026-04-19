@@ -498,14 +498,18 @@
       "size": 1064
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:31.035047+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Giselle: AI App Builder. Open Source.",
+    "fork": false,
     "full_name": "giselles-ai/giselle",
     "html_url": "https://github.com/giselles-ai/giselle",
     "language": "TypeScript",
     "pushed_at": "2026-04-17T05:16:13Z",
+    "stargazers_count": 514,
     "topics": [
       "agent",
       "agent-builder",
@@ -528,7 +532,7 @@
       "vercel",
       "workflow"
     ],
-    "updated_at": "2026-04-17T21:33:46Z"
+    "updated_at": "2026-04-18T20:19:40Z"
   },
   "repo_links": [],
   "terms": [

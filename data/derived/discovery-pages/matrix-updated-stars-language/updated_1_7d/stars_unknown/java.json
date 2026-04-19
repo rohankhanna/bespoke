@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 23,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 4,
-    "terms": 13
+    "components": 7,
+    "concepts": 3,
+    "observations": 3,
+    "repos": 1,
+    "terms": 3
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,8 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
-    "google/auto",
-    "google/guava",
-    "google/j2cl",
-    "Peergos/Peergos"
+    "google/guava"
   ]
 }

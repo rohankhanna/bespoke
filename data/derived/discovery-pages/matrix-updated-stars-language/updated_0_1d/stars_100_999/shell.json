@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2,
+    "components": 7,
     "concepts": 18,
     "observations": 18,
-    "repos": 1,
-    "terms": 18
+    "repos": 2,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
-    "alfredolopez80/multi-agent-ralph-loop"
+    "alfredolopez80/multi-agent-ralph-loop",
+    "serpro69/claude-toolbox"
   ]
 }

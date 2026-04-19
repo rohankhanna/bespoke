@@ -1220,20 +1220,24 @@
       "size": 579
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:51.727536+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "\u2712\ufe0f Lobe Editor - a modern, extensible rich text editor built on Meta's Lexical framework with dual-architecture design, featuring both a powerful kernel and React integration. Optimized for AI applications and chat interfaces.",
+    "fork": false,
     "full_name": "lobehub/lobe-editor",
     "html_url": "https://github.com/lobehub/lobe-editor",
     "language": "JavaScript",
-    "pushed_at": "2026-04-18T09:28:26Z",
+    "pushed_at": "2026-04-18T16:47:22Z",
+    "stargazers_count": 118,
     "topics": [
       "editor",
       "lexical",
       "lobehub"
     ],
-    "updated_at": "2026-04-17T08:39:23Z"
+    "updated_at": "2026-04-18T16:47:24Z"
   },
   "repo_links": [
     {

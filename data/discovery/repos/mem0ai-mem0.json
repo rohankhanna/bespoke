@@ -636,14 +636,18 @@
       "size": 1249
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:12.928365+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Universal memory layer for AI Agents",
+    "fork": false,
     "full_name": "mem0ai/mem0",
     "html_url": "https://github.com/mem0ai/mem0",
     "language": "Python",
-    "pushed_at": "2026-04-17T12:47:21Z",
+    "pushed_at": "2026-04-19T00:09:28Z",
+    "stargazers_count": 53504,
     "topics": [
       "agents",
       "ai",
@@ -660,7 +664,7 @@
       "rag",
       "state-management"
     ],
-    "updated_at": "2026-04-17T16:39:08Z"
+    "updated_at": "2026-04-19T13:22:27Z"
   },
   "repo_links": [
     {

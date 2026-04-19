@@ -542,16 +542,20 @@
       "size": 2002
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:47.520456+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A practical agent skill pack for DevOps work in Claude Code and Codex.",
+    "fork": false,
     "full_name": "akin-ozer/cc-devops-skills",
     "html_url": "https://github.com/akin-ozer/cc-devops-skills",
     "language": "Python",
     "pushed_at": "2026-03-27T07:54:57Z",
+    "stargazers_count": 182,
     "topics": [],
-    "updated_at": "2026-04-18T01:49:44Z"
+    "updated_at": "2026-04-18T13:27:08Z"
   },
   "repo_links": [
     {

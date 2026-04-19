@@ -1,20 +1,23 @@
 {
   "counts": {
-    "components": 40,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 4,
-    "terms": 22
+    "components": 49,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 7,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "generated_at": "2026-04-19T14:03:00.009749+00:00",
   "repo_ids": [
     "charmbracelet/gum",
+    "google/auto",
     "jj-vcs/jj",
+    "kubernetes-sigs/kustomize",
+    "kubernetes/community",
     "seanmonstar/reqwest",
     "toon-format/toon"
   ]

@@ -148,14 +148,18 @@
       "size": 12031
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:48.699592+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": null,
+    "fork": false,
     "full_name": "compozy/kb",
     "html_url": "https://github.com/compozy/kb",
     "language": "Go",
     "pushed_at": "2026-04-15T02:46:17Z",
+    "stargazers_count": 29,
     "topics": [],
     "updated_at": "2026-04-18T01:53:32Z"
   },

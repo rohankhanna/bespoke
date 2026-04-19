@@ -37,14 +37,18 @@
       "size": 2988
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:19.536771+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "eMarket Online Store. It is a free online shop engine. Make the best online shop with us. Join our Open Source community. Together we will make the best free e-commerce solution.",
-    "full_name": "musicman3/eMarket",
+    "fork": false,
+    "full_name": "musicman3/emarket",
     "html_url": "https://github.com/musicman3/eMarket",
     "language": "PHP",
     "pushed_at": "2026-04-17T17:57:22Z",
+    "stargazers_count": 75,
     "topics": [
       "bootstrap",
       "cart",

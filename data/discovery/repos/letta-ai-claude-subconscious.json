@@ -116,16 +116,20 @@
       "size": 623
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:59.373641+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Give Claude Code a subconscious",
+    "fork": false,
     "full_name": "letta-ai/claude-subconscious",
     "html_url": "https://github.com/letta-ai/claude-subconscious",
     "language": "TypeScript",
     "pushed_at": "2026-04-16T00:13:11Z",
+    "stargazers_count": 2658,
     "topics": [],
-    "updated_at": "2026-04-18T03:33:38Z"
+    "updated_at": "2026-04-19T13:27:10Z"
   },
   "repo_links": [
     {

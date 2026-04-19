@@ -827,14 +827,18 @@
       "size": 736
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:56.060422+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "The web framework for content-driven websites. \u2b50\ufe0f Star to support our work!",
+    "fork": false,
     "full_name": "withastro/astro",
     "html_url": "https://github.com/withastro/astro",
     "language": "TypeScript",
-    "pushed_at": "2026-04-18T02:21:30Z",
+    "pushed_at": "2026-04-19T14:02:13Z",
+    "stargazers_count": 58578,
     "topics": [
       "astro",
       "blog",
@@ -848,7 +852,7 @@
       "static-site-generator",
       "universal"
     ],
-    "updated_at": "2026-04-18T03:11:08Z"
+    "updated_at": "2026-04-19T13:04:17Z"
   },
   "repo_links": [
     {

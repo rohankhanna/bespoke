@@ -456,18 +456,22 @@
       "size": 761
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:42.049267+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Process manager for Procfile-based applications and tmux",
-    "full_name": "DarthSim/overmind",
+    "fork": false,
+    "full_name": "darthsim/overmind",
     "html_url": "https://github.com/DarthSim/overmind",
     "language": "Go",
     "pushed_at": "2025-04-04T04:20:15Z",
+    "stargazers_count": 3592,
     "topics": [
       "procfile"
     ],
-    "updated_at": "2026-04-18T01:19:00Z"
+    "updated_at": "2026-04-19T11:54:17Z"
   },
   "repo_links": [
     {

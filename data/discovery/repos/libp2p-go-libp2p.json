@@ -306,14 +306,18 @@
       "size": 449
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:01:50.431955+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "libp2p implementation in Go",
+    "fork": false,
     "full_name": "libp2p/go-libp2p",
     "html_url": "https://github.com/libp2p/go-libp2p",
     "language": "Go",
     "pushed_at": "2026-04-16T19:49:27Z",
+    "stargazers_count": 6779,
     "topics": [
       "libp2p",
       "networking-stack",

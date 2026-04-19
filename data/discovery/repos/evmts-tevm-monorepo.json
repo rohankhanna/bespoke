@@ -431,14 +431,18 @@
       "size": 1856
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:02:41.446692+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "An Ethereum Node built to run in Browser, Bun, Deno, and Node.js",
+    "fork": false,
     "full_name": "evmts/tevm-monorepo",
     "html_url": "https://github.com/evmts/tevm-monorepo",
     "language": "TypeScript",
     "pushed_at": "2026-04-13T21:33:34Z",
+    "stargazers_count": 443,
     "topics": [
       "evm",
       "forge",
