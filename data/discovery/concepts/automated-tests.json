@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Automated tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cargo-bins/cargo-quickinstall",
+      "status": "candidate-context",
+      "text": "pre-compiled binary packages for `cargo install`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-bins/cargo-quickinstall",
+      "status": "candidate-context",
+      "text": "Automated tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cargo-bins/cargo-quickinstall",
+      "status": "candidate",
+      "text": "Automated tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10930,
+      "status": "candidate",
+      "text": "aaa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10930,
+      "status": "candidate",
+      "text": "automatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10930,
+      "status": "candidate",
+      "text": "captcha"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10930,
+      "status": "candidate",
+      "text": "robot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10884,
+      "status": "candidate",
+      "text": "abm"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Automated tests",
+  "concept_id": "automated-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cargo-bins/cargo-quickinstall"
+    }
+  ],
+  "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Automated tests",
+      "sense_id": "automated-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

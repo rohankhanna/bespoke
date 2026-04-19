@@ -1,7 +1,7 @@
 {
   "component": "pnpm/action-setup@v5",
   "first_seen_at": "2026-04-18T09:57:17.167988+00:00",
-  "last_seen_at": "2026-04-18T09:57:17.167988+00:00",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update-zudoku.yaml",
       "source_repo": "zuplo/docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "onecli/onecli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/inspect.yml",
+      "source_repo": "pixiv/three-vrm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "pixiv/three-vrm"
     }
   ]
 }

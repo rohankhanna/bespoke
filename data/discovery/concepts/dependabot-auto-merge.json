@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Dependabot Auto-Merge"
+    "Dependabot Auto-Merge",
+    "Dependabot Auto-merge"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,9 +20,28 @@
       "source_repo": "AgriciDaniel/claude-ads",
       "status": "candidate-context",
       "text": "Dependabot Auto-Merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tekumara/typos-lsp",
+      "status": "candidate-context",
+      "text": "Source code spell checker for Visual Studio Code, Neovim and other LSP clients"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tekumara/typos-lsp",
+      "status": "candidate-context",
+      "text": "Dependabot Auto-merge"
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tekumara/typos-lsp",
+      "status": "candidate",
+      "text": "Dependabot Auto-merge"
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "Dependabot Auto-Merge",
@@ -33,12 +53,20 @@
       "observed_at": "2026-04-18T13:29:00.435097+00:00",
       "source_file": ".github/workflows/dependabot-automerge.yml",
       "source_repo": "AgriciDaniel/claude-ads"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "tekumara/typos-lsp"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

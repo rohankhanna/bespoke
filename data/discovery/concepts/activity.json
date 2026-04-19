@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "activity"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grubersjoe/react-activity-calendar",
+      "status": "candidate-context",
+      "text": "React component for displaying activity data in a calendar (heatmap)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grubersjoe/react-activity-calendar",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/grubersjoe/react-activity-calendar/actions/workflows/test.yml/badge.svg)](https://github.com/grubersjoe/react-activity-calendar/actions/workflows/test.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grubersjoe/react-activity-calendar",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/grubersjoe/react-activity-calendar/actions/workflows/test.yml/badge.svg)](https://github.com/grubersjoe/react-activity-calendar/actions/workflows/test.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39990897,
+      "status": "candidate",
+      "text": "activeness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39990826,
+      "status": "candidate",
+      "text": "action"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39962086,
+      "status": "candidate",
+      "text": "bodily process"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39840229,
+      "status": "candidate",
+      "text": "radioactivity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39777691,
+      "status": "candidate",
+      "text": "bodily function"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29077,
+      "status": "candidate",
+      "text": "action"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2024,
+      "status": "candidate",
+      "text": "activeness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2010,
+      "status": "candidate",
+      "text": "natural process"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1049,
+      "status": "candidate",
+      "text": "radioactivity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "bodily function"
+    }
+  ],
+  "canonical_name": "activity",
+  "concept_id": "activity",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": null,
+      "source_repo": "grubersjoe/react-activity-calendar"
+    }
+  ],
+  "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "activity",
+      "sense_id": "activity#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

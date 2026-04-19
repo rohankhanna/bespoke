@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "guava"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/guava",
+      "status": "candidate-context",
+      "text": "Google core libraries for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/guava",
+      "status": "candidate-context",
+      "text": "[![GitHub Release](https://img.shields.io/github/v/release/google/guava)](https://github.com/google/guava/releases/latest)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/guava",
+      "status": "candidate",
+      "text": "[![GitHub Release](https://img.shields.io/github/v/release/google/guava)](https://github.com/google/guava/releases/latest)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19483082,
+      "status": "candidate",
+      "text": "guava bush"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19483082,
+      "status": "candidate",
+      "text": "psidium guajava"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19483082,
+      "status": "candidate",
+      "text": "psidium littorale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19483082,
+      "status": "candidate",
+      "text": "strawberry guava"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19483082,
+      "status": "candidate",
+      "text": "true guava"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13,
+      "status": "candidate",
+      "text": "strawberry guava"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "psidium guajava"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "guava bush"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "true guava"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "yellow cattley guava"
+    }
+  ],
+  "canonical_name": "guava",
+  "concept_id": "guava",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": null,
+      "source_repo": "google/guava"
+    }
+  ],
+  "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "guava",
+      "sense_id": "guava#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

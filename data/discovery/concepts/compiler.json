@@ -19,6 +19,18 @@
       "source_repo": "atomicmemory/llm-wiki-compiler",
       "status": "candidate-context",
       "text": "Compile raw sources into an interlinked markdown wiki."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/rust",
+      "status": "candidate-context",
+      "text": "Empowering everyone to build reliable and efficient software."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rust",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "atomicmemory/llm-wiki-compiler",
       "status": "candidate",
       "text": "Compile raw sources into an interlinked markdown wiki."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rust",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -97,11 +115,17 @@
       "observed_at": "2026-04-18T18:30:26.389736+00:00",
       "source_file": null,
       "source_repo": "atomicmemory/llm-wiki-compiler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "lexical_providers": [
     "datamuse"
   ],

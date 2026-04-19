@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xtbug/zero-limit",
+      "status": "candidate-context",
+      "text": "ZeroLimit is a cross-platform desktop application for monitoring AI coding assistant quotas using CLIProxyAPI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xtbug/zero-limit",
+      "status": "candidate-context",
+      "text": "Build and Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xtbug/zero-limit",
+      "status": "candidate",
+      "text": "Build and Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11666,
+      "status": "candidate",
+      "text": "enlarge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11666,
+      "status": "candidate",
+      "text": "escape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11666,
+      "status": "candidate",
+      "text": "outreach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11666,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11666,
+      "status": "candidate",
+      "text": "produce"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and Release",
+  "concept_id": "build-and-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "0xtbug/zero-limit"
+    }
+  ],
+  "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and Release",
+      "sense_id": "build-and-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

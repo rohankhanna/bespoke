@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "cargo"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dustinblackman/cargo-run-bin",
+      "status": "candidate-context",
+      "text": "Build, cache, and run CLI tools scoped in Cargo.toml rather than installing globally. Stop the version drifts across your team, keep it all in sync within your project!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dustinblackman/cargo-run-bin",
+      "status": "candidate-context",
+      "text": "<h1 align=center>cargo-run-bin</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dustinblackman/cargo-run-bin",
+      "status": "candidate",
+      "text": "<h1 align=center>cargo-run-bin</h1>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043969,
+      "status": "candidate",
+      "text": "payload"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043724,
+      "status": "candidate",
+      "text": "freight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043191,
+      "status": "candidate",
+      "text": "shipment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022514,
+      "status": "candidate",
+      "text": "lading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017158,
+      "status": "candidate",
+      "text": "loading"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15083,
+      "status": "candidate",
+      "text": "load"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8050,
+      "status": "candidate",
+      "text": "freight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5055,
+      "status": "candidate",
+      "text": "consignment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2041,
+      "status": "candidate",
+      "text": "payload"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2035,
+      "status": "candidate",
+      "text": "lading"
+    }
+  ],
+  "canonical_name": "cargo",
+  "concept_id": "cargo",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": null,
+      "source_repo": "dustinblackman/cargo-run-bin"
+    }
+  ],
+  "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cargo",
+      "sense_id": "cargo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

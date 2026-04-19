@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "decentralization"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libp2p/rust-libp2p",
+      "status": "candidate-context",
+      "text": "The Rust Implementation of the libp2p networking stack. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/rust-libp2p",
+      "status": "candidate-context",
+      "text": "<a href=\"http://libp2p.io/\"><img src=\"https://img.shields.io/badge/project-libp2p-yellow.svg?style=flat-square\" /></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/rust-libp2p",
+      "status": "candidate",
+      "text": "<a href=\"http://libp2p.io/\"><img src=\"https://img.shields.io/badge/project-libp2p-yellow.svg?style=flat-square\" /></a>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048977,
+      "status": "candidate",
+      "text": "decentralisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049473,
+      "status": "candidate",
+      "text": "decentralized"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048757,
+      "status": "candidate",
+      "text": "democratization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048616,
+      "status": "candidate",
+      "text": "centralization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047637,
+      "status": "candidate",
+      "text": "regionalization"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1016,
+      "status": "candidate",
+      "text": "decentralisation"
+    }
+  ],
+  "canonical_name": "decentralization",
+  "concept_id": "decentralization",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": null,
+      "source_repo": "libp2p/rust-libp2p"
+    }
+  ],
+  "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "decentralization",
+      "sense_id": "decentralization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

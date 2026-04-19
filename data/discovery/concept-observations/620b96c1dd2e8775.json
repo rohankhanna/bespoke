@@ -1,0 +1,56 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenTofu / Terraform / Terragrunt / Terramate and Atmos version manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Check: Codespell\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Check: Codespell\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check: Codespell",
+      "sense_id": "check-codespell#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-codespell",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-codespell",
+  "observation_id": "620b96c1dd2e8775",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T02:42:33.990002+00:00",
+  "observed_text": "Check: Codespell",
+  "source_context_snippet": "\"Check: Codespell\"",
+  "source_file": ".github/workflows/check-codespell.yml",
+  "source_repo": "tofuutils/tenv",
+  "source_repo_description": "OpenTofu / Terraform / Terragrunt / Terramate and Atmos version manager"
+}

@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@v7",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -97,6 +97,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test_notebooks.yml",
       "source_repo": "arogozhnikov/einops"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tahv/typos-gitlab-code-quality"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "tahv/typos-gitlab-code-quality"
     }
   ]
 }

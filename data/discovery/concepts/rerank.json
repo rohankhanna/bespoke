@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "rerank"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "QuantumNous/new-api",
+      "status": "candidate-context",
+      "text": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. \ud83c\udf65"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QuantumNous/new-api",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QuantumNous/new-api",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19964912,
+      "status": "candidate",
+      "text": "enrank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19964911,
+      "status": "candidate",
+      "text": "reorder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19964910,
+      "status": "candidate",
+      "text": "renumerate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19964909,
+      "status": "candidate",
+      "text": "reprioritize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19964908,
+      "status": "candidate",
+      "text": "rerate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "rerank",
+  "concept_id": "rerank",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": null,
+      "source_repo": "QuantumNous/new-api"
+    }
+  ],
+  "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rerank",
+      "sense_id": "rerank#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

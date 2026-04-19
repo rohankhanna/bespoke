@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Build and Test"
+    "Build and Test",
+    "Build and test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,18 @@
       "source_repo": "bensadeh/circumflex",
       "status": "candidate-context",
       "text": "Build and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "recharts/recharts",
+      "status": "candidate-context",
+      "text": "Redefined chart library built with React and D3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "recharts/recharts",
+      "status": "candidate-context",
+      "text": "Build and test"
     }
   ],
   "candidate_glosses": [
@@ -39,6 +52,12 @@
       "source_repo": "bensadeh/circumflex",
       "status": "candidate",
       "text": "Build and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "recharts/recharts",
+      "status": "candidate",
+      "text": "Build and test"
     }
   ],
   "candidate_related_terms": [
@@ -94,11 +113,17 @@
       "observed_at": "2026-04-18T18:48:44.679047+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "bensadeh/circumflex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "recharts/recharts"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "lexical_providers": [
     "datamuse"
   ],

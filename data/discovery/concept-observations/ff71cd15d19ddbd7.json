@@ -4,10 +4,63 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definition_hints": [],
-  "candidate_glosses": [],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The ultimate space for work and life \u2014 to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level \u2014 enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Claude Issue Dedupe"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Claude Issue Dedupe"
+    }
+  ],
   "candidate_primary_bucket": "workflow-process",
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12412,
+      "status": "candidate",
+      "text": "exile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12412,
+      "status": "candidate",
+      "text": "saint-simon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11947,
+      "status": "candidate",
+      "text": "rains"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11926,
+      "status": "candidate",
+      "text": "fields"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11926,
+      "status": "candidate",
+      "text": "structuralism"
+    }
+  ],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -23,15 +76,17 @@
   "concept_id": "claude-issue-dedupe",
   "definition_status": "unresolved",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "claude-issue-dedupe",
   "observation_id": "ff71cd15d19ddbd7",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-18T11:32:22.637859+00:00",
+  "observed_at": "2026-04-19T02:42:33.990002+00:00",
   "observed_text": "Claude Issue Dedupe",
-  "source_context_snippet": null,
+  "source_context_snippet": "Claude Issue Dedupe",
   "source_file": ".github/workflows/claude-dedupe-issues.yml",
   "source_repo": "lobehub/lobehub",
-  "source_repo_description": null
+  "source_repo_description": "The ultimate space for work and life \u2014 to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level \u2014 enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction."
 }

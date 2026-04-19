@@ -1,0 +1,392 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml"
+    },
+    {
+      "component": "docker/build-push-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml"
+    },
+    {
+      "component": "huggingface/doc-builder/.github/workflows/build_main_documentation.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_documentation.yml"
+    },
+    {
+      "component": "huggingface/doc-builder/.github/workflows/build_pr_documentation.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml"
+    },
+    {
+      "component": "huggingface/doc-builder/.github/workflows/delete_doc_comment.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete_doc_comment.yml"
+    },
+    {
+      "component": "huggingface/doc-builder/.github/workflows/delete_doc_comment_trigger.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete_doc_comment_trigger.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_dependency_test.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_dependency_test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_quality.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_quality.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_quality.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_quality.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Birch-san/diffusers",
+      "target": "apple/ml-stable-diffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Birch-san/diffusers",
+      "target": "ashawkey/stable-dreamfusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Birch-san/diffusers",
+      "target": "bentoml/bentoml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Birch-san/diffusers",
+      "target": "bmaltais/kohya_ss",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml",
+      "source_repo": "Birch-san/diffusers",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml",
+      "source_repo": "Birch-san/diffusers",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml",
+      "source_repo": "Birch-san/diffusers",
+      "target": "docker/build-push-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_docker_images.yml",
+      "source_repo": "Birch-san/diffusers",
+      "target": "Build Docker images (nightly)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "Birch-san/diffusers",
+      "target": "huggingface/doc-builder/.github/workflows/build_main_documentation.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "Birch-san/diffusers",
+      "target": "Build documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "Birch-san/diffusers",
+      "target": "huggingface/doc-builder/.github/workflows/build_pr_documentation.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "Birch-san/diffusers",
+      "target": "Build PR Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete_doc_comment.yml",
+      "source_repo": "Birch-san/diffusers",
+      "target": "huggingface/doc-builder/.github/workflows/delete_doc_comment.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/delete_doc_comment.yml",
+      "source_repo": "Birch-san/diffusers",
+      "target": "Delete doc comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/delete_doc_comment_trigger.yml",
+      "source_repo": "Birch-san/diffusers",
+      "target": "huggingface/doc-builder/.github/workflows/delete_doc_comment_trigger.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/delete_doc_comment_trigger.yml",
+      "source_repo": "Birch-san/diffusers",
+      "target": "Delete doc comment trigger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_tests.yml",
+      "source_repo": "Birch-san/diffusers",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_tests.yml",
+      "source_repo": "Birch-san/diffusers",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly_tests.yml",
+      "source_repo": "Birch-san/diffusers",
+      "target": "Nightly tests on main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_dependency_test.yml",
+      "source_repo": "Birch-san/diffusers",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_dependency_test.yml",
+      "source_repo": "Birch-san/diffusers",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_dependency_test.yml",
+      "source_repo": "Birch-san/diffusers",
+      "target": "Run dependency tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_quality.yml",
+      "source_repo": "Birch-san/diffusers",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_quality.yml",
+      "source_repo": "Birch-san/diffusers",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_quality.yml",
+      "source_repo": "Birch-san/diffusers",
+      "target": "Run code quality checks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T02:45:15.172011+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13454
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 469
+    },
+    {
+      "path": ".github/workflows/build_docker_images.yml",
+      "size": 1129
+    },
+    {
+      "path": ".github/workflows/build_documentation.yml",
+      "size": 494
+    },
+    {
+      "path": ".github/workflows/build_pr_documentation.yml",
+      "size": 455
+    },
+    {
+      "path": ".github/workflows/delete_doc_comment.yml",
+      "size": 289
+    },
+    {
+      "path": ".github/workflows/delete_doc_comment_trigger.yml",
+      "size": 236
+    },
+    {
+      "path": ".github/workflows/nightly_tests.yml",
+      "size": 5017
+    },
+    {
+      "path": ".github/workflows/pr_dependency_test.yml",
+      "size": 702
+    },
+    {
+      "path": ".github/workflows/pr_quality.yml",
+      "size": 1332
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image and audio generation in PyTorch",
+    "full_name": "Birch-san/diffusers",
+    "html_url": "https://github.com/Birch-san/diffusers",
+    "language": "Python",
+    "pushed_at": "2023-08-24T22:41:31Z",
+    "topics": [],
+    "updated_at": "2025-03-05T05:45:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/ml-stable-diffusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashawkey/stable-dreamfusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bentoml/bentoml",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bmaltais/kohya_ss",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Docker images (nightly)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_docker_images.yml",
+      "term": "Build Docker images (nightly)"
+    },
+    {
+      "context_snippet": "Build documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "term": "Build documentation"
+    },
+    {
+      "context_snippet": "Build PR Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "term": "Build PR Documentation"
+    },
+    {
+      "context_snippet": "Delete doc comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/delete_doc_comment.yml",
+      "term": "Delete doc comment"
+    },
+    {
+      "context_snippet": "Delete doc comment trigger",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/delete_doc_comment_trigger.yml",
+      "term": "Delete doc comment trigger"
+    },
+    {
+      "context_snippet": "Nightly tests on main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly_tests.yml",
+      "term": "Nightly tests on main"
+    },
+    {
+      "context_snippet": "Run dependency tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_dependency_test.yml",
+      "term": "Run dependency tests"
+    },
+    {
+      "context_snippet": "Run code quality checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_quality.yml",
+      "term": "Run code quality checks"
+    }
+  ]
+}

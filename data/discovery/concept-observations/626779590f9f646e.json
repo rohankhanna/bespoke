@@ -1,0 +1,92 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Empowering everyone to build reliable and efficient software."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Post merge analysis"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Post merge analysis"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19708,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19636,
+      "status": "candidate",
+      "text": "mix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19636,
+      "status": "candidate",
+      "text": "mixing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19260,
+      "status": "candidate",
+      "text": "parcel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19260,
+      "status": "candidate",
+      "text": "splash"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Post merge analysis",
+      "sense_id": "post-merge-analysis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "post-merge-analysis",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "post-merge-analysis",
+  "observation_id": "626779590f9f646e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T02:42:33.990002+00:00",
+  "observed_text": "Post merge analysis",
+  "source_context_snippet": "Post merge analysis",
+  "source_file": ".github/workflows/post-merge.yml",
+  "source_repo": "rust-lang/rust",
+  "source_repo_description": "Empowering everyone to build reliable and efficient software."
+}

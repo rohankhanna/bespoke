@@ -1,0 +1,12 @@
+{
+  "component": "codespell-project/actions-codespell@8f01853be192eb0f849a5c7d721450e7a467c579",
+  "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-codespell.yml",
+      "source_repo": "tofuutils/tenv"
+    }
+  ]
+}

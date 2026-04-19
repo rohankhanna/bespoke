@@ -1,0 +1,17 @@
+{
+  "component": "docker/build-push-action@v3",
+  "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci.yaml",
+      "source_repo": "coaidev/coai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml",
+      "source_repo": "Birch-san/diffusers"
+    }
+  ]
+}

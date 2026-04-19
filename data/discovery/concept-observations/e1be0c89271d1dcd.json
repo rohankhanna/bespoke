@@ -1,0 +1,56 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Rust Implementation of the libp2p networking stack. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href=\"http://libp2p.io/\"><img src=\"https://img.shields.io/badge/project-libp2p-yellow.svg?style=flat-square\" /></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href=\"http://libp2p.io/\"><img src=\"https://img.shields.io/badge/project-libp2p-yellow.svg?style=flat-square\" /></a>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "libp2p",
+      "sense_id": "libp2p#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "libp2p",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "libp2p",
+  "observation_id": "e1be0c89271d1dcd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-19T02:42:33.990002+00:00",
+  "observed_text": "libp2p",
+  "source_context_snippet": "<a href=\"http://libp2p.io/\"><img src=\"https://img.shields.io/badge/project-libp2p-yellow.svg?style=flat-square\" /></a>",
+  "source_file": null,
+  "source_repo": "libp2p/rust-libp2p",
+  "source_repo_description": "The Rust Implementation of the libp2p networking stack. "
+}

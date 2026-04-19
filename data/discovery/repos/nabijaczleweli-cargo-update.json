@@ -1,0 +1,97 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nabijaczleweli/cargo-update",
+      "target": "rust-lang/cargo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nabijaczleweli/cargo-update",
+      "target": "rust-lang/git2-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nabijaczleweli/cargo-update",
+      "target": "rust-lang/crates.io-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual.yml",
+      "source_repo": "nabijaczleweli/cargo-update",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual.yml",
+      "source_repo": "nabijaczleweli/cargo-update",
+      "target": "manual",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T02:43:55.366589+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7821
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3417
+    },
+    {
+      "path": ".github/workflows/manual.yml",
+      "size": 901
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "A cargo subcommand for checking and applying updates to installed executables",
+    "full_name": "nabijaczleweli/cargo-update",
+    "html_url": "https://github.com/nabijaczleweli/cargo-update",
+    "language": "Rust",
+    "pushed_at": "2026-04-06T14:46:16Z",
+    "topics": [],
+    "updated_at": "2026-04-19T01:42:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-lang/cargo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-lang/crates.io-index",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-lang/git2-rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "manual",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual.yml",
+      "term": "manual"
+    }
+  ]
+}

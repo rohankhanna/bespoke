@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy website to recharts.github.io"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "recharts/recharts",
+      "status": "candidate-context",
+      "text": "Redefined chart library built with React and D3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "recharts/recharts",
+      "status": "candidate-context",
+      "text": "Deploy website to recharts.github.io"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "recharts/recharts",
+      "status": "candidate",
+      "text": "Deploy website to recharts.github.io"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10860,
+      "status": "candidate",
+      "text": "marshal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10860,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10746,
+      "status": "candidate",
+      "text": "ploy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10656,
+      "status": "candidate",
+      "text": "e-commerce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10656,
+      "status": "candidate",
+      "text": "filter"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy website to recharts.github.io",
+  "concept_id": "deploy-website-to-recharts.github.io",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": ".github/workflows/deploy-website.yml",
+      "source_repo": "recharts/recharts"
+    }
+  ],
+  "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy website to recharts.github.io",
+      "sense_id": "deploy-website-to-recharts.github.io#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

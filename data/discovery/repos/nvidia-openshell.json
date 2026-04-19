@@ -1,0 +1,297 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branch-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branch-checks.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branch-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branch-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branch-docs.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branch-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-image.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-image.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco.yml"
+    },
+    {
+      "component": "contributor-assistant/github-action@ca4a40a7d1004f18d9960b404b97e5f30a505a08",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-gpu-test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/OpenShell",
+      "target": "nvidia/openshell-community",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branch-checks.yml",
+      "source_repo": "NVIDIA/OpenShell",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branch-checks.yml",
+      "source_repo": "NVIDIA/OpenShell",
+      "target": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/branch-checks.yml",
+      "source_repo": "NVIDIA/OpenShell",
+      "target": "Branch Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branch-docs.yml",
+      "source_repo": "NVIDIA/OpenShell",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/branch-docs.yml",
+      "source_repo": "NVIDIA/OpenShell",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/branch-docs.yml",
+      "source_repo": "NVIDIA/OpenShell",
+      "target": "Branch Docs Preview",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/branch-e2e.yml",
+      "source_repo": "NVIDIA/OpenShell",
+      "target": "Branch E2E Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-image.yml",
+      "source_repo": "NVIDIA/OpenShell",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-image.yml",
+      "source_repo": "NVIDIA/OpenShell",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-image.yml",
+      "source_repo": "NVIDIA/OpenShell",
+      "target": "Build CI Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco.yml",
+      "source_repo": "NVIDIA/OpenShell",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco.yml",
+      "source_repo": "NVIDIA/OpenShell",
+      "target": "contributor-assistant/github-action@ca4a40a7d1004f18d9960b404b97e5f30a505a08",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dco.yml",
+      "source_repo": "NVIDIA/OpenShell",
+      "target": "DCO Assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "NVIDIA/OpenShell",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "NVIDIA/OpenShell",
+      "target": "Docker Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-gpu-test.yaml",
+      "source_repo": "NVIDIA/OpenShell",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-gpu-test.yaml",
+      "source_repo": "NVIDIA/OpenShell",
+      "target": "GPU E2E Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T02:42:36.402172+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16743
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3824
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3269
+    },
+    {
+      "path": ".github/workflows/branch-checks.yml",
+      "size": 2543
+    },
+    {
+      "path": ".github/workflows/branch-docs.yml",
+      "size": 2899
+    },
+    {
+      "path": ".github/workflows/branch-e2e.yml",
+      "size": 764
+    },
+    {
+      "path": ".github/workflows/ci-image.yml",
+      "size": 1192
+    },
+    {
+      "path": ".github/workflows/dco.yml",
+      "size": 1840
+    },
+    {
+      "path": ".github/workflows/docker-build.yml",
+      "size": 2974
+    },
+    {
+      "path": ".github/workflows/e2e-gpu-test.yaml",
+      "size": 2719
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+    "full_name": "NVIDIA/OpenShell",
+    "html_url": "https://github.com/NVIDIA/OpenShell",
+    "language": "Rust",
+    "pushed_at": "2026-04-18T03:07:41Z",
+    "topics": [],
+    "updated_at": "2026-04-19T01:32:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/openshell-community",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Branch Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/branch-checks.yml",
+      "term": "Branch Checks"
+    },
+    {
+      "context_snippet": "Branch Docs Preview",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/branch-docs.yml",
+      "term": "Branch Docs Preview"
+    },
+    {
+      "context_snippet": "Branch E2E Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/branch-e2e.yml",
+      "term": "Branch E2E Checks"
+    },
+    {
+      "context_snippet": "Build CI Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-image.yml",
+      "term": "Build CI Image"
+    },
+    {
+      "context_snippet": "\"DCO Assistant\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dco.yml",
+      "term": "DCO Assistant"
+    },
+    {
+      "context_snippet": "Docker Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build.yml",
+      "term": "Docker Build"
+    },
+    {
+      "context_snippet": "GPU E2E Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-gpu-test.yaml",
+      "term": "GPU E2E Test"
+    }
+  ]
+}

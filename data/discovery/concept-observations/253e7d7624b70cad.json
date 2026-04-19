@@ -1,0 +1,56 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": " \ud83e\ude80 Lobe CLI Toolbox - AI CLI Toolbox, enhancing git commit and i18n workflow efficiency"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\"><a name=\"readme-top\"></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\"><a name=\"readme-top\"></a>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "git-commits",
+      "sense_id": "git-commits#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "git-commits",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "git-commits",
+  "observation_id": "253e7d7624b70cad",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-19T02:42:33.990002+00:00",
+  "observed_text": "git-commits",
+  "source_context_snippet": "<div align=\"center\"><a name=\"readme-top\"></a>",
+  "source_file": null,
+  "source_repo": "lobehub/lobe-cli-toolbox",
+  "source_repo_description": " \ud83e\ude80 Lobe CLI Toolbox - AI CLI Toolbox, enhancing git commit and i18n workflow efficiency"
+}

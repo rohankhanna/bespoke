@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients",
+      "target": "vicgalle/stable-diffusion-aesthetic-gradients",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-19T02:42:33.990002+00:00",
+  "source_repo": "AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients"
+}

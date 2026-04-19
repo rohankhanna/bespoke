@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@v6",
   "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
-  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/precommit-autoupdate.yml",
       "source_repo": "axolotl-ai-cloud/axolotl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-cliproxyapi.yml",
+      "source_repo": "automazeio/vibeproxy"
     }
   ]
 }

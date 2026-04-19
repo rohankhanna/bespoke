@@ -4637,7 +4637,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T11:32:52.693953+00:00",
+  "fetched_at": "2026-04-19T02:44:19.540142+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -4687,7 +4687,7 @@
     "full_name": "lobehub/lobehub",
     "html_url": "https://github.com/lobehub/lobehub",
     "language": "TypeScript",
-    "pushed_at": "2026-04-18T11:31:01Z",
+    "pushed_at": "2026-04-19T00:53:54Z",
     "topics": [
       "agent",
       "agent-collaboration",
@@ -4702,7 +4702,7 @@
       "mcp",
       "openai"
     ],
-    "updated_at": "2026-04-18T11:00:23Z"
+    "updated_at": "2026-04-19T01:11:43Z"
   },
   "repo_links": [
     {
@@ -4713,66 +4713,79 @@
   ],
   "terms": [
     {
+      "context_snippet": "Daily i18n Update",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/auto-i18n.yml",
       "term": "Daily i18n Update"
     },
     {
+      "context_snippet": "Auto Tag Release",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/auto-tag-release.yml",
       "term": "Auto Tag Release"
     },
     {
+      "context_snippet": "Bundle Analyzer",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/bundle-analyzer.yml",
       "term": "Bundle Analyzer"
     },
     {
+      "context_snippet": "Claude Auto E2E Testing",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/claude-auto-e2e-testing.yml",
       "term": "Claude Auto E2E Testing"
     },
     {
+      "context_snippet": "Claude Auto Testing Coverage",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/claude-auto-testing.yml",
       "term": "Claude Auto Testing Coverage"
     },
     {
+      "context_snippet": "Claude Issue Dedupe",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/claude-dedupe-issues.yml",
       "term": "Claude Issue Dedupe"
     },
     {
+      "context_snippet": "Claude Issue Triage",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/claude-issue-triage.yml",
       "term": "Claude Issue Triage"
     },
     {
+      "context_snippet": "<div align=\"center\"><a name=\"readme-top\"></a>",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "agent-collaboration"
     },
     {
+      "context_snippet": "<div align=\"center\"><a name=\"readme-top\"></a>",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "agent-harness"
     },
     {
+      "context_snippet": "<div align=\"center\"><a name=\"readme-top\"></a>",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "chatgpt"
     },
     {
+      "context_snippet": "<div align=\"center\"><a name=\"readme-top\"></a>",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "deepseek"
     },
     {
+      "context_snippet": "<div align=\"center\"><a name=\"readme-top\"></a>",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "gemini"
     },
     {
+      "context_snippet": "<div align=\"center\"><a name=\"readme-top\"></a>",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "knowledge-base"

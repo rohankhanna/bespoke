@@ -7,9 +7,65 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lobehub/lobehub",
+      "status": "candidate-context",
+      "text": "The ultimate space for work and life \u2014 to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level \u2014 enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lobehub/lobehub",
+      "status": "candidate-context",
+      "text": "Bundle Analyzer"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lobehub/lobehub",
+      "status": "candidate",
+      "text": "Bundle Analyzer"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12989,
+      "status": "candidate",
+      "text": "cia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12989,
+      "status": "candidate",
+      "text": "sonar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12742,
+      "status": "candidate",
+      "text": "analysis of variance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12742,
+      "status": "candidate",
+      "text": "analytical balance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12742,
+      "status": "candidate",
+      "text": "blood test"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Bundle Analyzer",
   "concept_id": "bundle-analyzer",
@@ -20,12 +76,20 @@
       "observed_at": "2026-04-18T11:32:22.637859+00:00",
       "source_file": ".github/workflows/bundle-analyzer.yml",
       "source_repo": "lobehub/lobehub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": ".github/workflows/bundle-analyzer.yml",
+      "source_repo": "lobehub/lobehub"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:32:22.637859+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

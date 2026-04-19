@@ -1,0 +1,12 @@
+{
+  "component": "huggingface/doc-builder/.github/workflows/build_main_documentation.yml@main",
+  "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "Birch-san/diffusers"
+    }
+  ]
+}

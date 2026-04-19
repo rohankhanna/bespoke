@@ -56,6 +56,30 @@
       "source_repo": "lucasastorian/llmwiki",
       "status": "candidate-context",
       "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tahv/typos-gitlab-code-quality",
+      "status": "candidate-context",
+      "text": "Generate GitLab Code Quality report from typos output"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tahv/typos-gitlab-code-quality",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grubersjoe/react-activity-calendar",
+      "status": "candidate-context",
+      "text": "React component for displaying activity data in a calendar (heatmap)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grubersjoe/react-activity-calendar",
+      "status": "candidate-context",
+      "text": "Tests"
     }
   ],
   "candidate_glosses": [
@@ -74,6 +98,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "lucasastorian/llmwiki",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tahv/typos-gitlab-code-quality",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grubersjoe/react-activity-calendar",
       "status": "candidate",
       "text": "Tests"
     }
@@ -167,11 +203,23 @@
       "observed_at": "2026-04-18T18:30:26.389736+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "lucasastorian/llmwiki"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "tahv/typos-gitlab-code-quality"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "grubersjoe/react-activity-calendar"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "lexical_providers": [
     "datamuse"
   ],

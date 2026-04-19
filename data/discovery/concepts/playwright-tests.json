@@ -1,0 +1,125 @@
+{
+  "aliases": [
+    "Playwright tests",
+    "Playwright Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grubersjoe/react-activity-calendar",
+      "status": "candidate-context",
+      "text": "React component for displaying activity data in a calendar (heatmap)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grubersjoe/react-activity-calendar",
+      "status": "candidate-context",
+      "text": "Playwright tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tremorlabs/tremor",
+      "status": "candidate-context",
+      "text": "Copy & Paste React components to build modern web applications. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tremorlabs/tremor",
+      "status": "candidate-context",
+      "text": "Playwright Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grubersjoe/react-activity-calendar",
+      "status": "candidate",
+      "text": "Playwright tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tremorlabs/tremor",
+      "status": "candidate",
+      "text": "Playwright Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10633,
+      "status": "candidate",
+      "text": "eliot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10633,
+      "status": "candidate",
+      "text": "plot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10633,
+      "status": "candidate",
+      "text": "terry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10579,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10506,
+      "status": "candidate",
+      "text": "action"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Playwright tests",
+  "concept_id": "playwright-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": ".github/workflows/playwright.yml",
+      "source_repo": "grubersjoe/react-activity-calendar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": ".github/workflows/playwright.yml",
+      "source_repo": "tremorlabs/tremor"
+    }
+  ],
+  "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Playwright tests",
+      "sense_id": "playwright-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "automazeio/vibeproxy",
+      "status": "candidate-context",
+      "text": "Native macOS menu bar app to use your Claude Code & ChatGPT subscriptions with AI coding tools - no API keys needed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "automazeio/vibeproxy",
+      "status": "candidate-context",
+      "text": "Auto Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "automazeio/vibeproxy",
+      "status": "candidate",
+      "text": "Auto Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11709,
+      "status": "candidate",
+      "text": "drive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11709,
+      "status": "candidate",
+      "text": "exhaust"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11709,
+      "status": "candidate",
+      "text": "lease"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11709,
+      "status": "candidate",
+      "text": "map"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11654,
+      "status": "candidate",
+      "text": "oilcan"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto Release",
+  "concept_id": "auto-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": ".github/workflows/auto-release.yml",
+      "source_repo": "automazeio/vibeproxy"
+    }
+  ],
+  "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Release",
+      "sense_id": "auto-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

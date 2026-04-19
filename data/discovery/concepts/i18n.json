@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "i18n"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lobehub/lobe-cli-toolbox",
+      "status": "candidate-context",
+      "text": " \ud83e\ude80 Lobe CLI Toolbox - AI CLI Toolbox, enhancing git commit and i18n workflow efficiency"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lobehub/lobe-cli-toolbox",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><a name=\"readme-top\"></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lobehub/lobe-cli-toolbox",
+      "status": "candidate",
+      "text": "<div align=\"center\"><a name=\"readme-top\"></a>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19922226,
+      "status": "candidate",
+      "text": "l10n"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19922225,
+      "status": "candidate",
+      "text": "transl."
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19922224,
+      "status": "candidate",
+      "text": "int'l"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19922223,
+      "status": "candidate",
+      "text": "a11y"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19922222,
+      "status": "candidate",
+      "text": "trans."
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "i18n",
+  "concept_id": "i18n",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox"
+    }
+  ],
+  "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "i18n",
+      "sense_id": "i18n#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

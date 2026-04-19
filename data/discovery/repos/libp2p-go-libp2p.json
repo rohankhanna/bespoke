@@ -1,0 +1,390 @@
+{
+  "components": [
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/reusable-generated-pr.yml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generated-pr.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/workflows/go-check.yml@v1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test-template.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test-template.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/actions/read-config@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test-template.yml"
+    },
+    {
+      "component": "ipdxco/unified-github-workflows/.github/actions/read-go-mod@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test-template.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test-template.yml"
+    },
+    {
+      "component": "protocol/multiple-go-modules@v1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test-template.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test-template.yml"
+    },
+    {
+      "component": "protocol/multiple-go-modules@v1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test-template.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test-template.yml"
+    },
+    {
+      "component": "codecov/codecov-action@54bcd8715eee62d40e33596ef5e8f0f48dbbccab",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test-template.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/interop-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/interop-test.yml"
+    },
+    {
+      "component": "libp2p/test-plans/.github/actions/run-transport-interop-test@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/interop-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yml"
+    },
+    {
+      "component": "tcort/github-action-markdown-link-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libp2p/go-libp2p",
+      "target": "berty/berty",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libp2p/go-libp2p",
+      "target": "0xpolygon/polygon-edge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libp2p/go-libp2p",
+      "target": "celestiaorg/celestia-node",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libp2p/go-libp2p",
+      "target": "ethersphere/bee",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "libp2p/go-libp2p",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/reusable-generated-pr.yml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "libp2p/go-libp2p",
+      "target": "Close Generated PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-check.yml",
+      "source_repo": "libp2p/go-libp2p",
+      "target": "ipdxco/unified-github-workflows/.github/workflows/go-check.yml@v1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-check.yml",
+      "source_repo": "libp2p/go-libp2p",
+      "target": "Go Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test-template.yml",
+      "source_repo": "libp2p/go-libp2p",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test-template.yml",
+      "source_repo": "libp2p/go-libp2p",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test-template.yml",
+      "source_repo": "libp2p/go-libp2p",
+      "target": "ipdxco/unified-github-workflows/.github/actions/read-config@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test-template.yml",
+      "source_repo": "libp2p/go-libp2p",
+      "target": "ipdxco/unified-github-workflows/.github/actions/read-go-mod@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test-template.yml",
+      "source_repo": "libp2p/go-libp2p",
+      "target": "protocol/multiple-go-modules@v1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test-template.yml",
+      "source_repo": "libp2p/go-libp2p",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go-test-template.yml",
+      "source_repo": "libp2p/go-libp2p",
+      "target": "codecov/codecov-action@54bcd8715eee62d40e33596ef5e8f0f48dbbccab",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-test-template.yml",
+      "source_repo": "libp2p/go-libp2p",
+      "target": "Go Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-test.yml",
+      "source_repo": "libp2p/go-libp2p",
+      "target": "Go Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/interop-test.yml",
+      "source_repo": "libp2p/go-libp2p",
+      "target": "jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/interop-test.yml",
+      "source_repo": "libp2p/go-libp2p",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/interop-test.yml",
+      "source_repo": "libp2p/go-libp2p",
+      "target": "libp2p/test-plans/.github/actions/run-transport-interop-test@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/interop-test.yml",
+      "source_repo": "libp2p/go-libp2p",
+      "target": "Interoperability Testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yml",
+      "source_repo": "libp2p/go-libp2p",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yml",
+      "source_repo": "libp2p/go-libp2p",
+      "target": "tcort/github-action-markdown-link-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libp2p/go-libp2p",
+      "target": "libp2p",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "libp2p/go-libp2p",
+      "target": "networking-stack",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T02:43:12.444967+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9208
+    },
+    {
+      "path": "go.mod",
+      "size": 4348
+    },
+    {
+      "path": ".github/workflows/generated-pr.yml",
+      "size": 246
+    },
+    {
+      "path": ".github/workflows/go-check-config.json",
+      "size": 25
+    },
+    {
+      "path": ".github/workflows/go-check.yml",
+      "size": 469
+    },
+    {
+      "path": ".github/workflows/go-test-config.json",
+      "size": 26
+    },
+    {
+      "path": ".github/workflows/go-test-template.yml",
+      "size": 6671
+    },
+    {
+      "path": ".github/workflows/go-test.yml",
+      "size": 489
+    },
+    {
+      "path": ".github/workflows/interop-test.yml",
+      "size": 1496
+    },
+    {
+      "path": ".github/workflows/link-check.yml",
+      "size": 449
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "libp2p implementation in Go",
+    "full_name": "libp2p/go-libp2p",
+    "html_url": "https://github.com/libp2p/go-libp2p",
+    "language": "Go",
+    "pushed_at": "2026-04-16T19:49:27Z",
+    "topics": [
+      "libp2p",
+      "networking-stack",
+      "p2p"
+    ],
+    "updated_at": "2026-04-17T07:15:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0xpolygon/polygon-edge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "berty/berty",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "celestiaorg/celestia-node",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethersphere/bee",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Close Generated PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "term": "Close Generated PRs"
+    },
+    {
+      "context_snippet": "Go Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-check.yml",
+      "term": "Go Checks"
+    },
+    {
+      "context_snippet": "Go Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-test-template.yml",
+      "term": "Go Test"
+    },
+    {
+      "context_snippet": "Go Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/go-test.yml",
+      "term": "Go Test"
+    },
+    {
+      "context_snippet": "Interoperability Testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/interop-test.yml",
+      "term": "Interoperability Testing"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libp2p"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "networking-stack"
+    }
+  ]
+}

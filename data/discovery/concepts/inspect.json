@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "Inspect"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pixiv/three-vrm",
+      "status": "candidate-context",
+      "text": "Use VRM on Three.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pixiv/three-vrm",
+      "status": "candidate-context",
+      "text": "Inspect"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pixiv/three-vrm",
+      "status": "candidate",
+      "text": "Inspect"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40050270,
+      "status": "candidate",
+      "text": "scrutinize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048071,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039152,
+      "status": "candidate",
+      "text": "visit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050436,
+      "status": "candidate",
+      "text": "examine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050429,
+      "status": "candidate",
+      "text": "scan"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 64033,
+      "status": "candidate",
+      "text": "scrutinize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11069,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9045,
+      "status": "candidate",
+      "text": "visit"
+    }
+  ],
+  "canonical_name": "Inspect",
+  "concept_id": "inspect",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": ".github/workflows/inspect.yml",
+      "source_repo": "pixiv/three-vrm"
+    }
+  ],
+  "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Inspect",
+      "sense_id": "inspect#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

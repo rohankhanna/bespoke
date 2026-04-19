@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alchaincyf/taleb-skill",
+      "target": "alchaincyf/zhangxuefeng-skill",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-19T02:42:33.990002+00:00",
+  "source_repo": "alchaincyf/taleb-skill"
+}

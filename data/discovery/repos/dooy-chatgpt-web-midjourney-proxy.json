@@ -1,0 +1,1114 @@
+{
+  "components": [
+    {
+      "component": "@ffmpeg/ffmpeg",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@ffmpeg/util",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@traptitech/markdown-it-katex",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vueuse/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eventsource-parser",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "form-data",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gpt-tokenizer",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "highlight.js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "html2canvas",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "js-audio-recorder",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "katex",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "localforage",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdown-it",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "naive-ui",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pinia",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue-i18n",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue-router",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue-turnstile",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue-waterfall-plugin-next",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@antfu/eslint-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@commitlint/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@commitlint/config-conventional",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@iconify/vue",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@openai/realtime-api-beta",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@openai/realtime-wavtools",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@tauri-apps/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/crypto-js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/katex",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/markdown-it",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/markdown-it-link-attributes",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vitejs/plugin-vue",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "autoprefixer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "axios",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "crypto-js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "http-proxy-middleware",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "less",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdown-it-link-attributes",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm-run-all",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tailwindcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite-plugin-pwa",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vite-plugin-static-copy",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vue-tsc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop.yml"
+    },
+    {
+      "component": "tauri-apps/tauri-action@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "chanzhaoyu/chatgpt-web",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "lumaai-api/luma-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "litter-coder/midjourney-proxy-plus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "sunoai-api/suno-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "@ffmpeg/ffmpeg",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "@ffmpeg/util",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "@traptitech/markdown-it-katex",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "@vueuse/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "eventsource-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "form-data",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "gpt-tokenizer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "highlight.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "html2canvas",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "js-audio-recorder",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "katex",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "localforage",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "markdown-it",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "naive-ui",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "pinia",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "vue-i18n",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "vue-router",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "vue-turnstile",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "vue-waterfall-plugin-next",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "@antfu/eslint-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "@commitlint/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "@commitlint/config-conventional",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "@iconify/vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "@openai/realtime-api-beta",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "@openai/realtime-wavtools",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "@tauri-apps/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "@types/crypto-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "@types/katex",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "@types/markdown-it",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "@types/markdown-it-link-attributes",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "@vitejs/plugin-vue",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "autoprefixer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "axios",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "crypto-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "http-proxy-middleware",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "less",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "markdown-it-link-attributes",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "npm-run-all",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "postcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "tailwindcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "vite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "vite-plugin-pwa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "vite-plugin-static-copy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "vue-tsc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop.yml",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop.yml",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop.yml",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop.yml",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop.yml",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/desktop.yml",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "tauri-apps/tauri-action@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/desktop.yml",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "Release Desktop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "Publish Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "chatgpt-ui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "fal-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "flux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "gpts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "ideogram",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "kling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "luma",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "midjourney-ui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "pika",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "realtime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "riffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "runway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "sora-video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "suno",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "veo3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "target": "viggle",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T02:45:00.600212+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9983
+    },
+    {
+      "path": "Dockerfile",
+      "size": 850
+    },
+    {
+      "path": "package.json",
+      "size": 2616
+    },
+    {
+      "path": ".github/workflows/desktop.yml",
+      "size": 3467
+    },
+    {
+      "path": ".github/workflows/docker-image.yml",
+      "size": 1556
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "One UI is all done with chatgpt web, midjourney, gpts,suno,luma,runway,viggle,flux,ideogram,realtime,pika,udio; Simultaneous support  Web / PWA / Linux / Win / MacOS platform",
+    "full_name": "Dooy/chatgpt-web-midjourney-proxy",
+    "html_url": "https://github.com/Dooy/chatgpt-web-midjourney-proxy",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-28T11:40:44Z",
+    "topics": [
+      "chatgpt-ui",
+      "fal-ai",
+      "flux",
+      "gpts",
+      "ideogram",
+      "kling",
+      "luma",
+      "midjourney-ui",
+      "pika",
+      "realtime",
+      "riffusion",
+      "runway",
+      "sora-video",
+      "suno",
+      "veo3",
+      "viggle"
+    ],
+    "updated_at": "2026-04-18T02:52:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chanzhaoyu/chatgpt-web",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "litter-coder/midjourney-proxy-plus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lumaai-api/luma-api",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sunoai-api/suno-api",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release Desktop",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/desktop.yml",
+      "term": "Release Desktop"
+    },
+    {
+      "context_snippet": "Publish Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "term": "Publish Docker image"
+    },
+    {
+      "context_snippet": "[English](./README_EN.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a](./README_RU.md) | [Fran\u00e7ais](./README_FR.md) | [\ud55c\uad6d\uc5b4](./README_KR.md) | [Ti\u1ebfng Vi\u1ec7t](./README_VN.md) | [T\u00fcrk\u00e7e](./README_TR.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt-ui"
+    },
+    {
+      "context_snippet": "[English](./README_EN.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a](./README_RU.md) | [Fran\u00e7ais](./README_FR.md) | [\ud55c\uad6d\uc5b4](./README_KR.md) | [Ti\u1ebfng Vi\u1ec7t](./README_VN.md) | [T\u00fcrk\u00e7e](./README_TR.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fal-ai"
+    },
+    {
+      "context_snippet": "[English](./README_EN.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a](./README_RU.md) | [Fran\u00e7ais](./README_FR.md) | [\ud55c\uad6d\uc5b4](./README_KR.md) | [Ti\u1ebfng Vi\u1ec7t](./README_VN.md) | [T\u00fcrk\u00e7e](./README_TR.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flux"
+    },
+    {
+      "context_snippet": "[English](./README_EN.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a](./README_RU.md) | [Fran\u00e7ais](./README_FR.md) | [\ud55c\uad6d\uc5b4](./README_KR.md) | [Ti\u1ebfng Vi\u1ec7t](./README_VN.md) | [T\u00fcrk\u00e7e](./README_TR.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpts"
+    },
+    {
+      "context_snippet": "[English](./README_EN.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a](./README_RU.md) | [Fran\u00e7ais](./README_FR.md) | [\ud55c\uad6d\uc5b4](./README_KR.md) | [Ti\u1ebfng Vi\u1ec7t](./README_VN.md) | [T\u00fcrk\u00e7e](./README_TR.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ideogram"
+    },
+    {
+      "context_snippet": "[English](./README_EN.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a](./README_RU.md) | [Fran\u00e7ais](./README_FR.md) | [\ud55c\uad6d\uc5b4](./README_KR.md) | [Ti\u1ebfng Vi\u1ec7t](./README_VN.md) | [T\u00fcrk\u00e7e](./README_TR.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kling"
+    },
+    {
+      "context_snippet": "[English](./README_EN.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a](./README_RU.md) | [Fran\u00e7ais](./README_FR.md) | [\ud55c\uad6d\uc5b4](./README_KR.md) | [Ti\u1ebfng Vi\u1ec7t](./README_VN.md) | [T\u00fcrk\u00e7e](./README_TR.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "luma"
+    },
+    {
+      "context_snippet": "[English](./README_EN.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a](./README_RU.md) | [Fran\u00e7ais](./README_FR.md) | [\ud55c\uad6d\uc5b4](./README_KR.md) | [Ti\u1ebfng Vi\u1ec7t](./README_VN.md) | [T\u00fcrk\u00e7e](./README_TR.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midjourney-ui"
+    },
+    {
+      "context_snippet": "[English](./README_EN.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a](./README_RU.md) | [Fran\u00e7ais](./README_FR.md) | [\ud55c\uad6d\uc5b4](./README_KR.md) | [Ti\u1ebfng Vi\u1ec7t](./README_VN.md) | [T\u00fcrk\u00e7e](./README_TR.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pika"
+    },
+    {
+      "context_snippet": "[English](./README_EN.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a](./README_RU.md) | [Fran\u00e7ais](./README_FR.md) | [\ud55c\uad6d\uc5b4](./README_KR.md) | [Ti\u1ebfng Vi\u1ec7t](./README_VN.md) | [T\u00fcrk\u00e7e](./README_TR.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "realtime"
+    },
+    {
+      "context_snippet": "[English](./README_EN.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a](./README_RU.md) | [Fran\u00e7ais](./README_FR.md) | [\ud55c\uad6d\uc5b4](./README_KR.md) | [Ti\u1ebfng Vi\u1ec7t](./README_VN.md) | [T\u00fcrk\u00e7e](./README_TR.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "riffusion"
+    },
+    {
+      "context_snippet": "[English](./README_EN.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a](./README_RU.md) | [Fran\u00e7ais](./README_FR.md) | [\ud55c\uad6d\uc5b4](./README_KR.md) | [Ti\u1ebfng Vi\u1ec7t](./README_VN.md) | [T\u00fcrk\u00e7e](./README_TR.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "runway"
+    },
+    {
+      "context_snippet": "[English](./README_EN.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a](./README_RU.md) | [Fran\u00e7ais](./README_FR.md) | [\ud55c\uad6d\uc5b4](./README_KR.md) | [Ti\u1ebfng Vi\u1ec7t](./README_VN.md) | [T\u00fcrk\u00e7e](./README_TR.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sora-video"
+    },
+    {
+      "context_snippet": "[English](./README_EN.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a](./README_RU.md) | [Fran\u00e7ais](./README_FR.md) | [\ud55c\uad6d\uc5b4](./README_KR.md) | [Ti\u1ebfng Vi\u1ec7t](./README_VN.md) | [T\u00fcrk\u00e7e](./README_TR.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "suno"
+    },
+    {
+      "context_snippet": "[English](./README_EN.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a](./README_RU.md) | [Fran\u00e7ais](./README_FR.md) | [\ud55c\uad6d\uc5b4](./README_KR.md) | [Ti\u1ebfng Vi\u1ec7t](./README_VN.md) | [T\u00fcrk\u00e7e](./README_TR.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "veo3"
+    },
+    {
+      "context_snippet": "[English](./README_EN.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a](./README_RU.md) | [Fran\u00e7ais](./README_FR.md) | [\ud55c\uad6d\uc5b4](./README_KR.md) | [Ti\u1ebfng Vi\u1ec7t](./README_VN.md) | [T\u00fcrk\u00e7e](./README_TR.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "viggle"
+    }
+  ]
+}

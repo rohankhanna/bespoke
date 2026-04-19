@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Cache factory"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libp2p/rust-libp2p",
+      "status": "candidate-context",
+      "text": "The Rust Implementation of the libp2p networking stack. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/rust-libp2p",
+      "status": "candidate-context",
+      "text": "Cache factory"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/rust-libp2p",
+      "status": "candidate",
+      "text": "Cache factory"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11875,
+      "status": "candidate",
+      "text": "arsenal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11875,
+      "status": "candidate",
+      "text": "store"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11827,
+      "status": "candidate",
+      "text": "armory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10851,
+      "status": "candidate",
+      "text": "atm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10851,
+      "status": "candidate",
+      "text": "depot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Cache factory",
+  "concept_id": "cache-factory",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": ".github/workflows/cache-factory.yml",
+      "source_repo": "libp2p/rust-libp2p"
+    }
+  ],
+  "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cache factory",
+      "sense_id": "cache-factory#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -7,8 +7,64 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libp2p/go-libp2p",
+      "status": "candidate-context",
+      "text": "libp2p implementation in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/go-libp2p",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libp2p/js-libp2p",
+      "status": "candidate-context",
+      "text": "A JavaScript Implementation of libp2p networking stack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/js-libp2p",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libp2p/rust-libp2p",
+      "status": "candidate-context",
+      "text": "The Rust Implementation of the libp2p networking stack. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/rust-libp2p",
+      "status": "candidate-context",
+      "text": "<a href=\"http://libp2p.io/\"><img src=\"https://img.shields.io/badge/project-libp2p-yellow.svg?style=flat-square\" /></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/go-libp2p",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/js-libp2p",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/rust-libp2p",
+      "status": "candidate",
+      "text": "<a href=\"http://libp2p.io/\"><img src=\"https://img.shields.io/badge/project-libp2p-yellow.svg?style=flat-square\" /></a>"
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "libp2p",
@@ -20,12 +76,32 @@
       "observed_at": "2026-04-18T11:24:14.688152+00:00",
       "source_file": null,
       "source_repo": "libp2p/test-plans"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": null,
+      "source_repo": "libp2p/go-libp2p"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": null,
+      "source_repo": "libp2p/js-libp2p"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": null,
+      "source_repo": "libp2p/rust-libp2p"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

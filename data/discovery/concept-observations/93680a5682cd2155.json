@@ -1,0 +1,92 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A JavaScript checker and optimizer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/google/closure-compiler/badge)](https://api.securityscorecards.dev/projects/github.com/google/closure-compiler)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/google/closure-compiler/badge)](https://api.securityscorecards.dev/projects/github.com/google/closure-compiler)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25001,
+      "status": "candidate",
+      "text": "typechecker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25000,
+      "status": "candidate",
+      "text": "type checker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "type"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "static typing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "type hinting"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "typechecking",
+      "sense_id": "typechecking#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "typechecking",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "typechecking",
+  "observation_id": "93680a5682cd2155",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-19T02:42:33.990002+00:00",
+  "observed_text": "typechecking",
+  "source_context_snippet": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/google/closure-compiler/badge)](https://api.securityscorecards.dev/projects/github.com/google/closure-compiler)",
+  "source_file": null,
+  "source_repo": "google/closure-compiler",
+  "source_repo_description": "A JavaScript checker and optimizer."
+}

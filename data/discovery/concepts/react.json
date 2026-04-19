@@ -7,10 +7,135 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grubersjoe/react-activity-calendar",
+      "status": "candidate-context",
+      "text": "React component for displaying activity data in a calendar (heatmap)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grubersjoe/react-activity-calendar",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/grubersjoe/react-activity-calendar/actions/workflows/test.yml/badge.svg)](https://github.com/grubersjoe/react-activity-calendar/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "recharts/recharts",
+      "status": "candidate-context",
+      "text": "Redefined chart library built with React and D3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "recharts/recharts",
+      "status": "candidate-context",
+      "text": "[![storybook](https://raw.githubusercontent.com/storybooks/brand/master/badge/badge-storybook.svg)](https://recharts.github.io/en-US/storybook)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tremorlabs/tremor",
+      "status": "candidate-context",
+      "text": "Copy & Paste React components to build modern web applications. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tremorlabs/tremor",
+      "status": "candidate-context",
+      "text": "<br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coaidev/coai",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Next Generation Multi-tenant AI One-Stop Solution. Builtin Admin & Billing System. Enterprise-Grade Unified LLM Gateway Support for 200+ Models And 35+ Providers, Load Balacing w/ Priority-base Routing, Cost Management, Chat Share, Cloud Sync, Credit/Subscription Billing, All File Parsing, Web Search, Built-in Model Cache."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coaidev/coai",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grubersjoe/react-activity-calendar",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/grubersjoe/react-activity-calendar/actions/workflows/test.yml/badge.svg)](https://github.com/grubersjoe/react-activity-calendar/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "recharts/recharts",
+      "status": "candidate",
+      "text": "[![storybook](https://raw.githubusercontent.com/storybooks/brand/master/badge/badge-storybook.svg)](https://recharts.github.io/en-US/storybook)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tremorlabs/tremor",
+      "status": "candidate",
+      "text": "<br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coaidev/coai",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026792,
+      "status": "candidate",
+      "text": "respond"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994168,
+      "status": "candidate",
+      "text": "oppose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033910,
+      "status": "candidate",
+      "text": "responding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033608,
+      "status": "candidate",
+      "text": "reply"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033553,
+      "status": "candidate",
+      "text": "response"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18036,
+      "status": "candidate",
+      "text": "oppose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14043,
+      "status": "candidate",
+      "text": "respond"
+    }
+  ],
   "canonical_name": "react",
   "concept_id": "react",
   "definition_status": "unresolved",
@@ -26,12 +151,38 @@
       "observed_at": "2026-04-18T11:41:43.530265+00:00",
       "source_file": null,
       "source_repo": "vadimdemedes/ink"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": null,
+      "source_repo": "grubersjoe/react-activity-calendar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": null,
+      "source_repo": "recharts/recharts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": null,
+      "source_repo": "tremorlabs/tremor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": null,
+      "source_repo": "coaidev/coai"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

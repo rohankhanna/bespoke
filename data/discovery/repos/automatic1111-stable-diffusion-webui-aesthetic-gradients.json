@@ -1,0 +1,38 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients",
+      "target": "vicgalle/stable-diffusion-aesthetic-gradients",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-19T02:45:08.620358+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 764
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "Aesthetic gradients extension for web ui",
+    "full_name": "AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients",
+    "html_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients",
+    "language": "Python",
+    "pushed_at": "2023-01-23T08:45:27Z",
+    "topics": [],
+    "updated_at": "2026-03-02T02:32:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vicgalle/stable-diffusion-aesthetic-gradients",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

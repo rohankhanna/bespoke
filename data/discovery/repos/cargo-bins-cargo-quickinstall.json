@@ -1,0 +1,400 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yml"
+    },
+    {
+      "component": "andstor/file-existence-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yml"
+    },
+    {
+      "component": "andymckay/cancel-action@0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cronjob.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-stats-server.yml"
+    },
+    {
+      "component": "superfly/flyctl-actions/setup-flyctl@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-stats-server.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml"
+    },
+    {
+      "component": "rust-lang/crates-io-auth-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml"
+    },
+    {
+      "component": "MarcoIeni/release-plz-action@v0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/selfbuild.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/selfbuild.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/selfbuild.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yml",
+      "source_repo": "cargo-bins/cargo-quickinstall",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yml",
+      "source_repo": "cargo-bins/cargo-quickinstall",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yml",
+      "source_repo": "cargo-bins/cargo-quickinstall",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yml",
+      "source_repo": "cargo-bins/cargo-quickinstall",
+      "target": "andstor/file-existence-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yml",
+      "source_repo": "cargo-bins/cargo-quickinstall",
+      "target": "andymckay/cancel-action@0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-package.yml",
+      "source_repo": "cargo-bins/cargo-quickinstall",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-package.yml",
+      "source_repo": "cargo-bins/cargo-quickinstall",
+      "target": "Build package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cronjob.yml",
+      "source_repo": "cargo-bins/cargo-quickinstall",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cronjob.yml",
+      "source_repo": "cargo-bins/cargo-quickinstall",
+      "target": "Cronjob",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-stats-server.yml",
+      "source_repo": "cargo-bins/cargo-quickinstall",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-stats-server.yml",
+      "source_repo": "cargo-bins/cargo-quickinstall",
+      "target": "superfly/flyctl-actions/setup-flyctl@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-stats-server.yml",
+      "source_repo": "cargo-bins/cargo-quickinstall",
+      "target": "Fly Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "cargo-bins/cargo-quickinstall",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "cargo-bins/cargo-quickinstall",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "cargo-bins/cargo-quickinstall",
+      "target": "rust-lang/crates-io-auth-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "cargo-bins/cargo-quickinstall",
+      "target": "MarcoIeni/release-plz-action@v0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "cargo-bins/cargo-quickinstall",
+      "target": "Release-plz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/selfbuild.yml",
+      "source_repo": "cargo-bins/cargo-quickinstall",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/selfbuild.yml",
+      "source_repo": "cargo-bins/cargo-quickinstall",
+      "target": "Self-Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cargo-bins/cargo-quickinstall",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cargo-bins/cargo-quickinstall",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cargo-bins/cargo-quickinstall",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cargo-bins/cargo-quickinstall",
+      "target": "Automated tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T02:43:50.808930+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4265
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 121
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 750
+    },
+    {
+      "path": "requirements.txt",
+      "size": 910
+    },
+    {
+      "path": ".github/workflows/build-package.yml",
+      "size": 8816
+    },
+    {
+      "path": ".github/workflows/cronjob.yml",
+      "size": 1252
+    },
+    {
+      "path": ".github/workflows/deploy-stats-server.yml",
+      "size": 454
+    },
+    {
+      "path": ".github/workflows/release-plz.yml",
+      "size": 916
+    },
+    {
+      "path": ".github/workflows/selfbuild.yml",
+      "size": 5813
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 4621
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "pre-compiled binary packages for `cargo install`",
+    "full_name": "cargo-bins/cargo-quickinstall",
+    "html_url": "https://github.com/cargo-bins/cargo-quickinstall",
+    "language": "Rust",
+    "pushed_at": "2026-04-18T23:47:58Z",
+    "topics": [],
+    "updated_at": "2026-04-17T13:03:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-package.yml",
+      "term": "Build package"
+    },
+    {
+      "context_snippet": "Cronjob",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cronjob.yml",
+      "term": "Cronjob"
+    },
+    {
+      "context_snippet": "Fly Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-stats-server.yml",
+      "term": "Fly Deploy"
+    },
+    {
+      "context_snippet": "Release-plz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-plz.yml",
+      "term": "Release-plz"
+    },
+    {
+      "context_snippet": "Self-Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/selfbuild.yml",
+      "term": "Self-Build"
+    },
+    {
+      "context_snippet": "Automated tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Automated tests"
+    }
+  ]
+}

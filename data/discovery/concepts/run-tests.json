@@ -32,6 +32,18 @@
       "source_repo": "arogozhnikov/einops",
       "status": "candidate-context",
       "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/closure-compiler",
+      "status": "candidate-context",
+      "text": "A JavaScript checker and optimizer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/closure-compiler",
+      "status": "candidate-context",
+      "text": "Run Tests"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
       "source_repo": "arogozhnikov/einops",
       "status": "candidate",
       "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/closure-compiler",
+      "status": "candidate",
+      "text": "Run Tests"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +119,17 @@
       "observed_at": "2026-04-19T01:08:57.644140+00:00",
       "source_file": ".github/workflows/run_tests.yml",
       "source_repo": "arogozhnikov/einops"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "google/closure-compiler"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "lexical_providers": [
     "datamuse"
   ],

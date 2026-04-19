@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "gitlab"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tahv/typos-gitlab-code-quality",
+      "status": "candidate-context",
+      "text": "Generate GitLab Code Quality report from typos output"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tahv/typos-gitlab-code-quality",
+      "status": "candidate-context",
+      "text": "Generate [GitLab Code Quality report](https://docs.gitlab.com/ci/testing/code_quality/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tahv/typos-gitlab-code-quality",
+      "status": "candidate",
+      "text": "Generate [GitLab Code Quality report](https://docs.gitlab.com/ci/testing/code_quality/)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "github"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "cloudforge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "gitea"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "docker, inc."
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "kong inc."
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "gitlab",
+  "concept_id": "gitlab",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": null,
+      "source_repo": "tahv/typos-gitlab-code-quality"
+    }
+  ],
+  "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gitlab",
+      "sense_id": "gitlab#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

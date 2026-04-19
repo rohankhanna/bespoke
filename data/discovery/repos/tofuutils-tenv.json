@@ -1,0 +1,561 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-codespell.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@8f01853be192eb0f849a5c7d721450e7a467c579",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-codespell.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-golangci-lint.yml"
+    },
+    {
+      "component": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-golangci-lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-golangci-lint.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-new-release-tag.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "sigstore/cosign-installer@cad07c2e89fa2edd6e2d7bab4c1aa38e53f76003",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@90a3faa9d0182683851fbfa97ca1a2cb983bfca3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@b45d80f862d83dbcd57f89517bcf500b2ab88fb2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@b45d80f862d83dbcd57f89517bcf500b2ab88fb2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "yuezk/publish-ppa-package@aef2cd26952551ca7d7f7ed15d75d067364cfa45",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-unit.yml"
+    },
+    {
+      "component": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-unit.yml"
+    },
+    {
+      "component": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-unit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tofuutils/tenv",
+      "target": "hashicorp/go-version",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tofuutils/tenv",
+      "target": "hashicorp/hcl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tofuutils/tenv",
+      "target": "google/re2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tofuutils/tenv",
+      "target": "opentofu/opentofu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-codespell.yml",
+      "source_repo": "tofuutils/tenv",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-codespell.yml",
+      "source_repo": "tofuutils/tenv",
+      "target": "codespell-project/actions-codespell@8f01853be192eb0f849a5c7d721450e7a467c579",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-codespell.yml",
+      "source_repo": "tofuutils/tenv",
+      "target": "Check: Codespell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-golangci-lint.yml",
+      "source_repo": "tofuutils/tenv",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-golangci-lint.yml",
+      "source_repo": "tofuutils/tenv",
+      "target": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-golangci-lint.yml",
+      "source_repo": "tofuutils/tenv",
+      "target": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-golangci-lint.yml",
+      "source_repo": "tofuutils/tenv",
+      "target": "Check: golangci-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-new-release-tag.yml",
+      "source_repo": "tofuutils/tenv",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-new-release-tag.yml",
+      "source_repo": "tofuutils/tenv",
+      "target": "Create new release tag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tofuutils/tenv",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tofuutils/tenv",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tofuutils/tenv",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tofuutils/tenv",
+      "target": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tofuutils/tenv",
+      "target": "sigstore/cosign-installer@cad07c2e89fa2edd6e2d7bab4c1aa38e53f76003",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tofuutils/tenv",
+      "target": "goreleaser/goreleaser-action@90a3faa9d0182683851fbfa97ca1a2cb983bfca3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tofuutils/tenv",
+      "target": "docker/login-action@b45d80f862d83dbcd57f89517bcf500b2ab88fb2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tofuutils/tenv",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tofuutils/tenv",
+      "target": "yuezk/publish-ppa-package@aef2cd26952551ca7d7f7ed15d75d067364cfa45",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tofuutils/tenv",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-unit.yml",
+      "source_repo": "tofuutils/tenv",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-unit.yml",
+      "source_repo": "tofuutils/tenv",
+      "target": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-unit.yml",
+      "source_repo": "tofuutils/tenv",
+      "target": "codecov/codecov-action@57e3a136b779b570ffcdbf80b3bdc90e7fab3de2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests-unit.yml",
+      "source_repo": "tofuutils/tenv",
+      "target": "Tests: unit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tofuutils/tenv",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tofuutils/tenv",
+      "target": "hacktoberfest2024",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tofuutils/tenv",
+      "target": "hacktoberfest2025",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tofuutils/tenv",
+      "target": "hashicorp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tofuutils/tenv",
+      "target": "hashicorp-terraform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tofuutils/tenv",
+      "target": "opentofu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tofuutils/tenv",
+      "target": "tenv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tofuutils/tenv",
+      "target": "terraform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tofuutils/tenv",
+      "target": "tfenv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tofuutils/tenv",
+      "target": "tofu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tofuutils/tenv",
+      "target": "tofuenv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tofuutils/tenv",
+      "target": "up-for-grabs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T02:43:02.032797+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 74229
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2414
+    },
+    {
+      "path": "go.mod",
+      "size": 2852
+    },
+    {
+      "path": ".github/workflows/check-codespell.yml",
+      "size": 706
+    },
+    {
+      "path": ".github/workflows/check-golangci-lint.yml",
+      "size": 658
+    },
+    {
+      "path": ".github/workflows/create-new-release-tag.yml",
+      "size": 2317
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 9442
+    },
+    {
+      "path": ".github/workflows/tests-unit.yml",
+      "size": 948
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "OpenTofu / Terraform / Terragrunt / Terramate and Atmos version manager",
+    "full_name": "tofuutils/tenv",
+    "html_url": "https://github.com/tofuutils/tenv",
+    "language": "Go",
+    "pushed_at": "2026-04-17T09:05:26Z",
+    "topics": [
+      "go",
+      "hacktoberfest",
+      "hacktoberfest2024",
+      "hacktoberfest2025",
+      "hashicorp",
+      "hashicorp-terraform",
+      "iac",
+      "opentofu",
+      "tenv",
+      "terraform",
+      "tfenv",
+      "tofu",
+      "tofuenv",
+      "up-for-grabs"
+    ],
+    "updated_at": "2026-04-18T04:26:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/re2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hashicorp/go-version",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hashicorp/hcl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opentofu/opentofu",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Check: Codespell\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-codespell.yml",
+      "term": "Check: Codespell"
+    },
+    {
+      "context_snippet": "\"Check: golangci-lint\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-golangci-lint.yml",
+      "term": "Check: golangci-lint"
+    },
+    {
+      "context_snippet": "\"Create new release tag\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-new-release-tag.yml",
+      "term": "Create new release tag"
+    },
+    {
+      "context_snippet": "\"Release\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "\"Tests: unit\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests-unit.yml",
+      "term": "Tests: unit"
+    },
+    {
+      "context_snippet": "<!-- BADGES -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<!-- BADGES -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest2024"
+    },
+    {
+      "context_snippet": "<!-- BADGES -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest2025"
+    },
+    {
+      "context_snippet": "<!-- BADGES -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hashicorp"
+    },
+    {
+      "context_snippet": "<!-- BADGES -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hashicorp-terraform"
+    },
+    {
+      "context_snippet": "<!-- BADGES -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentofu"
+    },
+    {
+      "context_snippet": "<!-- BADGES -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tenv"
+    },
+    {
+      "context_snippet": "<!-- BADGES -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terraform"
+    },
+    {
+      "context_snippet": "<!-- BADGES -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tfenv"
+    },
+    {
+      "context_snippet": "<!-- BADGES -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tofu"
+    },
+    {
+      "context_snippet": "<!-- BADGES -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tofuenv"
+    },
+    {
+      "context_snippet": "<!-- BADGES -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "up-for-grabs"
+    }
+  ]
+}

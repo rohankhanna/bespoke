@@ -1,0 +1,92 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "One UI is all done with chatgpt web, midjourney, gpts,suno,luma,runway,viggle,flux,ideogram,realtime,pika,udio; Simultaneous support  Web / PWA / Linux / Win / MacOS platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[English](./README_EN.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a](./README_RU.md) | [Fran\u00e7ais](./README_FR.md) | [\ud55c\uad6d\uc5b4](./README_KR.md) | [Ti\u1ebfng Vi\u1ec7t](./README_VN.md) | [T\u00fcrk\u00e7e](./README_TR.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[English](./README_EN.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a](./README_RU.md) | [Fran\u00e7ais](./README_FR.md) | [\ud55c\uad6d\uc5b4](./README_KR.md) | [Ti\u1ebfng Vi\u1ec7t](./README_VN.md) | [T\u00fcrk\u00e7e](./README_TR.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9982145,
+      "status": "candidate",
+      "text": "typewriter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9978324,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9951289,
+      "status": "candidate",
+      "text": "type"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9949839,
+      "status": "candidate",
+      "text": "tariff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9945104,
+      "status": "candidate",
+      "text": "voltage"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gpts",
+      "sense_id": "gpts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gpts",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gpts",
+  "observation_id": "482b1efb9b7cb6b5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-19T02:42:33.990002+00:00",
+  "observed_text": "gpts",
+  "source_context_snippet": "[English](./README_EN.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a](./README_RU.md) | [Fran\u00e7ais](./README_FR.md) | [\ud55c\uad6d\uc5b4](./README_KR.md) | [Ti\u1ebfng Vi\u1ec7t](./README_VN.md) | [T\u00fcrk\u00e7e](./README_TR.md)",
+  "source_file": null,
+  "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+  "source_repo_description": "One UI is all done with chatgpt web, midjourney, gpts,suno,luma,runway,viggle,flux,ideogram,realtime,pika,udio; Simultaneous support  Web / PWA / Linux / Win / MacOS platform"
+}

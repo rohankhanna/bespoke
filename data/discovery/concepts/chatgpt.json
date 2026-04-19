@@ -49,6 +49,42 @@
       "source_repo": "eth-sri/lmql",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lobehub/lobe-cli-toolbox",
+      "status": "candidate-context",
+      "text": " \ud83e\ude80 Lobe CLI Toolbox - AI CLI Toolbox, enhancing git commit and i18n workflow efficiency"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lobehub/lobe-cli-toolbox",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lobehub/lobehub",
+      "status": "candidate-context",
+      "text": "The ultimate space for work and life \u2014 to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level \u2014 enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lobehub/lobehub",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coaidev/coai",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Next Generation Multi-tenant AI One-Stop Solution. Builtin Admin & Billing System. Enterprise-Grade Unified LLM Gateway Support for 200+ Models And 35+ Providers, Load Balacing w/ Priority-base Routing, Cost Management, Chat Share, Cloud Sync, Credit/Subscription Billing, All File Parsing, Web Search, Built-in Model Cache."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coaidev/coai",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -67,6 +103,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "eth-sri/lmql",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lobehub/lobe-cli-toolbox",
+      "status": "candidate",
+      "text": "<div align=\"center\"><a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lobehub/lobehub",
+      "status": "candidate",
+      "text": "<div align=\"center\"><a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coaidev/coai",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -160,11 +214,29 @@
       "observed_at": "2026-04-19T01:08:57.644140+00:00",
       "source_file": null,
       "source_repo": "eth-sri/lmql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobehub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": null,
+      "source_repo": "coaidev/coai"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "lexical_providers": [
     "datamuse"
   ],

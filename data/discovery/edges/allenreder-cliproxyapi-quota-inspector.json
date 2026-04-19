@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AllenReder/CLIProxyAPI-Quota-Inspector",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AllenReder/CLIProxyAPI-Quota-Inspector",
+      "target": "cliproxyapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AllenReder/CLIProxyAPI-Quota-Inspector",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AllenReder/CLIProxyAPI-Quota-Inspector",
+      "target": "reverse-proxy",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-19T02:42:33.990002+00:00",
+  "source_repo": "AllenReder/CLIProxyAPI-Quota-Inspector"
+}

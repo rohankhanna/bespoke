@@ -1,7 +1,7 @@
 {
   "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cross-platform-build-manual.yml",
       "source_repo": "zeroclaw-labs/zeroclaw"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/branch-checks.yml",
+      "source_repo": "NVIDIA/OpenShell"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cache-factory.yml",
+      "source_repo": "libp2p/rust-libp2p"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "libp2p/rust-libp2p"
     }
   ]
 }

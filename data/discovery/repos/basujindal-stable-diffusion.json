@@ -1,0 +1,54 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "basujindal/stable-diffusion",
+      "target": "crowsonkb/k-diffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "basujindal/stable-diffusion",
+      "target": "lstein/stable-diffusion",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-19T02:45:09.877064+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8103
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1409
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Optimized Stable Diffusion modified to run on lower GPU VRAM",
+    "full_name": "basujindal/stable-diffusion",
+    "html_url": "https://github.com/basujindal/stable-diffusion",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-09-20T10:29:11Z",
+    "topics": [],
+    "updated_at": "2026-04-09T08:35:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "crowsonkb/k-diffusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lstein/stable-diffusion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

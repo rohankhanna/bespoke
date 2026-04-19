@@ -1,0 +1,56 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf4e \u8ffd\u6c42\u6781\u81f4\u521b\u4f5c\u4f53\u9a8c Midjourney Web  | Supercharged Experience For  MidJourney On Web UI "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align='center'>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align='center'>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "midjourney-web",
+      "sense_id": "midjourney-web#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "midjourney-web",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "midjourney-web",
+  "observation_id": "929727042be74f0b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-19T02:42:33.990002+00:00",
+  "observed_text": "midjourney-web",
+  "source_context_snippet": "<p align='center'>",
+  "source_file": null,
+  "source_repo": "ConnectAI-E/MidJourney-Web",
+  "source_repo_description": "\ud83c\udf4e \u8ffd\u6c42\u6781\u81f4\u521b\u4f5c\u4f53\u9a8c Midjourney Web  | Supercharged Experience For  MidJourney On Web UI "
+}

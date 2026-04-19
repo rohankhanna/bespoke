@@ -1,0 +1,100 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A more modern http framework benchmarker supporting HTTP/1 and HTTP/2 benchmarks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A more modern http framework benchmark utility."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A more modern http framework benchmark utility."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049916,
+      "status": "candidate",
+      "text": "hypertext transfer protocol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044651,
+      "status": "candidate",
+      "text": "www"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29969455,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29928261,
+      "status": "candidate",
+      "text": "ftp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29861873,
+      "status": "candidate",
+      "text": "synchro"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "http",
+      "sense_id": "http#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "hypertext transfer protocol"
+    }
+  ],
+  "concept_id": "http",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "http",
+  "observation_id": "68c7ea10ff5b3706",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-19T02:42:33.990002+00:00",
+  "observed_text": "http",
+  "source_context_snippet": "A more modern http framework benchmark utility.",
+  "source_file": null,
+  "source_repo": "lnx-search/rewrk",
+  "source_repo_description": "A more modern http framework benchmarker supporting HTTP/1 and HTTP/2 benchmarks."
+}

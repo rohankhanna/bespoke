@@ -1,0 +1,54 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "AminRezaei0x443/memory-efficient-attention",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "AminRezaei0x443/memory-efficient-attention",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-19T02:45:08.049595+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3265
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 602
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Memory Efficient Attention (O(sqrt(n)) for Jax and PyTorch",
+    "full_name": "AminRezaei0x443/memory-efficient-attention",
+    "html_url": "https://github.com/AminRezaei0x443/memory-efficient-attention",
+    "language": "Python",
+    "pushed_at": "2023-01-06T19:59:04Z",
+    "topics": [],
+    "updated_at": "2026-03-19T18:01:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Sync Playwright Versions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "recharts/recharts",
+      "status": "candidate-context",
+      "text": "Redefined chart library built with React and D3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "recharts/recharts",
+      "status": "candidate-context",
+      "text": "Sync Playwright Versions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "recharts/recharts",
+      "status": "candidate",
+      "text": "Sync Playwright Versions"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20237,
+      "status": "candidate",
+      "text": "interpretation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20237,
+      "status": "candidate",
+      "text": "rendering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20097,
+      "status": "candidate",
+      "text": "devil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20097,
+      "status": "candidate",
+      "text": "original"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005,
+      "status": "candidate",
+      "text": "chapman"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sync Playwright Versions",
+  "concept_id": "sync-playwright-versions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": ".github/workflows/sync-playwright-versions.yml",
+      "source_repo": "recharts/recharts"
+    }
+  ],
+  "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync Playwright Versions",
+      "sense_id": "sync-playwright-versions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

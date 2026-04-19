@@ -1,7 +1,7 @@
 {
   "component": "usthe/issues-translate-action@v2.7",
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/issue-translator.yml",
       "source_repo": "1Panel-dev/MaxKB"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-translator.yaml",
+      "source_repo": "coaidev/coai"
     }
   ]
 }

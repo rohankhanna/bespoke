@@ -19,12 +19,30 @@
       "source_repo": "Azure/aztfexport",
       "status": "candidate-context",
       "text": "PR Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "QuantumNous/new-api",
+      "status": "candidate-context",
+      "text": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. \ud83c\udf65"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QuantumNous/new-api",
+      "status": "candidate-context",
+      "text": "PR Check"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "Azure/aztfexport",
+      "status": "candidate",
+      "text": "PR Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QuantumNous/new-api",
       "status": "candidate",
       "text": "PR Check"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-18T18:48:44.679047+00:00",
       "source_file": ".github/workflows/pr.yaml",
       "source_repo": "Azure/aztfexport"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "QuantumNous/new-api"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "lexical_providers": [
     "datamuse"
   ],

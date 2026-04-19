@@ -1,7 +1,7 @@
 {
   "component": "oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-18T09:50:06.115508+00:00",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/reusable-test.yml",
       "source_repo": "affaan-m/everything-claude-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "QuantumNous/new-api"
     }
   ]
 }

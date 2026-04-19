@@ -136,6 +136,30 @@
       "source_repo": "flashinfer-ai/flashinfer",
       "status": "candidate-context",
       "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AllenReder/CLIProxyAPI-Quota-Inspector",
+      "status": "candidate-context",
+      "text": "CLIProxyAPI \u7684\u7edf\u4e00\u914d\u989d\u4e0e\u7528\u91cf\u67e5\u8be2\u5de5\u5177. A unified quota and usage inspector for CLIProxyAPI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AllenReder/CLIProxyAPI-Quota-Inspector",
+      "status": "candidate-context",
+      "text": "[\u4e2d\u6587\u7248\u672c](./README_CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "automazeio/vibeproxy",
+      "status": "candidate-context",
+      "text": "Native macOS menu bar app to use your Claude Code & ChatGPT subscriptions with AI coding tools - no API keys needed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "automazeio/vibeproxy",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -162,6 +186,18 @@
       "source_repo": "flashinfer-ai/flashinfer",
       "status": "candidate",
       "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AllenReder/CLIProxyAPI-Quota-Inspector",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587\u7248\u672c](./README_CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "automazeio/vibeproxy",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -451,11 +487,23 @@
       "observed_at": "2026-04-19T01:08:57.644140+00:00",
       "source_file": ".github/workflows/claude.yml",
       "source_repo": "flashinfer-ai/flashinfer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": null,
+      "source_repo": "AllenReder/CLIProxyAPI-Quota-Inspector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": null,
+      "source_repo": "automazeio/vibeproxy"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "lexical_providers": [
     "datamuse"
   ],

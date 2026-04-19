@@ -1,0 +1,62 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alchaincyf/naval-skill",
+      "target": "alchaincyf/steve-jobs-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alchaincyf/naval-skill",
+      "target": "alchaincyf/taleb-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alchaincyf/naval-skill",
+      "target": "alchaincyf/zhangxuefeng-skill",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-19T02:43:45.315771+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6469
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "\u7eb3\u74e6\u5c14.skill \u2014 Naval Ravikant\u7684\u8ba4\u77e5\u64cd\u4f5c\u7cfb\u7edf\u3002\u7531\u5973\u5a32.skill\u751f\u6210\u3002",
+    "full_name": "alchaincyf/naval-skill",
+    "html_url": "https://github.com/alchaincyf/naval-skill",
+    "language": null,
+    "pushed_at": "2026-04-12T05:11:15Z",
+    "topics": [],
+    "updated_at": "2026-04-18T12:29:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alchaincyf/steve-jobs-skill",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alchaincyf/taleb-skill",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alchaincyf/zhangxuefeng-skill",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

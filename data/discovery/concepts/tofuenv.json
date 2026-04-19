@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "tofuenv"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tofuutils/tenv",
+      "status": "candidate-context",
+      "text": "OpenTofu / Terraform / Terragrunt / Terramate and Atmos version manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tofuutils/tenv",
+      "status": "candidate-context",
+      "text": "<!-- BADGES -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tofuutils/tenv",
+      "status": "candidate",
+      "text": "<!-- BADGES -->"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "tofuenv",
+  "concept_id": "tofuenv",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": null,
+      "source_repo": "tofuutils/tenv"
+    }
+  ],
+  "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tofuenv",
+      "sense_id": "tofuenv#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

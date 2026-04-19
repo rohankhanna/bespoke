@@ -1,0 +1,19 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-19T02:43:41.957197+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "An old piece of work to reverse engineer the Mac OSX user/kernel audio interface.  Shows how to read audio straight out of the kernel as you would on Darwin (where most the OSX goodness is missing)",
+    "full_name": "mountainstorm/llaudio",
+    "html_url": "https://github.com/mountainstorm/llaudio",
+    "language": "C++",
+    "pushed_at": "2013-03-25T20:00:47Z",
+    "topics": [],
+    "updated_at": "2025-10-04T17:33:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

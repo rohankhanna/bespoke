@@ -4,10 +4,63 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definition_hints": [],
-  "candidate_glosses": [],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The ultimate space for work and life \u2014 to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level \u2014 enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\"><a name=\"readme-top\"></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\"><a name=\"readme-top\"></a>"
+    }
+  ],
   "candidate_primary_bucket": "tool-component",
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29993595,
+      "status": "candidate",
+      "text": "gemini the twins"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29993594,
+      "status": "candidate",
+      "text": "telescope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29936087,
+      "status": "candidate",
+      "text": "double"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29796640,
+      "status": "candidate",
+      "text": "titan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29732180,
+      "status": "candidate",
+      "text": "orion"
+    }
+  ],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -19,19 +72,29 @@
       "status": "candidate"
     }
   ],
-  "candidate_synonyms": [],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "gemini the twins"
+    }
+  ],
   "concept_id": "gemini",
   "definition_status": "unresolved",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "gemini",
   "observation_id": "8e14527e4912493f",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-18T11:32:22.637859+00:00",
+  "observed_at": "2026-04-19T02:42:33.990002+00:00",
   "observed_text": "gemini",
-  "source_context_snippet": null,
+  "source_context_snippet": "<div align=\"center\"><a name=\"readme-top\"></a>",
   "source_file": null,
   "source_repo": "lobehub/lobehub",
-  "source_repo_description": null
+  "source_repo_description": "The ultimate space for work and life \u2014 to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level \u2014 enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction."
 }

@@ -7,9 +7,83 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libp2p/js-libp2p",
+      "status": "candidate-context",
+      "text": "A JavaScript Implementation of libp2p networking stack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/js-libp2p",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libp2p/specs",
+      "status": "candidate-context",
+      "text": "Technical specifications for the libp2p networking stack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/specs",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/js-libp2p",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/specs",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19369,
+      "status": "candidate",
+      "text": "hard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19238,
+      "status": "candidate",
+      "text": "level"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19174,
+      "status": "candidate",
+      "text": "threadbare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19130,
+      "status": "candidate",
+      "text": "issue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19121,
+      "status": "candidate",
+      "text": "air"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Close Stale Issues",
   "concept_id": "close-stale-issues",
@@ -20,12 +94,26 @@
       "observed_at": "2026-04-18T11:24:14.688152+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "libp2p/test-plans"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "libp2p/js-libp2p"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "libp2p/specs"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

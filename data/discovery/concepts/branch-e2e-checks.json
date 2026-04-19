@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Branch E2E Checks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/OpenShell",
+      "status": "candidate-context",
+      "text": "OpenShell is the safe, private runtime for autonomous AI agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/OpenShell",
+      "status": "candidate-context",
+      "text": "Branch E2E Checks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/OpenShell",
+      "status": "candidate",
+      "text": "Branch E2E Checks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12214,
+      "status": "candidate",
+      "text": "veto"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12067,
+      "status": "candidate",
+      "text": "analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12067,
+      "status": "candidate",
+      "text": "stick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12067,
+      "status": "candidate",
+      "text": "sticks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11335,
+      "status": "candidate",
+      "text": "balance"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Branch E2E Checks",
+  "concept_id": "branch-e2e-checks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": ".github/workflows/branch-e2e.yml",
+      "source_repo": "NVIDIA/OpenShell"
+    }
+  ],
+  "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Branch E2E Checks",
+      "sense_id": "branch-e2e-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,12 @@
+{
+  "component": "@svgx/vite-plugin-react",
+  "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "sources": [
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ConnectAI-E/MidJourney-Web"
+    }
+  ]
+}

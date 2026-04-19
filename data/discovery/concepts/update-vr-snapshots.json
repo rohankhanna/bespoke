@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update VR Snapshots"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "recharts/recharts",
+      "status": "candidate-context",
+      "text": "Redefined chart library built with React and D3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "recharts/recharts",
+      "status": "candidate-context",
+      "text": "Update VR Snapshots"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "recharts/recharts",
+      "status": "candidate",
+      "text": "Update VR Snapshots"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10917,
+      "status": "candidate",
+      "text": "album"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10457,
+      "status": "candidate",
+      "text": "camera"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10457,
+      "status": "candidate",
+      "text": "dating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10457,
+      "status": "candidate",
+      "text": "dial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10457,
+      "status": "candidate",
+      "text": "engraving"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update VR Snapshots",
+  "concept_id": "update-vr-snapshots",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": ".github/workflows/update-vr-snapshots.yml",
+      "source_repo": "recharts/recharts"
+    }
+  ],
+  "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update VR Snapshots",
+      "sense_id": "update-vr-snapshots#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

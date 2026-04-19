@@ -1,0 +1,366 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common.yml"
+    },
+    {
+      "component": "actions/configure-pages@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-label-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-label-apply.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-label-apply.yml"
+    },
+    {
+      "component": "actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-label-apply.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apple/container",
+      "target": "opencontainers/image-spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apple/container",
+      "target": "apple/containerization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common.yml",
+      "source_repo": "apple/container",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common.yml",
+      "source_repo": "apple/container",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common.yml",
+      "source_repo": "apple/container",
+      "target": "actions/configure-pages@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common.yml",
+      "source_repo": "apple/container",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common.yml",
+      "source_repo": "apple/container",
+      "target": "actions/upload-pages-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/common.yml",
+      "source_repo": "apple/container",
+      "target": "container project - common jobs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-release.yml",
+      "source_repo": "apple/container",
+      "target": "actions/deploy-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-release.yml",
+      "source_repo": "apple/container",
+      "target": "Deploy application website",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge-build.yml",
+      "source_repo": "apple/container",
+      "target": "container project - merge build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-build.yml",
+      "source_repo": "apple/container",
+      "target": "container project - PR build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-label-analysis.yml",
+      "source_repo": "apple/container",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-label-analysis.yml",
+      "source_repo": "apple/container",
+      "target": "PR Label Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-label-apply.yml",
+      "source_repo": "apple/container",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-label-apply.yml",
+      "source_repo": "apple/container",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-label-apply.yml",
+      "source_repo": "apple/container",
+      "target": "actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-label-apply.yml",
+      "source_repo": "apple/container",
+      "target": "PR Label Apply",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml",
+      "source_repo": "apple/container",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yml",
+      "source_repo": "apple/container",
+      "target": "softprops/action-gh-release@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-build.yml",
+      "source_repo": "apple/container",
+      "target": "container project - release build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apple/container",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apple/container",
+      "target": "softprops/action-gh-release@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apple/container",
+      "target": "container project - release build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T02:42:41.393277+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3996
+    },
+    {
+      "path": ".github/workflows/common.yml",
+      "size": 4955
+    },
+    {
+      "path": ".github/workflows/docs-release.yml",
+      "size": 1143
+    },
+    {
+      "path": ".github/workflows/merge-build.yml",
+      "size": 336
+    },
+    {
+      "path": ".github/workflows/pr-build.yml",
+      "size": 1593
+    },
+    {
+      "path": ".github/workflows/pr-label-analysis.yml",
+      "size": 682
+    },
+    {
+      "path": ".github/workflows/pr-label-apply.yml",
+      "size": 1361
+    },
+    {
+      "path": ".github/workflows/release-build.yml",
+      "size": 1484
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1484
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
+    "full_name": "apple/container",
+    "html_url": "https://github.com/apple/container",
+    "language": "Swift",
+    "pushed_at": "2026-04-17T18:56:17Z",
+    "topics": [],
+    "updated_at": "2026-04-18T22:07:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/containerization",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opencontainers/image-spec",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "container project - common jobs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/common.yml",
+      "term": "container project - common jobs"
+    },
+    {
+      "context_snippet": "Deploy application website",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-release.yml",
+      "term": "Deploy application website"
+    },
+    {
+      "context_snippet": "container project - merge build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge-build.yml",
+      "term": "container project - merge build"
+    },
+    {
+      "context_snippet": "container project - PR build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-build.yml",
+      "term": "container project - PR build"
+    },
+    {
+      "context_snippet": "PR Label Analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-label-analysis.yml",
+      "term": "PR Label Analysis"
+    },
+    {
+      "context_snippet": "PR Label Apply",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-label-apply.yml",
+      "term": "PR Label Apply"
+    },
+    {
+      "context_snippet": "container project - release build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-build.yml",
+      "term": "container project - release build"
+    },
+    {
+      "context_snippet": "container project - release build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "container project - release build"
+    }
+  ]
+}

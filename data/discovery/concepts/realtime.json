@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "realtime"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "status": "candidate-context",
+      "text": "One UI is all done with chatgpt web, midjourney, gpts,suno,luma,runway,viggle,flux,ideogram,realtime,pika,udio; Simultaneous support  Web / PWA / Linux / Win / MacOS platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "status": "candidate-context",
+      "text": "[English](./README_EN.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a](./README_RU.md) | [Fran\u00e7ais](./README_FR.md) | [\ud55c\uad6d\uc5b4](./README_KR.md) | [Ti\u1ebfng Vi\u1ec7t](./README_VN.md) | [T\u00fcrk\u00e7e](./README_TR.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy",
+      "status": "candidate",
+      "text": "[English](./README_EN.md) | [\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a](./README_RU.md) | [Fran\u00e7ais](./README_FR.md) | [\ud55c\uad6d\uc5b4](./README_KR.md) | [Ti\u1ebfng Vi\u1ec7t](./README_VN.md) | [T\u00fcrk\u00e7e](./README_TR.md)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29885373,
+      "status": "candidate",
+      "text": "real-time"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29807081,
+      "status": "candidate",
+      "text": "real-world"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29779466,
+      "status": "candidate",
+      "text": "live"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19888541,
+      "status": "candidate",
+      "text": "interactive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19888540,
+      "status": "candidate",
+      "text": "raytraced"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "realtime",
+  "concept_id": "realtime",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": null,
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy"
+    }
+  ],
+  "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "realtime",
+      "sense_id": "realtime#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

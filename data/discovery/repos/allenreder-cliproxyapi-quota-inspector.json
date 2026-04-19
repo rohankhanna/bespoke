@@ -1,0 +1,93 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AllenReder/CLIProxyAPI-Quota-Inspector",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AllenReder/CLIProxyAPI-Quota-Inspector",
+      "target": "cliproxyapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AllenReder/CLIProxyAPI-Quota-Inspector",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AllenReder/CLIProxyAPI-Quota-Inspector",
+      "target": "reverse-proxy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T02:42:50.532572+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2744
+    },
+    {
+      "path": "go.mod",
+      "size": 829
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "CLIProxyAPI \u7684\u7edf\u4e00\u914d\u989d\u4e0e\u7528\u91cf\u67e5\u8be2\u5de5\u5177. A unified quota and usage inspector for CLIProxyAPI.",
+    "full_name": "AllenReder/CLIProxyAPI-Quota-Inspector",
+    "html_url": "https://github.com/AllenReder/CLIProxyAPI-Quota-Inspector",
+    "language": "Go",
+    "pushed_at": "2026-04-17T06:58:46Z",
+    "topics": [
+      "agent",
+      "ai",
+      "api",
+      "claude",
+      "claude-code",
+      "cliproxyapi",
+      "codex",
+      "gemini",
+      "openai",
+      "reverse-proxy"
+    ],
+    "updated_at": "2026-04-17T14:16:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[\u4e2d\u6587\u7248\u672c](./README_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u7248\u672c](./README_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cliproxyapi"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u7248\u672c](./README_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u7248\u672c](./README_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reverse-proxy"
+    }
+  ]
+}

@@ -243,13 +243,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lobehub/lobe-cli-toolbox",
-      "target": "vadimdemedes/ink",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lobehub/lobe-cli-toolbox",
       "target": "lobehub/lobe-chat",
       "target_type": "repository"
     },
@@ -520,27 +513,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/issue-close-require.yml",
-      "source_repo": "lobehub/lobe-cli-toolbox",
-      "target": "\u2705 Fixed",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/issue-close-require.yml",
-      "source_repo": "lobehub/lobe-cli-toolbox",
-      "target": "\ud83e\udd14 Need Reproduce",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/issue-close-require.yml",
-      "source_repo": "lobehub/lobe-cli-toolbox",
-      "target": "\ud83d\ude45\ud83c\udffb\u200d\u2640\ufe0f WON'T DO",
-      "target_type": "term"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issues-translate.yml",
       "source_repo": "lobehub/lobe-cli-toolbox",
@@ -595,9 +567,79 @@
       "source_repo": "lobehub/lobe-cli-toolbox",
       "target": "Test CI",
       "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox",
+      "target": "ai-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox",
+      "target": "aicommit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox",
+      "target": "git-commits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox",
+      "target": "gitmoji-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox",
+      "target": "i18n",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox",
+      "target": "i18next",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox",
+      "target": "langchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox",
+      "target": "langchainjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox",
+      "target": "lobehub",
+      "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T09:10:59.277722+00:00",
+  "fetched_at": "2026-04-19T02:44:13.643715+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -652,7 +694,7 @@
       "lobehub",
       "openai"
     ],
-    "updated_at": "2026-04-14T16:06:15Z"
+    "updated_at": "2026-04-19T02:18:00Z"
   },
   "repo_links": [
     {
@@ -664,53 +706,98 @@
       "edge_type": "explicit-github-link",
       "full_name": "lobehub/lobe-chat",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "vadimdemedes/ink",
-      "source_file": "README.md"
     }
   ],
   "terms": [
     {
+      "context_snippet": "Issue Auto Comment",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/issue-auto-comments.yml",
       "term": "Issue Auto Comment"
     },
     {
+      "context_snippet": "Issue Close Require",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/issue-close-require.yml",
       "term": "Issue Close Require"
     },
     {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/issue-close-require.yml",
-      "term": "\u2705 Fixed"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/issue-close-require.yml",
-      "term": "\ud83e\udd14 Need Reproduce"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/issue-close-require.yml",
-      "term": "\ud83d\ude45\ud83c\udffb\u200d\u2640\ufe0f WON'T DO"
-    },
-    {
+      "context_snippet": "Issue Translate",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/issues-translate.yml",
       "term": "Issue Translate"
     },
     {
+      "context_snippet": "Release CI",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/release.yml",
       "term": "Release CI"
     },
     {
+      "context_snippet": "Test CI",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/test.yml",
       "term": "Test CI"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-commit"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aicommit"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "git-commits"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gitmoji-cli"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "i18n"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "i18next"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langchain"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langchainjs"
+    },
+    {
+      "context_snippet": "<div align=\"center\"><a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lobehub"
     }
   ]
 }

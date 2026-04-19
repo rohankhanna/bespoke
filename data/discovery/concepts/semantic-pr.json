@@ -19,6 +19,30 @@
       "source_repo": "BeehiveInnovations/pal-mcp-server",
       "status": "candidate-context",
       "text": "Semantic PR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libp2p/js-libp2p",
+      "status": "candidate-context",
+      "text": "A JavaScript Implementation of libp2p networking stack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/js-libp2p",
+      "status": "candidate-context",
+      "text": "Semantic PR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libp2p/rust-libp2p",
+      "status": "candidate-context",
+      "text": "The Rust Implementation of the libp2p networking stack. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/rust-libp2p",
+      "status": "candidate-context",
+      "text": "Semantic PR"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +51,57 @@
       "source_repo": "BeehiveInnovations/pal-mcp-server",
       "status": "candidate",
       "text": "Semantic PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/js-libp2p",
+      "status": "candidate",
+      "text": "Semantic PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libp2p/rust-libp2p",
+      "status": "candidate",
+      "text": "Semantic PR"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11465,
+      "status": "candidate",
+      "text": "agent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10375,
+      "status": "candidate",
+      "text": "antonym"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4497,
+      "status": "candidate",
+      "text": "attribute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4497,
+      "status": "candidate",
+      "text": "determinative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4497,
+      "status": "candidate",
+      "text": "diminutive"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Semantic PR",
   "concept_id": "semantic-pr",
@@ -46,12 +118,26 @@
       "observed_at": "2026-04-18T13:50:38.061794+00:00",
       "source_file": ".github/workflows/semantic-pr.yml",
       "source_repo": "BeehiveInnovations/pal-mcp-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": ".github/workflows/semantic-pull-request.yml",
+      "source_repo": "libp2p/js-libp2p"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": ".github/workflows/semantic-pull-request.yml",
+      "source_repo": "libp2p/rust-libp2p"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

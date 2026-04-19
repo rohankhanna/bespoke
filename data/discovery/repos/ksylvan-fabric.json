@@ -1,0 +1,229 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@v21",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patterns.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patterns.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-version-and-create-tag.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@v21",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-version-and-create-tag.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ksylvan/fabric",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ksylvan/fabric",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ksylvan/fabric",
+      "target": "DeterminateSystems/nix-installer-action@v21",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ksylvan/fabric",
+      "target": "Go Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patterns.yaml",
+      "source_repo": "ksylvan/fabric",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patterns.yaml",
+      "source_repo": "ksylvan/fabric",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/patterns.yaml",
+      "source_repo": "ksylvan/fabric",
+      "target": "Patterns Artifact",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ksylvan/fabric",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ksylvan/fabric",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ksylvan/fabric",
+      "target": "goreleaser/goreleaser-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ksylvan/fabric",
+      "target": "Go Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-version-and-create-tag.yml",
+      "source_repo": "ksylvan/fabric",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-version-and-create-tag.yml",
+      "source_repo": "ksylvan/fabric",
+      "target": "DeterminateSystems/nix-installer-action@v21",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-version-and-create-tag.yml",
+      "source_repo": "ksylvan/fabric",
+      "target": "Update Version File and Create Tag",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T02:45:06.081847+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 47450
+    },
+    {
+      "path": "go.mod",
+      "size": 8032
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 859
+    },
+    {
+      "path": ".github/workflows/patterns.yaml",
+      "size": 1110
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1369
+    },
+    {
+      "path": ".github/workflows/update-version-and-create-tag.yml",
+      "size": 4875
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Main developer and maintainer of the upstream Fabric repo. https://buymeacoffee.com/kayvansylvan",
+    "full_name": "ksylvan/fabric",
+    "html_url": "https://github.com/ksylvan/fabric",
+    "language": "Go",
+    "pushed_at": "2026-04-17T03:25:25Z",
+    "topics": [],
+    "updated_at": "2026-04-17T03:25:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Go Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Go Build"
+    },
+    {
+      "context_snippet": "Patterns Artifact",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/patterns.yaml",
+      "term": "Patterns Artifact"
+    },
+    {
+      "context_snippet": "Go Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Go Release"
+    },
+    {
+      "context_snippet": "Update Version File and Create Tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-version-and-create-tag.yml",
+      "term": "Update Version File and Create Tag"
+    }
+  ]
+}

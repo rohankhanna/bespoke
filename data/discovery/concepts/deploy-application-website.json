@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy application website"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/container",
+      "status": "candidate-context",
+      "text": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/container",
+      "status": "candidate-context",
+      "text": "Deploy application website"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/container",
+      "status": "candidate",
+      "text": "Deploy application website"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26317,
+      "status": "candidate",
+      "text": "paywall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23450,
+      "status": "candidate",
+      "text": "marshal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23428,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22108,
+      "status": "candidate",
+      "text": "e-commerce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21847,
+      "status": "candidate",
+      "text": "addressing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy application website",
+  "concept_id": "deploy-application-website",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": ".github/workflows/docs-release.yml",
+      "source_repo": "apple/container"
+    }
+  ],
+  "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy application website",
+      "sense_id": "deploy-application-website#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

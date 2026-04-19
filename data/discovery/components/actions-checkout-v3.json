@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -332,6 +332,66 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/server_integration_tests.yaml",
       "source_repo": "AtomaAI/atoma-infer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/manual.yml",
+      "source_repo": "nabijaczleweli/cargo-update"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "recharts/recharts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync-to-gitee.yml",
+      "source_repo": "QuantumNous/new-api"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/app.yaml",
+      "source_repo": "coaidev/coai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "coaidev/coai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci.yaml",
+      "source_repo": "coaidev/coai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/desktop.yml",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "Dooy/chatgpt-web-midjourney-proxy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml",
+      "source_repo": "Birch-san/diffusers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly_tests.yml",
+      "source_repo": "Birch-san/diffusers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr_dependency_test.yml",
+      "source_repo": "Birch-san/diffusers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr_quality.yml",
+      "source_repo": "Birch-san/diffusers"
     }
   ]
 }

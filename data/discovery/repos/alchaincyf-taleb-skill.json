@@ -1,0 +1,38 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alchaincyf/taleb-skill",
+      "target": "alchaincyf/zhangxuefeng-skill",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-19T02:43:46.087180+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7038
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "\u5854\u52d2\u5e03.skill \u2014 Nassim Taleb\u7684\u8ba4\u77e5\u64cd\u4f5c\u7cfb\u7edf\u3002\u7531\u5973\u5a32.skill\u751f\u6210\u3002",
+    "full_name": "alchaincyf/taleb-skill",
+    "html_url": "https://github.com/alchaincyf/taleb-skill",
+    "language": null,
+    "pushed_at": "2026-04-10T02:29:06Z",
+    "topics": [],
+    "updated_at": "2026-04-18T12:29:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alchaincyf/zhangxuefeng-skill",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

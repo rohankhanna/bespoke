@@ -1,0 +1,92 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Redefined chart library built with React and D3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update VR Snapshots"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update VR Snapshots"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10917,
+      "status": "candidate",
+      "text": "album"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10457,
+      "status": "candidate",
+      "text": "camera"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10457,
+      "status": "candidate",
+      "text": "dating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10457,
+      "status": "candidate",
+      "text": "dial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10457,
+      "status": "candidate",
+      "text": "engraving"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update VR Snapshots",
+      "sense_id": "update-vr-snapshots#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-vr-snapshots",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-vr-snapshots",
+  "observation_id": "979afbbaa6a61a29",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T02:42:33.990002+00:00",
+  "observed_text": "Update VR Snapshots",
+  "source_context_snippet": "Update VR Snapshots",
+  "source_file": ".github/workflows/update-vr-snapshots.yml",
+  "source_repo": "recharts/recharts",
+  "source_repo_description": "Redefined chart library built with React and D3"
+}

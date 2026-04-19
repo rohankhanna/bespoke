@@ -4,10 +4,63 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definition_hints": [],
-  "candidate_glosses": [],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The ultimate space for work and life \u2014 to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level \u2014 enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Bundle Analyzer"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Bundle Analyzer"
+    }
+  ],
   "candidate_primary_bucket": "workflow-process",
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12989,
+      "status": "candidate",
+      "text": "cia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12989,
+      "status": "candidate",
+      "text": "sonar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12742,
+      "status": "candidate",
+      "text": "analysis of variance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12742,
+      "status": "candidate",
+      "text": "analytical balance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12742,
+      "status": "candidate",
+      "text": "blood test"
+    }
+  ],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -23,15 +76,17 @@
   "concept_id": "bundle-analyzer",
   "definition_status": "unresolved",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "bundle-analyzer",
   "observation_id": "0b48a0be2734b89e",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-18T11:32:22.637859+00:00",
+  "observed_at": "2026-04-19T02:42:33.990002+00:00",
   "observed_text": "Bundle Analyzer",
-  "source_context_snippet": null,
+  "source_context_snippet": "Bundle Analyzer",
   "source_file": ".github/workflows/bundle-analyzer.yml",
   "source_repo": "lobehub/lobehub",
-  "source_repo_description": null
+  "source_repo_description": "The ultimate space for work and life \u2014 to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level \u2014 enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction."
 }

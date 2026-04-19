@@ -212,6 +212,60 @@
       "source_repo": "Broderick-Westrope/tetrigo",
       "status": "candidate-context",
       "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onecli/onecli",
+      "status": "candidate-context",
+      "text": "Open-source credential vault, give your AI agents access to services without exposing keys."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onecli/onecli",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "buddingnewinsights/proxypal",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tofuutils/tenv",
+      "status": "candidate-context",
+      "text": "OpenTofu / Terraform / Terragrunt / Terramate and Atmos version manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tofuutils/tenv",
+      "status": "candidate-context",
+      "text": "\"Release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tahv/typos-gitlab-code-quality",
+      "status": "candidate-context",
+      "text": "Generate GitLab Code Quality report from typos output"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tahv/typos-gitlab-code-quality",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tekumara/typos-lsp",
+      "status": "candidate-context",
+      "text": "Source code spell checker for Visual Studio Code, Neovim and other LSP clients"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tekumara/typos-lsp",
+      "status": "candidate-context",
+      "text": "release"
     }
   ],
   "candidate_glosses": [
@@ -298,6 +352,36 @@
       "source_repo": "Broderick-Westrope/tetrigo",
       "status": "candidate",
       "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onecli/onecli",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "buddingnewinsights/proxypal",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tofuutils/tenv",
+      "status": "candidate",
+      "text": "\"Release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tahv/typos-gitlab-code-quality",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tekumara/typos-lsp",
+      "status": "candidate",
+      "text": "release"
     }
   ],
   "candidate_related_terms": [
@@ -647,11 +731,41 @@
       "observed_at": "2026-04-18T18:48:44.679047+00:00",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "Broderick-Westrope/tetrigo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "onecli/onecli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "buddingnewinsights/proxypal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tofuutils/tenv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tahv/typos-gitlab-code-quality"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T02:42:33.990002+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tekumara/typos-lsp"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "lexical_providers": [
     "datamuse"
   ],

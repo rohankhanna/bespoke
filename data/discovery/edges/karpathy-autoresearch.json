@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "karpathy/autoresearch",
+      "target": "karpathy/nanochat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "karpathy/autoresearch",
+      "target": "miolini/autoresearch-macos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "karpathy/autoresearch",
+      "target": "jsegov/autoresearch-win-rtx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "karpathy/autoresearch",
+      "target": "andyluo7/autoresearch",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-19T02:42:33.990002+00:00",
+  "source_repo": "karpathy/autoresearch"
+}

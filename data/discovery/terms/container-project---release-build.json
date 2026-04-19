@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release-build.yml",
+      "source_repo": "apple/container"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apple/container"
+    }
+  ],
+  "term": "container project - release build"
+}

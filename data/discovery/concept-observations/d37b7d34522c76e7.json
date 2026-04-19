@@ -1,0 +1,56 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udfa4 \u5fae\u8f6f\u8bed\u97f3\u5408\u6210\u5de5\u5177\uff0c\u4f7f\u7528 Electron + Vue + ElementPlus + Vite \u6784\u5efa\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\ud83c\udfa4 \u5fae\u8f6f\u8bed\u97f3\u5408\u6210\u5de5\u5177\uff0c\u4f7f\u7528 `Electron` + `Vue` + `ElementPlus` + `Vite` \u6784\u5efa."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\ud83c\udfa4 \u5fae\u8f6f\u8bed\u97f3\u5408\u6210\u5de5\u5177\uff0c\u4f7f\u7528 `Electron` + `Vue` + `ElementPlus` + `Vite` \u6784\u5efa."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "element-plus",
+      "sense_id": "element-plus#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "element-plus",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "element-plus",
+  "observation_id": "d37b7d34522c76e7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-19T02:42:33.990002+00:00",
+  "observed_text": "element-plus",
+  "source_context_snippet": "\ud83c\udfa4 \u5fae\u8f6f\u8bed\u97f3\u5408\u6210\u5de5\u5177\uff0c\u4f7f\u7528 `Electron` + `Vue` + `ElementPlus` + `Vite` \u6784\u5efa.",
+  "source_file": null,
+  "source_repo": "LokerL/tts-vue",
+  "source_repo_description": "\ud83c\udfa4 \u5fae\u8f6f\u8bed\u97f3\u5408\u6210\u5de5\u5177\uff0c\u4f7f\u7528 Electron + Vue + ElementPlus + Vite \u6784\u5efa\u3002"
+}

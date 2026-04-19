@@ -1,0 +1,50 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alchaincyf/steve-jobs-skill",
+      "target": "alchaincyf/taleb-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alchaincyf/steve-jobs-skill",
+      "target": "alchaincyf/zhangxuefeng-skill",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-19T02:43:45.710344+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7153
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "\u4e54\u5e03\u65af.skill \u2014 Steve Jobs\u7684\u8ba4\u77e5\u64cd\u4f5c\u7cfb\u7edf\u30026\u4e2a\u5fc3\u667a\u6a21\u578b + 8\u6761\u51b3\u7b56\u542f\u53d1\u5f0f + \u5b8c\u6574\u8868\u8fbeDNA\u3002\u7531\u5973\u5a32.skill\u751f\u6210\u3002",
+    "full_name": "alchaincyf/steve-jobs-skill",
+    "html_url": "https://github.com/alchaincyf/steve-jobs-skill",
+    "language": null,
+    "pushed_at": "2026-04-12T05:11:20Z",
+    "topics": [],
+    "updated_at": "2026-04-18T13:13:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alchaincyf/taleb-skill",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alchaincyf/zhangxuefeng-skill",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}
