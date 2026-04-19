@@ -1,0 +1,92 @@
+flowchart TB
+    subgraph D0[Branch/domain invariants]
+        A1[Artifact ownership explicit]
+        A2[Jobs constrained by owned paths]
+        A3[Pairwise rebaseable without human conflict handling]
+        A4[Multiple jobs may share a domain only if serial and ownership-consistent]
+    end
+
+    subgraph D1[Canonical substrate domain]
+        B1[data/frontier]
+        B2[data/discovery/repos]
+        B3[data/discovery/terms]
+        B4[data/discovery/components]
+        B5[data/discovery/concepts]
+        B6[data/discovery/concept-observations]
+        B7[data/discovery/edges]
+        B8[canonical symbolic indexes]
+        BJ1[Discovery jobs]
+        BJ2[Metadata refresh]
+        BJ3[Whole-corpus migrations]
+    end
+
+    subgraph D2[Derived browse domain]
+        C1[data/derived/discovery-pages]
+        CJ1[Page generation]
+    end
+
+    subgraph D3[Prototype / experiment domain]
+        D1A[data/prototypes]
+        D1B[data/derived/embeddings]
+        D1C[data/derived/clusters]
+        D1D[data/derived/pattern-candidates]
+        D1E[data/derived/evaluations]
+        DJ1[Embedding jobs]
+        DJ2[Clustering jobs]
+        DJ3[Pattern-learning jobs]
+        DJ4[Evaluation/comparison jobs]
+    end
+
+    subgraph D4[Dependency direction]
+        E1[Substrate is semantically prior]
+        E2[Browse can be regenerated from substrate]
+        E3[Prototype outputs consume substrate]
+        E4[Prototype outputs do not silently rewrite substrate truth]
+    end
+
+    subgraph D5[Future physical branches]
+        F1[data-substrate]
+        F2[data-browse]
+        F3[data-prototypes]
+    end
+
+    A1 --> B1
+    A1 --> C1
+    A1 --> D1A
+    A2 --> BJ1
+    A2 --> CJ1
+    A2 --> DJ1
+    A3 --> F1
+    A3 --> F2
+    A3 --> F3
+    A4 --> BJ2
+    A4 --> BJ3
+
+    BJ1 --> B2
+    BJ1 --> B3
+    BJ1 --> B4
+    BJ1 --> B5
+    BJ1 --> B6
+    BJ1 --> B7
+    BJ2 --> B2
+    BJ3 --> B2
+    BJ3 --> B5
+    BJ3 --> B6
+
+    CJ1 --> C1
+
+    DJ1 --> D1B
+    DJ2 --> D1C
+    DJ3 --> D1D
+    DJ4 --> D1E
+
+    B1 --> E1
+    B2 --> E1
+    B5 --> E1
+    E1 --> E2
+    E1 --> E3
+    E3 --> E4
+
+    E1 --> F1
+    E2 --> F2
+    E3 --> F3
