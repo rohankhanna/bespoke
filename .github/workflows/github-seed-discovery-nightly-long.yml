@@ -55,15 +55,13 @@ jobs:
           DISCOVERY_BUDGET_SECONDS: "18000"
           DISCOVERY_MIN_REPO_START_SECONDS: "300"
           DISCOVERY_HARD_STOP_SECONDS: "120"
+          DISCOVERY_PRUNE_STALE_REPOS: "true"
+          DISCOVERY_STALE_REPO_MAX_AGE_DAYS: "1825"
         run: |
           python scripts/github_seed_discovery.py \
             discovery/config/seed-repos.json \
             discovery/config/discovery-limits.json \
             ../bespoke-data
-
-      - name: Build discovery pages
-        run: |
-          python scripts/build_discovery_pages.py ../bespoke-data
 
       - name: Commit and push data updates
         run: |

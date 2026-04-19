@@ -9,7 +9,7 @@ import urllib.parse
 import urllib.request
 import urllib.error
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 API_ROOT = "https://api.github.com"
@@ -40,6 +40,7 @@ EXPLICIT_REPO_EXISTS_CACHE = {}
 DEFAULT_DISCOVERY_BUDGET_SECONDS = 360
 DEFAULT_DISCOVERY_MIN_REPO_START_SECONDS = 15
 DEFAULT_DISCOVERY_HARD_STOP_SECONDS = 20
+DEFAULT_STALE_REPO_MAX_AGE_DAYS = 365 * 5
 SLOW_REPO_THRESHOLD_SECONDS = 10.0
 LEXICAL_ENRICHMENT_PROVIDERS = ["datamuse"]
 
@@ -941,6 +942,47 @@ def env_int(name, default):
     return max(0, value)
 
 
+def env_bool(name, default=False):
+    raw = os.getenv(name)
+    if raw in (None, ""):
+        return default
+    return raw.strip().lower() in {"1", "true", "yes", "on"}
+
+
+def parse_timestamp(value):
+    if not value:
+        return None
+    try:
+        return datetime.fromisoformat(str(value).replace("Z", "+00:00")).astimezone(timezone.utc)
+    except ValueError:
+        return None
+
+
+def stale_repo_cutoff():
+    return datetime.now(timezone.utc) - timedelta(days=env_int("DISCOVERY_STALE_REPO_MAX_AGE_DAYS", DEFAULT_STALE_REPO_MAX_AGE_DAYS))
+
+
+def repo_is_stale(repo_metadata, cutoff):
+    timestamp = parse_timestamp((repo_metadata or {}).get("pushed_at") or (repo_metadata or {}).get("updated_at"))
+    return timestamp is not None and timestamp < cutoff
+
+
+def prune_stale_repo_artifacts(repos_dir, cutoff):
+    pruned_keys = set()
+    for path in sorted(repos_dir.glob("*.json")):
+        try:
+            obj = json.loads(path.read_text())
+        except Exception:
+            continue
+        repo = obj.get("repo") or {}
+        full_name = canonicalize_repo_full_name(repo.get("full_name") or "", lowercase=True)
+        if not full_name or not repo_is_stale(repo, cutoff):
+            continue
+        pruned_keys.add(full_name)
+        path.unlink(missing_ok=True)
+    return pruned_keys
+
+
 def budget_state():
     budget_seconds = env_int("DISCOVERY_BUDGET_SECONDS", DEFAULT_DISCOVERY_BUDGET_SECONDS)
     min_repo_start_seconds = env_int("DISCOVERY_MIN_REPO_START_SECONDS", DEFAULT_DISCOVERY_MIN_REPO_START_SECONDS)
@@ -1211,6 +1253,19 @@ def main():
     for d in [repos_dir, terms_dir, concepts_dir, concept_observations_dir, indexes_dir, derived_dir, comps_dir, edges_dir, frontier_dir, runs_dir]:
         d.mkdir(parents=True, exist_ok=True)
     prune_invalid_term_artifacts(terms_dir)
+    prune_stale_repos = env_bool("DISCOVERY_PRUNE_STALE_REPOS", False)
+    stale_cutoff = stale_repo_cutoff() if prune_stale_repos else None
+    pruned_stale_repo_keys = prune_stale_repo_artifacts(repos_dir, stale_cutoff) if prune_stale_repos else set()
+    if pruned_stale_repo_keys:
+        pending = [
+            item for item in pending
+            if repo_identity_key(item.get("full_name")) not in pruned_stale_repo_keys
+        ]
+        frontier_state["pending"] = pending
+        frontier_state["processed"] = [
+            name for name in frontier_state.get("processed", [])
+            if repo_identity_key(name) not in pruned_stale_repo_keys
+        ]
 
     generated_at = datetime.now(timezone.utc).isoformat()
     upsert_seeded_language_concepts(concepts_dir, generated_at)
@@ -1223,6 +1278,7 @@ def main():
     processed_history, known_repo_keys = build_processed_history(frontier_state, processed_names)
 
     skipped_repositories = []
+    stale_repositories_pruned = sorted(pruned_stale_repo_keys)
     stopped_due_to_budget = False
     deferred_entries = []
     repo_timings = []
@@ -1272,6 +1328,14 @@ def main():
                 raise
 
             canonical_owner_repo = canonicalize_repo_full_name(data["repo"]["full_name"] or owner_repo, lowercase=True)
+            if prune_stale_repos and repo_is_stale(data["repo"], stale_cutoff):
+                stale_repositories_pruned.append(canonical_owner_repo)
+                skipped_repositories.append({
+                    "full_name": canonical_owner_repo,
+                    "reason": "stale_repo_pruned",
+                    "discovered_via": entry.get("discovered_via"),
+                })
+                continue
             repo_elapsed = round(time.monotonic() - repo_started, 3)
             repo_timings.append({
                 "full_name": canonical_owner_repo,
@@ -1306,6 +1370,11 @@ def main():
                 }, "component")
 
             for rel in data["related_repositories"]:
+                if prune_stale_repos and repo_is_stale(rel, stale_cutoff):
+                    stale_key = canonicalize_repo_full_name(rel.get("full_name") or "", lowercase=True)
+                    if stale_key:
+                        stale_repositories_pruned.append(stale_key)
+                    continue
                 newly_discovered.append(rel)
             for link in data["repo_links"]:
                 newly_discovered.append({
@@ -1330,6 +1399,7 @@ def main():
             break
 
     next_pending = pending
+    stale_repositories_pruned = sorted({name for name in stale_repositories_pruned if name})
 
     new_frontier = {
         "generated_at": generated_at,
@@ -1351,6 +1421,8 @@ def main():
         "processed_repositories": processed_names,
         "batch_count": batch_count,
         "skipped_repositories": skipped_repositories,
+        "stale_repo_pruned_count": len(stale_repositories_pruned),
+        "stale_repositories_pruned": stale_repositories_pruned,
         "remaining_frontier": len(next_pending),
         "elapsed_seconds": round(elapsed_seconds(budget), 3),
         "budget_seconds": budget["budget_seconds"],
