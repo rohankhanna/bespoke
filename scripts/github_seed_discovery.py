@@ -765,6 +765,7 @@ def normalize_existing_concept_observations(observations_dir):
                 candidate_buckets = ["unclassified"]
         obj["candidate_buckets"] = unique_preserve(candidate_buckets)
         obj["candidate_primary_bucket"] = obj.get("candidate_primary_bucket") or obj["candidate_buckets"][0]
+        obj["discovered_via"] = obj.get("discovered_via") or obj.get("observation_kind")
         obj.setdefault("ambiguity_status", "unresolved")
         obj.setdefault("definition_status", "unresolved")
         obj.setdefault("candidate_definition_hints", [])
