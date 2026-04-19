@@ -1,0 +1,1207 @@
+{
+  "budget_seconds": 2400,
+  "elapsed_seconds": 76.329,
+  "generated_at": "2026-04-19T14:15:09.581714+00:00",
+  "refresh_limit": 250,
+  "refreshed_count": 235,
+  "refreshed_repositories": [
+    "putoutjs/putout-processor-typos",
+    "garrettalbright/luacheck.novaextension",
+    "mjvolk3/biocypher",
+    "ianopolous/jpack",
+    "finehow/bingsearch-plugin",
+    "birch-san/diffusers",
+    "retrography/audioswitch",
+    "genius-harry/neural-chat",
+    "wesfloyd/avs-context-prompt",
+    "eastlondoner/pac-man",
+    "fatwang2/search1api-lobechat",
+    "bytegust/spm",
+    "arktisklada/crank",
+    "rzykov/metabase",
+    "0xnu/rewsury",
+    "peergos/nabu-chat",
+    "lazychanger/docker-kunlun-mirror",
+    "taikinman/langrila",
+    "cdeust/ai-prd-builder",
+    "aerobounce/sublime-pretty-lua",
+    "lobehub/chat-plugin-realtime-weather",
+    "mountainstorm/llaudio",
+    "arvinxx/lobe-plugin-tikzjax",
+    "danielrosehill/batch-claudemd-repo-creator",
+    "danielrosehill/ai-human-attribution-adder",
+    "ddisisto/si",
+    "ccdanpian/current-datetime",
+    "layr-labs/avs-vibe-developer-guide",
+    "layr-labs/hello-world-avs",
+    "dragonkhoi/mercury-mcp",
+    "behave/behave-django",
+    "burntsushi/linux",
+    "ckipp01/stylua-nvim",
+    "gerschel/sd-web-ui-quickcss",
+    "rygwdn/slack-tools",
+    "purcell/inheritenv",
+    "jaredsohn/mutefm",
+    "crossterm-rs/examples",
+    "crate-ci/gh-install",
+    "tahv/typos-gitlab-code-quality",
+    "dreamiurg/mountaineers-assistant",
+    "asg017/sqlite-hello",
+    "piebald-ai/.github",
+    "zwowo1997/pack-repo-4ai",
+    "mjvolk3/dendron-template",
+    "berrydev-ai/blockdoc-python",
+    "didalgolab/ai-intellij-plugin",
+    "hackdays-io/toban-contribution-viewer",
+    "karpeleslab/tpl",
+    "lamoomai/lamoom-python",
+    "mjvolk3/torchcell",
+    "okuvshynov/cubestat",
+    "slunsford/coffee-analytics",
+    "to4iki/ai-project-rules",
+    "zscott/pane",
+    "marcindulak/stt-mcp-server-linux",
+    "lobehub/chat-plugin-web-crawler",
+    "automatic1111/stable-diffusion-webui-aesthetic-gradients",
+    "lobehub/.github",
+    "neuroverseos/neuroverseos-openclaw-governance",
+    "withastro/.github",
+    "flinedev/customstatusline",
+    "stephenschoettler/taches-oc-prompts",
+    "stardot/b-em",
+    "lobehub/lobe-lint",
+    "tc39/proposal-async-iteration",
+    "steadycursor/steadystart",
+    "parruda/ruby_llm",
+    "junegunn/vim-startuptime-benchmark",
+    "yuag/code-audit",
+    "musicman3/r2-d2",
+    "flinedev/recall",
+    "musicman3/cruder",
+    "aminrezaei0x443/memory-efficient-attention",
+    "superclaude-org/superqwen_framework",
+    "nornagon/crossterm",
+    "slopus/slopus.github.io",
+    "arustydev/pre-commit-hooks",
+    "danielrosehill/claude-slash-commands",
+    "adammes/voyanode",
+    "nibir1/vaultsim",
+    "zailoxtt/ru-grok-jailbreak",
+    "sujithpvarghese/bedrock-full-reconciliation",
+    "kelp/webdown",
+    "b2agi/exist-is-charter_kr",
+    "abduznik/git-alchemist",
+    "ethpandaops/cbt",
+    "aws/homebrew-tap",
+    "oxpig/calm",
+    "chrismytton/shoreman",
+    "sujithpvarghese/bedrock-agent-core-operations-hub",
+    "ddollar/forego",
+    "asg017/sqlite-rembed",
+    "talieisin/britfix",
+    "withastro/compiler",
+    "langchain-ai/.github",
+    "azure/homebrew-bicep",
+    "grahama1970/claude-code-mcp-enhanced",
+    "lobehub/lobe-assets",
+    "programatik29/rust-web-benchmarks",
+    "jerseycheese/narraitor",
+    "beyondcode/claude-hooks-sdk",
+    "lobehub/lobe-charts",
+    "ecumene/rust-sloth",
+    "icanhasjonas/run-claude-docker",
+    "lobehub/chat-plugin-search-engine",
+    "aymenfurter/ralph",
+    "hesreallyhim/inkverse-fork",
+    "viperjuice/flutter-structurizr",
+    "tarikmanoar/tarikmanoar",
+    "lpghatguy/aftman",
+    "touchlab/droidconkotlin",
+    "ethpandaops/xatu-cbt",
+    "libp2p/test-plans",
+    "asg017/sqlite-html",
+    "asg017/sqlite-xsv",
+    "asg017/sqlite-fastrand",
+    "piebald-ai/piebald",
+    "dustinblackman/cargo-run-bin",
+    "ikki2000/harmonyos-fonts",
+    "cdeust/cortex-know-when-to-stop-training-model",
+    "lobehub/chat-plugin-template",
+    "brads3290/cclogviewer",
+    "adoptium/adoptium",
+    "decider/claude-hooks",
+    "piqrypt/aiss-standard",
+    "basujindal/stable-diffusion",
+    "danielrosehill/bash-alias-manager-claude",
+    "vllm-project/media-kit",
+    "abraxas-365/claudio-codex",
+    "dreamiurg/claude-mountaineering-skills",
+    "elizaos/elizaos.github.io",
+    "ethpandaops/xatu",
+    "firebase/firebase-admin-node",
+    "harfbuzz/rustybuzz",
+    "peergos/nabu",
+    "lobehub/lobe-midjourney-webui",
+    "asg017/sqlite-ecosystem",
+    "danielrosehill/agent-junction",
+    "possibilities/claude-composer",
+    "omril321/automated-notebooklm",
+    "tombelieber/claude-backup",
+    "atom-archive/xray",
+    "lenml/gcp-claude-openai-api-server",
+    "marcindulak/learning-api-styles-gen-ai-experiments",
+    "maxritter/pilot-shell-demo",
+    "simonw/sqlite-diffable",
+    "yzyydev/agentic-coding-structure",
+    "alexei-led/aws-mcp-server",
+    "sculptdotfun/viberank",
+    "1sh1ro/liangxi-skills",
+    "dp111/6502timing",
+    "zsio/claude-code-hub",
+    "cdeust/cortex-cowork",
+    "wencuecryforme/mysoul.skill",
+    "asg017/sqlite-http",
+    "serpro69/claude-in-docker",
+    "fimeg/networkchronicles",
+    "beyondgrep/ack3",
+    "atomaai/atoma-infer",
+    "asg017/sqlite-loadable-rs",
+    "fgrehm/clotilde",
+    "abraxas-365/claudio-screenshot",
+    "kingler/n8n_agent",
+    "infinyon/node-bindgen",
+    "cloudrepo-io/founder-os",
+    "aar0npb/curator-skill",
+    "marcindulak/ralph-wiggum-bdd",
+    "ldayton/parable",
+    "hashintel/awesome-hash",
+    "hagan/claudia-statusline",
+    "cloudartisan/cloudartisan.github.io",
+    "nvie/git-toolbelt",
+    "libp2p/specs",
+    "ithiria894/awesome-claude-code-hooks",
+    "automazeio/proof",
+    "comme2e/comm",
+    "tianrking/weixin-agent-rs",
+    "lobehub/chat-plugin-sdk",
+    "lualanes/lanes",
+    "mitchuski/agentprivacy-skills",
+    "ers35/luastatic",
+    "njsmith/posy",
+    "dreamiurg/peakbagger-cli",
+    "danielnappa/tweakgc-cli",
+    "chelsea0x3b/dfdx",
+    "axolotl-ai-cloud/plugin-atropos",
+    "dreamiurg/mountaineers-mcp",
+    "roampal-ai/roampal-labs",
+    "joinwell52-ai/joinwell52",
+    "agents-squads/squads-cli",
+    "mongodb/homebrew-brew",
+    "lunarmodules/luacheck",
+    "inkline/inkline",
+    "flinedev/marketplace",
+    "stripe-samples/accept-a-payment",
+    "flinedev/contextkit",
+    "danielrosehill/index",
+    "kubernetes/steering",
+    "ayoubben18/ab-method",
+    "agent-sh/onboard",
+    "agent-sh/can-i-help",
+    "agent-sh/agent-analyzer",
+    "askroundtable/expert-skills",
+    "mattgodbolt/jsbeeb",
+    "luarocks/luarocks",
+    "0nn0/terminal-mac-cheatsheet",
+    "mohammadtavakoli78/beam",
+    "agent-sh/glidemq",
+    "sgcarstrends/sgcarstrends",
+    "klaus2m5/6502_65c02_functional_tests",
+    "scopecraft/command",
+    "unicode-rs/unicode-width",
+    "overseedai/viwo",
+    "ddollar/foreman",
+    "dtormoen/tsk-tsk",
+    "charmbracelet/colorprofile",
+    "asg017/sqlite-lembed",
+    "zeng3ld/claude-session-restore",
+    "wirasm/dylan",
+    "open-telemetry/opentelemetry-collector-releases",
+    "mattingalls/soundflower",
+    "rlxone/multisoundchanger",
+    "parruda/swarm",
+    "collinear-ai/yc-bench",
+    "tony/claude-code-riper-5",
+    "dazuiba/ccnotify",
+    "kunwar-shah/claudex",
+    "lobehub/chat-plugins-gateway",
+    "orogene/orogene",
+    "mitchuski/agentprivacy-docs",
+    "google/tarpc",
+    "lobehub/lobe-vidol",
+    "ykdojo/cc-safe",
+    "jpanther/congo"
+  ],
+  "remaining_budget_seconds": 2323.671,
+  "repo_timings": [
+    {
+      "elapsed_seconds": 0.301,
+      "full_name": "putoutjs/putout-processor-typos"
+    },
+    {
+      "elapsed_seconds": 0.428,
+      "full_name": "garrettalbright/luacheck.novaextension"
+    },
+    {
+      "elapsed_seconds": 0.385,
+      "full_name": "mjvolk3/biocypher"
+    },
+    {
+      "elapsed_seconds": 0.289,
+      "full_name": "ianopolous/jpack"
+    },
+    {
+      "elapsed_seconds": 0.395,
+      "full_name": "finehow/bingsearch-plugin"
+    },
+    {
+      "elapsed_seconds": 0.343,
+      "full_name": "birch-san/diffusers"
+    },
+    {
+      "elapsed_seconds": 0.389,
+      "full_name": "retrography/audioswitch"
+    },
+    {
+      "elapsed_seconds": 0.257,
+      "full_name": "genius-harry/neural-chat"
+    },
+    {
+      "elapsed_seconds": 0.389,
+      "full_name": "wesfloyd/avs-context-prompt"
+    },
+    {
+      "elapsed_seconds": 0.293,
+      "full_name": "eastlondoner/pac-man"
+    },
+    {
+      "elapsed_seconds": 0.277,
+      "full_name": "fatwang2/search1api-lobechat"
+    },
+    {
+      "elapsed_seconds": 0.365,
+      "full_name": "bytegust/spm"
+    },
+    {
+      "elapsed_seconds": 0.326,
+      "full_name": "arktisklada/crank"
+    },
+    {
+      "elapsed_seconds": 0.398,
+      "full_name": "rzykov/metabase"
+    },
+    {
+      "elapsed_seconds": 0.32,
+      "full_name": "0xnu/rewsury"
+    },
+    {
+      "elapsed_seconds": 0.299,
+      "full_name": "peergos/nabu-chat"
+    },
+    {
+      "elapsed_seconds": 0.292,
+      "full_name": "lazychanger/docker-kunlun-mirror"
+    },
+    {
+      "elapsed_seconds": 0.275,
+      "full_name": "taikinman/langrila"
+    },
+    {
+      "elapsed_seconds": 0.298,
+      "full_name": "cdeust/ai-prd-builder"
+    },
+    {
+      "elapsed_seconds": 0.286,
+      "full_name": "aerobounce/sublime-pretty-lua"
+    },
+    {
+      "elapsed_seconds": 0.458,
+      "full_name": "lobehub/chat-plugin-realtime-weather"
+    },
+    {
+      "elapsed_seconds": 0.276,
+      "full_name": "mountainstorm/llaudio"
+    },
+    {
+      "elapsed_seconds": 0.273,
+      "full_name": "arvinxx/lobe-plugin-tikzjax"
+    },
+    {
+      "elapsed_seconds": 0.278,
+      "full_name": "danielrosehill/batch-claudemd-repo-creator"
+    },
+    {
+      "elapsed_seconds": 0.263,
+      "full_name": "danielrosehill/ai-human-attribution-adder"
+    },
+    {
+      "elapsed_seconds": 0.301,
+      "full_name": "ddisisto/si"
+    },
+    {
+      "elapsed_seconds": 0.316,
+      "full_name": "ccdanpian/current-datetime"
+    },
+    {
+      "elapsed_seconds": 0.298,
+      "full_name": "layr-labs/avs-vibe-developer-guide"
+    },
+    {
+      "elapsed_seconds": 0.293,
+      "full_name": "layr-labs/hello-world-avs"
+    },
+    {
+      "elapsed_seconds": 0.301,
+      "full_name": "dragonkhoi/mercury-mcp"
+    },
+    {
+      "elapsed_seconds": 0.293,
+      "full_name": "behave/behave-django"
+    },
+    {
+      "elapsed_seconds": 0.333,
+      "full_name": "burntsushi/linux"
+    },
+    {
+      "elapsed_seconds": 0.306,
+      "full_name": "ckipp01/stylua-nvim"
+    },
+    {
+      "elapsed_seconds": 0.264,
+      "full_name": "gerschel/sd-web-ui-quickcss"
+    },
+    {
+      "elapsed_seconds": 0.274,
+      "full_name": "rygwdn/slack-tools"
+    },
+    {
+      "elapsed_seconds": 0.283,
+      "full_name": "purcell/inheritenv"
+    },
+    {
+      "elapsed_seconds": 0.297,
+      "full_name": "jaredsohn/mutefm"
+    },
+    {
+      "elapsed_seconds": 0.261,
+      "full_name": "crossterm-rs/examples"
+    },
+    {
+      "elapsed_seconds": 0.287,
+      "full_name": "crate-ci/gh-install"
+    },
+    {
+      "elapsed_seconds": 0.273,
+      "full_name": "tahv/typos-gitlab-code-quality"
+    },
+    {
+      "elapsed_seconds": 0.285,
+      "full_name": "dreamiurg/mountaineers-assistant"
+    },
+    {
+      "elapsed_seconds": 0.277,
+      "full_name": "asg017/sqlite-hello"
+    },
+    {
+      "elapsed_seconds": 0.325,
+      "full_name": "piebald-ai/.github"
+    },
+    {
+      "elapsed_seconds": 0.307,
+      "full_name": "zwowo1997/pack-repo-4ai"
+    },
+    {
+      "elapsed_seconds": 0.288,
+      "full_name": "mjvolk3/dendron-template"
+    },
+    {
+      "elapsed_seconds": 0.305,
+      "full_name": "berrydev-ai/blockdoc-python"
+    },
+    {
+      "elapsed_seconds": 0.267,
+      "full_name": "didalgolab/ai-intellij-plugin"
+    },
+    {
+      "elapsed_seconds": 0.324,
+      "full_name": "hackdays-io/toban-contribution-viewer"
+    },
+    {
+      "elapsed_seconds": 0.339,
+      "full_name": "karpeleslab/tpl"
+    },
+    {
+      "elapsed_seconds": 0.303,
+      "full_name": "lamoomai/lamoom-python"
+    },
+    {
+      "elapsed_seconds": 0.319,
+      "full_name": "mjvolk3/torchcell"
+    },
+    {
+      "elapsed_seconds": 0.258,
+      "full_name": "okuvshynov/cubestat"
+    },
+    {
+      "elapsed_seconds": 0.276,
+      "full_name": "slunsford/coffee-analytics"
+    },
+    {
+      "elapsed_seconds": 0.27,
+      "full_name": "to4iki/ai-project-rules"
+    },
+    {
+      "elapsed_seconds": 0.285,
+      "full_name": "zscott/pane"
+    },
+    {
+      "elapsed_seconds": 0.308,
+      "full_name": "marcindulak/stt-mcp-server-linux"
+    },
+    {
+      "elapsed_seconds": 0.367,
+      "full_name": "lobehub/chat-plugin-web-crawler"
+    },
+    {
+      "elapsed_seconds": 0.354,
+      "full_name": "automatic1111/stable-diffusion-webui-aesthetic-gradients"
+    },
+    {
+      "elapsed_seconds": 0.316,
+      "full_name": "lobehub/.github"
+    },
+    {
+      "elapsed_seconds": 0.473,
+      "full_name": "neuroverseos/neuroverseos-openclaw-governance"
+    },
+    {
+      "elapsed_seconds": 0.292,
+      "full_name": "withastro/.github"
+    },
+    {
+      "elapsed_seconds": 0.282,
+      "full_name": "flinedev/customstatusline"
+    },
+    {
+      "elapsed_seconds": 0.426,
+      "full_name": "stephenschoettler/taches-oc-prompts"
+    },
+    {
+      "elapsed_seconds": 0.315,
+      "full_name": "stardot/b-em"
+    },
+    {
+      "elapsed_seconds": 0.381,
+      "full_name": "lobehub/lobe-lint"
+    },
+    {
+      "elapsed_seconds": 0.31,
+      "full_name": "tc39/proposal-async-iteration"
+    },
+    {
+      "elapsed_seconds": 0.318,
+      "full_name": "steadycursor/steadystart"
+    },
+    {
+      "elapsed_seconds": 0.331,
+      "full_name": "parruda/ruby_llm"
+    },
+    {
+      "elapsed_seconds": 0.281,
+      "full_name": "junegunn/vim-startuptime-benchmark"
+    },
+    {
+      "elapsed_seconds": 0.279,
+      "full_name": "yuag/code-audit"
+    },
+    {
+      "elapsed_seconds": 0.285,
+      "full_name": "musicman3/r2-d2"
+    },
+    {
+      "elapsed_seconds": 0.323,
+      "full_name": "flinedev/recall"
+    },
+    {
+      "elapsed_seconds": 0.292,
+      "full_name": "musicman3/cruder"
+    },
+    {
+      "elapsed_seconds": 0.283,
+      "full_name": "aminrezaei0x443/memory-efficient-attention"
+    },
+    {
+      "elapsed_seconds": 0.297,
+      "full_name": "superclaude-org/superqwen_framework"
+    },
+    {
+      "elapsed_seconds": 0.38,
+      "full_name": "nornagon/crossterm"
+    },
+    {
+      "elapsed_seconds": 0.293,
+      "full_name": "slopus/slopus.github.io"
+    },
+    {
+      "elapsed_seconds": 0.273,
+      "full_name": "arustydev/pre-commit-hooks"
+    },
+    {
+      "elapsed_seconds": 0.301,
+      "full_name": "danielrosehill/claude-slash-commands"
+    },
+    {
+      "elapsed_seconds": 0.284,
+      "full_name": "adammes/voyanode"
+    },
+    {
+      "elapsed_seconds": 0.264,
+      "full_name": "nibir1/vaultsim"
+    },
+    {
+      "elapsed_seconds": 0.284,
+      "full_name": "zailoxtt/ru-grok-jailbreak"
+    },
+    {
+      "elapsed_seconds": 0.319,
+      "full_name": "sujithpvarghese/bedrock-full-reconciliation"
+    },
+    {
+      "elapsed_seconds": 0.297,
+      "full_name": "kelp/webdown"
+    },
+    {
+      "elapsed_seconds": 0.296,
+      "full_name": "b2agi/exist-is-charter_kr"
+    },
+    {
+      "elapsed_seconds": 0.305,
+      "full_name": "abduznik/git-alchemist"
+    },
+    {
+      "elapsed_seconds": 0.43,
+      "full_name": "ethpandaops/cbt"
+    },
+    {
+      "elapsed_seconds": 0.287,
+      "full_name": "aws/homebrew-tap"
+    },
+    {
+      "elapsed_seconds": 0.444,
+      "full_name": "oxpig/calm"
+    },
+    {
+      "elapsed_seconds": 0.292,
+      "full_name": "chrismytton/shoreman"
+    },
+    {
+      "elapsed_seconds": 0.271,
+      "full_name": "sujithpvarghese/bedrock-agent-core-operations-hub"
+    },
+    {
+      "elapsed_seconds": 0.313,
+      "full_name": "ddollar/forego"
+    },
+    {
+      "elapsed_seconds": 0.317,
+      "full_name": "asg017/sqlite-rembed"
+    },
+    {
+      "elapsed_seconds": 0.311,
+      "full_name": "talieisin/britfix"
+    },
+    {
+      "elapsed_seconds": 0.345,
+      "full_name": "withastro/compiler"
+    },
+    {
+      "elapsed_seconds": 0.322,
+      "full_name": "langchain-ai/.github"
+    },
+    {
+      "elapsed_seconds": 0.311,
+      "full_name": "azure/homebrew-bicep"
+    },
+    {
+      "elapsed_seconds": 0.272,
+      "full_name": "grahama1970/claude-code-mcp-enhanced"
+    },
+    {
+      "elapsed_seconds": 0.293,
+      "full_name": "lobehub/lobe-assets"
+    },
+    {
+      "elapsed_seconds": 0.278,
+      "full_name": "programatik29/rust-web-benchmarks"
+    },
+    {
+      "elapsed_seconds": 0.317,
+      "full_name": "jerseycheese/narraitor"
+    },
+    {
+      "elapsed_seconds": 0.313,
+      "full_name": "beyondcode/claude-hooks-sdk"
+    },
+    {
+      "elapsed_seconds": 0.301,
+      "full_name": "lobehub/lobe-charts"
+    },
+    {
+      "elapsed_seconds": 0.274,
+      "full_name": "ecumene/rust-sloth"
+    },
+    {
+      "elapsed_seconds": 0.271,
+      "full_name": "icanhasjonas/run-claude-docker"
+    },
+    {
+      "elapsed_seconds": 0.402,
+      "full_name": "lobehub/chat-plugin-search-engine"
+    },
+    {
+      "elapsed_seconds": 0.266,
+      "full_name": "aymenfurter/ralph"
+    },
+    {
+      "elapsed_seconds": 0.4,
+      "full_name": "hesreallyhim/inkverse-fork"
+    },
+    {
+      "elapsed_seconds": 0.299,
+      "full_name": "viperjuice/flutter-structurizr"
+    },
+    {
+      "elapsed_seconds": 0.284,
+      "full_name": "tarikmanoar/tarikmanoar"
+    },
+    {
+      "elapsed_seconds": 0.273,
+      "full_name": "lpghatguy/aftman"
+    },
+    {
+      "elapsed_seconds": 0.327,
+      "full_name": "touchlab/droidconkotlin"
+    },
+    {
+      "elapsed_seconds": 0.328,
+      "full_name": "ethpandaops/xatu-cbt"
+    },
+    {
+      "elapsed_seconds": 0.313,
+      "full_name": "libp2p/test-plans"
+    },
+    {
+      "elapsed_seconds": 0.293,
+      "full_name": "asg017/sqlite-html"
+    },
+    {
+      "elapsed_seconds": 0.374,
+      "full_name": "asg017/sqlite-xsv"
+    },
+    {
+      "elapsed_seconds": 0.293,
+      "full_name": "asg017/sqlite-fastrand"
+    },
+    {
+      "elapsed_seconds": 0.307,
+      "full_name": "piebald-ai/piebald"
+    },
+    {
+      "elapsed_seconds": 0.29,
+      "full_name": "dustinblackman/cargo-run-bin"
+    },
+    {
+      "elapsed_seconds": 0.277,
+      "full_name": "ikki2000/harmonyos-fonts"
+    },
+    {
+      "elapsed_seconds": 0.283,
+      "full_name": "cdeust/cortex-know-when-to-stop-training-model"
+    },
+    {
+      "elapsed_seconds": 0.277,
+      "full_name": "lobehub/chat-plugin-template"
+    },
+    {
+      "elapsed_seconds": 0.266,
+      "full_name": "brads3290/cclogviewer"
+    },
+    {
+      "elapsed_seconds": 0.309,
+      "full_name": "adoptium/adoptium"
+    },
+    {
+      "elapsed_seconds": 0.291,
+      "full_name": "decider/claude-hooks"
+    },
+    {
+      "elapsed_seconds": 0.29,
+      "full_name": "piqrypt/aiss-standard"
+    },
+    {
+      "elapsed_seconds": 0.41,
+      "full_name": "basujindal/stable-diffusion"
+    },
+    {
+      "elapsed_seconds": 0.294,
+      "full_name": "danielrosehill/bash-alias-manager-claude"
+    },
+    {
+      "elapsed_seconds": 0.301,
+      "full_name": "vllm-project/media-kit"
+    },
+    {
+      "elapsed_seconds": 0.271,
+      "full_name": "abraxas-365/claudio-codex"
+    },
+    {
+      "elapsed_seconds": 0.259,
+      "full_name": "dreamiurg/claude-mountaineering-skills"
+    },
+    {
+      "elapsed_seconds": 0.363,
+      "full_name": "elizaos/elizaos.github.io"
+    },
+    {
+      "elapsed_seconds": 0.306,
+      "full_name": "ethpandaops/xatu"
+    },
+    {
+      "elapsed_seconds": 0.323,
+      "full_name": "firebase/firebase-admin-node"
+    },
+    {
+      "elapsed_seconds": 0.327,
+      "full_name": "harfbuzz/rustybuzz"
+    },
+    {
+      "elapsed_seconds": 0.492,
+      "full_name": "peergos/nabu"
+    },
+    {
+      "elapsed_seconds": 0.326,
+      "full_name": "lobehub/lobe-midjourney-webui"
+    },
+    {
+      "elapsed_seconds": 0.286,
+      "full_name": "asg017/sqlite-ecosystem"
+    },
+    {
+      "elapsed_seconds": 0.284,
+      "full_name": "danielrosehill/agent-junction"
+    },
+    {
+      "elapsed_seconds": 0.286,
+      "full_name": "possibilities/claude-composer"
+    },
+    {
+      "elapsed_seconds": 0.297,
+      "full_name": "omril321/automated-notebooklm"
+    },
+    {
+      "elapsed_seconds": 0.28,
+      "full_name": "tombelieber/claude-backup"
+    },
+    {
+      "elapsed_seconds": 0.301,
+      "full_name": "atom-archive/xray"
+    },
+    {
+      "elapsed_seconds": 0.309,
+      "full_name": "lenml/gcp-claude-openai-api-server"
+    },
+    {
+      "elapsed_seconds": 0.308,
+      "full_name": "marcindulak/learning-api-styles-gen-ai-experiments"
+    },
+    {
+      "elapsed_seconds": 0.255,
+      "full_name": "maxritter/pilot-shell-demo"
+    },
+    {
+      "elapsed_seconds": 0.275,
+      "full_name": "simonw/sqlite-diffable"
+    },
+    {
+      "elapsed_seconds": 0.275,
+      "full_name": "yzyydev/agentic-coding-structure"
+    },
+    {
+      "elapsed_seconds": 0.273,
+      "full_name": "alexei-led/aws-mcp-server"
+    },
+    {
+      "elapsed_seconds": 0.321,
+      "full_name": "sculptdotfun/viberank"
+    },
+    {
+      "elapsed_seconds": 0.27,
+      "full_name": "1sh1ro/liangxi-skills"
+    },
+    {
+      "elapsed_seconds": 0.299,
+      "full_name": "dp111/6502timing"
+    },
+    {
+      "elapsed_seconds": 0.279,
+      "full_name": "zsio/claude-code-hub"
+    },
+    {
+      "elapsed_seconds": 0.418,
+      "full_name": "cdeust/cortex-cowork"
+    },
+    {
+      "elapsed_seconds": 0.299,
+      "full_name": "wencuecryforme/mysoul.skill"
+    },
+    {
+      "elapsed_seconds": 0.281,
+      "full_name": "asg017/sqlite-http"
+    },
+    {
+      "elapsed_seconds": 0.339,
+      "full_name": "serpro69/claude-in-docker"
+    },
+    {
+      "elapsed_seconds": 0.305,
+      "full_name": "fimeg/networkchronicles"
+    },
+    {
+      "elapsed_seconds": 0.32,
+      "full_name": "beyondgrep/ack3"
+    },
+    {
+      "elapsed_seconds": 0.316,
+      "full_name": "atomaai/atoma-infer"
+    },
+    {
+      "elapsed_seconds": 0.309,
+      "full_name": "asg017/sqlite-loadable-rs"
+    },
+    {
+      "elapsed_seconds": 0.28,
+      "full_name": "fgrehm/clotilde"
+    },
+    {
+      "elapsed_seconds": 0.279,
+      "full_name": "abraxas-365/claudio-screenshot"
+    },
+    {
+      "elapsed_seconds": 0.292,
+      "full_name": "kingler/n8n_agent"
+    },
+    {
+      "elapsed_seconds": 0.315,
+      "full_name": "infinyon/node-bindgen"
+    },
+    {
+      "elapsed_seconds": 0.344,
+      "full_name": "cloudrepo-io/founder-os"
+    },
+    {
+      "elapsed_seconds": 0.293,
+      "full_name": "aar0npb/curator-skill"
+    },
+    {
+      "elapsed_seconds": 0.281,
+      "full_name": "marcindulak/ralph-wiggum-bdd"
+    },
+    {
+      "elapsed_seconds": 0.29,
+      "full_name": "ldayton/parable"
+    },
+    {
+      "elapsed_seconds": 0.492,
+      "full_name": "hashintel/awesome-hash"
+    },
+    {
+      "elapsed_seconds": 0.263,
+      "full_name": "hagan/claudia-statusline"
+    },
+    {
+      "elapsed_seconds": 0.285,
+      "full_name": "cloudartisan/cloudartisan.github.io"
+    },
+    {
+      "elapsed_seconds": 0.29,
+      "full_name": "nvie/git-toolbelt"
+    },
+    {
+      "elapsed_seconds": 0.294,
+      "full_name": "libp2p/specs"
+    },
+    {
+      "elapsed_seconds": 0.298,
+      "full_name": "ithiria894/awesome-claude-code-hooks"
+    },
+    {
+      "elapsed_seconds": 0.348,
+      "full_name": "automazeio/proof"
+    },
+    {
+      "elapsed_seconds": 0.325,
+      "full_name": "comme2e/comm"
+    },
+    {
+      "elapsed_seconds": 0.265,
+      "full_name": "tianrking/weixin-agent-rs"
+    },
+    {
+      "elapsed_seconds": 0.36,
+      "full_name": "lobehub/chat-plugin-sdk"
+    },
+    {
+      "elapsed_seconds": 0.278,
+      "full_name": "lualanes/lanes"
+    },
+    {
+      "elapsed_seconds": 0.32,
+      "full_name": "mitchuski/agentprivacy-skills"
+    },
+    {
+      "elapsed_seconds": 0.295,
+      "full_name": "ers35/luastatic"
+    },
+    {
+      "elapsed_seconds": 0.291,
+      "full_name": "njsmith/posy"
+    },
+    {
+      "elapsed_seconds": 0.3,
+      "full_name": "dreamiurg/peakbagger-cli"
+    },
+    {
+      "elapsed_seconds": 0.267,
+      "full_name": "danielnappa/tweakgc-cli"
+    },
+    {
+      "elapsed_seconds": 0.312,
+      "full_name": "chelsea0x3b/dfdx"
+    },
+    {
+      "elapsed_seconds": 0.323,
+      "full_name": "axolotl-ai-cloud/plugin-atropos"
+    },
+    {
+      "elapsed_seconds": 0.273,
+      "full_name": "dreamiurg/mountaineers-mcp"
+    },
+    {
+      "elapsed_seconds": 0.279,
+      "full_name": "roampal-ai/roampal-labs"
+    },
+    {
+      "elapsed_seconds": 0.313,
+      "full_name": "joinwell52-ai/joinwell52"
+    },
+    {
+      "elapsed_seconds": 0.298,
+      "full_name": "agents-squads/squads-cli"
+    },
+    {
+      "elapsed_seconds": 0.304,
+      "full_name": "mongodb/homebrew-brew"
+    },
+    {
+      "elapsed_seconds": 0.384,
+      "full_name": "lunarmodules/luacheck"
+    },
+    {
+      "elapsed_seconds": 0.336,
+      "full_name": "inkline/inkline"
+    },
+    {
+      "elapsed_seconds": 0.336,
+      "full_name": "flinedev/marketplace"
+    },
+    {
+      "elapsed_seconds": 0.322,
+      "full_name": "stripe-samples/accept-a-payment"
+    },
+    {
+      "elapsed_seconds": 0.286,
+      "full_name": "flinedev/contextkit"
+    },
+    {
+      "elapsed_seconds": 0.293,
+      "full_name": "danielrosehill/index"
+    },
+    {
+      "elapsed_seconds": 0.307,
+      "full_name": "kubernetes/steering"
+    },
+    {
+      "elapsed_seconds": 0.302,
+      "full_name": "ayoubben18/ab-method"
+    },
+    {
+      "elapsed_seconds": 0.465,
+      "full_name": "agent-sh/onboard"
+    },
+    {
+      "elapsed_seconds": 0.312,
+      "full_name": "agent-sh/can-i-help"
+    },
+    {
+      "elapsed_seconds": 0.281,
+      "full_name": "agent-sh/agent-analyzer"
+    },
+    {
+      "elapsed_seconds": 0.393,
+      "full_name": "askroundtable/expert-skills"
+    },
+    {
+      "elapsed_seconds": 0.303,
+      "full_name": "mattgodbolt/jsbeeb"
+    },
+    {
+      "elapsed_seconds": 0.33,
+      "full_name": "luarocks/luarocks"
+    },
+    {
+      "elapsed_seconds": 0.284,
+      "full_name": "0nn0/terminal-mac-cheatsheet"
+    },
+    {
+      "elapsed_seconds": 0.295,
+      "full_name": "mohammadtavakoli78/beam"
+    },
+    {
+      "elapsed_seconds": 0.344,
+      "full_name": "agent-sh/glidemq"
+    },
+    {
+      "elapsed_seconds": 0.29,
+      "full_name": "sgcarstrends/sgcarstrends"
+    },
+    {
+      "elapsed_seconds": 0.288,
+      "full_name": "klaus2m5/6502_65c02_functional_tests"
+    },
+    {
+      "elapsed_seconds": 0.284,
+      "full_name": "scopecraft/command"
+    },
+    {
+      "elapsed_seconds": 0.324,
+      "full_name": "unicode-rs/unicode-width"
+    },
+    {
+      "elapsed_seconds": 0.319,
+      "full_name": "overseedai/viwo"
+    },
+    {
+      "elapsed_seconds": 0.263,
+      "full_name": "ddollar/foreman"
+    },
+    {
+      "elapsed_seconds": 0.298,
+      "full_name": "dtormoen/tsk-tsk"
+    },
+    {
+      "elapsed_seconds": 0.303,
+      "full_name": "charmbracelet/colorprofile"
+    },
+    {
+      "elapsed_seconds": 0.284,
+      "full_name": "asg017/sqlite-lembed"
+    },
+    {
+      "elapsed_seconds": 0.309,
+      "full_name": "zeng3ld/claude-session-restore"
+    },
+    {
+      "elapsed_seconds": 0.312,
+      "full_name": "wirasm/dylan"
+    },
+    {
+      "elapsed_seconds": 0.294,
+      "full_name": "open-telemetry/opentelemetry-collector-releases"
+    },
+    {
+      "elapsed_seconds": 0.486,
+      "full_name": "mattingalls/soundflower"
+    },
+    {
+      "elapsed_seconds": 0.291,
+      "full_name": "rlxone/multisoundchanger"
+    },
+    {
+      "elapsed_seconds": 0.285,
+      "full_name": "parruda/swarm"
+    },
+    {
+      "elapsed_seconds": 0.303,
+      "full_name": "collinear-ai/yc-bench"
+    },
+    {
+      "elapsed_seconds": 0.282,
+      "full_name": "tony/claude-code-riper-5"
+    },
+    {
+      "elapsed_seconds": 0.271,
+      "full_name": "dazuiba/ccnotify"
+    },
+    {
+      "elapsed_seconds": 0.274,
+      "full_name": "kunwar-shah/claudex"
+    },
+    {
+      "elapsed_seconds": 0.369,
+      "full_name": "lobehub/chat-plugins-gateway"
+    },
+    {
+      "elapsed_seconds": 0.281,
+      "full_name": "orogene/orogene"
+    },
+    {
+      "elapsed_seconds": 0.277,
+      "full_name": "mitchuski/agentprivacy-docs"
+    },
+    {
+      "elapsed_seconds": 0.304,
+      "full_name": "google/tarpc"
+    },
+    {
+      "elapsed_seconds": 0.298,
+      "full_name": "lobehub/lobe-vidol"
+    },
+    {
+      "elapsed_seconds": 0.337,
+      "full_name": "ykdojo/cc-safe"
+    },
+    {
+      "elapsed_seconds": 0.276,
+      "full_name": "jpanther/congo"
+    }
+  ],
+  "run_id": "20260419T141509Z",
+  "skipped_count": 15,
+  "skipped_repositories": [
+    "aitooools/chatgpt-plus-hezu",
+    "aitooools/chatgpt",
+    "aitooools/gemini-pro",
+    "aitooools/claude-pro-recharge",
+    "aitooools/claude-pro",
+    "aitooools/poe",
+    "aitooools/spotify-hezu",
+    "aitooools/supergrok",
+    "aitooools/youtube-hezu",
+    "aitooools/netflix-hezu",
+    "aitooools/nf-video",
+    "aitooools/claude-pro-hezu",
+    "aitooools/chatgpt-plus-recharge",
+    "aitooools/aitooools.github.io",
+    "geiserx/agenttap"
+  ],
+  "stopped_due_to_budget": false
+}

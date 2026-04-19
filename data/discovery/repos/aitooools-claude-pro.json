@@ -37,14 +37,19 @@
       "size": 17428
     }
   ],
+  "metadata_refresh_error": "repo_not_found",
+  "metadata_refreshed_at": "2026-04-19T14:15:10.870719+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": null,
     "default_branch": "main",
     "description": "2026\u5e74\u6700\u65b0Claude\u5145\u503c\u8ba2\u9605\u653b\u7565\uff0c\u5305\u62ecClaude\u6ce8\u518c\u3001Claude\u8d26\u53f7\u8d2d\u4e70\u3001Claude\u62fc\u8f66\u5408\u79df\u3001Claude Pro\u4ee3\u5145\u3001Claude Code\u56fd\u5185\u4f7f\u7528\u6559\u7a0b\uff01",
+    "fork": null,
     "full_name": "aitooools/claude-pro",
     "html_url": "https://github.com/aitooools/claude-pro",
     "language": null,
     "pushed_at": "2026-04-17T13:49:40Z",
+    "stargazers_count": null,
     "topics": [
       "ai",
       "claude",

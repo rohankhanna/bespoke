@@ -37,14 +37,19 @@
       "size": 15062
     }
   ],
+  "metadata_refresh_error": "repo_not_found",
+  "metadata_refreshed_at": "2026-04-19T14:15:11.282141+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": null,
     "default_branch": "main",
     "description": "\u6700\u65b0Spotify\u5408\u79df\u6307\u5357\uff1a2026\u5e74\u6700\u9760\u8c31\u7684Spotify\u62fc\u8f66\u5e73\u53f0\u63a8\u8350\uff08\u6bcf\u6708\u4ec5\u970012\u5143\uff09\uff0c\u672c\u6587\u8fd8\u4f1a\u8be6\u7ec6\u89e3\u7b54\u5728\u8d2d\u4e70Spotify\u5171\u4eab\u8d26\u53f7\u8fc7\u7a0b\u4e2d\u53ef\u80fd\u9047\u5230\u7684\u5404\u79cd\u5e38\u89c1\u95ee\u9898\uff0c\u5e2e\u52a9\u4f60\u8f7b\u677e\u5f00\u542f\u9ad8\u54c1\u8d28\u7684\u97f3\u4e50\u4e4b\u65c5\u3002",
+    "fork": null,
     "full_name": "aitooools/spotify-hezu",
     "html_url": "https://github.com/aitooools/spotify-hezu",
     "language": null,
     "pushed_at": "2026-04-17T13:18:44Z",
+    "stargazers_count": null,
     "topics": [
       "spotify",
       "spotify-music"

@@ -226,6 +226,8 @@
       "size": 7796
     }
   ],
+  "metadata_refresh_error": "repo_not_found",
+  "metadata_refreshed_at": "2026-04-19T14:15:11.483622+00:00",
   "related_repositories": [
     {
       "description": "any contract you deploy through ChainForge on Ethereum mainnet",
@@ -652,12 +654,15 @@
     }
   ],
   "repo": {
+    "archived": null,
     "default_branch": "main",
     "description": "2026\u5e74\u6700\u65b0SuperGrok\u8ba2\u9605\u6559\u7a0b\uff1a\u5982\u4f55\u4e3aSuperGrok\u4ee3\u5145\u503c\uff1f\u5982\u4f55\u8d2d\u4e70SuperGrok\u72ec\u7acb\u8d26\u53f7\uff1f\u5982\u4f55\u62fc\u8f66\u5408\u79dfSuperGrok\u8d26\u53f7\uff1f",
+    "fork": null,
     "full_name": "aitooools/supergrok",
     "html_url": "https://github.com/aitooools/supergrok",
     "language": null,
     "pushed_at": "2026-04-17T13:44:36Z",
+    "stargazers_count": null,
     "topics": [
       "grok",
       "grok-2",

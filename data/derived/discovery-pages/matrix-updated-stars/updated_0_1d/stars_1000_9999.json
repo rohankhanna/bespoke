@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 741,
-    "concepts": 108,
-    "observations": 108,
-    "repos": 29,
-    "terms": 215
+    "components": 727,
+    "concepts": 98,
+    "observations": 98,
+    "repos": 28,
+    "terms": 205
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T14:07:48.865978+00:00",
+  "generated_at": "2026-04-19T14:16:25.973890+00:00",
   "repo_ids": [
     "abraxas-365/langchain-rust",
     "alchaincyf/darwin-skill",
@@ -19,7 +19,6 @@
     "arogozhnikov/einops",
     "basicmachines-co/basic-memory",
     "BoundaryML/baml",
-    "cargo-bins/cargo-binstall",
     "databus23/helm-diff",
     "ding113/claude-code-hub",
     "dyoshikawa/rulesync",

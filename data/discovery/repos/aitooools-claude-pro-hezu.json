@@ -16,14 +16,19 @@
       "size": 8724
     }
   ],
+  "metadata_refresh_error": "repo_not_found",
+  "metadata_refreshed_at": "2026-04-19T14:15:12.324528+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": null,
     "default_branch": "main",
     "description": "2026\u5e74\u6700\u65b0Claude\u5408\u79df\u653b\u7565\uff1a\u6700\u9760\u8c31\u7684Claude\u62fc\u8f66(14\u5143\u8d77)\u548cClaude Code\u62fc\u8f66(299\u5143/\u6708)\u6e20\u9053\u63a8\u8350\uff01",
+    "fork": null,
     "full_name": "aitooools/claude-pro-hezu",
     "html_url": "https://github.com/aitooools/claude-pro-hezu",
     "language": null,
     "pushed_at": "2026-04-17T13:34:01Z",
+    "stargazers_count": null,
     "topics": [
       "claude",
       "claude-3",

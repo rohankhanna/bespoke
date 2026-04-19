@@ -1,6 +1,6 @@
 # Updated in the last 24 hours
 
-Generated at: `2026-04-19T14:07:48.865978+00:00`
+Generated at: `2026-04-19T14:16:25.973890+00:00`
 
 ## Active filters
 
@@ -8,11 +8,11 @@ Generated at: `2026-04-19T14:07:48.865978+00:00`
 
 ## Counts
 
-- repos: 201
-- terms: 981
-- components: 3694
-- concepts: 608
-- observations: 610
+- repos: 200
+- terms: 971
+- components: 3680
+- concepts: 598
+- observations: 600
 
 ## Static behavior
 
@@ -222,7 +222,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vincent-k2026/codachi](https://github.com/vincent-k2026/codachi) | 5 | 2026-04-18T15:47:52Z | TypeScript | CLI | 7 | 6 | 7 | 7 |
 | [mikeyobrien/ralph-orchestrator](https://github.com/mikeyobrien/ralph-orchestrator) | 2728 | 2026-04-18T15:33:51Z | Rust | CLI | 5 | 10 | 0 | 0 |
 | [skenetechnologies/skene](https://github.com/SkeneTechnologies/skene) | 291 | 2026-04-18T15:18:21Z | Go | CLI | 7 | 10 | 0 | 0 |
-| [cargo-bins/cargo-binstall](https://github.com/cargo-bins/cargo-binstall) | 2615 | 2026-04-18T14:11:01Z | Rust | Infrastructure/tooling | 10 | 14 | 10 | 10 |
 
 ## Repos sorted by stars
 
@@ -304,7 +303,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nesquena/hermes-webui](https://github.com/nesquena/hermes-webui) | 2782 | 2026-04-19T07:36:00Z | Python | Infrastructure/tooling | 2 | 8 | 0 | 0 |
 | [mikeyobrien/ralph-orchestrator](https://github.com/mikeyobrien/ralph-orchestrator) | 2728 | 2026-04-18T15:33:51Z | Rust | CLI | 5 | 10 | 0 | 0 |
 | [lobehub/sd-webui-lobe-theme](https://github.com/lobehub/sd-webui-lobe-theme) | 2684 | 2026-04-19T10:10:10Z | TypeScript | Infrastructure/tooling | 5 | 69 | 0 | 0 |
-| [cargo-bins/cargo-binstall](https://github.com/cargo-bins/cargo-binstall) | 2615 | 2026-04-18T14:11:01Z | Rust | Infrastructure/tooling | 10 | 14 | 10 | 10 |
 | [libp2p/js-libp2p](https://github.com/libp2p/js-libp2p) | 2542 | 2026-04-19T11:45:10Z | TypeScript | Infrastructure/tooling | 9 | 15 | 9 | 9 |
 | [ding113/claude-code-hub](https://github.com/ding113/claude-code-hub) | 2539 | 2026-04-19T14:00:02Z | TypeScript | Infrastructure/tooling | 10 | 90 | 0 | 0 |
 | [peergos/peergos](https://github.com/Peergos/Peergos) | 2393 | 2026-04-18T23:06:04Z | Java | Infrastructure/tooling | 1 | 2 | 0 | 0 |

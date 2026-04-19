@@ -30,14 +30,19 @@
       "size": 8603
     }
   ],
+  "metadata_refresh_error": "repo_not_found",
+  "metadata_refreshed_at": "2026-04-19T14:15:10.502890+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": null,
     "default_branch": "main",
     "description": "2026\u5e74\u6700\u9760\u8c31\u7684Claude Pro\u4ee3\u5145\u503c\u5e73\u53f0\u63a8\u8350\uff01\u63d0\u4f9b\u5168\u7a0b\u8d28\u4fdd\uff0c\u652f\u6301\u5f00\u5177\u53d1\u7968\uff01",
+    "fork": null,
     "full_name": "aitooools/claude-pro-recharge",
     "html_url": "https://github.com/aitooools/claude-pro-recharge",
     "language": null,
     "pushed_at": "2026-04-17T13:51:14Z",
+    "stargazers_count": null,
     "topics": [
       "claude",
       "claude-3",

@@ -37,14 +37,19 @@
       "size": 18158
     }
   ],
+  "metadata_refresh_error": "repo_not_found",
+  "metadata_refreshed_at": "2026-04-19T14:15:10.308567+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": null,
     "default_branch": "main",
     "description": "2026\u5e74\u6700\u65b0Gemini Pro\u56fd\u5185\u4f7f\u7528\u6559\u7a0b\uff1a\u5982\u4f55\u4e3aGemini Pro\u4ee3\u5145\u503c\uff1f\u5982\u4f55\u8d2d\u4e70Gemini Pro\u8d26\u53f7\uff1f\u5982\u4f55\u62fc\u8f66\u5408\u79dfGemini Pro\u4f1a\u5458\uff1f\u6211\u4eec\u4e5f\u4f1a\u4e3a\u5927\u5bb6\u89e3\u7b54\u5f53\u63d0\u793a\u6b64\u8d26\u53f7\u65e0\u6cd5\u8ba2\u9605Google AI\u65b9\u6848\u65f6\u600e\u4e48\u529e\u3001\u5982\u4f55\u5feb\u901f\u83b7\u53d6Gemini\u5b66\u751f\u6559\u80b2\u4f18\u60e0\u8d26\u53f7\u3001\u5982\u4f55\u4e0b\u8f7dGoogle Gemini\u5ba2\u6237\u7aef\u3001Gemini\u65e0\u6cd5\u4f7f\u7528\u4e86\u8be5\u600e\u4e48\u529e\u7b49\u5e38\u89c1\u95ee\u9898\u3002",
+    "fork": null,
     "full_name": "aitooools/gemini-pro",
     "html_url": "https://github.com/aitooools/gemini-pro",
     "language": null,
     "pushed_at": "2026-04-17T13:21:44Z",
+    "stargazers_count": null,
     "topics": [
       "gemini",
       "gemini-2",

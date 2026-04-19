@@ -364,14 +364,19 @@
       "size": 711
     }
   ],
+  "metadata_refresh_error": "repo_not_found",
+  "metadata_refreshed_at": "2026-04-19T14:15:12.951041+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": null,
     "default_branch": "main",
     "description": "Capture AI agent traces at the network level via split VPN + local MITM proxy. Zero per-app config, real-time streaming, multi-provider.",
+    "fork": null,
     "full_name": "GeiserX/AgentTap",
     "html_url": "https://github.com/GeiserX/AgentTap",
     "language": "TypeScript",
     "pushed_at": "2026-04-17T17:05:18Z",
+    "stargazers_count": null,
     "topics": [
       "agent-traces",
       "ai-traces",

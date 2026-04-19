@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2251,
-    "concepts": 806,
-    "observations": 813,
-    "repos": 233,
-    "terms": 1052
+    "components": 2265,
+    "concepts": 816,
+    "observations": 823,
+    "repos": 234,
+    "terms": 1062
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:07:48.865978+00:00",
+  "generated_at": "2026-04-19T14:16:25.973890+00:00",
   "repo_ids": [
     "1panel-dev/1panel",
     "1panel-dev/maxkb",
@@ -72,6 +72,7 @@
     "bensadeh/circumflex",
     "beyondcode/claude-hooks-sdk",
     "bryanh9111/engram",
+    "cargo-bins/cargo-binstall",
     "casey/just",
     "cdeust/cortex",
     "cdeust/zetetic-team-subagents",

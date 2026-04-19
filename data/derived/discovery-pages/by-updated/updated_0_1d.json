@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 3694,
-    "concepts": 608,
-    "observations": 610,
-    "repos": 201,
-    "terms": 981
+    "components": 3680,
+    "concepts": 598,
+    "observations": 600,
+    "repos": 200,
+    "terms": 971
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T14:07:48.865978+00:00",
+  "generated_at": "2026-04-19T14:16:25.973890+00:00",
   "repo_ids": [
     "abraxas-365/claudio",
     "abraxas-365/langchain-rust",
@@ -39,7 +39,6 @@
     "bunburysniper/bleunova-ai-agent",
     "caesar0301/soothe",
     "cafitac/hermit-agent",
-    "cargo-bins/cargo-binstall",
     "cargo-bins/cargo-quickinstall",
     "carloandremoreyra/xx",
     "chafingdishposition355/go-skills",

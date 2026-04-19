@@ -37,14 +37,19 @@
       "size": 8368
     }
   ],
+  "metadata_refresh_error": "repo_not_found",
+  "metadata_refreshed_at": "2026-04-19T14:15:10.117658+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": null,
     "default_branch": "main",
     "description": "2026\u5e74\u6700\u65b0ChatGPT\u6ce8\u518c\u6559\u7a0b\uff1a\u5982\u4f55\u6ce8\u518cChatGPT\u8d26\u53f7\uff1f\u5982\u4f55\u8d2d\u4e70ChatGPT\u8d26\u53f7\uff1f\u672c\u6587\u5c06\u8be6\u7ec6\u4e3a\u5927\u5bb6\u89e3\u7b54\u8fd9\u4e9b\u95ee\u9898\uff0c\u5e76\u63a8\u8350\u51e0\u4e2a\u6700\u53ef\u9760\u7684ChatGPT\u8d26\u53f7\u8d2d\u4e70\u5e73\u53f0\uff0c\u5e2e\u52a9\u5927\u5bb6\u5feb\u901f\u83b7\u53d6\u4e13\u5c5e\u7684ChatGPT\u8d26\u53f7\u3002",
+    "fork": null,
     "full_name": "aitooools/chatgpt",
     "html_url": "https://github.com/aitooools/chatgpt",
     "language": null,
     "pushed_at": "2026-04-17T13:54:49Z",
+    "stargazers_count": null,
     "topics": [
       "ai",
       "chat-gpt",

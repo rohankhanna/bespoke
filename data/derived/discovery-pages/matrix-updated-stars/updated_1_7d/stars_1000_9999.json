@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 966,
-    "concepts": 316,
-    "observations": 318,
-    "repos": 60,
-    "terms": 394
+    "components": 980,
+    "concepts": 326,
+    "observations": 328,
+    "repos": 61,
+    "terms": 404
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:07:48.865978+00:00",
+  "generated_at": "2026-04-19T14:16:25.973890+00:00",
   "repo_ids": [
     "actions/runner",
     "agricidaniel/claude-ads",
@@ -22,6 +22,7 @@
     "automazeio/vibeproxy",
     "awslabs/eks-node-viewer",
     "bensadeh/circumflex",
+    "cargo-bins/cargo-binstall",
     "cedar-policy/cedar",
     "containers/podman-compose",
     "crate-ci/typos",

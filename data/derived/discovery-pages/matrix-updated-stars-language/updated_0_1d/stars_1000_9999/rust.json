@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 73,
-    "concepts": 30,
-    "observations": 30,
-    "repos": 5,
-    "terms": 48
+    "components": 59,
+    "concepts": 20,
+    "observations": 20,
+    "repos": 4,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T14:07:48.865978+00:00",
+  "generated_at": "2026-04-19T14:16:25.973890+00:00",
   "repo_ids": [
     "abraxas-365/langchain-rust",
     "BoundaryML/baml",
-    "cargo-bins/cargo-binstall",
     "hashintel/hash",
     "mikeyobrien/ralph-orchestrator"
   ]
