@@ -1,12 +1,14 @@
-name: github-seed-discovery-dev
+name: github-discovery-pages-daily
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '30 6 * * *'
 
 jobs:
-  discover:
+  build-pages:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 360
     permissions:
       contents: write
     concurrency:
@@ -48,17 +50,9 @@ jobs:
             git rev-parse HEAD:data > /tmp/origin-data-start.sha
           fi
 
-      - name: Run seeded GitHub discovery
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-          DISCOVERY_BUDGET_SECONDS: "180"
-          DISCOVERY_MIN_REPO_START_SECONDS: "15"
-          DISCOVERY_HARD_STOP_SECONDS: "20"
+      - name: Build discovery pages
         run: |
-          python scripts/github_seed_discovery.py \
-            discovery/config/seed-repos.json \
-            discovery/config/discovery-limits.json \
-            ../bespoke-data
+          python scripts/build_discovery_pages.py ../bespoke-data
 
       - name: Commit and push data updates
         run: |
@@ -72,10 +66,10 @@ jobs:
           cd ../bespoke-data
           git add data/
           if git diff --cached --quiet; then
-            echo "No discovery changes to commit"
+            echo "No discovery page changes to commit"
             exit 0
           fi
-          git commit -m "ci: update github seed discovery artifacts"
+          git commit -m "ci: update discovery pages"
           git push origin HEAD:data
 
       - name: Cleanup worktree
