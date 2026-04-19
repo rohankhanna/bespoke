@@ -1,6 +1,6 @@
 # Updated in the last 24 hours
 
-Generated at: `2026-04-19T05:15:16.254786+00:00`
+Generated at: `2026-04-19T06:58:55.872585+00:00`
 
 ## Active filters
 
@@ -8,11 +8,11 @@ Generated at: `2026-04-19T05:15:16.254786+00:00`
 
 ## Counts
 
-- repos: 66
-- terms: 570
-- components: 2057
-- concepts: 501
-- observations: 502
+- repos: 55
+- terms: 490
+- components: 1842
+- concepts: 440
+- observations: 441
 
 ## Static behavior
 
@@ -77,17 +77,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vibe-log/vibe-log-cli](https://github.com/vibe-log/vibe-log-cli) | unknown | 2026-04-18T07:08:05Z | TypeScript | CLI | 3 | 37 | 0 | 0 |
 | [moby/moby](https://github.com/moby/moby) | unknown | 2026-04-18T07:02:24Z | Go | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [jeremymailen/kotlinter-gradle](https://github.com/jeremymailen/kotlinter-gradle) | unknown | 2026-04-18T07:00:43Z | Other | Infrastructure/tooling | 2 | 5 | 0 | 0 |
-| [django/django](https://github.com/django/django) | unknown | 2026-04-18T06:53:21Z | Python | Infrastructure/tooling | 7 | 13 | 0 | 0 |
-| [costiash/claude-code-docs](https://github.com/costiash/claude-code-docs) | unknown | 2026-04-18T06:43:16Z | Python | Infrastructure/tooling | 6 | 7 | 0 | 0 |
-| [langchain-ai/langchainjs](https://github.com/langchain-ai/langchainjs) | unknown | 2026-04-18T06:37:27Z | TypeScript | Infrastructure/tooling | 7 | 24 | 7 | 7 |
-| [ethpandaops/xatu-data](https://github.com/ethpandaops/xatu-data) | unknown | 2026-04-18T06:36:14Z | Other | Infrastructure/tooling | 3 | 3 | 0 | 0 |
-| [Eventual-Inc/Daft](https://github.com/Eventual-Inc/Daft) | unknown | 2026-04-18T06:31:22Z | Rust | Infrastructure/tooling | 21 | 18 | 21 | 21 |
-| [microsoft/typescript-go](https://github.com/microsoft/typescript-go) | unknown | 2026-04-18T06:26:20Z | Go | Infrastructure/tooling | 2 | 24 | 2 | 2 |
-| [QuantumNous/new-api](https://github.com/QuantumNous/new-api) | unknown | 2026-04-18T06:22:55Z | Go | Infrastructure/tooling | 10 | 19 | 10 | 10 |
-| [soramimi/Guitar](https://github.com/soramimi/Guitar) | unknown | 2026-04-18T05:59:07Z | C/C++ | CLI | 1 | 7 | 0 | 0 |
-| [slopus/happy](https://github.com/slopus/happy) | unknown | 2026-04-18T05:50:19Z | TypeScript | CLI | 2 | 3 | 0 | 0 |
-| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | unknown | 2026-04-18T05:49:35Z | Python | Infrastructure/tooling | 10 | 17 | 10 | 10 |
-| [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) | unknown | 2026-04-18T05:35:47Z | TypeScript | CLI | 11 | 80 | 11 | 11 |
 
 ## Repos sorted by stars
 
@@ -148,14 +137,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vibe-log/vibe-log-cli](https://github.com/vibe-log/vibe-log-cli) | unknown | 2026-04-18T07:08:05Z | TypeScript | CLI | 3 | 37 | 0 | 0 |
 | [moby/moby](https://github.com/moby/moby) | unknown | 2026-04-18T07:02:24Z | Go | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [jeremymailen/kotlinter-gradle](https://github.com/jeremymailen/kotlinter-gradle) | unknown | 2026-04-18T07:00:43Z | Other | Infrastructure/tooling | 2 | 5 | 0 | 0 |
-| [django/django](https://github.com/django/django) | unknown | 2026-04-18T06:53:21Z | Python | Infrastructure/tooling | 7 | 13 | 0 | 0 |
-| [costiash/claude-code-docs](https://github.com/costiash/claude-code-docs) | unknown | 2026-04-18T06:43:16Z | Python | Infrastructure/tooling | 6 | 7 | 0 | 0 |
-| [langchain-ai/langchainjs](https://github.com/langchain-ai/langchainjs) | unknown | 2026-04-18T06:37:27Z | TypeScript | Infrastructure/tooling | 7 | 24 | 7 | 7 |
-| [ethpandaops/xatu-data](https://github.com/ethpandaops/xatu-data) | unknown | 2026-04-18T06:36:14Z | Other | Infrastructure/tooling | 3 | 3 | 0 | 0 |
-| [Eventual-Inc/Daft](https://github.com/Eventual-Inc/Daft) | unknown | 2026-04-18T06:31:22Z | Rust | Infrastructure/tooling | 21 | 18 | 21 | 21 |
-| [microsoft/typescript-go](https://github.com/microsoft/typescript-go) | unknown | 2026-04-18T06:26:20Z | Go | Infrastructure/tooling | 2 | 24 | 2 | 2 |
-| [QuantumNous/new-api](https://github.com/QuantumNous/new-api) | unknown | 2026-04-18T06:22:55Z | Go | Infrastructure/tooling | 10 | 19 | 10 | 10 |
-| [soramimi/Guitar](https://github.com/soramimi/Guitar) | unknown | 2026-04-18T05:59:07Z | C/C++ | CLI | 1 | 7 | 0 | 0 |
-| [slopus/happy](https://github.com/slopus/happy) | unknown | 2026-04-18T05:50:19Z | TypeScript | CLI | 2 | 3 | 0 | 0 |
-| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | unknown | 2026-04-18T05:49:35Z | Python | Infrastructure/tooling | 10 | 17 | 10 | 10 |
-| [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) | unknown | 2026-04-18T05:35:47Z | TypeScript | CLI | 11 | 80 | 11 | 11 |

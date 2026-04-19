@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · Unknown stars · Python
 
-Generated at: `2026-04-19T05:15:16.254786+00:00`
+Generated at: `2026-04-19T06:58:55.872585+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 13
-- terms: 169
-- components: 135
-- concepts: 156
-- observations: 156
+- repos: 10
+- terms: 146
+- components: 98
+- concepts: 146
+- observations: 146
 
 ## Static behavior
 
@@ -36,9 +36,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sgl-project/sglang](https://github.com/sgl-project/sglang) | unknown | 2026-04-18T10:14:40Z | Python | Infrastructure/tooling | 22 | 5 | 22 | 22 |
 | [agiletec-inc/airis-mcp-gateway](https://github.com/agiletec-inc/airis-mcp-gateway) | unknown | 2026-04-18T09:30:28Z | Python | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [vllm-project/vllm](https://github.com/vllm-project/vllm) | unknown | 2026-04-18T07:48:55Z | Python | Infrastructure/tooling | 20 | 7 | 20 | 20 |
-| [django/django](https://github.com/django/django) | unknown | 2026-04-18T06:53:21Z | Python | Infrastructure/tooling | 7 | 13 | 0 | 0 |
-| [costiash/claude-code-docs](https://github.com/costiash/claude-code-docs) | unknown | 2026-04-18T06:43:16Z | Python | Infrastructure/tooling | 6 | 7 | 0 | 0 |
-| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | unknown | 2026-04-18T05:49:35Z | Python | Infrastructure/tooling | 10 | 17 | 10 | 10 |
 
 ## Repos sorted by stars
 
@@ -54,6 +51,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sgl-project/sglang](https://github.com/sgl-project/sglang) | unknown | 2026-04-18T10:14:40Z | Python | Infrastructure/tooling | 22 | 5 | 22 | 22 |
 | [agiletec-inc/airis-mcp-gateway](https://github.com/agiletec-inc/airis-mcp-gateway) | unknown | 2026-04-18T09:30:28Z | Python | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [vllm-project/vllm](https://github.com/vllm-project/vllm) | unknown | 2026-04-18T07:48:55Z | Python | Infrastructure/tooling | 20 | 7 | 20 | 20 |
-| [django/django](https://github.com/django/django) | unknown | 2026-04-18T06:53:21Z | Python | Infrastructure/tooling | 7 | 13 | 0 | 0 |
-| [costiash/claude-code-docs](https://github.com/costiash/claude-code-docs) | unknown | 2026-04-18T06:43:16Z | Python | Infrastructure/tooling | 6 | 7 | 0 | 0 |
-| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | unknown | 2026-04-18T05:49:35Z | Python | Infrastructure/tooling | 10 | 17 | 10 | 10 |

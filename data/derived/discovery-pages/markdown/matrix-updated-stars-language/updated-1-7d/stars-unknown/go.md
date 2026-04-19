@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · Unknown stars · Go
 
-Generated at: `2026-04-19T05:15:16.254786+00:00`
+Generated at: `2026-04-19T06:58:55.872585+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 31
-- terms: 174
-- components: 194
-- concepts: 155
-- observations: 156
+- repos: 33
+- terms: 186
+- components: 237
+- concepts: 167
+- observations: 168
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [microsoft/typescript-go](https://github.com/microsoft/typescript-go) | unknown | 2026-04-18T06:26:20Z | Go | Infrastructure/tooling | 2 | 24 | 2 | 2 |
+| [QuantumNous/new-api](https://github.com/QuantumNous/new-api) | unknown | 2026-04-18T06:22:55Z | Go | Infrastructure/tooling | 10 | 19 | 10 | 10 |
 | [gastownhall/beads](https://github.com/gastownhall/beads) | unknown | 2026-04-18T04:02:04Z | Go | Infrastructure/tooling | 9 | 15 | 9 | 9 |
 | [open-telemetry/opentelemetry-collector-releases](https://github.com/open-telemetry/opentelemetry-collector-releases) | unknown | 2026-04-18T03:08:07Z | Go | Infrastructure/tooling | 10 | 14 | 10 | 10 |
 | [Abraxas-365/claudio](https://github.com/Abraxas-365/claudio) | unknown | 2026-04-18T03:00:38Z | Go | CLI | 0 | 3 | 0 | 0 |
@@ -62,6 +64,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [microsoft/typescript-go](https://github.com/microsoft/typescript-go) | unknown | 2026-04-18T06:26:20Z | Go | Infrastructure/tooling | 2 | 24 | 2 | 2 |
+| [QuantumNous/new-api](https://github.com/QuantumNous/new-api) | unknown | 2026-04-18T06:22:55Z | Go | Infrastructure/tooling | 10 | 19 | 10 | 10 |
 | [gastownhall/beads](https://github.com/gastownhall/beads) | unknown | 2026-04-18T04:02:04Z | Go | Infrastructure/tooling | 9 | 15 | 9 | 9 |
 | [open-telemetry/opentelemetry-collector-releases](https://github.com/open-telemetry/opentelemetry-collector-releases) | unknown | 2026-04-18T03:08:07Z | Go | Infrastructure/tooling | 10 | 14 | 10 | 10 |
 | [Abraxas-365/claudio](https://github.com/Abraxas-365/claudio) | unknown | 2026-04-18T03:00:38Z | Go | CLI | 0 | 3 | 0 | 0 |

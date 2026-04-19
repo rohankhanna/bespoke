@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 175,
-    "concepts": 94,
-    "observations": 94,
-    "repos": 10,
-    "terms": 107
+    "components": 157,
+    "concepts": 73,
+    "observations": 73,
+    "repos": 9,
+    "terms": 86
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T05:15:16.254786+00:00",
+  "generated_at": "2026-04-19T06:58:55.872585+00:00",
   "repo_ids": [
     "astral-sh/ruff",
     "cargo-bins/cargo-quickinstall",
     "denoland/deno",
-    "Eventual-Inc/Daft",
     "hashintel/hash",
     "openai/codex",
     "rust-lang/rust",

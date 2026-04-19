@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · Unknown stars · C/C++
 
-Generated at: `2026-04-19T05:15:16.254786+00:00`
+Generated at: `2026-04-19T06:58:55.872585+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 8
-- terms: 25
-- components: 34
+- repos: 9
+- terms: 26
+- components: 41
 - concepts: 12
 - observations: 12
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [soramimi/Guitar](https://github.com/soramimi/Guitar) | unknown | 2026-04-18T05:59:07Z | C/C++ | CLI | 1 | 7 | 0 | 0 |
 | [gbrobro119-star/darksword-kexploit](https://github.com/gbrobro119-star/darksword-kexploit) | unknown | 2026-04-18T04:39:42Z | C/C++ | Unknown | 1 | 0 | 0 | 0 |
 | [liangshengyong/LanWan](https://github.com/liangshengyong/LanWan) | unknown | 2026-04-18T03:27:39Z | C/C++ | CLI | 2 | 2 | 0 | 0 |
 | [PX4/PX4-Autopilot](https://github.com/PX4/PX4-Autopilot) | unknown | 2026-04-17T18:25:11Z | C/C++ | Infrastructure/tooling | 10 | 19 | 0 | 0 |
@@ -39,6 +40,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [soramimi/Guitar](https://github.com/soramimi/Guitar) | unknown | 2026-04-18T05:59:07Z | C/C++ | CLI | 1 | 7 | 0 | 0 |
 | [gbrobro119-star/darksword-kexploit](https://github.com/gbrobro119-star/darksword-kexploit) | unknown | 2026-04-18T04:39:42Z | C/C++ | Unknown | 1 | 0 | 0 | 0 |
 | [liangshengyong/LanWan](https://github.com/liangshengyong/LanWan) | unknown | 2026-04-18T03:27:39Z | C/C++ | CLI | 2 | 2 | 0 | 0 |
 | [PX4/PX4-Autopilot](https://github.com/PX4/PX4-Autopilot) | unknown | 2026-04-17T18:25:11Z | C/C++ | Infrastructure/tooling | 10 | 19 | 0 | 0 |

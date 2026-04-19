@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 474,
+    "components": 513,
     "concepts": 160,
     "observations": 160,
-    "repos": 51,
-    "terms": 228
+    "repos": 52,
+    "terms": 229
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-19T05:15:16.254786+00:00",
+  "generated_at": "2026-04-19T06:58:55.872585+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "abduznik/Git-Alchemist",
@@ -62,6 +62,7 @@
     "Talieisin/britfix",
     "tombelieber/claude-backup",
     "unicode-rs/unicode-width",
+    "vercel/satori",
     "withastro/compiler"
   ]
 }

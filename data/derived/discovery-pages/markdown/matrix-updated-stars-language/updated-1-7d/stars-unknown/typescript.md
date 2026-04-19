@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · Unknown stars · TypeScript
 
-Generated at: `2026-04-19T05:15:16.254786+00:00`
+Generated at: `2026-04-19T06:58:55.872585+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 72
-- terms: 349
-- components: 2162
-- concepts: 126
-- observations: 126
+- repos: 75
+- terms: 369
+- components: 2269
+- concepts: 144
+- observations: 144
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [langchain-ai/langchainjs](https://github.com/langchain-ai/langchainjs) | unknown | 2026-04-18T06:37:27Z | TypeScript | Infrastructure/tooling | 7 | 24 | 7 | 7 |
+| [slopus/happy](https://github.com/slopus/happy) | unknown | 2026-04-18T05:50:19Z | TypeScript | CLI | 2 | 3 | 0 | 0 |
+| [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) | unknown | 2026-04-18T05:35:47Z | TypeScript | CLI | 11 | 80 | 11 | 11 |
 | [lobehub/lobe-ui](https://github.com/lobehub/lobe-ui) | unknown | 2026-04-18T05:00:30Z | TypeScript | Infrastructure/tooling | 6 | 125 | 0 | 0 |
 | [Dokploy/cli](https://github.com/Dokploy/cli) | unknown | 2026-04-18T04:41:53Z | TypeScript | CLI | 3 | 12 | 3 | 3 |
 | [fekkak1998/scira](https://github.com/fekkak1998/scira) | unknown | 2026-04-18T04:12:03Z | TypeScript | CLI | 0 | 178 | 0 | 0 |
@@ -103,6 +106,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [langchain-ai/langchainjs](https://github.com/langchain-ai/langchainjs) | unknown | 2026-04-18T06:37:27Z | TypeScript | Infrastructure/tooling | 7 | 24 | 7 | 7 |
+| [slopus/happy](https://github.com/slopus/happy) | unknown | 2026-04-18T05:50:19Z | TypeScript | CLI | 2 | 3 | 0 | 0 |
+| [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) | unknown | 2026-04-18T05:35:47Z | TypeScript | CLI | 11 | 80 | 11 | 11 |
 | [lobehub/lobe-ui](https://github.com/lobehub/lobe-ui) | unknown | 2026-04-18T05:00:30Z | TypeScript | Infrastructure/tooling | 6 | 125 | 0 | 0 |
 | [Dokploy/cli](https://github.com/Dokploy/cli) | unknown | 2026-04-18T04:41:53Z | TypeScript | CLI | 3 | 12 | 3 | 3 |
 | [fekkak1998/scira](https://github.com/fekkak1998/scira) | unknown | 2026-04-18T04:12:03Z | TypeScript | CLI | 0 | 178 | 0 | 0 |

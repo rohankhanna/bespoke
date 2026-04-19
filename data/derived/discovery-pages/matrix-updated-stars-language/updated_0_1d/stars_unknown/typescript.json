@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 995,
-    "concepts": 92,
-    "observations": 92,
-    "repos": 18,
-    "terms": 108
+    "components": 888,
+    "concepts": 74,
+    "observations": 74,
+    "repos": 15,
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T05:15:16.254786+00:00",
+  "generated_at": "2026-04-19T06:58:55.872585+00:00",
   "repo_ids": [
     "EveryInc/compound-engineering-plugin",
-    "google-gemini/gemini-cli",
-    "langchain-ai/langchainjs",
     "letta-ai/letta-code",
     "libp2p/js-libp2p",
     "lobehub/lobehub",
@@ -29,7 +27,6 @@
     "qwibitai/nanoclaw",
     "recharts/recharts",
     "ryoppippi/ccusage",
-    "slopus/happy",
     "upstash/context7",
     "vibe-log/vibe-log-cli"
   ]

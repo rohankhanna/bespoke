@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 135,
-    "concepts": 156,
-    "observations": 156,
-    "repos": 13,
-    "terms": 169
+    "components": 98,
+    "concepts": 146,
+    "observations": 146,
+    "repos": 10,
+    "terms": 146
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,16 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T05:15:16.254786+00:00",
+  "generated_at": "2026-04-19T06:58:55.872585+00:00",
   "repo_ids": [
     "agiletec-inc/airis-mcp-gateway",
     "arogozhnikov/einops",
     "Ayanami0730/deep_research_bench",
-    "costiash/claude-code-docs",
-    "django/django",
     "embeddings-benchmark/mteb",
     "flashinfer-ai/flashinfer",
     "huggingface/transformers",
     "langchain-ai/langchain",
     "oraios/serena",
-    "pydantic/pydantic-ai",
     "sgl-project/sglang",
     "vllm-project/vllm"
   ]

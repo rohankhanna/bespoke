@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · Unknown stars · Other
 
-Generated at: `2026-04-19T05:15:16.254786+00:00`
+Generated at: `2026-04-19T06:58:55.872585+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 33
-- terms: 94
-- components: 124
+- repos: 34
+- terms: 97
+- components: 127
 - concepts: 44
 - observations: 45
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ethpandaops/xatu-data](https://github.com/ethpandaops/xatu-data) | unknown | 2026-04-18T06:36:14Z | Other | Infrastructure/tooling | 3 | 3 | 0 | 0 |
 | [genuslovoacalixtusiii510/YTP-2026](https://github.com/genuslovoacalixtusiii510/YTP-2026) | unknown | 2026-04-18T04:38:47Z | Other | CLI | 0 | 0 | 0 | 0 |
 | [RobertAbao/grok-nvim](https://github.com/RobertAbao/grok-nvim) | unknown | 2026-04-18T03:15:24Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [FIRESTRYK/chatgpt-website.github.io](https://github.com/FIRESTRYK/chatgpt-website.github.io) | unknown | 2026-04-18T02:37:22Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -64,6 +65,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ethpandaops/xatu-data](https://github.com/ethpandaops/xatu-data) | unknown | 2026-04-18T06:36:14Z | Other | Infrastructure/tooling | 3 | 3 | 0 | 0 |
 | [genuslovoacalixtusiii510/YTP-2026](https://github.com/genuslovoacalixtusiii510/YTP-2026) | unknown | 2026-04-18T04:38:47Z | Other | CLI | 0 | 0 | 0 | 0 |
 | [RobertAbao/grok-nvim](https://github.com/RobertAbao/grok-nvim) | unknown | 2026-04-18T03:15:24Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [FIRESTRYK/chatgpt-website.github.io](https://github.com/FIRESTRYK/chatgpt-website.github.io) | unknown | 2026-04-18T02:37:22Z | Other | Unknown | 0 | 0 | 0 | 0 |

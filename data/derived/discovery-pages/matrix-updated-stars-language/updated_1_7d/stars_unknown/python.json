@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 487,
-    "concepts": 237,
-    "observations": 239,
-    "repos": 79,
-    "terms": 346
+    "components": 524,
+    "concepts": 247,
+    "observations": 249,
+    "repos": 82,
+    "terms": 369
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T05:15:16.254786+00:00",
+  "generated_at": "2026-04-19T06:58:55.872585+00:00",
   "repo_ids": [
     "1Panel-dev/MaxKB",
     "AaronWong1999/hermesclaw",
@@ -38,8 +38,10 @@
     "cdeust/Cortex",
     "CjTruHeart/abundance-codex",
     "cloudartisan/cloudartisan.github.io",
+    "costiash/claude-code-docs",
     "DataDog/guarddog",
     "davila7/claude-code-templates",
+    "django/django",
     "dreamiurg/claude-mountaineering-skills",
     "dreamiurg/peakbagger-cli",
     "EtanHey/brainlayer",
@@ -77,6 +79,7 @@
     "PiQrypt/piqrypt",
     "PiQrypt/piqrypt-mcp-server",
     "plastic-labs/honcho",
+    "pydantic/pydantic-ai",
     "roampal-ai/roampal",
     "roampal-ai/roampal-labs",
     "rrsaldanha/burp-mcp-agents",

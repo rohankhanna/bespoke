@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · Unknown stars · Python
 
-Generated at: `2026-04-19T05:15:16.254786+00:00`
+Generated at: `2026-04-19T06:58:55.872585+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 79
-- terms: 346
-- components: 487
-- concepts: 237
-- observations: 239
+- repos: 82
+- terms: 369
+- components: 524
+- concepts: 247
+- observations: 249
 
 ## Static behavior
 
@@ -26,6 +26,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [django/django](https://github.com/django/django) | unknown | 2026-04-18T06:53:21Z | Python | Infrastructure/tooling | 7 | 13 | 0 | 0 |
+| [costiash/claude-code-docs](https://github.com/costiash/claude-code-docs) | unknown | 2026-04-18T06:43:16Z | Python | Infrastructure/tooling | 6 | 7 | 0 | 0 |
+| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | unknown | 2026-04-18T05:49:35Z | Python | Infrastructure/tooling | 10 | 17 | 10 | 10 |
 | [google/tunix](https://github.com/google/tunix) | unknown | 2026-04-18T04:27:09Z | Python | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [bunburysniper/BleuNova-AI-Agent](https://github.com/bunburysniper/BleuNova-AI-Agent) | unknown | 2026-04-18T04:14:21Z | Python | Infrastructure/tooling | 1 | 0 | 0 | 0 |
 | [getzep/graphiti](https://github.com/getzep/graphiti) | unknown | 2026-04-18T04:06:16Z | Python | Infrastructure/tooling | 9 | 9 | 9 | 9 |
@@ -110,6 +113,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [django/django](https://github.com/django/django) | unknown | 2026-04-18T06:53:21Z | Python | Infrastructure/tooling | 7 | 13 | 0 | 0 |
+| [costiash/claude-code-docs](https://github.com/costiash/claude-code-docs) | unknown | 2026-04-18T06:43:16Z | Python | Infrastructure/tooling | 6 | 7 | 0 | 0 |
+| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | unknown | 2026-04-18T05:49:35Z | Python | Infrastructure/tooling | 10 | 17 | 10 | 10 |
 | [google/tunix](https://github.com/google/tunix) | unknown | 2026-04-18T04:27:09Z | Python | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [bunburysniper/BleuNova-AI-Agent](https://github.com/bunburysniper/BleuNova-AI-Agent) | unknown | 2026-04-18T04:14:21Z | Python | Infrastructure/tooling | 1 | 0 | 0 | 0 |
 | [getzep/graphiti](https://github.com/getzep/graphiti) | unknown | 2026-04-18T04:06:16Z | Python | Infrastructure/tooling | 9 | 9 | 9 | 9 |

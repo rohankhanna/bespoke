@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 318,
+    "components": 279,
     "concepts": 46,
     "observations": 46,
-    "repos": 12,
-    "terms": 56
+    "repos": 11,
+    "terms": 55
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-19T05:15:16.254786+00:00",
+  "generated_at": "2026-04-19T06:58:55.872585+00:00",
   "repo_ids": [
     "AndyMik90/Aperant",
     "automazeio/proof",
@@ -24,7 +24,6 @@
     "shareAI-lab/kode-agent-sdk",
     "slopus/slopus.github.io",
     "sujithpvarghese/bedrock-agent-core-operations-hub",
-    "sujithpvarghese/bedrock-full-reconciliation",
-    "vercel/satori"
+    "sujithpvarghese/bedrock-full-reconciliation"
   ]
 }

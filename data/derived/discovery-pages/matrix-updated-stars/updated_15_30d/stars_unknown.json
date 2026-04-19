@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 636,
+    "components": 597,
     "concepts": 123,
     "observations": 123,
-    "repos": 51,
-    "terms": 169
+    "repos": 50,
+    "terms": 168
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-19T05:15:16.254786+00:00",
+  "generated_at": "2026-04-19T06:58:55.872585+00:00",
   "repo_ids": [
     "AdamMes/voyanode",
     "akin-ozer/cc-devops-skills",
@@ -60,7 +60,6 @@
     "sujithpvarghese/bedrock-full-reconciliation",
     "SuperClaude-Org/SuperClaude_Framework",
     "trailofbits/claude-code-config",
-    "vercel/satori",
     "W1ndys/ex-cure-skill",
     "ykdojo/claude-code-tips",
     "zarazhangrui/codebase-to-course"

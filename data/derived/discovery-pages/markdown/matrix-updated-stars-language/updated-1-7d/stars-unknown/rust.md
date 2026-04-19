@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · Unknown stars · Rust
 
-Generated at: `2026-04-19T05:15:16.254786+00:00`
+Generated at: `2026-04-19T06:58:55.872585+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 32
-- terms: 171
-- components: 329
-- concepts: 128
-- observations: 130
+- repos: 33
+- terms: 192
+- components: 347
+- concepts: 149
+- observations: 151
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Eventual-Inc/Daft](https://github.com/Eventual-Inc/Daft) | unknown | 2026-04-18T06:31:22Z | Rust | Infrastructure/tooling | 21 | 18 | 21 | 21 |
 | [NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell) | unknown | 2026-04-18T03:07:41Z | Rust | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [aipurposes1587-max/weixin-agent-rs](https://github.com/aipurposes1587-max/weixin-agent-rs) | unknown | 2026-04-18T02:18:04Z | Rust | CLI | 0 | 0 | 0 | 0 |
 | [eikarna/hermes-rs](https://github.com/eikarna/hermes-rs) | unknown | 2026-04-18T02:16:53Z | Rust | Infrastructure/tooling | 2 | 5 | 0 | 0 |
@@ -63,6 +64,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [Eventual-Inc/Daft](https://github.com/Eventual-Inc/Daft) | unknown | 2026-04-18T06:31:22Z | Rust | Infrastructure/tooling | 21 | 18 | 21 | 21 |
 | [NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell) | unknown | 2026-04-18T03:07:41Z | Rust | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [aipurposes1587-max/weixin-agent-rs](https://github.com/aipurposes1587-max/weixin-agent-rs) | unknown | 2026-04-18T02:18:04Z | Rust | CLI | 0 | 0 | 0 | 0 |
 | [eikarna/hermes-rs](https://github.com/eikarna/hermes-rs) | unknown | 2026-04-18T02:16:53Z | Rust | Infrastructure/tooling | 2 | 5 | 0 | 0 |

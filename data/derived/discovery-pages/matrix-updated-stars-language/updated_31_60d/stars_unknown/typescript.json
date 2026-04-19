@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 351,
+    "components": 390,
     "concepts": 39,
     "observations": 39,
-    "repos": 15,
-    "terms": 89
+    "repos": 16,
+    "terms": 90
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-19T05:15:16.254786+00:00",
+  "generated_at": "2026-04-19T06:58:55.872585+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "aymenfurter/ralph",
@@ -28,6 +28,7 @@
     "NeuroverseOS/neuroverseos-openclaw-governance",
     "nulone/claude-rules-doctor",
     "stravu/crystal",
-    "sudocode-ai/sudocode"
+    "sudocode-ai/sudocode",
+    "vercel/satori"
   ]
 }

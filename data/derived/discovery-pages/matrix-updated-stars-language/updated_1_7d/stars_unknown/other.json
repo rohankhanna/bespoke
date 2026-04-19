@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 124,
+    "components": 127,
     "concepts": 44,
     "observations": 45,
-    "repos": 33,
-    "terms": 94
+    "repos": 34,
+    "terms": 97
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T05:15:16.254786+00:00",
+  "generated_at": "2026-04-19T06:58:55.872585+00:00",
   "repo_ids": [
     "actions/runner",
     "actions/runner-images",
@@ -27,6 +27,7 @@
     "cyber404/che-apple-mail-mcp",
     "danielrosehill/Claude-Code-Projects-Index",
     "dm0x23/Portfolio-website",
+    "ethpandaops/xatu-data",
     "FIRESTRYK/chatgpt-website.github.io",
     "Floxym/financial-chat-Finance-NLP-Chatbots",
     "genuslovoacalixtusiii510/YTP-2026",

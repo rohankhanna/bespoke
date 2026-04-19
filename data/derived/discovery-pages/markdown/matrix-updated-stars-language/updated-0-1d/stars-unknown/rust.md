@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · Unknown stars · Rust
 
-Generated at: `2026-04-19T05:15:16.254786+00:00`
+Generated at: `2026-04-19T06:58:55.872585+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 10
-- terms: 107
-- components: 175
-- concepts: 94
-- observations: 94
+- repos: 9
+- terms: 86
+- components: 157
+- concepts: 73
+- observations: 73
 
 ## Static behavior
 
@@ -35,7 +35,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [openai/codex](https://github.com/openai/codex) | unknown | 2026-04-18T09:13:22Z | Rust | CLI | 5 | 12 | 5 | 5 |
 | [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | unknown | 2026-04-18T08:55:25Z | Rust | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [hashintel/hash](https://github.com/hashintel/hash) | unknown | 2026-04-18T08:36:12Z | Rust | Infrastructure/tooling | 13 | 19 | 0 | 0 |
-| [Eventual-Inc/Daft](https://github.com/Eventual-Inc/Daft) | unknown | 2026-04-18T06:31:22Z | Rust | Infrastructure/tooling | 21 | 18 | 21 | 21 |
 
 ## Repos sorted by stars
 
@@ -50,4 +49,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [openai/codex](https://github.com/openai/codex) | unknown | 2026-04-18T09:13:22Z | Rust | CLI | 5 | 12 | 5 | 5 |
 | [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | unknown | 2026-04-18T08:55:25Z | Rust | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [hashintel/hash](https://github.com/hashintel/hash) | unknown | 2026-04-18T08:36:12Z | Rust | Infrastructure/tooling | 13 | 19 | 0 | 0 |
-| [Eventual-Inc/Daft](https://github.com/Eventual-Inc/Daft) | unknown | 2026-04-18T06:31:22Z | Rust | Infrastructure/tooling | 21 | 18 | 21 | 21 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 34,
+    "components": 41,
     "concepts": 12,
     "observations": 12,
-    "repos": 8,
-    "terms": 25
+    "repos": 9,
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T05:15:16.254786+00:00",
+  "generated_at": "2026-04-19T06:58:55.872585+00:00",
   "repo_ids": [
     "gbrobro119-star/darksword-kexploit",
     "ggml-org/ggml",
@@ -21,6 +21,7 @@
     "marciogranzotto/clawd-tank",
     "mozilla-ai/llamafile",
     "PX4/PX4-Autopilot",
+    "soramimi/Guitar",
     "tmux/tmux"
   ]
 }
