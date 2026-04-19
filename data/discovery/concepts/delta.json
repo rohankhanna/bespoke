@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "delta"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dandavison/delta",
+      "status": "candidate-context",
+      "text": "A syntax-highlighting pager for git, diff, grep, rg --json, and blame output"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dandavison/delta",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dandavison/delta",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30004108,
+      "status": "candidate",
+      "text": "triangular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30000444,
+      "status": "candidate",
+      "text": "triangle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29970197,
+      "status": "candidate",
+      "text": "part"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29956896,
+      "status": "candidate",
+      "text": "region"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29951722,
+      "status": "candidate",
+      "text": "daemon"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "delta",
+  "concept_id": "delta",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": null,
+      "source_repo": "dandavison/delta"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "delta",
+      "sense_id": "delta#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

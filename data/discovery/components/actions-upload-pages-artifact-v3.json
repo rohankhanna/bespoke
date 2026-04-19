@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-pages-artifact@v3",
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -77,6 +77,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/deploy-website.yml",
       "source_repo": "recharts/recharts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/manual.yml",
+      "source_repo": "dandavison/delta"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "bmad-code-org/bmad-builder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "bmad-code-org/bmad-method-test-architecture-enterprise"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "bmad-code-org/bmad-module-creative-intelligence-suite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "bmad-code-org/bmad-module-game-dev-studio"
     }
   ]
 }

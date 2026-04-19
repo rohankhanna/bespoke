@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -406,6 +406,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "mksglu/context-mode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "serpro69/claude-toolbox"
     }
   ],
   "term": "Claude Code"

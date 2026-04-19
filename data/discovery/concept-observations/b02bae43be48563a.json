@@ -1,0 +1,92 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A syntax-highlighting pager for git, diff, grep, rg --json, and blame output"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29959034,
+      "status": "candidate",
+      "text": "serv"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29933702,
+      "status": "candidate",
+      "text": "cds"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29916166,
+      "status": "candidate",
+      "text": "comparison"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29915041,
+      "status": "candidate",
+      "text": "compare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29914218,
+      "status": "candidate",
+      "text": "variance"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "diff",
+      "sense_id": "diff#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "diff",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "diff",
+  "observation_id": "b02bae43be48563a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-19T17:36:09.281008+00:00",
+  "observed_text": "diff",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "dandavison/delta",
+  "source_repo_description": "A syntax-highlighting pager for git, diff, grep, rg --json, and blame output"
+}

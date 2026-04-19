@@ -1,0 +1,139 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "semgrep/semgrep",
+      "target": "semgrep/mcp-marketplace",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "semgrep/semgrep",
+      "target": "semgrep/cursor-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "semgrep/semgrep",
+      "target": "ocaml/opam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "semgrep/semgrep",
+      "target": "homebrew/homebrew-core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-core-x86.yml",
+      "source_repo": "semgrep/semgrep",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-core-x86.yml",
+      "source_repo": "semgrep/semgrep",
+      "target": "semgrep/setup-ocaml@a739c5405d73c42ef15a9dc995efc0f87396cc36",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-core-x86.yml",
+      "source_repo": "semgrep/semgrep",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-core-x86.yml",
+      "source_repo": "semgrep/semgrep",
+      "target": "build-test-core-x86",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-docker.yml",
+      "source_repo": "semgrep/semgrep",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-docker.yml",
+      "source_repo": "semgrep/semgrep",
+      "target": "depot/setup-action@15c09a5f77a0840ad4bce955686522a257853461",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-docker.yml",
+      "source_repo": "semgrep/semgrep",
+      "target": "docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-docker.yml",
+      "source_repo": "semgrep/semgrep",
+      "target": "depot/build-push-action@fe21fca271114de9237a9b1129b9ef38c77a1c21",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-docker.yml",
+      "source_repo": "semgrep/semgrep",
+      "target": "build-test-docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "semgrep/semgrep",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "semgrep/semgrep",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "semgrep/semgrep",
+      "target": "sast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "semgrep/semgrep",
+      "target": "semgrep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "semgrep/semgrep",
+      "target": "static-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "semgrep/semgrep",
+      "target": "static-code-analysis",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-19T17:36:09.281008+00:00",
+  "source_repo": "semgrep/semgrep"
+}

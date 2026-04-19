@@ -104,6 +104,7 @@
   ],
   "concept_id": "automation",
   "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
   "gloss_status": "unresolved",
   "lexical_providers": [
     "datamuse"

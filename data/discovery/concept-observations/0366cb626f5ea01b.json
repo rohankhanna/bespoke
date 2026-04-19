@@ -4,10 +4,63 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definition_hints": [],
-  "candidate_glosses": [],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Prompt injection scanner for Claude Code. Runs DeBERTa/Llama transformers via Candle or ONNX in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Audit"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Audit"
+    }
+  ],
   "candidate_primary_bucket": "workflow-process",
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026857,
+      "status": "candidate",
+      "text": "inspect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025753,
+      "status": "candidate",
+      "text": "scrutinize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029223,
+      "status": "candidate",
+      "text": "audited account"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029222,
+      "status": "candidate",
+      "text": "examination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029022,
+      "status": "candidate",
+      "text": "vetting"
+    }
+  ],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -19,19 +72,43 @@
       "status": "candidate"
     }
   ],
-  "candidate_synonyms": [],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 64033,
+      "status": "candidate",
+      "text": "scrutinize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20036,
+      "status": "candidate",
+      "text": "inspect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "audited account"
+    }
+  ],
   "concept_id": "audit",
   "definition_status": "unresolved",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "audit",
   "observation_id": "0366cb626f5ea01b",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-18T11:57:36.597358+00:00",
+  "observed_at": "2026-04-19T17:36:09.281008+00:00",
   "observed_text": "Audit",
-  "source_context_snippet": null,
+  "source_context_snippet": "Audit",
   "source_file": ".github/workflows/audit.yml",
   "source_repo": "vaporif/parry-guard",
-  "source_repo_description": null
+  "source_repo_description": "Prompt injection scanner for Claude Code. Runs DeBERTa/Llama transformers via Candle or ONNX in Rust"
 }

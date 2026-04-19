@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Codespell"
+    "Codespell",
+    "codespell"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -25,6 +26,18 @@
       "source_repo": "containers/podman-compose",
       "status": "candidate-context",
       "text": "Codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codespell-project/codespell",
+      "status": "candidate-context",
+      "text": "check code for common misspellings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codespell-project/codespell",
+      "status": "candidate-context",
+      "text": "codespell"
     }
   ],
   "candidate_glosses": [
@@ -33,6 +46,12 @@
       "source_repo": "containers/podman-compose",
       "status": "candidate",
       "text": "Codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codespell-project/codespell",
+      "status": "candidate",
+      "text": "codespell"
     }
   ],
   "candidate_related_terms": [],
@@ -58,11 +77,17 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": ".github/workflows/codespell.yml",
       "source_repo": "containers/podman-compose"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "codespell-project/codespell"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "lexical_providers": [
     "datamuse"
   ],

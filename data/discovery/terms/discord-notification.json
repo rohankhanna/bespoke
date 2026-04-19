@@ -1,11 +1,26 @@
 {
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/discord.yaml",
       "source_repo": "bmad-code-org/BMAD-METHOD"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/discord.yaml",
+      "source_repo": "bmad-code-org/bmad-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/discord.yaml",
+      "source_repo": "bmad-code-org/bmad-module-creative-intelligence-suite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/discord.yaml",
+      "source_repo": "bmad-code-org/bmad-module-game-dev-studio"
     }
   ],
   "term": "Discord Notification"

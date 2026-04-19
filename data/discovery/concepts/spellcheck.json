@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "SpellCheck"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-llama/llama-cookbook",
+      "status": "candidate-context",
+      "text": "Welcome to the Llama Cookbook! This is your go to guide for Building with Llama: Getting started with Inference, Fine-Tuning, RAG. We also show you how to solve end to end problems using Llama model family and using them on various provider services  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-llama/llama-cookbook",
+      "status": "candidate-context",
+      "text": "SpellCheck"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-llama/llama-cookbook",
+      "status": "candidate",
+      "text": "SpellCheck"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023777,
+      "status": "candidate",
+      "text": "spell check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023776,
+      "status": "candidate",
+      "text": "proofreading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023775,
+      "status": "candidate",
+      "text": "spellcasting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023774,
+      "status": "candidate",
+      "text": "spell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023773,
+      "status": "candidate",
+      "text": "spelling reform"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "SpellCheck",
+  "concept_id": "spellcheck",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "meta-llama/llama-cookbook"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "SpellCheck",
+      "sense_id": "spellcheck#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

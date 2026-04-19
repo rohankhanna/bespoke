@@ -1,0 +1,92 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Open Source Marketplace For Developer Tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "arkade is how developers install the latest versions of their favourite CLI tools and Kubernetes apps."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "arkade is how developers install the latest versions of their favourite CLI tools and Kubernetes apps."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050621,
+      "status": "candidate",
+      "text": "keel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050574,
+      "status": "candidate",
+      "text": "pilothouse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050570,
+      "status": "candidate",
+      "text": "aport"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050556,
+      "status": "candidate",
+      "text": "amidships"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050189,
+      "status": "candidate",
+      "text": "rudder"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "helm",
+      "sense_id": "helm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "helm",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "helm",
+  "observation_id": "588b2ea079a2598d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-19T17:36:09.281008+00:00",
+  "observed_text": "helm",
+  "source_context_snippet": "arkade is how developers install the latest versions of their favourite CLI tools and Kubernetes apps.",
+  "source_file": null,
+  "source_repo": "alexellis/arkade",
+  "source_repo_description": "Open Source Marketplace For Developer Tools"
+}

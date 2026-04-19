@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Coverity"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VirusTotal/yara",
+      "status": "candidate-context",
+      "text": "The pattern matching swiss knife"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VirusTotal/yara",
+      "status": "candidate-context",
+      "text": "Coverity"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VirusTotal/yara",
+      "status": "candidate",
+      "text": "Coverity"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "cppcheck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "pylint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "checkstyle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "gcov"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "source insight"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Coverity",
+  "concept_id": "coverity",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "VirusTotal/yara"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Coverity",
+      "sense_id": "coverity#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

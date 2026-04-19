@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CodeQL Workflow Security Scan"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "llamastack/llama-stack",
+      "status": "candidate-context",
+      "text": "Composable building blocks to build LLM Apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llamastack/llama-stack",
+      "status": "candidate-context",
+      "text": "\"CodeQL Workflow Security Scan\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llamastack/llama-stack",
+      "status": "candidate",
+      "text": "\"CodeQL Workflow Security Scan\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23110,
+      "status": "candidate",
+      "text": "analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23110,
+      "status": "candidate",
+      "text": "consideration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23110,
+      "status": "candidate",
+      "text": "examination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23110,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23110,
+      "status": "candidate",
+      "text": "reviewing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CodeQL Workflow Security Scan",
+  "concept_id": "codeql-workflow-security-scan",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "llamastack/llama-stack"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CodeQL Workflow Security Scan",
+      "sense_id": "codeql-workflow-security-scan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

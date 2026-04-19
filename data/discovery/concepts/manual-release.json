@@ -1,0 +1,172 @@
+{
+  "aliases": [
+    "Manual Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bmad-code-org/bmad-builder",
+      "status": "candidate-context",
+      "text": "The BMad Builder and Validator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bmad-code-org/bmad-builder",
+      "status": "candidate-context",
+      "text": "Manual Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bmad-code-org/bmad-method-test-architecture-enterprise",
+      "status": "candidate-context",
+      "text": "Test Architect Full BMad Method Enhancement"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bmad-code-org/bmad-method-test-architecture-enterprise",
+      "status": "candidate-context",
+      "text": "Manual Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bmad-code-org/bmad-module-creative-intelligence-suite",
+      "status": "candidate-context",
+      "text": "A BMad Method Compliant stand along module that has agents and workflows to help bring out the creativity of the user through various exercises and disciplines. More will come over time - this was meant as a bmad module tech demo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bmad-code-org/bmad-module-creative-intelligence-suite",
+      "status": "candidate-context",
+      "text": "Manual Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bmad-code-org/bmad-module-game-dev-studio",
+      "status": "candidate-context",
+      "text": "BMad  Core Game Dev Studio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bmad-code-org/bmad-module-game-dev-studio",
+      "status": "candidate-context",
+      "text": "Manual Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bmad-code-org/bmad-builder",
+      "status": "candidate",
+      "text": "Manual Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bmad-code-org/bmad-method-test-architecture-enterprise",
+      "status": "candidate",
+      "text": "Manual Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bmad-code-org/bmad-module-creative-intelligence-suite",
+      "status": "candidate",
+      "text": "Manual Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bmad-code-org/bmad-module-game-dev-studio",
+      "status": "candidate",
+      "text": "Manual Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11768,
+      "status": "candidate",
+      "text": "handing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11768,
+      "status": "candidate",
+      "text": "stick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11768,
+      "status": "candidate",
+      "text": "version"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11717,
+      "status": "candidate",
+      "text": "brochure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11717,
+      "status": "candidate",
+      "text": "hand"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Manual Release",
+  "concept_id": "manual-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": ".github/workflows/manual-release.yaml",
+      "source_repo": "bmad-code-org/bmad-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": ".github/workflows/manual-release.yaml",
+      "source_repo": "bmad-code-org/bmad-method-test-architecture-enterprise"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": ".github/workflows/manual-release.yaml",
+      "source_repo": "bmad-code-org/bmad-module-creative-intelligence-suite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": ".github/workflows/manual-release.yaml",
+      "source_repo": "bmad-code-org/bmad-module-game-dev-studio"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Manual Release",
+      "sense_id": "manual-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

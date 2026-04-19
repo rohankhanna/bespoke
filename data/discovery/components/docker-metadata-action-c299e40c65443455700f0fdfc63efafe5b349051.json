@@ -1,7 +1,7 @@
 {
   "component": "docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051",
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker-image-arm64.yml",
       "source_repo": "QuantumNous/new-api"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-test-docker.yml",
+      "source_repo": "semgrep/semgrep"
     }
   ]
 }

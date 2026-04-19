@@ -19,6 +19,18 @@
       "source_repo": "aerobounce/Sublime-Pretty-Lua",
       "status": "candidate-context",
       "text": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "psf/black",
+      "status": "candidate-context",
+      "text": "The uncompromising Python code formatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psf/black",
+      "status": "candidate-context",
+      "text": "[![Black Logo](https://raw.githubusercontent.com/psf/black/main/docs/_static/logo2-readme.png)](https://black.readthedocs.io/en/stable/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "aerobounce/Sublime-Pretty-Lua",
       "status": "candidate",
       "text": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psf/black",
+      "status": "candidate",
+      "text": "[![Black Logo](https://raw.githubusercontent.com/psf/black/main/docs/_static/logo2-readme.png)](https://black.readthedocs.io/en/stable/)"
     }
   ],
   "candidate_related_terms": [
@@ -82,11 +100,17 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "aerobounce/Sublime-Pretty-Lua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": null,
+      "source_repo": "psf/black"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "lexical_providers": [
     "datamuse"
   ],

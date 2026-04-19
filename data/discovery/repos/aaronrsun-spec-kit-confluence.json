@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-19T17:37:04.033077+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3452
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "aaronrsun/spec-kit-confluence",
+    "html_url": "https://github.com/aaronrsun/spec-kit-confluence",
+    "language": "Shell",
+    "pushed_at": "2026-04-06T23:35:42Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-06T23:30:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

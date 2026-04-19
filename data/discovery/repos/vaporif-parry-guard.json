@@ -391,7 +391,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T11:58:52.703432+00:00",
+  "fetched_at": "2026-04-19T17:37:42.093716+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -422,7 +422,6 @@
       "size": 4551
     }
   ],
-  "metadata_refreshed_at": "2026-04-19T07:52:34.071808+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -467,26 +466,31 @@
   ],
   "terms": [
     {
+      "context_snippet": "Audit",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/audit.yml",
       "term": "Audit"
     },
     {
+      "context_snippet": "[![ci](https://github.com/vaporif/parry-guard/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/vaporif/parry-guard/actions/workflows/ci.yml)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "claude-code"
     },
     {
+      "context_snippet": "[![ci](https://github.com/vaporif/parry-guard/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/vaporif/parry-guard/actions/workflows/ci.yml)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "prompt-injection"
     },
     {
+      "context_snippet": "[![ci](https://github.com/vaporif/parry-guard/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/vaporif/parry-guard/actions/workflows/ci.yml)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "prompt-injection-llm-security"
     },
     {
+      "context_snippet": "[![ci](https://github.com/vaporif/parry-guard/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/vaporif/parry-guard/actions/workflows/ci.yml)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "rust"

@@ -7,9 +7,101 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bmad-code-org/bmad-builder",
+      "status": "candidate-context",
+      "text": "The BMad Builder and Validator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bmad-code-org/bmad-builder",
+      "status": "candidate-context",
+      "text": "Discord Notification"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bmad-code-org/bmad-module-creative-intelligence-suite",
+      "status": "candidate-context",
+      "text": "A BMad Method Compliant stand along module that has agents and workflows to help bring out the creativity of the user through various exercises and disciplines. More will come over time - this was meant as a bmad module tech demo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bmad-code-org/bmad-module-creative-intelligence-suite",
+      "status": "candidate-context",
+      "text": "Discord Notification"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bmad-code-org/bmad-module-game-dev-studio",
+      "status": "candidate-context",
+      "text": "BMad  Core Game Dev Studio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bmad-code-org/bmad-module-game-dev-studio",
+      "status": "candidate-context",
+      "text": "Discord Notification"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bmad-code-org/bmad-builder",
+      "status": "candidate",
+      "text": "Discord Notification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bmad-code-org/bmad-module-creative-intelligence-suite",
+      "status": "candidate",
+      "text": "Discord Notification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bmad-code-org/bmad-module-game-dev-studio",
+      "status": "candidate",
+      "text": "Discord Notification"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10596,
+      "status": "candidate",
+      "text": "clash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10596,
+      "status": "candidate",
+      "text": "clashing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10596,
+      "status": "candidate",
+      "text": "conflict"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10596,
+      "status": "candidate",
+      "text": "confrontation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10596,
+      "status": "candidate",
+      "text": "contention"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Discord Notification",
   "concept_id": "discord-notification",
@@ -20,12 +112,32 @@
       "observed_at": "2026-04-18T11:57:36.597358+00:00",
       "source_file": ".github/workflows/discord.yaml",
       "source_repo": "bmad-code-org/BMAD-METHOD"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": ".github/workflows/discord.yaml",
+      "source_repo": "bmad-code-org/bmad-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": ".github/workflows/discord.yaml",
+      "source_repo": "bmad-code-org/bmad-module-creative-intelligence-suite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": ".github/workflows/discord.yaml",
+      "source_repo": "bmad-code-org/bmad-module-game-dev-studio"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

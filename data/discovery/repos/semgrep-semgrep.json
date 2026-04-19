@@ -1,0 +1,316 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-core-x86.yml"
+    },
+    {
+      "component": "semgrep/setup-ocaml@a739c5405d73c42ef15a9dc995efc0f87396cc36",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-core-x86.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-core-x86.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-docker.yml"
+    },
+    {
+      "component": "depot/setup-action@15c09a5f77a0840ad4bce955686522a257853461",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-docker.yml"
+    },
+    {
+      "component": "docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-docker.yml"
+    },
+    {
+      "component": "depot/build-push-action@fe21fca271114de9237a9b1129b9ef38c77a1c21",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-docker.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "semgrep/semgrep",
+      "target": "semgrep/mcp-marketplace",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "semgrep/semgrep",
+      "target": "semgrep/cursor-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "semgrep/semgrep",
+      "target": "ocaml/opam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "semgrep/semgrep",
+      "target": "homebrew/homebrew-core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-core-x86.yml",
+      "source_repo": "semgrep/semgrep",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-core-x86.yml",
+      "source_repo": "semgrep/semgrep",
+      "target": "semgrep/setup-ocaml@a739c5405d73c42ef15a9dc995efc0f87396cc36",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-core-x86.yml",
+      "source_repo": "semgrep/semgrep",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-core-x86.yml",
+      "source_repo": "semgrep/semgrep",
+      "target": "build-test-core-x86",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-docker.yml",
+      "source_repo": "semgrep/semgrep",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-docker.yml",
+      "source_repo": "semgrep/semgrep",
+      "target": "depot/setup-action@15c09a5f77a0840ad4bce955686522a257853461",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-docker.yml",
+      "source_repo": "semgrep/semgrep",
+      "target": "docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-docker.yml",
+      "source_repo": "semgrep/semgrep",
+      "target": "depot/build-push-action@fe21fca271114de9237a9b1129b9ef38c77a1c21",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-docker.yml",
+      "source_repo": "semgrep/semgrep",
+      "target": "build-test-docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "semgrep/semgrep",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "semgrep/semgrep",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "semgrep/semgrep",
+      "target": "sast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "semgrep/semgrep",
+      "target": "semgrep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "semgrep/semgrep",
+      "target": "static-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "semgrep/semgrep",
+      "target": "static-code-analysis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T17:37:09.589246+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20161
+    },
+    {
+      "path": "Dockerfile",
+      "size": 19211
+    },
+    {
+      "path": ".github/workflows/.codemapignore",
+      "size": 362
+    },
+    {
+      "path": ".github/workflows/Makefile",
+      "size": 1227
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 3200
+    },
+    {
+      "path": ".github/workflows/build-test-core-x86.jsonnet",
+      "size": 1582
+    },
+    {
+      "path": ".github/workflows/build-test-core-x86.yml",
+      "size": 1607
+    },
+    {
+      "path": ".github/workflows/build-test-docker.jsonnet",
+      "size": 774
+    },
+    {
+      "path": ".github/workflows/build-test-docker.yml",
+      "size": 2877
+    },
+    {
+      "path": ".github/workflows/build-test-osx-arm64.jsonnet",
+      "size": 1438
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.",
+    "fork": false,
+    "full_name": "semgrep/semgrep",
+    "html_url": "https://github.com/semgrep/semgrep",
+    "language": "OCaml",
+    "pushed_at": "2026-04-17T19:11:06Z",
+    "stargazers_count": 14850,
+    "topics": [
+      "c",
+      "go",
+      "java",
+      "javascript",
+      "python",
+      "r2c",
+      "ruby",
+      "sast",
+      "semgrep",
+      "static-analysis",
+      "static-code-analysis",
+      "typescript"
+    ],
+    "updated_at": "2026-04-19T16:29:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "semgrep/cursor-plugin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "semgrep/mcp-marketplace",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "homebrew/homebrew-core",
+      "source_file": "Dockerfile"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ocaml/opam",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build-test-core-x86",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-core-x86.yml",
+      "term": "build-test-core-x86"
+    },
+    {
+      "context_snippet": "build-test-docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-docker.yml",
+      "term": "build-test-docker"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sast"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semgrep"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-analysis"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-code-analysis"
+    }
+  ]
+}

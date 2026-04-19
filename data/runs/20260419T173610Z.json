@@ -1,0 +1,197 @@
+{
+  "batch_count": 2,
+  "budget_seconds": 180,
+  "concept_index_counts": {
+    "aliases": 1788,
+    "buckets": 15,
+    "observations_by_concept": 1533
+  },
+  "elapsed_seconds": 161.92,
+  "embedding_unit_count": 7987,
+  "generated_at": "2026-04-19T17:36:09.281008+00:00",
+  "processed_repositories": [
+    "almogdepaz/wolfpack",
+    "codespell-project/codespell",
+    "mksglu/context-mode",
+    "dandavison/delta",
+    "deluan/zsh-in-docker",
+    "bmad-code-org/bmad-builder",
+    "bmad-code-org/bmad-method-test-architecture-enterprise",
+    "bmad-code-org/bmad-module-creative-intelligence-suite",
+    "bmad-code-org/bmad-module-game-dev-studio",
+    "aaronrsun/spec-kit-checkpoint",
+    "aaronrsun/spec-kit-confluence",
+    "aaronrsun/spec-kit-issue",
+    "adaumann/speckit-preset-fiction-book-writing",
+    "semgrep/semgrep",
+    "virustotal/yara",
+    "meta-llama/llama-cookbook",
+    "llamastack/llama-stack",
+    "psf/black",
+    "vaporif/rvx",
+    "alexellis/arkade",
+    "blake3-team/blake3"
+  ],
+  "remaining_budget_seconds": 18.08,
+  "remaining_frontier": 402,
+  "repo_timing_summary": {
+    "average_seconds": 4.547,
+    "count": 23,
+    "max_seconds": 50.978,
+    "total_seconds": 104.586
+  },
+  "repo_timings": [
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.702,
+      "full_name": "almogdepaz/wolfpack",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.03,
+      "full_name": "codespell-project/codespell",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.918,
+      "full_name": "mksglu/context-mode",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.108,
+      "full_name": "serpro69/claude-toolbox",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.398,
+      "full_name": "dandavison/delta",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.468,
+      "full_name": "deluan/zsh-in-docker",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.974,
+      "full_name": "bmad-code-org/bmad-builder",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.609,
+      "full_name": "bmad-code-org/bmad-method-test-architecture-enterprise",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.922,
+      "full_name": "bmad-code-org/bmad-module-creative-intelligence-suite",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.878,
+      "full_name": "bmad-code-org/bmad-module-game-dev-studio",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.605,
+      "full_name": "aaronrsun/spec-kit-checkpoint",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.775,
+      "full_name": "aaronrsun/spec-kit-confluence",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.839,
+      "full_name": "aaronrsun/spec-kit-issue",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.621,
+      "full_name": "adaumann/speckit-preset-fiction-book-writing",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 4.096,
+      "full_name": "semgrep/semgrep",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 4.282,
+      "full_name": "virustotal/yara",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.251,
+      "full_name": "meta-llama/llama-cookbook",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 4.42,
+      "full_name": "llamastack/llama-stack",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.798,
+      "full_name": "psf/black",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.641,
+      "full_name": "vaporif/parry-guard",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.616,
+      "full_name": "vaporif/rvx",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 50.978,
+      "full_name": "alexellis/arkade",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 6.657,
+      "full_name": "blake3-team/blake3",
+      "graph_distance": 5
+    }
+  ],
+  "run_id": "20260419T173610Z",
+  "skipped_repositories": [],
+  "slow_repo_threshold_seconds": 10.0,
+  "slow_repositories": [
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 50.978,
+      "full_name": "alexellis/arkade",
+      "graph_distance": 5
+    }
+  ],
+  "stale_repo_pruned_count": 0,
+  "stale_repositories_pruned": [],
+  "stopped_due_to_budget": true
+}

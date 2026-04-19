@@ -22,6 +22,7 @@
   "candidate_synonyms": [],
   "concept_id": "docker-nightly-build",
   "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
   "gloss_status": "unresolved",
   "lexical_providers": [],
   "lexical_status": "unresolved",

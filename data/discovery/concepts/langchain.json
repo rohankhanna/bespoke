@@ -43,6 +43,18 @@
       "source_repo": "langchain-ai/deepagents",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-llama/llama-cookbook",
+      "status": "candidate-context",
+      "text": "Welcome to the Llama Cookbook! This is your go to guide for Building with Llama: Getting started with Inference, Fine-Tuning, RAG. We also show you how to solve end to end problems using Llama model family and using them on various provider services  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-llama/llama-cookbook",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"> Llama Cookbook </h1>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "langchain-ai/deepagents",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-llama/llama-cookbook",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"> Llama Cookbook </h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -106,11 +124,17 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "langchain-ai/deepagents"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -39,6 +39,7 @@
   "candidate_synonyms": [],
   "concept_id": "threejs",
   "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
   "gloss_status": "unresolved",
   "lexical_providers": [
     "datamuse"

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "e2e-url-checker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexellis/arkade",
+      "status": "candidate-context",
+      "text": "Open Source Marketplace For Developer Tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexellis/arkade",
+      "status": "candidate-context",
+      "text": "e2e-url-checker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexellis/arkade",
+      "status": "candidate",
+      "text": "e2e-url-checker"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "e2e-url-checker",
+  "concept_id": "e2e-url-checker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": ".github/workflows/e2e-url-checker.yml",
+      "source_repo": "alexellis/arkade"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "e2e-url-checker",
+      "sense_id": "e2e-url-checker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

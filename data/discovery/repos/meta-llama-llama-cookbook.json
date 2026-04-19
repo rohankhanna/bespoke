@@ -1,0 +1,256 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest_cpu_gha_runner.yaml"
+    },
+    {
+      "component": "test-summary/action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest_cpu_gha_runner.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml"
+    },
+    {
+      "component": "gaurav-nelson/github-action-markdown-link-check@1.0.13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v45.0.8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v45.0.8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meta-llama/llama-cookbook",
+      "target": "meta-llama/synthetic-data-kit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meta-llama/llama-cookbook",
+      "target": "meta-llama/llama-prompt-ops",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest_cpu_gha_runner.yaml",
+      "source_repo": "meta-llama/llama-cookbook",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest_cpu_gha_runner.yaml",
+      "source_repo": "meta-llama/llama-cookbook",
+      "target": "test-summary/action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "meta-llama/llama-cookbook",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "meta-llama/llama-cookbook",
+      "target": "gaurav-nelson/github-action-markdown-link-check@1.0.13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "meta-llama/llama-cookbook",
+      "target": "tj-actions/changed-files@v45.0.8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "meta-llama/llama-cookbook",
+      "target": "SpellCheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook",
+      "target": "finetuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook",
+      "target": "langchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook",
+      "target": "llama2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook",
+      "target": "vllm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T17:37:20.265371+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5913
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1485
+    },
+    {
+      "path": "requirements.txt",
+      "size": 352
+    },
+    {
+      "path": ".github/workflows/pytest_cpu_gha_runner.yaml",
+      "size": 2317
+    },
+    {
+      "path": ".github/workflows/spellcheck.yml",
+      "size": 1754
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Welcome to the Llama Cookbook! This is your go to guide for Building with Llama: Getting started with Inference, Fine-Tuning, RAG. We also show you how to solve end to end problems using Llama model family and using them on various provider services  ",
+    "fork": false,
+    "full_name": "meta-llama/llama-cookbook",
+    "html_url": "https://github.com/meta-llama/llama-cookbook",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-17T12:36:07Z",
+    "stargazers_count": 18292,
+    "topics": [
+      "ai",
+      "finetuning",
+      "langchain",
+      "llama",
+      "llama2",
+      "llm",
+      "machine-learning",
+      "python",
+      "pytorch",
+      "vllm"
+    ],
+    "updated_at": "2026-04-19T10:29:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meta-llama/llama-prompt-ops",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meta-llama/synthetic-data-kit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "SpellCheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "term": "SpellCheck"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Llama Cookbook </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "finetuning"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Llama Cookbook </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langchain"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Llama Cookbook </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Llama Cookbook </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama2"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Llama Cookbook </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Llama Cookbook </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Llama Cookbook </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vllm"
+    }
+  ]
+}

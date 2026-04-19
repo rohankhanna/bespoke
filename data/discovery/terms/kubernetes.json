@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -31,6 +31,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "kubernetes/sig-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexellis/arkade"
     }
   ],
   "term": "kubernetes"

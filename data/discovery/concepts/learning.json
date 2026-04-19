@@ -13,11 +13,102 @@
       "source_repo": "hluaguo/learn-faster-kit",
       "status": "candidate-context",
       "text": "AI-powered learning coach with spaced repetition with Claude Code - master any knowledge faster with personalized syllabi and progress tracking"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexellis/arkade",
+      "status": "candidate-context",
+      "text": "Open Source Marketplace For Developer Tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexellis/arkade",
+      "status": "candidate-context",
+      "text": "arkade is how developers install the latest versions of their favourite CLI tools and Kubernetes apps."
     }
   ],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexellis/arkade",
+      "status": "candidate",
+      "text": "arkade is how developers install the latest versions of their favourite CLI tools and Kubernetes apps."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39982970,
+      "status": "candidate",
+      "text": "learnedness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39981185,
+      "status": "candidate",
+      "text": "erudition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39980977,
+      "status": "candidate",
+      "text": "eruditeness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39967985,
+      "status": "candidate",
+      "text": "acquisition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39965815,
+      "status": "candidate",
+      "text": "scholarship"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40028,
+      "status": "candidate",
+      "text": "erudition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29059,
+      "status": "candidate",
+      "text": "acquisition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8033,
+      "status": "candidate",
+      "text": "scholarship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8014,
+      "status": "candidate",
+      "text": "eruditeness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6015,
+      "status": "candidate",
+      "text": "learnedness"
+    }
+  ],
   "canonical_name": "learning",
   "concept_id": "learning",
   "definition_status": "unresolved",
@@ -27,12 +118,20 @@
       "observed_at": "2026-04-18T13:15:13.756138+00:00",
       "source_file": null,
       "source_repo": "hluaguo/learn-faster-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": null,
+      "source_repo": "alexellis/arkade"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

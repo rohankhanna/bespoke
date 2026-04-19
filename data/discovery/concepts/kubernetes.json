@@ -19,6 +19,18 @@
       "source_repo": "kubernetes/sig-release",
       "status": "candidate-context",
       "text": "The [charter] defines the scope and governance of the Release Special Interest Group."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexellis/arkade",
+      "status": "candidate-context",
+      "text": "Open Source Marketplace For Developer Tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexellis/arkade",
+      "status": "candidate-context",
+      "text": "arkade is how developers install the latest versions of their favourite CLI tools and Kubernetes apps."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "kubernetes/sig-release",
       "status": "candidate",
       "text": "The [charter] defines the scope and governance of the Release Special Interest Group."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexellis/arkade",
+      "status": "candidate",
+      "text": "arkade is how developers install the latest versions of their favourite CLI tools and Kubernetes apps."
     }
   ],
   "candidate_related_terms": [
@@ -106,11 +124,17 @@
       "observed_at": "2026-04-18T18:48:44.679047+00:00",
       "source_file": null,
       "source_repo": "kubernetes/sig-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": null,
+      "source_repo": "alexellis/arkade"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "lexical_providers": [
     "datamuse"
   ],

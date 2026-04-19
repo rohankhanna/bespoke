@@ -19,6 +19,30 @@
       "source_repo": "google/guava",
       "status": "candidate-context",
       "text": "[![GitHub Release](https://img.shields.io/github/v/release/google/guava)](https://github.com/google/guava/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "serpro69/claude-toolbox",
+      "status": "candidate-context",
+      "text": "Minimal by design, explicitly multi-lang, production-ready and battle-tested collection of configs and \"tools\" for your Claude Code agentic development workflows: mcp, configs, skills, agents and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serpro69/claude-toolbox",
+      "status": "candidate-context",
+      "text": "[![Mentioned in Awesome Claude Code](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/hesreallyhim/awesome-claude-code)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "semgrep/semgrep",
+      "status": "candidate-context",
+      "text": "Lightweight static analysis for many languages. Find bug variants with patterns that look like source code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semgrep/semgrep",
+      "status": "candidate-context",
+      "text": "<br />"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "google/guava",
       "status": "candidate",
       "text": "[![GitHub Release](https://img.shields.io/github/v/release/google/guava)](https://github.com/google/guava/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serpro69/claude-toolbox",
+      "status": "candidate",
+      "text": "[![Mentioned in Awesome Claude Code](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/hesreallyhim/awesome-claude-code)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semgrep/semgrep",
+      "status": "candidate",
+      "text": "<br />"
     }
   ],
   "candidate_related_terms": [
@@ -96,11 +132,23 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": null,
       "source_repo": "google/guava"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": null,
+      "source_repo": "serpro69/claude-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": null,
+      "source_repo": "semgrep/semgrep"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,56 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Lightweight static analysis for many languages. Find bug variants with patterns that look like source code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "build-test-docker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "build-test-docker"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build-test-docker",
+      "sense_id": "build-test-docker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-test-docker",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-test-docker",
+  "observation_id": "f7e7f37ba4515697",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T17:36:09.281008+00:00",
+  "observed_text": "build-test-docker",
+  "source_context_snippet": "build-test-docker",
+  "source_file": ".github/workflows/build-test-docker.yml",
+  "source_repo": "semgrep/semgrep",
+  "source_repo_description": "Lightweight static analysis for many languages. Find bug variants with patterns that look like source code."
+}

@@ -1,121 +1,6 @@
 {
-  "generated_at": "2026-04-19T04:47:57.443742+00:00",
+  "generated_at": "2026-04-19T17:36:09.281008+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "almogdepaz/wolfpack",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "codespell-project/codespell",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "mksglu/context-mode",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "serpro69/claude-starter-kit",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dandavison/delta",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "deluan/zsh-in-docker",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "bmad-code-org/bmad-builder",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "bmad-code-org/bmad-method-test-architecture-enterprise",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "bmad-code-org/bmad-module-creative-intelligence-suite",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "bmad-code-org/bmad-module-game-dev-studio",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "aaronrsun/spec-kit-checkpoint",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "aaronrsun/spec-kit-confluence",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "aaronrsun/spec-kit-issue",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "adaumann/speckit-preset-fiction-book-writing",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "semgrep/semgrep",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "virustotal/yara",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "meta-llama/llama-cookbook",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "meta-llama/llama-stack",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "psf/black",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "vaporif/parry",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "vaporif/rvx",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "alexellis/arkade",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "blake3-team/blake3",
-      "graph_distance": 5
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "brombal/just-install",
@@ -1950,6 +1835,181 @@
       "discovered_via": "explicit-github-link",
       "full_name": "agents-squads/agents-squads",
       "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ghostty-org/ghostty",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "facebook/react",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "modelcontextprotocol/servers",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "sst/opencode",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dandavison/open-in-editor",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "sharkdp/bat",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "denysdovhan/spaceship-prompt",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "robbyrussell/oh-my-zsh",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "romkatv/powerlevel10k",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "zsh-users/zsh-autosuggestions",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bmad-code-org/bmad-plugins-marketplace",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "semgrep/cursor-plugin",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "semgrep/mcp-marketplace",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "homebrew/homebrew-core",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ocaml/opam",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "airbnb/binaryalert",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bayshorenetworks/yextend",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "buffer/thug",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cuckoosandbox/cuckoo",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "meta-llama/llama-prompt-ops",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "meta-llama/synthetic-data-kit",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "meta-llama/llama-stack",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "meta-llama/llama-stack-client-python",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "meta-llama/llama-stack-client-typescript",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "openai/openai-node",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ichard26/diff-shades",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "vaporif/parry",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "alexellis/arkade-get",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "alexellis/discord-updater",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "alexellis/fstail",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "alexellis/gha-bump",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bazelbuild/bazel",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "blake3-team/blake3-specs",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "chia-network/chia-blockchain",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "clickhouse/clickhouse",
+      "graph_distance": 6
     }
   ],
   "processed": [
@@ -2750,6 +2810,27 @@
     "gitoxidelabs/gitoxide",
     "abduznik/git-alchemist",
     "addyosmani/gemini-cli-tips",
-    "agents-squads/squads-cli"
+    "agents-squads/squads-cli",
+    "almogdepaz/wolfpack",
+    "codespell-project/codespell",
+    "mksglu/context-mode",
+    "dandavison/delta",
+    "deluan/zsh-in-docker",
+    "bmad-code-org/bmad-builder",
+    "bmad-code-org/bmad-method-test-architecture-enterprise",
+    "bmad-code-org/bmad-module-creative-intelligence-suite",
+    "bmad-code-org/bmad-module-game-dev-studio",
+    "aaronrsun/spec-kit-checkpoint",
+    "aaronrsun/spec-kit-confluence",
+    "aaronrsun/spec-kit-issue",
+    "adaumann/speckit-preset-fiction-book-writing",
+    "semgrep/semgrep",
+    "virustotal/yara",
+    "meta-llama/llama-cookbook",
+    "llamastack/llama-stack",
+    "psf/black",
+    "vaporif/rvx",
+    "alexellis/arkade",
+    "blake3-team/blake3"
   ]
 }

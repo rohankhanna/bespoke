@@ -34,12 +34,30 @@
       "source_repo": "harfbuzz/harfbuzz",
       "status": "candidate-context",
       "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "psf/black",
+      "status": "candidate-context",
+      "text": "The uncompromising Python code formatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psf/black",
+      "status": "candidate-context",
+      "text": "docs"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "harfbuzz/harfbuzz",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psf/black",
       "status": "candidate",
       "text": "docs"
     }
@@ -108,11 +126,17 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "psf/black"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "lexical_providers": [
     "datamuse"
   ],

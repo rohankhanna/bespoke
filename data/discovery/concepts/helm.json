@@ -7,9 +7,65 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexellis/arkade",
+      "status": "candidate-context",
+      "text": "Open Source Marketplace For Developer Tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexellis/arkade",
+      "status": "candidate-context",
+      "text": "arkade is how developers install the latest versions of their favourite CLI tools and Kubernetes apps."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexellis/arkade",
+      "status": "candidate",
+      "text": "arkade is how developers install the latest versions of their favourite CLI tools and Kubernetes apps."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050621,
+      "status": "candidate",
+      "text": "keel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050574,
+      "status": "candidate",
+      "text": "pilothouse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050570,
+      "status": "candidate",
+      "text": "aport"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050556,
+      "status": "candidate",
+      "text": "amidships"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050189,
+      "status": "candidate",
+      "text": "rudder"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "helm",
   "concept_id": "helm",
@@ -20,12 +76,20 @@
       "observed_at": "2026-04-18T12:46:59.510459+00:00",
       "source_file": null,
       "source_repo": "databus23/helm-diff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": null,
+      "source_repo": "alexellis/arkade"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

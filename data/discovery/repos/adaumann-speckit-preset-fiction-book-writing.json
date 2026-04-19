@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-19T17:37:05.493399+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1687
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fiction-book-writing preset for GitHub Spec Kit. Stackable, priority-ordered collections of template and command overrides for Spec Kit writing complex fiction novel books (single POV and multi POV)",
+    "fork": false,
+    "full_name": "adaumann/speckit-preset-fiction-book-writing",
+    "html_url": "https://github.com/adaumann/speckit-preset-fiction-book-writing",
+    "language": "Python",
+    "pushed_at": "2026-04-18T19:32:51Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-04-18T19:25:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

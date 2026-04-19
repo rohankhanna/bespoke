@@ -75,6 +75,7 @@
   "candidate_synonyms": [],
   "concept_id": "datasets-available-on-huggingface",
   "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
   "gloss_status": "unresolved",
   "lexical_providers": [
     "datamuse"

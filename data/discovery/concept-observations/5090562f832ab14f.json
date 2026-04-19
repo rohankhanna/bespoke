@@ -75,6 +75,7 @@
   "candidate_synonyms": [],
   "concept_id": "build-hf-space-docker-image",
   "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
   "gloss_status": "unresolved",
   "lexical_providers": [
     "datamuse"

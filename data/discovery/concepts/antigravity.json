@@ -19,6 +19,18 @@
       "source_repo": "ComposioHQ/awesome-claude-skills",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">Awesome Claude Skills</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mksglu/context-mode",
+      "status": "candidate-context",
+      "text": "Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 12 platforms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mksglu/context-mode",
+      "status": "candidate-context",
+      "text": "**The other half of the context problem.**"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ComposioHQ/awesome-claude-skills",
       "status": "candidate",
       "text": "<h1 align=\"center\">Awesome Claude Skills</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mksglu/context-mode",
+      "status": "candidate",
+      "text": "**The other half of the context problem.**"
     }
   ],
   "candidate_related_terms": [
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": null,
+      "source_repo": "mksglu/context-mode"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "lexical_providers": [
     "datamuse"
   ],

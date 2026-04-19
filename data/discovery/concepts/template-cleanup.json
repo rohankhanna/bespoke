@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Template Cleanup"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "serpro69/claude-toolbox",
+      "status": "candidate-context",
+      "text": "Minimal by design, explicitly multi-lang, production-ready and battle-tested collection of configs and \"tools\" for your Claude Code agentic development workflows: mcp, configs, skills, agents and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serpro69/claude-toolbox",
+      "status": "candidate-context",
+      "text": "Template Cleanup"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serpro69/claude-toolbox",
+      "status": "candidate",
+      "text": "Template Cleanup"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10594,
+      "status": "candidate",
+      "text": "paradigm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10508,
+      "status": "candidate",
+      "text": "broom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10508,
+      "status": "candidate",
+      "text": "clean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10459,
+      "status": "candidate",
+      "text": "aldosterone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10459,
+      "status": "candidate",
+      "text": "amorphous"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Template Cleanup",
+  "concept_id": "template-cleanup",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": ".github/workflows/template-cleanup.yml",
+      "source_repo": "serpro69/claude-toolbox"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Template Cleanup",
+      "sense_id": "template-cleanup#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

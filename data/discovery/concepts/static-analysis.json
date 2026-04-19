@@ -19,9 +19,28 @@
       "source_repo": "agent-sh/agent-analyzer",
       "status": "candidate-context",
       "text": "Static analysis binary for agent-sh ecosystem - git history, AST mapping, collectors"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "semgrep/semgrep",
+      "status": "candidate-context",
+      "text": "Lightweight static analysis for many languages. Find bug variants with patterns that look like source code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semgrep/semgrep",
+      "status": "candidate-context",
+      "text": "<br />"
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semgrep/semgrep",
+      "status": "candidate",
+      "text": "<br />"
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "static-analysis",
@@ -45,12 +64,20 @@
       "observed_at": "2026-04-18T13:29:00.435097+00:00",
       "source_file": null,
       "source_repo": "agent-sh/agent-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": null,
+      "source_repo": "semgrep/semgrep"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

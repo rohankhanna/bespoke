@@ -59,6 +59,7 @@
     "7fbe5ca7b3eea38c",
     "878e59907e81008f",
     "b6adf30fc7b9b216",
+    "d23ff7df2031a6d8",
     "e900dbfb9d3525f3"
   ],
   "agent-to-agent": [
@@ -232,7 +233,8 @@
   "antigravity": [
     "2d3e1a10f4ff6aa6",
     "4971ba7326515dc1",
-    "cdeab02530cb6b8a"
+    "cdeab02530cb6b8a",
+    "f91f39d0b7e57a77"
   ],
   "antigravity-tools": [
     "b5a0fb22b9a44315"
@@ -240,11 +242,17 @@
   "approve-contributor": [
     "5671f20c9fc6daaf"
   ],
+  "apps": [
+    "993c4d575c1cd514"
+  ],
   "appsec": [
     "0b18d1ae40a4357a"
   ],
   "aqavit": [
     "8ca1ed45af50b4bc"
+  ],
+  "arkade": [
+    "6d9708ec864c9e70"
   ],
   "arm": [
     "0afce1b082fe4f66"
@@ -350,6 +358,9 @@
   "autodifferentiation": [
     "05afcdfd6d62d689"
   ],
+  "autofix.ci": [
+    "a3bab27ab8f692e6"
+  ],
   "autograd": [
     "88c645385982b754"
   ],
@@ -369,6 +380,7 @@
     "004f9d983f297aaa",
     "2cc3fe4012263fe7",
     "41f974021cae736b",
+    "44f6ddb63dc4a989",
     "4db1a2a5befeff1e",
     "8666fa41271e9115",
     "8d542baaa233920d",
@@ -386,6 +398,9 @@
     "739f1976801fa282",
     "a053c2756d441971",
     "ff2423180bc98d75"
+  ],
+  "autopep8": [
+    "212a36fe72f82ec8"
   ],
   "avatar": [
     "e00ed59f0aded43f"
@@ -420,6 +435,9 @@
   ],
   "backup": [
     "1bd629be74bd9652"
+  ],
+  "backward-compatibility-check": [
+    "11456d827af7719f"
   ],
   "baml": [
     "d0119ba4c7f4835c"
@@ -536,6 +554,9 @@
   "binary-release": [
     "881c919fba967c15"
   ],
+  "binstall": [
+    "349c944fa571d630"
+  ],
   "bioinformatics": [
     "01fb25818cc71244"
   ],
@@ -590,6 +611,7 @@
     "018443365f9cb38f",
     "11a8ff80e6c0a4ec",
     "1af67dae5626916f",
+    "268d86ba39e4d116",
     "35c378a053d052a8",
     "3b396a3c7efeb8b9",
     "3d28f6d75aa4948c",
@@ -601,6 +623,7 @@
     "975fef093c17d69d",
     "a13c3b53e95c01ef",
     "af5a836829e7129a",
+    "ce8c07ee84b5eeae",
     "d677de8c3efc6ef6",
     "e33c7f4091fa9ea2"
   ],
@@ -643,6 +666,7 @@
   ],
   "build-and-test": [
     "55fbb0cdbbe8c5e9",
+    "b5051c0a8e2e5c53",
     "f4b54b196c6eb667",
     "f517b70097118e8f"
   ],
@@ -674,6 +698,9 @@
   ],
   "build-dist": [
     "b3d1799d9ed90d9a"
+  ],
+  "build-distribution-images": [
+    "2710636b9cdb9d11"
   ],
   "build-docker-image": [
     "011596b790c40027"
@@ -740,6 +767,12 @@
   "build-test-and-release": [
     "43c00012cadebfba"
   ],
+  "build-test-core-x86": [
+    "b93cf0f27ac83bd3"
+  ],
+  "build-test-docker": [
+    "f7e7f37ba4515697"
+  ],
   "build-theme": [
     "ece99b9e2da8bfe0"
   ],
@@ -766,6 +799,9 @@
   ],
   "bundle-analyzer": [
     "0b48a0be2734b89e"
+  ],
+  "bundle-mcp-server-cli": [
+    "9d1a7449aebef312"
   ],
   "bundler": [
     "cfb702448f4369f9"
@@ -822,7 +858,11 @@
   "cc-proxy": [
     "227d41824e9a54dd"
   ],
+  "cert-manager": [
+    "5173189b6e9783b7"
+  ],
   "changelog": [
+    "48d02693d4c77ff1",
     "6df7e938290eba60"
   ],
   "changeset-check": [
@@ -865,6 +905,9 @@
   ],
   "chatgpt-ui": [
     "cafc3386c3a15f46"
+  ],
+  "check": [
+    "e87059e5e3c3c19a"
   ],
   "check-broken-links-on-daft.ai": [
     "e8e6284cebdf596e"
@@ -978,6 +1021,9 @@
   "ci-release": [
     "09c696862d160fc2"
   ],
+  "ci-status": [
+    "b368b307811362b8"
+  ],
   "ci-tests": [
     "b5cedfea1e74d0b9"
   ],
@@ -998,7 +1044,11 @@
   ],
   "cifuzz": [
     "8ecd1b30a1913cb2",
+    "9c4c632e33f92cfd",
     "b6a7862c51c0cc02"
+  ],
+  "ckad": [
+    "dc5ff804a6c3c87a"
   ],
   "cla-assistant": [
     "89459414b43f4966",
@@ -1041,6 +1091,7 @@
     "47fa7ee3795f9994",
     "4adfcb91bee25b49",
     "52e00549eabdd673",
+    "545bcaf01f779d55",
     "58247293529759cb",
     "5c07d9f0e43dd8bd",
     "5cf4d0e569f43a57",
@@ -1070,6 +1121,7 @@
     "dbee39c0394e5acb",
     "dcaf3f3e952263a1",
     "dd8d53be4e27ec38",
+    "e025031044704c6e",
     "e7e4ad6aebc7a6e3",
     "ebea5c0ee43a4581",
     "fc05da53b9ee5138"
@@ -1082,12 +1134,17 @@
   "claude-code-commands": [
     "791a978915667434"
   ],
+  "claude-code-hooks": [
+    "417f00fae57f9f07"
+  ],
   "claude-code-plugin": [
     "4b7496f9bcd91873",
+    "5f540cb0e1f865e6",
     "9dd9c4c6258908eb"
   ],
   "claude-code-plugins": [
     "0eca1329dbd63eb1",
+    "4b396c8015b342c3",
     "6a2c193b9a7325a8",
     "89a753fb1132e9b1"
   ],
@@ -1099,6 +1156,7 @@
     "eae6b46936ea8110"
   ],
   "claude-code-skill": [
+    "269dced01c5c6049",
     "2edde4044002971f",
     "87ede300735e4c32",
     "9cec553e9fd0938e"
@@ -1115,6 +1173,9 @@
   "claude-code-system-prompts": [
     "97744719c1b4a571"
   ],
+  "claude-config": [
+    "cb5912d3a0b0f1fb"
+  ],
   "claude-find-issues-for-pr": [
     "823312737091a1f0"
   ],
@@ -1130,6 +1191,9 @@
   ],
   "claude-model-check": [
     "923704044a8d18e3"
+  ],
+  "claude-plugin": [
+    "409570dd4fef3701"
   ],
   "claude-pr-assistant": [
     "b384c10be38953bd"
@@ -1151,7 +1215,11 @@
     "63130b8141257cb6",
     "8a1791d2b47c3b4d",
     "b4d09478ef23c658",
-    "d0aa1a0118ef5615"
+    "d0aa1a0118ef5615",
+    "d38ce13f2fbbb3ca"
+  ],
+  "claude-starter": [
+    "adecc615a67995b4"
   ],
   "claudecode": [
     "69d2b122268949ea",
@@ -1267,6 +1335,7 @@
     "fbe0c4e69a9703cd"
   ],
   "code": [
+    "455b859254b14522",
     "d06b0dfef3f4e08c"
   ],
   "code-analysis": [
@@ -1293,6 +1362,9 @@
   "codebase": [
     "26dc7b41002a91cd"
   ],
+  "codeformatter": [
+    "88345afa08820005"
+  ],
   "codeql": [
     "38e73dd2fdc0d9e9",
     "39827e5f6b911a15",
@@ -1310,17 +1382,22 @@
     "6669549ce6661508",
     "84a98fe7d5733b61"
   ],
+  "codeql-workflow-security-scan": [
+    "58d0f4fb94635243"
+  ],
   "codequality": [
     "9bc16849067d88a2"
   ],
   "codespell": [
     "16a7595c078eedb5",
+    "59b546f5e43eaaa3",
     "6d0a3c3682e1cd2f",
     "88d7eeb1e75efd2e"
   ],
   "codex-cli": [
     "56062a6f10d9f79e",
-    "77634804ad2e25e9"
+    "77634804ad2e25e9",
+    "ee7e95fe709a9ff3"
   ],
   "codex-skills": [
     "3e8f36fdea4420e3"
@@ -1340,6 +1417,9 @@
   "color": [
     "83ef7410b7fa4f98"
   ],
+  "color-themes": [
+    "0e6ad2d39eb76137"
+  ],
   "combine-dependabot-prs": [
     "3927011944e4faa2"
   ],
@@ -1357,6 +1437,9 @@
   ],
   "commit-message": [
     "425e9d6028c2a408"
+  ],
+  "commit-recordings": [
+    "10e6498081b6f6a7"
   ],
   "community": [
     "526aef4b96095eeb"
@@ -1433,8 +1516,14 @@
     "3b412641619c7c20",
     "b994fe1cdba511d4"
   ],
+  "context-mode": [
+    "bb09e76c5d6d9439"
+  ],
   "continuity-ai": [
     "33557b644e9b12c3"
+  ],
+  "continuous-deployment": [
+    "c24f9bd9d3601daa"
   ],
   "continuous-integration": [
     "49bff055daabea8b",
@@ -1473,8 +1562,14 @@
     "4fc7b19a3b31987d",
     "7e44b5a75977a240"
   ],
+  "coverity": [
+    "9155b58c7e6820f9"
+  ],
   "coverity-scan": [
     "600f9cfc213cd580"
+  ],
+  "crates-io": [
+    "358c1ae523671db3"
   ],
   "crawler": [
     "df99231ae0d625c5"
@@ -1574,6 +1669,9 @@
     "51b415b2734716ab",
     "a4ddba91895f3151",
     "c3eeecd346add8ba"
+  ],
+  "cursor-plugin": [
+    "792fe8ed55d1d057"
   ],
   "cursor-skills": [
     "98fa8c5b586942c6"
@@ -1683,6 +1781,9 @@
   "delete-doc-comment-trigger": [
     "24be26c8894ce25b"
   ],
+  "delta": [
+    "771d9da2c4cd6798"
+  ],
   "deno": [
     "ce36069cc54dfc76"
   ],
@@ -1723,7 +1824,11 @@
     "da10aca4ccf11275"
   ],
   "deploy-documentation": [
+    "2a4f691fdef9276c",
     "3ec9e2c51ec4f79a",
+    "538e6f6c6ad57ff2",
+    "bd03b12f4c3cdaa7",
+    "d910c66c8e444e57",
     "fa63c426e55dab9e"
   ],
   "deploy-documentation-to-pages": [
@@ -1735,6 +1840,9 @@
   ],
   "deploy-jekyll-site-to-pages": [
     "775e766638c9be0b"
+  ],
+  "deploy-manual": [
+    "bac2f33a7475fa21"
   ],
   "deploy-redirects-to-github-pages": [
     "74e0a9042cc1275b"
@@ -1776,6 +1884,7 @@
   "developer-tools": [
     "0f3b5eb2ad3c23e8",
     "10cab294f3c1950a",
+    "22145603f77542a7",
     "7ccd4b5a8ee83e03",
     "b04f59a29425d4ed",
     "cde070b58808dc44",
@@ -1786,6 +1895,7 @@
     "d5c701cfb5bf1dab"
   ],
   "devops": [
+    "6cfe9bbfbbe01316",
     "c2a5c63734a9b433"
   ],
   "devsecops": [
@@ -1796,14 +1906,24 @@
     "3643e22a912b831b"
   ],
   "diff": [
-    "18a50f2138dda19b"
+    "18a50f2138dda19b",
+    "b02bae43be48563a"
+  ],
+  "diff-shades": [
+    "6d719ece046d34ae"
+  ],
+  "diff-shades-comment": [
+    "b156b62c13c50a8f"
   ],
   "diffusion": [
     "0522280d495d5a2e",
     "c1fe70056a234249"
   ],
   "discord-notification": [
-    "d261b3529591d493"
+    "05c2edeb80654572",
+    "3e292d06be8c28e0",
+    "d261b3529591d493",
+    "e24df7d26f24aa51"
   ],
   "discord-release": [
     "ec0d25476833613e"
@@ -1827,7 +1947,9 @@
     "ce5f1f5b0f882d43"
   ],
   "docker": [
+    "21f47ab4f7458fcc",
     "6dca050932510e92",
+    "79b698ecc714c2fa",
     "ad29db27d6b10188",
     "fe530a422607ef9b"
   ],
@@ -1881,8 +2003,12 @@
   "docker-ui": [
     "4b82a1bd37446f8c"
   ],
+  "dockerfile": [
+    "265bcfa4e68d5eac"
+  ],
   "docs": [
     "7698d9475f2de866",
+    "8a77c570d1a8bca5",
     "8fc289141e56f43d",
     "b3267a657a704a68",
     "ea32e7ee8c26e52a",
@@ -1904,6 +2030,9 @@
     "17e926e825d3bb66",
     "44c7f5be7c12f585",
     "f0e22c8997203d7f"
+  ],
+  "documentation-build": [
+    "3bbcf6eb2752f357"
   ],
   "documentation-build-and-deploy": [
     "00170f2084b24785"
@@ -1930,6 +2059,9 @@
   "e2e-tests": [
     "d6bb1287e844e8ba",
     "e1c9d9a7d986407e"
+  ],
+  "e2e-url-checker": [
+    "63293df27bd948f1"
   ],
   "ecdsa": [
     "f3c111bd3884fc40",
@@ -2037,11 +2169,17 @@
   "file-icons-generator": [
     "73f96d4ca86985e9"
   ],
+  "file-processors-tests": [
+    "8751be56f4617b34"
+  ],
   "files": [
     "42d46a4b56298d04"
   ],
   "fine-tuning": [
     "7de294ebe4bad2b0"
+  ],
+  "finetuning": [
+    "6b9764fc5402dd07"
   ],
   "firebase": [
     "9e348b1f11321e01"
@@ -2102,6 +2240,7 @@
   ],
   "formatter": [
     "54470694226314df",
+    "5c1d3e0246ea3aa0",
     "c37a3a1c9d30762c"
   ],
   "foundation-models": [
@@ -2131,6 +2270,9 @@
   ],
   "futures": [
     "0589cd5df3598a83"
+  ],
+  "fuzz": [
+    "5fe86d355c598ffd"
   ],
   "gateway-model-health": [
     "f91ccde0e68bc84a"
@@ -2202,6 +2344,9 @@
   "git-commits": [
     "253e7d7624b70cad"
   ],
+  "git-delta": [
+    "21aedb23b73967de"
+  ],
   "git-diff": [
     "4547791bb0a94606"
   ],
@@ -2262,6 +2407,9 @@
   "go-test": [
     "0ef26402a64eb3d9",
     "74d9b46a0ac5cd34"
+  ],
+  "gofmt": [
+    "eb99781573892ab5"
   ],
   "golang": [
     "4badd279d28efb7e",
@@ -2382,6 +2530,7 @@
     "01da3f3bd82ed293"
   ],
   "hacktoberfest": [
+    "0d0f68a3508f42a4",
     "217e06fbdab0d2a0",
     "225eeed414220a9e",
     "369db3ed2b5ed750",
@@ -2389,6 +2538,7 @@
     "7e00609c241fef6a",
     "88b8e4cc9cd57649",
     "935af985dc4b84aa",
+    "a1be4d3c4d6a81a5",
     "a232a29010deac00",
     "cf0414e4e11e9ad0"
   ],
@@ -2412,6 +2562,7 @@
     "9649b357159f388c"
   ],
   "helm": [
+    "588b2ea079a2598d",
     "f92f45ebcc24b2c5"
   ],
   "hermes": [
@@ -2503,6 +2654,9 @@
   "inject-version-on-release": [
     "4b0149dc07d5d526"
   ],
+  "inlets": [
+    "f2e1d2fe1ac3597c"
+  ],
   "innodb": [
     "08e7d71c4e7632fe"
   ],
@@ -2591,13 +2745,18 @@
     "dc169f4a130a339e",
     "f24d163f5f70902e"
   ],
+  "istio": [
+    "5ca49498a41621f9"
+  ],
   "j2cl": [
     "af7bea407e97cd53"
   ],
   "java": [
+    "125ed4584093cc6f",
     "2af65d9387dedc65",
     "32ec9e38d74e87b7",
-    "70dbd974a3ae2e0a"
+    "70dbd974a3ae2e0a",
+    "e48f74c52c62c0ed"
   ],
   "javascriptcore": [
     "eeaae103d903ef2b"
@@ -2634,6 +2793,9 @@
   "kimi": [
     "786f693293ad5507"
   ],
+  "kiro": [
+    "cb404aef5a10bad3"
+  ],
   "kling": [
     "5f86b4f515cd03c2"
   ],
@@ -2662,7 +2824,8 @@
     "4b3219741998b753"
   ],
   "kotlin": [
-    "b2cf13a80d1b7c52"
+    "b2cf13a80d1b7c52",
+    "f4509609204827a1"
   ],
   "kubectl": [
     "3db7c7e1db64e6e8"
@@ -2676,6 +2839,7 @@
     "4ae4fa2cf0296810",
     "764b6f2c00ce4c93",
     "8051727eb490b245",
+    "a9366c456e15c41c",
     "f1185fe7788d910a"
   ],
   "kubernetes-clusters": [
@@ -2705,7 +2869,8 @@
     "7ba9f1086c977df1",
     "8cfa1866caa99790",
     "9920049b47d0dcf8",
-    "b9ba0edcb36f7d51"
+    "b9ba0edcb36f7d51",
+    "ff5c74b24d8fb21a"
   ],
   "langchain-alternative": [
     "dc6e91a156c32892"
@@ -2751,7 +2916,8 @@
     "a023b777a3f83f9b"
   ],
   "learning": [
-    "70478bfae314c50c"
+    "70478bfae314c50c",
+    "970a0ac32a7f082b"
   ],
   "letta-code": [
     "5413fcc83d59f617",
@@ -2808,6 +2974,9 @@
     "fae54627bfaa36b1",
     "fb707312a034d824"
   ],
+  "lint-and-format": [
+    "6d9c0ad5590c66ba"
+  ],
   "lint-and-format-check": [
     "54a9fc9b2dd6c8c1"
   ],
@@ -2852,12 +3021,14 @@
     "659462655fdc75f4",
     "6a79b0e6b8473d4c",
     "98b37b04da81b4b6",
+    "c471dc3eaf81d91d",
     "d83f9de28933dd6c"
   ],
   "llama-2": [
     "177e145af58bc334"
   ],
   "llama2": [
+    "01f1a2884825caac",
     "4f7f46fcc1e3416e"
   ],
   "llama3": [
@@ -3016,6 +3187,7 @@
     "6ed9a5d8c3cba574",
     "7319192c00a049ad",
     "8d3e3126c31f0f18",
+    "b4752405b796fd91",
     "e310c3f5fea3f913",
     "fe1822ea43a8aa8a"
   ],
@@ -3041,6 +3213,12 @@
   ],
   "manual-docs-deploy": [
     "a89cd77f0c200533"
+  ],
+  "manual-release": [
+    "0305c2825189acfd",
+    "68bb8943a8eb9af2",
+    "99ca2de3c3875a34",
+    "cd1fb17f01c66687"
   ],
   "mark-and-close-stale-issues": [
     "5cd05544f309ee82"
@@ -3083,10 +3261,14 @@
     "0ddbfba73a5f36f4",
     "5ca92f1a2992dd3a",
     "71338e258399a930",
+    "773fc5a2b9e7204b",
     "95713cdf0b375c53",
     "a54bb8a98db6a1ac",
     "ba7b0fd118db0926",
     "c08dfaf31932df83"
+  ],
+  "mcp-tools": [
+    "acaba7e101b74330"
   ],
   "measure-diff-across-multiple-repos": [
     "15d928cc3da4656f"
@@ -3264,6 +3446,9 @@
     "a2cc2b002ad7a099",
     "bf4dcd1c373fd09f"
   ],
+  "nginx": [
+    "031b7f39a6846cf5"
+  ],
   "nightly": [
     "0dda189804974369"
   ],
@@ -3360,6 +3545,9 @@
   "obsidian": [
     "dc91d7092843516d"
   ],
+  "oh-my-zsh": [
+    "1df74d4f3cafc1f2"
+  ],
   "ollama": [
     "03dd4cf65af54c48",
     "0cd5359d87872aca",
@@ -3401,7 +3589,11 @@
     "2917fb99b3550f4e",
     "627b5d73f8cf6127",
     "83e43b5f24c4d6fe",
+    "b9b670d2302c4874",
     "dbfb5aef341e4065"
+  ],
+  "openclaw-e2e": [
+    "79c1612a4a308a8b"
   ],
   "openclaw-gate": [
     "8e6d79860ed636ff"
@@ -3415,7 +3607,11 @@
   "opencode": [
     "5c0d2d2899c3ccd4",
     "73753850079a8152",
-    "990a5f9c542d10cc"
+    "990a5f9c542d10cc",
+    "d357054276935a22"
+  ],
+  "openfaas": [
+    "f6c454b5d031bef8"
   ],
   "openresty": [
     "accbf3ae2deb4573"
@@ -3465,6 +3661,7 @@
     "55cb0a15b4566a0b",
     "bc403a43037cf0a6",
     "dd8156783aa59d3d",
+    "ea516c617710f820",
     "fdf1d44f6097c804"
   ],
   "package-release": [
@@ -3476,6 +3673,9 @@
   "packaging": [
     "2f8040a48326244a",
     "f435ba5348007030"
+  ],
+  "pager": [
+    "0cb3c893319e3675"
   ],
   "parquet": [
     "47cdad3fa503f91a"
@@ -3510,6 +3710,9 @@
   ],
   "pgvector": [
     "a1fc00a3f45d20c5"
+  ],
+  "pi-agent": [
+    "7dd037fd43196c8f"
   ],
   "pika": [
     "07fc767ece2f017e"
@@ -3631,6 +3834,12 @@
   "pre-commit-auto-update": [
     "b39dd31b1d5097b1"
   ],
+  "pre-commit-hook": [
+    "689d4c9cc3cd5f5c"
+  ],
+  "pre-release": [
+    "b42347b2c5c442f4"
+  ],
   "prepare-release": [
     "0df3a22927434a13"
   ],
@@ -3722,6 +3931,7 @@
     "d0e829fd3fae7095"
   ],
   "publish": [
+    "00ee515ec50a1d40",
     "0b33c26ec6f31ae7",
     "0c5bacd7a198545e",
     "103a7b52795eeb68",
@@ -3836,6 +4046,9 @@
   "pyqt": [
     "90621d52eb5b2116"
   ],
+  "pytest": [
+    "20f329341239874b"
+  ],
   "python-security": [
     "40c8f7384754a96c"
   ],
@@ -3845,6 +4058,7 @@
   "pytorch": [
     "0ccf75fbe3268f20",
     "1eaafc8d96278ef8",
+    "1f552eaa565ed12d",
     "2165855f737cad27",
     "986c46755fa36de8",
     "ba936a7291b911d6",
@@ -3863,7 +4077,11 @@
     "b06d2dbab093ef1b"
   ],
   "quality-validation": [
-    "520e2d522776e221"
+    "0c870ad907ebc49e",
+    "520e2d522776e221",
+    "8bab6f62904a90c2",
+    "db9c933fd2fc4219",
+    "de6b255f52529edf"
   ],
   "query-builder": [
     "4a5985f8b73ec8d3"
@@ -3959,16 +4177,20 @@
     "28ad526aa72da784",
     "2945b16324137005",
     "29ba3904f9f08256",
+    "2f1cd93372cdfc98",
     "3039fd9a23cfd19c",
     "30a9eb442f64bcb5",
     "31e141949056cd5a",
     "345dfdb13081866c",
     "3783c12435b96c44",
     "37ff09385ccfae82",
+    "397632df35ecff37",
     "3f297a355bef0469",
     "4828a177707c4e87",
     "4dc8b1ba18670136",
     "54cddcb0f340fbd3",
+    "56038adf98ccc8f4",
+    "564e6adeeabd18a0",
     "685b8eae824865fe",
     "6916ee1c7820a462",
     "6d877fbe203f5f71",
@@ -4178,6 +4400,7 @@
     "44ff8954181b2ef7"
   ],
   "ruby": [
+    "384353ceb8490551",
     "c294e26e19d79f06"
   ],
   "ruff": [
@@ -4247,6 +4470,7 @@
     "5fd1895413cdc8e1",
     "740113993f2a408f",
     "7a9178e78d293607",
+    "7f01d37b50653a1b",
     "80db5b1ad3d651ce",
     "84d7b6b2f51e53f3",
     "96fd13be1bdd3c5d",
@@ -4281,6 +4505,7 @@
   ],
   "sast": [
     "64e660a6028f1e09",
+    "b13d1772a429f71e",
     "b650f4c22566a8d8"
   ],
   "sbert": [
@@ -4325,6 +4550,7 @@
     "ede650096f1ed682"
   ],
   "security-audit": [
+    "105531a5637a433f",
     "266bbb9a7db418ca",
     "9c77f44d0f157186"
   ],
@@ -4342,6 +4568,9 @@
     "8183026882423f63",
     "e3acd62a79b59a7e"
   ],
+  "self-hosted": [
+    "161611e51e578fd6"
+  ],
   "self-hosted-runner-benchmark": [
     "3475244a446bbee2"
   ],
@@ -4358,6 +4587,9 @@
   ],
   "semantic-search": [
     "beeaaf24c2c0d4a2"
+  ],
+  "semgrep": [
+    "bf76204470ab2cff"
   ],
   "sentence-transformers": [
     "6faafb862d0a9943"
@@ -4398,7 +4630,8 @@
     "376fb4f78c763724"
   ],
   "skill": [
-    "62035a1bafe22719"
+    "62035a1bafe22719",
+    "802a9bb40ad18098"
   ],
   "skill-quality-review-tessl": [
     "08d4e483a7199f88"
@@ -4407,9 +4640,11 @@
     "ab754d5763136414"
   ],
   "skills": [
+    "276061af7792f1ef",
     "406bc371dde5486d",
     "9adef701e572738f",
     "a16c96ba65db8d0d",
+    "c4baf4a8c3a327ec",
     "db7a7ea6ae2df7df"
   ],
   "slack": [
@@ -4463,6 +4698,9 @@
   "spell-checker": [
     "06ad01800bd8528e"
   ],
+  "spellcheck": [
+    "5cb6848076adfbc6"
+  ],
   "spelling": [
     "2e1f1121445eff4d",
     "464ee91f849fb7c5"
@@ -4511,11 +4749,18 @@
   "starlight": [
     "bde1200e132ce1c6"
   ],
+  "starter-project": [
+    "d85ad9770621518b"
+  ],
+  "starter-template": [
+    "7b1745d122d5b619"
+  ],
   "state-machine": [
     "f9d6896c9b34c0ef"
   ],
   "static-analysis": [
     "24dae80c6110cec4",
+    "2af901d7b7f719b2",
     "3f765ffda25cd812",
     "7788f00f1986109a"
   ],
@@ -4524,6 +4769,7 @@
     "9c2cbfebcdf0f2aa"
   ],
   "static-code-analysis": [
+    "63b5583440c49643",
     "e8f56893f51a60f5"
   ],
   "static-site-generator": [
@@ -4638,6 +4884,9 @@
   "synchronize-to-gitee": [
     "df71c7b9f7068136"
   ],
+  "syntax-highlighter": [
+    "e3a8a11d73a67985"
+  ],
   "system-integration-tests": [
     "37351948d0afae8c"
   ],
@@ -4653,6 +4902,9 @@
   "tagged-release": [
     "89e532315cee0c15"
   ],
+  "tailscale": [
+    "69cb89a04a30b0b5"
+  ],
   "tailwindcss": [
     "424852c92bd63757",
     "efb8e9f3f2607ad8"
@@ -4663,7 +4915,11 @@
   "tauri-apps": [
     "d737f91e35835384"
   ],
+  "template-cleanup": [
+    "045672cfc0d83d53"
+  ],
   "template-sync": [
+    "09a46de4188d7195",
     "9e738542b5b169ca",
     "af8065c30f1a81fa"
   ],
@@ -4686,6 +4942,7 @@
   ],
   "terminal": [
     "2c94a682930605fb",
+    "8d4fcc788a442e68",
     "a8c8a49868768912",
     "ac3185a0bb25baf7",
     "dd35512eeb8e1c43"
@@ -4823,6 +5080,8 @@
     "180ab1c48c353e61",
     "2e38210a57fa3b3c",
     "4178d539e66c5114",
+    "49156a3dc710163c",
+    "4ea0c8f0da891500",
     "55bda06eefea024f",
     "5dafce205cadd56d",
     "64525c046caac673",
@@ -4869,6 +5128,9 @@
   ],
   "threejs": [
     "00454729ead471ad"
+  ],
+  "tmux": [
+    "741bd21651a0c224"
   ],
   "tofu": [
     "f8a8f8b75cc92b50"
@@ -4987,6 +5249,9 @@
   "update-homebrew-formula": [
     "e1664e0e4bbdfb4b"
   ],
+  "update-install-stats": [
+    "aeb2906d13641bbe"
+  ],
   "update-llama.cpp-submodule": [
     "d76ad323b464a635"
   ],
@@ -5054,6 +5319,9 @@
   "verification-pipeline": [
     "13dcedc48c79390d"
   ],
+  "verify-release": [
+    "8e7b84f7e37cf9e0"
+  ],
   "version-bump": [
     "ea4164aa82047820"
   ],
@@ -5066,6 +5334,7 @@
   ],
   "vibe-coding": [
     "04c55472c197650c",
+    "737721db151033e4",
     "8300a06a013340b0"
   ],
   "viggle": [
@@ -5079,6 +5348,9 @@
   ],
   "visual-language-learning": [
     "fc2d2a5d2812ae31"
+  ],
+  "vllm": [
+    "a82d4cf33dbc5756"
   ],
   "volume": [
     "2894cd7d49d12755"
@@ -5094,6 +5366,7 @@
   ],
   "vscode": [
     "075860d12653e740",
+    "17cc0e75f182edf6",
     "81652ad66223ae25"
   ],
   "vscode-extension": [
@@ -5183,11 +5456,17 @@
   "xunit": [
     "7e70d52f9ba81df3"
   ],
+  "yapf": [
+    "6658fd5e17d4f1ae"
+  ],
   "ycombinator": [
     "3a38be3458cfb88c"
   ],
   "yolo-update-pins": [
     "9ac618ac5983b766"
+  ],
+  "zed-extension": [
+    "b64965bd6576e64e"
   ],
   "zep-server-docker-build-and-publish": [
     "4e191a1f6d060192"

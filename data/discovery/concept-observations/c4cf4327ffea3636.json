@@ -28,6 +28,7 @@
   "candidate_synonyms": [],
   "concept_id": "docker-release",
   "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
   "gloss_status": "unresolved",
   "lexical_providers": [],
   "lexical_status": "unresolved",

@@ -1,12 +1,17 @@
 {
   "component": "addnab/docker-run-action@v3",
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-18T09:10:17.311509+00:00",
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/CI.yaml",
       "source_repo": "thx/resvg-js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BLAKE3-team/BLAKE3"
     }
   ]
 }

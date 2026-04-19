@@ -208,6 +208,30 @@
       "source_repo": "ecumene/rust-sloth",
       "status": "candidate-context",
       "text": "![pikachu](models/demo/pikachu.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dandavison/delta",
+      "status": "candidate-context",
+      "text": "A syntax-highlighting pager for git, diff, grep, rg --json, and blame output"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dandavison/delta",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vaporif/parry-guard",
+      "status": "candidate-context",
+      "text": "Prompt injection scanner for Claude Code. Runs DeBERTa/Llama transformers via Candle or ONNX in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vaporif/parry-guard",
+      "status": "candidate-context",
+      "text": "[![ci](https://github.com/vaporif/parry-guard/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/vaporif/parry-guard/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -300,6 +324,18 @@
       "source_repo": "ecumene/rust-sloth",
       "status": "candidate",
       "text": "![pikachu](models/demo/pikachu.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dandavison/delta",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vaporif/parry-guard",
+      "status": "candidate",
+      "text": "[![ci](https://github.com/vaporif/parry-guard/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/vaporif/parry-guard/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -565,11 +601,23 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "ecumene/rust-sloth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": null,
+      "source_repo": "dandavison/delta"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "lexical_providers": [
     "datamuse"
   ],

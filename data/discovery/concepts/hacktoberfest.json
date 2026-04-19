@@ -73,6 +73,30 @@
       "source_repo": "Kampfkarren/full-moon",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "psf/black",
+      "status": "candidate-context",
+      "text": "The uncompromising Python code formatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psf/black",
+      "status": "candidate-context",
+      "text": "[![Black Logo](https://raw.githubusercontent.com/psf/black/main/docs/_static/logo2-readme.png)](https://black.readthedocs.io/en/stable/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexellis/arkade",
+      "status": "candidate-context",
+      "text": "Open Source Marketplace For Developer Tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexellis/arkade",
+      "status": "candidate-context",
+      "text": "arkade is how developers install the latest versions of their favourite CLI tools and Kubernetes apps."
     }
   ],
   "candidate_glosses": [
@@ -105,6 +129,18 @@
       "source_repo": "Kampfkarren/full-moon",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psf/black",
+      "status": "candidate",
+      "text": "[![Black Logo](https://raw.githubusercontent.com/psf/black/main/docs/_static/logo2-readme.png)](https://black.readthedocs.io/en/stable/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexellis/arkade",
+      "status": "candidate",
+      "text": "arkade is how developers install the latest versions of their favourite CLI tools and Kubernetes apps."
     }
   ],
   "candidate_related_terms": [],
@@ -166,11 +202,23 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "Kampfkarren/full-moon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": null,
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": null,
+      "source_repo": "alexellis/arkade"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "lexical_providers": [
     "datamuse"
   ],

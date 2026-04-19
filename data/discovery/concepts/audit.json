@@ -7,10 +7,88 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vaporif/parry-guard",
+      "status": "candidate-context",
+      "text": "Prompt injection scanner for Claude Code. Runs DeBERTa/Llama transformers via Candle or ONNX in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vaporif/parry-guard",
+      "status": "candidate-context",
+      "text": "Audit"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vaporif/parry-guard",
+      "status": "candidate",
+      "text": "Audit"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026857,
+      "status": "candidate",
+      "text": "inspect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025753,
+      "status": "candidate",
+      "text": "scrutinize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029223,
+      "status": "candidate",
+      "text": "audited account"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029222,
+      "status": "candidate",
+      "text": "examination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029022,
+      "status": "candidate",
+      "text": "vetting"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 64033,
+      "status": "candidate",
+      "text": "scrutinize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20036,
+      "status": "candidate",
+      "text": "inspect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "audited account"
+    }
+  ],
   "canonical_name": "Audit",
   "concept_id": "audit",
   "definition_status": "unresolved",
@@ -26,12 +104,20 @@
       "observed_at": "2026-04-18T12:07:11.500453+00:00",
       "source_file": ".github/workflows/audit.yml",
       "source_repo": "npm/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "vaporif/parry-guard"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

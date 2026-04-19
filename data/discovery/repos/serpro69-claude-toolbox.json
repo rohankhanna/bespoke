@@ -3,6 +3,11 @@
     {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
     },
     {
@@ -48,311 +53,17 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-release.yml",
       "source_repo": "serpro69/claude-toolbox",
-      "target": "beehiveinnovations/pal-mcp-server",
-      "target_type": "repository"
+      "target": "actions/checkout@v6",
+      "target_type": "component"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-release.yml",
       "source_repo": "serpro69/claude-toolbox",
-      "target": "serpro69/capy",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "oraios/serena",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "serpro69/claude-in-docker",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "npx",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "uvx",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "LANGUAGES",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "python",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "python,typescript",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "SERENA_INITIAL_PROMPT",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "(annotated with",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "capy setup",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "settings.local.json",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "CLAUDE_STATUSLINE_THEME",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "darcula",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "nord",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "catppuccin",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "CLAUDE_STATUSLINE_MODE",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "dark",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "light",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "settings.json",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "latest",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "master",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "v1.2.3",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "CC_MODEL",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "CC_EFFORT_LEVEL",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "sync_exclusions",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "design",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "implement",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "1. **Remove Task Master from",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": ":** delete the",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "entry from your",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "config. 1. **Remove TM variables from",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": ":** delete",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": ", and",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "from the",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "object. 1. **Remove TM references from",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": ") created by the",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "skill and consumed by",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "(kk)",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "2. **Set up sync infrastructure.** Create",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "Copy",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "and",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "LICENSE.md",
+      "target": "Pre-Release",
       "target_type": "term"
     },
     {
@@ -367,27 +78,6 @@
       "source_file": ".github/workflows/release.yml",
       "source_repo": "serpro69/claude-toolbox",
       "target": "Release",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/release.yml",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "$SEMVER\\",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/release.yml",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "Release $VERSION\\",
-      "target_type": "term"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/release.yml",
-      "source_repo": "serpro69/claude-toolbox",
-      "target": "$VERSION\\",
       "target_type": "term"
     },
     {
@@ -447,18 +137,113 @@
       "target_type": "term"
     },
     {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/template-sync.yml",
+      "edge_type": "repo-topic",
+      "source_file": null,
       "source_repo": "serpro69/claude-toolbox",
-      "target": "dry_run: true\\",
+      "target": "agent-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serpro69/claude-toolbox",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serpro69/claude-toolbox",
+      "target": "claude-code-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serpro69/claude-toolbox",
+      "target": "claude-config",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serpro69/claude-toolbox",
+      "target": "claude-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serpro69/claude-toolbox",
+      "target": "claude-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serpro69/claude-toolbox",
+      "target": "claude-starter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serpro69/claude-toolbox",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serpro69/claude-toolbox",
+      "target": "kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serpro69/claude-toolbox",
+      "target": "skill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serpro69/claude-toolbox",
+      "target": "skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serpro69/claude-toolbox",
+      "target": "starter-project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serpro69/claude-toolbox",
+      "target": "starter-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serpro69/claude-toolbox",
+      "target": "vibe-coding",
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T09:17:25.159002+00:00",
+  "fetched_at": "2026-04-19T17:36:31.948562+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 26510
+      "size": 27353
+    },
+    {
+      "path": ".github/workflows/pre-release.yml",
+      "size": 7177
     },
     {
       "path": ".github/workflows/release.yml",
@@ -473,7 +258,6 @@
       "size": 15922
     }
   ],
-  "metadata_refreshed_at": "2026-04-19T14:02:32.864387+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -483,8 +267,8 @@
     "full_name": "serpro69/claude-toolbox",
     "html_url": "https://github.com/serpro69/claude-toolbox",
     "language": "Shell",
-    "pushed_at": "2026-04-19T13:54:46Z",
-    "stargazers_count": 128,
+    "pushed_at": "2026-04-19T16:16:01Z",
+    "stargazers_count": 129,
     "topics": [
       "agent-skills",
       "agents",
@@ -507,280 +291,117 @@
       "typescript",
       "vibe-coding"
     ],
-    "updated_at": "2026-04-19T11:45:17Z"
+    "updated_at": "2026-04-19T15:55:49Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "beehiveinnovations/pal-mcp-server",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "oraios/serena",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "serpro69/capy",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "serpro69/claude-in-docker",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "npx"
+      "context_snippet": "Pre-Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-release.yml",
+      "term": "Pre-Release"
     },
     {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "uvx"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "LANGUAGES"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "python"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "python,typescript"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "SERENA_INITIAL_PROMPT"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "(annotated with"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "capy setup"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "settings.local.json"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "CLAUDE_STATUSLINE_THEME"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "darcula"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "nord"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "catppuccin"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "CLAUDE_STATUSLINE_MODE"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "dark"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "light"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "settings.json"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "settings.local.json"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "latest"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "master"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "v1.2.3"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "settings.local.json"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "settings.json"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "CC_MODEL"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "CC_EFFORT_LEVEL"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "sync_exclusions"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "design"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "implement"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "1. **Remove Task Master from"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": ":** delete the"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "entry from your"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "config. 1. **Remove TM variables from"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": ":** delete"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": ", and"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "from the"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "object. 1. **Remove TM references from"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": ") created by the"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "skill and consumed by"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "(kk)"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "2. **Set up sync infrastructure.** Create"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "Copy"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "and"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "LICENSE.md"
-    },
-    {
+      "context_snippet": "Release",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/release.yml",
       "term": "Release"
     },
     {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/release.yml",
-      "term": "$SEMVER\\"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/release.yml",
-      "term": "Release $VERSION\\"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/release.yml",
-      "term": "$VERSION\\"
-    },
-    {
+      "context_snippet": "Template Cleanup",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/template-cleanup.yml",
       "term": "Template Cleanup"
     },
     {
+      "context_snippet": "Template Sync",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/template-sync.yml",
       "term": "Template Sync"
     },
     {
-      "edge_type": "inline-code",
-      "source_file": ".github/workflows/template-sync.yml",
-      "term": "dry_run: true\\"
+      "context_snippet": "[![Mentioned in Awesome Claude Code](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/hesreallyhim/awesome-claude-code)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-skills"
+    },
+    {
+      "context_snippet": "[![Mentioned in Awesome Claude Code](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/hesreallyhim/awesome-claude-code)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "[![Mentioned in Awesome Claude Code](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/hesreallyhim/awesome-claude-code)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code-plugin"
+    },
+    {
+      "context_snippet": "[![Mentioned in Awesome Claude Code](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/hesreallyhim/awesome-claude-code)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-config"
+    },
+    {
+      "context_snippet": "[![Mentioned in Awesome Claude Code](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/hesreallyhim/awesome-claude-code)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-plugin"
+    },
+    {
+      "context_snippet": "[![Mentioned in Awesome Claude Code](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/hesreallyhim/awesome-claude-code)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-skills"
+    },
+    {
+      "context_snippet": "[![Mentioned in Awesome Claude Code](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/hesreallyhim/awesome-claude-code)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-starter"
+    },
+    {
+      "context_snippet": "[![Mentioned in Awesome Claude Code](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/hesreallyhim/awesome-claude-code)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![Mentioned in Awesome Claude Code](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/hesreallyhim/awesome-claude-code)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    },
+    {
+      "context_snippet": "[![Mentioned in Awesome Claude Code](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/hesreallyhim/awesome-claude-code)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "skill"
+    },
+    {
+      "context_snippet": "[![Mentioned in Awesome Claude Code](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/hesreallyhim/awesome-claude-code)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "skills"
+    },
+    {
+      "context_snippet": "[![Mentioned in Awesome Claude Code](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/hesreallyhim/awesome-claude-code)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "starter-project"
+    },
+    {
+      "context_snippet": "[![Mentioned in Awesome Claude Code](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/hesreallyhim/awesome-claude-code)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "starter-template"
+    },
+    {
+      "context_snippet": "[![Mentioned in Awesome Claude Code](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/hesreallyhim/awesome-claude-code)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vibe-coding"
     }
   ]
 }

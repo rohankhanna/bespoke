@@ -1,0 +1,92 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A syntax-highlighting pager for git, diff, grep, rg --json, and blame output"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30004108,
+      "status": "candidate",
+      "text": "triangular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30000444,
+      "status": "candidate",
+      "text": "triangle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29970197,
+      "status": "candidate",
+      "text": "part"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29956896,
+      "status": "candidate",
+      "text": "region"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29951722,
+      "status": "candidate",
+      "text": "daemon"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "delta",
+      "sense_id": "delta#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "delta",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "delta",
+  "observation_id": "771d9da2c4cd6798",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-19T17:36:09.281008+00:00",
+  "observed_text": "delta",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "dandavison/delta",
+  "source_repo_description": "A syntax-highlighting pager for git, diff, grep, rg --json, and blame output"
+}

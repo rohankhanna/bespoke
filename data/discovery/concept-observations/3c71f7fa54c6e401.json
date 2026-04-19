@@ -28,6 +28,7 @@
   "candidate_synonyms": [],
   "concept_id": "golangci-lint",
   "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
   "gloss_status": "unresolved",
   "lexical_providers": [],
   "lexical_status": "unresolved",

@@ -1,0 +1,12 @@
+{
+  "component": "autofix-ci/action@7a166d7532b277f34e16238930461bf77f9d7ed8",
+  "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "codespell-project/codespell"
+    }
+  ]
+}

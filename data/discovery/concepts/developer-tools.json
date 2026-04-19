@@ -61,6 +61,18 @@
       "source_repo": "agents-squads/squads-cli",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "almogdepaz/wolfpack",
+      "status": "candidate-context",
+      "text": "Mobile & desktop command center for AI coding agents. Control Claude, Codex, Gemini sessions across machines from your phone \u2014 secured by Tailscale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "almogdepaz/wolfpack",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/almogdepaz/wolfpack/actions/workflows/test.yml/badge.svg)](https://github.com/almogdepaz/wolfpack/actions/workflows/test.yml)"
     }
   ],
   "candidate_glosses": [
@@ -87,6 +99,12 @@
       "source_repo": "agents-squads/squads-cli",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "almogdepaz/wolfpack",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/almogdepaz/wolfpack/actions/workflows/test.yml/badge.svg)](https://github.com/almogdepaz/wolfpack/actions/workflows/test.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "agents-squads/squads-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": null,
+      "source_repo": "almogdepaz/wolfpack"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "lexical_providers": [
     "datamuse"
   ],

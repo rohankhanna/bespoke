@@ -314,6 +314,54 @@
       "source_repo": "agents-squads/squads-cli",
       "status": "candidate-context",
       "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "almogdepaz/wolfpack",
+      "status": "candidate-context",
+      "text": "Mobile & desktop command center for AI coding agents. Control Claude, Codex, Gemini sessions across machines from your phone \u2014 secured by Tailscale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "almogdepaz/wolfpack",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "serpro69/claude-toolbox",
+      "status": "candidate-context",
+      "text": "Minimal by design, explicitly multi-lang, production-ready and battle-tested collection of configs and \"tools\" for your Claude Code agentic development workflows: mcp, configs, skills, agents and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serpro69/claude-toolbox",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deluan/zsh-in-docker",
+      "status": "candidate-context",
+      "text": "Install Zsh, Oh My Zsh and plugins inside a Docker container with one line!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deluan/zsh-in-docker",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vaporif/rvx",
+      "status": "candidate-context",
+      "text": "rvx for Rust \u2014 download and run pre-built crate binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vaporif/rvx",
+      "status": "candidate-context",
+      "text": "Release"
     }
   ],
   "candidate_glosses": [
@@ -452,6 +500,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "agents-squads/squads-cli",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "almogdepaz/wolfpack",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serpro69/claude-toolbox",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deluan/zsh-in-docker",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vaporif/rvx",
       "status": "candidate",
       "text": "Release"
     }
@@ -857,11 +929,35 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "agents-squads/squads-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "almogdepaz/wolfpack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "serpro69/claude-toolbox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "deluan/zsh-in-docker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "vaporif/rvx"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "lexical_providers": [
     "datamuse"
   ],

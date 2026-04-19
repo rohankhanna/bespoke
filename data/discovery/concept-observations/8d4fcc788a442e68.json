@@ -1,0 +1,128 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Mobile & desktop command center for AI coding agents. Control Claude, Codex, Gemini sessions across machines from your phone \u2014 secured by Tailscale."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI](https://github.com/almogdepaz/wolfpack/actions/workflows/test.yml/badge.svg)](https://github.com/almogdepaz/wolfpack/actions/workflows/test.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/almogdepaz/wolfpack/actions/workflows/test.yml/badge.svg)](https://github.com/almogdepaz/wolfpack/actions/workflows/test.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39899636,
+      "status": "candidate",
+      "text": "pole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39898512,
+      "status": "candidate",
+      "text": "depot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39820396,
+      "status": "candidate",
+      "text": "closing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39819189,
+      "status": "candidate",
+      "text": "final"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39795496,
+      "status": "candidate",
+      "text": "terminus"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "terminal",
+      "sense_id": "terminal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26042,
+      "status": "candidate",
+      "text": "terminus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20044,
+      "status": "candidate",
+      "text": "depot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15048,
+      "status": "candidate",
+      "text": "last"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14044,
+      "status": "candidate",
+      "text": "fatal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8044,
+      "status": "candidate",
+      "text": "closing"
+    }
+  ],
+  "concept_id": "terminal",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "terminal",
+  "observation_id": "8d4fcc788a442e68",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-19T17:36:09.281008+00:00",
+  "observed_text": "terminal",
+  "source_context_snippet": "[![CI](https://github.com/almogdepaz/wolfpack/actions/workflows/test.yml/badge.svg)](https://github.com/almogdepaz/wolfpack/actions/workflows/test.yml)",
+  "source_file": null,
+  "source_repo": "almogdepaz/wolfpack",
+  "source_repo_description": "Mobile & desktop command center for AI coding agents. Control Claude, Codex, Gemini sessions across machines from your phone \u2014 secured by Tailscale."
+}

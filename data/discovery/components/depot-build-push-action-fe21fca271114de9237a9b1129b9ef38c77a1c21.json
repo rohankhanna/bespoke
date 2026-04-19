@@ -1,0 +1,12 @@
+{
+  "component": "depot/build-push-action@fe21fca271114de9237a9b1129b9ef38c77a1c21",
+  "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-test-docker.yml",
+      "source_repo": "semgrep/semgrep"
+    }
+  ]
+}

@@ -1,12 +1,17 @@
 {
   "component": "depot/setup-action@15c09a5f77a0840ad4bce955686522a257853461",
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-docker.yml",
       "source_repo": "astral-sh/uv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-test-docker.yml",
+      "source_repo": "semgrep/semgrep"
     }
   ]
 }

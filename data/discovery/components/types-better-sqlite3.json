@@ -1,7 +1,7 @@
 {
   "component": "@types/better-sqlite3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",
@@ -72,6 +72,11 @@
       "discovered_via": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "shareAI-lab/kode-agent-sdk"
+    },
+    {
+      "discovered_via": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mksglu/context-mode"
     }
   ]
 }

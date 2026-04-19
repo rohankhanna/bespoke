@@ -31,6 +31,18 @@
       "source_repo": "luarocks/luarocks",
       "status": "candidate-context",
       "text": "<p align=\"center\"><a href=\"https://luarocks.org\"><img border=\"0\" src=\"https://luarocks.github.io/luarocks/luarocks.png\" alt=\"LuaRocks\" width=\"500px\"></a></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vaporif/rvx",
+      "status": "candidate-context",
+      "text": "rvx for Rust \u2014 download and run pre-built crate binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vaporif/rvx",
+      "status": "candidate-context",
+      "text": "[![Check](https://github.com/vaporif/rvx/actions/workflows/check.yml/badge.svg)](https://github.com/vaporif/rvx/actions/workflows/check.yml)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "luarocks/luarocks",
       "status": "candidate",
       "text": "<p align=\"center\"><a href=\"https://luarocks.org\"><img border=\"0\" src=\"https://luarocks.github.io/luarocks/luarocks.png\" alt=\"LuaRocks\" width=\"500px\"></a></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vaporif/rvx",
+      "status": "candidate",
+      "text": "[![Check](https://github.com/vaporif/rvx/actions/workflows/check.yml/badge.svg)](https://github.com/vaporif/rvx/actions/workflows/check.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "luarocks/luarocks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/rvx"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "lexical_providers": [
     "datamuse"
   ],

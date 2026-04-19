@@ -1,0 +1,92 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "BMad  Core Game Dev Studio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Quality & Validation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Quality & Validation"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18424,
+      "status": "candidate",
+      "text": "proof"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18424,
+      "status": "candidate",
+      "text": "proofed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18424,
+      "status": "candidate",
+      "text": "proofs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18184,
+      "status": "candidate",
+      "text": "recognition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17424,
+      "status": "candidate",
+      "text": "execution"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Quality & Validation",
+      "sense_id": "quality-validation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "quality-validation",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "quality-validation",
+  "observation_id": "db9c933fd2fc4219",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T17:36:09.281008+00:00",
+  "observed_text": "Quality & Validation",
+  "source_context_snippet": "Quality & Validation",
+  "source_file": ".github/workflows/quality.yaml",
+  "source_repo": "bmad-code-org/bmad-module-game-dev-studio",
+  "source_repo_description": "BMad  Core Game Dev Studio"
+}

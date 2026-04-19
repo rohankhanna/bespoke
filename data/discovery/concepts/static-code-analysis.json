@@ -7,8 +7,28 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "semgrep/semgrep",
+      "status": "candidate-context",
+      "text": "Lightweight static analysis for many languages. Find bug variants with patterns that look like source code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semgrep/semgrep",
+      "status": "candidate-context",
+      "text": "<br />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semgrep/semgrep",
+      "status": "candidate",
+      "text": "<br />"
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "static-code-analysis",
@@ -20,12 +40,20 @@
       "observed_at": "2026-04-18T12:46:59.510459+00:00",
       "source_file": null,
       "source_repo": "astral-sh/ruff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:36:09.281008+00:00",
+      "source_file": null,
+      "source_repo": "semgrep/semgrep"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

@@ -1,11 +1,31 @@
 {
   "first_seen_at": "2026-04-18T04:44:33.621188+00:00",
-  "last_seen_at": "2026-04-18T04:44:33.621188+00:00",
+  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "lenML/gcp-claude-openai-api-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/manual-release.yaml",
+      "source_repo": "bmad-code-org/bmad-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/manual-release.yaml",
+      "source_repo": "bmad-code-org/bmad-method-test-architecture-enterprise"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/manual-release.yaml",
+      "source_repo": "bmad-code-org/bmad-module-creative-intelligence-suite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/manual-release.yaml",
+      "source_repo": "bmad-code-org/bmad-module-game-dev-studio"
     }
   ],
   "term": "Manual Release"

@@ -292,6 +292,9 @@
   "approve contributor": [
     "approve-contributor"
   ],
+  "apps": [
+    "apps"
+  ],
   "appsec": [
     "appsec"
   ],
@@ -300,6 +303,9 @@
   ],
   "are": [
     "en-modal_or_auxiliary-are"
+  ],
+  "arkade": [
+    "arkade"
   ],
   "arm": [
     "arm"
@@ -407,6 +413,9 @@
   "autodifferentiation": [
     "autodifferentiation"
   ],
+  "autofix.ci": [
+    "autofix.ci"
+  ],
   "autograd": [
     "autograd"
   ],
@@ -427,6 +436,9 @@
   ],
   "autonomous-agents": [
     "autonomous-agents"
+  ],
+  "autopep8": [
+    "autopep8"
   ],
   "avatar": [
     "avatar"
@@ -457,6 +469,9 @@
   ],
   "backup": [
     "backup"
+  ],
+  "backward compatibility check": [
+    "backward-compatibility-check"
   ],
   "baml": [
     "baml"
@@ -604,6 +619,9 @@
   "binary release": [
     "binary-release"
   ],
+  "binstall": [
+    "binstall"
+  ],
   "bioinformatics": [
     "bioinformatics"
   ],
@@ -723,6 +741,9 @@
   "build dist": [
     "build-dist"
   ],
+  "build distribution images": [
+    "build-distribution-images"
+  ],
   "build docker image": [
     "build-docker-image"
   ],
@@ -804,6 +825,12 @@
   "build-test": [
     "build-test"
   ],
+  "build-test-core-x86": [
+    "build-test-core-x86"
+  ],
+  "build-test-docker": [
+    "build-test-docker"
+  ],
   "built-with-rust": [
     "built-with-rust"
   ],
@@ -821,6 +848,9 @@
   ],
   "bundle analyzer": [
     "bundle-analyzer"
+  ],
+  "bundle mcp server & cli": [
+    "bundle-mcp-server-cli"
   ],
   "bundler": [
     "bundler"
@@ -886,6 +916,9 @@
   "cc-proxy": [
     "cc-proxy"
   ],
+  "cert-manager": [
+    "cert-manager"
+  ],
   "changelog": [
     "changelog"
   ],
@@ -912,6 +945,9 @@
   ],
   "chatgpt-ui": [
     "chatgpt-ui"
+  ],
+  "check": [
+    "check"
   ],
   "check broken links on daft.ai": [
     "check-broken-links-on-daft.ai"
@@ -1003,6 +1039,9 @@
   "ci quality gate": [
     "ci-quality-gate"
   ],
+  "ci status": [
+    "ci-status"
+  ],
   "ci tests": [
     "ci-tests"
   ],
@@ -1029,6 +1068,9 @@
   ],
   "cifuzz": [
     "cifuzz"
+  ],
+  "ckad": [
+    "ckad"
   ],
   "cla assistant": [
     "cla-assistant"
@@ -1093,6 +1135,9 @@
   "claude-code-commands": [
     "claude-code-commands"
   ],
+  "claude-code-hooks": [
+    "claude-code-hooks"
+  ],
   "claude-code-plugin": [
     "claude-code-plugin"
   ],
@@ -1114,11 +1159,20 @@
   "claude-code-system-prompts": [
     "claude-code-system-prompts"
   ],
+  "claude-config": [
+    "claude-config"
+  ],
+  "claude-plugin": [
+    "claude-plugin"
+  ],
   "claude-skill": [
     "claude-skill"
   ],
   "claude-skills": [
     "claude-skills"
+  ],
+  "claude-starter": [
+    "claude-starter"
   ],
   "claudecode": [
     "claudecode"
@@ -1246,11 +1300,17 @@
   "codebase": [
     "codebase"
   ],
+  "codeformatter": [
+    "codeformatter"
+  ],
   "codeql": [
     "codeql"
   ],
   "codeql advanced": [
     "codeql-advanced"
+  ],
+  "codeql workflow security scan": [
+    "codeql-workflow-security-scan"
   ],
   "codequality": [
     "codequality"
@@ -1279,6 +1339,9 @@
   "color": [
     "color"
   ],
+  "color-themes": [
+    "color-themes"
+  ],
   "combine dependabot prs": [
     "combine-dependabot-prs"
   ],
@@ -1287,6 +1350,9 @@
   ],
   "comment on the pull request": [
     "comment-on-the-pull-request"
+  ],
+  "commit recordings": [
+    "commit-recordings"
   ],
   "commit-lint": [
     "commit-lint"
@@ -1363,8 +1429,14 @@
   "context-engineering": [
     "context-engineering"
   ],
+  "context-mode": [
+    "context-mode"
+  ],
   "continuity-ai": [
     "continuity-ai"
+  ],
+  "continuous deployment": [
+    "continuous-deployment"
   ],
   "continuous integration": [
     "continuous-integration"
@@ -1399,8 +1471,14 @@
   "coverage": [
     "coverage"
   ],
+  "coverity": [
+    "coverity"
+  ],
   "coverity-scan": [
     "coverity-scan"
+  ],
+  "crates-io": [
+    "crates-io"
   ],
   "crawler": [
     "crawler"
@@ -1485,6 +1563,9 @@
   ],
   "cursor": [
     "cursor"
+  ],
+  "cursor-plugin": [
+    "cursor-plugin"
   ],
   "cursor-skills": [
     "cursor-skills"
@@ -1585,6 +1666,9 @@
   "delete doc comment trigger": [
     "delete-doc-comment-trigger"
   ],
+  "delta": [
+    "delta"
+  ],
   "deno": [
     "deno"
   ],
@@ -1626,6 +1710,9 @@
   ],
   "deploy jekyll site to pages": [
     "deploy-jekyll-site-to-pages"
+  ],
+  "deploy manual": [
+    "deploy-manual"
   ],
   "deploy redirects to github pages": [
     "deploy-redirects-to-github-pages"
@@ -1689,6 +1776,12 @@
   ],
   "diff": [
     "diff"
+  ],
+  "diff-shades": [
+    "diff-shades"
+  ],
+  "diff-shades comment": [
+    "diff-shades-comment"
   ],
   "diffusion": [
     "diffusion"
@@ -1771,6 +1864,9 @@
   "docker-ui": [
     "docker-ui"
   ],
+  "dockerfile": [
+    "dockerfile"
+  ],
   "docs": [
     "docs"
   ],
@@ -1788,6 +1884,9 @@
   ],
   "documentation": [
     "documentation"
+  ],
+  "documentation build": [
+    "documentation-build"
   ],
   "documentation build and deploy": [
     "documentation-build-and-deploy"
@@ -1827,6 +1926,9 @@
   ],
   "e2e tests": [
     "e2e-tests"
+  ],
+  "e2e-url-checker": [
+    "e2e-url-checker"
   ],
   "each": [
     "en-article_or_determiner-each",
@@ -1974,6 +2076,9 @@
   "file icons generator": [
     "file-icons-generator"
   ],
+  "file processors tests": [
+    "file-processors-tests"
+  ],
   "files": [
     "files"
   ],
@@ -1982,6 +2087,9 @@
   ],
   "fine-tuning": [
     "fine-tuning"
+  ],
+  "finetuning": [
+    "finetuning"
   ],
   "firebase": [
     "firebase"
@@ -2080,6 +2188,9 @@
   "futures": [
     "futures"
   ],
+  "fuzz": [
+    "fuzz"
+  ],
   "gateway model health": [
     "gateway-model-health"
   ],
@@ -2131,6 +2242,9 @@
   "git-commits": [
     "git-commits"
   ],
+  "git-delta": [
+    "git-delta"
+  ],
   "git-diff": [
     "git-diff"
   ],
@@ -2181,6 +2295,9 @@
   ],
   "go test": [
     "go-test"
+  ],
+  "gofmt": [
+    "gofmt"
   ],
   "golang": [
     "golang"
@@ -2443,6 +2560,9 @@
   "inject version on release": [
     "inject-version-on-release"
   ],
+  "inlets": [
+    "inlets"
+  ],
   "innodb": [
     "innodb"
   ],
@@ -2512,6 +2632,9 @@
   "issue translator": [
     "issue-translator"
   ],
+  "istio": [
+    "istio"
+  ],
   "it": [
     "en-pronoun-it"
   ],
@@ -2559,6 +2682,9 @@
   ],
   "kimi": [
     "kimi"
+  ],
+  "kiro": [
+    "kiro"
   ],
   "kling": [
     "kling"
@@ -2708,6 +2834,9 @@
   ],
   "lint": [
     "lint"
+  ],
+  "lint and format": [
+    "lint-and-format"
   ],
   "lint and format check": [
     "lint-and-format-check"
@@ -2905,6 +3034,9 @@
   "manual docs deploy": [
     "manual-docs-deploy"
   ],
+  "manual release": [
+    "manual-release"
+  ],
   "many": [
     "en-article_or_determiner-many",
     "en-quantifier-many"
@@ -2947,6 +3079,9 @@
   ],
   "mcp-server": [
     "mcp-server"
+  ],
+  "mcp-tools": [
+    "mcp-tools"
   ],
   "me": [
     "en-pronoun-me"
@@ -3170,6 +3305,9 @@
   "nextjs": [
     "nextjs"
   ],
+  "nginx": [
+    "nginx"
+  ],
   "nightly": [
     "nightly"
   ],
@@ -3293,6 +3431,9 @@
   "off": [
     "en-preposition-off"
   ],
+  "oh-my-zsh": [
+    "oh-my-zsh"
+  ],
   "ollama": [
     "ollama"
   ],
@@ -3335,6 +3476,9 @@
   "openclaw": [
     "openclaw"
   ],
+  "openclaw e2e": [
+    "openclaw-e2e"
+  ],
   "openclaw gate": [
     "openclaw-gate"
   ],
@@ -3346,6 +3490,9 @@
   ],
   "opencode": [
     "opencode"
+  ],
+  "openfaas": [
+    "openfaas"
   ],
   "openresty": [
     "openresty"
@@ -3425,6 +3572,9 @@
   "packaging": [
     "packaging"
   ],
+  "pager": [
+    "pager"
+  ],
   "parquet": [
     "parquet"
   ],
@@ -3463,6 +3613,9 @@
   ],
   "pgvector": [
     "pgvector"
+  ],
+  "pi-agent": [
+    "pi-agent"
   ],
   "pika": [
     "pika"
@@ -3574,6 +3727,12 @@
   ],
   "pre-commit auto-update": [
     "pre-commit-auto-update"
+  ],
+  "pre-commit-hook": [
+    "pre-commit-hook"
+  ],
+  "pre-release": [
+    "pre-release"
   ],
   "prepare release": [
     "prepare-release"
@@ -3748,6 +3907,9 @@
   ],
   "pyqt": [
     "pyqt"
+  ],
+  "pytest": [
+    "pytest"
   ],
   "python-security": [
     "python-security"
@@ -4142,6 +4304,9 @@
   "self-healing": [
     "self-healing"
   ],
+  "self-hosted": [
+    "self-hosted"
+  ],
   "self-hosted runner (benchmark)": [
     "self-hosted-runner-benchmark"
   ],
@@ -4156,6 +4321,9 @@
   ],
   "semantic-search": [
     "semantic-search"
+  ],
+  "semgrep": [
+    "semgrep"
   ],
   "sentence-transformers": [
     "sentence-transformers"
@@ -4288,6 +4456,9 @@
   "spell-checker": [
     "spell-checker"
   ],
+  "spellcheck": [
+    "spellcheck"
+  ],
   "spelling": [
     "spelling"
   ],
@@ -4320,6 +4491,12 @@
   ],
   "starlight": [
     "starlight"
+  ],
+  "starter-project": [
+    "starter-project"
+  ],
+  "starter-template": [
+    "starter-template"
   ],
   "state-machine": [
     "state-machine"
@@ -4444,6 +4621,9 @@
   "synchronize to gitee": [
     "synchronize-to-gitee"
   ],
+  "syntax-highlighter": [
+    "syntax-highlighter"
+  ],
   "system integration tests": [
     "system-integration-tests"
   ],
@@ -4459,6 +4639,9 @@
   "tagged release": [
     "tagged-release"
   ],
+  "tailscale": [
+    "tailscale"
+  ],
   "tailwindcss": [
     "tailwindcss"
   ],
@@ -4467,6 +4650,9 @@
   ],
   "tauri-apps": [
     "tauri-apps"
+  ],
+  "template cleanup": [
+    "template-cleanup"
   ],
   "template sync": [
     "template-sync"
@@ -4698,6 +4884,9 @@
   "till": [
     "en-preposition-till"
   ],
+  "tmux": [
+    "tmux"
+  ],
   "to": [
     "en-preposition-to"
   ],
@@ -4840,6 +5029,9 @@
   "update homebrew formula": [
     "update-homebrew-formula"
   ],
+  "update install stats": [
+    "update-install-stats"
+  ],
   "update llama.cpp submodule": [
     "update-llama.cpp-submodule"
   ],
@@ -4906,6 +5098,9 @@
   "vercel-ai": [
     "vercel-ai"
   ],
+  "verify release": [
+    "verify-release"
+  ],
   "version bump": [
     "version-bump"
   ],
@@ -4935,6 +5130,9 @@
   ],
   "visual-language-learning": [
     "visual-language-learning"
+  ],
+  "vllm": [
+    "vllm"
   ],
   "volume": [
     "volume"
@@ -5124,6 +5322,9 @@
   "xunit": [
     "xunit"
   ],
+  "yapf": [
+    "yapf"
+  ],
   "ycombinator": [
     "ycombinator"
   ],
@@ -5150,6 +5351,9 @@
   ],
   "yourselves": [
     "en-pronoun-yourselves"
+  ],
+  "zed-extension": [
+    "zed-extension"
   ],
   "zep server docker build and publish": [
     "zep-server-docker-build-and-publish"
