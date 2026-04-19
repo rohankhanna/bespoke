@@ -1,0 +1,88 @@
+name: github-repo-metadata-refresh
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 4 * * *'
+
+jobs:
+  refresh-metadata:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions:
+      contents: write
+    concurrency:
+      group: github-seed-discovery-data-writer
+      cancel-in-progress: false
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Prepare data branch worktree
+        run: |
+          git fetch origin data:data || true
+          if git ls-remote --exit-code --heads origin data >/tmp/origin-data-ref.txt 2>/dev/null; then
+            awk '{print $1}' /tmp/origin-data-ref.txt > /tmp/origin-data-start.sha
+          else
+            echo "" > /tmp/origin-data-start.sha
+          fi
+          if git show-ref --verify --quiet refs/heads/data; then
+            git worktree add --detach ../bespoke-data data
+          else
+            git checkout --orphan data
+            git rm -rf . >/dev/null 2>&1 || true
+            git commit --allow-empty -m "chore: initialize data branch"
+            git push origin HEAD:data
+            git worktree add --detach ../bespoke-data data
+            git checkout -
+            git rev-parse HEAD:data > /tmp/origin-data-start.sha
+          fi
+
+      - name: Refresh repo metadata
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          METADATA_REFRESH_LIMIT: "250"
+          METADATA_REFRESH_BUDGET_SECONDS: "2400"
+          METADATA_REFRESH_MIN_START_SECONDS: "30"
+          METADATA_REFRESH_HARD_STOP_SECONDS: "15"
+        run: |
+          python scripts/refresh_repo_metadata.py ../bespoke-data
+
+      - name: Build discovery pages
+        run: |
+          python scripts/build_discovery_pages.py ../bespoke-data
+
+      - name: Commit and push data updates
+        run: |
+          current_remote=$(git ls-remote --exit-code --heads origin data | awk '{print $1}' || true)
+          recorded_remote=$(cat /tmp/origin-data-start.sha)
+          if [ "$current_remote" != "$recorded_remote" ]; then
+            echo "origin/data changed during the run; refusing to push stale state"
+            echo "recorded=$recorded_remote current=$current_remote"
+            exit 1
+          fi
+          cd ../bespoke-data
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No metadata/page changes to commit"
+            exit 0
+          fi
+          git commit -m "ci: refresh repo metadata and discovery pages"
+          git push origin HEAD:data
+
+      - name: Cleanup worktree
+        if: always()
+        run: |
+          git worktree remove --force ../bespoke-data || true
