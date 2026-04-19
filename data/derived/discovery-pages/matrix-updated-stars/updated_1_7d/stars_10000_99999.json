@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 409,
-    "concepts": 210,
-    "observations": 211,
-    "repos": 36,
-    "terms": 216
+    "components": 469,
+    "concepts": 243,
+    "observations": 245,
+    "repos": 40,
+    "terms": 249
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "generated_at": "2026-04-19T14:05:15.182094+00:00",
   "repo_ids": [
     "1panel-dev/1panel",
     "1panel-dev/maxkb",
@@ -19,6 +19,8 @@
     "alirezarezvani/claude-skills",
     "anthropics/claude-cookbooks",
     "anthropics/claude-plugins-official",
+    "apple/container",
+    "astral-sh/ty",
     "casey/just",
     "charmbracelet/bubbletea",
     "charmbracelet/gum",
@@ -38,7 +40,9 @@
     "microsoft/typescript-go",
     "mozilla-ai/llamafile",
     "openai/openai-python",
+    "pydantic/pydantic-ai",
     "pyenv/pyenv",
+    "quantumnous/new-api",
     "seanmonstar/reqwest",
     "shareai-lab/learn-claude-code",
     "slopus/happy",

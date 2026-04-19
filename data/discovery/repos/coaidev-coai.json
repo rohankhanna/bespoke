@@ -419,14 +419,18 @@
       "size": 358
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:04:21.683917+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83d\ude80 Next Generation Multi-tenant AI One-Stop Solution. Builtin Admin & Billing System. Enterprise-Grade Unified LLM Gateway Support for 200+ Models And 35+ Providers, Load Balacing w/ Priority-base Routing, Cost Management, Chat Share, Cloud Sync, Credit/Subscription Billing, All File Parsing, Web Search, Built-in Model Cache.",
+    "fork": false,
     "full_name": "coaidev/coai",
     "html_url": "https://github.com/coaidev/coai",
     "language": "TypeScript",
     "pushed_at": "2026-03-12T10:00:31Z",
+    "stargazers_count": 9086,
     "topics": [
       "ai-gateway",
       "api",
@@ -440,7 +444,7 @@
       "proxy",
       "react"
     ],
-    "updated_at": "2026-04-18T22:47:21Z"
+    "updated_at": "2026-04-19T12:53:38Z"
   },
   "repo_links": [
     {

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10 to 99 stars
 
-Generated at: `2026-04-19T14:03:58.882676+00:00`
+Generated at: `2026-04-19T14:05:15.182094+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -32,7 +32,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lamoomai/lamoom-python](https://github.com/LamoomAI/lamoom-python) | 98 | 2025-08-28T13:38:27Z | Other | Infrastructure/tooling | 2 | 3 | 0 | 0 |
 | [rygwdn/slack-tools](https://github.com/rygwdn/slack-tools) | 22 | 2025-08-19T03:16:08Z | TypeScript | Infrastructure/tooling | 0 | 24 | 0 | 0 |
 | [icanhasjonas/run-claude-docker](https://github.com/icanhasjonas/run-claude-docker) | 79 | 2025-08-14T21:01:05Z | Shell | Unknown | 1 | 0 | 0 | 0 |
-| [tott/laravel-tall-claude-ai-configs](https://github.com/tott/laravel-tall-claude-ai-configs) | 39 | 2025-08-08T14:35:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [tott/laravel-tall-claude-ai-configs](https://github.com/tott/laravel-tall-claude-ai-configs) | 40 | 2025-08-08T14:35:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [brads3290/cclogviewer](https://github.com/Brads3290/cclogviewer) | 81 | 2025-08-08T08:13:50Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [steadycursor/steadystart](https://github.com/steadycursor/steadystart) | 65 | 2025-08-03T20:24:58Z | TypeScript | Unknown | 0 | 5 | 0 | 0 |
 | [lobehub/chat-plugin-sdk](https://github.com/lobehub/chat-plugin-sdk) | 74 | 2025-07-31T02:13:10Z | TypeScript | Infrastructure/tooling | 5 | 43 | 0 | 0 |
@@ -56,7 +56,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [asg017/sqlite-fastrand](https://github.com/asg017/sqlite-fastrand) | 21 | 2023-11-27T16:07:05Z | Rust | Infrastructure/tooling | 5 | 15 | 5 | 5 |
 | [hashintel/awesome-hash](https://github.com/hashintel/awesome-hash) | 32 | 2023-09-14T06:03:31Z | Unknown | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [ckipp01/stylua-nvim](https://github.com/ckipp01/stylua-nvim) | 62 | 2022-05-05T06:41:15Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [IKKI2000/harmonyos-fonts](https://github.com/IKKI2000/harmonyos-fonts) | 87 | 2022-01-30T02:12:01Z | Other | Unknown | 4 | 0 | 4 | 4 |
+| [ikki2000/harmonyos-fonts](https://github.com/IKKI2000/harmonyos-fonts) | 87 | 2022-01-30T02:12:01Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [arktisklada/crank](https://github.com/arktisklada/crank) | 52 | 2020-07-06T04:30:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [jaredsohn/mutefm](https://github.com/jaredsohn/mutefm) | 44 | 2017-07-07T07:45:44Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [junegunn/vim-startuptime-benchmark](https://github.com/junegunn/vim-startuptime-benchmark) | 69 | 2016-12-05T16:48:08Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -67,7 +67,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [lamoomai/lamoom-python](https://github.com/LamoomAI/lamoom-python) | 98 | 2025-08-28T13:38:27Z | Other | Infrastructure/tooling | 2 | 3 | 0 | 0 |
-| [IKKI2000/harmonyos-fonts](https://github.com/IKKI2000/harmonyos-fonts) | 87 | 2022-01-30T02:12:01Z | Other | Unknown | 4 | 0 | 4 | 4 |
+| [ikki2000/harmonyos-fonts](https://github.com/IKKI2000/harmonyos-fonts) | 87 | 2022-01-30T02:12:01Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [brads3290/cclogviewer](https://github.com/Brads3290/cclogviewer) | 81 | 2025-08-08T08:13:50Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [icanhasjonas/run-claude-docker](https://github.com/icanhasjonas/run-claude-docker) | 79 | 2025-08-14T21:01:05Z | Shell | Unknown | 1 | 0 | 0 | 0 |
 | [lobehub/chat-plugin-sdk](https://github.com/lobehub/chat-plugin-sdk) | 74 | 2025-07-31T02:13:10Z | TypeScript | Infrastructure/tooling | 5 | 43 | 0 | 0 |
@@ -87,7 +87,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lobehub/chat-plugin-search-engine](https://github.com/lobehub/chat-plugin-search-engine) | 46 | 2024-01-23T05:19:10Z | TypeScript | Infrastructure/tooling | 9 | 37 | 9 | 9 |
 | [didalgolab/ai-intellij-plugin](https://github.com/didalgolab/ai-intellij-plugin) | 44 | 2025-03-26T22:20:24Z | Java | Infrastructure/tooling | 1 | 9 | 0 | 0 |
 | [jaredsohn/mutefm](https://github.com/jaredsohn/mutefm) | 44 | 2017-07-07T07:45:44Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [tott/laravel-tall-claude-ai-configs](https://github.com/tott/laravel-tall-claude-ai-configs) | 39 | 2025-08-08T14:35:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [tott/laravel-tall-claude-ai-configs](https://github.com/tott/laravel-tall-claude-ai-configs) | 40 | 2025-08-08T14:35:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [yzyydev/agentic-coding-structure](https://github.com/yzyydev/agentic-coding-structure) | 35 | 2025-09-15T14:45:37Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [hashintel/awesome-hash](https://github.com/hashintel/awesome-hash) | 32 | 2023-09-14T06:03:31Z | Unknown | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [lobehub/lobe-assets](https://github.com/lobehub/lobe-assets) | 28 | 2025-09-25T10:01:12Z | Other | Infrastructure/tooling | 9 | 25 | 9 | 9 |

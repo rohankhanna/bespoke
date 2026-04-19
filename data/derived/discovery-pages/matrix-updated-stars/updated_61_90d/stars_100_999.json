@@ -1,20 +1,21 @@
 {
   "counts": {
-    "components": 3,
-    "concepts": 1,
-    "observations": 1,
-    "repos": 5,
-    "terms": 1
+    "components": 41,
+    "concepts": 16,
+    "observations": 16,
+    "repos": 6,
+    "terms": 16
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "generated_at": "2026-04-19T14:05:15.182094+00:00",
   "repo_ids": [
     "agrimsingh/ralph-wiggum-cursor",
     "alonw0/web-asset-generator",
+    "lobehub/lobe-cli-toolbox",
     "snwfdhmp/awesome-ralph",
     "stardot/b-em",
     "superclaude-org/supergemini_framework"

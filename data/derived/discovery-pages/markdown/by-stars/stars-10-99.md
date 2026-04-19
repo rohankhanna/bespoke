@@ -1,6 +1,6 @@
 # 10 to 99 stars
 
-Generated at: `2026-04-19T14:03:58.882676+00:00`
+Generated at: `2026-04-19T14:05:15.182094+00:00`
 
 ## Active filters
 
@@ -8,11 +8,11 @@ Generated at: `2026-04-19T14:03:58.882676+00:00`
 
 ## Counts
 
-- repos: 120
-- terms: 333
-- components: 1086
-- concepts: 199
-- observations: 201
+- repos: 121
+- terms: 336
+- components: 1125
+- concepts: 202
+- observations: 204
 
 ## Static behavior
 
@@ -25,10 +25,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [thedoggybrad/easylist-mirror](https://github.com/thedoggybrad/easylist-mirror) | 11 | 2026-04-19T14:01:21Z | Other | Infrastructure/tooling | 1 | 1 | 0 | 0 |
 | [sliamh11/deus](https://github.com/sliamh11/Deus) | 18 | 2026-04-19T13:44:37Z | Python | Infrastructure/tooling | 8 | 36 | 0 | 0 |
 | [liangshengyong/lanwan](https://github.com/liangshengyong/LanWan) | 29 | 2026-04-19T13:40:33Z | C/C++ | CLI | 2 | 2 | 0 | 0 |
+| [overseedai/viwo](https://github.com/OverseedAI/viwo) | 34 | 2026-04-19T13:30:30Z | TypeScript | Infrastructure/tooling | 4 | 20 | 0 | 0 |
 | [costiash/claude-code-docs](https://github.com/costiash/claude-code-docs) | 47 | 2026-04-19T12:28:44Z | Python | Infrastructure/tooling | 6 | 7 | 0 | 0 |
 | [ethpandaops/xatu-data](https://github.com/ethpandaops/xatu-data) | 27 | 2026-04-19T12:11:47Z | Other | Infrastructure/tooling | 3 | 3 | 0 | 0 |
 | [itsrishika/payment-bypass-bug-lab](https://github.com/ItsRishika/Payment-bypass-bug-lab) | 18 | 2026-04-19T11:42:16Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
-| [overseedai/viwo](https://github.com/OverseedAI/viwo) | 34 | 2026-04-19T07:28:04Z | TypeScript | Infrastructure/tooling | 4 | 20 | 0 | 0 |
 | [jkheadley/instar](https://github.com/JKHeadley/instar) | 59 | 2026-04-19T06:38:45Z | TypeScript | CLI | 2 | 30 | 0 | 0 |
 | [chaos2cured/freelattice](https://github.com/Chaos2Cured/FreeLattice) | 17 | 2026-04-19T00:27:03Z | Other | Infrastructure/tooling | 1 | 1 | 0 | 0 |
 | [steipete/homebrew-tap](https://github.com/steipete/homebrew-tap) | 72 | 2026-04-18T22:42:07Z | Other | Infrastructure/tooling | 2 | 1 | 2 | 2 |
@@ -53,7 +53,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [compozy/kb](https://github.com/compozy/kb) | 29 | 2026-04-15T02:46:17Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [kubernetes/steering](https://github.com/kubernetes/steering) | 99 | 2026-04-14T21:16:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [agents-squads/squads-cli](https://github.com/agents-squads/squads-cli) | 43 | 2026-04-14T17:49:41Z | TypeScript | CLI | 17 | 29 | 17 | 18 |
-| [flinedev/plankit](https://github.com/FlineDev/PlanKit) | 10 | 2026-04-14T14:41:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [flinedev/plankit](https://github.com/FlineDev/PlanKit) | 11 | 2026-04-14T14:41:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [vaporif/parry-guard](https://github.com/vaporif/parry-guard) | 31 | 2026-04-14T14:21:08Z | Rust | Infrastructure/tooling | 5 | 17 | 5 | 5 |
 | [tianrking/weixin-agent-rs](https://github.com/tianrking/weixin-agent-rs) | 69 | 2026-04-14T03:39:18Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [mem0ai/memory-benchmarks](https://github.com/mem0ai/memory-benchmarks) | 10 | 2026-04-13T22:32:55Z | Python | Web app | 0 | 16 | 0 | 0 |
@@ -62,6 +62,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [beyondcode/claude-hooks-sdk](https://github.com/beyondcode/claude-hooks-sdk) | 65 | 2026-04-13T05:38:28Z | Other | Infrastructure/tooling | 4 | 6 | 0 | 0 |
 | [cloudartisan/cloudartisan.github.io](https://github.com/cloudartisan/cloudartisan.github.io) | 31 | 2026-04-12T10:59:10Z | Python | Infrastructure/tooling | 2 | 3 | 0 | 0 |
 | [jerseycheese/narraitor](https://github.com/jerseycheese/Narraitor) | 27 | 2026-04-11T13:45:12Z | TypeScript | Infrastructure/tooling | 4 | 78 | 0 | 0 |
+| [buddingnewinsights/proxypal](https://github.com/buddingnewinsights/proxypal) | 41 | 2026-04-10T18:56:54Z | TypeScript | Infrastructure/tooling | 3 | 39 | 3 | 3 |
 | [alchaincyf/taleb-skill](https://github.com/alchaincyf/taleb-skill) | 65 | 2026-04-10T02:29:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [alchaincyf/ilya-sutskever-skill](https://github.com/alchaincyf/ilya-sutskever-skill) | 24 | 2026-04-10T02:28:35Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ethpandaops/xatu](https://github.com/ethpandaops/xatu) | 93 | 2026-04-10T01:58:54Z | Go | CLI | 7 | 15 | 7 | 7 |
@@ -85,7 +86,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [revfactory/claude-code-harness](https://github.com/revfactory/claude-code-harness) | 90 | 2026-03-06T01:10:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [Aedelon/claude-code-blueprint](https://github.com/Aedelon/claude-code-blueprint) | 78 | 2026-03-04T16:08:44Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [nulone/claude-rules-doctor](https://github.com/nulone/claude-rules-doctor) | 11 | 2026-02-25T02:41:48Z | TypeScript | CLI | 0 | 7 | 0 | 0 |
-| [abduznik/Git-Alchemist](https://github.com/abduznik/Git-Alchemist) | 21 | 2026-02-24T07:58:47Z | Python | CLI | 10 | 5 | 10 | 10 |
+| [abduznik/git-alchemist](https://github.com/abduznik/Git-Alchemist) | 21 | 2026-02-24T07:58:47Z | Python | CLI | 10 | 5 | 10 | 10 |
 | [kunwar-shah/claudex](https://github.com/kunwar-shah/claudex) | 81 | 2026-02-14T18:09:15Z | JavaScript | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [asg017/sqlite-hello](https://github.com/asg017/sqlite-hello) | 10 | 2026-02-13T17:44:15Z | Other | Infrastructure/tooling | 2 | 10 | 2 | 2 |
 | [panaversity/claude-code-agent-teams-exercises](https://github.com/panaversity/claude-code-agent-teams-exercises) | 22 | 2026-02-11T07:23:13Z | Unknown | Infrastructure/tooling | 1 | 2 | 0 | 0 |
@@ -113,7 +114,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lamoomai/lamoom-python](https://github.com/LamoomAI/lamoom-python) | 98 | 2025-08-28T13:38:27Z | Other | Infrastructure/tooling | 2 | 3 | 0 | 0 |
 | [rygwdn/slack-tools](https://github.com/rygwdn/slack-tools) | 22 | 2025-08-19T03:16:08Z | TypeScript | Infrastructure/tooling | 0 | 24 | 0 | 0 |
 | [icanhasjonas/run-claude-docker](https://github.com/icanhasjonas/run-claude-docker) | 79 | 2025-08-14T21:01:05Z | Shell | Unknown | 1 | 0 | 0 | 0 |
-| [tott/laravel-tall-claude-ai-configs](https://github.com/tott/laravel-tall-claude-ai-configs) | 39 | 2025-08-08T14:35:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [tott/laravel-tall-claude-ai-configs](https://github.com/tott/laravel-tall-claude-ai-configs) | 40 | 2025-08-08T14:35:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [brads3290/cclogviewer](https://github.com/Brads3290/cclogviewer) | 81 | 2025-08-08T08:13:50Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [steadycursor/steadystart](https://github.com/steadycursor/steadystart) | 65 | 2025-08-03T20:24:58Z | TypeScript | Unknown | 0 | 5 | 0 | 0 |
 | [lobehub/chat-plugin-sdk](https://github.com/lobehub/chat-plugin-sdk) | 74 | 2025-07-31T02:13:10Z | TypeScript | Infrastructure/tooling | 5 | 43 | 0 | 0 |
@@ -137,7 +138,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [asg017/sqlite-fastrand](https://github.com/asg017/sqlite-fastrand) | 21 | 2023-11-27T16:07:05Z | Rust | Infrastructure/tooling | 5 | 15 | 5 | 5 |
 | [hashintel/awesome-hash](https://github.com/hashintel/awesome-hash) | 32 | 2023-09-14T06:03:31Z | Unknown | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [ckipp01/stylua-nvim](https://github.com/ckipp01/stylua-nvim) | 62 | 2022-05-05T06:41:15Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [IKKI2000/harmonyos-fonts](https://github.com/IKKI2000/harmonyos-fonts) | 87 | 2022-01-30T02:12:01Z | Other | Unknown | 4 | 0 | 4 | 4 |
+| [ikki2000/harmonyos-fonts](https://github.com/IKKI2000/harmonyos-fonts) | 87 | 2022-01-30T02:12:01Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [arktisklada/crank](https://github.com/arktisklada/crank) | 52 | 2020-07-06T04:30:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [jaredsohn/mutefm](https://github.com/jaredsohn/mutefm) | 44 | 2017-07-07T07:45:44Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [junegunn/vim-startuptime-benchmark](https://github.com/junegunn/vim-startuptime-benchmark) | 69 | 2016-12-05T16:48:08Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -154,7 +155,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ethpandaops/xatu](https://github.com/ethpandaops/xatu) | 93 | 2026-04-10T01:58:54Z | Go | CLI | 7 | 15 | 7 | 7 |
 | [revfactory/claude-code-harness](https://github.com/revfactory/claude-code-harness) | 90 | 2026-03-06T01:10:07Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [dokploy/cli](https://github.com/Dokploy/cli) | 87 | 2026-04-18T04:41:53Z | TypeScript | CLI | 3 | 12 | 3 | 3 |
-| [IKKI2000/harmonyos-fonts](https://github.com/IKKI2000/harmonyos-fonts) | 87 | 2022-01-30T02:12:01Z | Other | Unknown | 4 | 0 | 4 | 4 |
+| [ikki2000/harmonyos-fonts](https://github.com/IKKI2000/harmonyos-fonts) | 87 | 2022-01-30T02:12:01Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [ctoth/claudio](https://github.com/ctoth/claudio) | 82 | 2026-03-17T00:26:58Z | Go | CLI | 5 | 5 | 0 | 0 |
 | [tony/claude-code-riper-5](https://github.com/tony/claude-code-riper-5) | 82 | 2026-02-08T00:20:22Z | Unknown | Unknown | 6 | 0 | 0 | 0 |
 | [kunwar-shah/claudex](https://github.com/kunwar-shah/claudex) | 81 | 2026-02-14T18:09:15Z | JavaScript | Infrastructure/tooling | 0 | 4 | 0 | 0 |
@@ -203,14 +204,15 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dredozubov/prd-generator](https://github.com/dredozubov/prd-generator) | 43 | 2026-01-14T10:29:46Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [crate-ci/gh-install](https://github.com/crate-ci/gh-install) | 42 | 2025-12-01T13:22:24Z | Shell | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [lobehub/lobe-lint](https://github.com/lobehub/lobe-lint) | 41 | 2026-04-15T10:31:46Z | TypeScript | Infrastructure/tooling | 7 | 20 | 0 | 0 |
+| [buddingnewinsights/proxypal](https://github.com/buddingnewinsights/proxypal) | 41 | 2026-04-10T18:56:54Z | TypeScript | Infrastructure/tooling | 3 | 39 | 3 | 3 |
 | [mohammadtavakoli78/beam](https://github.com/mohammadtavakoli78/BEAM) | 41 | 2026-02-02T07:43:30Z | Python | Unknown | 17 | 0 | 17 | 17 |
+| [tott/laravel-tall-claude-ai-configs](https://github.com/tott/laravel-tall-claude-ai-configs) | 40 | 2025-08-08T14:35:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [askroundtable/expert-skills](https://github.com/AskRoundtable/expert-skills) | 39 | 2026-04-09T13:53:39Z | Unknown | Model/data | 6 | 0 | 6 | 6 |
-| [tott/laravel-tall-claude-ai-configs](https://github.com/tott/laravel-tall-claude-ai-configs) | 39 | 2025-08-08T14:35:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [automazeio/proof](https://github.com/automazeio/proof) | 38 | 2026-03-23T20:42:52Z | TypeScript | Infrastructure/tooling | 1 | 12 | 1 | 1 |
 | [bl-ue/tweakcc-system-prompts](https://github.com/bl-ue/tweakcc-system-prompts) | 37 | 2025-11-23T18:05:33Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [wirasm/dylan](https://github.com/Wirasm/dylan) | 37 | 2025-11-09T18:47:47Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [yzyydev/agentic-coding-structure](https://github.com/yzyydev/agentic-coding-structure) | 35 | 2025-09-15T14:45:37Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
-| [overseedai/viwo](https://github.com/OverseedAI/viwo) | 34 | 2026-04-19T07:28:04Z | TypeScript | Infrastructure/tooling | 4 | 20 | 0 | 0 |
+| [overseedai/viwo](https://github.com/OverseedAI/viwo) | 34 | 2026-04-19T13:30:30Z | TypeScript | Infrastructure/tooling | 4 | 20 | 0 | 0 |
 | [hashintel/awesome-hash](https://github.com/hashintel/awesome-hash) | 32 | 2023-09-14T06:03:31Z | Unknown | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [vaporif/parry-guard](https://github.com/vaporif/parry-guard) | 31 | 2026-04-14T14:21:08Z | Rust | Infrastructure/tooling | 5 | 17 | 5 | 5 |
 | [cloudartisan/cloudartisan.github.io](https://github.com/cloudartisan/cloudartisan.github.io) | 31 | 2026-04-12T10:59:10Z | Python | Infrastructure/tooling | 2 | 3 | 0 | 0 |
@@ -237,7 +239,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rygwdn/slack-tools](https://github.com/rygwdn/slack-tools) | 22 | 2025-08-19T03:16:08Z | TypeScript | Infrastructure/tooling | 0 | 24 | 0 | 0 |
 | [mountainstorm/llaudio](https://github.com/mountainstorm/llaudio) | 22 | 2013-03-25T20:00:47Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [cdeust/cortex](https://github.com/cdeust/Cortex) | 21 | 2026-04-17T22:49:25Z | Python | Infrastructure/tooling | 3 | 7 | 0 | 0 |
-| [abduznik/Git-Alchemist](https://github.com/abduznik/Git-Alchemist) | 21 | 2026-02-24T07:58:47Z | Python | CLI | 10 | 5 | 10 | 10 |
+| [abduznik/git-alchemist](https://github.com/abduznik/Git-Alchemist) | 21 | 2026-02-24T07:58:47Z | Python | CLI | 10 | 5 | 10 | 10 |
 | [asg017/sqlite-fastrand](https://github.com/asg017/sqlite-fastrand) | 21 | 2023-11-27T16:07:05Z | Rust | Infrastructure/tooling | 5 | 15 | 5 | 5 |
 | [phiat/claude-esp-rs](https://github.com/phiat/claude-esp-rs) | 20 | 2026-04-17T23:00:46Z | Rust | CLI | 2 | 5 | 2 | 2 |
 | [sgcarstrends/sgcarstrends](https://github.com/sgcarstrends/sgcarstrends) | 20 | 2026-04-15T13:15:05Z | TypeScript | Infrastructure/tooling | 9 | 30 | 0 | 0 |
@@ -257,11 +259,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [talieisin/britfix](https://github.com/Talieisin/britfix) | 14 | 2026-03-12T08:25:00Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [lenml/gcp-claude-openai-api-server](https://github.com/lenML/gcp-claude-openai-api-server) | 12 | 2024-10-23T16:05:40Z | TypeScript | Infrastructure/tooling | 1 | 31 | 0 | 0 |
 | [thedoggybrad/easylist-mirror](https://github.com/thedoggybrad/easylist-mirror) | 11 | 2026-04-19T14:01:21Z | Other | Infrastructure/tooling | 1 | 1 | 0 | 0 |
+| [flinedev/plankit](https://github.com/FlineDev/PlanKit) | 11 | 2026-04-14T14:41:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [astro-han/diffpane](https://github.com/Astro-Han/diffpane) | 11 | 2026-04-01T12:44:05Z | Go | CLI | 9 | 3 | 9 | 9 |
 | [ithiria894/awesome-claude-code-hooks](https://github.com/ithiria894/awesome-claude-code-hooks) | 11 | 2026-03-24T21:08:05Z | Unknown | Infrastructure/tooling | 7 | 1 | 7 | 7 |
 | [nulone/claude-rules-doctor](https://github.com/nulone/claude-rules-doctor) | 11 | 2026-02-25T02:41:48Z | TypeScript | CLI | 0 | 7 | 0 | 0 |
 | [lobehub/.github](https://github.com/lobehub/.github) | 11 | 2026-02-08T00:31:53Z | TypeScript | Infrastructure/tooling | 2 | 11 | 0 | 0 |
-| [flinedev/plankit](https://github.com/FlineDev/PlanKit) | 10 | 2026-04-14T14:41:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [mem0ai/memory-benchmarks](https://github.com/mem0ai/memory-benchmarks) | 10 | 2026-04-13T22:32:55Z | Python | Web app | 0 | 16 | 0 | 0 |
 | [danielrosehill/index](https://github.com/danielrosehill/Index) | 10 | 2026-03-25T18:29:33Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [jawwadfirdousi/agent-skills](https://github.com/jawwadfirdousi/agent-skills) | 10 | 2026-03-08T19:42:23Z | Shell | Infrastructure/tooling | 1 | 1 | 0 | 0 |

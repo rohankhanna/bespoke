@@ -10,7 +10,7 @@
   "filters": {
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "generated_at": "2026-04-19T14:05:15.182094+00:00",
   "repo_ids": [
     "1panel-dev/1panel",
     "1panel-dev/maxkb",
@@ -178,7 +178,7 @@
     "nimbalyst/nimbalyst",
     "nousresearch/atropos",
     "npm/cli",
-    "NVIDIA/OpenShell",
+    "nvidia/openshell",
     "nyatinte/ccexp",
     "obra/superpowers",
     "onecli/onecli",
@@ -199,7 +199,7 @@
     "prehisle/relay-pulse",
     "pydantic/pydantic-ai",
     "pyenv/pyenv",
-    "QuantumNous/new-api",
+    "quantumnous/new-api",
     "revfactory/harness",
     "roampal-ai/roampal",
     "roampal-ai/roampal-labs",

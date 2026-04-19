@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10 to 99 stars
 
-Generated at: `2026-04-19T14:03:58.882676+00:00`
+Generated at: `2026-04-19T14:05:15.182094+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -43,7 +43,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [compozy/kb](https://github.com/compozy/kb) | 29 | 2026-04-15T02:46:17Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [kubernetes/steering](https://github.com/kubernetes/steering) | 99 | 2026-04-14T21:16:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [agents-squads/squads-cli](https://github.com/agents-squads/squads-cli) | 43 | 2026-04-14T17:49:41Z | TypeScript | CLI | 17 | 29 | 17 | 18 |
-| [flinedev/plankit](https://github.com/FlineDev/PlanKit) | 10 | 2026-04-14T14:41:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [flinedev/plankit](https://github.com/FlineDev/PlanKit) | 11 | 2026-04-14T14:41:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [vaporif/parry-guard](https://github.com/vaporif/parry-guard) | 31 | 2026-04-14T14:21:08Z | Rust | Infrastructure/tooling | 5 | 17 | 5 | 5 |
 | [tianrking/weixin-agent-rs](https://github.com/tianrking/weixin-agent-rs) | 69 | 2026-04-14T03:39:18Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [mem0ai/memory-benchmarks](https://github.com/mem0ai/memory-benchmarks) | 10 | 2026-04-13T22:32:55Z | Python | Web app | 0 | 16 | 0 | 0 |
@@ -78,5 +78,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sgcarstrends/sgcarstrends](https://github.com/sgcarstrends/sgcarstrends) | 20 | 2026-04-15T13:15:05Z | TypeScript | Infrastructure/tooling | 9 | 30 | 0 | 0 |
 | [zuplo/docs](https://github.com/zuplo/docs) | 18 | 2026-04-17T12:46:53Z | TypeScript | Infrastructure/tooling | 7 | 58 | 0 | 0 |
 | [allenreder/cliproxyapi-quota-inspector](https://github.com/AllenReder/CLIProxyAPI-Quota-Inspector) | 17 | 2026-04-17T06:58:46Z | Go | CLI | 4 | 0 | 4 | 4 |
-| [flinedev/plankit](https://github.com/FlineDev/PlanKit) | 10 | 2026-04-14T14:41:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [flinedev/plankit](https://github.com/FlineDev/PlanKit) | 11 | 2026-04-14T14:41:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [mem0ai/memory-benchmarks](https://github.com/mem0ai/memory-benchmarks) | 10 | 2026-04-13T22:32:55Z | Python | Web app | 0 | 16 | 0 | 0 |

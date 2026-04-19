@@ -10,10 +10,10 @@
   "filters": {
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "generated_at": "2026-04-19T14:05:15.182094+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
-    "abduznik/Git-Alchemist",
+    "abduznik/git-alchemist",
     "Aedelon/claude-code-blueprint",
     "alexei-led/aws-mcp-server",
     "automatic1111/stable-diffusion-webui",
@@ -44,7 +44,7 @@
     "lobehub/lobe-charts",
     "lobehub/lobe-chat-agents",
     "lobehub/lobe-tts",
-    "LuaLanes/lanes",
+    "lualanes/lanes",
     "maxritter/pilot-shell-demo",
     "mjvolk3/dendron-template",
     "musicman3/cruder",

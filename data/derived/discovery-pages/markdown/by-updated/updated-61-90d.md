@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago
 
-Generated at: `2026-04-19T14:03:58.882676+00:00`
+Generated at: `2026-04-19T14:05:15.182094+00:00`
 
 ## Active filters
 
@@ -25,7 +25,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [parruda/swarm](https://github.com/parruda/swarm) | 1699 | 2026-02-17T02:07:40Z | Other | CLI | 5 | 5 | 5 | 5 |
 | [bats-core/bats-core](https://github.com/bats-core/bats-core) | 5988 | 2026-02-15T17:19:40Z | Shell | Infrastructure/tooling | 10 | 11 | 12 | 12 |
 | [piebald-ai/.github](https://github.com/Piebald-AI/.github) | 2 | 2026-02-15T15:31:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [lobehub/lobe-cli-toolbox](https://github.com/lobehub/lobe-cli-toolbox) | unknown | 2026-02-15T00:32:39Z | TypeScript | CLI | 15 | 38 | 15 | 15 |
+| [lobehub/lobe-cli-toolbox](https://github.com/lobehub/lobe-cli-toolbox) | 401 | 2026-02-15T00:32:39Z | TypeScript | CLI | 15 | 38 | 15 | 15 |
 | [kunwar-shah/claudex](https://github.com/kunwar-shah/claudex) | 81 | 2026-02-14T18:09:15Z | JavaScript | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [touchlab/droidconkotlin](https://github.com/touchlab/DroidconKotlin) | 1137 | 2026-02-13T21:48:08Z | Other | Infrastructure/tooling | 5 | 5 | 0 | 0 |
 | [asg017/sqlite-hello](https://github.com/asg017/sqlite-hello) | 10 | 2026-02-13T17:44:15Z | Other | Infrastructure/tooling | 2 | 10 | 2 | 2 |
@@ -73,6 +73,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [touchlab/droidconkotlin](https://github.com/touchlab/DroidconKotlin) | 1137 | 2026-02-13T21:48:08Z | Other | Infrastructure/tooling | 5 | 5 | 0 | 0 |
 | [snwfdhmp/awesome-ralph](https://github.com/snwfdhmp/awesome-ralph) | 855 | 2026-02-03T08:34:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [agrimsingh/ralph-wiggum-cursor](https://github.com/agrimsingh/ralph-wiggum-cursor) | 473 | 2026-01-26T12:52:40Z | Shell | CLI | 0 | 0 | 0 | 0 |
+| [lobehub/lobe-cli-toolbox](https://github.com/lobehub/lobe-cli-toolbox) | 401 | 2026-02-15T00:32:39Z | TypeScript | CLI | 15 | 38 | 15 | 15 |
 | [alonw0/web-asset-generator](https://github.com/alonw0/web-asset-generator) | 322 | 2026-01-28T09:11:01Z | Python | Framework | 0 | 0 | 0 | 0 |
 | [superclaude-org/supergemini_framework](https://github.com/SuperClaude-Org/SuperGemini_Framework) | 237 | 2026-02-03T12:13:08Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [stardot/b-em](https://github.com/stardot/b-em) | 132 | 2026-02-06T19:23:49Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -92,4 +93,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [genius-harry/neural-chat](https://github.com/genius-harry/Neural-Chat) | 2 | 2026-02-07T02:32:44Z | Python | Model/data | 0 | 0 | 0 | 0 |
 | [hesreallyhim/inkverse-fork](https://github.com/hesreallyhim/inkverse-fork) | 2 | 2026-01-28T06:10:23Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [mjvolk3/torchcell](https://github.com/Mjvolk3/torchcell) | 1 | 2026-01-27T17:12:36Z | Python | Infrastructure/tooling | 6 | 10 | 0 | 0 |
-| [lobehub/lobe-cli-toolbox](https://github.com/lobehub/lobe-cli-toolbox) | unknown | 2026-02-15T00:32:39Z | TypeScript | CLI | 15 | 38 | 15 | 15 |

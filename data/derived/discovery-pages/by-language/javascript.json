@@ -10,7 +10,7 @@
   "filters": {
     "language_bucket": "javascript"
   },
-  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "generated_at": "2026-04-19T14:05:15.182094+00:00",
   "repo_ids": [
     "affaan-m/everything-claude-code",
     "agent-sh/agentsys",
@@ -25,7 +25,7 @@
     "dooy/chatgpt-web-midjourney-proxy",
     "eyaltoledano/claude-task-master",
     "fimeg/networkchronicles",
-    "GarrettAlbright/Luacheck.novaextension",
+    "garrettalbright/luacheck.novaextension",
     "gauravrathod674/custom-chatbot",
     "google/closure-compiler",
     "grahama1970/claude-code-mcp-enhanced",

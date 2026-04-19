@@ -1,6 +1,6 @@
 # Updated more than 180 days ago
 
-Generated at: `2026-04-19T14:03:58.882676+00:00`
+Generated at: `2026-04-19T14:05:15.182094+00:00`
 
 ## Active filters
 
@@ -45,7 +45,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [icanhasjonas/run-claude-docker](https://github.com/icanhasjonas/run-claude-docker) | 79 | 2025-08-14T21:01:05Z | Shell | Unknown | 1 | 0 | 0 | 0 |
 | [disler/just-prompt](https://github.com/disler/just-prompt) | 722 | 2025-08-10T19:05:53Z | Python | Service/API | 1 | 0 | 0 | 0 |
 | [fimeg/networkchronicles](https://github.com/Fimeg/NetworkChronicles) | 191 | 2025-08-08T20:07:59Z | JavaScript | Infrastructure/tooling | 0 | 9 | 0 | 0 |
-| [tott/laravel-tall-claude-ai-configs](https://github.com/tott/laravel-tall-claude-ai-configs) | 39 | 2025-08-08T14:35:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [tott/laravel-tall-claude-ai-configs](https://github.com/tott/laravel-tall-claude-ai-configs) | 40 | 2025-08-08T14:35:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [brads3290/cclogviewer](https://github.com/Brads3290/cclogviewer) | 81 | 2025-08-08T08:13:50Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [johnlindquist/claude-hooks](https://github.com/johnlindquist/claude-hooks) | 350 | 2025-08-08T03:19:00Z | TypeScript | Infrastructure/tooling | 3 | 36 | 0 | 0 |
 | [steadycursor/steadystart](https://github.com/steadycursor/steadystart) | 65 | 2025-08-03T20:24:58Z | TypeScript | Unknown | 0 | 5 | 0 | 0 |
@@ -55,7 +55,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ddollar/foreman](https://github.com/ddollar/foreman) | 6145 | 2025-07-27T10:04:03Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [decider/claude-hooks](https://github.com/decider/claude-hooks) | 70 | 2025-07-20T23:25:34Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [axolotl-ai-cloud/plugin-atropos](https://github.com/axolotl-ai-cloud/plugin-atropos) | 15 | 2025-07-17T21:04:16Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [LPGhatguy/aftman](https://github.com/LPGhatguy/aftman) | 196 | 2025-07-09T20:59:57Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [lpghatguy/aftman](https://github.com/LPGhatguy/aftman) | 196 | 2025-07-09T20:59:57Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [rzykov/metabase](https://github.com/rzykov/metabase) | 5 | 2025-06-27T11:21:50Z | Other | Infrastructure/tooling | 7 | 353 | 0 | 0 |
 | [chrisleyva/todo-slash-command](https://github.com/chrisleyva/todo-slash-command) | 27 | 2025-06-25T23:12:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [harfbuzz/rustybuzz](https://github.com/harfbuzz/rustybuzz) | 658 | 2025-06-09T20:29:30Z | Rust | Infrastructure/tooling | 2 | 1 | 2 | 2 |
@@ -129,8 +129,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [birch-san/diffusers](https://github.com/Birch-san/diffusers) | 9 | 2023-08-24T22:41:31Z | Python | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [asg017/sqlite-ecosystem](https://github.com/asg017/sqlite-ecosystem) | 292 | 2023-08-06T02:27:05Z | TypeScript | Unknown | 0 | 0 | 0 | 0 |
 | [asg017/sqlite-html](https://github.com/asg017/sqlite-html) | 397 | 2023-08-06T01:24:57Z | Go | Infrastructure/tooling | 4 | 14 | 4 | 4 |
-| [aerobounce/Sublime-Pretty-Lua](https://github.com/aerobounce/Sublime-Pretty-Lua) | 6 | 2023-05-10T21:08:44Z | Python | Unknown | 6 | 0 | 6 | 6 |
-| [GarrettAlbright/Luacheck.novaextension](https://github.com/GarrettAlbright/Luacheck.novaextension) | 0 | 2023-03-22T08:40:45Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [aerobounce/sublime-pretty-lua](https://github.com/aerobounce/Sublime-Pretty-Lua) | 6 | 2023-05-10T21:08:44Z | Python | Unknown | 6 | 0 | 6 | 6 |
+| [garrettalbright/luacheck.novaextension](https://github.com/GarrettAlbright/Luacheck.novaextension) | 0 | 2023-03-22T08:40:45Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [klaus2m5/6502_65c02_functional_tests](https://github.com/Klaus2m5/6502_65C02_functional_tests) | 490 | 2023-03-07T15:32:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [automatic1111/stable-diffusion-webui-aesthetic-gradients](https://github.com/AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients) | 456 | 2023-01-23T08:45:27Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [aminrezaei0x443/memory-efficient-attention](https://github.com/AminRezaei0x443/memory-efficient-attention) | 184 | 2023-01-06T19:59:04Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
@@ -138,7 +138,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [putoutjs/putout-processor-typos](https://github.com/putoutjs/putout-processor-typos) | 2 | 2022-09-21T18:23:44Z | JavaScript | Unknown | 0 | 15 | 0 | 0 |
 | [chinanf-boy/ripgrep-zh](https://github.com/chinanf-boy/ripgrep-zh) | 180 | 2022-06-11T01:35:12Z | Shell | Unknown | 4 | 0 | 4 | 4 |
 | [ckipp01/stylua-nvim](https://github.com/ckipp01/stylua-nvim) | 62 | 2022-05-05T06:41:15Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [IKKI2000/harmonyos-fonts](https://github.com/IKKI2000/harmonyos-fonts) | 87 | 2022-01-30T02:12:01Z | Other | Unknown | 4 | 0 | 4 | 4 |
+| [ikki2000/harmonyos-fonts](https://github.com/IKKI2000/harmonyos-fonts) | 87 | 2022-01-30T02:12:01Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [lazychanger/docker-kunlun-mirror](https://github.com/lazychanger/docker-kunlun-mirror) | 9 | 2021-11-24T01:34:29Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [tc39/proposal-async-iteration](https://github.com/tc39/proposal-async-iteration) | 860 | 2021-09-22T09:09:49Z | Other | Unknown | 0 | 1 | 0 | 0 |
 | [rlxone/multisoundchanger](https://github.com/rlxone/MultiSoundChanger) | 311 | 2021-07-22T00:32:50Z | Other | Unknown | 7 | 0 | 7 | 7 |
@@ -206,7 +206,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [asg017/sqlite-http](https://github.com/asg017/sqlite-http) | 262 | 2025-02-09T16:15:00Z | Go | Infrastructure/tooling | 4 | 14 | 4 | 4 |
 | [asg017/sqlite-lembed](https://github.com/asg017/sqlite-lembed) | 255 | 2024-11-24T06:10:43Z | C/C++ | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [kingler/n8n_agent](https://github.com/kingler/n8n_agent) | 239 | 2025-05-16T17:30:38Z | JavaScript | Unknown | 0 | 7 | 0 | 0 |
-| [LPGhatguy/aftman](https://github.com/LPGhatguy/aftman) | 196 | 2025-07-09T20:59:57Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [lpghatguy/aftman](https://github.com/LPGhatguy/aftman) | 196 | 2025-07-09T20:59:57Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [fimeg/networkchronicles](https://github.com/Fimeg/NetworkChronicles) | 191 | 2025-08-08T20:07:59Z | JavaScript | Infrastructure/tooling | 0 | 9 | 0 | 0 |
 | [aminrezaei0x443/memory-efficient-attention](https://github.com/AminRezaei0x443/memory-efficient-attention) | 184 | 2023-01-06T19:59:04Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [chinanf-boy/ripgrep-zh](https://github.com/chinanf-boy/ripgrep-zh) | 180 | 2022-06-11T01:35:12Z | Shell | Unknown | 4 | 0 | 4 | 4 |
@@ -220,7 +220,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [grahama1970/claude-code-mcp-enhanced](https://github.com/grahama1970/claude-code-mcp-enhanced) | 108 | 2025-05-20T18:24:43Z | JavaScript | Infrastructure/tooling | 1 | 12 | 0 | 0 |
 | [layr-labs/hello-world-avs](https://github.com/Layr-Labs/hello-world-avs) | 101 | 2025-04-16T19:33:13Z | Rust | Infrastructure/tooling | 4 | 14 | 4 | 4 |
 | [lamoomai/lamoom-python](https://github.com/LamoomAI/lamoom-python) | 98 | 2025-08-28T13:38:27Z | Other | Infrastructure/tooling | 2 | 3 | 0 | 0 |
-| [IKKI2000/harmonyos-fonts](https://github.com/IKKI2000/harmonyos-fonts) | 87 | 2022-01-30T02:12:01Z | Other | Unknown | 4 | 0 | 4 | 4 |
+| [ikki2000/harmonyos-fonts](https://github.com/IKKI2000/harmonyos-fonts) | 87 | 2022-01-30T02:12:01Z | Other | Unknown | 4 | 0 | 4 | 4 |
 | [brads3290/cclogviewer](https://github.com/Brads3290/cclogviewer) | 81 | 2025-08-08T08:13:50Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [icanhasjonas/run-claude-docker](https://github.com/icanhasjonas/run-claude-docker) | 79 | 2025-08-14T21:01:05Z | Shell | Unknown | 1 | 0 | 0 | 0 |
 | [lobehub/chat-plugin-sdk](https://github.com/lobehub/chat-plugin-sdk) | 74 | 2025-07-31T02:13:10Z | TypeScript | Infrastructure/tooling | 5 | 43 | 0 | 0 |
@@ -240,7 +240,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lobehub/chat-plugin-search-engine](https://github.com/lobehub/chat-plugin-search-engine) | 46 | 2024-01-23T05:19:10Z | TypeScript | Infrastructure/tooling | 9 | 37 | 9 | 9 |
 | [didalgolab/ai-intellij-plugin](https://github.com/didalgolab/ai-intellij-plugin) | 44 | 2025-03-26T22:20:24Z | Java | Infrastructure/tooling | 1 | 9 | 0 | 0 |
 | [jaredsohn/mutefm](https://github.com/jaredsohn/mutefm) | 44 | 2017-07-07T07:45:44Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [tott/laravel-tall-claude-ai-configs](https://github.com/tott/laravel-tall-claude-ai-configs) | 39 | 2025-08-08T14:35:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [tott/laravel-tall-claude-ai-configs](https://github.com/tott/laravel-tall-claude-ai-configs) | 40 | 2025-08-08T14:35:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [yzyydev/agentic-coding-structure](https://github.com/yzyydev/agentic-coding-structure) | 35 | 2025-09-15T14:45:37Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [hashintel/awesome-hash](https://github.com/hashintel/awesome-hash) | 32 | 2023-09-14T06:03:31Z | Unknown | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [lobehub/lobe-assets](https://github.com/lobehub/lobe-assets) | 28 | 2025-09-25T10:01:12Z | Other | Infrastructure/tooling | 9 | 25 | 9 | 9 |
@@ -265,7 +265,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [viperjuice/flutter-structurizr](https://github.com/ViperJuice/Flutter-Structurizr) | 6 | 2025-05-22T23:41:26Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [zscott/pane](https://github.com/zscott/pane) | 6 | 2025-03-07T16:35:10Z | Other | Infrastructure/tooling | 1 | 3 | 0 | 0 |
 | [peergos/nabu-chat](https://github.com/Peergos/nabu-chat) | 6 | 2024-05-08T21:16:54Z | Java | Unknown | 0 | 0 | 0 | 0 |
-| [aerobounce/Sublime-Pretty-Lua](https://github.com/aerobounce/Sublime-Pretty-Lua) | 6 | 2023-05-10T21:08:44Z | Python | Unknown | 6 | 0 | 6 | 6 |
+| [aerobounce/sublime-pretty-lua](https://github.com/aerobounce/Sublime-Pretty-Lua) | 6 | 2023-05-10T21:08:44Z | Python | Unknown | 6 | 0 | 6 | 6 |
 | [rzykov/metabase](https://github.com/rzykov/metabase) | 5 | 2025-06-27T11:21:50Z | Other | Infrastructure/tooling | 7 | 353 | 0 | 0 |
 | [dragonkhoi/mercury-mcp](https://github.com/dragonkhoi/mercury-mcp) | 4 | 2025-03-19T06:47:53Z | TypeScript | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [ddisisto/si](https://github.com/ddisisto/si) | 3 | 2025-05-20T01:27:58Z | TypeScript | Unknown | 0 | 0 | 0 | 0 |
@@ -281,5 +281,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ianopolous/jpack](https://github.com/ianopolous/jpack) | 1 | 2024-09-25T14:52:09Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [wesfloyd/avs-context-prompt](https://github.com/wesfloyd/avs-context-prompt) | 0 | 2025-04-09T19:13:31Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [mjvolk3/biocypher](https://github.com/Mjvolk3/biocypher) | 0 | 2024-07-25T20:44:53Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
-| [GarrettAlbright/Luacheck.novaextension](https://github.com/GarrettAlbright/Luacheck.novaextension) | 0 | 2023-03-22T08:40:45Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [garrettalbright/luacheck.novaextension](https://github.com/GarrettAlbright/Luacheck.novaextension) | 0 | 2023-03-22T08:40:45Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [burntsushi/linux](https://github.com/BurntSushi/linux) | 0 | 2022-12-16T15:13:06Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |

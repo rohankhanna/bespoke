@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars
 
-Generated at: `2026-04-19T14:03:58.882676+00:00`
+Generated at: `2026-04-19T14:05:15.182094+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -44,7 +44,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ccdanpian/current-datetime](https://github.com/ccdanpian/current-datetime) | 3 | 2024-02-04T03:56:29Z | JavaScript | Infrastructure/tooling | 5 | 41 | 5 | 5 |
 | [arvinxx/lobe-plugin-tikzjax](https://github.com/arvinxx/lobe-plugin-tikzjax) | 7 | 2024-01-14T13:35:55Z | TypeScript | Unknown | 0 | 27 | 0 | 0 |
 | [birch-san/diffusers](https://github.com/Birch-san/diffusers) | 9 | 2023-08-24T22:41:31Z | Python | Infrastructure/tooling | 8 | 9 | 8 | 8 |
-| [aerobounce/Sublime-Pretty-Lua](https://github.com/aerobounce/Sublime-Pretty-Lua) | 6 | 2023-05-10T21:08:44Z | Python | Unknown | 6 | 0 | 6 | 6 |
+| [aerobounce/sublime-pretty-lua](https://github.com/aerobounce/Sublime-Pretty-Lua) | 6 | 2023-05-10T21:08:44Z | Python | Unknown | 6 | 0 | 6 | 6 |
 | [putoutjs/putout-processor-typos](https://github.com/putoutjs/putout-processor-typos) | 2 | 2022-09-21T18:23:44Z | JavaScript | Unknown | 0 | 15 | 0 | 0 |
 | [lazychanger/docker-kunlun-mirror](https://github.com/lazychanger/docker-kunlun-mirror) | 9 | 2021-11-24T01:34:29Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [crossterm-rs/examples](https://github.com/crossterm-rs/examples) | 7 | 2019-12-10T20:11:47Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -64,7 +64,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [viperjuice/flutter-structurizr](https://github.com/ViperJuice/Flutter-Structurizr) | 6 | 2025-05-22T23:41:26Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [zscott/pane](https://github.com/zscott/pane) | 6 | 2025-03-07T16:35:10Z | Other | Infrastructure/tooling | 1 | 3 | 0 | 0 |
 | [peergos/nabu-chat](https://github.com/Peergos/nabu-chat) | 6 | 2024-05-08T21:16:54Z | Java | Unknown | 0 | 0 | 0 | 0 |
-| [aerobounce/Sublime-Pretty-Lua](https://github.com/aerobounce/Sublime-Pretty-Lua) | 6 | 2023-05-10T21:08:44Z | Python | Unknown | 6 | 0 | 6 | 6 |
+| [aerobounce/sublime-pretty-lua](https://github.com/aerobounce/Sublime-Pretty-Lua) | 6 | 2023-05-10T21:08:44Z | Python | Unknown | 6 | 0 | 6 | 6 |
 | [rzykov/metabase](https://github.com/rzykov/metabase) | 5 | 2025-06-27T11:21:50Z | Other | Infrastructure/tooling | 7 | 353 | 0 | 0 |
 | [dragonkhoi/mercury-mcp](https://github.com/dragonkhoi/mercury-mcp) | 4 | 2025-03-19T06:47:53Z | TypeScript | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [ddisisto/si](https://github.com/ddisisto/si) | 3 | 2025-05-20T01:27:58Z | TypeScript | Unknown | 0 | 0 | 0 | 0 |

@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago
 
-Generated at: `2026-04-19T14:03:58.882676+00:00`
+Generated at: `2026-04-19T14:05:15.182094+00:00`
 
 ## Active filters
 
@@ -35,7 +35,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dp111/6502timing](https://github.com/dp111/6502Timing) | 2 | 2026-04-11T09:31:38Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [opactorai/claudable](https://github.com/opactorai/Claudable) | 3884 | 2026-04-11T03:03:40Z | TypeScript | CLI | 0 | 27 | 0 | 0 |
 | [tobi/qmd](https://github.com/tobi/qmd) | 22376 | 2026-04-11T01:21:25Z | TypeScript | CLI | 2 | 17 | 0 | 0 |
-| [buddingnewinsights/proxypal](https://github.com/buddingnewinsights/proxypal) | unknown | 2026-04-10T18:56:54Z | TypeScript | Infrastructure/tooling | 3 | 39 | 3 | 3 |
+| [buddingnewinsights/proxypal](https://github.com/buddingnewinsights/proxypal) | 41 | 2026-04-10T18:56:54Z | TypeScript | Infrastructure/tooling | 3 | 39 | 3 | 3 |
 | [1sh1ro/liangxi-skills](https://github.com/1sh1ro/liangxi-skills) | 2 | 2026-04-10T17:37:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [cisco-ai-defense/skill-scanner](https://github.com/cisco-ai-defense/skill-scanner) | 1789 | 2026-04-10T16:21:19Z | Python | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [danielrosehill/agent-junction](https://github.com/danielrosehill/Agent-Junction) | 3 | 2026-04-10T14:41:51Z | TypeScript | CLI | 3 | 8 | 3 | 3 |
@@ -74,7 +74,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [luarocks/luarocks](https://github.com/luarocks/luarocks) | 3673 | 2026-04-06T19:39:45Z | Other | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [django/daphne](https://github.com/django/daphne) | 2661 | 2026-04-06T19:08:47Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [delgan/loguru](https://github.com/Delgan/loguru) | 23822 | 2026-04-06T15:52:02Z | Python | Infrastructure/tooling | 7 | 9 | 7 | 7 |
-| [nabijaczleweli/cargo-update](https://github.com/nabijaczleweli/cargo-update) | unknown | 2026-04-06T14:46:16Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
+| [nabijaczleweli/cargo-update](https://github.com/nabijaczleweli/cargo-update) | 1513 | 2026-04-06T14:46:16Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [comme2e/comm](https://github.com/CommE2E/comm) | 326 | 2026-04-06T02:33:32Z | JavaScript | Infrastructure/tooling | 10 | 28 | 0 | 0 |
 | [broderick-westrope/tetrigo](https://github.com/Broderick-Westrope/tetrigo) | 653 | 2026-04-05T21:51:57Z | Go | CLI | 7 | 4 | 7 | 7 |
 
@@ -98,6 +98,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [thx/resvg-js](https://github.com/thx/resvg-js) | 1915 | 2026-04-10T03:39:02Z | TypeScript | Infrastructure/tooling | 2 | 40 | 0 | 0 |
 | [cisco-ai-defense/skill-scanner](https://github.com/cisco-ai-defense/skill-scanner) | 1789 | 2026-04-10T16:21:19Z | Python | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [lobehub/lobe-icons](https://github.com/lobehub/lobe-icons) | 1768 | 2026-04-09T00:49:12Z | TypeScript | Infrastructure/tooling | 6 | 57 | 0 | 0 |
+| [nabijaczleweli/cargo-update](https://github.com/nabijaczleweli/cargo-update) | 1513 | 2026-04-06T14:46:16Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [nvie/git-toolbelt](https://github.com/nvie/git-toolbelt) | 1375 | 2026-04-08T07:35:17Z | Shell | CLI | 1 | 0 | 0 | 0 |
 | [skills-directory/skill-codex](https://github.com/skills-directory/skill-codex) | 1170 | 2026-04-10T08:15:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [alchaincyf/steve-jobs-skill](https://github.com/alchaincyf/steve-jobs-skill) | 758 | 2026-04-12T05:11:20Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -116,6 +117,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [browser-use/benchmark](https://github.com/browser-use/benchmark) | 69 | 2026-04-09T04:31:34Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [libp2p/test-plans](https://github.com/libp2p/test-plans) | 66 | 2026-04-09T01:01:14Z | Python | Infrastructure/tooling | 11 | 10 | 11 | 11 |
 | [alchaincyf/taleb-skill](https://github.com/alchaincyf/taleb-skill) | 65 | 2026-04-10T02:29:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [buddingnewinsights/proxypal](https://github.com/buddingnewinsights/proxypal) | 41 | 2026-04-10T18:56:54Z | TypeScript | Infrastructure/tooling | 3 | 39 | 3 | 3 |
 | [askroundtable/expert-skills](https://github.com/AskRoundtable/expert-skills) | 39 | 2026-04-09T13:53:39Z | Unknown | Model/data | 6 | 0 | 6 | 6 |
 | [cloudartisan/cloudartisan.github.io](https://github.com/cloudartisan/cloudartisan.github.io) | 31 | 2026-04-12T10:59:10Z | Python | Infrastructure/tooling | 2 | 3 | 0 | 0 |
 | [jerseycheese/narraitor](https://github.com/jerseycheese/Narraitor) | 27 | 2026-04-11T13:45:12Z | TypeScript | Infrastructure/tooling | 4 | 78 | 0 | 0 |
@@ -135,5 +137,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cdeust/cortex-know-when-to-stop-training-model](https://github.com/cdeust/cortex-know-when-to-stop-training-model) | 0 | 2026-04-07T20:02:33Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [piebald-ai/piebald](https://github.com/Piebald-AI/piebald) | 0 | 2026-04-07T14:19:22Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ethpandaops/xatu-cbt](https://github.com/ethpandaops/xatu-cbt) | 0 | 2026-04-07T00:59:51Z | Go | Infrastructure/tooling | 5 | 8 | 5 | 5 |
-| [buddingnewinsights/proxypal](https://github.com/buddingnewinsights/proxypal) | unknown | 2026-04-10T18:56:54Z | TypeScript | Infrastructure/tooling | 3 | 39 | 3 | 3 |
-| [nabijaczleweli/cargo-update](https://github.com/nabijaczleweli/cargo-update) | unknown | 2026-04-06T14:46:16Z | Rust | Infrastructure/tooling | 1 | 1 | 1 | 1 |

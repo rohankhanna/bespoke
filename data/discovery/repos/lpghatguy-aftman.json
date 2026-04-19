@@ -130,13 +130,14 @@
       "size": 3885
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:04:51.915639+00:00",
   "related_repositories": [],
   "repo": {
     "archived": true,
     "default_branch": "main",
     "description": "Aftman, the prodigal sequel to Foreman",
     "fork": false,
-    "full_name": "LPGhatguy/aftman",
+    "full_name": "lpghatguy/aftman",
     "html_url": "https://github.com/LPGhatguy/aftman",
     "language": "Rust",
     "pushed_at": "2025-07-09T20:59:57Z",

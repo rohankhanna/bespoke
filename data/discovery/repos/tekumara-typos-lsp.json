@@ -496,14 +496,18 @@
       "size": 5047
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:04:22.344455+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Source code spell checker for Visual Studio Code, Neovim and other LSP clients",
+    "fork": false,
     "full_name": "tekumara/typos-lsp",
     "html_url": "https://github.com/tekumara/typos-lsp",
     "language": "Rust",
     "pushed_at": "2026-04-19T00:12:25Z",
+    "stargazers_count": 541,
     "topics": [
       "lsp",
       "lsp-server",

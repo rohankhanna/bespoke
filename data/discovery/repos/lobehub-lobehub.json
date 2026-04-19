@@ -4680,14 +4680,18 @@
       "size": 3411
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:04:23.087946+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "canary",
     "description": "The ultimate space for work and life \u2014 to find, build, and collaborate with agent teammates that grow with you. We are taking agent harness to the next level \u2014 enabling multi-agent collaboration, effortless agent team design, and introducing agents as the unit of work interaction.",
+    "fork": false,
     "full_name": "lobehub/lobehub",
     "html_url": "https://github.com/lobehub/lobehub",
     "language": "TypeScript",
-    "pushed_at": "2026-04-19T00:53:54Z",
+    "pushed_at": "2026-04-19T13:53:24Z",
+    "stargazers_count": 75347,
     "topics": [
       "agent",
       "agent-collaboration",
@@ -4702,7 +4706,7 @@
       "mcp",
       "openai"
     ],
-    "updated_at": "2026-04-19T01:11:43Z"
+    "updated_at": "2026-04-19T13:53:28Z"
   },
   "repo_links": [
     {

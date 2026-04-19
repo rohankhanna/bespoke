@@ -670,14 +670,18 @@
       "size": 402
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:04:24.244330+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": " \ud83e\ude80 Lobe CLI Toolbox - AI CLI Toolbox, enhancing git commit and i18n workflow efficiency",
+    "fork": false,
     "full_name": "lobehub/lobe-cli-toolbox",
     "html_url": "https://github.com/lobehub/lobe-cli-toolbox",
     "language": "TypeScript",
     "pushed_at": "2026-02-15T00:32:39Z",
+    "stargazers_count": 401,
     "topics": [
       "ai",
       "ai-commit",

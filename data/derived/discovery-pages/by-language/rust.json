@@ -10,7 +10,7 @@
   "filters": {
     "language_bucket": "rust"
   },
-  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "generated_at": "2026-04-19T14:05:15.182094+00:00",
   "repo_ids": [
     "aannoo/hcom",
     "abraxas-365/langchain-rust",
@@ -65,7 +65,7 @@
     "libp2p/rust-libp2p",
     "linebender/resvg",
     "lnx-search/rewrk",
-    "LPGhatguy/aftman",
+    "lpghatguy/aftman",
     "mikeyobrien/ralph-orchestrator",
     "mupozg823/codelens-mcp-plugin",
     "nabijaczleweli/cargo-update",
@@ -73,7 +73,7 @@
     "napi-rs/node-rs",
     "nielsgroen/claude-tmux",
     "njsmith/posy",
-    "NVIDIA/OpenShell",
+    "nvidia/openshell",
     "openai/codex",
     "phiat/claude-esp-rs",
     "programatik29/rust-web-benchmarks",

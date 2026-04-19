@@ -1,18 +1,18 @@
 {
   "counts": {
-    "components": 1086,
-    "concepts": 199,
-    "observations": 201,
-    "repos": 120,
-    "terms": 333
+    "components": 1125,
+    "concepts": 202,
+    "observations": 204,
+    "repos": 121,
+    "terms": 336
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99"
   },
-  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "generated_at": "2026-04-19T14:05:15.182094+00:00",
   "repo_ids": [
-    "abduznik/Git-Alchemist",
+    "abduznik/git-alchemist",
     "Aedelon/claude-code-blueprint",
     "agents-squads/squads-cli",
     "agricidaniel/claude-cybersecurity",
@@ -30,6 +30,7 @@
     "bl-ue/tweakcc-system-prompts",
     "brads3290/cclogviewer",
     "browser-use/benchmark",
+    "buddingnewinsights/proxypal",
     "bytegust/spm",
     "cdeust/cortex",
     "chaos2cured/freelattice",
@@ -63,7 +64,7 @@
     "hashintel/awesome-hash",
     "huangguang1999/ccstatusline-zh",
     "icanhasjonas/run-claude-docker",
-    "IKKI2000/harmonyos-fonts",
+    "ikki2000/harmonyos-fonts",
     "ithiria894/awesome-claude-code-hooks",
     "itsrishika/payment-bypass-bug-lab",
     "jaredsohn/mutefm",

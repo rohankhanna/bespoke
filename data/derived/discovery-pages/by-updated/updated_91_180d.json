@@ -10,7 +10,7 @@
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "generated_at": "2026-04-19T14:05:15.182094+00:00",
   "repo_ids": [
     "anthropics/courses",
     "arustydev/pre-commit-hooks",
@@ -39,7 +39,7 @@
     "julienxx/terminal-notifier",
     "karpeleslab/tpl",
     "lc044/wechatmsg",
-    "LokerL/tts-vue",
+    "lokerl/tts-vue",
     "lorexxar/kunlun-m",
     "marcindulak/stt-mcp-server-linux",
     "nornagon/crossterm",

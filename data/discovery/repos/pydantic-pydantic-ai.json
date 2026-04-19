@@ -637,14 +637,18 @@
       "size": 933
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:04:22.837044+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "AI Agent Framework, the Pydantic way",
+    "fork": false,
     "full_name": "pydantic/pydantic-ai",
     "html_url": "https://github.com/pydantic/pydantic-ai",
     "language": "Python",
     "pushed_at": "2026-04-18T05:49:35Z",
+    "stargazers_count": 16463,
     "topics": [
       "agent-framework",
       "genai",
@@ -652,7 +656,7 @@
       "pydantic",
       "python"
     ],
-    "updated_at": "2026-04-19T00:46:59Z"
+    "updated_at": "2026-04-19T12:06:36Z"
   },
   "repo_links": [
     {

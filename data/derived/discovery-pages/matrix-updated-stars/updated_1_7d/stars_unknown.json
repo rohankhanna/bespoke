@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 129,
-    "concepts": 65,
-    "observations": 66,
-    "repos": 23,
-    "terms": 68
+    "components": 10,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 15,
+    "terms": 3
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "generated_at": "2026-04-19T14:05:15.182094+00:00",
   "repo_ids": [
     "aitooools/aitooools.github.io",
     "aitooools/chatgpt",
@@ -27,14 +27,6 @@
     "aitooools/spotify-hezu",
     "aitooools/supergrok",
     "aitooools/youtube-hezu",
-    "apple/container",
-    "astral-sh/ty",
-    "automazeio/vibeproxy",
-    "GeiserX/AgentTap",
-    "NVIDIA/OpenShell",
-    "onecli/onecli",
-    "pixiv/three-vrm",
-    "pydantic/pydantic-ai",
-    "QuantumNous/new-api"
+    "GeiserX/AgentTap"
   ]
 }

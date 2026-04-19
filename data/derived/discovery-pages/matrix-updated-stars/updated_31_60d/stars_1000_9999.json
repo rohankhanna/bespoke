@@ -1,21 +1,22 @@
 {
   "counts": {
-    "components": 107,
-    "concepts": 30,
-    "observations": 30,
-    "repos": 12,
-    "terms": 67
+    "components": 124,
+    "concepts": 44,
+    "observations": 44,
+    "repos": 13,
+    "terms": 81
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "generated_at": "2026-04-19T14:05:15.182094+00:00",
   "repo_ids": [
     "automazeio/ccpm",
     "blader/claudeception",
     "charmbracelet/glamour",
+    "coaidev/coai",
     "dagger/container-use",
     "haleclipse/ccometixline",
     "jpanther/congo",

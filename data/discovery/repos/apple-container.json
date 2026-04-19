@@ -290,16 +290,20 @@
       "size": 1484
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:04:21.204046+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
+    "fork": false,
     "full_name": "apple/container",
     "html_url": "https://github.com/apple/container",
     "language": "Swift",
     "pushed_at": "2026-04-17T18:56:17Z",
+    "stargazers_count": 25998,
     "topics": [],
-    "updated_at": "2026-04-18T22:07:25Z"
+    "updated_at": "2026-04-19T13:18:20Z"
   },
   "repo_links": [
     {

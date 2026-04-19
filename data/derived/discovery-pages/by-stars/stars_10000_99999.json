@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1768,
-    "concepts": 638,
-    "observations": 641,
-    "repos": 108,
-    "terms": 752
+    "components": 2309,
+    "concepts": 696,
+    "observations": 700,
+    "repos": 115,
+    "terms": 810
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999"
   },
-  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "generated_at": "2026-04-19T14:05:15.182094+00:00",
   "repo_ids": [
     "1panel-dev/1panel",
     "1panel-dev/maxkb",
@@ -24,7 +24,9 @@
     "anthropics/claude-plugins-official",
     "anthropics/claude-quickstarts",
     "anthropics/courses",
+    "apple/container",
     "astral-sh/ruff",
+    "astral-sh/ty",
     "astral-sh/uv",
     "axolotl-ai-cloud/axolotl",
     "badlogic/pi-mono",
@@ -65,6 +67,7 @@
     "jj-vcs/jj",
     "junegunn/vim-plug",
     "k-dense-ai/scientific-agent-skills",
+    "karpathy/autoresearch",
     "knownsec/404starlink",
     "kubernetes-sigs/kustomize",
     "kubernetes/community",
@@ -74,6 +77,7 @@
     "langchain-ai/langgraph",
     "lc044/wechatmsg",
     "letta-ai/letta",
+    "lobehub/lobehub",
     "mem0ai/mem0",
     "metabase/metabase",
     "microsoft/playwright-mcp",
@@ -93,9 +97,12 @@
     "oven-sh/bun",
     "protocolbuffers/protobuf",
     "px4/px4-autopilot",
+    "pydantic/pydantic-ai",
     "pyenv/pyenv",
+    "quantumnous/new-api",
     "qwenlm/qwen-code",
     "qwibitai/nanoclaw",
+    "recharts/recharts",
     "router-for-me/cliproxyapi",
     "ruvnet/ruflo",
     "ryoppippi/ccusage",

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1782,
-    "concepts": 374,
-    "observations": 377,
-    "repos": 165,
-    "terms": 620
+    "components": 1849,
+    "concepts": 396,
+    "observations": 399,
+    "repos": 167,
+    "terms": 642
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999"
   },
-  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "generated_at": "2026-04-19T14:05:15.182094+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "1runeberg/confichat",
@@ -113,12 +113,13 @@
     "lnx-search/rewrk",
     "lobehub/lobe-charts",
     "lobehub/lobe-chat-plugins",
+    "lobehub/lobe-cli-toolbox",
     "lobehub/lobe-editor",
     "lobehub/lobe-midjourney-webui",
     "lobehub/lobe-tts",
     "lobehub/lobe-vidol",
-    "LPGhatguy/aftman",
-    "LuaLanes/lanes",
+    "lpghatguy/aftman",
+    "lualanes/lanes",
     "lucasastorian/llmwiki",
     "lunarmodules/luacheck",
     "mattgodbolt/jsbeeb",
@@ -165,6 +166,7 @@
     "sudocode-ai/sudocode",
     "superclaude-org/supergemini_framework",
     "tc39/proposal-async-iteration",
+    "tekumara/typos-lsp",
     "thibautmelen/agentic-ai-systems",
     "thinking-machines-lab/tinker",
     "tombii/better-ccflare",

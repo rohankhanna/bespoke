@@ -1,14 +1,14 @@
 # Discovery pages
 
-Generated at: `2026-04-19T14:03:58.882676+00:00`
+Generated at: `2026-04-19T14:05:15.182094+00:00`
 
 This index is static. It links to precomputed facet pages and does not rely on client-side filtering or sorting.
 
 ## Counts
 
 - repos: 798
-- non-empty updated × stars pages: 57
-- non-empty updated × stars × language pages: 289
+- non-empty updated × stars pages: 51
+- non-empty updated × stars × language pages: 279
 
 ## Updated buckets
 
@@ -23,14 +23,14 @@ This index is static. It links to precomputed facet pages and does not rely on c
 
 ## Star buckets
 
-- [Unknown stars](./by-stars/stars-unknown.md) — 33 repos
+- [Unknown stars](./by-stars/stars-unknown.md) — 15 repos
 - [0 stars](./by-stars/stars-0.md) — 72 repos
 - [1 to 9 stars](./by-stars/stars-1-9.md) — 119 repos
-- [10 to 99 stars](./by-stars/stars-10-99.md) — 120 repos
-- [100 to 999 stars](./by-stars/stars-100-999.md) — 165 repos
-- [1,000 to 9,999 stars](./by-stars/stars-1000-9999.md) — 165 repos
-- [10,000 to 99,999 stars](./by-stars/stars-10000-99999.md) — 108 repos
-- [100,000 to 999,999 stars](./by-stars/stars-100000-999999.md) — 16 repos
+- [10 to 99 stars](./by-stars/stars-10-99.md) — 121 repos
+- [100 to 999 stars](./by-stars/stars-100-999.md) — 167 repos
+- [1,000 to 9,999 stars](./by-stars/stars-1000-9999.md) — 172 repos
+- [10,000 to 99,999 stars](./by-stars/stars-10000-99999.md) — 115 repos
+- [100,000 to 999,999 stars](./by-stars/stars-100000-999999.md) — 17 repos
 - [1,000,000+ stars](./by-stars/stars-1000000-plus.md) — 0 repos
 
 ## Language buckets

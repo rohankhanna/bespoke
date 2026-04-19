@@ -1,6 +1,6 @@
 # 1 to 9 stars
 
-Generated at: `2026-04-19T14:03:58.882676+00:00`
+Generated at: `2026-04-19T14:05:15.182094+00:00`
 
 ## Active filters
 
@@ -31,6 +31,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [floxym/financial-chat](https://github.com/Floxym/financial-chat) | 5 | 2026-04-19T13:20:11Z | Python | Infrastructure/tooling | 1 | 2 | 0 | 0 |
 | [floxym/financial-chat-finance-nlp-chatbots](https://github.com/Floxym/financial-chat-Finance-NLP-Chatbots) | 6 | 2026-04-19T13:19:53Z | Other | Infrastructure/tooling | 1 | 2 | 0 | 0 |
 | [saminiscool/twitter-ai-agent](https://github.com/Saminiscool/twitter-ai-agent) | 2 | 2026-04-19T13:16:17Z | TypeScript | CLI | 0 | 38 | 0 | 0 |
+| [tarikmanoar/tarikmanoar](https://github.com/tarikmanoar/tarikmanoar) | 8 | 2026-04-19T13:08:33Z | Other | Infrastructure/tooling | 6 | 9 | 7 | 7 |
 | [anojndr/grok-to-openai](https://github.com/anojndr/grok-to-openai) | 2 | 2026-04-19T12:57:02Z | JavaScript | Web app | 1 | 6 | 0 | 0 |
 | [graveyardsfocrdpktv/ethereum-mempool-bot](https://github.com/graveyardsfocrdpktv/Ethereum-mempool-bot) | 1 | 2026-04-19T12:43:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [gbrobro119-star/darksword-kexploit](https://github.com/gbrobro119-star/darksword-kexploit) | 1 | 2026-04-19T12:37:45Z | C/C++ | Unknown | 1 | 0 | 0 | 0 |
@@ -47,7 +48,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [serpro69/capy](https://github.com/serpro69/capy) | 4 | 2026-04-19T09:18:43Z | Go | Infrastructure/tooling | 12 | 8 | 12 | 12 |
 | [klodr/mercury-invoicing-mcp](https://github.com/klodr/mercury-invoicing-mcp) | 2 | 2026-04-19T08:42:02Z | TypeScript | Infrastructure/tooling | 3 | 22 | 0 | 0 |
 | [gauravrathod674/custom-chatbot](https://github.com/gauravRathod674/custom-chatbot) | 3 | 2026-04-19T08:39:25Z | JavaScript | Infrastructure/tooling | 1 | 20 | 0 | 0 |
-| [tarikmanoar/tarikmanoar](https://github.com/tarikmanoar/tarikmanoar) | 8 | 2026-04-19T07:24:28Z | Other | Infrastructure/tooling | 6 | 9 | 7 | 7 |
 | [joinwell52-ai/codeflow-pwa](https://github.com/joinwell52-AI/codeflow-pwa) | 1 | 2026-04-19T06:58:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [verkyyi/tokenman](https://github.com/verkyyi/tokenman) | 2 | 2026-04-19T06:57:48Z | Python | Infrastructure/tooling | 8 | 11 | 0 | 0 |
 | [neuroverseos/neuroverseos-governance](https://github.com/NeuroverseOS/Neuroverseos-governance) | 1 | 2026-04-18T22:21:38Z | TypeScript | Infrastructure/tooling | 0 | 12 | 0 | 0 |
@@ -136,7 +136,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ccdanpian/current-datetime](https://github.com/ccdanpian/current-datetime) | 3 | 2024-02-04T03:56:29Z | JavaScript | Infrastructure/tooling | 5 | 41 | 5 | 5 |
 | [arvinxx/lobe-plugin-tikzjax](https://github.com/arvinxx/lobe-plugin-tikzjax) | 7 | 2024-01-14T13:35:55Z | TypeScript | Unknown | 0 | 27 | 0 | 0 |
 | [birch-san/diffusers](https://github.com/Birch-san/diffusers) | 9 | 2023-08-24T22:41:31Z | Python | Infrastructure/tooling | 8 | 9 | 8 | 8 |
-| [aerobounce/Sublime-Pretty-Lua](https://github.com/aerobounce/Sublime-Pretty-Lua) | 6 | 2023-05-10T21:08:44Z | Python | Unknown | 6 | 0 | 6 | 6 |
+| [aerobounce/sublime-pretty-lua](https://github.com/aerobounce/Sublime-Pretty-Lua) | 6 | 2023-05-10T21:08:44Z | Python | Unknown | 6 | 0 | 6 | 6 |
 | [putoutjs/putout-processor-typos](https://github.com/putoutjs/putout-processor-typos) | 2 | 2022-09-21T18:23:44Z | JavaScript | Unknown | 0 | 15 | 0 | 0 |
 | [lazychanger/docker-kunlun-mirror](https://github.com/lazychanger/docker-kunlun-mirror) | 9 | 2021-11-24T01:34:29Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [crossterm-rs/examples](https://github.com/crossterm-rs/examples) | 7 | 2019-12-10T20:11:47Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -152,7 +152,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [birch-san/diffusers](https://github.com/Birch-san/diffusers) | 9 | 2023-08-24T22:41:31Z | Python | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [lazychanger/docker-kunlun-mirror](https://github.com/lazychanger/docker-kunlun-mirror) | 9 | 2021-11-24T01:34:29Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [retrography/audioswitch](https://github.com/retrography/audioswitch) | 9 | 2017-12-23T22:33:40Z | C/C++ | CLI | 0 | 0 | 0 | 0 |
-| [tarikmanoar/tarikmanoar](https://github.com/tarikmanoar/tarikmanoar) | 8 | 2026-04-19T07:24:28Z | Other | Infrastructure/tooling | 6 | 9 | 7 | 7 |
+| [tarikmanoar/tarikmanoar](https://github.com/tarikmanoar/tarikmanoar) | 8 | 2026-04-19T13:08:33Z | Other | Infrastructure/tooling | 6 | 9 | 7 | 7 |
 | [petmal/mindtrial](https://github.com/petmal/MindTrial) | 8 | 2026-04-17T16:26:12Z | Go | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [ksylvan/fabric](https://github.com/ksylvan/fabric) | 8 | 2026-04-17T03:25:25Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [flinedev/recall](https://github.com/FlineDev/Recall) | 8 | 2026-03-10T20:36:02Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -174,7 +174,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [viperjuice/flutter-structurizr](https://github.com/ViperJuice/Flutter-Structurizr) | 6 | 2025-05-22T23:41:26Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [zscott/pane](https://github.com/zscott/pane) | 6 | 2025-03-07T16:35:10Z | Other | Infrastructure/tooling | 1 | 3 | 0 | 0 |
 | [peergos/nabu-chat](https://github.com/Peergos/nabu-chat) | 6 | 2024-05-08T21:16:54Z | Java | Unknown | 0 | 0 | 0 | 0 |
-| [aerobounce/Sublime-Pretty-Lua](https://github.com/aerobounce/Sublime-Pretty-Lua) | 6 | 2023-05-10T21:08:44Z | Python | Unknown | 6 | 0 | 6 | 6 |
+| [aerobounce/sublime-pretty-lua](https://github.com/aerobounce/Sublime-Pretty-Lua) | 6 | 2023-05-10T21:08:44Z | Python | Unknown | 6 | 0 | 6 | 6 |
 | [floxym/financial-chat](https://github.com/Floxym/financial-chat) | 5 | 2026-04-19T13:20:11Z | Python | Infrastructure/tooling | 1 | 2 | 0 | 0 |
 | [vincent-k2026/codachi](https://github.com/vincent-k2026/codachi) | 5 | 2026-04-18T15:47:52Z | TypeScript | CLI | 7 | 6 | 7 | 7 |
 | [gibdd-dps/prizolov-agent-os](https://github.com/GIBDD-DPS/prizolov-agent-os) | 5 | 2026-04-18T09:26:30Z | Python | Infrastructure/tooling | 1 | 4 | 0 | 0 |

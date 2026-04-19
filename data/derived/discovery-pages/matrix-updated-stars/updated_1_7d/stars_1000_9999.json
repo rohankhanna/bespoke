@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 907,
-    "concepts": 284,
-    "observations": 286,
-    "repos": 56,
-    "terms": 362
+    "components": 966,
+    "concepts": 316,
+    "observations": 318,
+    "repos": 60,
+    "terms": 394
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "generated_at": "2026-04-19T14:05:15.182094+00:00",
   "repo_ids": [
     "actions/runner",
     "agricidaniel/claude-ads",
@@ -19,6 +19,7 @@
     "ai-that-works/ai-that-works",
     "android/skills",
     "anthropics/claude-code-action",
+    "automazeio/vibeproxy",
     "awslabs/eks-node-viewer",
     "bensadeh/circumflex",
     "cedar-policy/cedar",
@@ -54,9 +55,12 @@
     "napi-rs/node-rs",
     "nousresearch/atropos",
     "npm/cli",
+    "nvidia/openshell",
+    "onecli/onecli",
     "piebald-ai/claude-code-system-prompts",
     "piebald-ai/tweakcc",
     "pinterest/ktlint",
+    "pixiv/three-vrm",
     "plastic-labs/honcho",
     "revfactory/harness",
     "ruvnet/ruvector",

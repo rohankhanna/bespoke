@@ -208,14 +208,18 @@
       "size": 9191
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:04:21.437226+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Native macOS menu bar app to use your Claude Code & ChatGPT subscriptions with AI coding tools - no API keys needed",
+    "fork": false,
     "full_name": "automazeio/vibeproxy",
     "html_url": "https://github.com/automazeio/vibeproxy",
     "language": "Swift",
     "pushed_at": "2026-04-17T00:22:34Z",
+    "stargazers_count": 2409,
     "topics": [
       "claude-code",
       "claudecode",
@@ -224,7 +228,7 @@
       "factory-droids",
       "gpt-5-codex"
     ],
-    "updated_at": "2026-04-18T22:37:06Z"
+    "updated_at": "2026-04-19T12:55:34Z"
   },
   "repo_links": [
     {

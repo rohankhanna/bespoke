@@ -1,22 +1,23 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 8,
-    "terms": 24
+    "components": 78,
+    "concepts": 22,
+    "observations": 23,
+    "repos": 9,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "generated_at": "2026-04-19T14:05:15.182094+00:00",
   "repo_ids": [
     "ddollar/forego",
     "google-github-actions/auth",
     "gwudcap/cc-sessions",
     "julienxx/terminal-notifier",
+    "lokerl/tts-vue",
     "lorexxar/kunlun-m",
     "numman-ali/openskills",
     "protectai/llm-guard",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 15,
-    "concepts": 15,
-    "observations": 16,
-    "repos": 3,
-    "terms": 15
+    "components": 0,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 1,
+    "terms": 0
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,8 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "generated_at": "2026-04-19T14:05:15.182094+00:00",
   "repo_ids": [
-    "aitooools/aitooools.github.io",
-    "apple/container",
-    "automazeio/vibeproxy"
+    "aitooools/aitooools.github.io"
   ]
 }

@@ -1,6 +1,6 @@
 # JavaScript
 
-Generated at: `2026-04-19T14:03:58.882676+00:00`
+Generated at: `2026-04-19T14:05:15.182094+00:00`
 
 ## Active filters
 
@@ -67,7 +67,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [kingler/n8n_agent](https://github.com/kingler/n8n_agent) | 239 | 2025-05-16T17:30:38Z | JavaScript | Unknown | 0 | 7 | 0 | 0 |
 | [ianopolous/jpack](https://github.com/ianopolous/jpack) | 1 | 2024-09-25T14:52:09Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [ccdanpian/current-datetime](https://github.com/ccdanpian/current-datetime) | 3 | 2024-02-04T03:56:29Z | JavaScript | Infrastructure/tooling | 5 | 41 | 5 | 5 |
-| [GarrettAlbright/Luacheck.novaextension](https://github.com/GarrettAlbright/Luacheck.novaextension) | 0 | 2023-03-22T08:40:45Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [garrettalbright/luacheck.novaextension](https://github.com/GarrettAlbright/Luacheck.novaextension) | 0 | 2023-03-22T08:40:45Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [putoutjs/putout-processor-typos](https://github.com/putoutjs/putout-processor-typos) | 2 | 2022-09-21T18:23:44Z | JavaScript | Unknown | 0 | 15 | 0 | 0 |
 
 ## Repos sorted by stars
@@ -120,4 +120,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [redductive/securepixel](https://github.com/Redductive/SecurePixel) | 0 | 2026-04-19T11:52:32Z | JavaScript | CLI | 0 | 0 | 0 | 0 |
 | [tornikepe/ai-chatbot](https://github.com/tornikepe/ai-chatbot) | 0 | 2026-04-18T19:51:12Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
 | [saidudz/chat-ai](https://github.com/saidudz/Chat-AI) | 0 | 2026-04-17T15:26:16Z | JavaScript | Infrastructure/tooling | 1 | 24 | 0 | 0 |
-| [GarrettAlbright/Luacheck.novaextension](https://github.com/GarrettAlbright/Luacheck.novaextension) | 0 | 2023-03-22T08:40:45Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [garrettalbright/luacheck.novaextension](https://github.com/GarrettAlbright/Luacheck.novaextension) | 0 | 2023-03-22T08:40:45Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |

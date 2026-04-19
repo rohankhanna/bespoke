@@ -1,6 +1,6 @@
 # Python
 
-Generated at: `2026-04-19T14:03:58.882676+00:00`
+Generated at: `2026-04-19T14:05:15.182094+00:00`
 
 ## Active filters
 
@@ -69,7 +69,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [agiletec-inc/airis-mcp-gateway](https://github.com/agiletec-inc/airis-mcp-gateway) | 150 | 2026-04-18T09:30:28Z | Python | Infrastructure/tooling | 3 | 11 | 3 | 3 |
 | [gibdd-dps/prizolov-agent-os](https://github.com/GIBDD-DPS/prizolov-agent-os) | 5 | 2026-04-18T09:26:30Z | Python | Infrastructure/tooling | 1 | 4 | 0 | 0 |
 | [piqrypt/piqrypt-mcp-server](https://github.com/PiQrypt/piqrypt-mcp-server) | 0 | 2026-04-18T08:14:52Z | Python | Service/API | 0 | 3 | 0 | 0 |
-| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | unknown | 2026-04-18T05:49:35Z | Python | Infrastructure/tooling | 10 | 17 | 10 | 10 |
+| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | 16463 | 2026-04-18T05:49:35Z | Python | Infrastructure/tooling | 10 | 17 | 10 | 10 |
 | [google/tunix](https://github.com/google/tunix) | 2229 | 2026-04-18T04:27:09Z | Python | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [bryanh9111/engram](https://github.com/Bryanh9111/Engram) | 1 | 2026-04-18T03:01:43Z | Python | Service/API | 0 | 0 | 0 | 0 |
 | [sunthinks/kvmind](https://github.com/sunthinks/kvmind) | 1 | 2026-04-18T02:03:25Z | Python | Service/API | 0 | 0 | 0 | 0 |
@@ -86,7 +86,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [github/spec-kit](https://github.com/github/spec-kit) | 89293 | 2026-04-17T19:33:42Z | Python | Infrastructure/tooling | 10 | 12 | 10 | 10 |
 | [roampal-ai/roampal](https://github.com/roampal-ai/roampal) | 116 | 2026-04-17T18:38:16Z | Python | Infrastructure/tooling | 1 | 3 | 0 | 0 |
 | [trailofbits/skills](https://github.com/trailofbits/skills) | 4674 | 2026-04-17T17:46:49Z | Python | Infrastructure/tooling | 2 | 3 | 0 | 0 |
-| [astral-sh/ty](https://github.com/astral-sh/ty) | unknown | 2026-04-17T17:11:26Z | Python | Infrastructure/tooling | 6 | 16 | 6 | 6 |
+| [astral-sh/ty](https://github.com/astral-sh/ty) | 18363 | 2026-04-17T17:11:26Z | Python | Infrastructure/tooling | 6 | 16 | 6 | 6 |
 | [xiaochu-1208/interview-assistant-cli](https://github.com/XiaoChu-1208/interview-assistant-CLI) | 1 | 2026-04-17T16:53:54Z | Python | CLI | 1 | 5 | 0 | 0 |
 | [googleapis/python-genai](https://github.com/googleapis/python-genai) | 3621 | 2026-04-17T13:46:38Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [spylang/spy](https://github.com/spylang/spy) | 732 | 2026-04-17T11:51:57Z | Python | Infrastructure/tooling | 4 | 10 | 0 | 0 |
@@ -137,7 +137,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [akin-ozer/cc-devops-skills](https://github.com/akin-ozer/cc-devops-skills) | 182 | 2026-03-27T07:54:57Z | Python | Infrastructure/tooling | 2 | 2 | 0 | 0 |
 | [ldayton/parable](https://github.com/ldayton/Parable) | 9 | 2026-03-26T21:26:40Z | Python | Infrastructure/tooling | 4 | 6 | 5 | 5 |
 | [nibir1/vaultsim](https://github.com/Nibir1/VaultSim) | 0 | 2026-03-26T07:05:03Z | Python | Infrastructure/tooling | 2 | 6 | 0 | 0 |
-| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | unknown | 2026-03-26T00:07:37Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 74380 | 2026-03-26T00:07:37Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [adammes/voyanode](https://github.com/AdamMes/voyanode) | 0 | 2026-03-25T19:51:24Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [danielrosehill/index](https://github.com/danielrosehill/Index) | 10 | 2026-03-25T18:29:33Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [danielrosehill/claude-slash-commands](https://github.com/danielrosehill/Claude-Slash-Commands) | 4 | 2026-03-25T16:19:14Z | Python | Unknown | 2 | 0 | 2 | 2 |
@@ -149,7 +149,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [flinedev/recall](https://github.com/FlineDev/Recall) | 8 | 2026-03-10T20:36:02Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [automatic1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | 162466 | 2026-03-02T07:00:53Z | Python | Infrastructure/tooling | 17 | 6 | 17 | 17 |
 | [alexei-led/aws-mcp-server](https://github.com/alexei-led/aws-mcp-server) | 181 | 2026-02-27T14:42:40Z | Python | CLI | 2 | 9 | 0 | 0 |
-| [abduznik/Git-Alchemist](https://github.com/abduznik/Git-Alchemist) | 21 | 2026-02-24T07:58:47Z | Python | CLI | 10 | 5 | 10 | 10 |
+| [abduznik/git-alchemist](https://github.com/abduznik/Git-Alchemist) | 21 | 2026-02-24T07:58:47Z | Python | CLI | 10 | 5 | 10 | 10 |
 | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 54760 | 2026-02-19T06:22:06Z | Python | CLI | 11 | 0 | 11 | 11 |
 | [anthropics/claude-code-security-review](https://github.com/anthropics/claude-code-security-review) | 4314 | 2026-02-11T18:01:23Z | Python | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [meta-llama/llama-models](https://github.com/meta-llama/llama-models) | 7562 | 2026-02-11T16:38:31Z | Python | Infrastructure/tooling | 0 | 5 | 0 | 0 |
@@ -189,7 +189,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mjvolk3/biocypher](https://github.com/Mjvolk3/biocypher) | 0 | 2024-07-25T20:44:53Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [yuag/code-audit](https://github.com/yuag/Code-audit) | 122 | 2024-06-06T01:04:12Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [birch-san/diffusers](https://github.com/Birch-san/diffusers) | 9 | 2023-08-24T22:41:31Z | Python | Infrastructure/tooling | 8 | 9 | 8 | 8 |
-| [aerobounce/Sublime-Pretty-Lua](https://github.com/aerobounce/Sublime-Pretty-Lua) | 6 | 2023-05-10T21:08:44Z | Python | Unknown | 6 | 0 | 6 | 6 |
+| [aerobounce/sublime-pretty-lua](https://github.com/aerobounce/Sublime-Pretty-Lua) | 6 | 2023-05-10T21:08:44Z | Python | Unknown | 6 | 0 | 6 | 6 |
 | [automatic1111/stable-diffusion-webui-aesthetic-gradients](https://github.com/AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients) | 456 | 2023-01-23T08:45:27Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [aminrezaei0x443/memory-efficient-attention](https://github.com/AminRezaei0x443/memory-efficient-attention) | 184 | 2023-01-06T19:59:04Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 
@@ -206,6 +206,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | 88566 | 2026-04-19T02:00:43Z | Python | Infrastructure/tooling | 5 | 13 | 0 | 0 |
 | [django/django](https://github.com/django/django) | 87289 | 2026-04-19T12:05:55Z | Python | Infrastructure/tooling | 7 | 13 | 0 | 0 |
 | [vllm-project/vllm](https://github.com/vllm-project/vllm) | 77296 | 2026-04-19T09:57:40Z | Python | Infrastructure/tooling | 20 | 7 | 20 | 20 |
+| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 74380 | 2026-03-26T00:07:37Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 54760 | 2026-02-19T06:22:06Z | Python | CLI | 11 | 0 | 11 | 11 |
 | [mem0ai/mem0](https://github.com/mem0ai/mem0) | 53504 | 2026-04-19T00:09:28Z | Python | Infrastructure/tooling | 2 | 14 | 0 | 0 |
 | [aider-ai/aider](https://github.com/Aider-AI/aider) | 43560 | 2026-04-09T05:09:59Z | Python | CLI | 18 | 16 | 18 | 18 |
@@ -225,7 +226,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [langchain-ai/deepagents](https://github.com/langchain-ai/deepagents) | 21210 | 2026-04-19T03:52:17Z | Python | Infrastructure/tooling | 12 | 3 | 12 | 12 |
 | [1panel-dev/maxkb](https://github.com/1Panel-dev/MaxKB) | 20762 | 2026-04-17T09:35:00Z | Python | Infrastructure/tooling | 17 | 10 | 17 | 17 |
 | [k-dense-ai/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | 18858 | 2026-04-17T23:34:47Z | Python | CLI | 19 | 5 | 19 | 19 |
+| [astral-sh/ty](https://github.com/astral-sh/ty) | 18363 | 2026-04-17T17:11:26Z | Python | Infrastructure/tooling | 6 | 16 | 6 | 6 |
 | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | 17298 | 2026-04-17T21:03:26Z | Python | Infrastructure/tooling | 5 | 4 | 5 | 5 |
+| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | 16463 | 2026-04-18T05:49:35Z | Python | Infrastructure/tooling | 10 | 17 | 10 | 10 |
 | [anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts) | 16165 | 2026-02-05T20:47:09Z | Python | Infrastructure/tooling | 2 | 7 | 0 | 0 |
 | [microsoft/pyright](https://github.com/microsoft/pyright) | 15385 | 2026-04-15T23:19:42Z | Python | Infrastructure/tooling | 2 | 27 | 2 | 2 |
 | [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill) | 15010 | 2026-04-18T17:06:49Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
@@ -311,7 +314,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [marcindulak/stt-mcp-server-linux](https://github.com/marcindulak/stt-mcp-server-linux) | 22 | 2026-01-10T20:37:40Z | Python | Infrastructure/tooling | 4 | 1 | 0 | 0 |
 | [superclaude-org/superqwen_framework](https://github.com/SuperClaude-Org/SuperQwen_Framework) | 22 | 2025-09-19T02:46:13Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [cdeust/cortex](https://github.com/cdeust/Cortex) | 21 | 2026-04-17T22:49:25Z | Python | Infrastructure/tooling | 3 | 7 | 0 | 0 |
-| [abduznik/Git-Alchemist](https://github.com/abduznik/Git-Alchemist) | 21 | 2026-02-24T07:58:47Z | Python | CLI | 10 | 5 | 10 | 10 |
+| [abduznik/git-alchemist](https://github.com/abduznik/Git-Alchemist) | 21 | 2026-02-24T07:58:47Z | Python | CLI | 10 | 5 | 10 | 10 |
 | [sliamh11/deus](https://github.com/sliamh11/Deus) | 18 | 2026-04-19T13:44:37Z | Python | Infrastructure/tooling | 8 | 36 | 0 | 0 |
 | [axolotl-ai-cloud/plugin-atropos](https://github.com/axolotl-ai-cloud/plugin-atropos) | 15 | 2025-07-17T21:04:16Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [talieisin/britfix](https://github.com/Talieisin/britfix) | 14 | 2026-03-12T08:25:00Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -323,7 +326,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hackdays-io/toban-contribution-viewer](https://github.com/hackdays-io/toban-contribution-viewer) | 7 | 2025-05-17T15:04:48Z | Python | Infrastructure/tooling | 5 | 10 | 0 | 0 |
 | [etanhey/brainlayer](https://github.com/EtanHey/brainlayer) | 6 | 2026-04-18T17:54:55Z | Python | Infrastructure/tooling | 2 | 4 | 0 | 0 |
 | [zwowo1997/pack-repo-4ai](https://github.com/zwowo1997/pack-repo-4ai) | 6 | 2026-01-31T19:20:45Z | Python | CLI | 0 | 0 | 0 | 0 |
-| [aerobounce/Sublime-Pretty-Lua](https://github.com/aerobounce/Sublime-Pretty-Lua) | 6 | 2023-05-10T21:08:44Z | Python | Unknown | 6 | 0 | 6 | 6 |
+| [aerobounce/sublime-pretty-lua](https://github.com/aerobounce/Sublime-Pretty-Lua) | 6 | 2023-05-10T21:08:44Z | Python | Unknown | 6 | 0 | 6 | 6 |
 | [floxym/financial-chat](https://github.com/Floxym/financial-chat) | 5 | 2026-04-19T13:20:11Z | Python | Infrastructure/tooling | 1 | 2 | 0 | 0 |
 | [gibdd-dps/prizolov-agent-os](https://github.com/GIBDD-DPS/prizolov-agent-os) | 5 | 2026-04-18T09:26:30Z | Python | Infrastructure/tooling | 1 | 4 | 0 | 0 |
 | [kelp/webdown](https://github.com/kelp/webdown) | 5 | 2026-04-17T00:20:40Z | Python | CLI | 3 | 6 | 0 | 0 |
@@ -364,6 +367,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nibir1/vaultsim](https://github.com/Nibir1/VaultSim) | 0 | 2026-03-26T07:05:03Z | Python | Infrastructure/tooling | 2 | 6 | 0 | 0 |
 | [adammes/voyanode](https://github.com/AdamMes/voyanode) | 0 | 2026-03-25T19:51:24Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [mjvolk3/biocypher](https://github.com/Mjvolk3/biocypher) | 0 | 2024-07-25T20:44:53Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
-| [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | unknown | 2026-04-18T05:49:35Z | Python | Infrastructure/tooling | 10 | 17 | 10 | 10 |
-| [astral-sh/ty](https://github.com/astral-sh/ty) | unknown | 2026-04-17T17:11:26Z | Python | Infrastructure/tooling | 6 | 16 | 6 | 6 |
-| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | unknown | 2026-03-26T00:07:37Z | Python | Unknown | 0 | 0 | 0 | 0 |

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago
 
-Generated at: `2026-04-19T14:03:58.882676+00:00`
+Generated at: `2026-04-19T14:05:15.182094+00:00`
 
 ## Active filters
 
@@ -55,7 +55,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ldayton/parable](https://github.com/ldayton/Parable) | 9 | 2026-03-26T21:26:40Z | Python | Infrastructure/tooling | 4 | 6 | 5 | 5 |
 | [ruvnet/agentic-flow](https://github.com/ruvnet/agentic-flow) | 617 | 2026-03-26T08:37:31Z | TypeScript | Infrastructure/tooling | 13 | 84 | 13 | 13 |
 | [nibir1/vaultsim](https://github.com/Nibir1/VaultSim) | 0 | 2026-03-26T07:05:03Z | Python | Infrastructure/tooling | 2 | 6 | 0 | 0 |
-| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | unknown | 2026-03-26T00:07:37Z | Python | Unknown | 0 | 0 | 0 | 0 |
+| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 74380 | 2026-03-26T00:07:37Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [adammes/voyanode](https://github.com/AdamMes/voyanode) | 0 | 2026-03-25T19:51:24Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [danielrosehill/index](https://github.com/danielrosehill/Index) | 10 | 2026-03-25T18:29:33Z | Python | Unknown | 3 | 0 | 3 | 3 |
 | [danielrosehill/claude-slash-commands](https://github.com/danielrosehill/Claude-Slash-Commands) | 4 | 2026-03-25T16:19:14Z | Python | Unknown | 2 | 0 | 2 | 2 |
@@ -77,6 +77,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | 74380 | 2026-03-26T00:07:37Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master) | 26594 | 2026-03-31T18:24:26Z | JavaScript | Infrastructure/tooling | 8 | 95 | 0 | 0 |
 | [superclaude-org/superclaude_framework](https://github.com/SuperClaude-Org/SuperClaude_Framework) | 22345 | 2026-03-22T17:34:39Z | Python | Infrastructure/tooling | 6 | 6 | 0 | 0 |
 | [andymik90/aperant](https://github.com/AndyMik90/Aperant) | 14005 | 2026-03-23T19:47:59Z | TypeScript | Infrastructure/tooling | 7 | 15 | 7 | 7 |
@@ -126,4 +127,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sujithpvarghese/bedrock-full-reconciliation](https://github.com/sujithpvarghese/bedrock-full-reconciliation) | 0 | 2026-03-27T19:40:31Z | TypeScript | Framework | 12 | 11 | 12 | 12 |
 | [nibir1/vaultsim](https://github.com/Nibir1/VaultSim) | 0 | 2026-03-26T07:05:03Z | Python | Infrastructure/tooling | 2 | 6 | 0 | 0 |
 | [adammes/voyanode](https://github.com/AdamMes/voyanode) | 0 | 2026-03-25T19:51:24Z | Python | Infrastructure/tooling | 0 | 0 | 0 | 0 |
-| [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | unknown | 2026-03-26T00:07:37Z | Python | Unknown | 0 | 0 | 0 | 0 |

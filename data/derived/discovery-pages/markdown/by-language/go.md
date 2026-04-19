@@ -1,6 +1,6 @@
 # Go
 
-Generated at: `2026-04-19T14:03:58.882676+00:00`
+Generated at: `2026-04-19T14:05:15.182094+00:00`
 
 ## Active filters
 
@@ -38,7 +38,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [databus23/helm-diff](https://github.com/databus23/helm-diff) | 3404 | 2026-04-19T00:05:20Z | Go | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [skenetechnologies/skene](https://github.com/SkeneTechnologies/skene) | 291 | 2026-04-18T15:18:21Z | Go | CLI | 7 | 10 | 0 | 0 |
 | [microsoft/typescript-go](https://github.com/microsoft/typescript-go) | 24823 | 2026-04-18T06:26:20Z | Go | Infrastructure/tooling | 2 | 24 | 2 | 2 |
-| [QuantumNous/new-api](https://github.com/QuantumNous/new-api) | unknown | 2026-04-18T06:22:55Z | Go | Infrastructure/tooling | 10 | 19 | 10 | 10 |
+| [quantumnous/new-api](https://github.com/QuantumNous/new-api) | 27617 | 2026-04-18T06:22:55Z | Go | Infrastructure/tooling | 10 | 19 | 10 | 10 |
 | [kubernetes/enhancements](https://github.com/kubernetes/enhancements) | 3866 | 2026-04-17T22:46:48Z | Go | Infrastructure/tooling | 4 | 0 | 4 | 4 |
 | [danielmiessler/fabric](https://github.com/danielmiessler/Fabric) | 40714 | 2026-04-17T22:42:33Z | Go | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [kubernetes-sigs/kustomize](https://github.com/kubernetes-sigs/kustomize) | 12022 | 2026-04-17T22:42:22Z | Go | CLI | 2 | 5 | 0 | 0 |
@@ -97,6 +97,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) | 41709 | 2026-04-16T16:00:36Z | Go | CLI | 12 | 9 | 12 | 12 |
 | [danielmiessler/fabric](https://github.com/danielmiessler/Fabric) | 40714 | 2026-04-17T22:42:33Z | Go | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 | [1panel-dev/1panel](https://github.com/1Panel-dev/1Panel) | 35035 | 2026-04-17T08:36:19Z | Go | Infrastructure/tooling | 20 | 15 | 20 | 20 |
+| [quantumnous/new-api](https://github.com/QuantumNous/new-api) | 27617 | 2026-04-18T06:22:55Z | Go | Infrastructure/tooling | 10 | 19 | 10 | 10 |
 | [router-for-me/cliproxyapi](https://github.com/router-for-me/CLIProxyAPI) | 27212 | 2026-04-19T03:46:22Z | Go | CLI | 10 | 9 | 10 | 10 |
 | [microsoft/typescript-go](https://github.com/microsoft/typescript-go) | 24823 | 2026-04-18T06:26:20Z | Go | Infrastructure/tooling | 2 | 24 | 2 | 2 |
 | [charmbracelet/gum](https://github.com/charmbracelet/gum) | 23398 | 2026-04-13T09:16:41Z | Go | Infrastructure/tooling | 8 | 6 | 8 | 8 |
@@ -154,4 +155,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [jonislutheran87/weclaw](https://github.com/jonislutheran87/weclaw) | 0 | 2026-04-19T12:37:21Z | Go | CLI | 0 | 0 | 0 | 0 |
 | [abraxas-365/claudio-screenshot](https://github.com/Abraxas-365/claudio-screenshot) | 0 | 2026-04-11T21:36:08Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [ethpandaops/xatu-cbt](https://github.com/ethpandaops/xatu-cbt) | 0 | 2026-04-07T00:59:51Z | Go | Infrastructure/tooling | 5 | 8 | 5 | 5 |
-| [QuantumNous/new-api](https://github.com/QuantumNous/new-api) | unknown | 2026-04-18T06:22:55Z | Go | Infrastructure/tooling | 10 | 19 | 10 | 10 |

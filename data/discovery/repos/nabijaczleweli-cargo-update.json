@@ -58,14 +58,18 @@
       "size": 901
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:04:23.763479+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "A cargo subcommand for checking and applying updates to installed executables",
+    "fork": false,
     "full_name": "nabijaczleweli/cargo-update",
     "html_url": "https://github.com/nabijaczleweli/cargo-update",
     "language": "Rust",
     "pushed_at": "2026-04-06T14:46:16Z",
+    "stargazers_count": 1513,
     "topics": [],
     "updated_at": "2026-04-19T01:42:05Z"
   },

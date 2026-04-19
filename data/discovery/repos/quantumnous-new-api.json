@@ -537,14 +537,18 @@
       "size": 2986
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:04:25.214237+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. \ud83c\udf65",
-    "full_name": "QuantumNous/new-api",
+    "fork": false,
+    "full_name": "quantumnous/new-api",
     "html_url": "https://github.com/QuantumNous/new-api",
     "language": "Go",
     "pushed_at": "2026-04-18T06:22:55Z",
+    "stargazers_count": 27617,
     "topics": [
       "ai-gateway",
       "claude",
@@ -554,7 +558,7 @@
       "openai",
       "rerank"
     ],
-    "updated_at": "2026-04-19T02:43:41Z"
+    "updated_at": "2026-04-19T13:47:40Z"
   },
   "repo_links": [
     {

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1080,
-    "concepts": 310,
-    "observations": 312,
-    "repos": 48,
-    "terms": 382
+    "components": 1561,
+    "concepts": 335,
+    "observations": 337,
+    "repos": 50,
+    "terms": 407
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "generated_at": "2026-04-19T14:05:15.182094+00:00",
   "repo_ids": [
     "actions/runner-images",
     "ahmetb/kubectx",
@@ -36,6 +36,7 @@
     "langchain-ai/deepagents",
     "langchain-ai/langchainjs",
     "langchain-ai/langgraph",
+    "lobehub/lobehub",
     "mem0ai/mem0",
     "metabase/metabase",
     "moby/moby",
@@ -51,6 +52,7 @@
     "px4/px4-autopilot",
     "qwenlm/qwen-code",
     "qwibitai/nanoclaw",
+    "recharts/recharts",
     "router-for-me/cliproxyapi",
     "ryoppippi/ccusage",
     "sgl-project/sglang",

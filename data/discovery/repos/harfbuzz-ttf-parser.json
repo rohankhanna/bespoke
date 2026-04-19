@@ -77,6 +77,7 @@
       "size": 1469
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:04:51.041042+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -87,14 +88,14 @@
     "html_url": "https://github.com/harfbuzz/ttf-parser",
     "language": "Rust",
     "pushed_at": "2025-11-22T11:57:15Z",
-    "stargazers_count": 760,
+    "stargazers_count": 761,
     "topics": [
       "opentype",
       "otf",
       "truetype",
       "ttf"
     ],
-    "updated_at": "2026-04-04T18:45:31Z"
+    "updated_at": "2026-04-19T05:10:49Z"
   },
   "repo_links": [
     {

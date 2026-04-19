@@ -10,7 +10,7 @@
   "filters": {
     "language_bucket": "go"
   },
-  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "generated_at": "2026-04-19T14:05:15.182094+00:00",
   "repo_ids": [
     "1panel-dev/1panel",
     "abraxas-365/claudio",
@@ -68,7 +68,7 @@
     "petmal/mindtrial",
     "phiat/claude-esp",
     "prehisle/relay-pulse",
-    "QuantumNous/new-api",
+    "quantumnous/new-api",
     "router-for-me/cliproxyapi",
     "serpro69/capy",
     "skenetechnologies/skene",

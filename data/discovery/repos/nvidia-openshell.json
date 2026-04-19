@@ -232,16 +232,20 @@
       "size": 2719
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:04:23.311788+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
-    "full_name": "NVIDIA/OpenShell",
+    "fork": false,
+    "full_name": "nvidia/openshell",
     "html_url": "https://github.com/NVIDIA/OpenShell",
     "language": "Rust",
     "pushed_at": "2026-04-18T03:07:41Z",
+    "stargazers_count": 5094,
     "topics": [],
-    "updated_at": "2026-04-19T01:32:26Z"
+    "updated_at": "2026-04-19T13:37:21Z"
   },
   "repo_links": [
     {

@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10,000 to 99,999 stars · TypeScript
 
-Generated at: `2026-04-19T14:03:58.882676+00:00`
+Generated at: `2026-04-19T14:05:15.182094+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 11
-- terms: 53
-- components: 245
-- concepts: 35
-- observations: 35
+- repos: 13
+- terms: 78
+- components: 726
+- concepts: 60
+- observations: 60
 
 ## Static behavior
 
@@ -28,6 +28,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [qwenlm/qwen-code](https://github.com/QwenLM/qwen-code) | 23535 | 2026-04-19T14:02:51Z | TypeScript | CLI | 7 | 63 | 7 | 7 |
 | [withastro/astro](https://github.com/withastro/astro) | 58578 | 2026-04-19T14:02:13Z | TypeScript | Infrastructure/tooling | 7 | 37 | 0 | 0 |
+| [lobehub/lobehub](https://github.com/lobehub/lobehub) | 75347 | 2026-04-19T13:53:24Z | TypeScript | Infrastructure/tooling | 13 | 368 | 13 | 13 |
+| [recharts/recharts](https://github.com/recharts/recharts) | 27013 | 2026-04-19T13:50:14Z | TypeScript | Infrastructure/tooling | 12 | 113 | 12 | 12 |
 | [nvidia/nemoclaw](https://github.com/NVIDIA/NemoClaw) | 19462 | 2026-04-19T13:49:48Z | TypeScript | Infrastructure/tooling | 6 | 29 | 6 | 6 |
 | [qwibitai/nanoclaw](https://github.com/qwibitai/nanoclaw) | 27520 | 2026-04-19T12:48:54Z | TypeScript | Infrastructure/tooling | 7 | 20 | 7 | 7 |
 | [badlogic/pi-mono](https://github.com/badlogic/pi-mono) | 37319 | 2026-04-19T12:46:14Z | TypeScript | CLI | 5 | 17 | 5 | 5 |
@@ -43,9 +45,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [garrytan/gstack](https://github.com/garrytan/gstack) | 77075 | 2026-04-19T11:21:38Z | TypeScript | Infrastructure/tooling | 5 | 12 | 0 | 0 |
+| [lobehub/lobehub](https://github.com/lobehub/lobehub) | 75347 | 2026-04-19T13:53:24Z | TypeScript | Infrastructure/tooling | 13 | 368 | 13 | 13 |
 | [withastro/astro](https://github.com/withastro/astro) | 58578 | 2026-04-19T14:02:13Z | TypeScript | Infrastructure/tooling | 7 | 37 | 0 | 0 |
 | [badlogic/pi-mono](https://github.com/badlogic/pi-mono) | 37319 | 2026-04-19T12:46:14Z | TypeScript | CLI | 5 | 17 | 5 | 5 |
 | [qwibitai/nanoclaw](https://github.com/qwibitai/nanoclaw) | 27520 | 2026-04-19T12:48:54Z | TypeScript | Infrastructure/tooling | 7 | 20 | 7 | 7 |
+| [recharts/recharts](https://github.com/recharts/recharts) | 27013 | 2026-04-19T13:50:14Z | TypeScript | Infrastructure/tooling | 12 | 113 | 12 | 12 |
 | [qwenlm/qwen-code](https://github.com/QwenLM/qwen-code) | 23535 | 2026-04-19T14:02:51Z | TypeScript | CLI | 7 | 63 | 7 | 7 |
 | [nvidia/nemoclaw](https://github.com/NVIDIA/NemoClaw) | 19462 | 2026-04-19T13:49:48Z | TypeScript | Infrastructure/tooling | 6 | 29 | 6 | 6 |
 | [langchain-ai/langchainjs](https://github.com/langchain-ai/langchainjs) | 17519 | 2026-04-19T09:42:10Z | TypeScript | Infrastructure/tooling | 7 | 24 | 7 | 7 |

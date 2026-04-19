@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago
 
-Generated at: `2026-04-19T14:03:58.882676+00:00`
+Generated at: `2026-04-19T14:05:15.182094+00:00`
 
 ## Active filters
 
@@ -35,8 +35,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [withastro/compiler](https://github.com/withastro/compiler) | 646 | 2026-03-16T14:49:05Z | Go | Infrastructure/tooling | 6 | 20 | 6 | 6 |
 | [charmbracelet/glamour](https://github.com/charmbracelet/glamour) | 3420 | 2026-03-16T09:03:18Z | Go | CLI | 8 | 9 | 9 | 9 |
 | [haleclipse/ccometixline](https://github.com/Haleclipse/CCometixLine) | 2713 | 2026-03-14T18:03:04Z | Rust | Infrastructure/tooling | 1 | 9 | 1 | 1 |
-| [LuaLanes/lanes](https://github.com/LuaLanes/lanes) | 530 | 2026-03-12T10:21:59Z | C/C++ | Library | 0 | 0 | 0 | 0 |
-| [coaidev/coai](https://github.com/coaidev/coai) | unknown | 2026-03-12T10:00:31Z | TypeScript | Infrastructure/tooling | 14 | 17 | 14 | 14 |
+| [lualanes/lanes](https://github.com/LuaLanes/lanes) | 530 | 2026-03-12T10:21:59Z | C/C++ | Library | 0 | 0 | 0 | 0 |
+| [coaidev/coai](https://github.com/coaidev/coai) | 9086 | 2026-03-12T10:00:31Z | TypeScript | Infrastructure/tooling | 14 | 17 | 14 | 14 |
 | [talieisin/britfix](https://github.com/Talieisin/britfix) | 14 | 2026-03-12T08:25:00Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [knownsec/404starlink](https://github.com/knownsec/404StarLink) | 10564 | 2026-03-11T08:04:40Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [flinedev/recall](https://github.com/FlineDev/Recall) | 8 | 2026-03-10T20:36:02Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -64,7 +64,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [orogene/orogene](https://github.com/orogene/orogene) | 1542 | 2026-02-26T03:53:25Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [cowboy8625/rusty-rain](https://github.com/cowboy8625/rusty-rain) | 445 | 2026-02-26T02:14:16Z | Rust | CLI | 11 | 6 | 11 | 11 |
 | [nulone/claude-rules-doctor](https://github.com/nulone/claude-rules-doctor) | 11 | 2026-02-25T02:41:48Z | TypeScript | CLI | 0 | 7 | 0 | 0 |
-| [abduznik/Git-Alchemist](https://github.com/abduznik/Git-Alchemist) | 21 | 2026-02-24T07:58:47Z | Python | CLI | 10 | 5 | 10 | 10 |
+| [abduznik/git-alchemist](https://github.com/abduznik/Git-Alchemist) | 21 | 2026-02-24T07:58:47Z | Python | CLI | 10 | 5 | 10 | 10 |
 | [peergos/nabu](https://github.com/Peergos/nabu) | 104 | 2026-02-23T21:59:18Z | Java | Infrastructure/tooling | 1 | 2 | 0 | 0 |
 | [kamranahmedse/claude-run](https://github.com/kamranahmedse/claude-run) | 586 | 2026-02-23T19:14:04Z | TypeScript | Web app | 0 | 24 | 0 | 0 |
 | [dagger/container-use](https://github.com/dagger/container-use) | 3730 | 2026-02-23T12:37:47Z | Go | Infrastructure/tooling | 5 | 2 | 0 | 0 |
@@ -87,6 +87,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [vercel/satori](https://github.com/vercel/satori) | 13294 | 2026-03-20T06:56:49Z | TypeScript | Infrastructure/tooling | 1 | 39 | 0 | 0 |
 | [knownsec/404starlink](https://github.com/knownsec/404StarLink) | 10564 | 2026-03-11T08:04:40Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [humanlayer/humanlayer](https://github.com/humanlayer/humanlayer) | 10485 | 2026-03-07T22:34:40Z | TypeScript | Infrastructure/tooling | 7 | 17 | 0 | 0 |
+| [coaidev/coai](https://github.com/coaidev/coai) | 9086 | 2026-03-12T10:00:31Z | TypeScript | Infrastructure/tooling | 14 | 17 | 14 | 14 |
 | [automazeio/ccpm](https://github.com/automazeio/ccpm) | 7996 | 2026-03-18T12:15:24Z | Shell | Unknown | 4 | 0 | 0 | 0 |
 | [dagger/container-use](https://github.com/dagger/container-use) | 3730 | 2026-02-23T12:37:47Z | Go | Infrastructure/tooling | 5 | 2 | 0 | 0 |
 | [charmbracelet/glamour](https://github.com/charmbracelet/glamour) | 3420 | 2026-03-16T09:03:18Z | Go | CLI | 8 | 9 | 9 | 9 |
@@ -103,7 +104,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lobehub/lobe-tts](https://github.com/lobehub/lobe-tts) | 784 | 2026-03-02T14:12:18Z | TypeScript | Infrastructure/tooling | 6 | 52 | 0 | 0 |
 | [withastro/compiler](https://github.com/withastro/compiler) | 646 | 2026-03-16T14:49:05Z | Go | Infrastructure/tooling | 6 | 20 | 6 | 6 |
 | [kamranahmedse/claude-run](https://github.com/kamranahmedse/claude-run) | 586 | 2026-02-23T19:14:04Z | TypeScript | Web app | 0 | 24 | 0 | 0 |
-| [LuaLanes/lanes](https://github.com/LuaLanes/lanes) | 530 | 2026-03-12T10:21:59Z | C/C++ | Library | 0 | 0 | 0 | 0 |
+| [lualanes/lanes](https://github.com/LuaLanes/lanes) | 530 | 2026-03-12T10:21:59Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [cowboy8625/rusty-rain](https://github.com/cowboy8625/rusty-rain) | 445 | 2026-02-26T02:14:16Z | Rust | CLI | 11 | 6 | 11 | 11 |
 | [unicode-rs/unicode-width](https://github.com/unicode-rs/unicode-width) | 298 | 2026-02-19T16:40:05Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [sudocode-ai/sudocode](https://github.com/sudocode-ai/sudocode) | 272 | 2026-03-18T23:20:38Z | TypeScript | CLI | 4 | 6 | 0 | 0 |
@@ -118,7 +119,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ctoth/claudio](https://github.com/ctoth/claudio) | 82 | 2026-03-17T00:26:58Z | Go | CLI | 5 | 5 | 0 | 0 |
 | [klaudworks/ralph-meets-rex](https://github.com/klaudworks/ralph-meets-rex) | 79 | 2026-03-17T21:05:11Z | TypeScript | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [Aedelon/claude-code-blueprint](https://github.com/Aedelon/claude-code-blueprint) | 78 | 2026-03-04T16:08:44Z | Shell | Unknown | 0 | 0 | 0 | 0 |
-| [abduznik/Git-Alchemist](https://github.com/abduznik/Git-Alchemist) | 21 | 2026-02-24T07:58:47Z | Python | CLI | 10 | 5 | 10 | 10 |
+| [abduznik/git-alchemist](https://github.com/abduznik/Git-Alchemist) | 21 | 2026-02-24T07:58:47Z | Python | CLI | 10 | 5 | 10 | 10 |
 | [talieisin/britfix](https://github.com/Talieisin/britfix) | 14 | 2026-03-12T08:25:00Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [nulone/claude-rules-doctor](https://github.com/nulone/claude-rules-doctor) | 11 | 2026-02-25T02:41:48Z | TypeScript | CLI | 0 | 7 | 0 | 0 |
 | [jawwadfirdousi/agent-skills](https://github.com/jawwadfirdousi/agent-skills) | 10 | 2026-03-08T19:42:23Z | Shell | Infrastructure/tooling | 1 | 1 | 0 | 0 |
@@ -130,4 +131,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [musicman3/cruder](https://github.com/musicman3/Cruder) | 0 | 2026-03-19T17:19:23Z | Other | Unknown | 9 | 0 | 9 | 9 |
 | [musicman3/r2-d2](https://github.com/musicman3/r2-d2) | 0 | 2026-03-17T15:59:22Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [mjvolk3/dendron-template](https://github.com/Mjvolk3/Dendron-Template) | 0 | 2026-02-20T15:48:17Z | Other | Infrastructure/tooling | 1 | 7 | 1 | 1 |
-| [coaidev/coai](https://github.com/coaidev/coai) | unknown | 2026-03-12T10:00:31Z | TypeScript | Infrastructure/tooling | 14 | 17 | 14 | 14 |

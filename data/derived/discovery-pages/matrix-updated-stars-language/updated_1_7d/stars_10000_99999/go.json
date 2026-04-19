@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 64,
-    "concepts": 50,
-    "observations": 50,
-    "repos": 6,
-    "terms": 52
+    "components": 83,
+    "concepts": 60,
+    "observations": 60,
+    "repos": 7,
+    "terms": 62
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "generated_at": "2026-04-19T14:05:15.182094+00:00",
   "repo_ids": [
     "1panel-dev/1panel",
     "charmbracelet/bubbletea",
     "charmbracelet/gum",
     "danielmiessler/fabric",
     "kubernetes-sigs/kustomize",
-    "microsoft/typescript-go"
+    "microsoft/typescript-go",
+    "quantumnous/new-api"
   ]
 }

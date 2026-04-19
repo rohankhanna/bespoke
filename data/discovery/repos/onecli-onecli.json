@@ -358,14 +358,18 @@
       "size": 358
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:04:24.750704+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Open-source credential vault, give your AI agents access to services without exposing keys.",
+    "fork": false,
     "full_name": "onecli/onecli",
     "html_url": "https://github.com/onecli/onecli",
     "language": "TypeScript",
     "pushed_at": "2026-04-16T14:45:39Z",
+    "stargazers_count": 1821,
     "topics": [
       "ai-agents",
       "cli",
@@ -380,7 +384,7 @@
       "security-tools",
       "vault"
     ],
-    "updated_at": "2026-04-19T02:40:16Z"
+    "updated_at": "2026-04-19T13:48:13Z"
   },
   "repo_links": [],
   "terms": [

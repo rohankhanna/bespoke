@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1 to 9 stars
 
-Generated at: `2026-04-19T14:03:58.882676+00:00`
+Generated at: `2026-04-19T14:05:15.182094+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -34,6 +34,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [floxym/financial-chat](https://github.com/Floxym/financial-chat) | 5 | 2026-04-19T13:20:11Z | Python | Infrastructure/tooling | 1 | 2 | 0 | 0 |
 | [floxym/financial-chat-finance-nlp-chatbots](https://github.com/Floxym/financial-chat-Finance-NLP-Chatbots) | 6 | 2026-04-19T13:19:53Z | Other | Infrastructure/tooling | 1 | 2 | 0 | 0 |
 | [saminiscool/twitter-ai-agent](https://github.com/Saminiscool/twitter-ai-agent) | 2 | 2026-04-19T13:16:17Z | TypeScript | CLI | 0 | 38 | 0 | 0 |
+| [tarikmanoar/tarikmanoar](https://github.com/tarikmanoar/tarikmanoar) | 8 | 2026-04-19T13:08:33Z | Other | Infrastructure/tooling | 6 | 9 | 7 | 7 |
 | [anojndr/grok-to-openai](https://github.com/anojndr/grok-to-openai) | 2 | 2026-04-19T12:57:02Z | JavaScript | Web app | 1 | 6 | 0 | 0 |
 | [graveyardsfocrdpktv/ethereum-mempool-bot](https://github.com/graveyardsfocrdpktv/Ethereum-mempool-bot) | 1 | 2026-04-19T12:43:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [gbrobro119-star/darksword-kexploit](https://github.com/gbrobro119-star/darksword-kexploit) | 1 | 2026-04-19T12:37:45Z | C/C++ | Unknown | 1 | 0 | 0 | 0 |
@@ -50,7 +51,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [serpro69/capy](https://github.com/serpro69/capy) | 4 | 2026-04-19T09:18:43Z | Go | Infrastructure/tooling | 12 | 8 | 12 | 12 |
 | [klodr/mercury-invoicing-mcp](https://github.com/klodr/mercury-invoicing-mcp) | 2 | 2026-04-19T08:42:02Z | TypeScript | Infrastructure/tooling | 3 | 22 | 0 | 0 |
 | [gauravrathod674/custom-chatbot](https://github.com/gauravRathod674/custom-chatbot) | 3 | 2026-04-19T08:39:25Z | JavaScript | Infrastructure/tooling | 1 | 20 | 0 | 0 |
-| [tarikmanoar/tarikmanoar](https://github.com/tarikmanoar/tarikmanoar) | 8 | 2026-04-19T07:24:28Z | Other | Infrastructure/tooling | 6 | 9 | 7 | 7 |
 | [joinwell52-ai/codeflow-pwa](https://github.com/joinwell52-AI/codeflow-pwa) | 1 | 2026-04-19T06:58:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [verkyyi/tokenman](https://github.com/verkyyi/tokenman) | 2 | 2026-04-19T06:57:48Z | Python | Infrastructure/tooling | 8 | 11 | 0 | 0 |
 | [neuroverseos/neuroverseos-governance](https://github.com/NeuroverseOS/Neuroverseos-governance) | 1 | 2026-04-18T22:21:38Z | TypeScript | Infrastructure/tooling | 0 | 12 | 0 | 0 |
@@ -63,7 +63,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [tarikmanoar/tarikmanoar](https://github.com/tarikmanoar/tarikmanoar) | 8 | 2026-04-19T07:24:28Z | Other | Infrastructure/tooling | 6 | 9 | 7 | 7 |
+| [tarikmanoar/tarikmanoar](https://github.com/tarikmanoar/tarikmanoar) | 8 | 2026-04-19T13:08:33Z | Other | Infrastructure/tooling | 6 | 9 | 7 | 7 |
 | [floxym/financial-chat-finance-nlp-chatbots](https://github.com/Floxym/financial-chat-Finance-NLP-Chatbots) | 6 | 2026-04-19T13:19:53Z | Other | Infrastructure/tooling | 1 | 2 | 0 | 0 |
 | [eikarna/hermes-rs](https://github.com/eikarna/hermes-rs) | 6 | 2026-04-19T09:37:31Z | Rust | Infrastructure/tooling | 2 | 5 | 0 | 0 |
 | [etanhey/brainlayer](https://github.com/EtanHey/brainlayer) | 6 | 2026-04-18T17:54:55Z | Python | Infrastructure/tooling | 2 | 4 | 0 | 0 |

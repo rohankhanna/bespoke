@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 187,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 13,
-    "terms": 45
+    "components": 188,
+    "concepts": 33,
+    "observations": 33,
+    "repos": 14,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "generated_at": "2026-04-19T14:05:15.182094+00:00",
   "repo_ids": [
     "asg017/sqlite-vec",
     "cisco-ai-defense/skill-scanner",
@@ -21,6 +21,7 @@
     "linebender/resvg",
     "lobehub/lobe-icons",
     "luarocks/luarocks",
+    "nabijaczleweli/cargo-update",
     "nvie/git-toolbelt",
     "opactorai/claudable",
     "skills-directory/skill-codex",

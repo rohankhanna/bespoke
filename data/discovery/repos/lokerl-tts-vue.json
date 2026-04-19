@@ -398,14 +398,18 @@
       "size": 1037
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:04:23.987765+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83c\udfa4 \u5fae\u8f6f\u8bed\u97f3\u5408\u6210\u5de5\u5177\uff0c\u4f7f\u7528 Electron + Vue + ElementPlus + Vite \u6784\u5efa\u3002",
-    "full_name": "LokerL/tts-vue",
+    "fork": false,
+    "full_name": "lokerl/tts-vue",
     "html_url": "https://github.com/LokerL/tts-vue",
     "language": "TypeScript",
     "pushed_at": "2025-12-06T02:52:44Z",
+    "stargazers_count": 6089,
     "topics": [
       "electron",
       "element-plus",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 162,
-    "concepts": 100,
-    "observations": 100,
-    "repos": 8,
-    "terms": 100
+    "components": 168,
+    "concepts": 107,
+    "observations": 107,
+    "repos": 9,
+    "terms": 107
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "generated_at": "2026-04-19T14:05:15.182094+00:00",
   "repo_ids": [
     "cedar-policy/cedar",
     "crate-ci/typos",
@@ -21,6 +21,7 @@
     "libp2p/rust-libp2p",
     "napi-rs/napi-rs",
     "napi-rs/node-rs",
+    "nvidia/openshell",
     "ruvnet/ruvector"
   ]
 }

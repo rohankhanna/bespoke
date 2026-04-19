@@ -1,6 +1,6 @@
 # C/C++
 
-Generated at: `2026-04-19T14:03:58.882676+00:00`
+Generated at: `2026-04-19T14:05:15.182094+00:00`
 
 ## Active filters
 
@@ -36,7 +36,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tmux/tmux](https://github.com/tmux/tmux) | 44678 | 2026-04-16T03:27:10Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [ggml-org/ggml](https://github.com/ggml-org/ggml) | 14470 | 2026-04-14T12:27:54Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [asg017/sqlite-vec](https://github.com/asg017/sqlite-vec) | 7451 | 2026-04-08T14:54:34Z | C/C++ | Infrastructure/tooling | 4 | 17 | 0 | 0 |
-| [LuaLanes/lanes](https://github.com/LuaLanes/lanes) | 530 | 2026-03-12T10:21:59Z | C/C++ | Library | 0 | 0 | 0 | 0 |
+| [lualanes/lanes](https://github.com/LuaLanes/lanes) | 530 | 2026-03-12T10:21:59Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [kyleneideck/backgroundmusic](https://github.com/kyleneideck/BackgroundMusic) | 18855 | 2026-02-22T06:03:50Z | C/C++ | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [stardot/b-em](https://github.com/stardot/b-em) | 132 | 2026-02-06T19:23:49Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [existentialaudio/blackhole](https://github.com/ExistentialAudio/BlackHole) | 18820 | 2025-12-19T07:50:39Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -67,7 +67,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [harfbuzz/harfbuzz](https://github.com/harfbuzz/harfbuzz) | 5561 | 2026-04-19T01:54:55Z | C/C++ | Infrastructure/tooling | 17 | 8 | 17 | 17 |
 | [asg017/sqlite-vss](https://github.com/asg017/sqlite-vss) | 1986 | 2024-05-05T20:00:16Z | C/C++ | Infrastructure/tooling | 7 | 18 | 7 | 7 |
 | [soramimi/guitar](https://github.com/soramimi/Guitar) | 1673 | 2026-04-19T13:23:50Z | C/C++ | CLI | 1 | 7 | 0 | 0 |
-| [LuaLanes/lanes](https://github.com/LuaLanes/lanes) | 530 | 2026-03-12T10:21:59Z | C/C++ | Library | 0 | 0 | 0 | 0 |
+| [lualanes/lanes](https://github.com/LuaLanes/lanes) | 530 | 2026-03-12T10:21:59Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [asg017/sqlite-lembed](https://github.com/asg017/sqlite-lembed) | 255 | 2024-11-24T06:10:43Z | C/C++ | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [stardot/b-em](https://github.com/stardot/b-em) | 132 | 2026-02-06T19:23:49Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [marciogranzotto/clawd-tank](https://github.com/marciogranzotto/clawd-tank) | 60 | 2026-04-17T13:36:43Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |

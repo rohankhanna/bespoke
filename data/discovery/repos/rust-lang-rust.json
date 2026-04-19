@@ -261,20 +261,24 @@
       "size": 1961
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:04:24.505587+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Empowering everyone to build reliable and efficient software.",
+    "fork": false,
     "full_name": "rust-lang/rust",
     "html_url": "https://github.com/rust-lang/rust",
     "language": "Rust",
-    "pushed_at": "2026-04-18T23:46:37Z",
+    "pushed_at": "2026-04-19T13:43:59Z",
+    "stargazers_count": 112127,
     "topics": [
       "compiler",
       "language",
       "rust"
     ],
-    "updated_at": "2026-04-19T02:30:20Z"
+    "updated_at": "2026-04-19T14:02:21Z"
   },
   "repo_links": [
     {

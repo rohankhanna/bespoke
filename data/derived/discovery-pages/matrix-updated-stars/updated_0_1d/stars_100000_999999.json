@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 371,
-    "concepts": 72,
-    "observations": 72,
-    "repos": 11,
-    "terms": 106
+    "components": 378,
+    "concepts": 78,
+    "observations": 78,
+    "repos": 12,
+    "terms": 112
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "generated_at": "2026-04-19T14:05:15.182094+00:00",
   "repo_ids": [
     "affaan-m/everything-claude-code",
     "denoland/deno",
@@ -23,6 +23,7 @@
     "nodejs/node",
     "nousresearch/hermes-agent",
     "ollama/ollama",
-    "openclaw/openclaw"
+    "openclaw/openclaw",
+    "rust-lang/rust"
   ]
 }

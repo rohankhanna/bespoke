@@ -628,14 +628,18 @@
       "size": 14415
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:04:22.113054+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": null,
+    "fork": false,
     "full_name": "buddingnewinsights/proxypal",
     "html_url": "https://github.com/buddingnewinsights/proxypal",
     "language": "TypeScript",
     "pushed_at": "2026-04-10T18:56:54Z",
+    "stargazers_count": 41,
     "topics": [],
     "updated_at": "2026-04-18T23:06:46Z"
   },

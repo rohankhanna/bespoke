@@ -1,6 +1,6 @@
 # 0 stars
 
-Generated at: `2026-04-19T14:03:58.882676+00:00`
+Generated at: `2026-04-19T14:05:15.182094+00:00`
 
 ## Active filters
 
@@ -92,7 +92,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/batch-claudemd-repo-creator](https://github.com/danielrosehill/Batch-ClaudeMD-Repo-Creator) | 0 | 2025-10-26T14:17:07Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 | [wesfloyd/avs-context-prompt](https://github.com/wesfloyd/avs-context-prompt) | 0 | 2025-04-09T19:13:31Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [mjvolk3/biocypher](https://github.com/Mjvolk3/biocypher) | 0 | 2024-07-25T20:44:53Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
-| [GarrettAlbright/Luacheck.novaextension](https://github.com/GarrettAlbright/Luacheck.novaextension) | 0 | 2023-03-22T08:40:45Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [garrettalbright/luacheck.novaextension](https://github.com/GarrettAlbright/Luacheck.novaextension) | 0 | 2023-03-22T08:40:45Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [burntsushi/linux](https://github.com/BurntSushi/linux) | 0 | 2022-12-16T15:13:06Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
@@ -169,5 +169,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [danielrosehill/batch-claudemd-repo-creator](https://github.com/danielrosehill/Batch-ClaudeMD-Repo-Creator) | 0 | 2025-10-26T14:17:07Z | Shell | Unknown | 3 | 0 | 3 | 3 |
 | [wesfloyd/avs-context-prompt](https://github.com/wesfloyd/avs-context-prompt) | 0 | 2025-04-09T19:13:31Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [mjvolk3/biocypher](https://github.com/Mjvolk3/biocypher) | 0 | 2024-07-25T20:44:53Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
-| [GarrettAlbright/Luacheck.novaextension](https://github.com/GarrettAlbright/Luacheck.novaextension) | 0 | 2023-03-22T08:40:45Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [garrettalbright/luacheck.novaextension](https://github.com/GarrettAlbright/Luacheck.novaextension) | 0 | 2023-03-22T08:40:45Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [burntsushi/linux](https://github.com/BurntSushi/linux) | 0 | 2022-12-16T15:13:06Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |

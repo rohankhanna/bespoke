@@ -558,14 +558,18 @@
       "size": 1648
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:04:23.547852+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "dev",
     "description": "Use VRM on Three.js",
+    "fork": false,
     "full_name": "pixiv/three-vrm",
     "html_url": "https://github.com/pixiv/three-vrm",
     "language": "TypeScript",
     "pushed_at": "2026-04-16T10:02:36Z",
+    "stargazers_count": 1875,
     "topics": [
       "3d",
       "avatar",
@@ -574,7 +578,7 @@
       "vrm",
       "webgl"
     ],
-    "updated_at": "2026-04-19T01:36:18Z"
+    "updated_at": "2026-04-19T09:49:49Z"
   },
   "repo_links": [
     {

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 465,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 16,
-    "terms": 76
+    "components": 511,
+    "concepts": 49,
+    "observations": 49,
+    "repos": 18,
+    "terms": 93
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "generated_at": "2026-04-19T14:05:15.182094+00:00",
   "repo_ids": [
     "ai-that-works/ai-that-works",
     "anthropics/claude-code-action",
@@ -25,7 +25,9 @@
     "matt1398/claude-devtools",
     "maxritter/pilot-shell",
     "microsoft/playwright-cli",
+    "onecli/onecli",
     "piebald-ai/tweakcc",
+    "pixiv/three-vrm",
     "sirmalloc/ccstatusline",
     "stripe/ai",
     "stripe/stripe-node",

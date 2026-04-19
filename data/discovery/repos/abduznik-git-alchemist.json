@@ -168,13 +168,14 @@
       "size": 2500
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:04:45.788111+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "Transform Git history: rewrite, clean, and optimize your repositories with ease.",
     "fork": false,
-    "full_name": "abduznik/Git-Alchemist",
+    "full_name": "abduznik/git-alchemist",
     "html_url": "https://github.com/abduznik/Git-Alchemist",
     "language": "Python",
     "pushed_at": "2026-02-24T07:58:47Z",

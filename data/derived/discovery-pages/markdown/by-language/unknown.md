@@ -1,6 +1,6 @@
 # Unknown
 
-Generated at: `2026-04-19T14:03:58.882676+00:00`
+Generated at: `2026-04-19T14:05:15.182094+00:00`
 
 ## Active filters
 
@@ -72,7 +72,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [agenmod/steamer-skill](https://github.com/agenmod/steamer-skill) | 1 | 2026-04-15T02:44:39Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [kubernetes/steering](https://github.com/kubernetes/steering) | 99 | 2026-04-14T21:16:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [flinedev/marketplace](https://github.com/FlineDev/Marketplace) | 2 | 2026-04-14T14:42:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [flinedev/plankit](https://github.com/FlineDev/PlanKit) | 10 | 2026-04-14T14:41:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [flinedev/plankit](https://github.com/FlineDev/PlanKit) | 11 | 2026-04-14T14:41:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [astro-han/karpathy-llm-wiki](https://github.com/Astro-Han/karpathy-llm-wiki) | 500 | 2026-04-13T01:39:31Z | Unknown | Docs/knowledge | 10 | 0 | 11 | 11 |
 | [alchaincyf/steve-jobs-skill](https://github.com/alchaincyf/steve-jobs-skill) | 758 | 2026-04-12T05:11:20Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [alchaincyf/naval-skill](https://github.com/alchaincyf/naval-skill) | 114 | 2026-04-12T05:11:15Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -114,7 +114,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [addyosmani/gemini-cli-tips](https://github.com/addyosmani/gemini-cli-tips) | 2327 | 2025-10-19T03:25:32Z | Unknown | CLI | 3 | 0 | 3 | 3 |
 | [yzyydev/agentic-coding-structure](https://github.com/yzyydev/agentic-coding-structure) | 35 | 2025-09-15T14:45:37Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [oneredoak/claude-code-workflows](https://github.com/OneRedOak/claude-code-workflows) | 3782 | 2025-09-14T07:33:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [tott/laravel-tall-claude-ai-configs](https://github.com/tott/laravel-tall-claude-ai-configs) | 39 | 2025-08-08T14:35:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [tott/laravel-tall-claude-ai-configs](https://github.com/tott/laravel-tall-claude-ai-configs) | 40 | 2025-08-08T14:35:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [chrisleyva/todo-slash-command](https://github.com/chrisleyva/todo-slash-command) | 27 | 2025-06-25T23:12:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [layr-labs/avs-vibe-developer-guide](https://github.com/Layr-Labs/avs-vibe-developer-guide) | 2 | 2025-04-22T19:19:06Z | Unknown | Library | 0 | 0 | 0 | 0 |
 | [wesfloyd/avs-context-prompt](https://github.com/wesfloyd/avs-context-prompt) | 0 | 2025-04-09T19:13:31Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -162,8 +162,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tony/claude-code-riper-5](https://github.com/tony/claude-code-riper-5) | 82 | 2026-02-08T00:20:22Z | Unknown | Unknown | 6 | 0 | 0 | 0 |
 | [alchaincyf/taleb-skill](https://github.com/alchaincyf/taleb-skill) | 65 | 2026-04-10T02:29:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [dredozubov/prd-generator](https://github.com/dredozubov/prd-generator) | 43 | 2026-01-14T10:29:46Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [tott/laravel-tall-claude-ai-configs](https://github.com/tott/laravel-tall-claude-ai-configs) | 40 | 2025-08-08T14:35:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [askroundtable/expert-skills](https://github.com/AskRoundtable/expert-skills) | 39 | 2026-04-09T13:53:39Z | Unknown | Model/data | 6 | 0 | 6 | 6 |
-| [tott/laravel-tall-claude-ai-configs](https://github.com/tott/laravel-tall-claude-ai-configs) | 39 | 2025-08-08T14:35:08Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [bl-ue/tweakcc-system-prompts](https://github.com/bl-ue/tweakcc-system-prompts) | 37 | 2025-11-23T18:05:33Z | Unknown | Unknown | 4 | 0 | 4 | 4 |
 | [yzyydev/agentic-coding-structure](https://github.com/yzyydev/agentic-coding-structure) | 35 | 2025-09-15T14:45:37Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [hashintel/awesome-hash](https://github.com/hashintel/awesome-hash) | 32 | 2023-09-14T06:03:31Z | Unknown | Infrastructure/tooling | 3 | 1 | 3 | 3 |
@@ -173,8 +173,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [panaversity/claude-code-agent-teams-exercises](https://github.com/panaversity/claude-code-agent-teams-exercises) | 22 | 2026-02-11T07:23:13Z | Unknown | Infrastructure/tooling | 1 | 2 | 0 | 0 |
 | [stephenschoettler/taches-oc-prompts](https://github.com/stephenschoettler/taches-oc-prompts) | 22 | 2026-01-14T04:58:38Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [onyx-dot-app/onyx_deep_research_bench](https://github.com/onyx-dot-app/onyx_deep_research_bench) | 17 | 2026-04-04T22:49:18Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [flinedev/plankit](https://github.com/FlineDev/PlanKit) | 11 | 2026-04-14T14:41:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ithiria894/awesome-claude-code-hooks](https://github.com/ithiria894/awesome-claude-code-hooks) | 11 | 2026-03-24T21:08:05Z | Unknown | Infrastructure/tooling | 7 | 1 | 7 | 7 |
-| [flinedev/plankit](https://github.com/FlineDev/PlanKit) | 10 | 2026-04-14T14:41:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [cloudrepo-io/founder-os](https://github.com/cloudrepo-io/founder-os) | 10 | 2026-02-05T21:57:57Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [langchain-ai/.github](https://github.com/langchain-ai/.github) | 7 | 2026-03-27T22:05:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [vllm-project/media-kit](https://github.com/vllm-project/media-kit) | 7 | 2026-01-15T16:13:54Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
