@@ -19,6 +19,18 @@
       "source_repo": "addyosmani/gemini-cli-tips",
       "status": "candidate-context",
       "text": "**This guide covers \\~30 pro-tips for effectively using Gemini CLI for agentic coding**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "status": "candidate-context",
+      "text": "Web/desktop UI for Gemini CLI/Qwen Code.  Manage projects, switch between tools, search across past conversations, and manage MCP servers, all from one multilingual interface, locally or remotely."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "status": "candidate-context",
+      "text": "<div>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "addyosmani/gemini-cli-tips",
       "status": "candidate",
       "text": "**This guide covers \\~30 pro-tips for effectively using Gemini CLI for agentic coding**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "status": "candidate",
+      "text": "<div>"
     }
   ],
   "candidate_related_terms": [],
@@ -52,11 +70,17 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "addyosmani/gemini-cli-tips"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "Piebald-AI/gemini-cli-desktop"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "lexical_providers": [
     "datamuse"
   ],

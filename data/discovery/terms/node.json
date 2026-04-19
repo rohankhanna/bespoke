@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -11,6 +11,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "nodejs/node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodejs/admin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodejs/Release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodejs/TSC"
     }
   ],
   "term": "node"

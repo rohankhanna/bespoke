@@ -43,6 +43,18 @@
       "source_repo": "ruvnet/ruflo",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "winfunc/opcode",
+      "status": "candidate-context",
+      "text": "A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "winfunc/opcode",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ruvnet/ruflo",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "winfunc/opcode",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "lexical_providers": [
     "datamuse"
   ],

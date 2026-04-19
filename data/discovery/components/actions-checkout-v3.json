@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -437,6 +437,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/spellcheck.yml",
       "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "Layr-Labs/eigenlayer-middleware"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backup.yml",
+      "source_repo": "simonw/simonwillisonblog-backup"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dirs-dev/directories-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docbuild.yml",
+      "source_repo": "aws-samples/anthropic-on-aws"
     }
   ]
 }

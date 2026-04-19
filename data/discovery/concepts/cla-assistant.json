@@ -7,9 +7,65 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/crush",
+      "status": "candidate-context",
+      "text": "Glamourous agentic coding for all \ud83d\udc98"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/crush",
+      "status": "candidate-context",
+      "text": "\"CLA Assistant\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/crush",
+      "status": "candidate",
+      "text": "\"CLA Assistant\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17404,
+      "status": "candidate",
+      "text": "agency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17364,
+      "status": "candidate",
+      "text": "cia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "adjunct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "adjuvant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "commis"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "CLA Assistant",
   "concept_id": "cla-assistant",
@@ -26,12 +82,20 @@
       "observed_at": "2026-04-18T11:24:14.688152+00:00",
       "source_file": ".github/workflows/cla.yml",
       "source_repo": "getzep/graphiti"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "charmbracelet/crush"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

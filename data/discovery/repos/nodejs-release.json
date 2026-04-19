@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nodejs/Release",
+      "target": "nodejs/citgm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodejs/Release",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodejs/Release",
+      "target": "nodejs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T17:44:16.852338+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13633
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Node.js Release Working Group",
+    "fork": false,
+    "full_name": "nodejs/Release",
+    "html_url": "https://github.com/nodejs/Release",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-15T11:13:13Z",
+    "stargazers_count": 4309,
+    "topics": [
+      "node",
+      "nodejs"
+    ],
+    "updated_at": "2026-04-15T17:13:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nodejs/citgm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "| Release | Status | Codename |Initial Release | Active LTS Start | Maintenance Start | End-of-life |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node"
+    },
+    {
+      "context_snippet": "| Release | Status | Codename |Initial Release | Active LTS Start | Maintenance Start | End-of-life |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    }
+  ]
+}

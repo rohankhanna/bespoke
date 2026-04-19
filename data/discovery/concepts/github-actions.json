@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "github-actions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "status": "candidate-context",
+      "text": "A GitHub Action invoking the Gemini CLI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "status": "candidate-context",
+      "text": "`run-gemini-cli` is a GitHub Action that integrates [Gemini] into your development workflow via the [Gemini CLI]. It acts both as an autonomous agent for critical routine coding tasks, and an on-demand collaborator you can quickly delegate work to."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "status": "candidate",
+      "text": "`run-gemini-cli` is a GitHub Action that integrates [Gemini] into your development workflow via the [Gemini CLI]. It acts both as an autonomous agent for critical routine coding tasks, and an on-demand collaborator you can quickly delegate work to."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "github-actions",
+  "concept_id": "github-actions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "google-github-actions/run-gemini-cli"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "github-actions",
+      "sense_id": "github-actions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

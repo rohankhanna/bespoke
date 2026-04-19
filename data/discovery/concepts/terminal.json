@@ -43,6 +43,18 @@
       "source_repo": "almogdepaz/wolfpack",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/almogdepaz/wolfpack/actions/workflows/test.yml/badge.svg)](https://github.com/almogdepaz/wolfpack/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gyscos/cursive",
+      "status": "candidate-context",
+      "text": "A Text User Interface library for the Rust programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gyscos/cursive",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/v/cursive.svg)](https://crates.io/crates/cursive)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "almogdepaz/wolfpack",
       "status": "candidate",
       "text": "[![CI](https://github.com/almogdepaz/wolfpack/actions/workflows/test.yml/badge.svg)](https://github.com/almogdepaz/wolfpack/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gyscos/cursive",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/cursive.svg)](https://crates.io/crates/cursive)"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +190,17 @@
       "observed_at": "2026-04-19T17:36:09.281008+00:00",
       "source_file": null,
       "source_repo": "almogdepaz/wolfpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "gyscos/cursive"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "lexical_providers": [
     "datamuse"
   ],

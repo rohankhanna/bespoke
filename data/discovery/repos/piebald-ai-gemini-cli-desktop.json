@@ -1,0 +1,576 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@just",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "awalsh128/cache-apt-pkgs-action@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "Infisical/secrets-action@v1.0.15",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "google-github-actions/auth@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "taiki-e/install-action@just",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "awalsh128/cache-apt-pkgs-action@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "kamaranl/add-signtool-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "piebald-ai/muda",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "taiki-e/install-action@just",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "awalsh128/cache-apt-pkgs-action@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "Infisical/secrets-action@v1.0.15",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "google-github-actions/auth@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "taiki-e/install-action@just",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "awalsh128/cache-apt-pkgs-action@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "kamaranl/add-signtool-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "Release & Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "agent-client-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "agentic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "desktop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "desktop-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "gemini-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "gemini-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "gemini-cli-ui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "gemini-cli-web",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "gemini-desktop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "gemini-ui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "multilingual",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "qwen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "qwen-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "qwen3-coder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "tauri",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "target": "webapp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T17:43:43.209771+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6176
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 214
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1228
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 10141
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Web/desktop UI for Gemini CLI/Qwen Code.  Manage projects, switch between tools, search across past conversations, and manage MCP servers, all from one multilingual interface, locally or remotely.",
+    "fork": false,
+    "full_name": "Piebald-AI/gemini-cli-desktop",
+    "html_url": "https://github.com/Piebald-AI/gemini-cli-desktop",
+    "language": "TypeScript",
+    "pushed_at": "2026-03-08T15:18:16Z",
+    "stargazers_count": 407,
+    "topics": [
+      "agent-client-protocol",
+      "agentic",
+      "cross-platform",
+      "desktop",
+      "desktop-app",
+      "development",
+      "gemini",
+      "gemini-api",
+      "gemini-cli",
+      "gemini-cli-ui",
+      "gemini-cli-web",
+      "gemini-desktop",
+      "gemini-ui",
+      "multilingual",
+      "qwen",
+      "qwen-code",
+      "qwen3-coder",
+      "tauri",
+      "web",
+      "webapp"
+    ],
+    "updated_at": "2026-04-19T17:25:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "piebald-ai/muda",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release & Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release & Publish"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-client-protocol"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "desktop"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "desktop-app"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "development"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini-api"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini-cli"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini-cli-ui"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini-cli-web"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini-desktop"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini-ui"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multilingual"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qwen"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qwen-code"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qwen3-coder"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tauri"
+    },
+    {
+      "context_snippet": "<div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webapp"
+    }
+  ]
+}

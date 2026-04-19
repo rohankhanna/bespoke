@@ -1,0 +1,12 @@
+{
+  "component": "mamba-org/setup-micromamba@d7c9bd84e824b79d2af72a2d4196c7f4300d3476",
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/package-checks.yml",
+      "source_repo": "pandas-dev/pandas"
+    }
+  ]
+}

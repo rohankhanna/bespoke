@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udce6 Find and install kubectl plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"assets/logo/horizontal/color/krew-horizontal-color.png\" width=\"480\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"assets/logo/horizontal/color/krew-horizontal-color.png\" width=\"480\""
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kubectl-plugins",
+      "sense_id": "kubectl-plugins#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "kubectl-plugins",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "kubectl-plugins",
+  "observation_id": "b0feba619428a35d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-19T17:42:30.117329+00:00",
+  "observed_text": "kubectl-plugins",
+  "source_context_snippet": "<img src=\"assets/logo/horizontal/color/krew-horizontal-color.png\" width=\"480\"",
+  "source_file": null,
+  "source_repo": "kubernetes-sigs/krew",
+  "source_repo_description": "\ud83d\udce6 Find and install kubectl plugins"
+}

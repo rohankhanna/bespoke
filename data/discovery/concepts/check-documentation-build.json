@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check documentation build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python/mypy",
+      "status": "candidate-context",
+      "text": "Optional static typing for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python/mypy",
+      "status": "candidate-context",
+      "text": "Check documentation build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python/mypy",
+      "status": "candidate",
+      "text": "Check documentation build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18721,
+      "status": "candidate",
+      "text": "library"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18721,
+      "status": "candidate",
+      "text": "paper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18721,
+      "status": "candidate",
+      "text": "supporting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18570,
+      "status": "candidate",
+      "text": "document"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18570,
+      "status": "candidate",
+      "text": "vouch"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check documentation build",
+  "concept_id": "check-documentation-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "python/mypy"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check documentation build",
+      "sense_id": "check-documentation-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

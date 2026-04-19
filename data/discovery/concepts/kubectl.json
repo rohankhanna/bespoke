@@ -7,8 +7,64 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ahmetb/kubectl-aliases",
+      "status": "candidate-context",
+      "text": "Programmatically generated handy kubectl aliases."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahmetb/kubectl-aliases",
+      "status": "candidate-context",
+      "text": "This repository contains [a script](generate_aliases.py) to generate hundreds of"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonmosco/kube-ps1",
+      "status": "candidate-context",
+      "text": "Kubernetes prompt info for bash and zsh"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonmosco/kube-ps1",
+      "status": "candidate-context",
+      "text": "![GitHub Release](https://img.shields.io/github/v/release/jonmosco/kube-ps1)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/krew",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 Find and install kubectl plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/krew",
+      "status": "candidate-context",
+      "text": "<img src=\"assets/logo/horizontal/color/krew-horizontal-color.png\" width=\"480\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahmetb/kubectl-aliases",
+      "status": "candidate",
+      "text": "This repository contains [a script](generate_aliases.py) to generate hundreds of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonmosco/kube-ps1",
+      "status": "candidate",
+      "text": "![GitHub Release](https://img.shields.io/github/v/release/jonmosco/kube-ps1)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/krew",
+      "status": "candidate",
+      "text": "<img src=\"assets/logo/horizontal/color/krew-horizontal-color.png\" width=\"480\""
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "kubectl",
@@ -20,12 +76,32 @@
       "observed_at": "2026-04-18T12:06:06.216548+00:00",
       "source_file": null,
       "source_repo": "ahmetb/kubectx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "ahmetb/kubectl-aliases"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "jonmosco/kube-ps1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/krew"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

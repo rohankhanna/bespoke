@@ -1,0 +1,12 @@
+{
+  "component": "pandas-dev/github-doc-previewer@7a1ea7e96d1a24578ec35eedd4256a7d80c3fef8",
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/comment-commands.yml",
+      "source_repo": "pandas-dev/pandas"
+    }
+  ]
+}

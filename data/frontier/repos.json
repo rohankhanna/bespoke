@@ -1,266 +1,6 @@
 {
-  "generated_at": "2026-04-19T17:36:09.281008+00:00",
+  "generated_at": "2026-04-19T17:42:30.117329+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "brombal/just-install",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "casey/janus",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "charmbracelet/crush",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "isaacphi/mcp-language-server",
-      "graph_distance": 4
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "apache/spark",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dask/dask",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "modin-project/modin",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "pandas-dev/pandas",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "strands-agents/agent-builder",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "strands-agents/evals",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "strands-agents/mcp-server",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "strands-agents/samples",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ahmetb/kubectl-aliases",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "jonmosco/kube-ps1",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "junegunn/fzf",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "kubernetes-sigs/krew",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "eigenfoundation/elips",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "layr-labs/eigenlayer-middleware",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "layr-labs/incredible-squaring-avs",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "layr-labs/incredible-squaring-avs-rs",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "iofficeai/aionui",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "piebald-ai/gemini-cli-desktop",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "simonw/simonwillisonblog-backup",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "google-github-actions/run-gemini-cli",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "googlecloudplatform/vertex-ai-creative-studio",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "rustcrypto/rsa",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "tob-challenges/example-libpng",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "clearbluejar/pyghidra-mcp",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "crytic/slither",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "trailofbits/dropkit",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "abiosoft/colima",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "nodejs/admin",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "nodejs/release",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "nodejs/release-keys",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "nodejs/tsc",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "npm/rfcs",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "shareai-lab/kode",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "vercel-labs/add-skill",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "aio-libs/aiohttp",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "encode/httpx",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "openai/openai-openapi",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "python/mypy",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "daaain/claude-code-log",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "simonw/claude-code-transcripts",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "winfunc/opcode",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "gyscos/cursive",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dirs-dev/directories-jvm",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dirs-dev/directories-rs",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "soc/dirs-rs",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dtolnay/thiserror",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "rust-lang/rfcs",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "aws-samples/anthropic-on-aws",
-      "graph_distance": 5
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "glittercowboy/taches-cc-prompts",
@@ -2010,6 +1750,381 @@
       "discovered_via": "explicit-github-link",
       "full_name": "clickhouse/clickhouse",
       "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "rust-lang-nursery/crater",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "charmbracelet/catwalk",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "charmbracelet/scoop-bucket",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "nix-community/nur",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "clangd/clangd",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mark3labs/mcp-go",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "python/cpython",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "conda-forge/modin-feedstock",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "modin-project/unidist",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ray-project/ray",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "pandas-dev/.github",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "apache/iceberg-python",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "pyodide/pyodide",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "strands-agents/sdk-python",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "strands-agents/tools",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "strands-agents/sdk-typescript",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "shanoor/kubectl-aliases-powershell",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "jonmosco/kube-tmux",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ohmyzsh/ohmyzsh",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "okd-project/okd",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "zdharma-continuum/zinit",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ggreer/the_silver_searcher",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ibhagwan/fzf-lua",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "jdx/mise",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "junegunn/fzf.vim",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "kubernetes-sigs/krew-index",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "layr-labs/eigenlayer-contracts",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "layr-labs/eigenda",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "openzeppelin/openzeppelin-contracts",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "maoueh/zap-pretty",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "foundry-rs/foundry",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "layr-labs/eigensdk-rs",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "layr-labs/incredible-squaring-avs-rust",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "piebald-ai/muda",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "simonw/db-to-sqlite",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ghchinoy/studio-scaffold",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aixcc-finals/example-crs-architecture",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "pnggroup/libpng",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "clearbluejar/ghidrecomp",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "jtang613/binassistmcp",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lauriewired/ghidramcp",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "modelcontextprotocol/python-sdk",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "crytic/crytic-compile",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "crytic/eth-security-toolbox",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "crytic/solc-select",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ethereum/solidity",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "containerd/nerdctl",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lima-vm/lima",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "1password/1password-teams-open-source",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "nodejs/getting-started",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "nodejs/web-team",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "nodejs/citgm",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "nodejs/abi-stable-node",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "nodejs/abi-stable-node-addon-examples",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "nodejs/api",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "nodejs/build",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "shareai-lab/kode",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "vercel-labs/add-skill",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aio-libs/aiohttp-demos",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "python/asyncio",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "agronholm/anyio",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "coolcat467/idlemypyextension",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dense-analysis/ale",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dropbox/mypy-pycharm-plugin",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "fredcallaway/sublimelinter-contrib-mypy",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "anthropics/claude-code-base-action",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "getbettr/octotail",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "getasterisk/opcode",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "arxanas/git-branchless",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bonsaiden/cursive_calendar_view",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bonsaiden/cursive_table_view",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "builditluc/wiki-tui",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "soc/directories-jvm",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "soc/dirs-rs",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aws-samples/prompt-engineering-with-anthropic-claude-v-3",
+      "graph_distance": 6
     }
   ],
   "processed": [
@@ -2831,6 +2946,55 @@
     "psf/black",
     "vaporif/rvx",
     "alexellis/arkade",
-    "blake3-team/blake3"
+    "blake3-team/blake3",
+    "brombal/just-install",
+    "casey/janus",
+    "charmbracelet/crush",
+    "isaacphi/mcp-language-server",
+    "apache/spark",
+    "dask/dask",
+    "modin-project/modin",
+    "pandas-dev/pandas",
+    "strands-agents/agent-builder",
+    "strands-agents/evals",
+    "strands-agents/mcp-server",
+    "strands-agents/samples",
+    "ahmetb/kubectl-aliases",
+    "jonmosco/kube-ps1",
+    "junegunn/fzf",
+    "kubernetes-sigs/krew",
+    "eigenfoundation/elips",
+    "layr-labs/eigenlayer-middleware",
+    "layr-labs/incredible-squaring-avs",
+    "layr-labs/incredible-squaring-avs-rs",
+    "iofficeai/aionui",
+    "piebald-ai/gemini-cli-desktop",
+    "simonw/simonwillisonblog-backup",
+    "google-github-actions/run-gemini-cli",
+    "googlecloudplatform/vertex-ai-creative-studio",
+    "rustcrypto/rsa",
+    "tob-challenges/example-libpng",
+    "clearbluejar/pyghidra-mcp",
+    "crytic/slither",
+    "trailofbits/dropkit",
+    "abiosoft/colima",
+    "nodejs/admin",
+    "nodejs/release",
+    "nodejs/release-keys",
+    "nodejs/tsc",
+    "npm/rfcs",
+    "aio-libs/aiohttp",
+    "encode/httpx",
+    "openai/openai-openapi",
+    "python/mypy",
+    "daaain/claude-code-log",
+    "simonw/claude-code-transcripts",
+    "winfunc/opcode",
+    "gyscos/cursive",
+    "dirs-dev/directories-jvm",
+    "dirs-dev/directories-rs",
+    "dtolnay/thiserror",
+    "rust-lang/rfcs",
+    "aws-samples/anthropic-on-aws"
   ]
 }

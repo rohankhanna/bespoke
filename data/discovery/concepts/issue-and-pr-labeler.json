@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Issue and PR Labeler"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dask/dask",
+      "status": "candidate-context",
+      "text": "Parallel computing with task scheduling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dask/dask",
+      "status": "candidate-context",
+      "text": "\"Issue and PR Labeler\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dask/dask",
+      "status": "candidate",
+      "text": "\"Issue and PR Labeler\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14305,
+      "status": "candidate",
+      "text": "tag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11171,
+      "status": "candidate",
+      "text": "praseodymium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11025,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11025,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10904,
+      "status": "candidate",
+      "text": "dystocia"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Issue and PR Labeler",
+  "concept_id": "issue-and-pr-labeler",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/label-all.yml",
+      "source_repo": "dask/dask"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue and PR Labeler",
+      "sense_id": "issue-and-pr-labeler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

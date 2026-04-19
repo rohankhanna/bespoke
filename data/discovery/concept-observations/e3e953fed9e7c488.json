@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Modin: Scale your Pandas workflows by changing a single line of code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ci-required"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ci-required"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ci-required",
+      "sense_id": "ci-required#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ci-required",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ci-required",
+  "observation_id": "e3e953fed9e7c488",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T17:42:30.117329+00:00",
+  "observed_text": "ci-required",
+  "source_context_snippet": "ci-required",
+  "source_file": ".github/workflows/ci-required.yml",
+  "source_repo": "modin-project/modin",
+  "source_repo_description": "Modin: Scale your Pandas workflows by changing a single line of code"
+}

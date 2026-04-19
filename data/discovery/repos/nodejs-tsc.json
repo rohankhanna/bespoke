@@ -1,0 +1,248 @@
+{
+  "components": [
+    {
+      "component": "remark-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "remark-preset-lint-node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/closeVote.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/initiateNewVote.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/initiateNewVote.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/watchVote.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nodejs/TSC",
+      "target": "nodejs/build",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nodejs/TSC",
+      "target": "nodejs/abi-stable-node",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nodejs/TSC",
+      "target": "nodejs/abi-stable-node-addon-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nodejs/TSC",
+      "target": "nodejs/api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nodejs/TSC",
+      "target": "remark-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nodejs/TSC",
+      "target": "remark-preset-lint-node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nodejs/TSC",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/closeVote.yml",
+      "source_repo": "nodejs/TSC",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/closeVote.yml",
+      "source_repo": "nodejs/TSC",
+      "target": "Close vote",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/initiateNewVote.yml",
+      "source_repo": "nodejs/TSC",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/initiateNewVote.yml",
+      "source_repo": "nodejs/TSC",
+      "target": "Initiate new vote",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/watchVote.yml",
+      "source_repo": "nodejs/TSC",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/watchVote.yml",
+      "source_repo": "nodejs/TSC",
+      "target": "Validate vote commit and update participation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodejs/TSC",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodejs/TSC",
+      "target": "nodejs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T17:44:25.556246+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8758
+    },
+    {
+      "path": "package.json",
+      "size": 584
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 896
+    },
+    {
+      "path": ".github/workflows/closeVote.yml",
+      "size": 3062
+    },
+    {
+      "path": ".github/workflows/initiateNewVote.yml",
+      "size": 8943
+    },
+    {
+      "path": ".github/workflows/remark-lint-problem-matcher.json",
+      "size": 484
+    },
+    {
+      "path": ".github/workflows/watchVote.yml",
+      "size": 2758
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Node.js Technical Steering Committee",
+    "fork": false,
+    "full_name": "nodejs/TSC",
+    "html_url": "https://github.com/nodejs/TSC",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-15T11:25:17Z",
+    "stargazers_count": 678,
+    "topics": [
+      "node",
+      "nodejs"
+    ],
+    "updated_at": "2026-04-16T02:26:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nodejs/abi-stable-node",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nodejs/abi-stable-node-addon-examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nodejs/api",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nodejs/build",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Close vote",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/closeVote.yml",
+      "term": "Close vote"
+    },
+    {
+      "context_snippet": "Initiate new vote",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/initiateNewVote.yml",
+      "term": "Initiate new vote"
+    },
+    {
+      "context_snippet": "Validate vote commit and update participation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/watchVote.yml",
+      "term": "Validate vote commit and update participation"
+    },
+    {
+      "context_snippet": "The Node.js Technical Steering Committee (TSC) is the technical",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node"
+    },
+    {
+      "context_snippet": "The Node.js Technical Steering Committee (TSC) is the technical",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "tauri"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "status": "candidate-context",
+      "text": "Web/desktop UI for Gemini CLI/Qwen Code.  Manage projects, switch between tools, search across past conversations, and manage MCP servers, all from one multilingual interface, locally or remotely."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "status": "candidate-context",
+      "text": "<div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "winfunc/opcode",
+      "status": "candidate-context",
+      "text": "A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "winfunc/opcode",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "status": "candidate",
+      "text": "<div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "winfunc/opcode",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29520805,
+      "status": "candidate",
+      "text": "earth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19754034,
+      "status": "candidate",
+      "text": "lands"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19754032,
+      "status": "candidate",
+      "text": "crimean tatar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19754031,
+      "status": "candidate",
+      "text": "taurian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19754030,
+      "status": "candidate",
+      "text": "touranian"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "tauri",
+  "concept_id": "tauri",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "Piebald-AI/gemini-cli-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tauri",
+      "sense_id": "tauri#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

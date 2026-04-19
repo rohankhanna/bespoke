@@ -49,6 +49,42 @@
       "source_repo": "napi-rs/node-rs",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/napi-rs/node-rs/workflows/CI/badge.svg)](https://github.com/napi-rs/node-rs/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/admin",
+      "status": "candidate-context",
+      "text": "Administrative space for policies of the TSC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/admin",
+      "status": "candidate-context",
+      "text": "This repository is formal efforts of the Node.js project that are overseen by the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/Release",
+      "status": "candidate-context",
+      "text": "Node.js Release Working Group"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/Release",
+      "status": "candidate-context",
+      "text": "| Release | Status | Codename |Initial Release | Active LTS Start | Maintenance Start | End-of-life |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/TSC",
+      "status": "candidate-context",
+      "text": "The Node.js Technical Steering Committee"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/TSC",
+      "status": "candidate-context",
+      "text": "The Node.js Technical Steering Committee (TSC) is the technical"
     }
   ],
   "candidate_glosses": [
@@ -69,6 +105,24 @@
       "source_repo": "napi-rs/node-rs",
       "status": "candidate",
       "text": "[![CI](https://github.com/napi-rs/node-rs/workflows/CI/badge.svg)](https://github.com/napi-rs/node-rs/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/admin",
+      "status": "candidate",
+      "text": "This repository is formal efforts of the Node.js project that are overseen by the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/Release",
+      "status": "candidate",
+      "text": "| Release | Status | Codename |Initial Release | Active LTS Start | Maintenance Start | End-of-life |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/TSC",
+      "status": "candidate",
+      "text": "The Node.js Technical Steering Committee (TSC) is the technical"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +190,29 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "napi-rs/node-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/admin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/Release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/TSC"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "lexical_providers": [
     "datamuse"
   ],

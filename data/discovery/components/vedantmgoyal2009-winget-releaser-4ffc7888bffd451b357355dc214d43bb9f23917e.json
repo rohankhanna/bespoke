@@ -1,0 +1,12 @@
+{
+  "component": "vedantmgoyal2009/winget-releaser@4ffc7888bffd451b357355dc214d43bb9f23917e",
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/winget.yml",
+      "source_repo": "junegunn/fzf"
+    }
+  ]
+}

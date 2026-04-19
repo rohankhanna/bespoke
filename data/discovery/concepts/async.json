@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "async"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aio-libs/aiohttp",
+      "status": "candidate-context",
+      "text": "Asynchronous HTTP client/server framework for asyncio and Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aio-libs/aiohttp",
+      "status": "candidate-context",
+      "text": "=================================="
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aio-libs/aiohttp",
+      "status": "candidate",
+      "text": "=================================="
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29955021,
+      "status": "candidate",
+      "text": "synchronous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29765519,
+      "status": "candidate",
+      "text": "asynchronous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021720,
+      "status": "candidate",
+      "text": "asynch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021718,
+      "status": "candidate",
+      "text": "nonblocking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021717,
+      "status": "candidate",
+      "text": "asynchronicity"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "async",
+  "concept_id": "async",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "aio-libs/aiohttp"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "async",
+      "sense_id": "async#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

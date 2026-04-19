@@ -1,0 +1,466 @@
+{
+  "components": [
+    {
+      "component": "actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-dispatch.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-dispatch.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-dispatch.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-invoke.yml"
+    },
+    {
+      "component": "google-github-actions/run-gemini-cli@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-invoke.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-review.yml"
+    },
+    {
+      "component": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-review.yml"
+    },
+    {
+      "component": "google-github-actions/run-gemini-cli@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-review.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-scheduled-triage.yml"
+    },
+    {
+      "component": "google-github-actions/run-gemini-cli@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-scheduled-triage.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-scheduled-triage.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-scheduled-triage.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-triage.yml"
+    },
+    {
+      "component": "google-github-actions/run-gemini-cli@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-triage.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-triage.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-triage.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mcp-genmedia-go.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mcp-genmedia-go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "target": "ghchinoy/studio-scaffold",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-dispatch.yml",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "target": "actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-dispatch.yml",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-dispatch.yml",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "target": "\ud83d\udd00 Gemini Dispatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-invoke.yml",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "target": "actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-invoke.yml",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "target": "google-github-actions/run-gemini-cli@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-invoke.yml",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "target": "\u25b6\ufe0f Gemini Invoke",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-review.yml",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "target": "actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-review.yml",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "target": "actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-review.yml",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "target": "google-github-actions/run-gemini-cli@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-review.yml",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "target": "\ud83d\udd0e Gemini Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-scheduled-triage.yml",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-scheduled-triage.yml",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "target": "google-github-actions/run-gemini-cli@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-scheduled-triage.yml",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "target": "actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-scheduled-triage.yml",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "target": "\ud83d\udccb Gemini Scheduled Issue Triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-triage.yml",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-triage.yml",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "target": "google-github-actions/run-gemini-cli@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-triage.yml",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "target": "actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-triage.yml",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "target": "\ud83d\udd00 Gemini Triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mcp-genmedia-go.yml",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mcp-genmedia-go.yml",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mcp-genmedia-go.yml",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "target": "MCP GenMedia Go CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "target": "chirp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "target": "gemini-tts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "target": "google-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "target": "imagen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "target": "lyria",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "target": "nano-banana",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "target": "vertex-ai",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T17:43:54.279718+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21153
+    },
+    {
+      "path": "Dockerfile",
+      "size": 890
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1920
+    },
+    {
+      "path": "requirements.txt",
+      "size": 10572
+    },
+    {
+      "path": ".github/workflows/gemini-dispatch.yml",
+      "size": 8747
+    },
+    {
+      "path": ".github/workflows/gemini-invoke.yml",
+      "size": 11486
+    },
+    {
+      "path": ".github/workflows/gemini-review.yml",
+      "size": 14792
+    },
+    {
+      "path": ".github/workflows/gemini-scheduled-triage.yml",
+      "size": 13898
+    },
+    {
+      "path": ".github/workflows/gemini-triage.yml",
+      "size": 7162
+    },
+    {
+      "path": ".github/workflows/mcp-genmedia-go.yml",
+      "size": 1938
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GenMedia Creative Studio is a Vertex AI generative media user experience highlighting the use of Imagen, Veo, Gemini \ud83c\udf4c, Gemini TTS, Chirp 3, Lyria and other generative media APIs on Google Cloud.",
+    "fork": false,
+    "full_name": "GoogleCloudPlatform/vertex-ai-creative-studio",
+    "html_url": "https://github.com/GoogleCloudPlatform/vertex-ai-creative-studio",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-18T20:07:46Z",
+    "stargazers_count": 1045,
+    "topics": [
+      "chirp",
+      "gemini",
+      "gemini-tts",
+      "google-cloud",
+      "imagen",
+      "lyria",
+      "nano-banana",
+      "veo",
+      "vertex-ai"
+    ],
+    "updated_at": "2026-04-19T07:14:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ghchinoy/studio-scaffold",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'\ud83d\udd00 Gemini Dispatch'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-dispatch.yml",
+      "term": "\ud83d\udd00 Gemini Dispatch"
+    },
+    {
+      "context_snippet": "'\u25b6\ufe0f Gemini Invoke'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-invoke.yml",
+      "term": "\u25b6\ufe0f Gemini Invoke"
+    },
+    {
+      "context_snippet": "'\ud83d\udd0e Gemini Review'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-review.yml",
+      "term": "\ud83d\udd0e Gemini Review"
+    },
+    {
+      "context_snippet": "'\ud83d\udccb Gemini Scheduled Issue Triage'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-scheduled-triage.yml",
+      "term": "\ud83d\udccb Gemini Scheduled Issue Triage"
+    },
+    {
+      "context_snippet": "'\ud83d\udd00 Gemini Triage'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-triage.yml",
+      "term": "\ud83d\udd00 Gemini Triage"
+    },
+    {
+      "context_snippet": "MCP GenMedia Go CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mcp-genmedia-go.yml",
+      "term": "MCP GenMedia Go CI"
+    },
+    {
+      "context_snippet": "> ###### _This is not an officially supported Google product. This project is not eligible for the [Google Open Source Software Vulnerability Rewards Program](https://bughunters.google.com/open-source-security). This project is intended for demonstration purposes only. It is not\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chirp"
+    },
+    {
+      "context_snippet": "> ###### _This is not an officially supported Google product. This project is not eligible for the [Google Open Source Software Vulnerability Rewards Program](https://bughunters.google.com/open-source-security). This project is intended for demonstration purposes only. It is not\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini"
+    },
+    {
+      "context_snippet": "> ###### _This is not an officially supported Google product. This project is not eligible for the [Google Open Source Software Vulnerability Rewards Program](https://bughunters.google.com/open-source-security). This project is intended for demonstration purposes only. It is not\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini-tts"
+    },
+    {
+      "context_snippet": "> ###### _This is not an officially supported Google product. This project is not eligible for the [Google Open Source Software Vulnerability Rewards Program](https://bughunters.google.com/open-source-security). This project is intended for demonstration purposes only. It is not\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-cloud"
+    },
+    {
+      "context_snippet": "> ###### _This is not an officially supported Google product. This project is not eligible for the [Google Open Source Software Vulnerability Rewards Program](https://bughunters.google.com/open-source-security). This project is intended for demonstration purposes only. It is not\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imagen"
+    },
+    {
+      "context_snippet": "> ###### _This is not an officially supported Google product. This project is not eligible for the [Google Open Source Software Vulnerability Rewards Program](https://bughunters.google.com/open-source-security). This project is intended for demonstration purposes only. It is not\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lyria"
+    },
+    {
+      "context_snippet": "> ###### _This is not an officially supported Google product. This project is not eligible for the [Google Open Source Software Vulnerability Rewards Program](https://bughunters.google.com/open-source-security). This project is intended for demonstration purposes only. It is not\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nano-banana"
+    },
+    {
+      "context_snippet": "> ###### _This is not an officially supported Google product. This project is not eligible for the [Google Open Source Software Vulnerability Rewards Program](https://bughunters.google.com/open-source-security). This project is intended for demonstration purposes only. It is not\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vertex-ai"
+    }
+  ]
+}

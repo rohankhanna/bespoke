@@ -1,0 +1,61 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "trailofbits/dropkit",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "trailofbits/dropkit",
+      "target": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-19T17:44:10.360087+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10216
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5259
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 965
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A CLI tool for managing DigitalOcean droplets with automated setup, SSH configuration, and lifecycle management.",
+    "fork": false,
+    "full_name": "trailofbits/dropkit",
+    "html_url": "https://github.com/trailofbits/dropkit",
+    "language": "Python",
+    "pushed_at": "2026-04-14T09:04:01Z",
+    "stargazers_count": 110,
+    "topics": [],
+    "updated_at": "2026-04-17T15:26:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

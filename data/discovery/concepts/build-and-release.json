@@ -31,6 +31,18 @@
       "source_repo": "containers/podman-compose",
       "status": "candidate-context",
       "text": "Build and Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iOfficeAI/AionUi",
+      "status": "candidate-context",
+      "text": "Free, local, open-source 24/7 Cowork app and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | \ud83c\udf1f Star if you like it!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iOfficeAI/AionUi",
+      "status": "candidate-context",
+      "text": "Build and Release"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "containers/podman-compose",
+      "status": "candidate",
+      "text": "Build and Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iOfficeAI/AionUi",
       "status": "candidate",
       "text": "Build and Release"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "containers/podman-compose"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/build-and-release.yml",
+      "source_repo": "iOfficeAI/AionUi"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "lexical_providers": [
     "datamuse"
   ],

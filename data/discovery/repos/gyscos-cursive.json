@@ -1,0 +1,156 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gyscos/cursive",
+      "target": "bonsaiden/cursive_calendar_view",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gyscos/cursive",
+      "target": "bonsaiden/cursive_table_view",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gyscos/cursive",
+      "target": "arxanas/git-branchless",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gyscos/cursive",
+      "target": "builditluc/wiki-tui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "gyscos/cursive",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "gyscos/cursive",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gyscos/cursive",
+      "target": "ncurses",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gyscos/cursive",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gyscos/cursive",
+      "target": "terminal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T17:45:00.321234+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9085
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 139
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 869
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Text User Interface library for the Rust programming language",
+    "fork": false,
+    "full_name": "gyscos/cursive",
+    "html_url": "https://github.com/gyscos/cursive",
+    "language": "Rust",
+    "pushed_at": "2026-03-25T02:11:00Z",
+    "stargazers_count": 4783,
+    "topics": [
+      "ncurses",
+      "rust",
+      "terminal",
+      "tui"
+    ],
+    "updated_at": "2026-04-17T18:01:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arxanas/git-branchless",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bonsaiden/cursive_calendar_view",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bonsaiden/cursive_table_view",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "builditluc/wiki-tui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/cursive.svg)](https://crates.io/crates/cursive)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ncurses"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/cursive.svg)](https://crates.io/crates/cursive)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![crates.io](https://img.shields.io/crates/v/cursive.svg)](https://crates.io/crates/cursive)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    }
+  ]
+}

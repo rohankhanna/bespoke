@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Back up my blog database"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonw/simonwillisonblog-backup",
+      "status": "candidate-context",
+      "text": "Backups of the database for simonwillison.net"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/simonwillisonblog-backup",
+      "status": "candidate-context",
+      "text": "Back up my blog database"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/simonwillisonblog-backup",
+      "status": "candidate",
+      "text": "Back up my blog database"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 56387,
+      "status": "candidate",
+      "text": "upping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 56387,
+      "status": "candidate",
+      "text": "ups"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44948,
+      "status": "candidate",
+      "text": "support"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44486,
+      "status": "candidate",
+      "text": "supported"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44148,
+      "status": "candidate",
+      "text": "return"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Back up my blog database",
+  "concept_id": "back-up-my-blog-database",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/backup.yml",
+      "source_repo": "simonw/simonwillisonblog-backup"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Back up my blog database",
+      "sense_id": "back-up-my-blog-database#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

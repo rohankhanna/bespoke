@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Close vote"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/TSC",
+      "status": "candidate-context",
+      "text": "The Node.js Technical Steering Committee"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/TSC",
+      "status": "candidate-context",
+      "text": "Close vote"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/TSC",
+      "status": "candidate",
+      "text": "Close vote"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11813,
+      "status": "candidate",
+      "text": "casted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11813,
+      "status": "candidate",
+      "text": "closure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11813,
+      "status": "candidate",
+      "text": "cloture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11813,
+      "status": "candidate",
+      "text": "poll"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11813,
+      "status": "candidate",
+      "text": "position"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Close vote",
+  "concept_id": "close-vote",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/closeVote.yml",
+      "source_repo": "nodejs/TSC"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Close vote",
+      "sense_id": "close-vote#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,69 @@
+{
+  "components": [
+    {
+      "component": "extract-zip",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-fetch",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "brombal/just-install",
+      "target": "extract-zip",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "brombal/just-install",
+      "target": "node-fetch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "brombal/just-install",
+      "target": "gts",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-19T17:42:31.658682+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2725
+    },
+    {
+      "path": "package.json",
+      "size": 797
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A simple Node.js installer for the excellent Just command runner (https://just.systems).",
+    "fork": false,
+    "full_name": "brombal/just-install",
+    "html_url": "https://github.com/brombal/just-install",
+    "language": "JavaScript",
+    "pushed_at": "2024-07-31T23:01:48Z",
+    "stargazers_count": 51,
+    "topics": [],
+    "updated_at": "2026-02-09T15:42:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

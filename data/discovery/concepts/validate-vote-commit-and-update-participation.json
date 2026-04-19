@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Validate vote commit and update participation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/TSC",
+      "status": "candidate-context",
+      "text": "The Node.js Technical Steering Committee"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/TSC",
+      "status": "candidate-context",
+      "text": "Validate vote commit and update participation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/TSC",
+      "status": "candidate",
+      "text": "Validate vote commit and update participation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45249,
+      "status": "candidate",
+      "text": "commission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43518,
+      "status": "candidate",
+      "text": "registered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43384,
+      "status": "candidate",
+      "text": "roll"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43336,
+      "status": "candidate",
+      "text": "predicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43336,
+      "status": "candidate",
+      "text": "ring"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Validate vote commit and update participation",
+  "concept_id": "validate-vote-commit-and-update-participation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/watchVote.yml",
+      "source_repo": "nodejs/TSC"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate vote commit and update participation",
+      "sense_id": "validate-vote-commit-and-update-participation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,440 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy_primer.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy_primer.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy_primer.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy_primer.yml"
+    },
+    {
+      "component": "actions/upload-artifact/merge@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy_primer.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy_primer_comment.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy_primer_comment.yml"
+    },
+    {
+      "component": "kanga333/comment-hider@c12bb20b48aeb8fc098e35967de8d4f8018fffdf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy_primer_comment.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_typeshed.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_typeshed.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "gabrielfalcao/pyenv-action@v13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_stubgenc.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_stubgenc.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "python/mypy",
+      "target": "dense-analysis/ale",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "python/mypy",
+      "target": "fredcallaway/sublimelinter-contrib-mypy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "python/mypy",
+      "target": "dropbox/mypy-pycharm-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "python/mypy",
+      "target": "coolcat467/idlemypyextension",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "python/mypy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "python/mypy",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "source_repo": "python/mypy",
+      "target": "Trigger wheel build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "python/mypy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "python/mypy",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "python/mypy",
+      "target": "Check documentation build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy_primer.yml",
+      "source_repo": "python/mypy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy_primer.yml",
+      "source_repo": "python/mypy",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy_primer.yml",
+      "source_repo": "python/mypy",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy_primer.yml",
+      "source_repo": "python/mypy",
+      "target": "actions/upload-artifact/merge@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy_primer_comment.yml",
+      "source_repo": "python/mypy",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy_primer_comment.yml",
+      "source_repo": "python/mypy",
+      "target": "kanga333/comment-hider@c12bb20b48aeb8fc098e35967de8d4f8018fffdf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_typeshed.yml",
+      "source_repo": "python/mypy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_typeshed.yml",
+      "source_repo": "python/mypy",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync_typeshed.yml",
+      "source_repo": "python/mypy",
+      "target": "Sync typeshed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "python/mypy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "python/mypy",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "python/mypy",
+      "target": "gabrielfalcao/pyenv-action@v13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "python/mypy",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_stubgenc.yml",
+      "source_repo": "python/mypy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_stubgenc.yml",
+      "source_repo": "python/mypy",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "python/mypy",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "python/mypy",
+      "target": "typechecker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "python/mypy",
+      "target": "types",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "python/mypy",
+      "target": "typing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T17:44:44.390358+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7607
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 8043
+    },
+    {
+      "path": ".github/workflows/build_wheels.yml",
+      "size": 548
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 1368
+    },
+    {
+      "path": ".github/workflows/mypy_primer.yml",
+      "size": 2948
+    },
+    {
+      "path": ".github/workflows/mypy_primer_comment.yml",
+      "size": 3751
+    },
+    {
+      "path": ".github/workflows/sync_typeshed.yml",
+      "size": 984
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 9899
+    },
+    {
+      "path": ".github/workflows/test_stubgenc.yml",
+      "size": 878
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Optional static typing for Python",
+    "fork": false,
+    "full_name": "python/mypy",
+    "html_url": "https://github.com/python/mypy",
+    "language": "Python",
+    "pushed_at": "2026-04-17T17:14:38Z",
+    "stargazers_count": 20382,
+    "topics": [
+      "linter",
+      "python",
+      "typechecker",
+      "types",
+      "typing"
+    ],
+    "updated_at": "2026-04-19T17:14:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coolcat467/idlemypyextension",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dense-analysis/ale",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dropbox/mypy-pycharm-plugin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fredcallaway/sublimelinter-contrib-mypy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Trigger wheel build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wheels.yml",
+      "term": "Trigger wheel build"
+    },
+    {
+      "context_snippet": "Check documentation build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Check documentation build"
+    },
+    {
+      "context_snippet": "Sync typeshed",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync_typeshed.yml",
+      "term": "Sync typeshed"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "<img src=\"docs/source/mypy_light.svg\" alt=\"mypy logo\" width=\"300px\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "<img src=\"docs/source/mypy_light.svg\" alt=\"mypy logo\" width=\"300px\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typechecker"
+    },
+    {
+      "context_snippet": "<img src=\"docs/source/mypy_light.svg\" alt=\"mypy logo\" width=\"300px\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "types"
+    },
+    {
+      "context_snippet": "<img src=\"docs/source/mypy_light.svg\" alt=\"mypy logo\" width=\"300px\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typing"
+    }
+  ]
+}

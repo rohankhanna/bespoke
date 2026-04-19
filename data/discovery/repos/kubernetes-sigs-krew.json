@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubernetes-sigs/krew",
+      "target": "kubernetes-sigs/krew-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kubernetes-sigs/krew",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kubernetes-sigs/krew",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kubernetes-sigs/krew",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/krew",
+      "target": "k8s-sig-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/krew",
+      "target": "kubectl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/krew",
+      "target": "kubectl-plugins",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T17:43:27.115245+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3569
+    },
+    {
+      "path": "go.mod",
+      "size": 1418
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1918
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udce6 Find and install kubectl plugins",
+    "fork": false,
+    "full_name": "kubernetes-sigs/krew",
+    "html_url": "https://github.com/kubernetes-sigs/krew",
+    "language": "Go",
+    "pushed_at": "2026-03-27T01:08:16Z",
+    "stargazers_count": 6941,
+    "topics": [
+      "k8s-sig-cli",
+      "kubectl",
+      "kubectl-plugins"
+    ],
+    "updated_at": "2026-04-18T21:45:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes-sigs/krew-index",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"assets/logo/horizontal/color/krew-horizontal-color.png\" width=\"480\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k8s-sig-cli"
+    },
+    {
+      "context_snippet": "<img src=\"assets/logo/horizontal/color/krew-horizontal-color.png\" width=\"480\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubectl"
+    },
+    {
+      "context_snippet": "<img src=\"assets/logo/horizontal/color/krew-horizontal-color.png\" width=\"480\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubectl-plugins"
+    }
+  ]
+}

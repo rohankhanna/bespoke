@@ -1,7 +1,7 @@
 {
   "component": "peaceiris/actions-gh-pages@v3",
   "first_seen_at": "2026-04-18T09:45:12.634395+00:00",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/inspect.yml",
       "source_repo": "pixiv/three-vrm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docbuild.yml",
+      "source_repo": "aws-samples/anthropic-on-aws"
     }
   ]
 }

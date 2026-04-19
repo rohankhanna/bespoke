@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Modin: Scale your Pandas workflows by changing a single line of code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\"><a href=\"https://modin.readthedocs.io\"><img width=77% alt=\"\" src=\"https://github.com/modin-project/modin/raw/7c009c747caa90554607e30b9ac2bd1b190b8c7d/docs/img/MODIN_ver2_hrz.png?raw=true\"></a></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://modin.readthedocs.io\"><img width=77% alt=\"\" src=\"https://github.com/modin-project/modin/raw/7c009c747caa90554607e30b9ac2bd1b190b8c7d/docs/img/MODIN_ver2_hrz.png?raw=true\"></a></p>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15000,
+      "status": "candidate",
+      "text": "village"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14999,
+      "status": "candidate",
+      "text": "town"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14998,
+      "status": "candidate",
+      "text": "came"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14997,
+      "status": "candidate",
+      "text": "said"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "modin",
+      "sense_id": "modin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "modin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "modin",
+  "observation_id": "b5348b25d6585295",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-19T17:42:30.117329+00:00",
+  "observed_text": "modin",
+  "source_context_snippet": "<p align=\"center\"><a href=\"https://modin.readthedocs.io\"><img width=77% alt=\"\" src=\"https://github.com/modin-project/modin/raw/7c009c747caa90554607e30b9ac2bd1b190b8c7d/docs/img/MODIN_ver2_hrz.png?raw=true\"></a></p>",
+  "source_file": null,
+  "source_repo": "modin-project/modin",
+  "source_repo_description": "Modin: Scale your Pandas workflows by changing a single line of code"
+}

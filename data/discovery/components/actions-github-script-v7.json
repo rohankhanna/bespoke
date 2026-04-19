@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v7",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -277,6 +277,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update-vr-snapshots.yml",
       "source_repo": "recharts/recharts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "strands-agents/agent-builder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ash-pr-comment.yml",
+      "source_repo": "strands-agents/samples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gpt-pr-assessment.yml",
+      "source_repo": "iOfficeAI/AionUi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gpt-review.yml",
+      "source_repo": "iOfficeAI/AionUi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mypy_primer_comment.yml",
+      "source_repo": "python/mypy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "winfunc/opcode"
     }
   ]
 }

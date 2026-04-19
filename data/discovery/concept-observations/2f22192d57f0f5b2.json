@@ -4,10 +4,63 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definition_hints": [],
-  "candidate_glosses": [],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The open agent skills tool - npx skills"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Agents CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Agents CI"
+    }
+  ],
   "candidate_primary_bucket": "workflow-process",
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13760,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13760,
+      "status": "candidate",
+      "text": "thousand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13384,
+      "status": "candidate",
+      "text": "radon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13144,
+      "status": "candidate",
+      "text": "chemist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13144,
+      "status": "candidate",
+      "text": "eve"
+    }
+  ],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -24,15 +77,17 @@
   "definition_status": "unresolved",
   "discovered_via": "workflow-name",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "agents-ci",
   "observation_id": "2f22192d57f0f5b2",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-18T12:46:59.510459+00:00",
+  "observed_at": "2026-04-19T17:42:30.117329+00:00",
   "observed_text": "Agents CI",
-  "source_context_snippet": null,
+  "source_context_snippet": "Agents CI",
   "source_file": ".github/workflows/agents.yml",
   "source_repo": "vercel-labs/skills",
-  "source_repo_description": null
+  "source_repo_description": "The open agent skills tool - npx skills"
 }

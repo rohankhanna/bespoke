@@ -43,6 +43,30 @@
       "source_repo": "semgrep/semgrep",
       "status": "candidate-context",
       "text": "<br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/spark",
+      "status": "candidate-context",
+      "text": "Apache Spark - A unified analytics engine for large-scale data processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/spark",
+      "status": "candidate-context",
+      "text": "Spark is a unified analytics engine for large-scale data processing. It provides"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dirs-dev/directories-jvm",
+      "status": "candidate-context",
+      "text": "moved to https://codeberg.org/dirs/directories-jvm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dirs-dev/directories-jvm",
+      "status": "candidate-context",
+      "text": "[![Maven Central](https://img.shields.io/maven-central/v/dev.dirs/directories.svg?style=for-the-badge)](https://search.maven.org/#search|gav|1|g%3A%22dev.dirs%22%20AND%20a%3A%22directories%22)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "semgrep/semgrep",
       "status": "candidate",
       "text": "<br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/spark",
+      "status": "candidate",
+      "text": "Spark is a unified analytics engine for large-scale data processing. It provides"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dirs-dev/directories-jvm",
+      "status": "candidate",
+      "text": "[![Maven Central](https://img.shields.io/maven-central/v/dev.dirs/directories.svg?style=for-the-badge)](https://search.maven.org/#search|gav|1|g%3A%22dev.dirs%22%20AND%20a%3A%22directories%22)"
     }
   ],
   "candidate_related_terms": [
@@ -144,11 +180,23 @@
       "observed_at": "2026-04-19T17:36:09.281008+00:00",
       "source_file": null,
       "source_repo": "semgrep/semgrep"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "apache/spark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "dirs-dev/directories-jvm"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "lexical_providers": [
     "datamuse"
   ],

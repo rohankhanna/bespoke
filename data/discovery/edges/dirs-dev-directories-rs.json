@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dirs-dev/directories-rs",
+      "target": "soc/dirs-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dirs-dev/directories-rs",
+      "target": "soc/directories-jvm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dirs-dev/directories-rs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dirs-dev/directories-rs",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dirs-dev/directories-rs",
+      "target": "knownfolders",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dirs-dev/directories-rs",
+      "target": "xdg-basedir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dirs-dev/directories-rs",
+      "target": "xdg-user-dirs",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-19T17:42:30.117329+00:00",
+  "source_repo": "dirs-dev/directories-rs"
+}

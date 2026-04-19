@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "types"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python/mypy",
+      "status": "candidate-context",
+      "text": "Optional static typing for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python/mypy",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/source/mypy_light.svg\" alt=\"mypy logo\" width=\"300px\"/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python/mypy",
+      "status": "candidate",
+      "text": "<img src=\"docs/source/mypy_light.svg\" alt=\"mypy logo\" width=\"300px\"/>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19990509,
+      "status": "candidate",
+      "text": "character"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19989164,
+      "status": "candidate",
+      "text": "typecast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19984427,
+      "status": "candidate",
+      "text": "case"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19977658,
+      "status": "candidate",
+      "text": "typewrite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19958894,
+      "status": "candidate",
+      "text": "eccentric"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "types",
+  "concept_id": "types",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "python/mypy"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "types",
+      "sense_id": "types#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

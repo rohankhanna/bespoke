@@ -1,0 +1,358 @@
+{
+  "components": [
+    {
+      "component": "@npmcli/eslint-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@npmcli/template-oss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-dependabot.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-dependabot.yml"
+    },
+    {
+      "component": "dependabot/fetch-metadata@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-dependabot.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "npm/rfcs",
+      "target": "@npmcli/eslint-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "npm/rfcs",
+      "target": "@npmcli/template-oss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "npm/rfcs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "npm/rfcs",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "npm/rfcs",
+      "target": "Audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "npm/rfcs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "npm/rfcs",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "npm/rfcs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "npm/rfcs",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "npm/rfcs",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "npm/rfcs",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-dependabot.yml",
+      "source_repo": "npm/rfcs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-dependabot.yml",
+      "source_repo": "npm/rfcs",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post-dependabot.yml",
+      "source_repo": "npm/rfcs",
+      "target": "dependabot/fetch-metadata@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post-dependabot.yml",
+      "source_repo": "npm/rfcs",
+      "target": "Post Dependabot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "npm/rfcs",
+      "target": "collaborators",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "npm/rfcs",
+      "target": "discussion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "npm/rfcs",
+      "target": "npm-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "npm/rfcs",
+      "target": "open",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "npm/rfcs",
+      "target": "package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "npm/rfcs",
+      "target": "proposal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "npm/rfcs",
+      "target": "rfc-process",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "npm/rfcs",
+      "target": "rfcs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T17:44:27.877463+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9646
+    },
+    {
+      "path": "package.json",
+      "size": 1709
+    },
+    {
+      "path": ".github/workflows/audit.yml",
+      "size": 1213
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2874
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 902
+    },
+    {
+      "path": ".github/workflows/post-dependabot.yml",
+      "size": 5124
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Public change requests/proposals & ideation",
+    "fork": false,
+    "full_name": "npm/rfcs",
+    "html_url": "https://github.com/npm/rfcs",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-24T15:01:35Z",
+    "stargazers_count": 767,
+    "topics": [
+      "collaborators",
+      "discussion",
+      "npm",
+      "npm-cli",
+      "open",
+      "package-manager",
+      "proposal",
+      "rfc",
+      "rfc-process",
+      "rfcs"
+    ],
+    "updated_at": "2026-04-14T17:56:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Audit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "term": "Audit"
+    },
+    {
+      "context_snippet": "CodeQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Post Dependabot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post-dependabot.yml",
+      "term": "Post Dependabot"
+    },
+    {
+      "context_snippet": "This document describes the RFC process for the [npm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "collaborators"
+    },
+    {
+      "context_snippet": "This document describes the RFC process for the [npm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "discussion"
+    },
+    {
+      "context_snippet": "This document describes the RFC process for the [npm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "npm-cli"
+    },
+    {
+      "context_snippet": "This document describes the RFC process for the [npm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open"
+    },
+    {
+      "context_snippet": "This document describes the RFC process for the [npm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-manager"
+    },
+    {
+      "context_snippet": "This document describes the RFC process for the [npm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proposal"
+    },
+    {
+      "context_snippet": "This document describes the RFC process for the [npm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfc-process"
+    },
+    {
+      "context_snippet": "This document describes the RFC process for the [npm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfcs"
+    }
+  ]
+}

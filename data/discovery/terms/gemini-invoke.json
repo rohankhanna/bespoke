@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/gemini-invoke.yml",
+      "source_repo": "google-github-actions/run-gemini-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/gemini-invoke.yml",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio"
+    }
+  ],
+  "term": "\u25b6\ufe0f Gemini Invoke"
+}

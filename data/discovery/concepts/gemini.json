@@ -97,6 +97,54 @@
       "source_repo": "addyosmani/gemini-cli-tips",
       "status": "candidate-context",
       "text": "**This guide covers \\~30 pro-tips for effectively using Gemini CLI for agentic coding**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iOfficeAI/AionUi",
+      "status": "candidate-context",
+      "text": "Free, local, open-source 24/7 Cowork app and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | \ud83c\udf1f Star if you like it!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iOfficeAI/AionUi",
+      "status": "candidate-context",
+      "text": "FROM node:20-slim AS builder WORKDIR /app # Install bun RUN npm install -g bun # Install all dependencies (including devDeps for build) COPY package.json bun.lock ./ COPY patches/ ./patches/ RUN bun install --ignore-scripts # Copy source COPY . . # Build renderer (no Electron ne\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "status": "candidate-context",
+      "text": "Web/desktop UI for Gemini CLI/Qwen Code.  Manage projects, switch between tools, search across past conversations, and manage MCP servers, all from one multilingual interface, locally or remotely."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "status": "candidate-context",
+      "text": "<div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "status": "candidate-context",
+      "text": "A GitHub Action invoking the Gemini CLI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "status": "candidate-context",
+      "text": "`run-gemini-cli` is a GitHub Action that integrates [Gemini] into your development workflow via the [Gemini CLI]. It acts both as an autonomous agent for critical routine coding tasks, and an on-demand collaborator you can quickly delegate work to."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "status": "candidate-context",
+      "text": "GenMedia Creative Studio is a Vertex AI generative media user experience highlighting the use of Imagen, Veo, Gemini \ud83c\udf4c, Gemini TTS, Chirp 3, Lyria and other generative media APIs on Google Cloud."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "status": "candidate-context",
+      "text": "> ###### _This is not an officially supported Google product. This project is not eligible for the [Google Open Source Software Vulnerability Rewards Program](https://bughunters.google.com/open-source-security). This project is intended for demonstration purposes only. It is not\u2026"
     }
   ],
   "candidate_glosses": [
@@ -141,6 +189,30 @@
       "source_repo": "addyosmani/gemini-cli-tips",
       "status": "candidate",
       "text": "**This guide covers \\~30 pro-tips for effectively using Gemini CLI for agentic coding**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iOfficeAI/AionUi",
+      "status": "candidate",
+      "text": "FROM node:20-slim AS builder WORKDIR /app # Install bun RUN npm install -g bun # Install all dependencies (including devDeps for build) COPY package.json bun.lock ./ COPY patches/ ./patches/ RUN bun install --ignore-scripts # Copy source COPY . . # Build renderer (no Electron ne\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "status": "candidate",
+      "text": "<div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "status": "candidate",
+      "text": "`run-gemini-cli` is a GitHub Action that integrates [Gemini] into your development workflow via the [Gemini CLI]. It acts both as an autonomous agent for critical routine coding tasks, and an on-demand collaborator you can quickly delegate work to."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "status": "candidate",
+      "text": "> ###### _This is not an officially supported Google product. This project is not eligible for the [Google Open Source Software Vulnerability Rewards Program](https://bughunters.google.com/open-source-security). This project is intended for demonstration purposes only. It is not\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -288,11 +360,35 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "addyosmani/gemini-cli-tips"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "iOfficeAI/AionUi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "Piebald-AI/gemini-cli-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "google-github-actions/run-gemini-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "anthropics/claude-code-action@beta",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-18T09:57:17.167988+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -57,6 +57,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/claude.yml",
       "source_repo": "mattgodbolt/jsbeeb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "daaain/claude-code-log"
     }
   ]
 }

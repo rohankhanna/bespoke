@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -16,6 +16,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "coaidev/coai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Piebald-AI/gemini-cli-desktop"
     }
   ],
   "term": "cross-platform"

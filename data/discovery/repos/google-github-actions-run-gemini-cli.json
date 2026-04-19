@@ -1,0 +1,642 @@
+{
+  "components": [
+    {
+      "component": "@google-github-actions/actions-utils",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@modelcontextprotocol/sdk",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "google-github-actions/.github/.github/workflows/draft-release.yml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evals-nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evals-nightly.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evals-nightly.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evals-nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evals-nightly.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evals-nightly.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evals-nightly.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-dispatch.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-dispatch.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-dispatch.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-invoke.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-invoke.yml"
+    },
+    {
+      "component": "google-github-actions/run-gemini-cli@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-invoke.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-fixer.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-fixer.yml"
+    },
+    {
+      "component": "google-github-actions/run-gemini-cli@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-fixer.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-plan-execute.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-plan-execute.yml"
+    },
+    {
+      "component": "google-github-actions/run-gemini-cli@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-plan-execute.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-review.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-review.yml"
+    },
+    {
+      "component": "google-github-actions/run-gemini-cli@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-review.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-scheduled-triage.yml"
+    },
+    {
+      "component": "google-github-actions/run-gemini-cli@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-scheduled-triage.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-scheduled-triage.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-scheduled-triage.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "@google-github-actions/actions-utils",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "@modelcontextprotocol/sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "tsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft-release.yml",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "google-github-actions/.github/.github/workflows/draft-release.yml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/draft-release.yml",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "Draft release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evals-nightly.yml",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evals-nightly.yml",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evals-nightly.yml",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/evals-nightly.yml",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/evals-nightly.yml",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "Nightly Evaluations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-dispatch.yml",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-dispatch.yml",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-dispatch.yml",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "\ud83d\udd00 Gemini Dispatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-invoke.yml",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-invoke.yml",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-invoke.yml",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "google-github-actions/run-gemini-cli@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-invoke.yml",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "\u25b6\ufe0f Gemini Invoke",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-fixer.yml",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-fixer.yml",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-issue-fixer.yml",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "google-github-actions/run-gemini-cli@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-issue-fixer.yml",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "\ud83e\uddd9 Gemini Issue Fixer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-plan-execute.yml",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-plan-execute.yml",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-plan-execute.yml",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "google-github-actions/run-gemini-cli@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-plan-execute.yml",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "\ud83e\uddd9 Gemini Plan Execution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-review.yml",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-review.yml",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-review.yml",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "google-github-actions/run-gemini-cli@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-review.yml",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "\ud83d\udd0e Gemini Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-scheduled-triage.yml",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-scheduled-triage.yml",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "google-github-actions/run-gemini-cli@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gemini-scheduled-triage.yml",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-scheduled-triage.yml",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "\ud83d\udccb Gemini Scheduled Issue Triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "gemini-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "github-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "google-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "target": "google-cloud-platform",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T17:43:49.457942+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18711
+    },
+    {
+      "path": "package.json",
+      "size": 1309
+    },
+    {
+      "path": ".github/workflows/draft-release.yml",
+      "size": 726
+    },
+    {
+      "path": ".github/workflows/evals-nightly.yml",
+      "size": 3651
+    },
+    {
+      "path": ".github/workflows/gemini-dispatch.yml",
+      "size": 8892
+    },
+    {
+      "path": ".github/workflows/gemini-invoke.yml",
+      "size": 4369
+    },
+    {
+      "path": ".github/workflows/gemini-issue-fixer.yml",
+      "size": 3697
+    },
+    {
+      "path": ".github/workflows/gemini-plan-execute.yml",
+      "size": 4659
+    },
+    {
+      "path": ".github/workflows/gemini-review.yml",
+      "size": 4270
+    },
+    {
+      "path": ".github/workflows/gemini-scheduled-triage.yml",
+      "size": 8085
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A GitHub Action invoking the Gemini CLI.",
+    "fork": false,
+    "full_name": "google-github-actions/run-gemini-cli",
+    "html_url": "https://github.com/google-github-actions/run-gemini-cli",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-07T21:26:49Z",
+    "stargazers_count": 1938,
+    "topics": [
+      "actions",
+      "ai",
+      "gcp",
+      "gemini",
+      "gemini-cli",
+      "github-actions",
+      "google-cloud",
+      "google-cloud-platform"
+    ],
+    "updated_at": "2026-04-19T03:47:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Draft release'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/draft-release.yml",
+      "term": "Draft release"
+    },
+    {
+      "context_snippet": "'Nightly Evaluations'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/evals-nightly.yml",
+      "term": "Nightly Evaluations"
+    },
+    {
+      "context_snippet": "'\ud83d\udd00 Gemini Dispatch'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-dispatch.yml",
+      "term": "\ud83d\udd00 Gemini Dispatch"
+    },
+    {
+      "context_snippet": "'\u25b6\ufe0f Gemini Invoke'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-invoke.yml",
+      "term": "\u25b6\ufe0f Gemini Invoke"
+    },
+    {
+      "context_snippet": "'\ud83e\uddd9 Gemini Issue Fixer'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-issue-fixer.yml",
+      "term": "\ud83e\uddd9 Gemini Issue Fixer"
+    },
+    {
+      "context_snippet": "'\ud83e\uddd9 Gemini Plan Execution'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-plan-execute.yml",
+      "term": "\ud83e\uddd9 Gemini Plan Execution"
+    },
+    {
+      "context_snippet": "'\ud83d\udd0e Gemini Review'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-review.yml",
+      "term": "\ud83d\udd0e Gemini Review"
+    },
+    {
+      "context_snippet": "'\ud83d\udccb Gemini Scheduled Issue Triage'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gemini-scheduled-triage.yml",
+      "term": "\ud83d\udccb Gemini Scheduled Issue Triage"
+    },
+    {
+      "context_snippet": "`run-gemini-cli` is a GitHub Action that integrates [Gemini] into your development workflow via the [Gemini CLI]. It acts both as an autonomous agent for critical routine coding tasks, and an on-demand collaborator you can quickly delegate work to.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "actions"
+    },
+    {
+      "context_snippet": "`run-gemini-cli` is a GitHub Action that integrates [Gemini] into your development workflow via the [Gemini CLI]. It acts both as an autonomous agent for critical routine coding tasks, and an on-demand collaborator you can quickly delegate work to.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini"
+    },
+    {
+      "context_snippet": "`run-gemini-cli` is a GitHub Action that integrates [Gemini] into your development workflow via the [Gemini CLI]. It acts both as an autonomous agent for critical routine coding tasks, and an on-demand collaborator you can quickly delegate work to.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini-cli"
+    },
+    {
+      "context_snippet": "`run-gemini-cli` is a GitHub Action that integrates [Gemini] into your development workflow via the [Gemini CLI]. It acts both as an autonomous agent for critical routine coding tasks, and an on-demand collaborator you can quickly delegate work to.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    },
+    {
+      "context_snippet": "`run-gemini-cli` is a GitHub Action that integrates [Gemini] into your development workflow via the [Gemini CLI]. It acts both as an autonomous agent for critical routine coding tasks, and an on-demand collaborator you can quickly delegate work to.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-cloud"
+    },
+    {
+      "context_snippet": "`run-gemini-cli` is a GitHub Action that integrates [Gemini] into your development workflow via the [Gemini CLI]. It acts both as an autonomous agent for critical routine coding tasks, and an on-demand collaborator you can quickly delegate work to.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-cloud-platform"
+    }
+  ]
+}

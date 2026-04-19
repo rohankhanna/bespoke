@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "spark"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/spark",
+      "status": "candidate-context",
+      "text": "Apache Spark - A unified analytics engine for large-scale data processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/spark",
+      "status": "candidate-context",
+      "text": "Spark is a unified analytics engine for large-scale data processing. It provides"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/spark",
+      "status": "candidate",
+      "text": "Spark is a unified analytics engine for large-scale data processing. It provides"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025680,
+      "status": "candidate",
+      "text": "spark off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023089,
+      "status": "candidate",
+      "text": "sparkle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021355,
+      "status": "candidate",
+      "text": "glint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018069,
+      "status": "candidate",
+      "text": "flicker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39982772,
+      "status": "candidate",
+      "text": "trigger"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 58089,
+      "status": "candidate",
+      "text": "light"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42039,
+      "status": "candidate",
+      "text": "glint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37073,
+      "status": "candidate",
+      "text": "discharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25041,
+      "status": "candidate",
+      "text": "activate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20057,
+      "status": "candidate",
+      "text": "trip"
+    }
+  ],
+  "canonical_name": "spark",
+  "concept_id": "spark",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "apache/spark"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spark",
+      "sense_id": "spark#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

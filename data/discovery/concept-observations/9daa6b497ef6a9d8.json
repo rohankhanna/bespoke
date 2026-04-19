@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Kubernetes prompt info for bash and zsh"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![GitHub Release](https://img.shields.io/github/v/release/jonmosco/kube-ps1)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![GitHub Release](https://img.shields.io/github/v/release/jonmosco/kube-ps1)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kubernetes-helper",
+      "sense_id": "kubernetes-helper#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "kubernetes-helper",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "kubernetes-helper",
+  "observation_id": "9daa6b497ef6a9d8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-19T17:42:30.117329+00:00",
+  "observed_text": "kubernetes-helper",
+  "source_context_snippet": "![GitHub Release](https://img.shields.io/github/v/release/jonmosco/kube-ps1)",
+  "source_file": null,
+  "source_repo": "jonmosco/kube-ps1",
+  "source_repo_description": "Kubernetes prompt info for bash and zsh"
+}

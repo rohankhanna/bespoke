@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Free, local, open-source 24/7 Cowork app and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | \ud83c\udf1f Star if you like it!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "FROM node:20-slim AS builder WORKDIR /app # Install bun RUN npm install -g bun # Install all dependencies (including devDeps for build) COPY package.json bun.lock ./ COPY patches/ ./patches/ RUN bun install --ignore-scripts # Copy source COPY . . # Build renderer (no Electron ne\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "FROM node:20-slim AS builder WORKDIR /app # Install bun RUN npm install -g bun # Install all dependencies (including devDeps for build) COPY package.json bun.lock ./ COPY patches/ ./patches/ RUN bun install --ignore-scripts # Copy source COPY . . # Build renderer (no Electron ne\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29993595,
+      "status": "candidate",
+      "text": "gemini the twins"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29993594,
+      "status": "candidate",
+      "text": "telescope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29936087,
+      "status": "candidate",
+      "text": "double"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29796640,
+      "status": "candidate",
+      "text": "titan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29732180,
+      "status": "candidate",
+      "text": "orion"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gemini",
+      "sense_id": "gemini#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "gemini the twins"
+    }
+  ],
+  "concept_id": "gemini",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gemini",
+  "observation_id": "d2eaeb35898c0304",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-19T17:42:30.117329+00:00",
+  "observed_text": "gemini",
+  "source_context_snippet": "FROM node:20-slim AS builder WORKDIR /app # Install bun RUN npm install -g bun # Install all dependencies (including devDeps for build) COPY package.json bun.lock ./ COPY patches/ ./patches/ RUN bun install --ignore-scripts # Copy source COPY . . # Build renderer (no Electron ne\u2026",
+  "source_file": null,
+  "source_repo": "iOfficeAI/AionUi",
+  "source_repo_description": "Free, local, open-source 24/7 Cowork app and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | \ud83c\udf1f Star if you like it!"
+}

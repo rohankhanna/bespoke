@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -142,6 +142,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/fuzz.yml",
       "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "abiosoft/colima"
     }
   ]
 }

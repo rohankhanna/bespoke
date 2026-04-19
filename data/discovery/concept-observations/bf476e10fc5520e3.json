@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Basic repo demoing a simple AVS middleware with full eigenlayer integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ko-publish-aggregator-and-operator"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ko-publish-aggregator-and-operator"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ko-publish-aggregator-and-operator",
+      "sense_id": "ko-publish-aggregator-and-operator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ko-publish-aggregator-and-operator",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ko-publish-aggregator-and-operator",
+  "observation_id": "bf476e10fc5520e3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T17:42:30.117329+00:00",
+  "observed_text": "ko-publish-aggregator-and-operator",
+  "source_context_snippet": "ko-publish-aggregator-and-operator",
+  "source_file": ".github/workflows/build-and-publish.yaml",
+  "source_repo": "Layr-Labs/incredible-squaring-avs",
+  "source_repo_description": "Basic repo demoing a simple AVS middleware with full eigenlayer integration"
+}

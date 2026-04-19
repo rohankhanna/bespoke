@@ -1,0 +1,96 @@
+{
+  "components": [
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tob-challenges/example-libpng",
+      "target": "pnggroup/libpng",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tob-challenges/example-libpng",
+      "target": "aixcc-finals/example-crs-architecture",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "tob-challenges/example-libpng",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "tob-challenges/example-libpng",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "tob-challenges/example-libpng",
+      "target": "Linting libpng",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T17:43:59.221332+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4532
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 643
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "tob-challenges/example-libpng",
+    "html_url": "https://github.com/tob-challenges/example-libpng",
+    "language": "C",
+    "pushed_at": "2025-07-16T18:44:08Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-03-30T03:11:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aixcc-finals/example-crs-architecture",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pnggroup/libpng",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Linting libpng",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Linting libpng"
+    }
+  ]
+}

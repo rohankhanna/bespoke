@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Clean closed branch caches"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Clean closed branch caches"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31973,
+      "status": "candidate",
+      "text": "green"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31844,
+      "status": "candidate",
+      "text": "dark lantern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31778,
+      "status": "candidate",
+      "text": "greens"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31778,
+      "status": "candidate",
+      "text": "some"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31755,
+      "status": "candidate",
+      "text": "clear"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Clean closed branch caches",
+      "sense_id": "clean-closed-branch-caches#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "clean-closed-branch-caches",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clean-closed-branch-caches",
+  "observation_id": "d33d195e81e458e6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T17:42:30.117329+00:00",
+  "observed_text": "Clean closed branch caches",
+  "source_context_snippet": "Clean closed branch caches",
+  "source_file": ".github/workflows/cache-cleanup.yml",
+  "source_repo": "pandas-dev/pandas",
+  "source_repo_description": "Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more"
+}

@@ -1,0 +1,508 @@
+{
+  "components": [
+    {
+      "component": "claude",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "commit-and-tag-version",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "constructs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "projen",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "hmarr/auto-approve-action@v2.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-approve.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-classification-with-intercom.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-classification-with-intercom.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-classification-with-intercom.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-classification-with-intercom.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-claude-tools-chatbot.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-claude-tools-chatbot.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-claude-tools-chatbot.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-claude-tools-chatbot.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-complex-schema-tool-use-nextjs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-complex-schema-tool-use-nextjs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-complex-schema-tool-use-nextjs.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-complex-schema-tool-use-nextjs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-metaprompt-generator.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-metaprompt-generator.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-metaprompt-generator.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-metaprompt-generator.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docbuild.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docbuild.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docbuild.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v5.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "aws-samples/prompt-engineering-with-anthropic-claude-v-3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "claude",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "commit-and-tag-version",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "constructs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "projen",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-approve.yml",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "hmarr/auto-approve-action@v2.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-approve.yml",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "auto-approve",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-classification-with-intercom.yml",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-classification-with-intercom.yml",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-classification-with-intercom.yml",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-classification-with-intercom.yml",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "build-classification-with-intercom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-claude-tools-chatbot.yml",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-claude-tools-chatbot.yml",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-claude-tools-chatbot.yml",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-claude-tools-chatbot.yml",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "build-claude-tools-chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-complex-schema-tool-use-nextjs.yml",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-complex-schema-tool-use-nextjs.yml",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-complex-schema-tool-use-nextjs.yml",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-complex-schema-tool-use-nextjs.yml",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "build-complex-schema-tool-use-nextjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-metaprompt-generator.yml",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-metaprompt-generator.yml",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-metaprompt-generator.yml",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-metaprompt-generator.yml",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "build-metaprompt-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docbuild.yml",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docbuild.yml",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docbuild.yml",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docbuild.yml",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "Release Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request-lint.yml",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "amannn/action-semantic-pull-request@v5.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request-lint.yml",
+      "source_repo": "aws-samples/anthropic-on-aws",
+      "target": "pull-request-lint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T17:45:10.233039+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 748
+    },
+    {
+      "path": "package.json",
+      "size": 977
+    },
+    {
+      "path": ".github/workflows/auto-approve.yml",
+      "size": 570
+    },
+    {
+      "path": ".github/workflows/build-classification-with-intercom.yml",
+      "size": 2971
+    },
+    {
+      "path": ".github/workflows/build-claude-tools-chatbot.yml",
+      "size": 2939
+    },
+    {
+      "path": ".github/workflows/build-complex-schema-tool-use-nextjs.yml",
+      "size": 3036
+    },
+    {
+      "path": ".github/workflows/build-metaprompt-generator.yml",
+      "size": 2939
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2770
+    },
+    {
+      "path": ".github/workflows/docbuild.yml",
+      "size": 961
+    },
+    {
+      "path": ".github/workflows/pull-request-lint.yml",
+      "size": 613
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "aws-samples/anthropic-on-aws",
+    "html_url": "https://github.com/aws-samples/anthropic-on-aws",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-17T04:17:59Z",
+    "stargazers_count": 316,
+    "topics": [],
+    "updated_at": "2026-04-19T08:29:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-samples/prompt-engineering-with-anthropic-claude-v-3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "auto-approve",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-approve.yml",
+      "term": "auto-approve"
+    },
+    {
+      "context_snippet": "build-classification-with-intercom",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-classification-with-intercom.yml",
+      "term": "build-classification-with-intercom"
+    },
+    {
+      "context_snippet": "build-claude-tools-chatbot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-claude-tools-chatbot.yml",
+      "term": "build-claude-tools-chatbot"
+    },
+    {
+      "context_snippet": "build-complex-schema-tool-use-nextjs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-complex-schema-tool-use-nextjs.yml",
+      "term": "build-complex-schema-tool-use-nextjs"
+    },
+    {
+      "context_snippet": "build-metaprompt-generator",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-metaprompt-generator.yml",
+      "term": "build-metaprompt-generator"
+    },
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "'Release Docs'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docbuild.yml",
+      "term": "Release Docs"
+    },
+    {
+      "context_snippet": "pull-request-lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request-lint.yml",
+      "term": "pull-request-lint"
+    }
+  ]
+}

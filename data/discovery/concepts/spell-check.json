@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Spell Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "junegunn/fzf",
+      "status": "candidate-context",
+      "text": ":cherry_blossom: A command-line fuzzy finder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junegunn/fzf",
+      "status": "candidate-context",
+      "text": "\"Spell Check\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junegunn/fzf",
+      "status": "candidate",
+      "text": "\"Spell Check\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20069200,
+      "status": "candidate",
+      "text": "spellcheck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20069199,
+      "status": "candidate",
+      "text": "proofreading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20069198,
+      "status": "candidate",
+      "text": "spellcasting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20069197,
+      "status": "candidate",
+      "text": "spell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20069196,
+      "status": "candidate",
+      "text": "spelling reform"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Spell Check",
+  "concept_id": "spell-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "junegunn/fzf"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Spell Check",
+      "sense_id": "spell-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

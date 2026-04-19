@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "jdbc"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/spark",
+      "status": "candidate-context",
+      "text": "Apache Spark - A unified analytics engine for large-scale data processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/spark",
+      "status": "candidate-context",
+      "text": "Spark is a unified analytics engine for large-scale data processing. It provides"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/spark",
+      "status": "candidate",
+      "text": "Spark is a unified analytics engine for large-scale data processing. It provides"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020655,
+      "status": "candidate",
+      "text": "odbc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020654,
+      "status": "candidate",
+      "text": "hsqldb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020653,
+      "status": "candidate",
+      "text": "jndi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020652,
+      "status": "candidate",
+      "text": "jboss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020651,
+      "status": "candidate",
+      "text": "rdbms"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "jdbc",
+  "concept_id": "jdbc",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "apache/spark"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jdbc",
+      "sense_id": "jdbc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

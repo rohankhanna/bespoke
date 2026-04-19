@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Public change requests/proposals & ideation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This document describes the RFC process for the [npm"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This document describes the RFC process for the [npm"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051409,
+      "status": "candidate",
+      "text": "collaborationist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051331,
+      "status": "candidate",
+      "text": "cooperator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048550,
+      "status": "candidate",
+      "text": "partner in crime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10040979,
+      "status": "candidate",
+      "text": "partner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10040112,
+      "status": "candidate",
+      "text": "quisling"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "collaborators",
+      "sense_id": "collaborators#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "collaborators",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "collaborators",
+  "observation_id": "db616ea25521a66d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-19T17:42:30.117329+00:00",
+  "observed_text": "collaborators",
+  "source_context_snippet": "This document describes the RFC process for the [npm",
+  "source_file": null,
+  "source_repo": "npm/rfcs",
+  "source_repo_description": "Public change requests/proposals & ideation"
+}

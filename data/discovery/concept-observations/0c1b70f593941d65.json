@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GenMedia Creative Studio is a Vertex AI generative media user experience highlighting the use of Imagen, Veo, Gemini \ud83c\udf4c, Gemini TTS, Chirp 3, Lyria and other generative media APIs on Google Cloud."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> ###### _This is not an officially supported Google product. This project is not eligible for the [Google Open Source Software Vulnerability Rewards Program](https://bughunters.google.com/open-source-security). This project is intended for demonstration purposes only. It is not\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> ###### _This is not an officially supported Google product. This project is not eligible for the [Google Open Source Software Vulnerability Rewards Program](https://bughunters.google.com/open-source-security). This project is intended for demonstration purposes only. It is not\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29993595,
+      "status": "candidate",
+      "text": "gemini the twins"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29993594,
+      "status": "candidate",
+      "text": "telescope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29936087,
+      "status": "candidate",
+      "text": "double"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29796640,
+      "status": "candidate",
+      "text": "titan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29732180,
+      "status": "candidate",
+      "text": "orion"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gemini",
+      "sense_id": "gemini#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "gemini the twins"
+    }
+  ],
+  "concept_id": "gemini",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gemini",
+  "observation_id": "0c1b70f593941d65",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-19T17:42:30.117329+00:00",
+  "observed_text": "gemini",
+  "source_context_snippet": "> ###### _This is not an officially supported Google product. This project is not eligible for the [Google Open Source Software Vulnerability Rewards Program](https://bughunters.google.com/open-source-security). This project is intended for demonstration purposes only. It is not\u2026",
+  "source_file": null,
+  "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+  "source_repo_description": "GenMedia Creative Studio is a Vertex AI generative media user experience highlighting the use of Imagen, Veo, Gemini \ud83c\udf4c, Gemini TTS, Chirp 3, Lyria and other generative media APIs on Google Cloud."
+}

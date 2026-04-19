@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This MCP server provides documentation about Strands Agents to your GenAI tools, so you can use your favorite AI coding assistant to vibe-code Strands Agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Pull Request and Push Action"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Pull Request and Push Action"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45220,
+      "status": "candidate",
+      "text": "tug"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44449,
+      "status": "candidate",
+      "text": "strain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44420,
+      "status": "candidate",
+      "text": "tugging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44318,
+      "status": "candidate",
+      "text": "down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44049,
+      "status": "candidate",
+      "text": "nudge"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pull Request and Push Action",
+      "sense_id": "pull-request-and-push-action#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pull-request-and-push-action",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pull-request-and-push-action",
+  "observation_id": "fec1c6b5de3e9765",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T17:42:30.117329+00:00",
+  "observed_text": "Pull Request and Push Action",
+  "source_context_snippet": "Pull Request and Push Action",
+  "source_file": ".github/workflows/pr-and-push.yml",
+  "source_repo": "strands-agents/mcp-server",
+  "source_repo_description": "This MCP server provides documentation about Strands Agents to your GenAI tools, so you can use your favorite AI coding assistant to vibe-code Strands Agents."
+}

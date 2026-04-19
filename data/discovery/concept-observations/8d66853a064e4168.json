@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A GitHub Action invoking the Gemini CLI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'\ud83d\udccb Gemini Scheduled Issue Triage'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'\ud83d\udccb Gemini Scheduled Issue Triage'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33069,
+      "status": "candidate",
+      "text": "split"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33069,
+      "status": "candidate",
+      "text": "splits"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33069,
+      "status": "candidate",
+      "text": "splitting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33020,
+      "status": "candidate",
+      "text": "perspective"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33020,
+      "status": "candidate",
+      "text": "resolution"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83d\udccb Gemini Scheduled Issue Triage",
+      "sense_id": "gemini-scheduled-issue-triage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gemini-scheduled-issue-triage",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gemini-scheduled-issue-triage",
+  "observation_id": "8d66853a064e4168",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T17:42:30.117329+00:00",
+  "observed_text": "\ud83d\udccb Gemini Scheduled Issue Triage",
+  "source_context_snippet": "'\ud83d\udccb Gemini Scheduled Issue Triage'",
+  "source_file": ".github/workflows/gemini-scheduled-triage.yml",
+  "source_repo": "google-github-actions/run-gemini-cli",
+  "source_repo_description": "A GitHub Action invoking the Gemini CLI."
+}

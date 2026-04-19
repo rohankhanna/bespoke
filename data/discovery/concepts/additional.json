@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "Additional"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dask/dask",
+      "status": "candidate-context",
+      "text": "Parallel computing with task scheduling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dask/dask",
+      "status": "candidate-context",
+      "text": "Additional"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dask/dask",
+      "status": "candidate",
+      "text": "Additional"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008202,
+      "status": "candidate",
+      "text": "supplementary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008187,
+      "status": "candidate",
+      "text": "supplemental"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996220,
+      "status": "candidate",
+      "text": "further"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995772,
+      "status": "candidate",
+      "text": "more"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991523,
+      "status": "candidate",
+      "text": "else"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20037,
+      "status": "candidate",
+      "text": "supplementary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19040,
+      "status": "candidate",
+      "text": "further"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13051,
+      "status": "candidate",
+      "text": "extra"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13042,
+      "status": "candidate",
+      "text": "other"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11028,
+      "status": "candidate",
+      "text": "supplemental"
+    }
+  ],
+  "canonical_name": "Additional",
+  "concept_id": "additional",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/additional.yml",
+      "source_repo": "dask/dask"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Additional",
+      "sense_id": "additional#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

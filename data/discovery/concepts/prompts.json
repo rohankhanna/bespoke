@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "prompts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonmosco/kube-ps1",
+      "status": "candidate-context",
+      "text": "Kubernetes prompt info for bash and zsh"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonmosco/kube-ps1",
+      "status": "candidate-context",
+      "text": "![GitHub Release](https://img.shields.io/github/v/release/jonmosco/kube-ps1)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonmosco/kube-ps1",
+      "status": "candidate",
+      "text": "![GitHub Release](https://img.shields.io/github/v/release/jonmosco/kube-ps1)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051154,
+      "status": "candidate",
+      "text": "quick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051129,
+      "status": "candidate",
+      "text": "expeditious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048139,
+      "status": "candidate",
+      "text": "propel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10043165,
+      "status": "candidate",
+      "text": "instigate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10042826,
+      "status": "candidate",
+      "text": "incite"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "prompts",
+  "concept_id": "prompts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "jonmosco/kube-ps1"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "prompts",
+      "sense_id": "prompts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

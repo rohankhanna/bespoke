@@ -4,10 +4,63 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definition_hints": [],
-  "candidate_glosses": [],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Kode Agent \u2014 Design for post-human workflows. One unit agent for every human & computer task."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Version Bump"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Version Bump"
+    }
+  ],
   "candidate_primary_bucket": "workflow-process",
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10655,
+      "status": "candidate",
+      "text": "abridgment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10655,
+      "status": "candidate",
+      "text": "adaptation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10655,
+      "status": "candidate",
+      "text": "banked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10655,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10655,
+      "status": "candidate",
+      "text": "capsule"
+    }
+  ],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -24,15 +77,17 @@
   "definition_status": "unresolved",
   "discovered_via": "workflow-name",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "version-bump",
   "observation_id": "ea4164aa82047820",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-18T12:07:11.500453+00:00",
+  "observed_at": "2026-04-19T17:42:30.117329+00:00",
   "observed_text": "Version Bump",
-  "source_context_snippet": null,
+  "source_context_snippet": "Version Bump",
   "source_file": ".github/workflows/version-bump.yml",
   "source_repo": "shareAI-lab/Kode-Agent",
-  "source_repo_description": null
+  "source_repo_description": "Kode Agent \u2014 Design for post-human workflows. One unit agent for every human & computer task."
 }

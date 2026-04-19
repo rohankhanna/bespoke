@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "ASH Security Scan - Post Comments"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strands-agents/samples",
+      "status": "candidate-context",
+      "text": "Agent samples built using the Strands Agents SDK."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/samples",
+      "status": "candidate-context",
+      "text": "ASH Security Scan - Post Comments"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/samples",
+      "status": "candidate",
+      "text": "ASH Security Scan - Post Comments"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40224,
+      "status": "candidate",
+      "text": "trace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39980,
+      "status": "candidate",
+      "text": "pile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39969,
+      "status": "candidate",
+      "text": "net"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39904,
+      "status": "candidate",
+      "text": "alarm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39842,
+      "status": "candidate",
+      "text": "train"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ASH Security Scan - Post Comments",
+  "concept_id": "ash-security-scan---post-comments",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/ash-pr-comment.yml",
+      "source_repo": "strands-agents/samples"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ASH Security Scan - Post Comments",
+      "sense_id": "ash-security-scan---post-comments#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openai/openai-openapi",
+      "target": "openai-api",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T17:44:40.847082+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 623
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OpenAPI specification for the OpenAI API",
+    "fork": false,
+    "full_name": "openai/openai-openapi",
+    "html_url": "https://github.com/openai/openai-openapi",
+    "language": null,
+    "pushed_at": "2025-06-17T14:47:31Z",
+    "stargazers_count": 2363,
+    "topics": [
+      "openai",
+      "openai-api"
+    ],
+    "updated_at": "2026-04-19T12:25:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The most recent OpenAPI specification for the OpenAI API can be found here:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openai-api"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "component": "DavidAnson/markdownlint-cli2-action@07035fd053f7be764496c0f8d8f9f41f98305101",
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "crytic/slither"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Python Command-Line Ghidra MCP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Pytest PyPI Package Devcontainer Across Versions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Pytest PyPI Package Devcontainer Across Versions"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19627,
+      "status": "candidate",
+      "text": "cover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18871,
+      "status": "candidate",
+      "text": "delta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18871,
+      "status": "candidate",
+      "text": "twelve-tone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18856,
+      "status": "candidate",
+      "text": "everything"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18843,
+      "status": "candidate",
+      "text": "open"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pytest PyPI Package Devcontainer Across Versions",
+      "sense_id": "pytest-pypi-package-devcontainer-across-versions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pytest-pypi-package-devcontainer-across-versions",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pytest-pypi-package-devcontainer-across-versions",
+  "observation_id": "6a6740278d5ae15c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T17:42:30.117329+00:00",
+  "observed_text": "Pytest PyPI Package Devcontainer Across Versions",
+  "source_context_snippet": "Pytest PyPI Package Devcontainer Across Versions",
+  "source_file": ".github/workflows/pytest-devcontainer-pypi-all.yml",
+  "source_repo": "clearbluejar/pyghidra-mcp",
+  "source_repo_description": "Python Command-Line Ghidra MCP"
+}

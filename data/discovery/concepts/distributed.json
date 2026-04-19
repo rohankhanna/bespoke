@@ -7,10 +7,102 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modin-project/modin",
+      "status": "candidate-context",
+      "text": "Modin: Scale your Pandas workflows by changing a single line of code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modin-project/modin",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><a href=\"https://modin.readthedocs.io\"><img width=77% alt=\"\" src=\"https://github.com/modin-project/modin/raw/7c009c747caa90554607e30b9ac2bd1b190b8c7d/docs/img/MODIN_ver2_hrz.png?raw=true\"></a></p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modin-project/modin",
+      "status": "candidate",
+      "text": "<p align=\"center\"><a href=\"https://modin.readthedocs.io\"><img width=77% alt=\"\" src=\"https://github.com/modin-project/modin/raw/7c009c747caa90554607e30b9ac2bd1b190b8c7d/docs/img/MODIN_ver2_hrz.png?raw=true\"></a></p>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51427,
+      "status": "candidate",
+      "text": "apportioned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51427,
+      "status": "candidate",
+      "text": "broadcast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51427,
+      "status": "candidate",
+      "text": "broken"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51427,
+      "status": "candidate",
+      "text": "dealt out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51427,
+      "status": "candidate",
+      "text": "diffuse"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27036,
+      "status": "candidate",
+      "text": "sparse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19055,
+      "status": "candidate",
+      "text": "thin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17046,
+      "status": "candidate",
+      "text": "diffuse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12050,
+      "status": "candidate",
+      "text": "broken"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12023,
+      "status": "candidate",
+      "text": "far-flung"
+    }
+  ],
   "canonical_name": "distributed",
   "concept_id": "distributed",
   "definition_status": "unresolved",
@@ -20,12 +112,20 @@
       "observed_at": "2026-04-18T12:06:06.216548+00:00",
       "source_file": null,
       "source_repo": "Eventual-Inc/Daft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "modin-project/modin"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

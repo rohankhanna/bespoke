@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A GitHub Action invoking the Gemini CLI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'Nightly Evaluations'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'Nightly Evaluations'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10572,
+      "status": "candidate",
+      "text": "ephemerist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10572,
+      "status": "candidate",
+      "text": "lucubrator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10572,
+      "status": "candidate",
+      "text": "lucubratory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10572,
+      "status": "candidate",
+      "text": "midnight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10547,
+      "status": "candidate",
+      "text": "critic"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly Evaluations",
+      "sense_id": "nightly-evaluations#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nightly-evaluations",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nightly-evaluations",
+  "observation_id": "ed4cb5057684ca21",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T17:42:30.117329+00:00",
+  "observed_text": "Nightly Evaluations",
+  "source_context_snippet": "'Nightly Evaluations'",
+  "source_file": ".github/workflows/evals-nightly.yml",
+  "source_repo": "google-github-actions/run-gemini-cli",
+  "source_repo_description": "A GitHub Action invoking the Gemini CLI."
+}

@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Secure Integration test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strands-agents/agent-builder",
+      "status": "candidate-context",
+      "text": "An example agent demonstrating streaming, tool use, and interactivity from your terminal. This agent builder can help you to build your own agents and tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/agent-builder",
+      "status": "candidate-context",
+      "text": "Secure Integration test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strands-agents/evals",
+      "status": "candidate-context",
+      "text": "A comprehensive evaluation framework for AI agents and LLM applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/evals",
+      "status": "candidate-context",
+      "text": "Secure Integration test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/agent-builder",
+      "status": "candidate",
+      "text": "Secure Integration test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/evals",
+      "status": "candidate",
+      "text": "Secure Integration test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26613,
+      "status": "candidate",
+      "text": "downstream"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26456,
+      "status": "candidate",
+      "text": "freedom rider"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18568,
+      "status": "candidate",
+      "text": "coherence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18568,
+      "status": "candidate",
+      "text": "include"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18492,
+      "status": "candidate",
+      "text": "reintegrate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Secure Integration test",
+  "concept_id": "secure-integration-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "strands-agents/agent-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "strands-agents/evals"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Secure Integration test",
+      "sense_id": "secure-integration-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

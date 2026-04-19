@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Strands Command Handler"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strands-agents/evals",
+      "status": "candidate-context",
+      "text": "A comprehensive evaluation framework for AI agents and LLM applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/evals",
+      "status": "candidate-context",
+      "text": "Strands Command Handler"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/evals",
+      "status": "candidate",
+      "text": "Strands Command Handler"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19200,
+      "status": "candidate",
+      "text": "editor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19015,
+      "status": "candidate",
+      "text": "boe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19015,
+      "status": "candidate",
+      "text": "bow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18807,
+      "status": "candidate",
+      "text": "connector"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18807,
+      "status": "candidate",
+      "text": "encephalitis"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Strands Command Handler",
+  "concept_id": "strands-command-handler",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/strands-command.yml",
+      "source_repo": "strands-agents/evals"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Strands Command Handler",
+      "sense_id": "strands-command-handler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

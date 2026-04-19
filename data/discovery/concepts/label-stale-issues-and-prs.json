@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Label stale issues and PRs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dask/dask",
+      "status": "candidate-context",
+      "text": "Parallel computing with task scheduling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dask/dask",
+      "status": "candidate-context",
+      "text": "'Label stale issues and PRs'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dask/dask",
+      "status": "candidate",
+      "text": "'Label stale issues and PRs'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27879,
+      "status": "candidate",
+      "text": "dos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21862,
+      "status": "candidate",
+      "text": "aux cayes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21448,
+      "status": "candidate",
+      "text": "plot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21448,
+      "status": "candidate",
+      "text": "plotted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21448,
+      "status": "candidate",
+      "text": "plotting"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Label stale issues and PRs",
+  "concept_id": "label-stale-issues-and-prs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/stale-bot.yaml",
+      "source_repo": "dask/dask"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Label stale issues and PRs",
+      "sense_id": "label-stale-issues-and-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

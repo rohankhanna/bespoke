@@ -1,0 +1,459 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish.yaml"
+    },
+    {
+      "component": "ko-build/setup-ko@d982fec422852203cfb2053a8ec6ad302280d04d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-fmt.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-fmt.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contracts-tests.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contracts-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-test.yaml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-compose-up-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@f7ce87c1d6bead3e36075b2ce75da1f6cc28aaca",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yaml"
+    },
+    {
+      "component": "docker/login-action@9780b0c442fbb1117ed29e0efdff1e18412f7567",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yaml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml"
+    },
+    {
+      "component": "ko-build/setup-ko@v0.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "target": "maoueh/zap-pretty",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "target": "layr-labs/eigenlayer-contracts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish.yaml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish.yaml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish.yaml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "target": "ko-build/setup-ko@d982fec422852203cfb2053a8ec6ad302280d04d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-publish.yaml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "target": "ko-publish-aggregator-and-operator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-fmt.yml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-fmt.yml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-fmt.yml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "target": "check that make fmt was run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contracts-tests.yml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contracts-tests.yml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "target": "foundry-rs/foundry-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contracts-tests.yml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "target": "contracts-forge-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-test.yaml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/daily-test.yaml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "target": "foundry-rs/foundry-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily-test.yaml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "target": "Daily Build And Test Dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-compose-up-test.yaml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-compose-up-test.yaml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "target": "Docker Compose Up Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yaml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yaml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yaml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "target": "docker/setup-buildx-action@f7ce87c1d6bead3e36075b2ce75da1f6cc28aaca",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yaml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yaml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "target": "docker/login-action@9780b0c442fbb1117ed29e0efdff1e18412f7567",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yaml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "target": "docker-publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "target": "foundry-rs/foundry-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "target": "ko-build/setup-ko@v0.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yaml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-tests.yaml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "target": "End-to-end tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "target": "foundry-rs/foundry-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "target": "integration-tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T17:43:32.183797+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22879
+    },
+    {
+      "path": "go.mod",
+      "size": 5843
+    },
+    {
+      "path": ".github/workflows/build-and-publish.yaml",
+      "size": 1118
+    },
+    {
+      "path": ".github/workflows/check-fmt.yml",
+      "size": 765
+    },
+    {
+      "path": ".github/workflows/contracts-tests.yml",
+      "size": 740
+    },
+    {
+      "path": ".github/workflows/daily-test.yaml",
+      "size": 679
+    },
+    {
+      "path": ".github/workflows/docker-compose-up-test.yaml",
+      "size": 1173
+    },
+    {
+      "path": ".github/workflows/docker-publish.yaml",
+      "size": 1515
+    },
+    {
+      "path": ".github/workflows/e2e-tests.yaml",
+      "size": 2171
+    },
+    {
+      "path": ".github/workflows/integration-tests.yml",
+      "size": 649
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "Basic repo demoing a simple AVS middleware with full eigenlayer integration",
+    "fork": false,
+    "full_name": "Layr-Labs/incredible-squaring-avs",
+    "html_url": "https://github.com/Layr-Labs/incredible-squaring-avs",
+    "language": "Go",
+    "pushed_at": "2025-07-21T15:17:07Z",
+    "stargazers_count": 186,
+    "topics": [],
+    "updated_at": "2026-01-27T11:22:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "layr-labs/eigenlayer-contracts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maoueh/zap-pretty",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ko-publish-aggregator-and-operator",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-publish.yaml",
+      "term": "ko-publish-aggregator-and-operator"
+    },
+    {
+      "context_snippet": "check that make fmt was run",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-fmt.yml",
+      "term": "check that make fmt was run"
+    },
+    {
+      "context_snippet": "contracts-forge-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contracts-tests.yml",
+      "term": "contracts-forge-tests"
+    },
+    {
+      "context_snippet": "Daily Build And Test Dev",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/daily-test.yaml",
+      "term": "Daily Build And Test Dev"
+    },
+    {
+      "context_snippet": "Docker Compose Up Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-compose-up-test.yaml",
+      "term": "Docker Compose Up Test"
+    },
+    {
+      "context_snippet": "docker-publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yaml",
+      "term": "docker-publish"
+    },
+    {
+      "context_snippet": "End-to-end tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-tests.yaml",
+      "term": "End-to-end tests"
+    },
+    {
+      "context_snippet": "integration-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "term": "integration-tests"
+    }
+  ]
+}

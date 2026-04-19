@@ -1,0 +1,486 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-checks.yml"
+    },
+    {
+      "component": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-checks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-checks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-checks.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-checks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "pandas-dev/github-doc-previewer@7a1ea7e96d1a24578ec35eedd4256a7d80c3fef8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-commands.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deprecation-tracking-bot.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docbuild-and-upload.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docbuild-and-upload.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-checks.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-checks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-checks.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@d7c9bd84e824b79d2af72a2d4196c7f4300d3476",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-checks.yml"
+    },
+    {
+      "component": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pandas-dev/pandas",
+      "target": "pandas-dev/.github",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "pandas-dev/pandas",
+      "target": "pyodide/pyodide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "pandas-dev/pandas",
+      "target": "apache/iceberg-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "pandas-dev/pandas",
+      "target": "pytest-dev/pytest-cov",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache-cleanup.yml",
+      "source_repo": "pandas-dev/pandas",
+      "target": "Clean closed branch caches",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-checks.yml",
+      "source_repo": "pandas-dev/pandas",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-checks.yml",
+      "source_repo": "pandas-dev/pandas",
+      "target": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-checks.yml",
+      "source_repo": "pandas-dev/pandas",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-checks.yml",
+      "source_repo": "pandas-dev/pandas",
+      "target": "Code Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "pandas-dev/pandas",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "pandas-dev/pandas",
+      "target": "github/codeql-action/init@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "pandas-dev/pandas",
+      "target": "github/codeql-action/autobuild@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "pandas-dev/pandas",
+      "target": "github/codeql-action/analyze@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "pandas-dev/pandas",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-commands.yml",
+      "source_repo": "pandas-dev/pandas",
+      "target": "pandas-dev/github-doc-previewer@7a1ea7e96d1a24578ec35eedd4256a7d80c3fef8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment-commands.yml",
+      "source_repo": "pandas-dev/pandas",
+      "target": "Comment Commands",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deprecation-tracking-bot.yml",
+      "source_repo": "pandas-dev/pandas",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deprecation-tracking-bot.yml",
+      "source_repo": "pandas-dev/pandas",
+      "target": "Deprecations Bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docbuild-and-upload.yml",
+      "source_repo": "pandas-dev/pandas",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docbuild-and-upload.yml",
+      "source_repo": "pandas-dev/pandas",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docbuild-and-upload.yml",
+      "source_repo": "pandas-dev/pandas",
+      "target": "Doc Build and Upload",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-checks.yml",
+      "source_repo": "pandas-dev/pandas",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-checks.yml",
+      "source_repo": "pandas-dev/pandas",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-checks.yml",
+      "source_repo": "pandas-dev/pandas",
+      "target": "mamba-org/setup-micromamba@d7c9bd84e824b79d2af72a2d4196c7f4300d3476",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package-checks.yml",
+      "source_repo": "pandas-dev/pandas",
+      "target": "Package Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-pr.yml",
+      "source_repo": "pandas-dev/pandas",
+      "target": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-pr.yml",
+      "source_repo": "pandas-dev/pandas",
+      "target": "Stale PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pandas-dev/pandas",
+      "target": "alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pandas-dev/pandas",
+      "target": "data-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pandas-dev/pandas",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pandas-dev/pandas",
+      "target": "flexible",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pandas-dev/pandas",
+      "target": "pandas",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T17:42:58.223924+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11359
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 22282
+    },
+    {
+      "path": ".github/workflows/cache-cleanup.yml",
+      "size": 908
+    },
+    {
+      "path": ".github/workflows/code-checks.yml",
+      "size": 4112
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 914
+    },
+    {
+      "path": ".github/workflows/comment-commands.yml",
+      "size": 592
+    },
+    {
+      "path": ".github/workflows/deprecation-tracking-bot.yml",
+      "size": 2007
+    },
+    {
+      "path": ".github/workflows/docbuild-and-upload.yml",
+      "size": 5536
+    },
+    {
+      "path": ".github/workflows/package-checks.yml",
+      "size": 2624
+    },
+    {
+      "path": ".github/workflows/stale-pr.yml",
+      "size": 993
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more",
+    "fork": false,
+    "full_name": "pandas-dev/pandas",
+    "html_url": "https://github.com/pandas-dev/pandas",
+    "language": "Python",
+    "pushed_at": "2026-04-18T21:42:20Z",
+    "stargazers_count": 48536,
+    "topics": [
+      "alignment",
+      "data-analysis",
+      "data-science",
+      "flexible",
+      "pandas",
+      "python"
+    ],
+    "updated_at": "2026-04-19T15:58:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pandas-dev/.github",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/iceberg-python",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pyodide/pyodide",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytest-dev/pytest-cov",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Clean closed branch caches",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache-cleanup.yml",
+      "term": "Clean closed branch caches"
+    },
+    {
+      "context_snippet": "Code Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-checks.yml",
+      "term": "Code Checks"
+    },
+    {
+      "context_snippet": "CodeQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Comment Commands",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment-commands.yml",
+      "term": "Comment Commands"
+    },
+    {
+      "context_snippet": "Deprecations Bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deprecation-tracking-bot.yml",
+      "term": "Deprecations Bot"
+    },
+    {
+      "context_snippet": "Doc Build and Upload",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docbuild-and-upload.yml",
+      "term": "Doc Build and Upload"
+    },
+    {
+      "context_snippet": "Package Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package-checks.yml",
+      "term": "Package Checks"
+    },
+    {
+      "context_snippet": "\"Stale PRs\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-pr.yml",
+      "term": "Stale PRs"
+    },
+    {
+      "context_snippet": "<picture align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alignment"
+    },
+    {
+      "context_snippet": "<picture align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-analysis"
+    },
+    {
+      "context_snippet": "<picture align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "<picture align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flexible"
+    },
+    {
+      "context_snippet": "<picture align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pandas"
+    }
+  ]
+}

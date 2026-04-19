@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "directories"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dirs-dev/directories-jvm",
+      "status": "candidate-context",
+      "text": "moved to https://codeberg.org/dirs/directories-jvm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dirs-dev/directories-jvm",
+      "status": "candidate-context",
+      "text": "[![Maven Central](https://img.shields.io/maven-central/v/dev.dirs/directories.svg?style=for-the-badge)](https://search.maven.org/#search|gav|1|g%3A%22dev.dirs%22%20AND%20a%3A%22directories%22)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dirs-dev/directories-jvm",
+      "status": "candidate",
+      "text": "[![Maven Central](https://img.shields.io/maven-central/v/dev.dirs/directories.svg?style=for-the-badge)](https://search.maven.org/#search|gav|1|g%3A%22dev.dirs%22%20AND%20a%3A%22directories%22)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51425,
+      "status": "candidate",
+      "text": "boards"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51425,
+      "status": "candidate",
+      "text": "books"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51425,
+      "status": "candidate",
+      "text": "catalogues"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51425,
+      "status": "candidate",
+      "text": "clues"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51425,
+      "status": "candidate",
+      "text": "collections"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "directories",
+  "concept_id": "directories",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "dirs-dev/directories-jvm"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "directories",
+      "sense_id": "directories#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

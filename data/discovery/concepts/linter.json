@@ -16,10 +16,65 @@
       "source_repo": "pinterest/ktlint",
       "status": "candidate-context",
       "text": "An anti-bikeshedding Kotlin linter with built-in formatter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python/mypy",
+      "status": "candidate-context",
+      "text": "Optional static typing for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python/mypy",
+      "status": "candidate-context",
+      "text": "<img src=\"docs/source/mypy_light.svg\" alt=\"mypy logo\" width=\"300px\"/>"
     }
   ],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python/mypy",
+      "status": "candidate",
+      "text": "<img src=\"docs/source/mypy_light.svg\" alt=\"mypy logo\" width=\"300px\"/>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019555,
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019554,
+      "status": "candidate",
+      "text": "slackener"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019553,
+      "status": "candidate",
+      "text": "sliver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019552,
+      "status": "candidate",
+      "text": "sleave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019551,
+      "status": "candidate",
+      "text": "lisle"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Linter",
   "concept_id": "linter",
@@ -48,12 +103,20 @@
       "observed_at": "2026-04-18T13:15:13.756138+00:00",
       "source_file": null,
       "source_repo": "pinterest/ktlint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "python/mypy"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

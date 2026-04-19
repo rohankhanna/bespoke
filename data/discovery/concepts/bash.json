@@ -37,6 +37,30 @@
       "source_repo": "charmbracelet/gum",
       "status": "candidate-context",
       "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonmosco/kube-ps1",
+      "status": "candidate-context",
+      "text": "Kubernetes prompt info for bash and zsh"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonmosco/kube-ps1",
+      "status": "candidate-context",
+      "text": "![GitHub Release](https://img.shields.io/github/v/release/jonmosco/kube-ps1)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "junegunn/fzf",
+      "status": "candidate-context",
+      "text": ":cherry_blossom: A command-line fuzzy finder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junegunn/fzf",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -51,6 +75,18 @@
       "source_repo": "charmbracelet/gum",
       "status": "candidate",
       "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonmosco/kube-ps1",
+      "status": "candidate",
+      "text": "![GitHub Release](https://img.shields.io/github/v/release/jonmosco/kube-ps1)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junegunn/fzf",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -154,11 +190,23 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "charmbracelet/gum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "jonmosco/kube-ps1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "junegunn/fzf"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "lexical_providers": [
     "datamuse"
   ],

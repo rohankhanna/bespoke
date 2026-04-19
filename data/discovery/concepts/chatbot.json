@@ -19,6 +19,18 @@
       "source_repo": "haotian-liu/LLaVA",
       "status": "candidate-context",
       "text": "*Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iOfficeAI/AionUi",
+      "status": "candidate-context",
+      "text": "Free, local, open-source 24/7 Cowork app and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | \ud83c\udf1f Star if you like it!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iOfficeAI/AionUi",
+      "status": "candidate-context",
+      "text": "FROM node:20-slim AS builder WORKDIR /app # Install bun RUN npm install -g bun # Install all dependencies (including devDeps for build) COPY package.json bun.lock ./ COPY patches/ ./patches/ RUN bun install --ignore-scripts # Copy source COPY . . # Build renderer (no Electron ne\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "haotian-liu/LLaVA",
       "status": "candidate",
       "text": "*Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iOfficeAI/AionUi",
+      "status": "candidate",
+      "text": "FROM node:20-slim AS builder WORKDIR /app # Install bun RUN npm install -g bun # Install all dependencies (including devDeps for build) COPY package.json bun.lock ./ COPY patches/ ./patches/ RUN bun install --ignore-scripts # Copy source COPY . . # Build renderer (no Electron ne\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-18T18:30:26.389736+00:00",
       "source_file": null,
       "source_repo": "haotian-liu/LLaVA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "iOfficeAI/AionUi"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "lexical_providers": [
     "datamuse"
   ],

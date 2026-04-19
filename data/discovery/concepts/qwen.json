@@ -13,9 +13,28 @@
       "source_repo": "huggingface/transformers",
       "status": "candidate-context",
       "text": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. "
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "status": "candidate-context",
+      "text": "Web/desktop UI for Gemini CLI/Qwen Code.  Manage projects, switch between tools, search across past conversations, and manage MCP servers, all from one multilingual interface, locally or remotely."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "status": "candidate-context",
+      "text": "<div>"
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "status": "candidate",
+      "text": "<div>"
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "qwen",
@@ -45,12 +64,20 @@
       "observed_at": "2026-04-18T13:15:13.756138+00:00",
       "source_file": null,
       "source_repo": "huggingface/transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "Piebald-AI/gemini-cli-desktop"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

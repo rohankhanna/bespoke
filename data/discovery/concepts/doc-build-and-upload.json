@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Doc Build and Upload"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pandas-dev/pandas",
+      "status": "candidate-context",
+      "text": "Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pandas-dev/pandas",
+      "status": "candidate-context",
+      "text": "Doc Build and Upload"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pandas-dev/pandas",
+      "status": "candidate",
+      "text": "Doc Build and Upload"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22616,
+      "status": "candidate",
+      "text": "clip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22616,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22616,
+      "status": "candidate",
+      "text": "scan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22616,
+      "status": "candidate",
+      "text": "video"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22310,
+      "status": "candidate",
+      "text": "fee"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Doc Build and Upload",
+  "concept_id": "doc-build-and-upload",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/docbuild-and-upload.yml",
+      "source_repo": "pandas-dev/pandas"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Doc Build and Upload",
+      "sense_id": "doc-build-and-upload#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

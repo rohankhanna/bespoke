@@ -1,0 +1,272 @@
+{
+  "components": [
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@commitlint/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@commitlint/config-conventional",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commitlint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/forge-test-intense.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/forge-test-intense.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/storage-report.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/storage-report.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/eigenlayer-middleware",
+      "target": "layr-labs/eigenlayer-contracts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/eigenlayer-middleware",
+      "target": "openzeppelin/openzeppelin-contracts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/eigenlayer-middleware",
+      "target": "layr-labs/eigenda",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Layr-Labs/eigenlayer-middleware",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Layr-Labs/eigenlayer-middleware",
+      "target": "@commitlint/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Layr-Labs/eigenlayer-middleware",
+      "target": "@commitlint/config-conventional",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "Layr-Labs/eigenlayer-middleware",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/forge-test-intense.yml",
+      "source_repo": "Layr-Labs/eigenlayer-middleware",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/forge-test-intense.yml",
+      "source_repo": "Layr-Labs/eigenlayer-middleware",
+      "target": "foundry-rs/foundry-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/forge-test-intense.yml",
+      "source_repo": "Layr-Labs/eigenlayer-middleware",
+      "target": "Forge Test (Intense)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml",
+      "source_repo": "Layr-Labs/eigenlayer-middleware",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml",
+      "source_repo": "Layr-Labs/eigenlayer-middleware",
+      "target": "foundry-rs/foundry-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/foundry.yml",
+      "source_repo": "Layr-Labs/eigenlayer-middleware",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/foundry.yml",
+      "source_repo": "Layr-Labs/eigenlayer-middleware",
+      "target": "Foundry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/storage-report.yml",
+      "source_repo": "Layr-Labs/eigenlayer-middleware",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/storage-report.yml",
+      "source_repo": "Layr-Labs/eigenlayer-middleware",
+      "target": "foundry-rs/foundry-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/storage-report.yml",
+      "source_repo": "Layr-Labs/eigenlayer-middleware",
+      "target": "Storage Layout",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T17:43:29.684077+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13808
+    },
+    {
+      "path": "go.mod",
+      "size": 337
+    },
+    {
+      "path": "package.json",
+      "size": 172
+    },
+    {
+      "path": ".github/workflows/commitlint.yml",
+      "size": 568
+    },
+    {
+      "path": ".github/workflows/forge-test-intense.yml",
+      "size": 1312
+    },
+    {
+      "path": ".github/workflows/foundry.yml",
+      "size": 3970
+    },
+    {
+      "path": ".github/workflows/storage-report.yml",
+      "size": 1126
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": null,
+    "fork": false,
+    "full_name": "Layr-Labs/eigenlayer-middleware",
+    "html_url": "https://github.com/Layr-Labs/eigenlayer-middleware",
+    "language": "Solidity",
+    "pushed_at": "2026-01-08T19:12:11Z",
+    "stargazers_count": 116,
+    "topics": [],
+    "updated_at": "2026-03-20T21:23:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "layr-labs/eigenda",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "layr-labs/eigenlayer-contracts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openzeppelin/openzeppelin-contracts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Forge Test (Intense)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/forge-test-intense.yml",
+      "term": "Forge Test (Intense)"
+    },
+    {
+      "context_snippet": "Foundry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/foundry.yml",
+      "term": "Foundry"
+    },
+    {
+      "context_snippet": "Storage Layout",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/storage-report.yml",
+      "term": "Storage Layout"
+    }
+  ]
+}

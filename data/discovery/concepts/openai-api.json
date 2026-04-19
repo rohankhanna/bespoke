@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "openai-api"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openai/openai-openapi",
+      "status": "candidate-context",
+      "text": "OpenAPI specification for the OpenAI API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/openai-openapi",
+      "status": "candidate-context",
+      "text": "The most recent OpenAPI specification for the OpenAI API can be found here:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/openai-openapi",
+      "status": "candidate",
+      "text": "The most recent OpenAPI specification for the OpenAI API can be found here:"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "openai-api",
+  "concept_id": "openai-api",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "openai/openai-openapi"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "openai-api",
+      "sense_id": "openai-api#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

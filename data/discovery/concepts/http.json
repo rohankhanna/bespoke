@@ -31,6 +31,30 @@
       "source_repo": "seanmonstar/reqwest",
       "status": "candidate-context",
       "text": "[![crates.io](https://img.shields.io/crates/v/reqwest.svg)](https://crates.io/crates/reqwest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aio-libs/aiohttp",
+      "status": "candidate-context",
+      "text": "Asynchronous HTTP client/server framework for asyncio and Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aio-libs/aiohttp",
+      "status": "candidate-context",
+      "text": "=================================="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "encode/httpx",
+      "status": "candidate-context",
+      "text": "A next generation HTTP client for Python. \ud83e\udd8b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "encode/httpx",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "seanmonstar/reqwest",
       "status": "candidate",
       "text": "[![crates.io](https://img.shields.io/crates/v/reqwest.svg)](https://crates.io/crates/reqwest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aio-libs/aiohttp",
+      "status": "candidate",
+      "text": "=================================="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "encode/httpx",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -108,11 +144,23 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "seanmonstar/reqwest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "aio-libs/aiohttp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "encode/httpx"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "lexical_providers": [
     "datamuse"
   ],

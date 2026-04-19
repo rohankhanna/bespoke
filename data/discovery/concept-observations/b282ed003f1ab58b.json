@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A comprehensive evaluation framework for AI agents and LLM applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Strands Command Handler"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Strands Command Handler"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19200,
+      "status": "candidate",
+      "text": "editor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19015,
+      "status": "candidate",
+      "text": "boe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19015,
+      "status": "candidate",
+      "text": "bow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18807,
+      "status": "candidate",
+      "text": "connector"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18807,
+      "status": "candidate",
+      "text": "encephalitis"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Strands Command Handler",
+      "sense_id": "strands-command-handler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "strands-command-handler",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "strands-command-handler",
+  "observation_id": "b282ed003f1ab58b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T17:42:30.117329+00:00",
+  "observed_text": "Strands Command Handler",
+  "source_context_snippet": "Strands Command Handler",
+  "source_file": ".github/workflows/strands-command.yml",
+  "source_repo": "strands-agents/evals",
+  "source_repo_description": "A comprehensive evaluation framework for AI agents and LLM applications."
+}

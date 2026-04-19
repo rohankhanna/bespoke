@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Close Stale Issues"
+    "Close Stale Issues",
+    "Close stale issues"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,18 @@
       "source_repo": "libp2p/specs",
       "status": "candidate-context",
       "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aio-libs/aiohttp",
+      "status": "candidate-context",
+      "text": "Asynchronous HTTP client/server framework for asyncio and Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aio-libs/aiohttp",
+      "status": "candidate-context",
+      "text": "'Close stale issues'"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +58,12 @@
       "source_repo": "libp2p/specs",
       "status": "candidate",
       "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aio-libs/aiohttp",
+      "status": "candidate",
+      "text": "'Close stale issues'"
     }
   ],
   "candidate_related_terms": [
@@ -106,11 +125,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "libp2p/specs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "aio-libs/aiohttp"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "\ud83e\uddd9 Gemini Plan Execution"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "status": "candidate-context",
+      "text": "A GitHub Action invoking the Gemini CLI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "status": "candidate-context",
+      "text": "'\ud83e\uddd9 Gemini Plan Execution'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "status": "candidate",
+      "text": "'\ud83e\uddd9 Gemini Plan Execution'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26214,
+      "status": "candidate",
+      "text": "move"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25814,
+      "status": "candidate",
+      "text": "moves"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25814,
+      "status": "candidate",
+      "text": "pursuance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25769,
+      "status": "candidate",
+      "text": "crude"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25769,
+      "status": "candidate",
+      "text": "forecast"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "\ud83e\uddd9 Gemini Plan Execution",
+  "concept_id": "gemini-plan-execution",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/gemini-plan-execute.yml",
+      "source_repo": "google-github-actions/run-gemini-cli"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83e\uddd9 Gemini Plan Execution",
+      "sense_id": "gemini-plan-execution#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eigenfoundation/ELIPs",
+      "target": "layr-labs/eigenlayer-contracts",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-19T17:42:30.117329+00:00",
+  "source_repo": "eigenfoundation/ELIPs"
+}

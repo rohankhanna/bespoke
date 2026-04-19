@@ -43,6 +43,66 @@
       "source_repo": "agents-squads/squads-cli",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/crush",
+      "status": "candidate-context",
+      "text": "Glamourous agentic coding for all \ud83d\udc98"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/crush",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strands-agents/agent-builder",
+      "status": "candidate-context",
+      "text": "An example agent demonstrating streaming, tool use, and interactivity from your terminal. This agent builder can help you to build your own agents and tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/agent-builder",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strands-agents/evals",
+      "status": "candidate-context",
+      "text": "A comprehensive evaluation framework for AI agents and LLM applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/evals",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strands-agents/mcp-server",
+      "status": "candidate-context",
+      "text": "This MCP server provides documentation about Strands Agents to your GenAI tools, so you can use your favorite AI coding assistant to vibe-code Strands Agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/mcp-server",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strands-agents/samples",
+      "status": "candidate-context",
+      "text": "Agent samples built using the Strands Agents SDK."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/samples",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +121,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "agents-squads/squads-cli",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/crush",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/agent-builder",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/evals",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/mcp-server",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/samples",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -112,11 +202,41 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "agents-squads/squads-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "charmbracelet/crush"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "strands-agents/agent-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "strands-agents/evals"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "strands-agents/mcp-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "strands-agents/samples"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "lexical_providers": [
     "datamuse"
   ],

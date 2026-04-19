@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "\ud83d\udccb Gemini Scheduled Issue Triage"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "status": "candidate-context",
+      "text": "A GitHub Action invoking the Gemini CLI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "status": "candidate-context",
+      "text": "'\ud83d\udccb Gemini Scheduled Issue Triage'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "status": "candidate-context",
+      "text": "GenMedia Creative Studio is a Vertex AI generative media user experience highlighting the use of Imagen, Veo, Gemini \ud83c\udf4c, Gemini TTS, Chirp 3, Lyria and other generative media APIs on Google Cloud."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "status": "candidate-context",
+      "text": "'\ud83d\udccb Gemini Scheduled Issue Triage'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-github-actions/run-gemini-cli",
+      "status": "candidate",
+      "text": "'\ud83d\udccb Gemini Scheduled Issue Triage'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "status": "candidate",
+      "text": "'\ud83d\udccb Gemini Scheduled Issue Triage'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33069,
+      "status": "candidate",
+      "text": "split"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33069,
+      "status": "candidate",
+      "text": "splits"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33069,
+      "status": "candidate",
+      "text": "splitting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33020,
+      "status": "candidate",
+      "text": "perspective"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33020,
+      "status": "candidate",
+      "text": "resolution"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "\ud83d\udccb Gemini Scheduled Issue Triage",
+  "concept_id": "gemini-scheduled-issue-triage",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/gemini-scheduled-triage.yml",
+      "source_repo": "google-github-actions/run-gemini-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/gemini-scheduled-triage.yml",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83d\udccb Gemini Scheduled Issue Triage",
+      "sense_id": "gemini-scheduled-issue-triage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

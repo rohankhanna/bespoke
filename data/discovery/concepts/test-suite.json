@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Suite"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "encode/httpx",
+      "status": "candidate-context",
+      "text": "A next generation HTTP client for Python. \ud83e\udd8b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "encode/httpx",
+      "status": "candidate-context",
+      "text": "Test Suite"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "encode/httpx",
+      "status": "candidate",
+      "text": "Test Suite"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20006482,
+      "status": "candidate",
+      "text": "test case"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20006481,
+      "status": "candidate",
+      "text": "test harness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20006480,
+      "status": "candidate",
+      "text": "validation suite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20006479,
+      "status": "candidate",
+      "text": "unit test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20006478,
+      "status": "candidate",
+      "text": "test bench"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Suite",
+  "concept_id": "test-suite",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/test-suite.yml",
+      "source_repo": "encode/httpx"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Suite",
+      "sense_id": "test-suite#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -19,6 +19,42 @@
       "source_repo": "open-telemetry/opentelemetry-collector-releases",
       "status": "candidate-context",
       "text": "> :warning: **Important note:** Git tags in this repository may change at any time to fix any issues found during a release. They are only meant to trigger Github releases and should not be relied upon."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strands-agents/agent-builder",
+      "status": "candidate-context",
+      "text": "An example agent demonstrating streaming, tool use, and interactivity from your terminal. This agent builder can help you to build your own agents and tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/agent-builder",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strands-agents/mcp-server",
+      "status": "candidate-context",
+      "text": "This MCP server provides documentation about Strands Agents to your GenAI tools, so you can use your favorite AI coding assistant to vibe-code Strands Agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/mcp-server",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strands-agents/samples",
+      "status": "candidate-context",
+      "text": "Agent samples built using the Strands Agents SDK."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/samples",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "open-telemetry/opentelemetry-collector-releases",
       "status": "candidate",
       "text": "> :warning: **Important note:** Git tags in this repository may change at any time to fix any issues found during a release. They are only meant to trigger Github releases and should not be relied upon."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/agent-builder",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/mcp-server",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/samples",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-04-19T01:08:57.644140+00:00",
       "source_file": null,
       "source_repo": "open-telemetry/opentelemetry-collector-releases"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "strands-agents/agent-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "strands-agents/mcp-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "strands-agents/samples"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "lexical_providers": [
     "datamuse"
   ],

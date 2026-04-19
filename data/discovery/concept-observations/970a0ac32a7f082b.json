@@ -111,6 +111,7 @@
   ],
   "concept_id": "learning",
   "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
   "gloss_status": "unresolved",
   "lexical_providers": [
     "datamuse"

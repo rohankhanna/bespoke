@@ -1,0 +1,37 @@
+{
+  "component": "astral-sh/setup-uv@61cb8a9741eeb8a550a1b8544337180c0fc8476b",
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "crytic/slither"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "crytic/slither"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doctor.yml",
+      "source_repo": "crytic/slither"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "crytic/slither"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pip-audit.yml",
+      "source_repo": "crytic/slither"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "crytic/slither"
+    }
+  ]
+}

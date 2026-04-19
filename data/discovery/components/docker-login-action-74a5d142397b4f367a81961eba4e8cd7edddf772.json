@@ -1,0 +1,12 @@
+{
+  "component": "docker/login-action@74a5d142397b4f367a81961eba4e8cd7edddf772",
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp"
+    }
+  ]
+}

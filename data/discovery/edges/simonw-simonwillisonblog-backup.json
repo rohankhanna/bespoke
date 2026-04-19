@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simonw/simonwillisonblog-backup",
+      "target": "simonw/db-to-sqlite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backup.yml",
+      "source_repo": "simonw/simonwillisonblog-backup",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backup.yml",
+      "source_repo": "simonw/simonwillisonblog-backup",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backup.yml",
+      "source_repo": "simonw/simonwillisonblog-backup",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backup.yml",
+      "source_repo": "simonw/simonwillisonblog-backup",
+      "target": "Back up my blog database",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-19T17:42:30.117329+00:00",
+  "source_repo": "simonw/simonwillisonblog-backup"
+}

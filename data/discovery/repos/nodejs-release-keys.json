@@ -1,0 +1,93 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-key-signature.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nodejs/release-keys",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nodejs/release-keys",
+      "target": "Linters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-key-signature.yml",
+      "source_repo": "nodejs/release-keys",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-key-signature.yml",
+      "source_repo": "nodejs/release-keys",
+      "target": "Verify commit signature on key files",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T17:44:17.822845+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5925
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 5228
+    },
+    {
+      "path": ".github/workflows/verify-key-signature.yml",
+      "size": 1235
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Node.js release signing keys.",
+    "fork": false,
+    "full_name": "nodejs/release-keys",
+    "html_url": "https://github.com/nodejs/release-keys",
+    "language": "Shell",
+    "pushed_at": "2026-03-10T18:37:37Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2026-03-10T18:37:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Linters",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Linters"
+    },
+    {
+      "context_snippet": "Verify commit signature on key files",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-key-signature.yml",
+      "term": "Verify commit signature on key files"
+    }
+  ]
+}

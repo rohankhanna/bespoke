@@ -1,12 +1,17 @@
 {
   "component": "amannn/action-semantic-pull-request@v6",
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
-  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "compozy/kb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "strands-agents/evals"
     }
   ]
 }

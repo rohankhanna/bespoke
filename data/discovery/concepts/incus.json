@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "incus"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abiosoft/colima",
+      "status": "candidate-context",
+      "text": "Container runtimes on macOS (and Linux) with minimal setup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abiosoft/colima",
+      "status": "candidate-context",
+      "text": "![colima-logo](colima.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abiosoft/colima",
+      "status": "candidate",
+      "text": "![colima-logo](colima.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29721604,
+      "status": "candidate",
+      "text": "anvil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10028254,
+      "status": "candidate",
+      "text": "uncus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10028253,
+      "status": "candidate",
+      "text": "incisure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10028252,
+      "status": "candidate",
+      "text": "conid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10028251,
+      "status": "candidate",
+      "text": "cuspule"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8052,
+      "status": "candidate",
+      "text": "anvil"
+    }
+  ],
+  "canonical_name": "incus",
+  "concept_id": "incus",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "abiosoft/colima"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "incus",
+      "sense_id": "incus#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

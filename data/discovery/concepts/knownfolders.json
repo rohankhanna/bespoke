@@ -7,8 +7,46 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dirs-dev/directories-rs",
+      "status": "candidate-context",
+      "text": "moved to https://codeberg.org/dirs/directories-rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dirs-dev/directories-rs",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/v/directories.svg?style=for-the-badge)](https://crates.io/crates/directories)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dirs-dev/dirs-rs",
+      "status": "candidate-context",
+      "text": "moved to https://codeberg.org/dirs/dirs-rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dirs-dev/dirs-rs",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/v/dirs.svg?style=for-the-badge)](https://crates.io/crates/dirs)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dirs-dev/directories-rs",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/directories.svg?style=for-the-badge)](https://crates.io/crates/directories)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dirs-dev/dirs-rs",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/dirs.svg?style=for-the-badge)](https://crates.io/crates/dirs)"
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "knownfolders",
@@ -20,12 +58,26 @@
       "observed_at": "2026-04-18T12:07:11.500453+00:00",
       "source_file": null,
       "source_repo": "dirs-dev/dirs-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "dirs-dev/directories-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "dirs-dev/dirs-rs"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

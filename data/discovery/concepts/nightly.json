@@ -19,12 +19,30 @@
       "source_repo": "charmbracelet/gum",
       "status": "candidate-context",
       "text": "nightly"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/crush",
+      "status": "candidate-context",
+      "text": "Glamourous agentic coding for all \ud83d\udc98"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/crush",
+      "status": "candidate-context",
+      "text": "nightly"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "charmbracelet/gum",
+      "status": "candidate",
+      "text": "nightly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/crush",
       "status": "candidate",
       "text": "nightly"
     }
@@ -91,11 +109,17 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "charmbracelet/gum"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "charmbracelet/crush"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "lexical_providers": [
     "datamuse"
   ],

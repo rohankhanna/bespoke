@@ -1,0 +1,12 @@
+{
+  "component": "bufbuild/buf-setup-action@a47c93e0b1648d5651a065437926377d060baa99",
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "apache/spark"
+    }
+  ]
+}

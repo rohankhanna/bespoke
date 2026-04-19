@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Basic repo demoing a simple AVS middleware with full eigenlayer integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "contracts-forge-tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "contracts-forge-tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "contracts-forge-tests",
+      "sense_id": "contracts-forge-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "contracts-forge-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "contracts-forge-tests",
+  "observation_id": "b7072ec95062eca7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T17:42:30.117329+00:00",
+  "observed_text": "contracts-forge-tests",
+  "source_context_snippet": "contracts-forge-tests",
+  "source_file": ".github/workflows/contracts-tests.yml",
+  "source_repo": "Layr-Labs/incredible-squaring-avs",
+  "source_repo_description": "Basic repo demoing a simple AVS middleware with full eigenlayer integration"
+}

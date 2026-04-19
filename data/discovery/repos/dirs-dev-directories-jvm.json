@@ -1,0 +1,157 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dirs-dev/directories-jvm",
+      "target": "dirs-dev/directories-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dirs-dev/directories-jvm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dirs-dev/directories-jvm",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dirs-dev/directories-jvm",
+      "target": "Linux build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dirs-dev/directories-jvm",
+      "target": "directories",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dirs-dev/directories-jvm",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dirs-dev/directories-jvm",
+      "target": "standards",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dirs-dev/directories-jvm",
+      "target": "xdg-basedir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dirs-dev/directories-jvm",
+      "target": "xdg-user-dirs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T17:45:01.831129+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18464
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 466
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "moved to https://codeberg.org/dirs/directories-jvm",
+    "fork": false,
+    "full_name": "dirs-dev/directories-jvm",
+    "html_url": "https://github.com/dirs-dev/directories-jvm",
+    "language": "Java",
+    "pushed_at": "2024-11-07T22:30:26Z",
+    "stargazers_count": 253,
+    "topics": [
+      "directories",
+      "java",
+      "jvm",
+      "standards",
+      "xdg",
+      "xdg-basedir",
+      "xdg-user-dirs"
+    ],
+    "updated_at": "2026-02-17T09:49:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dirs-dev/directories-rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Linux build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Linux build"
+    },
+    {
+      "context_snippet": "[![Maven Central](https://img.shields.io/maven-central/v/dev.dirs/directories.svg?style=for-the-badge)](https://search.maven.org/#search|gav|1|g%3A%22dev.dirs%22%20AND%20a%3A%22directories%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "directories"
+    },
+    {
+      "context_snippet": "[![Maven Central](https://img.shields.io/maven-central/v/dev.dirs/directories.svg?style=for-the-badge)](https://search.maven.org/#search|gav|1|g%3A%22dev.dirs%22%20AND%20a%3A%22directories%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![Maven Central](https://img.shields.io/maven-central/v/dev.dirs/directories.svg?style=for-the-badge)](https://search.maven.org/#search|gav|1|g%3A%22dev.dirs%22%20AND%20a%3A%22directories%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standards"
+    },
+    {
+      "context_snippet": "[![Maven Central](https://img.shields.io/maven-central/v/dev.dirs/directories.svg?style=for-the-badge)](https://search.maven.org/#search|gav|1|g%3A%22dev.dirs%22%20AND%20a%3A%22directories%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xdg-basedir"
+    },
+    {
+      "context_snippet": "[![Maven Central](https://img.shields.io/maven-central/v/dev.dirs/directories.svg?style=for-the-badge)](https://search.maven.org/#search|gav|1|g%3A%22dev.dirs%22%20AND%20a%3A%22directories%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xdg-user-dirs"
+    }
+  ]
+}

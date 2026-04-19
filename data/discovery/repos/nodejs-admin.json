@@ -1,0 +1,137 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linters.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nodejs/admin",
+      "target": "nodejs/tsc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nodejs/admin",
+      "target": "nodejs/getting-started",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nodejs/admin",
+      "target": "1password/1password-teams-open-source",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nodejs/admin",
+      "target": "nodejs/web-team",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linters.yml",
+      "source_repo": "nodejs/admin",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linters.yml",
+      "source_repo": "nodejs/admin",
+      "target": "Linters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodejs/admin",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nodejs/admin",
+      "target": "nodejs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T17:44:15.742277+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4565
+    },
+    {
+      "path": ".github/workflows/linters.yml",
+      "size": 880
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Administrative space for policies of the TSC",
+    "fork": false,
+    "full_name": "nodejs/admin",
+    "html_url": "https://github.com/nodejs/admin",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-26T21:53:22Z",
+    "stargazers_count": 188,
+    "topics": [
+      "node",
+      "nodejs"
+    ],
+    "updated_at": "2026-04-09T14:47:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "1password/1password-teams-open-source",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nodejs/getting-started",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nodejs/tsc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nodejs/web-team",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Linters",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linters.yml",
+      "term": "Linters"
+    },
+    {
+      "context_snippet": "This repository is formal efforts of the Node.js project that are overseen by the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node"
+    },
+    {
+      "context_snippet": "This repository is formal efforts of the Node.js project that are overseen by the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    }
+  ]
+}

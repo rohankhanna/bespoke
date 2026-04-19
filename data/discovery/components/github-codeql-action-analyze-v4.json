@@ -1,7 +1,7 @@
 {
   "component": "github/codeql-action/analyze@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -47,6 +47,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/code-scanning.yml",
       "source_repo": "pinterest/ktlint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "junegunn/fzf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aio-libs/aiohttp"
     }
   ]
 }

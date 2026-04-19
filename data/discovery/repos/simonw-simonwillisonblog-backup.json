@@ -1,0 +1,115 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backup.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backup.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backup.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backup.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backup.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backup.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "simonw/simonwillisonblog-backup",
+      "target": "simonw/db-to-sqlite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backup.yml",
+      "source_repo": "simonw/simonwillisonblog-backup",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backup.yml",
+      "source_repo": "simonw/simonwillisonblog-backup",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backup.yml",
+      "source_repo": "simonw/simonwillisonblog-backup",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backup.yml",
+      "source_repo": "simonw/simonwillisonblog-backup",
+      "target": "Back up my blog database",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T17:43:47.633401+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 538
+    },
+    {
+      "path": "requirements.txt",
+      "size": 163
+    },
+    {
+      "path": ".github/workflows/backup.yml",
+      "size": 9402
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Backups of the database for simonwillison.net",
+    "fork": false,
+    "full_name": "simonw/simonwillisonblog-backup",
+    "html_url": "https://github.com/simonw/simonwillisonblog-backup",
+    "language": null,
+    "pushed_at": "2026-04-19T01:07:00Z",
+    "stargazers_count": 44,
+    "topics": [],
+    "updated_at": "2026-04-19T07:38:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "simonw/db-to-sqlite",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Back up my blog database",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backup.yml",
+      "term": "Back up my blog database"
+    }
+  ]
+}

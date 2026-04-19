@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Initiate new vote"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/TSC",
+      "status": "candidate-context",
+      "text": "The Node.js Technical Steering Committee"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/TSC",
+      "status": "candidate-context",
+      "text": "Initiate new vote"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/TSC",
+      "status": "candidate",
+      "text": "Initiate new vote"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37112,
+      "status": "candidate",
+      "text": "original"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29000,
+      "status": "candidate",
+      "text": "induct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26076,
+      "status": "candidate",
+      "text": "co-optation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26076,
+      "status": "candidate",
+      "text": "co-option"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22317,
+      "status": "candidate",
+      "text": "move"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Initiate new vote",
+  "concept_id": "initiate-new-vote",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/initiateNewVote.yml",
+      "source_repo": "nodejs/TSC"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Initiate new vote",
+      "sense_id": "initiate-new-vote#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

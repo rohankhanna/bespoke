@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Verify commit signature on key files"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/release-keys",
+      "status": "candidate-context",
+      "text": "Node.js release signing keys."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/release-keys",
+      "status": "candidate-context",
+      "text": "Verify commit signature on key files"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/release-keys",
+      "status": "candidate",
+      "text": "Verify commit signature on key files"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42418,
+      "status": "candidate",
+      "text": "delete"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42348,
+      "status": "candidate",
+      "text": "flat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39685,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39646,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39423,
+      "status": "candidate",
+      "text": "card"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Verify commit signature on key files",
+  "concept_id": "verify-commit-signature-on-key-files",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/verify-key-signature.yml",
+      "source_repo": "nodejs/release-keys"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Verify commit signature on key files",
+      "sense_id": "verify-commit-signature-on-key-files#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

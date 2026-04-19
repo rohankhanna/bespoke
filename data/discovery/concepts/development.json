@@ -7,10 +7,102 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "status": "candidate-context",
+      "text": "Web/desktop UI for Gemini CLI/Qwen Code.  Manage projects, switch between tools, search across past conversations, and manage MCP servers, all from one multilingual interface, locally or remotely."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "status": "candidate-context",
+      "text": "<div>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Piebald-AI/gemini-cli-desktop",
+      "status": "candidate",
+      "text": "<div>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39958217,
+      "status": "candidate",
+      "text": "developing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39954122,
+      "status": "candidate",
+      "text": "growing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39954102,
+      "status": "candidate",
+      "text": "growth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39936255,
+      "status": "candidate",
+      "text": "exploitation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39930898,
+      "status": "candidate",
+      "text": "evolution"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20054,
+      "status": "candidate",
+      "text": "growth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17036,
+      "status": "candidate",
+      "text": "exploitation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14069,
+      "status": "candidate",
+      "text": "evolution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11032,
+      "status": "candidate",
+      "text": "developing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11023,
+      "status": "candidate",
+      "text": "ontogenesis"
+    }
+  ],
   "canonical_name": "development",
   "concept_id": "development",
   "definition_status": "unresolved",
@@ -20,12 +112,20 @@
       "observed_at": "2026-04-18T11:57:36.597358+00:00",
       "source_file": null,
       "source_repo": "github/spec-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "Piebald-AI/gemini-cli-desktop"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

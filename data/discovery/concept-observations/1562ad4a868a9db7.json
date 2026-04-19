@@ -4,8 +4,25 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definition_hints": [],
-  "candidate_glosses": [],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "moved to https://codeberg.org/dirs/dirs-rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![crates.io](https://img.shields.io/crates/v/dirs.svg?style=for-the-badge)](https://crates.io/crates/dirs)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/dirs.svg?style=for-the-badge)](https://crates.io/crates/dirs)"
+    }
+  ],
   "candidate_primary_bucket": "tool-component",
   "candidate_related_terms": [],
   "candidate_senses": [
@@ -24,15 +41,17 @@
   "definition_status": "unresolved",
   "discovered_via": "repo-topic",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "xdg-basedir",
   "observation_id": "1562ad4a868a9db7",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-18T12:07:11.500453+00:00",
+  "observed_at": "2026-04-19T17:42:30.117329+00:00",
   "observed_text": "xdg-basedir",
-  "source_context_snippet": null,
+  "source_context_snippet": "[![crates.io](https://img.shields.io/crates/v/dirs.svg?style=for-the-badge)](https://crates.io/crates/dirs)",
   "source_file": null,
   "source_repo": "dirs-dev/dirs-rs",
-  "source_repo_description": null
+  "source_repo_description": "moved to https://codeberg.org/dirs/dirs-rs"
 }

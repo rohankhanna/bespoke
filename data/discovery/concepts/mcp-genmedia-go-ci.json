@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "MCP GenMedia Go CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "status": "candidate-context",
+      "text": "GenMedia Creative Studio is a Vertex AI generative media user experience highlighting the use of Imagen, Veo, Gemini \ud83c\udf4c, Gemini TTS, Chirp 3, Lyria and other generative media APIs on Google Cloud."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "status": "candidate-context",
+      "text": "MCP GenMedia Go CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "status": "candidate",
+      "text": "MCP GenMedia Go CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16054,
+      "status": "candidate",
+      "text": "ci-devant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14324,
+      "status": "candidate",
+      "text": "aries"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14324,
+      "status": "candidate",
+      "text": "broke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14324,
+      "status": "candidate",
+      "text": "catch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14324,
+      "status": "candidate",
+      "text": "click"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "MCP GenMedia Go CI",
+  "concept_id": "mcp-genmedia-go-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/mcp-genmedia-go.yml",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "MCP GenMedia Go CI",
+      "sense_id": "mcp-genmedia-go-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

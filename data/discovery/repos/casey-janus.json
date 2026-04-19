@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "casey/janus",
+      "target": "rust-lang-nursery/crater",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-19T17:42:32.468609+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 690
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 582
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83e\uddd0Justfile ecosystem analysis tool",
+    "fork": false,
+    "full_name": "casey/janus",
+    "html_url": "https://github.com/casey/janus",
+    "language": "Rust",
+    "pushed_at": "2024-05-25T03:27:38Z",
+    "stargazers_count": 34,
+    "topics": [],
+    "updated_at": "2025-11-12T19:44:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-lang-nursery/crater",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

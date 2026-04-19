@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "trio"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "encode/httpx",
+      "status": "candidate-context",
+      "text": "A next generation HTTP client for Python. \ud83e\udd8b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "encode/httpx",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "encode/httpx",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995230,
+      "status": "candidate",
+      "text": "trinity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995225,
+      "status": "candidate",
+      "text": "triad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995188,
+      "status": "candidate",
+      "text": "threesome"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995172,
+      "status": "candidate",
+      "text": "three"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995168,
+      "status": "candidate",
+      "text": "trine"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14029,
+      "status": "candidate",
+      "text": "troika"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14028,
+      "status": "candidate",
+      "text": "trine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11034,
+      "status": "candidate",
+      "text": "ternary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10029,
+      "status": "candidate",
+      "text": "tercet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8021,
+      "status": "candidate",
+      "text": "ternion"
+    }
+  ],
+  "canonical_name": "trio",
+  "concept_id": "trio",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "encode/httpx"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "trio",
+      "sense_id": "trio#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

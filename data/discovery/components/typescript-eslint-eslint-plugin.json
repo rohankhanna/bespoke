@@ -1,7 +1,7 @@
 {
   "component": "@typescript-eslint/eslint-plugin",
   "first_seen_at": "2026-04-18T02:41:24.975901+00:00",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "sources": [
     {
       "discovered_via": "package-json:devDependencies",

@@ -7,8 +7,28 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "npm/rfcs",
+      "status": "candidate-context",
+      "text": "Public change requests/proposals & ideation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/rfcs",
+      "status": "candidate-context",
+      "text": "This document describes the RFC process for the [npm"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/rfcs",
+      "status": "candidate",
+      "text": "This document describes the RFC process for the [npm"
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "npm-cli",
@@ -20,12 +40,20 @@
       "observed_at": "2026-04-18T12:07:11.500453+00:00",
       "source_file": null,
       "source_repo": "npm/cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "npm/rfcs"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Agent samples built using the Strands Agents SDK."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ASH Security Scan - Post Comments"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ASH Security Scan - Post Comments"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40224,
+      "status": "candidate",
+      "text": "trace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39980,
+      "status": "candidate",
+      "text": "pile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39969,
+      "status": "candidate",
+      "text": "net"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39904,
+      "status": "candidate",
+      "text": "alarm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39842,
+      "status": "candidate",
+      "text": "train"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ASH Security Scan - Post Comments",
+      "sense_id": "ash-security-scan---post-comments#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ash-security-scan---post-comments",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ash-security-scan---post-comments",
+  "observation_id": "65e866a7037247d6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T17:42:30.117329+00:00",
+  "observed_text": "ASH Security Scan - Post Comments",
+  "source_context_snippet": "ASH Security Scan - Post Comments",
+  "source_file": ".github/workflows/ash-pr-comment.yml",
+  "source_repo": "strands-agents/samples",
+  "source_repo_description": "Agent samples built using the Strands Agents SDK."
+}

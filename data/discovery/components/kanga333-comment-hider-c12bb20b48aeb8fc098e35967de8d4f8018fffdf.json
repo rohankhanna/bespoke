@@ -1,12 +1,17 @@
 {
   "component": "kanga333/comment-hider@c12bb20b48aeb8fc098e35967de8d4f8018fffdf",
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
-  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/mypy_primer_comment.yaml",
       "source_repo": "microsoft/pyright"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mypy_primer_comment.yml",
+      "source_repo": "python/mypy"
     }
   ]
 }

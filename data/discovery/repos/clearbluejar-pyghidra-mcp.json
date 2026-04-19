@@ -1,0 +1,590 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@74a5d142397b4f367a81961eba4e8cd7edddf772",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@74a5d142397b4f367a81961eba4e8cd7edddf772",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/metadata-action@902fa8ec7d6ecbf8d84d538b9b233a880e428804",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@29109295f81e9208d7d86ff1c6c12d2833863392",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@b5ca514318bd6ebac0fb2aedd5d36ec1b5c232a2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@471d1dc4e07e5cdedd4c2171150001c434f0b7a4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@c074443f1aee8d4aeeae555aebba3282517141b2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/attest-build-provenance@c074443f1aee8d4aeeae555aebba3282517141b2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "astral-sh/ruff-action@v3.5.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-pypi-all.yml"
+    },
+    {
+      "component": "devcontainers/ci@v0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-pypi-all.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-pypi-all.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-pypi-all.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-pypi-cli.yml"
+    },
+    {
+      "component": "devcontainers/ci@v0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-pypi-cli.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-pypi-cli.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-all.yml"
+    },
+    {
+      "component": "devcontainers/ci@v0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-all.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-all.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-all.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-all.yml"
+    },
+    {
+      "component": "devcontainers/ci@v0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-all.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-all.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-all.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-all.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-all.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-all.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-all.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-all.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-cli.yml"
+    },
+    {
+      "component": "devcontainers/ci@v0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-cli.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-cli.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-cli.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-cli.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-cli.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-cli.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-cli.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-cli.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-cli.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-cli.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "lauriewired/ghidramcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "modelcontextprotocol/python-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "clearbluejar/ghidrecomp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "jtang613/binassistmcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "docker/login-action@74a5d142397b4f367a81961eba4e8cd7edddf772",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "docker/metadata-action@902fa8ec7d6ecbf8d84d538b9b233a880e428804",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "docker/setup-qemu-action@29109295f81e9208d7d86ff1c6c12d2833863392",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "docker/setup-buildx-action@b5ca514318bd6ebac0fb2aedd5d36ec1b5c232a2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "docker/build-push-action@471d1dc4e07e5cdedd4c2171150001c434f0b7a4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "actions/attest-build-provenance@c074443f1aee8d4aeeae555aebba3282517141b2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "Create and publish a Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "astral-sh/ruff-action@v3.5.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-pypi-all.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-pypi-all.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "devcontainers/ci@v0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-pypi-all.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest-devcontainer-pypi-all.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "Pytest PyPI Package Devcontainer Across Versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-pypi-cli.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-pypi-cli.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "devcontainers/ci@v0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-pypi-cli.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-all.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-all.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "devcontainers/ci@v0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-all.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-all.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-all.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-all.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-all.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "Pytest Local Repo Devcontainer Across Versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-cli.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-cli.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "devcontainers/ci@v0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-cli.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-cli.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-cli.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-cli.yml",
+      "source_repo": "clearbluejar/pyghidra-mcp",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-19T17:44:02.661603+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31071
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1296
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2579
+    },
+    {
+      "path": ".github/workflows/devcontainer.json",
+      "size": 517
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 3427
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 824
+    },
+    {
+      "path": ".github/workflows/pytest-devcontainer-pypi-all.yml",
+      "size": 2358
+    },
+    {
+      "path": ".github/workflows/pytest-devcontainer-pypi-cli.yml",
+      "size": 2246
+    },
+    {
+      "path": ".github/workflows/pytest-devcontainer-repo-all.yml",
+      "size": 10626
+    },
+    {
+      "path": ".github/workflows/pytest-devcontainer-repo-cli.yml",
+      "size": 9699
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Python Command-Line Ghidra MCP",
+    "fork": false,
+    "full_name": "clearbluejar/pyghidra-mcp",
+    "html_url": "https://github.com/clearbluejar/pyghidra-mcp",
+    "language": "Python",
+    "pushed_at": "2026-04-19T17:17:10Z",
+    "stargazers_count": 265,
+    "topics": [],
+    "updated_at": "2026-04-18T18:01:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clearbluejar/ghidrecomp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jtang613/binassistmcp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lauriewired/ghidramcp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "modelcontextprotocol/python-sdk",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Create and publish a Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Create and publish a Docker image"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Pytest PyPI Package Devcontainer Across Versions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest-devcontainer-pypi-all.yml",
+      "term": "Pytest PyPI Package Devcontainer Across Versions"
+    },
+    {
+      "context_snippet": "Pytest Local Repo Devcontainer Across Versions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest-devcontainer-repo-all.yml",
+      "term": "Pytest Local Repo Devcontainer Across Versions"
+    }
+  ]
+}

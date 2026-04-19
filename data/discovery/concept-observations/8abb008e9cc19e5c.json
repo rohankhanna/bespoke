@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Node.js Technical Steering Committee"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Close vote"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Close vote"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11813,
+      "status": "candidate",
+      "text": "casted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11813,
+      "status": "candidate",
+      "text": "closure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11813,
+      "status": "candidate",
+      "text": "cloture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11813,
+      "status": "candidate",
+      "text": "poll"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11813,
+      "status": "candidate",
+      "text": "position"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Close vote",
+      "sense_id": "close-vote#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "close-vote",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "close-vote",
+  "observation_id": "8abb008e9cc19e5c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T17:42:30.117329+00:00",
+  "observed_text": "Close vote",
+  "source_context_snippet": "Close vote",
+  "source_file": ".github/workflows/closeVote.yml",
+  "source_repo": "nodejs/TSC",
+  "source_repo_description": "The Node.js Technical Steering Committee"
+}

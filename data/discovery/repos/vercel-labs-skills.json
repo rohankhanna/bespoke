@@ -118,13 +118,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "vercel-labs/skills",
-      "target": "charmbracelet/crush",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "vercel-labs/skills",
       "target": "shareai-lab/kode",
       "target_type": "repository"
     },
@@ -276,7 +269,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T12:47:10.898628+00:00",
+  "fetched_at": "2026-04-19T17:44:34.034949+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -299,7 +292,6 @@
       "size": 4995
     }
   ],
-  "metadata_refreshed_at": "2026-04-19T14:03:50.939431+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -310,16 +302,11 @@
     "html_url": "https://github.com/vercel-labs/skills",
     "language": "TypeScript",
     "pushed_at": "2026-04-17T19:08:03Z",
-    "stargazers_count": 14596,
+    "stargazers_count": 14610,
     "topics": [],
-    "updated_at": "2026-04-19T13:42:26Z"
+    "updated_at": "2026-04-19T17:37:38Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "charmbracelet/crush",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "shareai-lab/kode",
@@ -333,11 +320,13 @@
   ],
   "terms": [
     {
+      "context_snippet": "Agents CI",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/agents.yml",
       "term": "Agents CI"
     },
     {
+      "context_snippet": "Publish",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/publish.yml",
       "term": "Publish"

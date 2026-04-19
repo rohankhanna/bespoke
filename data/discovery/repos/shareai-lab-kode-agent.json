@@ -1110,7 +1110,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T12:07:27.124230+00:00",
+  "fetched_at": "2026-04-19T17:44:31.730051+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1145,20 +1145,19 @@
       "size": 1819
     }
   ],
-  "metadata_refreshed_at": "2026-04-19T14:02:35.895533+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "Kode Agent \u2014 Design for post-human workflows. One unit agent for every human & computer task.",
     "fork": false,
-    "full_name": "shareai-lab/kode-agent",
+    "full_name": "shareAI-lab/Kode-Agent",
     "html_url": "https://github.com/shareAI-lab/Kode-Agent",
     "language": "TypeScript",
     "pushed_at": "2026-01-23T20:20:17Z",
-    "stargazers_count": 4947,
+    "stargazers_count": 4946,
     "topics": [],
-    "updated_at": "2026-04-19T12:28:18Z"
+    "updated_at": "2026-04-19T16:48:57Z"
   },
   "repo_links": [
     {
@@ -1179,21 +1178,25 @@
   ],
   "terms": [
     {
+      "context_snippet": "Dev Release (main)",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/dev-release.yml",
       "term": "Dev Release (main)"
     },
     {
+      "context_snippet": "Stable Release (tags)",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/npm-publish.yml",
       "term": "Stable Release (tags)"
     },
     {
+      "context_snippet": "Release",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/release.yml",
       "term": "Release"
     },
     {
+      "context_snippet": "Version Bump",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/version-bump.yml",
       "term": "Version Bump"

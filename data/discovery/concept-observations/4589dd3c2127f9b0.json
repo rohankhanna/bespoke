@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Parallel computing with task scheduling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Additional"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Additional"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008202,
+      "status": "candidate",
+      "text": "supplementary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008187,
+      "status": "candidate",
+      "text": "supplemental"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996220,
+      "status": "candidate",
+      "text": "further"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995772,
+      "status": "candidate",
+      "text": "more"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991523,
+      "status": "candidate",
+      "text": "else"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Additional",
+      "sense_id": "additional#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20037,
+      "status": "candidate",
+      "text": "supplementary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19040,
+      "status": "candidate",
+      "text": "further"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13051,
+      "status": "candidate",
+      "text": "extra"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13042,
+      "status": "candidate",
+      "text": "other"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11028,
+      "status": "candidate",
+      "text": "supplemental"
+    }
+  ],
+  "concept_id": "additional",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "additional",
+  "observation_id": "4589dd3c2127f9b0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T17:42:30.117329+00:00",
+  "observed_text": "Additional",
+  "source_context_snippet": "Additional",
+  "source_file": ".github/workflows/additional.yml",
+  "source_repo": "dask/dask",
+  "source_repo_description": "Parallel computing with task scheduling"
+}

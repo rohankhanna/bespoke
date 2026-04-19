@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Container runtimes on macOS (and Linux) with minimal setup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![colima-logo](colima.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![colima-logo](colima.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29721604,
+      "status": "candidate",
+      "text": "anvil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10028254,
+      "status": "candidate",
+      "text": "uncus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10028253,
+      "status": "candidate",
+      "text": "incisure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10028252,
+      "status": "candidate",
+      "text": "conid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10028251,
+      "status": "candidate",
+      "text": "cuspule"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "incus",
+      "sense_id": "incus#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8052,
+      "status": "candidate",
+      "text": "anvil"
+    }
+  ],
+  "concept_id": "incus",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "incus",
+  "observation_id": "774b9927d9ed3fb4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-19T17:42:30.117329+00:00",
+  "observed_text": "incus",
+  "source_context_snippet": "![colima-logo](colima.png)",
+  "source_file": null,
+  "source_repo": "abiosoft/colima",
+  "source_repo_description": "Container runtimes on macOS (and Linux) with minimal setup"
+}

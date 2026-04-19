@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-04-18T09:45:12.634395+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -16,6 +16,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "frankbria/ralph-claude-code"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test-suite.yml",
+      "source_repo": "encode/httpx"
     }
   ],
   "term": "Test Suite"

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Modin: Scale your Pandas workflows by changing a single line of code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "fuzzy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "fuzzy"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39856207,
+      "status": "candidate",
+      "text": "hairy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39855697,
+      "status": "candidate",
+      "text": "hirsute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39816375,
+      "status": "candidate",
+      "text": "foggy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39815891,
+      "status": "candidate",
+      "text": "hazy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39811467,
+      "status": "candidate",
+      "text": "muzzy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "fuzzy",
+      "sense_id": "fuzzy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48032,
+      "status": "candidate",
+      "text": "bleary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38031,
+      "status": "candidate",
+      "text": "indistinct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24027,
+      "status": "candidate",
+      "text": "muzzy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14037,
+      "status": "candidate",
+      "text": "foggy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11045,
+      "status": "candidate",
+      "text": "hirsute"
+    }
+  ],
+  "concept_id": "fuzzy",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fuzzy",
+  "observation_id": "f81753a042a60016",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T17:42:30.117329+00:00",
+  "observed_text": "fuzzy",
+  "source_context_snippet": "fuzzy",
+  "source_file": ".github/workflows/fuzzydata-test.yml",
+  "source_repo": "modin-project/modin",
+  "source_repo_description": "Modin: Scale your Pandas workflows by changing a single line of code"
+}

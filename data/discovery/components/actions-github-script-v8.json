@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v8",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -57,6 +57,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/auto-merge.yml",
       "source_repo": "tekumara/typos-lsp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "strands-agents/evals"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "aio-libs/aiohttp"
     }
   ]
 }

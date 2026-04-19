@@ -1,0 +1,194 @@
+{
+  "components": [
+    {
+      "component": "mig4/setup-bats@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonmosco/kube-ps1",
+      "target": "ohmyzsh/ohmyzsh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonmosco/kube-ps1",
+      "target": "zdharma-continuum/zinit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonmosco/kube-ps1",
+      "target": "okd-project/okd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonmosco/kube-ps1",
+      "target": "jonmosco/kube-tmux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jonmosco/kube-ps1",
+      "target": "mig4/setup-bats@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jonmosco/kube-ps1",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonmosco/kube-ps1",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonmosco/kube-ps1",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonmosco/kube-ps1",
+      "target": "kubectl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonmosco/kube-ps1",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonmosco/kube-ps1",
+      "target": "kubernetes-helper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonmosco/kube-ps1",
+      "target": "prompts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T17:43:19.626520+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10728
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 339
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Kubernetes prompt info for bash and zsh",
+    "fork": false,
+    "full_name": "jonmosco/kube-ps1",
+    "html_url": "https://github.com/jonmosco/kube-ps1",
+    "language": "Shell",
+    "pushed_at": "2026-04-01T11:33:23Z",
+    "stargazers_count": 3776,
+    "topics": [
+      "bash",
+      "containers",
+      "kubectl",
+      "kubernetes",
+      "kubernetes-helper",
+      "prompts",
+      "sre",
+      "zsh"
+    ],
+    "updated_at": "2026-04-14T05:50:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonmosco/kube-tmux",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ohmyzsh/ohmyzsh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "okd-project/okd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zdharma-continuum/zinit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![GitHub Release](https://img.shields.io/github/v/release/jonmosco/kube-ps1)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "![GitHub Release](https://img.shields.io/github/v/release/jonmosco/kube-ps1)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "![GitHub Release](https://img.shields.io/github/v/release/jonmosco/kube-ps1)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubectl"
+    },
+    {
+      "context_snippet": "![GitHub Release](https://img.shields.io/github/v/release/jonmosco/kube-ps1)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "![GitHub Release](https://img.shields.io/github/v/release/jonmosco/kube-ps1)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes-helper"
+    },
+    {
+      "context_snippet": "![GitHub Release](https://img.shields.io/github/v/release/jonmosco/kube-ps1)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompts"
+    }
+  ]
+}

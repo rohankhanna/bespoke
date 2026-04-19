@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Python Command-Line Ghidra MCP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Pytest Local Repo Devcontainer Across Versions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Pytest Local Repo Devcontainer Across Versions"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25974,
+      "status": "candidate",
+      "text": "action potential"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22282,
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21611,
+      "status": "candidate",
+      "text": "dack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21611,
+      "status": "candidate",
+      "text": "perch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21611,
+      "status": "candidate",
+      "text": "sack"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pytest Local Repo Devcontainer Across Versions",
+      "sense_id": "pytest-local-repo-devcontainer-across-versions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pytest-local-repo-devcontainer-across-versions",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pytest-local-repo-devcontainer-across-versions",
+  "observation_id": "f068f8bc4f68388c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T17:42:30.117329+00:00",
+  "observed_text": "Pytest Local Repo Devcontainer Across Versions",
+  "source_context_snippet": "Pytest Local Repo Devcontainer Across Versions",
+  "source_file": ".github/workflows/pytest-devcontainer-repo-all.yml",
+  "source_repo": "clearbluejar/pyghidra-mcp",
+  "source_repo_description": "Python Command-Line Ghidra MCP"
+}

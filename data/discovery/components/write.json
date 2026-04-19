@@ -1,7 +1,7 @@
 {
   "component": "write",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -57,6 +57,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dco.yml",
       "source_repo": "NVIDIA/OpenShell"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "charmbracelet/crush"
     }
   ]
 }

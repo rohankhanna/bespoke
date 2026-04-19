@@ -1,0 +1,291 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-hack-install@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "rust-lang/crates-io-auth-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "RustCrypto/actions/cargo-cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    },
+    {
+      "component": "crate-ci/typos@v1.44.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "RustCrypto/RSA",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "RustCrypto/RSA",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "RustCrypto/RSA",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "RustCrypto/RSA",
+      "target": "RustCrypto/actions/cargo-hack-install@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "RustCrypto/RSA",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "RustCrypto/RSA",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "RustCrypto/RSA",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "RustCrypto/RSA",
+      "target": "rust-lang/crates-io-auth-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "RustCrypto/RSA",
+      "target": "Publish to crates.io",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml",
+      "source_repo": "RustCrypto/RSA",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml",
+      "source_repo": "RustCrypto/RSA",
+      "target": "RustCrypto/actions/cargo-cache@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml",
+      "source_repo": "RustCrypto/RSA",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workspace.yml",
+      "source_repo": "RustCrypto/RSA",
+      "target": "crate-ci/typos@v1.44.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workspace.yml",
+      "source_repo": "RustCrypto/RSA",
+      "target": "Workspace",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T17:43:57.510407+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4623
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2818
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2225
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 643
+    },
+    {
+      "path": ".github/workflows/workspace.yml",
+      "size": 1288
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RSA implementation in pure Rust",
+    "fork": false,
+    "full_name": "RustCrypto/RSA",
+    "html_url": "https://github.com/RustCrypto/RSA",
+    "language": "Rust",
+    "pushed_at": "2026-04-16T14:59:36Z",
+    "stargazers_count": 660,
+    "topics": [],
+    "updated_at": "2026-04-16T14:59:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish to crates.io",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to crates.io"
+    },
+    {
+      "context_snippet": "Workspace",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workspace.yml",
+      "term": "Workspace"
+    }
+  ]
+}

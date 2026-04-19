@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Forge Test (Intense)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/eigenlayer-middleware",
+      "status": "candidate-context",
+      "text": "Forge Test (Intense)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/eigenlayer-middleware",
+      "status": "candidate",
+      "text": "Forge Test (Intense)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12245,
+      "status": "candidate",
+      "text": "bear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12191,
+      "status": "candidate",
+      "text": "thrash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11223,
+      "status": "candidate",
+      "text": "advance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11223,
+      "status": "candidate",
+      "text": "advancing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11223,
+      "status": "candidate",
+      "text": "beat"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Forge Test (Intense)",
+  "concept_id": "forge-test-intense",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/forge-test-intense.yml",
+      "source_repo": "Layr-Labs/eigenlayer-middleware"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Forge Test (Intense)",
+      "sense_id": "forge-test-intense#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

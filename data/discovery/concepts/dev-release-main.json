@@ -7,9 +7,65 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shareAI-lab/Kode-Agent",
+      "status": "candidate-context",
+      "text": "Kode Agent \u2014 Design for post-human workflows. One unit agent for every human & computer task."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shareAI-lab/Kode-Agent",
+      "status": "candidate-context",
+      "text": "Dev Release (main)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shareAI-lab/Kode-Agent",
+      "status": "candidate",
+      "text": "Dev Release (main)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16314,
+      "status": "candidate",
+      "text": "observant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "evolution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "hatch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15324,
+      "status": "candidate",
+      "text": "open"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Dev Release (main)",
   "concept_id": "dev-release-main",
@@ -20,12 +76,20 @@
       "observed_at": "2026-04-18T12:07:11.500453+00:00",
       "source_file": ".github/workflows/dev-release.yml",
       "source_repo": "shareAI-lab/Kode-Agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/dev-release.yml",
+      "source_repo": "shareAI-lab/Kode-Agent"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

@@ -153,6 +153,24 @@
       "source_repo": "BLAKE3-team/BLAKE3",
       "status": "candidate-context",
       "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/incredible-squaring-avs-rs",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python/mypy",
+      "status": "candidate-context",
+      "text": "Optional static typing for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python/mypy",
+      "status": "candidate-context",
+      "text": "Tests"
     }
   ],
   "candidate_glosses": [
@@ -221,6 +239,18 @@
       "source_repo": "BLAKE3-team/BLAKE3",
       "status": "candidate",
       "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/incredible-squaring-avs-rs",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python/mypy",
+      "status": "candidate",
+      "text": "Tests"
     }
   ],
   "candidate_related_terms": [
@@ -395,11 +425,23 @@
       "observed_at": "2026-04-19T17:36:09.281008+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "BLAKE3-team/BLAKE3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "python/mypy"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "lexical_providers": [
     "datamuse"
   ],

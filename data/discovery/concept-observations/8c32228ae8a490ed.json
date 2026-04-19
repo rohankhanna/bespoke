@@ -1,0 +1,96 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Foundry"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Foundry"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39859561,
+      "status": "candidate",
+      "text": "metalworks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29863284,
+      "status": "candidate",
+      "text": "smelting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29863036,
+      "status": "candidate",
+      "text": "refinery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29862179,
+      "status": "candidate",
+      "text": "smelter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29861872,
+      "status": "candidate",
+      "text": "die-cast"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Foundry",
+      "sense_id": "foundry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2012,
+      "status": "candidate",
+      "text": "metalworks"
+    }
+  ],
+  "concept_id": "foundry",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "foundry",
+  "observation_id": "8c32228ae8a490ed",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T17:42:30.117329+00:00",
+  "observed_text": "Foundry",
+  "source_context_snippet": "Foundry",
+  "source_file": ".github/workflows/foundry.yml",
+  "source_repo": "Layr-Labs/eigenlayer-middleware",
+  "source_repo_description": null
+}

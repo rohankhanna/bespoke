@@ -56,6 +56,18 @@
       "source_repo": "VirusTotal/yara",
       "status": "candidate-context",
       "text": "Build and test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/spark",
+      "status": "candidate-context",
+      "text": "Apache Spark - A unified analytics engine for large-scale data processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/spark",
+      "status": "candidate-context",
+      "text": "Build and test"
     }
   ],
   "candidate_glosses": [
@@ -74,6 +86,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "VirusTotal/yara",
+      "status": "candidate",
+      "text": "Build and test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/spark",
       "status": "candidate",
       "text": "Build and test"
     }
@@ -143,11 +161,17 @@
       "observed_at": "2026-04-19T17:36:09.281008+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "VirusTotal/yara"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "apache/spark"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "lexical_providers": [
     "datamuse"
   ],

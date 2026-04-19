@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "lima"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abiosoft/colima",
+      "status": "candidate-context",
+      "text": "Container runtimes on macOS (and Linux) with minimal setup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abiosoft/colima",
+      "status": "candidate-context",
+      "text": "![colima-logo](colima.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abiosoft/colima",
+      "status": "candidate",
+      "text": "![colima-logo](colima.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047092,
+      "status": "candidate",
+      "text": "capital of peru"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047091,
+      "status": "candidate",
+      "text": "bean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19972175,
+      "status": "candidate",
+      "text": "lime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19876503,
+      "status": "candidate",
+      "text": "lema"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19613671,
+      "status": "candidate",
+      "text": "peru"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "capital of peru"
+    }
+  ],
+  "canonical_name": "lima",
+  "concept_id": "lima",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "abiosoft/colima"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lima",
+      "sense_id": "lima#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

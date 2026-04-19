@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Backups of the database for simonwillison.net"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Back up my blog database"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Back up my blog database"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 56387,
+      "status": "candidate",
+      "text": "upping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 56387,
+      "status": "candidate",
+      "text": "ups"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44948,
+      "status": "candidate",
+      "text": "support"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44486,
+      "status": "candidate",
+      "text": "supported"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44148,
+      "status": "candidate",
+      "text": "return"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Back up my blog database",
+      "sense_id": "back-up-my-blog-database#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "back-up-my-blog-database",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "back-up-my-blog-database",
+  "observation_id": "8d1ecbbc85b49e77",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T17:42:30.117329+00:00",
+  "observed_text": "Back up my blog database",
+  "source_context_snippet": "Back up my blog database",
+  "source_file": ".github/workflows/backup.yml",
+  "source_repo": "simonw/simonwillisonblog-backup",
+  "source_repo_description": "Backups of the database for simonwillison.net"
+}

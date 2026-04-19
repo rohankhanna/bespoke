@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Daily Build And Test Dev"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "status": "candidate-context",
+      "text": "Basic repo demoing a simple AVS middleware with full eigenlayer integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "status": "candidate-context",
+      "text": "Daily Build And Test Dev"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "status": "candidate",
+      "text": "Daily Build And Test Dev"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27959,
+      "status": "candidate",
+      "text": "low"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27828,
+      "status": "candidate",
+      "text": "development"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27748,
+      "status": "candidate",
+      "text": "see"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27588,
+      "status": "candidate",
+      "text": "count"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17731,
+      "status": "candidate",
+      "text": "mag"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Daily Build And Test Dev",
+  "concept_id": "daily-build-and-test-dev",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/daily-test.yaml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Daily Build And Test Dev",
+      "sense_id": "daily-build-and-test-dev#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

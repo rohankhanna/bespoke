@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "check that make fmt was run"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "status": "candidate-context",
+      "text": "Basic repo demoing a simple AVS middleware with full eigenlayer integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "status": "candidate-context",
+      "text": "check that make fmt was run"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "status": "candidate",
+      "text": "check that make fmt was run"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35041,
+      "status": "candidate",
+      "text": "venture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34970,
+      "status": "candidate",
+      "text": "congeal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34646,
+      "status": "candidate",
+      "text": "runs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34641,
+      "status": "candidate",
+      "text": "venturing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34585,
+      "status": "candidate",
+      "text": "endorse"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "check that make fmt was run",
+  "concept_id": "check-that-make-fmt-was-run",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/check-fmt.yml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "check that make fmt was run",
+      "sense_id": "check-that-make-fmt-was-run#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

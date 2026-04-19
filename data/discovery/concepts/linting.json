@@ -1,7 +1,8 @@
 {
   "aliases": [
     "linting",
-    "\ud83e\uddf9 Linting"
+    "\ud83e\uddf9 Linting",
+    "Linting"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -34,6 +35,18 @@
       "source_repo": "langchain-ai/deepagents",
       "status": "candidate-context",
       "text": "\"\ud83e\uddf9 Linting\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dask/dask",
+      "status": "candidate-context",
+      "text": "Parallel computing with task scheduling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dask/dask",
+      "status": "candidate-context",
+      "text": "Linting"
     }
   ],
   "candidate_glosses": [
@@ -48,6 +61,12 @@
       "source_repo": "langchain-ai/deepagents",
       "status": "candidate",
       "text": "\"\ud83e\uddf9 Linting\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dask/dask",
+      "status": "candidate",
+      "text": "Linting"
     }
   ],
   "candidate_related_terms": [
@@ -85,6 +104,41 @@
       "score": null,
       "status": "candidate",
       "text": "caddis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19895107,
+      "status": "candidate",
+      "text": "linter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19895106,
+      "status": "candidate",
+      "text": "inliner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19895105,
+      "status": "candidate",
+      "text": "debugging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19895104,
+      "status": "candidate",
+      "text": "code review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19895103,
+      "status": "candidate",
+      "text": "dynamic language"
     }
   ],
   "candidate_synonyms": [],
@@ -109,11 +163,17 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": ".github/workflows/_lint.yml",
       "source_repo": "langchain-ai/deepagents"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "dask/dask"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "lexical_providers": [
     "datamuse"
   ],

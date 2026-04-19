@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GenMedia Creative Studio is a Vertex AI generative media user experience highlighting the use of Imagen, Veo, Gemini \ud83c\udf4c, Gemini TTS, Chirp 3, Lyria and other generative media APIs on Google Cloud."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'\ud83d\udccb Gemini Scheduled Issue Triage'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'\ud83d\udccb Gemini Scheduled Issue Triage'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33069,
+      "status": "candidate",
+      "text": "split"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33069,
+      "status": "candidate",
+      "text": "splits"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33069,
+      "status": "candidate",
+      "text": "splitting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33020,
+      "status": "candidate",
+      "text": "perspective"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33020,
+      "status": "candidate",
+      "text": "resolution"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83d\udccb Gemini Scheduled Issue Triage",
+      "sense_id": "gemini-scheduled-issue-triage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gemini-scheduled-issue-triage",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gemini-scheduled-issue-triage",
+  "observation_id": "5bf6cbc6ccf2345d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T17:42:30.117329+00:00",
+  "observed_text": "\ud83d\udccb Gemini Scheduled Issue Triage",
+  "source_context_snippet": "'\ud83d\udccb Gemini Scheduled Issue Triage'",
+  "source_file": ".github/workflows/gemini-scheduled-triage.yml",
+  "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+  "source_repo_description": "GenMedia Creative Studio is a Vertex AI generative media user experience highlighting the use of Imagen, Veo, Gemini \ud83c\udf4c, Gemini TTS, Chirp 3, Lyria and other generative media APIs on Google Cloud."
+}

@@ -1,0 +1,148 @@
+{
+  "aliases": [
+    "Pull Request and Push Action"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strands-agents/agent-builder",
+      "status": "candidate-context",
+      "text": "An example agent demonstrating streaming, tool use, and interactivity from your terminal. This agent builder can help you to build your own agents and tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/agent-builder",
+      "status": "candidate-context",
+      "text": "Pull Request and Push Action"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strands-agents/evals",
+      "status": "candidate-context",
+      "text": "A comprehensive evaluation framework for AI agents and LLM applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/evals",
+      "status": "candidate-context",
+      "text": "Pull Request and Push Action"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strands-agents/mcp-server",
+      "status": "candidate-context",
+      "text": "This MCP server provides documentation about Strands Agents to your GenAI tools, so you can use your favorite AI coding assistant to vibe-code Strands Agents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/mcp-server",
+      "status": "candidate-context",
+      "text": "Pull Request and Push Action"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/agent-builder",
+      "status": "candidate",
+      "text": "Pull Request and Push Action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/evals",
+      "status": "candidate",
+      "text": "Pull Request and Push Action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strands-agents/mcp-server",
+      "status": "candidate",
+      "text": "Pull Request and Push Action"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45220,
+      "status": "candidate",
+      "text": "tug"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44449,
+      "status": "candidate",
+      "text": "strain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44420,
+      "status": "candidate",
+      "text": "tugging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44318,
+      "status": "candidate",
+      "text": "down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44049,
+      "status": "candidate",
+      "text": "nudge"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Pull Request and Push Action",
+  "concept_id": "pull-request-and-push-action",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/pr-and-push.yml",
+      "source_repo": "strands-agents/agent-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/pr-and-push.yml",
+      "source_repo": "strands-agents/evals"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/pr-and-push.yml",
+      "source_repo": "strands-agents/mcp-server"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pull Request and Push Action",
+      "sense_id": "pull-request-and-push-action#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,12 @@
+{
+  "component": "strands-agents/devtools/strands-command/actions/strands-finalize@main",
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/strands-command.yml",
+      "source_repo": "strands-agents/evals"
+    }
+  ]
+}

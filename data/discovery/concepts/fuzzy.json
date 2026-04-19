@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "fuzzy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modin-project/modin",
+      "status": "candidate-context",
+      "text": "Modin: Scale your Pandas workflows by changing a single line of code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modin-project/modin",
+      "status": "candidate-context",
+      "text": "fuzzy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modin-project/modin",
+      "status": "candidate",
+      "text": "fuzzy"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39856207,
+      "status": "candidate",
+      "text": "hairy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39855697,
+      "status": "candidate",
+      "text": "hirsute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39816375,
+      "status": "candidate",
+      "text": "foggy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39815891,
+      "status": "candidate",
+      "text": "hazy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39811467,
+      "status": "candidate",
+      "text": "muzzy"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48032,
+      "status": "candidate",
+      "text": "bleary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38031,
+      "status": "candidate",
+      "text": "indistinct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24027,
+      "status": "candidate",
+      "text": "muzzy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14037,
+      "status": "candidate",
+      "text": "foggy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11045,
+      "status": "candidate",
+      "text": "hirsute"
+    }
+  ],
+  "canonical_name": "fuzzy",
+  "concept_id": "fuzzy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/fuzzydata-test.yml",
+      "source_repo": "modin-project/modin"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "fuzzy",
+      "sense_id": "fuzzy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,437 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/additional.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/additional.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda.yml"
+    },
+    {
+      "component": "andymckay/labeler@1.0.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-all.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "EnricoMi/publish-unit-test-result-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-test-results.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml"
+    },
+    {
+      "component": "release-drafter/release-drafter@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml"
+    },
+    {
+      "component": "release-drafter/release-drafter@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-bot.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "dask/dask",
+      "target": "python/cpython",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "dask/dask",
+      "target": "python/mypy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/additional.yml",
+      "source_repo": "dask/dask",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/additional.yml",
+      "source_repo": "dask/dask",
+      "target": "conda-incubator/setup-miniconda@v3.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/additional.yml",
+      "source_repo": "dask/dask",
+      "target": "Additional",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda.yml",
+      "source_repo": "dask/dask",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda.yml",
+      "source_repo": "dask/dask",
+      "target": "conda-incubator/setup-miniconda@v3.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda.yml",
+      "source_repo": "dask/dask",
+      "target": "Conda build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-all.yml",
+      "source_repo": "dask/dask",
+      "target": "andymckay/labeler@1.0.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-all.yml",
+      "source_repo": "dask/dask",
+      "target": "Issue and PR Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "dask/dask",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "dask/dask",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "dask/dask",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "dask/dask",
+      "target": "Linting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-test-results.yaml",
+      "source_repo": "dask/dask",
+      "target": "EnricoMi/publish-unit-test-result-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-test-results.yaml",
+      "source_repo": "dask/dask",
+      "target": "Publish test results",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "dask/dask",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "dask/dask",
+      "target": "release-drafter/release-drafter@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "dask/dask",
+      "target": "Release Drafter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "dask/dask",
+      "target": "release-drafter/release-drafter@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-publish.yml",
+      "source_repo": "dask/dask",
+      "target": "Release Publisher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-bot.yaml",
+      "source_repo": "dask/dask",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-bot.yaml",
+      "source_repo": "dask/dask",
+      "target": "Label stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dask/dask",
+      "target": "dask",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dask/dask",
+      "target": "numpy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dask/dask",
+      "target": "pandas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dask/dask",
+      "target": "pydata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dask/dask",
+      "target": "scikit-learn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dask/dask",
+      "target": "scipy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T17:42:47.736584+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1291
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 8308
+    },
+    {
+      "path": ".github/workflows/additional.yml",
+      "size": 884
+    },
+    {
+      "path": ".github/workflows/conda.yml",
+      "size": 1725
+    },
+    {
+      "path": ".github/workflows/label-all.yml",
+      "size": 298
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 321
+    },
+    {
+      "path": ".github/workflows/publish-test-results.yaml",
+      "size": 1847
+    },
+    {
+      "path": ".github/workflows/release-drafter.yml",
+      "size": 832
+    },
+    {
+      "path": ".github/workflows/release-publish.yml",
+      "size": 937
+    },
+    {
+      "path": ".github/workflows/stale-bot.yaml",
+      "size": 734
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Parallel computing with task scheduling",
+    "fork": false,
+    "full_name": "dask/dask",
+    "html_url": "https://github.com/dask/dask",
+    "language": "Python",
+    "pushed_at": "2026-04-13T18:09:43Z",
+    "stargazers_count": 13804,
+    "topics": [
+      "dask",
+      "numpy",
+      "pandas",
+      "pydata",
+      "python",
+      "scikit-learn",
+      "scipy"
+    ],
+    "updated_at": "2026-04-17T04:25:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "python/cpython",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "python/mypy",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Additional",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/additional.yml",
+      "term": "Additional"
+    },
+    {
+      "context_snippet": "Conda build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda.yml",
+      "term": "Conda build"
+    },
+    {
+      "context_snippet": "\"Issue and PR Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-all.yml",
+      "term": "Issue and PR Labeler"
+    },
+    {
+      "context_snippet": "Linting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "Linting"
+    },
+    {
+      "context_snippet": "Publish test results",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-test-results.yaml",
+      "term": "Publish test results"
+    },
+    {
+      "context_snippet": "Release Drafter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "term": "Release Drafter"
+    },
+    {
+      "context_snippet": "Release Publisher",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-publish.yml",
+      "term": "Release Publisher"
+    },
+    {
+      "context_snippet": "'Label stale issues and PRs'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-bot.yaml",
+      "term": "Label stale issues and PRs"
+    },
+    {
+      "context_snippet": "Dask",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dask"
+    },
+    {
+      "context_snippet": "Dask",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numpy"
+    },
+    {
+      "context_snippet": "Dask",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pandas"
+    },
+    {
+      "context_snippet": "Dask",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pydata"
+    },
+    {
+      "context_snippet": "Dask",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scikit-learn"
+    },
+    {
+      "context_snippet": "Dask",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scipy"
+    }
+  ]
+}

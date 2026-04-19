@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -41,6 +41,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "almogdepaz/wolfpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "gyscos/cursive"
     }
   ],
   "term": "terminal"

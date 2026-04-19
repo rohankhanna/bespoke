@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "dask"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dask/dask",
+      "status": "candidate-context",
+      "text": "Parallel computing with task scheduling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dask/dask",
+      "status": "candidate-context",
+      "text": "Dask"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dask/dask",
+      "status": "candidate",
+      "text": "Dask"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19931414,
+      "status": "candidate",
+      "text": "daas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19931413,
+      "status": "candidate",
+      "text": "dasd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19931412,
+      "status": "candidate",
+      "text": "dicaas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19931411,
+      "status": "candidate",
+      "text": "dagn"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "dask",
+  "concept_id": "dask",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "dask/dask"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dask",
+      "sense_id": "dask#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

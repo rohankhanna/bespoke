@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Dependabot Auto-Merge",
-    "Dependabot Auto-merge"
+    "Dependabot Auto-merge",
+    "Dependabot auto-merge"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,18 @@
       "source_repo": "tekumara/typos-lsp",
       "status": "candidate-context",
       "text": "Dependabot Auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aio-libs/aiohttp",
+      "status": "candidate-context",
+      "text": "Asynchronous HTTP client/server framework for asyncio and Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aio-libs/aiohttp",
+      "status": "candidate-context",
+      "text": "Dependabot auto-merge"
     }
   ],
   "candidate_glosses": [
@@ -40,6 +53,12 @@
       "source_repo": "tekumara/typos-lsp",
       "status": "candidate",
       "text": "Dependabot Auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aio-libs/aiohttp",
+      "status": "candidate",
+      "text": "Dependabot auto-merge"
     }
   ],
   "candidate_related_terms": [],
@@ -59,11 +78,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": ".github/workflows/auto-merge.yml",
       "source_repo": "tekumara/typos-lsp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "aio-libs/aiohttp"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "lexical_providers": [
     "datamuse"
   ],

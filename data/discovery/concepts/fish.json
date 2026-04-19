@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "fish"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "junegunn/fzf",
+      "status": "candidate-context",
+      "text": ":cherry_blossom: A command-line fuzzy finder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junegunn/fzf",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junegunn/fzf",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007885,
+      "status": "candidate",
+      "text": "gull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39955423,
+      "status": "candidate",
+      "text": "sucker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39828569,
+      "status": "candidate",
+      "text": "shlemiel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39687878,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39667851,
+      "status": "candidate",
+      "text": "chump"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38075,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19050,
+      "status": "candidate",
+      "text": "fool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16045,
+      "status": "candidate",
+      "text": "sucker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9039,
+      "status": "candidate",
+      "text": "chump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9032,
+      "status": "candidate",
+      "text": "patsy"
+    }
+  ],
+  "canonical_name": "fish",
+  "concept_id": "fish",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "junegunn/fzf"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fish",
+      "sense_id": "fish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

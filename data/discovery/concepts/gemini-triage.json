@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "\ud83d\udd00 Gemini Triage"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "status": "candidate-context",
+      "text": "GenMedia Creative Studio is a Vertex AI generative media user experience highlighting the use of Imagen, Veo, Gemini \ud83c\udf4c, Gemini TTS, Chirp 3, Lyria and other generative media APIs on Google Cloud."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "status": "candidate-context",
+      "text": "'\ud83d\udd00 Gemini Triage'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio",
+      "status": "candidate",
+      "text": "'\ud83d\udd00 Gemini Triage'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10701,
+      "status": "candidate",
+      "text": "ambiguous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10701,
+      "status": "candidate",
+      "text": "brelan carre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10701,
+      "status": "candidate",
+      "text": "perspective"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10701,
+      "status": "candidate",
+      "text": "redoubled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10701,
+      "status": "candidate",
+      "text": "resolution"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "\ud83d\udd00 Gemini Triage",
+  "concept_id": "gemini-triage",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/gemini-triage.yml",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83d\udd00 Gemini Triage",
+      "sense_id": "gemini-triage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

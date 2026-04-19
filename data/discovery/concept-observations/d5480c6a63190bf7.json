@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":cherry_blossom: A command-line fuzzy finder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007885,
+      "status": "candidate",
+      "text": "gull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39955423,
+      "status": "candidate",
+      "text": "sucker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39828569,
+      "status": "candidate",
+      "text": "shlemiel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39687878,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39667851,
+      "status": "candidate",
+      "text": "chump"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fish",
+      "sense_id": "fish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 38075,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19050,
+      "status": "candidate",
+      "text": "fool"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16045,
+      "status": "candidate",
+      "text": "sucker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9039,
+      "status": "candidate",
+      "text": "chump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9032,
+      "status": "candidate",
+      "text": "patsy"
+    }
+  ],
+  "concept_id": "fish",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fish",
+  "observation_id": "d5480c6a63190bf7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-19T17:42:30.117329+00:00",
+  "observed_text": "fish",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "junegunn/fzf",
+  "source_repo_description": ":cherry_blossom: A command-line fuzzy finder"
+}

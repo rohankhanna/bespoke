@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1092,6 +1092,61 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/quality.yaml",
       "source_repo": "bmad-code-org/bmad-module-game-dev-studio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "isaacphi/mcp-language-server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_build-reusable.yml",
+      "source_repo": "iOfficeAI/AionUi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-release.yml",
+      "source_repo": "iOfficeAI/AionUi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-checks-docs.yml",
+      "source_repo": "iOfficeAI/AionUi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Piebald-AI/gemini-cli-desktop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Piebald-AI/gemini-cli-desktop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/evals-nightly.yml",
+      "source_repo": "google-github-actions/run-gemini-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "npm/rfcs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "npm/rfcs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/post-dependabot.yml",
+      "source_repo": "npm/rfcs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws-samples/anthropic-on-aws"
     }
   ]
 }

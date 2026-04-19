@@ -13,10 +13,65 @@
       "source_repo": "bats-core/bats-core",
       "status": "candidate-context",
       "text": "Bash Automated Testing System"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "junegunn/fzf",
+      "status": "candidate-context",
+      "text": ":cherry_blossom: A command-line fuzzy finder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junegunn/fzf",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
     }
   ],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junegunn/fzf",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11697,
+      "status": "candidate",
+      "text": "addiction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11697,
+      "status": "candidate",
+      "text": "adopting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11697,
+      "status": "candidate",
+      "text": "adoption"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11697,
+      "status": "candidate",
+      "text": "cosmological"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11697,
+      "status": "candidate",
+      "text": "dependence"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Dependency Review",
   "concept_id": "dependency-review",
@@ -45,12 +100,20 @@
       "observed_at": "2026-04-18T13:15:13.756138+00:00",
       "source_file": ".github/workflows/dependency-review.yml",
       "source_repo": "bats-core/bats-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/depsreview.yaml",
+      "source_repo": "junegunn/fzf"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

@@ -7,9 +7,65 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/rfcs",
+      "status": "candidate-context",
+      "text": "RFCs for changes to Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rfcs",
+      "status": "candidate-context",
+      "text": "Deploy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rfcs",
+      "status": "candidate",
+      "text": "Deploy"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026798,
+      "status": "candidate",
+      "text": "mobilization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026763,
+      "status": "candidate",
+      "text": "mobilize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026748,
+      "status": "candidate",
+      "text": "mobilise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30023389,
+      "status": "candidate",
+      "text": "rollout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022165,
+      "status": "candidate",
+      "text": "stationing"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Deploy",
   "concept_id": "deploy",
@@ -20,12 +76,20 @@
       "observed_at": "2026-04-18T11:56:18.570627+00:00",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "lunarmodules/luacheck"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "rust-lang/rfcs"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:56:18.570627+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "rfc-process"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "npm/rfcs",
+      "status": "candidate-context",
+      "text": "Public change requests/proposals & ideation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/rfcs",
+      "status": "candidate-context",
+      "text": "This document describes the RFC process for the [npm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/rfcs",
+      "status": "candidate-context",
+      "text": "RFCs for changes to Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rfcs",
+      "status": "candidate-context",
+      "text": "[Rust RFCs]: #rust-rfcs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/rfcs",
+      "status": "candidate",
+      "text": "This document describes the RFC process for the [npm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rfcs",
+      "status": "candidate",
+      "text": "[Rust RFCs]: #rust-rfcs"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "rfc-process",
+  "concept_id": "rfc-process",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "npm/rfcs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rfcs"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rfc-process",
+      "sense_id": "rfc-process#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

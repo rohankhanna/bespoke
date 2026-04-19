@@ -68,6 +68,30 @@
       "source_repo": "alexellis/arkade",
       "status": "candidate-context",
       "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vercel-labs/skills",
+      "status": "candidate-context",
+      "text": "The open agent skills tool - npx skills"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel-labs/skills",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "encode/httpx",
+      "status": "candidate-context",
+      "text": "A next generation HTTP client for Python. \ud83e\udd8b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "encode/httpx",
+      "status": "candidate-context",
+      "text": "Publish"
     }
   ],
   "candidate_glosses": [
@@ -94,6 +118,18 @@
       "source_repo": "alexellis/arkade",
       "status": "candidate",
       "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel-labs/skills",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "encode/httpx",
+      "status": "candidate",
+      "text": "Publish"
     }
   ],
   "candidate_related_terms": [
@@ -233,11 +269,23 @@
       "observed_at": "2026-04-19T17:36:09.281008+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "alexellis/arkade"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "vercel-labs/skills"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "encode/httpx"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "lexical_providers": [
     "datamuse"
   ],

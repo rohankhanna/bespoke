@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A comprehensive evaluation framework for AI agents and LLM applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "PR Title Conventional Commits"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "PR Title Conventional Commits"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26182,
+      "status": "candidate",
+      "text": "honorable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26182,
+      "status": "candidate",
+      "text": "mister"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26082,
+      "status": "candidate",
+      "text": "dear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26082,
+      "status": "candidate",
+      "text": "grace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26082,
+      "status": "candidate",
+      "text": "herr"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Title Conventional Commits",
+      "sense_id": "pr-title-conventional-commits#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pr-title-conventional-commits",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pr-title-conventional-commits",
+  "observation_id": "21ec944fe014f19d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T17:42:30.117329+00:00",
+  "observed_text": "PR Title Conventional Commits",
+  "source_context_snippet": "PR Title Conventional Commits",
+  "source_file": ".github/workflows/pr-title.yml",
+  "source_repo": "strands-agents/evals",
+  "source_repo_description": "A comprehensive evaluation framework for AI agents and LLM applications."
+}

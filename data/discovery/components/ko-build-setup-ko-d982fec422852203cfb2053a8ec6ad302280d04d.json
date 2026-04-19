@@ -1,0 +1,12 @@
+{
+  "component": "ko-build/setup-ko@d982fec422852203cfb2053a8ec6ad302280d04d",
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish.yaml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -56,6 +56,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "alexellis/arkade"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "aio-libs/aiohttp"
     }
   ],
   "term": "hacktoberfest"

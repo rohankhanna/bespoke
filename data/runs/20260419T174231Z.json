@@ -1,0 +1,392 @@
+{
+  "batch_count": 3,
+  "budget_seconds": 180,
+  "concept_index_counts": {
+    "aliases": 1960,
+    "buckets": 15,
+    "observations_by_concept": 1703
+  },
+  "elapsed_seconds": 161.303,
+  "embedding_unit_count": 8848,
+  "generated_at": "2026-04-19T17:42:30.117329+00:00",
+  "processed_repositories": [
+    "brombal/just-install",
+    "casey/janus",
+    "charmbracelet/crush",
+    "isaacphi/mcp-language-server",
+    "apache/spark",
+    "dask/dask",
+    "modin-project/modin",
+    "pandas-dev/pandas",
+    "strands-agents/agent-builder",
+    "strands-agents/evals",
+    "strands-agents/mcp-server",
+    "strands-agents/samples",
+    "ahmetb/kubectl-aliases",
+    "jonmosco/kube-ps1",
+    "junegunn/fzf",
+    "kubernetes-sigs/krew",
+    "eigenfoundation/elips",
+    "layr-labs/eigenlayer-middleware",
+    "layr-labs/incredible-squaring-avs",
+    "layr-labs/incredible-squaring-avs-rs",
+    "iofficeai/aionui",
+    "piebald-ai/gemini-cli-desktop",
+    "simonw/simonwillisonblog-backup",
+    "google-github-actions/run-gemini-cli",
+    "googlecloudplatform/vertex-ai-creative-studio",
+    "rustcrypto/rsa",
+    "tob-challenges/example-libpng",
+    "clearbluejar/pyghidra-mcp",
+    "crytic/slither",
+    "trailofbits/dropkit",
+    "abiosoft/colima",
+    "nodejs/admin",
+    "nodejs/release",
+    "nodejs/release-keys",
+    "nodejs/tsc",
+    "npm/rfcs",
+    "aio-libs/aiohttp",
+    "encode/httpx",
+    "openai/openai-openapi",
+    "python/mypy",
+    "daaain/claude-code-log",
+    "simonw/claude-code-transcripts",
+    "winfunc/opcode",
+    "gyscos/cursive",
+    "dirs-dev/directories-jvm",
+    "dirs-dev/directories-rs",
+    "dtolnay/thiserror",
+    "rust-lang/rfcs",
+    "aws-samples/anthropic-on-aws"
+  ],
+  "remaining_budget_seconds": 18.697,
+  "remaining_frontier": 425,
+  "repo_timing_summary": {
+    "average_seconds": 1.646,
+    "count": 52,
+    "max_seconds": 7.209,
+    "total_seconds": 85.591
+  },
+  "repo_timings": [
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.636,
+      "full_name": "brombal/just-install",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.809,
+      "full_name": "casey/janus",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.012,
+      "full_name": "charmbracelet/crush",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.994,
+      "full_name": "isaacphi/mcp-language-server",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.832,
+      "full_name": "apache/spark",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.907,
+      "full_name": "dask/dask",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.358,
+      "full_name": "modin-project/modin",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.278,
+      "full_name": "pandas-dev/pandas",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.946,
+      "full_name": "strands-agents/agent-builder",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.516,
+      "full_name": "strands-agents/evals",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.025,
+      "full_name": "strands-agents/mcp-server",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.072,
+      "full_name": "strands-agents/samples",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.591,
+      "full_name": "ahmetb/kubectl-aliases",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.358,
+      "full_name": "jonmosco/kube-ps1",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.985,
+      "full_name": "junegunn/fzf",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.918,
+      "full_name": "kubernetes-sigs/krew",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.58,
+      "full_name": "eigenfoundation/elips",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.488,
+      "full_name": "layr-labs/eigenlayer-middleware",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.691,
+      "full_name": "layr-labs/incredible-squaring-avs",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.68,
+      "full_name": "layr-labs/incredible-squaring-avs-rs",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.738,
+      "full_name": "iofficeai/aionui",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.28,
+      "full_name": "piebald-ai/gemini-cli-desktop",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.839,
+      "full_name": "simonw/simonwillisonblog-backup",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.508,
+      "full_name": "google-github-actions/run-gemini-cli",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.506,
+      "full_name": "googlecloudplatform/vertex-ai-creative-studio",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.862,
+      "full_name": "rustcrypto/rsa",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.287,
+      "full_name": "tob-challenges/example-libpng",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.233,
+      "full_name": "clearbluejar/pyghidra-mcp",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 4.1,
+      "full_name": "crytic/slither",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.729,
+      "full_name": "trailofbits/dropkit",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.304,
+      "full_name": "abiosoft/colima",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.906,
+      "full_name": "nodejs/admin",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.556,
+      "full_name": "nodejs/release",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.687,
+      "full_name": "nodejs/release-keys",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 7.209,
+      "full_name": "nodejs/tsc",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.051,
+      "full_name": "npm/rfcs",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.84,
+      "full_name": "shareai-lab/kode-agent",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.152,
+      "full_name": "vercel-labs/skills",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.861,
+      "full_name": "aio-libs/aiohttp",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.985,
+      "full_name": "encode/httpx",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.381,
+      "full_name": "openai/openai-openapi",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.379,
+      "full_name": "python/mypy",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.137,
+      "full_name": "daaain/claude-code-log",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.708,
+      "full_name": "simonw/claude-code-transcripts",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.541,
+      "full_name": "winfunc/opcode",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 6.809,
+      "full_name": "gyscos/cursive",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.814,
+      "full_name": "dirs-dev/directories-jvm",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.329,
+      "full_name": "dirs-dev/directories-rs",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.833,
+      "full_name": "dirs-dev/dirs-rs",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.692,
+      "full_name": "dtolnay/thiserror",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.83,
+      "full_name": "rust-lang/rfcs",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.829,
+      "full_name": "aws-samples/anthropic-on-aws",
+      "graph_distance": 5
+    }
+  ],
+  "run_id": "20260419T174231Z",
+  "skipped_repositories": [],
+  "slow_repo_threshold_seconds": 10.0,
+  "slow_repositories": [],
+  "stale_repo_pruned_count": 0,
+  "stale_repositories_pruned": [],
+  "stopped_due_to_budget": true
+}

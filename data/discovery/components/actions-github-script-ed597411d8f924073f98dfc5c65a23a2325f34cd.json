@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -112,6 +112,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/commit-recordings.yml",
       "source_repo": "llamastack/llama-stack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gemini-dispatch.yml",
+      "source_repo": "google-github-actions/run-gemini-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gemini-scheduled-triage.yml",
+      "source_repo": "google-github-actions/run-gemini-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gemini-dispatch.yml",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gemini-scheduled-triage.yml",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gemini-triage.yml",
+      "source_repo": "GoogleCloudPlatform/vertex-ai-creative-studio"
     }
   ]
 }

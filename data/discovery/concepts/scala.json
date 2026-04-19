@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "scala"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/spark",
+      "status": "candidate-context",
+      "text": "Apache Spark - A unified analytics engine for large-scale data processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/spark",
+      "status": "candidate-context",
+      "text": "Spark is a unified analytics engine for large-scale data processing. It provides"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/spark",
+      "status": "candidate",
+      "text": "Spark is a unified analytics engine for large-scale data processing. It provides"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19808989,
+      "status": "candidate",
+      "text": "ladder logic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19808987,
+      "status": "candidate",
+      "text": "scheme"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19808986,
+      "status": "candidate",
+      "text": "cascade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19808985,
+      "status": "candidate",
+      "text": "loop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19808984,
+      "status": "candidate",
+      "text": "branch"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "scala",
+  "concept_id": "scala",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "apache/spark"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scala",
+      "sense_id": "scala#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

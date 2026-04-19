@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Docker Compose Up Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "status": "candidate-context",
+      "text": "Basic repo demoing a simple AVS middleware with full eigenlayer integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "status": "candidate-context",
+      "text": "Docker Compose Up Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/incredible-squaring-avs",
+      "status": "candidate",
+      "text": "Docker Compose Up Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39362,
+      "status": "candidate",
+      "text": "constitute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39223,
+      "status": "candidate",
+      "text": "settled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38823,
+      "status": "candidate",
+      "text": "settle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38727,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38162,
+      "status": "candidate",
+      "text": "constituted"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Docker Compose Up Test",
+  "concept_id": "docker-compose-up-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/docker-compose-up-test.yaml",
+      "source_repo": "Layr-Labs/incredible-squaring-avs"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docker Compose Up Test",
+      "sense_id": "docker-compose-up-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

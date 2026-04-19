@@ -220,6 +220,48 @@
       "source_repo": "vaporif/parry-guard",
       "status": "candidate-context",
       "text": "[![ci](https://github.com/vaporif/parry-guard/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/vaporif/parry-guard/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iOfficeAI/AionUi",
+      "status": "candidate-context",
+      "text": "Free, local, open-source 24/7 Cowork app and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | \ud83c\udf1f Star if you like it!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iOfficeAI/AionUi",
+      "status": "candidate-context",
+      "text": "FROM node:20-slim AS builder WORKDIR /app # Install bun RUN npm install -g bun # Install all dependencies (including devDeps for build) COPY package.json bun.lock ./ COPY patches/ ./patches/ RUN bun install --ignore-scripts # Copy source COPY . . # Build renderer (no Electron ne\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "daaain/claude-code-log",
+      "status": "candidate-context",
+      "text": "A Python CLI tool that converts Claude Code transcript JSONL files into readable HTML format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daaain/claude-code-log",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "winfunc/opcode",
+      "status": "candidate-context",
+      "text": "A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "winfunc/opcode",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "winfunc/opcode",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -288,6 +330,30 @@
       "source_repo": "vaporif/parry-guard",
       "status": "candidate",
       "text": "[![ci](https://github.com/vaporif/parry-guard/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/vaporif/parry-guard/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iOfficeAI/AionUi",
+      "status": "candidate",
+      "text": "FROM node:20-slim AS builder WORKDIR /app # Install bun RUN npm install -g bun # Install all dependencies (including devDeps for build) COPY package.json bun.lock ./ COPY patches/ ./patches/ RUN bun install --ignore-scripts # Copy source COPY . . # Build renderer (no Electron ne\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daaain/claude-code-log",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "winfunc/opcode",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "winfunc/opcode",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -619,11 +685,35 @@
       "observed_at": "2026-04-19T17:36:09.281008+00:00",
       "source_file": null,
       "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "iOfficeAI/AionUi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "daaain/claude-code-log"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "lexical_providers": [
     "datamuse"
   ],

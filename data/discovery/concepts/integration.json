@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "Integration"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abiosoft/colima",
+      "status": "candidate-context",
+      "text": "Container runtimes on macOS (and Linux) with minimal setup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abiosoft/colima",
+      "status": "candidate-context",
+      "text": "Integration"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abiosoft/colima",
+      "status": "candidate",
+      "text": "Integration"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030942,
+      "status": "candidate",
+      "text": "integrating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030556,
+      "status": "candidate",
+      "text": "consolidation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014554,
+      "status": "candidate",
+      "text": "desegregation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30031099,
+      "status": "candidate",
+      "text": "integrate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030749,
+      "status": "candidate",
+      "text": "convergence"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8025,
+      "status": "candidate",
+      "text": "integrating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "consolidation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "desegregation"
+    }
+  ],
+  "canonical_name": "Integration",
+  "concept_id": "integration",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "abiosoft/colima"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Integration",
+      "sense_id": "integration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

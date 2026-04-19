@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "rfcs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "npm/rfcs",
+      "status": "candidate-context",
+      "text": "Public change requests/proposals & ideation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/rfcs",
+      "status": "candidate-context",
+      "text": "This document describes the RFC process for the [npm"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "npm/rfcs",
+      "status": "candidate",
+      "text": "This document describes the RFC process for the [npm"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9995385,
+      "status": "candidate",
+      "text": "cfr"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9992292,
+      "status": "candidate",
+      "text": "cra"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "calibrations"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "certifications"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "chapters"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "rfcs",
+  "concept_id": "rfcs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "npm/rfcs"
+    }
+  ],
+  "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rfcs",
+      "sense_id": "rfcs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

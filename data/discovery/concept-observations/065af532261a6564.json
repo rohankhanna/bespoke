@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Basic repo demoing a simple AVS middleware with full eigenlayer integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Docker Compose Up Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Docker Compose Up Test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39362,
+      "status": "candidate",
+      "text": "constitute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39223,
+      "status": "candidate",
+      "text": "settled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38823,
+      "status": "candidate",
+      "text": "settle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38727,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38162,
+      "status": "candidate",
+      "text": "constituted"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Docker Compose Up Test",
+      "sense_id": "docker-compose-up-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "docker-compose-up-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "docker-compose-up-test",
+  "observation_id": "065af532261a6564",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T17:42:30.117329+00:00",
+  "observed_text": "Docker Compose Up Test",
+  "source_context_snippet": "Docker Compose Up Test",
+  "source_file": ".github/workflows/docker-compose-up-test.yaml",
+  "source_repo": "Layr-Labs/incredible-squaring-avs",
+  "source_repo_description": "Basic repo demoing a simple AVS middleware with full eigenlayer integration"
+}

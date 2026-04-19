@@ -232,6 +232,72 @@
       "source_repo": "vaporif/parry-guard",
       "status": "candidate-context",
       "text": "[![ci](https://github.com/vaporif/parry-guard/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/vaporif/parry-guard/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "winfunc/opcode",
+      "status": "candidate-context",
+      "text": "A powerful GUI app and Toolkit for Claude Code - Create custom agents, manage interactive Claude Code sessions, run secure background agents, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "winfunc/opcode",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gyscos/cursive",
+      "status": "candidate-context",
+      "text": "A Text User Interface library for the Rust programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gyscos/cursive",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gyscos/cursive",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/v/cursive.svg)](https://crates.io/crates/cursive)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dirs-dev/directories-rs",
+      "status": "candidate-context",
+      "text": "moved to https://codeberg.org/dirs/directories-rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dirs-dev/directories-rs",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dirs-dev/dirs-rs",
+      "status": "candidate-context",
+      "text": "moved to https://codeberg.org/dirs/dirs-rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dirs-dev/dirs-rs",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/rfcs",
+      "status": "candidate-context",
+      "text": "RFCs for changes to Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rfcs",
+      "status": "candidate-context",
+      "text": "[Rust RFCs]: #rust-rfcs"
     }
   ],
   "candidate_glosses": [
@@ -336,6 +402,42 @@
       "source_repo": "vaporif/parry-guard",
       "status": "candidate",
       "text": "[![ci](https://github.com/vaporif/parry-guard/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/vaporif/parry-guard/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "winfunc/opcode",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gyscos/cursive",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gyscos/cursive",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/cursive.svg)](https://crates.io/crates/cursive)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dirs-dev/directories-rs",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dirs-dev/dirs-rs",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rfcs",
+      "status": "candidate",
+      "text": "[Rust RFCs]: #rust-rfcs"
     }
   ],
   "candidate_related_terms": [
@@ -613,11 +715,47 @@
       "observed_at": "2026-04-19T17:36:09.281008+00:00",
       "source_file": null,
       "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "gyscos/cursive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "gyscos/cursive"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dirs-dev/directories-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dirs-dev/dirs-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T17:42:30.117329+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rfcs"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "lexical_providers": [
     "datamuse"
   ],
