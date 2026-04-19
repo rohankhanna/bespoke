@@ -493,6 +493,7 @@ def upsert_concept_observation(observations_dir, generated_at, source_repo, sour
         "observed_text": term,
         "normalized_form": slug(term),
         "observation_kind": hit.get("edge_type"),
+        "discovered_via": hit.get("edge_type"),
         "source_repo": source_repo,
         "source_file": hit.get("source_file"),
         "observed_at": generated_at,
