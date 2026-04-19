@@ -60,6 +60,10 @@ jobs:
             discovery/config/discovery-limits.json \
             ../bespoke-data
 
+      - name: Build discovery pages
+        run: |
+          python scripts/build_discovery_pages.py ../bespoke-data
+
       - name: Commit and push data updates
         run: |
           current_remote=$(git ls-remote --exit-code --heads origin data | awk '{print $1}' || true)
