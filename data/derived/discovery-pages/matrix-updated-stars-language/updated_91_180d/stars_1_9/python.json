@@ -1,0 +1,20 @@
+{
+  "counts": {
+    "components": 30,
+    "concepts": 6,
+    "observations": 6,
+    "repos": 2,
+    "terms": 10
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "python",
+    "star_bucket": "stars_1_9",
+    "updated_bucket": "updated_91_180d"
+  },
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "repo_ids": [
+    "arustydev/pre-commit-hooks",
+    "tahv/typos-gitlab-code-quality"
+  ]
+}

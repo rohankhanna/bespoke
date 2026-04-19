@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11,
-    "concepts": 37,
-    "observations": 37,
-    "repos": 52,
-    "terms": 47
+    "components": 9,
+    "concepts": 35,
+    "observations": 35,
+    "repos": 48,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
     "agenmod/mirror-skill",
     "agenmod/steamer-skill",
@@ -49,13 +49,9 @@
     "Damacol/meta-llama-llama-3-2-3b",
     "Damacol/xai-org-grok-2",
     "EternaHybridExchange/eterna-mcp",
-    "FlineDev/Marketplace",
-    "FlineDev/PlanKit",
     "forrestchang/andrej-karpathy-skills",
     "Foundersieve687/skill-gateway",
     "graveyardsfocrdpktv/Ethereum-mempool-bot",
-    "kubernetes/steering",
-    "libp2p/specs",
     "Livemania18/Idiegti-Sukonfiguruoti-Yiimp-Kasimo-Baseinas-Programine-Iranga-Ubuntu-Linux",
     "muhammadumer000/Ustanovka-i-nastrojka-Yiimp-Mayning-Pul-Programmnoe-Obespechenie-Ubuntu-Linux",
     "Narutoxdd6/Nyro",

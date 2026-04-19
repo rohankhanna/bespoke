@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 0,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 1,
+    "terms": 0
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "shell",
+    "star_bucket": "stars_1_9",
+    "updated_bucket": "updated_181d_plus"
+  },
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "repo_ids": [
+    "to4iki/ai-project-rules"
+  ]
+}

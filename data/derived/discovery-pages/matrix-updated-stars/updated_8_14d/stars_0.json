@@ -1,0 +1,22 @@
+{
+  "counts": {
+    "components": 10,
+    "concepts": 6,
+    "observations": 6,
+    "repos": 5,
+    "terms": 6
+  },
+  "facet_version": 1,
+  "filters": {
+    "star_bucket": "stars_0",
+    "updated_bucket": "updated_8_14d"
+  },
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "repo_ids": [
+    "abraxas-365/claudio-screenshot",
+    "cdeust/cortex-know-when-to-stop-training-model",
+    "ethpandaops/xatu-cbt",
+    "piebald-ai/piebald",
+    "wencuecryforme/mysoul.skill"
+  ]
+}

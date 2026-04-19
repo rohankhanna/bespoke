@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 524,
-    "concepts": 247,
-    "observations": 249,
-    "repos": 82,
-    "terms": 369
+    "components": 486,
+    "concepts": 229,
+    "observations": 231,
+    "repos": 75,
+    "terms": 344
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
     "1Panel-dev/MaxKB",
     "AaronWong1999/hermesclaw",
@@ -37,13 +37,9 @@
     "cafitac/hermit-agent",
     "cdeust/Cortex",
     "CjTruHeart/abundance-codex",
-    "cloudartisan/cloudartisan.github.io",
     "costiash/claude-code-docs",
-    "DataDog/guarddog",
     "davila7/claude-code-templates",
     "django/django",
-    "dreamiurg/claude-mountaineering-skills",
-    "dreamiurg/peakbagger-cli",
     "EtanHey/brainlayer",
     "fcakyon/claude-codex-settings",
     "Florisheedless915/grok-register",
@@ -56,7 +52,6 @@
     "googleapis/python-genai",
     "hesreallyhim/awesome-claude-code",
     "K-Dense-AI/scientific-agent-skills",
-    "kelp/webdown",
     "kidshadow79/Ogma",
     "l12203685/digital-immortality",
     "langchain-ai/langgraph",
@@ -66,7 +61,6 @@
     "mem0ai/mem0",
     "mem0ai/memory-benchmarks",
     "microsoft/pyright",
-    "mitchuski/agentprivacy-skills",
     "mohfer/nous-proxy",
     "Momentique/Source-Code-Security-Audit-Reviewer",
     "nesquena/hermes-webui",
@@ -81,7 +75,6 @@
     "plastic-labs/honcho",
     "pydantic/pydantic-ai",
     "roampal-ai/roampal",
-    "roampal-ai/roampal-labs",
     "rrsaldanha/burp-mcp-agents",
     "RyjoxTechnologies/Octopoda-OS",
     "Shubishere/ai-drawio",
@@ -90,10 +83,10 @@
     "strands-agents/agent-sop",
     "stripe/stripe-python",
     "sunthinks/kvmind",
-    "thinking-machines-lab/tinker",
     "titanwings/colleague-skill",
     "trailofbits/buttercup",
     "trailofbits/skills",
+    "vllm-project/vllm",
     "wshobson/agents",
     "XiaoChu-1208/interview-assistant-CLI"
   ]

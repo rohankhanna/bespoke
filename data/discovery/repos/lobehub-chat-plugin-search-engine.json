@@ -652,14 +652,18 @@
       "size": 460
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:12.770243+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83e\udde9 / \ud83d\udd0d  SearchEngine - This plugin allows for the use of the SerpApi search engine.",
+    "fork": false,
     "full_name": "lobehub/chat-plugin-search-engine",
     "html_url": "https://github.com/lobehub/chat-plugin-search-engine",
     "language": "TypeScript",
     "pushed_at": "2024-01-23T05:19:10Z",
+    "stargazers_count": 46,
     "topics": [
       "ai",
       "chatgpt",

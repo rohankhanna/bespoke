@@ -555,14 +555,18 @@
       "size": 460
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:34.589913+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83e\udde9 / \ud83d\udeaa Plugins Gateway - The LobeChat Plugins Gateway is a backend service that serves as a gateway for LobeChat plugins. We deploy this service using Vercel. The primary API POST /api/v1/runner is deployed as an Edge Function.",
+    "fork": false,
     "full_name": "lobehub/chat-plugins-gateway",
     "html_url": "https://github.com/lobehub/chat-plugins-gateway",
     "language": "TypeScript",
     "pushed_at": "2023-12-28T13:40:27Z",
+    "stargazers_count": 26,
     "topics": [
       "function-calling",
       "gateway",

@@ -289,14 +289,18 @@
       "size": 2091
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:32.062095+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A SQLite extension for generating text embeddings from GGUF models using llama.cpp",
+    "fork": false,
     "full_name": "asg017/sqlite-lembed",
     "html_url": "https://github.com/asg017/sqlite-lembed",
     "language": "C",
     "pushed_at": "2024-11-24T06:10:43Z",
+    "stargazers_count": 255,
     "topics": [
       "sqlite-extension"
     ],

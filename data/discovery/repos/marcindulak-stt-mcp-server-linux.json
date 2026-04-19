@@ -90,14 +90,18 @@
       "size": 1597
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:04.258859+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Local speech-to-text MCP server for Tmux on Linux (for use not only with Claude Code)",
+    "fork": false,
     "full_name": "marcindulak/stt-mcp-server-linux",
     "html_url": "https://github.com/marcindulak/stt-mcp-server-linux",
     "language": "Python",
     "pushed_at": "2026-01-10T20:37:40Z",
+    "stargazers_count": 22,
     "topics": [
       "claude-code",
       "linux",

@@ -55,14 +55,18 @@
       "size": 38
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:08.643668+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "My Claude Code slash commands",
-    "full_name": "danielrosehill/Claude-Slash-Commands",
+    "fork": false,
+    "full_name": "danielrosehill/claude-slash-commands",
     "html_url": "https://github.com/danielrosehill/Claude-Slash-Commands",
     "language": "Python",
     "pushed_at": "2026-03-25T16:19:14Z",
+    "stargazers_count": 4,
     "topics": [
       "claude",
       "claude-code",

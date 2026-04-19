@@ -1,0 +1,22 @@
+{
+  "counts": {
+    "components": 28,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 4,
+    "terms": 1
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "javascript",
+    "star_bucket": "stars_100_999",
+    "updated_bucket": "updated_181d_plus"
+  },
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "repo_ids": [
+    "bartolli/claude-code-typescript-hooks",
+    "fimeg/networkchronicles",
+    "grahama1970/claude-code-mcp-enhanced",
+    "kingler/n8n_agent"
+  ]
+}

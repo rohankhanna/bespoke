@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · Unknown stars · Unknown
 
-Generated at: `2026-04-19T06:58:55.872585+00:00`
+Generated at: `2026-04-19T07:52:38.223094+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 52
-- terms: 47
-- components: 11
-- concepts: 37
-- observations: 37
+- repos: 48
+- terms: 45
+- components: 9
+- concepts: 35
+- observations: 35
 
 ## Static behavior
 
@@ -70,13 +70,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Piebald-AI/awesome-gemini-cli](https://github.com/Piebald-AI/awesome-gemini-cli) | unknown | 2026-04-16T13:53:06Z | Unknown | CLI | 10 | 0 | 10 | 10 |
 | [cloudflare/skills](https://github.com/cloudflare/skills) | unknown | 2026-04-16T12:56:33Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | unknown | 2026-04-15T17:47:20Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [libp2p/specs](https://github.com/libp2p/specs) | unknown | 2026-04-15T17:38:36Z | Unknown | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [tmstack/awesome-persona-skills](https://github.com/tmstack/awesome-persona-skills) | unknown | 2026-04-15T11:43:50Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [agenmod/mirror-skill](https://github.com/agenmod/mirror-skill) | unknown | 2026-04-15T04:01:11Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [agenmod/steamer-skill](https://github.com/agenmod/steamer-skill) | unknown | 2026-04-15T02:44:39Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [kubernetes/steering](https://github.com/kubernetes/steering) | unknown | 2026-04-14T21:16:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [FlineDev/Marketplace](https://github.com/FlineDev/Marketplace) | unknown | 2026-04-14T14:42:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [FlineDev/PlanKit](https://github.com/FlineDev/PlanKit) | unknown | 2026-04-14T14:41:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [Astro-Han/karpathy-llm-wiki](https://github.com/Astro-Han/karpathy-llm-wiki) | unknown | 2026-04-13T01:39:31Z | Unknown | Docs/knowledge | 10 | 0 | 11 | 11 |
 
 ## Repos sorted by stars
@@ -127,11 +123,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Piebald-AI/awesome-gemini-cli](https://github.com/Piebald-AI/awesome-gemini-cli) | unknown | 2026-04-16T13:53:06Z | Unknown | CLI | 10 | 0 | 10 | 10 |
 | [cloudflare/skills](https://github.com/cloudflare/skills) | unknown | 2026-04-16T12:56:33Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) | unknown | 2026-04-15T17:47:20Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [libp2p/specs](https://github.com/libp2p/specs) | unknown | 2026-04-15T17:38:36Z | Unknown | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [tmstack/awesome-persona-skills](https://github.com/tmstack/awesome-persona-skills) | unknown | 2026-04-15T11:43:50Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [agenmod/mirror-skill](https://github.com/agenmod/mirror-skill) | unknown | 2026-04-15T04:01:11Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [agenmod/steamer-skill](https://github.com/agenmod/steamer-skill) | unknown | 2026-04-15T02:44:39Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [kubernetes/steering](https://github.com/kubernetes/steering) | unknown | 2026-04-14T21:16:37Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [FlineDev/Marketplace](https://github.com/FlineDev/Marketplace) | unknown | 2026-04-14T14:42:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [FlineDev/PlanKit](https://github.com/FlineDev/PlanKit) | unknown | 2026-04-14T14:41:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [Astro-Han/karpathy-llm-wiki](https://github.com/Astro-Han/karpathy-llm-wiki) | unknown | 2026-04-13T01:39:31Z | Unknown | Docs/knowledge | 10 | 0 | 11 | 11 |

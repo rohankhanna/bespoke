@@ -121,14 +121,18 @@
       "size": 8838
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:24.881434+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Privacy-first AI agent skills for Claude Code. 80+ skills and personas for ZKP, decentralized identity, dual-agent architecture, and sovereign AI",
+    "fork": false,
     "full_name": "mitchuski/agentprivacy-skills",
     "html_url": "https://github.com/mitchuski/agentprivacy-skills",
     "language": "Python",
     "pushed_at": "2026-04-13T10:55:54Z",
+    "stargazers_count": 0,
     "topics": [
       "agent-skills",
       "ai-agent",

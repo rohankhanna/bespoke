@@ -1,21 +1,53 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 4,
-    "observations": 4,
-    "repos": 4,
-    "terms": 4
+    "components": 403,
+    "concepts": 62,
+    "observations": 63,
+    "repos": 36,
+    "terms": 82
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
+    "arktisklada/crank",
+    "asg017/sqlite-fastrand",
+    "axolotl-ai-cloud/plugin-atropos",
+    "brads3290/cclogviewer",
+    "bytegust/spm",
+    "chrisleyva/todo-slash-command",
     "ckipp01/stylua-nvim",
+    "danielnappa/tweakgc-cli",
     "decider/claude-hooks",
+    "didalgolab/ai-intellij-plugin",
+    "fatwang2/search1api-lobechat",
+    "gerschel/sd-web-ui-quickcss",
+    "grahama1970/claude-task-runner",
+    "hashintel/awesome-hash",
+    "icanhasjonas/run-claude-docker",
     "IKKI2000/harmonyos-fonts",
-    "junegunn/vim-startuptime-benchmark"
+    "jaredsohn/mutefm",
+    "junegunn/vim-startuptime-benchmark",
+    "lamoomai/lamoom-python",
+    "lenml/gcp-claude-openai-api-server",
+    "lobehub/chat-plugin-realtime-weather",
+    "lobehub/chat-plugin-sdk",
+    "lobehub/chat-plugin-search-engine",
+    "lobehub/chat-plugin-template",
+    "lobehub/chat-plugin-web-crawler",
+    "lobehub/chat-plugins-gateway",
+    "lobehub/lobe-assets",
+    "mountainstorm/llaudio",
+    "oxpig/calm",
+    "purcell/inheritenv",
+    "rygwdn/slack-tools",
+    "steadycursor/steadystart",
+    "superclaude-org/superqwen_framework",
+    "taikinman/langrila",
+    "tott/laravel-tall-claude-ai-configs",
+    "yzyydev/agentic-coding-structure"
   ]
 }

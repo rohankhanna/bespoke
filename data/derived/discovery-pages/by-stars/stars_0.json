@@ -1,17 +1,39 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 1,
-    "terms": 0
+    "components": 70,
+    "concepts": 64,
+    "observations": 64,
+    "repos": 23,
+    "terms": 67
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
-    "GarrettAlbright/Luacheck.novaextension"
+    "abraxas-365/claudio-screenshot",
+    "adammes/voyanode",
+    "b2agi/exist-is-charter_kr",
+    "burntsushi/linux",
+    "cdeust/cortex-know-when-to-stop-training-model",
+    "danielrosehill/ai-human-attribution-adder",
+    "danielrosehill/batch-claudemd-repo-creator",
+    "ethpandaops/xatu-cbt",
+    "GarrettAlbright/Luacheck.novaextension",
+    "mitchuski/agentprivacy-skills",
+    "mjvolk3/biocypher",
+    "mjvolk3/dendron-template",
+    "musicman3/cruder",
+    "musicman3/r2-d2",
+    "neuroverseos/negotiator",
+    "nibir1/vaultsim",
+    "piebald-ai/piebald",
+    "roampal-ai/roampal-labs",
+    "sujithpvarghese/bedrock-agent-core-operations-hub",
+    "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
+    "sujithpvarghese/bedrock-full-reconciliation",
+    "wencuecryforme/mysoul.skill",
+    "wesfloyd/avs-context-prompt"
   ]
 }

@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · Unknown stars · Rust
 
-Generated at: `2026-04-19T06:58:55.872585+00:00`
+Generated at: `2026-04-19T07:52:38.223094+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
-- terms: 3
-- components: 14
-- concepts: 2
-- observations: 2
+- repos: 2
+- terms: 2
+- components: 11
+- concepts: 1
+- observations: 1
 
 ## Static behavior
 
@@ -28,7 +28,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [Haleclipse/CCometixLine](https://github.com/Haleclipse/CCometixLine) | unknown | 2026-03-14T18:03:04Z | Rust | Infrastructure/tooling | 1 | 9 | 1 | 1 |
 | [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) | unknown | 2026-02-27T16:25:19Z | Rust | CLI | 1 | 2 | 0 | 0 |
-| [unicode-rs/unicode-width](https://github.com/unicode-rs/unicode-width) | unknown | 2026-02-19T16:40:05Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -36,4 +35,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [Haleclipse/CCometixLine](https://github.com/Haleclipse/CCometixLine) | unknown | 2026-03-14T18:03:04Z | Rust | Infrastructure/tooling | 1 | 9 | 1 | 1 |
 | [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) | unknown | 2026-02-27T16:25:19Z | Rust | CLI | 1 | 2 | 0 | 0 |
-| [unicode-rs/unicode-width](https://github.com/unicode-rs/unicode-width) | unknown | 2026-02-19T16:40:05Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |

@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 20,
+    "concepts": 6,
+    "observations": 6,
+    "repos": 1,
+    "terms": 6
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "go",
+    "star_bucket": "stars_100_999",
+    "updated_bucket": "updated_31_60d"
+  },
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "repo_ids": [
+    "withastro/compiler"
+  ]
+}

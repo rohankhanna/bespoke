@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 4,
-    "observations": 4,
-    "repos": 3,
-    "terms": 4
+    "components": 71,
+    "concepts": 24,
+    "observations": 24,
+    "repos": 11,
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,18 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
+    "arktisklada/crank",
     "ckipp01/stylua-nvim",
+    "gerschel/sd-web-ui-quickcss",
     "IKKI2000/harmonyos-fonts",
-    "junegunn/vim-startuptime-benchmark"
+    "jaredsohn/mutefm",
+    "junegunn/vim-startuptime-benchmark",
+    "lamoomai/lamoom-python",
+    "lobehub/chat-plugin-web-crawler",
+    "lobehub/lobe-assets",
+    "purcell/inheritenv",
+    "taikinman/langrila"
   ]
 }

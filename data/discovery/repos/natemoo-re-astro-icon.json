@@ -337,20 +337,24 @@
       "size": 979
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:16.494942+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Inline and sprite-based SVGs in Astro made easy!",
+    "fork": false,
     "full_name": "natemoo-re/astro-icon",
     "html_url": "https://github.com/natemoo-re/astro-icon",
     "language": "MDX",
     "pushed_at": "2025-03-31T16:13:00Z",
+    "stargazers_count": 1394,
     "topics": [
       "astro",
       "icon",
       "svg"
     ],
-    "updated_at": "2026-04-09T15:55:06Z"
+    "updated_at": "2026-04-19T05:59:37Z"
   },
   "repo_links": [
     {

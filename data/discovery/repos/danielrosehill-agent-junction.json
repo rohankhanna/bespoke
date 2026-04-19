@@ -138,14 +138,18 @@
       "size": 1175
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:18.064267+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Ephemeral agent-to-agent communication relay for agentic CLIs (localhost or intra-LAN). MCP.",
-    "full_name": "danielrosehill/Agent-Junction",
+    "fork": false,
+    "full_name": "danielrosehill/agent-junction",
     "html_url": "https://github.com/danielrosehill/Agent-Junction",
     "language": "TypeScript",
     "pushed_at": "2026-04-10T14:41:51Z",
+    "stargazers_count": 3,
     "topics": [
       "agent-to-agent",
       "agentic-cli",

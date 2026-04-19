@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 127,
-    "concepts": 44,
-    "observations": 45,
-    "repos": 34,
-    "terms": 97
+    "components": 118,
+    "concepts": 38,
+    "observations": 39,
+    "repos": 30,
+    "terms": 89
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
     "actions/runner",
     "actions/runner-images",
@@ -22,7 +22,6 @@
     "apple/container",
     "automazeio/vibeproxy",
     "b2agi/exist-is-charter",
-    "beyondcode/claude-hooks-sdk",
     "Chaos2Cured/FreeLattice",
     "cyber404/che-apple-mail-mcp",
     "danielrosehill/Claude-Code-Projects-Index",
@@ -32,14 +31,11 @@
     "Floxym/financial-chat-Finance-NLP-Chatbots",
     "genuslovoacalixtusiii510/YTP-2026",
     "harperreed/dotfiles",
+    "jeremymailen/kotlinter-gradle",
     "joinwell52-AI/codeflow-pwa",
-    "joinwell52-AI/joinwell52",
     "JSONbored/claudepro-directory",
     "kubernetes/community",
-    "lunarmodules/luacheck",
     "markoswire/remember-me.ai",
-    "mitchuski/agentprivacy-docs",
-    "mongodb/homebrew-brew",
     "musicman3/eMarket",
     "openclaw/nix-openclaw",
     "ParetoSecurity/pareto-mac",

@@ -16,14 +16,18 @@
       "size": 1340
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:05.801658+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Official community port of T\u00c2CHES prompts, adapted for OpenCode. All credit belongs to the original author, T\u00c2CHES. This fork updates the agents, tools, and paths to be compatible with Opencode's sub-agent and tool system.",
+    "fork": true,
     "full_name": "stephenschoettler/taches-oc-prompts",
     "html_url": "https://github.com/stephenschoettler/taches-oc-prompts",
     "language": null,
     "pushed_at": "2026-01-14T04:58:38Z",
+    "stargazers_count": 22,
     "topics": [],
     "updated_at": "2026-03-10T08:51:16Z"
   },

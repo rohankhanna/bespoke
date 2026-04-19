@@ -8,14 +8,18 @@
       "size": 6908
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:19.379416+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A modern project scaffold for AI-assisted development workflows\u2014providing reusable Claude Code commands (.claude/commands/), structured AI documentation (ai_docs/), and standardized feature specifications (specs/) to streamline collaboration with Claude Code and OpenAI Codex.",
+    "fork": false,
     "full_name": "yzyydev/agentic-coding-structure",
     "html_url": "https://github.com/yzyydev/agentic-coding-structure",
     "language": null,
     "pushed_at": "2025-09-15T14:45:37Z",
+    "stargazers_count": 35,
     "topics": [],
     "updated_at": "2026-04-10T20:32:31Z"
   },

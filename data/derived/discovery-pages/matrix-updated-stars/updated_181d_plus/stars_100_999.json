@@ -1,22 +1,51 @@
 {
   "counts": {
-    "components": 19,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 5,
-    "terms": 11
+    "components": 380,
+    "concepts": 80,
+    "observations": 80,
+    "repos": 34,
+    "terms": 85
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
+    "aminrezaei0x443/memory-efficient-attention",
+    "asg017/sqlite-ecosystem",
+    "asg017/sqlite-html",
+    "asg017/sqlite-http",
+    "asg017/sqlite-lembed",
+    "asg017/sqlite-loadable-rs",
+    "asg017/sqlite-rembed",
+    "asg017/sqlite-xsv",
+    "automatic1111/stable-diffusion-webui-aesthetic-gradients",
+    "bartolli/claude-code-typescript-hooks",
+    "beyondgrep/ack3",
+    "chrismytton/shoreman",
+    "connectai-e/midjourney-web",
+    "dazuiba/ccnotify",
+    "disler/just-prompt",
     "ecumene/rust-sloth",
     "ers35/luastatic",
+    "fimeg/networkchronicles",
+    "grahama1970/claude-code-mcp-enhanced",
     "harfbuzz/rustybuzz",
     "infinyon/node-bindgen",
-    "LPGhatguy/aftman"
+    "johnlindquist/claude-hooks",
+    "kingler/n8n_agent",
+    "klaus2m5/6502_65c02_functional_tests",
+    "layr-labs/hello-world-avs",
+    "lobehub/lobe-vidol",
+    "LPGhatguy/aftman",
+    "njsmith/posy",
+    "possibilities/claude-composer",
+    "programatik29/rust-web-benchmarks",
+    "rlxone/multisoundchanger",
+    "simonw/sqlite-diffable",
+    "tc39/proposal-async-iteration",
+    "yuag/code-audit"
   ]
 }

@@ -61,14 +61,18 @@
       "size": 213
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:22.918957+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83d\ude0e A curated list of the best resources in the HASH ecosystem",
+    "fork": false,
     "full_name": "hashintel/awesome-hash",
     "html_url": "https://github.com/hashintel/awesome-hash",
     "language": null,
     "pushed_at": "2023-09-14T06:03:31Z",
+    "stargazers_count": 32,
     "topics": [
       "awesome",
       "awesome-list",

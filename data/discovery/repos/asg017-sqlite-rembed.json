@@ -265,14 +265,18 @@
       "size": 1934
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:10.955402+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A SQLite extension for generating text embeddings from remote APIs (OpenAI, Nomic, Ollama, llamafile...)",
+    "fork": false,
     "full_name": "asg017/sqlite-rembed",
     "html_url": "https://github.com/asg017/sqlite-rembed",
     "language": "Rust",
     "pushed_at": "2024-11-04T06:50:46Z",
+    "stargazers_count": 154,
     "topics": [
       "sqlite-extension"
     ],

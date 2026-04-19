@@ -719,14 +719,18 @@
       "size": 504
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:24.725732+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "\ud83e\udde9 Lobe Chat Plugin SDK - The LobeChat Plugin SDK assists you in creating exceptional chat plugins for Lobe Chat.",
+    "fork": false,
     "full_name": "lobehub/chat-plugin-sdk",
     "html_url": "https://github.com/lobehub/chat-plugin-sdk",
     "language": "TypeScript",
     "pushed_at": "2025-07-31T02:13:10Z",
+    "stargazers_count": 74,
     "topics": [
       "ai",
       "chatgpt",

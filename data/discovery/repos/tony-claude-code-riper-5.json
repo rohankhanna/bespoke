@@ -51,14 +51,18 @@
       "size": 7244
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:33.917599+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Claude Code (Sub-agent, Custom Commands) for RIPER-5",
+    "fork": false,
     "full_name": "tony/claude-code-riper-5",
     "html_url": "https://github.com/tony/claude-code-riper-5",
     "language": null,
     "pushed_at": "2026-02-08T00:20:22Z",
+    "stargazers_count": 82,
     "topics": [
       "claude-code",
       "claude-subagents",

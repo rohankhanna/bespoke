@@ -66,14 +66,18 @@
       "size": 741
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:31.424474+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Manage Procfile-based applications",
+    "fork": false,
     "full_name": "ddollar/foreman",
     "html_url": "https://github.com/ddollar/foreman",
     "language": "Ruby",
     "pushed_at": "2025-07-27T10:04:03Z",
+    "stargazers_count": 6145,
     "topics": [],
     "updated_at": "2026-04-15T19:54:09Z"
   },

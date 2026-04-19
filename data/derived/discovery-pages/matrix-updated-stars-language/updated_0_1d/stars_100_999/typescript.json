@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 26,
+    "components": 129,
     "concepts": 0,
     "observations": 0,
-    "repos": 1,
-    "terms": 0
+    "repos": 3,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
+    "elizaos/elizaos.github.io",
+    "lobehub/lobe-chat-plugins",
     "napi-rs/package-template"
   ]
 }

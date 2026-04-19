@@ -587,14 +587,18 @@
       "size": 4060
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:36.267310+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "(Crystal is now Nimbalyst) Run multiple Codex and Claude Code AI sessions in parallel git worktrees. Test, compare approaches & manage AI-assisted development workflows in one desktop app.",
+    "fork": false,
     "full_name": "stravu/crystal",
     "html_url": "https://github.com/stravu/crystal",
     "language": "TypeScript",
     "pushed_at": "2026-02-26T21:48:10Z",
+    "stargazers_count": 3020,
     "topics": [
       "agentic-ai",
       "ai",
@@ -610,7 +614,7 @@
       "openai-codex",
       "vibe-coding"
     ],
-    "updated_at": "2026-04-16T17:18:31Z"
+    "updated_at": "2026-04-19T00:23:15Z"
   },
   "repo_links": [
     {

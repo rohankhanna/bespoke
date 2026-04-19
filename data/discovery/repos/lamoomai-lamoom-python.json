@@ -173,14 +173,18 @@
       "size": 1674
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:03.302237+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Open source library for production prompt engineering and load balancing of AI Models",
-    "full_name": "LamoomAI/lamoom-python",
+    "fork": false,
+    "full_name": "lamoomai/lamoom-python",
     "html_url": "https://github.com/LamoomAI/lamoom-python",
     "language": "Jupyter Notebook",
     "pushed_at": "2025-08-28T13:38:27Z",
+    "stargazers_count": 98,
     "topics": [],
     "updated_at": "2026-02-24T08:38:22Z"
   },

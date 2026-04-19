@@ -1,0 +1,20 @@
+{
+  "counts": {
+    "components": 7,
+    "concepts": 10,
+    "observations": 10,
+    "repos": 3,
+    "terms": 10
+  },
+  "facet_version": 1,
+  "filters": {
+    "star_bucket": "stars_0",
+    "updated_bucket": "updated_31_60d"
+  },
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "repo_ids": [
+    "mjvolk3/dendron-template",
+    "musicman3/cruder",
+    "musicman3/r2-d2"
+  ]
+}

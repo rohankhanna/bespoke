@@ -16,14 +16,18 @@
       "size": 764
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:04.723841+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Aesthetic gradients extension for web ui",
-    "full_name": "AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients",
+    "fork": false,
+    "full_name": "automatic1111/stable-diffusion-webui-aesthetic-gradients",
     "html_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients",
     "language": "Python",
     "pushed_at": "2023-01-23T08:45:27Z",
+    "stargazers_count": 456,
     "topics": [],
     "updated_at": "2026-03-02T02:32:18Z"
   },

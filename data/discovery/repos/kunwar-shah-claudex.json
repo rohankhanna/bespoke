@@ -248,14 +248,18 @@
       "size": 2047
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:34.366364+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Claudex - A friendly viewer, Browse and explore your Claude conversations.",
+    "fork": false,
     "full_name": "kunwar-shah/claudex",
     "html_url": "https://github.com/kunwar-shah/claudex",
     "language": "JavaScript",
     "pushed_at": "2026-02-14T18:09:15Z",
+    "stargazers_count": 81,
     "topics": [
       "claude-ai",
       "claude-code",

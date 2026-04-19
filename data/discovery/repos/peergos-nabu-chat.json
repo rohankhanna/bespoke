@@ -8,14 +8,18 @@
       "size": 245
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:51:58.148297+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "simple cmd line chat using nabu primitives",
-    "full_name": "Peergos/nabu-chat",
+    "fork": false,
+    "full_name": "peergos/nabu-chat",
     "html_url": "https://github.com/Peergos/nabu-chat",
     "language": "Java",
     "pushed_at": "2024-05-08T21:16:54Z",
+    "stargazers_count": 6,
     "topics": [],
     "updated_at": "2025-07-28T08:45:24Z"
   },

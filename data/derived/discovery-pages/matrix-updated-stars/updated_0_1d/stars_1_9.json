@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 15,
+    "concepts": 14,
+    "observations": 14,
+    "repos": 2,
+    "terms": 13
+  },
+  "facet_version": 1,
+  "filters": {
+    "star_bucket": "stars_1_9",
+    "updated_bucket": "updated_0_1d"
+  },
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "repo_ids": [
+    "tarikmanoar/tarikmanoar",
+    "vincent-k2026/codachi"
+  ]
+}

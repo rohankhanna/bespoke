@@ -126,14 +126,18 @@
       "size": 599
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:21.208446+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": " NetworkChronicles - a gamified Linux learning system that documents your infrastructure as you go - locally, might I add.",
-    "full_name": "Fimeg/NetworkChronicles",
+    "fork": false,
+    "full_name": "fimeg/networkchronicles",
     "html_url": "https://github.com/Fimeg/NetworkChronicles",
     "language": "JavaScript",
     "pushed_at": "2025-08-08T20:07:59Z",
+    "stargazers_count": 191,
     "topics": [],
     "updated_at": "2026-04-11T15:16:20Z"
   },

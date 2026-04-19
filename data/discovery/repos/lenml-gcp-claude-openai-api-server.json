@@ -537,14 +537,18 @@
       "size": 674
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:18.741817+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "converts Vertex AI API to OpenAI API format.",
-    "full_name": "lenML/gcp-claude-openai-api-server",
+    "fork": false,
+    "full_name": "lenml/gcp-claude-openai-api-server",
     "html_url": "https://github.com/lenML/gcp-claude-openai-api-server",
     "language": "TypeScript",
     "pushed_at": "2024-10-23T16:05:40Z",
+    "stargazers_count": 12,
     "topics": [
       "claude",
       "claude-3",

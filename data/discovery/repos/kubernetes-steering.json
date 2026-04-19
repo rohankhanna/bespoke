@@ -16,14 +16,18 @@
       "size": 6479
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:28.346259+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "The Kubernetes Steering Committee",
+    "fork": false,
     "full_name": "kubernetes/steering",
     "html_url": "https://github.com/kubernetes/steering",
     "language": null,
     "pushed_at": "2026-04-14T21:16:37Z",
+    "stargazers_count": 99,
     "topics": [],
     "updated_at": "2026-04-14T21:16:42Z"
   },

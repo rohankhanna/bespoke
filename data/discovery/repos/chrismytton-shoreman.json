@@ -91,14 +91,18 @@
       "size": 659
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:10.472433+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": ":shell: foreman in shell",
+    "fork": false,
     "full_name": "chrismytton/shoreman",
     "html_url": "https://github.com/chrismytton/shoreman",
     "language": "Shell",
     "pushed_at": "2025-01-30T11:05:25Z",
+    "stargazers_count": 336,
     "topics": [
       "foreman",
       "procfile",

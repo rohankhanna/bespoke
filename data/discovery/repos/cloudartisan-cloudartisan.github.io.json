@@ -208,14 +208,18 @@
       "size": 59
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:23.216905+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "My blog - the site, the content and the code",
+    "fork": false,
     "full_name": "cloudartisan/cloudartisan.github.io",
     "html_url": "https://github.com/cloudartisan/cloudartisan.github.io",
     "language": "Python",
     "pushed_at": "2026-04-12T10:59:10Z",
+    "stargazers_count": 31,
     "topics": [],
     "updated_at": "2026-04-12T10:58:54Z"
   },

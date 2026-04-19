@@ -867,14 +867,18 @@
       "size": 460
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:17.716108+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\u26f5\ufe0f Midjourney WebUI - This plugin can integrate with Midjourney in LobeChat.",
+    "fork": false,
     "full_name": "lobehub/lobe-midjourney-webui",
     "html_url": "https://github.com/lobehub/lobe-midjourney-webui",
     "language": "TypeScript",
     "pushed_at": "2026-03-29T00:41:26Z",
+    "stargazers_count": 196,
     "topics": [],
     "updated_at": "2026-04-10T09:07:11Z"
   },

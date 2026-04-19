@@ -1,19 +1,22 @@
 {
   "counts": {
-    "components": 5,
+    "components": 10,
     "concepts": 10,
     "observations": 10,
-    "repos": 2,
-    "terms": 10
+    "repos": 5,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
     "abduznik/Git-Alchemist",
-    "Aedelon/claude-code-blueprint"
+    "Aedelon/claude-code-blueprint",
+    "ctoth/claudio",
+    "revfactory/claude-code-harness",
+    "talieisin/britfix"
   ]
 }

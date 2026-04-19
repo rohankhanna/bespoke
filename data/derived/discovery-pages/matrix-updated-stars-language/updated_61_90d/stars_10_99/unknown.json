@@ -3,8 +3,8 @@
     "components": 0,
     "concepts": 0,
     "observations": 0,
-    "repos": 1,
-    "terms": 0
+    "repos": 3,
+    "terms": 6
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
-    "cloudrepo-io/founder-os"
+    "cloudrepo-io/founder-os",
+    "tony/claude-code-riper-5",
+    "withastro/.github"
   ]
 }

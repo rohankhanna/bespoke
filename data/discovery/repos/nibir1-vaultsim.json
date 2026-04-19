@@ -215,14 +215,18 @@
       "size": 1134
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:08.954178+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "An event-driven AI social engineering simulator. Execute prompt injection attacks against a defensive AI Persona while an invisible AI Judge scores your tactics in real-time. A polyglot microservices architecture built with Go, Python (LangChain), gRPC, React, WebSockets, and Terraform (AWS).",
-    "full_name": "Nibir1/VaultSim",
+    "fork": false,
+    "full_name": "nibir1/vaultsim",
     "html_url": "https://github.com/Nibir1/VaultSim",
     "language": "Python",
     "pushed_at": "2026-03-26T07:05:03Z",
+    "stargazers_count": 0,
     "topics": [
       "ai",
       "aws",

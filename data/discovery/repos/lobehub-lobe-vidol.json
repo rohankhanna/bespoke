@@ -1816,14 +1816,18 @@
       "size": 316
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:35.936052+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83e\uddf8 Lobe Vidol - Making Virtual Idols Accessible for EveryOne",
+    "fork": false,
     "full_name": "lobehub/lobe-vidol",
     "html_url": "https://github.com/lobehub/lobe-vidol",
     "language": "TypeScript",
     "pushed_at": "2025-03-08T15:05:47Z",
+    "stargazers_count": 940,
     "topics": [
       "chatbot",
       "chatgpt",

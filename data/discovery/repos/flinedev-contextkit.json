@@ -163,14 +163,18 @@
       "size": 24612
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:28.015086+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Claude Code context engineering & planning system for individual AI development workflows",
-    "full_name": "FlineDev/ContextKit",
+    "fork": false,
+    "full_name": "flinedev/contextkit",
     "html_url": "https://github.com/FlineDev/ContextKit",
     "language": "Shell",
     "pushed_at": "2026-03-10T00:49:42Z",
+    "stargazers_count": 165,
     "topics": [
       "ai-agents",
       "claude-code",

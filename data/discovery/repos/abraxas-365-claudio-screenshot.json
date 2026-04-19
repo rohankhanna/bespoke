@@ -12,14 +12,18 @@
       "size": 607
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:22.080254+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": null,
-    "full_name": "Abraxas-365/claudio-screenshot",
+    "fork": false,
+    "full_name": "abraxas-365/claudio-screenshot",
     "html_url": "https://github.com/Abraxas-365/claudio-screenshot",
     "language": "Go",
     "pushed_at": "2026-04-11T21:36:08Z",
+    "stargazers_count": 0,
     "topics": [],
     "updated_at": "2026-04-11T21:36:12Z"
   },

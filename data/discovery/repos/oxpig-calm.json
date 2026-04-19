@@ -62,14 +62,18 @@
       "size": 735
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:10.303772+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Protein language model trained on coding DNA",
-    "full_name": "oxpig/CaLM",
+    "fork": false,
+    "full_name": "oxpig/calm",
     "html_url": "https://github.com/oxpig/CaLM",
     "language": "Python",
     "pushed_at": "2024-10-20T17:56:44Z",
+    "stargazers_count": 54,
     "topics": [
       "codons",
       "computational-biology",

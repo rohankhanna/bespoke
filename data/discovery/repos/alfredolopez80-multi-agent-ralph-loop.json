@@ -181,14 +181,18 @@
       "size": 2798
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:34.747176+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Autonomous orchestration framework for Claude Code with MemPalace-inspired memory (4-layer stack, 818-token wake-up), parallel-first Agent Teams (6 teammates), Aristotle First Principles methodology, and 4-stage quality gates. 925+ tests, 22 active hooks, automatic learning pipeline.",
+    "fork": false,
     "full_name": "alfredolopez80/multi-agent-ralph-loop",
     "html_url": "https://github.com/alfredolopez80/multi-agent-ralph-loop",
     "language": "Shell",
-    "pushed_at": "2026-04-15T09:06:33Z",
+    "pushed_at": "2026-04-18T21:55:35Z",
+    "stargazers_count": 122,
     "topics": [
       "ai-orchestration",
       "automation",
@@ -211,7 +215,7 @@
       "state-machine",
       "ultrathink"
     ],
-    "updated_at": "2026-04-16T11:40:51Z"
+    "updated_at": "2026-04-18T21:55:39Z"
   },
   "repo_links": [
     {

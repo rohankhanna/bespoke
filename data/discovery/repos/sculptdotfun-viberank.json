@@ -539,14 +539,18 @@
       "size": 1093
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:19.740292+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "claude code leaderboard",
+    "fork": false,
     "full_name": "sculptdotfun/viberank",
     "html_url": "https://github.com/sculptdotfun/viberank",
     "language": "TypeScript",
     "pushed_at": "2026-01-26T03:24:17Z",
+    "stargazers_count": 95,
     "topics": [],
     "updated_at": "2026-04-11T00:43:44Z"
   },

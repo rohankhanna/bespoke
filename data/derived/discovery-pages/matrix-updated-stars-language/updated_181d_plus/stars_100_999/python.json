@@ -1,0 +1,24 @@
+{
+  "counts": {
+    "components": 5,
+    "concepts": 4,
+    "observations": 4,
+    "repos": 6,
+    "terms": 5
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "python",
+    "star_bucket": "stars_100_999",
+    "updated_bucket": "updated_181d_plus"
+  },
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "repo_ids": [
+    "aminrezaei0x443/memory-efficient-attention",
+    "automatic1111/stable-diffusion-webui-aesthetic-gradients",
+    "dazuiba/ccnotify",
+    "disler/just-prompt",
+    "simonw/sqlite-diffable",
+    "yuag/code-audit"
+  ]
+}

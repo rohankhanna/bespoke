@@ -10,12 +10,12 @@
   "filters": {
     "language_bucket": "c_cpp"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
     "asg017/sqlite-lembed",
     "asg017/sqlite-vec",
     "asg017/sqlite-vss",
-    "BurntSushi/linux",
+    "burntsushi/linux",
     "ExistentialAudio/BlackHole",
     "gbrobro119-star/darksword-kexploit",
     "ggml-org/ggml",
@@ -28,7 +28,7 @@
     "lonewolf-jp/ConvoPeq",
     "LuaLanes/lanes",
     "marciogranzotto/clawd-tank",
-    "mattingalls/Soundflower",
+    "mattingalls/soundflower",
     "mountainstorm/llaudio",
     "mozilla-ai/llamafile",
     "protocolbuffers/protobuf",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 237,
-    "concepts": 167,
-    "observations": 168,
-    "repos": 33,
-    "terms": 186
+    "components": 226,
+    "concepts": 155,
+    "observations": 156,
+    "repos": 31,
+    "terms": 174
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
     "1Panel-dev/1Panel",
     "Abraxas-365/claudio",
@@ -20,12 +20,10 @@
     "awslabs/eks-node-viewer",
     "bensadeh/circumflex",
     "charmbracelet/bubbletea",
-    "charmbracelet/colorprofile",
     "charmbracelet/lipgloss",
     "compozy/kb",
     "danielmiessler/Fabric",
     "erikceballos/nano-banana-cli",
-    "fgrehm/clotilde",
     "foxj77/claudectx",
     "gastownhall/beads",
     "jonislutheran87/weclaw",
@@ -38,8 +36,8 @@
     "kubernetes/kubernetes",
     "libp2p/go-libp2p",
     "microsoft/typescript-go",
+    "moby/moby",
     "ollama/ollama",
-    "open-telemetry/opentelemetry-collector-releases",
     "petmal/MindTrial",
     "phiat/claude-esp",
     "prehisle/relay-pulse",

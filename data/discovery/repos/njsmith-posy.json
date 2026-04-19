@@ -30,14 +30,18 @@
       "size": 437
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:25.049756+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": null,
+    "fork": false,
     "full_name": "njsmith/posy",
     "html_url": "https://github.com/njsmith/posy",
     "language": "Rust",
     "pushed_at": "2024-03-01T04:38:11Z",
+    "stargazers_count": 299,
     "topics": [],
     "updated_at": "2026-04-13T17:20:45Z"
   },

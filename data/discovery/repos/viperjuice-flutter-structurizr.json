@@ -100,14 +100,18 @@
       "size": 22974
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:13.296597+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Flutter Structurizr diagram manipulation implementation. ",
-    "full_name": "ViperJuice/Flutter-Structurizr",
+    "fork": false,
+    "full_name": "viperjuice/flutter-structurizr",
     "html_url": "https://github.com/ViperJuice/Flutter-Structurizr",
     "language": "Dart",
     "pushed_at": "2025-05-22T23:41:26Z",
+    "stargazers_count": 6,
     "topics": [],
     "updated_at": "2026-04-05T16:17:12Z"
   },

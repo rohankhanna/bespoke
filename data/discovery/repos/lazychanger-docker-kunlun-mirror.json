@@ -8,14 +8,18 @@
       "size": 556
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:51:58.311840+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "\u6606\u4ed1\u955cdocker\u955c\u50cf",
+    "fork": false,
     "full_name": "lazychanger/docker-kunlun-mirror",
     "html_url": "https://github.com/lazychanger/docker-kunlun-mirror",
     "language": "Dockerfile",
     "pushed_at": "2021-11-24T01:34:29Z",
+    "stargazers_count": 9,
     "topics": [],
     "updated_at": "2025-08-05T17:10:01Z"
   },

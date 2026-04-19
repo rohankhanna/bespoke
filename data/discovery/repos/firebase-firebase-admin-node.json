@@ -974,14 +974,18 @@
       "size": 4739
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:17.329194+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Firebase Admin Node.js SDK",
+    "fork": false,
     "full_name": "firebase/firebase-admin-node",
     "html_url": "https://github.com/firebase/firebase-admin-node",
     "language": "TypeScript",
     "pushed_at": "2026-04-17T05:33:50Z",
+    "stargazers_count": 1726,
     "topics": [
       "authentification",
       "firebase",

@@ -148,14 +148,18 @@
       "size": 3310
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:06.748981+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A delightful Ruby way to work with AI. No configuration madness, no complex callbacks, no handler hell \u2013 just beautiful, expressive Ruby code.",
+    "fork": true,
     "full_name": "parruda/ruby_llm",
     "html_url": "https://github.com/parruda/ruby_llm",
     "language": "Ruby",
     "pushed_at": "2026-01-14T21:06:15Z",
+    "stargazers_count": 1,
     "topics": [],
     "updated_at": "2026-03-15T02:40:06Z"
   },

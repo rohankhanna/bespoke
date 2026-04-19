@@ -8,14 +8,18 @@
       "size": 296
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:05.408228+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Community health files for the @withastro organization",
+    "fork": false,
     "full_name": "withastro/.github",
     "html_url": "https://github.com/withastro/.github",
     "language": null,
     "pushed_at": "2026-02-04T14:34:56Z",
+    "stargazers_count": 23,
     "topics": [],
     "updated_at": "2026-03-09T17:23:12Z"
   },

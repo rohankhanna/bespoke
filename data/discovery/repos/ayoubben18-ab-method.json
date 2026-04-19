@@ -291,14 +291,18 @@
       "size": 734
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:28.502164+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A revolutionary approach to software development that transforms problems into focused, incremental missions using Claude Code's specialized subagents.",
+    "fork": false,
     "full_name": "ayoubben18/ab-method",
     "html_url": "https://github.com/ayoubben18/ab-method",
     "language": "JavaScript",
     "pushed_at": "2025-11-10T21:57:17Z",
+    "stargazers_count": 159,
     "topics": [],
     "updated_at": "2026-04-14T21:33:34Z"
   },

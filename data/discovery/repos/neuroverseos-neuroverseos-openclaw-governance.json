@@ -115,14 +115,18 @@
       "size": 761
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:05.228335+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Deterministic governance runtime plugin for OpenClaw.",
-    "full_name": "NeuroverseOS/neuroverseos-openclaw-governance",
+    "fork": false,
+    "full_name": "neuroverseos/neuroverseos-openclaw-governance",
     "html_url": "https://github.com/NeuroverseOS/neuroverseos-openclaw-governance",
     "language": "TypeScript",
     "pushed_at": "2026-03-06T17:58:50Z",
+    "stargazers_count": 2,
     "topics": [
       "ai",
       "ai-agents",

@@ -82,16 +82,20 @@
       "size": 6305
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:31.742422+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": null,
-    "full_name": "SuperClaude-Org/SuperGemini_Framework",
+    "fork": false,
+    "full_name": "superclaude-org/supergemini_framework",
     "html_url": "https://github.com/SuperClaude-Org/SuperGemini_Framework",
     "language": "Python",
     "pushed_at": "2026-02-03T12:13:08Z",
+    "stargazers_count": 237,
     "topics": [],
-    "updated_at": "2026-04-15T20:54:47Z"
+    "updated_at": "2026-04-18T21:46:13Z"
   },
   "repo_links": [
     {

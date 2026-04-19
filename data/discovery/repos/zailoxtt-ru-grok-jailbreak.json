@@ -170,6 +170,7 @@
       "size": 1927
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:09.122075+00:00",
   "related_repositories": [
     {
       "description": "any contract you deploy through ChainForge on Ethereum mainnet",
@@ -677,12 +678,15 @@
     }
   ],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Jailbreak prompt for Grok3",
-    "full_name": "ZailoxTT/ru-grok-jailbreak",
+    "fork": false,
+    "full_name": "zailoxtt/ru-grok-jailbreak",
     "html_url": "https://github.com/ZailoxTT/ru-grok-jailbreak",
     "language": null,
     "pushed_at": "2025-02-20T14:22:32Z",
+    "stargazers_count": 1,
     "topics": [
       "grok",
       "grok-2",

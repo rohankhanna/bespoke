@@ -1,0 +1,23 @@
+{
+  "counts": {
+    "components": 13,
+    "concepts": 3,
+    "observations": 3,
+    "repos": 6,
+    "terms": 14
+  },
+  "facet_version": 1,
+  "filters": {
+    "star_bucket": "stars_10_99",
+    "updated_bucket": "updated_91_180d"
+  },
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "repo_ids": [
+    "crate-ci/gh-install",
+    "marcindulak/stt-mcp-server-linux",
+    "okuvshynov/cubestat",
+    "stephenschoettler/taches-oc-prompts",
+    "wirasm/dylan",
+    "ykdojo/cc-safe"
+  ]
+}

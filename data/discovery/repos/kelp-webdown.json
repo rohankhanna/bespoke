@@ -224,14 +224,18 @@
       "size": 1164
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:09.432954+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Download websites and save or view them as markdown, great for feeding into an LLM",
+    "fork": false,
     "full_name": "kelp/webdown",
     "html_url": "https://github.com/kelp/webdown",
     "language": "Python",
     "pushed_at": "2026-04-17T00:20:40Z",
+    "stargazers_count": 5,
     "topics": [
       "cli",
       "llm",

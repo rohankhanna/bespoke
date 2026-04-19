@@ -1,19 +1,26 @@
 {
   "counts": {
-    "components": 4,
-    "concepts": 9,
-    "observations": 9,
-    "repos": 2,
-    "terms": 9
+    "components": 102,
+    "concepts": 28,
+    "observations": 28,
+    "repos": 9,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
+    "atomaai/atoma-infer",
+    "ayoubben18/ab-method",
     "behave/behave-django",
-    "harfbuzz/ttf-parser"
+    "dustinblackman/cargo-run-bin",
+    "harfbuzz/ttf-parser",
+    "hluaguo/learn-faster-kit",
+    "jezweb/roo-commander",
+    "scopecraft/command",
+    "zsio/claude-code-hub"
   ]
 }

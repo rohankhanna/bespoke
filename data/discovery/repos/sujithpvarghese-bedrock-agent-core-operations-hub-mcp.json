@@ -292,14 +292,18 @@
       "size": 1440
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:38.155055+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "An enterprise-grade AI Operations Hub built on Amazon Bedrock AgentCore. Features a distributed 11-node Serverless MCP mesh, Agent-to-Agent (A2A) escalation, and stateful self-healing for e-commerce diagnostics.",
+    "fork": false,
     "full_name": "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
     "html_url": "https://github.com/sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
     "language": "TypeScript",
-    "pushed_at": "2026-04-17T23:26:47Z",
+    "pushed_at": "2026-04-19T00:18:22Z",
+    "stargazers_count": 0,
     "topics": [
       "agentic-architecture",
       "ai-agents",
@@ -314,7 +318,7 @@
       "serverless",
       "typescript"
     ],
-    "updated_at": "2026-04-17T02:48:48Z"
+    "updated_at": "2026-04-19T00:18:28Z"
   },
   "repo_links": [
     {

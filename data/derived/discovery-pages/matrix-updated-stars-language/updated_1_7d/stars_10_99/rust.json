@@ -1,0 +1,21 @@
+{
+  "counts": {
+    "components": 32,
+    "concepts": 6,
+    "observations": 6,
+    "repos": 3,
+    "terms": 11
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "rust",
+    "star_bucket": "stars_10_99",
+    "updated_bucket": "updated_1_7d"
+  },
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "repo_ids": [
+    "hagan/claudia-statusline",
+    "tianrking/weixin-agent-rs",
+    "vaporif/parry-guard"
+  ]
+}

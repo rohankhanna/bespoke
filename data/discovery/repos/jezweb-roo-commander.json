@@ -167,14 +167,18 @@
       "size": 1456
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:36.908843+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Think of it like having a virtual, specialized software development team right inside your editor, orchestrated by the \ud83d\udc51 Roo Commander, powered by Roo Code on VS Code",
+    "fork": false,
     "full_name": "jezweb/roo-commander",
     "html_url": "https://github.com/jezweb/roo-commander",
     "language": "TypeScript",
     "pushed_at": "2025-11-20T23:23:12Z",
+    "stargazers_count": 718,
     "topics": [
       "aiagents",
       "roocode"

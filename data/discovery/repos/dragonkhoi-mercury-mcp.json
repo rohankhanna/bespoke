@@ -90,14 +90,18 @@
       "size": 677
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:00.390882+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": null,
+    "fork": false,
     "full_name": "dragonkhoi/mercury-mcp",
     "html_url": "https://github.com/dragonkhoi/mercury-mcp",
     "language": "TypeScript",
     "pushed_at": "2025-03-19T06:47:53Z",
+    "stargazers_count": 4,
     "topics": [],
     "updated_at": "2025-12-09T02:27:43Z"
   },

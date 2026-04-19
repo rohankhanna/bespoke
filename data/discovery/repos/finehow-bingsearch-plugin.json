@@ -569,14 +569,18 @@
       "size": 460
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:51:56.204542+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "dev1",
     "description": "\ud83e\udde9 / \ud83d\ude80 LOBE-CHAT\u4e2d\u57fa\u4e8eBINGAPI\u7684\u641c\u7d22\u5f15\u64ce\u63d2\u4ef6",
-    "full_name": "FineHow/Bingsearch-Plugin",
+    "fork": true,
+    "full_name": "finehow/bingsearch-plugin",
     "html_url": "https://github.com/FineHow/Bingsearch-Plugin",
     "language": "TypeScript",
     "pushed_at": "2025-01-23T02:23:38Z",
+    "stargazers_count": 1,
     "topics": [],
     "updated_at": "2025-02-18T23:23:37Z"
   },

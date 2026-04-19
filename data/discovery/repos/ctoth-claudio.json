@@ -166,14 +166,18 @@
       "size": 1871
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:29.204731+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Hook-based audio plugin for Claude Code that plays contextual sounds based on tool usage and events",
+    "fork": false,
     "full_name": "ctoth/claudio",
     "html_url": "https://github.com/ctoth/claudio",
     "language": "Go",
     "pushed_at": "2026-03-17T00:26:58Z",
+    "stargazers_count": 82,
     "topics": [
       "audio",
       "claude-code",
@@ -182,7 +186,7 @@
       "hooks",
       "tdd"
     ],
-    "updated_at": "2026-04-15T00:48:30Z"
+    "updated_at": "2026-04-19T06:04:35Z"
   },
   "repo_links": [],
   "terms": [

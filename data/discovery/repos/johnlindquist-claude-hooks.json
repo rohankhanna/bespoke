@@ -543,14 +543,18 @@
       "size": 1478
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:37.632247+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": null,
+    "fork": false,
     "full_name": "johnlindquist/claude-hooks",
     "html_url": "https://github.com/johnlindquist/claude-hooks",
     "language": "TypeScript",
     "pushed_at": "2025-08-08T03:19:00Z",
+    "stargazers_count": 350,
     "topics": [],
     "updated_at": "2026-04-17T00:36:24Z"
   },

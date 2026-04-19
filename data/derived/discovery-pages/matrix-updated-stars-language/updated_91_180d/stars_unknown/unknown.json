@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 8,
-    "terms": 26
+    "components": 0,
+    "concepts": 8,
+    "observations": 8,
+    "repos": 4,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,11 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
     "bl-ue/tweakcc-system-prompts",
-    "danielrosehill/AI-Human-Attribution-Adder",
     "dredozubov/prd-generator",
     "LC044/WeChatMsg",
-    "nornagon/crossterm",
-    "stephenschoettler/taches-oc-prompts",
-    "ThibautMelen/agentic-ai-systems",
-    "vllm-project/media-kit"
+    "ThibautMelen/agentic-ai-systems"
   ]
 }

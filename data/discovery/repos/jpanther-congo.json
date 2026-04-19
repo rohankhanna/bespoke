@@ -460,14 +460,18 @@
       "size": 256
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:36.409515+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "dev",
     "description": "A powerful, lightweight theme for Hugo built with Tailwind CSS.",
+    "fork": false,
     "full_name": "jpanther/congo",
     "html_url": "https://github.com/jpanther/congo",
     "language": "HTML",
     "pushed_at": "2026-03-08T22:03:07Z",
+    "stargazers_count": 1618,
     "topics": [
       "accessible",
       "dark-mode",

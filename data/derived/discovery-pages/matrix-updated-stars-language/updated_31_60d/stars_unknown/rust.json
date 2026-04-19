@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 14,
-    "concepts": 2,
-    "observations": 2,
-    "repos": 3,
-    "terms": 3
+    "components": 11,
+    "concepts": 1,
+    "observations": 1,
+    "repos": 2,
+    "terms": 2
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
     "BurntSushi/ripgrep",
-    "Haleclipse/CCometixLine",
-    "unicode-rs/unicode-width"
+    "Haleclipse/CCometixLine"
   ]
 }

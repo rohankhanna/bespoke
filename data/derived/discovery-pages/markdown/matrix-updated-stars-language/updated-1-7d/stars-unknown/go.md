@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · Unknown stars · Go
 
-Generated at: `2026-04-19T06:58:55.872585+00:00`
+Generated at: `2026-04-19T07:52:38.223094+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 33
-- terms: 186
-- components: 237
-- concepts: 167
-- observations: 168
+- repos: 31
+- terms: 174
+- components: 226
+- concepts: 155
+- observations: 156
 
 ## Static behavior
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [moby/moby](https://github.com/moby/moby) | unknown | 2026-04-18T07:02:24Z | Go | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [microsoft/typescript-go](https://github.com/microsoft/typescript-go) | unknown | 2026-04-18T06:26:20Z | Go | Infrastructure/tooling | 2 | 24 | 2 | 2 |
 | [QuantumNous/new-api](https://github.com/QuantumNous/new-api) | unknown | 2026-04-18T06:22:55Z | Go | Infrastructure/tooling | 10 | 19 | 10 | 10 |
 | [gastownhall/beads](https://github.com/gastownhall/beads) | unknown | 2026-04-18T04:02:04Z | Go | Infrastructure/tooling | 9 | 15 | 9 | 9 |
-| [open-telemetry/opentelemetry-collector-releases](https://github.com/open-telemetry/opentelemetry-collector-releases) | unknown | 2026-04-18T03:08:07Z | Go | Infrastructure/tooling | 10 | 14 | 10 | 10 |
 | [Abraxas-365/claudio](https://github.com/Abraxas-365/claudio) | unknown | 2026-04-18T03:00:38Z | Go | CLI | 0 | 3 | 0 | 0 |
 | [jonislutheran87/weclaw](https://github.com/jonislutheran87/weclaw) | unknown | 2026-04-18T02:18:01Z | Go | CLI | 0 | 0 | 0 | 0 |
 | [erikceballos/nano-banana-cli](https://github.com/erikceballos/nano-banana-cli) | unknown | 2026-04-18T01:35:57Z | Go | CLI | 0 | 0 | 0 | 0 |
@@ -57,17 +57,15 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [awslabs/eks-node-viewer](https://github.com/awslabs/eks-node-viewer) | unknown | 2026-04-13T23:48:43Z | Go | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [charmbracelet/lipgloss](https://github.com/charmbracelet/lipgloss) | unknown | 2026-04-13T20:15:52Z | Go | CLI | 10 | 7 | 10 | 10 |
 | [bensadeh/circumflex](https://github.com/bensadeh/circumflex) | unknown | 2026-04-13T11:25:43Z | Go | CLI | 12 | 4 | 12 | 12 |
-| [charmbracelet/colorprofile](https://github.com/charmbracelet/colorprofile) | unknown | 2026-04-13T09:40:34Z | Go | CLI | 6 | 6 | 6 | 6 |
-| [fgrehm/clotilde](https://github.com/fgrehm/clotilde) | unknown | 2026-04-13T07:30:54Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [moby/moby](https://github.com/moby/moby) | unknown | 2026-04-18T07:02:24Z | Go | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [microsoft/typescript-go](https://github.com/microsoft/typescript-go) | unknown | 2026-04-18T06:26:20Z | Go | Infrastructure/tooling | 2 | 24 | 2 | 2 |
 | [QuantumNous/new-api](https://github.com/QuantumNous/new-api) | unknown | 2026-04-18T06:22:55Z | Go | Infrastructure/tooling | 10 | 19 | 10 | 10 |
 | [gastownhall/beads](https://github.com/gastownhall/beads) | unknown | 2026-04-18T04:02:04Z | Go | Infrastructure/tooling | 9 | 15 | 9 | 9 |
-| [open-telemetry/opentelemetry-collector-releases](https://github.com/open-telemetry/opentelemetry-collector-releases) | unknown | 2026-04-18T03:08:07Z | Go | Infrastructure/tooling | 10 | 14 | 10 | 10 |
 | [Abraxas-365/claudio](https://github.com/Abraxas-365/claudio) | unknown | 2026-04-18T03:00:38Z | Go | CLI | 0 | 3 | 0 | 0 |
 | [jonislutheran87/weclaw](https://github.com/jonislutheran87/weclaw) | unknown | 2026-04-18T02:18:01Z | Go | CLI | 0 | 0 | 0 | 0 |
 | [erikceballos/nano-banana-cli](https://github.com/erikceballos/nano-banana-cli) | unknown | 2026-04-18T01:35:57Z | Go | CLI | 0 | 0 | 0 | 0 |
@@ -95,5 +93,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [awslabs/eks-node-viewer](https://github.com/awslabs/eks-node-viewer) | unknown | 2026-04-13T23:48:43Z | Go | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [charmbracelet/lipgloss](https://github.com/charmbracelet/lipgloss) | unknown | 2026-04-13T20:15:52Z | Go | CLI | 10 | 7 | 10 | 10 |
 | [bensadeh/circumflex](https://github.com/bensadeh/circumflex) | unknown | 2026-04-13T11:25:43Z | Go | CLI | 12 | 4 | 12 | 12 |
-| [charmbracelet/colorprofile](https://github.com/charmbracelet/colorprofile) | unknown | 2026-04-13T09:40:34Z | Go | CLI | 6 | 6 | 6 | 6 |
-| [fgrehm/clotilde](https://github.com/fgrehm/clotilde) | unknown | 2026-04-13T07:30:54Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |

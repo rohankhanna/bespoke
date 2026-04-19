@@ -37,16 +37,20 @@
       "size": 7923
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:32.816557+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Ilya Sutskever\u7684\u8ba4\u77e5\u64cd\u4f5c\u7cfb\u7edf\u3002\u4e0d\u662f\u8bed\u5f55\u5408\u96c6\uff0c\u662f\u53ef\u8fd0\u884c\u7684\u601d\u7ef4\u6846\u67b6\u3002Made with \u5973\u5a32.skill",
+    "fork": false,
     "full_name": "alchaincyf/ilya-sutskever-skill",
     "html_url": "https://github.com/alchaincyf/ilya-sutskever-skill",
     "language": null,
     "pushed_at": "2026-04-10T02:28:35Z",
+    "stargazers_count": 24,
     "topics": [],
-    "updated_at": "2026-04-16T06:22:51Z"
+    "updated_at": "2026-04-19T04:17:20Z"
   },
   "repo_links": [
     {

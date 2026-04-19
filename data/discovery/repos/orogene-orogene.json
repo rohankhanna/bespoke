@@ -30,14 +30,18 @@
       "size": 2217
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:35.240249+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Makes `node_modules/` happen. Fast. No fuss.",
+    "fork": false,
     "full_name": "orogene/orogene",
     "html_url": "https://github.com/orogene/orogene",
     "language": null,
     "pushed_at": "2026-02-26T03:53:25Z",
+    "stargazers_count": 1542,
     "topics": [
       "javascript",
       "nodejs",

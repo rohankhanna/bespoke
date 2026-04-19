@@ -1,0 +1,23 @@
+{
+  "counts": {
+    "components": 70,
+    "concepts": 5,
+    "observations": 5,
+    "repos": 5,
+    "terms": 5
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "typescript",
+    "star_bucket": "stars_1_9",
+    "updated_bucket": "updated_181d_plus"
+  },
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "repo_ids": [
+    "arvinxx/lobe-plugin-tikzjax",
+    "ddisisto/si",
+    "dragonkhoi/mercury-mcp",
+    "eastlondoner/pac-man",
+    "finehow/bingsearch-plugin"
+  ]
+}

@@ -230,14 +230,18 @@
       "size": 685
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:09.264221+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "An autonomous e-commerce diagnostic agent using Amazon Bedrock Agents  and Action Groups. Diagnoses product sellability issues, reconciles  data across Inventory, Pricing and PIM systems, and triggers  self-healing synchronization via AWS Lambda and Serverless Framework.",
+    "fork": false,
     "full_name": "sujithpvarghese/bedrock-full-reconciliation",
     "html_url": "https://github.com/sujithpvarghese/bedrock-full-reconciliation",
     "language": "TypeScript",
     "pushed_at": "2026-03-27T19:40:31Z",
+    "stargazers_count": 0,
     "topics": [
       "agentic-ai",
       "amazon-bedrock",

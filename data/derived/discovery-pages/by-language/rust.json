@@ -10,7 +10,7 @@
   "filters": {
     "language_bucket": "rust"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
     "aannoo/hcom",
     "Abraxas-365/langchain-rust",
@@ -25,7 +25,7 @@
     "astral-sh/ruff",
     "astral-sh/uv",
     "atom-archive/xray",
-    "AtomaAI/atoma-infer",
+    "atomaai/atoma-infer",
     "BoundaryML/baml",
     "BurntSushi/ripgrep",
     "cargo-bins/cargo-binstall",
@@ -56,12 +56,12 @@
     "huggingface/candle",
     "infinyon/node-bindgen",
     "jj-vcs/jj",
-    "JohnnyMorganz/StyLua",
+    "johnnymorganz/stylua",
     "JSLEEKR/skilldigest",
     "Kampfkarren/full-moon",
     "kensave/agent-memory-rs",
     "kmjjjj/polymarket-arbitrage-bot-btc-sol-15m",
-    "Layr-Labs/hello-world-avs",
+    "layr-labs/hello-world-avs",
     "libp2p/rust-libp2p",
     "linebender/resvg",
     "lnx-search/rewrk",
@@ -88,7 +88,7 @@
     "tracel-ai/burn",
     "unicode-rs/unicode-width",
     "vaporif/parry-guard",
-    "ZENG3LD/claude-session-restore",
+    "zeng3ld/claude-session-restore",
     "zeroclaw-labs/zeroclaw",
     "zippoxer/recall"
   ]

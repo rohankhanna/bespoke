@@ -8,14 +8,18 @@
       "size": 3134
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:51:56.943820+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "EigenLayer AVS context window prompt file ",
+    "fork": false,
     "full_name": "wesfloyd/avs-context-prompt",
     "html_url": "https://github.com/wesfloyd/avs-context-prompt",
     "language": null,
     "pushed_at": "2025-04-09T19:13:31Z",
+    "stargazers_count": 0,
     "topics": [],
     "updated_at": "2025-04-09T19:13:34Z"
   },

@@ -238,14 +238,18 @@
       "size": 3833
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:29.044869+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Static analysis binary for agent-sh ecosystem - git history, AST mapping, collectors",
+    "fork": false,
     "full_name": "agent-sh/agent-analyzer",
     "html_url": "https://github.com/agent-sh/agent-analyzer",
     "language": "Rust",
     "pushed_at": "2026-04-14T23:27:20Z",
+    "stargazers_count": 4,
     "topics": [
       "ai",
       "ai-detection",

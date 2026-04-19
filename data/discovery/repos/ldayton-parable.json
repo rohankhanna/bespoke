@@ -205,14 +205,18 @@
       "size": 2840
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:22.731289+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83c\udf00 A complete bash parser that handles every edge case \u2014 extensively validated against bash itself \u2014 one file, zero dependencies",
-    "full_name": "ldayton/Parable",
+    "fork": false,
+    "full_name": "ldayton/parable",
     "html_url": "https://github.com/ldayton/Parable",
     "language": "Python",
     "pushed_at": "2026-03-26T21:26:40Z",
+    "stargazers_count": 9,
     "topics": [
       "bash",
       "javascript",

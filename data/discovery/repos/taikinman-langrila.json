@@ -56,14 +56,18 @@
       "size": 509
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:51:58.470391+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Useful tool to build multi-agent in an easy way",
+    "fork": false,
     "full_name": "taikinman/langrila",
     "html_url": "https://github.com/taikinman/langrila",
     "language": "Jupyter Notebook",
     "pushed_at": "2025-02-19T05:11:59Z",
+    "stargazers_count": 66,
     "topics": [],
     "updated_at": "2025-09-24T02:46:54Z"
   },

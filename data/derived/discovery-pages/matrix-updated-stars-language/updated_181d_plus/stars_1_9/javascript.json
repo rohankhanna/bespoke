@@ -1,0 +1,21 @@
+{
+  "counts": {
+    "components": 56,
+    "concepts": 5,
+    "observations": 5,
+    "repos": 3,
+    "terms": 5
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "javascript",
+    "star_bucket": "stars_1_9",
+    "updated_bucket": "updated_181d_plus"
+  },
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "repo_ids": [
+    "ccdanpian/current-datetime",
+    "ianopolous/jpack",
+    "putoutjs/putout-processor-typos"
+  ]
+}

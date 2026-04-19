@@ -157,14 +157,18 @@
       "size": 1106
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:31.895726+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Magical terminal color handling \ud83e\ude84",
+    "fork": false,
     "full_name": "charmbracelet/colorprofile",
     "html_url": "https://github.com/charmbracelet/colorprofile",
     "language": "Go",
     "pushed_at": "2026-04-13T09:40:34Z",
+    "stargazers_count": 116,
     "topics": [],
     "updated_at": "2026-04-15T21:30:42Z"
   },

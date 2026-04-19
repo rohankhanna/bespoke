@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · Unknown stars · Python
 
-Generated at: `2026-04-19T06:58:55.872585+00:00`
+Generated at: `2026-04-19T07:52:38.223094+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 82
-- terms: 369
-- components: 524
-- concepts: 247
-- observations: 249
+- repos: 75
+- terms: 344
+- components: 486
+- concepts: 229
+- observations: 231
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [vllm-project/vllm](https://github.com/vllm-project/vllm) | unknown | 2026-04-18T07:48:55Z | Python | Infrastructure/tooling | 20 | 7 | 20 | 20 |
 | [django/django](https://github.com/django/django) | unknown | 2026-04-18T06:53:21Z | Python | Infrastructure/tooling | 7 | 13 | 0 | 0 |
 | [costiash/claude-code-docs](https://github.com/costiash/claude-code-docs) | unknown | 2026-04-18T06:43:16Z | Python | Infrastructure/tooling | 6 | 7 | 0 | 0 |
 | [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | unknown | 2026-04-18T05:49:35Z | Python | Infrastructure/tooling | 10 | 17 | 10 | 10 |
@@ -83,8 +84,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [1Panel-dev/MaxKB](https://github.com/1Panel-dev/MaxKB) | unknown | 2026-04-17T09:35:00Z | Python | Infrastructure/tooling | 17 | 10 | 17 | 17 |
 | [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill) | unknown | 2026-04-17T09:24:01Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [mbailey/voicemode](https://github.com/mbailey/voicemode) | unknown | 2026-04-17T02:26:11Z | Python | Infrastructure/tooling | 5 | 10 | 0 | 0 |
-| [thinking-machines-lab/tinker](https://github.com/thinking-machines-lab/tinker) | unknown | 2026-04-17T00:45:04Z | Python | CLI | 0 | 0 | 0 | 0 |
-| [kelp/webdown](https://github.com/kelp/webdown) | unknown | 2026-04-17T00:20:40Z | Python | CLI | 3 | 6 | 0 | 0 |
 | [pedronauck/skills](https://github.com/pedronauck/skills) | unknown | 2026-04-16T20:21:51Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [anthropics/skills](https://github.com/anthropics/skills) | unknown | 2026-04-16T19:12:59Z | Python | Unknown | 1 | 0 | 1 | 1 |
 | [BeamusWayne/simp-skill](https://github.com/BeamusWayne/simp-skill) | unknown | 2026-04-16T11:52:38Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -97,22 +96,17 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [agenmod/immortal-skill](https://github.com/agenmod/immortal-skill) | unknown | 2026-04-15T03:21:58Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [agenmod/distill-shield-skill](https://github.com/agenmod/distill-shield-skill) | unknown | 2026-04-15T02:44:42Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [agenmod/distill-protocol-skill](https://github.com/agenmod/distill-protocol-skill) | unknown | 2026-04-15T02:44:41Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [DataDog/guarddog](https://github.com/DataDog/guarddog) | unknown | 2026-04-14T18:04:31Z | Python | CLI | 10 | 12 | 11 | 11 |
-| [roampal-ai/roampal-labs](https://github.com/roampal-ai/roampal-labs) | unknown | 2026-04-13T23:07:24Z | Python | Model/data | 17 | 0 | 17 | 17 |
 | [mem0ai/memory-benchmarks](https://github.com/mem0ai/memory-benchmarks) | unknown | 2026-04-13T22:32:55Z | Python | Web app | 0 | 16 | 0 | 0 |
-| [dreamiurg/claude-mountaineering-skills](https://github.com/dreamiurg/claude-mountaineering-skills) | unknown | 2026-04-13T21:44:10Z | Python | CLI | 3 | 10 | 0 | 0 |
-| [dreamiurg/peakbagger-cli](https://github.com/dreamiurg/peakbagger-cli) | unknown | 2026-04-13T18:25:01Z | Python | CLI | 10 | 14 | 10 | 10 |
 | [alchaincyf/nuwa-skill](https://github.com/alchaincyf/nuwa-skill) | unknown | 2026-04-13T17:36:04Z | Python | Unknown | 1 | 0 | 0 | 0 |
 | [NousResearch/atropos](https://github.com/NousResearch/atropos) | unknown | 2026-04-13T16:40:30Z | Python | Infrastructure/tooling | 2 | 6 | 0 | 0 |
 | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | unknown | 2026-04-13T12:23:54Z | Python | CLI | 27 | 5 | 27 | 28 |
-| [mitchuski/agentprivacy-skills](https://github.com/mitchuski/agentprivacy-skills) | unknown | 2026-04-13T10:55:54Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [letta-ai/letta](https://github.com/letta-ai/letta) | unknown | 2026-04-12T20:54:54Z | Python | Infrastructure/tooling | 4 | 10 | 4 | 4 |
-| [cloudartisan/cloudartisan.github.io](https://github.com/cloudartisan/cloudartisan.github.io) | unknown | 2026-04-12T10:59:10Z | Python | Infrastructure/tooling | 2 | 3 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [vllm-project/vllm](https://github.com/vllm-project/vllm) | unknown | 2026-04-18T07:48:55Z | Python | Infrastructure/tooling | 20 | 7 | 20 | 20 |
 | [django/django](https://github.com/django/django) | unknown | 2026-04-18T06:53:21Z | Python | Infrastructure/tooling | 7 | 13 | 0 | 0 |
 | [costiash/claude-code-docs](https://github.com/costiash/claude-code-docs) | unknown | 2026-04-18T06:43:16Z | Python | Infrastructure/tooling | 6 | 7 | 0 | 0 |
 | [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | unknown | 2026-04-18T05:49:35Z | Python | Infrastructure/tooling | 10 | 17 | 10 | 10 |
@@ -170,8 +164,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [1Panel-dev/MaxKB](https://github.com/1Panel-dev/MaxKB) | unknown | 2026-04-17T09:35:00Z | Python | Infrastructure/tooling | 17 | 10 | 17 | 17 |
 | [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill) | unknown | 2026-04-17T09:24:01Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [mbailey/voicemode](https://github.com/mbailey/voicemode) | unknown | 2026-04-17T02:26:11Z | Python | Infrastructure/tooling | 5 | 10 | 0 | 0 |
-| [thinking-machines-lab/tinker](https://github.com/thinking-machines-lab/tinker) | unknown | 2026-04-17T00:45:04Z | Python | CLI | 0 | 0 | 0 | 0 |
-| [kelp/webdown](https://github.com/kelp/webdown) | unknown | 2026-04-17T00:20:40Z | Python | CLI | 3 | 6 | 0 | 0 |
 | [pedronauck/skills](https://github.com/pedronauck/skills) | unknown | 2026-04-16T20:21:51Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [anthropics/skills](https://github.com/anthropics/skills) | unknown | 2026-04-16T19:12:59Z | Python | Unknown | 1 | 0 | 1 | 1 |
 | [BeamusWayne/simp-skill](https://github.com/BeamusWayne/simp-skill) | unknown | 2026-04-16T11:52:38Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -184,14 +176,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [agenmod/immortal-skill](https://github.com/agenmod/immortal-skill) | unknown | 2026-04-15T03:21:58Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [agenmod/distill-shield-skill](https://github.com/agenmod/distill-shield-skill) | unknown | 2026-04-15T02:44:42Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [agenmod/distill-protocol-skill](https://github.com/agenmod/distill-protocol-skill) | unknown | 2026-04-15T02:44:41Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [DataDog/guarddog](https://github.com/DataDog/guarddog) | unknown | 2026-04-14T18:04:31Z | Python | CLI | 10 | 12 | 11 | 11 |
-| [roampal-ai/roampal-labs](https://github.com/roampal-ai/roampal-labs) | unknown | 2026-04-13T23:07:24Z | Python | Model/data | 17 | 0 | 17 | 17 |
 | [mem0ai/memory-benchmarks](https://github.com/mem0ai/memory-benchmarks) | unknown | 2026-04-13T22:32:55Z | Python | Web app | 0 | 16 | 0 | 0 |
-| [dreamiurg/claude-mountaineering-skills](https://github.com/dreamiurg/claude-mountaineering-skills) | unknown | 2026-04-13T21:44:10Z | Python | CLI | 3 | 10 | 0 | 0 |
-| [dreamiurg/peakbagger-cli](https://github.com/dreamiurg/peakbagger-cli) | unknown | 2026-04-13T18:25:01Z | Python | CLI | 10 | 14 | 10 | 10 |
 | [alchaincyf/nuwa-skill](https://github.com/alchaincyf/nuwa-skill) | unknown | 2026-04-13T17:36:04Z | Python | Unknown | 1 | 0 | 0 | 0 |
 | [NousResearch/atropos](https://github.com/NousResearch/atropos) | unknown | 2026-04-13T16:40:30Z | Python | Infrastructure/tooling | 2 | 6 | 0 | 0 |
 | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | unknown | 2026-04-13T12:23:54Z | Python | CLI | 27 | 5 | 27 | 28 |
-| [mitchuski/agentprivacy-skills](https://github.com/mitchuski/agentprivacy-skills) | unknown | 2026-04-13T10:55:54Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [letta-ai/letta](https://github.com/letta-ai/letta) | unknown | 2026-04-12T20:54:54Z | Python | Infrastructure/tooling | 4 | 10 | 4 | 4 |
-| [cloudartisan/cloudartisan.github.io](https://github.com/cloudartisan/cloudartisan.github.io) | unknown | 2026-04-12T10:59:10Z | Python | Infrastructure/tooling | 2 | 3 | 0 | 0 |

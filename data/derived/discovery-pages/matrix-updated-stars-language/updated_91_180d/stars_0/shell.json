@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 0,
+    "concepts": 3,
+    "observations": 3,
+    "repos": 1,
+    "terms": 3
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "shell",
+    "star_bucket": "stars_0",
+    "updated_bucket": "updated_91_180d"
+  },
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "repo_ids": [
+    "danielrosehill/batch-claudemd-repo-creator"
+  ]
+}

@@ -438,14 +438,18 @@
       "size": 537
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:25.358482+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "CLI tool to extend the GitHub Copilot CLI to accept more selectable models",
-    "full_name": "DanielNappa/tweakgc-cli",
+    "fork": false,
+    "full_name": "danielnappa/tweakgc-cli",
     "html_url": "https://github.com/DanielNappa/tweakgc-cli",
     "language": "TypeScript",
     "pushed_at": "2025-10-11T13:36:17Z",
+    "stargazers_count": 18,
     "topics": [],
     "updated_at": "2026-04-13T18:26:40Z"
   },

@@ -12,14 +12,18 @@
       "size": 176
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:16.659392+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Claudio plugin for Treesitter indexer",
-    "full_name": "Abraxas-365/claudio-codex",
+    "fork": false,
+    "full_name": "abraxas-365/claudio-codex",
     "html_url": "https://github.com/Abraxas-365/claudio-codex",
     "language": "Go",
     "pushed_at": "2026-04-07T00:44:14Z",
+    "stargazers_count": 4,
     "topics": [],
     "updated_at": "2026-04-09T18:22:01Z"
   },

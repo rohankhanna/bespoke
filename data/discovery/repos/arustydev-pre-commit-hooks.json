@@ -523,14 +523,18 @@
       "size": 7265
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:08.449387+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Pre-commit hooks ",
-    "full_name": "aRustyDev/pre-commit-hooks",
+    "fork": false,
+    "full_name": "arustydev/pre-commit-hooks",
     "html_url": "https://github.com/aRustyDev/pre-commit-hooks",
     "language": "Python",
     "pushed_at": "2025-12-24T06:43:05Z",
+    "stargazers_count": 5,
     "topics": [],
     "updated_at": "2026-03-25T02:03:28Z"
   },

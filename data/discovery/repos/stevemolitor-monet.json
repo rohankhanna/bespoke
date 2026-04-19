@@ -16,16 +16,20 @@
       "size": 8542
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:26.527987+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Monet is an Emacs package that implements the Claude Code IDE protocol, enabling Claude to interact with your Emacs environment through a WebSocket connection.",
+    "fork": false,
     "full_name": "stevemolitor/monet",
     "html_url": "https://github.com/stevemolitor/monet",
     "language": "Emacs Lisp",
-    "pushed_at": "2025-09-26T01:27:36Z",
+    "pushed_at": "2026-04-19T01:49:37Z",
+    "stargazers_count": 103,
     "topics": [],
-    "updated_at": "2026-04-14T02:14:15Z"
+    "updated_at": "2026-04-19T03:21:51Z"
   },
   "repo_links": [
     {

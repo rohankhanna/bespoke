@@ -69,14 +69,18 @@
       "size": 1187
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:30.224029+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "AI-powered learning coach with spaced repetition with Claude Code - master any knowledge faster with personalized syllabi and progress tracking",
+    "fork": false,
     "full_name": "hluaguo/learn-faster-kit",
     "html_url": "https://github.com/hluaguo/learn-faster-kit",
     "language": "Python",
     "pushed_at": "2025-12-04T05:33:17Z",
+    "stargazers_count": 263,
     "topics": [
       "claude-code",
       "education",
@@ -86,7 +90,7 @@
       "spaced-repetition",
       "study"
     ],
-    "updated_at": "2026-04-15T09:14:15Z"
+    "updated_at": "2026-04-18T13:27:22Z"
   },
   "repo_links": [
     {

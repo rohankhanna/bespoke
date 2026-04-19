@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · Unknown stars · Shell
 
-Generated at: `2026-04-19T06:58:55.872585+00:00`
+Generated at: `2026-04-19T07:52:38.223094+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 19
-- terms: 78
-- components: 63
-- concepts: 38
-- observations: 38
+- repos: 16
+- terms: 59
+- components: 60
+- concepts: 19
+- observations: 19
 
 ## Static behavior
 
@@ -39,12 +39,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [diet103/claude-code-infrastructure-showcase](https://github.com/diet103/claude-code-infrastructure-showcase) | unknown | 2026-04-17T04:22:53Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [obra/superpowers](https://github.com/obra/superpowers) | unknown | 2026-04-16T19:50:46Z | Shell | Framework | 0 | 0 | 0 | 0 |
 | [AgriciDaniel/claude-cybersecurity](https://github.com/AgriciDaniel/claude-cybersecurity) | unknown | 2026-04-15T09:43:43Z | Shell | Infrastructure/tooling | 10 | 2 | 10 | 10 |
-| [alfredolopez80/multi-agent-ralph-loop](https://github.com/alfredolopez80/multi-agent-ralph-loop) | unknown | 2026-04-15T09:06:33Z | Shell | CLI | 18 | 2 | 18 | 18 |
-| [agent-sh/glidemq](https://github.com/agent-sh/glidemq) | unknown | 2026-04-15T09:02:49Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [undeadlist/claude-code-agents](https://github.com/undeadlist/claude-code-agents) | unknown | 2026-04-13T21:33:09Z | Shell | Infrastructure/tooling | 1 | 2 | 0 | 0 |
 | [frankbria/ralph-claude-code](https://github.com/frankbria/ralph-claude-code) | unknown | 2026-04-13T18:22:32Z | Shell | CLI | 9 | 14 | 0 | 0 |
 | [Astro-Han/claude-pace](https://github.com/Astro-Han/claude-pace) | unknown | 2026-04-13T07:49:49Z | Shell | CLI | 2 | 2 | 0 | 0 |
-| [marcindulak/ralph-wiggum-bdd](https://github.com/marcindulak/ralph-wiggum-bdd) | unknown | 2026-04-12T07:50:42Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -63,9 +60,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [diet103/claude-code-infrastructure-showcase](https://github.com/diet103/claude-code-infrastructure-showcase) | unknown | 2026-04-17T04:22:53Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [obra/superpowers](https://github.com/obra/superpowers) | unknown | 2026-04-16T19:50:46Z | Shell | Framework | 0 | 0 | 0 | 0 |
 | [AgriciDaniel/claude-cybersecurity](https://github.com/AgriciDaniel/claude-cybersecurity) | unknown | 2026-04-15T09:43:43Z | Shell | Infrastructure/tooling | 10 | 2 | 10 | 10 |
-| [alfredolopez80/multi-agent-ralph-loop](https://github.com/alfredolopez80/multi-agent-ralph-loop) | unknown | 2026-04-15T09:06:33Z | Shell | CLI | 18 | 2 | 18 | 18 |
-| [agent-sh/glidemq](https://github.com/agent-sh/glidemq) | unknown | 2026-04-15T09:02:49Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [undeadlist/claude-code-agents](https://github.com/undeadlist/claude-code-agents) | unknown | 2026-04-13T21:33:09Z | Shell | Infrastructure/tooling | 1 | 2 | 0 | 0 |
 | [frankbria/ralph-claude-code](https://github.com/frankbria/ralph-claude-code) | unknown | 2026-04-13T18:22:32Z | Shell | CLI | 9 | 14 | 0 | 0 |
 | [Astro-Han/claude-pace](https://github.com/Astro-Han/claude-pace) | unknown | 2026-04-13T07:49:49Z | Shell | CLI | 2 | 2 | 0 | 0 |
-| [marcindulak/ralph-wiggum-bdd](https://github.com/marcindulak/ralph-wiggum-bdd) | unknown | 2026-04-12T07:50:42Z | Shell | Unknown | 0 | 0 | 0 | 0 |

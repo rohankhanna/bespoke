@@ -27,14 +27,18 @@
       "size": 1409
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:15.974365+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Optimized Stable Diffusion modified to run on lower GPU VRAM",
+    "fork": true,
     "full_name": "basujindal/stable-diffusion",
     "html_url": "https://github.com/basujindal/stable-diffusion",
     "language": "Jupyter Notebook",
     "pushed_at": "2023-09-20T10:29:11Z",
+    "stargazers_count": 3094,
     "topics": [],
     "updated_at": "2026-04-09T08:35:54Z"
   },

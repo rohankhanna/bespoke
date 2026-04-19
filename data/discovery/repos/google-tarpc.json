@@ -192,14 +192,18 @@
       "size": 332
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:35.764812+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "An RPC framework for Rust with a focus on ease of use.",
+    "fork": false,
     "full_name": "google/tarpc",
     "html_url": "https://github.com/google/tarpc",
     "language": "Rust",
     "pushed_at": "2026-03-25T06:11:05Z",
+    "stargazers_count": 3685,
     "topics": [
       "asynchronous-programming",
       "futures",

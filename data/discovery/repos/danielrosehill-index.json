@@ -41,14 +41,18 @@
       "size": 58
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:28.172255+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A repository that indexes my Github projects",
-    "full_name": "danielrosehill/Index",
+    "fork": false,
+    "full_name": "danielrosehill/index",
     "html_url": "https://github.com/danielrosehill/Index",
     "language": "Python",
     "pushed_at": "2026-03-25T18:29:33Z",
+    "stargazers_count": 10,
     "topics": [
       "github",
       "index",

@@ -334,14 +334,18 @@
       "size": 3441
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:27.263830+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Inkline is the intuitive UI Components library that gives you a developer-friendly foundation for building high-quality, accessible, and customizable Vue.js 3 Design Systems.",
+    "fork": false,
     "full_name": "inkline/inkline",
     "html_url": "https://github.com/inkline/inkline",
     "language": "TypeScript",
     "pushed_at": "2025-05-18T14:06:31Z",
+    "stargazers_count": 1440,
     "topics": [
       "css",
       "dx",

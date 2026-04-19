@@ -618,14 +618,18 @@
       "size": 460
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:15.297167+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": true,
     "default_branch": "main",
     "description": "\ud83e\udde9 / \ud83d\ude80 PluginTemplate - This is the plugin template for LobeChat plugin development.",
+    "fork": false,
     "full_name": "lobehub/chat-plugin-template",
     "html_url": "https://github.com/lobehub/chat-plugin-template",
     "language": "TypeScript",
     "pushed_at": "2024-07-12T11:22:31Z",
+    "stargazers_count": 65,
     "topics": [],
     "updated_at": "2026-04-08T02:18:14Z"
   },

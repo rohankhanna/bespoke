@@ -1,29 +1,51 @@
 {
   "counts": {
-    "components": 85,
-    "concepts": 70,
-    "observations": 70,
-    "repos": 13,
-    "terms": 70
+    "components": 289,
+    "concepts": 171,
+    "observations": 171,
+    "repos": 35,
+    "terms": 185
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
+    "0nn0/terminal-mac-cheatsheet",
     "addyosmani/gemini-cli-tips",
     "ai-that-works/ai-that-works",
     "atom-archive/xray",
+    "azure/aztfexport",
+    "basujindal/stable-diffusion",
     "BoundaryML/baml",
+    "chelsea0x3b/dfdx",
     "containers/podman-compose",
+    "datadog/guarddog",
+    "ddollar/forego",
+    "ddollar/foreman",
     "django/daphne",
+    "firebase/firebase-admin-node",
+    "google/closure-compiler",
+    "google/tarpc",
     "graphql-python/graphene",
     "harfbuzz/harfbuzz",
+    "inkline/inkline",
+    "johnnymorganz/stylua",
+    "jpanther/congo",
     "junegunn/seoul256.vim",
     "junegunn/vim-easy-align",
+    "libp2p/specs",
     "luarocks/luarocks",
+    "mattingalls/soundflower",
     "napi-rs/node-rs",
-    "snarktank/antfarm"
+    "natemoo-re/astro-icon",
+    "nvie/git-toolbelt",
+    "orogene/orogene",
+    "parruda/swarm",
+    "snarktank/antfarm",
+    "stravu/crystal",
+    "stripe/stripe-mock",
+    "touchlab/droidconkotlin"
   ]
 }

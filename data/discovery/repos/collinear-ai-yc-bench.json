@@ -153,14 +153,18 @@
       "size": 1057
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:33.749252+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Your Company Bench: Long-horizon coherence benchmark in simulated time to test AI agent abilities to manage resources and maximize returns as a tech startup founder",
+    "fork": false,
     "full_name": "collinear-ai/yc-bench",
     "html_url": "https://github.com/collinear-ai/yc-bench",
     "language": "Python",
     "pushed_at": "2026-04-05T03:21:26Z",
+    "stargazers_count": 76,
     "topics": [],
     "updated_at": "2026-04-16T09:09:48Z"
   },

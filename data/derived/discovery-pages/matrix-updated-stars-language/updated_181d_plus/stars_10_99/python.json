@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 1,
-    "terms": 0
+    "components": 6,
+    "concepts": 9,
+    "observations": 9,
+    "repos": 5,
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
-    "decider/claude-hooks"
+    "axolotl-ai-cloud/plugin-atropos",
+    "decider/claude-hooks",
+    "grahama1970/claude-task-runner",
+    "oxpig/calm",
+    "superclaude-org/superqwen_framework"
   ]
 }

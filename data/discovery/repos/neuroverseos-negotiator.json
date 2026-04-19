@@ -434,16 +434,20 @@
       "size": 742
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:09.598981+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
-    "description": null,
-    "full_name": "NeuroverseOS/negotiator",
+    "description": "Mentra App ",
+    "fork": false,
+    "full_name": "neuroverseos/negotiator",
     "html_url": "https://github.com/NeuroverseOS/negotiator",
     "language": "TypeScript",
     "pushed_at": "2026-03-29T00:37:35Z",
+    "stargazers_count": 0,
     "topics": [],
-    "updated_at": "2026-03-29T00:37:38Z"
+    "updated_at": "2026-04-18T17:44:41Z"
   },
   "repo_links": [],
   "terms": [

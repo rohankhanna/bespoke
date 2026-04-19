@@ -373,14 +373,18 @@
       "size": 1437
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:17.147227+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Ethereum network monitoring with collection clients and a centralized server for data pipelining.",
+    "fork": false,
     "full_name": "ethpandaops/xatu",
     "html_url": "https://github.com/ethpandaops/xatu",
     "language": "Go",
     "pushed_at": "2026-04-10T01:58:54Z",
+    "stargazers_count": 93,
     "topics": [],
     "updated_at": "2026-04-09T23:34:06Z"
   },

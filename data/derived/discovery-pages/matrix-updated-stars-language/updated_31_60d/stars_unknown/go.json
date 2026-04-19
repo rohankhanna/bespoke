@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 4,
-    "terms": 24
+    "components": 11,
+    "concepts": 9,
+    "observations": 9,
+    "repos": 2,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
     "charmbracelet/glamour",
-    "ctoth/claudio",
-    "dagger/container-use",
-    "withastro/compiler"
+    "dagger/container-use"
   ]
 }

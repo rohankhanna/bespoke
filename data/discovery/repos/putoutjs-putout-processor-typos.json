@@ -213,14 +213,18 @@
       "size": 1476
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:51:55.641507+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "\ud83d\udc0aPutout processor adds ability to find and fix typos",
+    "fork": false,
     "full_name": "putoutjs/putout-processor-typos",
     "html_url": "https://github.com/putoutjs/putout-processor-typos",
     "language": "JavaScript",
     "pushed_at": "2022-09-21T18:23:44Z",
+    "stargazers_count": 2,
     "topics": [],
     "updated_at": "2022-09-21T18:17:39Z"
   },

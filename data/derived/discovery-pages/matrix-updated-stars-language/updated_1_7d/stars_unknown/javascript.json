@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 341,
-    "concepts": 51,
-    "observations": 51,
-    "repos": 24,
-    "terms": 97
+    "components": 300,
+    "concepts": 24,
+    "observations": 24,
+    "repos": 19,
+    "terms": 64
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,16 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
     "affaan-m/everything-claude-code",
     "agent-sh/agentsys",
-    "agent-sh/can-i-help",
-    "agent-sh/onboard",
     "anojndr/grok-to-openai",
     "bmad-code-org/BMAD-METHOD",
     "gauravRathod674/custom-chatbot",
-    "google/closure-compiler",
     "GYF0311/lorekit",
     "ItsRishika/Payment-bypass-bug-lab",
     "lis186/ccxray",
-    "mattgodbolt/jsbeeb",
     "npm/cli",
     "Piebald-AI/claude-code-system-prompts",
     "Redductive/SecurePixel",
@@ -35,7 +31,6 @@
     "seunghunbae-3svs/solo-cto-agent",
     "Similar-colpoxerosis201/codex-wechat",
     "stealabra5019/Grok-Enhancer",
-    "stripe-samples/accept-a-payment",
     "svg/svgo",
     "tornikepe/ai-chatbot"
   ]

@@ -93,14 +93,18 @@
       "size": 6439
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:22.568649+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A standalone Bash script for Behavior-Driven Development with Ralph Wiggum Loop",
+    "fork": false,
     "full_name": "marcindulak/ralph-wiggum-bdd",
     "html_url": "https://github.com/marcindulak/ralph-wiggum-bdd",
     "language": "Shell",
     "pushed_at": "2026-04-12T07:50:42Z",
+    "stargazers_count": 9,
     "topics": [],
     "updated_at": "2026-04-12T07:50:48Z"
   },

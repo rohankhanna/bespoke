@@ -1349,14 +1349,18 @@
       "size": 2962
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:12.075088+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "develop",
     "description": "Narraitor: A world-agnostic narrative-driven RPG framework using AI",
-    "full_name": "jerseycheese/Narraitor",
+    "fork": false,
+    "full_name": "jerseycheese/narraitor",
     "html_url": "https://github.com/jerseycheese/Narraitor",
     "language": "TypeScript",
     "pushed_at": "2026-04-11T13:45:12Z",
+    "stargazers_count": 27,
     "topics": [],
     "updated_at": "2026-04-03T15:38:57Z"
   },

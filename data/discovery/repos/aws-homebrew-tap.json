@@ -73,14 +73,18 @@
       "size": 5406
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:10.118863+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Homebrew formulae that allows installation of AWS tools through the Homebrew package manager.",
+    "fork": false,
     "full_name": "aws/homebrew-tap",
     "html_url": "https://github.com/aws/homebrew-tap",
     "language": "Ruby",
     "pushed_at": "2026-03-30T08:54:45Z",
+    "stargazers_count": 113,
     "topics": [],
     "updated_at": "2026-03-30T08:54:50Z"
   },

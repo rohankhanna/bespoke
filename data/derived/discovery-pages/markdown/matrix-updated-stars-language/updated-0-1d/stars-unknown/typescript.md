@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · Unknown stars · TypeScript
 
-Generated at: `2026-04-19T06:58:55.872585+00:00`
+Generated at: `2026-04-19T07:52:38.223094+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 15
-- terms: 88
-- components: 888
-- concepts: 74
-- observations: 74
+- repos: 12
+- terms: 75
+- components: 749
+- concepts: 68
+- observations: 68
 
 ## Static behavior
 
@@ -38,9 +38,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [qwibitai/nanoclaw](https://github.com/qwibitai/nanoclaw) | unknown | 2026-04-18T09:04:32Z | TypeScript | Infrastructure/tooling | 7 | 20 | 7 | 7 |
 | [nizos/tdd-guard](https://github.com/nizos/tdd-guard) | unknown | 2026-04-18T09:00:50Z | TypeScript | Infrastructure/tooling | 1 | 42 | 0 | 0 |
 | [ryoppippi/ccusage](https://github.com/ryoppippi/ccusage) | unknown | 2026-04-18T08:49:45Z | TypeScript | CLI | 2 | 14 | 0 | 0 |
-| [OverseedAI/viwo](https://github.com/OverseedAI/viwo) | unknown | 2026-04-18T08:26:57Z | TypeScript | Infrastructure/tooling | 4 | 20 | 0 | 0 |
-| [op7418/CodePilot](https://github.com/op7418/CodePilot) | unknown | 2026-04-18T07:32:14Z | TypeScript | CLI | 6 | 82 | 6 | 6 |
-| [vibe-log/vibe-log-cli](https://github.com/vibe-log/vibe-log-cli) | unknown | 2026-04-18T07:08:05Z | TypeScript | CLI | 3 | 37 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -58,6 +55,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [qwibitai/nanoclaw](https://github.com/qwibitai/nanoclaw) | unknown | 2026-04-18T09:04:32Z | TypeScript | Infrastructure/tooling | 7 | 20 | 7 | 7 |
 | [nizos/tdd-guard](https://github.com/nizos/tdd-guard) | unknown | 2026-04-18T09:00:50Z | TypeScript | Infrastructure/tooling | 1 | 42 | 0 | 0 |
 | [ryoppippi/ccusage](https://github.com/ryoppippi/ccusage) | unknown | 2026-04-18T08:49:45Z | TypeScript | CLI | 2 | 14 | 0 | 0 |
-| [OverseedAI/viwo](https://github.com/OverseedAI/viwo) | unknown | 2026-04-18T08:26:57Z | TypeScript | Infrastructure/tooling | 4 | 20 | 0 | 0 |
-| [op7418/CodePilot](https://github.com/op7418/CodePilot) | unknown | 2026-04-18T07:32:14Z | TypeScript | CLI | 6 | 82 | 6 | 6 |
-| [vibe-log/vibe-log-cli](https://github.com/vibe-log/vibe-log-cli) | unknown | 2026-04-18T07:08:05Z | TypeScript | CLI | 3 | 37 | 0 | 0 |

@@ -97,14 +97,18 @@
       "size": 163
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:32.207931+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "CLI tool and Claude Code skill for restoring context from previous sessions",
-    "full_name": "ZENG3LD/claude-session-restore",
+    "fork": false,
+    "full_name": "zeng3ld/claude-session-restore",
     "html_url": "https://github.com/ZENG3LD/claude-session-restore",
     "language": "Rust",
     "pushed_at": "2026-01-26T07:54:26Z",
+    "stargazers_count": 30,
     "topics": [],
     "updated_at": "2026-04-16T00:06:16Z"
   },

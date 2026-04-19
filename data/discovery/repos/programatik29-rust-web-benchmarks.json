@@ -51,14 +51,18 @@
       "size": 1303
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:11.921849+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Benchmarking web frameworks written in rust with rewrk tool.",
+    "fork": false,
     "full_name": "programatik29/rust-web-benchmarks",
     "html_url": "https://github.com/programatik29/rust-web-benchmarks",
     "language": "Rust",
     "pushed_at": "2024-01-01T18:14:58Z",
+    "stargazers_count": 296,
     "topics": [
       "benchmark",
       "framework",

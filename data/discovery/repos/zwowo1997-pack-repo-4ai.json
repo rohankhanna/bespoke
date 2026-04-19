@@ -20,14 +20,18 @@
       "size": 495
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:02.278731+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "CLI tool to format codebases for DeepSeek R1 and Claude 3.5",
+    "fork": false,
     "full_name": "zwowo1997/pack-repo-4ai",
     "html_url": "https://github.com/zwowo1997/pack-repo-4ai",
     "language": "Python",
     "pushed_at": "2026-01-31T19:20:45Z",
+    "stargazers_count": 6,
     "topics": [
       "claude-3-5",
       "context-limit",

@@ -3,7 +3,7 @@
     "components": 5,
     "concepts": 10,
     "observations": 10,
-    "repos": 1,
+    "repos": 2,
     "terms": 10
   },
   "facet_version": 1,
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
-    "abduznik/Git-Alchemist"
+    "abduznik/Git-Alchemist",
+    "talieisin/britfix"
   ]
 }

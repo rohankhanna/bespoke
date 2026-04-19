@@ -12,14 +12,18 @@
       "size": 2801
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:32.508202+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "develop",
     "description": null,
-    "full_name": "Wirasm/dylan",
+    "fork": false,
+    "full_name": "wirasm/dylan",
     "html_url": "https://github.com/Wirasm/dylan",
     "language": "Python",
     "pushed_at": "2025-11-09T18:47:47Z",
+    "stargazers_count": 37,
     "topics": [],
     "updated_at": "2026-04-16T01:50:19Z"
   },

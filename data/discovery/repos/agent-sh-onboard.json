@@ -69,14 +69,18 @@
       "size": 250
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:28.661318+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Quick codebase summary for new projects - /onboard command",
+    "fork": false,
     "full_name": "agent-sh/onboard",
     "html_url": "https://github.com/agent-sh/onboard",
     "language": "JavaScript",
     "pushed_at": "2026-04-14T23:27:07Z",
+    "stargazers_count": 3,
     "topics": [
       "ai",
       "ai-agents",

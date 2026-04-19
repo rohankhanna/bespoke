@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · Unknown stars · Python
 
-Generated at: `2026-04-19T06:58:55.872585+00:00`
+Generated at: `2026-04-19T07:52:38.223094+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 10
-- terms: 146
-- components: 98
-- concepts: 146
-- observations: 146
+- repos: 9
+- terms: 126
+- components: 91
+- concepts: 126
+- observations: 126
 
 ## Static behavior
 
@@ -35,7 +35,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [oraios/serena](https://github.com/oraios/serena) | unknown | 2026-04-18T11:23:47Z | Python | Infrastructure/tooling | 12 | 35 | 12 | 12 |
 | [sgl-project/sglang](https://github.com/sgl-project/sglang) | unknown | 2026-04-18T10:14:40Z | Python | Infrastructure/tooling | 22 | 5 | 22 | 22 |
 | [agiletec-inc/airis-mcp-gateway](https://github.com/agiletec-inc/airis-mcp-gateway) | unknown | 2026-04-18T09:30:28Z | Python | Infrastructure/tooling | 3 | 11 | 3 | 3 |
-| [vllm-project/vllm](https://github.com/vllm-project/vllm) | unknown | 2026-04-18T07:48:55Z | Python | Infrastructure/tooling | 20 | 7 | 20 | 20 |
 
 ## Repos sorted by stars
 
@@ -50,4 +49,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [oraios/serena](https://github.com/oraios/serena) | unknown | 2026-04-18T11:23:47Z | Python | Infrastructure/tooling | 12 | 35 | 12 | 12 |
 | [sgl-project/sglang](https://github.com/sgl-project/sglang) | unknown | 2026-04-18T10:14:40Z | Python | Infrastructure/tooling | 22 | 5 | 22 | 22 |
 | [agiletec-inc/airis-mcp-gateway](https://github.com/agiletec-inc/airis-mcp-gateway) | unknown | 2026-04-18T09:30:28Z | Python | Infrastructure/tooling | 3 | 11 | 3 | 3 |
-| [vllm-project/vllm](https://github.com/vllm-project/vllm) | unknown | 2026-04-18T07:48:55Z | Python | Infrastructure/tooling | 20 | 7 | 20 | 20 |

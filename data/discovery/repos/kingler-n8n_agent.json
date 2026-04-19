@@ -98,14 +98,18 @@
       "size": 1187
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:22.224565+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "LLM based AI Agent for generating n8n agentic automation workflows from a one-shot text prompt",
+    "fork": false,
     "full_name": "kingler/n8n_agent",
     "html_url": "https://github.com/kingler/n8n_agent",
     "language": "JavaScript",
     "pushed_at": "2025-05-16T17:30:38Z",
+    "stargazers_count": 239,
     "topics": [],
     "updated_at": "2026-04-11T22:12:23Z"
   },

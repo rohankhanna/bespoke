@@ -1,0 +1,25 @@
+{
+  "counts": {
+    "components": 47,
+    "concepts": 9,
+    "observations": 9,
+    "repos": 8,
+    "terms": 15
+  },
+  "facet_version": 1,
+  "filters": {
+    "star_bucket": "stars_1_9",
+    "updated_bucket": "updated_91_180d"
+  },
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "repo_ids": [
+    "arustydev/pre-commit-hooks",
+    "danielrosehill/bash-alias-manager-claude",
+    "karpeleslab/tpl",
+    "nornagon/crossterm",
+    "parruda/ruby_llm",
+    "slunsford/coffee-analytics",
+    "tahv/typos-gitlab-code-quality",
+    "vllm-project/media-kit"
+  ]
+}

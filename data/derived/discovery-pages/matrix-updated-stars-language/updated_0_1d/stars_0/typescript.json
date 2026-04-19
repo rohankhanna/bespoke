@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 15,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 1,
+    "terms": 0
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "typescript",
+    "star_bucket": "stars_0",
+    "updated_bucket": "updated_0_1d"
+  },
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "repo_ids": [
+    "sujithpvarghese/bedrock-agent-core-operations-hub-mcp"
+  ]
+}

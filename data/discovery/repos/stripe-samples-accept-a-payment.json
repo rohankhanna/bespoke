@@ -220,14 +220,18 @@
       "size": 687
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:27.840171+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Learn how to accept a payment from customers around the world with a variety of payment methods.",
+    "fork": false,
     "full_name": "stripe-samples/accept-a-payment",
     "html_url": "https://github.com/stripe-samples/accept-a-payment",
     "language": "JavaScript",
     "pushed_at": "2026-04-14T19:49:13Z",
+    "stargazers_count": 827,
     "topics": [],
     "updated_at": "2026-04-14T19:46:29Z"
   },

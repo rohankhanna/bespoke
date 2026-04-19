@@ -139,14 +139,18 @@
       "size": 3577
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:29.887819+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "[ICLR 2026] Beyond a Million Tokens: Benchmarking and Enhancing Long-Term Memory in LLMs",
-    "full_name": "mohammadtavakoli78/BEAM",
+    "fork": false,
+    "full_name": "mohammadtavakoli78/beam",
     "html_url": "https://github.com/mohammadtavakoli78/BEAM",
     "language": "Python",
     "pushed_at": "2026-02-02T07:43:30Z",
+    "stargazers_count": 41,
     "topics": [
       "beam",
       "beam-benchmark",

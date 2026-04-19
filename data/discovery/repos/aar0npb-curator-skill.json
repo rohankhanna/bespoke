@@ -8,14 +8,18 @@
       "size": 5017
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:22.391276+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": null,
-    "full_name": "Aar0nPB/curator-skill",
+    "fork": false,
+    "full_name": "aar0npb/curator-skill",
     "html_url": "https://github.com/Aar0nPB/curator-skill",
     "language": null,
     "pushed_at": "2026-04-10T03:53:51Z",
+    "stargazers_count": 2,
     "topics": [],
     "updated_at": "2026-04-12T07:20:32Z"
   },

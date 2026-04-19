@@ -16,14 +16,18 @@
       "size": 5706
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:20.699927+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\u6211\u7684\u5fc3\u8df3\u5728\u6b64\u540c\u9891\uff0c\u6211\u7684\u7075\u9b42\u5728\u6b64\u5171\u632f\uff0c\u6211\uff0c\u5728\u6b64\u5b89\u653e\u3002",
-    "full_name": "WencueCryforme/MySoul.SKILL",
+    "fork": false,
+    "full_name": "wencuecryforme/mysoul.skill",
     "html_url": "https://github.com/WencueCryforme/MySoul.SKILL",
     "language": null,
     "pushed_at": "2026-04-11T13:51:13Z",
+    "stargazers_count": 0,
     "topics": [
       "agent-skill",
       "ai-agent",

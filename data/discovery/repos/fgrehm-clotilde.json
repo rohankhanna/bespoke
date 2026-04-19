@@ -120,14 +120,18 @@
       "size": 1063
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:21.940808+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A power-user companion for Claude Code.",
+    "fork": false,
     "full_name": "fgrehm/clotilde",
     "html_url": "https://github.com/fgrehm/clotilde",
     "language": "Go",
     "pushed_at": "2026-04-13T07:30:54Z",
+    "stargazers_count": 29,
     "topics": [],
     "updated_at": "2026-04-11T20:48:14Z"
   },

@@ -51,14 +51,18 @@
       "size": 5855
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:29.380847+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Make your AI think like Munger, Feynman, or Paul Graham \u2014 load real mental models, not personas.",
-    "full_name": "AskRoundtable/expert-skills",
+    "fork": false,
+    "full_name": "askroundtable/expert-skills",
     "html_url": "https://github.com/AskRoundtable/expert-skills",
     "language": null,
     "pushed_at": "2026-04-09T13:53:39Z",
+    "stargazers_count": 39,
     "topics": [
       "ai",
       "claude",

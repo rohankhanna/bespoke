@@ -203,14 +203,18 @@
       "size": 977
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:15.781654+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "AISS v2.0.0 \u2014 standalone release",
-    "full_name": "PiQrypt/aiss-standard",
+    "fork": false,
+    "full_name": "piqrypt/aiss-standard",
     "html_url": "https://github.com/PiQrypt/aiss-standard",
     "language": "Python",
     "pushed_at": "2026-04-09T06:08:11Z",
+    "stargazers_count": 1,
     "topics": [
       "ai-accountability",
       "ai-act",

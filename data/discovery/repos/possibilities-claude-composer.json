@@ -285,14 +285,18 @@
       "size": 704
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:18.210575+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": null,
+    "fork": false,
     "full_name": "possibilities/claude-composer",
     "html_url": "https://github.com/possibilities/claude-composer",
     "language": "TypeScript",
     "pushed_at": "2025-07-31T02:29:50Z",
+    "stargazers_count": 678,
     "topics": [],
     "updated_at": "2026-04-10T16:34:02Z"
   },

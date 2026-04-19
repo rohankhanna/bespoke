@@ -65,14 +65,18 @@
       "size": 11770
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:30.387353+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Ideas \u2192 Roadmap \u2192 Steps \u2014 a planning plugin for Claude Code",
-    "full_name": "FlineDev/PlanKit",
+    "fork": false,
+    "full_name": "flinedev/plankit",
     "html_url": "https://github.com/FlineDev/PlanKit",
     "language": null,
     "pushed_at": "2026-04-14T14:41:25Z",
+    "stargazers_count": 10,
     "topics": [],
     "updated_at": "2026-04-15T10:16:34Z"
   },

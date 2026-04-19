@@ -30,14 +30,18 @@
       "size": 3722
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:05.063986+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "AI Assisted Laravel TALL stack coding configuration for Claude Code ",
+    "fork": false,
     "full_name": "tott/laravel-tall-claude-ai-configs",
     "html_url": "https://github.com/tott/laravel-tall-claude-ai-configs",
     "language": null,
     "pushed_at": "2025-08-08T14:35:08Z",
+    "stargazers_count": 39,
     "topics": [],
     "updated_at": "2026-03-06T15:12:37Z"
   },

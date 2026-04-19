@@ -665,14 +665,18 @@
       "size": 460
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:51:59.845850+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": null,
+    "fork": false,
     "full_name": "ccdanpian/current-datetime",
     "html_url": "https://github.com/ccdanpian/current-datetime",
     "language": "JavaScript",
     "pushed_at": "2024-02-04T03:56:29Z",
+    "stargazers_count": 3,
     "topics": [],
     "updated_at": "2025-12-06T06:23:51Z"
   },

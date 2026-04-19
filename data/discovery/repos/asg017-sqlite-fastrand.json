@@ -819,14 +819,18 @@
       "size": 1174
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:14.481919+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A SQLite extension for quickly generating random numbers, booleans, characters, and blobs",
+    "fork": false,
     "full_name": "asg017/sqlite-fastrand",
     "html_url": "https://github.com/asg017/sqlite-fastrand",
     "language": "Rust",
     "pushed_at": "2023-11-27T16:07:05Z",
+    "stargazers_count": 21,
     "topics": [
       "datasette-plugin",
       "sqlite",

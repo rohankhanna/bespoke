@@ -403,14 +403,18 @@
       "size": 1444
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:25.205182+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Search, explore, and analyze mountain peak data from PeakBagger.com in your terminal",
+    "fork": false,
     "full_name": "dreamiurg/peakbagger-cli",
     "html_url": "https://github.com/dreamiurg/peakbagger-cli",
     "language": "Python",
     "pushed_at": "2026-04-13T18:25:01Z",
+    "stargazers_count": 3,
     "topics": [
       "cli",
       "climbing",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 737,
-    "concepts": 48,
-    "observations": 49,
-    "repos": 24,
-    "terms": 77
+    "components": 106,
+    "concepts": 6,
+    "observations": 6,
+    "repos": 3,
+    "terms": 11
   },
   "facet_version": 1,
   "filters": {
@@ -12,31 +12,10 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
-    "arvinxx/lobe-plugin-tikzjax",
-    "asg017/sqlite-ecosystem",
-    "ConnectAI-E/MidJourney-Web",
-    "DanielNappa/tweakgc-cli",
-    "ddisisto/si",
-    "dragonkhoi/mercury-mcp",
-    "eastlondoner/pac-man",
     "eastlondoner/vibe-tools",
-    "fatwang2/search1api-lobechat",
-    "FineHow/Bingsearch-Plugin",
     "Helmi/claude-simone",
-    "inkline/inkline",
-    "johnlindquist/claude-hooks",
-    "lenML/gcp-claude-openai-api-server",
-    "lobehub/chat-plugin-realtime-weather",
-    "lobehub/chat-plugin-sdk",
-    "lobehub/chat-plugin-search-engine",
-    "lobehub/chat-plugin-template",
-    "lobehub/chat-plugins-gateway",
-    "lobehub/lobe-vidol",
-    "possibilities/claude-composer",
-    "rygwdn/slack-tools",
-    "steadycursor/steadystart",
     "tremorlabs/tremor"
   ]
 }

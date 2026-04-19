@@ -507,14 +507,18 @@
       "size": 2273
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:29.541438+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Javascript BBC micro emulator",
+    "fork": false,
     "full_name": "mattgodbolt/jsbeeb",
     "html_url": "https://github.com/mattgodbolt/jsbeeb",
     "language": "JavaScript",
     "pushed_at": "2026-04-15T02:11:29Z",
+    "stargazers_count": 383,
     "topics": [
       "6502",
       "bbc",

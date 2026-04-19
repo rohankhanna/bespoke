@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 0,
+    "concepts": 6,
+    "observations": 6,
+    "repos": 2,
+    "terms": 6
+  },
+  "facet_version": 1,
+  "filters": {
+    "star_bucket": "stars_0",
+    "updated_bucket": "updated_91_180d"
+  },
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "repo_ids": [
+    "danielrosehill/ai-human-attribution-adder",
+    "danielrosehill/batch-claudemd-repo-creator"
+  ]
+}

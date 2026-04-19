@@ -1,0 +1,21 @@
+{
+  "counts": {
+    "components": 29,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 3,
+    "terms": 23
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "typescript",
+    "star_bucket": "stars_0",
+    "updated_bucket": "updated_15_30d"
+  },
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "repo_ids": [
+    "neuroverseos/negotiator",
+    "sujithpvarghese/bedrock-agent-core-operations-hub",
+    "sujithpvarghese/bedrock-full-reconciliation"
+  ]
+}

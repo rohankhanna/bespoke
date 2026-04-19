@@ -79,6 +79,7 @@
       "size": 3037
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:51:57.975447+00:00",
   "related_repositories": [
     {
       "description": "Beautiful Telegram Store MiniApp. A Telegram Store Mini App by InDMDev Teams. The best Telegram Shop MiniApp and the latest Telegram Shop Mini App every seller should have. This telegram mini app is designed for speed, simplicity, and scalability. Try the Auto shop bot now.",
@@ -174,12 +175,15 @@
     }
   ],
   "repo": {
+    "archived": true,
     "default_branch": "main",
     "description": "It helps users interact with multiple AI models directly through Telegram, particularly large language models like DeepSeek-R1, Claude, GPT, Grok, Cohere, DALL.E, SDXL, Llama 3.3, and Mistral.",
+    "fork": false,
     "full_name": "0xnu/rewsury",
     "html_url": "https://github.com/0xnu/rewsury",
     "language": null,
     "pushed_at": "2025-01-24T16:39:17Z",
+    "stargazers_count": 2,
     "topics": [
       "ai",
       "bot",

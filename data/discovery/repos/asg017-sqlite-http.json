@@ -659,14 +659,18 @@
       "size": 986
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:20.849457+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A SQLite extension for making HTTP requests purely in SQL",
+    "fork": false,
     "full_name": "asg017/sqlite-http",
     "html_url": "https://github.com/asg017/sqlite-http",
     "language": "Go",
     "pushed_at": "2025-02-09T16:15:00Z",
+    "stargazers_count": 262,
     "topics": [
       "sqlite",
       "sqlite-extension"

@@ -57,14 +57,18 @@
       "size": 2229
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:11.441466+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Homebrew formula for bicep",
-    "full_name": "Azure/homebrew-bicep",
+    "fork": false,
+    "full_name": "azure/homebrew-bicep",
     "html_url": "https://github.com/Azure/homebrew-bicep",
     "language": "Ruby",
     "pushed_at": "2026-04-02T19:30:43Z",
+    "stargazers_count": 9,
     "topics": [],
     "updated_at": "2026-04-02T19:30:50Z"
   },

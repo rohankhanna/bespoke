@@ -1,19 +1,41 @@
 {
   "counts": {
-    "components": 2,
-    "concepts": 7,
-    "observations": 7,
-    "repos": 2,
-    "terms": 7
+    "components": 506,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 24,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
+    "0xnu/rewsury",
     "aerobounce/Sublime-Pretty-Lua",
-    "crossterm-rs/examples"
+    "arvinxx/lobe-plugin-tikzjax",
+    "berrydev-ai/blockdoc-python",
+    "birch-san/diffusers",
+    "ccdanpian/current-datetime",
+    "cdeust/ai-prd-builder",
+    "crossterm-rs/examples",
+    "ddisisto/si",
+    "dragonkhoi/mercury-mcp",
+    "eastlondoner/pac-man",
+    "finehow/bingsearch-plugin",
+    "hackdays-io/toban-contribution-viewer",
+    "ianopolous/jpack",
+    "layr-labs/avs-vibe-developer-guide",
+    "lazychanger/docker-kunlun-mirror",
+    "peergos/nabu-chat",
+    "putoutjs/putout-processor-typos",
+    "retrography/audioswitch",
+    "rzykov/metabase",
+    "to4iki/ai-project-rules",
+    "viperjuice/flutter-structurizr",
+    "zailoxtt/ru-grok-jailbreak",
+    "zscott/pane"
   ]
 }

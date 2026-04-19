@@ -1,0 +1,20 @@
+{
+  "counts": {
+    "components": 32,
+    "concepts": 12,
+    "observations": 12,
+    "repos": 3,
+    "terms": 22
+  },
+  "facet_version": 1,
+  "filters": {
+    "star_bucket": "stars_100_999",
+    "updated_bucket": "updated_8_14d"
+  },
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "repo_ids": [
+    "adoptium/adoptium",
+    "broderick-westrope/tetrigo",
+    "comme2e/comm"
+  ]
+}

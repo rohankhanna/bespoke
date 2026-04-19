@@ -65,14 +65,18 @@
       "size": 1407
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:33.409733+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "\ud83c\udfa7 \ud83d\udd08 A small tool for changing sound volume even for aggregate devices cause native sound volume controller can't change volume of aggregate devices",
-    "full_name": "rlxone/MultiSoundChanger",
+    "fork": false,
+    "full_name": "rlxone/multisoundchanger",
     "html_url": "https://github.com/rlxone/MultiSoundChanger",
     "language": "Swift",
     "pushed_at": "2021-07-22T00:32:50Z",
+    "stargazers_count": 311,
     "topics": [
       "audio",
       "coreaudio",

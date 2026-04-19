@@ -37,14 +37,18 @@
       "size": 1678
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:16.124187+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Claude agent directory for managing bash aliases",
-    "full_name": "danielrosehill/Bash-Alias-Manager-Claude",
+    "fork": false,
+    "full_name": "danielrosehill/bash-alias-manager-claude",
     "html_url": "https://github.com/danielrosehill/Bash-Alias-Manager-Claude",
     "language": "Shell",
     "pushed_at": "2025-10-25T22:56:35Z",
+    "stargazers_count": 1,
     "topics": [
       "bash-aliases",
       "claude-code"

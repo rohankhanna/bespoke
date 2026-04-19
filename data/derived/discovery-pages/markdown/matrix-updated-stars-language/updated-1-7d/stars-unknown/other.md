@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · Unknown stars · Other
 
-Generated at: `2026-04-19T06:58:55.872585+00:00`
+Generated at: `2026-04-19T07:52:38.223094+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 34
-- terms: 97
-- components: 127
-- concepts: 44
-- observations: 45
+- repos: 30
+- terms: 89
+- components: 118
+- concepts: 38
+- observations: 39
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [jeremymailen/kotlinter-gradle](https://github.com/jeremymailen/kotlinter-gradle) | unknown | 2026-04-18T07:00:43Z | Other | Infrastructure/tooling | 2 | 5 | 0 | 0 |
 | [ethpandaops/xatu-data](https://github.com/ethpandaops/xatu-data) | unknown | 2026-04-18T06:36:14Z | Other | Infrastructure/tooling | 3 | 3 | 0 | 0 |
 | [genuslovoacalixtusiii510/YTP-2026](https://github.com/genuslovoacalixtusiii510/YTP-2026) | unknown | 2026-04-18T04:38:47Z | Other | CLI | 0 | 0 | 0 | 0 |
 | [RobertAbao/grok-nvim](https://github.com/RobertAbao/grok-nvim) | unknown | 2026-04-18T03:15:24Z | Other | Model/data | 0 | 0 | 0 | 0 |
@@ -49,15 +50,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [actions/runner-images](https://github.com/actions/runner-images) | unknown | 2026-04-17T12:46:22Z | Other | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | unknown | 2026-04-17T01:15:54Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [automazeio/vibeproxy](https://github.com/automazeio/vibeproxy) | unknown | 2026-04-17T00:22:34Z | Other | CLI | 8 | 7 | 8 | 8 |
-| [mongodb/homebrew-brew](https://github.com/mongodb/homebrew-brew) | unknown | 2026-04-16T22:50:40Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [harperreed/dotfiles](https://github.com/harperreed/dotfiles) | unknown | 2026-04-16T22:49:15Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Code-Projects-Index](https://github.com/danielrosehill/Claude-Code-Projects-Index) | unknown | 2026-04-16T19:46:58Z | Other | CLI | 3 | 1 | 3 | 3 |
-| [mitchuski/agentprivacy-docs](https://github.com/mitchuski/agentprivacy-docs) | unknown | 2026-04-16T15:26:35Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [openclaw/nix-openclaw](https://github.com/openclaw/nix-openclaw) | unknown | 2026-04-14T16:16:01Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [alchaincyf/darwin-skill](https://github.com/alchaincyf/darwin-skill) | unknown | 2026-04-14T15:37:16Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [lunarmodules/luacheck](https://github.com/lunarmodules/luacheck) | unknown | 2026-04-14T12:53:39Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
-| [joinwell52-AI/joinwell52](https://github.com/joinwell52-AI/joinwell52) | unknown | 2026-04-14T02:12:31Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [beyondcode/claude-hooks-sdk](https://github.com/beyondcode/claude-hooks-sdk) | unknown | 2026-04-13T05:38:28Z | Other | Infrastructure/tooling | 4 | 6 | 0 | 0 |
 | [ParetoSecurity/pareto-mac](https://github.com/ParetoSecurity/pareto-mac) | unknown | 2026-04-12T09:59:57Z | Other | Infrastructure/tooling | 7 | 3 | 0 | 0 |
 | [JSONbored/claudepro-directory](https://github.com/JSONbored/claudepro-directory) | unknown | 2026-04-12T09:42:31Z | Other | Infrastructure/tooling | 22 | 11 | 0 | 0 |
 
@@ -65,6 +61,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [jeremymailen/kotlinter-gradle](https://github.com/jeremymailen/kotlinter-gradle) | unknown | 2026-04-18T07:00:43Z | Other | Infrastructure/tooling | 2 | 5 | 0 | 0 |
 | [ethpandaops/xatu-data](https://github.com/ethpandaops/xatu-data) | unknown | 2026-04-18T06:36:14Z | Other | Infrastructure/tooling | 3 | 3 | 0 | 0 |
 | [genuslovoacalixtusiii510/YTP-2026](https://github.com/genuslovoacalixtusiii510/YTP-2026) | unknown | 2026-04-18T04:38:47Z | Other | CLI | 0 | 0 | 0 | 0 |
 | [RobertAbao/grok-nvim](https://github.com/RobertAbao/grok-nvim) | unknown | 2026-04-18T03:15:24Z | Other | Model/data | 0 | 0 | 0 | 0 |
@@ -88,14 +85,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [actions/runner-images](https://github.com/actions/runner-images) | unknown | 2026-04-17T12:46:22Z | Other | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | unknown | 2026-04-17T01:15:54Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [automazeio/vibeproxy](https://github.com/automazeio/vibeproxy) | unknown | 2026-04-17T00:22:34Z | Other | CLI | 8 | 7 | 8 | 8 |
-| [mongodb/homebrew-brew](https://github.com/mongodb/homebrew-brew) | unknown | 2026-04-16T22:50:40Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [harperreed/dotfiles](https://github.com/harperreed/dotfiles) | unknown | 2026-04-16T22:49:15Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Claude-Code-Projects-Index](https://github.com/danielrosehill/Claude-Code-Projects-Index) | unknown | 2026-04-16T19:46:58Z | Other | CLI | 3 | 1 | 3 | 3 |
-| [mitchuski/agentprivacy-docs](https://github.com/mitchuski/agentprivacy-docs) | unknown | 2026-04-16T15:26:35Z | Other | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [openclaw/nix-openclaw](https://github.com/openclaw/nix-openclaw) | unknown | 2026-04-14T16:16:01Z | Other | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [alchaincyf/darwin-skill](https://github.com/alchaincyf/darwin-skill) | unknown | 2026-04-14T15:37:16Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [lunarmodules/luacheck](https://github.com/lunarmodules/luacheck) | unknown | 2026-04-14T12:53:39Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
-| [joinwell52-AI/joinwell52](https://github.com/joinwell52-AI/joinwell52) | unknown | 2026-04-14T02:12:31Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [beyondcode/claude-hooks-sdk](https://github.com/beyondcode/claude-hooks-sdk) | unknown | 2026-04-13T05:38:28Z | Other | Infrastructure/tooling | 4 | 6 | 0 | 0 |
 | [ParetoSecurity/pareto-mac](https://github.com/ParetoSecurity/pareto-mac) | unknown | 2026-04-12T09:59:57Z | Other | Infrastructure/tooling | 7 | 3 | 0 | 0 |
 | [JSONbored/claudepro-directory](https://github.com/JSONbored/claudepro-directory) | unknown | 2026-04-12T09:42:31Z | Other | Infrastructure/tooling | 22 | 11 | 0 | 0 |

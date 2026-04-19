@@ -30,14 +30,18 @@
       "size": 2019
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:27.469967+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Claude Code plugin marketplace by FlineDev (Cihat G\u00fcnd\u00fcz)",
-    "full_name": "FlineDev/Marketplace",
+    "fork": false,
+    "full_name": "flinedev/marketplace",
     "html_url": "https://github.com/FlineDev/Marketplace",
     "language": null,
     "pushed_at": "2026-04-14T14:42:05Z",
+    "stargazers_count": 2,
     "topics": [],
     "updated_at": "2026-04-14T14:42:09Z"
   },

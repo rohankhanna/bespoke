@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 0,
-    "concepts": 6,
-    "observations": 6,
-    "repos": 2,
-    "terms": 6
+    "concepts": 3,
+    "observations": 3,
+    "repos": 1,
+    "terms": 3
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
-    "knownsec/404StarLink",
-    "orogene/orogene"
+    "knownsec/404StarLink"
   ]
 }

@@ -202,14 +202,18 @@
       "size": 447
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:11.112889+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Convert American spellings to British English - fix LLM output and documents",
-    "full_name": "Talieisin/britfix",
+    "fork": false,
+    "full_name": "talieisin/britfix",
     "html_url": "https://github.com/Talieisin/britfix",
     "language": "Python",
     "pushed_at": "2026-03-12T08:25:00Z",
+    "stargazers_count": 14,
     "topics": [],
     "updated_at": "2026-03-31T23:25:21Z"
   },

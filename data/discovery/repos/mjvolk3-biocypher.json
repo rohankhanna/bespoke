@@ -156,14 +156,18 @@
       "size": 1246
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:51:55.829483+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A unifying framework for biomedical research knowledge graphs",
-    "full_name": "Mjvolk3/biocypher",
+    "fork": true,
+    "full_name": "mjvolk3/biocypher",
     "html_url": "https://github.com/Mjvolk3/biocypher",
     "language": "Python",
     "pushed_at": "2024-07-25T20:44:53Z",
+    "stargazers_count": 0,
     "topics": [],
     "updated_at": "2024-07-25T20:45:13Z"
   },

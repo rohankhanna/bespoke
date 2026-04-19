@@ -8,14 +8,18 @@
       "size": 10118
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:07.251679+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Never lose context in Claude Code again \u2014 automatic context recovery after compaction and manual session recall",
-    "full_name": "FlineDev/Recall",
+    "fork": false,
+    "full_name": "flinedev/recall",
     "html_url": "https://github.com/FlineDev/Recall",
     "language": "Python",
     "pushed_at": "2026-03-10T20:36:02Z",
+    "stargazers_count": 8,
     "topics": [],
     "updated_at": "2026-03-18T02:38:39Z"
   },

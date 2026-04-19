@@ -374,14 +374,18 @@
       "size": 2397
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:51:57.275273+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": null,
+    "fork": false,
     "full_name": "fatwang2/search1api-lobechat",
     "html_url": "https://github.com/fatwang2/search1api-lobechat",
     "language": "TypeScript",
     "pushed_at": "2025-03-20T07:38:48Z",
+    "stargazers_count": 15,
     "topics": [],
     "updated_at": "2025-04-27T03:57:15Z"
   },

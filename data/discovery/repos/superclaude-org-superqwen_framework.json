@@ -75,14 +75,18 @@
       "size": 5936
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:07.748885+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": null,
-    "full_name": "SuperClaude-Org/SuperQwen_Framework",
+    "fork": false,
+    "full_name": "superclaude-org/superqwen_framework",
     "html_url": "https://github.com/SuperClaude-Org/SuperQwen_Framework",
     "language": "Python",
     "pushed_at": "2025-09-19T02:46:13Z",
+    "stargazers_count": 22,
     "topics": [],
     "updated_at": "2026-03-22T20:16:30Z"
   },

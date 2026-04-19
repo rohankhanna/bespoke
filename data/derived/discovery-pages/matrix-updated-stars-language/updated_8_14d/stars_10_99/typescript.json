@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 78,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 1,
+    "terms": 4
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "typescript",
+    "star_bucket": "stars_10_99",
+    "updated_bucket": "updated_8_14d"
+  },
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "repo_ids": [
+    "jerseycheese/narraitor"
+  ]
+}

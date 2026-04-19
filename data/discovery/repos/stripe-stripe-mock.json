@@ -197,14 +197,18 @@
       "size": 1934
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:35.068033+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "stripe-mock is a mock HTTP server that responds like the real Stripe API. It can be used instead of Stripe's testmode to make test suites integrating with Stripe faster and less brittle.",
+    "fork": false,
     "full_name": "stripe/stripe-mock",
     "html_url": "https://github.com/stripe/stripe-mock",
     "language": "Go",
     "pushed_at": "2026-03-25T00:40:44Z",
+    "stargazers_count": 1604,
     "topics": [],
     "updated_at": "2026-04-16T14:02:52Z"
   },

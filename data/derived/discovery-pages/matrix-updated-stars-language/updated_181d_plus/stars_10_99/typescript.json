@@ -1,0 +1,28 @@
+{
+  "counts": {
+    "components": 301,
+    "concepts": 17,
+    "observations": 18,
+    "repos": 10,
+    "terms": 33
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "typescript",
+    "star_bucket": "stars_10_99",
+    "updated_bucket": "updated_181d_plus"
+  },
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "repo_ids": [
+    "danielnappa/tweakgc-cli",
+    "fatwang2/search1api-lobechat",
+    "lenml/gcp-claude-openai-api-server",
+    "lobehub/chat-plugin-realtime-weather",
+    "lobehub/chat-plugin-sdk",
+    "lobehub/chat-plugin-search-engine",
+    "lobehub/chat-plugin-template",
+    "lobehub/chat-plugins-gateway",
+    "rygwdn/slack-tools",
+    "steadycursor/steadystart"
+  ]
+}

@@ -16,14 +16,18 @@
       "size": 2532
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:20.213944+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "6502 Instruction timing",
-    "full_name": "dp111/6502Timing",
+    "fork": false,
+    "full_name": "dp111/6502timing",
     "html_url": "https://github.com/dp111/6502Timing",
     "language": "Assembly",
     "pushed_at": "2026-04-11T09:31:38Z",
+    "stargazers_count": 2,
     "topics": [],
     "updated_at": "2026-04-11T09:31:44Z"
   },

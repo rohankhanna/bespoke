@@ -460,14 +460,18 @@
       "size": 2478
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:09.936736+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": null,
+    "fork": false,
     "full_name": "ethpandaops/cbt",
     "html_url": "https://github.com/ethpandaops/cbt",
     "language": "Go",
     "pushed_at": "2026-04-01T12:16:29Z",
+    "stargazers_count": 1,
     "topics": [],
     "updated_at": "2026-03-30T01:03:08Z"
   },

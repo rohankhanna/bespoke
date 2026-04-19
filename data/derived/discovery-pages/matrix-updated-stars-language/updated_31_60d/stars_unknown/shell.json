@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5,
-    "concepts": 16,
-    "observations": 16,
-    "repos": 6,
-    "terms": 21
+    "components": 1,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 3,
+    "terms": 5
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,10 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
     "automazeio/ccpm",
     "blader/Claudeception",
-    "FlineDev/ContextKit",
-    "FlineDev/CustomStatusline",
-    "jawwadfirdousi/agent-skills",
-    "tombelieber/claude-backup"
+    "jawwadfirdousi/agent-skills"
   ]
 }

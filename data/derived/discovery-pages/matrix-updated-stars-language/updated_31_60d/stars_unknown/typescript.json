@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 390,
-    "concepts": 39,
-    "observations": 39,
-    "repos": 16,
-    "terms": 90
+    "components": 256,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 10,
+    "terms": 65
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,17 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
-    "aymenfurter/ralph",
     "coaidev/coai",
     "eckardt/cchistory",
     "humanlayer/humanlayer",
     "kamranahmedse/claude-run",
     "klaudworks/ralph-meets-rex",
-    "lobehub/lobe-charts",
     "lobehub/lobe-chat-agents",
     "lobehub/lobe-tts",
-    "maxritter/pilot-shell-demo",
-    "NeuroverseOS/neuroverseos-openclaw-governance",
     "nulone/claude-rules-doctor",
-    "stravu/crystal",
-    "sudocode-ai/sudocode",
     "vercel/satori"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 10,
-    "terms": 31
+    "components": 20,
+    "concepts": 5,
+    "observations": 5,
+    "repos": 5,
+    "terms": 7
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,12 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
     "alonw0/web-asset-generator",
     "anthropics/claude-code-security-review",
     "anthropics/claude-quickstarts",
-    "genius-harry/Neural-Chat",
     "meta-llama/llama-models",
-    "Mjvolk3/torchcell",
-    "mohammadtavakoli78/BEAM",
-    "ollama/ollama-python",
-    "SuperClaude-Org/SuperGemini_Framework",
-    "zwowo1997/pack-repo-4ai"
+    "ollama/ollama-python"
   ]
 }

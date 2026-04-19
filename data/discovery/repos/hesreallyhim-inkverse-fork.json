@@ -8,14 +8,18 @@
       "size": 1110
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:13.150851+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "preserve-claude-resources",
     "description": "A fun webtoons app. All comics on Inkverse are self-hosted by the creator.",
+    "fork": true,
     "full_name": "hesreallyhim/inkverse-fork",
     "html_url": "https://github.com/hesreallyhim/inkverse-fork",
     "language": null,
     "pushed_at": "2026-01-28T06:10:23Z",
+    "stargazers_count": 2,
     "topics": [],
     "updated_at": "2026-04-04T20:09:39Z"
   },

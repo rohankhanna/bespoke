@@ -227,14 +227,18 @@
       "size": 635
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:04.904332+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Community health files for the @lobehub organization",
+    "fork": false,
     "full_name": "lobehub/.github",
     "html_url": "https://github.com/lobehub/.github",
     "language": "TypeScript",
     "pushed_at": "2026-02-08T00:31:53Z",
+    "stargazers_count": 11,
     "topics": [
       "ai",
       "lobehub"

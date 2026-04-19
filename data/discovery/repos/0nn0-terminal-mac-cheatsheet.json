@@ -3,14 +3,18 @@
   "edges": [],
   "fetched_at": "2026-04-19T02:43:40.863951+00:00",
   "fetched_files": [],
+  "metadata_refreshed_at": "2026-04-19T07:52:29.717482+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "List of my most used commands and shortcuts in the terminal for Mac",
+    "fork": false,
     "full_name": "0nn0/terminal-mac-cheatsheet",
     "html_url": "https://github.com/0nn0/terminal-mac-cheatsheet",
     "language": null,
     "pushed_at": "2024-05-17T14:36:20Z",
+    "stargazers_count": 7381,
     "topics": [],
     "updated_at": "2026-04-15T05:43:48Z"
   },

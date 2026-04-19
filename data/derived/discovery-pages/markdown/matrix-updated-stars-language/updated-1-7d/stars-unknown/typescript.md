@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · Unknown stars · TypeScript
 
-Generated at: `2026-04-19T06:58:55.872585+00:00`
+Generated at: `2026-04-19T07:52:38.223094+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 75
-- terms: 369
-- components: 2269
-- concepts: 144
-- observations: 144
+- repos: 68
+- terms: 314
+- components: 2099
+- concepts: 116
+- observations: 116
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [op7418/CodePilot](https://github.com/op7418/CodePilot) | unknown | 2026-04-18T07:32:14Z | TypeScript | CLI | 6 | 82 | 6 | 6 |
+| [vibe-log/vibe-log-cli](https://github.com/vibe-log/vibe-log-cli) | unknown | 2026-04-18T07:08:05Z | TypeScript | CLI | 3 | 37 | 0 | 0 |
 | [langchain-ai/langchainjs](https://github.com/langchain-ai/langchainjs) | unknown | 2026-04-18T06:37:27Z | TypeScript | Infrastructure/tooling | 7 | 24 | 7 | 7 |
 | [slopus/happy](https://github.com/slopus/happy) | unknown | 2026-04-18T05:50:19Z | TypeScript | CLI | 2 | 3 | 0 | 0 |
 | [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) | unknown | 2026-04-18T05:35:47Z | TypeScript | CLI | 11 | 80 | 11 | 11 |
@@ -48,8 +50,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [liam-hq/liam](https://github.com/liam-hq/liam) | unknown | 2026-04-18T01:06:22Z | TypeScript | Infrastructure/tooling | 8 | 27 | 0 | 0 |
 | [badlogic/pi-mono](https://github.com/badlogic/pi-mono) | unknown | 2026-04-17T23:32:59Z | TypeScript | CLI | 5 | 17 | 5 | 5 |
 | [Piebald-AI/tweakcc](https://github.com/Piebald-AI/tweakcc) | unknown | 2026-04-17T23:29:59Z | TypeScript | CLI | 3 | 32 | 0 | 0 |
-| [elizaOS/elizaos.github.io](https://github.com/elizaOS/elizaos.github.io) | unknown | 2026-04-17T23:29:53Z | TypeScript | Infrastructure/tooling | 6 | 76 | 0 | 0 |
-| [sujithpvarghese/bedrock-agent-core-operations-hub-mcp](https://github.com/sujithpvarghese/bedrock-agent-core-operations-hub-mcp) | unknown | 2026-04-17T23:26:47Z | TypeScript | Web app | 0 | 15 | 0 | 0 |
 | [Ylsssq926/relic.skill](https://github.com/Ylsssq926/relic.skill) | unknown | 2026-04-17T23:16:15Z | TypeScript | CLI | 1 | 4 | 0 | 0 |
 | [langchain-ai/langgraphjs](https://github.com/langchain-ai/langgraphjs) | unknown | 2026-04-17T22:38:35Z | TypeScript | Infrastructure/tooling | 5 | 29 | 0 | 0 |
 | [stripe/stripe-node](https://github.com/stripe/stripe-node) | unknown | 2026-04-17T22:32:03Z | TypeScript | Infrastructure/tooling | 3 | 30 | 3 | 3 |
@@ -70,12 +70,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [maxritter/pilot-shell](https://github.com/maxritter/pilot-shell) | unknown | 2026-04-17T08:34:27Z | TypeScript | Infrastructure/tooling | 4 | 15 | 0 | 0 |
 | [dyoshikawa/rulesync](https://github.com/dyoshikawa/rulesync) | unknown | 2026-04-17T07:48:27Z | TypeScript | CLI | 7 | 59 | 0 | 0 |
 | [vadimdemedes/ink](https://github.com/vadimdemedes/ink) | unknown | 2026-04-17T07:15:51Z | TypeScript | CLI | 5 | 56 | 5 | 5 |
-| [firebase/firebase-admin-node](https://github.com/firebase/firebase-admin-node) | unknown | 2026-04-17T05:33:50Z | TypeScript | Infrastructure/tooling | 14 | 65 | 14 | 14 |
 | [affaan-m/agentshield](https://github.com/affaan-m/agentshield) | unknown | 2026-04-17T05:30:38Z | TypeScript | CLI | 8 | 20 | 8 | 8 |
 | [giselles-ai/giselle](https://github.com/giselles-ai/giselle) | unknown | 2026-04-17T05:16:13Z | TypeScript | Infrastructure/tooling | 17 | 16 | 0 | 0 |
 | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) | unknown | 2026-04-17T01:18:07Z | TypeScript | Infrastructure/tooling | 3 | 12 | 3 | 3 |
 | [stripe/ai](https://github.com/stripe/ai) | unknown | 2026-04-17T00:29:21Z | TypeScript | Infrastructure/tooling | 2 | 9 | 0 | 0 |
-| [lobehub/lobe-chat-plugins](https://github.com/lobehub/lobe-chat-plugins) | unknown | 2026-04-17T00:25:46Z | TypeScript | Infrastructure/tooling | 8 | 27 | 0 | 0 |
 | [NeoLabHQ/context-engineering-kit](https://github.com/NeoLabHQ/context-engineering-kit) | unknown | 2026-04-16T22:42:59Z | TypeScript | CLI | 0 | 0 | 0 | 0 |
 | [atomicmemory/llm-wiki-compiler](https://github.com/atomicmemory/llm-wiki-compiler) | unknown | 2026-04-16T19:53:16Z | TypeScript | CLI | 7 | 22 | 8 | 8 |
 | [FlorianBruniaux/claude-code-ultimate-guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide) | unknown | 2026-04-16T19:04:32Z | TypeScript | CLI | 20 | 4 | 0 | 0 |
@@ -89,23 +87,20 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [letta-ai/claude-subconscious](https://github.com/letta-ai/claude-subconscious) | unknown | 2026-04-16T00:13:11Z | TypeScript | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [lucasastorian/llmwiki](https://github.com/lucasastorian/llmwiki) | unknown | 2026-04-15T21:48:54Z | TypeScript | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [snipeship/ccflare](https://github.com/snipeship/ccflare) | unknown | 2026-04-15T16:27:34Z | TypeScript | Unknown | 0 | 4 | 0 | 0 |
-| [sgcarstrends/sgcarstrends](https://github.com/sgcarstrends/sgcarstrends) | unknown | 2026-04-15T13:15:05Z | TypeScript | Infrastructure/tooling | 9 | 30 | 0 | 0 |
 | [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | unknown | 2026-04-15T10:33:52Z | TypeScript | Infrastructure/tooling | 8 | 26 | 8 | 8 |
-| [lobehub/lobe-lint](https://github.com/lobehub/lobe-lint) | unknown | 2026-04-15T10:31:46Z | TypeScript | Infrastructure/tooling | 7 | 20 | 0 | 0 |
 | [microsoft/playwright-cli](https://github.com/microsoft/playwright-cli) | unknown | 2026-04-14T19:03:50Z | TypeScript | CLI | 2 | 7 | 2 | 2 |
 | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | unknown | 2026-04-14T16:58:21Z | TypeScript | Infrastructure/tooling | 1 | 3 | 0 | 0 |
 | [Owloops/claude-powerline](https://github.com/Owloops/claude-powerline) | unknown | 2026-04-14T15:21:51Z | TypeScript | CLI | 4 | 18 | 0 | 0 |
-| [dreamiurg/mountaineers-mcp](https://github.com/dreamiurg/mountaineers-mcp) | unknown | 2026-04-13T22:03:11Z | TypeScript | Infrastructure/tooling | 9 | 16 | 9 | 9 |
 | [evmts/tevm-monorepo](https://github.com/evmts/tevm-monorepo) | unknown | 2026-04-13T21:33:34Z | TypeScript | Infrastructure/tooling | 5 | 22 | 0 | 0 |
 | [googleapis/release-please](https://github.com/googleapis/release-please) | unknown | 2026-04-13T20:59:26Z | TypeScript | Infrastructure/tooling | 0 | 60 | 0 | 0 |
 | [badlogic/pi-share-hf](https://github.com/badlogic/pi-share-hf) | unknown | 2026-04-13T18:03:26Z | TypeScript | Model/data | 0 | 4 | 0 | 0 |
-| [dreamiurg/mountaineers-assistant](https://github.com/dreamiurg/mountaineers-assistant) | unknown | 2026-04-13T16:48:33Z | TypeScript | Infrastructure/tooling | 4 | 34 | 4 | 4 |
-| [vincent-k2026/codachi](https://github.com/vincent-k2026/codachi) | unknown | 2026-04-13T02:28:54Z | TypeScript | CLI | 7 | 6 | 7 | 7 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [op7418/CodePilot](https://github.com/op7418/CodePilot) | unknown | 2026-04-18T07:32:14Z | TypeScript | CLI | 6 | 82 | 6 | 6 |
+| [vibe-log/vibe-log-cli](https://github.com/vibe-log/vibe-log-cli) | unknown | 2026-04-18T07:08:05Z | TypeScript | CLI | 3 | 37 | 0 | 0 |
 | [langchain-ai/langchainjs](https://github.com/langchain-ai/langchainjs) | unknown | 2026-04-18T06:37:27Z | TypeScript | Infrastructure/tooling | 7 | 24 | 7 | 7 |
 | [slopus/happy](https://github.com/slopus/happy) | unknown | 2026-04-18T05:50:19Z | TypeScript | CLI | 2 | 3 | 0 | 0 |
 | [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) | unknown | 2026-04-18T05:35:47Z | TypeScript | CLI | 11 | 80 | 11 | 11 |
@@ -128,8 +123,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [liam-hq/liam](https://github.com/liam-hq/liam) | unknown | 2026-04-18T01:06:22Z | TypeScript | Infrastructure/tooling | 8 | 27 | 0 | 0 |
 | [badlogic/pi-mono](https://github.com/badlogic/pi-mono) | unknown | 2026-04-17T23:32:59Z | TypeScript | CLI | 5 | 17 | 5 | 5 |
 | [Piebald-AI/tweakcc](https://github.com/Piebald-AI/tweakcc) | unknown | 2026-04-17T23:29:59Z | TypeScript | CLI | 3 | 32 | 0 | 0 |
-| [elizaOS/elizaos.github.io](https://github.com/elizaOS/elizaos.github.io) | unknown | 2026-04-17T23:29:53Z | TypeScript | Infrastructure/tooling | 6 | 76 | 0 | 0 |
-| [sujithpvarghese/bedrock-agent-core-operations-hub-mcp](https://github.com/sujithpvarghese/bedrock-agent-core-operations-hub-mcp) | unknown | 2026-04-17T23:26:47Z | TypeScript | Web app | 0 | 15 | 0 | 0 |
 | [Ylsssq926/relic.skill](https://github.com/Ylsssq926/relic.skill) | unknown | 2026-04-17T23:16:15Z | TypeScript | CLI | 1 | 4 | 0 | 0 |
 | [langchain-ai/langgraphjs](https://github.com/langchain-ai/langgraphjs) | unknown | 2026-04-17T22:38:35Z | TypeScript | Infrastructure/tooling | 5 | 29 | 0 | 0 |
 | [stripe/stripe-node](https://github.com/stripe/stripe-node) | unknown | 2026-04-17T22:32:03Z | TypeScript | Infrastructure/tooling | 3 | 30 | 3 | 3 |
@@ -150,12 +143,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [maxritter/pilot-shell](https://github.com/maxritter/pilot-shell) | unknown | 2026-04-17T08:34:27Z | TypeScript | Infrastructure/tooling | 4 | 15 | 0 | 0 |
 | [dyoshikawa/rulesync](https://github.com/dyoshikawa/rulesync) | unknown | 2026-04-17T07:48:27Z | TypeScript | CLI | 7 | 59 | 0 | 0 |
 | [vadimdemedes/ink](https://github.com/vadimdemedes/ink) | unknown | 2026-04-17T07:15:51Z | TypeScript | CLI | 5 | 56 | 5 | 5 |
-| [firebase/firebase-admin-node](https://github.com/firebase/firebase-admin-node) | unknown | 2026-04-17T05:33:50Z | TypeScript | Infrastructure/tooling | 14 | 65 | 14 | 14 |
 | [affaan-m/agentshield](https://github.com/affaan-m/agentshield) | unknown | 2026-04-17T05:30:38Z | TypeScript | CLI | 8 | 20 | 8 | 8 |
 | [giselles-ai/giselle](https://github.com/giselles-ai/giselle) | unknown | 2026-04-17T05:16:13Z | TypeScript | Infrastructure/tooling | 17 | 16 | 0 | 0 |
 | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) | unknown | 2026-04-17T01:18:07Z | TypeScript | Infrastructure/tooling | 3 | 12 | 3 | 3 |
 | [stripe/ai](https://github.com/stripe/ai) | unknown | 2026-04-17T00:29:21Z | TypeScript | Infrastructure/tooling | 2 | 9 | 0 | 0 |
-| [lobehub/lobe-chat-plugins](https://github.com/lobehub/lobe-chat-plugins) | unknown | 2026-04-17T00:25:46Z | TypeScript | Infrastructure/tooling | 8 | 27 | 0 | 0 |
 | [NeoLabHQ/context-engineering-kit](https://github.com/NeoLabHQ/context-engineering-kit) | unknown | 2026-04-16T22:42:59Z | TypeScript | CLI | 0 | 0 | 0 | 0 |
 | [atomicmemory/llm-wiki-compiler](https://github.com/atomicmemory/llm-wiki-compiler) | unknown | 2026-04-16T19:53:16Z | TypeScript | CLI | 7 | 22 | 8 | 8 |
 | [FlorianBruniaux/claude-code-ultimate-guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide) | unknown | 2026-04-16T19:04:32Z | TypeScript | CLI | 20 | 4 | 0 | 0 |
@@ -169,15 +160,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [letta-ai/claude-subconscious](https://github.com/letta-ai/claude-subconscious) | unknown | 2026-04-16T00:13:11Z | TypeScript | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [lucasastorian/llmwiki](https://github.com/lucasastorian/llmwiki) | unknown | 2026-04-15T21:48:54Z | TypeScript | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [snipeship/ccflare](https://github.com/snipeship/ccflare) | unknown | 2026-04-15T16:27:34Z | TypeScript | Unknown | 0 | 4 | 0 | 0 |
-| [sgcarstrends/sgcarstrends](https://github.com/sgcarstrends/sgcarstrends) | unknown | 2026-04-15T13:15:05Z | TypeScript | Infrastructure/tooling | 9 | 30 | 0 | 0 |
 | [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | unknown | 2026-04-15T10:33:52Z | TypeScript | Infrastructure/tooling | 8 | 26 | 8 | 8 |
-| [lobehub/lobe-lint](https://github.com/lobehub/lobe-lint) | unknown | 2026-04-15T10:31:46Z | TypeScript | Infrastructure/tooling | 7 | 20 | 0 | 0 |
 | [microsoft/playwright-cli](https://github.com/microsoft/playwright-cli) | unknown | 2026-04-14T19:03:50Z | TypeScript | CLI | 2 | 7 | 2 | 2 |
 | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | unknown | 2026-04-14T16:58:21Z | TypeScript | Infrastructure/tooling | 1 | 3 | 0 | 0 |
 | [Owloops/claude-powerline](https://github.com/Owloops/claude-powerline) | unknown | 2026-04-14T15:21:51Z | TypeScript | CLI | 4 | 18 | 0 | 0 |
-| [dreamiurg/mountaineers-mcp](https://github.com/dreamiurg/mountaineers-mcp) | unknown | 2026-04-13T22:03:11Z | TypeScript | Infrastructure/tooling | 9 | 16 | 9 | 9 |
 | [evmts/tevm-monorepo](https://github.com/evmts/tevm-monorepo) | unknown | 2026-04-13T21:33:34Z | TypeScript | Infrastructure/tooling | 5 | 22 | 0 | 0 |
 | [googleapis/release-please](https://github.com/googleapis/release-please) | unknown | 2026-04-13T20:59:26Z | TypeScript | Infrastructure/tooling | 0 | 60 | 0 | 0 |
 | [badlogic/pi-share-hf](https://github.com/badlogic/pi-share-hf) | unknown | 2026-04-13T18:03:26Z | TypeScript | Model/data | 0 | 4 | 0 | 0 |
-| [dreamiurg/mountaineers-assistant](https://github.com/dreamiurg/mountaineers-assistant) | unknown | 2026-04-13T16:48:33Z | TypeScript | Infrastructure/tooling | 4 | 34 | 4 | 4 |
-| [vincent-k2026/codachi](https://github.com/vincent-k2026/codachi) | unknown | 2026-04-13T02:28:54Z | TypeScript | CLI | 7 | 6 | 7 | 7 |

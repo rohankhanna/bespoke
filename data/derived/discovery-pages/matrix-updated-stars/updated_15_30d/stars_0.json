@@ -1,0 +1,23 @@
+{
+  "counts": {
+    "components": 35,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 6,
+    "terms": 25
+  },
+  "facet_version": 1,
+  "filters": {
+    "star_bucket": "stars_0",
+    "updated_bucket": "updated_15_30d"
+  },
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "repo_ids": [
+    "adammes/voyanode",
+    "b2agi/exist-is-charter_kr",
+    "neuroverseos/negotiator",
+    "nibir1/vaultsim",
+    "sujithpvarghese/bedrock-agent-core-operations-hub",
+    "sujithpvarghese/bedrock-full-reconciliation"
+  ]
+}

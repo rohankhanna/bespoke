@@ -576,14 +576,18 @@
       "size": 1920
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:01.790552+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Chrome extension that surfaces Mountaineers activity insights directly in the browser. Install from Chrome Web Store.",
+    "fork": false,
     "full_name": "dreamiurg/mountaineers-assistant",
     "html_url": "https://github.com/dreamiurg/mountaineers-assistant",
     "language": "TypeScript",
     "pushed_at": "2026-04-13T16:48:33Z",
+    "stargazers_count": 3,
     "topics": [],
     "updated_at": "2026-02-09T17:17:17Z"
   },

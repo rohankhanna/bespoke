@@ -428,14 +428,18 @@
       "size": 472
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:11.766602+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "\ud83d\udce6 Logo assets, favicons, webfonts for LobeHub",
+    "fork": false,
     "full_name": "lobehub/lobe-assets",
     "html_url": "https://github.com/lobehub/lobe-assets",
     "language": "CSS",
     "pushed_at": "2025-09-25T10:01:12Z",
+    "stargazers_count": 28,
     "topics": [
       "assets",
       "favicons",

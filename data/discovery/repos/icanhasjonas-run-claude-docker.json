@@ -191,14 +191,18 @@
       "size": 20016
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:12.581479+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Run claude code in somewhat safe and isolated yolo mode",
+    "fork": false,
     "full_name": "icanhasjonas/run-claude-docker",
     "html_url": "https://github.com/icanhasjonas/run-claude-docker",
     "language": "Shell",
     "pushed_at": "2025-08-14T21:01:05Z",
+    "stargazers_count": 79,
     "topics": [
       "claude",
       "claude-code",

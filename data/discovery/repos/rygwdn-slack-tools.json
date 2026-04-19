@@ -376,14 +376,18 @@
       "size": 723
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:00.979758+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": null,
+    "fork": false,
     "full_name": "rygwdn/slack-tools",
     "html_url": "https://github.com/rygwdn/slack-tools",
     "language": "TypeScript",
     "pushed_at": "2025-08-19T03:16:08Z",
+    "stargazers_count": 22,
     "topics": [],
     "updated_at": "2026-01-16T10:39:58Z"
   },

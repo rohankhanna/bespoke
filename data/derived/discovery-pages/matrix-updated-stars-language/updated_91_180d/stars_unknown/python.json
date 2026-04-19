@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 51,
-    "concepts": 30,
-    "observations": 30,
-    "repos": 9,
-    "terms": 45
+    "components": 14,
+    "concepts": 18,
+    "observations": 18,
+    "repos": 3,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,10 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
-    "aRustyDev/pre-commit-hooks",
     "BeehiveInnovations/pal-mcp-server",
-    "hluaguo/learn-faster-kit",
     "LoRexxar/Kunlun-M",
-    "marcindulak/stt-mcp-server-linux",
-    "okuvshynov/cubestat",
-    "protectai/llm-guard",
-    "tahv/typos-gitlab-code-quality",
-    "Wirasm/dylan"
+    "protectai/llm-guard"
   ]
 }

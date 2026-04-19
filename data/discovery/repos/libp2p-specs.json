@@ -56,14 +56,18 @@
       "size": 244
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:23.554346+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Technical specifications for the libp2p networking stack",
+    "fork": false,
     "full_name": "libp2p/specs",
     "html_url": "https://github.com/libp2p/specs",
     "language": null,
     "pushed_at": "2026-04-15T17:38:36Z",
+    "stargazers_count": 1764,
     "topics": [],
     "updated_at": "2026-04-12T15:22:54Z"
   },

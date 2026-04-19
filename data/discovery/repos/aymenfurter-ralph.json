@@ -297,14 +297,18 @@
       "size": 824
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:12.933099+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Ralph for GitHub Copilot",
+    "fork": false,
     "full_name": "aymenfurter/ralph",
     "html_url": "https://github.com/aymenfurter/ralph",
     "language": "TypeScript",
     "pushed_at": "2026-02-27T08:01:38Z",
+    "stargazers_count": 103,
     "topics": [],
     "updated_at": "2026-04-04T03:54:19Z"
   },

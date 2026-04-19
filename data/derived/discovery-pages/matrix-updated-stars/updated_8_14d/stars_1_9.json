@@ -1,0 +1,26 @@
+{
+  "counts": {
+    "components": 21,
+    "concepts": 13,
+    "observations": 13,
+    "repos": 9,
+    "terms": 13
+  },
+  "facet_version": 1,
+  "filters": {
+    "star_bucket": "stars_1_9",
+    "updated_bucket": "updated_8_14d"
+  },
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "repo_ids": [
+    "1sh1ro/liangxi-skills",
+    "aar0npb/curator-skill",
+    "abraxas-365/claudio-codex",
+    "cdeust/cortex-cowork",
+    "danielrosehill/agent-junction",
+    "dp111/6502timing",
+    "marcindulak/learning-api-styles-gen-ai-experiments",
+    "marcindulak/ralph-wiggum-bdd",
+    "piqrypt/aiss-standard"
+  ]
+}

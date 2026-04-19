@@ -238,14 +238,18 @@
       "size": 1354
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:01.628258+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Generate GitLab Code Quality report from typos output",
+    "fork": false,
     "full_name": "tahv/typos-gitlab-code-quality",
     "html_url": "https://github.com/tahv/typos-gitlab-code-quality",
     "language": "Python",
     "pushed_at": "2025-12-10T12:08:30Z",
+    "stargazers_count": 2,
     "topics": [
       "codequality",
       "gitlab",

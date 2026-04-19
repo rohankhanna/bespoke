@@ -207,14 +207,18 @@
       "size": 7595
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:24.384232+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": null,
+    "fork": false,
     "full_name": "tianrking/weixin-agent-rs",
     "html_url": "https://github.com/tianrking/weixin-agent-rs",
     "language": "Rust",
     "pushed_at": "2026-04-14T03:39:18Z",
+    "stargazers_count": 69,
     "topics": [],
     "updated_at": "2026-04-13T01:05:25Z"
   },

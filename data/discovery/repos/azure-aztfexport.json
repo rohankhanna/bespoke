@@ -205,14 +205,18 @@
       "size": 976
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:36.600943+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A tool to bring existing Azure resources under Terraform's management",
-    "full_name": "Azure/aztfexport",
+    "fork": false,
+    "full_name": "azure/aztfexport",
     "html_url": "https://github.com/Azure/aztfexport",
     "language": "Go",
     "pushed_at": "2026-04-02T01:25:07Z",
+    "stargazers_count": 1885,
     "topics": [
       "azure",
       "devops",

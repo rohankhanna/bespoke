@@ -426,16 +426,20 @@
       "size": 611
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:35.404755+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "just-prompt is an MCP server that provides a unified interface to top LLM providers (OpenAI, Anthropic, Google Gemini, Groq, DeepSeek, and Ollama)",
+    "fork": false,
     "full_name": "disler/just-prompt",
     "html_url": "https://github.com/disler/just-prompt",
     "language": "Python",
     "pushed_at": "2025-08-10T19:05:53Z",
+    "stargazers_count": 722,
     "topics": [],
-    "updated_at": "2026-04-16T14:40:47Z"
+    "updated_at": "2026-04-18T21:27:02Z"
   },
   "repo_links": [
     {

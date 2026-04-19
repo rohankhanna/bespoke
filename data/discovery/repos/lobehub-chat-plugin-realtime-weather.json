@@ -592,14 +592,18 @@
       "size": 459
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:51:58.808945+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83e\udde9 / \ud83c\udf08 RealtimeWeather - This plugin provides practical weather information by obtaining real-time weather data and can automatically update based on the user's location.",
+    "fork": false,
     "full_name": "lobehub/chat-plugin-realtime-weather",
     "html_url": "https://github.com/lobehub/chat-plugin-realtime-weather",
     "language": "TypeScript",
     "pushed_at": "2023-12-15T15:00:45Z",
+    "stargazers_count": 17,
     "topics": [
       "ai",
       "chatgpt",

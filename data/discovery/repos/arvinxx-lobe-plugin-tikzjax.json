@@ -345,14 +345,18 @@
       "size": 1878
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:51:59.131229+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Convert LaTeX TikZ code into SVG images for crisp, scalable mathematical diagrams and visualizations.",
+    "fork": false,
     "full_name": "arvinxx/lobe-plugin-tikzjax",
     "html_url": "https://github.com/arvinxx/lobe-plugin-tikzjax",
     "language": "TypeScript",
     "pushed_at": "2024-01-14T13:35:55Z",
+    "stargazers_count": 7,
     "topics": [],
     "updated_at": "2025-10-07T09:11:36Z"
   },

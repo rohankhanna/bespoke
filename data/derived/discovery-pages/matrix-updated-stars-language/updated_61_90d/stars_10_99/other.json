@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 10,
+    "concepts": 2,
+    "observations": 2,
+    "repos": 1,
+    "terms": 2
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "other",
+    "star_bucket": "stars_10_99",
+    "updated_bucket": "updated_61_90d"
+  },
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "repo_ids": [
+    "asg017/sqlite-hello"
+  ]
+}

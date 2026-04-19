@@ -155,14 +155,18 @@
       "size": 2218
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:03.628163+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Horizon chart for CPU/GPU/Neural Engine utilization monitoring. Supports Apple M1-M4, Nvidia GPUs, AMD GPUs",
+    "fork": false,
     "full_name": "okuvshynov/cubestat",
     "html_url": "https://github.com/okuvshynov/cubestat",
     "language": "Python",
     "pushed_at": "2025-12-30T00:23:38Z",
+    "stargazers_count": 27,
     "topics": [
       "apple-silicon",
       "command-line-tool",

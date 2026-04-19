@@ -71,14 +71,18 @@
       "size": 1455
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:31.098479+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Displayed width of Unicode characters and strings according to UAX#11 rules.",
+    "fork": false,
     "full_name": "unicode-rs/unicode-width",
     "html_url": "https://github.com/unicode-rs/unicode-width",
     "language": "Rust",
     "pushed_at": "2026-02-19T16:40:05Z",
+    "stargazers_count": 298,
     "topics": [],
     "updated_at": "2026-04-15T17:46:13Z"
   },

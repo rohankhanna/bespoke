@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 35,
-    "concepts": 16,
-    "observations": 16,
-    "repos": 7,
-    "terms": 19
+    "components": 7,
+    "concepts": 4,
+    "observations": 4,
+    "repos": 3,
+    "terms": 7
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,8 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
-    "asg017/sqlite-html",
-    "asg017/sqlite-http",
-    "Brads3290/cclogviewer",
-    "bytegust/spm",
     "DarthSim/hivemind",
     "DarthSim/overmind",
     "opencode-ai/opencode"

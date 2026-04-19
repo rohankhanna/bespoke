@@ -12,16 +12,20 @@
       "size": 3393
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:37.802198+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Training API and CLI",
+    "fork": false,
     "full_name": "thinking-machines-lab/tinker",
     "html_url": "https://github.com/thinking-machines-lab/tinker",
     "language": "Python",
     "pushed_at": "2026-04-17T00:45:04Z",
+    "stargazers_count": 409,
     "topics": [],
-    "updated_at": "2026-04-17T00:45:10Z"
+    "updated_at": "2026-04-18T21:59:14Z"
   },
   "repo_links": [],
   "terms": []

@@ -8,14 +8,18 @@
       "size": 6698
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:51:59.654827+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": null,
+    "fork": false,
     "full_name": "ddisisto/si",
     "html_url": "https://github.com/ddisisto/si",
     "language": "TypeScript",
     "pushed_at": "2025-05-20T01:27:58Z",
+    "stargazers_count": 3,
     "topics": [],
     "updated_at": "2025-11-29T07:21:55Z"
   },

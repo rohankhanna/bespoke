@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 10,
+    "concepts": 5,
+    "observations": 5,
+    "repos": 2,
+    "terms": 10
+  },
+  "facet_version": 1,
+  "filters": {
+    "star_bucket": "stars_1000_9999",
+    "updated_bucket": "updated_61_90d"
+  },
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "repo_ids": [
+    "parruda/swarm",
+    "touchlab/droidconkotlin"
+  ]
+}

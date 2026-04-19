@@ -45,14 +45,18 @@
       "size": 209
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:08.796261+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "VoyaNode: An Agentic RAG Travel Advisor powered by AWS Bedrock (Claude 3.5) and OpenSearch Serverless for high-performance, context-aware document insights.",
-    "full_name": "AdamMes/voyanode",
+    "fork": false,
+    "full_name": "adammes/voyanode",
     "html_url": "https://github.com/AdamMes/voyanode",
     "language": "Python",
     "pushed_at": "2026-03-25T19:51:24Z",
+    "stargazers_count": 0,
     "topics": [
       "agentic-rag",
       "ai",

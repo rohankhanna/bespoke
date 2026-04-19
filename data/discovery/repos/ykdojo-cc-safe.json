@@ -12,14 +12,18 @@
       "size": 541
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:36.103454+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Security scanner for Claude Code settings files. Scans for dangerous patterns in your approved commands that could compromise your host machine. You can run it manually or ask Claude Code to run it with npx cc-safe .",
+    "fork": false,
     "full_name": "ykdojo/cc-safe",
     "html_url": "https://github.com/ykdojo/cc-safe",
     "language": "JavaScript",
     "pushed_at": "2025-12-10T01:16:28Z",
+    "stargazers_count": 51,
     "topics": [],
     "updated_at": "2026-04-16T16:21:00Z"
   },

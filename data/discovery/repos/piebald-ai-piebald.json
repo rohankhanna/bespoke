@@ -16,14 +16,18 @@
       "size": 97
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:14.638295+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": true,
     "default_branch": "master",
     "description": null,
-    "full_name": "Piebald-AI/piebald",
+    "fork": false,
+    "full_name": "piebald-ai/piebald",
     "html_url": "https://github.com/Piebald-AI/piebald",
     "language": null,
     "pushed_at": "2026-04-07T14:19:22Z",
+    "stargazers_count": 0,
     "topics": [],
     "updated_at": "2026-04-07T14:19:38Z"
   },

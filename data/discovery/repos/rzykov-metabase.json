@@ -4484,14 +4484,18 @@
       "size": 534
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:51:57.822824+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "The simplest, fastest way to get business intelligence and analytics to everyone in your company :yum:",
+    "fork": true,
     "full_name": "rzykov/metabase",
     "html_url": "https://github.com/rzykov/metabase",
     "language": "Clojure",
     "pushed_at": "2025-06-27T11:21:50Z",
+    "stargazers_count": 5,
     "topics": [],
     "updated_at": "2025-06-30T09:04:57Z"
   },

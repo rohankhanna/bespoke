@@ -386,14 +386,18 @@
       "size": 1384
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:25.517189+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Lightweight agent orchestration dev tool that lives in your repo",
+    "fork": false,
     "full_name": "sudocode-ai/sudocode",
     "html_url": "https://github.com/sudocode-ai/sudocode",
     "language": "TypeScript",
     "pushed_at": "2026-03-18T23:20:38Z",
+    "stargazers_count": 272,
     "topics": [
       "agents",
       "ai",
@@ -408,7 +412,7 @@
       "vibe-engineering",
       "workflows"
     ],
-    "updated_at": "2026-04-13T18:43:35Z"
+    "updated_at": "2026-04-18T19:33:51Z"
   },
   "repo_links": [
     {

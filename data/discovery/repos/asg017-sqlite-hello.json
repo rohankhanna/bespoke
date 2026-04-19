@@ -186,14 +186,18 @@
       "size": 684
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:01.941871+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": null,
+    "fork": false,
     "full_name": "asg017/sqlite-hello",
     "html_url": "https://github.com/asg017/sqlite-hello",
     "language": "Elixir",
     "pushed_at": "2026-02-13T17:44:15Z",
+    "stargazers_count": 10,
     "topics": [],
     "updated_at": "2026-02-13T17:44:19Z"
   },

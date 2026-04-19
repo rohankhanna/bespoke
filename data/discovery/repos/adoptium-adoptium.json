@@ -44,14 +44,18 @@
       "size": 6213
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:15.642246+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": null,
+    "fork": false,
     "full_name": "adoptium/adoptium",
     "html_url": "https://github.com/adoptium/adoptium",
     "language": null,
     "pushed_at": "2026-04-08T15:17:42Z",
+    "stargazers_count": 183,
     "topics": [
       "adoptium",
       "aqavit",

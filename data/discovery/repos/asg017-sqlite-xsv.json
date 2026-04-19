@@ -232,14 +232,18 @@
       "size": 931
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:14.334391+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "the fastest CSV SQLite extension, written in Rust",
+    "fork": false,
     "full_name": "asg017/sqlite-xsv",
     "html_url": "https://github.com/asg017/sqlite-xsv",
     "language": "Rust",
     "pushed_at": "2025-02-06T03:04:08Z",
+    "stargazers_count": 143,
     "topics": [
       "sqlite",
       "sqlite-extension"

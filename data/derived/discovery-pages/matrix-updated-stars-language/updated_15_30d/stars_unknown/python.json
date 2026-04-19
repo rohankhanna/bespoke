@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 41,
-    "concepts": 13,
-    "observations": 13,
-    "repos": 14,
-    "terms": 31
+    "components": 29,
+    "concepts": 3,
+    "observations": 3,
+    "repos": 8,
+    "terms": 20
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,12 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
-    "AdamMes/voyanode",
     "akin-ozer/cc-devops-skills",
-    "collinear-ai/yc-bench",
-    "danielrosehill/Claude-Slash-Commands",
-    "danielrosehill/Index",
     "Jeffallan/claude-skills",
     "karpathy/autoresearch",
     "ldayton/Dippy",
-    "ldayton/Parable",
-    "Nibir1/VaultSim",
     "NousResearch/tinker-atropos",
     "pchalasani/claude-code-tools",
     "SuperClaude-Org/SuperClaude_Framework",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 440,
-    "concepts": 30,
-    "observations": 31,
-    "repos": 5,
-    "terms": 38
+    "components": 426,
+    "concepts": 23,
+    "observations": 24,
+    "repos": 3,
+    "terms": 30
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,10 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
-    "jeremymailen/kotlinter-gradle",
     "metabase/metabase",
     "oven-sh/bun",
-    "pinterest/ktlint",
-    "tarikmanoar/tarikmanoar"
+    "pinterest/ktlint"
   ]
 }

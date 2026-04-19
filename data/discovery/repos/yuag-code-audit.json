@@ -8,14 +8,18 @@
       "size": 641
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:06.908939+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\u4ee3\u7801\u5ba1\u8ba1",
-    "full_name": "yuag/Code-audit",
+    "fork": false,
+    "full_name": "yuag/code-audit",
     "html_url": "https://github.com/yuag/Code-audit",
     "language": "Python",
     "pushed_at": "2024-06-06T01:04:12Z",
+    "stargazers_count": 122,
     "topics": [],
     "updated_at": "2026-03-17T04:16:29Z"
   },

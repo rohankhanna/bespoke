@@ -10,7 +10,7 @@
   "filters": {
     "language_bucket": "shell"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
     "Aedelon/claude-code-blueprint",
     "agent-sh/glidemq",
@@ -26,13 +26,13 @@
     "chinanf-boy/ripgrep-zh",
     "chrismytton/shoreman",
     "crate-ci/gh-install",
-    "danielrosehill/Bash-Alias-Manager-Claude",
-    "danielrosehill/Batch-ClaudeMD-Repo-Creator",
+    "danielrosehill/bash-alias-manager-claude",
+    "danielrosehill/batch-claudemd-repo-creator",
     "danielrosehill/Claude-Code-Linux-Desktop-Slash-Commands",
     "diet103/claude-code-infrastructure-showcase",
     "ericbuess/claude-code-docs",
-    "FlineDev/ContextKit",
-    "FlineDev/CustomStatusline",
+    "flinedev/contextkit",
+    "flinedev/customstatusline",
     "FlineDev/TandemKit",
     "frankbria/ralph-claude-code",
     "gerardtschanz/revenue-os",

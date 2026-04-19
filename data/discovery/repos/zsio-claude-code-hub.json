@@ -669,14 +669,18 @@
       "size": 3392
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:20.383643+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": true,
     "default_branch": "main",
     "description": "\u4e00\u4e2a\u73b0\u4ee3\u5316\u7684 Claude Code API \u4ee3\u7406\u670d\u52a1\uff0c\u63d0\u4f9b\u667a\u80fd\u8d1f\u8f7d\u5747\u8861\u3001\u7528\u6237\u7ba1\u7406\u548c\u4f7f\u7528\u7edf\u8ba1\u529f\u80fd\u3002",
+    "fork": false,
     "full_name": "zsio/claude-code-hub",
     "html_url": "https://github.com/zsio/claude-code-hub",
     "language": "TypeScript",
     "pushed_at": "2025-10-27T10:34:48Z",
+    "stargazers_count": 163,
     "topics": [
       "cc",
       "cc-proxy",

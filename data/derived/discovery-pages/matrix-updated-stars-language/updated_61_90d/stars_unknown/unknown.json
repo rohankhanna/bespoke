@@ -3,8 +3,8 @@
     "components": 2,
     "concepts": 0,
     "observations": 0,
-    "repos": 6,
-    "terms": 7
+    "repos": 2,
+    "terms": 1
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,9 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
-    "hesreallyhim/inkverse-fork",
     "panaversity/claude-code-agent-teams-exercises",
-    "Piebald-AI/.github",
-    "snwfdhmp/awesome-ralph",
-    "tony/claude-code-riper-5",
-    "withastro/.github"
+    "snwfdhmp/awesome-ralph"
   ]
 }

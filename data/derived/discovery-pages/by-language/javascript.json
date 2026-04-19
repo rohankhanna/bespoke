@@ -10,7 +10,7 @@
   "filters": {
     "language_bucket": "javascript"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
     "affaan-m/everything-claude-code",
     "agent-sh/agentsys",
@@ -21,10 +21,10 @@
     "bartolli/claude-code-typescript-hooks",
     "bmad-code-org/BMAD-METHOD",
     "ccdanpian/current-datetime",
-    "CommE2E/comm",
+    "comme2e/comm",
     "Dooy/chatgpt-web-midjourney-proxy",
     "eyaltoledano/claude-task-master",
-    "Fimeg/NetworkChronicles",
+    "fimeg/networkchronicles",
     "GarrettAlbright/Luacheck.novaextension",
     "gauravRathod674/custom-chatbot",
     "google/closure-compiler",

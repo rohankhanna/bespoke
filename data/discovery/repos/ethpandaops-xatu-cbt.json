@@ -261,14 +261,18 @@
       "size": 2313
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:13.835683+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": null,
+    "fork": false,
     "full_name": "ethpandaops/xatu-cbt",
     "html_url": "https://github.com/ethpandaops/xatu-cbt",
     "language": "Go",
     "pushed_at": "2026-04-07T00:59:51Z",
+    "stargazers_count": 0,
     "topics": [],
     "updated_at": "2026-04-07T00:59:58Z"
   },

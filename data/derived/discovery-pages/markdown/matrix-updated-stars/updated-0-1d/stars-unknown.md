@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · Unknown stars
 
-Generated at: `2026-04-19T06:58:55.872585+00:00`
+Generated at: `2026-04-19T07:52:38.223094+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 49
-- terms: 437
-- components: 1761
-- concepts: 387
-- observations: 388
+- repos: 42
+- terms: 391
+- components: 1589
+- concepts: 349
+- observations: 350
 
 ## Static behavior
 
@@ -65,15 +65,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | unknown | 2026-04-18T08:55:25Z | Rust | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [ryoppippi/ccusage](https://github.com/ryoppippi/ccusage) | unknown | 2026-04-18T08:49:45Z | TypeScript | CLI | 2 | 14 | 0 | 0 |
 | [hashintel/hash](https://github.com/hashintel/hash) | unknown | 2026-04-18T08:36:12Z | Rust | Infrastructure/tooling | 13 | 19 | 0 | 0 |
-| [OverseedAI/viwo](https://github.com/OverseedAI/viwo) | unknown | 2026-04-18T08:26:57Z | TypeScript | Infrastructure/tooling | 4 | 20 | 0 | 0 |
 | [metabase/metabase](https://github.com/metabase/metabase) | unknown | 2026-04-18T08:02:55Z | Other | Infrastructure/tooling | 7 | 397 | 0 | 0 |
 | [Peergos/web-ui](https://github.com/Peergos/web-ui) | unknown | 2026-04-18T07:56:31Z | JavaScript | Infrastructure/tooling | 7 | 13 | 0 | 0 |
-| [vllm-project/vllm](https://github.com/vllm-project/vllm) | unknown | 2026-04-18T07:48:55Z | Python | Infrastructure/tooling | 20 | 7 | 20 | 20 |
-| [op7418/CodePilot](https://github.com/op7418/CodePilot) | unknown | 2026-04-18T07:32:14Z | TypeScript | CLI | 6 | 82 | 6 | 6 |
-| [tarikmanoar/tarikmanoar](https://github.com/tarikmanoar/tarikmanoar) | unknown | 2026-04-18T07:13:52Z | Other | Infrastructure/tooling | 6 | 9 | 7 | 7 |
-| [vibe-log/vibe-log-cli](https://github.com/vibe-log/vibe-log-cli) | unknown | 2026-04-18T07:08:05Z | TypeScript | CLI | 3 | 37 | 0 | 0 |
-| [moby/moby](https://github.com/moby/moby) | unknown | 2026-04-18T07:02:24Z | Go | Infrastructure/tooling | 5 | 12 | 5 | 5 |
-| [jeremymailen/kotlinter-gradle](https://github.com/jeremymailen/kotlinter-gradle) | unknown | 2026-04-18T07:00:43Z | Other | Infrastructure/tooling | 2 | 5 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -119,12 +112,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw) | unknown | 2026-04-18T08:55:25Z | Rust | Infrastructure/tooling | 8 | 10 | 8 | 8 |
 | [ryoppippi/ccusage](https://github.com/ryoppippi/ccusage) | unknown | 2026-04-18T08:49:45Z | TypeScript | CLI | 2 | 14 | 0 | 0 |
 | [hashintel/hash](https://github.com/hashintel/hash) | unknown | 2026-04-18T08:36:12Z | Rust | Infrastructure/tooling | 13 | 19 | 0 | 0 |
-| [OverseedAI/viwo](https://github.com/OverseedAI/viwo) | unknown | 2026-04-18T08:26:57Z | TypeScript | Infrastructure/tooling | 4 | 20 | 0 | 0 |
 | [metabase/metabase](https://github.com/metabase/metabase) | unknown | 2026-04-18T08:02:55Z | Other | Infrastructure/tooling | 7 | 397 | 0 | 0 |
 | [Peergos/web-ui](https://github.com/Peergos/web-ui) | unknown | 2026-04-18T07:56:31Z | JavaScript | Infrastructure/tooling | 7 | 13 | 0 | 0 |
-| [vllm-project/vllm](https://github.com/vllm-project/vllm) | unknown | 2026-04-18T07:48:55Z | Python | Infrastructure/tooling | 20 | 7 | 20 | 20 |
-| [op7418/CodePilot](https://github.com/op7418/CodePilot) | unknown | 2026-04-18T07:32:14Z | TypeScript | CLI | 6 | 82 | 6 | 6 |
-| [tarikmanoar/tarikmanoar](https://github.com/tarikmanoar/tarikmanoar) | unknown | 2026-04-18T07:13:52Z | Other | Infrastructure/tooling | 6 | 9 | 7 | 7 |
-| [vibe-log/vibe-log-cli](https://github.com/vibe-log/vibe-log-cli) | unknown | 2026-04-18T07:08:05Z | TypeScript | CLI | 3 | 37 | 0 | 0 |
-| [moby/moby](https://github.com/moby/moby) | unknown | 2026-04-18T07:02:24Z | Go | Infrastructure/tooling | 5 | 12 | 5 | 5 |
-| [jeremymailen/kotlinter-gradle](https://github.com/jeremymailen/kotlinter-gradle) | unknown | 2026-04-18T07:00:43Z | Other | Infrastructure/tooling | 2 | 5 | 0 | 0 |

@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · Unknown stars · Go
 
-Generated at: `2026-04-19T06:58:55.872585+00:00`
+Generated at: `2026-04-19T07:52:38.223094+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 4
-- terms: 28
-- components: 48
-- concepts: 22
-- observations: 22
+- repos: 3
+- terms: 23
+- components: 36
+- concepts: 17
+- observations: 17
 
 ## Static behavior
 
@@ -29,7 +29,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [databus23/helm-diff](https://github.com/databus23/helm-diff) | unknown | 2026-04-18T12:41:49Z | Go | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) | unknown | 2026-04-18T09:27:15Z | Go | CLI | 10 | 9 | 10 | 10 |
 | [larksuite/cli](https://github.com/larksuite/cli) | unknown | 2026-04-18T09:08:55Z | Go | CLI | 6 | 18 | 0 | 0 |
-| [moby/moby](https://github.com/moby/moby) | unknown | 2026-04-18T07:02:24Z | Go | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 
 ## Repos sorted by stars
 
@@ -38,4 +37,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [databus23/helm-diff](https://github.com/databus23/helm-diff) | unknown | 2026-04-18T12:41:49Z | Go | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) | unknown | 2026-04-18T09:27:15Z | Go | CLI | 10 | 9 | 10 | 10 |
 | [larksuite/cli](https://github.com/larksuite/cli) | unknown | 2026-04-18T09:08:55Z | Go | CLI | 6 | 18 | 0 | 0 |
-| [moby/moby](https://github.com/moby/moby) | unknown | 2026-04-18T07:02:24Z | Go | Infrastructure/tooling | 5 | 12 | 5 | 5 |

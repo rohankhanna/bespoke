@@ -1,0 +1,23 @@
+{
+  "counts": {
+    "components": 249,
+    "concepts": 20,
+    "observations": 20,
+    "repos": 5,
+    "terms": 24
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "typescript",
+    "star_bucket": "stars_100_999",
+    "updated_bucket": "updated_181d_plus"
+  },
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "repo_ids": [
+    "asg017/sqlite-ecosystem",
+    "connectai-e/midjourney-web",
+    "johnlindquist/claude-hooks",
+    "lobehub/lobe-vidol",
+    "possibilities/claude-composer"
+  ]
+}

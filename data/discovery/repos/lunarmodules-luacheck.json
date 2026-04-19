@@ -244,14 +244,18 @@
       "size": 322
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:27.094401+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": " A tool for linting and static analysis of Lua code. ",
+    "fork": true,
     "full_name": "lunarmodules/luacheck",
     "html_url": "https://github.com/lunarmodules/luacheck",
     "language": "Lua",
     "pushed_at": "2026-04-14T12:53:39Z",
+    "stargazers_count": 442,
     "topics": [
       "linting",
       "lua",

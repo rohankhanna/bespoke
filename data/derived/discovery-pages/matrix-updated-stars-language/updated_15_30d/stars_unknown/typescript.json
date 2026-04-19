@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 279,
-    "concepts": 46,
-    "observations": 46,
-    "repos": 11,
-    "terms": 55
+    "components": 119,
+    "concepts": 21,
+    "observations": 21,
+    "repos": 4,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,11 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
     "AndyMik90/Aperant",
-    "automazeio/proof",
-    "carlrannaberg/claudekit",
     "glittercowboy/taches-cc-resources",
-    "lobehub/lobe-midjourney-webui",
-    "NeuroverseOS/negotiator",
     "ruvnet/agentic-flow",
-    "shareAI-lab/kode-agent-sdk",
-    "slopus/slopus.github.io",
-    "sujithpvarghese/bedrock-agent-core-operations-hub",
-    "sujithpvarghese/bedrock-full-reconciliation"
+    "shareAI-lab/kode-agent-sdk"
   ]
 }

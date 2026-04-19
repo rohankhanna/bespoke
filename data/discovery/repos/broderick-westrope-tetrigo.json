@@ -189,14 +189,18 @@
       "size": 646
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:36.753582+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Play Tetris in your terminal.",
-    "full_name": "Broderick-Westrope/tetrigo",
+    "fork": false,
+    "full_name": "broderick-westrope/tetrigo",
     "html_url": "https://github.com/Broderick-Westrope/tetrigo",
     "language": "Go",
     "pushed_at": "2026-04-05T21:51:57Z",
+    "stargazers_count": 653,
     "topics": [
       "bubbletea",
       "cli",
@@ -206,7 +210,7 @@
       "tetris",
       "tui"
     ],
-    "updated_at": "2026-04-16T19:05:10Z"
+    "updated_at": "2026-04-19T02:02:50Z"
   },
   "repo_links": [
     {

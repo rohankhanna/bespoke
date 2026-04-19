@@ -176,14 +176,18 @@
       "size": 550
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:11.592697+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Enhanced Claude Code MCP server with orchestration capabilities, reliability improvements, and self-contained execution patterns",
+    "fork": false,
     "full_name": "grahama1970/claude-code-mcp-enhanced",
     "html_url": "https://github.com/grahama1970/claude-code-mcp-enhanced",
     "language": "JavaScript",
     "pushed_at": "2025-05-20T18:24:43Z",
+    "stargazers_count": 108,
     "topics": [],
     "updated_at": "2026-04-02T23:34:12Z"
   },

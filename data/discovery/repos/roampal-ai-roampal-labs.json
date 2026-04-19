@@ -132,14 +132,18 @@
       "size": 462
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:26.194056+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Research benchmark: conversational memory learning on a corrected LoCoMo dataset",
+    "fork": false,
     "full_name": "roampal-ai/roampal-labs",
     "html_url": "https://github.com/roampal-ai/roampal-labs",
     "language": "Python",
     "pushed_at": "2026-04-13T23:07:24Z",
+    "stargazers_count": 0,
     "topics": [
       "adversarial-robustness",
       "ai-agents",

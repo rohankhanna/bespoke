@@ -61,14 +61,18 @@
       "size": 714
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:03.139792+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Template engine for Go",
-    "full_name": "KarpelesLab/tpl",
+    "fork": false,
+    "full_name": "karpeleslab/tpl",
     "html_url": "https://github.com/KarpelesLab/tpl",
     "language": "Go",
     "pushed_at": "2026-01-18T06:25:41Z",
+    "stargazers_count": 4,
     "topics": [],
     "updated_at": "2026-02-24T08:38:20Z"
   },

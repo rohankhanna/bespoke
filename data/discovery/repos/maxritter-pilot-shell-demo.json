@@ -440,14 +440,18 @@
       "size": 1345
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:19.057844+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Demo: Full-Stack project built entirely by AI using Pilot Shell \u2014 zero manual code edits",
+    "fork": false,
     "full_name": "maxritter/pilot-shell-demo",
     "html_url": "https://github.com/maxritter/pilot-shell-demo",
     "language": "TypeScript",
     "pushed_at": "2026-03-18T07:07:10Z",
+    "stargazers_count": 7,
     "topics": [
       "anthropic-claude",
       "anthropic-claude-ai",

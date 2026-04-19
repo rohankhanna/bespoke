@@ -611,14 +611,18 @@
       "size": 460
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:04.540344+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83e\udde9 / \ud83d\udd78 WebsiteCrawler - This plugin automatically crawls the main content of a specified URL webpage and uses it as context input.",
+    "fork": false,
     "full_name": "lobehub/chat-plugin-web-crawler",
     "html_url": "https://github.com/lobehub/chat-plugin-web-crawler",
     "language": "HTML",
     "pushed_at": "2023-12-15T05:12:56Z",
+    "stargazers_count": 67,
     "topics": [
       "ai",
       "chatgpt",

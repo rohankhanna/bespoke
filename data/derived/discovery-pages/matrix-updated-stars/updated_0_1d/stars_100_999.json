@@ -1,18 +1,24 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 1,
-    "terms": 0
+    "components": 145,
+    "concepts": 28,
+    "observations": 28,
+    "repos": 7,
+    "terms": 43
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
-    "napi-rs/package-template"
+    "alfredolopez80/multi-agent-ralph-loop",
+    "elizaos/elizaos.github.io",
+    "lobehub/lobe-chat-plugins",
+    "napi-rs/package-template",
+    "open-telemetry/opentelemetry-collector-releases",
+    "stevemolitor/claude-code.el",
+    "stevemolitor/monet"
   ]
 }

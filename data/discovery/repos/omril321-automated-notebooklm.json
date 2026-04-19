@@ -288,14 +288,18 @@
       "size": 1390
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:18.402157+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Automation around NotebookLM, with a monday.com board integration",
+    "fork": false,
     "full_name": "omril321/automated-notebooklm",
     "html_url": "https://github.com/omril321/automated-notebooklm",
     "language": "TypeScript",
     "pushed_at": "2026-02-07T09:45:17Z",
+    "stargazers_count": 15,
     "topics": [],
     "updated_at": "2026-04-10T16:59:49Z"
   },

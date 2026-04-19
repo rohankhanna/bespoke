@@ -840,14 +840,18 @@
       "size": 460
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:12.405347+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "\ud83d\udcca Lobe Charts - React modern charts components built on recharts",
+    "fork": false,
     "full_name": "lobehub/lobe-charts",
     "html_url": "https://github.com/lobehub/lobe-charts",
     "language": "TypeScript",
     "pushed_at": "2026-03-02T12:30:12Z",
+    "stargazers_count": 101,
     "topics": [
       "charts",
       "graph",

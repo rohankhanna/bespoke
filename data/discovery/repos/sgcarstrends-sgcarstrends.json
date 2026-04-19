@@ -813,14 +813,18 @@
       "size": 1849
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:30.577049+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Monorepo for SG Cars Trends backend services",
+    "fork": false,
     "full_name": "sgcarstrends/sgcarstrends",
     "html_url": "https://github.com/sgcarstrends/sgcarstrends",
     "language": "TypeScript",
     "pushed_at": "2026-04-15T13:15:05Z",
+    "stargazers_count": 20,
     "topics": [
       "api",
       "aws-lambda",

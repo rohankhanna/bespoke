@@ -239,14 +239,18 @@
       "size": 4738
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:21.767518+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A framework for writing fast and performant SQLite extensions in Rust",
+    "fork": false,
     "full_name": "asg017/sqlite-loadable-rs",
     "html_url": "https://github.com/asg017/sqlite-loadable-rs",
     "language": "Rust",
     "pushed_at": "2025-05-02T17:29:00Z",
+    "stargazers_count": 402,
     "topics": [
       "rust-library",
       "sqlite",

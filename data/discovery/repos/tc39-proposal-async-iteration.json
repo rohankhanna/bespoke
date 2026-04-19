@@ -33,14 +33,18 @@
       "size": 488
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:06.387880+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": true,
     "default_branch": "master",
     "description": "Asynchronous iteration for JavaScript",
+    "fork": false,
     "full_name": "tc39/proposal-async-iteration",
     "html_url": "https://github.com/tc39/proposal-async-iteration",
     "language": "HTML",
     "pushed_at": "2021-09-22T09:09:49Z",
+    "stargazers_count": 860,
     "topics": [],
     "updated_at": "2026-03-14T03:49:22Z"
   },

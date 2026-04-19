@@ -417,14 +417,18 @@
       "size": 5857
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:11.275117+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "The Astro compiler. Written in Go. Distributed as WASM.",
+    "fork": false,
     "full_name": "withastro/compiler",
     "html_url": "https://github.com/withastro/compiler",
     "language": "Go",
     "pushed_at": "2026-03-16T14:49:05Z",
+    "stargazers_count": 646,
     "topics": [],
     "updated_at": "2026-04-01T22:55:07Z"
   },

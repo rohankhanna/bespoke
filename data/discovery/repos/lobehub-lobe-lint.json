@@ -535,14 +535,18 @@
       "size": 406
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:06.200050+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "\ud83d\udcd0 ESlint, Stylelint, Commitlint, Prettier, Remark, Semantic Release config for LobeHub",
+    "fork": false,
     "full_name": "lobehub/lobe-lint",
     "html_url": "https://github.com/lobehub/lobe-lint",
     "language": "TypeScript",
     "pushed_at": "2026-04-15T10:31:46Z",
+    "stargazers_count": 41,
     "topics": [
       "commitlint",
       "eslint",

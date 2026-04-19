@@ -1,18 +1,29 @@
 {
   "counts": {
-    "components": 29,
-    "concepts": 17,
-    "observations": 18,
-    "repos": 1,
-    "terms": 17
+    "components": 133,
+    "concepts": 24,
+    "observations": 25,
+    "repos": 12,
+    "terms": 54
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
-    "agents-squads/squads-cli"
+    "agents-squads/squads-cli",
+    "beyondcode/claude-hooks-sdk",
+    "cloudartisan/cloudartisan.github.io",
+    "dreamiurg/claude-mountaineering-skills",
+    "fgrehm/clotilde",
+    "flinedev/plankit",
+    "hagan/claudia-statusline",
+    "kubernetes/steering",
+    "lobehub/lobe-lint",
+    "sgcarstrends/sgcarstrends",
+    "tianrking/weixin-agent-rs",
+    "vaporif/parry-guard"
   ]
 }

@@ -3,14 +3,18 @@
   "edges": [],
   "fetched_at": "2026-04-18T11:24:35.644974+00:00",
   "fetched_files": [],
+  "metadata_refreshed_at": "2026-04-19T07:51:55.988730+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Java replacement for browserify",
+    "fork": false,
     "full_name": "ianopolous/jpack",
     "html_url": "https://github.com/ianopolous/jpack",
     "language": "JavaScript",
     "pushed_at": "2024-09-25T14:52:09Z",
+    "stargazers_count": 1,
     "topics": [],
     "updated_at": "2024-11-08T16:34:17Z"
   },

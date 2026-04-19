@@ -79,16 +79,20 @@
       "size": 7550
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:20.038936+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": null,
+    "fork": false,
     "full_name": "bartolli/claude-code-typescript-hooks",
     "html_url": "https://github.com/bartolli/claude-code-typescript-hooks",
     "language": "JavaScript",
     "pushed_at": "2025-08-26T17:11:20Z",
+    "stargazers_count": 175,
     "topics": [],
-    "updated_at": "2026-04-11T09:16:32Z"
+    "updated_at": "2026-04-19T05:04:23Z"
   },
   "repo_links": [],
   "terms": [

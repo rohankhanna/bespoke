@@ -16,14 +16,18 @@
       "size": 18708
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:05.978644+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "An opensource BBC Micro emulator for Win32 and Linux",
+    "fork": false,
     "full_name": "stardot/b-em",
     "html_url": "https://github.com/stardot/b-em",
     "language": "C",
     "pushed_at": "2026-02-06T19:23:49Z",
+    "stargazers_count": 132,
     "topics": [],
     "updated_at": "2026-03-12T14:26:27Z"
   },

@@ -663,14 +663,18 @@
       "size": 990
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:14.163874+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A SQLite extension for querying, manipulating, and creating HTML elements.",
+    "fork": false,
     "full_name": "asg017/sqlite-html",
     "html_url": "https://github.com/asg017/sqlite-html",
     "language": "Go",
     "pushed_at": "2023-08-06T01:24:57Z",
+    "stargazers_count": 397,
     "topics": [
       "sqlite",
       "sqlite-extension"

@@ -800,16 +800,20 @@
       "size": 39448
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:26.856263+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Claude Code Emacs integration",
+    "fork": false,
     "full_name": "stevemolitor/claude-code.el",
     "html_url": "https://github.com/stevemolitor/claude-code.el",
     "language": "Emacs Lisp",
-    "pushed_at": "2025-12-18T22:56:06Z",
+    "pushed_at": "2026-04-18T22:58:07Z",
+    "stargazers_count": 683,
     "topics": [],
-    "updated_at": "2026-04-14T12:54:43Z"
+    "updated_at": "2026-04-19T03:07:00Z"
   },
   "repo_links": [
     {

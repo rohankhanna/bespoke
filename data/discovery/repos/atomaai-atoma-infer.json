@@ -109,14 +109,18 @@
       "size": 2577
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:21.612840+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Fast serverless LLM inference, in Rust.",
-    "full_name": "AtomaAI/atoma-infer",
+    "fork": false,
+    "full_name": "atomaai/atoma-infer",
     "html_url": "https://github.com/AtomaAI/atoma-infer",
     "language": "Rust",
     "pushed_at": "2025-11-05T11:13:17Z",
+    "stargazers_count": 117,
     "topics": [],
     "updated_at": "2026-04-11T17:37:23Z"
   },

@@ -16,14 +16,18 @@
       "size": 5304
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:26.703442+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "The Official MongoDB Software Homebrew Tap",
+    "fork": false,
     "full_name": "mongodb/homebrew-brew",
     "html_url": "https://github.com/mongodb/homebrew-brew",
     "language": "Ruby",
     "pushed_at": "2026-04-16T22:50:40Z",
+    "stargazers_count": 954,
     "topics": [],
     "updated_at": "2026-04-14T11:56:12Z"
   },

@@ -192,14 +192,18 @@
       "size": 747
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:10.641315+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "An autonomous Agent-to-Agent (A2A) orchestration hub built with Strands SDK, Amazon Bedrock, and TypeScript. Features self-healing triage, episodic memory, and an LLM-as-Judge evaluation pipeline.",
+    "fork": false,
     "full_name": "sujithpvarghese/bedrock-agent-core-operations-hub",
     "html_url": "https://github.com/sujithpvarghese/bedrock-agent-core-operations-hub",
     "language": "TypeScript",
     "pushed_at": "2026-03-30T22:34:02Z",
+    "stargazers_count": 0,
     "topics": [
       "a2a",
       "amazon-bedrock",

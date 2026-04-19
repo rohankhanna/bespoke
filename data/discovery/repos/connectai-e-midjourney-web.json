@@ -796,14 +796,18 @@
       "size": 2527
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:27.668742+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "\ud83c\udf4e \u8ffd\u6c42\u6781\u81f4\u521b\u4f5c\u4f53\u9a8c Midjourney Web  | Supercharged Experience For  MidJourney On Web UI ",
-    "full_name": "ConnectAI-E/MidJourney-Web",
+    "fork": false,
+    "full_name": "connectai-e/midjourney-web",
     "html_url": "https://github.com/ConnectAI-E/MidJourney-Web",
     "language": "TypeScript",
     "pushed_at": "2024-01-20T09:00:31Z",
+    "stargazers_count": 371,
     "topics": [
       "connect-ai",
       "midjourney",
@@ -812,7 +816,7 @@
       "midjourney-ui",
       "midjourney-web"
     ],
-    "updated_at": "2026-04-14T16:52:59Z"
+    "updated_at": "2026-04-19T04:44:50Z"
   },
   "repo_links": [
     {

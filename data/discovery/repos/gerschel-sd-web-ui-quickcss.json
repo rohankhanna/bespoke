@@ -50,14 +50,18 @@
       "size": 962
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:00.837263+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": true,
     "default_branch": "master",
     "description": "I just setup a quick css apply using the style here https://github.com/AUTOMATIC1111/stable-diffusion-webui/discussions/5813 This is a tool for designers to worry more about designing their css, rather than worry about how to manage them for sd-web-ui",
-    "full_name": "Gerschel/sd-web-ui-quickcss",
+    "fork": false,
+    "full_name": "gerschel/sd-web-ui-quickcss",
     "html_url": "https://github.com/Gerschel/sd-web-ui-quickcss",
     "language": "CSS",
     "pushed_at": "2024-02-11T23:58:35Z",
+    "stargazers_count": 73,
     "topics": [],
     "updated_at": "2026-01-12T06:32:43Z"
   },

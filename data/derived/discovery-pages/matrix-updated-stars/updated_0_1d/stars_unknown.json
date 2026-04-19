@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1761,
-    "concepts": 387,
-    "observations": 388,
-    "repos": 49,
-    "terms": 437
+    "components": 1589,
+    "concepts": 349,
+    "observations": 350,
+    "repos": 42,
+    "terms": 391
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
     "agiletec-inc/airis-mcp-gateway",
     "arogozhnikov/einops",
@@ -27,7 +27,6 @@
     "ggml-org/llama.cpp",
     "hashintel/hash",
     "huggingface/transformers",
-    "jeremymailen/kotlinter-gradle",
     "langchain-ai/langchain",
     "larksuite/cli",
     "letta-ai/letta-code",
@@ -35,16 +34,13 @@
     "lobehub/lobe-editor",
     "lobehub/lobehub",
     "metabase/metabase",
-    "moby/moby",
     "multica-ai/multica",
     "nizos/tdd-guard",
     "nodejs/node",
     "NVIDIA/NemoClaw",
-    "op7418/CodePilot",
     "openai/codex",
     "oraios/serena",
     "oven-sh/bun",
-    "OverseedAI/viwo",
     "Peergos/web-ui",
     "pinterest/ktlint",
     "protocolbuffers/protobuf",
@@ -55,12 +51,9 @@
     "rust-lang/rust",
     "ryoppippi/ccusage",
     "sgl-project/sglang",
-    "tarikmanoar/tarikmanoar",
     "tekumara/typos-lsp",
     "tracel-ai/burn",
     "upstash/context7",
-    "vibe-log/vibe-log-cli",
-    "vllm-project/vllm",
     "zeroclaw-labs/zeroclaw"
   ]
 }

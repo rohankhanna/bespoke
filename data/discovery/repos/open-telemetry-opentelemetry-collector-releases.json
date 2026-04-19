@@ -752,14 +752,18 @@
       "size": 1507
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:32.982693+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "OpenTelemetry Collector Official Releases",
+    "fork": false,
     "full_name": "open-telemetry/opentelemetry-collector-releases",
     "html_url": "https://github.com/open-telemetry/opentelemetry-collector-releases",
     "language": "Go",
-    "pushed_at": "2026-04-18T03:08:07Z",
+    "pushed_at": "2026-04-19T03:09:09Z",
+    "stargazers_count": 463,
     "topics": [
       "open-telemetry",
       "opentelemetry"

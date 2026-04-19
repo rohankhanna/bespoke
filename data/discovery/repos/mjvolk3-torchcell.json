@@ -314,14 +314,18 @@
       "size": 1437
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:03.478856+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Datasets, transformations, and pretrained models for biological cellular systems. ",
-    "full_name": "Mjvolk3/torchcell",
+    "fork": false,
+    "full_name": "mjvolk3/torchcell",
     "html_url": "https://github.com/Mjvolk3/torchcell",
     "language": "Python",
     "pushed_at": "2026-01-27T17:12:36Z",
+    "stargazers_count": 1,
     "topics": [],
     "updated_at": "2026-02-24T08:38:29Z"
   },

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 63,
-    "concepts": 38,
-    "observations": 38,
-    "repos": 19,
-    "terms": 78
+    "components": 60,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 16,
+    "terms": 59
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
-    "agent-sh/glidemq",
     "AgriciDaniel/claude-cybersecurity",
-    "alfredolopez80/multi-agent-ralph-loop",
     "anthropics/claude-code",
     "Astro-Han/claude-pace",
     "cdeust/zetetic-team-subagents",
@@ -25,7 +23,6 @@
     "frankbria/ralph-claude-code",
     "gerardtschanz/revenue-os",
     "kubernetes/sig-release",
-    "marcindulak/ralph-wiggum-bdd",
     "obra/superpowers",
     "pyenv/pyenv",
     "rsmdt/the-startup",

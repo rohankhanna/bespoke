@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 77,
-    "concepts": 62,
-    "observations": 62,
-    "repos": 12,
-    "terms": 65
+    "components": 52,
+    "concepts": 40,
+    "observations": 40,
+    "repos": 8,
+    "terms": 43
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,15 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
     "agenmod/okr-skill",
     "Aider-AI/aider",
     "browser-use/benchmark",
-    "cdeust/Cortex-cowork",
-    "cdeust/cortex-know-when-to-stop-training-model",
     "cisco-ai-defense/skill-scanner",
     "Delgan/loguru",
     "getzep/zep",
     "GowayLee/cchooks",
-    "libp2p/test-plans",
-    "PiQrypt/aiss-standard",
     "therealXiaomanChu/ex-skill"
   ]
 }

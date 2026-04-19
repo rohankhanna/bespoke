@@ -372,14 +372,18 @@
       "size": 731
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:26.048419+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "MCP server for The Mountaineers (mountaineers.org) \u2014 search activities, courses, trip reports, and access member data",
+    "fork": false,
     "full_name": "dreamiurg/mountaineers-mcp",
     "html_url": "https://github.com/dreamiurg/mountaineers-mcp",
     "language": "TypeScript",
     "pushed_at": "2026-04-13T22:03:11Z",
+    "stargazers_count": 1,
     "topics": [
       "hiking",
       "mcp",

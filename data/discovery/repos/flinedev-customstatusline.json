@@ -8,14 +8,18 @@
       "size": 4710
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:05.592635+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A custom statusline for Claude Code that shows real-time usage monitoring.",
-    "full_name": "FlineDev/CustomStatusline",
+    "fork": false,
+    "full_name": "flinedev/customstatusline",
     "html_url": "https://github.com/FlineDev/CustomStatusline",
     "language": "Shell",
     "pushed_at": "2026-03-10T01:28:48Z",
+    "stargazers_count": 7,
     "topics": [],
     "updated_at": "2026-03-10T01:28:52Z"
   },

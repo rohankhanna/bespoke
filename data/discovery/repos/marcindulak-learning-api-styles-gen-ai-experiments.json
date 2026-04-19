@@ -41,14 +41,18 @@
       "size": 2704
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:18.905975+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Learning API Styles Book - Generative AI Experiments",
+    "fork": false,
     "full_name": "marcindulak/learning-api-styles-gen-ai-experiments",
     "html_url": "https://github.com/marcindulak/learning-api-styles-gen-ai-experiments",
     "language": "Dockerfile",
     "pushed_at": "2026-04-08T07:48:26Z",
+    "stargazers_count": 6,
     "topics": [],
     "updated_at": "2026-04-10T20:14:44Z"
   },

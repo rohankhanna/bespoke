@@ -852,14 +852,18 @@
       "size": 20912
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:23.059011+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A project around statusline.rs",
+    "fork": false,
     "full_name": "hagan/claudia-statusline",
     "html_url": "https://github.com/hagan/claudia-statusline",
     "language": "Rust",
     "pushed_at": "2026-04-16T18:30:39Z",
+    "stargazers_count": 23,
     "topics": [],
     "updated_at": "2026-04-12T10:53:13Z"
   },

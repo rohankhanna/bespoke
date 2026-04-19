@@ -46,14 +46,18 @@
       "size": 377
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:51:57.102117+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Creating pac man with cursor-tools",
+    "fork": false,
     "full_name": "eastlondoner/pac-man",
     "html_url": "https://github.com/eastlondoner/pac-man",
     "language": "TypeScript",
     "pushed_at": "2025-02-06T22:48:06Z",
+    "stargazers_count": 2,
     "topics": [],
     "updated_at": "2025-04-14T17:57:33Z"
   },

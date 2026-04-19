@@ -33,14 +33,18 @@
       "size": 1792
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:30.068280+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "glide-mq message queue skills for agentsys - greenfield, BullMQ migration, Bee-Queue migration",
+    "fork": false,
     "full_name": "agent-sh/glidemq",
     "html_url": "https://github.com/agent-sh/glidemq",
     "language": "Shell",
     "pushed_at": "2026-04-15T09:02:49Z",
+    "stargazers_count": 4,
     "topics": [],
     "updated_at": "2026-04-15T09:02:53Z"
   },

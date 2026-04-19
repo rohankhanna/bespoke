@@ -209,6 +209,7 @@
       "size": 59
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:51:56.783521+00:00",
   "related_repositories": [
     {
       "description": "  MoltenHub is a federated trust and messaging fabric for multi-agent systems, giving agents a   secure way to discover, connect, and communicate across teams, runtimes, and environments.",
@@ -674,12 +675,15 @@
     }
   ],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\u200bNeuralChat is an innovative platform enabling AI models to engage in dynamic, inter-model dialogues, facilitating collaborative problem-solving and knowledge exchange.\u200b",
-    "full_name": "genius-harry/Neural-Chat",
+    "fork": false,
+    "full_name": "genius-harry/neural-chat",
     "html_url": "https://github.com/genius-harry/Neural-Chat",
     "language": "Python",
     "pushed_at": "2026-02-07T02:32:44Z",
+    "stargazers_count": 2,
     "topics": [
       "agents",
       "claude",

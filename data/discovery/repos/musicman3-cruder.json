@@ -72,14 +72,18 @@
       "size": 11643
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:07.428644+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "The Cruder Project is a CRUD system for working with SQL databases based on the Query Builder principle and using PDO. ",
-    "full_name": "musicman3/Cruder",
+    "fork": false,
+    "full_name": "musicman3/cruder",
     "html_url": "https://github.com/musicman3/Cruder",
     "language": "PHP",
     "pushed_at": "2026-03-19T17:19:23Z",
+    "stargazers_count": 0,
     "topics": [
       "crud",
       "innodb",

@@ -497,14 +497,18 @@
       "size": 1052
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:37.983523+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": ":snake: :mag: GuardDog is a CLI tool to Identify malicious PyPI and npm packages",
-    "full_name": "DataDog/guarddog",
+    "fork": false,
+    "full_name": "datadog/guarddog",
     "html_url": "https://github.com/DataDog/guarddog",
     "language": "Python",
     "pushed_at": "2026-04-14T18:04:31Z",
+    "stargazers_count": 1062,
     "topics": [
       "malicious-packages",
       "npm",
@@ -514,7 +518,7 @@
       "python-security",
       "software-supply-chain-security"
     ],
-    "updated_at": "2026-04-17T01:18:26Z"
+    "updated_at": "2026-04-19T00:30:29Z"
   },
   "repo_links": [
     {

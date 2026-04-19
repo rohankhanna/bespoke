@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 266,
-    "concepts": 6,
-    "observations": 6,
-    "repos": 7,
-    "terms": 20
+    "components": 180,
+    "concepts": 3,
+    "observations": 3,
+    "repos": 5,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
     "buddingnewinsights/proxypal",
-    "danielrosehill/Agent-Junction",
-    "jerseycheese/Narraitor",
     "lobehub/lobe-icons",
     "opactorai/Claudable",
     "thx/resvg-js",

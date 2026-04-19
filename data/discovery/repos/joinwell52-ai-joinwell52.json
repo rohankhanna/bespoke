@@ -16,14 +16,18 @@
       "size": 6147
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:26.365824+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Build a 4-role AI team in Cursor IDE. PM+DEV+OPS+QA collaborate autonomously. 87 person-days in 17 days. Now a real product: CodeFlow",
-    "full_name": "joinwell52-AI/joinwell52",
+    "fork": false,
+    "full_name": "joinwell52-ai/joinwell52",
     "html_url": "https://github.com/joinwell52-AI/joinwell52",
     "language": "HTML",
     "pushed_at": "2026-04-14T02:12:31Z",
+    "stargazers_count": 2,
     "topics": [
       "ai-agent",
       "ai-collaboration",

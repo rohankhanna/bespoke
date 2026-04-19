@@ -1,0 +1,22 @@
+{
+  "counts": {
+    "components": 38,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 5,
+    "terms": 21
+  },
+  "facet_version": 1,
+  "filters": {
+    "star_bucket": "stars_1_9",
+    "updated_bucket": "updated_31_60d"
+  },
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "repo_ids": [
+    "flinedev/customstatusline",
+    "flinedev/recall",
+    "maxritter/pilot-shell-demo",
+    "neuroverseos/neuroverseos-openclaw-governance",
+    "tombelieber/claude-backup"
+  ]
+}

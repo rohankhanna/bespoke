@@ -77,14 +77,18 @@
       "size": 2858
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:07.974339+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Cross platform terminal library rust",
+    "fork": true,
     "full_name": "nornagon/crossterm",
     "html_url": "https://github.com/nornagon/crossterm",
     "language": null,
     "pushed_at": "2025-10-29T23:22:01Z",
+    "stargazers_count": 1,
     "topics": [],
     "updated_at": "2026-03-22T21:49:10Z"
   },

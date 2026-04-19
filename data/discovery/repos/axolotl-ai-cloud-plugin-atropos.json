@@ -73,14 +73,18 @@
       "size": 1715
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:25.872988+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Axolotl Plugin integrating with Nous Research's Atropos ",
+    "fork": false,
     "full_name": "axolotl-ai-cloud/plugin-atropos",
     "html_url": "https://github.com/axolotl-ai-cloud/plugin-atropos",
     "language": "Python",
     "pushed_at": "2025-07-17T21:04:16Z",
+    "stargazers_count": 15,
     "topics": [],
     "updated_at": "2026-04-13T21:02:14Z"
   },

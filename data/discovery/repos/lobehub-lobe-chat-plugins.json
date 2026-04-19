@@ -950,14 +950,18 @@
       "size": 312
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:37.490243+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83e\udde9 / \ud83c\udfea  Plugin Index - This is the plugin index for LobeChat. It accesses index.json from this repository to display a list of available plugins for LobeChat to the user.",
+    "fork": false,
     "full_name": "lobehub/lobe-chat-plugins",
     "html_url": "https://github.com/lobehub/lobe-chat-plugins",
     "language": "TypeScript",
-    "pushed_at": "2026-04-17T00:25:46Z",
+    "pushed_at": "2026-04-19T00:24:10Z",
+    "stargazers_count": 283,
     "topics": [
       "ai",
       "awesome",
@@ -968,7 +972,7 @@
       "lobehub",
       "openai"
     ],
-    "updated_at": "2026-04-17T00:25:50Z"
+    "updated_at": "2026-04-19T00:24:15Z"
   },
   "repo_links": [
     {

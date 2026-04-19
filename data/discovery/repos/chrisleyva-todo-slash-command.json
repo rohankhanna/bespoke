@@ -8,16 +8,20 @@
       "size": 2468
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:14.968400+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A .claude slash command to manage a simple todo list in your project's root directory.",
+    "fork": false,
     "full_name": "chrisleyva/todo-slash-command",
     "html_url": "https://github.com/chrisleyva/todo-slash-command",
     "language": null,
     "pushed_at": "2025-06-25T23:12:56Z",
+    "stargazers_count": 27,
     "topics": [],
-    "updated_at": "2026-04-07T14:34:09Z"
+    "updated_at": "2026-04-19T00:46:17Z"
   },
   "repo_links": [],
   "terms": []

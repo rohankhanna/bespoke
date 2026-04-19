@@ -1,0 +1,23 @@
+{
+  "counts": {
+    "components": 48,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 6,
+    "terms": 22
+  },
+  "facet_version": 1,
+  "filters": {
+    "star_bucket": "stars_10_99",
+    "updated_bucket": "updated_15_30d"
+  },
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "repo_ids": [
+    "astro-han/diffpane",
+    "automazeio/proof",
+    "collinear-ai/yc-bench",
+    "danielrosehill/index",
+    "ithiria894/awesome-claude-code-hooks",
+    "slopus/slopus.github.io"
+  ]
+}

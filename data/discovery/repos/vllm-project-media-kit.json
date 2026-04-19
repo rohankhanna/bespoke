@@ -8,14 +8,18 @@
       "size": 1803
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:16.328806+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "vLLM Logo Assets",
+    "fork": false,
     "full_name": "vllm-project/media-kit",
     "html_url": "https://github.com/vllm-project/media-kit",
     "language": null,
     "pushed_at": "2026-01-15T16:13:54Z",
+    "stargazers_count": 7,
     "topics": [],
     "updated_at": "2026-04-09T14:45:20Z"
   },

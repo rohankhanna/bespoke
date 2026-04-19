@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 15,
+    "components": 6,
     "concepts": 17,
     "observations": 17,
-    "repos": 5,
-    "terms": 19
+    "repos": 2,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,9 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
-    "alexei-led/aws-mcp-server",
     "AUTOMATIC1111/stable-diffusion-webui",
-    "FlineDev/Recall",
-    "shareAI-lab/claw0",
-    "Talieisin/britfix"
+    "shareAI-lab/claw0"
   ]
 }

@@ -457,14 +457,18 @@
       "size": 4517
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:19.550587+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A lightweight service that enables AI assistants to execute AWS CLI commands (in safe containerized environment) through the Model Context Protocol (MCP). Bridges Claude, Cursor, and other MCP-aware AI tools with AWS CLI for enhanced cloud infrastructure management.",
+    "fork": false,
     "full_name": "alexei-led/aws-mcp-server",
     "html_url": "https://github.com/alexei-led/aws-mcp-server",
     "language": "Python",
     "pushed_at": "2026-02-27T14:42:40Z",
+    "stargazers_count": 181,
     "topics": [
       "ai-assistant",
       "aws",

@@ -127,14 +127,18 @@
       "size": 605
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:19.223000+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Tools for dumping/loading a SQLite database to diffable directory structure",
+    "fork": false,
     "full_name": "simonw/sqlite-diffable",
     "html_url": "https://github.com/simonw/sqlite-diffable",
     "language": "Python",
     "pushed_at": "2025-05-05T05:44:56Z",
+    "stargazers_count": 137,
     "topics": [
       "datasette-io",
       "datasette-tool",

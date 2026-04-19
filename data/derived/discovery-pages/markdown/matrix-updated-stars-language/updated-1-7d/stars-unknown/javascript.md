@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · Unknown stars · JavaScript
 
-Generated at: `2026-04-19T06:58:55.872585+00:00`
+Generated at: `2026-04-19T07:52:38.223094+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 24
-- terms: 97
-- components: 341
-- concepts: 51
-- observations: 51
+- repos: 19
+- terms: 64
+- components: 300
+- concepts: 24
+- observations: 24
 
 ## Static behavior
 
@@ -41,15 +41,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [GYF0311/lorekit](https://github.com/GYF0311/lorekit) | unknown | 2026-04-17T13:54:08Z | JavaScript | Web app | 0 | 12 | 0 | 0 |
 | [seunghunbae-3svs/solo-cto-agent](https://github.com/seunghunbae-3svs/solo-cto-agent) | unknown | 2026-04-17T12:53:22Z | JavaScript | CLI | 7 | 9 | 0 | 0 |
 | [lis186/ccxray](https://github.com/lis186/ccxray) | unknown | 2026-04-17T11:12:54Z | JavaScript | Infrastructure/tooling | 0 | 7 | 0 | 0 |
-| [google/closure-compiler](https://github.com/google/closure-compiler) | unknown | 2026-04-16T23:44:23Z | JavaScript | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | unknown | 2026-04-16T03:07:05Z | JavaScript | Infrastructure/tooling | 10 | 20 | 0 | 0 |
 | [SethGammon/Citadel](https://github.com/SethGammon/Citadel) | unknown | 2026-04-15T15:14:30Z | JavaScript | Web app | 0 | 0 | 0 | 0 |
 | [agent-sh/agentsys](https://github.com/agent-sh/agentsys) | unknown | 2026-04-15T08:43:46Z | JavaScript | CLI | 18 | 12 | 0 | 0 |
-| [mattgodbolt/jsbeeb](https://github.com/mattgodbolt/jsbeeb) | unknown | 2026-04-15T02:11:29Z | JavaScript | Infrastructure/tooling | 6 | 26 | 0 | 0 |
-| [agent-sh/can-i-help](https://github.com/agent-sh/can-i-help) | unknown | 2026-04-14T23:27:11Z | JavaScript | Unknown | 6 | 0 | 6 | 6 |
-| [agent-sh/onboard](https://github.com/agent-sh/onboard) | unknown | 2026-04-14T23:27:07Z | JavaScript | Web app | 7 | 0 | 7 | 7 |
 | [bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) | unknown | 2026-04-14T21:10:49Z | JavaScript | Infrastructure/tooling | 5 | 39 | 5 | 5 |
-| [stripe-samples/accept-a-payment](https://github.com/stripe-samples/accept-a-payment) | unknown | 2026-04-14T19:49:13Z | JavaScript | Infrastructure/tooling | 8 | 5 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -70,12 +65,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [GYF0311/lorekit](https://github.com/GYF0311/lorekit) | unknown | 2026-04-17T13:54:08Z | JavaScript | Web app | 0 | 12 | 0 | 0 |
 | [seunghunbae-3svs/solo-cto-agent](https://github.com/seunghunbae-3svs/solo-cto-agent) | unknown | 2026-04-17T12:53:22Z | JavaScript | CLI | 7 | 9 | 0 | 0 |
 | [lis186/ccxray](https://github.com/lis186/ccxray) | unknown | 2026-04-17T11:12:54Z | JavaScript | Infrastructure/tooling | 0 | 7 | 0 | 0 |
-| [google/closure-compiler](https://github.com/google/closure-compiler) | unknown | 2026-04-16T23:44:23Z | JavaScript | Infrastructure/tooling | 6 | 10 | 6 | 6 |
 | [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) | unknown | 2026-04-16T03:07:05Z | JavaScript | Infrastructure/tooling | 10 | 20 | 0 | 0 |
 | [SethGammon/Citadel](https://github.com/SethGammon/Citadel) | unknown | 2026-04-15T15:14:30Z | JavaScript | Web app | 0 | 0 | 0 | 0 |
 | [agent-sh/agentsys](https://github.com/agent-sh/agentsys) | unknown | 2026-04-15T08:43:46Z | JavaScript | CLI | 18 | 12 | 0 | 0 |
-| [mattgodbolt/jsbeeb](https://github.com/mattgodbolt/jsbeeb) | unknown | 2026-04-15T02:11:29Z | JavaScript | Infrastructure/tooling | 6 | 26 | 0 | 0 |
-| [agent-sh/can-i-help](https://github.com/agent-sh/can-i-help) | unknown | 2026-04-14T23:27:11Z | JavaScript | Unknown | 6 | 0 | 6 | 6 |
-| [agent-sh/onboard](https://github.com/agent-sh/onboard) | unknown | 2026-04-14T23:27:07Z | JavaScript | Web app | 7 | 0 | 7 | 7 |
 | [bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD) | unknown | 2026-04-14T21:10:49Z | JavaScript | Infrastructure/tooling | 5 | 39 | 5 | 5 |
-| [stripe-samples/accept-a-payment](https://github.com/stripe-samples/accept-a-payment) | unknown | 2026-04-14T19:49:13Z | JavaScript | Infrastructure/tooling | 8 | 5 | 8 | 8 |

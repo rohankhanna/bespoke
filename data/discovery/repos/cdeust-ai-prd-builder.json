@@ -8,14 +8,18 @@
       "size": 10820
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:51:58.625738+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "feat/code-analysis-wip",
     "description": "MVP for AI PRD Builder using Apple Intelligence and Foundation models as default solution",
+    "fork": false,
     "full_name": "cdeust/ai-prd-builder",
     "html_url": "https://github.com/cdeust/ai-prd-builder",
     "language": "Swift",
     "pushed_at": "2025-10-04T11:17:25Z",
+    "stargazers_count": 2,
     "topics": [],
     "updated_at": "2025-10-01T06:42:35Z"
   },

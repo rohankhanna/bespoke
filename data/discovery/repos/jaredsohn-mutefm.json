@@ -8,14 +8,18 @@
       "size": 840
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:01.258075+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "mute.fm mutes your music while watching videos",
+    "fork": false,
     "full_name": "jaredsohn/mutefm",
     "html_url": "https://github.com/jaredsohn/mutefm",
     "language": "C#",
     "pushed_at": "2017-07-07T07:45:44Z",
+    "stargazers_count": 44,
     "topics": [],
     "updated_at": "2026-01-28T00:45:54Z"
   },

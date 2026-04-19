@@ -8,14 +8,18 @@
       "size": 659
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:51:57.604104+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Foreman port to crystal.",
+    "fork": false,
     "full_name": "arktisklada/crank",
     "html_url": "https://github.com/arktisklada/crank",
     "language": "Crystal",
     "pushed_at": "2020-07-06T04:30:21Z",
+    "stargazers_count": 52,
     "topics": [],
     "updated_at": "2025-06-25T22:33:57Z"
   },

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 40,
+    "components": 12,
     "concepts": 6,
     "observations": 7,
-    "repos": 4,
-    "terms": 18
+    "repos": 3,
+    "terms": 8
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
-    "CommE2E/comm",
     "jarrodwatts/claude-hud",
     "muratcankoylan/ralph-wiggum-marketer",
     "openai/codex-plugin-cc"

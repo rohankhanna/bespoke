@@ -130,14 +130,18 @@
       "size": 2112
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:03.785943+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Tracking and analyzing coffee preferences",
+    "fork": false,
     "full_name": "slunsford/coffee-analytics",
     "html_url": "https://github.com/slunsford/coffee-analytics",
     "language": "Svelte",
     "pushed_at": "2025-11-27T01:50:12Z",
+    "stargazers_count": 1,
     "topics": [],
     "updated_at": "2026-02-24T08:38:51Z"
   },

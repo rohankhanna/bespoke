@@ -57,14 +57,18 @@
       "size": 3131
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:04.099538+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": null,
+    "fork": false,
     "full_name": "zscott/pane",
     "html_url": "https://github.com/zscott/pane",
     "language": "Elixir",
     "pushed_at": "2025-03-07T16:35:10Z",
+    "stargazers_count": 6,
     "topics": [],
     "updated_at": "2026-02-24T22:41:04Z"
   },

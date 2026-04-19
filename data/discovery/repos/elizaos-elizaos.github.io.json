@@ -1569,14 +1569,18 @@
       "size": 14746
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:16.983654+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Leaderboard of Eliza Contributors",
-    "full_name": "elizaOS/elizaos.github.io",
+    "fork": false,
+    "full_name": "elizaos/elizaos.github.io",
     "html_url": "https://github.com/elizaOS/elizaos.github.io",
     "language": "TypeScript",
-    "pushed_at": "2026-04-17T23:29:53Z",
+    "pushed_at": "2026-04-18T23:26:41Z",
+    "stargazers_count": 103,
     "topics": [
       "coding",
       "foss",

@@ -333,14 +333,18 @@
       "size": 4918
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:30.911106+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Scopecraft Command - A CLI and MCP server for Markdown-Driven Task Management (MDTM)",
+    "fork": false,
     "full_name": "scopecraft/command",
     "html_url": "https://github.com/scopecraft/command",
     "language": "TypeScript",
     "pushed_at": "2025-11-09T12:20:07Z",
+    "stargazers_count": 173,
     "topics": [],
     "updated_at": "2026-04-15T16:41:09Z"
   },

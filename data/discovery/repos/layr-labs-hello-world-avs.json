@@ -347,14 +347,18 @@
       "size": 594
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:00.226577+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": true,
     "default_branch": "master",
     "description": "Hello World AVS",
-    "full_name": "Layr-Labs/hello-world-avs",
+    "fork": false,
+    "full_name": "layr-labs/hello-world-avs",
     "html_url": "https://github.com/Layr-Labs/hello-world-avs",
     "language": "Rust",
     "pushed_at": "2025-04-16T19:33:13Z",
+    "stargazers_count": 101,
     "topics": [],
     "updated_at": "2025-12-08T14:00:44Z"
   },

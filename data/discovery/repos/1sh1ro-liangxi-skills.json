@@ -8,14 +8,18 @@
       "size": 3186
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:19.906304+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": null,
+    "fork": false,
     "full_name": "1sh1ro/liangxi-skills",
     "html_url": "https://github.com/1sh1ro/liangxi-skills",
     "language": null,
     "pushed_at": "2026-04-10T17:37:12Z",
+    "stargazers_count": 2,
     "topics": [],
     "updated_at": "2026-04-11T03:01:55Z"
   },

@@ -225,14 +225,18 @@
       "size": 3381
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:20.534471+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Cortex for Claude Code Cowork \u2014 SQLite storage, no PostgreSQL required",
-    "full_name": "cdeust/Cortex-cowork",
+    "fork": false,
+    "full_name": "cdeust/cortex-cowork",
     "html_url": "https://github.com/cdeust/Cortex-cowork",
     "language": "Python",
     "pushed_at": "2026-04-11T13:40:10Z",
+    "stargazers_count": 1,
     "topics": [],
     "updated_at": "2026-04-11T13:40:16Z"
   },

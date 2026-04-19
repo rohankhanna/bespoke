@@ -8,14 +8,18 @@
       "size": 6030
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:07.080448+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "R2-D2 PHP AutoRouter",
+    "fork": false,
     "full_name": "musicman3/r2-d2",
     "html_url": "https://github.com/musicman3/r2-d2",
     "language": "PHP",
     "pushed_at": "2026-03-17T15:59:22Z",
+    "stargazers_count": 0,
     "topics": [],
     "updated_at": "2026-03-17T15:58:50Z"
   },

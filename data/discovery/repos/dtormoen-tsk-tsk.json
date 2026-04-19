@@ -652,14 +652,18 @@
       "size": 374
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:31.578907+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Keeping your agents out of trouble with sandboxed coding agent automation",
+    "fork": false,
     "full_name": "dtormoen/tsk-tsk",
     "html_url": "https://github.com/dtormoen/tsk-tsk",
     "language": "Rust",
     "pushed_at": "2026-04-15T16:57:14Z",
+    "stargazers_count": 159,
     "topics": [
       "agentic-coding",
       "agents",

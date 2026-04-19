@@ -487,14 +487,18 @@
       "size": 4193
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:31.270818+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "git worktree + containerization + agent harness",
-    "full_name": "OverseedAI/viwo",
+    "fork": false,
+    "full_name": "overseedai/viwo",
     "html_url": "https://github.com/OverseedAI/viwo",
     "language": "TypeScript",
-    "pushed_at": "2026-04-18T08:26:57Z",
+    "pushed_at": "2026-04-19T07:28:04Z",
+    "stargazers_count": 34,
     "topics": [],
     "updated_at": "2026-04-15T18:17:24Z"
   },

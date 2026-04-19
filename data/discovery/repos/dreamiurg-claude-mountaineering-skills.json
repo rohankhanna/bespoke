@@ -271,14 +271,18 @@
       "size": 797
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:16.807514+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Automates mountain route research for North American peaks. Aggregates data from 10+ mountaineering sources to generate detailed route beta reports with weather, avalanche conditions, and trip reports.",
+    "fork": false,
     "full_name": "dreamiurg/claude-mountaineering-skills",
     "html_url": "https://github.com/dreamiurg/claude-mountaineering-skills",
     "language": "Python",
     "pushed_at": "2026-04-13T21:44:10Z",
+    "stargazers_count": 24,
     "topics": [
       "backcountry",
       "claude-code-plugin",

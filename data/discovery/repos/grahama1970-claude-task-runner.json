@@ -12,16 +12,20 @@
       "size": 1946
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:08.123206+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": null,
+    "fork": false,
     "full_name": "grahama1970/claude-task-runner",
     "html_url": "https://github.com/grahama1970/claude-task-runner",
     "language": "Python",
     "pushed_at": "2025-05-13T23:43:03Z",
+    "stargazers_count": 66,
     "topics": [],
-    "updated_at": "2026-03-23T04:43:15Z"
+    "updated_at": "2026-04-19T00:46:12Z"
   },
   "repo_links": [],
   "terms": []

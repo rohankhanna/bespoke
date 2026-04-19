@@ -8,16 +8,20 @@
       "size": 7782
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:24.236583+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": null,
+    "fork": false,
     "full_name": "revfactory/claude-code-harness",
     "html_url": "https://github.com/revfactory/claude-code-harness",
     "language": "HTML",
     "pushed_at": "2026-03-06T01:10:07Z",
+    "stargazers_count": 90,
     "topics": [],
-    "updated_at": "2026-04-13T00:39:57Z"
+    "updated_at": "2026-04-18T15:28:47Z"
   },
   "repo_links": [],
   "terms": []

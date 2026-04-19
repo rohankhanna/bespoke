@@ -56,14 +56,18 @@
       "size": 299
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:15.129242+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Community-trained retrieval abstention classifier \u2014 teaches RAG to say 'I don't know'",
+    "fork": false,
     "full_name": "cdeust/cortex-know-when-to-stop-training-model",
     "html_url": "https://github.com/cdeust/cortex-know-when-to-stop-training-model",
     "language": "Python",
     "pushed_at": "2026-04-07T20:02:33Z",
+    "stargazers_count": 0,
     "topics": [],
     "updated_at": "2026-04-07T20:02:37Z"
   },

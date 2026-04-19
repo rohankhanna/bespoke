@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 7,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 1,
+    "terms": 1
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "javascript",
+    "star_bucket": "stars_100_999",
+    "updated_bucket": "updated_91_180d"
+  },
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "repo_ids": [
+    "ayoubben18/ab-method"
+  ]
+}

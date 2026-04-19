@@ -1,0 +1,28 @@
+{
+  "counts": {
+    "components": 78,
+    "concepts": 47,
+    "observations": 47,
+    "repos": 11,
+    "terms": 50
+  },
+  "facet_version": 1,
+  "filters": {
+    "star_bucket": "stars_1_9",
+    "updated_bucket": "updated_1_7d"
+  },
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
+  "repo_ids": [
+    "agent-sh/agent-analyzer",
+    "agent-sh/can-i-help",
+    "agent-sh/glidemq",
+    "agent-sh/onboard",
+    "dreamiurg/mountaineers-assistant",
+    "dreamiurg/mountaineers-mcp",
+    "dreamiurg/peakbagger-cli",
+    "flinedev/marketplace",
+    "joinwell52-ai/joinwell52",
+    "kelp/webdown",
+    "mitchuski/agentprivacy-docs"
+  ]
+}

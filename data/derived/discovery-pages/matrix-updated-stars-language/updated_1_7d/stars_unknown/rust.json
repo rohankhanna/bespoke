@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 347,
-    "concepts": 149,
-    "observations": 151,
-    "repos": 33,
-    "terms": 192
+    "components": 292,
+    "concepts": 120,
+    "observations": 122,
+    "repos": 27,
+    "terms": 155
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
     "aannoo/hcom",
     "Abraxas-365/langchain-rust",
-    "agent-sh/agent-analyzer",
     "agent-sh/agnix",
     "aipurposes1587-max/weixin-agent-rs",
     "astral-sh/uv",
@@ -25,12 +24,9 @@
     "cedar-policy/cedar",
     "CloudLLM-ai/mentisdb",
     "crate-ci/typos",
-    "dtormoen/tsk-tsk",
     "eikarna/hermes-rs",
     "Eventual-Inc/Daft",
-    "hagan/claudia-statusline",
     "huggingface/candle",
-    "JohnnyMorganz/StyLua",
     "JSLEEKR/skilldigest",
     "kensave/agent-memory-rs",
     "kmjjjj/polymarket-arbitrage-bot-btc-sol-15m",
@@ -43,9 +39,7 @@
     "phiat/claude-esp-rs",
     "RustCrypto/signatures",
     "ruvnet/RuVector",
-    "tianrking/weixin-agent-rs",
     "tokio-rs/axum",
-    "tombelieber/claude-view",
-    "vaporif/parry-guard"
+    "tombelieber/claude-view"
   ]
 }

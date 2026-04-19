@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 26,
-    "observations": 26,
-    "repos": 6,
-    "terms": 26
+    "components": 9,
+    "concepts": 7,
+    "observations": 7,
+    "repos": 1,
+    "terms": 7
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,8 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
-    "Abraxas-365/claudio-codex",
-    "Abraxas-365/claudio-screenshot",
-    "ahmetb/kubectx",
-    "Broderick-Westrope/tetrigo",
-    "ethpandaops/xatu",
-    "ethpandaops/xatu-cbt"
+    "ahmetb/kubectx"
   ]
 }

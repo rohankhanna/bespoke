@@ -122,14 +122,18 @@
       "size": 1050
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:02.446223+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A template for starting publishable dendron-code projects",
-    "full_name": "Mjvolk3/Dendron-Template",
+    "fork": false,
+    "full_name": "mjvolk3/dendron-template",
     "html_url": "https://github.com/Mjvolk3/Dendron-Template",
     "language": "HTML",
     "pushed_at": "2026-02-20T15:48:17Z",
+    "stargazers_count": 0,
     "topics": [],
     "updated_at": "2026-02-20T15:48:21Z"
   },

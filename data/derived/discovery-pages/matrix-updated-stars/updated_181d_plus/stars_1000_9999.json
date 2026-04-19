@@ -1,21 +1,28 @@
 {
   "counts": {
-    "components": 6,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 4,
-    "terms": 11
+    "components": 31,
+    "concepts": 29,
+    "observations": 29,
+    "repos": 11,
+    "terms": 34
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-19T06:58:55.872585+00:00",
+  "generated_at": "2026-04-19T07:52:38.223094+00:00",
   "repo_ids": [
+    "0nn0/terminal-mac-cheatsheet",
     "addyosmani/gemini-cli-tips",
     "atom-archive/xray",
+    "basujindal/stable-diffusion",
+    "chelsea0x3b/dfdx",
+    "ddollar/foreman",
     "graphql-python/graphene",
-    "junegunn/vim-easy-align"
+    "inkline/inkline",
+    "junegunn/vim-easy-align",
+    "mattingalls/soundflower",
+    "natemoo-re/astro-icon"
   ]
 }

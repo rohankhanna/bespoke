@@ -183,14 +183,18 @@
       "size": 700
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:12.241262+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A PHP SDK for building Claude Code hooks",
+    "fork": false,
     "full_name": "beyondcode/claude-hooks-sdk",
     "html_url": "https://github.com/beyondcode/claude-hooks-sdk",
     "language": "PHP",
     "pushed_at": "2026-04-13T05:38:28Z",
+    "stargazers_count": 65,
     "topics": [],
     "updated_at": "2026-04-03T17:02:04Z"
   },

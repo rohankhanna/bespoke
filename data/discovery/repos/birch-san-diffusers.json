@@ -306,14 +306,18 @@
       "size": 1332
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:51:56.413976+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83e\udd17 Diffusers: State-of-the-art diffusion models for image and audio generation in PyTorch",
-    "full_name": "Birch-san/diffusers",
+    "fork": true,
+    "full_name": "birch-san/diffusers",
     "html_url": "https://github.com/Birch-san/diffusers",
     "language": "Python",
     "pushed_at": "2023-08-24T22:41:31Z",
+    "stargazers_count": 9,
     "topics": [],
     "updated_at": "2025-03-05T05:45:39Z"
   },

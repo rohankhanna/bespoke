@@ -349,14 +349,18 @@
       "size": 853
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:33.570754+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Ruby gems for general-purpose AI agent systems: automation, research, data processing, customer support, content creation. SwarmSDK provides single-process orchestration, persistent memory with semantic   search, node workflows, and hooks. SwarmMemory/SwarmCLI included. Claude Swarm v1 for dev teams.",
+    "fork": false,
     "full_name": "parruda/swarm",
     "html_url": "https://github.com/parruda/swarm",
     "language": "Ruby",
     "pushed_at": "2026-02-17T02:07:40Z",
+    "stargazers_count": 1699,
     "topics": [],
     "updated_at": "2026-04-16T08:17:32Z"
   },

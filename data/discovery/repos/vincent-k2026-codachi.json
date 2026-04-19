@@ -139,14 +139,18 @@
       "size": 404
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:24.543078+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "A tamagotchi-style virtual pet that lives in your Claude Code statusline",
+    "fork": false,
     "full_name": "vincent-k2026/codachi",
     "html_url": "https://github.com/vincent-k2026/codachi",
     "language": "TypeScript",
-    "pushed_at": "2026-04-13T02:28:54Z",
+    "pushed_at": "2026-04-18T15:47:52Z",
+    "stargazers_count": 5,
     "topics": [
       "ascii-art",
       "claude-code",
@@ -157,7 +161,7 @@
       "statusline",
       "tamagotchi"
     ],
-    "updated_at": "2026-04-13T02:28:59Z"
+    "updated_at": "2026-04-18T15:47:57Z"
   },
   "repo_links": [],
   "terms": [

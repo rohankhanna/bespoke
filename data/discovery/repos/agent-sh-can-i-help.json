@@ -69,14 +69,18 @@
       "size": 281
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T07:52:28.856839+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Find where to contribute to any project - matches developer skills to project needs",
+    "fork": false,
     "full_name": "agent-sh/can-i-help",
     "html_url": "https://github.com/agent-sh/can-i-help",
     "language": "JavaScript",
     "pushed_at": "2026-04-14T23:27:11Z",
+    "stargazers_count": 3,
     "topics": [
       "ai",
       "ai-agents",

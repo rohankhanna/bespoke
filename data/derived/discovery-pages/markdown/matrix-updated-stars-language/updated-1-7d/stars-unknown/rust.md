@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · Unknown stars · Rust
 
-Generated at: `2026-04-19T06:58:55.872585+00:00`
+Generated at: `2026-04-19T07:52:38.223094+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 33
-- terms: 192
-- components: 347
-- concepts: 149
-- observations: 151
+- repos: 27
+- terms: 155
+- components: 292
+- concepts: 120
+- observations: 122
 
 ## Static behavior
 
@@ -44,21 +44,15 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [napi-rs/napi-rs](https://github.com/napi-rs/napi-rs) | unknown | 2026-04-17T15:09:54Z | Rust | Infrastructure/tooling | 12 | 43 | 12 | 12 |
 | [Abraxas-365/langchain-rust](https://github.com/Abraxas-365/langchain-rust) | unknown | 2026-04-17T14:50:53Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [CloudLLM-ai/mentisdb](https://github.com/CloudLLM-ai/mentisdb) | unknown | 2026-04-17T12:49:48Z | Rust | Infrastructure/tooling | 8 | 6 | 0 | 0 |
-| [JohnnyMorganz/StyLua](https://github.com/JohnnyMorganz/StyLua) | unknown | 2026-04-17T00:00:44Z | Rust | Infrastructure/tooling | 13 | 13 | 13 | 13 |
 | [crate-ci/typos](https://github.com/crate-ci/typos) | unknown | 2026-04-16T19:22:27Z | Rust | CLI | 7 | 14 | 7 | 7 |
 | [ruvnet/RuVector](https://github.com/ruvnet/RuVector) | unknown | 2026-04-16T19:19:43Z | Rust | Infrastructure/tooling | 18 | 13 | 18 | 18 |
-| [hagan/claudia-statusline](https://github.com/hagan/claudia-statusline) | unknown | 2026-04-16T18:30:39Z | Rust | Infrastructure/tooling | 5 | 9 | 0 | 0 |
 | [libp2p/rust-libp2p](https://github.com/libp2p/rust-libp2p) | unknown | 2026-04-16T15:29:42Z | Rust | Infrastructure/tooling | 13 | 22 | 13 | 13 |
 | [huggingface/candle](https://github.com/huggingface/candle) | unknown | 2026-04-16T12:37:54Z | Rust | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [casey/just](https://github.com/casey/just) | unknown | 2026-04-16T05:56:35Z | Rust | Infrastructure/tooling | 1 | 10 | 1 | 1 |
 | [aannoo/hcom](https://github.com/aannoo/hcom) | unknown | 2026-04-16T01:21:34Z | Rust | CLI | 4 | 11 | 0 | 0 |
 | [RustCrypto/signatures](https://github.com/RustCrypto/signatures) | unknown | 2026-04-15T19:41:34Z | Rust | Infrastructure/tooling | 10 | 7 | 10 | 12 |
-| [dtormoen/tsk-tsk](https://github.com/dtormoen/tsk-tsk) | unknown | 2026-04-15T16:57:14Z | Rust | Infrastructure/tooling | 3 | 3 | 0 | 0 |
 | [tokio-rs/axum](https://github.com/tokio-rs/axum) | unknown | 2026-04-15T11:06:41Z | Rust | Infrastructure/tooling | 1 | 11 | 0 | 0 |
 | [mikeyobrien/ralph-orchestrator](https://github.com/mikeyobrien/ralph-orchestrator) | unknown | 2026-04-15T03:14:33Z | Rust | CLI | 5 | 10 | 0 | 0 |
-| [agent-sh/agent-analyzer](https://github.com/agent-sh/agent-analyzer) | unknown | 2026-04-14T23:27:20Z | Rust | Infrastructure/tooling | 10 | 7 | 10 | 10 |
-| [vaporif/parry-guard](https://github.com/vaporif/parry-guard) | unknown | 2026-04-14T14:21:08Z | Rust | Infrastructure/tooling | 5 | 17 | 5 | 5 |
-| [tianrking/weixin-agent-rs](https://github.com/tianrking/weixin-agent-rs) | unknown | 2026-04-14T03:39:18Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -82,18 +76,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [napi-rs/napi-rs](https://github.com/napi-rs/napi-rs) | unknown | 2026-04-17T15:09:54Z | Rust | Infrastructure/tooling | 12 | 43 | 12 | 12 |
 | [Abraxas-365/langchain-rust](https://github.com/Abraxas-365/langchain-rust) | unknown | 2026-04-17T14:50:53Z | Rust | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [CloudLLM-ai/mentisdb](https://github.com/CloudLLM-ai/mentisdb) | unknown | 2026-04-17T12:49:48Z | Rust | Infrastructure/tooling | 8 | 6 | 0 | 0 |
-| [JohnnyMorganz/StyLua](https://github.com/JohnnyMorganz/StyLua) | unknown | 2026-04-17T00:00:44Z | Rust | Infrastructure/tooling | 13 | 13 | 13 | 13 |
 | [crate-ci/typos](https://github.com/crate-ci/typos) | unknown | 2026-04-16T19:22:27Z | Rust | CLI | 7 | 14 | 7 | 7 |
 | [ruvnet/RuVector](https://github.com/ruvnet/RuVector) | unknown | 2026-04-16T19:19:43Z | Rust | Infrastructure/tooling | 18 | 13 | 18 | 18 |
-| [hagan/claudia-statusline](https://github.com/hagan/claudia-statusline) | unknown | 2026-04-16T18:30:39Z | Rust | Infrastructure/tooling | 5 | 9 | 0 | 0 |
 | [libp2p/rust-libp2p](https://github.com/libp2p/rust-libp2p) | unknown | 2026-04-16T15:29:42Z | Rust | Infrastructure/tooling | 13 | 22 | 13 | 13 |
 | [huggingface/candle](https://github.com/huggingface/candle) | unknown | 2026-04-16T12:37:54Z | Rust | Infrastructure/tooling | 4 | 13 | 4 | 4 |
 | [casey/just](https://github.com/casey/just) | unknown | 2026-04-16T05:56:35Z | Rust | Infrastructure/tooling | 1 | 10 | 1 | 1 |
 | [aannoo/hcom](https://github.com/aannoo/hcom) | unknown | 2026-04-16T01:21:34Z | Rust | CLI | 4 | 11 | 0 | 0 |
 | [RustCrypto/signatures](https://github.com/RustCrypto/signatures) | unknown | 2026-04-15T19:41:34Z | Rust | Infrastructure/tooling | 10 | 7 | 10 | 12 |
-| [dtormoen/tsk-tsk](https://github.com/dtormoen/tsk-tsk) | unknown | 2026-04-15T16:57:14Z | Rust | Infrastructure/tooling | 3 | 3 | 0 | 0 |
 | [tokio-rs/axum](https://github.com/tokio-rs/axum) | unknown | 2026-04-15T11:06:41Z | Rust | Infrastructure/tooling | 1 | 11 | 0 | 0 |
 | [mikeyobrien/ralph-orchestrator](https://github.com/mikeyobrien/ralph-orchestrator) | unknown | 2026-04-15T03:14:33Z | Rust | CLI | 5 | 10 | 0 | 0 |
-| [agent-sh/agent-analyzer](https://github.com/agent-sh/agent-analyzer) | unknown | 2026-04-14T23:27:20Z | Rust | Infrastructure/tooling | 10 | 7 | 10 | 10 |
-| [vaporif/parry-guard](https://github.com/vaporif/parry-guard) | unknown | 2026-04-14T14:21:08Z | Rust | Infrastructure/tooling | 5 | 17 | 5 | 5 |
-| [tianrking/weixin-agent-rs](https://github.com/tianrking/weixin-agent-rs) | unknown | 2026-04-14T03:39:18Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
