@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "orogene/orogene",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "orogene/orogene",
+      "target": "package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "orogene/orogene",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T01:09:34.641654+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2217
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Makes `node_modules/` happen. Fast. No fuss.",
+    "full_name": "orogene/orogene",
+    "html_url": "https://github.com/orogene/orogene",
+    "language": null,
+    "pushed_at": "2026-02-26T03:53:25Z",
+    "topics": [
+      "javascript",
+      "nodejs",
+      "package-manager",
+      "rust",
+      "typescript"
+    ],
+    "updated_at": "2026-04-16T14:35:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div style=\"display: flex; justify-content: center;\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "<div style=\"display: flex; justify-content: center;\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-manager"
+    },
+    {
+      "context_snippet": "<div style=\"display: flex; justify-content: center;\" align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

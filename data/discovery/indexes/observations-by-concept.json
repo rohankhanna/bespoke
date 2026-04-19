@@ -26,11 +26,17 @@
   "adversarial-robustness": [
     "9126ac70aea2ba7a"
   ],
+  "after-ci": [
+    "9b10f76cad6b8736"
+  ],
   "agency": [
     "404893de3b584fa3"
   ],
   "agent-collaboration": [
     "8f0c7126de703920"
+  ],
+  "agent-framework": [
+    "4bce90855e426602"
   ],
   "agent-harness": [
     "e56c383598a6f6fc"
@@ -241,7 +247,8 @@
     "977459f8b0cd5857"
   ],
   "attention": [
-    "1a97151558f38ec3"
+    "1a97151558f38ec3",
+    "ba0288702db22ec8"
   ],
   "attention-mechanism": [
     "5e8aed726961510b"
@@ -266,6 +273,9 @@
   ],
   "authentification": [
     "a11d41c12c39fa13"
+  ],
+  "auto-assign-issues-and-prs": [
+    "084e0b4672ffd199"
   ],
   "auto-assign-types-issues": [
     "16f09ccf4837d097"
@@ -298,6 +308,16 @@
   ],
   "auto-tune": [
     "20d31818c95b91f9"
+  ],
+  "autodiff": [
+    "7a15dce6c815846d",
+    "7a18fed4306c2012"
+  ],
+  "autodifferentiation": [
+    "05afcdfd6d62d689"
+  ],
+  "autograd": [
+    "88c645385982b754"
   ],
   "automated-documentation-audit": [
     "3bf1683f3844787c"
@@ -347,6 +367,9 @@
   "backport": [
     "e78a7c66bf49ce83"
   ],
+  "backpropagation": [
+    "3012723e178b86aa"
+  ],
   "backup": [
     "1bd629be74bd9652"
   ],
@@ -389,6 +412,7 @@
     "4f0e59d0ea5db854"
   ],
   "benchmark": [
+    "41df783691442450",
     "51e33bf152e5cc84",
     "81836c1514c1ff21",
     "9a0be674800ab0a4",
@@ -516,6 +540,9 @@
     "55fbb0cdbbe8c5e9",
     "f517b70097118e8f"
   ],
+  "build-and-upload-tunix-package": [
+    "46325f2b9a6e41fb"
+  ],
   "build-android-app": [
     "b7eca70a52b0ca84"
   ],
@@ -523,6 +550,7 @@
     "a593326b93946019"
   ],
   "build-binaries": [
+    "09fcff4e3687aa0a",
     "6f452c1bd3bc43db",
     "afc741e726f52a49"
   ],
@@ -538,6 +566,9 @@
   "build-dist": [
     "b3d1799d9ed90d9a"
   ],
+  "build-docker-image": [
+    "011596b790c40027"
+  ],
   "build-docs": [
     "c8312036b940521e"
   ],
@@ -546,6 +577,9 @@
   ],
   "build-examples": [
     "a2a42852c1a0f87d"
+  ],
+  "build-flashinfer-docs": [
+    "d94e7877e209657f"
   ],
   "build-from-tarball": [
     "fe04b1565c8ce1e0"
@@ -640,6 +674,9 @@
   "cc-proxy": [
     "227d41824e9a54dd"
   ],
+  "changelog": [
+    "6df7e938290eba60"
+  ],
   "changeset-check": [
     "97b46b708086d69d"
   ],
@@ -664,6 +701,7 @@
     "88cc02954f4fa949",
     "9d5bb14ce34f6417",
     "e2bcf9cac5a4f4dd",
+    "e500be52a27a0e17",
     "f43aff0768e7e810"
   ],
   "check-broken-links-on-daft.ai": [
@@ -681,6 +719,9 @@
   "check-pypi-version": [
     "29c04445b87cddd3"
   ],
+  "check-the-documentation-build": [
+    "636322f15e826cc0"
+  ],
   "check-upstream-drift": [
     "88c49ca3a6f5f71e"
   ],
@@ -692,6 +733,12 @@
   ],
   "chromadb": [
     "4e42836557ffb784"
+  ],
+  "ci---builder": [
+    "25424d7d520d0112"
+  ],
+  "ci---contrib---goreleaser": [
+    "c065ed917bc793c9"
   ],
   "ci---libnpmaccess": [
     "837398dc67a1b2ae"
@@ -711,6 +758,9 @@
   "ci---libnpmpack": [
     "4ec6a32f2eedb197"
   ],
+  "ci---other-binaries": [
+    "5b59c98d090e808e"
+  ],
   "ci-3rd-party": [
     "8931823749c08f5c"
   ],
@@ -720,8 +770,20 @@
   "ci-apple": [
     "4679f6e266185738"
   ],
+  "ci-bot-commands": [
+    "26b2151e606e96b8"
+  ],
   "ci-cann": [
     "eb7eb20a3030e6f9"
+  ],
+  "ci-cd": [
+    "68b433c930b1bd29"
+  ],
+  "ci-cd-base": [
+    "cf4b58e20d4f9b98"
+  ],
+  "ci-gpu": [
+    "ce7a266b334d0893"
   ],
   "ci-quality-gate": [
     "624612faad6af0b9"
@@ -732,9 +794,27 @@
   "ci-tests": [
     "b5cedfea1e74d0b9"
   ],
+  "ci-tests---credentialed": [
+    "0025ae7d1d9b77fb"
+  ],
+  "ci-tests---docs": [
+    "1cf855b7fa1212e6"
+  ],
+  "ci-tests---linux": [
+    "508a73b88ed36a09"
+  ],
+  "ci-tests---macos": [
+    "8f0c4e998310402f"
+  ],
+  "ci-tests---windows": [
+    "f2f08584cb9acd77"
+  ],
   "cla-assistant": [
     "89459414b43f4966",
     "a0c90bacd36d799c"
+  ],
+  "claude": [
+    "762b4afcad389eca"
   ],
   "claude-3": [
     "3653872cc995f81d"
@@ -786,6 +866,7 @@
     "b20475a82d70de15",
     "b23d3e0257f9ffbe",
     "b48a72bb501421ae",
+    "c3e848695987af26",
     "c40e9429f4296002",
     "c8f9d8706e1fe6e7",
     "caa191320abb4f37",
@@ -820,6 +901,7 @@
     "75b634ab1fc35e58"
   ],
   "claude-code-review": [
+    "3136527754ccbda3",
     "eae6b46936ea8110"
   ],
   "claude-code-skill": [
@@ -939,7 +1021,8 @@
   ],
   "close-stale-issues-and-prs": [
     "27305ab73a943c10",
-    "57a4a9b15ade549d"
+    "57a4a9b15ade549d",
+    "b02795e16d30b7aa"
   ],
   "close-stale-pull-requests": [
     "bf33e82e516ab13f"
@@ -977,7 +1060,8 @@
   ],
   "code-quality": [
     "1a259d921998dc75",
-    "a8a0f8a665eca246"
+    "a8a0f8a665eca246",
+    "dafe879b87b4df88"
   ],
   "code-review": [
     "c750849d0c84c181",
@@ -1030,6 +1114,9 @@
   ],
   "color": [
     "83ef7410b7fa4f98"
+  ],
+  "combine-dependabot-prs": [
+    "3927011944e4faa2"
   ],
   "command-line": [
     "30e454f9a92fed60",
@@ -1155,7 +1242,8 @@
     "fd127d7f3dac1a52"
   ],
   "cross-platform": [
-    "2c4f1561f7a9ede2"
+    "2c4f1561f7a9ede2",
+    "f04a90a1d926c19c"
   ],
   "cross-platform-build": [
     "73a42018b8f79373"
@@ -1171,8 +1259,26 @@
     "7cc113bccfb1f688"
   ],
   "cuda": [
+    "1282d8e5e9eb0c76",
     "1ae7e3691a60decc",
-    "6f06cd5dc4946ef6"
+    "6f06cd5dc4946ef6",
+    "a407f230ea02a3d9",
+    "a753d6b6beeb4a71"
+  ],
+  "cuda-kernels": [
+    "29f5a7d4d1083a2c"
+  ],
+  "cuda-support": [
+    "1c943b6f95349f6a"
+  ],
+  "cuda-toolkit": [
+    "7c303f0d01798583"
+  ],
+  "cudnn": [
+    "d5c2968b41ee4389"
+  ],
+  "cupy": [
+    "6d79d9caf072b21b"
   ],
   "cursor": [
     "1a4aa82758ed78dd",
@@ -1194,6 +1300,9 @@
   ],
   "daily-parser-fuzz": [
     "208a0212ebab492b"
+  ],
+  "daily-property-test-run": [
+    "b2dd2b72938b4091"
   ],
   "daily-space-rebuild": [
     "0fe6ffefdf49860d"
@@ -1232,11 +1341,20 @@
   "deep-learning": [
     "0230cfa654f97cbd",
     "04092c44c3d50800",
-    "45d08ed2155c6315"
+    "2f5efe6e219459fd",
+    "45d08ed2155c6315",
+    "bcb2dbc0a798bdcf",
+    "f3eec66c00214289"
+  ],
+  "deep-neural-networks": [
+    "ea792a4169759f8c"
   ],
   "deepagents": [
     "3f7b659147737cb5",
     "d1c8d00624b276f9"
+  ],
+  "deepresearch": [
+    "b12256d40c4ec11f"
   ],
   "deepseek": [
     "413d4de4ad6ad76b",
@@ -1268,6 +1386,9 @@
     "ab7261c3dd7eb12b",
     "c3476cdfaf3724bc"
   ],
+  "dependencies": [
+    "4823796ad882d8d7"
+  ],
   "dependency-compatibility-tests": [
     "86d3bb63b1f036c3"
   ],
@@ -1279,6 +1400,9 @@
   ],
   "deploy": [
     "e8c7c143c16da0ab"
+  ],
+  "deploy-docs": [
+    "5b8f8c0626ac4c53"
   ],
   "deploy-documentation": [
     "3ec9e2c51ec4f79a",
@@ -1308,6 +1432,9 @@
   ],
   "deploy-to-github-pages": [
     "f1bf91b6f907b84b"
+  ],
+  "deploy-to-pypi": [
+    "a173afe8ba40d292"
   ],
   "desktop-app": [
     "93bc036741c71d52"
@@ -1362,6 +1489,9 @@
   "distributed-computing": [
     "0db879db58ecc321"
   ],
+  "distributed-inference": [
+    "4bd41d817559f051"
+  ],
   "distributed-systems": [
     "6dd6ebb3058ead21"
   ],
@@ -1387,6 +1517,12 @@
   ],
   "docker-images": [
     "668f57710b5743d6"
+  ],
+  "docker-multigpu-tests-biweekly": [
+    "61d69ead48450629"
+  ],
+  "docker-nightlies": [
+    "ae6f0f779f448aaa"
   ],
   "docker-nightly-build": [
     "cac60782d66c8781"
@@ -1479,6 +1615,9 @@
   "education": [
     "b5921ea94e9bf58a"
   ],
+  "einops": [
+    "0f5662beb6fd2d7c"
+  ],
   "electron": [
     "f04074e4e3d65917"
   ],
@@ -1540,6 +1679,9 @@
   ],
   "files": [
     "42d46a4b56298d04"
+  ],
+  "fine-tuning": [
+    "7de294ebe4bad2b0"
   ],
   "firebase": [
     "9e348b1f11321e01"
@@ -1615,6 +1757,9 @@
   "futures": [
     "0589cd5df3598a83"
   ],
+  "gateway-model-health": [
+    "f91ccde0e68bc84a"
+  ],
   "gemini": [
     "2e8bbde17901795d",
     "4261d178cb9c5f39",
@@ -1639,6 +1784,9 @@
   ],
   "gemma": [
     "12f84068a7772a39"
+  ],
+  "genai": [
+    "941cb69b1fae5d3a"
   ],
   "general-pr-handling-for-1panel": [
     "69422cef77b501d9"
@@ -1751,6 +1899,12 @@
     "d144ef0d1d3e39b9",
     "e9442feae3d3fa36"
   ],
+  "gpu-acceleration": [
+    "8b3086397d086763"
+  ],
+  "gpu-computing": [
+    "3c27f3f5a6b4293b"
+  ],
   "gradio": [
     "569a0dbe30f3fa34"
   ],
@@ -1821,6 +1975,7 @@
   ],
   "huggingface": [
     "4a80a031b45a37bf",
+    "4bb8a8469b7118ee",
     "a9ef2a40f8c83a1e"
   ],
   "hugo": [
@@ -1913,6 +2068,9 @@
     "a470ba52177e9632",
     "f7c84455ae366e65"
   ],
+  "issue-claim": [
+    "cc763c61ae3b2b87"
+  ],
   "issue-close-require": [
     "067fa907f5676079",
     "423725372358a8b4",
@@ -1964,6 +2122,9 @@
     "602e602b45b7da2b",
     "66f7cfa0b3b0223d",
     "a80e19ca9ce987bd"
+  ],
+  "kernel-fusion": [
+    "2993c479ad816e90"
   ],
   "kimi": [
     "786f693293ad5507"
@@ -2041,7 +2202,8 @@
     "8caa063ebc84e9e6"
   ],
   "language-model": [
-    "80a5246fe6348ce1"
+    "80a5246fe6348ce1",
+    "83e2f693578a1141"
   ],
   "language-models": [
     "0800d6232a487cad"
@@ -2052,6 +2214,9 @@
   "large-language-models": [
     "12f2e33dfc840d80",
     "48a75d3cd9c65097"
+  ],
+  "large-large-models": [
+    "98cddba2493b3206"
   ],
   "launchd": [
     "5cc27f4e76d8fd72"
@@ -2069,7 +2234,8 @@
     "70478bfae314c50c"
   ],
   "letta-code": [
-    "5413fcc83d59f617"
+    "5413fcc83d59f617",
+    "758c43ac19c3777c"
   ],
   "lexical": [
     "e80d8111923d2d01"
@@ -2099,6 +2265,7 @@
     "4ee3d092ab51b33f"
   ],
   "lint": [
+    "137dbad120b09995",
     "1ff8d9f9e33b5fe4",
     "2e3711ff2bcd25e3",
     "32ba82ef9af85026",
@@ -2178,7 +2345,8 @@
     "b0c7d6332d018828"
   ],
   "llm-inference": [
-    "2208f8d9a2d3a3fd"
+    "2208f8d9a2d3a3fd",
+    "7ccf686bf6686eba"
   ],
   "llm-memory": [
     "289653020e7a184b"
@@ -2289,8 +2457,10 @@
   ],
   "machine-learning": [
     "2b1b88e0fdfcd92c",
+    "61ee34baa2b21537",
     "6ed9a5d8c3cba574",
     "7319192c00a049ad",
+    "8d3e3126c31f0f18",
     "e310c3f5fea3f913",
     "fe1822ea43a8aa8a"
   ],
@@ -2309,6 +2479,9 @@
   ],
   "manager": [
     "02064833c79ba238"
+  ],
+  "manual-docs-deploy": [
+    "a89cd77f0c200533"
   ],
   "mark-and-close-stale-issues": [
     "5cd05544f309ee82"
@@ -2365,6 +2538,9 @@
   "metabolomics": [
     "e32310d976286560"
   ],
+  "metal": [
+    "3148b465b98892d4"
+  ],
   "midjourney": [
     "9b81a95dcb29b257"
   ],
@@ -2386,6 +2562,9 @@
   "minimax": [
     "9c80a1950d48be0a",
     "f4a91208b29a9674"
+  ],
+  "mkdocs": [
+    "46701ffe639a5b6c"
   ],
   "ml-dsa": [
     "9b877df10bdfe2ab"
@@ -2458,6 +2637,9 @@
     "1f69f57876b78e73",
     "ea90aedd98e33861"
   ],
+  "ndarray": [
+    "a2fa6fcfc8a2471c"
+  ],
   "neo4j": [
     "8e42420337f1e707"
   ],
@@ -2466,6 +2648,10 @@
   ],
   "neovim-plugin": [
     "839630397554c80c"
+  ],
+  "neural-network": [
+    "12ba2fcf48aa2500",
+    "9ab42a19028629b2"
   ],
   "neural-search": [
     "e465e0e7e163ede4"
@@ -2495,6 +2681,12 @@
   "nightly-full-tests": [
     "bf2a21408d76a978"
   ],
+  "nightly-release": [
+    "efe7ac45d7d80ba1"
+  ],
+  "nightly-update-smoke": [
+    "307170766aae723a"
+  ],
   "no-response": [
     "5b68ffdca2cd5d67"
   ],
@@ -2517,6 +2709,7 @@
     "66ee9ddcee63ba94",
     "a98ad75d69f4f296",
     "a9da6be64a401f26",
+    "cc3839973a1b137a",
     "eb1ea3704a57b948",
     "f269758d52d8ef15"
   ],
@@ -2540,6 +2733,12 @@
   ],
   "npm-packages": [
     "41d49f694513c564"
+  ],
+  "numpy": [
+    "1c1d1e6c22971ca6"
+  ],
+  "nvidia": [
+    "2df6a855160cbf65"
   ],
   "nvim": [
     "9ae3c6063d187f95"
@@ -2568,7 +2767,8 @@
     "5bb2999632648b03"
   ],
   "onnx": [
-    "7144b21a3c207c3a"
+    "7144b21a3c207c3a",
+    "814b7dfdf1ba4c77"
   ],
   "open-cargo-binstall-release-pr": [
     "a1a833702d48a992"
@@ -2580,6 +2780,9 @@
     "427417a598f29ec7",
     "70b303d643aaff28",
     "d10b6fd136d1712d"
+  ],
+  "open-telemetry": [
+    "1e6fc3345356a83e"
   ],
   "openai-codex": [
     "5006ef94f573cc69"
@@ -2611,11 +2814,15 @@
     "87d1c6f0d447cfa1"
   ],
   "opensource": [
+    "849104ef32b1f012",
     "b74eaf24cae37ae6"
   ],
   "openssf-scorecard": [
     "a5147884d65721c7",
     "ae669f4e7048cd15"
+  ],
+  "opentelemetry": [
+    "ee90091bef99ac2e"
   ],
   "optimization": [
     "db14f20c7fbf12e0"
@@ -2633,11 +2840,15 @@
     "eb549fd73d62ba5d"
   ],
   "package-manager": [
+    "bc403a43037cf0a6",
     "dd8156783aa59d3d",
     "fdf1d44f6097c804"
   ],
   "package-release": [
     "6519734f473a066b"
+  ],
+  "package-tests": [
+    "8d2073b1242685a8"
   ],
   "packaging": [
     "2f8040a48326244a",
@@ -2709,6 +2920,9 @@
   "powershell-tests": [
     "b192fe8b02f97d7a"
   ],
+  "pr-bots": [
+    "698745c299e629de"
+  ],
   "pr-build-check": [
     "89a526fc9fa6e98c"
   ],
@@ -2724,6 +2938,9 @@
   ],
   "pr-gate": [
     "13b57f69467fae40"
+  ],
+  "pr-guard": [
+    "a7941cdb70be4975"
   ],
   "pr-labeler": [
     "57382075902e3468",
@@ -2751,6 +2968,12 @@
     "72db930b74022975",
     "9a9fec6160639a2d",
     "b787df157223841d"
+  ],
+  "pre-commit-auto-update": [
+    "b39dd31b1d5097b1"
+  ],
+  "prepare-release": [
+    "0df3a22927434a13"
   ],
   "pretrained-models": [
     "0f4555ca86c66344"
@@ -2783,6 +3006,9 @@
   ],
   "programming": [
     "88accd505c1345b1"
+  ],
+  "programming-language": [
+    "abb618a4e36b7c7b"
   ],
   "prompt-engineering": [
     "9058b22aee23d7fa",
@@ -2829,19 +3055,27 @@
     "0b33c26ec6f31ae7",
     "103a7b52795eeb68",
     "1f96a6a3fb6a8d09",
+    "5b3d5b569a3b5497",
     "d1ba16f9b5eed000",
     "d3e727917c1553b5",
     "e46fad1bdc923485"
   ],
+  "publish-docs": [
+    "6456ab688ececf1a"
+  ],
   "publish-extension-to-chrome-web-store": [
     "154ae5dc5e882589"
+  ],
+  "publish-mirror": [
+    "acdca96aaf54bf22"
   ],
   "publish-pypi": [
     "e76db254d0f33f98",
     "f29f3520b1abf45d"
   ],
   "publish-release": [
-    "8e6c2d857cfb90bf"
+    "8e6c2d857cfb90bf",
+    "a84828b745d1ebe8"
   ],
   "publish-release-build": [
     "0969a0ae06d083c1"
@@ -2870,6 +3104,7 @@
   ],
   "publish-to-pypi": [
     "2372b01897973e1a",
+    "36612bc9864d443c",
     "5a6f36c328c61f1a",
     "652b9247de353c3b",
     "84cfad0525691d75"
@@ -2890,6 +3125,7 @@
   ],
   "pydantic": [
     "1e8f9cbb40eb577c",
+    "21f9fe9a9a5a3d3a",
     "c661aadc3e9a9669"
   ],
   "pydantic-version-testing": [
@@ -2917,8 +3153,11 @@
     "521e0861e09426ca"
   ],
   "pytorch": [
+    "0ccf75fbe3268f20",
+    "1eaafc8d96278ef8",
     "2165855f737cad27",
     "986c46755fa36de8",
+    "ba936a7291b911d6",
     "f5b56dc36bedf517"
   ],
   "pytorch-transformers": [
@@ -3161,14 +3400,24 @@
     "773481b3f2db19e5",
     "ea39749ba0b7daa8"
   ],
+  "reusable-binary-release-workflow": [
+    "0b99507630c60ea7"
+  ],
+  "reusable-goreleaser-ci-workflow": [
+    "0b5adb0c1f9e714e"
+  ],
   "reusable-release-workflow": [
-    "f1420172dd1ada28"
+    "f1420172dd1ada28",
+    "ffe7fcb2f59759a3"
   ],
   "rewards-scripts-check": [
     "8d7a41c9a9eff64e"
   ],
   "rewrk": [
     "de97d9d81fdcbc6f"
+  ],
+  "rocm": [
+    "63be9a238dcb5f63"
   ],
   "roocode": [
     "ea5f0d7cd201c2d0"
@@ -3198,8 +3447,18 @@
   "run-mypy": [
     "4a21dc0e03e9e288"
   ],
+  "run-optional-tests": [
+    "4adfa5300e70c433"
+  ],
   "run-profiling-on-the-tpch-benchmark": [
     "04dbdeec29e405d5"
+  ],
+  "run-tests": [
+    "047c76ad774a511d",
+    "382ae99e4cb3002b"
+  ],
+  "run-tests-against-tunix-package": [
+    "eab7e47c10030b6e"
   ],
   "run-unit-tests": [
     "a5b041d2038ae740"
@@ -3215,7 +3474,10 @@
     "3c89740486d7faaa",
     "459610f13923f3cf",
     "4be20b6ab9cb4187",
+    "5be071d8d88a5123",
+    "5ec15dfed15cc415",
     "5fd1895413cdc8e1",
+    "7a9178e78d293607",
     "80db5b1ad3d651ce",
     "84d7b6b2f51e53f3",
     "9f6c40ca3126232c",
@@ -3225,6 +3487,9 @@
     "dd03ddd7d1fd5f05",
     "ed485b985e7e794e",
     "f8a96f01c8635943"
+  ],
+  "rust-lang": [
+    "52011f50527b493d"
   ],
   "rust-library": [
     "3d62b6aeef9ce121"
@@ -3243,7 +3508,8 @@
     "4746336ac9f52d14"
   ],
   "scientific-computing": [
-    "2a3e721f17a7a7bf"
+    "2a3e721f17a7a7bf",
+    "9fd936ee345bc44c"
   ],
   "scientific-visualization": [
     "28061b170bf2b542"
@@ -3298,6 +3564,9 @@
   ],
   "serialization": [
     "6e981d2c3a97ae17"
+  ],
+  "server-integration-tests": [
+    "3b56cab820779ebc"
   ],
   "server-tests-dotnet": [
     "5a4bb0d3280b1f0c"
@@ -3417,6 +3686,9 @@
   ],
   "stale-issues-prs": [
     "9f286745ead11a1b"
+  ],
+  "stale-pull-requests": [
+    "538eb85a1a15f6fb"
   ],
   "staleness-tests": [
     "dd4d5bda286a964c"
@@ -3542,13 +3814,24 @@
   "temurin": [
     "4ebc5f526315b899"
   ],
+  "tensor": [
+    "072c47c4842efb02",
+    "186a68ec53e77964",
+    "afabebc707a77e4f"
+  ],
   "tensor-algebra": [
     "3230b3b6824b73c7"
+  ],
+  "tensorflow": [
+    "f75e9d09ff1daeab"
   ],
   "terminal": [
     "a8c8a49868768912",
     "ac3185a0bb25baf7",
     "dd35512eeb8e1c43"
+  ],
+  "terminal-bench-regression": [
+    "a030b21299a46034"
   ],
   "terraform": [
     "a32d78231ef0f08c"
@@ -3581,6 +3864,9 @@
   ],
   "test-and-lint": [
     "f8b862e493c9ee28"
+  ],
+  "test-and-publish-new-release": [
+    "7040b54a964e8670"
   ],
   "test-build": [
     "3a8a46943f4dbda7",
@@ -3625,12 +3911,18 @@
   "test-memory-controllers": [
     "e2d832c4e7db3a85"
   ],
+  "test-notebooks": [
+    "8d81ed3bdeba2e08"
+  ],
   "test-pypi-publish": [
     "193104e2fc997850"
   ],
   "test-release": [
     "2198a52ffe5a7932",
     "8c2bdf9c94ce5254"
+  ],
+  "test-release-to-test.pypi.org": [
+    "2b6b92c97e7e2321"
   ],
   "test-report": [
     "aba9f93c3d9ed617"
@@ -3696,6 +3988,7 @@
     "61f17494fcaeb923"
   ],
   "tools": [
+    "612e96e108e080f1",
     "8a87861b44b4bc9d",
     "f3a3253ec35c6e54"
   ],
@@ -3724,8 +4017,17 @@
   "transport-interop---build-implementation-images": [
     "9fa3e4948773caed"
   ],
+  "triage-new-issue": [
+    "ca44d01c272db6b2"
+  ],
   "trigger-coderabbit-on-ready-for-review": [
     "8e5cdb40afc0ea8e"
+  ],
+  "tunix-nightly-regression-tests": [
+    "e403e7c999b297f4"
+  ],
+  "tunix-package-tests": [
+    "fed3eb8805ae5dab"
   ],
   "tweakcc": [
     "562b38c827e930aa"
@@ -3779,6 +4081,9 @@
   ],
   "upscaling": [
     "7d94875a6a526ddd"
+  ],
+  "valgrind": [
+    "b04840e3bdc71217"
   ],
   "validate": [
     "d976012508c308f0"
@@ -3853,11 +4158,18 @@
   "vtuber": [
     "a8c3092d1cb5e2d3"
   ],
+  "vulkan": [
+    "0abf1e4ce13c2ae0"
+  ],
+  "vulnerabilities": [
+    "8da7afabe932b04e"
+  ],
   "vulnerability-scanner": [
     "8c5358420318fb1e"
   ],
   "wasm": [
     "48217573c6ddbf27",
+    "9b3c3343978115f9",
     "c42be9c7f5c3f8b2"
   ],
   "wasmgc": [
@@ -3865,6 +4177,9 @@
   ],
   "webfont": [
     "40be31a709ad98d2"
+  ],
+  "webgpu": [
+    "86898a6065c2ad8b"
   ],
   "webmin": [
     "cc210fdd311564a7"

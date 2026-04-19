@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CI - Contrib - GoReleaser"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-collector-releases",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Collector Official Releases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-collector-releases",
+      "status": "candidate-context",
+      "text": "CI - Contrib - GoReleaser"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-collector-releases",
+      "status": "candidate",
+      "text": "CI - Contrib - GoReleaser"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "agglomeration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "agglomerations"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "alleviation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "ambiance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "ambience"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CI - Contrib - GoReleaser",
+  "concept_id": "ci---contrib---goreleaser",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T01:08:57.644140+00:00",
+      "source_file": ".github/workflows/ci-goreleaser-contrib.yaml",
+      "source_repo": "open-telemetry/opentelemetry-collector-releases"
+    }
+  ],
+  "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI - Contrib - GoReleaser",
+      "sense_id": "ci---contrib---goreleaser#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

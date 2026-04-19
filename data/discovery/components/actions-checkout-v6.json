@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v6",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1527,6 +1527,91 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/coverage.yml",
       "source_repo": "charmbracelet/glamour"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/call_cpu_tests.yml",
+      "source_repo": "guidance-ai/guidance"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/call_gpu_tests.yml",
+      "source_repo": "guidance-ai/guidance"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_credentials.yml",
+      "source_repo": "guidance-ai/guidance"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_docs.yml",
+      "source_repo": "guidance-ai/guidance"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/code_quality.yml",
+      "source_repo": "guidance-ai/guidance"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale-pr.yml",
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-gpu.yml",
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/valgrind.yml",
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vulnerabilities.yml",
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "letta-ai/letta-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/letta.yml",
+      "source_repo": "letta-ai/letta-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly-update-smoke.yml",
+      "source_repo": "letta-ai/letta-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "letta-ai/letta-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "letta-ai/letta-code"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/terminal-bench-regression.yml",
+      "source_repo": "letta-ai/letta-code"
     }
   ]
 }

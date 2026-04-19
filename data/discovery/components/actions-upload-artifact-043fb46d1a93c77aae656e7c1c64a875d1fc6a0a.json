@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -72,6 +72,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build_release.yml",
       "source_repo": "cedar-policy/cedar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/base-ci-binary.yaml",
+      "source_repo": "open-telemetry/opentelemetry-collector-releases"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/base-ci-goreleaser.yaml",
+      "source_repo": "open-telemetry/opentelemetry-collector-releases"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/base-release.yaml",
+      "source_repo": "open-telemetry/opentelemetry-collector-releases"
     }
   ]
 }

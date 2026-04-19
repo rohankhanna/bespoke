@@ -1,0 +1,92 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The memory-first coding agent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Nightly Update Smoke"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Nightly Update Smoke"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20984,
+      "status": "candidate",
+      "text": "nocturnal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20746,
+      "status": "candidate",
+      "text": "dew"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20746,
+      "status": "candidate",
+      "text": "egg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20746,
+      "status": "candidate",
+      "text": "midnight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20746,
+      "status": "candidate",
+      "text": "misty"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly Update Smoke",
+      "sense_id": "nightly-update-smoke#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nightly-update-smoke",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nightly-update-smoke",
+  "observation_id": "307170766aae723a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T01:08:57.644140+00:00",
+  "observed_text": "Nightly Update Smoke",
+  "source_context_snippet": "Nightly Update Smoke",
+  "source_file": ".github/workflows/nightly-update-smoke.yml",
+  "source_repo": "letta-ai/letta-code",
+  "source_repo_description": "The memory-first coding agent"
+}

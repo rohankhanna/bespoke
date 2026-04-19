@@ -1,0 +1,385 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-optional-tests.yml"
+    },
+    {
+      "component": "corca-ai/local-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-optional-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-release.yml"
+    },
+    {
+      "component": "corca-ai/local-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-release.yml"
+    },
+    {
+      "component": "corca-ai/local-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-test-release.yml"
+    },
+    {
+      "component": "corca-ai/local-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-test-release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-test-release.yml"
+    },
+    {
+      "component": "corca-ai/local-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-test-release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-test-release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-tests.yml"
+    },
+    {
+      "component": "corca-ai/local-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-tests.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-tests.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-tests.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-tests.yml"
+    },
+    {
+      "component": "actions/download-artifact@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-tests.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eth-sri/lmql",
+      "target": "microsoft/guidance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-optional-tests.yml",
+      "source_repo": "eth-sri/lmql",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-optional-tests.yml",
+      "source_repo": "eth-sri/lmql",
+      "target": "corca-ai/local-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lmql-optional-tests.yml",
+      "source_repo": "eth-sri/lmql",
+      "target": "Run Optional Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-release.yml",
+      "source_repo": "eth-sri/lmql",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-release.yml",
+      "source_repo": "eth-sri/lmql",
+      "target": "corca-ai/local-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lmql-release.yml",
+      "source_repo": "eth-sri/lmql",
+      "target": "Test and Publish New Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-test-release.yml",
+      "source_repo": "eth-sri/lmql",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-test-release.yml",
+      "source_repo": "eth-sri/lmql",
+      "target": "corca-ai/local-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lmql-test-release.yml",
+      "source_repo": "eth-sri/lmql",
+      "target": "Test Release to test.pypi.org",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-tests.yml",
+      "source_repo": "eth-sri/lmql",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-tests.yml",
+      "source_repo": "eth-sri/lmql",
+      "target": "corca-ai/local-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-tests.yml",
+      "source_repo": "eth-sri/lmql",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-tests.yml",
+      "source_repo": "eth-sri/lmql",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-tests.yml",
+      "source_repo": "eth-sri/lmql",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-tests.yml",
+      "source_repo": "eth-sri/lmql",
+      "target": "actions/upload-artifact@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-tests.yml",
+      "source_repo": "eth-sri/lmql",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-tests.yml",
+      "source_repo": "eth-sri/lmql",
+      "target": "actions/download-artifact@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lmql-tests.yml",
+      "source_repo": "eth-sri/lmql",
+      "target": "JamesIves/github-pages-deploy-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lmql-tests.yml",
+      "source_repo": "eth-sri/lmql",
+      "target": "Run Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eth-sri/lmql",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eth-sri/lmql",
+      "target": "huggingface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eth-sri/lmql",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eth-sri/lmql",
+      "target": "programming-language",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T01:09:14.075386+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10063
+    },
+    {
+      "path": ".github/workflows/lmql-optional-tests.yml",
+      "size": 1175
+    },
+    {
+      "path": ".github/workflows/lmql-release.yml",
+      "size": 3204
+    },
+    {
+      "path": ".github/workflows/lmql-test-release.yml",
+      "size": 3298
+    },
+    {
+      "path": ".github/workflows/lmql-tests.yml",
+      "size": 3113
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "A language for constraint-guided and efficient LLM programming.",
+    "full_name": "eth-sri/lmql",
+    "html_url": "https://github.com/eth-sri/lmql",
+    "language": "Python",
+    "pushed_at": "2025-05-22T07:32:31Z",
+    "topics": [
+      "chatgpt",
+      "huggingface",
+      "language-model",
+      "programming-language"
+    ],
+    "updated_at": "2026-04-17T19:37:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/guidance",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run Optional Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lmql-optional-tests.yml",
+      "term": "Run Optional Tests"
+    },
+    {
+      "context_snippet": "Test and Publish New Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lmql-release.yml",
+      "term": "Test and Publish New Release"
+    },
+    {
+      "context_snippet": "Test Release to test.pypi.org",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lmql-test-release.yml",
+      "term": "Test Release to test.pypi.org"
+    },
+    {
+      "context_snippet": "Run Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lmql-tests.yml",
+      "term": "Run Tests"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "huggingface"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-language"
+    }
+  ]
+}

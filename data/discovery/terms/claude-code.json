@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
+  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -386,6 +386,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "wshobson/agents"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "flashinfer-ai/flashinfer"
     }
   ],
   "term": "Claude Code"

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Nightly Update Smoke"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "letta-ai/letta-code",
+      "status": "candidate-context",
+      "text": "The memory-first coding agent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "letta-ai/letta-code",
+      "status": "candidate-context",
+      "text": "Nightly Update Smoke"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "letta-ai/letta-code",
+      "status": "candidate",
+      "text": "Nightly Update Smoke"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20984,
+      "status": "candidate",
+      "text": "nocturnal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20746,
+      "status": "candidate",
+      "text": "dew"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20746,
+      "status": "candidate",
+      "text": "egg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20746,
+      "status": "candidate",
+      "text": "midnight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20746,
+      "status": "candidate",
+      "text": "misty"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Nightly Update Smoke",
+  "concept_id": "nightly-update-smoke",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T01:08:57.644140+00:00",
+      "source_file": ".github/workflows/nightly-update-smoke.yml",
+      "source_repo": "letta-ai/letta-code"
+    }
+  ],
+  "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly Update Smoke",
+      "sense_id": "nightly-update-smoke#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

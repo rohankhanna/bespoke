@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto-assign issues and PRs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/tunix",
+      "status": "candidate-context",
+      "text": "A Lightweight LLM Post-Training Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/tunix",
+      "status": "candidate-context",
+      "text": "Auto-assign issues and PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/tunix",
+      "status": "candidate",
+      "text": "Auto-assign issues and PRs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "precedent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15304,
+      "status": "candidate",
+      "text": "rep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11424,
+      "status": "candidate",
+      "text": "commerce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "archival"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto-assign issues and PRs",
+  "concept_id": "auto-assign-issues-and-prs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T01:08:57.644140+00:00",
+      "source_file": ".github/workflows/issue-auto-assign.yaml",
+      "source_repo": "google/tunix"
+    }
+  ],
+  "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto-assign issues and PRs",
+      "sense_id": "auto-assign-issues-and-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

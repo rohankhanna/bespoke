@@ -1,0 +1,56 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "FlashInfer: Kernel Library for LLM Serving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "large-large-models",
+      "sense_id": "large-large-models#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "large-large-models",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "large-large-models",
+  "observation_id": "98cddba2493b3206",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-19T01:08:57.644140+00:00",
+  "observed_text": "large-large-models",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "flashinfer-ai/flashinfer",
+  "source_repo_description": "FlashInfer: Kernel Library for LLM Serving"
+}

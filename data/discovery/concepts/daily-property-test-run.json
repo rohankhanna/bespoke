@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Daily property test run"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astral-sh/ty",
+      "status": "candidate-context",
+      "text": "An extremely fast Python type checker and language server, written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/ty",
+      "status": "candidate-context",
+      "text": "Daily property test run"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/ty",
+      "status": "candidate",
+      "text": "Daily property test run"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44261,
+      "status": "candidate",
+      "text": "lunacy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34381,
+      "status": "candidate",
+      "text": "strip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34381,
+      "status": "candidate",
+      "text": "stripped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33236,
+      "status": "candidate",
+      "text": "flyer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33077,
+      "status": "candidate",
+      "text": "pilot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Daily property test run",
+  "concept_id": "daily-property-test-run",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T01:08:57.644140+00:00",
+      "source_file": ".github/workflows/daily_property_tests.yml",
+      "source_repo": "astral-sh/ty"
+    }
+  ],
+  "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Daily property test run",
+      "sense_id": "daily-property-test-run#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

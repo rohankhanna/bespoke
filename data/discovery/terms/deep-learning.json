@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
+  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -16,6 +16,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "oxpig/CaLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "arogozhnikov/einops"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "chelsea0x3b/dfdx"
     }
   ],
   "term": "deep-learning"

@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "knownsec/404StarLink-Project",
+      "target": "knownsec/404starlink2.0-galaxy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "knownsec/404StarLink-Project",
+      "target": "madneal/gshark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "knownsec/404StarLink-Project",
+      "target": "funnywolf/viper",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "knownsec/404StarLink-Project",
+      "target": "shadow1ng/fscan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knownsec/404StarLink-Project",
+      "target": "opensource",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knownsec/404StarLink-Project",
+      "target": "tools",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T01:08:59.498746+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6833
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "Focus on promoting the evolution of tools in different aspects of security research.\u4e13\u6ce8\u4e8e\u63a8\u52a8\u5b89\u5168\u7814\u7a76\u5404\u4e2a\u9886\u57df\u5de5\u5177\u5316.(\u9879\u76ee\u6536\u5f55\u9010\u6b65\u8fc1\u79fb\u81f3 https://github.com/knownsec/404StarLink)",
+    "full_name": "knownsec/404StarLink-Project",
+    "html_url": "https://github.com/knownsec/404StarLink-Project",
+    "language": null,
+    "pushed_at": "2021-05-12T06:13:35Z",
+    "topics": [
+      "opensource",
+      "tools"
+    ],
+    "updated_at": "2026-04-17T07:28:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "funnywolf/viper",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "knownsec/404starlink2.0-galaxy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "madneal/gshark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shadow1ng/fscan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![](./logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opensource"
+    },
+    {
+      "context_snippet": "![](./logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tools"
+    }
+  ]
+}

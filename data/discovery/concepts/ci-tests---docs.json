@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CI Tests - Docs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "guidance-ai/guidance",
+      "status": "candidate-context",
+      "text": "A guidance language for controlling large language models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guidance-ai/guidance",
+      "status": "candidate-context",
+      "text": "CI Tests - Docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "guidance-ai/guidance",
+      "status": "candidate",
+      "text": "CI Tests - Docs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21091,
+      "status": "candidate",
+      "text": "eve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18635,
+      "status": "candidate",
+      "text": "curve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13081,
+      "status": "candidate",
+      "text": "pierre curie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12275,
+      "status": "candidate",
+      "text": "aire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12275,
+      "status": "candidate",
+      "text": "irene"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CI Tests - Docs",
+  "concept_id": "ci-tests---docs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T01:08:57.644140+00:00",
+      "source_file": ".github/workflows/ci_docs.yml",
+      "source_repo": "guidance-ai/guidance"
+    }
+  ],
+  "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI Tests - Docs",
+      "sense_id": "ci-tests---docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

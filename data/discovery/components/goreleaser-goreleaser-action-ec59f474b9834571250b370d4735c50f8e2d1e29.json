@@ -1,7 +1,7 @@
 {
   "component": "goreleaser/goreleaser-action@ec59f474b9834571250b370d4735c50f8e2d1e29",
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
+  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test-build.yaml",
       "source_repo": "ethpandaops/cbt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/base-binary-release.yaml",
+      "source_repo": "open-telemetry/opentelemetry-collector-releases"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/base-ci-binary.yaml",
+      "source_repo": "open-telemetry/opentelemetry-collector-releases"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/base-ci-goreleaser.yaml",
+      "source_repo": "open-telemetry/opentelemetry-collector-releases"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/base-release.yaml",
+      "source_repo": "open-telemetry/opentelemetry-collector-releases"
     }
   ]
 }

@@ -1,0 +1,969 @@
+{
+  "components": [
+    {
+      "component": "github/combine-prs@v5.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/combine-dependabot-prs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml"
+    },
+    {
+      "component": "actions-rust-lang/audit@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml"
+    },
+    {
+      "component": "EmbarkStudios/cargo-deny-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-pr.yml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gpu.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/install-rust@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gpu.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gpu.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/install-rust@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gpu.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gpu.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/install-rust@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gpu.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/install-rust@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/check-typos@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/install-rust@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/install-rust@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/install-rust@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/install-rust@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/install-rust@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/valgrind.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/install-mesa@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/valgrind.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulnerabilities.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulnerabilities.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/install-mesa@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulnerabilities.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulnerabilities.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulnerabilities.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/install-mesa@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulnerabilities.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulnerabilities.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulnerabilities.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/install-mesa@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulnerabilities.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulnerabilities.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulnerabilities.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/install-mesa@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulnerabilities.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulnerabilities.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulnerabilities.yml"
+    },
+    {
+      "component": "tracel-ai/github-actions/install-mesa@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulnerabilities.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tracel-ai/burn",
+      "target": "ratatui-org/ratatui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tracel-ai/burn",
+      "target": "tracel-ai/burn-onnx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tracel-ai/burn",
+      "target": "tracel-ai/burn-bench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tracel-ai/burn",
+      "target": "tracel-ai/models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/combine-dependabot-prs.yml",
+      "source_repo": "tracel-ai/burn",
+      "target": "github/combine-prs@v5.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/combine-dependabot-prs.yml",
+      "source_repo": "tracel-ai/burn",
+      "target": "Combine Dependabot PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "tracel-ai/burn",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "tracel-ai/burn",
+      "target": "actions-rust-lang/audit@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "tracel-ai/burn",
+      "target": "EmbarkStudios/cargo-deny-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "tracel-ai/burn",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "tracel-ai/burn",
+      "target": "dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "tracel-ai/burn",
+      "target": "tracel-ai/github-actions/.github/workflows/publish-crate.yml@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "tracel-ai/burn",
+      "target": "publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-pr.yml",
+      "source_repo": "tracel-ai/burn",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-pr.yml",
+      "source_repo": "tracel-ai/burn",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-pr.yml",
+      "source_repo": "tracel-ai/burn",
+      "target": "Stale Pull Requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gpu.yml",
+      "source_repo": "tracel-ai/burn",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gpu.yml",
+      "source_repo": "tracel-ai/burn",
+      "target": "tracel-ai/github-actions/install-rust@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-gpu.yml",
+      "source_repo": "tracel-ai/burn",
+      "target": "CI GPU",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "tracel-ai/burn",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "tracel-ai/burn",
+      "target": "tracel-ai/github-actions/install-rust@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "tracel-ai/burn",
+      "target": "tracel-ai/github-actions/check-typos@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "tracel-ai/burn",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/valgrind.yml",
+      "source_repo": "tracel-ai/burn",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/valgrind.yml",
+      "source_repo": "tracel-ai/burn",
+      "target": "tracel-ai/github-actions/install-mesa@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/valgrind.yml",
+      "source_repo": "tracel-ai/burn",
+      "target": "valgrind",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulnerabilities.yml",
+      "source_repo": "tracel-ai/burn",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulnerabilities.yml",
+      "source_repo": "tracel-ai/burn",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vulnerabilities.yml",
+      "source_repo": "tracel-ai/burn",
+      "target": "tracel-ai/github-actions/install-mesa@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vulnerabilities.yml",
+      "source_repo": "tracel-ai/burn",
+      "target": "vulnerabilities",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn",
+      "target": "autodiff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn",
+      "target": "kernel-fusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn",
+      "target": "metal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn",
+      "target": "ndarray",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn",
+      "target": "onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn",
+      "target": "rocm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn",
+      "target": "scientific-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn",
+      "target": "tensor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn",
+      "target": "vulkan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn",
+      "target": "wasm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn",
+      "target": "webgpu",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T01:09:45.833127+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21483
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 6569
+    },
+    {
+      "path": ".github/workflows/combine-dependabot-prs.yml",
+      "size": 391
+    },
+    {
+      "path": ".github/workflows/dependencies.yml",
+      "size": 1964
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 14458
+    },
+    {
+      "path": ".github/workflows/stale-pr.yml",
+      "size": 1479
+    },
+    {
+      "path": ".github/workflows/test-gpu.yml",
+      "size": 5897
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 8560
+    },
+    {
+      "path": ".github/workflows/valgrind.yml",
+      "size": 1295
+    },
+    {
+      "path": ".github/workflows/vulnerabilities.yml",
+      "size": 5122
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Burn is a next generation tensor library and Deep Learning Framework that doesn't compromise on flexibility, efficiency and portability.",
+    "full_name": "tracel-ai/burn",
+    "html_url": "https://github.com/tracel-ai/burn",
+    "language": "Rust",
+    "pushed_at": "2026-04-18T16:15:08Z",
+    "topics": [
+      "autodiff",
+      "cross-platform",
+      "cuda",
+      "deep-learning",
+      "kernel-fusion",
+      "machine-learning",
+      "metal",
+      "ndarray",
+      "neural-network",
+      "onnx",
+      "pytorch",
+      "rocm",
+      "rust",
+      "scientific-computing",
+      "tensor",
+      "vulkan",
+      "wasm",
+      "webgpu"
+    ],
+    "updated_at": "2026-04-18T06:18:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ratatui-org/ratatui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tracel-ai/burn-bench",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tracel-ai/burn-onnx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tracel-ai/models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Combine Dependabot PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/combine-dependabot-prs.yml",
+      "term": "Combine Dependabot PRs"
+    },
+    {
+      "context_snippet": "dependencies",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependencies.yml",
+      "term": "dependencies"
+    },
+    {
+      "context_snippet": "publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "publish"
+    },
+    {
+      "context_snippet": "Stale Pull Requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-pr.yml",
+      "term": "Stale Pull Requests"
+    },
+    {
+      "context_snippet": "CI GPU",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-gpu.yml",
+      "term": "CI GPU"
+    },
+    {
+      "context_snippet": "valgrind",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/valgrind.yml",
+      "term": "valgrind"
+    },
+    {
+      "context_snippet": "vulnerabilities",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vulnerabilities.yml",
+      "term": "vulnerabilities"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autodiff"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kernel-fusion"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metal"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ndarray"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rocm"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scientific-computing"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensor"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasm"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webgpu"
+    }
+  ]
+}

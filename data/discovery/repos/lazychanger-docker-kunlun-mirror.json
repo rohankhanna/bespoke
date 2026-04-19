@@ -1,0 +1,24 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-19T01:09:00.940545+00:00",
+  "fetched_files": [
+    {
+      "path": "Dockerfile",
+      "size": 556
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "master",
+    "description": "\u6606\u4ed1\u955cdocker\u955c\u50cf",
+    "full_name": "lazychanger/docker-kunlun-mirror",
+    "html_url": "https://github.com/lazychanger/docker-kunlun-mirror",
+    "language": "Dockerfile",
+    "pushed_at": "2021-11-24T01:34:29Z",
+    "topics": [],
+    "updated_at": "2025-08-05T17:10:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

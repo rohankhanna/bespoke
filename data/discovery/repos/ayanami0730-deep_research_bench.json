@@ -1,0 +1,110 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ayanami0730/deep_research_bench",
+      "target": "beneadie/deepdog_1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ayanami0730/deep_research_bench",
+      "target": "modelscope/ms-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ayanami0730/deep_research_bench",
+      "target": "kabakawilliam/trajectorykit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ayanami0730/deep_research_bench",
+      "target": "imlrz/deepresearch-bench-ii",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ayanami0730/deep_research_bench",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ayanami0730/deep_research_bench",
+      "target": "deepresearch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T01:09:08.668902+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17114
+    },
+    {
+      "path": "requirements.txt",
+      "size": 71
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents",
+    "full_name": "Ayanami0730/deep_research_bench",
+    "html_url": "https://github.com/Ayanami0730/deep_research_bench",
+    "language": "Python",
+    "pushed_at": "2026-04-18T13:28:47Z",
+    "topics": [
+      "agent",
+      "benchmark",
+      "deepresearch",
+      "nlp"
+    ],
+    "updated_at": "2026-04-18T13:28:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "beneadie/deepdog_1",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "imlrz/deepresearch-bench-ii",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kabakawilliam/trajectorykit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "modelscope/ms-agent",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepresearch"
+    }
+  ]
+}

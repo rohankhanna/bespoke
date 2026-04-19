@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/base-binary-release.yaml",
+      "source_repo": "open-telemetry/opentelemetry-collector-releases"
+    }
+  ],
+  "term": "Reusable binary release workflow"
+}

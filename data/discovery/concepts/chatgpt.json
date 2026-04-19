@@ -37,6 +37,18 @@
       "source_repo": "langchain-ai/langchain",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eth-sri/lmql",
+      "status": "candidate-context",
+      "text": "A language for constraint-guided and efficient LLM programming."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-sri/lmql",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -49,6 +61,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "langchain-ai/langchain",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-sri/lmql",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-18T18:30:26.389736+00:00",
       "source_file": null,
       "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T01:08:57.644140+00:00",
+      "source_file": null,
+      "source_repo": "eth-sri/lmql"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "lexical_providers": [
     "datamuse"
   ],

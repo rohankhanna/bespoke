@@ -13,9 +13,28 @@
       "source_repo": "vincent-k2026/codachi",
       "status": "candidate-context",
       "text": "A tamagotchi-style virtual pet that lives in your Claude Code statusline"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "orogene/orogene",
+      "status": "candidate-context",
+      "text": "Makes `node_modules/` happen. Fast. No fuss."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "orogene/orogene",
+      "status": "candidate-context",
+      "text": "<div style=\"display: flex; justify-content: center;\" align=\"center\">"
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "orogene/orogene",
+      "status": "candidate",
+      "text": "<div style=\"display: flex; justify-content: center;\" align=\"center\">"
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "nodejs",
@@ -63,12 +82,20 @@
       "observed_at": "2026-04-18T13:15:13.756138+00:00",
       "source_file": null,
       "source_repo": "vincent-k2026/codachi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T01:08:57.644140+00:00",
+      "source_file": null,
+      "source_repo": "orogene/orogene"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

@@ -11,24 +11,17 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "LoRexxar/Kunlun-M",
-      "target": "lazychanger/docker-kunlun-mirror",
+      "target": "wufeifei/cobra",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "LoRexxar/Kunlun-M",
-      "target": "knownsec/404starlink-project",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "LoRexxar/Kunlun-M",
-      "target": "knownsec/404starlink",
+      "target": "mark0smith/kunlun-m-gui",
       "target_type": "repository"
     }
   ],
-  "generated_at": "2026-04-18T10:43:38.551697+00:00",
+  "generated_at": "2026-04-19T01:08:57.644140+00:00",
   "source_repo": "LoRexxar/Kunlun-M"
 }

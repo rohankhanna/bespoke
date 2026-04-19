@@ -1,0 +1,92 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A guidance language for controlling large language models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CI Tests - Credentialed"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CI Tests - Credentialed"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16014,
+      "status": "candidate",
+      "text": "credential"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16014,
+      "status": "candidate",
+      "text": "credentialled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14055,
+      "status": "candidate",
+      "text": "credentials"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14034,
+      "status": "candidate",
+      "text": "proven"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14014,
+      "status": "candidate",
+      "text": "aas"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI Tests - Credentialed",
+      "sense_id": "ci-tests---credentialed#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ci-tests---credentialed",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ci-tests---credentialed",
+  "observation_id": "0025ae7d1d9b77fb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T01:08:57.644140+00:00",
+  "observed_text": "CI Tests - Credentialed",
+  "source_context_snippet": "CI Tests - Credentialed",
+  "source_file": ".github/workflows/ci_credentials.yml",
+  "source_repo": "guidance-ai/guidance",
+  "source_repo_description": "A guidance language for controlling large language models."
+}

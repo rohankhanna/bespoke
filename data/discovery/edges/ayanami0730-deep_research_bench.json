@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ayanami0730/deep_research_bench",
+      "target": "beneadie/deepdog_1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ayanami0730/deep_research_bench",
+      "target": "modelscope/ms-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ayanami0730/deep_research_bench",
+      "target": "kabakawilliam/trajectorykit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ayanami0730/deep_research_bench",
+      "target": "imlrz/deepresearch-bench-ii",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ayanami0730/deep_research_bench",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ayanami0730/deep_research_bench",
+      "target": "deepresearch",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-19T01:08:57.644140+00:00",
+  "source_repo": "Ayanami0730/deep_research_bench"
+}

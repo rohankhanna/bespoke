@@ -1,4 +1,7 @@
 {
+  "@claude": [
+    "claude"
+  ],
   "a": [
     "en-article_or_determiner-a"
   ],
@@ -51,6 +54,9 @@
   "after all": [
     "en-discourse_marker-after-all"
   ],
+  "after ci": [
+    "after-ci"
+  ],
   "against": [
     "en-preposition-against"
   ],
@@ -62,6 +68,9 @@
   ],
   "agent-collaboration": [
     "agent-collaboration"
+  ],
+  "agent-framework": [
+    "agent-framework"
   ],
   "agent-harness": [
     "agent-harness"
@@ -347,6 +356,9 @@
   "auto tune": [
     "auto-tune"
   ],
+  "auto-assign issues and prs": [
+    "auto-assign-issues-and-prs"
+  ],
   "auto-close duplicate issues": [
     "auto-close-duplicate-issues"
   ],
@@ -361,6 +373,15 @@
   ],
   "auto-retarget-main-pr-to-dev": [
     "auto-retarget-main-pr-to-dev"
+  ],
+  "autodiff": [
+    "autodiff"
+  ],
+  "autodifferentiation": [
+    "autodifferentiation"
+  ],
+  "autograd": [
+    "autograd"
   ],
   "automated documentation audit": [
     "automated-documentation-audit"
@@ -394,6 +415,9 @@
   ],
   "backport": [
     "backport"
+  ],
+  "backpropagation": [
+    "backpropagation"
   ],
   "backup": [
     "backup"
@@ -588,6 +612,9 @@
   "build and test": [
     "build-and-test"
   ],
+  "build and upload tunix package": [
+    "build-and-upload-tunix-package"
+  ],
   "build android app": [
     "build-android-app"
   ],
@@ -609,6 +636,9 @@
   "build dist": [
     "build-dist"
   ],
+  "build docker image": [
+    "build-docker-image"
+  ],
   "build docs": [
     "build-docs"
   ],
@@ -617,6 +647,9 @@
   ],
   "build examples": [
     "build-examples"
+  ],
+  "build flashinfer docs": [
+    "build-flashinfer-docs"
   ],
   "build from tarball": [
     "build-from-tarball"
@@ -724,6 +757,9 @@
   "cc-proxy": [
     "cc-proxy"
   ],
+  "changelog": [
+    "changelog"
+  ],
   "changeset check": [
     "changeset-check"
   ],
@@ -750,6 +786,9 @@
   ],
   "check pypi version": [
     "check-pypi-version"
+  ],
+  "check the documentation build": [
+    "check-the-documentation-build"
   ],
   "check upstream drift": [
     "check-upstream-drift"
@@ -778,6 +817,12 @@
   "ci (cann)": [
     "ci-cann"
   ],
+  "ci - builder": [
+    "ci---builder"
+  ],
+  "ci - contrib - goreleaser": [
+    "ci---contrib---goreleaser"
+  ],
   "ci - libnpmaccess": [
     "ci---libnpmaccess"
   ],
@@ -796,11 +841,41 @@
   "ci - libnpmpack": [
     "ci---libnpmpack"
   ],
+  "ci - other binaries": [
+    "ci---other-binaries"
+  ],
+  "ci bot commands": [
+    "ci-bot-commands"
+  ],
+  "ci gpu": [
+    "ci-gpu"
+  ],
   "ci quality gate": [
     "ci-quality-gate"
   ],
   "ci tests": [
     "ci-tests"
+  ],
+  "ci tests - credentialed": [
+    "ci-tests---credentialed"
+  ],
+  "ci tests - docs": [
+    "ci-tests---docs"
+  ],
+  "ci tests - linux": [
+    "ci-tests---linux"
+  ],
+  "ci tests - macos": [
+    "ci-tests---macos"
+  ],
+  "ci tests - windows": [
+    "ci-tests---windows"
+  ],
+  "ci-cd": [
+    "ci-cd"
+  ],
+  "ci-cd-base": [
+    "ci-cd-base"
   ],
   "cla assistant": [
     "cla-assistant"
@@ -979,6 +1054,9 @@
   "code coverage": [
     "code-coverage"
   ],
+  "code quality": [
+    "code-quality"
+  ],
   "code scanning - action": [
     "code-scanning---action"
   ],
@@ -1026,6 +1104,9 @@
   ],
   "color": [
     "color"
+  ],
+  "combine dependabot prs": [
+    "combine-dependabot-prs"
   ],
   "command-line": [
     "command-line"
@@ -1156,6 +1237,21 @@
   "cuda": [
     "cuda"
   ],
+  "cuda-kernels": [
+    "cuda-kernels"
+  ],
+  "cuda-support": [
+    "cuda-support"
+  ],
+  "cuda-toolkit": [
+    "cuda-toolkit"
+  ],
+  "cudnn": [
+    "cudnn"
+  ],
+  "cupy": [
+    "cupy"
+  ],
   "cursor": [
     "cursor"
   ],
@@ -1173,6 +1269,9 @@
   ],
   "daily parser fuzz": [
     "daily-parser-fuzz"
+  ],
+  "daily property test run": [
+    "daily-property-test-run"
   ],
   "daily space rebuild": [
     "daily-space-rebuild"
@@ -1213,8 +1312,14 @@
   "deep-learning": [
     "deep-learning"
   ],
+  "deep-neural-networks": [
+    "deep-neural-networks"
+  ],
   "deepagents": [
     "deepagents"
+  ],
+  "deepresearch": [
+    "deepresearch"
   ],
   "deepseek": [
     "deepseek"
@@ -1239,6 +1344,9 @@
   ],
   "dependabot-sync": [
     "dependabot-sync"
+  ],
+  "dependencies": [
+    "dependencies"
   ],
   "dependency compatibility tests": [
     "dependency-compatibility-tests"
@@ -1275,6 +1383,12 @@
   ],
   "deploy to github pages": [
     "deploy-to-github-pages"
+  ],
+  "deploy to pypi": [
+    "deploy-to-pypi"
+  ],
+  "deploy-docs": [
+    "deploy-docs"
   ],
   "desktop-app": [
     "desktop-app"
@@ -1330,6 +1444,9 @@
   "distributed-computing": [
     "distributed-computing"
   ],
+  "distributed-inference": [
+    "distributed-inference"
+  ],
   "distributed-systems": [
     "distributed-systems"
   ],
@@ -1365,6 +1482,12 @@
   ],
   "docker-image": [
     "docker-image"
+  ],
+  "docker-multigpu-tests-biweekly": [
+    "docker-multigpu-tests-biweekly"
+  ],
+  "docker-nightlies": [
+    "docker-nightlies"
   ],
   "docker-pin-check": [
     "docker-pin-check"
@@ -1460,6 +1583,9 @@
   ],
   "education": [
     "education"
+  ],
+  "einops": [
+    "einops"
   ],
   "either": [
     "en-article_or_determiner-either",
@@ -1563,6 +1689,9 @@
   "finally": [
     "en-discourse_marker-finally"
   ],
+  "fine-tuning": [
+    "fine-tuning"
+  ],
   "firebase": [
     "firebase"
   ],
@@ -1648,6 +1777,9 @@
   "futures": [
     "futures"
   ],
+  "gateway model health": [
+    "gateway-model-health"
+  ],
   "gemini": [
     "gemini"
   ],
@@ -1662,6 +1794,9 @@
   ],
   "gemma": [
     "gemma"
+  ],
+  "genai": [
+    "genai"
   ],
   "general pr handling for 1panel": [
     "general-pr-handling-for-1panel"
@@ -1752,6 +1887,12 @@
   ],
   "gpt-oss": [
     "gpt-oss"
+  ],
+  "gpu-acceleration": [
+    "gpu-acceleration"
+  ],
+  "gpu-computing": [
+    "gpu-computing"
   ],
   "gradio": [
     "gradio"
@@ -1954,6 +2095,9 @@
   "issue check inactive": [
     "issue-check-inactive"
   ],
+  "issue claim": [
+    "issue-claim"
+  ],
   "issue close require": [
     "issue-close-require"
   ],
@@ -2001,6 +2145,9 @@
   ],
   "karpathy": [
     "karpathy"
+  ],
+  "kernel-fusion": [
+    "kernel-fusion"
   ],
   "kimi": [
     "kimi"
@@ -2076,6 +2223,9 @@
   ],
   "large-language-models": [
     "large-language-models"
+  ],
+  "large-large-models": [
+    "large-large-models"
   ],
   "launchd": [
     "launchd"
@@ -2305,6 +2455,9 @@
   "manager": [
     "manager"
   ],
+  "manual docs deploy": [
+    "manual-docs-deploy"
+  ],
   "many": [
     "en-article_or_determiner-many",
     "en-quantifier-many"
@@ -2363,6 +2516,9 @@
   "metabolomics": [
     "metabolomics"
   ],
+  "metal": [
+    "metal"
+  ],
   "midjourney": [
     "midjourney"
   ],
@@ -2392,6 +2548,9 @@
   ],
   "minus": [
     "en-preposition-minus"
+  ],
+  "mkdocs": [
+    "mkdocs"
   ],
   "ml-dsa": [
     "ml-dsa"
@@ -2484,6 +2643,9 @@
   "natural-language-processing": [
     "natural-language-processing"
   ],
+  "ndarray": [
+    "ndarray"
+  ],
   "near": [
     "en-preposition-near"
   ],
@@ -2503,6 +2665,9 @@
   ],
   "neovim-plugin": [
     "neovim-plugin"
+  ],
+  "neural-network": [
+    "neural-network"
   ],
   "neural-search": [
     "neural-search"
@@ -2539,6 +2704,12 @@
   ],
   "nightly full tests": [
     "nightly-full-tests"
+  ],
+  "nightly release": [
+    "nightly-release"
+  ],
+  "nightly update smoke": [
+    "nightly-update-smoke"
   ],
   "no": [
     "en-article_or_determiner-no",
@@ -2612,6 +2783,12 @@
   "npm-packages": [
     "npm-packages"
   ],
+  "numpy": [
+    "numpy"
+  ],
+  "nvidia": [
+    "nvidia"
+  ],
   "nvim": [
     "nvim"
   ],
@@ -2663,6 +2840,9 @@
   "open-source": [
     "open-source"
   ],
+  "open-telemetry": [
+    "open-telemetry"
+  ],
   "openai-codex": [
     "openai-codex"
   ],
@@ -2692,6 +2872,9 @@
   ],
   "openssf scorecard": [
     "openssf-scorecard"
+  ],
+  "opentelemetry": [
+    "opentelemetry"
   ],
   "opposite": [
     "en-preposition-opposite"
@@ -2737,6 +2920,9 @@
   ],
   "owasp": [
     "owasp"
+  ],
+  "package tests": [
+    "package-tests"
   ],
   "package-manager": [
     "package-manager"
@@ -2816,6 +3002,9 @@
   "powershell tests": [
     "powershell-tests"
   ],
+  "pr bots": [
+    "pr-bots"
+  ],
   "pr build check": [
     "pr-build-check"
   ],
@@ -2830,6 +3019,9 @@
   ],
   "pr gate": [
     "pr-gate"
+  ],
+  "pr guard": [
+    "pr-guard"
   ],
   "pr labeler": [
     "pr-labeler"
@@ -2854,6 +3046,12 @@
   ],
   "pre-commit": [
     "pre-commit"
+  ],
+  "pre-commit auto-update": [
+    "pre-commit-auto-update"
+  ],
+  "prepare release": [
+    "prepare-release"
   ],
   "pretrained-models": [
     "pretrained-models"
@@ -2881,6 +3079,9 @@
   ],
   "programming": [
     "programming"
+  ],
+  "programming-language": [
+    "programming-language"
   ],
   "prompt-engineering": [
     "prompt-engineering"
@@ -2924,6 +3125,9 @@
   "publish": [
     "publish"
   ],
+  "publish docs": [
+    "publish-docs"
+  ],
   "publish extension to chrome web store": [
     "publish-extension-to-chrome-web-store"
   ],
@@ -2959,6 +3163,9 @@
   ],
   "publish to pypi": [
     "publish-to-pypi"
+  ],
+  "publish-mirror": [
+    "publish-mirror"
   ],
   "pull request": [
     "pull-request"
@@ -3182,6 +3389,12 @@
   "retrieval-augmented-generation": [
     "retrieval-augmented-generation"
   ],
+  "reusable binary release workflow": [
+    "reusable-binary-release-workflow"
+  ],
+  "reusable goreleaser ci workflow": [
+    "reusable-goreleaser-ci-workflow"
+  ],
   "reusable release workflow": [
     "reusable-release-workflow"
   ],
@@ -3190,6 +3403,9 @@
   ],
   "rewrk": [
     "rewrk"
+  ],
+  "rocm": [
+    "rocm"
   ],
   "roocode": [
     "roocode"
@@ -3221,8 +3437,17 @@
   "run mypy": [
     "run-mypy"
   ],
+  "run optional tests": [
+    "run-optional-tests"
+  ],
   "run profiling on the tpch benchmark": [
     "run-profiling-on-the-tpch-benchmark"
+  ],
+  "run tests": [
+    "run-tests"
+  ],
+  "run tests against tunix package": [
+    "run-tests-against-tunix-package"
   ],
   "run unit tests": [
     "run-unit-tests"
@@ -3232,6 +3457,9 @@
   ],
   "rust": [
     "rust"
+  ],
+  "rust-lang": [
+    "rust-lang"
   ],
   "rust-library": [
     "rust-library"
@@ -3304,6 +3532,9 @@
   ],
   "serialization": [
     "serialization"
+  ],
+  "server integration tests": [
+    "server-integration-tests"
   ],
   "server tests (dotnet)": [
     "server-tests-dotnet"
@@ -3439,6 +3670,9 @@
   "stale issues & prs": [
     "stale-issues-prs"
   ],
+  "stale pull requests": [
+    "stale-pull-requests"
+  ],
   "staleness tests": [
     "staleness-tests"
   ],
@@ -3559,11 +3793,20 @@
   "temurin": [
     "temurin"
   ],
+  "tensor": [
+    "tensor"
+  ],
   "tensor-algebra": [
     "tensor-algebra"
   ],
+  "tensorflow": [
+    "tensorflow"
+  ],
   "terminal": [
     "terminal"
+  ],
+  "terminal-bench regression": [
+    "terminal-bench-regression"
   ],
   "terraform": [
     "terraform"
@@ -3585,6 +3828,9 @@
   ],
   "test and lint": [
     "test-and-lint"
+  ],
+  "test and publish new release": [
+    "test-and-publish-new-release"
   ],
   "test build": [
     "test-build"
@@ -3616,8 +3862,14 @@
   "test memory controllers": [
     "test-memory-controllers"
   ],
+  "test notebooks": [
+    "test-notebooks"
+  ],
   "test pypi publish": [
     "test-pypi-publish"
+  ],
+  "test release to test.pypi.org": [
+    "test-release-to-test.pypi.org"
   ],
   "test report": [
     "test-report"
@@ -3792,8 +4044,17 @@
   "transport interop - build implementation images": [
     "transport-interop---build-implementation-images"
   ],
+  "triage new issue": [
+    "triage-new-issue"
+  ],
   "trigger coderabbit on ready for review": [
     "trigger-coderabbit-on-ready-for-review"
+  ],
+  "tunix nightly regression tests": [
+    "tunix-nightly-regression-tests"
+  ],
+  "tunix package tests": [
+    "tunix-package-tests"
   ],
   "tweakcc": [
     "tweakcc"
@@ -3868,6 +4129,9 @@
   "us": [
     "en-pronoun-us"
   ],
+  "valgrind": [
+    "valgrind"
+  ],
   "validate": [
     "validate"
   ],
@@ -3940,6 +4204,12 @@
   "vtuber": [
     "vtuber"
   ],
+  "vulkan": [
+    "vulkan"
+  ],
+  "vulnerabilities": [
+    "vulnerabilities"
+  ],
   "vulnerability-scanner": [
     "vulnerability-scanner"
   ],
@@ -3957,6 +4227,9 @@
   ],
   "webfont": [
     "webfont"
+  ],
+  "webgpu": [
+    "webgpu"
   ],
   "webmin": [
     "webmin"

@@ -1,0 +1,138 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions-rust-lang/setup-rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server_integration_tests.yaml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server_integration_tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AtomaAI/atoma-infer",
+      "target": "dao-ailab/flash-attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "AtomaAI/atoma-infer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "AtomaAI/atoma-infer",
+      "target": "actions-rust-lang/setup-rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server_integration_tests.yaml",
+      "source_repo": "AtomaAI/atoma-infer",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/server_integration_tests.yaml",
+      "source_repo": "AtomaAI/atoma-infer",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/server_integration_tests.yaml",
+      "source_repo": "AtomaAI/atoma-infer",
+      "target": "Server Integration Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T01:09:41.733567+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11135
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1225
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1770
+    },
+    {
+      "path": ".github/workflows/server_integration_tests.yaml",
+      "size": 2577
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "Fast serverless LLM inference, in Rust.",
+    "full_name": "AtomaAI/atoma-infer",
+    "html_url": "https://github.com/AtomaAI/atoma-infer",
+    "language": "Rust",
+    "pushed_at": "2025-11-05T11:13:17Z",
+    "topics": [],
+    "updated_at": "2026-04-11T17:37:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dao-ailab/flash-attention",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Server Integration Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/server_integration_tests.yaml",
+      "term": "Server Integration Tests"
+    }
+  ]
+}

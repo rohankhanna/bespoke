@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "deepresearch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ayanami0730/deep_research_bench",
+      "status": "candidate-context",
+      "text": "DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ayanami0730/deep_research_bench",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ayanami0730/deep_research_bench",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents</h1>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "deepresearch",
+  "concept_id": "deepresearch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T01:08:57.644140+00:00",
+      "source_file": null,
+      "source_repo": "Ayanami0730/deep_research_bench"
+    }
+  ],
+  "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deepresearch",
+      "sense_id": "deepresearch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

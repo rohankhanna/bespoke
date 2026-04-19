@@ -46,6 +46,42 @@
       "source_repo": "phiat/claude-esp-rs",
       "status": "candidate-context",
       "text": "[![Crates.io](https://img.shields.io/crates/v/claude-esp)](https://crates.io/crates/claude-esp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "orogene/orogene",
+      "status": "candidate-context",
+      "text": "Makes `node_modules/` happen. Fast. No fuss."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "orogene/orogene",
+      "status": "candidate-context",
+      "text": "<div style=\"display: flex; justify-content: center;\" align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tracel-ai/burn",
+      "status": "candidate-context",
+      "text": "Burn is a next generation tensor library and Deep Learning Framework that doesn't compromise on flexibility, efficiency and portability."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tracel-ai/burn",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chelsea0x3b/dfdx",
+      "status": "candidate-context",
+      "text": "Deep learning in Rust, with shape checked tensors and neural networks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chelsea0x3b/dfdx",
+      "status": "candidate-context",
+      "text": "[![](https://dcbadge.vercel.app/api/server/AtUhGqBDP5)](https://discord.gg/AtUhGqBDP5)"
     }
   ],
   "candidate_glosses": [
@@ -54,10 +90,100 @@
       "source_repo": "phiat/claude-esp-rs",
       "status": "candidate",
       "text": "[![Crates.io](https://img.shields.io/crates/v/claude-esp)](https://crates.io/crates/claude-esp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "orogene/orogene",
+      "status": "candidate",
+      "text": "<div style=\"display: flex; justify-content: center;\" align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tracel-ai/burn",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chelsea0x3b/dfdx",
+      "status": "candidate",
+      "text": "[![](https://dcbadge.vercel.app/api/server/AtUhGqBDP5)](https://discord.gg/AtUhGqBDP5)"
     }
   ],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39765110,
+      "status": "candidate",
+      "text": "rusty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39736344,
+      "status": "candidate",
+      "text": "colored"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39731681,
+      "status": "candidate",
+      "text": "eat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39730257,
+      "status": "candidate",
+      "text": "corrode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39728489,
+      "status": "candidate",
+      "text": "chromatic"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 66041,
+      "status": "candidate",
+      "text": "chromatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10036,
+      "status": "candidate",
+      "text": "corrode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5037,
+      "status": "candidate",
+      "text": "rusty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3051,
+      "status": "candidate",
+      "text": "eat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1014,
+      "status": "candidate",
+      "text": "rust fungus"
+    }
+  ],
   "canonical_name": "rust",
   "concept_id": "rust",
   "definition_status": "unresolved",
@@ -163,12 +289,32 @@
       "observed_at": "2026-04-18T13:50:38.061794+00:00",
       "source_file": null,
       "source_repo": "phiat/claude-esp-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T01:08:57.644140+00:00",
+      "source_file": null,
+      "source_repo": "orogene/orogene"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T01:08:57.644140+00:00",
+      "source_file": null,
+      "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T01:08:57.644140+00:00",
+      "source_file": null,
+      "source_repo": "chelsea0x3b/dfdx"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

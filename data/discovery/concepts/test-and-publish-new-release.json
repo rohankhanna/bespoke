@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test and Publish New Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eth-sri/lmql",
+      "status": "candidate-context",
+      "text": "A language for constraint-guided and efficient LLM programming."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-sri/lmql",
+      "status": "candidate-context",
+      "text": "Test and Publish New Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-sri/lmql",
+      "status": "candidate",
+      "text": "Test and Publish New Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 46692,
+      "status": "candidate",
+      "text": "bring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 46692,
+      "status": "candidate",
+      "text": "bringing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45515,
+      "status": "candidate",
+      "text": "releasing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43863,
+      "status": "candidate",
+      "text": "feel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43863,
+      "status": "candidate",
+      "text": "feels"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test and Publish New Release",
+  "concept_id": "test-and-publish-new-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T01:08:57.644140+00:00",
+      "source_file": ".github/workflows/lmql-release.yml",
+      "source_repo": "eth-sri/lmql"
+    }
+  ],
+  "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test and Publish New Release",
+      "sense_id": "test-and-publish-new-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

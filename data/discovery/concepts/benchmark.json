@@ -34,6 +34,18 @@
       "source_repo": "embeddings-benchmark/mteb",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ayanami0730/deep_research_bench",
+      "status": "candidate-context",
+      "text": "DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ayanami0730/deep_research_bench",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents</h1>"
     }
   ],
   "candidate_glosses": [
@@ -48,6 +60,12 @@
       "source_repo": "embeddings-benchmark/mteb",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ayanami0730/deep_research_bench",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -129,11 +147,17 @@
       "observed_at": "2026-04-18T18:30:26.389736+00:00",
       "source_file": null,
       "source_repo": "embeddings-benchmark/mteb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-19T01:08:57.644140+00:00",
+      "source_file": null,
+      "source_repo": "Ayanami0730/deep_research_bench"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "lexical_providers": [
     "datamuse"
   ],

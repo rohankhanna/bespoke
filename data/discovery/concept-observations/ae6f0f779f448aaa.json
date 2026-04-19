@@ -1,0 +1,56 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Go ahead and axolotl questions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "docker-nightlies"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "docker-nightlies"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "docker-nightlies",
+      "sense_id": "docker-nightlies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "docker-nightlies",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "docker-nightlies",
+  "observation_id": "ae6f0f779f448aaa",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T01:08:57.644140+00:00",
+  "observed_text": "docker-nightlies",
+  "source_context_snippet": "docker-nightlies",
+  "source_file": ".github/workflows/nightlies.yml",
+  "source_repo": "axolotl-ai-cloud/axolotl",
+  "source_repo_description": "Go ahead and axolotl questions"
+}

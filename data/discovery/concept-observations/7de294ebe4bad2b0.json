@@ -1,0 +1,92 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Go ahead and axolotl questions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10000824,
+      "status": "candidate",
+      "text": "calibrate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9986016,
+      "status": "candidate",
+      "text": "down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9980892,
+      "status": "candidate",
+      "text": "graduate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9962661,
+      "status": "candidate",
+      "text": "refine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9764651,
+      "status": "candidate",
+      "text": "polish"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fine-tuning",
+      "sense_id": "fine-tuning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "fine-tuning",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fine-tuning",
+  "observation_id": "7de294ebe4bad2b0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-19T01:08:57.644140+00:00",
+  "observed_text": "fine-tuning",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "axolotl-ai-cloud/axolotl",
+  "source_repo_description": "Go ahead and axolotl questions"
+}

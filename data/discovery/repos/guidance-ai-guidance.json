@@ -1,0 +1,399 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call_cpu_tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call_cpu_tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call_cpu_tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call_cpu_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call_gpu_tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call_gpu_tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call_gpu_tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call_gpu_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_credentials.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_credentials.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_credentials.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_credentials.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_docs.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_quality.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_quality.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_quality.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_quality.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_quality.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_quality.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_quality.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_quality.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_quality.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_quality.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call_cpu_tests.yml",
+      "source_repo": "guidance-ai/guidance",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call_cpu_tests.yml",
+      "source_repo": "guidance-ai/guidance",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call_cpu_tests.yml",
+      "source_repo": "guidance-ai/guidance",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call_cpu_tests.yml",
+      "source_repo": "guidance-ai/guidance",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call_gpu_tests.yml",
+      "source_repo": "guidance-ai/guidance",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call_gpu_tests.yml",
+      "source_repo": "guidance-ai/guidance",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call_gpu_tests.yml",
+      "source_repo": "guidance-ai/guidance",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call_gpu_tests.yml",
+      "source_repo": "guidance-ai/guidance",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_credentials.yml",
+      "source_repo": "guidance-ai/guidance",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_credentials.yml",
+      "source_repo": "guidance-ai/guidance",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_credentials.yml",
+      "source_repo": "guidance-ai/guidance",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_credentials.yml",
+      "source_repo": "guidance-ai/guidance",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_credentials.yml",
+      "source_repo": "guidance-ai/guidance",
+      "target": "CI Tests - Credentialed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_docs.yml",
+      "source_repo": "guidance-ai/guidance",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_docs.yml",
+      "source_repo": "guidance-ai/guidance",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_docs.yml",
+      "source_repo": "guidance-ai/guidance",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_docs.yml",
+      "source_repo": "guidance-ai/guidance",
+      "target": "CI Tests - Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_linux.yml",
+      "source_repo": "guidance-ai/guidance",
+      "target": "CI Tests - Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_macos.yml",
+      "source_repo": "guidance-ai/guidance",
+      "target": "CI Tests - MacOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_windows.yml",
+      "source_repo": "guidance-ai/guidance",
+      "target": "CI Tests - Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_quality.yml",
+      "source_repo": "guidance-ai/guidance",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_quality.yml",
+      "source_repo": "guidance-ai/guidance",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_quality.yml",
+      "source_repo": "guidance-ai/guidance",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_quality.yml",
+      "source_repo": "guidance-ai/guidance",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_quality.yml",
+      "source_repo": "guidance-ai/guidance",
+      "target": "Code Quality",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T01:09:28.223695+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12617
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2810
+    },
+    {
+      "path": ".github/workflows/call_cpu_tests.yml",
+      "size": 2823
+    },
+    {
+      "path": ".github/workflows/call_gpu_tests.yml",
+      "size": 3267
+    },
+    {
+      "path": ".github/workflows/ci_credentials.yml",
+      "size": 2276
+    },
+    {
+      "path": ".github/workflows/ci_docs.yml",
+      "size": 1406
+    },
+    {
+      "path": ".github/workflows/ci_linux.yml",
+      "size": 2758
+    },
+    {
+      "path": ".github/workflows/ci_macos.yml",
+      "size": 1272
+    },
+    {
+      "path": ".github/workflows/ci_windows.yml",
+      "size": 1987
+    },
+    {
+      "path": ".github/workflows/code_quality.yml",
+      "size": 4526
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "A guidance language for controlling large language models.",
+    "full_name": "guidance-ai/guidance",
+    "html_url": "https://github.com/guidance-ai/guidance",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-10T12:34:10Z",
+    "topics": [],
+    "updated_at": "2026-04-18T20:32:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI Tests - Credentialed",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_credentials.yml",
+      "term": "CI Tests - Credentialed"
+    },
+    {
+      "context_snippet": "CI Tests - Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_docs.yml",
+      "term": "CI Tests - Docs"
+    },
+    {
+      "context_snippet": "CI Tests - Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_linux.yml",
+      "term": "CI Tests - Linux"
+    },
+    {
+      "context_snippet": "CI Tests - MacOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_macos.yml",
+      "term": "CI Tests - MacOS"
+    },
+    {
+      "context_snippet": "CI Tests - Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_windows.yml",
+      "term": "CI Tests - Windows"
+    },
+    {
+      "context_snippet": "Code Quality",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_quality.yml",
+      "term": "Code Quality"
+    }
+  ]
+}

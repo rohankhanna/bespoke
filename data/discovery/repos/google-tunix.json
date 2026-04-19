@@ -1,0 +1,334 @@
+{
+  "components": [
+    {
+      "component": "jayqi/failed-build-issue-action@1a893bbf43ef1c2a8705e2b115cd4f0fe3c5649b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test_tunix.yml"
+    },
+    {
+      "component": "jayqi/failed-build-issue-action@1a893bbf43ef1c2a8705e2b115cd4f0fe3c5649b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test_tunix_nightly_regression.yml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yml"
+    },
+    {
+      "component": "actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_package.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_package.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_package.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-tests.yml"
+    },
+    {
+      "component": "actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-auto-assign.yaml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-auto-assign.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/tunix",
+      "target": "ai-hypercomputer/maxtext",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/tunix",
+      "target": "lmgame-org/grl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "google/tunix",
+      "target": "ayaka14732/jax-smi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "google/tunix",
+      "target": "ai-hypercomputer/pathways-utils",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test_tunix.yml",
+      "source_repo": "google/tunix",
+      "target": "jayqi/failed-build-issue-action@1a893bbf43ef1c2a8705e2b115cd4f0fe3c5649b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_test_tunix.yml",
+      "source_repo": "google/tunix",
+      "target": "Tunix Package Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test_tunix_nightly_regression.yml",
+      "source_repo": "google/tunix",
+      "target": "jayqi/failed-build-issue-action@1a893bbf43ef1c2a8705e2b115cd4f0fe3c5649b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_test_tunix_nightly_regression.yml",
+      "source_repo": "google/tunix",
+      "target": "Tunix Nightly Regression Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yml",
+      "source_repo": "google/tunix",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yml",
+      "source_repo": "google/tunix",
+      "target": "actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_docs.yml",
+      "source_repo": "google/tunix",
+      "target": "Check the Documentation Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_package.yml",
+      "source_repo": "google/tunix",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_package.yml",
+      "source_repo": "google/tunix",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_package.yml",
+      "source_repo": "google/tunix",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_package.yml",
+      "source_repo": "google/tunix",
+      "target": "Build and Upload Tunix Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-tests.yml",
+      "source_repo": "google/tunix",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-tests.yml",
+      "source_repo": "google/tunix",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-tests.yml",
+      "source_repo": "google/tunix",
+      "target": "actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpu-tests.yml",
+      "source_repo": "google/tunix",
+      "target": "Run Tests Against Tunix Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-auto-assign.yaml",
+      "source_repo": "google/tunix",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-auto-assign.yaml",
+      "source_repo": "google/tunix",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-auto-assign.yaml",
+      "source_repo": "google/tunix",
+      "target": "Auto-assign issues and PRs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-19T01:09:24.830569+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7879
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1456
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2590
+    },
+    {
+      "path": ".github/workflows/build_and_test_tunix.yml",
+      "size": 2474
+    },
+    {
+      "path": ".github/workflows/build_and_test_tunix_nightly_regression.yml",
+      "size": 1966
+    },
+    {
+      "path": ".github/workflows/build_docs.yml",
+      "size": 826
+    },
+    {
+      "path": ".github/workflows/build_package.yml",
+      "size": 1432
+    },
+    {
+      "path": ".github/workflows/cpu-tests.yml",
+      "size": 2089
+    },
+    {
+      "path": ".github/workflows/issue-auto-assign.js",
+      "size": 1995
+    },
+    {
+      "path": ".github/workflows/issue-auto-assign.yaml",
+      "size": 557
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "A Lightweight LLM Post-Training Library",
+    "full_name": "google/tunix",
+    "html_url": "https://github.com/google/tunix",
+    "language": "Python",
+    "pushed_at": "2026-04-18T04:27:09Z",
+    "topics": [],
+    "updated_at": "2026-04-18T13:01:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ai-hypercomputer/maxtext",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lmgame-org/grl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ai-hypercomputer/pathways-utils",
+      "source_file": "Dockerfile"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ayaka14732/jax-smi",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tunix Package Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_test_tunix.yml",
+      "term": "Tunix Package Tests"
+    },
+    {
+      "context_snippet": "Tunix Nightly Regression Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_test_tunix_nightly_regression.yml",
+      "term": "Tunix Nightly Regression Tests"
+    },
+    {
+      "context_snippet": "Check the Documentation Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_docs.yml",
+      "term": "Check the Documentation Build"
+    },
+    {
+      "context_snippet": "Build and Upload Tunix Package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_package.yml",
+      "term": "Build and Upload Tunix Package"
+    },
+    {
+      "context_snippet": "Run Tests Against Tunix Package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpu-tests.yml",
+      "term": "Run Tests Against Tunix Package"
+    },
+    {
+      "context_snippet": "Auto-assign issues and PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-auto-assign.yaml",
+      "term": "Auto-assign issues and PRs"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "njsmith/posy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-19T01:09:34.144366+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5105
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2420
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 437
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": null,
+    "full_name": "njsmith/posy",
+    "html_url": "https://github.com/njsmith/posy",
+    "language": "Rust",
+    "pushed_at": "2024-03-01T04:38:11Z",
+    "topics": [],
+    "updated_at": "2026-04-13T17:20:45Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

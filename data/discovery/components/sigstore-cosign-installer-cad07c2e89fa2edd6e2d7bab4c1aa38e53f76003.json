@@ -1,12 +1,27 @@
 {
   "component": "sigstore/cosign-installer@cad07c2e89fa2edd6e2d7bab4c1aa38e53f76003",
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
-  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/krel-release-notes-validate.yaml",
       "source_repo": "kubernetes/sig-release"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/base-binary-release.yaml",
+      "source_repo": "open-telemetry/opentelemetry-collector-releases"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/base-ci-binary.yaml",
+      "source_repo": "open-telemetry/opentelemetry-collector-releases"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/base-release.yaml",
+      "source_repo": "open-telemetry/opentelemetry-collector-releases"
     }
   ]
 }

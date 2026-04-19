@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Triage new issue"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flashinfer-ai/flashinfer",
+      "status": "candidate-context",
+      "text": "FlashInfer: Kernel Library for LLM Serving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flashinfer-ai/flashinfer",
+      "status": "candidate-context",
+      "text": "Triage new issue"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flashinfer-ai/flashinfer",
+      "status": "candidate",
+      "text": "Triage new issue"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26289,
+      "status": "candidate",
+      "text": "reissue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26289,
+      "status": "candidate",
+      "text": "remake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25889,
+      "status": "candidate",
+      "text": "reissuing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25889,
+      "status": "candidate",
+      "text": "rollover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25876,
+      "status": "candidate",
+      "text": "preliminary prospectus"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Triage new issue",
+  "concept_id": "triage-new-issue",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T01:08:57.644140+00:00",
+      "source_file": ".github/workflows/new-issue.yml",
+      "source_repo": "flashinfer-ai/flashinfer"
+    }
+  ],
+  "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Triage new issue",
+      "sense_id": "triage-new-issue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

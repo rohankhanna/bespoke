@@ -2,7 +2,7 @@
   "component": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
+  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -84,6 +84,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test-claudecode.yml",
       "source_repo": "anthropics/claude-code-security-review"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/after-ci.yml",
+      "source_repo": "pydantic/pydantic-ai"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pydantic/pydantic-ai"
     }
   ]
 }

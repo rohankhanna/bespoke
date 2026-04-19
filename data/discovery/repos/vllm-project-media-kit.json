@@ -1,0 +1,24 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-19T01:09:30.064147+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1803
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "default_branch": "main",
+    "description": "vLLM Logo Assets",
+    "full_name": "vllm-project/media-kit",
+    "html_url": "https://github.com/vllm-project/media-kit",
+    "language": null,
+    "pushed_at": "2026-01-15T16:13:54Z",
+    "topics": [],
+    "updated_at": "2026-04-09T14:45:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

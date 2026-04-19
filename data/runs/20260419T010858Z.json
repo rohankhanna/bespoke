@@ -1,0 +1,167 @@
+{
+  "budget_seconds": 4500,
+  "concept_index_counts": {
+    "aliases": 1456,
+    "buckets": 15,
+    "observations_by_concept": 1209
+  },
+  "elapsed_seconds": 62.886,
+  "embedding_unit_count": 6409,
+  "generated_at": "2026-04-19T01:08:57.644140+00:00",
+  "processed_repositories": [
+    "knownsec/404starlink-project",
+    "lazychanger/docker-kunlun-mirror",
+    "pydantic/pydantic-ai",
+    "ayanami0730/deep_research_bench",
+    "axolotl-ai-cloud/axolotl",
+    "eth-sri/lmql",
+    "flashinfer-ai/flashinfer",
+    "google/tunix",
+    "guidance-ai/guidance",
+    "vllm-project/media-kit",
+    "astral-sh/ty",
+    "njsmith/posy",
+    "orogene/orogene",
+    "arogozhnikov/einops",
+    "atomaai/atoma-infer",
+    "tracel-ai/burn",
+    "chelsea0x3b/dfdx",
+    "letta-ai/letta-code",
+    "open-telemetry/opentelemetry-collector-releases"
+  ],
+  "remaining_budget_seconds": 4437.114,
+  "remaining_frontier": 350,
+  "repo_timing_summary": {
+    "average_seconds": 1.632,
+    "count": 20,
+    "max_seconds": 3.836,
+    "total_seconds": 32.645
+  },
+  "repo_timings": [
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.179,
+      "full_name": "knownsec/404starlink-project",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.4,
+      "full_name": "lazychanger/docker-kunlun-mirror",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.316,
+      "full_name": "lorexxar/kunlun-m",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.218,
+      "full_name": "pydantic/pydantic-ai",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.202,
+      "full_name": "ayanami0730/deep_research_bench",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.895,
+      "full_name": "axolotl-ai-cloud/axolotl",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.34,
+      "full_name": "eth-sri/lmql",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.341,
+      "full_name": "flashinfer-ai/flashinfer",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.216,
+      "full_name": "google/tunix",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.628,
+      "full_name": "guidance-ai/guidance",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.419,
+      "full_name": "vllm-project/media-kit",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.971,
+      "full_name": "astral-sh/ty",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.661,
+      "full_name": "njsmith/posy",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.496,
+      "full_name": "orogene/orogene",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.261,
+      "full_name": "arogozhnikov/einops",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.178,
+      "full_name": "atomaai/atoma-infer",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.836,
+      "full_name": "tracel-ai/burn",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.01,
+      "full_name": "chelsea0x3b/dfdx",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.166,
+      "full_name": "letta-ai/letta-code",
+      "graph_distance": 3
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.912,
+      "full_name": "open-telemetry/opentelemetry-collector-releases",
+      "graph_distance": 3
+    }
+  ],
+  "run_id": "20260419T010858Z",
+  "skipped_repositories": [],
+  "slow_repo_threshold_seconds": 10.0,
+  "slow_repositories": [],
+  "stopped_due_to_budget": false
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "publish-mirror"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astral-sh/ty",
+      "status": "candidate-context",
+      "text": "An extremely fast Python type checker and language server, written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/ty",
+      "status": "candidate-context",
+      "text": "publish-mirror"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/ty",
+      "status": "candidate",
+      "text": "publish-mirror"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "publish-mirror",
+  "concept_id": "publish-mirror",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T01:08:57.644140+00:00",
+      "source_file": ".github/workflows/publish-mirror.yml",
+      "source_repo": "astral-sh/ty"
+    }
+  ],
+  "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "publish-mirror",
+      "sense_id": "publish-mirror#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

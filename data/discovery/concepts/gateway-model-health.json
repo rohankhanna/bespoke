@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Gateway Model Health"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pydantic/pydantic-ai",
+      "status": "candidate-context",
+      "text": "AI Agent Framework, the Pydantic way"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pydantic/pydantic-ai",
+      "status": "candidate-context",
+      "text": "Gateway Model Health"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pydantic/pydantic-ai",
+      "status": "candidate",
+      "text": "Gateway Model Health"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19637,
+      "status": "candidate",
+      "text": "drive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19586,
+      "status": "candidate",
+      "text": "door"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19586,
+      "status": "candidate",
+      "text": "transition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19551,
+      "status": "candidate",
+      "text": "access"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19516,
+      "status": "candidate",
+      "text": "opening"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Gateway Model Health",
+  "concept_id": "gateway-model-health",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T01:08:57.644140+00:00",
+      "source_file": ".github/workflows/gateway-model-health.yml",
+      "source_repo": "pydantic/pydantic-ai"
+    }
+  ],
+  "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Gateway Model Health",
+      "sense_id": "gateway-model-health#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

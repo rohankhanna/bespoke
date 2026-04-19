@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build FlashInfer Docs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flashinfer-ai/flashinfer",
+      "status": "candidate-context",
+      "text": "FlashInfer: Kernel Library for LLM Serving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flashinfer-ai/flashinfer",
+      "status": "candidate-context",
+      "text": "Build FlashInfer Docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flashinfer-ai/flashinfer",
+      "status": "candidate",
+      "text": "Build FlashInfer Docs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13561,
+      "status": "candidate",
+      "text": "gpo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13561,
+      "status": "candidate",
+      "text": "gps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13339,
+      "status": "candidate",
+      "text": "compile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13339,
+      "status": "candidate",
+      "text": "provide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13339,
+      "status": "candidate",
+      "text": "spec"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build FlashInfer Docs",
+  "concept_id": "build-flashinfer-docs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-19T01:08:57.644140+00:00",
+      "source_file": ".github/workflows/build-doc.yml",
+      "source_repo": "flashinfer-ai/flashinfer"
+    }
+  ],
+  "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build FlashInfer Docs",
+      "sense_id": "build-flashinfer-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

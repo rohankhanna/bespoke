@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/issue-auto-assign.yaml",
+      "source_repo": "google/tunix"
+    }
+  ],
+  "term": "Auto-assign issues and PRs"
+}

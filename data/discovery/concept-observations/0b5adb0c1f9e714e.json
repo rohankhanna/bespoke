@@ -1,0 +1,92 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenTelemetry Collector Official Releases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Reusable GoReleaser CI workflow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Reusable GoReleaser CI workflow"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14323,
+      "status": "candidate",
+      "text": "actuator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14323,
+      "status": "candidate",
+      "text": "contactor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14323,
+      "status": "candidate",
+      "text": "sterilization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14195,
+      "status": "candidate",
+      "text": "recycle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14184,
+      "status": "candidate",
+      "text": "radium"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Reusable GoReleaser CI workflow",
+      "sense_id": "reusable-goreleaser-ci-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "reusable-goreleaser-ci-workflow",
+  "definition_status": "unresolved",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reusable-goreleaser-ci-workflow",
+  "observation_id": "0b5adb0c1f9e714e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-19T01:08:57.644140+00:00",
+  "observed_text": "Reusable GoReleaser CI workflow",
+  "source_context_snippet": "Reusable GoReleaser CI workflow",
+  "source_file": ".github/workflows/base-ci-goreleaser.yaml",
+  "source_repo": "open-telemetry/opentelemetry-collector-releases",
+  "source_repo_description": "OpenTelemetry Collector Official Releases"
+}

@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
+  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/letta.yml",
       "source_repo": "letta-ai/claude-subconscious"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/letta.yml",
+      "source_repo": "letta-ai/letta-code"
     }
   ],
   "term": "Letta Code"
