@@ -1194,8 +1194,6 @@ def main():
     data_root = Path(sys.argv[3])
 
     pending, frontier_state = load_frontier(data_root, seeds)
-    to_process = pending[: limits["max_frontier_repositories_per_run"]]
-    remaining = pending[limits["max_frontier_repositories_per_run"] :]
 
     repos_dir = data_root / "data" / "discovery" / "repos"
     terms_dir = data_root / "data" / "discovery" / "terms"
@@ -1225,92 +1223,110 @@ def main():
     stopped_due_to_budget = False
     deferred_entries = []
     repo_timings = []
+    batch_count = 0
 
-    for index, entry in enumerate(to_process):
+    while pending:
         if should_stop_before_repo(budget):
             stopped_due_to_budget = True
-            deferred_entries = to_process[index:]
+            deferred_entries = pending
             break
-        repo_started = time.monotonic()
-        owner_repo = canonicalize_repo_full_name(entry["full_name"], lowercase=True)
-        if not owner_repo or not is_valid_repo_full_name(owner_repo):
-            skipped_repositories.append({
-                "full_name": entry.get("full_name"),
-                "reason": "invalid_repo_full_name",
-                "discovered_via": entry.get("discovered_via"),
-            })
-            continue
 
-        try:
-            allow_topic_expansion = (
-                not entry.get("discovered_via", "").startswith("topic:")
-                and entry.get("graph_distance", 0) <= 1
-            )
-            data = collect_repo(owner_repo, limits, known_repo_keys, allow_topic_expansion=allow_topic_expansion)
-        except urllib.error.HTTPError as e:
-            if e.code == 404:
+        batch_count += 1
+        to_process = pending[: limits["max_frontier_repositories_per_run"]]
+        remaining = pending[limits["max_frontier_repositories_per_run"] :]
+        newly_discovered = []
+        deferred_entries = []
+
+        for index, entry in enumerate(to_process):
+            if should_stop_before_repo(budget):
+                stopped_due_to_budget = True
+                deferred_entries = to_process[index:]
+                break
+            repo_started = time.monotonic()
+            owner_repo = canonicalize_repo_full_name(entry["full_name"], lowercase=True)
+            if not owner_repo or not is_valid_repo_full_name(owner_repo):
                 skipped_repositories.append({
-                    "full_name": owner_repo,
-                    "reason": "repo_not_found",
+                    "full_name": entry.get("full_name"),
+                    "reason": "invalid_repo_full_name",
                     "discovered_via": entry.get("discovered_via"),
                 })
                 continue
-            raise
 
-        canonical_owner_repo = canonicalize_repo_full_name(data["repo"]["full_name"] or owner_repo, lowercase=True)
-        repo_elapsed = round(time.monotonic() - repo_started, 3)
-        repo_timings.append({
-            "full_name": canonical_owner_repo,
-            "elapsed_seconds": repo_elapsed,
-            "discovered_via": entry.get("discovered_via"),
-            "graph_distance": entry.get("graph_distance"),
-        })
-        write_json(repos_dir / f"{slug(canonical_owner_repo)}.json", data)
-        write_json(edges_dir / f"{slug(canonical_owner_repo)}.json", {"source_repo": data["repo"]["full_name"], "generated_at": generated_at, "edges": data["edges"]})
-        if canonical_owner_repo not in known_repo_keys:
-            known_repo_keys.add(canonical_owner_repo)
-            processed_names.append(canonical_owner_repo)
+            try:
+                allow_topic_expansion = (
+                    not entry.get("discovered_via", "").startswith("topic:")
+                    and entry.get("graph_distance", 0) <= 1
+                )
+                data = collect_repo(owner_repo, limits, known_repo_keys, allow_topic_expansion=allow_topic_expansion)
+            except urllib.error.HTTPError as e:
+                if e.code == 404:
+                    skipped_repositories.append({
+                        "full_name": owner_repo,
+                        "reason": "repo_not_found",
+                        "discovered_via": entry.get("discovered_via"),
+                    })
+                    continue
+                raise
 
-        for hit in data["terms"]:
-            term = hit["term"]
-            path = terms_dir / f"{slug(term)}.json"
-            upsert_entity(path, {
-                "term": term,
-                "last_seen_at": generated_at,
-                "sources": [{"source_repo": data["repo"]["full_name"], "source_file": hit["source_file"], "discovered_via": hit["edge_type"]}],
-            }, "term")
-            upsert_concept_observation(concept_observations_dir, generated_at, data["repo"]["full_name"], data["repo"].get("description"), hit)
-            upsert_concept(concepts_dir, generated_at, data["repo"]["full_name"], data["repo"].get("description"), hit)
-
-        for hit in data["components"]:
-            component = hit["component"]
-            path = comps_dir / f"{slug(component)}.json"
-            upsert_entity(path, {
-                "component": component,
-                "last_seen_at": generated_at,
-                "sources": [{"source_repo": data["repo"]["full_name"], "source_file": hit["source_file"], "discovered_via": hit["edge_type"]}],
-            }, "component")
-
-        for rel in data["related_repositories"]:
-            newly_discovered.append(rel)
-        for link in data["repo_links"]:
-            newly_discovered.append({
-                "full_name": link["full_name"],
-                "graph_distance": entry.get("graph_distance", 0) + 1,
-                "discovered_via": link["edge_type"],
+            canonical_owner_repo = canonicalize_repo_full_name(data["repo"]["full_name"] or owner_repo, lowercase=True)
+            repo_elapsed = round(time.monotonic() - repo_started, 3)
+            repo_timings.append({
+                "full_name": canonical_owner_repo,
+                "elapsed_seconds": repo_elapsed,
+                "discovered_via": entry.get("discovered_via"),
+                "graph_distance": entry.get("graph_distance"),
             })
+            write_json(repos_dir / f"{slug(canonical_owner_repo)}.json", data)
+            write_json(edges_dir / f"{slug(canonical_owner_repo)}.json", {"source_repo": data["repo"]["full_name"], "generated_at": generated_at, "edges": data["edges"]})
+            if canonical_owner_repo not in known_repo_keys:
+                known_repo_keys.add(canonical_owner_repo)
+                processed_names.append(canonical_owner_repo)
 
-        if past_hard_stop(budget):
-            stopped_due_to_budget = True
-            deferred_entries = to_process[index + 1 :]
+            for hit in data["terms"]:
+                term = hit["term"]
+                path = terms_dir / f"{slug(term)}.json"
+                upsert_entity(path, {
+                    "term": term,
+                    "last_seen_at": generated_at,
+                    "sources": [{"source_repo": data["repo"]["full_name"], "source_file": hit["source_file"], "discovered_via": hit["edge_type"]}],
+                }, "term")
+                upsert_concept_observation(concept_observations_dir, generated_at, data["repo"]["full_name"], data["repo"].get("description"), hit)
+                upsert_concept(concepts_dir, generated_at, data["repo"]["full_name"], data["repo"].get("description"), hit)
+
+            for hit in data["components"]:
+                component = hit["component"]
+                path = comps_dir / f"{slug(component)}.json"
+                upsert_entity(path, {
+                    "component": component,
+                    "last_seen_at": generated_at,
+                    "sources": [{"source_repo": data["repo"]["full_name"], "source_file": hit["source_file"], "discovered_via": hit["edge_type"]}],
+                }, "component")
+
+            for rel in data["related_repositories"]:
+                newly_discovered.append(rel)
+            for link in data["repo_links"]:
+                newly_discovered.append({
+                    "full_name": link["full_name"],
+                    "graph_distance": entry.get("graph_distance", 0) + 1,
+                    "discovered_via": link["edge_type"],
+                })
+
+            if past_hard_stop(budget):
+                stopped_due_to_budget = True
+                deferred_entries = to_process[index + 1 :]
+                break
+
+        processed_history, known_repo_keys = build_processed_history(frontier_state, processed_names)
+        pending = dedupe_frontier_entries(deferred_entries + remaining + newly_discovered)
+        pending = [
+            item for item in pending
+            if repo_identity_key(item.get("full_name")) not in known_repo_keys
+        ]
+
+        if stopped_due_to_budget:
             break
 
-    processed_history, known_repo_keys = build_processed_history(frontier_state, processed_names)
-    next_pending = dedupe_frontier_entries(deferred_entries + remaining + newly_discovered)
-    next_pending = [
-        item for item in next_pending
-        if repo_identity_key(item.get("full_name")) not in known_repo_keys
-    ]
+    next_pending = pending
 
     new_frontier = {
         "generated_at": generated_at,
@@ -1330,6 +1346,7 @@ def main():
         "run_id": run_id,
         "generated_at": generated_at,
         "processed_repositories": processed_names,
+        "batch_count": batch_count,
         "skipped_repositories": skipped_repositories,
         "remaining_frontier": len(next_pending),
         "elapsed_seconds": round(elapsed_seconds(budget), 3),
