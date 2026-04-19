@@ -1,0 +1,80 @@
+flowchart LR
+    subgraph S0[Current-state snapshot]
+        A[data branch snapshot\na891282d]
+        B[Repos\n798]
+        C[Terms\n1868]
+        D[Components\n2995]
+        E[Concepts\n1771]
+        F[Observations\n2275]
+        G[Pending frontier\n390]
+    end
+
+    subgraph S1[Prototype input contract]
+        H[Pinned corpus for experiment]
+        I[Remote data branch may keep growing]
+        J[Experiment uses fixed snapshot only]
+    end
+
+    subgraph S2[Competing prototype paths]
+        K1[Symbolic-first path]
+        K2[Graph/co-occurrence path]
+        K3[Embedding-assisted path]
+        K4[Hybrid path]
+    end
+
+    subgraph S3[Required prototype output]
+        L1[Labeled patterns]
+        L2[Labeled vocabulary]
+        L3[Labeled components]
+        L4[Links among them]
+    end
+
+    subgraph S4[Promotion gate]
+        M1[Coherence]
+        M2[Evidence-backed labels]
+        M3[Build usefulness]
+        M4[Scalability potential]
+    end
+
+    subgraph S5[Post-prototype outcome]
+        N1[Promote one or more paths]
+        N2[Preserve fallback paths]
+        N3[Scale selected pipeline]
+    end
+
+    A --> H
+    B --> H
+    C --> H
+    D --> H
+    E --> H
+    F --> H
+    G --> H
+    A -.-> I
+    H --> J
+    J --> K1
+    J --> K2
+    J --> K3
+    J --> K4
+    K1 --> L1
+    K1 --> L2
+    K1 --> L3
+    K2 --> L1
+    K2 --> L4
+    K3 --> L1
+    K3 --> L2
+    K4 --> L1
+    K4 --> L2
+    K4 --> L3
+    K4 --> L4
+    L1 --> M1
+    L2 --> M2
+    L3 --> M3
+    L4 --> M3
+    M1 --> N1
+    M2 --> N1
+    M3 --> N1
+    M4 --> N1
+    M1 --> N2
+    M2 --> N2
+    M3 --> N2
+    N1 --> N3
