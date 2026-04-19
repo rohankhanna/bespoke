@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 445,
+    "components": 474,
     "concepts": 160,
     "observations": 160,
-    "repos": 50,
-    "terms": 203
+    "repos": 51,
+    "terms": 228
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "generated_at": "2026-04-19T05:15:16.254786+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "abduznik/Git-Alchemist",
@@ -42,6 +42,7 @@
     "knownsec/404StarLink",
     "kyleneideck/BackgroundMusic",
     "lobehub/lobe-charts",
+    "lobehub/lobe-chat-agents",
     "lobehub/lobe-tts",
     "LuaLanes/lanes",
     "maxritter/pilot-shell-demo",

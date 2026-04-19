@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1120,
+    "components": 995,
     "concepts": 92,
     "observations": 92,
-    "repos": 19,
-    "terms": 114
+    "repos": 18,
+    "terms": 108
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "generated_at": "2026-04-19T05:15:16.254786+00:00",
   "repo_ids": [
     "EveryInc/compound-engineering-plugin",
     "google-gemini/gemini-cli",
     "langchain-ai/langchainjs",
     "letta-ai/letta-code",
     "libp2p/js-libp2p",
-    "lobehub/lobe-ui",
     "lobehub/lobehub",
     "multica-ai/multica",
     "nizos/tdd-guard",

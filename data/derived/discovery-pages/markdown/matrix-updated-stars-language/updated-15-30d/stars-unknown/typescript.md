@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · Unknown stars · TypeScript
 
-Generated at: `2026-04-19T04:50:40.131911+00:00`
+Generated at: `2026-04-19T05:15:16.254786+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 13
-- terms: 81
-- components: 347
+- repos: 12
+- terms: 56
+- components: 318
 - concepts: 46
 - observations: 46
 
@@ -38,7 +38,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AndyMik90/Aperant](https://github.com/AndyMik90/Aperant) | unknown | 2026-03-23T19:47:59Z | TypeScript | Infrastructure/tooling | 7 | 15 | 7 | 7 |
 | [slopus/slopus.github.io](https://github.com/slopus/slopus.github.io) | unknown | 2026-03-23T10:36:35Z | TypeScript | Infrastructure/tooling | 2 | 32 | 2 | 2 |
 | [vercel/satori](https://github.com/vercel/satori) | unknown | 2026-03-20T06:56:49Z | TypeScript | Infrastructure/tooling | 1 | 39 | 0 | 0 |
-| [lobehub/lobe-chat-agents](https://github.com/lobehub/lobe-chat-agents) | unknown | 2026-03-20T05:14:02Z | TypeScript | Infrastructure/tooling | 25 | 29 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -56,4 +55,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [AndyMik90/Aperant](https://github.com/AndyMik90/Aperant) | unknown | 2026-03-23T19:47:59Z | TypeScript | Infrastructure/tooling | 7 | 15 | 7 | 7 |
 | [slopus/slopus.github.io](https://github.com/slopus/slopus.github.io) | unknown | 2026-03-23T10:36:35Z | TypeScript | Infrastructure/tooling | 2 | 32 | 2 | 2 |
 | [vercel/satori](https://github.com/vercel/satori) | unknown | 2026-03-20T06:56:49Z | TypeScript | Infrastructure/tooling | 1 | 39 | 0 | 0 |
-| [lobehub/lobe-chat-agents](https://github.com/lobehub/lobe-chat-agents) | unknown | 2026-03-20T05:14:02Z | TypeScript | Infrastructure/tooling | 25 | 29 | 0 | 0 |

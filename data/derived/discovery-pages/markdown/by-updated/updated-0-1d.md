@@ -1,6 +1,6 @@
 # Updated in the last 24 hours
 
-Generated at: `2026-04-19T04:50:40.131911+00:00`
+Generated at: `2026-04-19T05:15:16.254786+00:00`
 
 ## Active filters
 
@@ -8,9 +8,9 @@ Generated at: `2026-04-19T04:50:40.131911+00:00`
 
 ## Counts
 
-- repos: 67
-- terms: 576
-- components: 2182
+- repos: 66
+- terms: 570
+- components: 2057
 - concepts: 501
 - observations: 502
 
@@ -88,7 +88,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [slopus/happy](https://github.com/slopus/happy) | unknown | 2026-04-18T05:50:19Z | TypeScript | CLI | 2 | 3 | 0 | 0 |
 | [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | unknown | 2026-04-18T05:49:35Z | Python | Infrastructure/tooling | 10 | 17 | 10 | 10 |
 | [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) | unknown | 2026-04-18T05:35:47Z | TypeScript | CLI | 11 | 80 | 11 | 11 |
-| [lobehub/lobe-ui](https://github.com/lobehub/lobe-ui) | unknown | 2026-04-18T05:00:30Z | TypeScript | Infrastructure/tooling | 6 | 125 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -160,4 +159,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [slopus/happy](https://github.com/slopus/happy) | unknown | 2026-04-18T05:50:19Z | TypeScript | CLI | 2 | 3 | 0 | 0 |
 | [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | unknown | 2026-04-18T05:49:35Z | Python | Infrastructure/tooling | 10 | 17 | 10 | 10 |
 | [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) | unknown | 2026-04-18T05:35:47Z | TypeScript | CLI | 11 | 80 | 11 | 11 |
-| [lobehub/lobe-ui](https://github.com/lobehub/lobe-ui) | unknown | 2026-04-18T05:00:30Z | TypeScript | Infrastructure/tooling | 6 | 125 | 0 | 0 |

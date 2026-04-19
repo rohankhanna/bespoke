@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 665,
+    "components": 636,
     "concepts": 123,
     "observations": 123,
-    "repos": 53,
-    "terms": 194
+    "repos": 52,
+    "terms": 169
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "generated_at": "2026-04-19T05:15:16.254786+00:00",
   "repo_ids": [
     "AdamMes/voyanode",
     "akin-ozer/cc-devops-skills",
@@ -40,7 +40,6 @@
     "langchain-ai/.github",
     "ldayton/Dippy",
     "ldayton/Parable",
-    "lobehub/lobe-chat-agents",
     "lobehub/lobe-midjourney-webui",
     "manzaltu/claude-code-ide.el",
     "NeuroverseOS/negotiator",

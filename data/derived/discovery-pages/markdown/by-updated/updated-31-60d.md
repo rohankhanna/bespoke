@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago
 
-Generated at: `2026-04-19T04:50:40.131911+00:00`
+Generated at: `2026-04-19T05:15:16.254786+00:00`
 
 ## Active filters
 
@@ -8,9 +8,9 @@ Generated at: `2026-04-19T04:50:40.131911+00:00`
 
 ## Counts
 
-- repos: 50
-- terms: 203
-- components: 445
+- repos: 51
+- terms: 228
+- components: 474
 - concepts: 160
 - observations: 160
 
@@ -22,6 +22,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [lobehub/lobe-chat-agents](https://github.com/lobehub/lobe-chat-agents) | unknown | 2026-03-20T05:14:02Z | TypeScript | Infrastructure/tooling | 25 | 29 | 0 | 0 |
 | [musicman3/Cruder](https://github.com/musicman3/Cruder) | unknown | 2026-03-19T17:19:23Z | Other | Unknown | 9 | 0 | 9 | 9 |
 | [sudocode-ai/sudocode](https://github.com/sudocode-ai/sudocode) | unknown | 2026-03-18T23:20:38Z | TypeScript | CLI | 4 | 6 | 0 | 0 |
 | [automazeio/ccpm](https://github.com/automazeio/ccpm) | unknown | 2026-03-18T12:15:24Z | Shell | Unknown | 4 | 0 | 0 | 0 |
@@ -83,6 +84,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cowboy8625/rusty-rain](https://github.com/cowboy8625/rusty-rain) | 445 | 2026-02-26T02:14:16Z | Rust | CLI | 11 | 6 | 11 | 11 |
 | [Aedelon/claude-code-blueprint](https://github.com/Aedelon/claude-code-blueprint) | 78 | 2026-03-04T16:08:44Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [abduznik/Git-Alchemist](https://github.com/abduznik/Git-Alchemist) | 21 | 2026-02-24T07:58:47Z | Python | CLI | 10 | 5 | 10 | 10 |
+| [lobehub/lobe-chat-agents](https://github.com/lobehub/lobe-chat-agents) | unknown | 2026-03-20T05:14:02Z | TypeScript | Infrastructure/tooling | 25 | 29 | 0 | 0 |
 | [musicman3/Cruder](https://github.com/musicman3/Cruder) | unknown | 2026-03-19T17:19:23Z | Other | Unknown | 9 | 0 | 9 | 9 |
 | [sudocode-ai/sudocode](https://github.com/sudocode-ai/sudocode) | unknown | 2026-03-18T23:20:38Z | TypeScript | CLI | 4 | 6 | 0 | 0 |
 | [automazeio/ccpm](https://github.com/automazeio/ccpm) | unknown | 2026-03-18T12:15:24Z | Shell | Unknown | 4 | 0 | 0 | 0 |

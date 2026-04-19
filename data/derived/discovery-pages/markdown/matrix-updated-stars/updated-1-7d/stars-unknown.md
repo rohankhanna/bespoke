@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · Unknown stars
 
-Generated at: `2026-04-19T04:50:40.131911+00:00`
+Generated at: `2026-04-19T05:15:16.254786+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,9 +11,9 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 355
-- terms: 1388
-- components: 3643
+- repos: 354
+- terms: 1394
+- components: 3768
 - concepts: 840
 - observations: 846
 
@@ -25,6 +25,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [lobehub/lobe-ui](https://github.com/lobehub/lobe-ui) | unknown | 2026-04-18T05:00:30Z | TypeScript | Infrastructure/tooling | 6 | 125 | 0 | 0 |
 | [Dokploy/cli](https://github.com/Dokploy/cli) | unknown | 2026-04-18T04:41:53Z | TypeScript | CLI | 3 | 12 | 3 | 3 |
 | [Pragmatical-transshipment598/claude-code-workflows](https://github.com/Pragmatical-transshipment598/claude-code-workflows) | unknown | 2026-04-18T04:41:08Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
 | [vivianalaced749/vk-calls-tunnel](https://github.com/vivianalaced749/vk-calls-tunnel) | unknown | 2026-04-18T04:40:50Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
@@ -378,13 +379,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ParetoSecurity/pareto-mac](https://github.com/ParetoSecurity/pareto-mac) | unknown | 2026-04-12T09:59:57Z | Other | Infrastructure/tooling | 7 | 3 | 0 | 0 |
 | [JSONbored/claudepro-directory](https://github.com/JSONbored/claudepro-directory) | unknown | 2026-04-12T09:42:31Z | Other | Infrastructure/tooling | 22 | 11 | 0 | 0 |
 | [marcindulak/ralph-wiggum-bdd](https://github.com/marcindulak/ralph-wiggum-bdd) | unknown | 2026-04-12T07:50:42Z | Shell | Unknown | 0 | 0 | 0 | 0 |
-| [alchaincyf/steve-jobs-skill](https://github.com/alchaincyf/steve-jobs-skill) | unknown | 2026-04-12T05:11:20Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [alchaincyf/naval-skill](https://github.com/alchaincyf/naval-skill) | unknown | 2026-04-12T05:11:15Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [lobehub/lobe-ui](https://github.com/lobehub/lobe-ui) | unknown | 2026-04-18T05:00:30Z | TypeScript | Infrastructure/tooling | 6 | 125 | 0 | 0 |
 | [Dokploy/cli](https://github.com/Dokploy/cli) | unknown | 2026-04-18T04:41:53Z | TypeScript | CLI | 3 | 12 | 3 | 3 |
 | [Pragmatical-transshipment598/claude-code-workflows](https://github.com/Pragmatical-transshipment598/claude-code-workflows) | unknown | 2026-04-18T04:41:08Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
 | [vivianalaced749/vk-calls-tunnel](https://github.com/vivianalaced749/vk-calls-tunnel) | unknown | 2026-04-18T04:40:50Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
@@ -738,5 +738,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ParetoSecurity/pareto-mac](https://github.com/ParetoSecurity/pareto-mac) | unknown | 2026-04-12T09:59:57Z | Other | Infrastructure/tooling | 7 | 3 | 0 | 0 |
 | [JSONbored/claudepro-directory](https://github.com/JSONbored/claudepro-directory) | unknown | 2026-04-12T09:42:31Z | Other | Infrastructure/tooling | 22 | 11 | 0 | 0 |
 | [marcindulak/ralph-wiggum-bdd](https://github.com/marcindulak/ralph-wiggum-bdd) | unknown | 2026-04-12T07:50:42Z | Shell | Unknown | 0 | 0 | 0 | 0 |
-| [alchaincyf/steve-jobs-skill](https://github.com/alchaincyf/steve-jobs-skill) | unknown | 2026-04-12T05:11:20Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [alchaincyf/naval-skill](https://github.com/alchaincyf/naval-skill) | unknown | 2026-04-12T05:11:15Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

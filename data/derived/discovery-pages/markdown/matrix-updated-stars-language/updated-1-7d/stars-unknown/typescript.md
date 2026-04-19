@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · Unknown stars · TypeScript
 
-Generated at: `2026-04-19T04:50:40.131911+00:00`
+Generated at: `2026-04-19T05:15:16.254786+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 71
-- terms: 343
-- components: 2037
+- repos: 72
+- terms: 349
+- components: 2162
 - concepts: 126
 - observations: 126
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [lobehub/lobe-ui](https://github.com/lobehub/lobe-ui) | unknown | 2026-04-18T05:00:30Z | TypeScript | Infrastructure/tooling | 6 | 125 | 0 | 0 |
 | [Dokploy/cli](https://github.com/Dokploy/cli) | unknown | 2026-04-18T04:41:53Z | TypeScript | CLI | 3 | 12 | 3 | 3 |
 | [fekkak1998/scira](https://github.com/fekkak1998/scira) | unknown | 2026-04-18T04:12:03Z | TypeScript | CLI | 0 | 178 | 0 | 0 |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | unknown | 2026-04-18T03:41:51Z | TypeScript | Infrastructure/tooling | 6 | 117 | 0 | 0 |
@@ -102,6 +103,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [lobehub/lobe-ui](https://github.com/lobehub/lobe-ui) | unknown | 2026-04-18T05:00:30Z | TypeScript | Infrastructure/tooling | 6 | 125 | 0 | 0 |
 | [Dokploy/cli](https://github.com/Dokploy/cli) | unknown | 2026-04-18T04:41:53Z | TypeScript | CLI | 3 | 12 | 3 | 3 |
 | [fekkak1998/scira](https://github.com/fekkak1998/scira) | unknown | 2026-04-18T04:12:03Z | TypeScript | CLI | 0 | 178 | 0 | 0 |
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | unknown | 2026-04-18T03:41:51Z | TypeScript | Infrastructure/tooling | 6 | 117 | 0 | 0 |

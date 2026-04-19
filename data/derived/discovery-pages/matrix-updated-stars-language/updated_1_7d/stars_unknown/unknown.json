@@ -3,7 +3,7 @@
     "components": 11,
     "concepts": 37,
     "observations": 37,
-    "repos": 54,
+    "repos": 52,
     "terms": 47
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "generated_at": "2026-04-19T05:15:16.254786+00:00",
   "repo_ids": [
     "agenmod/mirror-skill",
     "agenmod/steamer-skill",
@@ -30,8 +30,6 @@
     "aitooools/spotify-hezu",
     "aitooools/supergrok",
     "aitooools/youtube-hezu",
-    "alchaincyf/naval-skill",
-    "alchaincyf/steve-jobs-skill",
     "android/skills",
     "Astro-Han/karpathy-llm-wiki",
     "Azizos911/Setja-Upp-Stilla-Yiimp-Namuvinnslupott-Hugbunadur-Ubuntu-Linux",

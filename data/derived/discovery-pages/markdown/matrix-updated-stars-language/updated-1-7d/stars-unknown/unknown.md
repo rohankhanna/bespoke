@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · Unknown stars · Unknown
 
-Generated at: `2026-04-19T04:50:40.131911+00:00`
+Generated at: `2026-04-19T05:15:16.254786+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 54
+- repos: 52
 - terms: 47
 - components: 11
 - concepts: 37
@@ -78,8 +78,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [FlineDev/Marketplace](https://github.com/FlineDev/Marketplace) | unknown | 2026-04-14T14:42:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [FlineDev/PlanKit](https://github.com/FlineDev/PlanKit) | unknown | 2026-04-14T14:41:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [Astro-Han/karpathy-llm-wiki](https://github.com/Astro-Han/karpathy-llm-wiki) | unknown | 2026-04-13T01:39:31Z | Unknown | Docs/knowledge | 10 | 0 | 11 | 11 |
-| [alchaincyf/steve-jobs-skill](https://github.com/alchaincyf/steve-jobs-skill) | unknown | 2026-04-12T05:11:20Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [alchaincyf/naval-skill](https://github.com/alchaincyf/naval-skill) | unknown | 2026-04-12T05:11:15Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -137,5 +135,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [FlineDev/Marketplace](https://github.com/FlineDev/Marketplace) | unknown | 2026-04-14T14:42:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [FlineDev/PlanKit](https://github.com/FlineDev/PlanKit) | unknown | 2026-04-14T14:41:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [Astro-Han/karpathy-llm-wiki](https://github.com/Astro-Han/karpathy-llm-wiki) | unknown | 2026-04-13T01:39:31Z | Unknown | Docs/knowledge | 10 | 0 | 11 | 11 |
-| [alchaincyf/steve-jobs-skill](https://github.com/alchaincyf/steve-jobs-skill) | unknown | 2026-04-12T05:11:20Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [alchaincyf/naval-skill](https://github.com/alchaincyf/naval-skill) | unknown | 2026-04-12T05:11:15Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

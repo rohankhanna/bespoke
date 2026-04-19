@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3643,
+    "components": 3768,
     "concepts": 840,
     "observations": 846,
-    "repos": 355,
-    "terms": 1388
+    "repos": 354,
+    "terms": 1394
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "generated_at": "2026-04-19T05:15:16.254786+00:00",
   "repo_ids": [
     "1Panel-dev/1Panel",
     "1Panel-dev/MaxKB",
@@ -54,9 +54,7 @@
     "aitooools/supergrok",
     "aitooools/youtube-hezu",
     "alchaincyf/darwin-skill",
-    "alchaincyf/naval-skill",
     "alchaincyf/nuwa-skill",
-    "alchaincyf/steve-jobs-skill",
     "alfredolopez80/multi-agent-ralph-loop",
     "alirezarezvani/claude-skills",
     "alistaitsacle/free-llm-api-keys",
@@ -233,6 +231,7 @@
     "llama-farm/llamafarm",
     "lobehub/lobe-chat-plugins",
     "lobehub/lobe-lint",
+    "lobehub/lobe-ui",
     "lobehub/sd-webui-lobe-theme",
     "lonewolf-jp/ConvoPeq",
     "lucasastorian/llmwiki",

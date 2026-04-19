@@ -3,14 +3,14 @@
     "components": 483,
     "concepts": 160,
     "observations": 161,
-    "repos": 54,
+    "repos": 56,
     "terms": 203
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "generated_at": "2026-04-19T05:15:16.254786+00:00",
   "repo_ids": [
     "1sh1ro/liangxi-skills",
     "Aar0nPB/curator-skill",
@@ -24,6 +24,8 @@
     "alchaincyf/feynman-skill",
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/munger-skill",
+    "alchaincyf/naval-skill",
+    "alchaincyf/steve-jobs-skill",
     "alchaincyf/taleb-skill",
     "asg017/sqlite-vec",
     "AskRoundtable/expert-skills",

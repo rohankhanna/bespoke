@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · Unknown stars
 
-Generated at: `2026-04-19T04:50:40.131911+00:00`
+Generated at: `2026-04-19T05:15:16.254786+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,7 +11,7 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 51
+- repos: 53
 - terms: 164
 - components: 455
 - concepts: 130
@@ -25,6 +25,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [alchaincyf/steve-jobs-skill](https://github.com/alchaincyf/steve-jobs-skill) | unknown | 2026-04-12T05:11:20Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [alchaincyf/naval-skill](https://github.com/alchaincyf/naval-skill) | unknown | 2026-04-12T05:11:15Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ahmetb/kubectx](https://github.com/ahmetb/kubectx) | unknown | 2026-04-12T01:51:41Z | Go | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [Abraxas-365/claudio-screenshot](https://github.com/Abraxas-365/claudio-screenshot) | unknown | 2026-04-11T21:36:08Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) | unknown | 2026-04-11T21:32:37Z | JavaScript | CLI | 6 | 7 | 6 | 7 |
@@ -81,6 +83,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [alchaincyf/steve-jobs-skill](https://github.com/alchaincyf/steve-jobs-skill) | unknown | 2026-04-12T05:11:20Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [alchaincyf/naval-skill](https://github.com/alchaincyf/naval-skill) | unknown | 2026-04-12T05:11:15Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ahmetb/kubectx](https://github.com/ahmetb/kubectx) | unknown | 2026-04-12T01:51:41Z | Go | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [Abraxas-365/claudio-screenshot](https://github.com/Abraxas-365/claudio-screenshot) | unknown | 2026-04-11T21:36:08Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) | unknown | 2026-04-11T21:32:37Z | JavaScript | CLI | 6 | 7 | 6 | 7 |

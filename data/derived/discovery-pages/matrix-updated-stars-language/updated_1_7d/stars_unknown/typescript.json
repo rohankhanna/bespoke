@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2037,
+    "components": 2162,
     "concepts": 126,
     "observations": 126,
-    "repos": 71,
-    "terms": 343
+    "repos": 72,
+    "terms": 349
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "generated_at": "2026-04-19T05:15:16.254786+00:00",
   "repo_ids": [
     "affaan-m/agentshield",
     "anthropics/claude-code-action",
@@ -51,6 +51,7 @@
     "liveblocks/liveblocks",
     "lobehub/lobe-chat-plugins",
     "lobehub/lobe-lint",
+    "lobehub/lobe-ui",
     "lobehub/sd-webui-lobe-theme",
     "lucasastorian/llmwiki",
     "matt1398/claude-devtools",

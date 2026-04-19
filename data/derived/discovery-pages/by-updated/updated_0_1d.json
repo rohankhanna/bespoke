@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2182,
+    "components": 2057,
     "concepts": 501,
     "observations": 502,
-    "repos": 67,
-    "terms": 576
+    "repos": 66,
+    "terms": 570
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "generated_at": "2026-04-19T05:15:16.254786+00:00",
   "repo_ids": [
     "agiletec-inc/airis-mcp-gateway",
     "arogozhnikov/einops",
@@ -43,7 +43,6 @@
     "letta-ai/letta-code",
     "libp2p/js-libp2p",
     "lobehub/lobe-editor",
-    "lobehub/lobe-ui",
     "lobehub/lobehub",
     "metabase/metabase",
     "microsoft/typescript-go",

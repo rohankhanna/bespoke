@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · Unknown stars · TypeScript
 
-Generated at: `2026-04-19T04:50:40.131911+00:00`
+Generated at: `2026-04-19T05:15:16.254786+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 19
-- terms: 114
-- components: 1120
+- repos: 18
+- terms: 108
+- components: 995
 - concepts: 92
 - observations: 92
 
@@ -44,7 +44,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [langchain-ai/langchainjs](https://github.com/langchain-ai/langchainjs) | unknown | 2026-04-18T06:37:27Z | TypeScript | Infrastructure/tooling | 7 | 24 | 7 | 7 |
 | [slopus/happy](https://github.com/slopus/happy) | unknown | 2026-04-18T05:50:19Z | TypeScript | CLI | 2 | 3 | 0 | 0 |
 | [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) | unknown | 2026-04-18T05:35:47Z | TypeScript | CLI | 11 | 80 | 11 | 11 |
-| [lobehub/lobe-ui](https://github.com/lobehub/lobe-ui) | unknown | 2026-04-18T05:00:30Z | TypeScript | Infrastructure/tooling | 6 | 125 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -68,4 +67,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [langchain-ai/langchainjs](https://github.com/langchain-ai/langchainjs) | unknown | 2026-04-18T06:37:27Z | TypeScript | Infrastructure/tooling | 7 | 24 | 7 | 7 |
 | [slopus/happy](https://github.com/slopus/happy) | unknown | 2026-04-18T05:50:19Z | TypeScript | CLI | 2 | 3 | 0 | 0 |
 | [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) | unknown | 2026-04-18T05:35:47Z | TypeScript | CLI | 11 | 80 | 11 | 11 |
-| [lobehub/lobe-ui](https://github.com/lobehub/lobe-ui) | unknown | 2026-04-18T05:00:30Z | TypeScript | Infrastructure/tooling | 6 | 125 | 0 | 0 |

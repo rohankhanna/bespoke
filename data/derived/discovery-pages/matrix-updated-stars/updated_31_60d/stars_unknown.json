@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 428,
+    "components": 457,
     "concepts": 127,
     "observations": 127,
-    "repos": 44,
-    "terms": 170
+    "repos": 45,
+    "terms": 195
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-19T04:50:40.131911+00:00",
+  "generated_at": "2026-04-19T05:15:16.254786+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "alexei-led/aws-mcp-server",
@@ -39,6 +39,7 @@
     "knownsec/404StarLink",
     "kyleneideck/BackgroundMusic",
     "lobehub/lobe-charts",
+    "lobehub/lobe-chat-agents",
     "lobehub/lobe-tts",
     "maxritter/pilot-shell-demo",
     "Mjvolk3/Dendron-Template",
