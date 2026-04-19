@@ -369,14 +369,18 @@
       "size": 1326
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:47.190495+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory, scheduled jobs, and runs directly on Anthropic's Agents SDK",
+    "fork": false,
     "full_name": "qwibitai/nanoclaw",
     "html_url": "https://github.com/qwibitai/nanoclaw",
     "language": "TypeScript",
-    "pushed_at": "2026-04-18T09:04:32Z",
+    "pushed_at": "2026-04-19T12:48:54Z",
+    "stargazers_count": 27520,
     "topics": [
       "ai-agents",
       "ai-assistant",
@@ -384,7 +388,7 @@
       "claude-skills",
       "openclaw"
     ],
-    "updated_at": "2026-04-18T11:23:59Z"
+    "updated_at": "2026-04-19T13:47:12Z"
   },
   "repo_links": [
     {

@@ -79,14 +79,18 @@
       "size": 6708
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:22.563500+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Build pragmatic Go apps with an idiomatic, flat project layout guide for clean code, clear flow, and maintainable APIs",
+    "fork": false,
     "full_name": "chafingdishposition355/go-skills",
     "html_url": "https://github.com/chafingdishposition355/go-skills",
     "language": null,
-    "pushed_at": "2026-04-18T04:40:14Z",
+    "pushed_at": "2026-04-19T12:38:15Z",
+    "stargazers_count": 0,
     "topics": [
       "ai",
       "antigravity",
@@ -106,7 +110,7 @@
       "mcp-tools",
       "skills"
     ],
-    "updated_at": "2026-04-18T04:40:17Z"
+    "updated_at": "2026-04-19T12:38:19Z"
   },
   "repo_links": [],
   "terms": [

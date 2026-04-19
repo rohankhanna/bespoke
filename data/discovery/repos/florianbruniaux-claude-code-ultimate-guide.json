@@ -234,14 +234,18 @@
       "size": 691
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:39.222653+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A tremendous feat of documentation, this guide covers Claude Code from beginner to power user, with production-ready templates for Claude Code features, guides on agentic workflows, and a lot of great learning materials, including quizzes and a handy \"cheatsheet\". Whether it's the \"ultimate\" guide to Claude Code will be up to the reader :)",
-    "full_name": "FlorianBruniaux/claude-code-ultimate-guide",
+    "fork": false,
+    "full_name": "florianbruniaux/claude-code-ultimate-guide",
     "html_url": "https://github.com/FlorianBruniaux/claude-code-ultimate-guide",
     "language": "TypeScript",
-    "pushed_at": "2026-04-16T19:04:32Z",
+    "pushed_at": "2026-04-18T16:12:17Z",
+    "stargazers_count": 3685,
     "topics": [
       "agentic-coding",
       "ai-assistant",
@@ -264,7 +268,7 @@
       "tutorial",
       "vibe-coding"
     ],
-    "updated_at": "2026-04-18T09:27:20Z"
+    "updated_at": "2026-04-19T13:56:19Z"
   },
   "repo_links": [
     {

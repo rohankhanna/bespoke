@@ -8,14 +8,18 @@
       "size": 10
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:21.898528+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Build YTP-2026 with tools and resources for planning, tracking, and managing 2026 project work efficiently",
-    "full_name": "genuslovoacalixtusiii510/YTP-2026",
+    "fork": false,
+    "full_name": "genuslovoacalixtusiii510/ytp-2026",
     "html_url": "https://github.com/genuslovoacalixtusiii510/YTP-2026",
     "language": "Jupyter Notebook",
-    "pushed_at": "2026-04-18T04:38:47Z",
+    "pushed_at": "2026-04-19T12:37:01Z",
+    "stargazers_count": 0,
     "topics": [
       "astronomy",
       "astrophysics",
@@ -38,7 +42,7 @@
       "yt-dlp",
       "ytlite"
     ],
-    "updated_at": "2026-04-18T04:38:50Z"
+    "updated_at": "2026-04-19T12:37:06Z"
   },
   "repo_links": [],
   "terms": []

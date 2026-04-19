@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
+    "components": 43,
     "concepts": 0,
     "observations": 0,
-    "repos": 1,
-    "terms": 8
+    "repos": 2,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
+    "costiash/claude-code-docs",
     "sliamh11/deus"
   ]
 }

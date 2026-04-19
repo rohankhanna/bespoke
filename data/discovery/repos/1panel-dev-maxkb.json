@@ -411,14 +411,18 @@
       "size": 685
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:29.607453+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "v2",
     "description": "\ud83d\udd25 MaxKB is an open-source platform for building enterprise-grade agents.  \u5f3a\u5927\u6613\u7528\u7684\u5f00\u6e90\u4f01\u4e1a\u7ea7\u667a\u80fd\u4f53\u5e73\u53f0\u3002",
-    "full_name": "1Panel-dev/MaxKB",
+    "fork": false,
+    "full_name": "1panel-dev/maxkb",
     "html_url": "https://github.com/1Panel-dev/MaxKB",
     "language": "Python",
     "pushed_at": "2026-04-17T09:35:00Z",
+    "stargazers_count": 20762,
     "topics": [
       "agent",
       "agentic-ai",
@@ -435,7 +439,7 @@
       "qwen3",
       "rag"
     ],
-    "updated_at": "2026-04-18T08:11:33Z"
+    "updated_at": "2026-04-19T12:47:21Z"
   },
   "repo_links": [],
   "terms": [

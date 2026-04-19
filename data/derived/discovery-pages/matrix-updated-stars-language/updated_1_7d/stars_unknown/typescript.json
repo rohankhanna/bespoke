@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1565,
-    "concepts": 127,
-    "observations": 127,
-    "repos": 43,
-    "terms": 219
+    "components": 56,
+    "concepts": 17,
+    "observations": 17,
+    "repos": 3,
+    "terms": 20
   },
   "facet_version": 1,
   "filters": {
@@ -12,50 +12,10 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
-    "affaan-m/agentshield",
-    "anthropics/claude-code-action",
-    "atomicmemory/llm-wiki-compiler",
-    "badlogic/pi-mono",
-    "badlogic/pi-share-hf",
-    "ding113/claude-code-hub",
-    "Dokploy/cli",
-    "EveryInc/compound-engineering-plugin",
-    "fekkak1998/scira",
-    "Fission-AI/OpenSpec",
-    "FlorianBruniaux/claude-code-ultimate-guide",
     "GeiserX/AgentTap",
-    "getsentry/XcodeBuildMCP",
-    "google-gemini/gemini-cli",
-    "googleapis/release-please",
-    "huangguang1999/ccstatusline-zh",
-    "K-Dense-AI/k-dense-byok",
-    "langchain-ai/langgraphjs",
-    "lobehub/lobe-ui",
-    "lucasastorian/llmwiki",
-    "matt1398/claude-devtools",
-    "microsoft/playwright-cli",
-    "microsoft/playwright-mcp",
-    "microsoft/TypeScript",
-    "nizos/tdd-guard",
-    "NVIDIA/NemoClaw",
     "onecli/onecli",
-    "op7418/CodePilot",
-    "openclaw/openclaw",
-    "Piebald-AI/tweakcc",
-    "pixiv/three-vrm",
-    "QwenLM/qwen-code",
-    "qwibitai/nanoclaw",
-    "ryoppippi/ccusage",
-    "shareAI-lab/learn-claude-code",
-    "sirmalloc/ccstatusline",
-    "slopus/happy",
-    "tanweai/pua",
-    "upstash/context7",
-    "vadimdemedes/ink",
-    "vercel-labs/skills",
-    "vibe-log/vibe-log-cli",
-    "withastro/starlight"
+    "pixiv/three-vrm"
   ]
 }

@@ -623,14 +623,18 @@
       "size": 26168
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:49.364119+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities  - the IDE for your agent",
+    "fork": false,
     "full_name": "oraios/serena",
     "html_url": "https://github.com/oraios/serena",
     "language": "Python",
-    "pushed_at": "2026-04-18T11:23:47Z",
+    "pushed_at": "2026-04-19T13:14:41Z",
+    "stargazers_count": 23136,
     "topics": [
       "agent",
       "ai",
@@ -645,7 +649,7 @@
       "programming",
       "vibe-coding"
     ],
-    "updated_at": "2026-04-18T11:50:00Z"
+    "updated_at": "2026-04-19T13:14:45Z"
   },
   "repo_links": [
     {

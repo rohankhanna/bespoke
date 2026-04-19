@@ -37,16 +37,20 @@
       "size": 7723
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:26.956150+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\u8d39\u66fc.skill \u2014 \u7406\u67e5\u5fb7\u00b7\u8d39\u66fc\u7684\u8ba4\u77e5\u64cd\u4f5c\u7cfb\u7edf\u3002\u7531\u5973\u5a32.skill\u751f\u6210\u3002",
+    "fork": false,
     "full_name": "alchaincyf/feynman-skill",
     "html_url": "https://github.com/alchaincyf/feynman-skill",
     "language": null,
     "pushed_at": "2026-04-10T02:28:13Z",
+    "stargazers_count": 105,
     "topics": [],
-    "updated_at": "2026-04-18T07:08:57Z"
+    "updated_at": "2026-04-19T11:03:44Z"
   },
   "repo_links": [
     {

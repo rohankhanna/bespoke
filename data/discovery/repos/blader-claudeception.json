@@ -8,16 +8,20 @@
       "size": 6107
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:20.416897+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A Claude Code skill for autonomous skill extraction and continuous learning. Have Claude Code get smarter as it works.",
-    "full_name": "blader/Claudeception",
+    "fork": true,
+    "full_name": "blader/claudeception",
     "html_url": "https://github.com/blader/Claudeception",
     "language": "Shell",
     "pushed_at": "2026-02-21T05:10:15Z",
+    "stargazers_count": 2279,
     "topics": [],
-    "updated_at": "2026-04-18T03:56:10Z"
+    "updated_at": "2026-04-19T06:35:46Z"
   },
   "repo_links": [],
   "terms": []

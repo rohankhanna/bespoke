@@ -3,7 +3,7 @@
     "components": 38,
     "concepts": 12,
     "observations": 12,
-    "repos": 7,
+    "repos": 12,
     "terms": 32
   },
   "facet_version": 1,
@@ -11,9 +11,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
     "adoptium/adoptium",
+    "alchaincyf/elon-musk-skill",
+    "alchaincyf/feynman-skill",
+    "alchaincyf/munger-skill",
+    "alchaincyf/naval-skill",
+    "alchaincyf/steve-jobs-skill",
     "broderick-westrope/tetrigo",
     "comme2e/comm",
     "gowaylee/cchooks",

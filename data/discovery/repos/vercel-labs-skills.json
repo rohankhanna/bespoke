@@ -299,16 +299,20 @@
       "size": 4995
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:50.939431+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "The open agent skills tool - npx skills",
+    "fork": false,
     "full_name": "vercel-labs/skills",
     "html_url": "https://github.com/vercel-labs/skills",
     "language": "TypeScript",
     "pushed_at": "2026-04-17T19:08:03Z",
+    "stargazers_count": 14596,
     "topics": [],
-    "updated_at": "2026-04-18T12:04:55Z"
+    "updated_at": "2026-04-19T13:42:26Z"
   },
   "repo_links": [
     {

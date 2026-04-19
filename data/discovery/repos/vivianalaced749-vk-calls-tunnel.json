@@ -8,14 +8,18 @@
       "size": 17
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:22.733047+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Route WireGuard VPN traffic through VK voice call TURN servers to bypass Russia\u2019s IP blocks with DTLS/STUN relaying",
+    "fork": false,
     "full_name": "vivianalaced749/vk-calls-tunnel",
     "html_url": "https://github.com/vivianalaced749/vk-calls-tunnel",
     "language": null,
-    "pushed_at": "2026-04-18T04:40:50Z",
+    "pushed_at": "2026-04-19T12:38:50Z",
+    "stargazers_count": 0,
     "topics": [
       "chatgpt",
       "claude-api",
@@ -33,7 +37,7 @@
       "vulkan",
       "webcam"
     ],
-    "updated_at": "2026-04-18T04:40:55Z"
+    "updated_at": "2026-04-19T12:38:54Z"
   },
   "repo_links": [],
   "terms": []

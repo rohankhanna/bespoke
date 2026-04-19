@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 47,
-    "concepts": 38,
-    "observations": 38,
-    "repos": 3,
-    "terms": 38
+    "components": 36,
+    "concepts": 13,
+    "observations": 13,
+    "repos": 2,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
     "rust-lang/rust",
-    "tekumara/typos-lsp",
-    "tracel-ai/burn"
+    "tekumara/typos-lsp"
   ]
 }

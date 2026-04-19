@@ -178,14 +178,18 @@
       "size": 534
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:56.122924+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83c\udf3f It's Hacker News in your terminal",
+    "fork": false,
     "full_name": "bensadeh/circumflex",
     "html_url": "https://github.com/bensadeh/circumflex",
     "language": "Go",
     "pushed_at": "2026-04-13T11:25:43Z",
+    "stargazers_count": 1950,
     "topics": [
       "cli",
       "client",
@@ -200,7 +204,7 @@
       "tui",
       "ycombinator"
     ],
-    "updated_at": "2026-04-18T16:00:39Z"
+    "updated_at": "2026-04-19T07:19:13Z"
   },
   "repo_links": [],
   "terms": [

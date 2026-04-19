@@ -1,29 +1,18 @@
 {
   "counts": {
-    "components": 118,
-    "concepts": 29,
-    "observations": 30,
-    "repos": 12,
-    "terms": 52
+    "components": 26,
+    "concepts": 3,
+    "observations": 4,
+    "repos": 1,
+    "terms": 3
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
-    "anthropics/courses",
-    "BeehiveInnovations/pal-mcp-server",
-    "bl-ue/tweakcc-system-prompts",
-    "claude-did-this/claude-hub",
-    "ExistentialAudio/BlackHole",
-    "folke/lazy.nvim",
-    "fsnotify/fsnotify",
-    "GWUDCAP/cc-sessions",
-    "LC044/WeChatMsg",
-    "LokerL/tts-vue",
-    "numman-ali/openskills",
-    "ThibautMelen/agentic-ai-systems"
+    "LokerL/tts-vue"
   ]
 }

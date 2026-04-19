@@ -303,16 +303,20 @@
       "size": 3515
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:42.413215+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Lightweight coding agent that runs in your terminal",
+    "fork": false,
     "full_name": "openai/codex",
     "html_url": "https://github.com/openai/codex",
     "language": "Rust",
-    "pushed_at": "2026-04-18T09:13:22Z",
+    "pushed_at": "2026-04-19T12:20:49Z",
+    "stargazers_count": 76290,
     "topics": [],
-    "updated_at": "2026-04-18T10:16:25Z"
+    "updated_at": "2026-04-19T13:56:06Z"
   },
   "repo_links": [],
   "terms": [

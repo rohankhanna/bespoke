@@ -320,14 +320,18 @@
       "size": 2148
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:43.918309+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+    "fork": false,
     "full_name": "vllm-project/vllm",
     "html_url": "https://github.com/vllm-project/vllm",
     "language": "Python",
-    "pushed_at": "2026-04-18T07:48:55Z",
+    "pushed_at": "2026-04-19T09:57:40Z",
+    "stargazers_count": 77296,
     "topics": [
       "amd",
       "blackwell",
@@ -350,7 +354,7 @@
       "tpu",
       "transformer"
     ],
-    "updated_at": "2026-04-18T10:38:07Z"
+    "updated_at": "2026-04-19T13:55:08Z"
   },
   "repo_links": [
     {

@@ -260,14 +260,18 @@
       "size": 557
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:53.291475+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A Lightweight LLM Post-Training Library",
+    "fork": false,
     "full_name": "google/tunix",
     "html_url": "https://github.com/google/tunix",
     "language": "Python",
     "pushed_at": "2026-04-18T04:27:09Z",
+    "stargazers_count": 2229,
     "topics": [],
     "updated_at": "2026-04-18T13:01:36Z"
   },

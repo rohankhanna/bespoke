@@ -44,21 +44,25 @@
       "size": 3982
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:53.469730+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Skills for teaching agents how to build on Cloudflare.",
+    "fork": false,
     "full_name": "cloudflare/skills",
     "html_url": "https://github.com/cloudflare/skills",
     "language": null,
     "pushed_at": "2026-04-16T12:56:33Z",
+    "stargazers_count": 920,
     "topics": [
       "agents",
       "cloudflare",
       "skills",
       "workers"
     ],
-    "updated_at": "2026-04-18T13:06:17Z"
+    "updated_at": "2026-04-19T12:16:50Z"
   },
   "repo_links": [
     {

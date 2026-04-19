@@ -2190,21 +2190,25 @@
       "size": 3825
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:48.032323+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A modern runtime for JavaScript and TypeScript.",
+    "fork": false,
     "full_name": "denoland/deno",
     "html_url": "https://github.com/denoland/deno",
     "language": "Rust",
-    "pushed_at": "2026-04-18T11:29:57Z",
+    "pushed_at": "2026-04-19T11:07:19Z",
+    "stargazers_count": 106518,
     "topics": [
       "deno",
       "javascript",
       "rust",
       "typescript"
     ],
-    "updated_at": "2026-04-18T11:30:01Z"
+    "updated_at": "2026-04-19T13:51:05Z"
   },
   "repo_links": [
     {

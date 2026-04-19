@@ -575,21 +575,25 @@
       "size": 1029
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:40.917045+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Source code spell checker",
+    "fork": false,
     "full_name": "crate-ci/typos",
     "html_url": "https://github.com/crate-ci/typos",
     "language": "Rust",
     "pushed_at": "2026-04-16T19:22:27Z",
+    "stargazers_count": 3902,
     "topics": [
       "cli",
       "code-quality",
       "rust",
       "spell-checker"
     ],
-    "updated_at": "2026-04-18T09:48:46Z"
+    "updated_at": "2026-04-19T13:11:08Z"
   },
   "repo_links": [
     {

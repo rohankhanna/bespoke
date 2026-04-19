@@ -1,23 +1,29 @@
 {
   "counts": {
-    "components": 87,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 6,
-    "terms": 52
+    "components": 107,
+    "concepts": 30,
+    "observations": 30,
+    "repos": 12,
+    "terms": 67
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
+    "automazeio/ccpm",
+    "blader/claudeception",
+    "charmbracelet/glamour",
     "dagger/container-use",
+    "haleclipse/ccometixline",
     "jpanther/congo",
     "lobehub/lobe-chat-agents",
     "orogene/orogene",
+    "shareai-lab/claw0",
     "snarktank/antfarm",
+    "steipete/imsg",
     "stravu/crystal"
   ]
 }

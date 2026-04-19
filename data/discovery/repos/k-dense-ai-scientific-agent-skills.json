@@ -255,14 +255,18 @@
       "size": 1241
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:54.962649+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
-    "full_name": "K-Dense-AI/scientific-agent-skills",
+    "fork": false,
+    "full_name": "k-dense-ai/scientific-agent-skills",
     "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
     "language": "Python",
     "pushed_at": "2026-04-17T23:34:47Z",
+    "stargazers_count": 18858,
     "topics": [
       "agent-skills",
       "ai-scientist",
@@ -282,7 +286,7 @@
       "scientific-computing",
       "scientific-visualization"
     ],
-    "updated_at": "2026-04-18T13:37:43Z"
+    "updated_at": "2026-04-19T13:57:59Z"
   },
   "repo_links": [],
   "terms": [

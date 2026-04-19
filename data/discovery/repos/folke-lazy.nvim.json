@@ -235,14 +235,18 @@
       "size": 272
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:45.075890+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83d\udca4 A modern plugin manager for Neovim",
+    "fork": false,
     "full_name": "folke/lazy.nvim",
     "html_url": "https://github.com/folke/lazy.nvim",
     "language": "Lua",
     "pushed_at": "2025-12-17T12:08:49Z",
+    "stargazers_count": 20759,
     "topics": [
       "neovim",
       "neovim-plugin",
@@ -250,7 +254,7 @@
       "package-manager",
       "plugin-manager"
     ],
-    "updated_at": "2026-04-18T10:59:19Z"
+    "updated_at": "2026-04-19T11:28:17Z"
   },
   "repo_links": [],
   "terms": [

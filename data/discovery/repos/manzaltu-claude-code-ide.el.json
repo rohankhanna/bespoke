@@ -56,16 +56,20 @@
       "size": 2318
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:25.384493+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Claude Code IDE integration for Emacs",
+    "fork": false,
     "full_name": "manzaltu/claude-code-ide.el",
     "html_url": "https://github.com/manzaltu/claude-code-ide.el",
     "language": "Emacs Lisp",
     "pushed_at": "2026-04-02T05:20:26Z",
+    "stargazers_count": 1485,
     "topics": [],
-    "updated_at": "2026-04-18T06:37:00Z"
+    "updated_at": "2026-04-18T23:11:29Z"
   },
   "repo_links": [],
   "terms": []

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 16,
+    "components": 33,
     "concepts": 22,
     "observations": 22,
-    "repos": 1,
-    "terms": 31
+    "repos": 2,
+    "terms": 33
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
-    "ruvnet/ruflo"
+    "ruvnet/ruflo",
+    "tobi/qmd"
   ]
 }

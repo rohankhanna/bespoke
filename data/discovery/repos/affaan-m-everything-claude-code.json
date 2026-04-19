@@ -634,14 +634,18 @@
       "size": 1359
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:40.732980+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "fork": false,
     "full_name": "affaan-m/everything-claude-code",
     "html_url": "https://github.com/affaan-m/everything-claude-code",
     "language": "JavaScript",
-    "pushed_at": "2026-04-16T03:07:05Z",
+    "pushed_at": "2026-04-19T04:53:41Z",
+    "stargazers_count": 160886,
     "topics": [
       "ai-agents",
       "anthropic",
@@ -652,7 +656,7 @@
       "mcp",
       "productivity"
     ],
-    "updated_at": "2026-04-18T09:48:44Z"
+    "updated_at": "2026-04-19T14:01:20Z"
   },
   "repo_links": [
     {

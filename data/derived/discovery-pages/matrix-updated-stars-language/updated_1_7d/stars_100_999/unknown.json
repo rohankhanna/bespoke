@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 0,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 1,
-    "terms": 11
+    "concepts": 35,
+    "observations": 35,
+    "repos": 5,
+    "terms": 34
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
-    "ailev/fpf"
+    "ailev/fpf",
+    "astro-han/karpathy-llm-wiki",
+    "cloudflare/skills",
+    "nimbalyst/nimbalyst",
+    "piebald-ai/awesome-gemini-cli"
   ]
 }

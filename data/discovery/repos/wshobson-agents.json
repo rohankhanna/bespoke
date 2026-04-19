@@ -230,14 +230,18 @@
       "size": 2767
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:55.419938+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Intelligent automation and multi-agent orchestration for Claude Code",
+    "fork": false,
     "full_name": "wshobson/agents",
     "html_url": "https://github.com/wshobson/agents",
     "language": "Python",
-    "pushed_at": "2026-04-17T17:15:37Z",
+    "pushed_at": "2026-04-18T18:30:34Z",
+    "stargazers_count": 33880,
     "topics": [
       "agents",
       "anthropic",
@@ -260,7 +264,7 @@
       "subagents",
       "workflows"
     ],
-    "updated_at": "2026-04-18T13:44:38Z"
+    "updated_at": "2026-04-19T13:54:52Z"
   },
   "repo_links": [
     {

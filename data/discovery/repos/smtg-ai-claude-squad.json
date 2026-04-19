@@ -368,14 +368,18 @@
       "size": 1565
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:27.662779+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Manage multiple AI terminal agents like Claude Code, Codex, OpenCode, and Amp.",
+    "fork": false,
     "full_name": "smtg-ai/claude-squad",
     "html_url": "https://github.com/smtg-ai/claude-squad",
     "language": "Go",
     "pushed_at": "2026-03-28T23:34:19Z",
+    "stargazers_count": 7078,
     "topics": [
       "claude-code",
       "cli",
@@ -383,7 +387,7 @@
       "opencode",
       "vibe-coding"
     ],
-    "updated_at": "2026-04-18T07:28:35Z"
+    "updated_at": "2026-04-19T13:40:33Z"
   },
   "repo_links": [
     {

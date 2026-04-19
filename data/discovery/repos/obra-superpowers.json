@@ -69,16 +69,20 @@
       "size": 116
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:38.872300+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "An agentic skills framework & software development methodology that works.",
+    "fork": false,
     "full_name": "obra/superpowers",
     "html_url": "https://github.com/obra/superpowers",
     "language": "Shell",
     "pushed_at": "2026-04-16T19:50:46Z",
+    "stargazers_count": 159514,
     "topics": [],
-    "updated_at": "2026-04-18T09:22:09Z"
+    "updated_at": "2026-04-19T14:02:50Z"
   },
   "repo_links": [],
   "terms": [

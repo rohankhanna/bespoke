@@ -256,16 +256,20 @@
       "size": 7508
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:47.337391+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "\ud83e\udd16 Just a command runner",
+    "fork": false,
     "full_name": "casey/just",
     "html_url": "https://github.com/casey/just",
     "language": "Rust",
     "pushed_at": "2026-04-16T05:56:35Z",
+    "stargazers_count": 32981,
     "topics": [],
-    "updated_at": "2026-04-18T11:24:03Z"
+    "updated_at": "2026-04-19T11:45:09Z"
   },
   "repo_links": [
     {

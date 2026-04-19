@@ -68,19 +68,23 @@
       "size": 2841
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:31.711951+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "CLI for Apple's Messages.app so your agent can send and receive text messages/iMessages.",
+    "fork": false,
     "full_name": "steipete/imsg",
     "html_url": "https://github.com/steipete/imsg",
     "language": "Swift",
     "pushed_at": "2026-03-02T03:07:02Z",
+    "stargazers_count": 1005,
     "topics": [
       "cli",
       "imessage"
     ],
-    "updated_at": "2026-04-18T08:31:10Z"
+    "updated_at": "2026-04-19T13:12:23Z"
   },
   "repo_links": [],
   "terms": [

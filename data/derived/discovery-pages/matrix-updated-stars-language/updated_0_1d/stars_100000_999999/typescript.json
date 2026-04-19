@@ -1,0 +1,21 @@
+{
+  "counts": {
+    "components": 249,
+    "concepts": 11,
+    "observations": 11,
+    "repos": 3,
+    "terms": 24
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "typescript",
+    "star_bucket": "stars_100000_999999",
+    "updated_bucket": "updated_0_1d"
+  },
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "repo_ids": [
+    "google-gemini/gemini-cli",
+    "microsoft/typescript",
+    "openclaw/openclaw"
+  ]
+}

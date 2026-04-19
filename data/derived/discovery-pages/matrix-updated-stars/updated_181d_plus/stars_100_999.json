@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 393,
-    "concepts": 99,
-    "observations": 100,
-    "repos": 38,
-    "terms": 104
+    "components": 404,
+    "concepts": 103,
+    "observations": 104,
+    "repos": 40,
+    "terms": 113
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
     "1runeberg/confichat",
     "aminrezaei0x443/memory-efficient-attention",
@@ -29,12 +29,14 @@
     "chrismytton/shoreman",
     "connectai-e/midjourney-web",
     "dazuiba/ccnotify",
+    "dirs-dev/dirs-rs",
     "disler/just-prompt",
     "ecumene/rust-sloth",
     "ers35/luastatic",
     "fimeg/networkchronicles",
     "grahama1970/claude-code-mcp-enhanced",
     "harfbuzz/rustybuzz",
+    "helmi/claude-simone",
     "infinyon/node-bindgen",
     "johnlindquist/claude-hooks",
     "kingler/n8n_agent",

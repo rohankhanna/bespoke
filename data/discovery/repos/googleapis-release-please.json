@@ -816,14 +816,18 @@
       "size": 2121
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:58.811896+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "generate release PRs based on the conventionalcommits.org spec",
+    "fork": false,
     "full_name": "googleapis/release-please",
     "html_url": "https://github.com/googleapis/release-please",
     "language": "TypeScript",
     "pushed_at": "2026-04-13T20:59:26Z",
+    "stargazers_count": 6745,
     "topics": [],
     "updated_at": "2026-04-18T21:52:40Z"
   },

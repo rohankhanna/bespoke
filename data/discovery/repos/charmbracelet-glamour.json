@@ -230,14 +230,18 @@
       "size": 1106
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:56.309927+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Stylesheet-based markdown rendering for your CLI apps \ud83d\udc87\ud83c\udffb\u200d\u2640\ufe0f",
+    "fork": false,
     "full_name": "charmbracelet/glamour",
     "html_url": "https://github.com/charmbracelet/glamour",
     "language": "Go",
     "pushed_at": "2026-03-16T09:03:18Z",
+    "stargazers_count": 3420,
     "topics": [
       "cli",
       "go",

@@ -489,16 +489,20 @@
       "size": 10845
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:57.295711+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "develop",
     "description": "Autonomous multi-session AI coding",
-    "full_name": "AndyMik90/Aperant",
+    "fork": false,
+    "full_name": "andymik90/aperant",
     "html_url": "https://github.com/AndyMik90/Aperant",
     "language": "TypeScript",
     "pushed_at": "2026-03-23T19:47:59Z",
+    "stargazers_count": 14005,
     "topics": [],
-    "updated_at": "2026-04-18T18:15:30Z"
+    "updated_at": "2026-04-19T13:58:28Z"
   },
   "repo_links": [
     {

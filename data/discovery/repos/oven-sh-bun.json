@@ -421,14 +421,18 @@
       "size": 2734
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:30.109093+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager \u2013 all in one",
+    "fork": false,
     "full_name": "oven-sh/bun",
     "html_url": "https://github.com/oven-sh/bun",
     "language": "Zig",
-    "pushed_at": "2026-04-18T10:16:51Z",
+    "pushed_at": "2026-04-19T13:28:30Z",
+    "stargazers_count": 89192,
     "topics": [
       "bun",
       "bundler",
@@ -443,7 +447,7 @@
       "zig",
       "ziglang"
     ],
-    "updated_at": "2026-04-18T08:18:13Z"
+    "updated_at": "2026-04-19T13:51:48Z"
   },
   "repo_links": [],
   "terms": [

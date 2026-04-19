@@ -287,14 +287,18 @@
       "size": 424
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:46.982067+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Stable Diffusion web UI",
-    "full_name": "AUTOMATIC1111/stable-diffusion-webui",
+    "fork": false,
+    "full_name": "automatic1111/stable-diffusion-webui",
     "html_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
     "language": "Python",
     "pushed_at": "2026-03-02T07:00:53Z",
+    "stargazers_count": 162466,
     "topics": [
       "ai",
       "ai-art",
@@ -313,7 +317,7 @@
       "upscaling",
       "web"
     ],
-    "updated_at": "2026-04-18T11:21:09Z"
+    "updated_at": "2026-04-19T13:44:51Z"
   },
   "repo_links": [
     {

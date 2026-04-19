@@ -1343,14 +1343,18 @@
       "size": 3431
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:48.365694+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "An extremely fast Python linter and code formatter, written in Rust.",
+    "fork": false,
     "full_name": "astral-sh/ruff",
     "html_url": "https://github.com/astral-sh/ruff",
     "language": "Rust",
-    "pushed_at": "2026-04-18T12:22:10Z",
+    "pushed_at": "2026-04-19T13:43:28Z",
+    "stargazers_count": 47152,
     "topics": [
       "linter",
       "pep8",
@@ -1364,7 +1368,7 @@
       "style-guide",
       "styleguide"
     ],
-    "updated_at": "2026-04-18T11:36:18Z"
+    "updated_at": "2026-04-19T12:52:49Z"
   },
   "repo_links": [
     {

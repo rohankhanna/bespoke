@@ -1,23 +1,26 @@
 {
   "counts": {
-    "components": 86,
+    "components": 264,
     "concepts": 0,
     "observations": 0,
-    "repos": 36,
-    "terms": 21
+    "repos": 44,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
     "aipurposes1587-max/weixin-agent-rs",
     "azizos911/setja-upp-stilla-yiimp-namuvinnslupott-hugbunadur-ubuntu-linux",
     "b2agi/exist-is-charter",
     "begmyratb/floweye-yyyxxx.cc",
+    "biparous-blaxploitation156/ciphermind",
+    "bunburysniper/bleunova-ai-agent",
     "carloandremoreyra/xx",
+    "chafingdishposition355/go-skills",
     "damacol/google-gemma-2-2b-it",
     "damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive",
     "damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive",
@@ -26,8 +29,11 @@
     "damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit",
     "damacol/meta-llama-llama-3-2-3b",
     "damacol/xai-org-grok-2",
+    "fekkak1998/scira",
     "firestryk/chatgpt-website.github.io",
     "florisheedless915/grok-register",
+    "foundersieve687/skill-gateway",
+    "genuslovoacalixtusiii510/ytp-2026",
     "gerardtschanz/revenue-os",
     "gopi2211/ralph",
     "gyf0311/lorekit",
@@ -40,6 +46,7 @@
     "muhammadumer000/ustanovka-i-nastrojka-yiimp-mayning-pul-programmnoe-obespechenie-ubuntu-linux",
     "mupozg823/codelens-mcp-plugin",
     "narutoxdd6/nyro",
+    "pragmatical-transshipment598/claude-code-workflows",
     "redductive/securepixel",
     "robertabao/grok-nvim",
     "shoggo-ai/seniorvigil",
@@ -48,6 +55,7 @@
     "similar-colpoxerosis201/codex-wechat",
     "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
     "tornikepe/ai-chatbot",
+    "vivianalaced749/vk-calls-tunnel",
     "wendyalbanez/clawui"
   ]
 }

@@ -447,18 +447,22 @@
       "size": 3029
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:57.781349+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "LLM inference in C/C++",
+    "fork": false,
     "full_name": "ggml-org/llama.cpp",
     "html_url": "https://github.com/ggml-org/llama.cpp",
     "language": "C++",
-    "pushed_at": "2026-04-18T18:12:05Z",
+    "pushed_at": "2026-04-19T13:09:26Z",
+    "stargazers_count": 104898,
     "topics": [
       "ggml"
     ],
-    "updated_at": "2026-04-18T18:24:54Z"
+    "updated_at": "2026-04-19T14:03:57Z"
   },
   "repo_links": [
     {

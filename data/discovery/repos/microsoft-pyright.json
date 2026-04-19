@@ -515,14 +515,18 @@
       "size": 4031
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:54.592578+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Static Type Checker for Python",
+    "fork": false,
     "full_name": "microsoft/pyright",
     "html_url": "https://github.com/microsoft/pyright",
     "language": "Python",
     "pushed_at": "2026-04-15T23:19:42Z",
+    "stargazers_count": 15385,
     "topics": [],
     "updated_at": "2026-04-18T13:30:27Z"
   },

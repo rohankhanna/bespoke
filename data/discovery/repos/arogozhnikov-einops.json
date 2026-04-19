@@ -243,14 +243,18 @@
       "size": 683
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:58.258307+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Flexible and powerful tensor operations for readable and reliable code (for pytorch, jax, TF and others)",
+    "fork": false,
     "full_name": "arogozhnikov/einops",
     "html_url": "https://github.com/arogozhnikov/einops",
     "language": "Python",
-    "pushed_at": "2026-04-19T01:00:19Z",
+    "pushed_at": "2026-04-19T01:12:09Z",
+    "stargazers_count": 9458,
     "topics": [
       "cupy",
       "deep-learning",
@@ -262,7 +266,7 @@
       "tensor",
       "tensorflow"
     ],
-    "updated_at": "2026-04-18T19:04:30Z"
+    "updated_at": "2026-04-19T12:50:03Z"
   },
   "repo_links": [
     {

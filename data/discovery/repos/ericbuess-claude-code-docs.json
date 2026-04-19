@@ -80,16 +80,20 @@
       "size": 3443
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:37.971569+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": null,
+    "fork": false,
     "full_name": "ericbuess/claude-code-docs",
     "html_url": "https://github.com/ericbuess/claude-code-docs",
     "language": "Shell",
-    "pushed_at": "2026-04-18T09:14:43Z",
+    "pushed_at": "2026-04-19T12:07:03Z",
+    "stargazers_count": 820,
     "topics": [],
-    "updated_at": "2026-04-18T09:14:48Z"
+    "updated_at": "2026-04-19T13:33:54Z"
   },
   "repo_links": [],
   "terms": [

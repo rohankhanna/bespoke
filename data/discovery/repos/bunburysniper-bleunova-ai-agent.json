@@ -24,14 +24,18 @@
       "size": 259
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:21.426711+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83e\udd16 Build and run a self-hosted, secure AI agent for tasks like messaging, smart browsing, and home automation with ethical safeguards.",
-    "full_name": "bunburysniper/BleuNova-AI-Agent",
+    "fork": false,
+    "full_name": "bunburysniper/bleunova-ai-agent",
     "html_url": "https://github.com/bunburysniper/BleuNova-AI-Agent",
     "language": "Python",
-    "pushed_at": "2026-04-18T04:14:21Z",
+    "pushed_at": "2026-04-19T12:11:05Z",
+    "stargazers_count": 0,
     "topics": [
       "ai-agent",
       "docker",
@@ -44,7 +48,7 @@
       "privacy-first",
       "self-hosted"
     ],
-    "updated_at": "2026-04-18T04:14:25Z"
+    "updated_at": "2026-04-19T12:11:08Z"
   },
   "repo_links": [],
   "terms": [

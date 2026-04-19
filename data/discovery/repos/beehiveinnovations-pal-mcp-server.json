@@ -301,16 +301,20 @@
       "size": 1517
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:54.260046+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "The power of Claude Code / GeminiCLI / CodexCLI + [Gemini / OpenAI / OpenRouter / Azure / Grok / Ollama / Custom Model / All Of The Above] working as one.",
-    "full_name": "BeehiveInnovations/pal-mcp-server",
+    "fork": false,
+    "full_name": "beehiveinnovations/pal-mcp-server",
     "html_url": "https://github.com/BeehiveInnovations/pal-mcp-server",
     "language": "Python",
     "pushed_at": "2025-12-15T17:07:31Z",
+    "stargazers_count": 11448,
     "topics": [],
-    "updated_at": "2026-04-18T13:27:50Z"
+    "updated_at": "2026-04-19T12:30:08Z"
   },
   "repo_links": [],
   "terms": [

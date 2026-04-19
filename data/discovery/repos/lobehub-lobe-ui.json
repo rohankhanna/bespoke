@@ -1821,14 +1821,18 @@
       "size": 460
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:23.801910+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "\ud83c\udf6d  Lobe UI - an open-source UI component library for building AIGC web apps",
+    "fork": false,
     "full_name": "lobehub/lobe-ui",
     "html_url": "https://github.com/lobehub/lobe-ui",
     "language": "TypeScript",
-    "pushed_at": "2026-04-18T05:00:30Z",
+    "pushed_at": "2026-04-18T17:45:03Z",
+    "stargazers_count": 1930,
     "topics": [
       "aigc",
       "antd",
@@ -1842,7 +1846,7 @@
       "ui-components",
       "ui-kit"
     ],
-    "updated_at": "2026-04-18T05:16:37Z"
+    "updated_at": "2026-04-19T09:27:56Z"
   },
   "repo_links": [
     {

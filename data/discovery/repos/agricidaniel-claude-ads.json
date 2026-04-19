@@ -121,14 +121,18 @@
       "size": 1021
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:49.188522+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Comprehensive paid advertising audit & optimization skill for Claude Code. 250+ checks across Google, Meta, YouTube, LinkedIn, TikTok, Microsoft & Apple Ads with weighted scoring, parallel agents, industry templates, and AI creative generation.",
-    "full_name": "AgriciDaniel/claude-ads",
+    "fork": false,
+    "full_name": "agricidaniel/claude-ads",
     "html_url": "https://github.com/AgriciDaniel/claude-ads",
     "language": "Python",
     "pushed_at": "2026-04-17T21:07:20Z",
+    "stargazers_count": 2709,
     "topics": [
       "ai",
       "ai-marketing",
@@ -137,7 +141,7 @@
       "marketing-automation",
       "open-source"
     ],
-    "updated_at": "2026-04-18T11:48:53Z"
+    "updated_at": "2026-04-19T14:01:55Z"
   },
   "repo_links": [
     {

@@ -93,21 +93,25 @@
       "size": 8420
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:25.895962+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+    "fork": false,
     "full_name": "revfactory/harness",
     "html_url": "https://github.com/revfactory/harness",
     "language": "HTML",
-    "pushed_at": "2026-04-17T19:36:15Z",
+    "pushed_at": "2026-04-18T10:38:53Z",
+    "stargazers_count": 2644,
     "topics": [
       "claude-code",
       "claude-code-plugin",
       "harness",
       "harness-engineering"
     ],
-    "updated_at": "2026-04-18T06:50:28Z"
+    "updated_at": "2026-04-19T13:48:58Z"
   },
   "repo_links": [
     {

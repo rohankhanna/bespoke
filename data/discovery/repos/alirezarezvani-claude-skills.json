@@ -524,14 +524,18 @@
       "size": 13834
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:55.250749+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "232+ Claude Code skills & agent plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents \u2014 engineering, marketing, product, compliance, C-level advisory.",
+    "fork": false,
     "full_name": "alirezarezvani/claude-skills",
     "html_url": "https://github.com/alirezarezvani/claude-skills",
     "language": "Python",
     "pushed_at": "2026-04-13T12:23:54Z",
+    "stargazers_count": 11879,
     "topics": [
       "agent-plugins",
       "agent-skills",
@@ -554,7 +558,7 @@
       "openclaw-skills",
       "prompt-engineering"
     ],
-    "updated_at": "2026-04-18T13:43:23Z"
+    "updated_at": "2026-04-19T13:57:24Z"
   },
   "repo_links": [
     {

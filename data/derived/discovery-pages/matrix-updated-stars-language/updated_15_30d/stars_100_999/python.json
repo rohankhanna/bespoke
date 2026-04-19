@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2,
+    "components": 7,
     "concepts": 0,
     "observations": 0,
-    "repos": 1,
-    "terms": 2
+    "repos": 2,
+    "terms": 7
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
-    "akin-ozer/cc-devops-skills"
+    "akin-ozer/cc-devops-skills",
+    "ldayton/dippy"
   ]
 }

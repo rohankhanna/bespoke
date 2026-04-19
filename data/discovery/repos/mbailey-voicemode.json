@@ -265,14 +265,18 @@
       "size": 1526
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:32.589649+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Natural (2-way) voice conversations with Claude Code",
+    "fork": false,
     "full_name": "mbailey/voicemode",
     "html_url": "https://github.com/mbailey/voicemode",
     "language": "Python",
     "pushed_at": "2026-04-17T02:26:11Z",
+    "stargazers_count": 1090,
     "topics": [
       "anthropic",
       "asr",
@@ -287,7 +291,7 @@
       "voicemode",
       "whisper"
     ],
-    "updated_at": "2026-04-18T08:36:41Z"
+    "updated_at": "2026-04-19T08:30:20Z"
   },
   "repo_links": [],
   "terms": [

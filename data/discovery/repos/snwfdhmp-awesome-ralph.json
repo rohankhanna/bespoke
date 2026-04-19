@@ -37,14 +37,18 @@
       "size": 13180
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:28.451055+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "A curated list of resources about Ralph, the AI coding technique that runs AI coding agents in automated loops until specifications are fulfilled.",
+    "fork": false,
     "full_name": "snwfdhmp/awesome-ralph",
     "html_url": "https://github.com/snwfdhmp/awesome-ralph",
     "language": null,
     "pushed_at": "2026-02-03T08:34:43Z",
+    "stargazers_count": 855,
     "topics": [
       "ai-coding",
       "claude",
@@ -54,7 +58,7 @@
       "ralph-wiggum",
       "vibe-coding"
     ],
-    "updated_at": "2026-04-18T07:50:51Z"
+    "updated_at": "2026-04-19T05:47:43Z"
   },
   "repo_links": [
     {

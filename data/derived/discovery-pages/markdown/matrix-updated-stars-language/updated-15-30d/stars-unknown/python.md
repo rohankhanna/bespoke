@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · Unknown stars · Python
 
-Generated at: `2026-04-19T14:03:00.009749+00:00`
+Generated at: `2026-04-19T14:03:58.882676+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 6
-- terms: 16
-- components: 19
-- concepts: 3
-- observations: 3
+- repos: 1
+- terms: 0
+- components: 0
+- concepts: 0
+- observations: 0
 
 ## Static behavior
 
@@ -26,20 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [W1ndys/ex-cure-skill](https://github.com/W1ndys/ex-cure-skill) | unknown | 2026-04-01T16:04:54Z | Python | Unknown | 3 | 0 | 3 | 3 |
-| [ldayton/Dippy](https://github.com/ldayton/Dippy) | unknown | 2026-03-29T20:11:16Z | Python | CLI | 5 | 5 | 0 | 0 |
 | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | unknown | 2026-03-26T00:07:37Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [Jeffallan/claude-skills](https://github.com/Jeffallan/claude-skills) | unknown | 2026-03-23T22:39:28Z | Python | Infrastructure/tooling | 2 | 8 | 0 | 0 |
-| [NousResearch/tinker-atropos](https://github.com/NousResearch/tinker-atropos) | unknown | 2026-03-22T21:35:09Z | Python | Service/API | 0 | 0 | 0 | 0 |
-| [SuperClaude-Org/SuperClaude_Framework](https://github.com/SuperClaude-Org/SuperClaude_Framework) | unknown | 2026-03-22T17:34:39Z | Python | Infrastructure/tooling | 6 | 6 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [W1ndys/ex-cure-skill](https://github.com/W1ndys/ex-cure-skill) | unknown | 2026-04-01T16:04:54Z | Python | Unknown | 3 | 0 | 3 | 3 |
-| [ldayton/Dippy](https://github.com/ldayton/Dippy) | unknown | 2026-03-29T20:11:16Z | Python | CLI | 5 | 5 | 0 | 0 |
 | [karpathy/autoresearch](https://github.com/karpathy/autoresearch) | unknown | 2026-03-26T00:07:37Z | Python | Unknown | 0 | 0 | 0 | 0 |
-| [Jeffallan/claude-skills](https://github.com/Jeffallan/claude-skills) | unknown | 2026-03-23T22:39:28Z | Python | Infrastructure/tooling | 2 | 8 | 0 | 0 |
-| [NousResearch/tinker-atropos](https://github.com/NousResearch/tinker-atropos) | unknown | 2026-03-22T21:35:09Z | Python | Service/API | 0 | 0 | 0 | 0 |
-| [SuperClaude-Org/SuperClaude_Framework](https://github.com/SuperClaude-Org/SuperClaude_Framework) | unknown | 2026-03-22T17:34:39Z | Python | Infrastructure/tooling | 6 | 6 | 0 | 0 |

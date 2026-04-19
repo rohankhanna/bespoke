@@ -75,20 +75,24 @@
       "size": 346
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:46.836648+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "An index of my Claude Code related repos including a wide variety of starter templates for using Claude Code for common and more imaginative purposes!",
-    "full_name": "danielrosehill/Claude-Code-Projects-Index",
+    "fork": false,
+    "full_name": "danielrosehill/claude-code-projects-index",
     "html_url": "https://github.com/danielrosehill/Claude-Code-Projects-Index",
     "language": "Astro",
-    "pushed_at": "2026-04-16T19:46:58Z",
+    "pushed_at": "2026-04-19T13:49:01Z",
+    "stargazers_count": 362,
     "topics": [
       "claude-code",
       "claude-code-cli",
       "index-repos"
     ],
-    "updated_at": "2026-04-18T11:20:55Z"
+    "updated_at": "2026-04-19T13:49:06Z"
   },
   "repo_links": [
     {

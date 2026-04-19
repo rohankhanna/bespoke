@@ -1011,21 +1011,25 @@
       "size": 1414
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:35.703749+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
-    "full_name": "microsoft/TypeScript",
+    "fork": false,
+    "full_name": "microsoft/typescript",
     "html_url": "https://github.com/microsoft/TypeScript",
     "language": "TypeScript",
-    "pushed_at": "2026-04-17T18:18:29Z",
+    "pushed_at": "2026-04-19T12:01:08Z",
+    "stargazers_count": 108595,
     "topics": [
       "javascript",
       "language",
       "typechecker",
       "typescript"
     ],
-    "updated_at": "2026-04-18T08:59:22Z"
+    "updated_at": "2026-04-19T14:01:41Z"
   },
   "repo_links": [
     {

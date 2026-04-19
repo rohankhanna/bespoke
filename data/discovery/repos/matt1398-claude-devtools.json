@@ -1063,14 +1063,18 @@
       "size": 5417
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:35.023980+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "The missing DevTools for Claude Code \u2014 inspect session logs, tool calls, token usage, subagents, and context window in a visual UI. Free, open source.",
+    "fork": false,
     "full_name": "matt1398/claude-devtools",
     "html_url": "https://github.com/matt1398/claude-devtools",
     "language": "TypeScript",
     "pushed_at": "2026-04-18T01:47:27Z",
+    "stargazers_count": 3129,
     "topics": [
       "ai",
       "ai-agent",
@@ -1093,7 +1097,7 @@
       "token-usage",
       "typescript"
     ],
-    "updated_at": "2026-04-18T08:56:25Z"
+    "updated_at": "2026-04-19T12:51:49Z"
   },
   "repo_links": [],
   "terms": [

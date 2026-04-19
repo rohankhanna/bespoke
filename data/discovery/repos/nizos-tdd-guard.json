@@ -622,14 +622,18 @@
       "size": 1485
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:36.008749+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Automated TDD enforcement for Claude Code",
+    "fork": false,
     "full_name": "nizos/tdd-guard",
     "html_url": "https://github.com/nizos/tdd-guard",
     "language": "TypeScript",
-    "pushed_at": "2026-04-18T09:00:50Z",
+    "pushed_at": "2026-04-19T10:58:08Z",
+    "stargazers_count": 1994,
     "topics": [
       "agentic-coding",
       "automation",
@@ -639,7 +643,7 @@
       "llm-tools",
       "tdd"
     ],
-    "updated_at": "2026-04-18T09:00:54Z"
+    "updated_at": "2026-04-19T13:05:17Z"
   },
   "repo_links": [],
   "terms": [

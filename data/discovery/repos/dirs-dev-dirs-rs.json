@@ -79,14 +79,18 @@
       "size": 503
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:31.249049+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": true,
     "default_branch": "main",
     "description": "moved to https://codeberg.org/dirs/dirs-rs",
+    "fork": false,
     "full_name": "dirs-dev/dirs-rs",
     "html_url": "https://github.com/dirs-dev/dirs-rs",
     "language": "Rust",
     "pushed_at": "2025-01-12T19:35:17Z",
+    "stargazers_count": 735,
     "topics": [
       "knownfolders",
       "xdg-basedir",

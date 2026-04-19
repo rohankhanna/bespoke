@@ -1556,14 +1556,18 @@
       "size": 52586
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:19.884125+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Free LLM API keys for GPT-5.4, Claude, DeepSeek, Gemini, Grok \u2014 copy, paste, use. Updated 3-5x daily. No credit card needed.",
+    "fork": false,
     "full_name": "alistaitsacle/free-llm-api-keys",
     "html_url": "https://github.com/alistaitsacle/free-llm-api-keys",
     "language": "Python",
-    "pushed_at": "2026-04-18T03:52:06Z",
+    "pushed_at": "2026-04-19T13:52:06Z",
+    "stargazers_count": 105,
     "topics": [
       "ai",
       "api",
@@ -1586,7 +1590,7 @@
       "llm-api",
       "openai"
     ],
-    "updated_at": "2026-04-18T03:52:10Z"
+    "updated_at": "2026-04-19T13:52:11Z"
   },
   "repo_links": [],
   "terms": [

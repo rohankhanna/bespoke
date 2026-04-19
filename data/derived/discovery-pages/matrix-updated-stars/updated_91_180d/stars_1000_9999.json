@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 41,
+    "components": 52,
     "concepts": 19,
     "observations": 19,
-    "repos": 6,
+    "repos": 8,
     "terms": 24
   },
   "facet_version": 1,
@@ -11,12 +11,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
     "ddollar/forego",
     "google-github-actions/auth",
+    "gwudcap/cc-sessions",
     "julienxx/terminal-notifier",
     "lorexxar/kunlun-m",
+    "numman-ali/openskills",
     "protectai/llm-guard",
     "steipete/claude-code-mcp"
   ]

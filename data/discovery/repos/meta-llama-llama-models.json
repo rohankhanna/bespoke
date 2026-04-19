@@ -96,16 +96,20 @@
       "size": 2143
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:28.148090+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Utilities intended for use with Llama models.",
+    "fork": false,
     "full_name": "meta-llama/llama-models",
     "html_url": "https://github.com/meta-llama/llama-models",
     "language": "Python",
     "pushed_at": "2026-02-11T16:38:31Z",
+    "stargazers_count": 7562,
     "topics": [],
-    "updated_at": "2026-04-18T07:46:58Z"
+    "updated_at": "2026-04-19T12:20:54Z"
   },
   "repo_links": [
     {

@@ -401,14 +401,18 @@
       "size": 4737
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:27.799849+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Real-time Claude Code usage monitor with predictions and warnings",
-    "full_name": "Maciek-roboblog/Claude-Code-Usage-Monitor",
+    "fork": false,
+    "full_name": "maciek-roboblog/claude-code-usage-monitor",
     "html_url": "https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor",
     "language": "Python",
     "pushed_at": "2025-09-14T03:40:59Z",
+    "stargazers_count": 7630,
     "topics": [
       "ai",
       "analytics",
@@ -420,7 +424,7 @@
       "terminal",
       "usage-tracking"
     ],
-    "updated_at": "2026-04-18T07:32:33Z"
+    "updated_at": "2026-04-19T12:16:51Z"
   },
   "repo_links": [],
   "terms": [

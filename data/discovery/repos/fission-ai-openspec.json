@@ -490,14 +490,18 @@
       "size": 1866
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:52.749745+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Spec-driven development (SDD) for AI coding assistants.",
-    "full_name": "Fission-AI/OpenSpec",
+    "fork": false,
+    "full_name": "fission-ai/openspec",
     "html_url": "https://github.com/Fission-AI/OpenSpec",
     "language": "TypeScript",
     "pushed_at": "2026-04-15T10:33:52Z",
+    "stargazers_count": 41172,
     "topics": [
       "ai",
       "context-engineering",
@@ -510,7 +514,7 @@
       "spec-driven-development",
       "specification"
     ],
-    "updated_at": "2026-04-18T12:39:04Z"
+    "updated_at": "2026-04-19T13:58:08Z"
   },
   "repo_links": [],
   "terms": [

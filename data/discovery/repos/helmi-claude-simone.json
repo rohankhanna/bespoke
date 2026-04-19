@@ -237,14 +237,18 @@
       "size": 2136
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:19.589394+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "A project management framework for AI-assisted development with Claude Code",
-    "full_name": "Helmi/claude-simone",
+    "fork": false,
+    "full_name": "helmi/claude-simone",
     "html_url": "https://github.com/Helmi/claude-simone",
     "language": "TypeScript",
     "pushed_at": "2025-08-26T12:11:09Z",
+    "stargazers_count": 557,
     "topics": [],
     "updated_at": "2026-04-18T03:48:25Z"
   },

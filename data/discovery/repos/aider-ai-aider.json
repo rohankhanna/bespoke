@@ -516,14 +516,18 @@
       "size": 718
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:51.412349+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "aider is AI pair programming in your terminal",
-    "full_name": "Aider-AI/aider",
+    "fork": false,
+    "full_name": "aider-ai/aider",
     "html_url": "https://github.com/Aider-AI/aider",
     "language": "Python",
     "pushed_at": "2026-04-09T05:09:59Z",
+    "stargazers_count": 43560,
     "topics": [
       "anthropic",
       "chatgpt",
@@ -539,7 +543,7 @@
       "openai",
       "sonnet"
     ],
-    "updated_at": "2026-04-18T12:26:39Z"
+    "updated_at": "2026-04-19T14:01:51Z"
   },
   "repo_links": [],
   "terms": [

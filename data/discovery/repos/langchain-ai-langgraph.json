@@ -537,14 +537,18 @@
       "size": 994
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:48.883392+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Build resilient language agents as graphs.",
+    "fork": false,
     "full_name": "langchain-ai/langgraph",
     "html_url": "https://github.com/langchain-ai/langgraph",
     "language": "Python",
-    "pushed_at": "2026-04-17T20:54:18Z",
+    "pushed_at": "2026-04-19T10:32:20Z",
+    "stargazers_count": 29646,
     "topics": [
       "agents",
       "ai",
@@ -565,7 +569,7 @@
       "python",
       "rag"
     ],
-    "updated_at": "2026-04-18T11:43:02Z"
+    "updated_at": "2026-04-19T13:45:36Z"
   },
   "repo_links": [
     {

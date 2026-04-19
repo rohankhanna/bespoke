@@ -494,16 +494,20 @@
       "size": 3969
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:45.732416+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Run OpenClaw more securely inside NVIDIA OpenShell with managed inference",
-    "full_name": "NVIDIA/NemoClaw",
+    "fork": false,
+    "full_name": "nvidia/nemoclaw",
     "html_url": "https://github.com/NVIDIA/NemoClaw",
     "language": "TypeScript",
-    "pushed_at": "2026-04-18T09:41:47Z",
+    "pushed_at": "2026-04-19T13:49:48Z",
+    "stargazers_count": 19462,
     "topics": [],
-    "updated_at": "2026-04-18T11:08:22Z"
+    "updated_at": "2026-04-19T13:45:40Z"
   },
   "repo_links": [
     {

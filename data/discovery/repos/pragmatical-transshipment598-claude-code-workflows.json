@@ -8,14 +8,18 @@
       "size": 5363
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:22.901926+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Build Claude Code workflows, templates, and best practices for faster software development, testing, docs, and code review",
-    "full_name": "Pragmatical-transshipment598/claude-code-workflows",
+    "fork": false,
+    "full_name": "pragmatical-transshipment598/claude-code-workflows",
     "html_url": "https://github.com/Pragmatical-transshipment598/claude-code-workflows",
     "language": null,
-    "pushed_at": "2026-04-18T04:41:08Z",
+    "pushed_at": "2026-04-19T12:39:02Z",
+    "stargazers_count": 0,
     "topics": [
       "agent",
       "agentic-coding",
@@ -37,7 +41,7 @@
       "workflow-automation",
       "workflows"
     ],
-    "updated_at": "2026-04-18T04:41:11Z"
+    "updated_at": "2026-04-19T12:39:06Z"
   },
   "repo_links": [],
   "terms": []

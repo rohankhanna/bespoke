@@ -612,14 +612,18 @@
       "size": 17430
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:33.954079+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "An improved implementation of the Ralph Wiggum technique for autonomous AI agent orchestration",
+    "fork": false,
     "full_name": "mikeyobrien/ralph-orchestrator",
     "html_url": "https://github.com/mikeyobrien/ralph-orchestrator",
     "language": "Rust",
-    "pushed_at": "2026-04-15T03:14:33Z",
+    "pushed_at": "2026-04-18T15:33:51Z",
+    "stargazers_count": 2728,
     "topics": [
       "ai",
       "ai-agents",
@@ -637,7 +641,7 @@
       "ralph-loop",
       "ralph-wiggum"
     ],
-    "updated_at": "2026-04-18T08:50:35Z"
+    "updated_at": "2026-04-19T12:53:54Z"
   },
   "repo_links": [
     {

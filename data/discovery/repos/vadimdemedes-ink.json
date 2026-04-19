@@ -757,14 +757,18 @@
       "size": 521
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:48.184671+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "\ud83c\udf08 React for interactive command-line apps",
+    "fork": false,
     "full_name": "vadimdemedes/ink",
     "html_url": "https://github.com/vadimdemedes/ink",
     "language": "TypeScript",
     "pushed_at": "2026-04-17T07:15:51Z",
+    "stargazers_count": 37800,
     "topics": [
       "cli",
       "command-line",
@@ -773,7 +777,7 @@
       "javascript",
       "react"
     ],
-    "updated_at": "2026-04-18T11:30:06Z"
+    "updated_at": "2026-04-19T13:59:23Z"
   },
   "repo_links": [],
   "terms": [

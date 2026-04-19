@@ -687,14 +687,18 @@
       "size": 639
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:23.276831+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\u2699\ufe0f Node.js tool for optimizing SVG files",
+    "fork": false,
     "full_name": "svg/svgo",
     "html_url": "https://github.com/svg/svgo",
     "language": "JavaScript",
     "pushed_at": "2026-04-17T14:56:09Z",
+    "stargazers_count": 22440,
     "topics": [
       "cli",
       "javascript",
@@ -704,7 +708,7 @@
       "svg",
       "svgo"
     ],
-    "updated_at": "2026-04-18T04:51:31Z"
+    "updated_at": "2026-04-19T13:26:42Z"
   },
   "repo_links": [],
   "terms": [

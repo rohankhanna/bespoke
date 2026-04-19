@@ -1,0 +1,20 @@
+{
+  "counts": {
+    "components": 116,
+    "concepts": 7,
+    "observations": 7,
+    "repos": 3,
+    "terms": 21
+  },
+  "facet_version": 1,
+  "filters": {
+    "star_bucket": "stars_10000_99999",
+    "updated_bucket": "updated_15_30d"
+  },
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "repo_ids": [
+    "andymik90/aperant",
+    "eyaltoledano/claude-task-master",
+    "superclaude-org/superclaude_framework"
+  ]
+}

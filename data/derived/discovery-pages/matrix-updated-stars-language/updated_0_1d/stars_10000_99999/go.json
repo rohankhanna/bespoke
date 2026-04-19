@@ -1,0 +1,23 @@
+{
+  "counts": {
+    "components": 52,
+    "concepts": 41,
+    "observations": 41,
+    "repos": 5,
+    "terms": 41
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "go",
+    "star_bucket": "stars_10000_99999",
+    "updated_bucket": "updated_0_1d"
+  },
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "repo_ids": [
+    "ahmetb/kubectx",
+    "charmbracelet/lipgloss",
+    "gastownhall/beads",
+    "moby/moby",
+    "router-for-me/cliproxyapi"
+  ]
+}

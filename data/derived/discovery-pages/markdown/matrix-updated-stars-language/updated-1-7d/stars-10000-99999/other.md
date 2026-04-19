@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · Other
 
-Generated at: `2026-04-19T14:03:00.009749+00:00`
+Generated at: `2026-04-19T14:03:58.882676+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 1
-- terms: 1
-- components: 0
-- concepts: 1
-- observations: 1
+- repos: 2
+- terms: 9
+- components: 9
+- concepts: 9
+- observations: 9
 
 ## Static behavior
 
@@ -27,9 +27,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [kubernetes/community](https://github.com/kubernetes/community) | 12824 | 2026-04-17T15:47:05Z | Other | Infrastructure/tooling | 1 | 0 | 1 | 1 |
+| [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | 41048 | 2026-04-17T01:15:54Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | 41048 | 2026-04-17T01:15:54Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [kubernetes/community](https://github.com/kubernetes/community) | 12824 | 2026-04-17T15:47:05Z | Other | Infrastructure/tooling | 1 | 0 | 1 | 1 |

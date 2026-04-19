@@ -471,14 +471,18 @@
       "size": 1606
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:56.495537+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "MTEB: Massive Text Embedding Benchmark",
+    "fork": false,
     "full_name": "embeddings-benchmark/mteb",
     "html_url": "https://github.com/embeddings-benchmark/mteb",
     "language": "Python",
-    "pushed_at": "2026-04-18T16:46:33Z",
+    "pushed_at": "2026-04-19T14:00:55Z",
+    "stargazers_count": 3219,
     "topics": [
       "benchmark",
       "bitext-mining",
@@ -498,7 +502,7 @@
       "text-classification",
       "text-embedding"
     ],
-    "updated_at": "2026-04-18T16:46:36Z"
+    "updated_at": "2026-04-19T14:01:00Z"
   },
   "repo_links": [],
   "terms": [

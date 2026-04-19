@@ -119,14 +119,18 @@
       "size": 2858
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:30.803024+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Cross platform terminal library rust",
+    "fork": false,
     "full_name": "crossterm-rs/crossterm",
     "html_url": "https://github.com/crossterm-rs/crossterm",
     "language": "Rust",
     "pushed_at": "2026-04-08T18:58:28Z",
+    "stargazers_count": 4010,
     "topics": [
       "color",
       "console",
@@ -136,7 +140,7 @@
       "terminal",
       "tui"
     ],
-    "updated_at": "2026-04-18T08:26:03Z"
+    "updated_at": "2026-04-19T08:51:55Z"
   },
   "repo_links": [
     {

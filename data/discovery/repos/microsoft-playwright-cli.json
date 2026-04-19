@@ -127,18 +127,22 @@
       "size": 589
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:49.893813+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "CLI for common Playwright actions. Record and generate Playwright code, inspect selectors and take screenshots.",
+    "fork": false,
     "full_name": "microsoft/playwright-cli",
     "html_url": "https://github.com/microsoft/playwright-cli",
     "language": "TypeScript",
     "pushed_at": "2026-04-14T19:03:50Z",
+    "stargazers_count": 8825,
     "topics": [
       "playwright"
     ],
-    "updated_at": "2026-04-18T11:58:04Z"
+    "updated_at": "2026-04-19T13:38:31Z"
   },
   "repo_links": [
     {

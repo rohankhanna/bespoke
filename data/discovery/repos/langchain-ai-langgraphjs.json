@@ -649,14 +649,18 @@
       "size": 3245
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:26.078212+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Framework to build resilient language agents as graphs.",
+    "fork": false,
     "full_name": "langchain-ai/langgraphjs",
     "html_url": "https://github.com/langchain-ai/langgraphjs",
     "language": "TypeScript",
-    "pushed_at": "2026-04-17T22:38:35Z",
+    "pushed_at": "2026-04-18T21:11:56Z",
+    "stargazers_count": 2803,
     "topics": [
       "agents",
       "ai",
@@ -666,7 +670,7 @@
       "node",
       "typescript"
     ],
-    "updated_at": "2026-04-18T06:51:15Z"
+    "updated_at": "2026-04-19T12:37:54Z"
   },
   "repo_links": [
     {

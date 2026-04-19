@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 76,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 6,
-    "terms": 26
+    "components": 125,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 11,
+    "terms": 48
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
+    "affaan-m/agentshield",
+    "atomicmemory/llm-wiki-compiler",
+    "badlogic/pi-share-hf",
     "evmts/tevm-monorepo",
     "giselles-ai/giselle",
+    "k-dense-ai/k-dense-byok",
     "lewislulu/llm-wiki-skill",
+    "lucasastorian/llmwiki",
     "neolabhq/context-engineering-kit",
     "nyatinte/ccexp",
     "snipeship/ccflare"

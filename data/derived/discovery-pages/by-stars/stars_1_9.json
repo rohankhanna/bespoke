@@ -3,14 +3,14 @@
     "components": 984,
     "concepts": 164,
     "observations": 164,
-    "repos": 116,
-    "terms": 228
+    "repos": 119,
+    "terms": 229
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
     "0xnu/rewsury",
     "1sh1ro/liangxi-skills",
@@ -69,8 +69,10 @@
     "floxym/financial-chat-finance-nlp-chatbots",
     "frank-syncmarket/skills",
     "gauravrathod674/custom-chatbot",
+    "gbrobro119-star/darksword-kexploit",
     "genius-harry/neural-chat",
     "gibdd-dps/prizolov-agent-os",
+    "graveyardsfocrdpktv/ethereum-mempool-bot",
     "hackdays-io/toban-contribution-viewer",
     "hesreallyhim/inkverse-fork",
     "ianopolous/jpack",
@@ -114,6 +116,7 @@
     "serpro69/claude-in-docker",
     "seunghunbae-3svs/solo-cto-agent",
     "slunsford/coffee-analytics",
+    "stealabra5019/grok-enhancer",
     "sunthinks/kvmind",
     "tahv/typos-gitlab-code-quality",
     "tarikmanoar/tarikmanoar",

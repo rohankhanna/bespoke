@@ -381,14 +381,18 @@
       "size": 1551
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:25.749390+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Claude Code Plugin instant docs search, interactive HTML courses, and changelog reports. 589 official docs always up-to-date. Auto-discovery Skill, Obsidian & Amber themed courses with animated protocol diagrams, quizzes, and code translations. Zero dependencies.",
+    "fork": true,
     "full_name": "costiash/claude-code-docs",
     "html_url": "https://github.com/costiash/claude-code-docs",
     "language": "Python",
-    "pushed_at": "2026-04-18T06:43:16Z",
+    "pushed_at": "2026-04-19T12:28:44Z",
+    "stargazers_count": 47,
     "topics": [
       "agent-sdk",
       "ai-documentation",
@@ -411,7 +415,7 @@
       "prompt-engineering",
       "sdk-documentation"
     ],
-    "updated_at": "2026-04-18T06:43:21Z"
+    "updated_at": "2026-04-19T12:28:48Z"
   },
   "repo_links": [
     {

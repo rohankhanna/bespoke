@@ -1,28 +1,46 @@
 {
   "counts": {
-    "components": 229,
-    "concepts": 41,
-    "observations": 41,
-    "repos": 11,
-    "terms": 82
+    "components": 741,
+    "concepts": 108,
+    "observations": 108,
+    "repos": 29,
+    "terms": 215
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
+    "abraxas-365/langchain-rust",
+    "alchaincyf/darwin-skill",
     "archestra-ai/archestra",
+    "arogozhnikov/einops",
+    "basicmachines-co/basic-memory",
     "BoundaryML/baml",
+    "cargo-bins/cargo-binstall",
     "databus23/helm-diff",
+    "ding113/claude-code-hub",
     "dyoshikawa/rulesync",
+    "embeddings-benchmark/mteb",
+    "florianbruniaux/claude-code-ultimate-guide",
     "harfbuzz/harfbuzz",
     "hashintel/hash",
+    "langchain-ai/langgraphjs",
+    "larksuite/cli",
+    "letta-ai/letta-code",
+    "libp2p/js-libp2p",
+    "lobehub/lobe-ui",
     "lobehub/sd-webui-lobe-theme",
+    "mikeyobrien/ralph-orchestrator",
+    "nesquena/hermes-webui",
+    "nizos/tdd-guard",
+    "op7418/codepilot",
     "owloops/claude-powerline",
     "pchalasani/claude-code-tools",
     "peergos/peergos",
+    "rullerzhou-afk/clawd-on-desk",
     "soramimi/guitar"
   ]
 }

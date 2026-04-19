@@ -182,16 +182,20 @@
       "size": 2866
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:57.617496+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Distribute and run LLMs with a single file.",
+    "fork": false,
     "full_name": "mozilla-ai/llamafile",
     "html_url": "https://github.com/mozilla-ai/llamafile",
     "language": "C++",
     "pushed_at": "2026-04-17T15:13:24Z",
+    "stargazers_count": 24207,
     "topics": [],
-    "updated_at": "2026-04-18T18:19:38Z"
+    "updated_at": "2026-04-19T12:00:17Z"
   },
   "repo_links": [
     {

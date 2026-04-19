@@ -422,16 +422,20 @@
       "size": 4405
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:28.985308+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "The Web interface for Peergos",
-    "full_name": "Peergos/web-ui",
+    "fork": false,
+    "full_name": "peergos/web-ui",
     "html_url": "https://github.com/Peergos/web-ui",
     "language": "JavaScript",
-    "pushed_at": "2026-04-18T07:56:31Z",
+    "pushed_at": "2026-04-18T20:22:02Z",
+    "stargazers_count": 94,
     "topics": [],
-    "updated_at": "2026-04-18T07:56:35Z"
+    "updated_at": "2026-04-18T20:22:05Z"
   },
   "repo_links": [
     {

@@ -419,16 +419,20 @@
       "size": 2665
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:51.096840+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Give Cursor Agent an AI Team and Advanced Skills",
+    "fork": false,
     "full_name": "eastlondoner/vibe-tools",
     "html_url": "https://github.com/eastlondoner/vibe-tools",
     "language": "TypeScript",
     "pushed_at": "2025-08-25T10:10:43Z",
+    "stargazers_count": 4761,
     "topics": [],
-    "updated_at": "2026-04-18T12:11:13Z"
+    "updated_at": "2026-04-19T04:57:12Z"
   },
   "repo_links": [
     {

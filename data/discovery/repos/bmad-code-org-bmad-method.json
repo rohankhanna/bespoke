@@ -670,16 +670,20 @@
       "size": 2447
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:49.719108+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Breakthrough Method for Agile Ai Driven Development",
-    "full_name": "bmad-code-org/BMAD-METHOD",
+    "fork": false,
+    "full_name": "bmad-code-org/bmad-method",
     "html_url": "https://github.com/bmad-code-org/BMAD-METHOD",
     "language": "JavaScript",
-    "pushed_at": "2026-04-14T21:10:49Z",
+    "pushed_at": "2026-04-19T04:13:31Z",
+    "stargazers_count": 45105,
     "topics": [],
-    "updated_at": "2026-04-18T11:57:10Z"
+    "updated_at": "2026-04-19T13:49:29Z"
   },
   "repo_links": [
     {

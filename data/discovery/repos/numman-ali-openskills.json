@@ -138,16 +138,20 @@
       "size": 828
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:52.901731+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Universal skills loader for AI coding agents - npm i -g openskills",
+    "fork": false,
     "full_name": "numman-ali/openskills",
     "html_url": "https://github.com/numman-ali/openskills",
     "language": "TypeScript",
     "pushed_at": "2026-01-18T13:09:50Z",
+    "stargazers_count": 9832,
     "topics": [],
-    "updated_at": "2026-04-18T12:43:29Z"
+    "updated_at": "2026-04-19T13:52:34Z"
   },
   "repo_links": [],
   "terms": []

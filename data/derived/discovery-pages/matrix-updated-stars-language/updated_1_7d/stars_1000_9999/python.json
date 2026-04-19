@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 58,
-    "concepts": 31,
-    "observations": 31,
-    "repos": 7,
-    "terms": 39
+    "components": 94,
+    "concepts": 62,
+    "observations": 62,
+    "repos": 13,
+    "terms": 77
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,20 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
+    "agricidaniel/claude-ads",
+    "agricidaniel/claude-seo",
     "containers/podman-compose",
     "datadog/guarddog",
+    "flashinfer-ai/flashinfer",
+    "google/tunix",
     "googleapis/python-genai",
+    "mbailey/voicemode",
     "nousresearch/atropos",
     "plastic-labs/honcho",
     "stripe/stripe-python",
-    "trailofbits/buttercup"
+    "trailofbits/buttercup",
+    "trailofbits/skills"
   ]
 }

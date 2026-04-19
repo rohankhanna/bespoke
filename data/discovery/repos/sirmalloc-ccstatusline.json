@@ -463,14 +463,18 @@
       "size": 689
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:40.103766+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83d\ude80 Beautiful highly customizable statusline for Claude Code CLI with powerline support, themes, and more.",
+    "fork": false,
     "full_name": "sirmalloc/ccstatusline",
     "html_url": "https://github.com/sirmalloc/ccstatusline",
     "language": "TypeScript",
     "pushed_at": "2026-04-17T13:53:59Z",
+    "stargazers_count": 7889,
     "topics": [
       "ai-tools",
       "claude-code",
@@ -483,7 +487,7 @@
       "terminal",
       "themeing"
     ],
-    "updated_at": "2026-04-18T09:31:58Z"
+    "updated_at": "2026-04-19T13:59:53Z"
   },
   "repo_links": [
     {

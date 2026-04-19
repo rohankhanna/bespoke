@@ -32,14 +32,18 @@
   ],
   "fetched_at": "2026-04-18T12:07:33.353980+00:00",
   "fetched_files": [],
+  "metadata_refreshed_at": "2026-04-19T14:03:25.052657+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Customized Claude Code system prompts for use with tweakcc \u2014 ~48k bytes smaller, 30% faster, same accuracy",
+    "fork": false,
     "full_name": "bl-ue/tweakcc-system-prompts",
     "html_url": "https://github.com/bl-ue/tweakcc-system-prompts",
     "language": null,
     "pushed_at": "2025-11-23T18:05:33Z",
+    "stargazers_count": 37,
     "topics": [
       "claude-code",
       "claude-code-system-prompts",

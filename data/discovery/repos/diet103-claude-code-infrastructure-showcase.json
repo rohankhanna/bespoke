@@ -37,16 +37,20 @@
       "size": 11202
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:32.067939+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Examples of my Claude Code infrastructure with skill auto-activation, hooks, and agents",
+    "fork": false,
     "full_name": "diet103/claude-code-infrastructure-showcase",
     "html_url": "https://github.com/diet103/claude-code-infrastructure-showcase",
     "language": "Shell",
     "pushed_at": "2026-04-17T04:22:53Z",
+    "stargazers_count": 9482,
     "topics": [],
-    "updated_at": "2026-04-18T08:32:35Z"
+    "updated_at": "2026-04-19T13:27:42Z"
   },
   "repo_links": [],
   "terms": [

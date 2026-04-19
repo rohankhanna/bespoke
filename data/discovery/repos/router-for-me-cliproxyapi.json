@@ -331,14 +331,18 @@
       "size": 1198
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:46.691732+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Wrap Gemini CLI, Antigravity, ChatGPT Codex, Claude Code as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude model through API",
-    "full_name": "router-for-me/CLIProxyAPI",
+    "fork": false,
+    "full_name": "router-for-me/cliproxyapi",
     "html_url": "https://github.com/router-for-me/CLIProxyAPI",
     "language": "Go",
-    "pushed_at": "2026-04-18T09:27:15Z",
+    "pushed_at": "2026-04-19T03:46:22Z",
+    "stargazers_count": 27212,
     "topics": [
       "antigravity",
       "claude-code",
@@ -347,7 +351,7 @@
       "gemini",
       "openai"
     ],
-    "updated_at": "2026-04-18T11:20:34Z"
+    "updated_at": "2026-04-19T14:01:21Z"
   },
   "repo_links": [
     {

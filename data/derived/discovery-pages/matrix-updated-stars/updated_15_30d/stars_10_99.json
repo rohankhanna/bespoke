@@ -1,24 +1,27 @@
 {
   "counts": {
     "components": 48,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 7,
-    "terms": 22
+    "concepts": 25,
+    "observations": 25,
+    "repos": 10,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
     "astro-han/diffpane",
     "automazeio/proof",
     "collinear-ai/yc-bench",
     "danielrosehill/index",
     "ithiria894/awesome-claude-code-hooks",
+    "nousresearch/tinker-atropos",
+    "onyx-dot-app/onyx_deep_research_bench",
     "robertguss/claude-code-toolkit",
-    "slopus/slopus.github.io"
+    "slopus/slopus.github.io",
+    "w1ndys/ex-cure-skill"
   ]
 }

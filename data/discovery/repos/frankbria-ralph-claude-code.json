@@ -490,14 +490,18 @@
       "size": 1405
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:34.883851+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Autonomous AI development loop for Claude Code with intelligent exit detection",
+    "fork": false,
     "full_name": "frankbria/ralph-claude-code",
     "html_url": "https://github.com/frankbria/ralph-claude-code",
     "language": "Shell",
     "pushed_at": "2026-04-13T18:22:32Z",
+    "stargazers_count": 8735,
     "topics": [
       "ai",
       "ai-agent",
@@ -509,7 +513,7 @@
       "development-tools",
       "development-workflow"
     ],
-    "updated_at": "2026-04-18T08:56:14Z"
+    "updated_at": "2026-04-19T13:47:51Z"
   },
   "repo_links": [
     {

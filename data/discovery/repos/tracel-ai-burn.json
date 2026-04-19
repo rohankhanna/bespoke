@@ -762,14 +762,18 @@
       "size": 5122
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:24.872476+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Burn is a next generation tensor library and Deep Learning Framework that doesn't compromise on flexibility, efficiency and portability.",
+    "fork": false,
     "full_name": "tracel-ai/burn",
     "html_url": "https://github.com/tracel-ai/burn",
     "language": "Rust",
     "pushed_at": "2026-04-18T16:15:08Z",
+    "stargazers_count": 14903,
     "topics": [
       "autodiff",
       "cross-platform",
@@ -790,7 +794,7 @@
       "wasm",
       "webgpu"
     ],
-    "updated_at": "2026-04-18T06:18:46Z"
+    "updated_at": "2026-04-19T13:44:19Z"
   },
   "repo_links": [
     {

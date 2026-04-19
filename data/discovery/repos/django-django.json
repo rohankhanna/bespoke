@@ -373,14 +373,18 @@
       "size": 1077
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:27.286611+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "The Web framework for perfectionists with deadlines.",
+    "fork": false,
     "full_name": "django/django",
     "html_url": "https://github.com/django/django",
     "language": "Python",
-    "pushed_at": "2026-04-18T06:53:21Z",
+    "pushed_at": "2026-04-19T12:05:55Z",
+    "stargazers_count": 87289,
     "topics": [
       "apps",
       "django",
@@ -392,7 +396,7 @@
       "views",
       "web"
     ],
-    "updated_at": "2026-04-18T07:19:50Z"
+    "updated_at": "2026-04-19T13:26:34Z"
   },
   "repo_links": [],
   "terms": [

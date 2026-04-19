@@ -29,16 +29,20 @@
       "size": 942
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:43.340278+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "tmux source code",
+    "fork": false,
     "full_name": "tmux/tmux",
     "html_url": "https://github.com/tmux/tmux",
     "language": "C",
     "pushed_at": "2026-04-16T03:27:10Z",
+    "stargazers_count": 44678,
     "topics": [],
-    "updated_at": "2026-04-18T10:30:55Z"
+    "updated_at": "2026-04-19T13:59:13Z"
   },
   "repo_links": [],
   "terms": [

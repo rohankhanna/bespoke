@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 488,
-    "concepts": 158,
-    "observations": 159,
-    "repos": 58,
-    "terms": 210
+    "components": 468,
+    "concepts": 145,
+    "observations": 145,
+    "repos": 55,
+    "terms": 195
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
     "1sh1ro/liangxi-skills",
     "aar0npb/curator-skill",
@@ -18,8 +18,7 @@
     "abraxas-365/claudio-screenshot",
     "adoptium/adoptium",
     "agenmod/okr-skill",
-    "ahmetb/kubectx",
-    "Aider-AI/aider",
+    "aider-ai/aider",
     "alchaincyf/elon-musk-skill",
     "alchaincyf/feynman-skill",
     "alchaincyf/ilya-sutskever-skill",
@@ -47,7 +46,6 @@
     "getzep/zep",
     "gowaylee/cchooks",
     "guidance-ai/guidance",
-    "jarrodwatts/claude-hud",
     "jerseycheese/narraitor",
     "libp2p/test-plans",
     "linebender/resvg",
@@ -58,14 +56,13 @@
     "muratcankoylan/ralph-wiggum-marketer",
     "nabijaczleweli/cargo-update",
     "nvie/git-toolbelt",
-    "opactorai/Claudable",
-    "openai/codex-plugin-cc",
+    "opactorai/claudable",
     "paretosecurity/pareto-mac",
     "piebald-ai/piebald",
     "piqrypt/aiss-standard",
     "ruvnet/ruflo",
     "skills-directory/skill-codex",
-    "therealXiaomanChu/ex-skill",
+    "therealxiaomanchu/ex-skill",
     "thx/resvg-js",
     "tobi/qmd",
     "trailofbits/claude-code-devcontainer",

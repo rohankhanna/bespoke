@@ -10,7 +10,7 @@
   "filters": {
     "language_bucket": "other"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
     "1runeberg/confichat",
     "actions/runner",
@@ -33,9 +33,9 @@
     "cdeust/ai-prd-builder",
     "chaos2cured/freelattice",
     "ckipp01/stylua-nvim",
-    "ClaytonFarr/ralph-playbook",
+    "claytonfarr/ralph-playbook",
     "cyber404/che-apple-mail-mcp",
-    "danielrosehill/Claude-Code-Projects-Index",
+    "danielrosehill/claude-code-projects-index",
     "ddollar/foreman",
     "dm0x23/portfolio-website",
     "dp111/6502timing",
@@ -44,7 +44,7 @@
     "firestryk/chatgpt-website.github.io",
     "floxym/financial-chat-finance-nlp-chatbots",
     "folke/lazy.nvim",
-    "genuslovoacalixtusiii510/YTP-2026",
+    "genuslovoacalixtusiii510/ytp-2026",
     "gerschel/sd-web-ui-quickcss",
     "greggh/claude-code.nvim",
     "guidance-ai/guidance",
@@ -95,7 +95,7 @@
     "slunsford/coffee-analytics",
     "steipete/homebrew-tap",
     "steipete/imsg",
-    "steipete/Peekaboo",
+    "steipete/peekaboo",
     "stevemolitor/claude-code.el",
     "stevemolitor/monet",
     "taikinman/langrila",

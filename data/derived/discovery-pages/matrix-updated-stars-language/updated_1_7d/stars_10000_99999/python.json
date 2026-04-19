@@ -1,0 +1,27 @@
+{
+  "counts": {
+    "components": 79,
+    "concepts": 87,
+    "observations": 88,
+    "repos": 9,
+    "terms": 88
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "python",
+    "star_bucket": "stars_10000_99999",
+    "updated_bucket": "updated_1_7d"
+  },
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "repo_ids": [
+    "1panel-dev/maxkb",
+    "alchaincyf/nuwa-skill",
+    "alirezarezvani/claude-skills",
+    "anthropics/claude-plugins-official",
+    "github/spec-kit",
+    "k-dense-ai/scientific-agent-skills",
+    "letta-ai/letta",
+    "microsoft/pyright",
+    "openai/openai-python"
+  ]
+}

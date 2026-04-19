@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 14,
-    "concepts": 6,
-    "observations": 6,
-    "repos": 1,
-    "terms": 6
+    "components": 152,
+    "concepts": 32,
+    "observations": 32,
+    "repos": 8,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,15 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
-    "toon-format/toon"
+    "fission-ai/openspec",
+    "microsoft/playwright-mcp",
+    "shareai-lab/learn-claude-code",
+    "slopus/happy",
+    "toon-format/toon",
+    "upstash/context7",
+    "vadimdemedes/ink",
+    "vercel-labs/skills"
   ]
 }

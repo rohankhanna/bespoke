@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 160,
-    "concepts": 122,
-    "observations": 122,
-    "repos": 15,
-    "terms": 128
+    "components": 19,
+    "concepts": 10,
+    "observations": 10,
+    "repos": 1,
+    "terms": 10
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,8 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
-    "1Panel-dev/1Panel",
-    "awslabs/eks-node-viewer",
-    "bensadeh/circumflex",
-    "charmbracelet/bubbletea",
-    "charmbracelet/lipgloss",
-    "danielmiessler/Fabric",
-    "gastownhall/beads",
-    "kubernetes/kubernetes",
-    "larksuite/cli",
-    "microsoft/typescript-go",
-    "moby/moby",
-    "prehisle/relay-pulse",
-    "QuantumNous/new-api",
-    "router-for-me/CLIProxyAPI",
-    "tofuutils/tenv"
+    "QuantumNous/new-api"
   ]
 }

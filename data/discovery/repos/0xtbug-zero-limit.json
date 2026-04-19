@@ -834,14 +834,18 @@
       "size": 19824
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:46.319885+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "ZeroLimit is a cross-platform desktop application for monitoring AI coding assistant quotas using CLIProxyAPI.",
+    "fork": false,
     "full_name": "0xtbug/zero-limit",
     "html_url": "https://github.com/0xtbug/zero-limit",
     "language": "TypeScript",
     "pushed_at": "2026-02-27T04:25:53Z",
+    "stargazers_count": 155,
     "topics": [
       "agent-tracker",
       "antigravity-tools",
@@ -851,7 +855,7 @@
       "tauri-apps",
       "zero-limit"
     ],
-    "updated_at": "2026-04-18T11:16:44Z"
+    "updated_at": "2026-04-19T13:29:52Z"
   },
   "repo_links": [],
   "terms": [

@@ -30,20 +30,24 @@
       "size": 11521
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:57.939212+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "404StarLink - \u63a8\u8350\u4f18\u8d28\u3001\u6709\u610f\u4e49\u3001\u6709\u8da3\u3001\u575a\u6301\u7ef4\u62a4\u7684\u5b89\u5168\u5f00\u6e90\u9879\u76ee",
-    "full_name": "knownsec/404StarLink",
+    "fork": false,
+    "full_name": "knownsec/404starlink",
     "html_url": "https://github.com/knownsec/404StarLink",
     "language": null,
     "pushed_at": "2026-03-11T08:04:40Z",
+    "stargazers_count": 10564,
     "topics": [
       "opensource",
       "security",
       "tools"
     ],
-    "updated_at": "2026-04-18T18:28:22Z"
+    "updated_at": "2026-04-19T12:29:25Z"
   },
   "repo_links": [],
   "terms": [

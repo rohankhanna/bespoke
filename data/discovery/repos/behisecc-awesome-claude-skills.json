@@ -37,16 +37,20 @@
       "size": 27811
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:55.112077+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A curated list of Claude Skills.",
-    "full_name": "BehiSecc/awesome-claude-skills",
+    "fork": false,
+    "full_name": "behisecc/awesome-claude-skills",
     "html_url": "https://github.com/BehiSecc/awesome-claude-skills",
     "language": null,
     "pushed_at": "2026-04-01T08:24:45Z",
+    "stargazers_count": 8594,
     "topics": [],
-    "updated_at": "2026-04-18T13:40:18Z"
+    "updated_at": "2026-04-19T13:41:57Z"
   },
   "repo_links": [
     {

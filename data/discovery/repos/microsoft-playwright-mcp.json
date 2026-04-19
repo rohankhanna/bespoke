@@ -295,19 +295,23 @@
       "size": 5616
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:49.560118+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Playwright MCP server",
+    "fork": false,
     "full_name": "microsoft/playwright-mcp",
     "html_url": "https://github.com/microsoft/playwright-mcp",
     "language": "TypeScript",
     "pushed_at": "2026-04-17T01:18:07Z",
+    "stargazers_count": 31085,
     "topics": [
       "mcp",
       "playwright"
     ],
-    "updated_at": "2026-04-18T11:51:10Z"
+    "updated_at": "2026-04-19T13:25:58Z"
   },
   "repo_links": [
     {

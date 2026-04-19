@@ -302,16 +302,20 @@
       "size": 1933
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:40.259254+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A beautiful web UI for browsing Claude Code conversation history.",
+    "fork": false,
     "full_name": "kamranahmedse/claude-run",
     "html_url": "https://github.com/kamranahmedse/claude-run",
     "language": "TypeScript",
     "pushed_at": "2026-02-23T19:14:04Z",
+    "stargazers_count": 586,
     "topics": [],
-    "updated_at": "2026-04-18T09:35:41Z"
+    "updated_at": "2026-04-19T11:40:42Z"
   },
   "repo_links": [],
   "terms": []

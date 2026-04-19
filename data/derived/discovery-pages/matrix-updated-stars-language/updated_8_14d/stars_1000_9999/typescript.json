@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 40,
+    "components": 124,
     "concepts": 0,
     "observations": 0,
-    "repos": 1,
-    "terms": 2
+    "repos": 3,
+    "terms": 8
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
+    "lobehub/lobe-icons",
+    "opactorai/claudable",
     "thx/resvg-js"
   ]
 }

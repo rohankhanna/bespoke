@@ -1,0 +1,21 @@
+{
+  "counts": {
+    "components": 13,
+    "concepts": 5,
+    "observations": 5,
+    "repos": 3,
+    "terms": 5
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "python",
+    "star_bucket": "stars_1000_9999",
+    "updated_bucket": "updated_61_90d"
+  },
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "repo_ids": [
+    "anthropics/claude-code-security-review",
+    "meta-llama/llama-models",
+    "ollama/ollama-python"
+  ]
+}

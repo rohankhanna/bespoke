@@ -8,16 +8,20 @@
       "size": 5355
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:19.194933+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\u4e0d\u6559 PUA\uff0c\u53ea\u6559\u771f\u5fc3\u3002Win your crush before it's too late. Inspired by colleague-skill\uff08\u540c\u4e8bskill\uff09",
-    "full_name": "BeamusWayne/simp-skill",
+    "fork": false,
+    "full_name": "beamuswayne/simp-skill",
     "html_url": "https://github.com/BeamusWayne/simp-skill",
     "language": "Python",
     "pushed_at": "2026-04-16T11:52:38Z",
+    "stargazers_count": 107,
     "topics": [],
-    "updated_at": "2026-04-18T03:41:42Z"
+    "updated_at": "2026-04-19T10:23:06Z"
   },
   "repo_links": [],
   "terms": []

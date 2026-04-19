@@ -1119,14 +1119,18 @@
       "size": 15134
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:44.404484+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A multi-model AI agent desktop client \u2014 connect any AI provider, extend with MCP & skills, control from your phone. Built with Electron + Next.js.",
-    "full_name": "op7418/CodePilot",
+    "fork": false,
+    "full_name": "op7418/codepilot",
     "html_url": "https://github.com/op7418/CodePilot",
     "language": "TypeScript",
-    "pushed_at": "2026-04-18T07:32:14Z",
+    "pushed_at": "2026-04-19T11:23:51Z",
+    "stargazers_count": 5349,
     "topics": [
       "ai",
       "anthropic",
@@ -1137,7 +1141,7 @@
       "gui",
       "nextjs"
     ],
-    "updated_at": "2026-04-18T10:42:37Z"
+    "updated_at": "2026-04-19T12:12:42Z"
   },
   "repo_links": [],
   "terms": [

@@ -132,14 +132,18 @@
       "size": 1256
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:56.643967+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "[NeurIPS'23 Oral] Visual Instruction Tuning (LLaVA) built towards GPT-4V level capabilities and beyond.",
-    "full_name": "haotian-liu/LLaVA",
+    "fork": false,
+    "full_name": "haotian-liu/llava",
     "html_url": "https://github.com/haotian-liu/LLaVA",
     "language": "Python",
     "pushed_at": "2024-08-12T09:52:38Z",
+    "stargazers_count": 24698,
     "topics": [
       "chatbot",
       "chatgpt",
@@ -155,7 +159,7 @@
       "vision-language-model",
       "visual-language-learning"
     ],
-    "updated_at": "2026-04-18T17:13:51Z"
+    "updated_at": "2026-04-19T08:16:49Z"
   },
   "repo_links": [
     {

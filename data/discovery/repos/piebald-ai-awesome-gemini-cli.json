@@ -107,14 +107,18 @@
       "size": 25990
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:29.928036+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A curated list of awesome tools, extensions, and resources for Gemini CLI.",
-    "full_name": "Piebald-AI/awesome-gemini-cli",
+    "fork": false,
+    "full_name": "piebald-ai/awesome-gemini-cli",
     "html_url": "https://github.com/Piebald-AI/awesome-gemini-cli",
     "language": null,
     "pushed_at": "2026-04-16T13:53:06Z",
+    "stargazers_count": 419,
     "topics": [
       "awesome",
       "awesome-gemini-cli",
@@ -127,7 +131,7 @@
       "qwen",
       "qwen-code"
     ],
-    "updated_at": "2026-04-18T08:17:57Z"
+    "updated_at": "2026-04-18T21:27:44Z"
   },
   "repo_links": [
     {

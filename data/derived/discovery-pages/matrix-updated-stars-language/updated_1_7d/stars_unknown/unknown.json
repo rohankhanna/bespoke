@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1,
-    "concepts": 24,
-    "observations": 24,
-    "repos": 26,
-    "terms": 26
+    "components": 0,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 13,
+    "terms": 0
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
     "aitooools/chatgpt",
     "aitooools/chatgpt-plus-hezu",
@@ -26,19 +26,6 @@
     "aitooools/poe",
     "aitooools/spotify-hezu",
     "aitooools/supergrok",
-    "aitooools/youtube-hezu",
-    "android/skills",
-    "Astro-Han/karpathy-llm-wiki",
-    "biparous-blaxploitation156/CipherMind",
-    "chafingdishposition355/go-skills",
-    "cloudflare/skills",
-    "forrestchang/andrej-karpathy-skills",
-    "Foundersieve687/skill-gateway",
-    "graveyardsfocrdpktv/Ethereum-mempool-bot",
-    "Nimbalyst/nimbalyst",
-    "Piebald-AI/awesome-gemini-cli",
-    "Pragmatical-transshipment598/claude-code-workflows",
-    "tmstack/awesome-persona-skills",
-    "vivianalaced749/vk-calls-tunnel"
+    "aitooools/youtube-hezu"
   ]
 }

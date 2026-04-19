@@ -1,38 +1,19 @@
 {
   "counts": {
-    "components": 205,
-    "concepts": 59,
-    "observations": 60,
-    "repos": 21,
-    "terms": 69
+    "components": 40,
+    "concepts": 4,
+    "observations": 4,
+    "repos": 2,
+    "terms": 4
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
-    "ahmetb/kubectx",
-    "Aider-AI/aider",
-    "alchaincyf/elon-musk-skill",
-    "alchaincyf/feynman-skill",
-    "alchaincyf/munger-skill",
-    "alchaincyf/naval-skill",
-    "alchaincyf/steve-jobs-skill",
-    "alchaincyf/taleb-skill",
-    "browser-use/benchmark",
     "buddingnewinsights/proxypal",
-    "cisco-ai-defense/skill-scanner",
-    "crossterm-rs/crossterm",
-    "guidance-ai/guidance",
-    "jarrodwatts/claude-hud",
-    "linebender/resvg",
-    "lobehub/lobe-icons",
-    "nabijaczleweli/cargo-update",
-    "opactorai/Claudable",
-    "openai/codex-plugin-cc",
-    "therealXiaomanChu/ex-skill",
-    "tobi/qmd"
+    "nabijaczleweli/cargo-update"
   ]
 }

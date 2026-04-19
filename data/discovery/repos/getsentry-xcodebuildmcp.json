@@ -767,14 +767,18 @@
       "size": 1537
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:27.122233+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects.",
-    "full_name": "getsentry/XcodeBuildMCP",
+    "fork": false,
+    "full_name": "getsentry/xcodebuildmcp",
     "html_url": "https://github.com/getsentry/XcodeBuildMCP",
     "language": "TypeScript",
     "pushed_at": "2026-04-16T01:59:14Z",
+    "stargazers_count": 5257,
     "topics": [
       "mcp",
       "mcp-server",
@@ -784,7 +788,7 @@
       "xcode",
       "xcodebuild"
     ],
-    "updated_at": "2026-04-18T07:09:20Z"
+    "updated_at": "2026-04-19T12:56:40Z"
   },
   "repo_links": [],
   "terms": [

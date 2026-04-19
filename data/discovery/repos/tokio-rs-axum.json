@@ -378,20 +378,24 @@
       "size": 6933
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:24.316020+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "HTTP routing and request-handling library for Rust that focuses on ergonomics and modularity",
+    "fork": false,
     "full_name": "tokio-rs/axum",
     "html_url": "https://github.com/tokio-rs/axum",
     "language": "Rust",
     "pushed_at": "2026-04-15T11:06:41Z",
+    "stargazers_count": 25671,
     "topics": [
       "http",
       "routing",
       "rust"
     ],
-    "updated_at": "2026-04-18T05:58:39Z"
+    "updated_at": "2026-04-19T13:37:12Z"
   },
   "repo_links": [
     {

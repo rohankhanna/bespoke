@@ -30,16 +30,20 @@
       "size": 6469
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:51.731917+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\u7eb3\u74e6\u5c14.skill \u2014 Naval Ravikant\u7684\u8ba4\u77e5\u64cd\u4f5c\u7cfb\u7edf\u3002\u7531\u5973\u5a32.skill\u751f\u6210\u3002",
+    "fork": false,
     "full_name": "alchaincyf/naval-skill",
     "html_url": "https://github.com/alchaincyf/naval-skill",
     "language": null,
     "pushed_at": "2026-04-12T05:11:15Z",
+    "stargazers_count": 114,
     "topics": [],
-    "updated_at": "2026-04-18T12:29:50Z"
+    "updated_at": "2026-04-19T13:52:16Z"
   },
   "repo_links": [
     {

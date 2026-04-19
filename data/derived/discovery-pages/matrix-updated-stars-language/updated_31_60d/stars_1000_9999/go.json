@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 1,
-    "terms": 5
+    "components": 11,
+    "concepts": 9,
+    "observations": 9,
+    "repos": 2,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
+    "charmbracelet/glamour",
     "dagger/container-use"
   ]
 }

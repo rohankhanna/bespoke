@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 248,
-    "concepts": 103,
-    "observations": 103,
-    "repos": 16,
-    "terms": 109
+    "components": 6,
+    "concepts": 7,
+    "observations": 7,
+    "repos": 1,
+    "terms": 7
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,8 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
-    "Abraxas-365/langchain-rust",
-    "astral-sh/ruff",
-    "astral-sh/uv",
-    "cargo-bins/cargo-binstall",
-    "casey/just",
-    "cedar-policy/cedar",
-    "crate-ci/typos",
-    "denoland/deno",
-    "huggingface/candle",
-    "mikeyobrien/ralph-orchestrator",
-    "napi-rs/napi-rs",
-    "NVIDIA/OpenShell",
-    "openai/codex",
-    "ruvnet/RuVector",
-    "tokio-rs/axum",
-    "zeroclaw-labs/zeroclaw"
+    "NVIDIA/OpenShell"
   ]
 }

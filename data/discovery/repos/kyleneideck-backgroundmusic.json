@@ -116,14 +116,18 @@
       "size": 8894
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:23.944197+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Background Music, a macOS audio utility: automatically pause your music, set individual apps' volumes and record system audio.",
-    "full_name": "kyleneideck/BackgroundMusic",
+    "fork": false,
+    "full_name": "kyleneideck/backgroundmusic",
     "html_url": "https://github.com/kyleneideck/BackgroundMusic",
     "language": "C++",
     "pushed_at": "2026-02-22T06:03:50Z",
+    "stargazers_count": 18855,
     "topics": [
       "audio",
       "audio-utility",
@@ -131,7 +135,7 @@
       "macos",
       "objective-c"
     ],
-    "updated_at": "2026-04-18T05:29:42Z"
+    "updated_at": "2026-04-19T11:17:39Z"
   },
   "repo_links": [
     {

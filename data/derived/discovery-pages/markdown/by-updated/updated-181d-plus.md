@@ -1,6 +1,6 @@
 # Updated more than 180 days ago
 
-Generated at: `2026-04-19T14:03:00.009749+00:00`
+Generated at: `2026-04-19T14:03:58.882676+00:00`
 
 ## Active filters
 
@@ -26,20 +26,20 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [addyosmani/gemini-cli-tips](https://github.com/addyosmani/gemini-cli-tips) | 2327 | 2025-10-19T03:25:32Z | Unknown | CLI | 3 | 0 | 3 | 3 |
 | [dazuiba/ccnotify](https://github.com/dazuiba/CCNotify) | 176 | 2025-10-14T02:26:09Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [danielnappa/tweakgc-cli](https://github.com/DanielNappa/tweakgc-cli) | 18 | 2025-10-11T13:36:17Z | TypeScript | CLI | 0 | 35 | 0 | 0 |
-| [tremorlabs/tremor](https://github.com/tremorlabs/tremor) | unknown | 2025-10-10T13:08:24Z | TypeScript | Infrastructure/tooling | 6 | 64 | 6 | 6 |
+| [tremorlabs/tremor](https://github.com/tremorlabs/tremor) | 3382 | 2025-10-10T13:08:24Z | TypeScript | Infrastructure/tooling | 6 | 64 | 6 | 6 |
 | [cdeust/ai-prd-builder](https://github.com/cdeust/ai-prd-builder) | 2 | 2025-10-04T11:17:25Z | Other | Model/data | 0 | 0 | 0 | 0 |
 | [lobehub/lobe-assets](https://github.com/lobehub/lobe-assets) | 28 | 2025-09-25T10:01:12Z | Other | Infrastructure/tooling | 9 | 25 | 9 | 9 |
 | [superclaude-org/superqwen_framework](https://github.com/SuperClaude-Org/SuperQwen_Framework) | 22 | 2025-09-19T02:46:13Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [opencode-ai/opencode](https://github.com/opencode-ai/opencode) | unknown | 2025-09-18T02:54:28Z | Go | CLI | 3 | 3 | 3 | 3 |
-| [googlefonts/noto-emoji](https://github.com/googlefonts/noto-emoji) | unknown | 2025-09-15T22:36:48Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [opencode-ai/opencode](https://github.com/opencode-ai/opencode) | 12093 | 2025-09-18T02:54:28Z | Go | CLI | 3 | 3 | 3 | 3 |
+| [googlefonts/noto-emoji](https://github.com/googlefonts/noto-emoji) | 4664 | 2025-09-15T22:36:48Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [yzyydev/agentic-coding-structure](https://github.com/yzyydev/agentic-coding-structure) | 35 | 2025-09-15T14:45:37Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
-| [OneRedOak/claude-code-workflows](https://github.com/OneRedOak/claude-code-workflows) | unknown | 2025-09-14T07:33:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [Maciek-roboblog/Claude-Code-Usage-Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor) | unknown | 2025-09-14T03:40:59Z | Python | CLI | 1 | 7 | 0 | 0 |
+| [oneredoak/claude-code-workflows](https://github.com/OneRedOak/claude-code-workflows) | 3782 | 2025-09-14T07:33:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [maciek-roboblog/claude-code-usage-monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor) | 7630 | 2025-09-14T03:40:59Z | Python | CLI | 1 | 7 | 0 | 0 |
 | [graphql-python/graphene](https://github.com/graphql-python/graphene) | 8244 | 2025-09-04T15:43:44Z | Python | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [lamoomai/lamoom-python](https://github.com/LamoomAI/lamoom-python) | 98 | 2025-08-28T13:38:27Z | Other | Infrastructure/tooling | 2 | 3 | 0 | 0 |
 | [bartolli/claude-code-typescript-hooks](https://github.com/bartolli/claude-code-typescript-hooks) | 175 | 2025-08-26T17:11:20Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
-| [Helmi/claude-simone](https://github.com/Helmi/claude-simone) | unknown | 2025-08-26T12:11:09Z | TypeScript | Infrastructure/tooling | 5 | 10 | 0 | 0 |
-| [eastlondoner/vibe-tools](https://github.com/eastlondoner/vibe-tools) | unknown | 2025-08-25T10:10:43Z | TypeScript | Unknown | 0 | 32 | 0 | 0 |
+| [helmi/claude-simone](https://github.com/Helmi/claude-simone) | 557 | 2025-08-26T12:11:09Z | TypeScript | Infrastructure/tooling | 5 | 10 | 0 | 0 |
+| [eastlondoner/vibe-tools](https://github.com/eastlondoner/vibe-tools) | 4761 | 2025-08-25T10:10:43Z | TypeScript | Unknown | 0 | 32 | 0 | 0 |
 | [rygwdn/slack-tools](https://github.com/rygwdn/slack-tools) | 22 | 2025-08-19T03:16:08Z | TypeScript | Infrastructure/tooling | 0 | 24 | 0 | 0 |
 | [beyondgrep/ack3](https://github.com/beyondgrep/ack3) | 814 | 2025-08-19T02:57:32Z | Other | CLI | 3 | 3 | 3 | 3 |
 | [icanhasjonas/run-claude-docker](https://github.com/icanhasjonas/run-claude-docker) | 79 | 2025-08-14T21:01:05Z | Shell | Unknown | 1 | 0 | 0 | 0 |
@@ -91,7 +91,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [0xnu/rewsury](https://github.com/0xnu/rewsury) | 2 | 2025-01-24T16:39:17Z | Unknown | Model/data | 0 | 0 | 0 | 0 |
 | [finehow/bingsearch-plugin](https://github.com/FineHow/Bingsearch-Plugin) | 1 | 2025-01-23T02:23:38Z | TypeScript | Infrastructure/tooling | 5 | 34 | 5 | 5 |
 | [infinyon/node-bindgen](https://github.com/infinyon/node-bindgen) | 589 | 2025-01-13T13:14:53Z | Rust | Infrastructure/tooling | 1 | 7 | 1 | 1 |
-| [dirs-dev/dirs-rs](https://github.com/dirs-dev/dirs-rs) | unknown | 2025-01-12T19:35:17Z | Rust | Infrastructure/tooling | 4 | 1 | 4 | 4 |
+| [dirs-dev/dirs-rs](https://github.com/dirs-dev/dirs-rs) | 735 | 2025-01-12T19:35:17Z | Rust | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [mattingalls/soundflower](https://github.com/mattingalls/Soundflower) | 9049 | 2024-12-07T20:14:19Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [asg017/sqlite-lembed](https://github.com/asg017/sqlite-lembed) | 255 | 2024-11-24T06:10:43Z | C/C++ | Infrastructure/tooling | 3 | 8 | 3 | 3 |
 | [purcell/inheritenv](https://github.com/purcell/inheritenv) | 58 | 2024-11-19T13:55:42Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
@@ -99,7 +99,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lenml/gcp-claude-openai-api-server](https://github.com/lenML/gcp-claude-openai-api-server) | 12 | 2024-10-23T16:05:40Z | TypeScript | Infrastructure/tooling | 1 | 31 | 0 | 0 |
 | [oxpig/calm](https://github.com/oxpig/CaLM) | 54 | 2024-10-20T17:56:44Z | Python | Model/data | 7 | 0 | 7 | 7 |
 | [ianopolous/jpack](https://github.com/ianopolous/jpack) | 1 | 2024-09-25T14:52:09Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
-| [haotian-liu/LLaVA](https://github.com/haotian-liu/LLaVA) | unknown | 2024-08-12T09:52:38Z | Python | Unknown | 13 | 0 | 13 | 13 |
+| [haotian-liu/llava](https://github.com/haotian-liu/LLaVA) | 24698 | 2024-08-12T09:52:38Z | Python | Unknown | 13 | 0 | 13 | 13 |
 | [mjvolk3/biocypher](https://github.com/Mjvolk3/biocypher) | 0 | 2024-07-25T20:44:53Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [junegunn/vim-easy-align](https://github.com/junegunn/vim-easy-align) | 4230 | 2024-07-23T03:28:14Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [chelsea0x3b/dfdx](https://github.com/chelsea0x3b/dfdx) | 1905 | 2024-07-23T02:05:58Z | Rust | Infrastructure/tooling | 18 | 4 | 18 | 18 |
@@ -155,16 +155,23 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [haotian-liu/llava](https://github.com/haotian-liu/LLaVA) | 24698 | 2024-08-12T09:52:38Z | Python | Unknown | 13 | 0 | 13 | 13 |
+| [opencode-ai/opencode](https://github.com/opencode-ai/opencode) | 12093 | 2025-09-18T02:54:28Z | Go | CLI | 3 | 3 | 3 | 3 |
 | [xaoyaoo/pywxdump](https://github.com/xaoyaoo/PyWxDump) | 9751 | 2025-10-20T10:36:39Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
 | [mattingalls/soundflower](https://github.com/mattingalls/Soundflower) | 9049 | 2024-12-07T20:14:19Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [atom-archive/xray](https://github.com/atom-archive/xray) | 8427 | 2019-07-22T17:46:06Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [graphql-python/graphene](https://github.com/graphql-python/graphene) | 8244 | 2025-09-04T15:43:44Z | Python | Infrastructure/tooling | 8 | 6 | 8 | 8 |
+| [maciek-roboblog/claude-code-usage-monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor) | 7630 | 2025-09-14T03:40:59Z | Python | CLI | 1 | 7 | 0 | 0 |
 | [0nn0/terminal-mac-cheatsheet](https://github.com/0nn0/terminal-mac-cheatsheet) | 7381 | 2024-05-17T14:36:20Z | Unknown | CLI | 0 | 0 | 0 | 0 |
 | [ddollar/foreman](https://github.com/ddollar/foreman) | 6145 | 2025-07-27T10:04:03Z | Other | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [novicezk/midjourney-proxy](https://github.com/novicezk/midjourney-proxy) | 5260 | 2025-08-03T07:41:19Z | Java | Infrastructure/tooling | 2 | 0 | 2 | 2 |
+| [eastlondoner/vibe-tools](https://github.com/eastlondoner/vibe-tools) | 4761 | 2025-08-25T10:10:43Z | TypeScript | Unknown | 0 | 32 | 0 | 0 |
+| [googlefonts/noto-emoji](https://github.com/googlefonts/noto-emoji) | 4664 | 2025-09-15T22:36:48Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [junegunn/vim-easy-align](https://github.com/junegunn/vim-easy-align) | 4230 | 2024-07-23T03:28:14Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [eth-sri/lmql](https://github.com/eth-sri/lmql) | 4167 | 2025-05-22T07:32:31Z | Python | Infrastructure/tooling | 8 | 9 | 8 | 8 |
+| [oneredoak/claude-code-workflows](https://github.com/OneRedOak/claude-code-workflows) | 3782 | 2025-09-14T07:33:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [darthsim/overmind](https://github.com/DarthSim/overmind) | 3592 | 2025-04-04T04:20:15Z | Go | Infrastructure/tooling | 3 | 4 | 0 | 0 |
+| [tremorlabs/tremor](https://github.com/tremorlabs/tremor) | 3382 | 2025-10-10T13:08:24Z | TypeScript | Infrastructure/tooling | 6 | 64 | 6 | 6 |
 | [basujindal/stable-diffusion](https://github.com/basujindal/stable-diffusion) | 3094 | 2023-09-20T10:29:11Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [addyosmani/gemini-cli-tips](https://github.com/addyosmani/gemini-cli-tips) | 2327 | 2025-10-19T03:25:32Z | Unknown | CLI | 3 | 0 | 3 | 3 |
 | [asg017/sqlite-vss](https://github.com/asg017/sqlite-vss) | 1986 | 2024-05-05T20:00:16Z | C/C++ | Infrastructure/tooling | 7 | 18 | 7 | 7 |
@@ -178,11 +185,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ers35/luastatic](https://github.com/ers35/luastatic) | 856 | 2023-10-28T13:25:11Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [ecumene/rust-sloth](https://github.com/ecumene/rust-sloth) | 817 | 2024-01-28T02:42:10Z | Rust | CLI | 7 | 6 | 7 | 7 |
 | [beyondgrep/ack3](https://github.com/beyondgrep/ack3) | 814 | 2025-08-19T02:57:32Z | Other | CLI | 3 | 3 | 3 | 3 |
+| [dirs-dev/dirs-rs](https://github.com/dirs-dev/dirs-rs) | 735 | 2025-01-12T19:35:17Z | Rust | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [disler/just-prompt](https://github.com/disler/just-prompt) | 722 | 2025-08-10T19:05:53Z | Python | Service/API | 1 | 0 | 0 | 0 |
 | [possibilities/claude-composer](https://github.com/possibilities/claude-composer) | 678 | 2025-07-31T02:29:50Z | TypeScript | Infrastructure/tooling | 1 | 22 | 0 | 0 |
 | [harfbuzz/rustybuzz](https://github.com/harfbuzz/rustybuzz) | 658 | 2025-06-09T20:29:30Z | Rust | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [infinyon/node-bindgen](https://github.com/infinyon/node-bindgen) | 589 | 2025-01-13T13:14:53Z | Rust | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [lnx-search/rewrk](https://github.com/lnx-search/rewrk) | 583 | 2024-03-25T12:30:23Z | Rust | Infrastructure/tooling | 5 | 9 | 5 | 6 |
+| [helmi/claude-simone](https://github.com/Helmi/claude-simone) | 557 | 2025-08-26T12:11:09Z | TypeScript | Infrastructure/tooling | 5 | 10 | 0 | 0 |
 | [klaus2m5/6502_65c02_functional_tests](https://github.com/Klaus2m5/6502_65C02_functional_tests) | 490 | 2023-03-07T15:32:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [automatic1111/stable-diffusion-webui-aesthetic-gradients](https://github.com/AUTOMATIC1111/stable-diffusion-webui-aesthetic-gradients) | 456 | 2023-01-23T08:45:27Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [asg017/sqlite-loadable-rs](https://github.com/asg017/sqlite-loadable-rs) | 402 | 2025-05-02T17:29:00Z | Rust | Infrastructure/tooling | 5 | 6 | 5 | 5 |
@@ -274,12 +283,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mjvolk3/biocypher](https://github.com/Mjvolk3/biocypher) | 0 | 2024-07-25T20:44:53Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [GarrettAlbright/Luacheck.novaextension](https://github.com/GarrettAlbright/Luacheck.novaextension) | 0 | 2023-03-22T08:40:45Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [burntsushi/linux](https://github.com/BurntSushi/linux) | 0 | 2022-12-16T15:13:06Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [tremorlabs/tremor](https://github.com/tremorlabs/tremor) | unknown | 2025-10-10T13:08:24Z | TypeScript | Infrastructure/tooling | 6 | 64 | 6 | 6 |
-| [opencode-ai/opencode](https://github.com/opencode-ai/opencode) | unknown | 2025-09-18T02:54:28Z | Go | CLI | 3 | 3 | 3 | 3 |
-| [googlefonts/noto-emoji](https://github.com/googlefonts/noto-emoji) | unknown | 2025-09-15T22:36:48Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
-| [OneRedOak/claude-code-workflows](https://github.com/OneRedOak/claude-code-workflows) | unknown | 2025-09-14T07:33:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
-| [Maciek-roboblog/Claude-Code-Usage-Monitor](https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor) | unknown | 2025-09-14T03:40:59Z | Python | CLI | 1 | 7 | 0 | 0 |
-| [Helmi/claude-simone](https://github.com/Helmi/claude-simone) | unknown | 2025-08-26T12:11:09Z | TypeScript | Infrastructure/tooling | 5 | 10 | 0 | 0 |
-| [eastlondoner/vibe-tools](https://github.com/eastlondoner/vibe-tools) | unknown | 2025-08-25T10:10:43Z | TypeScript | Unknown | 0 | 32 | 0 | 0 |
-| [dirs-dev/dirs-rs](https://github.com/dirs-dev/dirs-rs) | unknown | 2025-01-12T19:35:17Z | Rust | Infrastructure/tooling | 4 | 1 | 4 | 4 |
-| [haotian-liu/LLaVA](https://github.com/haotian-liu/LLaVA) | unknown | 2024-08-12T09:52:38Z | Python | Unknown | 13 | 0 | 13 | 13 |

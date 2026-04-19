@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 195,
+    "components": 373,
     "concepts": 64,
     "observations": 64,
-    "repos": 64,
-    "terms": 94
+    "repos": 72,
+    "terms": 96
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
     "abraxas-365/claudio-screenshot",
     "adammes/voyanode",
@@ -19,9 +19,12 @@
     "b2agi/exist-is-charter",
     "b2agi/exist-is-charter_kr",
     "begmyratb/floweye-yyyxxx.cc",
+    "biparous-blaxploitation156/ciphermind",
+    "bunburysniper/bleunova-ai-agent",
     "burntsushi/linux",
     "carloandremoreyra/xx",
     "cdeust/cortex-know-when-to-stop-training-model",
+    "chafingdishposition355/go-skills",
     "damacol/ai-hub",
     "damacol/gemma-4-collection",
     "damacol/google-gemma-2-2b-it",
@@ -35,9 +38,12 @@
     "danielrosehill/ai-human-attribution-adder",
     "danielrosehill/batch-claudemd-repo-creator",
     "ethpandaops/xatu-cbt",
+    "fekkak1998/scira",
     "firestryk/chatgpt-website.github.io",
     "florisheedless915/grok-register",
+    "foundersieve687/skill-gateway",
     "GarrettAlbright/Luacheck.novaextension",
+    "genuslovoacalixtusiii510/ytp-2026",
     "gerardtschanz/revenue-os",
     "gopi2211/ralph",
     "gyf0311/lorekit",
@@ -60,6 +66,7 @@
     "nibir1/vaultsim",
     "piebald-ai/piebald",
     "piqrypt/piqrypt-mcp-server",
+    "pragmatical-transshipment598/claude-code-workflows",
     "redductive/securepixel",
     "roampal-ai/roampal-labs",
     "robertabao/grok-nvim",
@@ -72,6 +79,7 @@
     "sujithpvarghese/bedrock-agent-core-operations-hub-mcp",
     "sujithpvarghese/bedrock-full-reconciliation",
     "tornikepe/ai-chatbot",
+    "vivianalaced749/vk-calls-tunnel",
     "wblondel/blog",
     "wencuecryforme/mysoul.skill",
     "wendyalbanez/clawui",

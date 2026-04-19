@@ -253,19 +253,23 @@
       "size": 6657
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:27.975255+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "An SVG rendering library.",
+    "fork": false,
     "full_name": "linebender/resvg",
     "html_url": "https://github.com/linebender/resvg",
     "language": "Rust",
     "pushed_at": "2026-04-09T18:28:45Z",
+    "stargazers_count": 3786,
     "topics": [
       "render",
       "svg"
     ],
-    "updated_at": "2026-04-18T07:36:06Z"
+    "updated_at": "2026-04-19T08:17:05Z"
   },
   "repo_links": [
     {

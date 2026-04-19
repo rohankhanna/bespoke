@@ -16,16 +16,20 @@
       "size": 4277
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:33.424802+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders.",
+    "fork": false,
     "full_name": "zarazhangrui/codebase-to-course",
     "html_url": "https://github.com/zarazhangrui/codebase-to-course",
     "language": "CSS",
     "pushed_at": "2026-03-30T18:26:09Z",
+    "stargazers_count": 3902,
     "topics": [],
-    "updated_at": "2026-04-18T08:45:27Z"
+    "updated_at": "2026-04-19T13:26:39Z"
   },
   "repo_links": [],
   "terms": [

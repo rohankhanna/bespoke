@@ -351,14 +351,18 @@
       "size": 1406
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:50.061222+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83d\udcab Toolkit to help you get started with Spec-Driven Development",
+    "fork": false,
     "full_name": "github/spec-kit",
     "html_url": "https://github.com/github/spec-kit",
     "language": "Python",
     "pushed_at": "2026-04-17T19:33:42Z",
+    "stargazers_count": 89293,
     "topics": [
       "ai",
       "copilot",
@@ -368,7 +372,7 @@
       "spec",
       "spec-driven"
     ],
-    "updated_at": "2026-04-18T11:58:10Z"
+    "updated_at": "2026-04-19T14:00:28Z"
   },
   "repo_links": [
     {

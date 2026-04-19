@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 13,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 1,
-    "terms": 5
+    "components": 29,
+    "concepts": 39,
+    "observations": 39,
+    "repos": 3,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
+    "huggingface/transformers",
+    "langchain-ai/langchain",
     "nousresearch/hermes-agent"
   ]
 }

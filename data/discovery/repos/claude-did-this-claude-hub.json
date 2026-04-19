@@ -1105,14 +1105,18 @@
       "size": 4916
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:21.255287+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "  A webhook service that connects Claude Code to GitHub repositories, enabling AI-powered code assistance directly   through pull requests and issues. This integration allows Claude to analyze repositories, answer technical questions,    and help developers understand and improve their codebase through simple @mentions.",
+    "fork": false,
     "full_name": "claude-did-this/claude-hub",
     "html_url": "https://github.com/claude-did-this/claude-hub",
     "language": "TypeScript",
     "pushed_at": "2025-10-27T14:06:25Z",
+    "stargazers_count": 457,
     "topics": [
       "automation",
       "claude-ai",
@@ -1120,7 +1124,7 @@
       "github-webhook",
       "typescript"
     ],
-    "updated_at": "2026-04-18T04:12:49Z"
+    "updated_at": "2026-04-18T11:13:45Z"
   },
   "repo_links": [],
   "terms": [

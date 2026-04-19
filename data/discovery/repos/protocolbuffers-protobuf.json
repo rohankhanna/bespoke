@@ -283,14 +283,18 @@
       "size": 2540
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:46.516345+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Protocol Buffers - Google's data interchange format",
+    "fork": false,
     "full_name": "protocolbuffers/protobuf",
     "html_url": "https://github.com/protocolbuffers/protobuf",
     "language": "C++",
-    "pushed_at": "2026-04-18T11:17:57Z",
+    "pushed_at": "2026-04-19T10:18:20Z",
+    "stargazers_count": 71110,
     "topics": [
       "marshalling",
       "protobuf",
@@ -301,7 +305,7 @@
       "rpc",
       "serialization"
     ],
-    "updated_at": "2026-04-18T11:18:01Z"
+    "updated_at": "2026-04-19T13:51:41Z"
   },
   "repo_links": [
     {

@@ -296,14 +296,18 @@
       "size": 1106
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:43.502359+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A powerful little TUI framework \ud83c\udfd7",
+    "fork": false,
     "full_name": "charmbracelet/bubbletea",
     "html_url": "https://github.com/charmbracelet/bubbletea",
     "language": "Go",
     "pushed_at": "2026-04-16T16:00:36Z",
+    "stargazers_count": 41709,
     "topics": [
       "cli",
       "elm-architecture",
@@ -314,7 +318,7 @@
       "hacktoberfest",
       "tui"
     ],
-    "updated_at": "2026-04-18T10:36:06Z"
+    "updated_at": "2026-04-19T13:53:55Z"
   },
   "repo_links": [
     {

@@ -247,21 +247,25 @@
       "size": 987
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:44.237826+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time.",
+    "fork": false,
     "full_name": "letta-ai/letta",
     "html_url": "https://github.com/letta-ai/letta",
     "language": "Python",
     "pushed_at": "2026-04-12T20:54:54Z",
+    "stargazers_count": 22154,
     "topics": [
       "ai",
       "ai-agents",
       "llm",
       "llm-agent"
     ],
-    "updated_at": "2026-04-18T10:39:57Z"
+    "updated_at": "2026-04-19T13:41:17Z"
   },
   "repo_links": [
     {

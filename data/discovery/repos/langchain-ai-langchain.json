@@ -472,14 +472,18 @@
       "size": 1176
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:57.156086+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "The agent engineering platform",
+    "fork": false,
     "full_name": "langchain-ai/langchain",
     "html_url": "https://github.com/langchain-ai/langchain",
     "language": "Python",
-    "pushed_at": "2026-04-18T17:12:15Z",
+    "pushed_at": "2026-04-19T07:26:03Z",
+    "stargazers_count": 134049,
     "topics": [
       "agents",
       "ai",
@@ -501,7 +505,7 @@
       "python",
       "rag"
     ],
-    "updated_at": "2026-04-18T18:09:46Z"
+    "updated_at": "2026-04-19T13:53:33Z"
   },
   "repo_links": [
     {

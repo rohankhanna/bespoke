@@ -1,20 +1,20 @@
 # Discovery pages
 
-Generated at: `2026-04-19T14:03:00.009749+00:00`
+Generated at: `2026-04-19T14:03:58.882676+00:00`
 
 This index is static. It links to precomputed facet pages and does not rely on client-side filtering or sorting.
 
 ## Counts
 
 - repos: 798
-- non-empty updated × stars pages: 53
-- non-empty updated × stars × language pages: 279
+- non-empty updated × stars pages: 57
+- non-empty updated × stars × language pages: 289
 
 ## Updated buckets
 
-- [Updated in the last 24 hours](./by-updated/updated-0-1d.md) — 126 repos
-- [Updated 1 to 7 days ago](./by-updated/updated-1-7d.md) — 305 repos
-- [Updated 8 to 14 days ago](./by-updated/updated-8-14d.md) — 58 repos
+- [Updated in the last 24 hours](./by-updated/updated-0-1d.md) — 201 repos
+- [Updated 1 to 7 days ago](./by-updated/updated-1-7d.md) — 233 repos
+- [Updated 8 to 14 days ago](./by-updated/updated-8-14d.md) — 55 repos
 - [Updated 15 to 30 days ago](./by-updated/updated-15-30d.md) — 50 repos
 - [Updated 31 to 60 days ago](./by-updated/updated-31-60d.md) — 52 repos
 - [Updated 61 to 90 days ago](./by-updated/updated-61-90d.md) — 33 repos
@@ -23,14 +23,14 @@ This index is static. It links to precomputed facet pages and does not rely on c
 
 ## Star buckets
 
-- [Unknown stars](./by-stars/stars-unknown.md) — 268 repos
-- [0 stars](./by-stars/stars-0.md) — 64 repos
-- [1 to 9 stars](./by-stars/stars-1-9.md) — 116 repos
-- [10 to 99 stars](./by-stars/stars-10-99.md) — 109 repos
-- [100 to 999 stars](./by-stars/stars-100-999.md) — 129 repos
-- [1,000 to 9,999 stars](./by-stars/stars-1000-9999.md) — 88 repos
-- [10,000 to 99,999 stars](./by-stars/stars-10000-99999.md) — 21 repos
-- [100,000 to 999,999 stars](./by-stars/stars-100000-999999.md) — 3 repos
+- [Unknown stars](./by-stars/stars-unknown.md) — 33 repos
+- [0 stars](./by-stars/stars-0.md) — 72 repos
+- [1 to 9 stars](./by-stars/stars-1-9.md) — 119 repos
+- [10 to 99 stars](./by-stars/stars-10-99.md) — 120 repos
+- [100 to 999 stars](./by-stars/stars-100-999.md) — 165 repos
+- [1,000 to 9,999 stars](./by-stars/stars-1000-9999.md) — 165 repos
+- [10,000 to 99,999 stars](./by-stars/stars-10000-99999.md) — 108 repos
+- [100,000 to 999,999 stars](./by-stars/stars-100000-999999.md) — 16 repos
 - [1,000,000+ stars](./by-stars/stars-1000000-plus.md) — 0 repos
 
 ## Language buckets

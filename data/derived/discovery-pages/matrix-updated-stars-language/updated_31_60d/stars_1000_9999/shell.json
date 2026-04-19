@@ -1,0 +1,20 @@
+{
+  "counts": {
+    "components": 0,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 2,
+    "terms": 4
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "shell",
+    "star_bucket": "stars_1000_9999",
+    "updated_bucket": "updated_31_60d"
+  },
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "repo_ids": [
+    "automazeio/ccpm",
+    "blader/claudeception"
+  ]
+}

@@ -23,14 +23,18 @@
       "size": 4970
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:21.731981+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Enhance Grok with a userscript that improves video length control, bypasses limits, and boosts overall user experience with easy installation.",
-    "full_name": "stealabra5019/Grok-Enhancer",
+    "fork": false,
+    "full_name": "stealabra5019/grok-enhancer",
     "html_url": "https://github.com/stealabra5019/Grok-Enhancer",
     "language": "JavaScript",
-    "pushed_at": "2026-04-18T04:28:51Z",
+    "pushed_at": "2026-04-19T12:26:16Z",
+    "stargazers_count": 1,
     "topics": [
       "agents",
       "claude",
@@ -52,7 +56,7 @@
       "wallet",
       "xai"
     ],
-    "updated_at": "2026-04-18T04:28:55Z"
+    "updated_at": "2026-04-19T12:26:20Z"
   },
   "repo_links": [],
   "terms": [

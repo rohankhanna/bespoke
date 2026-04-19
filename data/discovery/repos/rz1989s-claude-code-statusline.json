@@ -1115,14 +1115,18 @@
       "size": 5228
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:30.459896+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Transform your Claude Code terminal with atomic precision statusline. Features flexible layouts, real-time cost tracking, MCP monitoring, prayer times, and beautiful themes.",
+    "fork": false,
     "full_name": "rz1989s/claude-code-statusline",
     "html_url": "https://github.com/rz1989s/claude-code-statusline",
     "language": "Shell",
     "pushed_at": "2026-04-17T17:11:17Z",
+    "stargazers_count": 427,
     "topics": [
       "ai-tools",
       "bash",

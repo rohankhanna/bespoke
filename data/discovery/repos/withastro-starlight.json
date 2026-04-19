@@ -717,14 +717,18 @@
       "size": 1398
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:33.090473+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83c\udf1f Build beautiful, accessible, high-performance documentation websites with Astro",
+    "fork": false,
     "full_name": "withastro/starlight",
     "html_url": "https://github.com/withastro/starlight",
     "language": "TypeScript",
     "pushed_at": "2026-04-18T01:41:20Z",
+    "stargazers_count": 8328,
     "topics": [
       "astro",
       "docs-generator",
@@ -732,7 +736,7 @@
       "starlight",
       "static-site-generator"
     ],
-    "updated_at": "2026-04-18T08:43:55Z"
+    "updated_at": "2026-04-19T13:07:08Z"
   },
   "repo_links": [],
   "terms": [

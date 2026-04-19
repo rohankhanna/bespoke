@@ -1,24 +1,32 @@
 {
   "counts": {
-    "components": 116,
+    "components": 155,
     "concepts": 36,
     "observations": 36,
-    "repos": 7,
-    "terms": 36
+    "repos": 15,
+    "terms": 48
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
     "azure/aztfexport",
+    "behisecc/awesome-claude-skills",
     "dooy/chatgpt-web-midjourney-proxy",
+    "dtolnay/anyhow",
     "glittercowboy/taches-cc-resources",
     "google/tarpc",
     "haleclipse/claudix",
+    "jeffallan/claude-skills",
+    "manzaltu/claude-code-ide.el",
+    "smtg-ai/claude-squad",
+    "steipete/peekaboo",
     "stripe/stripe-mock",
-    "trailofbits/claude-code-config"
+    "trailofbits/claude-code-config",
+    "ykdojo/claude-code-tips",
+    "zarazhangrui/codebase-to-course"
   ]
 }

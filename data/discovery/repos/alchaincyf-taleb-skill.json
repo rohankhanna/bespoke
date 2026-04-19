@@ -16,16 +16,20 @@
       "size": 7038
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:51.879957+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\u5854\u52d2\u5e03.skill \u2014 Nassim Taleb\u7684\u8ba4\u77e5\u64cd\u4f5c\u7cfb\u7edf\u3002\u7531\u5973\u5a32.skill\u751f\u6210\u3002",
+    "fork": false,
     "full_name": "alchaincyf/taleb-skill",
     "html_url": "https://github.com/alchaincyf/taleb-skill",
     "language": null,
     "pushed_at": "2026-04-10T02:29:06Z",
+    "stargazers_count": 65,
     "topics": [],
-    "updated_at": "2026-04-18T12:29:58Z"
+    "updated_at": "2026-04-19T11:03:50Z"
   },
   "repo_links": [
     {

@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 0 stars
 
-Generated at: `2026-04-19T14:03:00.009749+00:00`
+Generated at: `2026-04-19T14:03:58.882676+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,9 +11,9 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 36
-- terms: 21
-- components: 86
+- repos: 44
+- terms: 23
+- components: 264
 - concepts: 0
 - observations: 0
 
@@ -31,14 +31,22 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [carloandremoreyra/xx](https://github.com/carloandremoreyra/XX) | 0 | 2026-04-19T13:26:55Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [firestryk/chatgpt-website.github.io](https://github.com/FIRESTRYK/chatgpt-website.github.io) | 0 | 2026-04-19T12:58:05Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [wendyalbanez/clawui](https://github.com/wendyalbanez/ClawUI) | 0 | 2026-04-19T12:39:07Z | Unknown | CLI | 0 | 0 | 0 | 0 |
+| [pragmatical-transshipment598/claude-code-workflows](https://github.com/Pragmatical-transshipment598/claude-code-workflows) | 0 | 2026-04-19T12:39:02Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
+| [vivianalaced749/vk-calls-tunnel](https://github.com/vivianalaced749/vk-calls-tunnel) | 0 | 2026-04-19T12:38:50Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
+| [chafingdishposition355/go-skills](https://github.com/chafingdishposition355/go-skills) | 0 | 2026-04-19T12:38:15Z | Unknown | CLI | 1 | 0 | 0 | 0 |
 | [florisheedless915/grok-register](https://github.com/Florisheedless915/grok-register) | 0 | 2026-04-19T12:38:12Z | Python | Service/API | 0 | 0 | 0 | 0 |
 | [similar-colpoxerosis201/codex-wechat](https://github.com/Similar-colpoxerosis201/codex-wechat) | 0 | 2026-04-19T12:37:32Z | JavaScript | Service/API | 0 | 3 | 0 | 0 |
 | [jonislutheran87/weclaw](https://github.com/jonislutheran87/weclaw) | 0 | 2026-04-19T12:37:21Z | Go | CLI | 0 | 0 | 0 | 0 |
+| [foundersieve687/skill-gateway](https://github.com/Foundersieve687/skill-gateway) | 0 | 2026-04-19T12:37:21Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [aipurposes1587-max/weixin-agent-rs](https://github.com/aipurposes1587-max/weixin-agent-rs) | 0 | 2026-04-19T12:37:20Z | Rust | CLI | 0 | 0 | 0 | 0 |
 | [shouted-numberone752/wechat-agent-connector](https://github.com/Shouted-numberone752/wechat-agent-connector) | 0 | 2026-04-19T12:37:09Z | Unknown | CLI | 0 | 0 | 0 | 0 |
+| [biparous-blaxploitation156/ciphermind](https://github.com/biparous-blaxploitation156/CipherMind) | 0 | 2026-04-19T12:37:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [genuslovoacalixtusiii510/ytp-2026](https://github.com/genuslovoacalixtusiii510/YTP-2026) | 0 | 2026-04-19T12:37:01Z | Other | CLI | 0 | 0 | 0 | 0 |
 | [gyf0311/lorekit](https://github.com/GYF0311/lorekit) | 0 | 2026-04-19T12:31:05Z | JavaScript | Web app | 0 | 12 | 0 | 0 |
 | [shoggo-ai/seniorvigil](https://github.com/Shoggo-ai/seniorvigil) | 0 | 2026-04-19T12:17:34Z | Other | Infrastructure/tooling | 4 | 4 | 0 | 0 |
 | [markoswire/remember-me.ai](https://github.com/markoswire/remember-me.ai) | 0 | 2026-04-19T12:17:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [bunburysniper/bleunova-ai-agent](https://github.com/bunburysniper/BleuNova-AI-Agent) | 0 | 2026-04-19T12:11:05Z | Python | Infrastructure/tooling | 1 | 0 | 0 | 0 |
+| [fekkak1998/scira](https://github.com/fekkak1998/scira) | 0 | 2026-04-19T12:08:41Z | TypeScript | CLI | 0 | 178 | 0 | 0 |
 | [gerardtschanz/revenue-os](https://github.com/gerardtschanz/revenue-os) | 0 | 2026-04-19T11:53:17Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [livemania18/idiegti-sukonfiguruoti-yiimp-kasimo-baseinas-programine-iranga-ubuntu-linux](https://github.com/Livemania18/Idiegti-Sukonfiguruoti-Yiimp-Kasimo-Baseinas-Programine-Iranga-Ubuntu-Linux) | 0 | 2026-04-19T11:53:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [gopi2211/ralph](https://github.com/gopi2211/ralph) | 0 | 2026-04-19T11:52:59Z | TypeScript | Unknown | 0 | 15 | 0 | 0 |
@@ -72,14 +80,22 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [carloandremoreyra/xx](https://github.com/carloandremoreyra/XX) | 0 | 2026-04-19T13:26:55Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [firestryk/chatgpt-website.github.io](https://github.com/FIRESTRYK/chatgpt-website.github.io) | 0 | 2026-04-19T12:58:05Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [wendyalbanez/clawui](https://github.com/wendyalbanez/ClawUI) | 0 | 2026-04-19T12:39:07Z | Unknown | CLI | 0 | 0 | 0 | 0 |
+| [pragmatical-transshipment598/claude-code-workflows](https://github.com/Pragmatical-transshipment598/claude-code-workflows) | 0 | 2026-04-19T12:39:02Z | Unknown | Template/starter | 0 | 0 | 0 | 0 |
+| [vivianalaced749/vk-calls-tunnel](https://github.com/vivianalaced749/vk-calls-tunnel) | 0 | 2026-04-19T12:38:50Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
+| [chafingdishposition355/go-skills](https://github.com/chafingdishposition355/go-skills) | 0 | 2026-04-19T12:38:15Z | Unknown | CLI | 1 | 0 | 0 | 0 |
 | [florisheedless915/grok-register](https://github.com/Florisheedless915/grok-register) | 0 | 2026-04-19T12:38:12Z | Python | Service/API | 0 | 0 | 0 | 0 |
 | [similar-colpoxerosis201/codex-wechat](https://github.com/Similar-colpoxerosis201/codex-wechat) | 0 | 2026-04-19T12:37:32Z | JavaScript | Service/API | 0 | 3 | 0 | 0 |
 | [jonislutheran87/weclaw](https://github.com/jonislutheran87/weclaw) | 0 | 2026-04-19T12:37:21Z | Go | CLI | 0 | 0 | 0 | 0 |
+| [foundersieve687/skill-gateway](https://github.com/Foundersieve687/skill-gateway) | 0 | 2026-04-19T12:37:21Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [aipurposes1587-max/weixin-agent-rs](https://github.com/aipurposes1587-max/weixin-agent-rs) | 0 | 2026-04-19T12:37:20Z | Rust | CLI | 0 | 0 | 0 | 0 |
 | [shouted-numberone752/wechat-agent-connector](https://github.com/Shouted-numberone752/wechat-agent-connector) | 0 | 2026-04-19T12:37:09Z | Unknown | CLI | 0 | 0 | 0 | 0 |
+| [biparous-blaxploitation156/ciphermind](https://github.com/biparous-blaxploitation156/CipherMind) | 0 | 2026-04-19T12:37:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [genuslovoacalixtusiii510/ytp-2026](https://github.com/genuslovoacalixtusiii510/YTP-2026) | 0 | 2026-04-19T12:37:01Z | Other | CLI | 0 | 0 | 0 | 0 |
 | [gyf0311/lorekit](https://github.com/GYF0311/lorekit) | 0 | 2026-04-19T12:31:05Z | JavaScript | Web app | 0 | 12 | 0 | 0 |
 | [shoggo-ai/seniorvigil](https://github.com/Shoggo-ai/seniorvigil) | 0 | 2026-04-19T12:17:34Z | Other | Infrastructure/tooling | 4 | 4 | 0 | 0 |
 | [markoswire/remember-me.ai](https://github.com/markoswire/remember-me.ai) | 0 | 2026-04-19T12:17:13Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [bunburysniper/bleunova-ai-agent](https://github.com/bunburysniper/BleuNova-AI-Agent) | 0 | 2026-04-19T12:11:05Z | Python | Infrastructure/tooling | 1 | 0 | 0 | 0 |
+| [fekkak1998/scira](https://github.com/fekkak1998/scira) | 0 | 2026-04-19T12:08:41Z | TypeScript | CLI | 0 | 178 | 0 | 0 |
 | [gerardtschanz/revenue-os](https://github.com/gerardtschanz/revenue-os) | 0 | 2026-04-19T11:53:17Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [livemania18/idiegti-sukonfiguruoti-yiimp-kasimo-baseinas-programine-iranga-ubuntu-linux](https://github.com/Livemania18/Idiegti-Sukonfiguruoti-Yiimp-Kasimo-Baseinas-Programine-Iranga-Ubuntu-Linux) | 0 | 2026-04-19T11:53:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [gopi2211/ralph](https://github.com/gopi2211/ralph) | 0 | 2026-04-19T11:52:59Z | TypeScript | Unknown | 0 | 15 | 0 | 0 |

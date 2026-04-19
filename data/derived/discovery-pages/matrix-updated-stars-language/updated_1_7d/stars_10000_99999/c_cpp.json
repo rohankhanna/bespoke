@@ -1,0 +1,21 @@
+{
+  "counts": {
+    "components": 9,
+    "concepts": 10,
+    "observations": 10,
+    "repos": 3,
+    "terms": 10
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "c_cpp",
+    "star_bucket": "stars_10000_99999",
+    "updated_bucket": "updated_1_7d"
+  },
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "repo_ids": [
+    "ggml-org/ggml",
+    "mozilla-ai/llamafile",
+    "tmux/tmux"
+  ]
+}

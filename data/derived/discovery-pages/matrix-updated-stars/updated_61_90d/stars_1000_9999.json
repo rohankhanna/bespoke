@@ -1,20 +1,24 @@
 {
   "counts": {
-    "components": 94,
-    "concepts": 9,
-    "observations": 9,
-    "repos": 6,
-    "terms": 17
+    "components": 118,
+    "concepts": 26,
+    "observations": 26,
+    "repos": 10,
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
+    "anthropics/claude-code-security-review",
     "anthropics/claudes-c-compiler",
+    "bats-core/bats-core",
     "greggh/claude-code.nvim",
+    "meta-llama/llama-models",
+    "ollama/ollama-python",
     "omnara-ai/omnara",
     "parruda/swarm",
     "shareai-lab/kode-agent",

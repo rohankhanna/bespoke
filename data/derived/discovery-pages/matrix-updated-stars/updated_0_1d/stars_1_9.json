@@ -3,15 +3,15 @@
     "components": 192,
     "concepts": 26,
     "observations": 26,
-    "repos": 30,
-    "terms": 56
+    "repos": 33,
+    "terms": 57
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
     "abraxas-365/claudio",
     "anojndr/grok-to-openai",
@@ -27,6 +27,8 @@
     "floxym/financial-chat-finance-nlp-chatbots",
     "frank-syncmarket/skills",
     "gauravrathod674/custom-chatbot",
+    "gbrobro119-star/darksword-kexploit",
+    "graveyardsfocrdpktv/ethereum-mempool-bot",
     "joinwell52-ai/codeflow-pwa",
     "k8nstantin/openpraxis",
     "kimosahy/railroaded",
@@ -40,6 +42,7 @@
     "saminiscool/twitter-ai-agent",
     "serpro69/capy",
     "seunghunbae-3svs/solo-cto-agent",
+    "stealabra5019/grok-enhancer",
     "tarikmanoar/tarikmanoar",
     "verkyyi/tokenman",
     "vincent-k2026/codachi"

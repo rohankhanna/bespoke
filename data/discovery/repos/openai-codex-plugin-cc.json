@@ -220,16 +220,20 @@
       "size": 689
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:35.212873+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Use Codex from Claude Code to review code or delegate tasks.",
+    "fork": false,
     "full_name": "openai/codex-plugin-cc",
     "html_url": "https://github.com/openai/codex-plugin-cc",
     "language": "JavaScript",
-    "pushed_at": "2026-04-08T21:48:50Z",
+    "pushed_at": "2026-04-18T20:42:15Z",
+    "stargazers_count": 15115,
     "topics": [],
-    "updated_at": "2026-04-18T08:56:45Z"
+    "updated_at": "2026-04-19T14:03:25Z"
   },
   "repo_links": [],
   "terms": [

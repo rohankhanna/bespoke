@@ -80,14 +80,18 @@
       "size": 872
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:57.441071+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Open Source Implementation of Karpathy's LLM Wiki. Upload documents, connect your Claude account via MCP, and have it write your wiki ! ",
+    "fork": false,
     "full_name": "lucasastorian/llmwiki",
     "html_url": "https://github.com/lucasastorian/llmwiki",
     "language": "TypeScript",
     "pushed_at": "2026-04-15T21:48:54Z",
+    "stargazers_count": 540,
     "topics": [
       "agents",
       "ai-agents",
@@ -101,7 +105,7 @@
       "rag",
       "supabase"
     ],
-    "updated_at": "2026-04-18T18:15:39Z"
+    "updated_at": "2026-04-19T12:38:58Z"
   },
   "repo_links": [],
   "terms": [

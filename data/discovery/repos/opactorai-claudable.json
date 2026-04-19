@@ -380,14 +380,18 @@
       "size": 3285
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:32.264781+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Claudable is an open-source web builder that leverages local CLI agents, such as Claude Code, Codex, Gemini CLI, Qwen Code, and Cursor Agent, to build and deploy products effortlessly.",
-    "full_name": "opactorai/Claudable",
+    "fork": false,
+    "full_name": "opactorai/claudable",
     "html_url": "https://github.com/opactorai/Claudable",
     "language": "TypeScript",
     "pushed_at": "2026-04-11T03:03:40Z",
+    "stargazers_count": 3884,
     "topics": [
       "agent",
       "claude",
@@ -401,7 +405,7 @@
       "qwen",
       "web-builder"
     ],
-    "updated_at": "2026-04-18T08:32:55Z"
+    "updated_at": "2026-04-19T06:17:08Z"
   },
   "repo_links": [
     {

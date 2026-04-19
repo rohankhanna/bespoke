@@ -272,19 +272,23 @@
       "size": 734
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:47.672493+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "The official Python library for the OpenAI API",
+    "fork": false,
     "full_name": "openai/openai-python",
     "html_url": "https://github.com/openai/openai-python",
     "language": "Python",
     "pushed_at": "2026-04-17T19:50:27Z",
+    "stargazers_count": 30539,
     "topics": [
       "openai",
       "python"
     ],
-    "updated_at": "2026-04-18T11:24:29Z"
+    "updated_at": "2026-04-19T13:33:55Z"
   },
   "repo_links": [
     {

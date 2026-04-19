@@ -1,19 +1,32 @@
 {
   "counts": {
-    "components": 32,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 3,
-    "terms": 20
+    "components": 382,
+    "concepts": 93,
+    "observations": 93,
+    "repos": 16,
+    "terms": 136
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
+    "affaan-m/everything-claude-code",
     "anthropics/claude-code",
+    "anthropics/skills",
+    "automatic1111/stable-diffusion-webui",
+    "denoland/deno",
+    "ggml-org/llama.cpp",
+    "google-gemini/gemini-cli",
+    "huggingface/transformers",
+    "kubernetes/kubernetes",
+    "langchain-ai/langchain",
+    "microsoft/typescript",
+    "nodejs/node",
     "nousresearch/hermes-agent",
-    "ollama/ollama"
+    "obra/superpowers",
+    "ollama/ollama",
+    "openclaw/openclaw"
   ]
 }

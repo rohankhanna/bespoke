@@ -705,16 +705,20 @@
       "size": 3071
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:55.962204+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "The memory-first coding agent",
+    "fork": false,
     "full_name": "letta-ai/letta-code",
     "html_url": "https://github.com/letta-ai/letta-code",
     "language": "TypeScript",
     "pushed_at": "2026-04-19T01:03:44Z",
+    "stargazers_count": 2323,
     "topics": [],
-    "updated_at": "2026-04-18T15:54:33Z"
+    "updated_at": "2026-04-19T07:32:26Z"
   },
   "repo_links": [],
   "terms": [

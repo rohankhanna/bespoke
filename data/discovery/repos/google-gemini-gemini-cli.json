@@ -1342,14 +1342,18 @@
       "size": 1662
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:50.609108+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+    "fork": false,
     "full_name": "google-gemini/gemini-cli",
     "html_url": "https://github.com/google-gemini/gemini-cli",
     "language": "TypeScript",
-    "pushed_at": "2026-04-18T05:35:47Z",
+    "pushed_at": "2026-04-19T00:33:35Z",
+    "stargazers_count": 101747,
     "topics": [
       "ai",
       "ai-agents",
@@ -1359,7 +1363,7 @@
       "mcp-client",
       "mcp-server"
     ],
-    "updated_at": "2026-04-18T12:02:14Z"
+    "updated_at": "2026-04-19T13:40:16Z"
   },
   "repo_links": [
     {

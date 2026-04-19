@@ -96,16 +96,20 @@
       "size": 612
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:19.427878+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "EKS Node Viewer",
+    "fork": false,
     "full_name": "awslabs/eks-node-viewer",
     "html_url": "https://github.com/awslabs/eks-node-viewer",
     "language": "Go",
     "pushed_at": "2026-04-13T23:48:43Z",
+    "stargazers_count": 1625,
     "topics": [],
-    "updated_at": "2026-04-18T03:48:15Z"
+    "updated_at": "2026-04-19T09:26:42Z"
   },
   "repo_links": [],
   "terms": [

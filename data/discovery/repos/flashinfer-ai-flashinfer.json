@@ -423,14 +423,18 @@
       "size": 15240
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:58.629665+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "FlashInfer: Kernel Library for LLM Serving",
+    "fork": false,
     "full_name": "flashinfer-ai/flashinfer",
     "html_url": "https://github.com/flashinfer-ai/flashinfer",
     "language": "Python",
     "pushed_at": "2026-04-18T13:27:11Z",
+    "stargazers_count": 5439,
     "topics": [
       "attention",
       "cuda",
@@ -443,7 +447,7 @@
       "nvidia",
       "pytorch"
     ],
-    "updated_at": "2026-04-18T21:26:50Z"
+    "updated_at": "2026-04-19T13:45:28Z"
   },
   "repo_links": [
     {

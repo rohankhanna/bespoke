@@ -129,14 +129,18 @@
       "size": 914
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:38.690079+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Bash is all you need -  A nano claude code\u2013like \u300cagent harness\u300d, built from 0 to 1",
-    "full_name": "shareAI-lab/learn-claude-code",
+    "fork": false,
+    "full_name": "shareai-lab/learn-claude-code",
     "html_url": "https://github.com/shareAI-lab/learn-claude-code",
     "language": "TypeScript",
     "pushed_at": "2026-04-14T16:58:21Z",
+    "stargazers_count": 54759,
     "topics": [
       "agent",
       "agent-development",
@@ -149,7 +153,7 @@
       "teaching",
       "tutorial"
     ],
-    "updated_at": "2026-04-18T09:20:55Z"
+    "updated_at": "2026-04-19T14:00:10Z"
   },
   "repo_links": [
     {

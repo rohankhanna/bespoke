@@ -5043,14 +5043,18 @@
       "size": 8214
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:24.663185+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data :bar_chart:",
+    "fork": false,
     "full_name": "metabase/metabase",
     "html_url": "https://github.com/metabase/metabase",
     "language": "Clojure",
-    "pushed_at": "2026-04-18T08:02:55Z",
+    "pushed_at": "2026-04-19T13:37:42Z",
+    "stargazers_count": 46928,
     "topics": [
       "analytics",
       "bi",
@@ -5071,7 +5075,7 @@
       "sql-editor",
       "visualization"
     ],
-    "updated_at": "2026-04-18T06:16:13Z"
+    "updated_at": "2026-04-19T11:20:38Z"
   },
   "repo_links": [],
   "terms": [

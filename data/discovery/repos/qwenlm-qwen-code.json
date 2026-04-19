@@ -977,16 +977,20 @@
       "size": 820
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:50.771517+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "An open-source AI agent that lives in your terminal.",
-    "full_name": "QwenLM/qwen-code",
+    "fork": false,
+    "full_name": "qwenlm/qwen-code",
     "html_url": "https://github.com/QwenLM/qwen-code",
     "language": "TypeScript",
-    "pushed_at": "2026-04-18T11:36:12Z",
+    "pushed_at": "2026-04-19T14:02:51Z",
+    "stargazers_count": 23535,
     "topics": [],
-    "updated_at": "2026-04-18T12:03:22Z"
+    "updated_at": "2026-04-19T14:00:43Z"
   },
   "repo_links": [
     {

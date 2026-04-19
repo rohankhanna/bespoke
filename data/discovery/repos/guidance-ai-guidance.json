@@ -346,16 +346,20 @@
       "size": 4526
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:58.420179+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A guidance language for controlling large language models.",
+    "fork": false,
     "full_name": "guidance-ai/guidance",
     "html_url": "https://github.com/guidance-ai/guidance",
     "language": "Jupyter Notebook",
     "pushed_at": "2026-04-10T12:34:10Z",
+    "stargazers_count": 21398,
     "topics": [],
-    "updated_at": "2026-04-18T20:32:06Z"
+    "updated_at": "2026-04-19T11:36:57Z"
   },
   "repo_links": [],
   "terms": [

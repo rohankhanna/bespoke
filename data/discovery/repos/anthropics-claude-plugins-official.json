@@ -157,20 +157,24 @@
       "size": 460
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:48.707958+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+    "fork": false,
     "full_name": "anthropics/claude-plugins-official",
     "html_url": "https://github.com/anthropics/claude-plugins-official",
     "language": "Python",
     "pushed_at": "2026-04-17T21:03:26Z",
+    "stargazers_count": 17298,
     "topics": [
       "claude-code",
       "mcp",
       "skills"
     ],
-    "updated_at": "2026-04-18T11:38:22Z"
+    "updated_at": "2026-04-19T13:11:13Z"
   },
   "repo_links": [],
   "terms": [

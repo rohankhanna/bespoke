@@ -37,16 +37,20 @@
       "size": 6924
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:54.087635+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\u8292\u683c.skill \u2014 \u67e5\u7406\u00b7\u8292\u683c\u7684\u8ba4\u77e5\u64cd\u4f5c\u7cfb\u7edf\u3002\u7531\u5973\u5a32.skill\u751f\u6210\u3002",
+    "fork": false,
     "full_name": "alchaincyf/munger-skill",
     "html_url": "https://github.com/alchaincyf/munger-skill",
     "language": null,
     "pushed_at": "2026-04-10T02:28:48Z",
+    "stargazers_count": 169,
     "topics": [],
-    "updated_at": "2026-04-18T13:27:09Z"
+    "updated_at": "2026-04-19T11:03:41Z"
   },
   "repo_links": [
     {

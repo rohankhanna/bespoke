@@ -8,14 +8,18 @@
       "size": 5146
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:44.905731+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Nimbalyst - Public releases, issue tracking, and documentation",
-    "full_name": "Nimbalyst/nimbalyst",
+    "fork": false,
+    "full_name": "nimbalyst/nimbalyst",
     "html_url": "https://github.com/Nimbalyst/nimbalyst",
     "language": null,
     "pushed_at": "2026-04-17T16:52:44Z",
+    "stargazers_count": 133,
     "topics": [],
     "updated_at": "2026-04-18T10:58:44Z"
   },

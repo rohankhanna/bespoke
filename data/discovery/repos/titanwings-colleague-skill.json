@@ -101,16 +101,20 @@
       "size": 1320
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:35.523047+00:00",
   "related_repositories": [],
   "repo": {
-    "default_branch": "main",
+    "archived": false,
+    "default_branch": "dot-skill",
     "description": "\u5c06\u51b0\u51b7\u7684\u79bb\u522b\u5316\u4e3a\u6e29\u6696\u7684 Skill\uff0c\u6b22\u8fce\u52a0\u5165\u6570\u5b57\u751f\u547d1.0\uff01Transforming cold farewells into warm skills? It's giving rebirth era. Welcome to Digital Life 1.0. \ud83e\udef6",
+    "fork": false,
     "full_name": "titanwings/colleague-skill",
     "html_url": "https://github.com/titanwings/colleague-skill",
     "language": "Python",
-    "pushed_at": "2026-04-17T09:24:01Z",
+    "pushed_at": "2026-04-18T17:06:49Z",
+    "stargazers_count": 15010,
     "topics": [],
-    "updated_at": "2026-04-18T08:58:47Z"
+    "updated_at": "2026-04-19T14:03:26Z"
   },
   "repo_links": [
     {

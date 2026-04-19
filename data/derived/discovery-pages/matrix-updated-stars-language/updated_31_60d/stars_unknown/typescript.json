@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 130,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 4,
-    "terms": 23
+    "components": 17,
+    "concepts": 14,
+    "observations": 14,
+    "repos": 1,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,8 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
-    "0xtbug/zero-limit",
-    "coaidev/coai",
-    "kamranahmedse/claude-run",
-    "vercel/satori"
+    "coaidev/coai"
   ]
 }

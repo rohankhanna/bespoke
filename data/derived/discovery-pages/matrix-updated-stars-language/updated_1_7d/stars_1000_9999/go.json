@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 20,
-    "concepts": 20,
-    "observations": 21,
-    "repos": 3,
-    "terms": 20
+    "components": 39,
+    "concepts": 51,
+    "observations": 52,
+    "repos": 6,
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
+    "awslabs/eks-node-viewer",
+    "bensadeh/circumflex",
     "korotovsky/slack-mcp-server",
     "kubernetes/enhancements",
-    "libp2p/go-libp2p"
+    "libp2p/go-libp2p",
+    "tofuutils/tenv"
   ]
 }

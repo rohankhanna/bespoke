@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 41,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 9,
-    "terms": 37
+    "components": 52,
+    "concepts": 26,
+    "observations": 26,
+    "repos": 13,
+    "terms": 42
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
     "aaronwong1999/hermesclaw",
     "agenmod/immortal-skill",
+    "agiletec-inc/airis-mcp-gateway",
+    "ayanami0730/deep_research_bench",
+    "beamuswayne/simp-skill",
     "fcakyon/claude-codex-settings",
     "llama-farm/llamafarm",
+    "pedronauck/skills",
     "roampal-ai/roampal",
     "ryjoxtechnologies/octopoda-os",
     "spylang/spy",

@@ -615,20 +615,24 @@
       "size": 849
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:52.412242+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Beads - A memory upgrade for your coding agent",
+    "fork": false,
     "full_name": "gastownhall/beads",
     "html_url": "https://github.com/gastownhall/beads",
     "language": "Go",
-    "pushed_at": "2026-04-18T04:02:04Z",
+    "pushed_at": "2026-04-19T00:10:12Z",
+    "stargazers_count": 20917,
     "topics": [
       "agents",
       "claude-code",
       "coding"
     ],
-    "updated_at": "2026-04-18T12:37:23Z"
+    "updated_at": "2026-04-19T13:32:24Z"
   },
   "repo_links": [
     {

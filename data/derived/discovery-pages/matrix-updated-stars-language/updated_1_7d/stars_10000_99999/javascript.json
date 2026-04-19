@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 39,
+    "concepts": 7,
+    "observations": 7,
+    "repos": 1,
+    "terms": 7
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "javascript",
+    "star_bucket": "stars_10000_99999",
+    "updated_bucket": "updated_1_7d"
+  },
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
+  "repo_ids": [
+    "svg/svgo"
+  ]
+}

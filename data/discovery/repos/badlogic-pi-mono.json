@@ -337,16 +337,20 @@
       "size": 4816
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:44.070810+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+    "fork": false,
     "full_name": "badlogic/pi-mono",
     "html_url": "https://github.com/badlogic/pi-mono",
     "language": "TypeScript",
-    "pushed_at": "2026-04-17T23:32:59Z",
+    "pushed_at": "2026-04-19T12:46:14Z",
+    "stargazers_count": 37319,
     "topics": [],
-    "updated_at": "2026-04-18T10:38:48Z"
+    "updated_at": "2026-04-19T14:03:22Z"
   },
   "repo_links": [
     {

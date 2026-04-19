@@ -16,16 +16,20 @@
       "size": 2065
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:20.735055+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "The best workflows and configurations I've developed, having heavily used Claude Code since the day of it's release. Workflows are based off applied learnings from our AI-native startup.",
-    "full_name": "OneRedOak/claude-code-workflows",
+    "fork": false,
+    "full_name": "oneredoak/claude-code-workflows",
     "html_url": "https://github.com/OneRedOak/claude-code-workflows",
     "language": null,
     "pushed_at": "2025-09-14T07:33:32Z",
+    "stargazers_count": 3782,
     "topics": [],
-    "updated_at": "2026-04-18T04:03:48Z"
+    "updated_at": "2026-04-19T06:00:08Z"
   },
   "repo_links": [
     {

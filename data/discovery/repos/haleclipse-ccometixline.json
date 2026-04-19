@@ -176,16 +176,20 @@
       "size": 7368
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:41.249569+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Claude Code statusline tool written in Rust",
-    "full_name": "Haleclipse/CCometixLine",
+    "fork": false,
+    "full_name": "haleclipse/ccometixline",
     "html_url": "https://github.com/Haleclipse/CCometixLine",
     "language": "Rust",
     "pushed_at": "2026-03-14T18:03:04Z",
+    "stargazers_count": 2713,
     "topics": [],
-    "updated_at": "2026-04-18T09:57:16Z"
+    "updated_at": "2026-04-19T13:33:54Z"
   },
   "repo_links": [],
   "terms": [

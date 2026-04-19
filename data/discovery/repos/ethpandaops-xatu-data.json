@@ -117,16 +117,20 @@
       "size": 1280
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:25.232704+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": null,
+    "fork": false,
     "full_name": "ethpandaops/xatu-data",
     "html_url": "https://github.com/ethpandaops/xatu-data",
     "language": "Jupyter Notebook",
-    "pushed_at": "2026-04-18T06:36:14Z",
+    "pushed_at": "2026-04-19T12:11:47Z",
+    "stargazers_count": 27,
     "topics": [],
-    "updated_at": "2026-04-18T06:36:18Z"
+    "updated_at": "2026-04-19T12:11:51Z"
   },
   "repo_links": [
     {

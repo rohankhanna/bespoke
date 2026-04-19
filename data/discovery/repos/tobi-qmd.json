@@ -710,16 +710,20 @@
       "size": 1443
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:19.013432+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "mini cli search engine for your docs, knowledge bases, meeting notes, whatever. Tracking current sota approaches while being all local",
+    "fork": false,
     "full_name": "tobi/qmd",
     "html_url": "https://github.com/tobi/qmd",
     "language": "TypeScript",
     "pushed_at": "2026-04-11T01:21:25Z",
+    "stargazers_count": 22376,
     "topics": [],
-    "updated_at": "2026-04-18T03:41:32Z"
+    "updated_at": "2026-04-19T14:02:17Z"
   },
   "repo_links": [],
   "terms": [

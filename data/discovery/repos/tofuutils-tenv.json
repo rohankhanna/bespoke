@@ -406,14 +406,18 @@
       "size": 948
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:21.583561+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "OpenTofu / Terraform / Terragrunt / Terramate and Atmos version manager",
+    "fork": false,
     "full_name": "tofuutils/tenv",
     "html_url": "https://github.com/tofuutils/tenv",
     "language": "Go",
     "pushed_at": "2026-04-17T09:05:26Z",
+    "stargazers_count": 1352,
     "topics": [
       "go",
       "hacktoberfest",

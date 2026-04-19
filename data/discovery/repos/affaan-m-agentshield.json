@@ -438,14 +438,18 @@
       "size": 5257
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:20.898598+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "AI agent security scanner. Detect vulnerabilities in agent configurations, MCP servers, and tool permissions. Available as CLI, GitHub Action, ECC plugin, and GitHub App integration. \ud83d\udee1\ufe0f",
+    "fork": false,
     "full_name": "affaan-m/agentshield",
     "html_url": "https://github.com/affaan-m/agentshield",
     "language": "TypeScript",
     "pushed_at": "2026-04-17T05:30:38Z",
+    "stargazers_count": 409,
     "topics": [
       "ai-agent",
       "anthropic",
@@ -455,7 +459,7 @@
       "opus",
       "security"
     ],
-    "updated_at": "2026-04-18T04:03:55Z"
+    "updated_at": "2026-04-19T14:01:14Z"
   },
   "repo_links": [],
   "terms": [

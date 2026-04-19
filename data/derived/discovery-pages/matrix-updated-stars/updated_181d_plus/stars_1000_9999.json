@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 62,
-    "concepts": 50,
-    "observations": 50,
-    "repos": 17,
-    "terms": 58
+    "components": 167,
+    "concepts": 57,
+    "observations": 57,
+    "repos": 22,
+    "terms": 66
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
     "0nn0/terminal-mac-cheatsheet",
     "addyosmani/gemini-cli-tips",
@@ -22,13 +22,18 @@
     "darthsim/hivemind",
     "darthsim/overmind",
     "ddollar/foreman",
+    "eastlondoner/vibe-tools",
     "eth-sri/lmql",
+    "googlefonts/noto-emoji",
     "graphql-python/graphene",
     "inkline/inkline",
     "junegunn/vim-easy-align",
+    "maciek-roboblog/claude-code-usage-monitor",
     "mattingalls/soundflower",
     "natemoo-re/astro-icon",
     "novicezk/midjourney-proxy",
+    "oneredoak/claude-code-workflows",
+    "tremorlabs/tremor",
     "xaoyaoo/pywxdump"
   ]
 }

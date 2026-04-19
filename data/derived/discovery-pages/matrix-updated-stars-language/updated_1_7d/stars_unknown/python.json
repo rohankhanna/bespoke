@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 327,
-    "concepts": 268,
-    "observations": 270,
-    "repos": 39,
-    "terms": 317
+    "components": 33,
+    "concepts": 16,
+    "observations": 16,
+    "repos": 2,
+    "terms": 16
   },
   "facet_version": 1,
   "filters": {
@@ -12,46 +12,9 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
-    "1Panel-dev/MaxKB",
-    "agiletec-inc/airis-mcp-gateway",
-    "AgriciDaniel/claude-ads",
-    "AgriciDaniel/claude-seo",
-    "alchaincyf/nuwa-skill",
-    "alirezarezvani/claude-skills",
-    "alistaitsacle/free-llm-api-keys",
-    "anthropics/claude-plugins-official",
-    "anthropics/skills",
     "astral-sh/ty",
-    "axolotl-ai-cloud/axolotl",
-    "Ayanami0730/deep_research_bench",
-    "basicmachines-co/basic-memory",
-    "BeamusWayne/simp-skill",
-    "browser-use/browser-use",
-    "bunburysniper/BleuNova-AI-Agent",
-    "costiash/claude-code-docs",
-    "davila7/claude-code-templates",
-    "django/django",
-    "flashinfer-ai/flashinfer",
-    "getzep/graphiti",
-    "github/spec-kit",
-    "google/tunix",
-    "huggingface/transformers",
-    "K-Dense-AI/scientific-agent-skills",
-    "langchain-ai/langgraph",
-    "letta-ai/letta",
-    "mbailey/voicemode",
-    "microsoft/pyright",
-    "nesquena/hermes-webui",
-    "openai/openai-python",
-    "oraios/serena",
-    "pedronauck/skills",
-    "pydantic/pydantic-ai",
-    "sgl-project/sglang",
-    "titanwings/colleague-skill",
-    "trailofbits/skills",
-    "vllm-project/vllm",
-    "wshobson/agents"
+    "pydantic/pydantic-ai"
   ]
 }

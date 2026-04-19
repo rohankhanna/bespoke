@@ -275,14 +275,18 @@
       "size": 633
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:53.098206+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+    "fork": false,
     "full_name": "huggingface/transformers",
     "html_url": "https://github.com/huggingface/transformers",
     "language": "Python",
-    "pushed_at": "2026-04-18T13:05:53Z",
+    "pushed_at": "2026-04-19T13:24:58Z",
+    "stargazers_count": 159615,
     "topics": [
       "audio",
       "deep-learning",
@@ -304,7 +308,7 @@
       "transformer",
       "vlm"
     ],
-    "updated_at": "2026-04-18T12:58:16Z"
+    "updated_at": "2026-04-19T13:53:54Z"
   },
   "repo_links": [],
   "terms": [

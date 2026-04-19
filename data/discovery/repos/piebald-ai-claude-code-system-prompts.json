@@ -58,20 +58,24 @@
       "size": 62504
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:31.898876+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "All parts of Claude Code's system prompt, 24 builtin tool descriptions, sub agent prompts (Plan/Explore/Task), utility prompts (CLAUDE.md, compact,  statusline, magic docs, WebFetch, Bash cmd, security review, agent creation).  Updated for each Claude Code version.",
-    "full_name": "Piebald-AI/claude-code-system-prompts",
+    "fork": false,
+    "full_name": "piebald-ai/claude-code-system-prompts",
     "html_url": "https://github.com/Piebald-AI/claude-code-system-prompts",
     "language": "JavaScript",
     "pushed_at": "2026-04-17T23:32:30Z",
+    "stargazers_count": 9112,
     "topics": [
       "claude-code",
       "claude-code-system-prompts",
       "system-prompts"
     ],
-    "updated_at": "2026-04-18T08:32:27Z"
+    "updated_at": "2026-04-19T13:51:45Z"
   },
   "repo_links": [
     {

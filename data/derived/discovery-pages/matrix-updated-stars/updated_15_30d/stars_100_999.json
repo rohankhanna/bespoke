@@ -1,22 +1,25 @@
 {
   "counts": {
-    "components": 111,
-    "concepts": 2,
-    "observations": 2,
-    "repos": 5,
-    "terms": 12
+    "components": 200,
+    "concepts": 15,
+    "observations": 15,
+    "repos": 8,
+    "terms": 30
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
     "akin-ozer/cc-devops-skills",
     "aws/homebrew-tap",
     "carlrannaberg/claudekit",
+    "ldayton/dippy",
     "lobehub/lobe-midjourney-webui",
+    "revfactory/harness-100",
+    "ruvnet/agentic-flow",
     "shareai-lab/kode-agent-sdk"
   ]
 }

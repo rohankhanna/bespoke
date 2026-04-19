@@ -479,16 +479,20 @@
       "size": 3469
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:32.438100+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": null,
+    "fork": false,
     "full_name": "anthropics/claude-code-action",
     "html_url": "https://github.com/anthropics/claude-code-action",
     "language": "TypeScript",
     "pushed_at": "2026-04-18T01:39:27Z",
+    "stargazers_count": 7160,
     "topics": [],
-    "updated_at": "2026-04-18T08:33:35Z"
+    "updated_at": "2026-04-19T12:33:26Z"
   },
   "repo_links": [],
   "terms": [

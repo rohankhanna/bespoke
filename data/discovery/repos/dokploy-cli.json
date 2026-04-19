@@ -219,20 +219,24 @@
       "size": 627
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:23.459929+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Dokploy CLI",
-    "full_name": "Dokploy/cli",
+    "fork": false,
+    "full_name": "dokploy/cli",
     "html_url": "https://github.com/Dokploy/cli",
     "language": "TypeScript",
     "pushed_at": "2026-04-18T04:41:53Z",
+    "stargazers_count": 87,
     "topics": [
       "cli",
       "dokploy",
       "vps"
     ],
-    "updated_at": "2026-04-18T05:10:16Z"
+    "updated_at": "2026-04-19T11:12:05Z"
   },
   "repo_links": [],
   "terms": [

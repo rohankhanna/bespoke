@@ -590,19 +590,23 @@
       "size": 1113
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:55.784954+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Go ahead and axolotl questions",
+    "fork": false,
     "full_name": "axolotl-ai-cloud/axolotl",
     "html_url": "https://github.com/axolotl-ai-cloud/axolotl",
     "language": "Python",
-    "pushed_at": "2026-04-17T17:48:31Z",
+    "pushed_at": "2026-04-19T01:53:10Z",
+    "stargazers_count": 11722,
     "topics": [
       "fine-tuning",
       "llm"
     ],
-    "updated_at": "2026-04-18T15:00:17Z"
+    "updated_at": "2026-04-19T09:36:40Z"
   },
   "repo_links": [
     {

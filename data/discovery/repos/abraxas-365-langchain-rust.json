@@ -124,14 +124,18 @@
       "size": 2485
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:34.273759+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83e\udd9c\ufe0f\ud83d\udd17LangChain for Rust, the easiest way to write LLM-based programs in Rust",
-    "full_name": "Abraxas-365/langchain-rust",
+    "fork": false,
+    "full_name": "abraxas-365/langchain-rust",
     "html_url": "https://github.com/Abraxas-365/langchain-rust",
     "language": "Rust",
-    "pushed_at": "2026-04-17T14:50:53Z",
+    "pushed_at": "2026-04-19T08:55:17Z",
+    "stargazers_count": 1293,
     "topics": [
       "langchain",
       "llm",
@@ -139,7 +143,7 @@
       "openai",
       "rust"
     ],
-    "updated_at": "2026-04-18T08:52:33Z"
+    "updated_at": "2026-04-18T18:14:24Z"
   },
   "repo_links": [
     {

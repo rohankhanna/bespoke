@@ -1,0 +1,1207 @@
+{
+  "budget_seconds": 2400,
+  "elapsed_seconds": 41.348,
+  "generated_at": "2026-04-19T14:03:17.464803+00:00",
+  "refresh_limit": 250,
+  "refreshed_count": 235,
+  "refreshed_repositories": [
+    "tobi/qmd",
+    "beamuswayne/simp-skill",
+    "awslabs/eks-node-viewer",
+    "helmi/claude-simone",
+    "nesquena/hermes-webui",
+    "alistaitsacle/free-llm-api-keys",
+    "openclaw/openclaw",
+    "graveyardsfocrdpktv/ethereum-mempool-bot",
+    "blader/claudeception",
+    "ding113/claude-code-hub",
+    "oneredoak/claude-code-workflows",
+    "affaan-m/agentshield",
+    "fekkak1998/scira",
+    "claude-did-this/claude-hub",
+    "bunburysniper/bleunova-ai-agent",
+    "tofuutils/tenv",
+    "stealabra5019/grok-enhancer",
+    "genuslovoacalixtusiii510/ytp-2026",
+    "biparous-blaxploitation156/ciphermind",
+    "foundersieve687/skill-gateway",
+    "gbrobro119-star/darksword-kexploit",
+    "chafingdishposition355/go-skills",
+    "vivianalaced749/vk-calls-tunnel",
+    "pragmatical-transshipment598/claude-code-workflows",
+    "onyx-dot-app/onyx_deep_research_bench",
+    "svg/svgo",
+    "dokploy/cli",
+    "browser-use/benchmark",
+    "lobehub/lobe-ui",
+    "kyleneideck/backgroundmusic",
+    "actions/runner-images",
+    "tokio-rs/axum",
+    "googlefonts/noto-emoji",
+    "metabase/metabase",
+    "tracel-ai/burn",
+    "bl-ue/tweakcc-system-prompts",
+    "ethpandaops/xatu-data",
+    "manzaltu/claude-code-ide.el",
+    "anthropics/claude-quickstarts",
+    "costiash/claude-code-docs",
+    "revfactory/harness",
+    "langchain-ai/langgraphjs",
+    "trailofbits/skills",
+    "jeremymailen/kotlinter-gradle",
+    "moby/moby",
+    "vibe-log/vibe-log-cli",
+    "alchaincyf/feynman-skill",
+    "getsentry/xcodebuildmcp",
+    "django/django",
+    "revfactory/harness-100",
+    "smtg-ai/claude-squad",
+    "maciek-roboblog/claude-code-usage-monitor",
+    "linebender/resvg",
+    "meta-llama/llama-models",
+    "piebald-ai/tweakcc",
+    "snwfdhmp/awesome-ralph",
+    "claytonfarr/ralph-playbook",
+    "existentialaudio/blackhole",
+    "peergos/web-ui",
+    "lobehub/lobe-icons",
+    "superclaude-org/superclaude_framework",
+    "1panel-dev/maxkb",
+    "nousresearch/tinker-atropos",
+    "piebald-ai/awesome-gemini-cli",
+    "oven-sh/bun",
+    "slopus/happy",
+    "rz1989s/claude-code-statusline",
+    "steipete/peekaboo",
+    "crossterm-rs/crossterm",
+    "junegunn/vim-plug",
+    "dtolnay/anyhow",
+    "dirs-dev/dirs-rs",
+    "ruvnet/ruvector",
+    "kubernetes/kubernetes",
+    "steipete/imsg",
+    "piebald-ai/claude-code-system-prompts",
+    "diet103/claude-code-infrastructure-showcase",
+    "opactorai/claudable",
+    "anthropics/claude-code-action",
+    "mbailey/voicemode",
+    "prehisle/relay-pulse",
+    "automazeio/ccpm",
+    "withastro/starlight",
+    "ykdojo/claude-code-tips",
+    "zarazhangrui/codebase-to-course",
+    "eyaltoledano/claude-task-master",
+    "tmstack/awesome-persona-skills",
+    "mikeyobrien/ralph-orchestrator",
+    "thibautmelen/agentic-ai-systems",
+    "abraxas-365/langchain-rust",
+    "microsoft/typescript-go",
+    "ryoppippi/ccusage",
+    "burntsushi/ripgrep",
+    "frankbria/ralph-claude-code",
+    "matt1398/claude-devtools",
+    "openai/codex-plugin-cc",
+    "rullerzhou-afk/clawd-on-desk",
+    "titanwings/colleague-skill",
+    "microsoft/typescript",
+    "ruvnet/agentic-flow",
+    "nizos/tdd-guard",
+    "ldayton/dippy",
+    "larksuite/cli",
+    "jeffallan/claude-skills",
+    "browser-use/browser-use",
+    "vercel/satori",
+    "therealxiaomanchu/ex-skill",
+    "everyinc/compound-engineering-plugin",
+    "bats-core/bats-core",
+    "alchaincyf/nuwa-skill",
+    "android/skills",
+    "1panel-dev/1panel",
+    "ericbuess/claude-code-docs",
+    "basicmachines-co/basic-memory",
+    "cedar-policy/cedar",
+    "pedronauck/skills",
+    "shareai-lab/learn-claude-code",
+    "obra/superpowers",
+    "gwudcap/cc-sessions",
+    "florianbruniaux/claude-code-ultimate-guide",
+    "tremorlabs/tremor",
+    "agiletec-inc/airis-mcp-gateway",
+    "ggml-org/ggml",
+    "napi-rs/napi-rs",
+    "sirmalloc/ccstatusline",
+    "kamranahmedse/claude-run",
+    "huggingface/candle",
+    "davila7/claude-code-templates",
+    "affaan-m/everything-claude-code",
+    "crate-ci/typos",
+    "pinterest/ktlint",
+    "haleclipse/ccometixline",
+    "alchaincyf/elon-musk-skill",
+    "zeroclaw-labs/zeroclaw",
+    "ahmetb/kubectx",
+    "getzep/graphiti",
+    "astro-han/karpathy-llm-wiki",
+    "cisco-ai-defense/skill-scanner",
+    "openai/codex",
+    "opencode-ai/opencode",
+    "astral-sh/uv",
+    "multica-ai/andrej-karpathy-skills",
+    "sgl-project/sglang",
+    "tmux/tmux",
+    "charmbracelet/bubbletea",
+    "charmbracelet/lipgloss",
+    "vllm-project/vllm",
+    "badlogic/pi-mono",
+    "letta-ai/letta",
+    "op7418/codepilot",
+    "cargo-bins/cargo-binstall",
+    "tanweai/pua",
+    "nimbalyst/nimbalyst",
+    "folke/lazy.nvim",
+    "w1ndys/ex-cure-skill",
+    "shareai-lab/claw0",
+    "k-dense-ai/k-dense-byok",
+    "nvidia/nemoclaw",
+    "danielmiessler/fabric",
+    "huangguang1999/ccstatusline-zh",
+    "alchaincyf/darwin-skill",
+    "0xtbug/zero-limit",
+    "protocolbuffers/protobuf",
+    "router-for-me/cliproxyapi",
+    "danielrosehill/claude-code-projects-index",
+    "automatic1111/stable-diffusion-webui",
+    "qwibitai/nanoclaw",
+    "casey/just",
+    "lc044/wechatmsg",
+    "openai/openai-python",
+    "ollama/ollama-python",
+    "denoland/deno",
+    "vadimdemedes/ink",
+    "astral-sh/ruff",
+    "anthropics/claude-plugins-official",
+    "langchain-ai/langgraph",
+    "jarrodwatts/claude-hud",
+    "agricidaniel/claude-ads",
+    "oraios/serena",
+    "microsoft/playwright-mcp",
+    "bmad-code-org/bmad-method",
+    "microsoft/playwright-cli",
+    "github/spec-kit",
+    "nodejs/node",
+    "anthropics/skills",
+    "google-gemini/gemini-cli",
+    "qwenlm/qwen-code",
+    "vercel-labs/skills",
+    "eastlondoner/vibe-tools",
+    "anthropics/courses",
+    "aider-ai/aider",
+    "fsnotify/fsnotify",
+    "alchaincyf/naval-skill",
+    "alchaincyf/taleb-skill",
+    "anthropics/claude-code-security-review",
+    "badlogic/pi-share-hf",
+    "gastownhall/beads",
+    "google/guava",
+    "fission-ai/openspec",
+    "numman-ali/openskills",
+    "huggingface/transformers",
+    "google/tunix",
+    "cloudflare/skills",
+    "alchaincyf/steve-jobs-skill",
+    "agricidaniel/claude-seo",
+    "anthropics/claude-cookbooks",
+    "alchaincyf/munger-skill",
+    "beehiveinnovations/pal-mcp-server",
+    "ayanami0730/deep_research_bench",
+    "microsoft/pyright",
+    "upstash/context7",
+    "k-dense-ai/scientific-agent-skills",
+    "behisecc/awesome-claude-skills",
+    "alirezarezvani/claude-skills",
+    "wshobson/agents",
+    "libp2p/js-libp2p",
+    "axolotl-ai-cloud/axolotl",
+    "letta-ai/letta-code",
+    "bensadeh/circumflex",
+    "charmbracelet/glamour",
+    "embeddings-benchmark/mteb",
+    "haotian-liu/llava",
+    "atomicmemory/llm-wiki-compiler",
+    "pyenv/pyenv",
+    "langchain-ai/langchain",
+    "andymik90/aperant",
+    "lucasastorian/llmwiki",
+    "mozilla-ai/llamafile",
+    "ggml-org/llama.cpp",
+    "knownsec/404starlink",
+    "multica-ai/multica",
+    "arogozhnikov/einops",
+    "guidance-ai/guidance",
+    "flashinfer-ai/flashinfer",
+    "googleapis/release-please"
+  ],
+  "remaining_budget_seconds": 2358.652,
+  "repo_timings": [
+    {
+      "elapsed_seconds": 0.175,
+      "full_name": "tobi/qmd"
+    },
+    {
+      "elapsed_seconds": 0.181,
+      "full_name": "beamuswayne/simp-skill"
+    },
+    {
+      "elapsed_seconds": 0.233,
+      "full_name": "awslabs/eks-node-viewer"
+    },
+    {
+      "elapsed_seconds": 0.162,
+      "full_name": "helmi/claude-simone"
+    },
+    {
+      "elapsed_seconds": 0.153,
+      "full_name": "nesquena/hermes-webui"
+    },
+    {
+      "elapsed_seconds": 0.144,
+      "full_name": "alistaitsacle/free-llm-api-keys"
+    },
+    {
+      "elapsed_seconds": 0.162,
+      "full_name": "openclaw/openclaw"
+    },
+    {
+      "elapsed_seconds": 0.179,
+      "full_name": "graveyardsfocrdpktv/ethereum-mempool-bot"
+    },
+    {
+      "elapsed_seconds": 0.19,
+      "full_name": "blader/claudeception"
+    },
+    {
+      "elapsed_seconds": 0.16,
+      "full_name": "ding113/claude-code-hub"
+    },
+    {
+      "elapsed_seconds": 0.158,
+      "full_name": "oneredoak/claude-code-workflows"
+    },
+    {
+      "elapsed_seconds": 0.164,
+      "full_name": "affaan-m/agentshield"
+    },
+    {
+      "elapsed_seconds": 0.16,
+      "full_name": "fekkak1998/scira"
+    },
+    {
+      "elapsed_seconds": 0.197,
+      "full_name": "claude-did-this/claude-hub"
+    },
+    {
+      "elapsed_seconds": 0.17,
+      "full_name": "bunburysniper/bleunova-ai-agent"
+    },
+    {
+      "elapsed_seconds": 0.157,
+      "full_name": "tofuutils/tenv"
+    },
+    {
+      "elapsed_seconds": 0.148,
+      "full_name": "stealabra5019/grok-enhancer"
+    },
+    {
+      "elapsed_seconds": 0.167,
+      "full_name": "genuslovoacalixtusiii510/ytp-2026"
+    },
+    {
+      "elapsed_seconds": 0.16,
+      "full_name": "biparous-blaxploitation156/ciphermind"
+    },
+    {
+      "elapsed_seconds": 0.157,
+      "full_name": "foundersieve687/skill-gateway"
+    },
+    {
+      "elapsed_seconds": 0.182,
+      "full_name": "gbrobro119-star/darksword-kexploit"
+    },
+    {
+      "elapsed_seconds": 0.166,
+      "full_name": "chafingdishposition355/go-skills"
+    },
+    {
+      "elapsed_seconds": 0.169,
+      "full_name": "vivianalaced749/vk-calls-tunnel"
+    },
+    {
+      "elapsed_seconds": 0.169,
+      "full_name": "pragmatical-transshipment598/claude-code-workflows"
+    },
+    {
+      "elapsed_seconds": 0.188,
+      "full_name": "onyx-dot-app/onyx_deep_research_bench"
+    },
+    {
+      "elapsed_seconds": 0.187,
+      "full_name": "svg/svgo"
+    },
+    {
+      "elapsed_seconds": 0.183,
+      "full_name": "dokploy/cli"
+    },
+    {
+      "elapsed_seconds": 0.167,
+      "full_name": "browser-use/benchmark"
+    },
+    {
+      "elapsed_seconds": 0.177,
+      "full_name": "lobehub/lobe-ui"
+    },
+    {
+      "elapsed_seconds": 0.141,
+      "full_name": "kyleneideck/backgroundmusic"
+    },
+    {
+      "elapsed_seconds": 0.204,
+      "full_name": "actions/runner-images"
+    },
+    {
+      "elapsed_seconds": 0.168,
+      "full_name": "tokio-rs/axum"
+    },
+    {
+      "elapsed_seconds": 0.179,
+      "full_name": "googlefonts/noto-emoji"
+    },
+    {
+      "elapsed_seconds": 0.171,
+      "full_name": "metabase/metabase"
+    },
+    {
+      "elapsed_seconds": 0.206,
+      "full_name": "tracel-ai/burn"
+    },
+    {
+      "elapsed_seconds": 0.179,
+      "full_name": "bl-ue/tweakcc-system-prompts"
+    },
+    {
+      "elapsed_seconds": 0.18,
+      "full_name": "ethpandaops/xatu-data"
+    },
+    {
+      "elapsed_seconds": 0.152,
+      "full_name": "manzaltu/claude-code-ide.el"
+    },
+    {
+      "elapsed_seconds": 0.166,
+      "full_name": "anthropics/claude-quickstarts"
+    },
+    {
+      "elapsed_seconds": 0.199,
+      "full_name": "costiash/claude-code-docs"
+    },
+    {
+      "elapsed_seconds": 0.146,
+      "full_name": "revfactory/harness"
+    },
+    {
+      "elapsed_seconds": 0.183,
+      "full_name": "langchain-ai/langgraphjs"
+    },
+    {
+      "elapsed_seconds": 0.163,
+      "full_name": "trailofbits/skills"
+    },
+    {
+      "elapsed_seconds": 0.239,
+      "full_name": "jeremymailen/kotlinter-gradle"
+    },
+    {
+      "elapsed_seconds": 0.158,
+      "full_name": "moby/moby"
+    },
+    {
+      "elapsed_seconds": 0.185,
+      "full_name": "vibe-log/vibe-log-cli"
+    },
+    {
+      "elapsed_seconds": 0.132,
+      "full_name": "alchaincyf/feynman-skill"
+    },
+    {
+      "elapsed_seconds": 0.167,
+      "full_name": "getsentry/xcodebuildmcp"
+    },
+    {
+      "elapsed_seconds": 0.164,
+      "full_name": "django/django"
+    },
+    {
+      "elapsed_seconds": 0.173,
+      "full_name": "revfactory/harness-100"
+    },
+    {
+      "elapsed_seconds": 0.203,
+      "full_name": "smtg-ai/claude-squad"
+    },
+    {
+      "elapsed_seconds": 0.137,
+      "full_name": "maciek-roboblog/claude-code-usage-monitor"
+    },
+    {
+      "elapsed_seconds": 0.175,
+      "full_name": "linebender/resvg"
+    },
+    {
+      "elapsed_seconds": 0.173,
+      "full_name": "meta-llama/llama-models"
+    },
+    {
+      "elapsed_seconds": 0.173,
+      "full_name": "piebald-ai/tweakcc"
+    },
+    {
+      "elapsed_seconds": 0.13,
+      "full_name": "snwfdhmp/awesome-ralph"
+    },
+    {
+      "elapsed_seconds": 0.174,
+      "full_name": "claytonfarr/ralph-playbook"
+    },
+    {
+      "elapsed_seconds": 0.176,
+      "full_name": "existentialaudio/blackhole"
+    },
+    {
+      "elapsed_seconds": 0.185,
+      "full_name": "peergos/web-ui"
+    },
+    {
+      "elapsed_seconds": 0.172,
+      "full_name": "lobehub/lobe-icons"
+    },
+    {
+      "elapsed_seconds": 0.255,
+      "full_name": "superclaude-org/superclaude_framework"
+    },
+    {
+      "elapsed_seconds": 0.195,
+      "full_name": "1panel-dev/maxkb"
+    },
+    {
+      "elapsed_seconds": 0.147,
+      "full_name": "nousresearch/tinker-atropos"
+    },
+    {
+      "elapsed_seconds": 0.173,
+      "full_name": "piebald-ai/awesome-gemini-cli"
+    },
+    {
+      "elapsed_seconds": 0.181,
+      "full_name": "oven-sh/bun"
+    },
+    {
+      "elapsed_seconds": 0.188,
+      "full_name": "slopus/happy"
+    },
+    {
+      "elapsed_seconds": 0.164,
+      "full_name": "rz1989s/claude-code-statusline"
+    },
+    {
+      "elapsed_seconds": 0.149,
+      "full_name": "steipete/peekaboo"
+    },
+    {
+      "elapsed_seconds": 0.193,
+      "full_name": "crossterm-rs/crossterm"
+    },
+    {
+      "elapsed_seconds": 0.135,
+      "full_name": "junegunn/vim-plug"
+    },
+    {
+      "elapsed_seconds": 0.141,
+      "full_name": "dtolnay/anyhow"
+    },
+    {
+      "elapsed_seconds": 0.17,
+      "full_name": "dirs-dev/dirs-rs"
+    },
+    {
+      "elapsed_seconds": 0.137,
+      "full_name": "ruvnet/ruvector"
+    },
+    {
+      "elapsed_seconds": 0.173,
+      "full_name": "kubernetes/kubernetes"
+    },
+    {
+      "elapsed_seconds": 0.152,
+      "full_name": "steipete/imsg"
+    },
+    {
+      "elapsed_seconds": 0.193,
+      "full_name": "piebald-ai/claude-code-system-prompts"
+    },
+    {
+      "elapsed_seconds": 0.162,
+      "full_name": "diet103/claude-code-infrastructure-showcase"
+    },
+    {
+      "elapsed_seconds": 0.197,
+      "full_name": "opactorai/claudable"
+    },
+    {
+      "elapsed_seconds": 0.173,
+      "full_name": "anthropics/claude-code-action"
+    },
+    {
+      "elapsed_seconds": 0.151,
+      "full_name": "mbailey/voicemode"
+    },
+    {
+      "elapsed_seconds": 0.158,
+      "full_name": "prehisle/relay-pulse"
+    },
+    {
+      "elapsed_seconds": 0.159,
+      "full_name": "automazeio/ccpm"
+    },
+    {
+      "elapsed_seconds": 0.184,
+      "full_name": "withastro/starlight"
+    },
+    {
+      "elapsed_seconds": 0.171,
+      "full_name": "ykdojo/claude-code-tips"
+    },
+    {
+      "elapsed_seconds": 0.162,
+      "full_name": "zarazhangrui/codebase-to-course"
+    },
+    {
+      "elapsed_seconds": 0.158,
+      "full_name": "eyaltoledano/claude-task-master"
+    },
+    {
+      "elapsed_seconds": 0.163,
+      "full_name": "tmstack/awesome-persona-skills"
+    },
+    {
+      "elapsed_seconds": 0.209,
+      "full_name": "mikeyobrien/ralph-orchestrator"
+    },
+    {
+      "elapsed_seconds": 0.157,
+      "full_name": "thibautmelen/agentic-ai-systems"
+    },
+    {
+      "elapsed_seconds": 0.162,
+      "full_name": "abraxas-365/langchain-rust"
+    },
+    {
+      "elapsed_seconds": 0.167,
+      "full_name": "microsoft/typescript-go"
+    },
+    {
+      "elapsed_seconds": 0.16,
+      "full_name": "ryoppippi/ccusage"
+    },
+    {
+      "elapsed_seconds": 0.147,
+      "full_name": "burntsushi/ripgrep"
+    },
+    {
+      "elapsed_seconds": 0.136,
+      "full_name": "frankbria/ralph-claude-code"
+    },
+    {
+      "elapsed_seconds": 0.141,
+      "full_name": "matt1398/claude-devtools"
+    },
+    {
+      "elapsed_seconds": 0.188,
+      "full_name": "openai/codex-plugin-cc"
+    },
+    {
+      "elapsed_seconds": 0.157,
+      "full_name": "rullerzhou-afk/clawd-on-desk"
+    },
+    {
+      "elapsed_seconds": 0.153,
+      "full_name": "titanwings/colleague-skill"
+    },
+    {
+      "elapsed_seconds": 0.182,
+      "full_name": "microsoft/typescript"
+    },
+    {
+      "elapsed_seconds": 0.158,
+      "full_name": "ruvnet/agentic-flow"
+    },
+    {
+      "elapsed_seconds": 0.147,
+      "full_name": "nizos/tdd-guard"
+    },
+    {
+      "elapsed_seconds": 0.149,
+      "full_name": "ldayton/dippy"
+    },
+    {
+      "elapsed_seconds": 0.157,
+      "full_name": "larksuite/cli"
+    },
+    {
+      "elapsed_seconds": 0.163,
+      "full_name": "jeffallan/claude-skills"
+    },
+    {
+      "elapsed_seconds": 0.169,
+      "full_name": "browser-use/browser-use"
+    },
+    {
+      "elapsed_seconds": 0.171,
+      "full_name": "vercel/satori"
+    },
+    {
+      "elapsed_seconds": 0.155,
+      "full_name": "therealxiaomanchu/ex-skill"
+    },
+    {
+      "elapsed_seconds": 0.163,
+      "full_name": "everyinc/compound-engineering-plugin"
+    },
+    {
+      "elapsed_seconds": 0.171,
+      "full_name": "bats-core/bats-core"
+    },
+    {
+      "elapsed_seconds": 0.166,
+      "full_name": "alchaincyf/nuwa-skill"
+    },
+    {
+      "elapsed_seconds": 0.181,
+      "full_name": "android/skills"
+    },
+    {
+      "elapsed_seconds": 0.154,
+      "full_name": "1panel-dev/1panel"
+    },
+    {
+      "elapsed_seconds": 0.164,
+      "full_name": "ericbuess/claude-code-docs"
+    },
+    {
+      "elapsed_seconds": 0.184,
+      "full_name": "basicmachines-co/basic-memory"
+    },
+    {
+      "elapsed_seconds": 0.225,
+      "full_name": "cedar-policy/cedar"
+    },
+    {
+      "elapsed_seconds": 0.152,
+      "full_name": "pedronauck/skills"
+    },
+    {
+      "elapsed_seconds": 0.157,
+      "full_name": "shareai-lab/learn-claude-code"
+    },
+    {
+      "elapsed_seconds": 0.182,
+      "full_name": "obra/superpowers"
+    },
+    {
+      "elapsed_seconds": 0.181,
+      "full_name": "gwudcap/cc-sessions"
+    },
+    {
+      "elapsed_seconds": 0.17,
+      "full_name": "florianbruniaux/claude-code-ultimate-guide"
+    },
+    {
+      "elapsed_seconds": 0.17,
+      "full_name": "tremorlabs/tremor"
+    },
+    {
+      "elapsed_seconds": 0.22,
+      "full_name": "agiletec-inc/airis-mcp-gateway"
+    },
+    {
+      "elapsed_seconds": 0.172,
+      "full_name": "ggml-org/ggml"
+    },
+    {
+      "elapsed_seconds": 0.169,
+      "full_name": "napi-rs/napi-rs"
+    },
+    {
+      "elapsed_seconds": 0.151,
+      "full_name": "sirmalloc/ccstatusline"
+    },
+    {
+      "elapsed_seconds": 0.155,
+      "full_name": "kamranahmedse/claude-run"
+    },
+    {
+      "elapsed_seconds": 0.174,
+      "full_name": "huggingface/candle"
+    },
+    {
+      "elapsed_seconds": 0.147,
+      "full_name": "davila7/claude-code-templates"
+    },
+    {
+      "elapsed_seconds": 0.154,
+      "full_name": "affaan-m/everything-claude-code"
+    },
+    {
+      "elapsed_seconds": 0.184,
+      "full_name": "crate-ci/typos"
+    },
+    {
+      "elapsed_seconds": 0.181,
+      "full_name": "pinterest/ktlint"
+    },
+    {
+      "elapsed_seconds": 0.151,
+      "full_name": "haleclipse/ccometixline"
+    },
+    {
+      "elapsed_seconds": 0.145,
+      "full_name": "alchaincyf/elon-musk-skill"
+    },
+    {
+      "elapsed_seconds": 0.176,
+      "full_name": "zeroclaw-labs/zeroclaw"
+    },
+    {
+      "elapsed_seconds": 0.165,
+      "full_name": "ahmetb/kubectx"
+    },
+    {
+      "elapsed_seconds": 0.174,
+      "full_name": "getzep/graphiti"
+    },
+    {
+      "elapsed_seconds": 0.168,
+      "full_name": "astro-han/karpathy-llm-wiki"
+    },
+    {
+      "elapsed_seconds": 0.179,
+      "full_name": "cisco-ai-defense/skill-scanner"
+    },
+    {
+      "elapsed_seconds": 0.156,
+      "full_name": "openai/codex"
+    },
+    {
+      "elapsed_seconds": 0.154,
+      "full_name": "opencode-ai/opencode"
+    },
+    {
+      "elapsed_seconds": 0.163,
+      "full_name": "astral-sh/uv"
+    },
+    {
+      "elapsed_seconds": 0.27,
+      "full_name": "multica-ai/andrej-karpathy-skills"
+    },
+    {
+      "elapsed_seconds": 0.176,
+      "full_name": "sgl-project/sglang"
+    },
+    {
+      "elapsed_seconds": 0.164,
+      "full_name": "tmux/tmux"
+    },
+    {
+      "elapsed_seconds": 0.162,
+      "full_name": "charmbracelet/bubbletea"
+    },
+    {
+      "elapsed_seconds": 0.238,
+      "full_name": "charmbracelet/lipgloss"
+    },
+    {
+      "elapsed_seconds": 0.178,
+      "full_name": "vllm-project/vllm"
+    },
+    {
+      "elapsed_seconds": 0.152,
+      "full_name": "badlogic/pi-mono"
+    },
+    {
+      "elapsed_seconds": 0.167,
+      "full_name": "letta-ai/letta"
+    },
+    {
+      "elapsed_seconds": 0.167,
+      "full_name": "op7418/codepilot"
+    },
+    {
+      "elapsed_seconds": 0.153,
+      "full_name": "cargo-bins/cargo-binstall"
+    },
+    {
+      "elapsed_seconds": 0.16,
+      "full_name": "tanweai/pua"
+    },
+    {
+      "elapsed_seconds": 0.187,
+      "full_name": "nimbalyst/nimbalyst"
+    },
+    {
+      "elapsed_seconds": 0.17,
+      "full_name": "folke/lazy.nvim"
+    },
+    {
+      "elapsed_seconds": 0.159,
+      "full_name": "w1ndys/ex-cure-skill"
+    },
+    {
+      "elapsed_seconds": 0.157,
+      "full_name": "shareai-lab/claw0"
+    },
+    {
+      "elapsed_seconds": 0.165,
+      "full_name": "k-dense-ai/k-dense-byok"
+    },
+    {
+      "elapsed_seconds": 0.176,
+      "full_name": "nvidia/nemoclaw"
+    },
+    {
+      "elapsed_seconds": 0.155,
+      "full_name": "danielmiessler/fabric"
+    },
+    {
+      "elapsed_seconds": 0.143,
+      "full_name": "huangguang1999/ccstatusline-zh"
+    },
+    {
+      "elapsed_seconds": 0.149,
+      "full_name": "alchaincyf/darwin-skill"
+    },
+    {
+      "elapsed_seconds": 0.144,
+      "full_name": "0xtbug/zero-limit"
+    },
+    {
+      "elapsed_seconds": 0.194,
+      "full_name": "protocolbuffers/protobuf"
+    },
+    {
+      "elapsed_seconds": 0.175,
+      "full_name": "router-for-me/cliproxyapi"
+    },
+    {
+      "elapsed_seconds": 0.145,
+      "full_name": "danielrosehill/claude-code-projects-index"
+    },
+    {
+      "elapsed_seconds": 0.146,
+      "full_name": "automatic1111/stable-diffusion-webui"
+    },
+    {
+      "elapsed_seconds": 0.208,
+      "full_name": "qwibitai/nanoclaw"
+    },
+    {
+      "elapsed_seconds": 0.147,
+      "full_name": "casey/just"
+    },
+    {
+      "elapsed_seconds": 0.154,
+      "full_name": "lc044/wechatmsg"
+    },
+    {
+      "elapsed_seconds": 0.181,
+      "full_name": "openai/openai-python"
+    },
+    {
+      "elapsed_seconds": 0.18,
+      "full_name": "ollama/ollama-python"
+    },
+    {
+      "elapsed_seconds": 0.182,
+      "full_name": "denoland/deno"
+    },
+    {
+      "elapsed_seconds": 0.151,
+      "full_name": "vadimdemedes/ink"
+    },
+    {
+      "elapsed_seconds": 0.182,
+      "full_name": "astral-sh/ruff"
+    },
+    {
+      "elapsed_seconds": 0.341,
+      "full_name": "anthropics/claude-plugins-official"
+    },
+    {
+      "elapsed_seconds": 0.176,
+      "full_name": "langchain-ai/langgraph"
+    },
+    {
+      "elapsed_seconds": 0.152,
+      "full_name": "jarrodwatts/claude-hud"
+    },
+    {
+      "elapsed_seconds": 0.153,
+      "full_name": "agricidaniel/claude-ads"
+    },
+    {
+      "elapsed_seconds": 0.176,
+      "full_name": "oraios/serena"
+    },
+    {
+      "elapsed_seconds": 0.196,
+      "full_name": "microsoft/playwright-mcp"
+    },
+    {
+      "elapsed_seconds": 0.159,
+      "full_name": "bmad-code-org/bmad-method"
+    },
+    {
+      "elapsed_seconds": 0.174,
+      "full_name": "microsoft/playwright-cli"
+    },
+    {
+      "elapsed_seconds": 0.168,
+      "full_name": "github/spec-kit"
+    },
+    {
+      "elapsed_seconds": 0.192,
+      "full_name": "nodejs/node"
+    },
+    {
+      "elapsed_seconds": 0.169,
+      "full_name": "anthropics/skills"
+    },
+    {
+      "elapsed_seconds": 0.187,
+      "full_name": "google-gemini/gemini-cli"
+    },
+    {
+      "elapsed_seconds": 0.162,
+      "full_name": "qwenlm/qwen-code"
+    },
+    {
+      "elapsed_seconds": 0.167,
+      "full_name": "vercel-labs/skills"
+    },
+    {
+      "elapsed_seconds": 0.158,
+      "full_name": "eastlondoner/vibe-tools"
+    },
+    {
+      "elapsed_seconds": 0.158,
+      "full_name": "anthropics/courses"
+    },
+    {
+      "elapsed_seconds": 0.158,
+      "full_name": "aider-ai/aider"
+    },
+    {
+      "elapsed_seconds": 0.18,
+      "full_name": "fsnotify/fsnotify"
+    },
+    {
+      "elapsed_seconds": 0.139,
+      "full_name": "alchaincyf/naval-skill"
+    },
+    {
+      "elapsed_seconds": 0.148,
+      "full_name": "alchaincyf/taleb-skill"
+    },
+    {
+      "elapsed_seconds": 0.163,
+      "full_name": "anthropics/claude-code-security-review"
+    },
+    {
+      "elapsed_seconds": 0.188,
+      "full_name": "badlogic/pi-share-hf"
+    },
+    {
+      "elapsed_seconds": 0.182,
+      "full_name": "gastownhall/beads"
+    },
+    {
+      "elapsed_seconds": 0.177,
+      "full_name": "google/guava"
+    },
+    {
+      "elapsed_seconds": 0.16,
+      "full_name": "fission-ai/openspec"
+    },
+    {
+      "elapsed_seconds": 0.152,
+      "full_name": "numman-ali/openskills"
+    },
+    {
+      "elapsed_seconds": 0.197,
+      "full_name": "huggingface/transformers"
+    },
+    {
+      "elapsed_seconds": 0.193,
+      "full_name": "google/tunix"
+    },
+    {
+      "elapsed_seconds": 0.178,
+      "full_name": "cloudflare/skills"
+    },
+    {
+      "elapsed_seconds": 0.152,
+      "full_name": "alchaincyf/steve-jobs-skill"
+    },
+    {
+      "elapsed_seconds": 0.149,
+      "full_name": "agricidaniel/claude-seo"
+    },
+    {
+      "elapsed_seconds": 0.173,
+      "full_name": "anthropics/claude-cookbooks"
+    },
+    {
+      "elapsed_seconds": 0.143,
+      "full_name": "alchaincyf/munger-skill"
+    },
+    {
+      "elapsed_seconds": 0.173,
+      "full_name": "beehiveinnovations/pal-mcp-server"
+    },
+    {
+      "elapsed_seconds": 0.154,
+      "full_name": "ayanami0730/deep_research_bench"
+    },
+    {
+      "elapsed_seconds": 0.179,
+      "full_name": "microsoft/pyright"
+    },
+    {
+      "elapsed_seconds": 0.188,
+      "full_name": "upstash/context7"
+    },
+    {
+      "elapsed_seconds": 0.182,
+      "full_name": "k-dense-ai/scientific-agent-skills"
+    },
+    {
+      "elapsed_seconds": 0.149,
+      "full_name": "behisecc/awesome-claude-skills"
+    },
+    {
+      "elapsed_seconds": 0.139,
+      "full_name": "alirezarezvani/claude-skills"
+    },
+    {
+      "elapsed_seconds": 0.169,
+      "full_name": "wshobson/agents"
+    },
+    {
+      "elapsed_seconds": 0.177,
+      "full_name": "libp2p/js-libp2p"
+    },
+    {
+      "elapsed_seconds": 0.189,
+      "full_name": "axolotl-ai-cloud/axolotl"
+    },
+    {
+      "elapsed_seconds": 0.177,
+      "full_name": "letta-ai/letta-code"
+    },
+    {
+      "elapsed_seconds": 0.16,
+      "full_name": "bensadeh/circumflex"
+    },
+    {
+      "elapsed_seconds": 0.187,
+      "full_name": "charmbracelet/glamour"
+    },
+    {
+      "elapsed_seconds": 0.186,
+      "full_name": "embeddings-benchmark/mteb"
+    },
+    {
+      "elapsed_seconds": 0.148,
+      "full_name": "haotian-liu/llava"
+    },
+    {
+      "elapsed_seconds": 0.18,
+      "full_name": "atomicmemory/llm-wiki-compiler"
+    },
+    {
+      "elapsed_seconds": 0.162,
+      "full_name": "pyenv/pyenv"
+    },
+    {
+      "elapsed_seconds": 0.17,
+      "full_name": "langchain-ai/langchain"
+    },
+    {
+      "elapsed_seconds": 0.14,
+      "full_name": "andymik90/aperant"
+    },
+    {
+      "elapsed_seconds": 0.145,
+      "full_name": "lucasastorian/llmwiki"
+    },
+    {
+      "elapsed_seconds": 0.176,
+      "full_name": "mozilla-ai/llamafile"
+    },
+    {
+      "elapsed_seconds": 0.164,
+      "full_name": "ggml-org/llama.cpp"
+    },
+    {
+      "elapsed_seconds": 0.157,
+      "full_name": "knownsec/404starlink"
+    },
+    {
+      "elapsed_seconds": 0.153,
+      "full_name": "multica-ai/multica"
+    },
+    {
+      "elapsed_seconds": 0.166,
+      "full_name": "arogozhnikov/einops"
+    },
+    {
+      "elapsed_seconds": 0.162,
+      "full_name": "guidance-ai/guidance"
+    },
+    {
+      "elapsed_seconds": 0.21,
+      "full_name": "flashinfer-ai/flashinfer"
+    },
+    {
+      "elapsed_seconds": 0.182,
+      "full_name": "googleapis/release-please"
+    }
+  ],
+  "run_id": "20260419T140317Z",
+  "skipped_count": 15,
+  "skipped_repositories": [
+    "aitooools/chatgpt-plus-hezu",
+    "aitooools/chatgpt",
+    "aitooools/gemini-pro",
+    "aitooools/claude-pro-recharge",
+    "aitooools/claude-pro",
+    "aitooools/poe",
+    "aitooools/spotify-hezu",
+    "aitooools/supergrok",
+    "aitooools/youtube-hezu",
+    "aitooools/netflix-hezu",
+    "aitooools/nf-video",
+    "aitooools/claude-pro-hezu",
+    "aitooools/chatgpt-plus-recharge",
+    "aitooools/aitooools.github.io",
+    "geiserx/agenttap"
+  ],
+  "stopped_due_to_budget": false
+}

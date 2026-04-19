@@ -1659,14 +1659,18 @@
       "size": 7513
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:35.860946+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Easily switch between alternative low-cost AI models in Claude Code/Agent SDK. For those comfortable using Claude agents and commands, it lets you take what you've created and deploy fully hosted agents for real business purposes. Use Claude Code to get the agent working, then deploy it in your favorite cloud.",
+    "fork": false,
     "full_name": "ruvnet/agentic-flow",
     "html_url": "https://github.com/ruvnet/agentic-flow",
     "language": "TypeScript",
     "pushed_at": "2026-03-26T08:37:31Z",
+    "stargazers_count": 617,
     "topics": [
       "agents",
       "claude",

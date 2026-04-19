@@ -239,16 +239,20 @@
       "size": 1655
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:39.612481+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": null,
+    "fork": false,
     "full_name": "agiletec-inc/airis-mcp-gateway",
     "html_url": "https://github.com/agiletec-inc/airis-mcp-gateway",
     "language": "Python",
     "pushed_at": "2026-04-18T09:30:28Z",
+    "stargazers_count": 150,
     "topics": [],
-    "updated_at": "2026-04-18T09:30:18Z"
+    "updated_at": "2026-04-19T05:37:58Z"
   },
   "repo_links": [],
   "terms": [

@@ -191,14 +191,18 @@
       "size": 13968
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:28.800477+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "BlackHole is a modern macOS audio loopback driver that allows applications to pass audio to other applications with zero additional latency.",
-    "full_name": "ExistentialAudio/BlackHole",
+    "fork": false,
+    "full_name": "existentialaudio/blackhole",
     "html_url": "https://github.com/ExistentialAudio/BlackHole",
     "language": "C",
     "pushed_at": "2025-12-19T07:50:39Z",
+    "stargazers_count": 18820,
     "topics": [
       "audio",
       "driver",
@@ -206,7 +210,7 @@
       "macos",
       "virtual-audio-cable"
     ],
-    "updated_at": "2026-04-18T07:55:38Z"
+    "updated_at": "2026-04-19T12:08:29Z"
   },
   "repo_links": [
     {

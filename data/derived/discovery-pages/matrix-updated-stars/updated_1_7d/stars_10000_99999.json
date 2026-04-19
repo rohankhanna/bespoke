@@ -1,24 +1,53 @@
 {
   "counts": {
-    "components": 49,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 7,
-    "terms": 25
+    "components": 409,
+    "concepts": 210,
+    "observations": 211,
+    "repos": 36,
+    "terms": 216
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
+    "1panel-dev/1panel",
+    "1panel-dev/maxkb",
+    "alchaincyf/nuwa-skill",
+    "alirezarezvani/claude-skills",
+    "anthropics/claude-cookbooks",
+    "anthropics/claude-plugins-official",
+    "casey/just",
+    "charmbracelet/bubbletea",
     "charmbracelet/gum",
+    "danielmiessler/fabric",
+    "fission-ai/openspec",
+    "ggml-org/ggml",
+    "github/spec-kit",
     "google/auto",
+    "google/guava",
     "jj-vcs/jj",
+    "k-dense-ai/scientific-agent-skills",
     "kubernetes-sigs/kustomize",
     "kubernetes/community",
+    "letta-ai/letta",
+    "microsoft/playwright-mcp",
+    "microsoft/pyright",
+    "microsoft/typescript-go",
+    "mozilla-ai/llamafile",
+    "openai/openai-python",
+    "pyenv/pyenv",
     "seanmonstar/reqwest",
-    "toon-format/toon"
+    "shareai-lab/learn-claude-code",
+    "slopus/happy",
+    "svg/svgo",
+    "tmux/tmux",
+    "tokio-rs/axum",
+    "toon-format/toon",
+    "upstash/context7",
+    "vadimdemedes/ink",
+    "vercel-labs/skills"
   ]
 }

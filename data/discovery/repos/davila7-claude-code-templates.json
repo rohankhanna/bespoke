@@ -535,21 +535,25 @@
       "size": 2545
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:40.579177+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "CLI tool for configuring and monitoring Claude Code",
+    "fork": false,
     "full_name": "davila7/claude-code-templates",
     "html_url": "https://github.com/davila7/claude-code-templates",
     "language": "Python",
-    "pushed_at": "2026-04-18T03:59:41Z",
+    "pushed_at": "2026-04-19T04:07:27Z",
+    "stargazers_count": 24735,
     "topics": [
       "anthropic",
       "anthropic-claude",
       "claude",
       "claude-code"
     ],
-    "updated_at": "2026-04-18T09:47:32Z"
+    "updated_at": "2026-04-19T13:33:47Z"
   },
   "repo_links": [
     {

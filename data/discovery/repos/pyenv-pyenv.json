@@ -211,19 +211,23 @@
       "size": 1330
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:56.986073+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Simple Python version management",
+    "fork": false,
     "full_name": "pyenv/pyenv",
     "html_url": "https://github.com/pyenv/pyenv",
     "language": "Shell",
     "pushed_at": "2026-04-17T19:53:56Z",
+    "stargazers_count": 44629,
     "topics": [
       "python",
       "shell"
     ],
-    "updated_at": "2026-04-18T18:02:59Z"
+    "updated_at": "2026-04-19T13:27:47Z"
   },
   "repo_links": [
     {

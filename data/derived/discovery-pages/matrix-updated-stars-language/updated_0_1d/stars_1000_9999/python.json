@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 8,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 1,
-    "terms": 2
+    "components": 42,
+    "concepts": 34,
+    "observations": 34,
+    "repos": 5,
+    "terms": 47
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
+    "arogozhnikov/einops",
+    "basicmachines-co/basic-memory",
+    "embeddings-benchmark/mteb",
+    "nesquena/hermes-webui",
     "pchalasani/claude-code-tools"
   ]
 }

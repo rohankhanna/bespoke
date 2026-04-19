@@ -828,14 +828,18 @@
       "size": 699
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:39.391675+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Copy & Paste React components to build modern web applications. ",
+    "fork": false,
     "full_name": "tremorlabs/tremor",
     "html_url": "https://github.com/tremorlabs/tremor",
     "language": "TypeScript",
     "pushed_at": "2025-10-10T13:08:24Z",
+    "stargazers_count": 3382,
     "topics": [
       "components",
       "dashboard",
@@ -845,7 +849,7 @@
       "typescript",
       "ui"
     ],
-    "updated_at": "2026-04-18T09:29:29Z"
+    "updated_at": "2026-04-19T08:45:05Z"
   },
   "repo_links": [],
   "terms": [

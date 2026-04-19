@@ -8,14 +8,18 @@
       "size": 6613
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:22.215237+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Route requests to the right Claude/Agent skill automatically, so you can use the skill ecosystem without memorizing repos",
-    "full_name": "Foundersieve687/skill-gateway",
+    "fork": false,
+    "full_name": "foundersieve687/skill-gateway",
     "html_url": "https://github.com/Foundersieve687/skill-gateway",
     "language": null,
-    "pushed_at": "2026-04-18T04:39:14Z",
+    "pushed_at": "2026-04-19T12:37:21Z",
+    "stargazers_count": 0,
     "topics": [
       "agentic",
       "agentic-workflow",
@@ -36,7 +40,7 @@
       "termux",
       "typescript"
     ],
-    "updated_at": "2026-04-18T04:39:19Z"
+    "updated_at": "2026-04-19T12:37:25Z"
   },
   "repo_links": [],
   "terms": []

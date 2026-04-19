@@ -1577,14 +1577,18 @@
       "size": 1145
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:33.581595+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.",
+    "fork": false,
     "full_name": "eyaltoledano/claude-task-master",
     "html_url": "https://github.com/eyaltoledano/claude-task-master",
     "language": "JavaScript",
     "pushed_at": "2026-03-31T18:24:26Z",
+    "stargazers_count": 26594,
     "topics": [
       "ai",
       "cursor",
@@ -1599,7 +1603,7 @@
       "windsurf",
       "windsurf-ai"
     ],
-    "updated_at": "2026-04-18T08:46:36Z"
+    "updated_at": "2026-04-19T13:40:17Z"
   },
   "repo_links": [],
   "terms": [

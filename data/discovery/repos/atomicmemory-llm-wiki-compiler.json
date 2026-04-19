@@ -350,14 +350,18 @@
       "size": 847
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:56.823681+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "The knowledge compiler. Raw sources in, interlinked wiki out. Inspired by Karpathy's LLM Wiki pattern.",
+    "fork": false,
     "full_name": "atomicmemory/llm-wiki-compiler",
     "html_url": "https://github.com/atomicmemory/llm-wiki-compiler",
     "language": "TypeScript",
     "pushed_at": "2026-04-16T19:53:16Z",
+    "stargazers_count": 603,
     "topics": [
       "cli",
       "compiler",
@@ -370,7 +374,7 @@
       "obsidian",
       "wiki"
     ],
-    "updated_at": "2026-04-18T17:29:29Z"
+    "updated_at": "2026-04-19T13:36:18Z"
   },
   "repo_links": [
     {

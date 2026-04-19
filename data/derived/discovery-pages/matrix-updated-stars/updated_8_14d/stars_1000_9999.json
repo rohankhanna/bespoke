@@ -1,24 +1,30 @@
 {
   "counts": {
-    "components": 83,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 7,
-    "terms": 22
+    "components": 187,
+    "concepts": 32,
+    "observations": 32,
+    "repos": 13,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
     "asg017/sqlite-vec",
+    "cisco-ai-defense/skill-scanner",
+    "crossterm-rs/crossterm",
     "django/daphne",
     "getzep/zep",
+    "linebender/resvg",
+    "lobehub/lobe-icons",
     "luarocks/luarocks",
     "nvie/git-toolbelt",
+    "opactorai/claudable",
     "skills-directory/skill-codex",
+    "therealxiaomanchu/ex-skill",
     "thx/resvg-js"
   ]
 }

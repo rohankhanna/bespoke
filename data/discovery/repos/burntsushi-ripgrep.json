@@ -496,14 +496,18 @@
       "size": 12446
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:34.747212+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
-    "full_name": "BurntSushi/ripgrep",
+    "fork": false,
+    "full_name": "burntsushi/ripgrep",
     "html_url": "https://github.com/BurntSushi/ripgrep",
     "language": "Rust",
     "pushed_at": "2026-02-27T16:25:19Z",
+    "stargazers_count": 62655,
     "topics": [
       "cli",
       "command-line",
@@ -516,7 +520,7 @@
       "rust",
       "search"
     ],
-    "updated_at": "2026-04-18T08:55:56Z"
+    "updated_at": "2026-04-19T13:59:15Z"
   },
   "repo_links": [
     {

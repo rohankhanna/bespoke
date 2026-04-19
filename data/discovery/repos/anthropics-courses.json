@@ -8,16 +8,20 @@
       "size": 1434
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:51.254924+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Anthropic's educational courses",
+    "fork": false,
     "full_name": "anthropics/courses",
     "html_url": "https://github.com/anthropics/courses",
     "language": "Jupyter Notebook",
     "pushed_at": "2025-11-13T20:40:51Z",
+    "stargazers_count": 20695,
     "topics": [],
-    "updated_at": "2026-04-18T12:20:29Z"
+    "updated_at": "2026-04-19T12:41:39Z"
   },
   "repo_links": [],
   "terms": []

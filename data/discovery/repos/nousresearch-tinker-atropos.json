@@ -12,16 +12,20 @@
       "size": 1101
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:29.755409+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Standalone repo for our Atropos integration with Thinking Machines Tinker API (https://thinkingmachines.ai/tinker/)",
-    "full_name": "NousResearch/tinker-atropos",
+    "fork": false,
+    "full_name": "nousresearch/tinker-atropos",
     "html_url": "https://github.com/NousResearch/tinker-atropos",
     "language": "Python",
     "pushed_at": "2026-03-22T21:35:09Z",
+    "stargazers_count": 52,
     "topics": [],
-    "updated_at": "2026-04-18T08:16:51Z"
+    "updated_at": "2026-04-19T02:15:41Z"
   },
   "repo_links": [],
   "terms": []

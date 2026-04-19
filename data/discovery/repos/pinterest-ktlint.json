@@ -340,20 +340,24 @@
       "size": 1461
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:41.098731+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "An anti-bikeshedding Kotlin linter with built-in formatter",
+    "fork": false,
     "full_name": "pinterest/ktlint",
     "html_url": "https://github.com/pinterest/ktlint",
     "language": "Kotlin",
     "pushed_at": "2026-04-18T09:50:30Z",
+    "stargazers_count": 6684,
     "topics": [
       "kotlin",
       "lint",
       "linter"
     ],
-    "updated_at": "2026-04-18T09:49:57Z"
+    "updated_at": "2026-04-19T11:12:22Z"
   },
   "repo_links": [
     {

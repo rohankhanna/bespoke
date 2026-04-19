@@ -585,14 +585,18 @@
       "size": 2388
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:26.823865+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A CLI tool for logging and analyzing Claude Code and Cursor ai-driven coding session.",
+    "fork": false,
     "full_name": "vibe-log/vibe-log-cli",
     "html_url": "https://github.com/vibe-log/vibe-log-cli",
     "language": "TypeScript",
-    "pushed_at": "2026-04-18T07:08:05Z",
+    "pushed_at": "2026-04-19T05:43:07Z",
+    "stargazers_count": 315,
     "topics": [
       "ai-assisted-development",
       "ai-coding",
@@ -614,7 +618,7 @@
       "vibe-coding",
       "workflow-optimization"
     ],
-    "updated_at": "2026-04-18T07:08:09Z"
+    "updated_at": "2026-04-19T05:43:11Z"
   },
   "repo_links": [],
   "terms": [

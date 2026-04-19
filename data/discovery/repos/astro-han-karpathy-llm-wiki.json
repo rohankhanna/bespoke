@@ -100,14 +100,18 @@
       "size": 5867
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:42.078301+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Agent Skills-compatible LLM wiki for Claude Code, Cursor, and Codex. Build a Karpathy-style knowledge base from raw sources, citations, and linting.",
-    "full_name": "Astro-Han/karpathy-llm-wiki",
+    "fork": false,
+    "full_name": "astro-han/karpathy-llm-wiki",
     "html_url": "https://github.com/Astro-Han/karpathy-llm-wiki",
     "language": null,
     "pushed_at": "2026-04-13T01:39:31Z",
+    "stargazers_count": 500,
     "topics": [
       "agent-skill",
       "claude-code",
@@ -123,7 +127,7 @@
       "productivity",
       "rag-alternative"
     ],
-    "updated_at": "2026-04-18T10:10:54Z"
+    "updated_at": "2026-04-19T13:17:43Z"
   },
   "repo_links": [
     {

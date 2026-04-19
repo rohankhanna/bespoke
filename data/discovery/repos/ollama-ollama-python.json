@@ -141,19 +141,23 @@
       "size": 872
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:47.852262+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Ollama Python library",
+    "fork": false,
     "full_name": "ollama/ollama-python",
     "html_url": "https://github.com/ollama/ollama-python",
     "language": "Python",
     "pushed_at": "2026-01-23T08:33:53Z",
+    "stargazers_count": 9831,
     "topics": [
       "ollama",
       "python"
     ],
-    "updated_at": "2026-04-18T11:28:08Z"
+    "updated_at": "2026-04-19T07:43:17Z"
   },
   "repo_links": [],
   "terms": [

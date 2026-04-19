@@ -745,14 +745,18 @@
       "size": 10591
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:31.385802+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "RuVector is a High Performance, Real-Time, Self-Learning, Vector GNN, Memory DB built in Rust.",
-    "full_name": "ruvnet/RuVector",
+    "fork": false,
+    "full_name": "ruvnet/ruvector",
     "html_url": "https://github.com/ruvnet/RuVector",
     "language": "Rust",
-    "pushed_at": "2026-04-16T19:19:43Z",
+    "pushed_at": "2026-04-18T13:51:27Z",
+    "stargazers_count": 3800,
     "topics": [
       "ai",
       "ai-ocr",
@@ -772,7 +776,7 @@
       "vector",
       "wasm"
     ],
-    "updated_at": "2026-04-18T08:27:06Z"
+    "updated_at": "2026-04-19T11:00:31Z"
   },
   "repo_links": [
     {

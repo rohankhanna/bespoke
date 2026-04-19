@@ -280,16 +280,20 @@
       "size": 1043
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:34.600852+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A CLI tool for analyzing Claude Code/Codex CLI usage from local JSONL files.",
+    "fork": false,
     "full_name": "ryoppippi/ccusage",
     "html_url": "https://github.com/ryoppippi/ccusage",
     "language": "TypeScript",
-    "pushed_at": "2026-04-18T08:49:45Z",
+    "pushed_at": "2026-04-19T11:15:20Z",
+    "stargazers_count": 13051,
     "topics": [],
-    "updated_at": "2026-04-18T08:55:17Z"
+    "updated_at": "2026-04-19T13:55:33Z"
   },
   "repo_links": [
     {

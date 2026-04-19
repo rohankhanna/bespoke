@@ -169,14 +169,18 @@
       "size": 894
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:30.297110+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Mobile and Web client for Codex and Claude Code, with realtime voice, encryption and fully featured",
+    "fork": false,
     "full_name": "slopus/happy",
     "html_url": "https://github.com/slopus/happy",
     "language": "TypeScript",
     "pushed_at": "2026-04-18T05:50:19Z",
+    "stargazers_count": 18719,
     "topics": [
       "claude-code",
       "claude-desktop",
@@ -185,7 +189,7 @@
       "codex-cli",
       "hacktoberfest"
     ],
-    "updated_at": "2026-04-18T08:22:36Z"
+    "updated_at": "2026-04-19T14:01:24Z"
   },
   "repo_links": [
     {

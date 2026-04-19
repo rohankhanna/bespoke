@@ -413,16 +413,20 @@
       "size": 750
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:38.380580+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Implementation of the Cedar Policy Language",
+    "fork": false,
     "full_name": "cedar-policy/cedar",
     "html_url": "https://github.com/cedar-policy/cedar",
     "language": "Rust",
     "pushed_at": "2026-04-17T18:38:54Z",
+    "stargazers_count": 1417,
     "topics": [],
-    "updated_at": "2026-04-18T09:19:22Z"
+    "updated_at": "2026-04-18T21:40:26Z"
   },
   "repo_links": [
     {

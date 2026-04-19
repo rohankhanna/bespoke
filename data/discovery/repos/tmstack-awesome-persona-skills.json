@@ -37,16 +37,20 @@
       "size": 5778
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:33.745803+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\u540c\u4e8b.skill\u3001\u8001\u677f.skill\u3001\u524d\u4efb.skill\u3001\u81ea\u5df1.skill\u3001\u6c38\u751f.skill\u3001\u5973\u5a32.skill\u2026\u2026  ",
+    "fork": false,
     "full_name": "tmstack/awesome-persona-skills",
     "html_url": "https://github.com/tmstack/awesome-persona-skills",
     "language": null,
     "pushed_at": "2026-04-15T11:43:50Z",
+    "stargazers_count": 1102,
     "topics": [],
-    "updated_at": "2026-04-18T08:46:53Z"
+    "updated_at": "2026-04-19T13:40:02Z"
   },
   "repo_links": [
     {

@@ -1291,14 +1291,18 @@
       "size": 6237
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:39.952216+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A framework for building compiled Node.js add-ons in Rust via Node-API",
+    "fork": false,
     "full_name": "napi-rs/napi-rs",
     "html_url": "https://github.com/napi-rs/napi-rs",
     "language": "Rust",
     "pushed_at": "2026-04-17T15:09:54Z",
+    "stargazers_count": 7683,
     "topics": [
       "javascript",
       "napi",
@@ -1308,7 +1312,7 @@
       "nodejs",
       "rust"
     ],
-    "updated_at": "2026-04-18T09:31:29Z"
+    "updated_at": "2026-04-19T11:00:54Z"
   },
   "repo_links": [
     {

@@ -55,14 +55,18 @@
       "size": 71
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:54.414191+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents",
-    "full_name": "Ayanami0730/deep_research_bench",
+    "fork": false,
+    "full_name": "ayanami0730/deep_research_bench",
     "html_url": "https://github.com/Ayanami0730/deep_research_bench",
     "language": "Python",
     "pushed_at": "2026-04-18T13:28:47Z",
+    "stargazers_count": 684,
     "topics": [
       "agent",
       "benchmark",

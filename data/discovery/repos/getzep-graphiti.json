@@ -301,21 +301,25 @@
       "size": 625
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:41.910072+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Build Real-Time Knowledge Graphs for AI Agents",
+    "fork": false,
     "full_name": "getzep/graphiti",
     "html_url": "https://github.com/getzep/graphiti",
     "language": "Python",
-    "pushed_at": "2026-04-18T04:06:16Z",
+    "pushed_at": "2026-04-18T20:27:50Z",
+    "stargazers_count": 25110,
     "topics": [
       "agents",
       "graph",
       "llms",
       "rag"
     ],
-    "updated_at": "2026-04-18T10:10:21Z"
+    "updated_at": "2026-04-19T14:00:40Z"
   },
   "repo_links": [],
   "terms": [

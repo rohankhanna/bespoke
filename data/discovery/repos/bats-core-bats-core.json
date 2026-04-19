@@ -344,14 +344,18 @@
       "size": 18
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:37.306735+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Bash Automated Testing System",
+    "fork": false,
     "full_name": "bats-core/bats-core",
     "html_url": "https://github.com/bats-core/bats-core",
     "language": "Shell",
     "pushed_at": "2026-02-15T17:19:40Z",
+    "stargazers_count": 5988,
     "topics": [
       "bash",
       "bats",
@@ -362,7 +366,7 @@
       "testing-tools",
       "xunit"
     ],
-    "updated_at": "2026-04-18T09:06:30Z"
+    "updated_at": "2026-04-19T12:30:02Z"
   },
   "repo_links": [
     {

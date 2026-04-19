@@ -194,16 +194,20 @@
       "size": 1074
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:58.092092+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "The open-source managed agents platform. Turn coding agents into real teammates \u2014 assign tasks, track progress, compound skills.",
+    "fork": false,
     "full_name": "multica-ai/multica",
     "html_url": "https://github.com/multica-ai/multica",
     "language": "TypeScript",
-    "pushed_at": "2026-04-18T15:28:13Z",
+    "pushed_at": "2026-04-19T12:14:15Z",
+    "stargazers_count": 16530,
     "topics": [],
-    "updated_at": "2026-04-18T18:29:26Z"
+    "updated_at": "2026-04-19T14:03:12Z"
   },
   "repo_links": [],
   "terms": [

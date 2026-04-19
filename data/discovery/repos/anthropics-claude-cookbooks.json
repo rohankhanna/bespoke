@@ -409,16 +409,20 @@
       "size": 8502
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:53.943800+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+    "fork": false,
     "full_name": "anthropics/claude-cookbooks",
     "html_url": "https://github.com/anthropics/claude-cookbooks",
     "language": "Jupyter Notebook",
     "pushed_at": "2026-04-17T01:15:54Z",
+    "stargazers_count": 41048,
     "topics": [],
-    "updated_at": "2026-04-18T13:19:40Z"
+    "updated_at": "2026-04-19T14:01:49Z"
   },
   "repo_links": [
     {

@@ -41,21 +41,25 @@
       "size": 11592
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:31.559767+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Production-Grade Container Scheduling and Management",
+    "fork": false,
     "full_name": "kubernetes/kubernetes",
     "html_url": "https://github.com/kubernetes/kubernetes",
     "language": "Go",
     "pushed_at": "2026-04-17T08:26:53Z",
+    "stargazers_count": 121782,
     "topics": [
       "cncf",
       "containers",
       "go",
       "kubernetes"
     ],
-    "updated_at": "2026-04-18T08:31:01Z"
+    "updated_at": "2026-04-19T13:59:32Z"
   },
   "repo_links": [
     {

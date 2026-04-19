@@ -758,21 +758,25 @@
       "size": 2091
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:26.638602+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems",
+    "fork": false,
     "full_name": "moby/moby",
     "html_url": "https://github.com/moby/moby",
     "language": "Go",
-    "pushed_at": "2026-04-18T07:02:24Z",
+    "pushed_at": "2026-04-19T00:29:21Z",
+    "stargazers_count": 71509,
     "topics": [
       "containers",
       "docker",
       "go",
       "golang"
     ],
-    "updated_at": "2026-04-18T07:02:45Z"
+    "updated_at": "2026-04-19T12:53:24Z"
   },
   "repo_links": [
     {

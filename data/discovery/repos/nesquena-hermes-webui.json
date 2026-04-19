@@ -589,14 +589,18 @@
       "size": 638
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:19.741488+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
+    "fork": false,
     "full_name": "nesquena/hermes-webui",
     "html_url": "https://github.com/nesquena/hermes-webui",
     "language": "Python",
-    "pushed_at": "2026-04-17T18:03:45Z",
+    "pushed_at": "2026-04-19T07:36:00Z",
+    "stargazers_count": 2782,
     "topics": [
       "agent",
       "ai-agents",
@@ -604,7 +608,7 @@
       "hermes-agent",
       "nous-research"
     ],
-    "updated_at": "2026-04-18T03:51:02Z"
+    "updated_at": "2026-04-19T13:43:06Z"
   },
   "repo_links": [],
   "terms": [

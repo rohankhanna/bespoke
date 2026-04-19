@@ -575,14 +575,18 @@
       "size": 244
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:55.596327+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A JavaScript Implementation of libp2p networking stack.",
+    "fork": false,
     "full_name": "libp2p/js-libp2p",
     "html_url": "https://github.com/libp2p/js-libp2p",
     "language": "TypeScript",
-    "pushed_at": "2026-04-18T17:54:47Z",
+    "pushed_at": "2026-04-19T11:45:10Z",
+    "stargazers_count": 2542,
     "topics": [
       "ipfs",
       "js-ipfs",
@@ -590,7 +594,7 @@
       "networking-stack",
       "p2p"
     ],
-    "updated_at": "2026-04-18T14:00:56Z"
+    "updated_at": "2026-04-19T11:45:14Z"
   },
   "repo_links": [
     {

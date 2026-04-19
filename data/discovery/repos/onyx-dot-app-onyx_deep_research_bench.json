@@ -16,14 +16,18 @@
       "size": 4678
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:23.089963+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Onyx Submission for Deep Research Benchmark",
+    "fork": false,
     "full_name": "onyx-dot-app/onyx_deep_research_bench",
     "html_url": "https://github.com/onyx-dot-app/onyx_deep_research_bench",
     "language": null,
     "pushed_at": "2026-04-04T22:49:18Z",
+    "stargazers_count": 17,
     "topics": [],
     "updated_at": "2026-04-18T04:48:45Z"
   },

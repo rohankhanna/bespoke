@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 249,
+    "components": 259,
     "concepts": 20,
     "observations": 20,
-    "repos": 5,
-    "terms": 24
+    "repos": 6,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
     "asg017/sqlite-ecosystem",
     "connectai-e/midjourney-web",
+    "helmi/claude-simone",
     "johnlindquist/claude-hooks",
     "lobehub/lobe-vidol",
     "possibilities/claude-composer"

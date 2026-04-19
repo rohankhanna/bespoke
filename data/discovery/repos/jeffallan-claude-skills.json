@@ -173,14 +173,18 @@
       "size": 1246
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:36.478385+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "66 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.",
-    "full_name": "Jeffallan/claude-skills",
+    "fork": false,
+    "full_name": "jeffallan/claude-skills",
     "html_url": "https://github.com/Jeffallan/claude-skills",
     "language": "Python",
     "pushed_at": "2026-03-23T22:39:28Z",
+    "stargazers_count": 8358,
     "topics": [
       "ai-agents",
       "claude",
@@ -188,7 +192,7 @@
       "claude-marketplace",
       "claude-skills"
     ],
-    "updated_at": "2026-04-18T09:03:49Z"
+    "updated_at": "2026-04-19T13:58:33Z"
   },
   "repo_links": [],
   "terms": [

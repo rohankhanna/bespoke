@@ -129,14 +129,18 @@
       "size": 790
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:42.567291+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": true,
     "default_branch": "main",
     "description": "A powerful AI coding agent. Built for the terminal.",
+    "fork": false,
     "full_name": "opencode-ai/opencode",
     "html_url": "https://github.com/opencode-ai/opencode",
     "language": "Go",
     "pushed_at": "2025-09-18T02:54:28Z",
+    "stargazers_count": 12093,
     "topics": [
       "ai",
       "claude",
@@ -144,7 +148,7 @@
       "llm",
       "openai"
     ],
-    "updated_at": "2026-04-18T10:21:11Z"
+    "updated_at": "2026-04-19T13:31:49Z"
   },
   "repo_links": [
     {

@@ -571,20 +571,24 @@
       "size": 1429
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:44.558101+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Binary installation for rust projects",
+    "fork": false,
     "full_name": "cargo-bins/cargo-binstall",
     "html_url": "https://github.com/cargo-bins/cargo-binstall",
     "language": "Rust",
-    "pushed_at": "2026-04-17T17:15:34Z",
+    "pushed_at": "2026-04-18T14:11:01Z",
+    "stargazers_count": 2615,
     "topics": [
       "binary",
       "installer",
       "rust"
     ],
-    "updated_at": "2026-04-18T10:45:49Z"
+    "updated_at": "2026-04-19T12:35:19Z"
   },
   "repo_links": [
     {

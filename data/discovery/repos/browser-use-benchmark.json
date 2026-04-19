@@ -61,14 +61,18 @@
       "size": 2011
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:23.626764+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": null,
+    "fork": false,
     "full_name": "browser-use/benchmark",
     "html_url": "https://github.com/browser-use/benchmark",
     "language": "Python",
     "pushed_at": "2026-04-09T04:31:34Z",
+    "stargazers_count": 69,
     "topics": [],
     "updated_at": "2026-04-18T05:12:23Z"
   },

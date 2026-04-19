@@ -70,16 +70,20 @@
       "size": 2499
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:37.653796+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": null,
+    "fork": false,
     "full_name": "android/skills",
     "html_url": "https://github.com/android/skills",
     "language": null,
     "pushed_at": "2026-04-17T09:28:34Z",
+    "stargazers_count": 3477,
     "topics": [],
-    "updated_at": "2026-04-18T09:10:09Z"
+    "updated_at": "2026-04-19T14:02:50Z"
   },
   "repo_links": [],
   "terms": [

@@ -16,18 +16,22 @@
       "size": 5460
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:50.423075+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Public repository for Agent Skills",
+    "fork": false,
     "full_name": "anthropics/skills",
     "html_url": "https://github.com/anthropics/skills",
     "language": "Python",
     "pushed_at": "2026-04-16T19:12:59Z",
+    "stargazers_count": 120320,
     "topics": [
       "agent-skills"
     ],
-    "updated_at": "2026-04-18T12:01:46Z"
+    "updated_at": "2026-04-19T14:03:07Z"
   },
   "repo_links": [],
   "terms": [

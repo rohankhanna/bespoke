@@ -16,16 +16,20 @@
       "size": 3372
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:46.178758+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "\u8fbe\u5c14\u6587.skill \u2014\u2014 \u4e00\u4e2a\u8ba9\u4f60\u7684Skill\u65e0\u9650\u8fdb\u5316\u7684\u7cfb\u7edf\uff1a\u8bc4\u4f30\u2192\u6539\u8fdb\u2192\u6d4b\u8bd5\u2192\u4fdd\u7559\u6216\u56de\u6eda | Autoresearch-inspired autonomous skill optimization for Claude Code. Evaluate, improve, test, keep or revert.",
+    "fork": false,
     "full_name": "alchaincyf/darwin-skill",
     "html_url": "https://github.com/alchaincyf/darwin-skill",
     "language": "HTML",
-    "pushed_at": "2026-04-14T15:37:16Z",
+    "pushed_at": "2026-04-18T17:21:38Z",
+    "stargazers_count": 1249,
     "topics": [],
-    "updated_at": "2026-04-18T11:16:05Z"
+    "updated_at": "2026-04-19T14:01:18Z"
   },
   "repo_links": [
     {

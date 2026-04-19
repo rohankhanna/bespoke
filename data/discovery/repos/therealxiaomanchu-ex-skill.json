@@ -118,16 +118,20 @@
       "size": 131
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:36.973558+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\u628a\u524d\u4efb\u84b8\u998f\u6210 AI Skill\uff0c\u7528ta\u7684\u65b9\u5f0f\u8ddf\u4f60\u8bf4\u8bdd\u3002",
-    "full_name": "therealXiaomanChu/ex-skill",
+    "fork": false,
+    "full_name": "therealxiaomanchu/ex-skill",
     "html_url": "https://github.com/therealXiaomanChu/ex-skill",
     "language": "Python",
     "pushed_at": "2026-04-08T16:46:35Z",
+    "stargazers_count": 4623,
     "topics": [],
-    "updated_at": "2026-04-18T09:04:48Z"
+    "updated_at": "2026-04-19T11:48:29Z"
   },
   "repo_links": [
     {

@@ -37,16 +37,20 @@
       "size": 1116
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:45.556781+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "An AI co-scientist powered by Claude Scientific Skills running on your desktop.",
-    "full_name": "K-Dense-AI/k-dense-byok",
+    "fork": false,
+    "full_name": "k-dense-ai/k-dense-byok",
     "html_url": "https://github.com/K-Dense-AI/k-dense-byok",
     "language": "TypeScript",
     "pushed_at": "2026-04-16T14:44:15Z",
+    "stargazers_count": 571,
     "topics": [],
-    "updated_at": "2026-04-18T11:08:01Z"
+    "updated_at": "2026-04-19T11:36:54Z"
   },
   "repo_links": [],
   "terms": [

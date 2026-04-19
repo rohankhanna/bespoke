@@ -296,16 +296,20 @@
       "size": 75493
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:28.624297+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A comprehensive guide to running autonomous AI coding loops using Geoff Huntley's Ralph methodology. View as formatted guide below \ud83d\udc47",
-    "full_name": "ClaytonFarr/ralph-playbook",
+    "fork": false,
+    "full_name": "claytonfarr/ralph-playbook",
     "html_url": "https://github.com/ClaytonFarr/ralph-playbook",
     "language": "HTML",
     "pushed_at": "2026-03-06T21:56:54Z",
+    "stargazers_count": 955,
     "topics": [],
-    "updated_at": "2026-04-18T07:50:57Z"
+    "updated_at": "2026-04-18T12:26:32Z"
   },
   "repo_links": [],
   "terms": [

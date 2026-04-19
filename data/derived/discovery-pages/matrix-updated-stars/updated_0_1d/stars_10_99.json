@@ -1,25 +1,28 @@
 {
   "counts": {
-    "components": 97,
+    "components": 120,
     "concepts": 2,
     "observations": 2,
-    "repos": 10,
-    "terms": 28
+    "repos": 13,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
     "chaos2cured/freelattice",
     "cloudllm-ai/mentisdb",
+    "costiash/claude-code-docs",
+    "ethpandaops/xatu-data",
     "flinedev/tandemkit",
     "itsrishika/payment-bypass-bug-lab",
     "jkheadley/instar",
     "liangshengyong/lanwan",
     "overseedai/viwo",
+    "peergos/web-ui",
     "sliamh11/deus",
     "steipete/homebrew-tap",
     "thedoggybrad/easylist-mirror"

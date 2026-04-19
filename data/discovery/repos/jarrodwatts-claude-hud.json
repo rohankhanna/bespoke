@@ -223,14 +223,18 @@
       "size": 989
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:49.035735+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
+    "fork": false,
     "full_name": "jarrodwatts/claude-hud",
     "html_url": "https://github.com/jarrodwatts/claude-hud",
     "language": "JavaScript",
-    "pushed_at": "2026-04-11T21:32:37Z",
+    "pushed_at": "2026-04-18T21:32:38Z",
+    "stargazers_count": 19963,
     "topics": [
       "anthropic",
       "claude",
@@ -240,7 +244,7 @@
       "statusline",
       "typescript"
     ],
-    "updated_at": "2026-04-18T11:48:39Z"
+    "updated_at": "2026-04-19T13:55:40Z"
   },
   "repo_links": [],
   "terms": [

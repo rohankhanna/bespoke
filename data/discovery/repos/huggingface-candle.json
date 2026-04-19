@@ -413,16 +413,20 @@
       "size": 360
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:40.432697+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Minimalist ML framework for Rust",
+    "fork": false,
     "full_name": "huggingface/candle",
     "html_url": "https://github.com/huggingface/candle",
     "language": "Rust",
-    "pushed_at": "2026-04-16T12:37:54Z",
+    "pushed_at": "2026-04-19T13:22:31Z",
+    "stargazers_count": 20040,
     "topics": [],
-    "updated_at": "2026-04-18T09:36:28Z"
+    "updated_at": "2026-04-19T12:58:41Z"
   },
   "repo_links": [
     {

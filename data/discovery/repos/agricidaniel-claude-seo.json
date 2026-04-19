@@ -102,14 +102,18 @@
       "size": 2037
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:53.771106+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Universal SEO skill for Claude Code. 19 sub-skills, 12 subagents, 3 extensions (DataForSEO, Firecrawl, Banana). Technical SEO, E-E-A-T, schema, GEO/AEO, backlinks, local SEO, maps intelligence, Google APIs, and PDF/Excel reporting.",
-    "full_name": "AgriciDaniel/claude-seo",
+    "fork": false,
+    "full_name": "agricidaniel/claude-seo",
     "html_url": "https://github.com/AgriciDaniel/claude-seo",
     "language": "Python",
     "pushed_at": "2026-04-15T16:44:47Z",
+    "stargazers_count": 5121,
     "topics": [
       "ai",
       "ai-seo",
@@ -119,7 +123,7 @@
       "open-source",
       "seo"
     ],
-    "updated_at": "2026-04-18T13:16:00Z"
+    "updated_at": "2026-04-19T13:49:18Z"
   },
   "repo_links": [
     {

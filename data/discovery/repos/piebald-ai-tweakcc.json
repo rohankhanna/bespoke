@@ -1317,14 +1317,18 @@
       "size": 950
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:28.319559+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Customize Claude Code's system prompts, create custom toolsets, input pattern highlighters, themes/thinking verbs/spinners, customize input box & user message styling, support AGENTS.md, unlock private/unreleased features, and much more.  Supports both native/npm installs on all platforms.",
-    "full_name": "Piebald-AI/tweakcc",
+    "fork": false,
+    "full_name": "piebald-ai/tweakcc",
     "html_url": "https://github.com/Piebald-AI/tweakcc",
     "language": "TypeScript",
     "pushed_at": "2026-04-17T23:29:59Z",
+    "stargazers_count": 1797,
     "topics": [
       "agentic",
       "anthropic",
@@ -1347,7 +1351,7 @@
       "token-counter",
       "tweak"
     ],
-    "updated_at": "2026-04-18T07:48:26Z"
+    "updated_at": "2026-04-19T13:28:41Z"
   },
   "repo_links": [
     {

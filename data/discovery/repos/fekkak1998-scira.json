@@ -2154,14 +2154,18 @@
       "size": 6623
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:21.057893+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83d\udd0d Find accurate information quickly with Scira, a minimalistic AI-driven search engine designed for efficient web exploration.",
+    "fork": false,
     "full_name": "fekkak1998/scira",
     "html_url": "https://github.com/fekkak1998/scira",
     "language": "TypeScript",
-    "pushed_at": "2026-04-18T04:12:03Z",
+    "pushed_at": "2026-04-19T12:08:41Z",
+    "stargazers_count": 0,
     "topics": [
       "ai-search-engine",
       "anthropic",
@@ -2183,7 +2187,7 @@
       "search-engine",
       "xai"
     ],
-    "updated_at": "2026-04-18T04:12:06Z"
+    "updated_at": "2026-04-19T12:08:44Z"
   },
   "repo_links": [],
   "terms": []

@@ -16,16 +16,20 @@
       "size": 21354
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:38.533090+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "My personal favorite skills",
+    "fork": false,
     "full_name": "pedronauck/skills",
     "html_url": "https://github.com/pedronauck/skills",
     "language": "Python",
     "pushed_at": "2026-04-16T20:21:51Z",
+    "stargazers_count": 303,
     "topics": [],
-    "updated_at": "2026-04-18T09:20:37Z"
+    "updated_at": "2026-04-19T10:35:56Z"
   },
   "repo_links": [
     {

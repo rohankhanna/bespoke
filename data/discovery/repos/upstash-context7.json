@@ -490,21 +490,25 @@
       "size": 1438
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:54.780565+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors",
+    "fork": false,
     "full_name": "upstash/context7",
     "html_url": "https://github.com/upstash/context7",
     "language": "TypeScript",
     "pushed_at": "2026-04-18T13:14:45Z",
+    "stargazers_count": 53147,
     "topics": [
       "llm",
       "mcp",
       "mcp-server",
       "vibe-coding"
     ],
-    "updated_at": "2026-04-18T13:37:02Z"
+    "updated_at": "2026-04-19T13:59:38Z"
   },
   "repo_links": [],
   "terms": [

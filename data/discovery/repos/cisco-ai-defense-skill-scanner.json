@@ -332,20 +332,24 @@
       "size": 2222
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:42.257324+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Security Scanner for Agent Skills",
+    "fork": false,
     "full_name": "cisco-ai-defense/skill-scanner",
     "html_url": "https://github.com/cisco-ai-defense/skill-scanner",
     "language": "Python",
     "pushed_at": "2026-04-10T16:21:19Z",
+    "stargazers_count": 1789,
     "topics": [
       "agent",
       "agent-skills",
       "security"
     ],
-    "updated_at": "2026-04-18T10:15:05Z"
+    "updated_at": "2026-04-19T13:30:47Z"
   },
   "repo_links": [],
   "terms": [

@@ -1,35 +1,18 @@
 {
   "counts": {
-    "components": 244,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 18,
-    "terms": 54
+    "components": 0,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 1,
+    "terms": 0
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
-    "AndyMik90/Aperant",
-    "BehiSecc/awesome-claude-skills",
-    "dtolnay/anyhow",
-    "eyaltoledano/claude-task-master",
-    "Jeffallan/claude-skills",
-    "karpathy/autoresearch",
-    "ldayton/Dippy",
-    "manzaltu/claude-code-ide.el",
-    "NousResearch/tinker-atropos",
-    "onyx-dot-app/onyx_deep_research_bench",
-    "revfactory/harness-100",
-    "ruvnet/agentic-flow",
-    "smtg-ai/claude-squad",
-    "steipete/Peekaboo",
-    "SuperClaude-Org/SuperClaude_Framework",
-    "W1ndys/ex-cure-skill",
-    "ykdojo/claude-code-tips",
-    "zarazhangrui/codebase-to-course"
+    "karpathy/autoresearch"
   ]
 }

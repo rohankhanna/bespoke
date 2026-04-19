@@ -206,14 +206,18 @@
       "size": 1106
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:43.740754+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Style definitions for nice terminal layouts \ud83d\udc44",
+    "fork": false,
     "full_name": "charmbracelet/lipgloss",
     "html_url": "https://github.com/charmbracelet/lipgloss",
     "language": "Go",
-    "pushed_at": "2026-04-13T20:15:52Z",
+    "pushed_at": "2026-04-19T00:42:23Z",
+    "stargazers_count": 11086,
     "topics": [
       "cli",
       "go",
@@ -223,7 +227,7 @@
       "style",
       "tui"
     ],
-    "updated_at": "2026-04-18T10:37:21Z"
+    "updated_at": "2026-04-19T13:31:23Z"
   },
   "repo_links": [
     {

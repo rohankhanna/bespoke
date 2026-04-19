@@ -955,14 +955,18 @@
       "size": 460
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:29.156832+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "\ud83e\udd68 Lobe Icons - Brings AI/LLM brand logos to your React & React Native apps \u2014 static SVG/PNG/WebP, no dependencies.",
+    "fork": false,
     "full_name": "lobehub/lobe-icons",
     "html_url": "https://github.com/lobehub/lobe-icons",
     "language": "TypeScript",
     "pushed_at": "2026-04-09T00:49:12Z",
+    "stargazers_count": 1768,
     "topics": [
       "ai",
       "ai-brands",
@@ -985,7 +989,7 @@
       "svg",
       "svg-icons"
     ],
-    "updated_at": "2026-04-18T08:01:32Z"
+    "updated_at": "2026-04-19T13:31:01Z"
   },
   "repo_links": [
     {

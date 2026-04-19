@@ -1,21 +1,24 @@
 {
   "counts": {
-    "components": 368,
-    "concepts": 49,
-    "observations": 49,
-    "repos": 15,
-    "terms": 108
+    "components": 409,
+    "concepts": 52,
+    "observations": 52,
+    "repos": 19,
+    "terms": 116
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
     "alfredolopez80/multi-agent-ralph-loop",
+    "alistaitsacle/free-llm-api-keys",
     "cargo-bins/cargo-quickinstall",
+    "danielrosehill/claude-code-projects-index",
     "elizaos/elizaos.github.io",
+    "ericbuess/claude-code-docs",
     "grubersjoe/react-activity-calendar",
     "jsonbored/claudepro-directory",
     "lobehub/lobe-chat-plugins",
@@ -27,6 +30,7 @@
     "stevemolitor/claude-code.el",
     "stevemolitor/monet",
     "tombii/better-ccflare",
-    "tony1223/better-agent-terminal"
+    "tony1223/better-agent-terminal",
+    "vibe-log/vibe-log-cli"
   ]
 }

@@ -63,16 +63,20 @@
       "size": 386
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:24.495571+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Noto Emoji fonts",
+    "fork": false,
     "full_name": "googlefonts/noto-emoji",
     "html_url": "https://github.com/googlefonts/noto-emoji",
     "language": "Python",
     "pushed_at": "2025-09-15T22:36:48Z",
+    "stargazers_count": 4664,
     "topics": [],
-    "updated_at": "2026-04-18T06:11:14Z"
+    "updated_at": "2026-04-18T19:06:41Z"
   },
   "repo_links": [
     {

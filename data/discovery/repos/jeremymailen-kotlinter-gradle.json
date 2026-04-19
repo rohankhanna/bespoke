@@ -359,14 +359,18 @@
       "size": 697
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:26.480578+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Painless, fast ktlint plugin for Gradle",
+    "fork": false,
     "full_name": "jeremymailen/kotlinter-gradle",
     "html_url": "https://github.com/jeremymailen/kotlinter-gradle",
     "language": "Kotlin",
     "pushed_at": "2026-04-18T07:00:43Z",
+    "stargazers_count": 710,
     "topics": [],
     "updated_at": "2026-04-18T07:00:46Z"
   },

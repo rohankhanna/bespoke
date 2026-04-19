@@ -69,14 +69,18 @@
       "size": 1081
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:52.231251+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Collect, review, and upload redacted pi session files to a Hugging Face dataset",
+    "fork": false,
     "full_name": "badlogic/pi-share-hf",
     "html_url": "https://github.com/badlogic/pi-share-hf",
     "language": "TypeScript",
     "pushed_at": "2026-04-13T18:03:26Z",
+    "stargazers_count": 145,
     "topics": [],
     "updated_at": "2026-04-18T12:33:54Z"
   },

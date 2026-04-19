@@ -114,14 +114,18 @@
       "size": 10132
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:34.111480+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "\ud83d\udc14 Agentic systems explained with chickens. Workflows, agents & orchestration made simple. Mermaid diagrams included",
-    "full_name": "ThibautMelen/agentic-ai-systems",
+    "fork": false,
+    "full_name": "thibautmelen/agentic-ai-systems",
     "html_url": "https://github.com/ThibautMelen/agentic-ai-systems",
     "language": null,
     "pushed_at": "2025-12-08T13:10:04Z",
+    "stargazers_count": 248,
     "topics": [
       "agent-sdk",
       "agentic",

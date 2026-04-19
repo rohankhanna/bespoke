@@ -370,14 +370,18 @@
       "size": 251
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:37.806960+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "dev-v2",
     "description": "\ud83d\udd25 1Panel is a modern, open-source VPS control panel \u2014 and the only one with native AI agent support. Run Ollama models, deploy OpenClaw agents, and manage your entire server stack from one clean web interface.",
-    "full_name": "1Panel-dev/1Panel",
+    "fork": false,
+    "full_name": "1panel-dev/1panel",
     "html_url": "https://github.com/1Panel-dev/1Panel",
     "language": "Go",
     "pushed_at": "2026-04-17T08:36:19Z",
+    "stargazers_count": 35035,
     "topics": [
       "agent",
       "clawdbot",
@@ -394,7 +398,7 @@
       "qwenpaw",
       "webmin"
     ],
-    "updated_at": "2026-04-18T09:10:30Z"
+    "updated_at": "2026-04-19T13:49:36Z"
   },
   "repo_links": [],
   "terms": [

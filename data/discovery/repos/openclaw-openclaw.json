@@ -2043,14 +2043,18 @@
       "size": 1970
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:20.046331+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e ",
+    "fork": false,
     "full_name": "openclaw/openclaw",
     "html_url": "https://github.com/openclaw/openclaw",
     "language": "TypeScript",
-    "pushed_at": "2026-04-18T03:41:51Z",
+    "pushed_at": "2026-04-19T11:13:13Z",
+    "stargazers_count": 360359,
     "topics": [
       "ai",
       "assistant",
@@ -2060,7 +2064,7 @@
       "own-your-data",
       "personal"
     ],
-    "updated_at": "2026-04-18T03:53:44Z"
+    "updated_at": "2026-04-19T14:03:04Z"
   },
   "repo_links": [
     {

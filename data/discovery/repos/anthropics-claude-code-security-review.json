@@ -92,16 +92,20 @@
       "size": 1520
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:52.043335+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "An AI-powered security review GitHub Action using Claude to analyze code changes for security vulnerabilities.",
+    "fork": false,
     "full_name": "anthropics/claude-code-security-review",
     "html_url": "https://github.com/anthropics/claude-code-security-review",
     "language": "Python",
     "pushed_at": "2026-02-11T18:01:23Z",
+    "stargazers_count": 4314,
     "topics": [],
-    "updated_at": "2026-04-18T12:33:32Z"
+    "updated_at": "2026-04-19T10:53:54Z"
   },
   "repo_links": [],
   "terms": [

@@ -1,33 +1,18 @@
 {
   "counts": {
-    "components": 161,
-    "concepts": 60,
-    "observations": 60,
-    "repos": 16,
-    "terms": 65
+    "components": 17,
+    "concepts": 14,
+    "observations": 14,
+    "repos": 1,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
-    "0xtbug/zero-limit",
-    "AUTOMATIC1111/stable-diffusion-webui",
-    "automazeio/ccpm",
-    "blader/Claudeception",
-    "BurntSushi/ripgrep",
-    "charmbracelet/glamour",
-    "ClaytonFarr/ralph-playbook",
-    "coaidev/coai",
-    "Haleclipse/CCometixLine",
-    "junegunn/vim-plug",
-    "kamranahmedse/claude-run",
-    "knownsec/404StarLink",
-    "kyleneideck/BackgroundMusic",
-    "shareAI-lab/claw0",
-    "steipete/imsg",
-    "vercel/satori"
+    "coaidev/coai"
   ]
 }

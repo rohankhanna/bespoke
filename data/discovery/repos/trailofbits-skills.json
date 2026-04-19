@@ -151,18 +151,22 @@
       "size": 3229
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:26.241681+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Trail of Bits Claude Code skills for security research, vulnerability detection, and audit workflows",
+    "fork": false,
     "full_name": "trailofbits/skills",
     "html_url": "https://github.com/trailofbits/skills",
     "language": "Python",
     "pushed_at": "2026-04-17T17:46:49Z",
+    "stargazers_count": 4674,
     "topics": [
       "agent-skills"
     ],
-    "updated_at": "2026-04-18T06:51:56Z"
+    "updated_at": "2026-04-19T13:20:47Z"
   },
   "repo_links": [
     {

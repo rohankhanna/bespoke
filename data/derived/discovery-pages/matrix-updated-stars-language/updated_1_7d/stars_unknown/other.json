@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 469,
-    "concepts": 58,
-    "observations": 60,
-    "repos": 14,
-    "terms": 70
+    "components": 15,
+    "concepts": 15,
+    "observations": 16,
+    "repos": 3,
+    "terms": 15
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,10 @@
     "star_bucket": "stars_unknown",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:03:00.009749+00:00",
+  "generated_at": "2026-04-19T14:03:58.882676+00:00",
   "repo_ids": [
-    "actions/runner-images",
     "aitooools/aitooools.github.io",
-    "alchaincyf/darwin-skill",
-    "anthropics/claude-cookbooks",
     "apple/container",
-    "automazeio/vibeproxy",
-    "danielrosehill/Claude-Code-Projects-Index",
-    "ethpandaops/xatu-data",
-    "genuslovoacalixtusiii510/YTP-2026",
-    "jeremymailen/kotlinter-gradle",
-    "metabase/metabase",
-    "oven-sh/bun",
-    "pinterest/ktlint",
-    "revfactory/harness"
+    "automazeio/vibeproxy"
   ]
 }

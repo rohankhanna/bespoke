@@ -1,6 +1,6 @@
 # 1 to 9 stars
 
-Generated at: `2026-04-19T14:03:00.009749+00:00`
+Generated at: `2026-04-19T14:03:58.882676+00:00`
 
 ## Active filters
 
@@ -8,8 +8,8 @@ Generated at: `2026-04-19T14:03:00.009749+00:00`
 
 ## Counts
 
-- repos: 116
-- terms: 228
+- repos: 119
+- terms: 229
 - components: 984
 - concepts: 164
 - observations: 164
@@ -32,6 +32,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [floxym/financial-chat-finance-nlp-chatbots](https://github.com/Floxym/financial-chat-Finance-NLP-Chatbots) | 6 | 2026-04-19T13:19:53Z | Other | Infrastructure/tooling | 1 | 2 | 0 | 0 |
 | [saminiscool/twitter-ai-agent](https://github.com/Saminiscool/twitter-ai-agent) | 2 | 2026-04-19T13:16:17Z | TypeScript | CLI | 0 | 38 | 0 | 0 |
 | [anojndr/grok-to-openai](https://github.com/anojndr/grok-to-openai) | 2 | 2026-04-19T12:57:02Z | JavaScript | Web app | 1 | 6 | 0 | 0 |
+| [graveyardsfocrdpktv/ethereum-mempool-bot](https://github.com/graveyardsfocrdpktv/Ethereum-mempool-bot) | 1 | 2026-04-19T12:43:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [gbrobro119-star/darksword-kexploit](https://github.com/gbrobro119-star/darksword-kexploit) | 1 | 2026-04-19T12:37:45Z | C/C++ | Unknown | 1 | 0 | 0 | 0 |
+| [stealabra5019/grok-enhancer](https://github.com/stealabra5019/Grok-Enhancer) | 1 | 2026-04-19T12:26:16Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [lonewolf-jp/convopeq](https://github.com/lonewolf-jp/ConvoPeq) | 3 | 2026-04-19T12:04:07Z | C/C++ | Framework | 0 | 0 | 0 | 0 |
 | [rrsaldanha/burp-mcp-agents](https://github.com/rrsaldanha/burp-mcp-agents) | 2 | 2026-04-19T11:53:12Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [cyber404/che-apple-mail-mcp](https://github.com/cyber404/che-apple-mail-mcp) | 1 | 2026-04-19T11:53:10Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -234,6 +237,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [putoutjs/putout-processor-typos](https://github.com/putoutjs/putout-processor-typos) | 2 | 2022-09-21T18:23:44Z | JavaScript | Unknown | 0 | 15 | 0 | 0 |
 | [penpoen/llm-sugarscape](https://github.com/penpoen/llm-SugarScape) | 1 | 2026-04-19T13:44:54Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [momentique/source-code-security-audit-reviewer](https://github.com/Momentique/Source-Code-Security-Audit-Reviewer) | 1 | 2026-04-19T13:42:15Z | Python | Infrastructure/tooling | 1 | 2 | 0 | 0 |
+| [graveyardsfocrdpktv/ethereum-mempool-bot](https://github.com/graveyardsfocrdpktv/Ethereum-mempool-bot) | 1 | 2026-04-19T12:43:13Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [gbrobro119-star/darksword-kexploit](https://github.com/gbrobro119-star/darksword-kexploit) | 1 | 2026-04-19T12:37:45Z | C/C++ | Unknown | 1 | 0 | 0 | 0 |
+| [stealabra5019/grok-enhancer](https://github.com/stealabra5019/Grok-Enhancer) | 1 | 2026-04-19T12:26:16Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [cyber404/che-apple-mail-mcp](https://github.com/cyber404/che-apple-mail-mcp) | 1 | 2026-04-19T11:53:10Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [kmjjjj/polymarket-arbitrage-bot-btc-sol-15m](https://github.com/kmjjjj/polymarket-arbitrage-bot-btc-sol-15m) | 1 | 2026-04-19T11:52:48Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [enxs969/skiller](https://github.com/Enxs969/skiller) | 1 | 2026-04-19T11:51:10Z | TypeScript | Unknown | 0 | 13 | 0 | 0 |

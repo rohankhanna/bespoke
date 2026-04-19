@@ -162,19 +162,23 @@
       "size": 2980
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:52.589831+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": "Google core libraries for Java",
+    "fork": false,
     "full_name": "google/guava",
     "html_url": "https://github.com/google/guava",
     "language": "Java",
     "pushed_at": "2026-04-17T21:56:04Z",
+    "stargazers_count": 51506,
     "topics": [
       "guava",
       "java"
     ],
-    "updated_at": "2026-04-18T12:37:29Z"
+    "updated_at": "2026-04-19T10:31:05Z"
   },
   "repo_links": [
     {

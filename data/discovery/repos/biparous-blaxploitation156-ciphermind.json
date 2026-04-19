@@ -8,14 +8,18 @@
       "size": 4422
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:22.058722+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Analyze code for security flaws with AI, track patterns with memory, and help developers fix risks across languages",
-    "full_name": "biparous-blaxploitation156/CipherMind",
+    "fork": false,
+    "full_name": "biparous-blaxploitation156/ciphermind",
     "html_url": "https://github.com/biparous-blaxploitation156/CipherMind",
     "language": null,
-    "pushed_at": "2026-04-18T04:39:05Z",
+    "pushed_at": "2026-04-19T12:37:04Z",
+    "stargazers_count": 0,
     "topics": [
       "ai-plugins",
       "alignment",
@@ -38,7 +42,7 @@
       "telethon",
       "tower-defense"
     ],
-    "updated_at": "2026-04-18T04:39:09Z"
+    "updated_at": "2026-04-19T12:37:08Z"
   },
   "repo_links": [],
   "terms": []

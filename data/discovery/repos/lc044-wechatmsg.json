@@ -32,21 +32,25 @@
   ],
   "fetched_at": "2026-04-18T11:32:28.246049+00:00",
   "fetched_files": [],
+  "metadata_refreshed_at": "2026-04-19T14:03:47.492036+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": null,
-    "full_name": "LC044/WeChatMsg",
+    "fork": false,
+    "full_name": "lc044/wechatmsg",
     "html_url": "https://github.com/LC044/WeChatMsg",
     "language": null,
     "pushed_at": "2025-12-30T13:31:16Z",
+    "stargazers_count": 41226,
     "topics": [
       "chatgpt",
       "llms",
       "pyqt",
       "wechat"
     ],
-    "updated_at": "2026-04-18T11:24:16Z"
+    "updated_at": "2026-04-19T14:01:08Z"
   },
   "repo_links": [],
   "terms": [

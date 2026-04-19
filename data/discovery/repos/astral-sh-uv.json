@@ -1105,21 +1105,25 @@
       "size": 992
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:42.729802+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "An extremely fast Python package and project manager, written in Rust.",
+    "fork": false,
     "full_name": "astral-sh/uv",
     "html_url": "https://github.com/astral-sh/uv",
     "language": "Rust",
-    "pushed_at": "2026-04-17T21:25:53Z",
+    "pushed_at": "2026-04-19T10:42:48Z",
+    "stargazers_count": 83519,
     "topics": [
       "packaging",
       "python",
       "resolver",
       "uv"
     ],
-    "updated_at": "2026-04-18T10:23:26Z"
+    "updated_at": "2026-04-19T13:17:00Z"
   },
   "repo_links": [
     {

@@ -54,18 +54,22 @@
       "size": 1260
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:30.937827+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "master",
     "description": ":hibiscus: Minimalist Vim Plugin Manager",
+    "fork": false,
     "full_name": "junegunn/vim-plug",
     "html_url": "https://github.com/junegunn/vim-plug",
     "language": "Vim Script",
     "pushed_at": "2026-02-18T16:23:49Z",
+    "stargazers_count": 35626,
     "topics": [
       "vim"
     ],
-    "updated_at": "2026-04-18T08:26:15Z"
+    "updated_at": "2026-04-19T09:43:04Z"
   },
   "repo_links": [
     {

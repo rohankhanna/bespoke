@@ -324,14 +324,18 @@
       "size": 193
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:50.253572+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Node.js JavaScript runtime \u2728\ud83d\udc22\ud83d\ude80\u2728",
+    "fork": false,
     "full_name": "nodejs/node",
     "html_url": "https://github.com/nodejs/node",
     "language": "JavaScript",
-    "pushed_at": "2026-04-18T10:10:57Z",
+    "pushed_at": "2026-04-19T07:03:51Z",
+    "stargazers_count": 116811,
     "topics": [
       "javascript",
       "js",
@@ -343,7 +347,7 @@
       "runtime",
       "windows"
     ],
-    "updated_at": "2026-04-18T12:00:19Z"
+    "updated_at": "2026-04-19T13:29:04Z"
   },
   "repo_links": [
     {

@@ -401,14 +401,18 @@
       "size": 79004
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:33.261966+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "45 tips for getting the most out of Claude Code, from basics to advanced - includes a custom status line script, cutting the system prompt in half, using Gemini CLI as Claude Code's minion, and Claude Code running itself in a container. Also includes the dx plugin.",
+    "fork": false,
     "full_name": "ykdojo/claude-code-tips",
     "html_url": "https://github.com/ykdojo/claude-code-tips",
     "language": "JavaScript",
     "pushed_at": "2026-04-02T06:27:19Z",
+    "stargazers_count": 7809,
     "topics": [
       "agentic",
       "agentic-ai",
@@ -423,7 +427,7 @@
       "productivity",
       "tips-and-tricks"
     ],
-    "updated_at": "2026-04-18T08:45:16Z"
+    "updated_at": "2026-04-19T13:49:16Z"
   },
   "repo_links": [
     {

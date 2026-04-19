@@ -225,16 +225,20 @@
       "size": 5830
     }
   ],
+  "metadata_refreshed_at": "2026-04-19T14:03:51.592641+00:00",
   "related_repositories": [],
   "repo": {
+    "archived": false,
     "default_branch": "main",
     "description": "Cross-platform filesystem notifications for Go.",
+    "fork": false,
     "full_name": "fsnotify/fsnotify",
     "html_url": "https://github.com/fsnotify/fsnotify",
     "language": "Go",
     "pushed_at": "2025-12-04T14:32:34Z",
+    "stargazers_count": 10616,
     "topics": [],
-    "updated_at": "2026-04-18T12:27:33Z"
+    "updated_at": "2026-04-18T15:22:42Z"
   },
   "repo_links": [],
   "terms": [
