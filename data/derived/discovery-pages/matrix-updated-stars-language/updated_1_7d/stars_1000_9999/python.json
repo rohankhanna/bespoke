@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 148,
-    "concepts": 94,
-    "observations": 94,
-    "repos": 18,
-    "terms": 118
+    "components": 154,
+    "concepts": 97,
+    "observations": 97,
+    "repos": 19,
+    "terms": 121
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-20T05:28:45.163139+00:00",
+  "generated_at": "2026-04-20T07:16:20.858706+00:00",
   "repo_ids": [
     "agricidaniel/claude-ads",
     "agricidaniel/claude-seo",
+    "anthropics/anthropic-sdk-python",
     "arogozhnikov/einops",
     "basicmachines-co/basic-memory",
     "codespell-project/codespell",

@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 562,
-    "concepts": 231,
-    "observations": 231,
-    "repos": 65,
-    "terms": 300
+    "concepts": 220,
+    "observations": 220,
+    "repos": 64,
+    "terms": 289
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-20T05:28:45.163139+00:00",
+  "generated_at": "2026-04-20T07:16:20.858706+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "8144225309/superscalar-mcp",
@@ -26,7 +26,6 @@
     "charmbracelet/glamour",
     "claytonfarr/ralph-playbook",
     "coaidev/coai",
-    "ComposioHQ/awesome-claude-skills",
     "cowboy8625/rusty-rain",
     "ctoth/claudio",
     "dagger/container-use",

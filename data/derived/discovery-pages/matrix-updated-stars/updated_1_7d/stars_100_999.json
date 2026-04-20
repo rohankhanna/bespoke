@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 646,
+    "components": 694,
     "concepts": 243,
     "observations": 245,
-    "repos": 75,
-    "terms": 363
+    "repos": 77,
+    "terms": 388
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-20T05:28:45.163139+00:00",
+  "generated_at": "2026-04-20T07:16:20.858706+00:00",
   "repo_ids": [
     "aannoo/hcom",
     "aaronwong1999/hermesclaw",
@@ -43,6 +43,7 @@
     "harperreed/dotfiles",
     "jeremymailen/kotlinter-gradle",
     "jezweb/claude-skills",
+    "jsonbored/claudepro-directory",
     "k-dense-ai/k-dense-byok",
     "Kampfkarren/full-moon",
     "kubernetes/sig-release",
@@ -87,6 +88,7 @@
     "thinking-machines-lab/tinker",
     "tombii/better-ccflare",
     "trailofbits/dropkit",
-    "undeadlist/claude-code-agents"
+    "undeadlist/claude-code-agents",
+    "vibe-log/vibe-log-cli"
   ]
 }

@@ -1,20 +1,19 @@
 {
   "counts": {
-    "components": 455,
-    "concepts": 63,
-    "observations": 63,
-    "repos": 16,
-    "terms": 114
+    "components": 428,
+    "concepts": 41,
+    "observations": 41,
+    "repos": 14,
+    "terms": 92
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-20T05:28:45.163139+00:00",
+  "generated_at": "2026-04-20T07:16:20.858706+00:00",
   "repo_ids": [
     "abraxas-365/langchain-rust",
-    "anthropics/anthropic-sdk-python",
     "archestra-ai/archestra",
     "ding113/claude-code-hub",
     "dyoshikawa/rulesync",
@@ -22,7 +21,6 @@
     "hashintel/hash",
     "libp2p/js-libp2p",
     "lobehub/sd-webui-lobe-theme",
-    "mksglu/context-mode",
     "nesquena/hermes-webui",
     "nizos/tdd-guard",
     "op7418/codepilot",

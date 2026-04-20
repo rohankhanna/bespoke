@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 276,
+    "components": 228,
     "concepts": 69,
     "observations": 69,
-    "repos": 15,
-    "terms": 104
+    "repos": 13,
+    "terms": 79
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-20T05:28:45.163139+00:00",
+  "generated_at": "2026-04-20T07:16:20.858706+00:00",
   "repo_ids": [
     "albumentations-team/AlbumentationsX",
     "alistaitsacle/free-llm-api-keys",
@@ -23,10 +23,8 @@
     "elizaos/elizaos.github.io",
     "ericbuess/claude-code-docs",
     "grubersjoe/react-activity-calendar",
-    "jsonbored/claudepro-directory",
     "nodejs/admin",
     "serpro69/claude-toolbox",
-    "tony1223/better-agent-terminal",
-    "vibe-log/vibe-log-cli"
+    "tony1223/better-agent-terminal"
   ]
 }

@@ -1,16 +1,16 @@
 {
   "counts": {
     "components": 277,
-    "concepts": 98,
-    "observations": 98,
-    "repos": 38,
-    "terms": 120
+    "concepts": 109,
+    "observations": 109,
+    "repos": 39,
+    "terms": 131
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-20T05:28:45.163139+00:00",
+  "generated_at": "2026-04-20T07:16:20.858706+00:00",
   "repo_ids": [
     "agrimsingh/ralph-wiggum-cursor",
     "alonw0/web-asset-generator",
@@ -21,6 +21,7 @@
     "asg017/sqlite-hello",
     "bats-core/bats-core",
     "cloudrepo-io/founder-os",
+    "ComposioHQ/awesome-claude-skills",
     "genius-harry/neural-chat",
     "greggh/claude-code.nvim",
     "hesreallyhim/inkverse-fork",

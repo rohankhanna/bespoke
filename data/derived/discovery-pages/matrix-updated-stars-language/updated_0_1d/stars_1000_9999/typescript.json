@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 382,
-    "concepts": 34,
-    "observations": 34,
-    "repos": 8,
-    "terms": 65
+    "components": 361,
+    "concepts": 15,
+    "observations": 15,
+    "repos": 7,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-20T05:28:45.163139+00:00",
+  "generated_at": "2026-04-20T07:16:20.858706+00:00",
   "repo_ids": [
     "archestra-ai/archestra",
     "ding113/claude-code-hub",
     "dyoshikawa/rulesync",
     "libp2p/js-libp2p",
     "lobehub/sd-webui-lobe-theme",
-    "mksglu/context-mode",
     "nizos/tdd-guard",
     "op7418/codepilot"
   ]

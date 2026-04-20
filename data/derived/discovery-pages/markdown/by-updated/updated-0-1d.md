@@ -1,6 +1,6 @@
 # Updated in the last 24 hours
 
-Generated at: `2026-04-20T05:28:45.163139+00:00`
+Generated at: `2026-04-20T07:16:20.858706+00:00`
 
 ## Active filters
 
@@ -8,11 +8,11 @@ Generated at: `2026-04-20T05:28:45.163139+00:00`
 
 ## Counts
 
-- repos: 153
-- terms: 752
-- components: 3062
-- concepts: 534
-- observations: 536
+- repos: 139
+- terms: 673
+- components: 2925
+- concepts: 495
+- observations: 496
 
 ## Static behavior
 
@@ -161,20 +161,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [nesquena/hermes-webui](https://github.com/nesquena/hermes-webui) | 2782 | 2026-04-19T07:36:00Z | Python | Infrastructure/tooling | 2 | 8 | 0 | 0 |
 | [mohfer/nous-proxy](https://github.com/mohfer/nous-proxy) | 0 | 2026-04-19T07:29:33Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 134049 | 2026-04-19T07:26:03Z | Python | Infrastructure/tooling | 20 | 10 | 20 | 20 |
-| [nodejs/node](https://github.com/nodejs/node) | 116811 | 2026-04-19T07:03:51Z | JavaScript | Infrastructure/tooling | 12 | 11 | 12 | 12 |
-| [joinwell52-ai/codeflow-pwa](https://github.com/joinwell52-AI/codeflow-pwa) | 1 | 2026-04-19T06:58:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [verkyyi/tokenman](https://github.com/verkyyi/tokenman) | 2 | 2026-04-19T06:57:48Z | Python | Infrastructure/tooling | 8 | 11 | 0 | 0 |
-| [jkheadley/instar](https://github.com/JKHeadley/instar) | 59 | 2026-04-19T06:38:45Z | TypeScript | CLI | 2 | 30 | 0 | 0 |
-| [mksglu/context-mode](https://github.com/mksglu/context-mode) | 7824 | 2026-04-19T06:32:25Z | TypeScript | CLI | 19 | 21 | 19 | 19 |
-| [jsonbored/claudepro-directory](https://github.com/JSONbored/claudepro-directory) | 209 | 2026-04-19T06:16:00Z | Other | Infrastructure/tooling | 22 | 11 | 0 | 0 |
-| [damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit](https://github.com/Damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit) | 0 | 2026-04-19T05:59:03Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
-| [damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf](https://github.com/Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf) | 0 | 2026-04-19T05:57:47Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
-| [damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf](https://github.com/Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf) | 0 | 2026-04-19T05:52:06Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
-| [hashintel/labs](https://github.com/hashintel/labs) | 33 | 2026-04-19T05:51:51Z | TypeScript | Infrastructure/tooling | 5 | 5 | 5 | 6 |
-| [damacol/google-gemma-2-2b-it](https://github.com/Damacol/google-gemma-2-2b-it) | 0 | 2026-04-19T05:49:39Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
-| [vibe-log/vibe-log-cli](https://github.com/vibe-log/vibe-log-cli) | 315 | 2026-04-19T05:43:07Z | TypeScript | CLI | 3 | 37 | 0 | 0 |
-| [anthropics/anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python) | 3277 | 2026-04-19T05:41:25Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
-| [damacol/meta-llama-llama-3-2-3b](https://github.com/Damacol/meta-llama-llama-3-2-3b) | 0 | 2026-04-19T05:35:01Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -183,7 +169,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | 360359 | 2026-04-19T11:13:13Z | TypeScript | Infrastructure/tooling | 6 | 117 | 0 | 0 |
 | [huggingface/transformers](https://github.com/huggingface/transformers) | 159615 | 2026-04-19T13:24:58Z | Python | Infrastructure/tooling | 19 | 6 | 19 | 19 |
 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | 134049 | 2026-04-19T07:26:03Z | Python | Infrastructure/tooling | 20 | 10 | 20 | 20 |
-| [nodejs/node](https://github.com/nodejs/node) | 116811 | 2026-04-19T07:03:51Z | JavaScript | Infrastructure/tooling | 12 | 11 | 12 | 12 |
 | [rust-lang/rust](https://github.com/rust-lang/rust) | 112127 | 2026-04-19T13:43:59Z | Rust | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [microsoft/typescript](https://github.com/microsoft/TypeScript) | 108595 | 2026-04-19T12:01:08Z | TypeScript | Infrastructure/tooling | 7 | 52 | 0 | 0 |
 | [denoland/deno](https://github.com/denoland/deno) | 106518 | 2026-04-19T11:07:19Z | Rust | Infrastructure/tooling | 2 | 33 | 2 | 2 |
@@ -225,10 +210,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [actions/runner-images](https://github.com/actions/runner-images) | 12666 | 2026-04-19T12:54:06Z | Other | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [px4/px4-autopilot](https://github.com/PX4/PX4-Autopilot) | 11541 | 2026-04-19T12:18:21Z | C/C++ | Infrastructure/tooling | 10 | 19 | 0 | 0 |
 | [vega/altair](https://github.com/vega/altair) | 10333 | 2026-04-19T16:43:35Z | Python | Infrastructure/tooling | 6 | 11 | 6 | 6 |
-| [mksglu/context-mode](https://github.com/mksglu/context-mode) | 7824 | 2026-04-19T06:32:25Z | TypeScript | CLI | 19 | 21 | 19 | 19 |
 | [op7418/codepilot](https://github.com/op7418/CodePilot) | 5349 | 2026-04-19T11:23:51Z | TypeScript | CLI | 6 | 82 | 6 | 6 |
 | [archestra-ai/archestra](https://github.com/archestra-ai/archestra) | 3588 | 2026-04-19T10:31:44Z | TypeScript | CLI | 8 | 4 | 0 | 0 |
-| [anthropics/anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python) | 3277 | 2026-04-19T05:41:25Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) | 3219 | 2026-04-19T14:00:55Z | Python | Infrastructure/tooling | 23 | 11 | 23 | 23 |
 | [nesquena/hermes-webui](https://github.com/nesquena/hermes-webui) | 2782 | 2026-04-19T07:36:00Z | Python | Infrastructure/tooling | 2 | 8 | 0 | 0 |
 | [lobehub/sd-webui-lobe-theme](https://github.com/lobehub/sd-webui-lobe-theme) | 2684 | 2026-04-19T10:10:10Z | TypeScript | Infrastructure/tooling | 5 | 69 | 0 | 0 |
@@ -246,20 +229,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [grubersjoe/react-activity-calendar](https://github.com/grubersjoe/react-activity-calendar) | 564 | 2026-04-19T09:08:16Z | TypeScript | Infrastructure/tooling | 6 | 47 | 6 | 6 |
 | [danielrosehill/claude-code-projects-index](https://github.com/danielrosehill/Claude-Code-Projects-Index) | 362 | 2026-04-19T13:49:01Z | Other | CLI | 3 | 1 | 3 | 3 |
 | [tony1223/better-agent-terminal](https://github.com/tony1223/better-agent-terminal) | 321 | 2026-04-19T09:50:58Z | TypeScript | CLI | 1 | 46 | 0 | 0 |
-| [vibe-log/vibe-log-cli](https://github.com/vibe-log/vibe-log-cli) | 315 | 2026-04-19T05:43:07Z | TypeScript | CLI | 3 | 37 | 0 | 0 |
 | [albumentations-team/AlbumentationsX](https://github.com/albumentations-team/AlbumentationsX) | 311 | 2026-04-19T09:49:29Z | Python | Infrastructure/tooling | 19 | 7 | 19 | 19 |
 | [cargo-bins/cargo-quickinstall](https://github.com/cargo-bins/cargo-quickinstall) | 300 | 2026-04-19T13:18:39Z | Rust | Infrastructure/tooling | 6 | 12 | 6 | 6 |
 | [clearbluejar/pyghidra-mcp](https://github.com/clearbluejar/pyghidra-mcp) | 265 | 2026-04-19T17:17:10Z | Python | Infrastructure/tooling | 4 | 15 | 4 | 4 |
-| [jsonbored/claudepro-directory](https://github.com/JSONbored/claudepro-directory) | 209 | 2026-04-19T06:16:00Z | Other | Infrastructure/tooling | 22 | 11 | 0 | 0 |
 | [nodejs/admin](https://github.com/nodejs/admin) | 188 | 2026-04-20T01:30:16Z | JavaScript | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [biopragmatics/bioregistry](https://github.com/biopragmatics/bioregistry) | 143 | 2026-04-20T02:36:14Z | Other | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [serpro69/claude-toolbox](https://github.com/serpro69/claude-toolbox) | 129 | 2026-04-19T16:16:01Z | Shell | Infrastructure/tooling | 19 | 5 | 18 | 18 |
 | [alistaitsacle/free-llm-api-keys](https://github.com/alistaitsacle/free-llm-api-keys) | 105 | 2026-04-19T13:52:06Z | Python | Service/API | 0 | 0 | 0 | 0 |
 | [elizaos/elizaos.github.io](https://github.com/elizaOS/elizaos.github.io) | 103 | 2026-04-19T23:30:01Z | TypeScript | Infrastructure/tooling | 6 | 76 | 0 | 0 |
-| [jkheadley/instar](https://github.com/JKHeadley/instar) | 59 | 2026-04-19T06:38:45Z | TypeScript | CLI | 2 | 30 | 0 | 0 |
 | [costiash/claude-code-docs](https://github.com/costiash/claude-code-docs) | 47 | 2026-04-19T12:28:44Z | Python | Infrastructure/tooling | 6 | 7 | 0 | 0 |
 | [overseedai/viwo](https://github.com/OverseedAI/viwo) | 34 | 2026-04-19T13:30:30Z | TypeScript | Infrastructure/tooling | 4 | 20 | 0 | 0 |
-| [hashintel/labs](https://github.com/hashintel/labs) | 33 | 2026-04-19T05:51:51Z | TypeScript | Infrastructure/tooling | 5 | 5 | 5 | 6 |
 | [liangshengyong/lanwan](https://github.com/liangshengyong/LanWan) | 29 | 2026-04-19T13:40:33Z | C/C++ | CLI | 2 | 2 | 0 | 0 |
 | [ethpandaops/xatu-data](https://github.com/ethpandaops/xatu-data) | 27 | 2026-04-19T12:11:47Z | Other | Infrastructure/tooling | 3 | 3 | 0 | 0 |
 | [almogdepaz/wolfpack](https://github.com/almogdepaz/wolfpack) | 27 | 2026-04-19T10:41:57Z | TypeScript | CLI | 7 | 10 | 7 | 7 |
@@ -284,7 +263,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rrsaldanha/burp-mcp-agents](https://github.com/rrsaldanha/burp-mcp-agents) | 2 | 2026-04-19T11:53:12Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [caesar0301/soothe](https://github.com/caesar0301/soothe) | 2 | 2026-04-19T11:39:59Z | Python | Infrastructure/tooling | 1 | 3 | 0 | 0 |
 | [klodr/mercury-invoicing-mcp](https://github.com/klodr/mercury-invoicing-mcp) | 2 | 2026-04-19T08:42:02Z | TypeScript | Infrastructure/tooling | 3 | 22 | 0 | 0 |
-| [verkyyi/tokenman](https://github.com/verkyyi/tokenman) | 2 | 2026-04-19T06:57:48Z | Python | Infrastructure/tooling | 8 | 11 | 0 | 0 |
 | [danielrosehill/Subindices](https://github.com/danielrosehill/Subindices) | 1 | 2026-04-19T17:19:06Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [piqrypt/aiss-standard](https://github.com/PiQrypt/aiss-standard) | 1 | 2026-04-19T16:45:49Z | Python | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 | [penpoen/llm-sugarscape](https://github.com/penpoen/llm-SugarScape) | 1 | 2026-04-19T13:44:54Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -295,7 +273,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cyber404/che-apple-mail-mcp](https://github.com/cyber404/che-apple-mail-mcp) | 1 | 2026-04-19T11:53:10Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [kmjjjj/polymarket-arbitrage-bot-btc-sol-15m](https://github.com/kmjjjj/polymarket-arbitrage-bot-btc-sol-15m) | 1 | 2026-04-19T11:52:48Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [enxs969/skiller](https://github.com/Enxs969/skiller) | 1 | 2026-04-19T11:51:10Z | TypeScript | Unknown | 0 | 13 | 0 | 0 |
-| [joinwell52-ai/codeflow-pwa](https://github.com/joinwell52-AI/codeflow-pwa) | 1 | 2026-04-19T06:58:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [narutoxdd6/nyro](https://github.com/Narutoxdd6/Nyro) | 0 | 2026-04-19T13:52:12Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [b2agi/exist-is-charter](https://github.com/b2agi/exist-is-charter) | 0 | 2026-04-19T13:51:54Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [robertabao/grok-nvim](https://github.com/RobertAbao/grok-nvim) | 0 | 2026-04-19T13:37:47Z | Other | Model/data | 0 | 0 | 0 | 0 |
@@ -328,8 +305,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [redductive/securepixel](https://github.com/Redductive/SecurePixel) | 0 | 2026-04-19T11:52:32Z | JavaScript | CLI | 0 | 0 | 0 | 0 |
 | [l12203685/digital-immortality](https://github.com/l12203685/digital-immortality) | 0 | 2026-04-19T11:01:55Z | Python | Infrastructure/tooling | 4 | 3 | 0 | 0 |
 | [mohfer/nous-proxy](https://github.com/mohfer/nous-proxy) | 0 | 2026-04-19T07:29:33Z | Python | CLI | 0 | 0 | 0 | 0 |
-| [damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit](https://github.com/Damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit) | 0 | 2026-04-19T05:59:03Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
-| [damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf](https://github.com/Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf) | 0 | 2026-04-19T05:57:47Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
-| [damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf](https://github.com/Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf) | 0 | 2026-04-19T05:52:06Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
-| [damacol/google-gemma-2-2b-it](https://github.com/Damacol/google-gemma-2-2b-it) | 0 | 2026-04-19T05:49:39Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
-| [damacol/meta-llama-llama-3-2-3b](https://github.com/Damacol/meta-llama-llama-3-2-3b) | 0 | 2026-04-19T05:35:01Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |

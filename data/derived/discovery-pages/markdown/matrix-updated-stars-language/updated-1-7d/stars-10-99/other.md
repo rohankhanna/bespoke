@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10 to 99 stars · Other
 
-Generated at: `2026-04-20T05:28:45.163139+00:00`
+Generated at: `2026-04-20T07:16:20.858706+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 4
-- terms: 7
-- components: 8
+- repos: 3
+- terms: 3
+- components: 2
 - concepts: 2
 - observations: 2
 
@@ -29,7 +29,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chaos2cured/freelattice](https://github.com/Chaos2Cured/FreeLattice) | 17 | 2026-04-19T00:27:03Z | Other | Infrastructure/tooling | 1 | 1 | 0 | 0 |
 | [steipete/homebrew-tap](https://github.com/steipete/homebrew-tap) | 72 | 2026-04-18T22:42:07Z | Other | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [musicman3/emarket](https://github.com/musicman3/eMarket) | 75 | 2026-04-17T17:57:22Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [beyondcode/claude-hooks-sdk](https://github.com/beyondcode/claude-hooks-sdk) | 65 | 2026-04-13T05:38:28Z | Other | Infrastructure/tooling | 4 | 6 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -37,5 +36,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [musicman3/emarket](https://github.com/musicman3/eMarket) | 75 | 2026-04-17T17:57:22Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [steipete/homebrew-tap](https://github.com/steipete/homebrew-tap) | 72 | 2026-04-18T22:42:07Z | Other | Infrastructure/tooling | 2 | 1 | 2 | 2 |
-| [beyondcode/claude-hooks-sdk](https://github.com/beyondcode/claude-hooks-sdk) | 65 | 2026-04-13T05:38:28Z | Other | Infrastructure/tooling | 4 | 6 | 0 | 0 |
 | [chaos2cured/freelattice](https://github.com/Chaos2Cured/FreeLattice) | 17 | 2026-04-19T00:27:03Z | Other | Infrastructure/tooling | 1 | 1 | 0 | 0 |

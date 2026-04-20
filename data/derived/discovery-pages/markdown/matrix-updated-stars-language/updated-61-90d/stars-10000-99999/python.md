@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10,000 to 99,999 stars · Python
 
-Generated at: `2026-04-20T05:28:45.163139+00:00`
+Generated at: `2026-04-20T07:16:20.858706+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 15
+- repos: 3
+- terms: 26
 - components: 22
-- concepts: 13
-- observations: 13
+- concepts: 24
+- observations: 24
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 54760 | 2026-02-19T06:22:06Z | Python | CLI | 11 | 0 | 11 | 11 |
 | [modin-project/modin](https://github.com/modin-project/modin) | 10381 | 2026-02-10T20:52:42Z | Python | Infrastructure/tooling | 13 | 15 | 13 | 13 |
 | [anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts) | 16165 | 2026-02-05T20:47:09Z | Python | Infrastructure/tooling | 2 | 7 | 0 | 0 |
 
@@ -33,5 +34,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 54760 | 2026-02-19T06:22:06Z | Python | CLI | 11 | 0 | 11 | 11 |
 | [anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts) | 16165 | 2026-02-05T20:47:09Z | Python | Infrastructure/tooling | 2 | 7 | 0 | 0 |
 | [modin-project/modin](https://github.com/modin-project/modin) | 10381 | 2026-02-10T20:52:42Z | Python | Infrastructure/tooling | 13 | 15 | 13 | 13 |

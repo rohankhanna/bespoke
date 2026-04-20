@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 466,
+    "components": 472,
     "concepts": 167,
     "observations": 167,
-    "repos": 59,
-    "terms": 206
+    "repos": 60,
+    "terms": 210
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-20T05:28:45.163139+00:00",
+  "generated_at": "2026-04-20T07:16:20.858706+00:00",
   "repo_ids": [
     "1sh1ro/liangxi-skills",
     "aar0npb/curator-skill",
@@ -31,6 +31,7 @@
     "asg017/sqlite-vec",
     "askroundtable/expert-skills",
     "astro-han/karpathy-llm-wiki",
+    "beyondcode/claude-hooks-sdk",
     "browser-use/benchmark",
     "buddingnewinsights/proxypal",
     "cdeust/cortex-cowork",

@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago
 
-Generated at: `2026-04-20T05:28:45.163139+00:00`
+Generated at: `2026-04-20T07:16:20.858706+00:00`
 
 ## Active filters
 
@@ -8,9 +8,9 @@ Generated at: `2026-04-20T05:28:45.163139+00:00`
 
 ## Counts
 
-- repos: 59
-- terms: 206
-- components: 466
+- repos: 60
+- terms: 210
+- components: 472
 - concepts: 167
 - observations: 167
 
@@ -22,6 +22,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [beyondcode/claude-hooks-sdk](https://github.com/beyondcode/claude-hooks-sdk) | 65 | 2026-04-13T05:38:28Z | Other | Infrastructure/tooling | 4 | 6 | 0 | 0 |
 | [astro-han/karpathy-llm-wiki](https://github.com/Astro-Han/karpathy-llm-wiki) | 500 | 2026-04-13T01:39:31Z | Unknown | Docs/knowledge | 10 | 0 | 11 | 11 |
 | [aaronrsun/spec-kit-issue](https://github.com/aaronrsun/spec-kit-issue) | 0 | 2026-04-12T23:36:28Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [letta-ai/letta](https://github.com/letta-ai/letta) | 22154 | 2026-04-12T20:54:54Z | Python | Infrastructure/tooling | 4 | 10 | 4 | 4 |
@@ -122,6 +123,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ethpandaops/xatu](https://github.com/ethpandaops/xatu) | 93 | 2026-04-10T01:58:54Z | Go | CLI | 7 | 15 | 7 | 7 |
 | [browser-use/benchmark](https://github.com/browser-use/benchmark) | 69 | 2026-04-09T04:31:34Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [libp2p/test-plans](https://github.com/libp2p/test-plans) | 66 | 2026-04-09T01:01:14Z | Python | Infrastructure/tooling | 11 | 10 | 11 | 11 |
+| [beyondcode/claude-hooks-sdk](https://github.com/beyondcode/claude-hooks-sdk) | 65 | 2026-04-13T05:38:28Z | Other | Infrastructure/tooling | 4 | 6 | 0 | 0 |
 | [alchaincyf/taleb-skill](https://github.com/alchaincyf/taleb-skill) | 65 | 2026-04-10T02:29:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [buddingnewinsights/proxypal](https://github.com/buddingnewinsights/proxypal) | 41 | 2026-04-10T18:56:54Z | TypeScript | Infrastructure/tooling | 3 | 39 | 3 | 3 |
 | [askroundtable/expert-skills](https://github.com/AskRoundtable/expert-skills) | 39 | 2026-04-09T13:53:39Z | Unknown | Model/data | 6 | 0 | 6 | 6 |

@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-04-20T05:28:45.163139+00:00`
+Generated at: `2026-04-20T07:16:20.858706+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 18
-- terms: 118
-- components: 148
-- concepts: 94
-- observations: 94
+- repos: 19
+- terms: 121
+- components: 154
+- concepts: 97
+- observations: 97
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [anthropics/anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python) | 3277 | 2026-04-19T05:41:25Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [arogozhnikov/einops](https://github.com/arogozhnikov/einops) | 9458 | 2026-04-19T01:12:09Z | Python | Infrastructure/tooling | 11 | 4 | 11 | 11 |
 | [llamastack/llama-stack](https://github.com/llamastack/llama-stack) | 8340 | 2026-04-18T20:43:15Z | Python | Infrastructure/tooling | 7 | 10 | 7 | 7 |
 | [basicmachines-co/basic-memory](https://github.com/basicmachines-co/basic-memory) | 2886 | 2026-04-18T19:04:59Z | Python | Infrastructure/tooling | 9 | 11 | 0 | 0 |
@@ -57,6 +58,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [agricidaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) | 5121 | 2026-04-15T16:44:47Z | Python | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [trailofbits/skills](https://github.com/trailofbits/skills) | 4674 | 2026-04-17T17:46:49Z | Python | Infrastructure/tooling | 2 | 3 | 0 | 0 |
 | [googleapis/python-genai](https://github.com/googleapis/python-genai) | 3621 | 2026-04-17T13:46:38Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
+| [anthropics/anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python) | 3277 | 2026-04-19T05:41:25Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [basicmachines-co/basic-memory](https://github.com/basicmachines-co/basic-memory) | 2886 | 2026-04-18T19:04:59Z | Python | Infrastructure/tooling | 9 | 11 | 0 | 0 |
 | [agricidaniel/claude-ads](https://github.com/AgriciDaniel/claude-ads) | 2709 | 2026-04-17T21:07:20Z | Python | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [plastic-labs/honcho](https://github.com/plastic-labs/honcho) | 2597 | 2026-04-18T01:40:14Z | Python | Infrastructure/tooling | 7 | 14 | 0 | 0 |

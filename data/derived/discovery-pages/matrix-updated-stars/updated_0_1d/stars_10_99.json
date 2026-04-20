@@ -1,24 +1,22 @@
 {
   "counts": {
-    "components": 114,
-    "concepts": 12,
-    "observations": 13,
-    "repos": 10,
-    "terms": 38
+    "components": 79,
+    "concepts": 7,
+    "observations": 7,
+    "repos": 8,
+    "terms": 31
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-20T05:28:45.163139+00:00",
+  "generated_at": "2026-04-20T07:16:20.858706+00:00",
   "repo_ids": [
     "almogdepaz/wolfpack",
     "costiash/claude-code-docs",
     "ethpandaops/xatu-data",
-    "hashintel/labs",
     "itsrishika/payment-bypass-bug-lab",
-    "jkheadley/instar",
     "liangshengyong/lanwan",
     "overseedai/viwo",
     "sliamh11/deus",

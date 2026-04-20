@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1424,
-    "concepts": 496,
-    "observations": 498,
-    "repos": 89,
-    "terms": 630
+    "components": 1451,
+    "concepts": 518,
+    "observations": 520,
+    "repos": 91,
+    "terms": 652
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-20T05:28:45.163139+00:00",
+  "generated_at": "2026-04-20T07:16:20.858706+00:00",
   "repo_ids": [
     "actions/runner",
     "agricidaniel/claude-ads",
@@ -20,6 +20,7 @@
     "alchaincyf/darwin-skill",
     "alexellis/arkade",
     "android/skills",
+    "anthropics/anthropic-sdk-python",
     "anthropics/claude-code-action",
     "arogozhnikov/einops",
     "automazeio/vibeproxy",
@@ -73,6 +74,7 @@
     "mbailey/voicemode",
     "microsoft/playwright-cli",
     "mikeyobrien/ralph-orchestrator",
+    "mksglu/context-mode",
     "napi-rs/napi-rs",
     "napi-rs/node-rs",
     "nodejs/Release",

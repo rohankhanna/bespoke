@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10 to 99 stars
 
-Generated at: `2026-04-20T05:28:45.163139+00:00`
+Generated at: `2026-04-20T07:16:20.858706+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,9 +11,9 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 10
-- terms: 34
-- components: 148
+- repos: 11
+- terms: 38
+- components: 154
 - concepts: 28
 - observations: 28
 
@@ -25,6 +25,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [beyondcode/claude-hooks-sdk](https://github.com/beyondcode/claude-hooks-sdk) | 65 | 2026-04-13T05:38:28Z | Other | Infrastructure/tooling | 4 | 6 | 0 | 0 |
 | [cloudartisan/cloudartisan.github.io](https://github.com/cloudartisan/cloudartisan.github.io) | 31 | 2026-04-12T10:59:10Z | Python | Infrastructure/tooling | 2 | 3 | 0 | 0 |
 | [jerseycheese/narraitor](https://github.com/jerseycheese/Narraitor) | 27 | 2026-04-11T13:45:12Z | TypeScript | Infrastructure/tooling | 4 | 78 | 0 | 0 |
 | [buddingnewinsights/proxypal](https://github.com/buddingnewinsights/proxypal) | 41 | 2026-04-10T18:56:54Z | TypeScript | Infrastructure/tooling | 3 | 39 | 3 | 3 |
@@ -43,6 +44,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ethpandaops/xatu](https://github.com/ethpandaops/xatu) | 93 | 2026-04-10T01:58:54Z | Go | CLI | 7 | 15 | 7 | 7 |
 | [browser-use/benchmark](https://github.com/browser-use/benchmark) | 69 | 2026-04-09T04:31:34Z | Python | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [libp2p/test-plans](https://github.com/libp2p/test-plans) | 66 | 2026-04-09T01:01:14Z | Python | Infrastructure/tooling | 11 | 10 | 11 | 11 |
+| [beyondcode/claude-hooks-sdk](https://github.com/beyondcode/claude-hooks-sdk) | 65 | 2026-04-13T05:38:28Z | Other | Infrastructure/tooling | 4 | 6 | 0 | 0 |
 | [alchaincyf/taleb-skill](https://github.com/alchaincyf/taleb-skill) | 65 | 2026-04-10T02:29:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [buddingnewinsights/proxypal](https://github.com/buddingnewinsights/proxypal) | 41 | 2026-04-10T18:56:54Z | TypeScript | Infrastructure/tooling | 3 | 39 | 3 | 3 |
 | [askroundtable/expert-skills](https://github.com/AskRoundtable/expert-skills) | 39 | 2026-04-09T13:53:39Z | Unknown | Model/data | 6 | 0 | 6 | 6 |

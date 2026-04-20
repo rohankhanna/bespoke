@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 24,
+    "components": 13,
     "concepts": 9,
     "observations": 9,
-    "repos": 9,
-    "terms": 20
+    "repos": 8,
+    "terms": 12
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-20T05:28:45.163139+00:00",
+  "generated_at": "2026-04-20T07:16:20.858706+00:00",
   "repo_ids": [
     "caesar0301/soothe",
     "cafitac/hermit-agent",
@@ -21,7 +21,6 @@
     "momentique/source-code-security-audit-reviewer",
     "penpoen/llm-sugarscape",
     "piqrypt/aiss-standard",
-    "rrsaldanha/burp-mcp-agents",
-    "verkyyi/tokenman"
+    "rrsaldanha/burp-mcp-agents"
   ]
 }

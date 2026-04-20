@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 183,
-    "concepts": 20,
-    "observations": 21,
-    "repos": 7,
-    "terms": 44
+    "components": 218,
+    "concepts": 25,
+    "observations": 27,
+    "repos": 9,
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-20T05:28:45.163139+00:00",
+  "generated_at": "2026-04-20T07:16:20.858706+00:00",
   "repo_ids": [
     "agents-squads/squads-cli",
     "dokploy/cli",
+    "hashintel/labs",
     "huangguang1999/ccstatusline-zh",
+    "jkheadley/instar",
     "lobehub/lobe-lint",
     "sgcarstrends/sgcarstrends",
     "ylsssq926/relic.skill",

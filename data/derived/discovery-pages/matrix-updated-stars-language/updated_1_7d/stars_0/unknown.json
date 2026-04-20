@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3,
+    "components": 8,
     "concepts": 0,
     "observations": 0,
-    "repos": 5,
-    "terms": 3
+    "repos": 10,
+    "terms": 8
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,17 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-20T05:28:45.163139+00:00",
+  "generated_at": "2026-04-20T07:16:20.858706+00:00",
   "repo_ids": [
     "damacol/ai-hub",
     "damacol/gemma-4-collection",
+    "damacol/google-gemma-2-2b-it",
     "damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive",
     "damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive",
+    "damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf",
+    "damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf",
+    "damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit",
+    "damacol/meta-llama-llama-3-2-3b",
     "damacol/xai-org-grok-2"
   ]
 }

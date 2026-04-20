@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · Python
 
-Generated at: `2026-04-20T05:28:45.163139+00:00`
+Generated at: `2026-04-20T07:16:20.858706+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 4
-- terms: 30
-- components: 33
-- concepts: 26
-- observations: 26
+- repos: 3
+- terms: 27
+- components: 27
+- concepts: 23
+- observations: 23
 
 ## Static behavior
 
@@ -29,13 +29,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) | 3219 | 2026-04-19T14:00:55Z | Python | Infrastructure/tooling | 23 | 11 | 23 | 23 |
 | [pchalasani/claude-code-tools](https://github.com/pchalasani/claude-code-tools) | 1727 | 2026-04-19T11:14:00Z | Python | CLI | 2 | 8 | 0 | 0 |
 | [nesquena/hermes-webui](https://github.com/nesquena/hermes-webui) | 2782 | 2026-04-19T07:36:00Z | Python | Infrastructure/tooling | 2 | 8 | 0 | 0 |
-| [anthropics/anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python) | 3277 | 2026-04-19T05:41:25Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [anthropics/anthropic-sdk-python](https://github.com/anthropics/anthropic-sdk-python) | 3277 | 2026-04-19T05:41:25Z | Python | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [embeddings-benchmark/mteb](https://github.com/embeddings-benchmark/mteb) | 3219 | 2026-04-19T14:00:55Z | Python | Infrastructure/tooling | 23 | 11 | 23 | 23 |
 | [nesquena/hermes-webui](https://github.com/nesquena/hermes-webui) | 2782 | 2026-04-19T07:36:00Z | Python | Infrastructure/tooling | 2 | 8 | 0 | 0 |
 | [pchalasani/claude-code-tools](https://github.com/pchalasani/claude-code-tools) | 1727 | 2026-04-19T11:14:00Z | Python | CLI | 2 | 8 | 0 | 0 |

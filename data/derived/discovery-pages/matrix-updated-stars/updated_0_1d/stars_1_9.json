@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 165,
+    "components": 154,
     "concepts": 30,
     "observations": 30,
-    "repos": 30,
-    "terms": 52
+    "repos": 28,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-20T05:28:45.163139+00:00",
+  "generated_at": "2026-04-20T07:16:20.858706+00:00",
   "repo_ids": [
     "abraxas-365/claudio",
     "anojndr/grok-to-openai",
@@ -28,7 +28,6 @@
     "gauravrathod674/custom-chatbot",
     "gbrobro119-star/darksword-kexploit",
     "graveyardsfocrdpktv/ethereum-mempool-bot",
-    "joinwell52-ai/codeflow-pwa",
     "k8nstantin/openpraxis",
     "kimosahy/railroaded",
     "klodr/mercury-invoicing-mcp",
@@ -41,7 +40,6 @@
     "saminiscool/twitter-ai-agent",
     "serpro69/capy",
     "stealabra5019/grok-enhancer",
-    "tarikmanoar/tarikmanoar",
-    "verkyyi/tokenman"
+    "tarikmanoar/tarikmanoar"
   ]
 }

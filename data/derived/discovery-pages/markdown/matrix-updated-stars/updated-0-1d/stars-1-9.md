@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1 to 9 stars
 
-Generated at: `2026-04-20T05:28:45.163139+00:00`
+Generated at: `2026-04-20T07:16:20.858706+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,9 +11,9 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 30
-- terms: 52
-- components: 165
+- repos: 28
+- terms: 44
+- components: 154
 - concepts: 30
 - observations: 30
 
@@ -53,8 +53,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [serpro69/capy](https://github.com/serpro69/capy) | 4 | 2026-04-19T09:18:43Z | Go | Infrastructure/tooling | 12 | 8 | 12 | 12 |
 | [klodr/mercury-invoicing-mcp](https://github.com/klodr/mercury-invoicing-mcp) | 2 | 2026-04-19T08:42:02Z | TypeScript | Infrastructure/tooling | 3 | 22 | 0 | 0 |
 | [gauravrathod674/custom-chatbot](https://github.com/gauravRathod674/custom-chatbot) | 3 | 2026-04-19T08:39:25Z | JavaScript | Infrastructure/tooling | 1 | 20 | 0 | 0 |
-| [joinwell52-ai/codeflow-pwa](https://github.com/joinwell52-AI/codeflow-pwa) | 1 | 2026-04-19T06:58:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [verkyyi/tokenman](https://github.com/verkyyi/tokenman) | 2 | 2026-04-19T06:57:48Z | Python | Infrastructure/tooling | 8 | 11 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -78,7 +76,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [rrsaldanha/burp-mcp-agents](https://github.com/rrsaldanha/burp-mcp-agents) | 2 | 2026-04-19T11:53:12Z | Python | CLI | 0 | 0 | 0 | 0 |
 | [caesar0301/soothe](https://github.com/caesar0301/soothe) | 2 | 2026-04-19T11:39:59Z | Python | Infrastructure/tooling | 1 | 3 | 0 | 0 |
 | [klodr/mercury-invoicing-mcp](https://github.com/klodr/mercury-invoicing-mcp) | 2 | 2026-04-19T08:42:02Z | TypeScript | Infrastructure/tooling | 3 | 22 | 0 | 0 |
-| [verkyyi/tokenman](https://github.com/verkyyi/tokenman) | 2 | 2026-04-19T06:57:48Z | Python | Infrastructure/tooling | 8 | 11 | 0 | 0 |
 | [danielrosehill/Subindices](https://github.com/danielrosehill/Subindices) | 1 | 2026-04-19T17:19:06Z | Unknown | Unknown | 2 | 0 | 2 | 2 |
 | [piqrypt/aiss-standard](https://github.com/PiQrypt/aiss-standard) | 1 | 2026-04-19T16:45:49Z | Python | Infrastructure/tooling | 9 | 6 | 9 | 9 |
 | [penpoen/llm-sugarscape](https://github.com/penpoen/llm-SugarScape) | 1 | 2026-04-19T13:44:54Z | Python | Unknown | 0 | 0 | 0 | 0 |
@@ -89,4 +86,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cyber404/che-apple-mail-mcp](https://github.com/cyber404/che-apple-mail-mcp) | 1 | 2026-04-19T11:53:10Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [kmjjjj/polymarket-arbitrage-bot-btc-sol-15m](https://github.com/kmjjjj/polymarket-arbitrage-bot-btc-sol-15m) | 1 | 2026-04-19T11:52:48Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [enxs969/skiller](https://github.com/Enxs969/skiller) | 1 | 2026-04-19T11:51:10Z | TypeScript | Unknown | 0 | 13 | 0 | 0 |
-| [joinwell52-ai/codeflow-pwa](https://github.com/joinwell52-AI/codeflow-pwa) | 1 | 2026-04-19T06:58:21Z | Other | Unknown | 0 | 0 | 0 | 0 |

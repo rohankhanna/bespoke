@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-04-20T05:28:45.163139+00:00`
+Generated at: `2026-04-20T07:16:20.858706+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 8
-- terms: 65
-- components: 382
-- concepts: 34
-- observations: 34
+- repos: 7
+- terms: 46
+- components: 361
+- concepts: 15
+- observations: 15
 
 ## Static behavior
 
@@ -33,13 +33,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dyoshikawa/rulesync](https://github.com/dyoshikawa/rulesync) | 1014 | 2026-04-19T10:40:53Z | TypeScript | CLI | 7 | 59 | 0 | 0 |
 | [archestra-ai/archestra](https://github.com/archestra-ai/archestra) | 3588 | 2026-04-19T10:31:44Z | TypeScript | CLI | 8 | 4 | 0 | 0 |
 | [lobehub/sd-webui-lobe-theme](https://github.com/lobehub/sd-webui-lobe-theme) | 2684 | 2026-04-19T10:10:10Z | TypeScript | Infrastructure/tooling | 5 | 69 | 0 | 0 |
-| [mksglu/context-mode](https://github.com/mksglu/context-mode) | 7824 | 2026-04-19T06:32:25Z | TypeScript | CLI | 19 | 21 | 19 | 19 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [mksglu/context-mode](https://github.com/mksglu/context-mode) | 7824 | 2026-04-19T06:32:25Z | TypeScript | CLI | 19 | 21 | 19 | 19 |
 | [op7418/codepilot](https://github.com/op7418/CodePilot) | 5349 | 2026-04-19T11:23:51Z | TypeScript | CLI | 6 | 82 | 6 | 6 |
 | [archestra-ai/archestra](https://github.com/archestra-ai/archestra) | 3588 | 2026-04-19T10:31:44Z | TypeScript | CLI | 8 | 4 | 0 | 0 |
 | [lobehub/sd-webui-lobe-theme](https://github.com/lobehub/sd-webui-lobe-theme) | 2684 | 2026-04-19T10:10:10Z | TypeScript | Infrastructure/tooling | 5 | 69 | 0 | 0 |

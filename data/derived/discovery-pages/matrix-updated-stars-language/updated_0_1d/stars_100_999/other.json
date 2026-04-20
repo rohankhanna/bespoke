@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 22,
+    "components": 11,
     "concepts": 12,
     "observations": 12,
-    "repos": 3,
-    "terms": 34
+    "repos": 2,
+    "terms": 12
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-20T05:28:45.163139+00:00",
+  "generated_at": "2026-04-20T07:16:20.858706+00:00",
   "repo_ids": [
     "biopragmatics/bioregistry",
-    "danielrosehill/claude-code-projects-index",
-    "jsonbored/claudepro-directory"
+    "danielrosehill/claude-code-projects-index"
   ]
 }

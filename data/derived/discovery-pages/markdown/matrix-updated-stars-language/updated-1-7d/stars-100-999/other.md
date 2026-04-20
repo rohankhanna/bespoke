@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100 to 999 stars · Other
 
-Generated at: `2026-04-20T05:28:45.163139+00:00`
+Generated at: `2026-04-20T07:16:20.858706+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 8
-- terms: 19
-- components: 29
+- repos: 9
+- terms: 41
+- components: 40
 - concepts: 16
 - observations: 16
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [jsonbored/claudepro-directory](https://github.com/JSONbored/claudepro-directory) | 209 | 2026-04-19T06:16:00Z | Other | Infrastructure/tooling | 22 | 11 | 0 | 0 |
 | [stevemolitor/monet](https://github.com/stevemolitor/monet) | 103 | 2026-04-19T01:49:37Z | Other | Library | 0 | 0 | 0 | 0 |
 | [stevemolitor/claude-code.el](https://github.com/stevemolitor/claude-code.el) | 683 | 2026-04-18T22:58:07Z | Other | Unknown | 1 | 0 | 0 | 0 |
 | [jeremymailen/kotlinter-gradle](https://github.com/jeremymailen/kotlinter-gradle) | 710 | 2026-04-18T07:00:43Z | Other | Infrastructure/tooling | 2 | 5 | 0 | 0 |
@@ -46,4 +47,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lunarmodules/luacheck](https://github.com/lunarmodules/luacheck) | 442 | 2026-04-14T12:53:39Z | Other | Infrastructure/tooling | 6 | 8 | 6 | 6 |
 | [aws-samples/anthropic-on-aws](https://github.com/aws-samples/anthropic-on-aws) | 316 | 2026-04-17T04:17:59Z | Other | Infrastructure/tooling | 8 | 13 | 8 | 8 |
 | [harperreed/dotfiles](https://github.com/harperreed/dotfiles) | 312 | 2026-04-16T22:49:15Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [jsonbored/claudepro-directory](https://github.com/JSONbored/claudepro-directory) | 209 | 2026-04-19T06:16:00Z | Other | Infrastructure/tooling | 22 | 11 | 0 | 0 |
 | [stevemolitor/monet](https://github.com/stevemolitor/monet) | 103 | 2026-04-19T01:49:37Z | Other | Library | 0 | 0 | 0 | 0 |

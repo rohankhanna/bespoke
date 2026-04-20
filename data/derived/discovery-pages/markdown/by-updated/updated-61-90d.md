@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago
 
-Generated at: `2026-04-20T05:28:45.163139+00:00`
+Generated at: `2026-04-20T07:16:20.858706+00:00`
 
 ## Active filters
 
@@ -8,11 +8,11 @@ Generated at: `2026-04-20T05:28:45.163139+00:00`
 
 ## Counts
 
-- repos: 38
-- terms: 120
+- repos: 39
+- terms: 131
 - components: 277
-- concepts: 98
-- observations: 98
+- concepts: 109
+- observations: 109
 
 ## Static behavior
 
@@ -22,6 +22,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 54760 | 2026-02-19T06:22:06Z | Python | CLI | 11 | 0 | 11 | 11 |
 | [junegunn/vim-plug](https://github.com/junegunn/vim-plug) | 35626 | 2026-02-18T16:23:49Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [parruda/swarm](https://github.com/parruda/swarm) | 1701 | 2026-02-17T02:07:40Z | Other | CLI | 5 | 5 | 5 | 5 |
 | [bats-core/bats-core](https://github.com/bats-core/bats-core) | 5988 | 2026-02-15T17:19:40Z | Shell | Infrastructure/tooling | 10 | 11 | 12 | 12 |
@@ -65,6 +66,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 54760 | 2026-02-19T06:22:06Z | Python | CLI | 11 | 0 | 11 | 11 |
 | [junegunn/vim-plug](https://github.com/junegunn/vim-plug) | 35626 | 2026-02-18T16:23:49Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts) | 16165 | 2026-02-05T20:47:09Z | Python | Infrastructure/tooling | 2 | 7 | 0 | 0 |
 | [modin-project/modin](https://github.com/modin-project/modin) | 10381 | 2026-02-10T20:52:42Z | Python | Infrastructure/tooling | 13 | 15 | 13 | 13 |

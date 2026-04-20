@@ -1,22 +1,21 @@
 {
   "counts": {
-    "components": 397,
-    "concepts": 60,
-    "observations": 61,
-    "repos": 35,
-    "terms": 116
+    "components": 426,
+    "concepts": 65,
+    "observations": 67,
+    "repos": 36,
+    "terms": 119
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-20T05:28:45.163139+00:00",
+  "generated_at": "2026-04-20T07:16:20.858706+00:00",
   "repo_ids": [
     "agents-squads/squads-cli",
     "agricidaniel/claude-cybersecurity",
     "allenreder/cliproxyapi-quota-inspector",
-    "beyondcode/claude-hooks-sdk",
     "bmad-code-org/bmad-method-test-architecture-enterprise",
     "bmad-code-org/bmad-module-creative-intelligence-suite",
     "cdeust/cortex",
@@ -30,7 +29,9 @@
     "flinedev/plankit",
     "flinedev/tandemkit",
     "hagan/claudia-statusline",
+    "hashintel/labs",
     "huangguang1999/ccstatusline-zh",
+    "jkheadley/instar",
     "joshsymonds/cc-tools",
     "kubernetes/steering",
     "lobehub/lobe-lint",

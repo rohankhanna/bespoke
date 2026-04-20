@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago
 
-Generated at: `2026-04-20T05:28:45.163139+00:00`
+Generated at: `2026-04-20T07:16:20.858706+00:00`
 
 ## Active filters
 
@@ -8,11 +8,11 @@ Generated at: `2026-04-20T05:28:45.163139+00:00`
 
 ## Counts
 
-- repos: 65
-- terms: 300
+- repos: 64
+- terms: 289
 - components: 562
-- concepts: 231
-- observations: 231
+- concepts: 220
+- observations: 220
 
 ## Static behavior
 
@@ -86,7 +86,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [blader/claudeception](https://github.com/blader/Claudeception) | 2279 | 2026-02-21T05:10:15Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [mjvolk3/dendron-template](https://github.com/Mjvolk3/Dendron-Template) | 0 | 2026-02-20T15:48:17Z | Other | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [unicode-rs/unicode-width](https://github.com/unicode-rs/unicode-width) | 298 | 2026-02-19T16:40:05Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 54760 | 2026-02-19T06:22:06Z | Python | CLI | 11 | 0 | 11 | 11 |
 
 ## Repos sorted by stars
 
@@ -94,7 +93,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [automatic1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | 162466 | 2026-03-02T07:00:53Z | Python | Infrastructure/tooling | 17 | 6 | 17 | 17 |
 | [burntsushi/ripgrep](https://github.com/BurntSushi/ripgrep) | 62655 | 2026-02-27T16:25:19Z | Rust | CLI | 1 | 2 | 0 | 0 |
-| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 54760 | 2026-02-19T06:22:06Z | Python | CLI | 11 | 0 | 11 | 11 |
 | [kyleneideck/backgroundmusic](https://github.com/kyleneideck/BackgroundMusic) | 18855 | 2026-02-22T06:03:50Z | C/C++ | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [vercel/satori](https://github.com/vercel/satori) | 13294 | 2026-03-20T06:56:49Z | TypeScript | Infrastructure/tooling | 1 | 39 | 0 | 0 |
 | [knownsec/404starlink](https://github.com/knownsec/404StarLink) | 10564 | 2026-03-11T08:04:40Z | Unknown | Unknown | 3 | 0 | 3 | 3 |

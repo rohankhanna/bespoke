@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1 to 9 stars
 
-Generated at: `2026-04-20T05:28:45.163139+00:00`
+Generated at: `2026-04-20T07:16:20.858706+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,9 +11,9 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 37
-- terms: 107
-- components: 178
+- repos: 39
+- terms: 115
+- components: 189
 - concepts: 87
 - observations: 87
 
@@ -25,6 +25,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [joinwell52-ai/codeflow-pwa](https://github.com/joinwell52-AI/codeflow-pwa) | 1 | 2026-04-19T06:58:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [verkyyi/tokenman](https://github.com/verkyyi/tokenman) | 2 | 2026-04-19T06:57:48Z | Python | Infrastructure/tooling | 8 | 11 | 0 | 0 |
 | [neuroverseos/neuroverseos-governance](https://github.com/NeuroverseOS/Neuroverseos-governance) | 1 | 2026-04-18T22:21:38Z | TypeScript | Infrastructure/tooling | 0 | 12 | 0 | 0 |
 | [seunghunbae-3svs/solo-cto-agent](https://github.com/seunghunbae-3svs/solo-cto-agent) | 1 | 2026-04-18T22:11:15Z | JavaScript | CLI | 7 | 9 | 0 | 0 |
 | [adaumann/speckit-preset-fiction-book-writing](https://github.com/adaumann/speckit-preset-fiction-book-writing) | 3 | 2026-04-18T19:32:51Z | Python | Template/starter | 0 | 0 | 0 | 0 |
@@ -87,6 +89,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [agent-sh/repo-intel](https://github.com/agent-sh/repo-intel) | 3 | 2026-04-14T23:27:01Z | JavaScript | Unknown | 11 | 0 | 11 | 11 |
 | [dreamiurg/peakbagger-cli](https://github.com/dreamiurg/peakbagger-cli) | 3 | 2026-04-13T18:25:01Z | Python | CLI | 10 | 14 | 10 | 10 |
 | [dreamiurg/mountaineers-assistant](https://github.com/dreamiurg/mountaineers-assistant) | 3 | 2026-04-13T16:48:33Z | TypeScript | Infrastructure/tooling | 4 | 34 | 4 | 4 |
+| [verkyyi/tokenman](https://github.com/verkyyi/tokenman) | 2 | 2026-04-19T06:57:48Z | Python | Infrastructure/tooling | 8 | 11 | 0 | 0 |
 | [kensave/agent-memory-rs](https://github.com/kensave/agent-memory-rs) | 2 | 2026-04-17T19:30:34Z | Rust | CLI | 0 | 3 | 0 | 0 |
 | [dm0x23/portfolio-website](https://github.com/dm0x23/Portfolio-website) | 2 | 2026-04-17T16:50:49Z | Other | Web app | 0 | 16 | 0 | 0 |
 | [cdeust/zetetic-team-subagents](https://github.com/cdeust/zetetic-team-subagents) | 2 | 2026-04-17T12:49:20Z | Shell | Unknown | 0 | 0 | 0 | 0 |
@@ -94,6 +97,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [agenmod/mirror-skill](https://github.com/agenmod/mirror-skill) | 2 | 2026-04-15T04:01:11Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [flinedev/marketplace](https://github.com/FlineDev/Marketplace) | 2 | 2026-04-14T14:42:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [joinwell52-ai/joinwell52](https://github.com/joinwell52-AI/joinwell52) | 2 | 2026-04-14T02:12:31Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [joinwell52-ai/codeflow-pwa](https://github.com/joinwell52-AI/codeflow-pwa) | 1 | 2026-04-19T06:58:21Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [neuroverseos/neuroverseos-governance](https://github.com/NeuroverseOS/Neuroverseos-governance) | 1 | 2026-04-18T22:21:38Z | TypeScript | Infrastructure/tooling | 0 | 12 | 0 | 0 |
 | [seunghunbae-3svs/solo-cto-agent](https://github.com/seunghunbae-3svs/solo-cto-agent) | 1 | 2026-04-18T22:11:15Z | JavaScript | CLI | 7 | 9 | 0 | 0 |
 | [cjtruheart/abundance-codex](https://github.com/CjTruHeart/abundance-codex) | 1 | 2026-04-18T16:44:22Z | Python | Infrastructure/tooling | 0 | 2 | 0 | 0 |

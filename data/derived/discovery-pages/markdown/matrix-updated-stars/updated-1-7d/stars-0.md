@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 0 stars
 
-Generated at: `2026-04-20T05:28:45.163139+00:00`
+Generated at: `2026-04-20T07:16:20.858706+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,9 +11,9 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 15
-- terms: 31
-- components: 98
+- repos: 20
+- terms: 36
+- components: 103
 - concepts: 17
 - observations: 17
 
@@ -25,6 +25,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit](https://github.com/Damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit) | 0 | 2026-04-19T05:59:03Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
+| [damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf](https://github.com/Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf) | 0 | 2026-04-19T05:57:47Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
+| [damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf](https://github.com/Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf) | 0 | 2026-04-19T05:52:06Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
+| [damacol/google-gemma-2-2b-it](https://github.com/Damacol/google-gemma-2-2b-it) | 0 | 2026-04-19T05:49:39Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
+| [damacol/meta-llama-llama-3-2-3b](https://github.com/Damacol/meta-llama-llama-3-2-3b) | 0 | 2026-04-19T05:35:01Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
 | [damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive](https://github.com/Damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive) | 0 | 2026-04-19T05:24:46Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
 | [damacol/xai-org-grok-2](https://github.com/Damacol/xai-org-grok-2) | 0 | 2026-04-19T05:22:08Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
 | [damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive](https://github.com/Damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive) | 0 | 2026-04-19T05:18:33Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
@@ -45,6 +50,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit](https://github.com/Damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit) | 0 | 2026-04-19T05:59:03Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
+| [damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf](https://github.com/Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-v2-gguf) | 0 | 2026-04-19T05:57:47Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
+| [damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf](https://github.com/Damacol/jackrong-qwen3-5-27b-claude-4-6-opus-reasoning-distilled-gguf) | 0 | 2026-04-19T05:52:06Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
+| [damacol/google-gemma-2-2b-it](https://github.com/Damacol/google-gemma-2-2b-it) | 0 | 2026-04-19T05:49:39Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
+| [damacol/meta-llama-llama-3-2-3b](https://github.com/Damacol/meta-llama-llama-3-2-3b) | 0 | 2026-04-19T05:35:01Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
 | [damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive](https://github.com/Damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive) | 0 | 2026-04-19T05:24:46Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
 | [damacol/xai-org-grok-2](https://github.com/Damacol/xai-org-grok-2) | 0 | 2026-04-19T05:22:08Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |
 | [damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive](https://github.com/Damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive) | 0 | 2026-04-19T05:18:33Z | Unknown | Infrastructure/tooling | 1 | 1 | 0 | 0 |

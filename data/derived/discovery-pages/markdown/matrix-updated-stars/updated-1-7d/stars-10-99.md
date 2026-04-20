@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10 to 99 stars
 
-Generated at: `2026-04-20T05:28:45.163139+00:00`
+Generated at: `2026-04-20T07:16:20.858706+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 35
-- terms: 116
-- components: 397
-- concepts: 60
-- observations: 61
+- repos: 36
+- terms: 119
+- components: 426
+- concepts: 65
+- observations: 67
 
 ## Static behavior
 
@@ -25,6 +25,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [jkheadley/instar](https://github.com/JKHeadley/instar) | 59 | 2026-04-19T06:38:45Z | TypeScript | CLI | 2 | 30 | 0 | 0 |
+| [hashintel/labs](https://github.com/hashintel/labs) | 33 | 2026-04-19T05:51:51Z | TypeScript | Infrastructure/tooling | 5 | 5 | 5 | 6 |
 | [simonw/simonwillisonblog-backup](https://github.com/simonw/simonwillisonblog-backup) | 44 | 2026-04-19T01:07:00Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [chaos2cured/freelattice](https://github.com/Chaos2Cured/FreeLattice) | 17 | 2026-04-19T00:27:03Z | Other | Infrastructure/tooling | 1 | 1 | 0 | 0 |
 | [steipete/homebrew-tap](https://github.com/steipete/homebrew-tap) | 72 | 2026-04-18T22:42:07Z | Other | Infrastructure/tooling | 2 | 1 | 2 | 2 |
@@ -59,7 +61,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dreamiurg/claude-mountaineering-skills](https://github.com/dreamiurg/claude-mountaineering-skills) | 24 | 2026-04-13T21:44:10Z | Python | CLI | 3 | 10 | 0 | 0 |
 | [eigenfoundation/elips](https://github.com/eigenfoundation/ELIPs) | 12 | 2026-04-13T20:18:27Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [fgrehm/clotilde](https://github.com/fgrehm/clotilde) | 29 | 2026-04-13T07:30:54Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
-| [beyondcode/claude-hooks-sdk](https://github.com/beyondcode/claude-hooks-sdk) | 65 | 2026-04-13T05:38:28Z | Other | Infrastructure/tooling | 4 | 6 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -73,17 +74,18 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ylsssq926/relic.skill](https://github.com/Ylsssq926/relic.skill) | 73 | 2026-04-17T23:16:15Z | TypeScript | CLI | 1 | 4 | 0 | 0 |
 | [steipete/homebrew-tap](https://github.com/steipete/homebrew-tap) | 72 | 2026-04-18T22:42:07Z | Other | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [tianrking/weixin-agent-rs](https://github.com/tianrking/weixin-agent-rs) | 69 | 2026-04-14T03:39:18Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
-| [beyondcode/claude-hooks-sdk](https://github.com/beyondcode/claude-hooks-sdk) | 65 | 2026-04-13T05:38:28Z | Other | Infrastructure/tooling | 4 | 6 | 0 | 0 |
 | [tombelieber/claude-view](https://github.com/tombelieber/claude-view) | 64 | 2026-04-18T11:41:10Z | Rust | CLI | 1 | 14 | 0 | 0 |
 | [cloudllm-ai/mentisdb](https://github.com/CloudLLM-ai/mentisdb) | 62 | 2026-04-18T20:56:55Z | Rust | Infrastructure/tooling | 8 | 6 | 0 | 0 |
 | [bmad-code-org/bmad-module-creative-intelligence-suite](https://github.com/bmad-code-org/bmad-module-creative-intelligence-suite) | 62 | 2026-04-14T21:10:52Z | JavaScript | Infrastructure/tooling | 4 | 35 | 4 | 4 |
 | [marciogranzotto/clawd-tank](https://github.com/marciogranzotto/clawd-tank) | 60 | 2026-04-17T13:36:43Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [jkheadley/instar](https://github.com/JKHeadley/instar) | 59 | 2026-04-19T06:38:45Z | TypeScript | CLI | 2 | 30 | 0 | 0 |
 | [agricidaniel/claude-cybersecurity](https://github.com/AgriciDaniel/claude-cybersecurity) | 58 | 2026-04-15T09:43:43Z | Shell | Infrastructure/tooling | 10 | 2 | 10 | 10 |
 | [bmad-code-org/bmad-method-test-architecture-enterprise](https://github.com/bmad-code-org/bmad-method-test-architecture-enterprise) | 53 | 2026-04-17T13:44:46Z | JavaScript | Infrastructure/tooling | 3 | 38 | 3 | 3 |
 | [joshsymonds/cc-tools](https://github.com/joshsymonds/cc-tools) | 50 | 2026-04-16T13:45:42Z | Go | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [simonw/simonwillisonblog-backup](https://github.com/simonw/simonwillisonblog-backup) | 44 | 2026-04-19T01:07:00Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [agents-squads/squads-cli](https://github.com/agents-squads/squads-cli) | 43 | 2026-04-14T17:49:41Z | TypeScript | CLI | 17 | 29 | 17 | 18 |
 | [lobehub/lobe-lint](https://github.com/lobehub/lobe-lint) | 41 | 2026-04-15T10:31:46Z | TypeScript | Infrastructure/tooling | 7 | 20 | 0 | 0 |
+| [hashintel/labs](https://github.com/hashintel/labs) | 33 | 2026-04-19T05:51:51Z | TypeScript | Infrastructure/tooling | 5 | 5 | 5 | 6 |
 | [vaporif/parry-guard](https://github.com/vaporif/parry-guard) | 31 | 2026-04-14T14:21:08Z | Rust | Infrastructure/tooling | 5 | 17 | 5 | 5 |
 | [compozy/kb](https://github.com/compozy/kb) | 29 | 2026-04-15T02:46:17Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 | [fgrehm/clotilde](https://github.com/fgrehm/clotilde) | 29 | 2026-04-13T07:30:54Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |

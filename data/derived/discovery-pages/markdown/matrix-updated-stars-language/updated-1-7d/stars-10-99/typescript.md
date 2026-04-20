@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10 to 99 stars · TypeScript
 
-Generated at: `2026-04-20T05:28:45.163139+00:00`
+Generated at: `2026-04-20T07:16:20.858706+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 7
-- terms: 44
-- components: 183
-- concepts: 20
-- observations: 21
+- repos: 9
+- terms: 51
+- components: 218
+- concepts: 25
+- observations: 27
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [jkheadley/instar](https://github.com/JKHeadley/instar) | 59 | 2026-04-19T06:38:45Z | TypeScript | CLI | 2 | 30 | 0 | 0 |
+| [hashintel/labs](https://github.com/hashintel/labs) | 33 | 2026-04-19T05:51:51Z | TypeScript | Infrastructure/tooling | 5 | 5 | 5 | 6 |
 | [dokploy/cli](https://github.com/Dokploy/cli) | 87 | 2026-04-18T04:41:53Z | TypeScript | CLI | 3 | 12 | 3 | 3 |
 | [ylsssq926/relic.skill](https://github.com/Ylsssq926/relic.skill) | 73 | 2026-04-17T23:16:15Z | TypeScript | CLI | 1 | 4 | 0 | 0 |
 | [zuplo/docs](https://github.com/zuplo/docs) | 18 | 2026-04-17T12:46:53Z | TypeScript | Infrastructure/tooling | 7 | 58 | 0 | 0 |
@@ -41,7 +43,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dokploy/cli](https://github.com/Dokploy/cli) | 87 | 2026-04-18T04:41:53Z | TypeScript | CLI | 3 | 12 | 3 | 3 |
 | [huangguang1999/ccstatusline-zh](https://github.com/huangguang1999/ccstatusline-zh) | 79 | 2026-04-16T05:47:51Z | TypeScript | CLI | 0 | 30 | 0 | 0 |
 | [ylsssq926/relic.skill](https://github.com/Ylsssq926/relic.skill) | 73 | 2026-04-17T23:16:15Z | TypeScript | CLI | 1 | 4 | 0 | 0 |
+| [jkheadley/instar](https://github.com/JKHeadley/instar) | 59 | 2026-04-19T06:38:45Z | TypeScript | CLI | 2 | 30 | 0 | 0 |
 | [agents-squads/squads-cli](https://github.com/agents-squads/squads-cli) | 43 | 2026-04-14T17:49:41Z | TypeScript | CLI | 17 | 29 | 17 | 18 |
 | [lobehub/lobe-lint](https://github.com/lobehub/lobe-lint) | 41 | 2026-04-15T10:31:46Z | TypeScript | Infrastructure/tooling | 7 | 20 | 0 | 0 |
+| [hashintel/labs](https://github.com/hashintel/labs) | 33 | 2026-04-19T05:51:51Z | TypeScript | Infrastructure/tooling | 5 | 5 | 5 | 6 |
 | [sgcarstrends/sgcarstrends](https://github.com/sgcarstrends/sgcarstrends) | 20 | 2026-04-15T13:15:05Z | TypeScript | Infrastructure/tooling | 9 | 30 | 0 | 0 |
 | [zuplo/docs](https://github.com/zuplo/docs) | 18 | 2026-04-17T12:46:53Z | TypeScript | Infrastructure/tooling | 7 | 58 | 0 | 0 |

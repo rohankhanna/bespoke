@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-04-20T05:28:45.163139+00:00`
+Generated at: `2026-04-20T07:16:20.858706+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 

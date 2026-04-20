@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 178,
+    "components": 189,
     "concepts": 87,
     "observations": 87,
-    "repos": 37,
-    "terms": 107
+    "repos": 39,
+    "terms": 115
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-20T05:28:45.163139+00:00",
+  "generated_at": "2026-04-20T07:16:20.858706+00:00",
   "repo_ids": [
     "adaumann/speckit-preset-fiction-book-writing",
     "agenmod/distill-protocol-skill",
@@ -36,6 +36,7 @@
     "eternahybridexchange/eterna-mcp",
     "flinedev/marketplace",
     "gibdd-dps/prizolov-agent-os",
+    "joinwell52-ai/codeflow-pwa",
     "joinwell52-ai/joinwell52",
     "kelp/webdown",
     "kensave/agent-memory-rs",
@@ -48,6 +49,7 @@
     "seunghunbae-3svs/solo-cto-agent",
     "sunthinks/kvmind",
     "toyamarinyon/giselle",
+    "verkyyi/tokenman",
     "vincent-k2026/codachi",
     "xiaochu-1208/interview-assistant-cli"
   ]
