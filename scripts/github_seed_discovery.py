@@ -37,6 +37,8 @@ TOPIC_RESULT_LIMIT = 5
 TOPIC_OWNER_CAP_PER_SOURCE = 1
 NON_REPO_OWNERS = {"user-attachments", "orgs", "users", "settings", "marketplace", "sponsors"}
 EXPLICIT_REPO_EXISTS_CACHE = {}
+EXPLICIT_REPO_EXISTS_DEGRADED = False
+EXPLICIT_REPO_EXISTS_FALLBACKS = []
 DEFAULT_DISCOVERY_BUDGET_SECONDS = 360
 DEFAULT_DISCOVERY_MIN_REPO_START_SECONDS = 15
 DEFAULT_DISCOVERY_HARD_STOP_SECONDS = 20
@@ -180,18 +182,31 @@ def is_plausible_repo_candidate(full_name):
 
 
 def explicit_repo_exists(full_name):
+    global EXPLICIT_REPO_EXISTS_DEGRADED
     canonical = repo_identity_key(full_name)
     if not canonical or not is_plausible_repo_candidate(canonical):
         return False
     cached = EXPLICIT_REPO_EXISTS_CACHE.get(canonical)
     if cached is not None:
         return cached
+    if EXPLICIT_REPO_EXISTS_DEGRADED:
+        EXPLICIT_REPO_EXISTS_CACHE[canonical] = True
+        return True
     try:
         repo = github_repo(canonical)
     except urllib.error.HTTPError as e:
         if e.code == 404:
             EXPLICIT_REPO_EXISTS_CACHE[canonical] = False
             return False
+        if e.code in {403, 429} or e.code >= 500:
+            EXPLICIT_REPO_EXISTS_DEGRADED = True
+            EXPLICIT_REPO_EXISTS_FALLBACKS.append({
+                "full_name": canonical,
+                "http_status": e.code,
+                "fallback": "plausible-candidate-pass-through",
+            })
+            EXPLICIT_REPO_EXISTS_CACHE[canonical] = True
+            return True
         raise
     result = bool(repo_identity_key(repo.get("full_name", canonical)))
     EXPLICIT_REPO_EXISTS_CACHE[canonical] = result
@@ -1433,6 +1448,8 @@ def main():
         "repo_timing_summary": summarize_repo_timings(repo_timings),
         "slow_repo_threshold_seconds": SLOW_REPO_THRESHOLD_SECONDS,
         "slow_repositories": slow_repo_annotations(repo_timings),
+        "explicit_repo_exists_degraded": EXPLICIT_REPO_EXISTS_DEGRADED,
+        "explicit_repo_exists_fallbacks": EXPLICIT_REPO_EXISTS_FALLBACKS,
         "repo_timings": repo_timings,
         "embedding_unit_count": len(embedding_units),
         "concept_index_counts": {

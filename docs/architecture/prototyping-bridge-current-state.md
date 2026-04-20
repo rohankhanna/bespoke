@@ -10,14 +10,15 @@ Principles:
 - promote only paths that earn scale
 - preserve non-promoted paths as fallback options
 
-Current snapshot represented in the diagram:
-- data branch head: `a891282d2df2f785b5e37acb5e1889cd4739ce6a`
-- repos: 798
-- terms: 1868
-- components: 2995
-- concepts: 1771
-- observations: 2275
-- pending frontier beyond the snapshot: 390
+Current pinned prototype snapshot:
+- pinned dataset head: `679a9d9b5283c3ebf085b0b94d94adad15070ef3`
+- captured after the last successful pre-midnight normalization run and before the failed overnight jobs
+- repos: 868
+- terms: 2096
+- components: 3125
+- concepts: 2009
+- observations: 2764
+- pending frontier beyond the snapshot: 425
 
 Artifacts:
 - Mermaid source: `docs/architecture/prototyping-bridge-current-state.mmd`
