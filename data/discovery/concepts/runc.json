@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "runc"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containers/crun",
+      "status": "candidate-context",
+      "text": "A fast and lightweight fully featured OCI runtime and C library for running containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/crun",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/crun",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "runc",
+  "concept_id": "runc",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "containers/crun"
+    }
+  ],
+  "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "runc",
+      "sense_id": "runc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

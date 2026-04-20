@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "prometheus"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-rust",
+      "status": "candidate-context",
+      "text": "The Rust OpenTelemetry implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-rust",
+      "status": "candidate-context",
+      "text": "The Rust [OpenTelemetry](https://opentelemetry.io/) implementation."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-rust",
+      "status": "candidate",
+      "text": "The Rust [OpenTelemetry](https://opentelemetry.io/) implementation."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27249935,
+      "status": "candidate",
+      "text": "unbound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27208794,
+      "status": "candidate",
+      "text": "bound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18535612,
+      "status": "candidate",
+      "text": "australopithecus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18535611,
+      "status": "candidate",
+      "text": "forethinker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18535610,
+      "status": "candidate",
+      "text": "culture-hero"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "prometheus",
+  "concept_id": "prometheus",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "open-telemetry/opentelemetry-rust"
+    }
+  ],
+  "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "prometheus",
+      "sense_id": "prometheus#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -7,9 +7,65 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gastownhall/beads",
+      "status": "candidate-context",
+      "text": "Beads - A memory upgrade for your coding agent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gastownhall/beads",
+      "status": "candidate-context",
+      "text": "Migration Test Harness"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gastownhall/beads",
+      "status": "candidate",
+      "text": "Migration Test Harness"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18918,
+      "status": "candidate",
+      "text": "barrier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18918,
+      "status": "candidate",
+      "text": "swarm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18720,
+      "status": "candidate",
+      "text": "fall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18588,
+      "status": "candidate",
+      "text": "pacer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18515,
+      "status": "candidate",
+      "text": "carry"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Migration Test Harness",
   "concept_id": "migration-test-harness",
@@ -20,12 +76,20 @@
       "observed_at": "2026-04-18T12:46:59.510459+00:00",
       "source_file": ".github/workflows/migration-test.yml",
       "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": ".github/workflows/migration-test.yml",
+      "source_repo": "gastownhall/beads"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:46:59.510459+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

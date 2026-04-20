@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Claude Code skill for OWASP security best practices (2025-2026). Includes Top 10:2025, ASVS 5.0, Agentic AI security, and 20+ language-specific security quirks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A Claude Code skill providing the latest OWASP security best practices (2025-2026) for developers building secure applications."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A Claude Code skill providing the latest OWASP security best practices (2025-2026) for developers building secure applications."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023829,
+      "status": "candidate",
+      "text": "exposure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030031,
+      "status": "candidate",
+      "text": "frailty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029106,
+      "status": "candidate",
+      "text": "weakened"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029095,
+      "status": "candidate",
+      "text": "weakening"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029077,
+      "status": "candidate",
+      "text": "debility"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vulnerability",
+      "sense_id": "vulnerability#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19068,
+      "status": "candidate",
+      "text": "exposure"
+    }
+  ],
+  "concept_id": "vulnerability",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vulnerability",
+  "observation_id": "bf3722af57de05f5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-20T03:16:48.146869+00:00",
+  "observed_text": "vulnerability",
+  "source_context_snippet": "A Claude Code skill providing the latest OWASP security best practices (2025-2026) for developers building secure applications.",
+  "source_file": null,
+  "source_repo": "agamm/claude-code-owasp",
+  "source_repo_description": "Claude Code skill for OWASP security best practices (2025-2026). Includes Top 10:2025, ASVS 5.0, Agentic AI security, and 20+ language-specific security quirks."
+}

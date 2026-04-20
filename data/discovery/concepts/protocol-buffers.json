@@ -19,9 +19,28 @@
       "source_repo": "protocolbuffers/protobuf",
       "status": "candidate-context",
       "text": "Protocol Buffers - Google's data interchange format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "protocolbuffers/protobuf-go",
+      "status": "candidate-context",
+      "text": "Go support for Google's protocol buffers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "protocolbuffers/protobuf-go",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/google.golang.org/protobuf.svg)](https://pkg.go.dev/google.golang.org/protobuf)"
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "protocolbuffers/protobuf-go",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/google.golang.org/protobuf.svg)](https://pkg.go.dev/google.golang.org/protobuf)"
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "protocol-buffers",
@@ -33,12 +52,20 @@
       "observed_at": "2026-04-18T13:29:00.435097+00:00",
       "source_file": null,
       "source_repo": "protocolbuffers/protobuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "protocolbuffers/protobuf-go"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

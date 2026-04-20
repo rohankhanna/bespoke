@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\uddea Public laboratory for @hashintel experiments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[github_star]: https://github.com/hashintel/labs#"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[github_star]: https://github.com/hashintel/labs#"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "simulation-engine",
+      "sense_id": "simulation-engine#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "simulation-engine",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "simulation-engine",
+  "observation_id": "888004e416455b98",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-20T03:16:48.146869+00:00",
+  "observed_text": "simulation-engine",
+  "source_context_snippet": "[github_star]: https://github.com/hashintel/labs#",
+  "source_file": null,
+  "source_repo": "hashintel/labs",
+  "source_repo_description": "\ud83e\uddea Public laboratory for @hashintel experiments"
+}

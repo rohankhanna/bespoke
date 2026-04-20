@@ -109,6 +109,30 @@
       "source_repo": "aio-libs/aiohttp",
       "status": "candidate-context",
       "text": "=================================="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rubocop/rubocop",
+      "status": "candidate-context",
+      "text": "A Ruby static code analyzer and formatter, based on the community Ruby style guide."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/rubocop",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containerd/containerd",
+      "status": "candidate-context",
+      "text": "An open and reliable container runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containerd/containerd",
+      "status": "candidate-context",
+      "text": "![containerd banner light mode](https://raw.githubusercontent.com/cncf/artwork/master/projects/containerd/horizontal/color/containerd-horizontal-color.png#gh-light-mode-only)"
     }
   ],
   "candidate_glosses": [
@@ -159,6 +183,18 @@
       "source_repo": "aio-libs/aiohttp",
       "status": "candidate",
       "text": "=================================="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/rubocop",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containerd/containerd",
+      "status": "candidate",
+      "text": "![containerd banner light mode](https://raw.githubusercontent.com/cncf/artwork/master/projects/containerd/horizontal/color/containerd-horizontal-color.png#gh-light-mode-only)"
     }
   ],
   "candidate_related_terms": [],
@@ -238,11 +274,23 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "aio-libs/aiohttp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "rubocop/rubocop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "containerd/containerd"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "secure-coding"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agamm/claude-code-owasp",
+      "status": "candidate-context",
+      "text": "Claude Code skill for OWASP security best practices (2025-2026). Includes Top 10:2025, ASVS 5.0, Agentic AI security, and 20+ language-specific security quirks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agamm/claude-code-owasp",
+      "status": "candidate-context",
+      "text": "A Claude Code skill providing the latest OWASP security best practices (2025-2026) for developers building secure applications."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agamm/claude-code-owasp",
+      "status": "candidate",
+      "text": "A Claude Code skill providing the latest OWASP security best practices (2025-2026) for developers building secure applications."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "secure-coding",
+  "concept_id": "secure-coding",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "agamm/claude-code-owasp"
+    }
+  ],
+  "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "secure-coding",
+      "sense_id": "secure-coding#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

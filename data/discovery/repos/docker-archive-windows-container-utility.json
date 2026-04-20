@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-20T03:18:07.597173+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 79
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Windows Container Utility",
+    "fork": false,
+    "full_name": "docker-archive/windows-container-utility",
+    "html_url": "https://github.com/docker-archive/windows-container-utility",
+    "language": "C++",
+    "pushed_at": "2020-02-14T22:22:53Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2023-01-28T07:28:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

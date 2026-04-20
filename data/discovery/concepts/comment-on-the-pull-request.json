@@ -19,10 +19,65 @@
       "source_repo": "cedar-policy/cedar",
       "status": "candidate-context",
       "text": "Comment on the pull request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/protobuf.dart",
+      "status": "candidate-context",
+      "text": "Runtime library for Dart protobufs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/protobuf.dart",
+      "status": "candidate-context",
+      "text": "Comment on the pull request"
     }
   ],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/protobuf.dart",
+      "status": "candidate",
+      "text": "Comment on the pull request"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19037,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19037,
+      "status": "candidate",
+      "text": "pass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18892,
+      "status": "candidate",
+      "text": "was"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18035,
+      "status": "candidate",
+      "text": "bounce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18035,
+      "status": "candidate",
+      "text": "dig"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Comment on the pull request",
   "concept_id": "comment-on-the-pull-request",
@@ -33,12 +88,20 @@
       "observed_at": "2026-04-18T13:29:00.435097+00:00",
       "source_file": ".github/workflows/comment_pr.yml",
       "source_repo": "cedar-policy/cedar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": ".github/workflows/post_summaries.yaml",
+      "source_repo": "google/protobuf.dart"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

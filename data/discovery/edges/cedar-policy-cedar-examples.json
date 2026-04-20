@@ -1,0 +1,174 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "cedar-policy/cedar-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "cedar-policy/cedar-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_java_hello_world_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_java_hello_world_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "goto-bus-stop/setup-zig@v2.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_java_hello_world_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_java_hello_world_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "Build and test Java example",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_java_partial_evaluation_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_java_partial_evaluation_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_rust_hello_world_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_rust_hello_world_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "Build and test Rust example",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_tiny_todo_go_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_tiny_todo_go_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_tiny_todo_go_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "Build and test TinyTodo-Go",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_tiny_todo_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_tiny_todo_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "Build and test TinyTodo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wasm_example_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wasm_example_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "Build and test Wasm example",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "addnab/docker-run-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "Build & Test Examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_example_use_cases_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_example_use_cases_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "Run example use cases",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-20T03:16:48.146869+00:00",
+  "source_repo": "cedar-policy/cedar-examples"
+}

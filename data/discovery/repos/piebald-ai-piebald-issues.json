@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-20T03:17:00.709534+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4296
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Issue tracker for Piebald, the ultimate agentic AI control experience for developers.",
+    "fork": false,
+    "full_name": "Piebald-AI/piebald-issues",
+    "html_url": "https://github.com/Piebald-AI/piebald-issues",
+    "language": null,
+    "pushed_at": "2026-04-16T21:04:31Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-04-13T22:45:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

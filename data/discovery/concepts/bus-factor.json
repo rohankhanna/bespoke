@@ -19,9 +19,28 @@
       "source_repo": "agent-sh/agent-analyzer",
       "status": "candidate-context",
       "text": "Static analysis binary for agent-sh ecosystem - git history, AST mapping, collectors"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/repo-intel",
+      "status": "candidate-context",
+      "text": "Git history analysis plugin for agentsys - static cached JSON artifact from git history"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/repo-intel",
+      "status": "candidate-context",
+      "text": "Unified static analysis for AI agents - git history, AST symbols, project metadata, and doc-code sync via a cached, incrementally-updatable Rust binary."
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/repo-intel",
+      "status": "candidate",
+      "text": "Unified static analysis for AI agents - git history, AST symbols, project metadata, and doc-code sync via a cached, incrementally-updatable Rust binary."
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "bus-factor",
@@ -33,12 +52,20 @@
       "observed_at": "2026-04-18T13:29:00.435097+00:00",
       "source_file": null,
       "source_repo": "agent-sh/agent-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "agent-sh/repo-intel"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

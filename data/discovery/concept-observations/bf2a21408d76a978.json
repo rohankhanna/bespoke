@@ -4,10 +4,63 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definition_hints": [],
-  "candidate_glosses": [],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Beads - A memory upgrade for your coding agent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Nightly Full Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Nightly Full Tests"
+    }
+  ],
   "candidate_primary_bucket": "workflow-process",
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23834,
+      "status": "candidate",
+      "text": "examination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23397,
+      "status": "candidate",
+      "text": "examen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23397,
+      "status": "candidate",
+      "text": "midnight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23376,
+      "status": "candidate",
+      "text": "track"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23355,
+      "status": "candidate",
+      "text": "blotter"
+    }
+  ],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -24,15 +77,17 @@
   "definition_status": "unresolved",
   "discovered_via": "workflow-name",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "nightly-full-tests",
   "observation_id": "bf2a21408d76a978",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-18T12:46:59.510459+00:00",
+  "observed_at": "2026-04-20T03:16:48.146869+00:00",
   "observed_text": "Nightly Full Tests",
-  "source_context_snippet": null,
+  "source_context_snippet": "Nightly Full Tests",
   "source_file": ".github/workflows/nightly.yml",
   "source_repo": "gastownhall/beads",
-  "source_repo_description": null
+  "source_repo_description": "Beads - A memory upgrade for your coding agent"
 }

@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "data"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fatiando/pooch",
+      "status": "candidate-context",
+      "text": "A friend to fetch your data files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fatiando/pooch",
+      "status": "candidate-context",
+      "text": "<h1><img src=\"https://github.com/fatiando/pooch/raw/main/doc/_static/readme-banner.png\" alt=\"Pooch: A friend to fetch your data files\"></h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fatiando/pooch",
+      "status": "candidate",
+      "text": "<h1><img src=\"https://github.com/fatiando/pooch/raw/main/doc/_static/readme-banner.png\" alt=\"Pooch: A friend to fetch your data files\"></h1>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39962293,
+      "status": "candidate",
+      "text": "information"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30005515,
+      "status": "candidate",
+      "text": "informatics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30004861,
+      "status": "candidate",
+      "text": "computer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30004004,
+      "status": "candidate",
+      "text": "datafile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003624,
+      "status": "candidate",
+      "text": "datatype"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22061,
+      "status": "candidate",
+      "text": "information"
+    }
+  ],
+  "canonical_name": "data",
+  "concept_id": "data",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "fatiando/pooch"
+    }
+  ],
+  "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "data",
+      "sense_id": "data#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

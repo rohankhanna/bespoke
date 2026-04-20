@@ -1,12 +1,17 @@
 {
   "component": "actions/labeler@8558fd74291d67161a8a78ce36a881fa63b766a9",
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pr-path-labeler.yml",
       "source_repo": "zeroclaw-labs/zeroclaw"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "blockprotocol/blockprotocol"
     }
   ]
 }

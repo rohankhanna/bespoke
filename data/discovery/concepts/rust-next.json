@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "rust-next"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-cli/env_logger",
+      "status": "candidate-context",
+      "text": "A logging implementation for `log` which is configured via an environment variable."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cli/env_logger",
+      "status": "candidate-context",
+      "text": "rust-next"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cli/env_logger",
+      "status": "candidate",
+      "text": "rust-next"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "rust-next",
+  "concept_id": "rust-next",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": ".github/workflows/rust-next.yml",
+      "source_repo": "rust-cli/env_logger"
+    }
+  ],
+  "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "rust-next",
+      "sense_id": "rust-next#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

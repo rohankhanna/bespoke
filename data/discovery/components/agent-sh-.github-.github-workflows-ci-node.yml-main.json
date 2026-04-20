@@ -1,0 +1,17 @@
+{
+  "component": "agent-sh/.github/.github/workflows/ci-node.yml@main",
+  "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "agent-sh/agent-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "agent-sh/sync-docs"
+    }
+  ]
+}

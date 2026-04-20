@@ -1,0 +1,132 @@
+{
+  "aliases": [
+    "tracing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-rust",
+      "status": "candidate-context",
+      "text": "The Rust OpenTelemetry implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-rust",
+      "status": "candidate-context",
+      "text": "The Rust [OpenTelemetry](https://opentelemetry.io/) implementation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tokio-rs/tracing",
+      "status": "candidate-context",
+      "text": "Application level tracing for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tokio-rs/tracing",
+      "status": "candidate-context",
+      "text": "![Tracing \u2014 Structured, application-level diagnostics][splash]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-rust",
+      "status": "candidate",
+      "text": "The Rust [OpenTelemetry](https://opentelemetry.io/) implementation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tokio-rs/tracing",
+      "status": "candidate",
+      "text": "![Tracing \u2014 Structured, application-level diagnostics][splash]"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29932702,
+      "status": "candidate",
+      "text": "chasing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29924829,
+      "status": "candidate",
+      "text": "charting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29924415,
+      "status": "candidate",
+      "text": "mapping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29922135,
+      "status": "candidate",
+      "text": "raster"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29920941,
+      "status": "candidate",
+      "text": "marking"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 47070,
+      "status": "candidate",
+      "text": "trace"
+    }
+  ],
+  "canonical_name": "tracing",
+  "concept_id": "tracing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "open-telemetry/opentelemetry-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "tokio-rs/tracing"
+    }
+  ],
+  "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tracing",
+      "sense_id": "tracing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

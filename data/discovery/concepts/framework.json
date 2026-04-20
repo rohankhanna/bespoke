@@ -31,6 +31,42 @@
       "source_repo": "graphql-python/graphene",
       "status": "candidate-context",
       "text": "[\ud83d\udcac Join the community on Discord](https://discord.gg/T6Gp6NFYHe)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caronc/apprise",
+      "status": "candidate-context",
+      "text": "Apprise - Push Notifications that work with just about every platform!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caronc/apprise",
+      "status": "candidate-context",
+      "text": "![Apprise Logo](https://raw.githubusercontent.com/caronc/apprise/master/apprise/assets/themes/default/apprise-logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/agent-core",
+      "status": "candidate-context",
+      "text": "Shared core libraries for agent-sh plugins \u2014 synced to all repos on merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/agent-core",
+      "status": "candidate-context",
+      "text": "Shared core libraries for all agent-sh plugins. Changes here are automatically synced to consuming repos via CI-driven PRs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "biocypher/biocypher",
+      "status": "candidate-context",
+      "text": "A unifying framework for biomedical research knowledge graphs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "biocypher/biocypher",
+      "status": "candidate-context",
+      "text": "| | | | |"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "graphql-python/graphene",
       "status": "candidate",
       "text": "[\ud83d\udcac Join the community on Discord](https://discord.gg/T6Gp6NFYHe)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caronc/apprise",
+      "status": "candidate",
+      "text": "![Apprise Logo](https://raw.githubusercontent.com/caronc/apprise/master/apprise/assets/themes/default/apprise-logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/agent-core",
+      "status": "candidate",
+      "text": "Shared core libraries for all agent-sh plugins. Changes here are automatically synced to consuming repos via CI-driven PRs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "biocypher/biocypher",
+      "status": "candidate",
+      "text": "| | | | |"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +214,29 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "graphql-python/graphene"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "caronc/apprise"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "agent-sh/agent-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "biocypher/biocypher"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "lexical_providers": [
     "datamuse"
   ],

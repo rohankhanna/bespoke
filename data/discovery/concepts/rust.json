@@ -298,6 +298,48 @@
       "source_repo": "rust-lang/rfcs",
       "status": "candidate-context",
       "text": "[Rust RFCs]: #rust-rfcs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/repo-intel",
+      "status": "candidate-context",
+      "text": "Git history analysis plugin for agentsys - static cached JSON artifact from git history"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/repo-intel",
+      "status": "candidate-context",
+      "text": "Unified static analysis for AI agents - git history, AST symbols, project metadata, and doc-code sync via a cached, incrementally-updatable Rust binary."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashintel/labs",
+      "status": "candidate-context",
+      "text": "\ud83e\uddea Public laboratory for @hashintel experiments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashintel/labs",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashintel/labs",
+      "status": "candidate-context",
+      "text": "[github_star]: https://github.com/hashintel/labs#"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tokio-rs/tracing",
+      "status": "candidate-context",
+      "text": "Application level tracing for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tokio-rs/tracing",
+      "status": "candidate-context",
+      "text": "![Tracing \u2014 Structured, application-level diagnostics][splash]"
     }
   ],
   "candidate_glosses": [
@@ -438,6 +480,30 @@
       "source_repo": "rust-lang/rfcs",
       "status": "candidate",
       "text": "[Rust RFCs]: #rust-rfcs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/repo-intel",
+      "status": "candidate",
+      "text": "Unified static analysis for AI agents - git history, AST symbols, project metadata, and doc-code sync via a cached, incrementally-updatable Rust binary."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashintel/labs",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashintel/labs",
+      "status": "candidate",
+      "text": "[github_star]: https://github.com/hashintel/labs#"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tokio-rs/tracing",
+      "status": "candidate",
+      "text": "![Tracing \u2014 Structured, application-level diagnostics][splash]"
     }
   ],
   "candidate_related_terms": [
@@ -751,11 +817,35 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "rust-lang/rfcs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "agent-sh/repo-intel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "hashintel/labs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "hashintel/labs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "tokio-rs/tracing"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "lexical_providers": [
     "datamuse"
   ],

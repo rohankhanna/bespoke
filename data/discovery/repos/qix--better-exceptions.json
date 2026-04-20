@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "Qix-/better-exceptions",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "Qix-/better-exceptions",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "Qix-/better-exceptions",
+      "target": "Build and Lint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-20T03:17:18.854966+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4820
+    },
+    {
+      "path": ".github/workflows/push.yml",
+      "size": 652
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pretty and useful exceptions in Python, automatically.",
+    "fork": false,
+    "full_name": "Qix-/better-exceptions",
+    "html_url": "https://github.com/Qix-/better-exceptions",
+    "language": "Python",
+    "pushed_at": "2026-02-25T14:28:08Z",
+    "stargazers_count": 4729,
+    "topics": [],
+    "updated_at": "2026-04-13T11:48:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yml",
+      "term": "Build and Lint"
+    }
+  ]
+}

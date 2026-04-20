@@ -1,0 +1,906 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-dependency.yaml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-dependency.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-dependency.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-dependency.yaml"
+    },
+    {
+      "component": "repo-sync/pull-request@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-dependency.yaml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-dependency.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-create-release-notes.yaml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-create-release-notes.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-push-docker-image.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-push-docker-image.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-push-docker-image.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-push-docker-image.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-push-docker-image.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-push-docker-image.yaml"
+    },
+    {
+      "component": "peter-evans/dockerhub-description@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-push-docker-image.yaml"
+    },
+    {
+      "component": "peter-evans/dockerhub-description@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-push-docker-image.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release-pgo.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release-pgo.yaml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release-pgo.yaml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v9.1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release-pgo.yaml"
+    },
+    {
+      "component": "dolthub/create-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release-pgo.yaml"
+    },
+    {
+      "component": "dolthub/upload-release-asset@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release-pgo.yaml"
+    },
+    {
+      "component": "dolthub/upload-release-asset@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release-pgo.yaml"
+    },
+    {
+      "component": "dolthub/upload-release-asset@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release-pgo.yaml"
+    },
+    {
+      "component": "dolthub/upload-release-asset@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release-pgo.yaml"
+    },
+    {
+      "component": "dolthub/upload-release-asset@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release-pgo.yaml"
+    },
+    {
+      "component": "dolthub/upload-release-asset@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release-pgo.yaml"
+    },
+    {
+      "component": "dolthub/upload-release-asset@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release-pgo.yaml"
+    },
+    {
+      "component": "dolthub/upload-release-asset@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release-pgo.yaml"
+    },
+    {
+      "component": "dolthub/upload-release-asset@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release-pgo.yaml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release-pgo.yaml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release-pgo.yaml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release-pgo.yaml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release-pgo.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release.yaml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release.yaml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bats-macos.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bats-macos.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bats-macos.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bats-macos.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bats-macos.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bats-macos.yaml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bats-macos.yaml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bats-unix-adaptive.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bats-unix-adaptive.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bats-unix-adaptive.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bats-unix-adaptive.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bats-unix-adaptive.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dolthub/dolt",
+      "target": "dolthub/doltgresql",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dolthub/dolt",
+      "target": "steveyegge/gastown",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dolthub/dolt",
+      "target": "attic-labs/noms",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-dependency.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-dependency.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-dependency.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-dependency.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "repo-sync/pull-request@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-dependency.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "Bump Deps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd-bump-winget.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "Bump Dolt on winget",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-create-release-notes.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-create-release-notes.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd-create-release-notes.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "Create Release Notes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-push-docker-image.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-push-docker-image.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-push-docker-image.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-push-docker-image.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-push-docker-image.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-push-docker-image.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "peter-evans/dockerhub-description@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd-push-docker-image.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "Push Docker Image to DockerHub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release-pgo.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release-pgo.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release-pgo.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "aws-actions/configure-aws-credentials@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release-pgo.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "EndBug/add-and-commit@v9.1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release-pgo.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "dolthub/create-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release-pgo.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "dolthub/upload-release-asset@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release-pgo.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "peter-evans/repository-dispatch@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd-release-pgo.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "Release PGO Dolt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "peter-evans/repository-dispatch@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd-release.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "Release Dolt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bats-macos.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "aws-actions/configure-aws-credentials@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bats-macos.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bats-macos.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bats-macos.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bats-macos.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-bats-macos.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "Test Bats MacOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bats-unix-adaptive.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "aws-actions/configure-aws-credentials@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bats-unix-adaptive.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bats-unix-adaptive.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bats-unix-adaptive.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bats-unix-adaptive.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-bats-unix-adaptive.yaml",
+      "source_repo": "dolthub/dolt",
+      "target": "Test Bats Unix (Adaptive Encoding)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dolthub/dolt",
+      "target": "agent-memory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dolthub/dolt",
+      "target": "agent-memory-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dolthub/dolt",
+      "target": "ai-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dolthub/dolt",
+      "target": "data-version-control",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dolthub/dolt",
+      "target": "data-versioning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dolthub/dolt",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dolthub/dolt",
+      "target": "database-version-control",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dolthub/dolt",
+      "target": "database-versioning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dolthub/dolt",
+      "target": "decentralized-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dolthub/dolt",
+      "target": "git-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dolthub/dolt",
+      "target": "git-for-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dolthub/dolt",
+      "target": "git-for-databases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dolthub/dolt",
+      "target": "git-sql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dolthub/dolt",
+      "target": "immutable-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dolthub/dolt",
+      "target": "mariadb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dolthub/dolt",
+      "target": "mysql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dolthub/dolt",
+      "target": "version-controlled-database",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-20T03:17:22.853518+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 39963
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 2754
+    },
+    {
+      "path": ".github/workflows/bump-dependency.yaml",
+      "size": 8062
+    },
+    {
+      "path": ".github/workflows/cd-bump-winget.yaml",
+      "size": 1383
+    },
+    {
+      "path": ".github/workflows/cd-create-release-notes.yaml",
+      "size": 2623
+    },
+    {
+      "path": ".github/workflows/cd-push-docker-image.yaml",
+      "size": 3932
+    },
+    {
+      "path": ".github/workflows/cd-release-pgo.yaml",
+      "size": 10936
+    },
+    {
+      "path": ".github/workflows/cd-release.yaml",
+      "size": 1582
+    },
+    {
+      "path": ".github/workflows/ci-bats-macos.yaml",
+      "size": 5753
+    },
+    {
+      "path": ".github/workflows/ci-bats-unix-adaptive.yaml",
+      "size": 5155
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Dolt \u2013 Git for Data",
+    "fork": false,
+    "full_name": "dolthub/dolt",
+    "html_url": "https://github.com/dolthub/dolt",
+    "language": "Go",
+    "pushed_at": "2026-04-19T21:17:34Z",
+    "stargazers_count": 22236,
+    "topics": [
+      "agent-memory",
+      "agent-memory-server",
+      "ai-agents",
+      "ai-database",
+      "data-version-control",
+      "data-versioning",
+      "database",
+      "database-version-control",
+      "database-versioning",
+      "decentralized-database",
+      "git",
+      "git-database",
+      "git-for-data",
+      "git-for-databases",
+      "git-sql",
+      "immutable-database",
+      "mariadb",
+      "mysql",
+      "sql",
+      "version-controlled-database"
+    ],
+    "updated_at": "2026-04-20T01:35:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "attic-labs/noms",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dolthub/doltgresql",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "steveyegge/gastown",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Bump Deps",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-dependency.yaml",
+      "term": "Bump Deps"
+    },
+    {
+      "context_snippet": "Bump Dolt on winget",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd-bump-winget.yaml",
+      "term": "Bump Dolt on winget"
+    },
+    {
+      "context_snippet": "Create Release Notes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd-create-release-notes.yaml",
+      "term": "Create Release Notes"
+    },
+    {
+      "context_snippet": "Push Docker Image to DockerHub",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd-push-docker-image.yaml",
+      "term": "Push Docker Image to DockerHub"
+    },
+    {
+      "context_snippet": "Release PGO Dolt",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd-release-pgo.yaml",
+      "term": "Release PGO Dolt"
+    },
+    {
+      "context_snippet": "Release Dolt",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd-release.yaml",
+      "term": "Release Dolt"
+    },
+    {
+      "context_snippet": "Test Bats MacOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-bats-macos.yaml",
+      "term": "Test Bats MacOS"
+    },
+    {
+      "context_snippet": "Test Bats Unix (Adaptive Encoding)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-bats-unix-adaptive.yaml",
+      "term": "Test Bats Unix (Adaptive Encoding)"
+    },
+    {
+      "context_snippet": "<img height=\"100\" src=\"./images/Dolt-Logo@3x.svg\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-memory"
+    },
+    {
+      "context_snippet": "<img height=\"100\" src=\"./images/Dolt-Logo@3x.svg\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-memory-server"
+    },
+    {
+      "context_snippet": "<img height=\"100\" src=\"./images/Dolt-Logo@3x.svg\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-database"
+    },
+    {
+      "context_snippet": "<img height=\"100\" src=\"./images/Dolt-Logo@3x.svg\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-version-control"
+    },
+    {
+      "context_snippet": "<img height=\"100\" src=\"./images/Dolt-Logo@3x.svg\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-versioning"
+    },
+    {
+      "context_snippet": "<img height=\"100\" src=\"./images/Dolt-Logo@3x.svg\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "<img height=\"100\" src=\"./images/Dolt-Logo@3x.svg\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database-version-control"
+    },
+    {
+      "context_snippet": "<img height=\"100\" src=\"./images/Dolt-Logo@3x.svg\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database-versioning"
+    },
+    {
+      "context_snippet": "<img height=\"100\" src=\"./images/Dolt-Logo@3x.svg\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decentralized-database"
+    },
+    {
+      "context_snippet": "<img height=\"100\" src=\"./images/Dolt-Logo@3x.svg\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "git-database"
+    },
+    {
+      "context_snippet": "<img height=\"100\" src=\"./images/Dolt-Logo@3x.svg\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "git-for-data"
+    },
+    {
+      "context_snippet": "<img height=\"100\" src=\"./images/Dolt-Logo@3x.svg\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "git-for-databases"
+    },
+    {
+      "context_snippet": "<img height=\"100\" src=\"./images/Dolt-Logo@3x.svg\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "git-sql"
+    },
+    {
+      "context_snippet": "<img height=\"100\" src=\"./images/Dolt-Logo@3x.svg\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "immutable-database"
+    },
+    {
+      "context_snippet": "<img height=\"100\" src=\"./images/Dolt-Logo@3x.svg\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mariadb"
+    },
+    {
+      "context_snippet": "<img height=\"100\" src=\"./images/Dolt-Logo@3x.svg\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mysql"
+    },
+    {
+      "context_snippet": "<img height=\"100\" src=\"./images/Dolt-Logo@3x.svg\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "version-controlled-database"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "database"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dolthub/dolt",
+      "status": "candidate-context",
+      "text": "Dolt \u2013 Git for Data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dolthub/dolt",
+      "status": "candidate-context",
+      "text": "<img height=\"100\" src=\"./images/Dolt-Logo@3x.svg\"/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dolthub/dolt",
+      "status": "candidate",
+      "text": "<img height=\"100\" src=\"./images/Dolt-Logo@3x.svg\"/>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048624,
+      "status": "candidate",
+      "text": "databank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20044979,
+      "status": "candidate",
+      "text": "data"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20042759,
+      "status": "candidate",
+      "text": "diskette"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20039855,
+      "status": "candidate",
+      "text": "directory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20039380,
+      "status": "candidate",
+      "text": "dataset"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "database",
+  "concept_id": "database",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "dolthub/dolt"
+    }
+  ],
+  "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "database",
+      "sense_id": "database#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

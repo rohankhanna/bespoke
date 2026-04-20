@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collection of my favorite custom Claude Code resources to make life easier."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A growing collection of custom Claude Code resources built for real workflows."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A growing collection of custom Claude Code resources built for real workflows."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051154,
+      "status": "candidate",
+      "text": "quick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051129,
+      "status": "candidate",
+      "text": "expeditious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048139,
+      "status": "candidate",
+      "text": "propel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10043165,
+      "status": "candidate",
+      "text": "instigate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10042826,
+      "status": "candidate",
+      "text": "incite"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "prompts",
+      "sense_id": "prompts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "prompts",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "prompts",
+  "observation_id": "eb7eadeab14c3f9e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-20T03:16:48.146869+00:00",
+  "observed_text": "prompts",
+  "source_context_snippet": "A growing collection of custom Claude Code resources built for real workflows.",
+  "source_file": null,
+  "source_repo": "glittercowboy/taches-cc-resources",
+  "source_repo_description": "A collection of my favorite custom Claude Code resources to make life easier."
+}

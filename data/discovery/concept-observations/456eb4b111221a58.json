@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2728 The open-source standard for blocks. From @hashintel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Algolia Upload Index"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Algolia Upload Index"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13071,
+      "status": "candidate",
+      "text": "download"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12599,
+      "status": "candidate",
+      "text": "clip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12599,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12599,
+      "status": "candidate",
+      "text": "photo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12599,
+      "status": "candidate",
+      "text": "pic"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Algolia Upload Index",
+      "sense_id": "algolia-upload-index#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "algolia-upload-index",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "algolia-upload-index",
+  "observation_id": "456eb4b111221a58",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-20T03:16:48.146869+00:00",
+  "observed_text": "Algolia Upload Index",
+  "source_context_snippet": "Algolia Upload Index",
+  "source_file": ".github/workflows/algolia-upload-index.yml",
+  "source_repo": "blockprotocol/blockprotocol",
+  "source_repo_description": "\u2728 The open-source standard for blocks. From @hashintel"
+}

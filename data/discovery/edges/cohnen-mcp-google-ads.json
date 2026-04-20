@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cohnen/mcp-google-ads",
+      "target": "google-ads",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cohnen/mcp-google-ads",
+      "target": "mcp-server",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-20T03:16:48.146869+00:00",
+  "source_repo": "cohnen/mcp-google-ads"
+}

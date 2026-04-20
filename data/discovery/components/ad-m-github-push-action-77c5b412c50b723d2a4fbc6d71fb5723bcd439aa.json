@@ -1,0 +1,12 @@
+{
+  "component": "ad-m/github-push-action@77c5b412c50b723d2a4fbc6d71fb5723bcd439aa",
+  "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/health.yml",
+      "source_repo": "biopragmatics/bioregistry"
+    }
+  ]
+}

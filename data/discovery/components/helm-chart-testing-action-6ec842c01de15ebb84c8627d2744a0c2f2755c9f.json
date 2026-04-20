@@ -1,0 +1,17 @@
+{
+  "component": "helm/chart-testing-action@6ec842c01de15ebb84c8627d2744a0c2f2755c9f",
+  "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-charts.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-ethereum-node.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts"
+    }
+  ]
+}

@@ -1,0 +1,529 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-typos.yaml"
+    },
+    {
+      "component": "crate-ci/typos@631208b7aac2daa8b707f55e7331f9112b0e062d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-typos.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "azure/setup-helm@dda3372f752e03dde6b3237bc9431cdc2f7a02a2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "helm/chart-releaser-action@cae68fefc6b5f367a0275617c9f83181ba54714f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-charts.yaml"
+    },
+    {
+      "component": "azure/setup-helm@dda3372f752e03dde6b3237bc9431cdc2f7a02a2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-charts.yaml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-charts.yaml"
+    },
+    {
+      "component": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-charts.yaml"
+    },
+    {
+      "component": "helm/chart-testing-action@6ec842c01de15ebb84c8627d2744a0c2f2755c9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-charts.yaml"
+    },
+    {
+      "component": "helm/kind-action@ef37e7f390d99f746eb8b610417061a60e82a6cc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-charts.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-devnet.yaml"
+    },
+    {
+      "component": "azure/setup-helm@dda3372f752e03dde6b3237bc9431cdc2f7a02a2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-devnet.yaml"
+    },
+    {
+      "component": "helm/kind-action@ef37e7f390d99f746eb8b610417061a60e82a6cc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-devnet.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ethereum-node.yaml"
+    },
+    {
+      "component": "azure/setup-helm@dda3372f752e03dde6b3237bc9431cdc2f7a02a2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ethereum-node.yaml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ethereum-node.yaml"
+    },
+    {
+      "component": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ethereum-node.yaml"
+    },
+    {
+      "component": "helm/chart-testing-action@6ec842c01de15ebb84c8627d2744a0c2f2755c9f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ethereum-node.yaml"
+    },
+    {
+      "component": "helm/kind-action@ef37e7f390d99f746eb8b610417061a60e82a6cc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ethereum-node.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-observoor.yaml"
+    },
+    {
+      "component": "jupyterhub/action-k3s-helm@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-observoor.yaml"
+    },
+    {
+      "component": "azure/setup-helm@dda3372f752e03dde6b3237bc9431cdc2f7a02a2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-observoor.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-xatu-sentry-logs.yaml"
+    },
+    {
+      "component": "jupyterhub/action-k3s-helm@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-xatu-sentry-logs.yaml"
+    },
+    {
+      "component": "azure/setup-helm@dda3372f752e03dde6b3237bc9431cdc2f7a02a2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-xatu-sentry-logs.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "ethpandaops/ethereum-k8s-testnets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "norwoodj/helm-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "helm/chart-testing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-typos.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-typos.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "crate-ci/typos@631208b7aac2daa8b707f55e7331f9112b0e062d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-typos.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "Check typos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "azure/setup-helm@dda3372f752e03dde6b3237bc9431cdc2f7a02a2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "helm/chart-releaser-action@cae68fefc6b5f367a0275617c9f83181ba54714f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-charts.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-charts.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "azure/setup-helm@dda3372f752e03dde6b3237bc9431cdc2f7a02a2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-charts.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-charts.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-charts.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "helm/chart-testing-action@6ec842c01de15ebb84c8627d2744a0c2f2755c9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-charts.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "helm/kind-action@ef37e7f390d99f746eb8b610417061a60e82a6cc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-devnet.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-devnet.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "azure/setup-helm@dda3372f752e03dde6b3237bc9431cdc2f7a02a2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-devnet.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "helm/kind-action@ef37e7f390d99f746eb8b610417061a60e82a6cc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-devnet.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "Test Devnet Functionality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ethereum-node.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ethereum-node.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "azure/setup-helm@dda3372f752e03dde6b3237bc9431cdc2f7a02a2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ethereum-node.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ethereum-node.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ethereum-node.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "helm/chart-testing-action@6ec842c01de15ebb84c8627d2744a0c2f2755c9f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ethereum-node.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "helm/kind-action@ef37e7f390d99f746eb8b610417061a60e82a6cc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-observoor.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-observoor.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "jupyterhub/action-k3s-helm@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-observoor.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "azure/setup-helm@dda3372f752e03dde6b3237bc9431cdc2f7a02a2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-observoor.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "Test Observoor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-xatu-sentry-logs.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-xatu-sentry-logs.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "jupyterhub/action-k3s-helm@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-xatu-sentry-logs.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "azure/setup-helm@dda3372f752e03dde6b3237bc9431cdc2f7a02a2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-xatu-sentry-logs.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "Test xatu-sentry-logs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "helm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "target": "kubernetes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-20T03:19:04.068409+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8329
+    },
+    {
+      "path": ".github/workflows/check-typos.yaml",
+      "size": 354
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 1220
+    },
+    {
+      "path": ".github/workflows/test-charts.yaml",
+      "size": 2607
+    },
+    {
+      "path": ".github/workflows/test-devnet.yaml",
+      "size": 3983
+    },
+    {
+      "path": ".github/workflows/test-ethereum-node.yaml",
+      "size": 2667
+    },
+    {
+      "path": ".github/workflows/test-observoor.yaml",
+      "size": 11677
+    },
+    {
+      "path": ".github/workflows/test-xatu-sentry-logs.yaml",
+      "size": 8984
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A set of Helm charts to run multiple components of the Ethereum blockchain on Kubernetes.",
+    "fork": false,
+    "full_name": "ethpandaops/ethereum-helm-charts",
+    "html_url": "https://github.com/ethpandaops/ethereum-helm-charts",
+    "language": "Go Template",
+    "pushed_at": "2026-04-10T09:22:03Z",
+    "stargazers_count": 186,
+    "topics": [
+      "docker",
+      "ethereum",
+      "helm",
+      "kubernetes"
+    ],
+    "updated_at": "2026-04-18T15:10:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethpandaops/ethereum-k8s-testnets",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "helm/chart-testing",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "norwoodj/helm-docs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check typos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-typos.yaml",
+      "term": "Check typos"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "Test Devnet Functionality",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-devnet.yaml",
+      "term": "Test Devnet Functionality"
+    },
+    {
+      "context_snippet": "Test Observoor",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-observoor.yaml",
+      "term": "Test Observoor"
+    },
+    {
+      "context_snippet": "Test xatu-sentry-logs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-xatu-sentry-logs.yaml",
+      "term": "Test xatu-sentry-logs"
+    },
+    {
+      "context_snippet": "[![Release Helm Charts](https://github.com/ethpandaops/ethereum-helm-charts/actions/workflows/release.yaml/badge.svg)](https://github.com/ethpandaops/ethereum-helm-charts/actions/workflows/release.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "[![Release Helm Charts](https://github.com/ethpandaops/ethereum-helm-charts/actions/workflows/release.yaml/badge.svg)](https://github.com/ethpandaops/ethereum-helm-charts/actions/workflows/release.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    },
+    {
+      "context_snippet": "[![Release Helm Charts](https://github.com/ethpandaops/ethereum-helm-charts/actions/workflows/release.yaml/badge.svg)](https://github.com/ethpandaops/ethereum-helm-charts/actions/workflows/release.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "helm"
+    },
+    {
+      "context_snippet": "[![Release Helm Charts](https://github.com/ethpandaops/ethereum-helm-charts/actions/workflows/release.yaml/badge.svg)](https://github.com/ethpandaops/ethereum-helm-charts/actions/workflows/release.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    }
+  ]
+}

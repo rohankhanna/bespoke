@@ -19,6 +19,18 @@
       "source_repo": "jonmosco/kube-ps1",
       "status": "candidate-context",
       "text": "![GitHub Release](https://img.shields.io/github/v/release/jonmosco/kube-ps1)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "glittercowboy/taches-cc-resources",
+      "status": "candidate-context",
+      "text": "A collection of my favorite custom Claude Code resources to make life easier."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glittercowboy/taches-cc-resources",
+      "status": "candidate-context",
+      "text": "A growing collection of custom Claude Code resources built for real workflows."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "jonmosco/kube-ps1",
       "status": "candidate",
       "text": "![GitHub Release](https://img.shields.io/github/v/release/jonmosco/kube-ps1)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glittercowboy/taches-cc-resources",
+      "status": "candidate",
+      "text": "A growing collection of custom Claude Code resources built for real workflows."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "jonmosco/kube-ps1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "glittercowboy/taches-cc-resources"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "lexical_providers": [
     "datamuse"
   ],

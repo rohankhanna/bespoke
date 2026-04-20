@@ -17,6 +17,9 @@
   "add-new-implementation-versions": [
     "2c83b01242d340bb"
   ],
+  "add-to-project": [
+    "02868fadd4301fb7"
+  ],
   "add-versions": [
     "cc37cd800c0b5b92"
   ],
@@ -53,6 +56,12 @@
   ],
   "agent-harness": [
     "e56c383598a6f6fc"
+  ],
+  "agent-memory": [
+    "d9697551bf95c8d9"
+  ],
+  "agent-memory-server": [
+    "94fc2a94788e6256"
   ],
   "agent-plugins": [
     "a9c15fa6cb8c0991"
@@ -151,6 +160,13 @@
   "ai-commit": [
     "8a99f1816f7b65df"
   ],
+  "ai-content": [
+    "4744ad4149a207df",
+    "de6db2516e4c25c3"
+  ],
+  "ai-database": [
+    "64a2e96c46a3eb3c"
+  ],
   "ai-detection": [
     "a00608a3aa3ef383"
   ],
@@ -165,6 +181,7 @@
     "4ac3d312455b4cda"
   ],
   "ai-marketing": [
+    "1cd4b22e61a4bb3f",
     "da191da797bd4ec5"
   ],
   "ai-memory": [
@@ -182,11 +199,17 @@
   "ai-pipeline": [
     "62a4f27f775896b1"
   ],
+  "ai-ready": [
+    "d40c7ab08bdc7bfc"
+  ],
   "ai-review-issues": [
     "6f5c1b5eb68f227a"
   ],
   "ai-scientist": [
     "a9d2657ae2718e10"
+  ],
+  "ai-security": [
+    "1b06269a481c4582"
   ],
   "ai-seo": [
     "966ea58be9b29e82"
@@ -209,6 +232,12 @@
   ],
   "alembic-migration-validation": [
     "877fba7a570c88bc"
+  ],
+  "alerts": [
+    "8f68cdd754fe21f4"
+  ],
+  "algolia-upload-index": [
+    "456eb4b111221a58"
   ],
   "alignment": [
     "49e3b41ca95d4337"
@@ -237,6 +266,7 @@
     "243f1ad8d3ea390f"
   ],
   "anthropic": [
+    "0b19eb9d8fe82aca",
     "24a4c142459c5062",
     "363027d212b58744",
     "58c41912b8f39d6b",
@@ -246,6 +276,7 @@
     "98434ee771c766a0",
     "9b2062791949d6ee",
     "a7b171705ffb82b3",
+    "bb098cf6b38472be",
     "d7689247dd02b158",
     "e9fd3daabe57fc04",
     "fae14e8db15ce24b"
@@ -272,6 +303,12 @@
   "antigravity-tools": [
     "b5a0fb22b9a44315"
   ],
+  "api-release": [
+    "9147e1fedf44017f"
+  ],
+  "apprise": [
+    "52fd98a1073849ab"
+  ],
   "approve-contributor": [
     "5671f20c9fc6daaf"
   ],
@@ -279,7 +316,8 @@
     "993c4d575c1cd514"
   ],
   "appsec": [
-    "0b18d1ae40a4357a"
+    "0b18d1ae40a4357a",
+    "c6b3ac29b5ca648e"
   ],
   "aqavit": [
     "8ca1ed45af50b4bc"
@@ -295,6 +333,9 @@
   ],
   "arrow": [
     "b3273776778ee302"
+  ],
+  "artifact": [
+    "584eec9b1d10fcc5"
   ],
   "artificial-intelligence": [
     "2bd761a685ac37d8"
@@ -320,11 +361,17 @@
   "astro": [
     "47e6e186250ba1e5"
   ],
+  "asvs": [
+    "02fbdc61a18b4105"
+  ],
   "async": [
     "2d67dedaadb15059"
   ],
   "asynchronous-programming": [
     "977459f8b0cd5857"
+  ],
+  "asynchronous-tasks": [
+    "8004f8f2dfec8eff"
   ],
   "asyncio": [
     "0778ca82343bae52",
@@ -354,6 +401,7 @@
     "87cbb9a3f081fd98"
   ],
   "augmentation": [
+    "2ad1809b1b3dd8c9",
     "dd8d23a598dbff9e"
   ],
   "authentification": [
@@ -361,6 +409,9 @@
   ],
   "auto-approve": [
     "050ed6a5f67331f5"
+  ],
+  "auto-approve-dependency-prs": [
+    "d909bd0ffef5268f"
   ],
   "auto-assign-issues-and-prs": [
     "084e0b4672ffd199"
@@ -417,6 +468,12 @@
   "automated-documentation-audit": [
     "3bf1683f3844787c"
   ],
+  "automated-feature-engineering": [
+    "3e927c9e29e770f5"
+  ],
+  "automated-machine-learning": [
+    "4d6056f4cb2f7c19"
+  ],
   "automated-rollback-manager": [
     "f7f146060b00994d"
   ],
@@ -432,15 +489,21 @@
     "41f974021cae736b",
     "44f6ddb63dc4a989",
     "4db1a2a5befeff1e",
+    "6711cd00f57844d1",
     "8666fa41271e9115",
     "8d542baaa233920d",
+    "a52cb846c66d4098",
     "ac7d152f5b783a31",
     "c255bd7c9e144857",
     "e97f060e8ea3c1e2",
-    "f0306121440d6295"
+    "f0306121440d6295",
+    "fb24d2300f2734b0"
   ],
   "automerge": [
     "53f900d33a0f5ab7"
+  ],
+  "automl": [
+    "55943f49595d6ddd"
   ],
   "autonomous-agents": [
     "106a48af579e9fc2",
@@ -482,6 +545,9 @@
   ],
   "back-up-my-blog-database": [
     "8d1ecbbc85b49e77"
+  ],
+  "background-jobs": [
+    "41d04fe17e63051f"
   ],
   "backport": [
     "e78a7c66bf49ce83"
@@ -570,6 +636,7 @@
     "81836c1514c1ff21",
     "9a0be674800ab0a4",
     "a41426964d5be127",
+    "b19c28e5b92c113e",
     "e7c9077cb1569142"
   ],
   "benchmark-long-context": [
@@ -588,7 +655,11 @@
     "d1a9036885c4256c"
   ],
   "benchmarks": [
-    "9940ed46f98a9f51"
+    "9940ed46f98a9f51",
+    "be79563bfd74053a"
+  ],
+  "benchstat": [
+    "31eb836936a96953"
   ],
   "beps-reusable": [
     "b40d40f7645fff83"
@@ -621,8 +692,27 @@
   "binstall": [
     "349c944fa571d630"
   ],
+  "biochatter": [
+    "bb2fff672dcd1508"
+  ],
+  "biocuration": [
+    "30ba945f979ef4ef"
+  ],
   "bioinformatics": [
-    "01fb25818cc71244"
+    "01fb25818cc71244",
+    "141e69b4235aeee9"
+  ],
+  "biomedical": [
+    "dd559601ae55a12d"
+  ],
+  "biopragmatics": [
+    "5b8b963da6733677"
+  ],
+  "bioregistry": [
+    "5da4e80380362f68"
+  ],
+  "bitcoin": [
+    "77f3b0c4a5329493"
   ],
   "bitext-mining": [
     "85c9c40bad4bd512"
@@ -636,6 +726,12 @@
   ],
   "blob-size-policy": [
     "43650d03b488df84"
+  ],
+  "block-protocol": [
+    "6e6c4c34dfa681c8"
+  ],
+  "blocks": [
+    "50a9142de10b5cae"
   ],
   "bot-bump-flashinfer-version": [
     "f1f37981a1bbd72a"
@@ -658,6 +754,9 @@
   "bounded-context": [
     "25658a929c305a46"
   ],
+  "bounding-box": [
+    "097c4ff8b7ded138"
+  ],
   "branch-checks": [
     "6236b51294e62673"
   ],
@@ -666,6 +765,9 @@
   ],
   "branch-e2e-checks": [
     "d2cdc4e8f4a2607e"
+  ],
+  "broken-link-check": [
+    "bf6473513a6e70b6"
   ],
   "bubbletea": [
     "9abc2404ed5451b5",
@@ -678,6 +780,7 @@
     "11a8ff80e6c0a4ec",
     "1af67dae5626916f",
     "268d86ba39e4d116",
+    "30141ae7ae7f3720",
     "35c378a053d052a8",
     "3b396a3c7efeb8b9",
     "3d28f6d75aa4948c",
@@ -689,10 +792,12 @@
     "86bd9efa0c1aec5f",
     "975fef093c17d69d",
     "a13c3b53e95c01ef",
+    "a7f7b8d5a3a1897d",
     "af5a836829e7129a",
     "ce8c07ee84b5eeae",
     "d677de8c3efc6ef6",
-    "e33c7f4091fa9ea2"
+    "e33c7f4091fa9ea2",
+    "f4b8da1f97cdb16a"
   ],
   "build-actions-cache": [
     "42d76dbc1777daaf"
@@ -702,6 +807,9 @@
   ],
   "build-and-host-documentation": [
     "1f117a0d03a94246"
+  ],
+  "build-and-lint": [
+    "9d8290e0f322f971"
   ],
   "build-and-publish-docker-image": [
     "b30d24fe1821354f"
@@ -721,6 +829,9 @@
   "build-and-push-docker-images": [
     "bc3e2a9b57f1b37f"
   ],
+  "build-and-push-to-dockerhub": [
+    "0861c96bf8cfc6c8"
+  ],
   "build-and-push-vector-model": [
     "94a9bb84dcb3232a"
   ],
@@ -734,10 +845,27 @@
   ],
   "build-and-test": [
     "55fbb0cdbbe8c5e9",
+    "adaaf1ea85171964",
     "b5051c0a8e2e5c53",
+    "bd0f6c77f397e2fc",
     "f4b54b196c6eb667",
     "f517b70097118e8f",
     "ffdfedea71fa2dc3"
+  ],
+  "build-and-test-java-example": [
+    "00939f4f5f1aaf5d"
+  ],
+  "build-and-test-rust-example": [
+    "9910825648739787"
+  ],
+  "build-and-test-tinytodo": [
+    "dfa373f0492789c5"
+  ],
+  "build-and-test-tinytodo-go": [
+    "f5c7787683df5814"
+  ],
+  "build-and-test-wasm-example": [
+    "b07ca78bf0fc6b00"
   ],
   "build-and-upload-tunix-package": [
     "46325f2b9a6e41fb"
@@ -787,7 +915,8 @@
     "128ebc17e80a8b75"
   ],
   "build-docs": [
-    "c8312036b940521e"
+    "c8312036b940521e",
+    "e07e301387dc49ff"
   ],
   "build-documentation": [
     "63bbb57cdfab50a2"
@@ -803,6 +932,9 @@
   ],
   "build-flashinfer-docs": [
     "d94e7877e209657f"
+  ],
+  "build-free-threaded": [
+    "8fc01006a2d8fbc0"
   ],
   "build-from-tarball": [
     "fe04b1565c8ce1e0"
@@ -864,11 +996,17 @@
   "build-test-docker": [
     "f7e7f37ba4515697"
   ],
+  "build-test-examples": [
+    "503bab97a0b2b1bc"
+  ],
   "build-theme": [
     "ece99b9e2da8bfe0"
   ],
   "build-typescript-ci": [
     "c584db611d4bd725"
+  ],
+  "build-volume-test-images": [
+    "d68b7681750d8f9c"
   ],
   "build-wasm": [
     "c792b32c7bb0d47f"
@@ -881,6 +1019,12 @@
   ],
   "bump-dependencies-in-cargo.lock": [
     "4f1c92dbc44445ba"
+  ],
+  "bump-deps": [
+    "3b825a299318561f"
+  ],
+  "bump-dolt-on-winget": [
+    "7bfe182541281674"
   ],
   "bump-plugin-shas": [
     "164b4141ce23b2aa"
@@ -898,7 +1042,8 @@
     "cfb702448f4369f9"
   ],
   "bus-factor": [
-    "0910da9fbbeb649d"
+    "0910da9fbbeb649d",
+    "b23bb42895bd261d"
   ],
   "busted": [
     "3cec2c4c1f200fc2"
@@ -922,6 +1067,7 @@
     "c491a9452dad543a"
   ],
   "canary-release": [
+    "9fde00b3df0b966b",
     "a6e99c14251cd66b"
   ],
   "cancel-pr-workflows-on-merge": [
@@ -954,10 +1100,14 @@
   ],
   "changelog": [
     "48d02693d4c77ff1",
-    "6df7e938290eba60"
+    "6df7e938290eba60",
+    "f404f928d5d1ffb0"
   ],
   "changeset-check": [
     "97b46b708086d69d"
+  ],
+  "channel-factory": [
+    "6f9a453a0d8921dc"
   ],
   "chart": [
     "f57fdecb535e0b1a"
@@ -1047,6 +1197,9 @@
   "check-the-documentation-build": [
     "636322f15e826cc0"
   ],
+  "check-typos": [
+    "cf4580e1d1125004"
+  ],
   "check-upstream-drift": [
     "88c49ca3a6f5f71e"
   ],
@@ -1055,7 +1208,8 @@
   ],
   "checks": [
     "2d6ae5680e3bc849",
-    "606557cbd9e6d4cd"
+    "606557cbd9e6d4cd",
+    "b0d318fc3e895559"
   ],
   "chemoinformatics": [
     "e574f933125a23ed"
@@ -1113,6 +1267,9 @@
   ],
   "ci-cd-base": [
     "cf4b58e20d4f9b98"
+  ],
+  "ci-docs-biocypher": [
+    "7af79e5d3d08bc9b"
   ],
   "ci-gpu": [
     "ce7a266b334d0893"
@@ -1204,6 +1361,7 @@
     "04bfc2675ff5af0d",
     "0513b525d5eb9cc4",
     "0c400fd3302a4bc1",
+    "14d73af12e8ec1a8",
     "150db59720908c4d",
     "26557da473e8ce9b",
     "274a86ff885ebba1",
@@ -1226,22 +1384,28 @@
     "78355a7840756dd4",
     "7bd60359cd9f8d02",
     "7f98d4c3c9d4ea78",
+    "86d1094bc1225d40",
     "8a18d194aa07b71a",
     "8f9f0a27c94cf96a",
     "8ffc29645a27df47",
     "9bd4aa2a04f6f5e9",
+    "9d0de68aa22080b8",
     "9ed66003f40a5c47",
     "a28fa5706c59f1e1",
     "b20475a82d70de15",
     "b23d3e0257f9ffbe",
     "b48a72bb501421ae",
+    "b536feb4a55fd338",
     "c3e848695987af26",
     "c40e9429f4296002",
     "c8f9d8706e1fe6e7",
     "caa191320abb4f37",
     "cb5a43ee35e3106d",
+    "cefa1d86b75b9d76",
     "d07f1dd6e9f4b817",
     "d496f8e7aa646469",
+    "d96708edc5b99d46",
+    "dab73ed677657b1c",
     "db9d0b060351ceab",
     "dbee39c0394e5acb",
     "dcaf3f3e952263a1",
@@ -1249,8 +1413,17 @@
     "e025031044704c6e",
     "e53ae17beb3b93a6",
     "e7e4ad6aebc7a6e3",
+    "e937d8edbc87e388",
     "ebea5c0ee43a4581",
     "fc05da53b9ee5138"
+  ],
+  "claude-code---automated-pr-review": [
+    "8cb17167fb247763",
+    "c16ea91363f31c21"
+  ],
+  "claude-code---mentions": [
+    "5f359e5dc6b7b63a",
+    "9efd8e38fa258d26"
   ],
   "claude-code-cli": [
     "5f47c278a2460a00",
@@ -1288,6 +1461,8 @@
   "claude-code-skill": [
     "269dced01c5c6049",
     "2edde4044002971f",
+    "6202c875d039eb6e",
+    "7e10b7a66370e471",
     "87ede300735e4c32",
     "9cec553e9fd0938e"
   ],
@@ -1342,9 +1517,11 @@
   ],
   "claude-skills": [
     "064ad320a1022eed",
+    "31028fe427cd69e4",
     "63130b8141257cb6",
     "8a1791d2b47c3b4d",
     "b4d09478ef23c658",
+    "b9ec7be99b420e37",
     "d0aa1a0118ef5615",
     "d38ce13f2fbbb3ca"
   ],
@@ -1354,6 +1531,7 @@
   "claudecode": [
     "69d2b122268949ea",
     "9e4b88d291647cc9",
+    "b05f6316841f84c4",
     "b232345624999dee",
     "b7c94435d04a7213"
   ],
@@ -1424,6 +1602,9 @@
   "close-inactive-issues-and-prs": [
     "2a1cdb67292901bb"
   ],
+  "close-inactive-issues-and-pull-requests": [
+    "c59749994476cb4a"
+  ],
   "close-issues-needs-repro": [
     "cfc1151716c51527"
   ],
@@ -1460,7 +1641,8 @@
     "ec0ef0ccb2bc06e5"
   ],
   "cloudflare": [
-    "58962d7c76e652d3"
+    "58962d7c76e652d3",
+    "ac09d83fc7654926"
   ],
   "cluade": [
     "da4260c1b623bcb5"
@@ -1472,6 +1654,8 @@
     "1e99e5ae6e8f7c4f"
   ],
   "cncf": [
+    "32eaf11d2ec5a4a9",
+    "ec48fa39839c2fd2",
     "f305a63bae048090",
     "fbe0c4e69a9703cd"
   ],
@@ -1480,6 +1664,7 @@
     "d06b0dfef3f4e08c"
   ],
   "code-analysis": [
+    "8fa40af2a1800d00",
     "964d239b06b2d1d8"
   ],
   "code-checks": [
@@ -1488,7 +1673,14 @@
   "code-coverage": [
     "c0c6cb1b53c1bfea"
   ],
+  "code-documentation": [
+    "9cb1b2f5eafc4dc2"
+  ],
+  "code-formatter": [
+    "12ed0870442c226a"
+  ],
   "code-ownership": [
+    "834e92f96ec1d20e",
     "aab5d0d68c2b5a81"
   ],
   "code-quality": [
@@ -1511,16 +1703,21 @@
   ],
   "codeql": [
     "1593260bd1725d86",
+    "33d2d6d397ad4b46",
     "38e73dd2fdc0d9e9",
     "39827e5f6b911a15",
     "5617a02d7d21c7c4",
     "65f71fd8ca72db57",
     "6e669a4919fa277c",
+    "7088732228cdc851",
     "720716a02236c520",
     "861a65ad3d9e3d3d",
+    "891b7bc2098fd2d8",
     "8a70df2689420878",
     "b550039c65139917",
     "bb98a087868299bf",
+    "c2378377b90237d9",
+    "d03b3436b0ef35c2",
     "e4ab78012d089d4a",
     "ea943330eb7311e8",
     "ecc602882e7320d9",
@@ -1530,6 +1727,12 @@
     "3d2d2be7d5e94719",
     "6669549ce6661508",
     "84a98fe7d5733b61"
+  ],
+  "codeql-analysis": [
+    "919bf154f767985a"
+  ],
+  "codeql-scan": [
+    "3e86a52882a26d74"
   ],
   "codeql-workflow-security-scan": [
     "58d0f4fb94635243"
@@ -1581,10 +1784,14 @@
     "9abec85cb51dbca0",
     "ad31303c705df450"
   ],
+  "commands": [
+    "148e533f672b2ff4"
+  ],
   "comment-commands": [
     "e006fb817d28f3c2"
   ],
   "comment-on-the-pull-request": [
+    "15862f2e97d15c9c",
     "d17d8957ec871b86"
   ],
   "commit-lint": [
@@ -1598,6 +1805,9 @@
   ],
   "community": [
     "526aef4b96095eeb"
+  ],
+  "competitive-analysis": [
+    "3dcd7a73d48aa461"
   ],
   "compile-integration-tests": [
     "9834627f2f2db3fa"
@@ -1626,6 +1836,9 @@
   ],
   "computer-graphics": [
     "34081066bd0c3937"
+  ],
+  "computer-vision": [
+    "5cc7761c909e654f"
   ],
   "conceptual-modeling": [
     "d3a5f22e7e3d311e"
@@ -1664,7 +1877,8 @@
     "a6e04197f9b1082c"
   ],
   "containerd": [
-    "31432d5347918dba"
+    "31432d5347918dba",
+    "7436582e6130e0e5"
   ],
   "containerd-compose": [
     "16a814942b62a4c9"
@@ -1673,7 +1887,17 @@
     "151b973a875012a9",
     "30fe0699cfaa210d",
     "3b3fbc499400e769",
-    "5457159844b70067"
+    "5457159844b70067",
+    "5a2f0dda32733f5e",
+    "bc44cab57cd91c80",
+    "fbd734543da72f67"
+  ],
+  "content-creation": [
+    "acc67e70999562e1",
+    "e49be00858906ab4"
+  ],
+  "content-strategy": [
+    "b026dea0a4c0f237"
   ],
   "context": [
     "e83a78216f152567"
@@ -1719,11 +1943,15 @@
     "2380f4dd838c53ee",
     "b7d1e3dd2c72cfc7"
   ],
+  "copywriting": [
+    "dd94a5029773374f"
+  ],
   "coreaudio": [
     "593911bd19be0475"
   ],
   "coupling": [
-    "19ca5b3f2631a709"
+    "19ca5b3f2631a709",
+    "fdd4fc33d2c77035"
   ],
   "coverage": [
     "2214da852cf6a53c",
@@ -1755,8 +1983,12 @@
   "create-and-publish-container-image": [
     "34136fe972fa421c"
   ],
+  "create-feedstock-pr": [
+    "69d3d80327f8795b"
+  ],
   "create-github-release": [
-    "ab17483d37de551a"
+    "ab17483d37de551a",
+    "ec90d3b2a7dbc7b9"
   ],
   "create-new-release-tag": [
     "62abfbe85acba8c1"
@@ -1768,8 +2000,12 @@
     "cfc525b0686a6445",
     "dc822a1677c5f48b"
   ],
+  "create-release-notes": [
+    "a3655ad5391ad8fb"
+  ],
   "create-releases": [
-    "96a030a8f0825963"
+    "96a030a8f0825963",
+    "d13ff9d2aec8ce5e"
   ],
   "create-sbom-for-the-release": [
     "ed0286740d3349dc"
@@ -1883,9 +2119,15 @@
   "dask": [
     "275337f23083391b"
   ],
+  "data": [
+    "5df692c2413ea262"
+  ],
   "data-analysis": [
     "1648150322632447",
     "6a33bdaa62dbf153"
+  ],
+  "data-augmentation": [
+    "33ecd048138b7932"
   ],
   "data-engineering": [
     "f5828db705b4fd73"
@@ -1897,11 +2139,27 @@
     "9f84ebd59d8ea6ea"
   ],
   "data-science": [
+    "2fe3647ab2dcfffb",
     "6480908376242364",
     "b4e030e6c2193ebe"
   ],
+  "data-version-control": [
+    "79110a8916ee3a04"
+  ],
+  "data-versioning": [
+    "6e24465bb718319f"
+  ],
   "data-visualisation": [
     "33ee524963ac0697"
+  ],
+  "database": [
+    "7ae12fb0b3036c23"
+  ],
+  "database-version-control": [
+    "41e0933cac5bd48b"
+  ],
+  "database-versioning": [
+    "6dc9ad5e2b164074"
   ],
   "dataframe": [
     "eda4f6b529377562"
@@ -1930,6 +2188,9 @@
   "decentralization": [
     "d93409b28268b29c"
   ],
+  "decentralized-database": [
+    "8dd7f937377278a7"
+  ],
   "decision-making": [
     "6ebbd852285ef6ae",
     "d3f2c160d7385cf6"
@@ -1939,6 +2200,7 @@
     "04092c44c3d50800",
     "2f5efe6e219459fd",
     "45d08ed2155c6315",
+    "af80de73576418eb",
     "bcb2dbc0a798bdcf",
     "f3eec66c00214289"
   ],
@@ -1949,6 +2211,9 @@
     "3f7b659147737cb5",
     "60b90ca41c89bc40",
     "d1c8d00624b276f9"
+  ],
+  "deeplearning": [
+    "a712ab549d1cdb83"
   ],
   "deepresearch": [
     "b12256d40c4ec11f"
@@ -2004,6 +2269,7 @@
   ],
   "dependency-review": [
     "705f468ac5f5f562",
+    "79c9adfbb4f8b505",
     "8c662773f5c9d83b",
     "bdbe3f61d060bfb2",
     "d82243aff7487f15",
@@ -2011,6 +2277,7 @@
   ],
   "deploy": [
     "5642b5db13e61da6",
+    "e47f240e0b9cdab3",
     "e8c7c143c16da0ab"
   ],
   "deploy-application-website": [
@@ -2096,6 +2363,7 @@
     "fbc448f1c84f7df1"
   ],
   "development": [
+    "4e7e18dd9de4c733",
     "9bb881151c7b1b40",
     "d5c701cfb5bf1dab"
   ],
@@ -2108,7 +2376,13 @@
   ],
   "devtools": [
     "21c85805f7280986",
-    "3643e22a912b831b"
+    "3643e22a912b831b",
+    "519742cbafd2662b",
+    "b90ce1f35fddcbc9",
+    "e464f8530946f29e"
+  ],
+  "diagnostics": [
+    "631f2ca1e8ae451f"
   ],
   "diff": [
     "18a50f2138dda19b",
@@ -2161,12 +2435,19 @@
   "doc-build-and-upload": [
     "7574cf92494c0d3d"
   ],
+  "docbuild": [
+    "f05f46432832446f"
+  ],
   "docker": [
+    "0eea5c1179807c63",
+    "12a71c57490e51be",
     "1d7687bb4c0a88a8",
     "21f47ab4f7458fcc",
+    "354bd5a46c511020",
     "6dca050932510e92",
     "79b698ecc714c2fa",
     "ad29db27d6b10188",
+    "b2cd9bce53f6d005",
     "bd341ee19e5b2201",
     "fe530a422607ef9b"
   ],
@@ -2179,6 +2460,9 @@
   "docker-build-and-push": [
     "7f9e27a6a23d3a4e",
     "cf2fccca6bc6df25"
+  ],
+  "docker-build-and-web-service-test": [
+    "c07ff25a44ab175e"
   ],
   "docker-build-test": [
     "3514ca8fbffe3d92"
@@ -2255,8 +2539,10 @@
     "5747f8fd6b130d9f"
   ],
   "documentation": [
+    "004caf98077ee764",
     "17e926e825d3bb66",
     "44c7f5be7c12f585",
+    "a80f5d9d86b76f57",
     "f0e22c8997203d7f"
   ],
   "documentation-build": [
@@ -2268,6 +2554,9 @@
   "dokploy": [
     "5cc5b1e6986dfb35",
     "7d25e8ef36f68adc"
+  ],
+  "download-manager": [
+    "c59c49ef367423ae"
   ],
   "draft-release": [
     "7ec6c43aa5b813c4"
@@ -2282,6 +2571,7 @@
     "8754af6bef2bb395"
   ],
   "e2e": [
+    "400fefe33be42acf",
     "945c55391df812a8"
   ],
   "e2e-snapshot-tests": [
@@ -2300,6 +2590,9 @@
   ],
   "eclipse": [
     "2fe5c95f72c95e3b"
+  ],
+  "ecmascript": [
+    "736869eb777070e5"
   ],
   "ecommerce": [
     "0c029a8539326ddb",
@@ -2334,6 +2627,9 @@
   "elm-architecture": [
     "8f6ceb6fd2171821"
   ],
+  "email-marketing": [
+    "7dd837f3c1543f4b"
+  ],
   "embeddings": [
     "bcfdb257abe65842"
   ],
@@ -2347,7 +2643,8 @@
     "15e298e2aaa5f035"
   ],
   "end-to-end-tests": [
-    "bdd84c92831c0727"
+    "bdd84c92831c0727",
+    "d4326e780c35933a"
   ],
   "enforce-pr-target-branch": [
     "79a253c3cf6835cd"
@@ -2364,10 +2661,12 @@
     "d3cb753b48b469e2"
   ],
   "eslint": [
+    "78b6dbfa6721fc9f",
     "7c9887c2e60f2f87"
   ],
   "ethereum": [
-    "59f3cccaac2da5fa"
+    "59f3cccaac2da5fa",
+    "9e99f297571060b5"
   ],
   "eval": [
     "9a2e9b2472501a9f"
@@ -2401,8 +2700,14 @@
   "fal-ai": [
     "ef9a4b8b83443909"
   ],
+  "fatiando-a-terra": [
+    "e5356f9a94d22d38"
+  ],
   "favicons": [
     "0333b28fbfc30e8a"
+  ],
+  "feature-engineering": [
+    "9b875b5b131fcda8"
   ],
   "file-icons-generator": [
     "73f96d4ca86985e9"
@@ -2449,6 +2754,9 @@
   "fish": [
     "d5480c6a63190bf7"
   ],
+  "fix": [
+    "a9cac47b1c5a00e4"
+  ],
   "flexbox": [
     "ba3dff8fbf396b54"
   ],
@@ -2490,6 +2798,9 @@
     "5c1d3e0246ea3aa0",
     "c37a3a1c9d30762c"
   ],
+  "fossa-scanning": [
+    "ae80380d8244d279"
+  ],
   "foundation-models": [
     "1ed00ef56c66a198"
   ],
@@ -2501,10 +2812,13 @@
   ],
   "framework": [
     "40487122be7003cf",
+    "4f4c2f0a2e736b18",
     "505af16b2d1c5578",
     "669b921c1933061f",
+    "9600ede13e7a0dcf",
     "a543bbfe63b1fb4f",
     "adaaa699dd837c51",
+    "cfdc74880cc75f67",
     "f36104bfae64f120"
   ],
   "frontend-design": [
@@ -2523,6 +2837,9 @@
   ],
   "fuzz": [
     "5fe86d355c598ffd"
+  ],
+  "fuzzing": [
+    "88afcd6b39775226"
   ],
   "fuzzy": [
     "f81753a042a60016"
@@ -2648,14 +2965,29 @@
   "git-commits": [
     "253e7d7624b70cad"
   ],
+  "git-database": [
+    "fa10582471cc2ccd"
+  ],
   "git-delta": [
     "21aedb23b73967de"
   ],
   "git-diff": [
     "4547791bb0a94606"
   ],
+  "git-for-data": [
+    "c8bd2b384d1ef3a8"
+  ],
+  "git-for-databases": [
+    "108fc62f0fc0e2e4"
+  ],
+  "git-history": [
+    "1833b5f17377c61c"
+  ],
   "git-management": [
     "bfb8ac271e190d7e"
+  ],
+  "git-sql": [
+    "f4db90611f8cdca4"
   ],
   "git-status": [
     "6c1fea9bac1e0d4b"
@@ -2721,8 +3053,10 @@
   "golang": [
     "4badd279d28efb7e",
     "4f0e1cbdc11f06f1",
+    "5f713c36ae111c0f",
     "9f98bd95aa41669e",
     "c79e441018f6b193",
+    "d1277de8db86d83a",
     "e3f4915f3d6f0324",
     "f477867576b23a2c"
   ],
@@ -2734,6 +3068,9 @@
   ],
   "good-first-issue": [
     "8ca7d4e4ee04d3d2"
+  ],
+  "google-ads": [
+    "722c4269fc3c24ee"
   ],
   "google-cloud": [
     "764566e3d4de083b",
@@ -2863,7 +3200,9 @@
     "a1be4d3c4d6a81a5",
     "a232a29010deac00",
     "a426b4dae32bcdfd",
-    "cf0414e4e11e9ad0"
+    "b0b54d96514817ec",
+    "cf0414e4e11e9ad0",
+    "ee0dfe75b17709a5"
   ],
   "hacktoberfest2024": [
     "5dce59f7ef4e471d"
@@ -2884,8 +3223,12 @@
   "hashicorp-terraform": [
     "9649b357159f388c"
   ],
+  "health": [
+    "21fca31a1d9c83ab"
+  ],
   "helm": [
     "588b2ea079a2598d",
+    "6b693d11dd79f443",
     "f92f45ebcc24b2c5"
   ],
   "hermes": [
@@ -2908,9 +3251,11 @@
     "4349cfa59ebd3f55"
   ],
   "hotspots": [
-    "b753ab9693879959"
+    "b753ab9693879959",
+    "f0d7a70058f17abc"
   ],
   "http": [
+    "379a260cde2e4a92",
     "68c7ea10ff5b3706",
     "7a9f7b2ccc6fc809",
     "8c9ee66c97969fc1",
@@ -2946,11 +3291,26 @@
   "iceberg": [
     "c3f73626f5b51b40"
   ],
+  "ideas": [
+    "00a8f401a9924b22"
+  ],
   "ideogram": [
     "112fd8e33b8b62ca"
   ],
+  "image-augmentation": [
+    "430c4df165ce22c6"
+  ],
+  "image-classification": [
+    "3e86b00c6c5281a4"
+  ],
   "image-generation": [
     "847575bcf941bfd4"
+  ],
+  "image-processing": [
+    "1f4700a090e25fbe"
+  ],
+  "image-segmentations": [
+    "9d994135a6200666"
   ],
   "image2image": [
     "1b0d29232f5cbd21"
@@ -2963,6 +3323,9 @@
   ],
   "img2img": [
     "a6637f734f465ea1"
+  ],
+  "immutable-database": [
+    "c7a8e42cb72b7cf9"
   ],
   "import-test": [
     "bd03b306affebd58"
@@ -3004,8 +3367,14 @@
   "inspect": [
     "c04f4e30383a87d4"
   ],
+  "install-test": [
+    "99a3eaf90931f84d"
+  ],
   "installer": [
     "1decba0419434ff0"
+  ],
+  "instance-segmentation": [
+    "2b80f0587aa24bf1"
   ],
   "instruction-tuning": [
     "bf1a376ee8d9f8e3"
@@ -3015,6 +3384,7 @@
   ],
   "integration-tests": [
     "33e0ef68815d2e8c",
+    "445b49da9bf49986",
     "97a35119895b7171"
   ],
   "integration-tests-external-apis": [
@@ -3029,6 +3399,9 @@
   ],
   "ios": [
     "b2a74951ce5619b9"
+  ],
+  "iot-cloud": [
+    "917356b6895b4d79"
   ],
   "ipfs": [
     "db0c1da78dde0b4b"
@@ -3096,6 +3469,9 @@
   "j2cl": [
     "af7bea407e97cd53"
   ],
+  "jaeger": [
+    "9a5dcf12045c6122"
+  ],
   "java": [
     "125ed4584093cc6f",
     "2af65d9387dedc65",
@@ -3143,6 +3519,12 @@
   "kernel-fusion": [
     "2993c479ad816e90"
   ],
+  "keypoint-detection": [
+    "48b13cabb2068e53"
+  ],
+  "kickoff-evalml-unit-tests": [
+    "629aee0e20a15620"
+  ],
   "kimi": [
     "786f693293ad5507"
   ],
@@ -3162,6 +3544,7 @@
     "e4b2b1337faae68d"
   ],
   "knowledge-graph": [
+    "6951b6b454bd013d",
     "ee13d4fed1e1f541"
   ],
   "knowledge-graphs": [
@@ -3203,6 +3586,8 @@
     "764b6f2c00ce4c93",
     "8051727eb490b245",
     "a9366c456e15c41c",
+    "b071d0829893e7bd",
+    "daeb8325c584d49d",
     "f1185fe7788d910a",
     "f37dcc2e053a9553"
   ],
@@ -3285,8 +3670,14 @@
   "large-large-models": [
     "98cddba2493b3206"
   ],
+  "latest-dependency-checker": [
+    "a065986eb9ea29da"
+  ],
   "launchd": [
     "5cc27f4e76d8fd72"
+  ],
+  "layer2": [
+    "69bf713dc059c22c"
   ],
   "layout": [
     "97c838439b8c1702"
@@ -3323,6 +3714,9 @@
   "libp2p-transport-interop-test": [
     "5abdad506b950634"
   ],
+  "library": [
+    "66b37349a8884710"
+  ],
   "life": [
     "c5cffd467c9b2a82"
   ],
@@ -3332,11 +3726,20 @@
   "light-framework": [
     "f109733f7af62eec"
   ],
+  "lightning": [
+    "d8bd152a5fae6e07"
+  ],
+  "lightning-network": [
+    "9d89a989654eca37"
+  ],
   "lima": [
     "003a799523923403"
   ],
   "link-check": [
     "4ee3d092ab51b33f"
+  ],
+  "links": [
+    "457e73642dadcaeb"
   ],
   "lint": [
     "023b2258e3c8095c",
@@ -3355,6 +3758,7 @@
     "ac8f1b0f992ed6e2",
     "b6e0dcf77976a01b",
     "bde65c261e700674",
+    "be0960ef0b341df4",
     "c1dc86547dd30802",
     "c86a3343470eb116",
     "cefe407a0a25bf4b",
@@ -3369,12 +3773,22 @@
   "lint-and-format-check": [
     "54a9fc9b2dd6c8c1"
   ],
+  "lint-check": [
+    "6f1476c087e28840"
+  ],
   "lint-commits": [
     "107e5e4d2bcd6bce",
-    "a41facd4900e2983"
+    "a41facd4900e2983",
+    "ee0eb659a8c098c5"
+  ],
+  "lint-pr": [
+    "4d5dc74b5b146b07"
   ],
   "lint-sh": [
     "1e15f068dbfcc188"
+  ],
+  "lint-skills": [
+    "34a6190ec32d73c1"
   ],
   "lint-sync": [
     "35b2dcac549717ea",
@@ -3389,16 +3803,19 @@
   ],
   "linter": [
     "1ab611c99c731de2",
+    "2e66a99c97c2ec92",
     "475de188bdd3495b",
     "67185c83f2c79c97",
     "6db87c56629283bb",
-    "897ef46e47e4fe71"
+    "897ef46e47e4fe71",
+    "daac6842deb2c775"
   ],
   "linters": [
     "7479d5f93a2d4231",
     "eb227407fd3eb172"
   ],
   "linting": [
+    "08aa771441d45311",
     "42d35c64973aec43",
     "652d63b0450ea49d",
     "82d43dfec1036a4f",
@@ -3408,6 +3825,7 @@
     "f005a0524ebf4030"
   ],
   "linux": [
+    "0d2317c3a6826b41",
     "5950ac8e689211b7",
     "90b0bb7fb8e62fc1",
     "a83948e7b86b261a",
@@ -3525,6 +3943,9 @@
     "89b155d1b0ff77d6",
     "e3500271a5d2b619"
   ],
+  "loc-badge": [
+    "a198188826d17fc0"
+  ],
   "lock-threads": [
     "ad5d70f741a9f31f"
   ],
@@ -3535,7 +3956,18 @@
     "c85e557933bd9fa2"
   ],
   "logging": [
-    "86fd7df45ee033bf"
+    "705230dbe576752e",
+    "86fd7df45ee033bf",
+    "f398081e7a6b9604"
+  ],
+  "logging-and-metrics": [
+    "152b60bbb3575ee0"
+  ],
+  "logging-facade": [
+    "5099420859c3a4dc"
+  ],
+  "logging-library": [
+    "9221dcb5fddb76f5"
   ],
   "logo": [
     "cd7db40ccf417306"
@@ -3607,9 +4039,11 @@
     "7319192c00a049ad",
     "83b544b61f9302b7",
     "8d3e3126c31f0f18",
+    "92b91ff64f4e5387",
     "b4752405b796fd91",
     "c05e427bb44f2ed0",
     "e310c3f5fea3f913",
+    "f3c50b695b34610e",
     "fe1822ea43a8aa8a"
   ],
   "macos": [
@@ -3645,6 +4079,9 @@
     "99ca2de3c3875a34",
     "cd1fb17f01c66687"
   ],
+  "mariadb": [
+    "b67ce4972fd8e83e"
+  ],
   "mark-and-close-stale-issues": [
     "5cd05544f309ee82"
   ],
@@ -3655,10 +4092,15 @@
     "0ec9169deee4cc06",
     "27027f40738a40b9",
     "893c768217661245",
+    "92522dcd8caa13b1",
     "e9ac5618df058f76"
+  ],
+  "marketing": [
+    "869a5688e5200a60"
   ],
   "marketing-automation": [
     "5cd09d069c0214ff",
+    "956f42660fcf464e",
     "e4e9bca64d08a77c"
   ],
   "marshalling": [
@@ -3694,13 +4136,18 @@
     "95713cdf0b375c53",
     "a54bb8a98db6a1ac",
     "ba7b0fd118db0926",
-    "c08dfaf31932df83"
+    "c08dfaf31932df83",
+    "f5648d4e2f9fd9ab",
+    "f73fc4ad16130aa2"
   ],
   "mcp-tools": [
     "acaba7e101b74330"
   ],
   "measure-diff-across-multiple-repos": [
     "15d928cc3da4656f"
+  ],
+  "medical-imaging": [
+    "e5f2650781ee029c"
   ],
   "memory-leak-detect": [
     "3bbe11059341150c"
@@ -3719,6 +4166,9 @@
   ],
   "metal": [
     "3148b465b98892d4"
+  ],
+  "metrics": [
+    "fddd187e200a9660"
   ],
   "midjourney": [
     "827a2b7662303a2c",
@@ -3754,6 +4204,9 @@
     "9c80a1950d48be0a",
     "f4a91208b29a9674"
   ],
+  "mirror-test-image": [
+    "b260a1cd944005e7"
+  ],
   "mkdocs": [
     "46701ffe639a5b6c"
   ],
@@ -3763,6 +4216,7 @@
   "model-context-protocol": [
     "701b3ba557c06007",
     "acd91a4ed188a12b",
+    "e003337dcc79dd1a",
     "f936c462081054a1"
   ],
   "model-hub": [
@@ -3820,6 +4274,9 @@
     "6637e42f61399dcf",
     "c0c5afb2f653a6eb"
   ],
+  "musig2": [
+    "74027d2269135db1"
+  ],
   "mutation-testing": [
     "2e81436a8631904a"
   ],
@@ -3827,7 +4284,8 @@
     "3622caa5782d43a1"
   ],
   "mysql": [
-    "42f2655d399447f1"
+    "42f2655d399447f1",
+    "571e7a2343bedd19"
   ],
   "nano-banana": [
     "181da69d06bce075",
@@ -3854,7 +4312,8 @@
     "a2fa6fcfc8a2471c"
   ],
   "neo4j": [
-    "8e42420337f1e707"
+    "8e42420337f1e707",
+    "ee1863fbb21682e8"
   ],
   "neovim": [
     "27e536235cdb99c7",
@@ -3950,6 +4409,7 @@
   "nodejs": [
     "17af258d491bf9ff",
     "1ac3cdfd28f613c7",
+    "2d4da746eb679984",
     "60dec10d9b490062",
     "66ee9ddcee63ba94",
     "881e3177fd0a54b6",
@@ -3971,11 +4431,27 @@
   "notebook-tests": [
     "0bce957a1980cc85"
   ],
+  "notification-api": [
+    "71cbbb27e7343417"
+  ],
+  "notification-hub": [
+    "3d2f30fbd935af00"
+  ],
+  "notification-service": [
+    "2a8593983171c15a"
+  ],
   "notifications": [
-    "63ca54b1a93d64a1"
+    "63ca54b1a93d64a1",
+    "c0c667d004590f6f"
+  ],
+  "notifier": [
+    "f2002bc0f0936b82"
   ],
   "notifier-docker-build": [
     "7b692f33f5240a3d"
+  ],
+  "notify": [
+    "b99f5c3abee9d63f"
   ],
   "npm-cli": [
     "ad368686a50921d6",
@@ -3997,6 +4473,9 @@
   "nvim": [
     "9ae3c6063d187f95"
   ],
+  "object-detection": [
+    "9678f95ff24c51eb"
+  ],
   "objective-c": [
     "7bcaf3f6c517be67",
     "810dcbb08ec97a4f"
@@ -4007,11 +4486,17 @@
   "obsidian": [
     "dc91d7092843516d"
   ],
+  "oci-runtime": [
+    "14bf7847631688a7"
+  ],
   "office": [
     "525b346bd2494393"
   ],
   "oh-my-zsh": [
     "1df74d4f3cafc1f2"
+  ],
+  "old-test": [
+    "44333842563e4242"
   ],
   "ollama": [
     "03dd4cf65af54c48",
@@ -4033,6 +4518,9 @@
     "7144b21a3c207c3a",
     "814b7dfdf1ba4c77"
   ],
+  "ontology": [
+    "c558ce470a6a25db"
+  ],
   "open": [
     "fd92a1557fe40136"
   ],
@@ -4041,9 +4529,11 @@
   ],
   "open-source": [
     "2294ed36402d3682",
+    "25473a26d35bfbe2",
     "28f3146684845446",
     "32b3d71f099ca334",
     "36f99fc4c940a9c0",
+    "3f4c7227dadb55bb",
     "427417a598f29ec7",
     "70b303d643aaff28",
     "d10b6fd136d1712d"
@@ -4107,6 +4597,7 @@
     "571e52c4d98bf596",
     "a921dfda66257734",
     "b57106732bf4fe4d",
+    "b71bedc488f09d44",
     "ee90091bef99ac2e"
   ],
   "opentofu": [
@@ -4130,7 +4621,11 @@
   "orientation": [
     "babd59d214bf3ef7"
   ],
+  "ossf-scorecard": [
+    "72fd910c001ef3c7"
+  ],
   "owasp": [
+    "09396551ebc91d8e",
     "eb549fd73d62ba5d"
   ],
   "package-checks": [
@@ -4175,6 +4670,9 @@
     "00095256a896b056",
     "f64cec8db2f24e96"
   ],
+  "payments": [
+    "3109bb1717892959"
+  ],
   "peakbagging": [
     "2e31fd91bb3baad1"
   ],
@@ -4216,7 +4714,8 @@
     "371a7f271827f795"
   ],
   "planning": [
-    "1ced32b985b98cc4"
+    "1ced32b985b98cc4",
+    "25236430ea843ed6"
   ],
   "playground": [
     "b43a6d597b00854e"
@@ -4239,6 +4738,9 @@
   "plugin-manager": [
     "2142b3cfa8d1634a"
   ],
+  "plugins": [
+    "f701674e9db05f5b"
+  ],
   "podman": [
     "e23628613335560f"
   ],
@@ -4252,7 +4754,8 @@
     "86f9be4e4b5b4679"
   ],
   "post-release": [
-    "0222fbb9348bb478"
+    "0222fbb9348bb478",
+    "c3898458c7e947fa"
   ],
   "postgree": [
     "480ad7ea02a1a4e6"
@@ -4260,6 +4763,9 @@
   "postgres": [
     "8fcdebefc2eb4599",
     "f77a1456a61480ce"
+  ],
+  "postgresql": [
+    "a419d8524ca48d65"
   ],
   "powershell-tests": [
     "b192fe8b02f97d7a"
@@ -4283,6 +4789,9 @@
   ],
   "pr-checks-docs-only": [
     "8fbf1fce56b42d1e"
+  ],
+  "pr-conventional-commit-validation": [
+    "a1a427c039a9dfb5"
   ],
   "pr-docker-build": [
     "025027fe099fcec4"
@@ -4329,6 +4838,7 @@
     "21ec944fe014f19d"
   ],
   "pre-commit": [
+    "2fd18dad607150db",
     "72db930b74022975",
     "9a9fec6160639a2d",
     "b3878cf4871d4932",
@@ -4373,6 +4883,7 @@
     "6263e0858f9bf397",
     "66cefb6b9322e40d",
     "91ac80f792005476",
+    "c64f4d7f0641ca78",
     "cb21d20682a78cc9",
     "e9ef9a75925cc883"
   ],
@@ -4381,6 +4892,9 @@
   ],
   "programming-language": [
     "abb618a4e36b7c7b"
+  ],
+  "prometheus": [
+    "479ab2c2ae9a84df"
   ],
   "prompt": [
     "3e3ee96c96e4826d"
@@ -4404,7 +4918,8 @@
     "4283d3d36195bcde"
   ],
   "prompts": [
-    "8b97d5650abaa511"
+    "8b97d5650abaa511",
+    "eb7eadeab14c3f9e"
   ],
   "proposal": [
     "fa45966988b9fd83"
@@ -4418,6 +4933,8 @@
   "protobuf": [
     "348636da9ec77658",
     "6f971880df626f17",
+    "85d90e7993c5bb09",
+    "da1ccf711a0bac1f",
     "fbb76ed4c4743d12"
   ],
   "protobuf-janitor": [
@@ -4426,10 +4943,14 @@
   "protobuf-runtime": [
     "6c1ceba06245c859"
   ],
+  "protobufs": [
+    "e5f8ddd02269708b"
+  ],
   "protoc": [
     "3c92ba909a91a5a9"
   ],
   "protocol-buffers": [
+    "a27376c05672b9ca",
     "e2020d52d9f8a4fa"
   ],
   "protocol-compiler": [
@@ -4450,7 +4971,11 @@
     "bfb86253d4633141",
     "d1ba16f9b5eed000",
     "d3e727917c1553b5",
+    "dcf8f8c5ace6f8d0",
     "e46fad1bdc923485"
+  ],
+  "publish-contextbricks-to-npm": [
+    "d9da47b3fbabcd5c"
   ],
   "publish-docker-image": [
     "4624b6961ad7b1ec"
@@ -4474,6 +4999,7 @@
     "a447d98527d3d11a"
   ],
   "publish-pypi": [
+    "3e9e5ebe9407f724",
     "e76db254d0f33f98",
     "f29f3520b1abf45d"
   ],
@@ -4500,7 +5026,8 @@
     "dbb25c219bd72930"
   ],
   "publish-to-bcr": [
-    "784b993d1e3fb958"
+    "784b993d1e3fb958",
+    "baa6a952eb3ca0b0"
   ],
   "publish-to-crates.io": [
     "f5ccf9b28b8d8b46"
@@ -4522,6 +5049,7 @@
     "092fee02cb424b45",
     "2372b01897973e1a",
     "36612bc9864d443c",
+    "58074304b90a3d4c",
     "5a6f36c328c61f1a",
     "652b9247de353c3b",
     "84cfad0525691d75"
@@ -4543,6 +5071,7 @@
   ],
   "pull-request-labeler": [
     "001ca67df9c54e1e",
+    "0bd04fadcbfabcdd",
     "a7269158f97b8aa9"
   ],
   "pull-request-lint": [
@@ -4553,6 +5082,12 @@
   ],
   "pull-requests-can-t-target-master-branch": [
     "6796367d9676ea1a"
+  ],
+  "push-docker-image-to-dockerhub": [
+    "ee7a6dcbb8043a24"
+  ],
+  "push-notifications": [
+    "f1e82c48756b02b7"
   ],
   "push-to-main": [
     "b9dfef122e3d4b88"
@@ -4573,6 +5108,9 @@
   ],
   "pyo3-wheels": [
     "65b4f75a264d299a"
+  ],
+  "pypi": [
+    "f8f878955aa85695"
   ],
   "pypi-packages": [
     "57b1387061a9ec17"
@@ -4596,6 +5134,7 @@
     "40c8f7384754a96c"
   ],
   "python3": [
+    "4bf268af057cc9fe",
     "521e0861e09426ca"
   ],
   "pytorch": [
@@ -4603,6 +5142,7 @@
     "1eaafc8d96278ef8",
     "1f552eaa565ed12d",
     "2165855f737cad27",
+    "75976c3b8e6ac866",
     "986c46755fa36de8",
     "ba936a7291b911d6",
     "f5b56dc36bedf517"
@@ -4674,13 +5214,20 @@
   "ravishing": [
     "1da8c4f9f36198ad"
   ],
+  "rdfs": [
+    "a97fe717f7fae0da"
+  ],
   "react": [
+    "0b55addf0979c11c",
     "128639b51036284b",
     "1d912268715d4f6a",
     "22debdd7fa8ffa83",
     "29664aba43395b73",
     "9c743b119aace2b7",
     "d9069ca335c9cd65"
+  ],
+  "react-best-practices-ci": [
+    "2d1f0e8478282767"
   ],
   "reader": [
     "2ffa020d1ef537b9"
@@ -4702,8 +5249,14 @@
     "29548fb32b1f3943",
     "884a466059d6c4e6"
   ],
+  "redis": [
+    "ee12b9ff4b13d673"
+  ],
   "refresh-model-profiles-reusable": [
     "8007fddca3686e4d"
+  ],
+  "register-new-prefix": [
+    "de551ac796fe0988"
   ],
   "regression-test": [
     "39fd3906e91c8fe1"
@@ -4719,6 +5272,7 @@
   ],
   "release": [
     "0468dc9d80b1618a",
+    "0a1d33b79df8c782",
     "0b0174494916444c",
     "135cb1e29afcba47",
     "15fd0dbe4f91d026",
@@ -4732,6 +5286,7 @@
     "3039fd9a23cfd19c",
     "30a9eb442f64bcb5",
     "31e141949056cd5a",
+    "321644c1e9f16ecc",
     "345dfdb13081866c",
     "3783c12435b96c44",
     "37ff09385ccfae82",
@@ -4758,14 +5313,17 @@
     "97c4746dbed2d137",
     "9d09e75f49f895c2",
     "9f1501458d9a69e7",
+    "a1ee8a6b2a8d5739",
     "a2e982b5419dfa8c",
     "a387c983202605ba",
     "ab0487313f5304c0",
     "ab3ebc55094a3c7a",
     "adde8edb94c47d4c",
+    "b0e63b0781eb8eb6",
     "b3f70b7a6995816c",
     "be85c7798e1d3408",
     "c18eca2c89d9300c",
+    "c2625a23e9b53b57",
     "c2e6ed3c87cd3e6f",
     "c6c65957bb2cbcf8",
     "cbc60a0bbb1cb701",
@@ -4817,6 +5375,9 @@
   "release-doctor": [
     "ca60c3c75ffd78d0"
   ],
+  "release-dolt": [
+    "e229b6764c88cffa"
+  ],
   "release-drafter": [
     "db95017513ca2879"
   ],
@@ -4838,11 +5399,15 @@
   "release-npm": [
     "d19be250f707f90a"
   ],
+  "release-pgo-dolt": [
+    "842444e682af3972"
+  ],
   "release-planning": [
     "a29fb516b006e48b"
   ],
   "release-please": [
     "11bc58e19aa5b583",
+    "205e459e55119f0f",
     "577eb8851fef5ba2",
     "642d86b4bc75bede",
     "fba5e19360ac7272"
@@ -4890,11 +5455,19 @@
   "render": [
     "54e0855fe19de53b"
   ],
+  "render-and-lint-documentation": [
+    "1888c3cd475b1ff2"
+  ],
   "repositories": [
+    "c999057f996cdcb9",
     "fc1868815d2ec25b"
   ],
   "repository": [
-    "42559f32da2e2b9d"
+    "42559f32da2e2b9d",
+    "e204a6f4ded05d18"
+  ],
+  "repository-index": [
+    "bb9d5d5375cb45c4"
   ],
   "repository-manager": [
     "ba9ec12e70535b4b"
@@ -4921,6 +5494,7 @@
     "64c5840c212491a4"
   ],
   "retrieval-augmented-generation": [
+    "1c43688b69af3428",
     "773481b3f2db19e5",
     "ea39749ba0b7daa8"
   ],
@@ -4965,10 +5539,17 @@
   "rpc-framework": [
     "05a7866e3cb8cdc6"
   ],
+  "rpm-packaging": [
+    "c0c93f43b19a6f90"
+  ],
   "rube": [
     "44ff8954181b2ef7"
   ],
+  "rubocop": [
+    "3bcb3747243c4e3f"
+  ],
   "ruby": [
+    "192ff527b3dcace9",
     "384353ceb8490551",
     "c294e26e19d79f06"
   ],
@@ -4994,6 +5575,12 @@
   "run-dependency-tests": [
     "635b0a8487915e8f"
   ],
+  "run-example-use-cases": [
+    "2e64dac202dab1ff"
+  ],
+  "run-lint-checks": [
+    "0465ac269534b0ed"
+  ],
   "run-memory-report": [
     "348f4e481c547232"
   ],
@@ -5009,7 +5596,8 @@
   "run-tests": [
     "047c76ad774a511d",
     "382ae99e4cb3002b",
-    "bca2f07383090205"
+    "bca2f07383090205",
+    "ce6c0469b4beef32"
   ],
   "run-tests-against-tunix-package": [
     "eab7e47c10030b6e"
@@ -5017,8 +5605,12 @@
   "run-unit-tests": [
     "a5b041d2038ae740"
   ],
+  "runc": [
+    "c26f6c035a6f4929"
+  ],
   "runtime": [
-    "1efe4e335652c177"
+    "1efe4e335652c177",
+    "da00c72fceb30da6"
   ],
   "runway": [
     "e52da0404fc15447"
@@ -5032,6 +5624,7 @@
     "27186ada5a534068",
     "39bbc274b6b67cce",
     "3c89740486d7faaa",
+    "3d446889d6f1ccc3",
     "3e88211f1b04bf04",
     "459610f13923f3cf",
     "493aa0626437375e",
@@ -5048,7 +5641,10 @@
     "7f01d37b50653a1b",
     "80db5b1ad3d651ce",
     "84d7b6b2f51e53f3",
+    "8c587c23300f1a23",
+    "8d2a904b50989d36",
     "96fd13be1bdd3c5d",
+    "9f082843ae147c71",
     "9f6c40ca3126232c",
     "a23c24fd6d5efb09",
     "b2aab3eb64c8edeb",
@@ -5063,10 +5659,14 @@
     "f8a96f01c8635943"
   ],
   "rust-lang": [
+    "4aebab86d41704ca",
     "52011f50527b493d"
   ],
   "rust-library": [
     "3d62b6aeef9ce121"
+  ],
+  "rust-next": [
+    "7b76e3eae54e8ce1"
   ],
   "rustpython": [
     "93be2dd5d95d7cb8"
@@ -5091,6 +5691,9 @@
   "scala": [
     "637657de692a9833"
   ],
+  "scaling": [
+    "8c19c0c9cb8005ef"
+  ],
   "scan-agent-skills": [
     "4746336ac9f52d14"
   ],
@@ -5102,17 +5705,23 @@
     "28061b170bf2b542"
   ],
   "scikit-learn": [
-    "48b485f74e702f22"
+    "48b485f74e702f22",
+    "d15eed71f4511710"
   ],
   "scipy": [
-    "08073d79a46969ea"
+    "08073d79a46969ea",
+    "e92fad7df87c1a70"
+  ],
+  "scipy-stack": [
+    "15dde43fc24da9cb"
   ],
   "scorecard-supply-chain-security": [
     "2b1b5b51f41fb235",
     "2eebaebe16b4779d",
     "7ceab05bdbf60f1d",
     "83b8f4d93277438f",
-    "b11058c2f50bdd58"
+    "b11058c2f50bdd58",
+    "ffaa35eb4f768728"
   ],
   "screensaver": [
     "57040770a447db6e"
@@ -5129,19 +5738,25 @@
   "secret-management": [
     "01633be40e593ca3"
   ],
+  "secure-coding": [
+    "8b65c84ed9901fd9"
+  ],
   "secure-integration-test": [
     "03133dfb4b00898f",
     "a763d3b769863422"
   ],
   "security": [
     "101522e6293d912a",
+    "5a45beb03eb74c60",
     "7d587809034d14b7",
     "ce1f46300fbfc3a7",
     "ede650096f1ed682"
   ],
   "security-audit": [
     "105531a5637a433f",
+    "1bd9aed048c9bb1d",
     "266bbb9a7db418ca",
+    "3a44b185cb2f23b7",
     "9c77f44d0f157186"
   ],
   "security-tools": [
@@ -5150,6 +5765,9 @@
   ],
   "security-trivy": [
     "a1d2c73890638479"
+  ],
+  "segmentation": [
+    "19ceb591981412ce"
   ],
   "self-build": [
     "d7f17cc4731c3e5a"
@@ -5210,6 +5828,9 @@
   "sessions": [
     "85e9c8b7c1f577a9"
   ],
+  "shared-library": [
+    "96884fba6944c630"
+  ],
   "shell": [
     "24c8b8e836f72fc4",
     "692d8fe1f04d9d66",
@@ -5218,6 +5839,15 @@
   ],
   "signatures": [
     "376fb4f78c763724"
+  ],
+  "simulation-engine": [
+    "888004e416455b98"
+  ],
+  "simulation-environment": [
+    "028d013874c3df07"
+  ],
+  "simulation-framework": [
+    "7f9f700f64299b43"
   ],
   "skill": [
     "62035a1bafe22719",
@@ -5232,9 +5862,11 @@
   "skills": [
     "276061af7792f1ef",
     "406bc371dde5486d",
+    "56fdbd21167fba52",
     "9adef701e572738f",
     "a16c96ba65db8d0d",
     "a411360e8c86995c",
+    "b51ed469f9e1202c",
     "c4baf4a8c3a327ec",
     "db7a7ea6ae2df7df"
   ],
@@ -5298,11 +5930,15 @@
   "spell-checker": [
     "06ad01800bd8528e"
   ],
+  "spell-checking": [
+    "2f7a916b11f39851"
+  ],
   "spellcheck": [
     "5cb6848076adfbc6"
   ],
   "spelling": [
     "2e1f1121445eff4d",
+    "3fba95cbdac4130f",
     "464ee91f849fb7c5"
   ],
   "spelling-correction": [
@@ -5349,6 +5985,9 @@
   "staleness-tests": [
     "dd4d5bda286a964c"
   ],
+  "standard": [
+    "7148b2e7c0a493b4"
+  ],
   "standards": [
     "43f88ccb166e745d"
   ],
@@ -5369,14 +6008,17 @@
     "2af901d7b7f719b2",
     "3f765ffda25cd812",
     "4b34738c45263cce",
-    "7788f00f1986109a"
+    "7788f00f1986109a",
+    "9f71d224c0a99f84"
   ],
   "static-checks": [
     "493a7a3efc824053",
     "9c2cbfebcdf0f2aa"
   ],
   "static-code-analysis": [
+    "5dda79b601acfba3",
     "63b5583440c49643",
+    "e1d540684928b9b9",
     "e8f56893f51a60f5"
   ],
   "static-site-generator": [
@@ -5435,6 +6077,7 @@
     "f0bfbdc8bc634957"
   ],
   "style-guide": [
+    "63e210cf9e6a3bef",
     "9367f1e907a6f99e"
   ],
   "styleguide": [
@@ -5447,6 +6090,7 @@
     "ea2f853709e77897"
   ],
   "subagents": [
+    "7e53cfe3bc9dd3a1",
     "e638123bbf30cb7d"
   ],
   "sublime": [
@@ -5470,6 +6114,9 @@
   "supabase": [
     "5e0892958d61e912"
   ],
+  "superscalar": [
+    "841860be6b02ea39"
+  ],
   "svgo": [
     "73d9f1290351750f"
   ],
@@ -5484,7 +6131,8 @@
     "79fe1bb7895a5d91"
   ],
   "sync": [
-    "026968a2d50f557b"
+    "026968a2d50f557b",
+    "1e167b2e5bdf20c7"
   ],
   "sync-main-to-stg": [
     "e2d8930670ac4fac"
@@ -5494,6 +6142,9 @@
   ],
   "sync-release-to-gitee": [
     "26dfb987437a2118"
+  ],
+  "sync-to-consumers": [
+    "a87e410b40bf249d"
   ],
   "sync-typeshed": [
     "5868d0b2134dc313"
@@ -5525,12 +6176,21 @@
   "tailscale": [
     "69cb89a04a30b0b5"
   ],
+  "tailwind": [
+    "8cf731fe70074ad7"
+  ],
   "tailwindcss": [
     "424852c92bd63757",
     "efb8e9f3f2607ad8"
   ],
   "tamagotchi": [
     "8a63246382368177"
+  ],
+  "taproot": [
+    "a43f38a60b2d8b02"
+  ],
+  "task-queue": [
+    "d8e53a9ed787a238"
   ],
   "tauri": [
     "1bea4905cdc729fb",
@@ -5559,7 +6219,8 @@
     "3230b3b6824b73c7"
   ],
   "tensorflow": [
-    "f75e9d09ff1daeab"
+    "f75e9d09ff1daeab",
+    "fc1a3193c2f70671"
   ],
   "tenv": [
     "a77638b1226b84b4"
@@ -5586,6 +6247,7 @@
     "07dc7ce444487920",
     "084fb408ae47b0f8",
     "113ef3577bbcaf79",
+    "1667830e4fa40490",
     "16f78148075971a3",
     "22e4fd5bcfe129ed",
     "32ffe4a30322670a",
@@ -5593,13 +6255,16 @@
     "4b5d23e7153e2757",
     "6d3db9fd9020b576",
     "7d68d7075ca536b8",
+    "806a4825d766e3b1",
     "876ddb9e20ca782d",
     "a3c9636a198aad1f",
     "a6bbf4330ca9f03c",
     "bf8e63ee3a506307",
     "bfa72dd1ff92bf9f",
     "cf8534c6e085ca5d",
-    "d396ffd504b92411"
+    "d0ca0ceea2258eec",
+    "d396ffd504b92411",
+    "d48aec7b62b720d1"
   ],
   "test-agentdb-attention-mechanisms": [
     "3fe1ebe3dd6581b0"
@@ -5614,6 +6279,12 @@
   ],
   "test-and-publish-new-release": [
     "7040b54a964e8670"
+  ],
+  "test-bats-macos": [
+    "c514f8b14e6efb2d"
+  ],
+  "test-bats-unix-adaptive-encoding": [
+    "0cdda93678c7a067"
   ],
   "test-build": [
     "3a8a46943f4dbda7",
@@ -5635,8 +6306,14 @@
   "test-claudecode-integration": [
     "958546c6f371384b"
   ],
+  "test-devnet-functionality": [
+    "852b2a1d50e91b15"
+  ],
   "test-docker-images": [
     "c9e85d6566a98771"
+  ],
+  "test-external": [
+    "fda3f4ba2982a3bd"
   ],
   "test-full-moon": [
     "825bc113221e9c93"
@@ -5656,6 +6333,9 @@
   "test-integration-packages": [
     "e2b24f05841565a2"
   ],
+  "test-internal": [
+    "1017c1a5cb3b7819"
+  ],
   "test-leaderboard-dockerfile": [
     "8c9475bd0d833e59"
   ],
@@ -5667,6 +6347,9 @@
   ],
   "test-notebooks": [
     "8d81ed3bdeba2e08"
+  ],
+  "test-observoor": [
+    "fd20324a45ec4311"
   ],
   "test-pypi-publish": [
     "193104e2fc997850"
@@ -5695,6 +6378,9 @@
   ],
   "test-vim-plug": [
     "c3847baf8fcf5c48"
+  ],
+  "test-xatu-sentry-logs": [
+    "8faf1c390c47d2ce"
   ],
   "testing": [
     "1ef462ad8da0abe4",
@@ -5729,6 +6415,7 @@
     "e6f8204c1d7c4cfd"
   ],
   "tests-and-code-quality": [
+    "2bc6737163c882f2",
     "63f70782bbe31f09"
   ],
   "tests-unit": [
@@ -5791,6 +6478,10 @@
   ],
   "torch": [
     "d2a78d419ffe2b5b"
+  ],
+  "tracing": [
+    "a29a3072a46cb36e",
+    "e349275e3ba0ef76"
   ],
   "transformer": [
     "304b23b2def48b39",
@@ -5933,6 +6624,7 @@
     "b04840e3bdc71217"
   ],
   "validate": [
+    "0bd5ab38ea035bdd",
     "d976012508c308f0"
   ],
   "validate-data": [
@@ -5941,8 +6633,14 @@
   "validate-frontmatter": [
     "6f75f34c11351718"
   ],
+  "validate-plugin": [
+    "3e9d6a11c9d81b94"
+  ],
   "validate-plugins": [
     "cc20eb84592c5455"
+  ],
+  "validate-pr": [
+    "91a9247aa6ac0c75"
   ],
   "validate-pull-request": [
     "3bd6968d788db1ac"
@@ -5996,6 +6694,9 @@
     "4f209f196063f21a",
     "5b62cc812157a335"
   ],
+  "version-controlled-database": [
+    "f10ad5833dea5bce"
+  ],
   "versioning": [
     "a671db71c23edf04"
   ],
@@ -6018,6 +6719,9 @@
   ],
   "visual-language-learning": [
     "fc2d2a5d2812ae31"
+  ],
+  "vite": [
+    "0a086007c89de243"
   ],
   "vllm": [
     "a82d4cf33dbc5756"
@@ -6051,6 +6755,9 @@
   "vulnerabilities": [
     "8da7afabe932b04e"
   ],
+  "vulnerability": [
+    "bf3722af57de05f5"
+  ],
   "vulnerability-scanner": [
     "8c5358420318fb1e"
   ],
@@ -6058,9 +6765,13 @@
     "373d18f02a1ba279"
   ],
   "wasm": [
+    "1a4659d3135d3b0c",
     "48217573c6ddbf27",
     "9b3c3343978115f9",
     "c42be9c7f5c3f8b2"
+  ],
+  "wasm-oci": [
+    "6de28f033542ca5e"
   ],
   "wasmgc": [
     "8ff546dddd5e9b35"
@@ -6092,6 +6803,9 @@
   "wechat": [
     "51dee1ef4fb95baa"
   ],
+  "weekly-build-and-publish": [
+    "524c532bce69eba9"
+  ],
   "weekly-security-scan": [
     "ad4bae7e29eeaec7"
   ],
@@ -6110,6 +6824,9 @@
   ],
   "work": [
     "29c77c1c6a10e05c"
+  ],
+  "worker-pool": [
+    "5087894414207bc9"
   ],
   "workers": [
     "bb8009f95f519f2a"
@@ -6168,5 +6885,8 @@
   ],
   "ziglang": [
     "244488d8765c0899"
+  ],
+  "zipkin": [
+    "2ffb9529eb350c1e"
   ]
 }

@@ -1,0 +1,212 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "taiki-e/install-action@b4b80945859e8ef89a9732a0f46499a443b196fe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@fdbfb4d2750291e159f0156def62b853c2798ca2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "taiki-e/install-action@b4b80945859e8ef89a9732a0f46499a443b196fe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hashintel/labs",
+      "target": "hasharchives/wasm-ts-esm-in-node-jest-and-nextjs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "hashintel/labs",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "hashintel/labs",
+      "target": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "hashintel/labs",
+      "target": "taiki-e/install-action@b4b80945859e8ef89a9732a0f46499a443b196fe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "hashintel/labs",
+      "target": "github/codeql-action/upload-sarif@fdbfb4d2750291e159f0156def62b853c2798ca2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "hashintel/labs",
+      "target": "actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "hashintel/labs",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hashintel/labs",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hashintel/labs",
+      "target": "simulation-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hashintel/labs",
+      "target": "simulation-environment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hashintel/labs",
+      "target": "simulation-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hashintel/labs",
+      "target": "wasm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-20T03:18:27.610065+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2952
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 6673
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\uddea Public laboratory for @hashintel experiments",
+    "fork": false,
+    "full_name": "hashintel/labs",
+    "html_url": "https://github.com/hashintel/labs",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-19T05:51:51Z",
+    "stargazers_count": 33,
+    "topics": [
+      "rust",
+      "simulation-engine",
+      "simulation-environment",
+      "simulation-framework",
+      "typescript",
+      "wasm"
+    ],
+    "updated_at": "2026-04-12T09:48:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hasharchives/wasm-ts-esm-in-node-jest-and-nextjs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    },
+    {
+      "context_snippet": "[github_star]: https://github.com/hashintel/labs#",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[github_star]: https://github.com/hashintel/labs#",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulation-engine"
+    },
+    {
+      "context_snippet": "[github_star]: https://github.com/hashintel/labs#",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulation-environment"
+    },
+    {
+      "context_snippet": "[github_star]: https://github.com/hashintel/labs#",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulation-framework"
+    },
+    {
+      "context_snippet": "[github_star]: https://github.com/hashintel/labs#",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasm"
+    }
+  ]
+}

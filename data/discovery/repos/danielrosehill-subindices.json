@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Subindices",
+      "target": "danielrosehill/agent-assisted-purchase-research-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Subindices",
+      "target": "danielrosehill/agents-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Subindices",
+      "target": "danielrosehill/ai-projects-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Subindices",
+      "target": "danielrosehill/ai-resource-maps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Subindices",
+      "target": "repositories",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Subindices",
+      "target": "repository-index",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-20T03:17:53.662483+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13237
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Index of various indexing repos I have created",
+    "fork": false,
+    "full_name": "danielrosehill/Subindices",
+    "html_url": "https://github.com/danielrosehill/Subindices",
+    "language": null,
+    "pushed_at": "2026-04-19T17:19:06Z",
+    "stargazers_count": 1,
+    "topics": [
+      "repositories",
+      "repository-index"
+    ],
+    "updated_at": "2026-04-19T17:19:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/agent-assisted-purchase-research-index",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/agents-index",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/ai-projects-index",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/ai-resource-maps",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repositories"
+    },
+    {
+      "context_snippet": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repository-index"
+    }
+  ]
+}

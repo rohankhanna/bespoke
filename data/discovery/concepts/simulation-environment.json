@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "simulation-environment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashintel/labs",
+      "status": "candidate-context",
+      "text": "\ud83e\uddea Public laboratory for @hashintel experiments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashintel/labs",
+      "status": "candidate-context",
+      "text": "[github_star]: https://github.com/hashintel/labs#"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashintel/labs",
+      "status": "candidate",
+      "text": "[github_star]: https://github.com/hashintel/labs#"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "simulation-environment",
+  "concept_id": "simulation-environment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "hashintel/labs"
+    }
+  ],
+  "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "simulation-environment",
+      "sense_id": "simulation-environment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

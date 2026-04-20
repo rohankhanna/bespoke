@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "FOSSA scanning"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-rust",
+      "status": "candidate-context",
+      "text": "The Rust OpenTelemetry implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-rust",
+      "status": "candidate-context",
+      "text": "FOSSA scanning"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-rust",
+      "status": "candidate",
+      "text": "FOSSA scanning"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10477,
+      "status": "candidate",
+      "text": "adit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10417,
+      "status": "candidate",
+      "text": "asp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10417,
+      "status": "candidate",
+      "text": "cave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10417,
+      "status": "candidate",
+      "text": "caving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10417,
+      "status": "candidate",
+      "text": "crew"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "FOSSA scanning",
+  "concept_id": "fossa-scanning",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "open-telemetry/opentelemetry-rust"
+    }
+  ],
+  "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "FOSSA scanning",
+      "sense_id": "fossa-scanning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

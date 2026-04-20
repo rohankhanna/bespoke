@@ -1,0 +1,22 @@
+{
+  "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+  "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yaml",
+      "source_repo": "google/protobuf.dart"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/protobuf.yaml",
+      "source_repo": "google/protobuf.dart"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/protoc_plugin.yaml",
+      "source_repo": "google/protobuf.dart"
+    }
+  ]
+}

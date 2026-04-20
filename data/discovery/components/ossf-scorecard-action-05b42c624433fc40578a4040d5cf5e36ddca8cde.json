@@ -1,0 +1,12 @@
+{
+  "component": "ossf/scorecard-action@05b42c624433fc40578a4040d5cf5e36ddca8cde",
+  "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "protocolbuffers/protobuf-javascript"
+    }
+  ]
+}

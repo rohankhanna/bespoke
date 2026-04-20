@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Create Release Notes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dolthub/dolt",
+      "status": "candidate-context",
+      "text": "Dolt \u2013 Git for Data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dolthub/dolt",
+      "status": "candidate-context",
+      "text": "Create Release Notes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dolthub/dolt",
+      "status": "candidate",
+      "text": "Create Release Notes"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26108,
+      "status": "candidate",
+      "text": "four-part harmony"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25791,
+      "status": "candidate",
+      "text": "footnotes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18900,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18878,
+      "status": "candidate",
+      "text": "emit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18870,
+      "status": "candidate",
+      "text": "build"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Create Release Notes",
+  "concept_id": "create-release-notes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": ".github/workflows/cd-create-release-notes.yaml",
+      "source_repo": "dolthub/dolt"
+    }
+  ],
+  "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create Release Notes",
+      "sense_id": "create-release-notes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

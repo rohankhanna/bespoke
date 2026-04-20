@@ -31,6 +31,18 @@
       "source_repo": "isaacphi/mcp-language-server",
       "status": "candidate-context",
       "text": "[![Go Tests](https://github.com/isaacphi/mcp-language-server/actions/workflows/go.yml/badge.svg)](https://github.com/isaacphi/mcp-language-server/actions/workflows/go.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "8144225309/superscalar-mcp",
+      "status": "candidate-context",
+      "text": "MCP server for SuperScalar \u2014 Bitcoin Lightning channel factories. Query protocol specs, estimate UTXO savings, and explore factory architectures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "8144225309/superscalar-mcp",
+      "status": "candidate-context",
+      "text": "MCP server for [SuperScalar](https://github.com/8144225309/SuperScalar) \u2014 Bitcoin Lightning channel factories that onboard N users in one shared UTXO. No soft fork required."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "isaacphi/mcp-language-server",
       "status": "candidate",
       "text": "[![Go Tests](https://github.com/isaacphi/mcp-language-server/actions/workflows/go.yml/badge.svg)](https://github.com/isaacphi/mcp-language-server/actions/workflows/go.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "8144225309/superscalar-mcp",
+      "status": "candidate",
+      "text": "MCP server for [SuperScalar](https://github.com/8144225309/SuperScalar) \u2014 Bitcoin Lightning channel factories that onboard N users in one shared UTXO. No soft fork required."
     }
   ],
   "candidate_related_terms": [],
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "isaacphi/mcp-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "8144225309/superscalar-mcp"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "lexical_providers": [
     "datamuse"
   ],

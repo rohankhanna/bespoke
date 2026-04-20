@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:22:19.136418+00:00",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -21,6 +21,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/audit.yml",
       "source_repo": "dandavison/delta"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "rust-cli/env_logger"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "tokio-rs/tracing"
     }
   ],
   "term": "Security Audit"

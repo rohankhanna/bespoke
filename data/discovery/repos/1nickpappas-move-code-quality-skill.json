@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-20T03:19:26.325312+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3289
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Claude Code skill for analyzing Move packages against the official Move Book Code Quality Checklist",
+    "fork": false,
+    "full_name": "1NickPappas/move-code-quality-skill",
+    "html_url": "https://github.com/1NickPappas/move-code-quality-skill",
+    "language": null,
+    "pushed_at": "2025-10-21T21:19:41Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2026-04-03T03:32:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

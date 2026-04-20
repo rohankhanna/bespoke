@@ -1,0 +1,92 @@
+{
+  "components": [
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "purcell/envrc",
+      "target": "wbolster/emacs-direnv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "purcell/envrc",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "purcell/envrc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "purcell/envrc",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-20T03:17:56.539643+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7009
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 847
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Emacs support for direnv which operates buffer-locally",
+    "fork": false,
+    "full_name": "purcell/envrc",
+    "html_url": "https://github.com/purcell/envrc",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-03-25T16:09:57Z",
+    "stargazers_count": 490,
+    "topics": [],
+    "updated_at": "2026-04-15T19:56:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wbolster/emacs-direnv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

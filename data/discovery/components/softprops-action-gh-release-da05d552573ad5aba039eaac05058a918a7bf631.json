@@ -1,0 +1,12 @@
+{
+  "component": "softprops/action-gh-release@da05d552573ad5aba039eaac05058a918a7bf631",
+  "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/weekly.yml",
+      "source_repo": "vega/altair"
+    }
+  ]
+}

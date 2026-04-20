@@ -85,6 +85,18 @@
       "source_repo": "nodejs/TSC",
       "status": "candidate-context",
       "text": "The Node.js Technical Steering Committee (TSC) is the technical"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/standard",
+      "status": "candidate-context",
+      "text": "\ud83c\udf1f JavaScript Style Guide, with linter & automatic code fixer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -123,6 +135,12 @@
       "source_repo": "nodejs/TSC",
       "status": "candidate",
       "text": "The Node.js Technical Steering Committee (TSC) is the technical"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +226,17 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "nodejs/TSC"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "lexical_providers": [
     "datamuse"
   ],

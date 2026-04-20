@@ -1,0 +1,265 @@
+{
+  "components": [
+    {
+      "component": "@modelcontextprotocol/sdk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "8144225309/superscalar-mcp",
+      "target": "8144225309/superscalar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "8144225309/superscalar-mcp",
+      "target": "8144225309/superscalar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "8144225309/superscalar-mcp",
+      "target": "@modelcontextprotocol/sdk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "8144225309/superscalar-mcp",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "8144225309/superscalar-mcp",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "8144225309/superscalar-mcp",
+      "target": "bitcoin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "8144225309/superscalar-mcp",
+      "target": "channel-factory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "8144225309/superscalar-mcp",
+      "target": "layer2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "8144225309/superscalar-mcp",
+      "target": "lightning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "8144225309/superscalar-mcp",
+      "target": "lightning-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "8144225309/superscalar-mcp",
+      "target": "mcp-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "8144225309/superscalar-mcp",
+      "target": "model-context-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "8144225309/superscalar-mcp",
+      "target": "musig2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "8144225309/superscalar-mcp",
+      "target": "payments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "8144225309/superscalar-mcp",
+      "target": "scaling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "8144225309/superscalar-mcp",
+      "target": "superscalar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "8144225309/superscalar-mcp",
+      "target": "taproot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-20T03:19:27.001304+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1782
+    },
+    {
+      "path": "package.json",
+      "size": 1015
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MCP server for SuperScalar \u2014 Bitcoin Lightning channel factories. Query protocol specs, estimate UTXO savings, and explore factory architectures.",
+    "fork": false,
+    "full_name": "8144225309/superscalar-mcp",
+    "html_url": "https://github.com/8144225309/superscalar-mcp",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-03T21:42:39Z",
+    "stargazers_count": 0,
+    "topics": [
+      "bitcoin",
+      "channel-factory",
+      "layer2",
+      "lightning",
+      "lightning-network",
+      "mcp",
+      "mcp-server",
+      "model-context-protocol",
+      "musig2",
+      "payments",
+      "scaling",
+      "superscalar",
+      "taproot"
+    ],
+    "updated_at": "2026-03-03T21:42:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "8144225309/superscalar",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "8144225309/superscalar",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "MCP server for [SuperScalar](https://github.com/8144225309/SuperScalar) \u2014 Bitcoin Lightning channel factories that onboard N users in one shared UTXO. No soft fork required.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitcoin"
+    },
+    {
+      "context_snippet": "MCP server for [SuperScalar](https://github.com/8144225309/SuperScalar) \u2014 Bitcoin Lightning channel factories that onboard N users in one shared UTXO. No soft fork required.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "channel-factory"
+    },
+    {
+      "context_snippet": "MCP server for [SuperScalar](https://github.com/8144225309/SuperScalar) \u2014 Bitcoin Lightning channel factories that onboard N users in one shared UTXO. No soft fork required.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "layer2"
+    },
+    {
+      "context_snippet": "MCP server for [SuperScalar](https://github.com/8144225309/SuperScalar) \u2014 Bitcoin Lightning channel factories that onboard N users in one shared UTXO. No soft fork required.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lightning"
+    },
+    {
+      "context_snippet": "MCP server for [SuperScalar](https://github.com/8144225309/SuperScalar) \u2014 Bitcoin Lightning channel factories that onboard N users in one shared UTXO. No soft fork required.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lightning-network"
+    },
+    {
+      "context_snippet": "MCP server for [SuperScalar](https://github.com/8144225309/SuperScalar) \u2014 Bitcoin Lightning channel factories that onboard N users in one shared UTXO. No soft fork required.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-server"
+    },
+    {
+      "context_snippet": "MCP server for [SuperScalar](https://github.com/8144225309/SuperScalar) \u2014 Bitcoin Lightning channel factories that onboard N users in one shared UTXO. No soft fork required.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-context-protocol"
+    },
+    {
+      "context_snippet": "MCP server for [SuperScalar](https://github.com/8144225309/SuperScalar) \u2014 Bitcoin Lightning channel factories that onboard N users in one shared UTXO. No soft fork required.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "musig2"
+    },
+    {
+      "context_snippet": "MCP server for [SuperScalar](https://github.com/8144225309/SuperScalar) \u2014 Bitcoin Lightning channel factories that onboard N users in one shared UTXO. No soft fork required.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "payments"
+    },
+    {
+      "context_snippet": "MCP server for [SuperScalar](https://github.com/8144225309/SuperScalar) \u2014 Bitcoin Lightning channel factories that onboard N users in one shared UTXO. No soft fork required.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scaling"
+    },
+    {
+      "context_snippet": "MCP server for [SuperScalar](https://github.com/8144225309/SuperScalar) \u2014 Bitcoin Lightning channel factories that onboard N users in one shared UTXO. No soft fork required.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "superscalar"
+    },
+    {
+      "context_snippet": "MCP server for [SuperScalar](https://github.com/8144225309/SuperScalar) \u2014 Bitcoin Lightning channel factories that onboard N users in one shared UTXO. No soft fork required.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "taproot"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "crate-ci/committed@master",
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/committed.yml",
       "source_repo": "crate-ci/gh-install"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/committed.yml",
+      "source_repo": "rust-cli/env_logger"
     }
   ]
 }

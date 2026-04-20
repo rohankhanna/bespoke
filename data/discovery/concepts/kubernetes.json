@@ -67,6 +67,30 @@
       "source_repo": "abiosoft/colima",
       "status": "candidate-context",
       "text": "![colima-logo](colima.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containerd/containerd",
+      "status": "candidate-context",
+      "text": "An open and reliable container runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containerd/containerd",
+      "status": "candidate-context",
+      "text": "![containerd banner light mode](https://raw.githubusercontent.com/cncf/artwork/master/projects/containerd/horizontal/color/containerd-horizontal-color.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "status": "candidate-context",
+      "text": "A set of Helm charts to run multiple components of the Ethereum blockchain on Kubernetes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "status": "candidate-context",
+      "text": "[![Release Helm Charts](https://github.com/ethpandaops/ethereum-helm-charts/actions/workflows/release.yaml/badge.svg)](https://github.com/ethpandaops/ethereum-helm-charts/actions/workflows/release.yaml)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "abiosoft/colima",
       "status": "candidate",
       "text": "![colima-logo](colima.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containerd/containerd",
+      "status": "candidate",
+      "text": "![containerd banner light mode](https://raw.githubusercontent.com/cncf/artwork/master/projects/containerd/horizontal/color/containerd-horizontal-color.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "status": "candidate",
+      "text": "[![Release Helm Charts](https://github.com/ethpandaops/ethereum-helm-charts/actions/workflows/release.yaml/badge.svg)](https://github.com/ethpandaops/ethereum-helm-charts/actions/workflows/release.yaml)"
     }
   ],
   "candidate_related_terms": [
@@ -202,11 +238,23 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "abiosoft/colima"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "containerd/containerd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "ethpandaops/ethereum-helm-charts"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "lexical_providers": [
     "datamuse"
   ],

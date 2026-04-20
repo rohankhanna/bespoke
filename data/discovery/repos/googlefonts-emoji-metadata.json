@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-20T03:17:54.410258+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1928
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Emoji metadata for the construction of pickers",
+    "fork": false,
+    "full_name": "googlefonts/emoji-metadata",
+    "html_url": "https://github.com/googlefonts/emoji-metadata",
+    "language": null,
+    "pushed_at": "2026-03-04T18:40:40Z",
+    "stargazers_count": 84,
+    "topics": [],
+    "updated_at": "2026-03-04T18:40:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

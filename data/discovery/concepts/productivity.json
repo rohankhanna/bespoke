@@ -55,6 +55,24 @@
       "source_repo": "abduznik/Git-Alchemist",
       "status": "candidate-context",
       "text": "**Git-Alchemist \u2697\ufe0f** is a unified AI-powered CLI tool for automating GitHub repository management. It consolidates multiple technical utilities into a single, intelligent system powered by Google's Gemini 3 and Gemma 3 models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hluaguo/learn-faster-kit",
+      "status": "candidate-context",
+      "text": "[![Python Version](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jezweb/claude-skills",
+      "status": "candidate-context",
+      "text": "Skills for Claude Code CLI such as full stack dev Cloudflare, React, Tailwind v4, and AI integrations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jezweb/claude-skills",
+      "status": "candidate-context",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +81,18 @@
       "source_repo": "abduznik/Git-Alchemist",
       "status": "candidate",
       "text": "**Git-Alchemist \u2697\ufe0f** is a unified AI-powered CLI tool for automating GitHub repository management. It consolidates multiple technical utilities into a single, intelligent system powered by Google's Gemini 3 and Gemma 3 models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hluaguo/learn-faster-kit",
+      "status": "candidate",
+      "text": "[![Python Version](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jezweb/claude-skills",
+      "status": "candidate",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)"
     }
   ],
   "candidate_related_terms": [
@@ -150,11 +180,23 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": null,
       "source_repo": "abduznik/Git-Alchemist"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "hluaguo/learn-faster-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "jezweb/claude-skills"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "lexical_providers": [
     "datamuse"
   ],

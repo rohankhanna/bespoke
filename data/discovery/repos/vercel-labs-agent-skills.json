@@ -1,0 +1,83 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/react-best-practices-ci.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/react-best-practices-ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/react-best-practices-ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/react-best-practices-ci.yml",
+      "source_repo": "vercel-labs/agent-skills",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/react-best-practices-ci.yml",
+      "source_repo": "vercel-labs/agent-skills",
+      "target": "pnpm/action-setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/react-best-practices-ci.yml",
+      "source_repo": "vercel-labs/agent-skills",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/react-best-practices-ci.yml",
+      "source_repo": "vercel-labs/agent-skills",
+      "target": "React Best Practices CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-20T03:16:52.564079+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5642
+    },
+    {
+      "path": ".github/workflows/react-best-practices-ci.yml",
+      "size": 822
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Vercel's official collection of agent skills",
+    "fork": false,
+    "full_name": "vercel-labs/agent-skills",
+    "html_url": "https://github.com/vercel-labs/agent-skills",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-17T04:17:46Z",
+    "stargazers_count": 25372,
+    "topics": [],
+    "updated_at": "2026-04-20T03:09:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "React Best Practices CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/react-best-practices-ci.yml",
+      "term": "React Best Practices CI"
+    }
+  ]
+}

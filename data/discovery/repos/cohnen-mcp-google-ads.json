@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cohnen/mcp-google-ads",
+      "target": "google-ads",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cohnen/mcp-google-ads",
+      "target": "mcp-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-20T03:18:49.536510+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26886
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1140
+    },
+    {
+      "path": "requirements.txt",
+      "size": 271
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An MCP tool that connects Google Ads with Claude AI/Cursor and others, allowing you to analyze your advertising data through natural language conversations. This integration gives you access to campaign information, performance metrics, keyword analytics, and ad management\u2014all through simple chat with Claude, Cursor or Windsurf.",
+    "fork": false,
+    "full_name": "cohnen/mcp-google-ads",
+    "html_url": "https://github.com/cohnen/mcp-google-ads",
+    "language": "Python",
+    "pushed_at": "2025-10-16T20:20:14Z",
+    "stargazers_count": 551,
+    "topics": [
+      "ai",
+      "claude",
+      "google-ads",
+      "mcp",
+      "mcp-server"
+    ],
+    "updated_at": "2026-04-19T22:27:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/cohnen-mcp-google-ads-badge.png)](https://mseep.ai/app/cohnen-mcp-google-ads)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-ads"
+    },
+    {
+      "context_snippet": "[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/cohnen-mcp-google-ads-badge.png)](https://mseep.ai/app/cohnen-mcp-google-ads)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-server"
+    }
+  ]
+}

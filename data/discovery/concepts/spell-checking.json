@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Spell Checking"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rubocop/rubocop",
+      "status": "candidate-context",
+      "text": "A Ruby static code analyzer and formatter, based on the community Ruby style guide."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/rubocop",
+      "status": "candidate-context",
+      "text": "Spell Checking"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rubocop/rubocop",
+      "status": "candidate",
+      "text": "Spell Checking"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10033874,
+      "status": "candidate",
+      "text": "spellcheck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10033873,
+      "status": "candidate",
+      "text": "spellchecker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10033872,
+      "status": "candidate",
+      "text": "spelling checker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10033871,
+      "status": "candidate",
+      "text": "grammar checker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10033870,
+      "status": "candidate",
+      "text": "spelling"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Spell Checking",
+  "concept_id": "spell-checking",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": ".github/workflows/spell_checking.yml",
+      "source_repo": "rubocop/rubocop"
+    }
+  ],
+  "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Spell Checking",
+      "sense_id": "spell-checking#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

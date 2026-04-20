@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethereum/devp2p",
+      "target": "breadwallet/breadwallet-core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethereum/devp2p",
+      "target": "apache/incubator-tuweni",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethereum/devp2p",
+      "target": "ciri-ethereum/ciri",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethereum/devp2p",
+      "target": "consensys/ethereum-dissectors",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-20T03:19:02.190507+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4227
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ethereum peer-to-peer networking specifications",
+    "fork": false,
+    "full_name": "ethereum/devp2p",
+    "html_url": "https://github.com/ethereum/devp2p",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-30T13:14:04Z",
+    "stargazers_count": 1114,
+    "topics": [],
+    "updated_at": "2026-04-19T20:47:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/incubator-tuweni",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "breadwallet/breadwallet-core",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ciri-ethereum/ciri",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "consensys/ethereum-dissectors",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-20T03:17:18.227025+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8812
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A configuration-loading class for loguru (but not only).",
+    "fork": false,
+    "full_name": "erezinman/loguru-config",
+    "html_url": "https://github.com/erezinman/loguru-config",
+    "language": "Python",
+    "pushed_at": "2024-07-30T20:33:51Z",
+    "stargazers_count": 45,
+    "topics": [],
+    "updated_at": "2026-04-15T01:36:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

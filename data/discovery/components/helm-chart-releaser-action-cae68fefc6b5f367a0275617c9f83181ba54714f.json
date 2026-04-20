@@ -1,0 +1,12 @@
+{
+  "component": "helm/chart-releaser-action@cae68fefc6b5f367a0275617c9f83181ba54714f",
+  "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts"
+    }
+  ]
+}

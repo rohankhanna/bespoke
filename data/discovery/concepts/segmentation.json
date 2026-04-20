@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "segmentation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "albumentations-team/AlbumentationsX",
+      "status": "candidate-context",
+      "text": "Next-generation Albumentations: dual-licensed for open-source and commercial use"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "albumentations-team/AlbumentationsX",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://badge.fury.io/py/albumentationsx.svg)](https://badge.fury.io/py/albumentationsx)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "albumentations-team/AlbumentationsX",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/albumentationsx.svg)](https://badge.fury.io/py/albumentationsx)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045578,
+      "status": "candidate",
+      "text": "sectionalization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045439,
+      "status": "candidate",
+      "text": "partition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045437,
+      "status": "candidate",
+      "text": "partitioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045428,
+      "status": "candidate",
+      "text": "subdivision"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045372,
+      "status": "candidate",
+      "text": "division"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16069,
+      "status": "candidate",
+      "text": "partition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12059,
+      "status": "candidate",
+      "text": "division"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9043,
+      "status": "candidate",
+      "text": "cleavage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7047,
+      "status": "candidate",
+      "text": "subdivision"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5026,
+      "status": "candidate",
+      "text": "partitioning"
+    }
+  ],
+  "canonical_name": "segmentation",
+  "concept_id": "segmentation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "albumentations-team/AlbumentationsX"
+    }
+  ],
+  "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "segmentation",
+      "sense_id": "segmentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

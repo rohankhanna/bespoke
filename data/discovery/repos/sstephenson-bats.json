@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-20T03:17:57.259181+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9710
+    },
+    {
+      "path": "package.json",
+      "size": 305
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Bash Automated Testing System",
+    "fork": false,
+    "full_name": "sstephenson/bats",
+    "html_url": "https://github.com/sstephenson/bats",
+    "language": "Shell",
+    "pushed_at": "2019-09-27T17:21:43Z",
+    "stargazers_count": 7109,
+    "topics": [],
+    "updated_at": "2026-04-15T09:44:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

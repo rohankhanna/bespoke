@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -47,6 +47,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/gemini-review.yml",
       "source_repo": "google-github-actions/run-gemini-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/api-release.yml",
+      "source_repo": "containerd/containerd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-test-images.yml",
+      "source_repo": "containerd/containerd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "containerd/containerd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "containerd/containerd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "containerd/containerd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/images.yml",
+      "source_repo": "containerd/containerd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "containerd/containerd"
     }
   ]
 }

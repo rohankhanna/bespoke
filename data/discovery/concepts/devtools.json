@@ -31,9 +31,64 @@
       "source_repo": "agent-sh/onboard",
       "status": "candidate-context",
       "text": "Quick codebase summary for new projects - /onboard command"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jezweb/claude-skills",
+      "status": "candidate-context",
+      "text": "Skills for Claude Code CLI such as full stack dev Cloudflare, React, Tailwind v4, and AI integrations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jezweb/claude-skills",
+      "status": "candidate-context",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/repo-intel",
+      "status": "candidate-context",
+      "text": "Git history analysis plugin for agentsys - static cached JSON artifact from git history"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/repo-intel",
+      "status": "candidate-context",
+      "text": "Unified static analysis for AI agents - git history, AST symbols, project metadata, and doc-code sync via a cached, incrementally-updatable Rust binary."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/sync-docs",
+      "status": "candidate-context",
+      "text": "Sync documentation with code changes. Find outdated refs, update CHANGELOG, flag stale examples."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/sync-docs",
+      "status": "candidate-context",
+      "text": "Detect outdated documentation by comparing docs against actual code state - broken references, version mismatches, stale examples, and missing CHANGELOG entries."
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jezweb/claude-skills",
+      "status": "candidate",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/repo-intel",
+      "status": "candidate",
+      "text": "Unified static analysis for AI agents - git history, AST symbols, project metadata, and doc-code sync via a cached, incrementally-updatable Rust binary."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/sync-docs",
+      "status": "candidate",
+      "text": "Detect outdated documentation by comparing docs against actual code state - broken references, version mismatches, stale examples, and missing CHANGELOG entries."
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "devtools",
@@ -51,12 +106,32 @@
       "observed_at": "2026-04-18T13:29:00.435097+00:00",
       "source_file": null,
       "source_repo": "agent-sh/onboard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "jezweb/claude-skills"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "agent-sh/repo-intel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "agent-sh/sync-docs"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

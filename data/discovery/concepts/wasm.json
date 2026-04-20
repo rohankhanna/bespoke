@@ -19,6 +19,18 @@
       "source_repo": "tracel-ai/burn",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashintel/labs",
+      "status": "candidate-context",
+      "text": "\ud83e\uddea Public laboratory for @hashintel experiments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashintel/labs",
+      "status": "candidate-context",
+      "text": "[github_star]: https://github.com/hashintel/labs#"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "tracel-ai/burn",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashintel/labs",
+      "status": "candidate",
+      "text": "[github_star]: https://github.com/hashintel/labs#"
     }
   ],
   "candidate_related_terms": [
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-19T01:08:57.644140+00:00",
       "source_file": null,
       "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "hashintel/labs"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "lexical_providers": [
     "datamuse"
   ],

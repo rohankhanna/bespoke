@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Sysadmin-Workspaces-Index",
+      "target": "danielrosehill/claude-linux-desktop-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Sysadmin-Workspaces-Index",
+      "target": "danielrosehill/linux-desktop-tools-index",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-20T03:17:44.497131+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5407
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Index of Claude Code workspace templates for systems administration \u2014 servers, Proxmox, Docker, NAS, LAN management, and more",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Code-Sysadmin-Workspaces-Index",
+    "html_url": "https://github.com/danielrosehill/Claude-Code-Sysadmin-Workspaces-Index",
+    "language": null,
+    "pushed_at": "2026-03-25T16:18:31Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-25T16:18:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-linux-desktop-manager",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/linux-desktop-tools-index",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

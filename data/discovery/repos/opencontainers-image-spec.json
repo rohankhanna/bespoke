@@ -1,0 +1,154 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-and-linting.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-and-linting.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-and-linting.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opencontainers/image-spec",
+      "target": "opencontainers/runtime-spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opencontainers/image-spec",
+      "target": "opencontainers/distribution-spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opencontainers/image-spec",
+      "target": "opencontainers/org",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-and-linting.yml",
+      "source_repo": "opencontainers/image-spec",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-and-linting.yml",
+      "source_repo": "opencontainers/image-spec",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-and-linting.yml",
+      "source_repo": "opencontainers/image-spec",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-and-linting.yml",
+      "source_repo": "opencontainers/image-spec",
+      "target": "Render and Lint Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencontainers/image-spec",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencontainers/image-spec",
+      "target": "docker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-20T03:17:58.875912+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7169
+    },
+    {
+      "path": "go.mod",
+      "size": 321
+    },
+    {
+      "path": ".github/workflows/docs-and-linting.yml",
+      "size": 1727
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OCI Image Format",
+    "fork": false,
+    "full_name": "opencontainers/image-spec",
+    "html_url": "https://github.com/opencontainers/image-spec",
+    "language": "Go",
+    "pushed_at": "2026-02-26T10:21:22Z",
+    "stargazers_count": 4237,
+    "topics": [
+      "containers",
+      "docker",
+      "oci"
+    ],
+    "updated_at": "2026-04-19T07:28:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opencontainers/distribution-spec",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opencontainers/org",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opencontainers/runtime-spec",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Render and Lint Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs-and-linting.yml",
+      "term": "Render and Lint Documentation"
+    },
+    {
+      "context_snippet": "![License](https://img.shields.io/github/license/opencontainers/image-spec)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "![License](https://img.shields.io/github/license/opencontainers/image-spec)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    }
+  ]
+}

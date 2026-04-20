@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Devnet Functionality"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "status": "candidate-context",
+      "text": "A set of Helm charts to run multiple components of the Ethereum blockchain on Kubernetes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "status": "candidate-context",
+      "text": "Test Devnet Functionality"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethpandaops/ethereum-helm-charts",
+      "status": "candidate",
+      "text": "Test Devnet Functionality"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15767,
+      "status": "candidate",
+      "text": "demo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15526,
+      "status": "candidate",
+      "text": "performance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14906,
+      "status": "candidate",
+      "text": "use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14647,
+      "status": "candidate",
+      "text": "functional"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14406,
+      "status": "candidate",
+      "text": "capabilities"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Devnet Functionality",
+  "concept_id": "test-devnet-functionality",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": ".github/workflows/test-devnet.yaml",
+      "source_repo": "ethpandaops/ethereum-helm-charts"
+    }
+  ],
+  "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Devnet Functionality",
+      "sense_id": "test-devnet-functionality#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

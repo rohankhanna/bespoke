@@ -1,0 +1,373 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_java_hello_world_reusable.yml"
+    },
+    {
+      "component": "goto-bus-stop/setup-zig@v2.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_java_hello_world_reusable.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_java_hello_world_reusable.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_java_hello_world_reusable.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_java_partial_evaluation_reusable.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_java_partial_evaluation_reusable.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_rust_hello_world_reusable.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_tiny_todo_go_reusable.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_tiny_todo_go_reusable.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_tiny_todo_reusable.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wasm_example_reusable.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wasm_example_reusable.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "addnab/docker-run-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_example_use_cases_reusable.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_example_use_cases_reusable.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "cedar-policy/cedar-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "cedar-policy/cedar-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_java_hello_world_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_java_hello_world_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "goto-bus-stop/setup-zig@v2.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_java_hello_world_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_java_hello_world_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "Build and test Java example",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_java_partial_evaluation_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_java_partial_evaluation_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_rust_hello_world_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_rust_hello_world_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "Build and test Rust example",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_tiny_todo_go_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_tiny_todo_go_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_tiny_todo_go_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "Build and test TinyTodo-Go",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_tiny_todo_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_tiny_todo_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "Build and test TinyTodo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_wasm_example_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wasm_example_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "Build and test Wasm example",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "addnab/docker-run-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "Build & Test Examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_example_use_cases_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_example_use_cases_reusable.yml",
+      "source_repo": "cedar-policy/cedar-examples",
+      "target": "Run example use cases",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-20T03:18:37.374653+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3937
+    },
+    {
+      "path": ".github/workflows/build_java_hello_world_reusable.yml",
+      "size": 1934
+    },
+    {
+      "path": ".github/workflows/build_java_partial_evaluation_reusable.yml",
+      "size": 1029
+    },
+    {
+      "path": ".github/workflows/build_rust_hello_world_reusable.yml",
+      "size": 1474
+    },
+    {
+      "path": ".github/workflows/build_tiny_todo_go_reusable.yml",
+      "size": 966
+    },
+    {
+      "path": ".github/workflows/build_tiny_todo_reusable.yml",
+      "size": 1711
+    },
+    {
+      "path": ".github/workflows/build_wasm_example_reusable.yml",
+      "size": 1489
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3136
+    },
+    {
+      "path": ".github/workflows/run_example_use_cases_reusable.yml",
+      "size": 1536
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "release/4.10.x",
+    "description": "Some examples of using the Cedar language to specify authorization",
+    "fork": false,
+    "full_name": "cedar-policy/cedar-examples",
+    "html_url": "https://github.com/cedar-policy/cedar-examples",
+    "language": "Rust",
+    "pushed_at": "2026-03-26T18:35:16Z",
+    "stargazers_count": 110,
+    "topics": [],
+    "updated_at": "2026-04-01T03:27:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cedar-policy/cedar-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cedar-policy/cedar-java",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and test Java example",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_java_hello_world_reusable.yml",
+      "term": "Build and test Java example"
+    },
+    {
+      "context_snippet": "Build and test Rust example",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_rust_hello_world_reusable.yml",
+      "term": "Build and test Rust example"
+    },
+    {
+      "context_snippet": "Build and test TinyTodo-Go",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_tiny_todo_go_reusable.yml",
+      "term": "Build and test TinyTodo-Go"
+    },
+    {
+      "context_snippet": "Build and test TinyTodo",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_tiny_todo_reusable.yml",
+      "term": "Build and test TinyTodo"
+    },
+    {
+      "context_snippet": "Build and test Wasm example",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_wasm_example_reusable.yml",
+      "term": "Build and test Wasm example"
+    },
+    {
+      "context_snippet": "Build & Test Examples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Build & Test Examples"
+    },
+    {
+      "context_snippet": "Run example use cases",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_example_use_cases_reusable.yml",
+      "term": "Run example use cases"
+    }
+  ]
+}

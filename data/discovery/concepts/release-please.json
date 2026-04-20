@@ -20,6 +20,18 @@
       "source_repo": "tekumara/typos-lsp",
       "status": "candidate-context",
       "text": "release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "biocypher/biocypher",
+      "status": "candidate-context",
+      "text": "A unifying framework for biomedical research knowledge graphs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "biocypher/biocypher",
+      "status": "candidate-context",
+      "text": "Release Please"
     }
   ],
   "candidate_glosses": [
@@ -28,9 +40,51 @@
       "source_repo": "tekumara/typos-lsp",
       "status": "candidate",
       "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "biocypher/biocypher",
+      "status": "candidate",
+      "text": "Release Please"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11659,
+      "status": "candidate",
+      "text": "click"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11659,
+      "status": "candidate",
+      "text": "contact"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11659,
+      "status": "candidate",
+      "text": "discharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11659,
+      "status": "candidate",
+      "text": "drop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11659,
+      "status": "candidate",
+      "text": "issue"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Release Please",
   "concept_id": "release-please",
@@ -59,11 +113,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": ".github/workflows/release-please.yml",
       "source_repo": "tekumara/typos-lsp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": ".github/workflows/release-please.yaml",
+      "source_repo": "biocypher/biocypher"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "lexical_providers": [
     "datamuse"
   ],

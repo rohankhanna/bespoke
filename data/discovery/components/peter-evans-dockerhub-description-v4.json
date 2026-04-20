@@ -1,12 +1,17 @@
 {
   "component": "peter-evans/dockerhub-description@v4",
   "first_seen_at": "2026-04-18T09:50:06.115508+00:00",
-  "last_seen_at": "2026-04-18T09:50:06.115508+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker-publish.yml",
       "source_repo": "claude-did-this/claude-hub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cd-push-docker-image.yaml",
+      "source_repo": "dolthub/dolt"
     }
   ]
 }

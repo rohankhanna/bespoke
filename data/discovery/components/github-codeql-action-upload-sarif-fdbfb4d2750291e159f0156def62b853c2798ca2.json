@@ -1,0 +1,12 @@
+{
+  "component": "github/codeql-action/upload-sarif@fdbfb4d2750291e159f0156def62b853c2798ca2",
+  "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "hashintel/labs"
+    }
+  ]
+}

@@ -92,6 +92,60 @@
       "source_repo": "aio-libs/aiohttp",
       "status": "candidate-context",
       "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caronc/apprise",
+      "status": "candidate-context",
+      "text": "Apprise - Push Notifications that work with just about every platform!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caronc/apprise",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containers/crun",
+      "status": "candidate-context",
+      "text": "A fast and lightweight fully featured OCI runtime and C library for running containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/crun",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/cli",
+      "status": "candidate-context",
+      "text": "The Docker CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/cli",
+      "status": "candidate-context",
+      "text": "codeql"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blockprotocol/blockprotocol",
+      "status": "candidate-context",
+      "text": "\u2728 The open-source standard for blocks. From @hashintel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blockprotocol/blockprotocol",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "protocolbuffers/protobuf-javascript",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
     }
   ],
   "candidate_glosses": [
@@ -134,6 +188,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aio-libs/aiohttp",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caronc/apprise",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/crun",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/cli",
+      "status": "candidate",
+      "text": "codeql"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blockprotocol/blockprotocol",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "protocolbuffers/protobuf-javascript",
       "status": "candidate",
       "text": "\"CodeQL\""
     }
@@ -233,11 +317,41 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "aio-libs/aiohttp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "caronc/apprise"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "containers/crun"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "docker/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "blockprotocol/blockprotocol"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "protocolbuffers/protobuf-javascript"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "lexical_providers": [
     "datamuse"
   ],

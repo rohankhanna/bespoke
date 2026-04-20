@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "asvs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agamm/claude-code-owasp",
+      "status": "candidate-context",
+      "text": "Claude Code skill for OWASP security best practices (2025-2026). Includes Top 10:2025, ASVS 5.0, Agentic AI security, and 20+ language-specific security quirks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agamm/claude-code-owasp",
+      "status": "candidate-context",
+      "text": "A Claude Code skill providing the latest OWASP security best practices (2025-2026) for developers building secure applications."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agamm/claude-code-owasp",
+      "status": "candidate",
+      "text": "A Claude Code skill providing the latest OWASP security best practices (2025-2026) for developers building secure applications."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10005218,
+      "status": "candidate",
+      "text": "aacs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10005217,
+      "status": "candidate",
+      "text": "svga"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10005216,
+      "status": "candidate",
+      "text": "rvsp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10005215,
+      "status": "candidate",
+      "text": "asvab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10005214,
+      "status": "candidate",
+      "text": "vsam"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "asvs",
+  "concept_id": "asvs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "agamm/claude-code-owasp"
+    }
+  ],
+  "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "asvs",
+      "sense_id": "asvs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

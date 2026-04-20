@@ -19,10 +19,65 @@
       "source_repo": "AgriciDaniel/claude-cybersecurity",
       "status": "candidate-context",
       "text": "AI-powered cybersecurity code review skill for Claude Code. 8 specialist agents, OWASP 2025, CWE Top 25, MITRE ATT&CK, 11 languages, zero configuration."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agamm/claude-code-owasp",
+      "status": "candidate-context",
+      "text": "Claude Code skill for OWASP security best practices (2025-2026). Includes Top 10:2025, ASVS 5.0, Agentic AI security, and 20+ language-specific security quirks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agamm/claude-code-owasp",
+      "status": "candidate-context",
+      "text": "A Claude Code skill providing the latest OWASP security best practices (2025-2026) for developers building secure applications."
     }
   ],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agamm/claude-code-owasp",
+      "status": "candidate",
+      "text": "A Claude Code skill providing the latest OWASP security best practices (2025-2026) for developers building secure applications."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "sourceforge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "open journal systems"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "open hub"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "openweb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "ckan"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "owasp",
   "concept_id": "owasp",
@@ -33,12 +88,20 @@
       "observed_at": "2026-04-18T13:29:00.435097+00:00",
       "source_file": null,
       "source_repo": "AgriciDaniel/claude-cybersecurity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "agamm/claude-code-owasp"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

@@ -13,10 +13,65 @@
       "source_repo": "julienXX/terminal-notifier",
       "status": "candidate-context",
       "text": "Send User Notifications on macOS from the command-line."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caronc/apprise",
+      "status": "candidate-context",
+      "text": "Apprise - Push Notifications that work with just about every platform!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caronc/apprise",
+      "status": "candidate-context",
+      "text": "![Apprise Logo](https://raw.githubusercontent.com/caronc/apprise/master/apprise/assets/themes/default/apprise-logo.png)"
     }
   ],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caronc/apprise",
+      "status": "candidate",
+      "text": "![Apprise Logo](https://raw.githubusercontent.com/caronc/apprise/master/apprise/assets/themes/default/apprise-logo.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10050181,
+      "status": "candidate",
+      "text": "apprisal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10049561,
+      "status": "candidate",
+      "text": "notice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10037947,
+      "status": "candidate",
+      "text": "telling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10035011,
+      "status": "candidate",
+      "text": "presentment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "notifying"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "notifications",
   "concept_id": "notifications",
@@ -27,12 +82,20 @@
       "observed_at": "2026-04-18T13:15:13.756138+00:00",
       "source_file": null,
       "source_repo": "julienXX/terminal-notifier"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "caronc/apprise"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

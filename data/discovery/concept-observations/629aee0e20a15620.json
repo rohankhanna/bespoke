@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An open source python library for automated feature engineering"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Kickoff EvalML Unit Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Kickoff EvalML Unit Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26082,
+      "status": "candidate",
+      "text": "opener"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26082,
+      "status": "candidate",
+      "text": "start"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24707,
+      "status": "candidate",
+      "text": "tails"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24669,
+      "status": "candidate",
+      "text": "blood"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24326,
+      "status": "candidate",
+      "text": "bikini"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Kickoff EvalML Unit Tests",
+      "sense_id": "kickoff-evalml-unit-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "kickoff-evalml-unit-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "kickoff-evalml-unit-tests",
+  "observation_id": "629aee0e20a15620",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-20T03:16:48.146869+00:00",
+  "observed_text": "Kickoff EvalML Unit Tests",
+  "source_context_snippet": "Kickoff EvalML Unit Tests",
+  "source_file": ".github/workflows/kickoff_evalml_unit_tests.yaml",
+  "source_repo": "alteryx/featuretools",
+  "source_repo_description": "An open source python library for automated feature engineering"
+}

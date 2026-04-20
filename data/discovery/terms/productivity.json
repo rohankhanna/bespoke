@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -51,6 +51,11 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "abduznik/Git-Alchemist"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "jezweb/claude-skills"
     }
   ],
   "term": "productivity"

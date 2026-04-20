@@ -166,13 +166,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "eastlondoner/vibe-tools",
-      "target": "eastlondoner/pac-man",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "eastlondoner/vibe-tools",
       "target": "eastlondoner/cursor-tools",
       "target_type": "repository"
     },
@@ -408,7 +401,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-18T13:16:19.561040+00:00",
+  "fetched_at": "2026-04-20T03:18:11.734964+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -419,7 +412,6 @@
       "size": 2665
     }
   ],
-  "metadata_refreshed_at": "2026-04-19T14:03:51.096840+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -430,19 +422,14 @@
     "html_url": "https://github.com/eastlondoner/vibe-tools",
     "language": "TypeScript",
     "pushed_at": "2025-08-25T10:10:43Z",
-    "stargazers_count": 4761,
+    "stargazers_count": 4762,
     "topics": [],
-    "updated_at": "2026-04-19T04:57:12Z"
+    "updated_at": "2026-04-19T17:18:59Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "eastlondoner/cursor-tools",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "eastlondoner/pac-man",
       "source_file": "README.md"
     },
     {

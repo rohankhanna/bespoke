@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udcee An integrative registry of biological databases, ontologies, and nomenclatures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Register new prefix\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Register new prefix\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29536,
+      "status": "candidate",
+      "text": "neo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26867,
+      "status": "candidate",
+      "text": "denounce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26867,
+      "status": "candidate",
+      "text": "denouncing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26867,
+      "status": "candidate",
+      "text": "tax"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26669,
+      "status": "candidate",
+      "text": "taxed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Register new prefix",
+      "sense_id": "register-new-prefix#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "register-new-prefix",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "register-new-prefix",
+  "observation_id": "de551ac796fe0988",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-20T03:16:48.146869+00:00",
+  "observed_text": "Register new prefix",
+  "source_context_snippet": "\"Register new prefix\"",
+  "source_file": ".github/workflows/new_prefix_pr.yml",
+  "source_repo": "biopragmatics/bioregistry",
+  "source_repo_description": "\ud83d\udcee An integrative registry of biological databases, ontologies, and nomenclatures."
+}

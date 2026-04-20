@@ -1,0 +1,12 @@
+{
+  "component": "ytanikin/pr-conventional-commits@639145d78959c53c43112365837e3abd21ed67c1",
+  "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr_naming.yml",
+      "source_repo": "open-telemetry/opentelemetry-rust"
+    }
+  ]
+}

@@ -4,10 +4,63 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definition_hints": [],
-  "candidate_glosses": [],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Beads - A memory upgrade for your coding agent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**Distributed graph issue tracker for AI agents, powered by [Dolt](https://github.com/dolthub/dolt).**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**Distributed graph issue tracker for AI agents, powered by [Dolt](https://github.com/dolthub/dolt).**"
+    }
+  ],
   "candidate_primary_bucket": "tool-component",
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039540,
+      "status": "candidate",
+      "text": "put on"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034831,
+      "status": "candidate",
+      "text": "ride"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39993565,
+      "status": "candidate",
+      "text": "tease"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39970748,
+      "status": "candidate",
+      "text": "collect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39970024,
+      "status": "candidate",
+      "text": "rag"
+    }
+  ],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -24,15 +77,17 @@
   "definition_status": "unresolved",
   "discovered_via": "repo-topic",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "coding",
   "observation_id": "81968221588155e1",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-18T12:46:59.510459+00:00",
+  "observed_at": "2026-04-20T03:16:48.146869+00:00",
   "observed_text": "coding",
-  "source_context_snippet": null,
+  "source_context_snippet": "**Distributed graph issue tracker for AI agents, powered by [Dolt](https://github.com/dolthub/dolt).**",
   "source_file": null,
   "source_repo": "gastownhall/beads",
-  "source_repo_description": null
+  "source_repo_description": "Beads - A memory upgrade for your coding agent"
 }

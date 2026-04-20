@@ -98,6 +98,54 @@
       "source_repo": "simonw/claude-code-transcripts",
       "status": "candidate-context",
       "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containers/crun",
+      "status": "candidate-context",
+      "text": "A fast and lightweight fully featured OCI runtime and C library for running containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/crun",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/cli",
+      "status": "candidate-context",
+      "text": "The Docker CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/cli",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "protocolbuffers/protobuf-go",
+      "status": "candidate-context",
+      "text": "Go support for Google's protocol buffers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "protocolbuffers/protobuf-go",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fatiando/pooch",
+      "status": "candidate-context",
+      "text": "A friend to fetch your data files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fatiando/pooch",
+      "status": "candidate-context",
+      "text": "test"
     }
   ],
   "candidate_glosses": [
@@ -142,6 +190,30 @@
       "source_repo": "simonw/claude-code-transcripts",
       "status": "candidate",
       "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/crun",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/cli",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "protocolbuffers/protobuf-go",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fatiando/pooch",
+      "status": "candidate",
+      "text": "test"
     }
   ],
   "candidate_related_terms": [
@@ -323,11 +395,35 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "simonw/claude-code-transcripts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "containers/crun"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "docker/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "protocolbuffers/protobuf-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "fatiando/pooch"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "lexical_providers": [
     "datamuse"
   ],

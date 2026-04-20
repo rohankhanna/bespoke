@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "library"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/agent-core",
+      "status": "candidate-context",
+      "text": "Shared core libraries for agent-sh plugins \u2014 synced to all repos on merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/agent-core",
+      "status": "candidate-context",
+      "text": "Shared core libraries for all agent-sh plugins. Changes here are automatically synced to consuming repos via CI-driven PRs."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/agent-core",
+      "status": "candidate",
+      "text": "Shared core libraries for all agent-sh plugins. Changes here are automatically synced to consuming repos via CI-driven PRs."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29777601,
+      "status": "candidate",
+      "text": "depository library"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29777601,
+      "status": "candidate",
+      "text": "program library"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29777600,
+      "status": "candidate",
+      "text": "librarianship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29777596,
+      "status": "candidate",
+      "text": "librarian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29776874,
+      "status": "candidate",
+      "text": "bookstore"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2012,
+      "status": "candidate",
+      "text": "depository library"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "program library"
+    }
+  ],
+  "canonical_name": "library",
+  "concept_id": "library",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "agent-sh/agent-core"
+    }
+  ],
+  "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "library",
+      "sense_id": "library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

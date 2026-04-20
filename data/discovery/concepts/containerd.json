@@ -19,6 +19,18 @@
       "source_repo": "abiosoft/colima",
       "status": "candidate-context",
       "text": "![colima-logo](colima.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containerd/containerd",
+      "status": "candidate-context",
+      "text": "An open and reliable container runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containerd/containerd",
+      "status": "candidate-context",
+      "text": "![containerd banner light mode](https://raw.githubusercontent.com/cncf/artwork/master/projects/containerd/horizontal/color/containerd-horizontal-color.png#gh-light-mode-only)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "abiosoft/colima",
       "status": "candidate",
       "text": "![colima-logo](colima.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containerd/containerd",
+      "status": "candidate",
+      "text": "![containerd banner light mode](https://raw.githubusercontent.com/cncf/artwork/master/projects/containerd/horizontal/color/containerd-horizontal-color.png#gh-light-mode-only)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "abiosoft/colima"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "containerd/containerd"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "lexical_providers": [
     "datamuse"
   ],

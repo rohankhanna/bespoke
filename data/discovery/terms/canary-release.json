@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:50:06.115508+00:00",
-  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -11,6 +11,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/canary-release.yml",
       "source_repo": "upstash/context7"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/canary-release.yml",
+      "source_repo": "blockprotocol/blockprotocol"
     }
   ],
   "term": "Canary Release"

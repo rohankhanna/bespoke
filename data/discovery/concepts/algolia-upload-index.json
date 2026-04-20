@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Algolia Upload Index"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blockprotocol/blockprotocol",
+      "status": "candidate-context",
+      "text": "\u2728 The open-source standard for blocks. From @hashintel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blockprotocol/blockprotocol",
+      "status": "candidate-context",
+      "text": "Algolia Upload Index"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blockprotocol/blockprotocol",
+      "status": "candidate",
+      "text": "Algolia Upload Index"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13071,
+      "status": "candidate",
+      "text": "download"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12599,
+      "status": "candidate",
+      "text": "clip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12599,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12599,
+      "status": "candidate",
+      "text": "photo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12599,
+      "status": "candidate",
+      "text": "pic"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Algolia Upload Index",
+  "concept_id": "algolia-upload-index",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": ".github/workflows/algolia-upload-index.yml",
+      "source_repo": "blockprotocol/blockprotocol"
+    }
+  ],
+  "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Algolia Upload Index",
+      "sense_id": "algolia-upload-index#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

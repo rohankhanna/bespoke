@@ -281,13 +281,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "gastownhall/beads",
-      "target": "dolthub/dolt",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "gastownhall/beads",
       "target": "steveyegge/beads",
       "target_type": "repository"
     },
@@ -572,7 +565,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T12:48:02.444589+00:00",
+  "fetched_at": "2026-04-20T03:17:28.570162+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -615,7 +608,6 @@
       "size": 849
     }
   ],
-  "metadata_refreshed_at": "2026-04-19T14:03:52.412242+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -625,21 +617,16 @@
     "full_name": "gastownhall/beads",
     "html_url": "https://github.com/gastownhall/beads",
     "language": "Go",
-    "pushed_at": "2026-04-19T00:10:12Z",
-    "stargazers_count": 20917,
+    "pushed_at": "2026-04-19T21:16:08Z",
+    "stargazers_count": 20933,
     "topics": [
       "agents",
       "claude-code",
       "coding"
     ],
-    "updated_at": "2026-04-19T13:32:24Z"
+    "updated_at": "2026-04-20T03:06:46Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "dolthub/dolt",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "steveyegge/beads",
@@ -648,46 +635,55 @@
   ],
   "terms": [
     {
+      "context_snippet": "Cross-Version Smoke Tests",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/cross-version-smoke.yml",
       "term": "Cross-Version Smoke Tests"
     },
     {
+      "context_snippet": "Deploy Documentation",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/deploy-docs.yml",
       "term": "Deploy Documentation"
     },
     {
+      "context_snippet": "Migration Test Harness",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/migration-test.yml",
       "term": "Migration Test Harness"
     },
     {
+      "context_snippet": "Nightly Full Tests",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/nightly.yml",
       "term": "Nightly Full Tests"
     },
     {
+      "context_snippet": "Regression Tests",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/regression.yml",
       "term": "Regression Tests"
     },
     {
+      "context_snippet": "Release",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/release.yml",
       "term": "Release"
     },
     {
+      "context_snippet": "Test PyPI Publish",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/test-pypi.yml",
       "term": "Test PyPI Publish"
     },
     {
+      "context_snippet": "**Distributed graph issue tracker for AI agents, powered by [Dolt](https://github.com/dolthub/dolt).**",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "claude-code"
     },
     {
+      "context_snippet": "**Distributed graph issue tracker for AI agents, powered by [Dolt](https://github.com/dolthub/dolt).**",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "coding"

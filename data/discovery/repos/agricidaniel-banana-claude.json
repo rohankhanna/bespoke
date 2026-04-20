@@ -1,0 +1,143 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "AgriciDaniel/banana-claude",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "AgriciDaniel/banana-claude",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "AgriciDaniel/banana-claude",
+      "target": "Validate Plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/banana-claude",
+      "target": "ai-content",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/banana-claude",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/banana-claude",
+      "target": "claude-code-skill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/banana-claude",
+      "target": "content-creation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/banana-claude",
+      "target": "open-source",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-20T03:18:53.559794+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9156
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "size": 2159
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AI image generation skill for Claude Code -- Creative Director powered by Gemini",
+    "fork": false,
+    "full_name": "AgriciDaniel/banana-claude",
+    "html_url": "https://github.com/AgriciDaniel/banana-claude",
+    "language": "Python",
+    "pushed_at": "2026-04-13T22:21:27Z",
+    "stargazers_count": 308,
+    "topics": [
+      "ai",
+      "ai-content",
+      "claude-code",
+      "claude-code-skill",
+      "content-creation",
+      "open-source"
+    ],
+    "updated_at": "2026-04-19T21:13:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Validate Plugin",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate.yml",
+      "term": "Validate Plugin"
+    },
+    {
+      "context_snippet": "<!-- Updated: 2026-03-19v2 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-content"
+    },
+    {
+      "context_snippet": "<!-- Updated: 2026-03-19v2 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "<!-- Updated: 2026-03-19v2 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code-skill"
+    },
+    {
+      "context_snippet": "<!-- Updated: 2026-03-19v2 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "content-creation"
+    },
+    {
+      "context_snippet": "<!-- Updated: 2026-03-19v2 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    }
+  ]
+}

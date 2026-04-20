@@ -58,7 +58,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T13:15:16.411365+00:00",
+  "fetched_at": "2026-04-20T03:17:32.597741+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -69,7 +69,6 @@
       "size": 1187
     }
   ],
-  "metadata_refreshed_at": "2026-04-19T07:52:30.224029+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -106,31 +105,37 @@
   ],
   "terms": [
     {
+      "context_snippet": "[![Python Version](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "claude-code"
     },
     {
+      "context_snippet": "[![Python Version](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "education"
     },
     {
+      "context_snippet": "[![Python Version](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "learning"
     },
     {
+      "context_snippet": "[![Python Version](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "productivity"
     },
     {
+      "context_snippet": "[![Python Version](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "spaced-repetition"
     },
     {
+      "context_snippet": "[![Python Version](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "study"

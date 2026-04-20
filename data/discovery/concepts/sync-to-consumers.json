@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Sync to consumers"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/agent-core",
+      "status": "candidate-context",
+      "text": "Shared core libraries for agent-sh plugins \u2014 synced to all repos on merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/agent-core",
+      "status": "candidate-context",
+      "text": "Sync to consumers"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/agent-core",
+      "status": "candidate",
+      "text": "Sync to consumers"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10960,
+      "status": "candidate",
+      "text": "kiss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10960,
+      "status": "candidate",
+      "text": "off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10846,
+      "status": "candidate",
+      "text": "accord"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10846,
+      "status": "candidate",
+      "text": "agreement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10846,
+      "status": "candidate",
+      "text": "concord"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sync to consumers",
+  "concept_id": "sync-to-consumers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "agent-sh/agent-core"
+    }
+  ],
+  "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync to consumers",
+      "sense_id": "sync-to-consumers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

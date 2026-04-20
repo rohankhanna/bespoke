@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cedar-policy/cedar-docs",
+      "target": "cncf/foundation",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-20T03:18:35.491807+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5358
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Documentation for Cedar policy language",
+    "fork": false,
+    "full_name": "cedar-policy/cedar-docs",
+    "html_url": "https://github.com/cedar-policy/cedar-docs",
+    "language": null,
+    "pushed_at": "2026-04-08T17:57:29Z",
+    "stargazers_count": 35,
+    "topics": [],
+    "updated_at": "2026-04-14T07:13:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cncf/foundation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

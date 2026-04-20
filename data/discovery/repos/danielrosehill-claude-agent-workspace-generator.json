@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Agent-Workspace-Generator",
+      "target": "danielrosehill/claude-code-repos-index",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-20T03:17:42.028434+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2581
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Claude utility for creating workspace templates for agentic AI tools",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Agent-Workspace-Generator",
+    "html_url": "https://github.com/danielrosehill/Claude-Agent-Workspace-Generator",
+    "language": null,
+    "pushed_at": "2026-03-09T19:56:45Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-03-10T01:56:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-code-repos-index",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

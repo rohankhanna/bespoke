@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Latest Dependency Checker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alteryx/featuretools",
+      "status": "candidate-context",
+      "text": "An open source python library for automated feature engineering"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alteryx/featuretools",
+      "status": "candidate-context",
+      "text": "Latest Dependency Checker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alteryx/featuretools",
+      "status": "candidate",
+      "text": "Latest Dependency Checker"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17833,
+      "status": "candidate",
+      "text": "rope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17833,
+      "status": "candidate",
+      "text": "roping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17703,
+      "status": "candidate",
+      "text": "draft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17703,
+      "status": "candidate",
+      "text": "processor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9808,
+      "status": "candidate",
+      "text": "kast"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Latest Dependency Checker",
+  "concept_id": "latest-dependency-checker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": ".github/workflows/latest_dependency_checker.yaml",
+      "source_repo": "alteryx/featuretools"
+    }
+  ],
+  "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Latest Dependency Checker",
+      "sense_id": "latest-dependency-checker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

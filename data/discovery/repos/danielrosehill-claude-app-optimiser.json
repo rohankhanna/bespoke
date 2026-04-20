@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-20T03:17:42.482119+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 747
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "System prompt, slash command, agent",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-App-Optimiser",
+    "html_url": "https://github.com/danielrosehill/Claude-App-Optimiser",
+    "language": null,
+    "pushed_at": "2025-12-23T19:21:55Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-03-11T20:43:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

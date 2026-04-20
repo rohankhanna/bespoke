@@ -174,7 +174,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T12:47:17.435954+00:00",
+  "fetched_at": "2026-04-20T03:16:59.989138+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -193,7 +193,6 @@
       "size": 2761
     }
   ],
-  "metadata_refreshed_at": "2026-04-19T14:02:49.590654+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -217,11 +216,13 @@
   ],
   "terms": [
     {
+      "context_snippet": "Release",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/release.yml",
       "term": "Release"
     },
     {
+      "context_snippet": "Test and Lint",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/test.yml",
       "term": "Test and Lint"

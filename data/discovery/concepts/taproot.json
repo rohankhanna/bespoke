@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "taproot"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "8144225309/superscalar-mcp",
+      "status": "candidate-context",
+      "text": "MCP server for SuperScalar \u2014 Bitcoin Lightning channel factories. Query protocol specs, estimate UTXO savings, and explore factory architectures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "8144225309/superscalar-mcp",
+      "status": "candidate-context",
+      "text": "MCP server for [SuperScalar](https://github.com/8144225309/SuperScalar) \u2014 Bitcoin Lightning channel factories that onboard N users in one shared UTXO. No soft fork required."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "8144225309/superscalar-mcp",
+      "status": "candidate",
+      "text": "MCP server for [SuperScalar](https://github.com/8144225309/SuperScalar) \u2014 Bitcoin Lightning channel factories that onboard N users in one shared UTXO. No soft fork required."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19954402,
+      "status": "candidate",
+      "text": "backbone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19902180,
+      "status": "candidate",
+      "text": "centrepiece"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19866219,
+      "status": "candidate",
+      "text": "lynchpin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19826995,
+      "status": "candidate",
+      "text": "fulcrum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19823305,
+      "status": "candidate",
+      "text": "linchpin"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "taproot",
+  "concept_id": "taproot",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "8144225309/superscalar-mcp"
+    }
+  ],
+  "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "taproot",
+      "sense_id": "taproot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

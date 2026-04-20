@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An open and reliable container runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Mirror Test Image\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Mirror Test Image\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37127,
+      "status": "candidate",
+      "text": "reflect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36241,
+      "status": "candidate",
+      "text": "reflection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35927,
+      "status": "candidate",
+      "text": "reflectively"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35661,
+      "status": "candidate",
+      "text": "power"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35661,
+      "status": "candidate",
+      "text": "powered"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mirror Test Image",
+      "sense_id": "mirror-test-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mirror-test-image",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mirror-test-image",
+  "observation_id": "b260a1cd944005e7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-20T03:16:48.146869+00:00",
+  "observed_text": "Mirror Test Image",
+  "source_context_snippet": "\"Mirror Test Image\"",
+  "source_file": ".github/workflows/images.yml",
+  "source_repo": "containerd/containerd",
+  "source_repo_description": "An open and reliable container runtime"
+}

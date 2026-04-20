@@ -150,13 +150,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "parruda/swarm",
-      "target": "parruda/ruby_llm",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "parruda/swarm",
@@ -318,7 +311,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T12:47:13.793573+00:00",
+  "fetched_at": "2026-04-20T03:16:54.322784+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -349,7 +342,6 @@
       "size": 853
     }
   ],
-  "metadata_refreshed_at": "2026-04-19T14:16:22.638149+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -360,44 +352,44 @@
     "html_url": "https://github.com/parruda/swarm",
     "language": "Ruby",
     "pushed_at": "2026-02-17T02:07:40Z",
-    "stargazers_count": 1699,
+    "stargazers_count": 1701,
     "topics": [],
-    "updated_at": "2026-04-16T08:17:32Z"
+    "updated_at": "2026-04-20T02:21:26Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "parruda/claude-swarm",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "parruda/ruby_llm",
-      "source_file": "README.md"
     }
   ],
   "terms": [
     {
+      "context_snippet": "Release ClaudeSwarm Gem",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/release-claude-swarm.yml",
       "term": "Release ClaudeSwarm Gem"
     },
     {
+      "context_snippet": "Release SwarmCLI Gem",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/release-swarm-cli.yml",
       "term": "Release SwarmCLI Gem"
     },
     {
+      "context_snippet": "Release SwarmMemory Gem",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/release-swarm-memory.yml",
       "term": "Release SwarmMemory Gem"
     },
     {
+      "context_snippet": "Release SwarmSDK Gem",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/release-swarm-sdk.yml",
       "term": "Release SwarmSDK Gem"
     },
     {
+      "context_snippet": "Release Gem",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/release.yml",
       "term": "Release Gem"

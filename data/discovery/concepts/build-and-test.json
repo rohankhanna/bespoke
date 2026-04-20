@@ -68,6 +68,24 @@
       "source_repo": "apache/spark",
       "status": "candidate-context",
       "text": "Build and test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "svaningelgem/logprise",
+      "status": "candidate-context",
+      "text": "Batch loguru logging and apprise notifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "svaningelgem/logprise",
+      "status": "candidate-context",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "protocolbuffers/protobuf-javascript",
+      "status": "candidate-context",
+      "text": "Build and Test"
     }
   ],
   "candidate_glosses": [
@@ -94,6 +112,18 @@
       "source_repo": "apache/spark",
       "status": "candidate",
       "text": "Build and test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "svaningelgem/logprise",
+      "status": "candidate",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "protocolbuffers/protobuf-javascript",
+      "status": "candidate",
+      "text": "Build and Test"
     }
   ],
   "candidate_related_terms": [
@@ -167,11 +197,23 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": ".github/workflows/build_and_test.yml",
       "source_repo": "apache/spark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "svaningelgem/logprise"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "protocolbuffers/protobuf-javascript"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "lexical_providers": [
     "datamuse"
   ],

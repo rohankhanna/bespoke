@@ -16,13 +16,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "googlefonts/noto-emoji",
-      "target": "googlefonts/emoji-metadata",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "googlefonts/noto-emoji",
       "target": "googlei18n/noto-emoji",
       "target_type": "repository"
     },
@@ -48,7 +41,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T13:15:42.699551+00:00",
+  "fetched_at": "2026-04-20T03:17:55.597301+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -63,7 +56,6 @@
       "size": 386
     }
   ],
-  "metadata_refreshed_at": "2026-04-19T14:03:24.495571+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -81,17 +73,13 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "googlefonts/emoji-metadata",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "googlei18n/noto-emoji",
       "source_file": "README.md"
     }
   ],
   "terms": [
     {
+      "context_snippet": "Continuous Test + Deploy",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/ci.yml",
       "term": "Continuous Test + Deploy"

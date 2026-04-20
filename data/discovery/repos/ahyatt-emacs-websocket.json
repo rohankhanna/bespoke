@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-20T03:17:56.799409+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A websocket implementation in elisp, for emacs.",
+    "fork": false,
+    "full_name": "ahyatt/emacs-websocket",
+    "html_url": "https://github.com/ahyatt/emacs-websocket",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-03-01T01:57:46Z",
+    "stargazers_count": 348,
+    "topics": [],
+    "updated_at": "2026-03-11T02:55:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

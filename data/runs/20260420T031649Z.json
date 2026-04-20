@@ -1,0 +1,498 @@
+{
+  "batch_count": 4,
+  "budget_seconds": 180,
+  "concept_index_counts": {
+    "aliases": 2145,
+    "buckets": 15,
+    "observations_by_concept": 1887
+  },
+  "elapsed_seconds": 162.402,
+  "embedding_unit_count": 9760,
+  "explicit_repo_exists_degraded": false,
+  "explicit_repo_exists_fallbacks": [],
+  "generated_at": "2026-04-20T03:16:48.146869+00:00",
+  "processed_repositories": [
+    "vercel-labs/agent-skills",
+    "rubocop/rubocop",
+    "piebald-ai/piebald-issues",
+    "albumentations-team/albumentationsx",
+    "vega/altair",
+    "alteryx/featuretools",
+    "anthropics/anthropic-sdk-python",
+    "caronc/apprise",
+    "erezinman/loguru-config",
+    "qix-/better-exceptions",
+    "svaningelgem/logprise",
+    "dolthub/dolt",
+    "helm/community",
+    "standard/standard",
+    "danielrosehill/claude-agent-picker-pattern",
+    "danielrosehill/claude-agent-workspace-generator",
+    "danielrosehill/claude-app-optimiser",
+    "danielrosehill/claude-code-sysadmin-workspaces-index",
+    "danielrosehill/claude-file-organiser-super-slash",
+    "danielrosehill/subindices",
+    "googlefonts/emoji-metadata",
+    "purcell/envrc",
+    "ahyatt/emacs-websocket",
+    "sstephenson/bats",
+    "opencontainers/image-spec",
+    "containerd/containerd",
+    "containers/crun",
+    "docker-archive/windows-container-utility",
+    "docker/cli",
+    "jezweb/claude-skills",
+    "agent-sh/agent-core",
+    "agent-sh/repo-intel",
+    "agent-sh/sync-docs",
+    "blockprotocol/blockprotocol",
+    "hashintel/labs",
+    "google/protobuf.dart",
+    "protocolbuffers/protobuf-go",
+    "protocolbuffers/protobuf-javascript",
+    "cedar-policy/cedar-docs",
+    "cedar-policy/cedar-examples",
+    "rust-cli/env_logger",
+    "open-telemetry/opentelemetry-rust",
+    "tokio-rs/tracing",
+    "cohnen/mcp-google-ads",
+    "agricidaniel/banana-claude",
+    "agricidaniel/claude-blog",
+    "zubair-trabzada/ai-marketing-claude",
+    "hibiken/asynq",
+    "ethereum/devp2p",
+    "ethpandaops/ethereum-helm-charts",
+    "biocypher/biocypher",
+    "biocypher/project-template",
+    "biopragmatics/bioregistry",
+    "fatiando/pooch",
+    "1nickpappas/move-code-quality-skill",
+    "8144225309/superscalar-mcp",
+    "adiny/moodtrip-hotel-search",
+    "agamm/claude-code-owasp"
+  ],
+  "remaining_budget_seconds": 17.598,
+  "remaining_frontier": 436,
+  "repo_timing_summary": {
+    "average_seconds": 1.535,
+    "count": 66,
+    "max_seconds": 9.983,
+    "total_seconds": 101.294
+  },
+  "repo_timings": [
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.541,
+      "full_name": "glittercowboy/taches-cc-resources",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.634,
+      "full_name": "vercel-labs/agent-skills",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.517,
+      "full_name": "parruda/swarm",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.447,
+      "full_name": "rubocop/rubocop",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.144,
+      "full_name": "joshsymonds/cc-tools",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.397,
+      "full_name": "piebald-ai/piebald-issues",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.881,
+      "full_name": "albumentations-team/albumentationsx",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.301,
+      "full_name": "vega/altair",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.997,
+      "full_name": "alteryx/featuretools",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.225,
+      "full_name": "anthropics/anthropic-sdk-python",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.941,
+      "full_name": "caronc/apprise",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.442,
+      "full_name": "erezinman/loguru-config",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.628,
+      "full_name": "qix-/better-exceptions",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.87,
+      "full_name": "svaningelgem/logprise",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.665,
+      "full_name": "dolthub/dolt",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.957,
+      "full_name": "gastownhall/beads",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.385,
+      "full_name": "helm/community",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.054,
+      "full_name": "hluaguo/learn-faster-kit",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 5.294,
+      "full_name": "standard/standard",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.374,
+      "full_name": "danielrosehill/claude-agent-picker-pattern",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.779,
+      "full_name": "danielrosehill/claude-agent-workspace-generator",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.372,
+      "full_name": "danielrosehill/claude-app-optimiser",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.015,
+      "full_name": "danielrosehill/claude-code-sysadmin-workspaces-index",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.708,
+      "full_name": "danielrosehill/claude-file-organiser-super-slash",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 8.367,
+      "full_name": "danielrosehill/subindices",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.427,
+      "full_name": "googlefonts/emoji-metadata",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.187,
+      "full_name": "googlefonts/noto-emoji",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.784,
+      "full_name": "purcell/envrc",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.255,
+      "full_name": "ahyatt/emacs-websocket",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.459,
+      "full_name": "sstephenson/bats",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.616,
+      "full_name": "opencontainers/image-spec",
+      "graph_distance": 4
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.217,
+      "full_name": "containerd/containerd",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.196,
+      "full_name": "containers/crun",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.4,
+      "full_name": "docker-archive/windows-container-utility",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.057,
+      "full_name": "docker/cli",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.033,
+      "full_name": "eastlondoner/vibe-tools",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.693,
+      "full_name": "jezweb/claude-skills",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.083,
+      "full_name": "agent-sh/agent-core",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.873,
+      "full_name": "agent-sh/repo-intel",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.029,
+      "full_name": "agent-sh/sync-docs",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.634,
+      "full_name": "blockprotocol/blockprotocol",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.931,
+      "full_name": "hashintel/labs",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.327,
+      "full_name": "google/protobuf.dart",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.923,
+      "full_name": "protocolbuffers/protobuf-go",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.923,
+      "full_name": "protocolbuffers/protobuf-javascript",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.56,
+      "full_name": "cedar-policy/cedar-docs",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.882,
+      "full_name": "cedar-policy/cedar-examples",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.538,
+      "full_name": "rust-cli/env_logger",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.516,
+      "full_name": "open-telemetry/opentelemetry-rust",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.614,
+      "full_name": "tokio-rs/tracing",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.729,
+      "full_name": "cohnen/mcp-google-ads",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.731,
+      "full_name": "agricidaniel/banana-claude",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.784,
+      "full_name": "agricidaniel/claude-blog",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.585,
+      "full_name": "agricidaniel/banana-claude",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.563,
+      "full_name": "zubair-trabzada/ai-marketing-claude",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.976,
+      "full_name": "hibiken/asynq",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 3.71,
+      "full_name": "ethereum/devp2p",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.877,
+      "full_name": "ethpandaops/ethereum-helm-charts",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 2.191,
+      "full_name": "biocypher/biocypher",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.17,
+      "full_name": "biocypher/project-template",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 1.949,
+      "full_name": "biopragmatics/bioregistry",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 9.983,
+      "full_name": "fatiando/pooch",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.444,
+      "full_name": "1nickpappas/move-code-quality-skill",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.676,
+      "full_name": "8144225309/superscalar-mcp",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.43,
+      "full_name": "adiny/moodtrip-hotel-search",
+      "graph_distance": 5
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "elapsed_seconds": 0.404,
+      "full_name": "agamm/claude-code-owasp",
+      "graph_distance": 5
+    }
+  ],
+  "run_id": "20260420T031649Z",
+  "skipped_repositories": [
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "danielrosehill/claude-agent-workspace-model",
+      "reason": "repo_not_found"
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "danielrosehill/claude-document-this",
+      "reason": "repo_not_found"
+    }
+  ],
+  "slow_repo_threshold_seconds": 10.0,
+  "slow_repositories": [],
+  "stale_repo_pruned_count": 0,
+  "stale_repositories_pruned": [],
+  "stopped_due_to_budget": true
+}

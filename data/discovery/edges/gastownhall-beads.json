@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "gastownhall/beads",
-      "target": "dolthub/dolt",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "gastownhall/beads",
       "target": "steveyegge/beads",
       "target_type": "repository"
     },
@@ -295,6 +288,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-18T12:46:59.510459+00:00",
+  "generated_at": "2026-04-20T03:16:48.146869+00:00",
   "source_repo": "gastownhall/beads"
 }

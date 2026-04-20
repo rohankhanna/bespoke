@@ -55,6 +55,30 @@
       "source_repo": "iOfficeAI/AionUi",
       "status": "candidate-context",
       "text": "FROM node:20-slim AS builder WORKDIR /app # Install bun RUN npm install -g bun # Install all dependencies (including devDeps for build) COPY package.json bun.lock ./ COPY patches/ ./patches/ RUN bun install --ignore-scripts # Copy source COPY . . # Build renderer (no Electron ne\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "glittercowboy/taches-cc-resources",
+      "status": "candidate-context",
+      "text": "A collection of my favorite custom Claude Code resources to make life easier."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glittercowboy/taches-cc-resources",
+      "status": "candidate-context",
+      "text": "A growing collection of custom Claude Code resources built for real workflows."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jezweb/claude-skills",
+      "status": "candidate-context",
+      "text": "Skills for Claude Code CLI such as full stack dev Cloudflare, React, Tailwind v4, and AI integrations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jezweb/claude-skills",
+      "status": "candidate-context",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "iOfficeAI/AionUi",
       "status": "candidate",
       "text": "FROM node:20-slim AS builder WORKDIR /app # Install bun RUN npm install -g bun # Install all dependencies (including devDeps for build) COPY package.json bun.lock ./ COPY patches/ ./patches/ RUN bun install --ignore-scripts # Copy source COPY . . # Build renderer (no Electron ne\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glittercowboy/taches-cc-resources",
+      "status": "candidate",
+      "text": "A growing collection of custom Claude Code resources built for real workflows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jezweb/claude-skills",
+      "status": "candidate",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)"
     }
   ],
   "candidate_related_terms": [
@@ -166,11 +202,23 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "iOfficeAI/AionUi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "glittercowboy/taches-cc-resources"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "jezweb/claude-skills"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "lexical_providers": [
     "datamuse"
   ],

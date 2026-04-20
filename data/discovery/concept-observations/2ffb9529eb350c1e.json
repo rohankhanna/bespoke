@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Rust OpenTelemetry implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The Rust [OpenTelemetry](https://opentelemetry.io/) implementation."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The Rust [OpenTelemetry](https://opentelemetry.io/) implementation."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8593628,
+      "status": "candidate",
+      "text": "zalkin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8593627,
+      "status": "candidate",
+      "text": "zipf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8593626,
+      "status": "candidate",
+      "text": "slotkin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8593625,
+      "status": "candidate",
+      "text": "temkin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8593624,
+      "status": "candidate",
+      "text": "peskin"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "zipkin",
+      "sense_id": "zipkin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "zipkin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "zipkin",
+  "observation_id": "2ffb9529eb350c1e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-20T03:16:48.146869+00:00",
+  "observed_text": "zipkin",
+  "source_context_snippet": "The Rust [OpenTelemetry](https://opentelemetry.io/) implementation.",
+  "source_file": null,
+  "source_repo": "open-telemetry/opentelemetry-rust",
+  "source_repo_description": "The Rust OpenTelemetry implementation"
+}

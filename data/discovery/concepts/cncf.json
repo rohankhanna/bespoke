@@ -19,6 +19,30 @@
       "source_repo": "kubernetes/sig-release",
       "status": "candidate-context",
       "text": "The [charter] defines the scope and governance of the Release Special Interest Group."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm/community",
+      "status": "candidate-context",
+      "text": "Helm community content"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/community",
+      "status": "candidate-context",
+      "text": "Welcome to the Helm community!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containerd/containerd",
+      "status": "candidate-context",
+      "text": "An open and reliable container runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containerd/containerd",
+      "status": "candidate-context",
+      "text": "![containerd banner light mode](https://raw.githubusercontent.com/cncf/artwork/master/projects/containerd/horizontal/color/containerd-horizontal-color.png#gh-light-mode-only)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "kubernetes/sig-release",
       "status": "candidate",
       "text": "The [charter] defines the scope and governance of the Release Special Interest Group."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/community",
+      "status": "candidate",
+      "text": "Welcome to the Helm community!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containerd/containerd",
+      "status": "candidate",
+      "text": "![containerd banner light mode](https://raw.githubusercontent.com/cncf/artwork/master/projects/containerd/horizontal/color/containerd-horizontal-color.png#gh-light-mode-only)"
     }
   ],
   "candidate_related_terms": [
@@ -82,11 +118,23 @@
       "observed_at": "2026-04-18T18:48:44.679047+00:00",
       "source_file": null,
       "source_repo": "kubernetes/sig-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "helm/community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "containerd/containerd"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "lexical_providers": [
     "datamuse"
   ],

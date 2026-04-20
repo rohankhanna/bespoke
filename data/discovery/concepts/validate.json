@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Validate"
+    "Validate",
+    "validate"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "wshobson/agents",
       "status": "candidate-context",
       "text": "Validate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/cli",
+      "status": "candidate-context",
+      "text": "The Docker CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/cli",
+      "status": "candidate-context",
+      "text": "validate"
     }
   ],
   "candidate_glosses": [
@@ -27,10 +40,67 @@
       "source_repo": "wshobson/agents",
       "status": "candidate",
       "text": "Validate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/cli",
+      "status": "candidate",
+      "text": "validate"
     }
   ],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002083,
+      "status": "candidate",
+      "text": "corroborate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39992652,
+      "status": "candidate",
+      "text": "formalize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30002320,
+      "status": "candidate",
+      "text": "validation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30002312,
+      "status": "candidate",
+      "text": "verify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30002168,
+      "status": "candidate",
+      "text": "confirmation"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 44041,
+      "status": "candidate",
+      "text": "corroborate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5030,
+      "status": "candidate",
+      "text": "formalize"
+    }
+  ],
   "canonical_name": "Validate",
   "concept_id": "validate",
   "definition_status": "unresolved",
@@ -40,12 +110,20 @@
       "observed_at": "2026-04-18T13:50:38.061794+00:00",
       "source_file": ".github/workflows/validate.yml",
       "source_repo": "wshobson/agents"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "docker/cli"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

@@ -37,6 +37,18 @@
       "source_repo": "crytic/slither",
       "status": "candidate-context",
       "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "svaningelgem/logprise",
+      "status": "candidate-context",
+      "text": "Batch loguru logging and apprise notifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "svaningelgem/logprise",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
     }
   ],
   "candidate_glosses": [
@@ -49,6 +61,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "crytic/slither",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "svaningelgem/logprise",
       "status": "candidate",
       "text": "Publish to PyPI"
     }
@@ -130,11 +148,17 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "crytic/slither"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "svaningelgem/logprise"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "lexical_providers": [
     "datamuse"
   ],

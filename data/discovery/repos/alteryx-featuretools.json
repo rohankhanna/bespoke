@@ -1,0 +1,456 @@
+{
+  "components": [
+    {
+      "component": "ruzickap/action-my-broken-link-checker@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/broken_link_check.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yaml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_feedstock_pr.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_feedstock_pr.yaml"
+    },
+    {
+      "component": "alteryx/create-feedstock-meta-yaml@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_feedstock_pr.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_test.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_test.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest_dependency_checker.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest_dependency_checker.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest_dependency_checker.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_check.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_check.yaml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_check.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alteryx/featuretools",
+      "target": "alteryx/open_source_demos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_approve_dependency_PRs.yaml",
+      "source_repo": "alteryx/featuretools",
+      "target": "Auto Approve Dependency PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/broken_link_check.yaml",
+      "source_repo": "alteryx/featuretools",
+      "target": "ruzickap/action-my-broken-link-checker@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/broken_link_check.yaml",
+      "source_repo": "alteryx/featuretools",
+      "target": "Broken link check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yaml",
+      "source_repo": "alteryx/featuretools",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yaml",
+      "source_repo": "alteryx/featuretools",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yaml",
+      "source_repo": "alteryx/featuretools",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_docs.yaml",
+      "source_repo": "alteryx/featuretools",
+      "target": "Build Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_feedstock_pr.yaml",
+      "source_repo": "alteryx/featuretools",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_feedstock_pr.yaml",
+      "source_repo": "alteryx/featuretools",
+      "target": "alteryx/create-feedstock-meta-yaml@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create_feedstock_pr.yaml",
+      "source_repo": "alteryx/featuretools",
+      "target": "Create Feedstock PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_test.yaml",
+      "source_repo": "alteryx/featuretools",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install_test.yaml",
+      "source_repo": "alteryx/featuretools",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/install_test.yaml",
+      "source_repo": "alteryx/featuretools",
+      "target": "Install Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kickoff_evalml_unit_tests.yaml",
+      "source_repo": "alteryx/featuretools",
+      "target": "Kickoff EvalML Unit Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest_dependency_checker.yaml",
+      "source_repo": "alteryx/featuretools",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest_dependency_checker.yaml",
+      "source_repo": "alteryx/featuretools",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest_dependency_checker.yaml",
+      "source_repo": "alteryx/featuretools",
+      "target": "peter-evans/create-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/latest_dependency_checker.yaml",
+      "source_repo": "alteryx/featuretools",
+      "target": "Latest Dependency Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_check.yaml",
+      "source_repo": "alteryx/featuretools",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_check.yaml",
+      "source_repo": "alteryx/featuretools",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_check.yaml",
+      "source_repo": "alteryx/featuretools",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint_check.yaml",
+      "source_repo": "alteryx/featuretools",
+      "target": "Lint Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alteryx/featuretools",
+      "target": "automated-feature-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alteryx/featuretools",
+      "target": "automated-machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alteryx/featuretools",
+      "target": "automl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alteryx/featuretools",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alteryx/featuretools",
+      "target": "feature-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alteryx/featuretools",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alteryx/featuretools",
+      "target": "scikit-learn",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-20T03:17:09.670623+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11159
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4708
+    },
+    {
+      "path": ".github/workflows/auto_approve_dependency_PRs.yaml",
+      "size": 1545
+    },
+    {
+      "path": ".github/workflows/broken_link_check.yaml",
+      "size": 724
+    },
+    {
+      "path": ".github/workflows/build_docs.yaml",
+      "size": 1869
+    },
+    {
+      "path": ".github/workflows/create_feedstock_pr.yaml",
+      "size": 2360
+    },
+    {
+      "path": ".github/workflows/install_test.yaml",
+      "size": 1513
+    },
+    {
+      "path": ".github/workflows/kickoff_evalml_unit_tests.yaml",
+      "size": 444
+    },
+    {
+      "path": ".github/workflows/latest_dependency_checker.yaml",
+      "size": 1645
+    },
+    {
+      "path": ".github/workflows/lint_check.yaml",
+      "size": 1416
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An open source python library for automated feature engineering",
+    "fork": false,
+    "full_name": "alteryx/featuretools",
+    "html_url": "https://github.com/alteryx/featuretools",
+    "language": "Python",
+    "pushed_at": "2026-02-03T18:19:45Z",
+    "stargazers_count": 7629,
+    "topics": [
+      "automated-feature-engineering",
+      "automated-machine-learning",
+      "automl",
+      "data-science",
+      "feature-engineering",
+      "machine-learning",
+      "python",
+      "scikit-learn"
+    ],
+    "updated_at": "2026-04-18T03:38:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alteryx/open_source_demos",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Auto Approve Dependency PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_approve_dependency_PRs.yaml",
+      "term": "Auto Approve Dependency PRs"
+    },
+    {
+      "context_snippet": "Broken link check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/broken_link_check.yaml",
+      "term": "Broken link check"
+    },
+    {
+      "context_snippet": "Build Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_docs.yaml",
+      "term": "Build Docs"
+    },
+    {
+      "context_snippet": "Create Feedstock PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create_feedstock_pr.yaml",
+      "term": "Create Feedstock PR"
+    },
+    {
+      "context_snippet": "Install Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/install_test.yaml",
+      "term": "Install Test"
+    },
+    {
+      "context_snippet": "Kickoff EvalML Unit Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kickoff_evalml_unit_tests.yaml",
+      "term": "Kickoff EvalML Unit Tests"
+    },
+    {
+      "context_snippet": "Latest Dependency Checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/latest_dependency_checker.yaml",
+      "term": "Latest Dependency Checker"
+    },
+    {
+      "context_snippet": "Lint Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint_check.yaml",
+      "term": "Lint Check"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automated-feature-engineering"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automated-machine-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automl"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feature-engineering"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scikit-learn"
+    }
+  ]
+}

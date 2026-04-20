@@ -1,0 +1,157 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agamm/claude-code-owasp",
+      "target": "ai-security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agamm/claude-code-owasp",
+      "target": "appsec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agamm/claude-code-owasp",
+      "target": "asvs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agamm/claude-code-owasp",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agamm/claude-code-owasp",
+      "target": "claude-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agamm/claude-code-owasp",
+      "target": "owasp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agamm/claude-code-owasp",
+      "target": "secure-coding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agamm/claude-code-owasp",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agamm/claude-code-owasp",
+      "target": "vulnerability",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-20T03:19:29.596309+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3371
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Claude Code skill for OWASP security best practices (2025-2026). Includes Top 10:2025, ASVS 5.0, Agentic AI security, and 20+ language-specific security quirks.",
+    "fork": false,
+    "full_name": "agamm/claude-code-owasp",
+    "html_url": "https://github.com/agamm/claude-code-owasp",
+    "language": null,
+    "pushed_at": "2026-04-05T02:59:02Z",
+    "stargazers_count": 136,
+    "topics": [
+      "ai-security",
+      "appsec",
+      "asvs",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "owasp",
+      "secure-coding",
+      "security",
+      "vulnerability"
+    ],
+    "updated_at": "2026-04-20T00:56:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A Claude Code skill providing the latest OWASP security best practices (2025-2026) for developers building secure applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-security"
+    },
+    {
+      "context_snippet": "A Claude Code skill providing the latest OWASP security best practices (2025-2026) for developers building secure applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "appsec"
+    },
+    {
+      "context_snippet": "A Claude Code skill providing the latest OWASP security best practices (2025-2026) for developers building secure applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asvs"
+    },
+    {
+      "context_snippet": "A Claude Code skill providing the latest OWASP security best practices (2025-2026) for developers building secure applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "A Claude Code skill providing the latest OWASP security best practices (2025-2026) for developers building secure applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-skills"
+    },
+    {
+      "context_snippet": "A Claude Code skill providing the latest OWASP security best practices (2025-2026) for developers building secure applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "owasp"
+    },
+    {
+      "context_snippet": "A Claude Code skill providing the latest OWASP security best practices (2025-2026) for developers building secure applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "secure-coding"
+    },
+    {
+      "context_snippet": "A Claude Code skill providing the latest OWASP security best practices (2025-2026) for developers building secure applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "A Claude Code skill providing the latest OWASP security best practices (2025-2026) for developers building secure applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulnerability"
+    }
+  ]
+}

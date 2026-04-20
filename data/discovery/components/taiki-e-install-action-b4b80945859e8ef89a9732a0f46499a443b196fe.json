@@ -1,0 +1,12 @@
+{
+  "component": "taiki-e/install-action@b4b80945859e8ef89a9732a0f46499a443b196fe",
+  "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "hashintel/labs"
+    }
+  ]
+}

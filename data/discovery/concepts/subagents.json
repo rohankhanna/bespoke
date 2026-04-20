@@ -19,6 +19,18 @@
       "source_repo": "wshobson/agents",
       "status": "candidate-context",
       "text": "> **\u26a1 Updated for Opus 4.7, Sonnet 4.6 & Haiku 4.5** \u2014 Three-tier model strategy for optimal performance"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "glittercowboy/taches-cc-resources",
+      "status": "candidate-context",
+      "text": "A collection of my favorite custom Claude Code resources to make life easier."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glittercowboy/taches-cc-resources",
+      "status": "candidate-context",
+      "text": "A growing collection of custom Claude Code resources built for real workflows."
     }
   ],
   "candidate_glosses": [
@@ -27,9 +39,51 @@
       "source_repo": "wshobson/agents",
       "status": "candidate",
       "text": "> **\u26a1 Updated for Opus 4.7, Sonnet 4.6 & Haiku 4.5** \u2014 Three-tier model strategy for optimal performance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glittercowboy/taches-cc-resources",
+      "status": "candidate",
+      "text": "A growing collection of custom Claude Code resources built for real workflows."
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25000,
+      "status": "candidate",
+      "text": "agents"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "subemployment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "agent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "agency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "agencies"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "subagents",
   "concept_id": "subagents",
@@ -40,12 +94,20 @@
       "observed_at": "2026-04-18T13:50:38.061794+00:00",
       "source_file": null,
       "source_repo": "wshobson/agents"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "glittercowboy/taches-cc-resources"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

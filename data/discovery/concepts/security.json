@@ -49,6 +49,18 @@
       "source_repo": "onecli/onecli",
       "status": "candidate-context",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agamm/claude-code-owasp",
+      "status": "candidate-context",
+      "text": "Claude Code skill for OWASP security best practices (2025-2026). Includes Top 10:2025, ASVS 5.0, Agentic AI security, and 20+ language-specific security quirks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agamm/claude-code-owasp",
+      "status": "candidate-context",
+      "text": "A Claude Code skill providing the latest OWASP security best practices (2025-2026) for developers building secure applications."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "onecli/onecli",
       "status": "candidate",
       "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agamm/claude-code-owasp",
+      "status": "candidate",
+      "text": "A Claude Code skill providing the latest OWASP security best practices (2025-2026) for developers building secure applications."
     }
   ],
   "candidate_related_terms": [
@@ -166,11 +184,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": null,
       "source_repo": "onecli/onecli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "agamm/claude-code-owasp"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "lexical_providers": [
     "datamuse"
   ],

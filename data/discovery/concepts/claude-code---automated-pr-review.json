@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Claude Code - Automated PR Review"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/agent-core",
+      "status": "candidate-context",
+      "text": "Shared core libraries for agent-sh plugins \u2014 synced to all repos on merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/agent-core",
+      "status": "candidate-context",
+      "text": "Claude Code - Automated PR Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/sync-docs",
+      "status": "candidate-context",
+      "text": "Sync documentation with code changes. Find outdated refs, update CHANGELOG, flag stale examples."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/sync-docs",
+      "status": "candidate-context",
+      "text": "Claude Code - Automated PR Review"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/agent-core",
+      "status": "candidate",
+      "text": "Claude Code - Automated PR Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/sync-docs",
+      "status": "candidate",
+      "text": "Claude Code - Automated PR Review"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20759,
+      "status": "candidate",
+      "text": "mechanism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20752,
+      "status": "candidate",
+      "text": "bot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20739,
+      "status": "candidate",
+      "text": "atm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20649,
+      "status": "candidate",
+      "text": "automatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20072,
+      "status": "candidate",
+      "text": "aaa"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Claude Code - Automated PR Review",
+  "concept_id": "claude-code---automated-pr-review",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "agent-sh/agent-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "agent-sh/sync-docs"
+    }
+  ],
+  "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Claude Code - Automated PR Review",
+      "sense_id": "claude-code---automated-pr-review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

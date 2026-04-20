@@ -67,6 +67,30 @@
       "source_repo": "isaacphi/mcp-language-server",
       "status": "candidate-context",
       "text": "[![Go Tests](https://github.com/isaacphi/mcp-language-server/actions/workflows/go.yml/badge.svg)](https://github.com/isaacphi/mcp-language-server/actions/workflows/go.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cohnen/mcp-google-ads",
+      "status": "candidate-context",
+      "text": "An MCP tool that connects Google Ads with Claude AI/Cursor and others, allowing you to analyze your advertising data through natural language conversations. This integration gives you access to campaign information, performance metrics, keyword analytics, and ad management\u2014all through simple chat with Claude, Cursor or Windsurf."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cohnen/mcp-google-ads",
+      "status": "candidate-context",
+      "text": "[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/cohnen-mcp-google-ads-badge.png)](https://mseep.ai/app/cohnen-mcp-google-ads)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "8144225309/superscalar-mcp",
+      "status": "candidate-context",
+      "text": "MCP server for SuperScalar \u2014 Bitcoin Lightning channel factories. Query protocol specs, estimate UTXO savings, and explore factory architectures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "8144225309/superscalar-mcp",
+      "status": "candidate-context",
+      "text": "MCP server for [SuperScalar](https://github.com/8144225309/SuperScalar) \u2014 Bitcoin Lightning channel factories that onboard N users in one shared UTXO. No soft fork required."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "isaacphi/mcp-language-server",
       "status": "candidate",
       "text": "[![Go Tests](https://github.com/isaacphi/mcp-language-server/actions/workflows/go.yml/badge.svg)](https://github.com/isaacphi/mcp-language-server/actions/workflows/go.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cohnen/mcp-google-ads",
+      "status": "candidate",
+      "text": "[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/cohnen-mcp-google-ads-badge.png)](https://mseep.ai/app/cohnen-mcp-google-ads)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "8144225309/superscalar-mcp",
+      "status": "candidate",
+      "text": "MCP server for [SuperScalar](https://github.com/8144225309/SuperScalar) \u2014 Bitcoin Lightning channel factories that onboard N users in one shared UTXO. No soft fork required."
     }
   ],
   "candidate_related_terms": [],
@@ -166,11 +202,23 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "isaacphi/mcp-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "cohnen/mcp-google-ads"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "8144225309/superscalar-mcp"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "lexical_providers": [
     "datamuse"
   ],

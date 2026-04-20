@@ -7,7 +7,8 @@
   "buckets": [
     "tool-component",
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -33,6 +34,30 @@
       "source_repo": "embeddings-benchmark/mteb",
       "status": "candidate-context",
       "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/sync-docs",
+      "status": "candidate-context",
+      "text": "Sync documentation with code changes. Find outdated refs, update CHANGELOG, flag stale examples."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/sync-docs",
+      "status": "candidate-context",
+      "text": "Detect outdated documentation by comparing docs against actual code state - broken references, version mismatches, stale examples, and missing CHANGELOG entries."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fatiando/pooch",
+      "status": "candidate-context",
+      "text": "A friend to fetch your data files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fatiando/pooch",
+      "status": "candidate-context",
+      "text": "documentation"
     }
   ],
   "candidate_glosses": [
@@ -47,6 +72,18 @@
       "source_repo": "embeddings-benchmark/mteb",
       "status": "candidate",
       "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/sync-docs",
+      "status": "candidate",
+      "text": "Detect outdated documentation by comparing docs against actual code state - broken references, version mismatches, stale examples, and missing CHANGELOG entries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fatiando/pooch",
+      "status": "candidate",
+      "text": "documentation"
     }
   ],
   "candidate_related_terms": [
@@ -137,11 +174,23 @@
       "observed_at": "2026-04-18T18:30:26.389736+00:00",
       "source_file": ".github/workflows/documentation.yml",
       "source_repo": "embeddings-benchmark/mteb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "agent-sh/sync-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "fatiando/pooch"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "lexical_providers": [
     "datamuse"
   ],

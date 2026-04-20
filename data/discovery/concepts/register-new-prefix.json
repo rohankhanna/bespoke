@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Register new prefix"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "biopragmatics/bioregistry",
+      "status": "candidate-context",
+      "text": "\ud83d\udcee An integrative registry of biological databases, ontologies, and nomenclatures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "biopragmatics/bioregistry",
+      "status": "candidate-context",
+      "text": "\"Register new prefix\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "biopragmatics/bioregistry",
+      "status": "candidate",
+      "text": "\"Register new prefix\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29536,
+      "status": "candidate",
+      "text": "neo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26867,
+      "status": "candidate",
+      "text": "denounce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26867,
+      "status": "candidate",
+      "text": "denouncing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26867,
+      "status": "candidate",
+      "text": "tax"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26669,
+      "status": "candidate",
+      "text": "taxed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Register new prefix",
+  "concept_id": "register-new-prefix",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": ".github/workflows/new_prefix_pr.yml",
+      "source_repo": "biopragmatics/bioregistry"
+    }
+  ],
+  "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Register new prefix",
+      "sense_id": "register-new-prefix#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

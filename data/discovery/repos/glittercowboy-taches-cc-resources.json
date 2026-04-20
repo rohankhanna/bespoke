@@ -2,56 +2,55 @@
   "components": [],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "edge_type": "repo-topic",
+      "source_file": null,
       "source_repo": "glittercowboy/taches-cc-resources",
-      "target": "stephenschoettler/taches-oc-prompts",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "glittercowboy/taches-cc-resources",
-      "target": "Commands install globally to",
+      "target": "anthropic",
       "target_type": "term"
     },
     {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
+      "edge_type": "repo-topic",
+      "source_file": null,
       "source_repo": "glittercowboy/taches-cc-resources",
-      "target": "@whats-next.md",
+      "target": "claudecode",
       "target_type": "term"
     },
     {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
+      "edge_type": "repo-topic",
+      "source_file": null,
       "source_repo": "glittercowboy/taches-cc-resources",
-      "target": "skill-auditor",
+      "target": "commands",
       "target_type": "term"
     },
     {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
+      "edge_type": "repo-topic",
+      "source_file": null,
       "source_repo": "glittercowboy/taches-cc-resources",
-      "target": "slash-command-auditor",
+      "target": "prompts",
       "target_type": "term"
     },
     {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
+      "edge_type": "repo-topic",
+      "source_file": null,
       "source_repo": "glittercowboy/taches-cc-resources",
-      "target": "subagent-auditor",
+      "target": "skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "glittercowboy/taches-cc-resources",
+      "target": "subagents",
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T09:22:47.568417+00:00",
+  "fetched_at": "2026-04-20T03:16:49.756646+00:00",
   "fetched_files": [
     {
       "path": "README.md",
       "size": 12338
     }
   ],
-  "metadata_refreshed_at": "2026-04-19T14:02:26.998653+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -62,7 +61,7 @@
     "html_url": "https://github.com/glittercowboy/taches-cc-resources",
     "language": "TypeScript",
     "pushed_at": "2026-04-01T15:10:58Z",
-    "stargazers_count": 1813,
+    "stargazers_count": 1815,
     "topics": [
       "anthropic",
       "claude",
@@ -72,40 +71,45 @@
       "skills",
       "subagents"
     ],
-    "updated_at": "2026-04-19T06:32:56Z"
+    "updated_at": "2026-04-20T00:44:58Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "stephenschoettler/taches-oc-prompts",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "Commands install globally to"
+      "context_snippet": "A growing collection of custom Claude Code resources built for real workflows.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anthropic"
     },
     {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "@whats-next.md"
+      "context_snippet": "A growing collection of custom Claude Code resources built for real workflows.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claudecode"
     },
     {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "skill-auditor"
+      "context_snippet": "A growing collection of custom Claude Code resources built for real workflows.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "commands"
     },
     {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "slash-command-auditor"
+      "context_snippet": "A growing collection of custom Claude Code resources built for real workflows.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompts"
     },
     {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "term": "subagent-auditor"
+      "context_snippet": "A growing collection of custom Claude Code resources built for real workflows.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "skills"
+    },
+    {
+      "context_snippet": "A growing collection of custom Claude Code resources built for real workflows.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "subagents"
     }
   ]
 }

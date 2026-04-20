@@ -9,11 +9,58 @@
       "source_kind": "repo-description",
       "status": "context-only",
       "text": "AI-powered learning coach with spaced repetition with Claude Code - master any knowledge faster with personalized syllabi and progress tracking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Python Version](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)"
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Python Version](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)"
+    }
+  ],
   "candidate_primary_bucket": "tool-component",
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39933974,
+      "status": "candidate",
+      "text": "instruction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39929614,
+      "status": "candidate",
+      "text": "training"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39927552,
+      "status": "candidate",
+      "text": "pedagogy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39904786,
+      "status": "candidate",
+      "text": "teaching"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39711385,
+      "status": "candidate",
+      "text": "breeding"
+    }
+  ],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -25,19 +72,57 @@
       "status": "candidate"
     }
   ],
-  "candidate_synonyms": [],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27036,
+      "status": "candidate",
+      "text": "pedagogy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9039,
+      "status": "candidate",
+      "text": "teaching"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8045,
+      "status": "candidate",
+      "text": "instruction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7045,
+      "status": "candidate",
+      "text": "training"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "education department"
+    }
+  ],
   "concept_id": "education",
   "definition_status": "unresolved",
   "discovered_via": "repo-topic",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "education",
   "observation_id": "b5921ea94e9bf58a",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-18T13:15:13.756138+00:00",
+  "observed_at": "2026-04-20T03:16:48.146869+00:00",
   "observed_text": "education",
-  "source_context_snippet": null,
+  "source_context_snippet": "[![Python Version](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)",
   "source_file": null,
   "source_repo": "hluaguo/learn-faster-kit",
   "source_repo_description": "AI-powered learning coach with spaced repetition with Claude Code - master any knowledge faster with personalized syllabi and progress tracking"

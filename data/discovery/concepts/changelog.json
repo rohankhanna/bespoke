@@ -6,7 +6,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -32,6 +34,18 @@
       "source_repo": "psf/black",
       "status": "candidate-context",
       "text": "changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/sync-docs",
+      "status": "candidate-context",
+      "text": "Sync documentation with code changes. Find outdated refs, update CHANGELOG, flag stale examples."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/sync-docs",
+      "status": "candidate-context",
+      "text": "Detect outdated documentation by comparing docs against actual code state - broken references, version mismatches, stale examples, and missing CHANGELOG entries."
     }
   ],
   "candidate_glosses": [
@@ -46,6 +60,12 @@
       "source_repo": "psf/black",
       "status": "candidate",
       "text": "changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/sync-docs",
+      "status": "candidate",
+      "text": "Detect outdated documentation by comparing docs against actual code state - broken references, version mismatches, stale examples, and missing CHANGELOG entries."
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +121,17 @@
       "observed_at": "2026-04-19T17:36:09.281008+00:00",
       "source_file": ".github/workflows/changelog.yml",
       "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "agent-sh/sync-docs"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "lexical_providers": [
     "datamuse"
   ],

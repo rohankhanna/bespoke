@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -117,6 +117,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docbuild.yml",
       "source_repo": "aws-samples/anthropic-on-aws"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_docs.yaml",
+      "source_repo": "alteryx/featuretools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/install_test.yaml",
+      "source_repo": "alteryx/featuretools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/latest_dependency_checker.yaml",
+      "source_repo": "alteryx/featuretools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint_check.yaml",
+      "source_repo": "alteryx/featuretools"
     }
   ]
 }

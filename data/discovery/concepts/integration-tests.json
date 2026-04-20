@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Integration Tests",
-    "integration-tests"
+    "integration-tests",
+    "integration tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -20,6 +21,18 @@
       "source_repo": "Layr-Labs/incredible-squaring-avs",
       "status": "candidate-context",
       "text": "integration-tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-rust",
+      "status": "candidate-context",
+      "text": "The Rust OpenTelemetry implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-rust",
+      "status": "candidate-context",
+      "text": "integration tests"
     }
   ],
   "candidate_glosses": [
@@ -28,9 +41,51 @@
       "source_repo": "Layr-Labs/incredible-squaring-avs",
       "status": "candidate",
       "text": "integration-tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-rust",
+      "status": "candidate",
+      "text": "integration tests"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27945,
+      "status": "candidate",
+      "text": "battleship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10599,
+      "status": "candidate",
+      "text": "amalgamation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10599,
+      "status": "candidate",
+      "text": "consideration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10599,
+      "status": "candidate",
+      "text": "downstream"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10599,
+      "status": "candidate",
+      "text": "fusion"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Integration Tests",
   "concept_id": "integration-tests",
@@ -47,11 +102,17 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": ".github/workflows/integration-tests.yml",
       "source_repo": "Layr-Labs/incredible-squaring-avs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "open-telemetry/opentelemetry-rust"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "lexical_providers": [
     "datamuse"
   ],

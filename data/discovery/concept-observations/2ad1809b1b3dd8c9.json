@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Next-generation Albumentations: dual-licensed for open-source and commercial use"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![PyPI version](https://badge.fury.io/py/albumentationsx.svg)](https://badge.fury.io/py/albumentationsx)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/albumentationsx.svg)](https://badge.fury.io/py/albumentationsx)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026875,
+      "status": "candidate",
+      "text": "enhancement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026287,
+      "status": "candidate",
+      "text": "increment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026256,
+      "status": "candidate",
+      "text": "increasing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026215,
+      "status": "candidate",
+      "text": "increase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30025895,
+      "status": "candidate",
+      "text": "enlargement"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "augmentation",
+      "sense_id": "augmentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "augmentation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "augmentation",
+  "observation_id": "2ad1809b1b3dd8c9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-20T03:16:48.146869+00:00",
+  "observed_text": "augmentation",
+  "source_context_snippet": "[![PyPI version](https://badge.fury.io/py/albumentationsx.svg)](https://badge.fury.io/py/albumentationsx)",
+  "source_file": null,
+  "source_repo": "albumentations-team/AlbumentationsX",
+  "source_repo_description": "Next-generation Albumentations: dual-licensed for open-source and commercial use"
+}

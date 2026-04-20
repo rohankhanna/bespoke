@@ -1,0 +1,379 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_mkdocs.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_mkdocs.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "googleapis/release-please-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_and_code_quality.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "biocypher/biocypher",
+      "target": "pre-commit/pre-commit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "biocypher/biocypher",
+      "target": "biopragmatics/bioregistry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "biocypher/biocypher",
+      "target": "biocypher/project-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "biocypher/biocypher",
+      "target": "fatiando/pooch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_mkdocs.yaml",
+      "source_repo": "biocypher/biocypher",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_mkdocs.yaml",
+      "source_repo": "biocypher/biocypher",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs_mkdocs.yaml",
+      "source_repo": "biocypher/biocypher",
+      "target": "CI Docs BioCypher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "biocypher/biocypher",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yaml",
+      "source_repo": "biocypher/biocypher",
+      "target": "googleapis/release-please-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yaml",
+      "source_repo": "biocypher/biocypher",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yaml",
+      "source_repo": "biocypher/biocypher",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yaml",
+      "source_repo": "biocypher/biocypher",
+      "target": "Release Please",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_and_code_quality.yaml",
+      "source_repo": "biocypher/biocypher",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests_and_code_quality.yaml",
+      "source_repo": "biocypher/biocypher",
+      "target": "Tests and code quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "biocypher/biocypher",
+      "target": "ai-ready",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "biocypher/biocypher",
+      "target": "biochatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "biocypher/biocypher",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "biocypher/biocypher",
+      "target": "biomedical",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "biocypher/biocypher",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "biocypher/biocypher",
+      "target": "knowledge-graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "biocypher/biocypher",
+      "target": "neo4j",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "biocypher/biocypher",
+      "target": "ontology",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "biocypher/biocypher",
+      "target": "postgresql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "biocypher/biocypher",
+      "target": "rdfs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "biocypher/biocypher",
+      "target": "retrieval-augmented-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-20T03:19:07.659588+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9354
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2809
+    },
+    {
+      "path": ".github/workflows/docs_mkdocs.yaml",
+      "size": 2001
+    },
+    {
+      "path": ".github/workflows/pr.yaml",
+      "size": 1616
+    },
+    {
+      "path": ".github/workflows/release-please.yaml",
+      "size": 2224
+    },
+    {
+      "path": ".github/workflows/tests_and_code_quality.yaml",
+      "size": 1433
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A unifying framework for biomedical research knowledge graphs",
+    "fork": false,
+    "full_name": "biocypher/biocypher",
+    "html_url": "https://github.com/biocypher/biocypher",
+    "language": "Python",
+    "pushed_at": "2026-04-03T18:03:42Z",
+    "stargazers_count": 299,
+    "topics": [
+      "ai-ready",
+      "biochatter",
+      "bioinformatics",
+      "biomedical",
+      "framework",
+      "knowledge-graph",
+      "neo4j",
+      "ontology",
+      "postgresql",
+      "rdf",
+      "rdfs",
+      "retrieval-augmented-generation",
+      "sql"
+    ],
+    "updated_at": "2026-04-17T10:05:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "biocypher/project-template",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "biopragmatics/bioregistry",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fatiando/pooch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pre-commit/pre-commit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI Docs BioCypher",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs_mkdocs.yaml",
+      "term": "CI Docs BioCypher"
+    },
+    {
+      "context_snippet": "Release Please",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yaml",
+      "term": "Release Please"
+    },
+    {
+      "context_snippet": "Tests and code quality",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests_and_code_quality.yaml",
+      "term": "Tests and code quality"
+    },
+    {
+      "context_snippet": "| | | | |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-ready"
+    },
+    {
+      "context_snippet": "| | | | |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "biochatter"
+    },
+    {
+      "context_snippet": "| | | | |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    },
+    {
+      "context_snippet": "| | | | |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "biomedical"
+    },
+    {
+      "context_snippet": "| | | | |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "| | | | |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge-graph"
+    },
+    {
+      "context_snippet": "| | | | |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neo4j"
+    },
+    {
+      "context_snippet": "| | | | |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ontology"
+    },
+    {
+      "context_snippet": "| | | | |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql"
+    },
+    {
+      "context_snippet": "| | | | |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rdfs"
+    },
+    {
+      "context_snippet": "| | | | |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "retrieval-augmented-generation"
+    }
+  ]
+}

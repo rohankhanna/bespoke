@@ -262,6 +262,114 @@
       "source_repo": "winfunc/opcode",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anthropics/anthropic-sdk-python",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gastownhall/beads",
+      "status": "candidate-context",
+      "text": "Beads - A memory upgrade for your coding agent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gastownhall/beads",
+      "status": "candidate-context",
+      "text": "**Distributed graph issue tracker for AI agents, powered by [Dolt](https://github.com/dolthub/dolt).**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hluaguo/learn-faster-kit",
+      "status": "candidate-context",
+      "text": "[![Python Version](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Claude-Agent-Picker-Pattern",
+      "status": "candidate-context",
+      "text": "Pattern/idea for the \"too many subagents\" problem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Agent-Picker-Pattern",
+      "status": "candidate-context",
+      "text": "![Concept](https://img.shields.io/badge/Type-Concept-blue)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jezweb/claude-skills",
+      "status": "candidate-context",
+      "text": "Skills for Claude Code CLI such as full stack dev Cloudflare, React, Tailwind v4, and AI integrations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jezweb/claude-skills",
+      "status": "candidate-context",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/agent-core",
+      "status": "candidate-context",
+      "text": "Shared core libraries for agent-sh plugins \u2014 synced to all repos on merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/agent-core",
+      "status": "candidate-context",
+      "text": "Shared core libraries for all agent-sh plugins. Changes here are automatically synced to consuming repos via CI-driven PRs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgriciDaniel/banana-claude",
+      "status": "candidate-context",
+      "text": "AI image generation skill for Claude Code -- Creative Director powered by Gemini"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgriciDaniel/banana-claude",
+      "status": "candidate-context",
+      "text": "<!-- Updated: 2026-03-19v2 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgriciDaniel/claude-blog",
+      "status": "candidate-context",
+      "text": "Claude Code skill ecosystem for blog content creation, optimization, and management. Dual-optimized for Google rankings and AI citations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgriciDaniel/claude-blog",
+      "status": "candidate-context",
+      "text": "![Claude Blog - AI-Powered Blog Creation](assets/header.jpeg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zubair-trabzada/ai-marketing-claude",
+      "status": "candidate-context",
+      "text": "AI Marketing Suite for Claude Code. 15 marketing skills with parallel subagents \u2014 audit any website, generate copy, email sequences, ad campaigns, content calendars, competitive intelligence, and client-ready PDF reports."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zubair-trabzada/ai-marketing-claude",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agamm/claude-code-owasp",
+      "status": "candidate-context",
+      "text": "Claude Code skill for OWASP security best practices (2025-2026). Includes Top 10:2025, ASVS 5.0, Agentic AI security, and 20+ language-specific security quirks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agamm/claude-code-owasp",
+      "status": "candidate-context",
+      "text": "A Claude Code skill providing the latest OWASP security best practices (2025-2026) for developers building secure applications."
     }
   ],
   "candidate_glosses": [
@@ -354,6 +462,66 @@
       "source_repo": "winfunc/opcode",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anthropics/anthropic-sdk-python",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gastownhall/beads",
+      "status": "candidate",
+      "text": "**Distributed graph issue tracker for AI agents, powered by [Dolt](https://github.com/dolthub/dolt).**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hluaguo/learn-faster-kit",
+      "status": "candidate",
+      "text": "[![Python Version](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Agent-Picker-Pattern",
+      "status": "candidate",
+      "text": "![Concept](https://img.shields.io/badge/Type-Concept-blue)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jezweb/claude-skills",
+      "status": "candidate",
+      "text": "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/agent-core",
+      "status": "candidate",
+      "text": "Shared core libraries for all agent-sh plugins. Changes here are automatically synced to consuming repos via CI-driven PRs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgriciDaniel/banana-claude",
+      "status": "candidate",
+      "text": "<!-- Updated: 2026-03-19v2 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgriciDaniel/claude-blog",
+      "status": "candidate",
+      "text": "![Claude Blog - AI-Powered Blog Creation](assets/header.jpeg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zubair-trabzada/ai-marketing-claude",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agamm/claude-code-owasp",
+      "status": "candidate",
+      "text": "A Claude Code skill providing the latest OWASP security best practices (2025-2026) for developers building secure applications."
     }
   ],
   "candidate_related_terms": [
@@ -709,11 +877,71 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "anthropics/anthropic-sdk-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "hluaguo/learn-faster-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Agent-Picker-Pattern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "jezweb/claude-skills"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "agent-sh/agent-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/banana-claude"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/claude-blog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "zubair-trabzada/ai-marketing-claude"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "agamm/claude-code-owasp"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "lexical_providers": [
     "datamuse"
   ],

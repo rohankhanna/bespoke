@@ -1,48 +1,48 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "edge_type": "repo-topic",
+      "source_file": null,
       "source_repo": "glittercowboy/taches-cc-resources",
-      "target": "stephenschoettler/taches-oc-prompts",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
-      "source_repo": "glittercowboy/taches-cc-resources",
-      "target": "Commands install globally to",
+      "target": "anthropic",
       "target_type": "term"
     },
     {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
+      "edge_type": "repo-topic",
+      "source_file": null,
       "source_repo": "glittercowboy/taches-cc-resources",
-      "target": "@whats-next.md",
+      "target": "claudecode",
       "target_type": "term"
     },
     {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
+      "edge_type": "repo-topic",
+      "source_file": null,
       "source_repo": "glittercowboy/taches-cc-resources",
-      "target": "skill-auditor",
+      "target": "commands",
       "target_type": "term"
     },
     {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
+      "edge_type": "repo-topic",
+      "source_file": null,
       "source_repo": "glittercowboy/taches-cc-resources",
-      "target": "slash-command-auditor",
+      "target": "prompts",
       "target_type": "term"
     },
     {
-      "edge_type": "inline-code",
-      "source_file": "README.md",
+      "edge_type": "repo-topic",
+      "source_file": null,
       "source_repo": "glittercowboy/taches-cc-resources",
-      "target": "subagent-auditor",
+      "target": "skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "glittercowboy/taches-cc-resources",
+      "target": "subagents",
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-18T09:22:19.136418+00:00",
+  "generated_at": "2026-04-20T03:16:48.146869+00:00",
   "source_repo": "glittercowboy/taches-cc-resources"
 }

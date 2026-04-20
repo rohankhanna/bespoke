@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Agent-Picker-Pattern",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Agent-Picker-Pattern",
+      "target": "ideas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Agent-Picker-Pattern",
+      "target": "planning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-20T03:17:40.807996+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9457
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Pattern/idea for the \"too many subagents\" problem",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Agent-Picker-Pattern",
+    "html_url": "https://github.com/danielrosehill/Claude-Agent-Picker-Pattern",
+    "language": null,
+    "pushed_at": "2025-10-31T15:22:40Z",
+    "stargazers_count": 4,
+    "topics": [
+      "claude-code",
+      "ideas",
+      "planning"
+    ],
+    "updated_at": "2026-02-23T05:14:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![Concept](https://img.shields.io/badge/Type-Concept-blue)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "![Concept](https://img.shields.io/badge/Type-Concept-blue)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ideas"
+    },
+    {
+      "context_snippet": "![Concept](https://img.shields.io/badge/Type-Concept-blue)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "planning"
+    }
+  ]
+}

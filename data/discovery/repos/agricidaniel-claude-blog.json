@@ -1,0 +1,149 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "AgriciDaniel/claude-blog",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "AgriciDaniel/claude-blog",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/claude-blog",
+      "target": "ai-content",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/claude-blog",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/claude-blog",
+      "target": "claude-code-skill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/claude-blog",
+      "target": "content-creation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/claude-blog",
+      "target": "open-source",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-20T03:18:52.239519+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12496
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 820
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1188
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3111
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Claude Code skill ecosystem for blog content creation, optimization, and management. Dual-optimized for Google rankings and AI citations.",
+    "fork": false,
+    "full_name": "AgriciDaniel/claude-blog",
+    "html_url": "https://github.com/AgriciDaniel/claude-blog",
+    "language": "Python",
+    "pushed_at": "2026-04-13T22:19:10Z",
+    "stargazers_count": 519,
+    "topics": [
+      "ai",
+      "ai-content",
+      "claude-code",
+      "claude-code-skill",
+      "content-creation",
+      "open-source",
+      "seo"
+    ],
+    "updated_at": "2026-04-19T20:52:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![Claude Blog - AI-Powered Blog Creation](assets/header.jpeg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-content"
+    },
+    {
+      "context_snippet": "![Claude Blog - AI-Powered Blog Creation](assets/header.jpeg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "![Claude Blog - AI-Powered Blog Creation](assets/header.jpeg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code-skill"
+    },
+    {
+      "context_snippet": "![Claude Blog - AI-Powered Blog Creation](assets/header.jpeg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "content-creation"
+    },
+    {
+      "context_snippet": "![Claude Blog - AI-Powered Blog Creation](assets/header.jpeg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Shared core libraries for agent-sh plugins \u2014 synced to all repos on merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Shared core libraries for all agent-sh plugins. Changes here are automatically synced to consuming repos via CI-driven PRs."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Shared core libraries for all agent-sh plugins. Changes here are automatically synced to consuming repos via CI-driven PRs."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "shared-library",
+      "sense_id": "shared-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "shared-library",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "shared-library",
+  "observation_id": "96884fba6944c630",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-20T03:16:48.146869+00:00",
+  "observed_text": "shared-library",
+  "source_context_snippet": "Shared core libraries for all agent-sh plugins. Changes here are automatically synced to consuming repos via CI-driven PRs.",
+  "source_file": null,
+  "source_repo": "agent-sh/agent-core",
+  "source_repo_description": "Shared core libraries for agent-sh plugins \u2014 synced to all repos on merge"
+}

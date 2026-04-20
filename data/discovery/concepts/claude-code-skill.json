@@ -55,6 +55,30 @@
       "source_repo": "mksglu/context-mode",
       "status": "candidate-context",
       "text": "**The other half of the context problem.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgriciDaniel/banana-claude",
+      "status": "candidate-context",
+      "text": "AI image generation skill for Claude Code -- Creative Director powered by Gemini"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgriciDaniel/banana-claude",
+      "status": "candidate-context",
+      "text": "<!-- Updated: 2026-03-19v2 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgriciDaniel/claude-blog",
+      "status": "candidate-context",
+      "text": "Claude Code skill ecosystem for blog content creation, optimization, and management. Dual-optimized for Google rankings and AI citations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgriciDaniel/claude-blog",
+      "status": "candidate-context",
+      "text": "![Claude Blog - AI-Powered Blog Creation](assets/header.jpeg)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "mksglu/context-mode",
       "status": "candidate",
       "text": "**The other half of the context problem.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgriciDaniel/banana-claude",
+      "status": "candidate",
+      "text": "<!-- Updated: 2026-03-19v2 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgriciDaniel/claude-blog",
+      "status": "candidate",
+      "text": "![Claude Blog - AI-Powered Blog Creation](assets/header.jpeg)"
     }
   ],
   "candidate_related_terms": [],
@@ -94,11 +130,23 @@
       "observed_at": "2026-04-19T17:36:09.281008+00:00",
       "source_file": null,
       "source_repo": "mksglu/context-mode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/banana-claude"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "AgriciDaniel/claude-blog"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -43,6 +43,18 @@
       "source_repo": "automazeio/vibeproxy",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "glittercowboy/taches-cc-resources",
+      "status": "candidate-context",
+      "text": "A collection of my favorite custom Claude Code resources to make life easier."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glittercowboy/taches-cc-resources",
+      "status": "candidate-context",
+      "text": "A growing collection of custom Claude Code resources built for real workflows."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "automazeio/vibeproxy",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glittercowboy/taches-cc-resources",
+      "status": "candidate",
+      "text": "A growing collection of custom Claude Code resources built for real workflows."
     }
   ],
   "candidate_related_terms": [],
@@ -94,11 +112,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": null,
       "source_repo": "automazeio/vibeproxy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-20T03:16:48.146869+00:00",
+      "source_file": null,
+      "source_repo": "glittercowboy/taches-cc-resources"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "lexical_providers": [
     "datamuse"
   ],
