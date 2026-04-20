@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 182,
-    "concepts": 117,
-    "observations": 117,
-    "repos": 10,
-    "terms": 117
+    "components": 259,
+    "concepts": 163,
+    "observations": 163,
+    "repos": 15,
+    "terms": 168
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,22 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
+    "BoundaryML/baml",
     "cargo-bins/cargo-binstall",
     "cedar-policy/cedar",
     "crate-ci/typos",
     "eventual-inc/daft",
     "johnnymorganz/stylua",
     "libp2p/rust-libp2p",
+    "mikeyobrien/ralph-orchestrator",
     "napi-rs/napi-rs",
     "napi-rs/node-rs",
     "nvidia/openshell",
-    "ruvnet/ruvector"
+    "open-telemetry/opentelemetry-rust",
+    "rust-cli/env_logger",
+    "ruvnet/ruvector",
+    "tokio-rs/tracing"
   ]
 }

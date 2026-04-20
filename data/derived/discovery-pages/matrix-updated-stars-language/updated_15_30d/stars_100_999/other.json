@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2,
-    "concepts": 1,
-    "observations": 1,
-    "repos": 1,
-    "terms": 1
+    "components": 9,
+    "concepts": 5,
+    "observations": 5,
+    "repos": 3,
+    "terms": 5
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
-    "aws/homebrew-tap"
+    "aws/homebrew-tap",
+    "google/protobuf.dart",
+    "purcell/envrc"
   ]
 }

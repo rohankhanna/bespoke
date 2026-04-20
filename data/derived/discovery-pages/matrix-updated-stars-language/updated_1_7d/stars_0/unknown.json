@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 0,
+    "components": 3,
     "concepts": 0,
     "observations": 0,
-    "repos": 2,
-    "terms": 0
+    "repos": 5,
+    "terms": 3
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "damacol/ai-hub",
-    "damacol/gemma-4-collection"
+    "damacol/gemma-4-collection",
+    "damacol/hauhaucs-gemma-4-e2b-uncensored-hauhaucs-aggressive",
+    "damacol/hauhaucs-gemma-4-e4b-uncensored-hauhaucs-aggressive",
+    "damacol/xai-org-grok-2"
   ]
 }

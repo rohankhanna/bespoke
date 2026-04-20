@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 124,
-    "concepts": 44,
-    "observations": 44,
-    "repos": 13,
-    "terms": 81
+    "components": 134,
+    "concepts": 60,
+    "observations": 60,
+    "repos": 17,
+    "terms": 97
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "automazeio/ccpm",
     "blader/claudeception",
@@ -19,12 +19,16 @@
     "coaidev/coai",
     "dagger/container-use",
     "haleclipse/ccometixline",
+    "isaacphi/mcp-language-server",
     "jpanther/congo",
     "lobehub/lobe-chat-agents",
+    "opencontainers/image-spec",
     "orogene/orogene",
+    "qix-/better-exceptions",
     "shareai-lab/claw0",
     "snarktank/antfarm",
     "steipete/imsg",
-    "stravu/crystal"
+    "stravu/crystal",
+    "zubair-trabzada/ai-marketing-claude"
   ]
 }

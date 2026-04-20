@@ -1,28 +1,27 @@
 {
   "counts": {
-    "components": 192,
-    "concepts": 26,
-    "observations": 26,
-    "repos": 33,
-    "terms": 57
+    "components": 165,
+    "concepts": 30,
+    "observations": 30,
+    "repos": 30,
+    "terms": 52
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "abraxas-365/claudio",
     "anojndr/grok-to-openai",
     "caesar0301/soothe",
     "cafitac/hermit-agent",
-    "cjtruheart/abundance-codex",
     "cyber404/che-apple-mail-mcp",
+    "danielrosehill/Subindices",
     "eikarna/hermes-rs",
     "enxs969/skiller",
     "erikceballos/nano-banana-cli",
-    "etanhey/brainlayer",
     "floxym/financial-chat",
     "floxym/financial-chat-finance-nlp-chatbots",
     "frank-syncmarket/skills",
@@ -36,15 +35,13 @@
     "kmjjjj/polymarket-arbitrage-bot-btc-sol-15m",
     "lonewolf-jp/convopeq",
     "momentique/source-code-security-audit-reviewer",
-    "neuroverseos/neuroverseos-governance",
     "penpoen/llm-sugarscape",
+    "piqrypt/aiss-standard",
     "rrsaldanha/burp-mcp-agents",
     "saminiscool/twitter-ai-agent",
     "serpro69/capy",
-    "seunghunbae-3svs/solo-cto-agent",
     "stealabra5019/grok-enhancer",
     "tarikmanoar/tarikmanoar",
-    "verkyyi/tokenman",
-    "vincent-k2026/codachi"
+    "verkyyi/tokenman"
   ]
 }

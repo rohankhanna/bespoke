@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 42,
-    "concepts": 34,
-    "observations": 34,
-    "repos": 5,
-    "terms": 47
+    "components": 33,
+    "concepts": 26,
+    "observations": 26,
+    "repos": 4,
+    "terms": 30
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
-    "arogozhnikov/einops",
-    "basicmachines-co/basic-memory",
+    "anthropics/anthropic-sdk-python",
     "embeddings-benchmark/mteb",
     "nesquena/hermes-webui",
     "pchalasani/claude-code-tools"

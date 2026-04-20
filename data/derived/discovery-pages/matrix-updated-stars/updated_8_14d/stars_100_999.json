@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 38,
-    "concepts": 12,
-    "observations": 12,
+    "components": 15,
+    "concepts": 25,
+    "observations": 25,
     "repos": 12,
-    "terms": 32
+    "terms": 34
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "adoptium/adoptium",
     "alchaincyf/elon-musk-skill",
@@ -19,8 +19,8 @@
     "alchaincyf/munger-skill",
     "alchaincyf/naval-skill",
     "alchaincyf/steve-jobs-skill",
-    "broderick-westrope/tetrigo",
-    "comme2e/comm",
+    "astro-han/karpathy-llm-wiki",
+    "ethpandaops/ethereum-helm-charts",
     "gowaylee/cchooks",
     "muratcankoylan/ralph-wiggum-marketer",
     "paretosecurity/pareto-mac",

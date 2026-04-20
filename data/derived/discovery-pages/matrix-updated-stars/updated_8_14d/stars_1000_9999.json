@@ -1,23 +1,24 @@
 {
   "counts": {
-    "components": 188,
-    "concepts": 33,
-    "observations": 33,
-    "repos": 14,
-    "terms": 46
+    "components": 205,
+    "concepts": 47,
+    "observations": 47,
+    "repos": 15,
+    "terms": 60
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "asg017/sqlite-vec",
     "cisco-ai-defense/skill-scanner",
     "crossterm-rs/crossterm",
     "django/daphne",
     "getzep/zep",
+    "google-github-actions/run-gemini-cli",
     "linebender/resvg",
     "lobehub/lobe-icons",
     "luarocks/luarocks",

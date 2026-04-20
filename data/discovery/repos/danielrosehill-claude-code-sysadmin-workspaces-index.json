@@ -23,13 +23,14 @@
       "size": 5407
     }
   ],
+  "metadata_refreshed_at": "2026-04-20T05:27:54.800253+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "Index of Claude Code workspace templates for systems administration \u2014 servers, Proxmox, Docker, NAS, LAN management, and more",
     "fork": false,
-    "full_name": "danielrosehill/Claude-Code-Sysadmin-Workspaces-Index",
+    "full_name": "danielrosehill/claude-code-sysadmin-workspaces-index",
     "html_url": "https://github.com/danielrosehill/Claude-Code-Sysadmin-Workspaces-Index",
     "language": null,
     "pushed_at": "2026-03-25T16:18:31Z",

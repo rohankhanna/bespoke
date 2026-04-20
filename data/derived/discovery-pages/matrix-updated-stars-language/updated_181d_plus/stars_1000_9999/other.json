@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 10,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 4,
-    "terms": 1
+    "concepts": 2,
+    "observations": 2,
+    "repos": 5,
+    "terms": 3
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
+    "ahmetb/kubectl-aliases",
     "basujindal/stable-diffusion",
     "ddollar/foreman",
     "junegunn/vim-easy-align",

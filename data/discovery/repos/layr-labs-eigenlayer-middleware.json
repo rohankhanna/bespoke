@@ -218,13 +218,14 @@
       "size": 1126
     }
   ],
+  "metadata_refreshed_at": "2026-04-20T05:27:52.974790+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "dev",
     "description": null,
     "fork": false,
-    "full_name": "Layr-Labs/eigenlayer-middleware",
+    "full_name": "layr-labs/eigenlayer-middleware",
     "html_url": "https://github.com/Layr-Labs/eigenlayer-middleware",
     "language": "Solidity",
     "pushed_at": "2026-01-08T19:12:11Z",

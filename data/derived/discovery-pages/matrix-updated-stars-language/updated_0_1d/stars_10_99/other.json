@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 6,
-    "concepts": 2,
-    "observations": 2,
-    "repos": 4,
-    "terms": 7
+    "components": 4,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 2,
+    "terms": 4
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
-    "chaos2cured/freelattice",
     "ethpandaops/xatu-data",
-    "steipete/homebrew-tap",
     "thedoggybrad/easylist-mirror"
   ]
 }

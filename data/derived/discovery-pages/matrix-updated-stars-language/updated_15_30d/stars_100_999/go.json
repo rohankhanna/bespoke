@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 4,
+    "concepts": 7,
+    "observations": 7,
+    "repos": 1,
+    "terms": 7
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "go",
+    "star_bucket": "stars_100_999",
+    "updated_bucket": "updated_15_30d"
+  },
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
+  "repo_ids": [
+    "broderick-westrope/tetrigo"
+  ]
+}

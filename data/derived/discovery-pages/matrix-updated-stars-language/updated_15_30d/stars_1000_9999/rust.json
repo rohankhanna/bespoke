@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 12,
-    "concepts": 7,
-    "observations": 7,
-    "repos": 2,
-    "terms": 7
+    "components": 23,
+    "concepts": 10,
+    "observations": 11,
+    "repos": 4,
+    "terms": 10
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "dtolnay/anyhow",
-    "google/tarpc"
+    "dtolnay/thiserror",
+    "google/tarpc",
+    "gyscos/cursive"
   ]
 }

@@ -1,36 +1,31 @@
 {
   "counts": {
-    "components": 438,
-    "concepts": 59,
-    "observations": 59,
-    "repos": 20,
-    "terms": 123
+    "components": 276,
+    "concepts": 69,
+    "observations": 69,
+    "repos": 15,
+    "terms": 104
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
-    "alfredolopez80/multi-agent-ralph-loop",
+    "albumentations-team/AlbumentationsX",
     "alistaitsacle/free-llm-api-keys",
+    "biopragmatics/bioregistry",
     "cargo-bins/cargo-quickinstall",
+    "clearbluejar/pyghidra-mcp",
+    "daaain/claude-code-log",
     "danielrosehill/claude-code-projects-index",
     "elizaos/elizaos.github.io",
     "ericbuess/claude-code-docs",
     "grubersjoe/react-activity-calendar",
     "jsonbored/claudepro-directory",
-    "lobehub/lobe-chat-plugins",
-    "lobehub/lobe-editor",
-    "napi-rs/package-template",
-    "open-telemetry/opentelemetry-collector-releases",
+    "nodejs/admin",
     "serpro69/claude-toolbox",
-    "skenetechnologies/skene",
-    "stevemolitor/claude-code.el",
-    "stevemolitor/monet",
-    "tekumara/typos-lsp",
-    "tombii/better-ccflare",
     "tony1223/better-agent-terminal",
     "vibe-log/vibe-log-cli"
   ]

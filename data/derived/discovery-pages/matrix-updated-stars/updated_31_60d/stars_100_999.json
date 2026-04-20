@@ -1,30 +1,34 @@
 {
   "counts": {
-    "components": 251,
-    "concepts": 36,
-    "observations": 36,
-    "repos": 15,
-    "terms": 54
+    "components": 269,
+    "concepts": 72,
+    "observations": 72,
+    "repos": 19,
+    "terms": 90
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
+    "ahyatt/emacs-websocket",
     "alexei-led/aws-mcp-server",
     "aymenfurter/ralph",
     "claytonfarr/ralph-playbook",
     "cowboy8625/rusty-rain",
     "eckardt/cchistory",
     "flinedev/contextkit",
+    "helm/community",
     "kamranahmedse/claude-run",
     "lobehub/lobe-charts",
     "lobehub/lobe-tts",
     "lualanes/lanes",
     "peergos/nabu",
+    "Piebald-AI/gemini-cli-desktop",
+    "strands-agents/mcp-server",
     "sudocode-ai/sudocode",
     "unicode-rs/unicode-width",
     "withastro/compiler"

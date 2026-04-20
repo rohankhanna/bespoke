@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 51,
+    "components": 57,
     "concepts": 8,
     "observations": 8,
-    "repos": 5,
-    "terms": 14
+    "repos": 6,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
+    "cloudllm-ai/mentisdb",
     "hagan/claudia-statusline",
     "phiat/claude-esp-rs",
     "tianrking/weixin-agent-rs",

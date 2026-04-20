@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 10,
+    "components": 12,
     "concepts": 9,
     "observations": 9,
-    "repos": 1,
-    "terms": 9
+    "repos": 2,
+    "terms": 10
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
-    "google/j2cl"
+    "google/j2cl",
+    "peergos/peergos"
   ]
 }

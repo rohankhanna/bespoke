@@ -380,13 +380,14 @@
       "size": 649
     }
   ],
+  "metadata_refreshed_at": "2026-04-20T05:27:34.616391+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "dev",
     "description": "Basic repo demoing a simple AVS middleware with full eigenlayer integration",
     "fork": false,
-    "full_name": "Layr-Labs/incredible-squaring-avs",
+    "full_name": "layr-labs/incredible-squaring-avs",
     "html_url": "https://github.com/Layr-Labs/incredible-squaring-avs",
     "language": "Go",
     "pushed_at": "2025-07-21T15:17:07Z",

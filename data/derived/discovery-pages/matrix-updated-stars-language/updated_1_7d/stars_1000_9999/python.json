@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 94,
-    "concepts": 62,
-    "observations": 62,
-    "repos": 13,
-    "terms": 77
+    "components": 148,
+    "concepts": 94,
+    "observations": 94,
+    "repos": 18,
+    "terms": 118
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,20 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "agricidaniel/claude-ads",
     "agricidaniel/claude-seo",
+    "arogozhnikov/einops",
+    "basicmachines-co/basic-memory",
+    "codespell-project/codespell",
     "containers/podman-compose",
+    "crytic/slither",
     "datadog/guarddog",
     "flashinfer-ai/flashinfer",
     "google/tunix",
     "googleapis/python-genai",
+    "llamastack/llama-stack",
     "mbailey/voicemode",
     "nousresearch/atropos",
     "plastic-labs/honcho",

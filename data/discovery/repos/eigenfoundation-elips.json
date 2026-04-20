@@ -16,13 +16,14 @@
       "size": 6698
     }
   ],
+  "metadata_refreshed_at": "2026-04-20T05:27:45.806355+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "The EigenLayer Improvement Proposal (ELIPs) repository",
     "fork": false,
-    "full_name": "eigenfoundation/ELIPs",
+    "full_name": "eigenfoundation/elips",
     "html_url": "https://github.com/eigenfoundation/ELIPs",
     "language": null,
     "pushed_at": "2026-04-13T20:18:27Z",

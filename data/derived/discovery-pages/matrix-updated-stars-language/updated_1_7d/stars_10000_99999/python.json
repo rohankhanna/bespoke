@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 112,
-    "concepts": 103,
-    "observations": 104,
-    "repos": 11,
-    "terms": 104
+    "components": 217,
+    "concepts": 198,
+    "observations": 199,
+    "repos": 22,
+    "terms": 217
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,29 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "alchaincyf/nuwa-skill",
     "alirezarezvani/claude-skills",
     "anthropics/claude-plugins-official",
     "astral-sh/ty",
+    "axolotl-ai-cloud/axolotl",
+    "browser-use/browser-use",
+    "dask/dask",
+    "davila7/claude-code-templates",
+    "getzep/graphiti",
     "github/spec-kit",
     "k-dense-ai/scientific-agent-skills",
-    "letta-ai/letta",
+    "langchain-ai/deepagents",
+    "mem0ai/mem0",
     "microsoft/pyright",
     "openai/openai-python",
-    "pydantic/pydantic-ai"
+    "pandas-dev/pandas",
+    "psf/black",
+    "pydantic/pydantic-ai",
+    "python/mypy",
+    "titanwings/colleague-skill",
+    "wshobson/agents"
   ]
 }

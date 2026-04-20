@@ -3,7 +3,7 @@
     "components": 35,
     "concepts": 22,
     "observations": 22,
-    "repos": 6,
+    "repos": 8,
     "terms": 25
   },
   "facet_version": 1,
@@ -11,10 +11,12 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "adammes/voyanode",
+    "adiny/moodtrip-hotel-search",
     "b2agi/exist-is-charter_kr",
+    "danielrosehill/claude-code-sysadmin-workspaces-index",
     "neuroverseos/negotiator",
     "nibir1/vaultsim",
     "sujithpvarghese/bedrock-agent-core-operations-hub",

@@ -1,23 +1,25 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 8,
-    "terms": 17
+    "components": 27,
+    "concepts": 13,
+    "observations": 13,
+    "repos": 10,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "abduznik/git-alchemist",
     "Aedelon/claude-code-blueprint",
     "ctoth/claudio",
+    "googlefonts/emoji-metadata",
     "jawwadfirdousi/agent-skills",
     "klaudworks/ralph-meets-rex",
+    "nodejs/release-keys",
     "nulone/claude-rules-doctor",
     "revfactory/claude-code-harness",
     "talieisin/britfix"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 22,
-    "concepts": 8,
-    "observations": 8,
-    "repos": 4,
-    "terms": 11
+    "components": 46,
+    "concepts": 18,
+    "observations": 18,
+    "repos": 6,
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "charmbracelet/colorprofile",
     "foxj77/claudectx",
+    "open-telemetry/opentelemetry-collector-releases",
     "phiat/claude-esp",
-    "prehisle/relay-pulse"
+    "prehisle/relay-pulse",
+    "skenetechnologies/skene"
   ]
 }

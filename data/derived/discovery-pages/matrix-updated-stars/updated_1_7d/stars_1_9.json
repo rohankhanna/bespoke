@@ -1,32 +1,38 @@
 {
   "counts": {
-    "components": 135,
-    "concepts": 51,
-    "observations": 51,
-    "repos": 27,
-    "terms": 62
+    "components": 178,
+    "concepts": 87,
+    "observations": 87,
+    "repos": 37,
+    "terms": 107
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
+    "adaumann/speckit-preset-fiction-book-writing",
     "agenmod/distill-protocol-skill",
     "agenmod/distill-shield-skill",
     "agenmod/mirror-skill",
     "agenmod/steamer-skill",
     "agent-sh/agent-analyzer",
+    "agent-sh/agent-core",
     "agent-sh/can-i-help",
     "agent-sh/glidemq",
     "agent-sh/onboard",
+    "agent-sh/repo-intel",
+    "agent-sh/sync-docs",
     "bryanh9111/engram",
     "cdeust/zetetic-team-subagents",
+    "cjtruheart/abundance-codex",
     "dm0x23/portfolio-website",
     "dreamiurg/mountaineers-assistant",
     "dreamiurg/mountaineers-mcp",
     "dreamiurg/peakbagger-cli",
+    "etanhey/brainlayer",
     "eternahybridexchange/eterna-mcp",
     "flinedev/marketplace",
     "gibdd-dps/prizolov-agent-os",
@@ -35,10 +41,14 @@
     "kensave/agent-memory-rs",
     "ksylvan/fabric",
     "mitchuski/agentprivacy-docs",
+    "neuroverseos/neuroverseos-governance",
     "petmal/mindtrial",
+    "piebald-ai/piebald-issues",
     "piqrypt/piqrypt",
+    "seunghunbae-3svs/solo-cto-agent",
     "sunthinks/kvmind",
     "toyamarinyon/giselle",
+    "vincent-k2026/codachi",
     "xiaochu-1208/interview-assistant-cli"
   ]
 }

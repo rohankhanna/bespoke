@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 35,
+    "components": 41,
     "concepts": 10,
     "observations": 10,
-    "repos": 9,
-    "terms": 17
+    "repos": 12,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,15 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
+    "adaumann/speckit-preset-fiction-book-writing",
     "agenmod/distill-protocol-skill",
     "agenmod/distill-shield-skill",
     "bryanh9111/engram",
+    "cjtruheart/abundance-codex",
     "dreamiurg/peakbagger-cli",
+    "etanhey/brainlayer",
     "gibdd-dps/prizolov-agent-os",
     "kelp/webdown",
     "piqrypt/piqrypt",

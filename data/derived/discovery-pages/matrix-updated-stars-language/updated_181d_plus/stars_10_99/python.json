@@ -3,7 +3,7 @@
     "components": 6,
     "concepts": 9,
     "observations": 9,
-    "repos": 5,
+    "repos": 6,
     "terms": 9
   },
   "facet_version": 1,
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "axolotl-ai-cloud/plugin-atropos",
     "decider/claude-hooks",
+    "erezinman/loguru-config",
     "grahama1970/claude-task-runner",
     "oxpig/calm",
     "superclaude-org/superqwen_framework"

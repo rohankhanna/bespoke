@@ -45,13 +45,14 @@
       "size": 652
     }
   ],
+  "metadata_refreshed_at": "2026-04-20T05:28:36.167226+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "Pretty and useful exceptions in Python, automatically.",
     "fork": false,
-    "full_name": "Qix-/better-exceptions",
+    "full_name": "qix-/better-exceptions",
     "html_url": "https://github.com/Qix-/better-exceptions",
     "language": "Python",
     "pushed_at": "2026-02-25T14:28:08Z",

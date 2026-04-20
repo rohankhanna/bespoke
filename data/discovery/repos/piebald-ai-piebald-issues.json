@@ -8,13 +8,14 @@
       "size": 4296
     }
   ],
+  "metadata_refreshed_at": "2026-04-20T05:28:38.994638+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "Issue tracker for Piebald, the ultimate agentic AI control experience for developers.",
     "fork": false,
-    "full_name": "Piebald-AI/piebald-issues",
+    "full_name": "piebald-ai/piebald-issues",
     "html_url": "https://github.com/Piebald-AI/piebald-issues",
     "language": null,
     "pushed_at": "2026-04-16T21:04:31Z",

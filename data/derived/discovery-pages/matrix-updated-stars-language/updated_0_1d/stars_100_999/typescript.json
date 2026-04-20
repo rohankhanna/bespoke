@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 273,
+    "components": 206,
     "concepts": 6,
     "observations": 6,
-    "repos": 7,
-    "terms": 34
+    "repos": 4,
+    "terms": 16
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "elizaos/elizaos.github.io",
     "grubersjoe/react-activity-calendar",
-    "lobehub/lobe-chat-plugins",
-    "napi-rs/package-template",
-    "tombii/better-ccflare",
     "tony1223/better-agent-terminal",
     "vibe-log/vibe-log-cli"
   ]

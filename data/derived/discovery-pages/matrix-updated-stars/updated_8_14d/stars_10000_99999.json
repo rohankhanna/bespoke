@@ -1,21 +1,22 @@
 {
   "counts": {
-    "components": 63,
-    "concepts": 53,
-    "observations": 53,
-    "repos": 5,
-    "terms": 64
+    "components": 73,
+    "concepts": 57,
+    "observations": 57,
+    "repos": 6,
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "aider-ai/aider",
     "delgan/loguru",
     "guidance-ai/guidance",
+    "letta-ai/letta",
     "ruvnet/ruflo",
     "tobi/qmd"
   ]

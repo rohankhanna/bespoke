@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 41,
-    "observations": 41,
-    "repos": 5,
-    "terms": 41
+    "components": 41,
+    "concepts": 46,
+    "observations": 46,
+    "repos": 3,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
-    "ahmetb/kubectx",
-    "charmbracelet/lipgloss",
+    "dolthub/dolt",
     "gastownhall/beads",
-    "moby/moby",
-    "router-for-me/cliproxyapi"
+    "junegunn/fzf"
   ]
 }

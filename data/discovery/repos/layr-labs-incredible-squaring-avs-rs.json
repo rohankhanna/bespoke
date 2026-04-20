@@ -162,13 +162,14 @@
       "size": 2123
     }
   ],
+  "metadata_refreshed_at": "2026-04-20T05:27:26.584944+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": null,
     "fork": false,
-    "full_name": "Layr-Labs/incredible-squaring-avs-rs",
+    "full_name": "layr-labs/incredible-squaring-avs-rs",
     "html_url": "https://github.com/Layr-Labs/incredible-squaring-avs-rs",
     "language": "Rust",
     "pushed_at": "2026-03-03T20:35:56Z",

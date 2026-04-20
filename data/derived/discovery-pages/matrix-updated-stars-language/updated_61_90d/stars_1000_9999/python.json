@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 13,
-    "concepts": 5,
-    "observations": 5,
-    "repos": 3,
-    "terms": 5
+    "components": 22,
+    "concepts": 21,
+    "observations": 21,
+    "repos": 5,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
+    "alteryx/featuretools",
     "anthropics/claude-code-security-review",
     "meta-llama/llama-models",
-    "ollama/ollama-python"
+    "ollama/ollama-python",
+    "simonw/claude-code-transcripts"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 52,
-    "concepts": 26,
-    "observations": 26,
-    "repos": 13,
-    "terms": 42
+    "components": 121,
+    "concepts": 90,
+    "observations": 90,
+    "repos": 21,
+    "terms": 106
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,28 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "aaronwong1999/hermesclaw",
     "agenmod/immortal-skill",
     "agiletec-inc/airis-mcp-gateway",
+    "AgriciDaniel/banana-claude",
+    "AgriciDaniel/claude-blog",
     "ayanami0730/deep_research_bench",
     "beamuswayne/simp-skill",
+    "bmad-code-org/bmad-builder",
+    "fatiando/pooch",
     "fcakyon/claude-codex-settings",
+    "jezweb/claude-skills",
     "llama-farm/llamafarm",
     "pedronauck/skills",
     "roampal-ai/roampal",
     "ryjoxtechnologies/octopoda-os",
     "spylang/spy",
     "strands-agents/agent-sop",
-    "thinking-machines-lab/tinker"
+    "strands-agents/evals",
+    "strands-agents/samples",
+    "thinking-machines-lab/tinker",
+    "trailofbits/dropkit"
   ]
 }

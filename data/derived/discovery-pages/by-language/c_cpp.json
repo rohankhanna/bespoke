@@ -1,21 +1,23 @@
 {
   "counts": {
-    "components": 124,
-    "concepts": 69,
-    "observations": 69,
-    "repos": 25,
-    "terms": 87
+    "components": 139,
+    "concepts": 83,
+    "observations": 83,
+    "repos": 29,
+    "terms": 101
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "c_cpp"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "asg017/sqlite-lembed",
     "asg017/sqlite-vec",
     "asg017/sqlite-vss",
     "burntsushi/linux",
+    "containers/crun",
+    "docker-archive/windows-container-utility",
     "existentialaudio/blackhole",
     "gbrobro119-star/darksword-kexploit",
     "ggml-org/ggml",
@@ -36,6 +38,8 @@
     "retrography/audioswitch",
     "soramimi/guitar",
     "stardot/b-em",
-    "tmux/tmux"
+    "tmux/tmux",
+    "tob-challenges/example-libpng",
+    "VirusTotal/yara"
   ]
 }

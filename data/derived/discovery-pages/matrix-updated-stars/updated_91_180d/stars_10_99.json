@@ -3,7 +3,7 @@
     "components": 13,
     "concepts": 7,
     "observations": 7,
-    "repos": 9,
+    "repos": 11,
     "terms": 18
   },
   "facet_version": 1,
@@ -11,11 +11,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
+    "biocypher/project-template",
     "bl-ue/tweakcc-system-prompts",
     "crate-ci/gh-install",
     "danielrosehill/claude-code-linux-desktop-slash-commands",
+    "danielrosehill/claude-file-organiser-super-slash",
     "dredozubov/prd-generator",
     "marcindulak/stt-mcp-server-linux",
     "okuvshynov/cubestat",

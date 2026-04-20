@@ -1,28 +1,25 @@
 {
   "counts": {
-    "components": 378,
-    "concepts": 78,
-    "observations": 78,
-    "repos": 12,
-    "terms": 112
+    "components": 264,
+    "concepts": 67,
+    "observations": 67,
+    "repos": 9,
+    "terms": 85
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
-    "affaan-m/everything-claude-code",
     "denoland/deno",
     "ggml-org/llama.cpp",
-    "google-gemini/gemini-cli",
     "huggingface/transformers",
     "langchain-ai/langchain",
     "microsoft/typescript",
     "nodejs/node",
     "nousresearch/hermes-agent",
-    "ollama/ollama",
     "openclaw/openclaw",
     "rust-lang/rust"
   ]

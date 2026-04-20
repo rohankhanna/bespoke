@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 83,
-    "concepts": 60,
-    "observations": 60,
-    "repos": 7,
-    "terms": 62
+    "components": 159,
+    "concepts": 136,
+    "observations": 136,
+    "repos": 15,
+    "terms": 136
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,22 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "1panel-dev/1panel",
+    "abiosoft/colima",
+    "ahmetb/kubectx",
     "charmbracelet/bubbletea",
+    "charmbracelet/crush",
     "charmbracelet/gum",
+    "charmbracelet/lipgloss",
+    "containerd/containerd",
     "danielmiessler/fabric",
+    "hibiken/asynq",
     "kubernetes-sigs/kustomize",
     "microsoft/typescript-go",
-    "quantumnous/new-api"
+    "moby/moby",
+    "quantumnous/new-api",
+    "router-for-me/cliproxyapi"
   ]
 }

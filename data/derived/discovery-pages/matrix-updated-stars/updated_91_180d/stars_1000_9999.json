@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 78,
+    "components": 83,
     "concepts": 22,
     "observations": 23,
-    "repos": 9,
-    "terms": 27
+    "repos": 10,
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "ddollar/forego",
     "google-github-actions/auth",
@@ -20,6 +20,7 @@
     "lokerl/tts-vue",
     "lorexxar/kunlun-m",
     "numman-ali/openskills",
+    "omnara-ai/omnara",
     "protectai/llm-guard",
     "steipete/claude-code-mcp"
   ]

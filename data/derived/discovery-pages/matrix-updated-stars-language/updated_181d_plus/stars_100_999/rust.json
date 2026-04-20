@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 66,
-    "concepts": 40,
-    "observations": 41,
-    "repos": 12,
-    "terms": 40
+    "components": 67,
+    "concepts": 44,
+    "observations": 45,
+    "repos": 13,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "asg017/sqlite-loadable-rs",
     "asg017/sqlite-rembed",
     "asg017/sqlite-xsv",
+    "dirs-dev/directories-rs",
     "dirs-dev/dirs-rs",
     "ecumene/rust-sloth",
     "harfbuzz/rustybuzz",

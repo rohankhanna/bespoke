@@ -1,30 +1,27 @@
 {
   "counts": {
-    "components": 120,
-    "concepts": 2,
-    "observations": 2,
-    "repos": 13,
-    "terms": 44
+    "components": 114,
+    "concepts": 12,
+    "observations": 13,
+    "repos": 10,
+    "terms": 38
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
-    "chaos2cured/freelattice",
-    "cloudllm-ai/mentisdb",
+    "almogdepaz/wolfpack",
     "costiash/claude-code-docs",
     "ethpandaops/xatu-data",
-    "flinedev/tandemkit",
+    "hashintel/labs",
     "itsrishika/payment-bypass-bug-lab",
     "jkheadley/instar",
     "liangshengyong/lanwan",
     "overseedai/viwo",
-    "peergos/web-ui",
     "sliamh11/deus",
-    "steipete/homebrew-tap",
     "thedoggybrad/easylist-mirror"
   ]
 }

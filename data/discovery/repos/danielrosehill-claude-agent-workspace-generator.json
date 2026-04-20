@@ -16,13 +16,14 @@
       "size": 2581
     }
   ],
+  "metadata_refreshed_at": "2026-04-20T05:27:46.542085+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "Claude utility for creating workspace templates for agentic AI tools",
     "fork": false,
-    "full_name": "danielrosehill/Claude-Agent-Workspace-Generator",
+    "full_name": "danielrosehill/claude-agent-workspace-generator",
     "html_url": "https://github.com/danielrosehill/Claude-Agent-Workspace-Generator",
     "language": null,
     "pushed_at": "2026-03-09T19:56:45Z",

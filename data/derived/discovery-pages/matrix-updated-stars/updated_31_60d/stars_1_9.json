@@ -1,20 +1,22 @@
 {
   "counts": {
-    "components": 38,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 5,
-    "terms": 21
+    "components": 45,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 7,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
+    "danielrosehill/claude-agent-workspace-generator",
     "flinedev/customstatusline",
     "flinedev/recall",
+    "layr-labs/incredible-squaring-avs-rs",
     "maxritter/pilot-shell-demo",
     "neuroverseos/neuroverseos-openclaw-governance",
     "tombelieber/claude-backup"

@@ -23,13 +23,14 @@
       "size": 6857
     }
   ],
+  "metadata_refreshed_at": "2026-04-20T05:28:43.958496+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "One big slash command for filesystem tidying",
     "fork": false,
-    "full_name": "danielrosehill/Claude-File-Organiser-Super-Slash",
+    "full_name": "danielrosehill/claude-file-organiser-super-slash",
     "html_url": "https://github.com/danielrosehill/Claude-File-Organiser-Super-Slash",
     "language": null,
     "pushed_at": "2025-10-29T14:55:19Z",

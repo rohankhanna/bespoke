@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 60,
+    "components": 65,
     "concepts": 3,
     "observations": 4,
-    "repos": 3,
-    "terms": 8
+    "repos": 4,
+    "terms": 9
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "google-github-actions/auth",
     "lokerl/tts-vue",
-    "numman-ali/openskills"
+    "numman-ali/openskills",
+    "omnara-ai/omnara"
   ]
 }

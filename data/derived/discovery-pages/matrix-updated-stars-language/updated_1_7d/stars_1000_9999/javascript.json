@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 99,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 3,
-    "terms": 18
+    "concepts": 20,
+    "observations": 20,
+    "repos": 4,
+    "terms": 20
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "google/closure-compiler",
+    "nodejs/Release",
     "npm/cli",
     "piebald-ai/claude-code-system-prompts"
   ]

@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 2,
+    "concepts": 6,
+    "observations": 6,
+    "repos": 1,
+    "terms": 6
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "java",
+    "star_bucket": "stars_100_999",
+    "updated_bucket": "updated_181d_plus"
+  },
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
+  "repo_ids": [
+    "dirs-dev/directories-jvm"
+  ]
+}

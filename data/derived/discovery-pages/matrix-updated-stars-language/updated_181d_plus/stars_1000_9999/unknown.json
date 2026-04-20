@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 0,
-    "concepts": 6,
-    "observations": 6,
-    "repos": 4,
-    "terms": 6
+    "concepts": 7,
+    "observations": 7,
+    "repos": 5,
+    "terms": 7
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "0nn0/terminal-mac-cheatsheet",
     "addyosmani/gemini-cli-tips",
     "oneredoak/claude-code-workflows",
+    "openai/openai-openapi",
     "xaoyaoo/pywxdump"
   ]
 }

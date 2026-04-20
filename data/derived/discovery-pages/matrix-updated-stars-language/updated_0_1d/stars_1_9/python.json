@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 24,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 10,
-    "terms": 13
+    "concepts": 9,
+    "observations": 9,
+    "repos": 9,
+    "terms": 20
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,15 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "caesar0301/soothe",
     "cafitac/hermit-agent",
-    "cjtruheart/abundance-codex",
-    "etanhey/brainlayer",
     "floxym/financial-chat",
     "frank-syncmarket/skills",
     "momentique/source-code-security-audit-reviewer",
     "penpoen/llm-sugarscape",
+    "piqrypt/aiss-standard",
     "rrsaldanha/burp-mcp-agents",
     "verkyyi/tokenman"
   ]

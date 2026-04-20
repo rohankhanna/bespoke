@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9,
-    "concepts": 0,
-    "observations": 0,
-    "repos": 1,
-    "terms": 2
+    "components": 14,
+    "concepts": 15,
+    "observations": 15,
+    "repos": 2,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
-    "alexei-led/aws-mcp-server"
+    "alexei-led/aws-mcp-server",
+    "strands-agents/mcp-server"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 211,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 7,
-    "terms": 32
+    "components": 224,
+    "concepts": 38,
+    "observations": 38,
+    "repos": 8,
+    "terms": 52
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "aymenfurter/ralph",
@@ -20,6 +20,7 @@
     "kamranahmedse/claude-run",
     "lobehub/lobe-charts",
     "lobehub/lobe-tts",
+    "Piebald-AI/gemini-cli-desktop",
     "sudocode-ai/sudocode"
   ]
 }

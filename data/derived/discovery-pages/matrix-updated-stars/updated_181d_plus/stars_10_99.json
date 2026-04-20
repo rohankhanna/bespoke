@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 403,
+    "components": 406,
     "concepts": 62,
     "observations": 63,
-    "repos": 36,
+    "repos": 41,
     "terms": 82
   },
   "facet_version": 1,
@@ -11,18 +11,23 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
+    "1nickpappas/move-code-quality-skill",
     "arktisklada/crank",
     "asg017/sqlite-fastrand",
     "axolotl-ai-cloud/plugin-atropos",
     "brads3290/cclogviewer",
+    "brombal/just-install",
     "bytegust/spm",
+    "casey/janus",
     "chrisleyva/todo-slash-command",
     "ckipp01/stylua-nvim",
     "danielnappa/tweakgc-cli",
     "decider/claude-hooks",
     "didalgolab/ai-intellij-plugin",
+    "docker-archive/windows-container-utility",
+    "erezinman/loguru-config",
     "fatwang2/search1api-lobechat",
     "gerschel/sd-web-ui-quickcss",
     "grahama1970/claude-task-runner",

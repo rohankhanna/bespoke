@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 34,
-    "concepts": 13,
-    "observations": 15,
-    "repos": 6,
-    "terms": 26
+    "components": 71,
+    "concepts": 22,
+    "observations": 24,
+    "repos": 8,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "aannoo/hcom",
     "agent-sh/agnix",
     "dtormoen/tsk-tsk",
     "Kampfkarren/full-moon",
     "nielsgroen/claude-tmux",
-    "rustcrypto/signatures"
+    "RustCrypto/RSA",
+    "rustcrypto/signatures",
+    "tekumara/typos-lsp"
   ]
 }

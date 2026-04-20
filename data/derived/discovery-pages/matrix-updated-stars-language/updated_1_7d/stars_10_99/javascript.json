@@ -1,0 +1,21 @@
+{
+  "counts": {
+    "components": 86,
+    "concepts": 7,
+    "observations": 7,
+    "repos": 3,
+    "terms": 14
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "javascript",
+    "star_bucket": "stars_10_99",
+    "updated_bucket": "updated_1_7d"
+  },
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
+  "repo_ids": [
+    "bmad-code-org/bmad-method-test-architecture-enterprise",
+    "bmad-code-org/bmad-module-creative-intelligence-suite",
+    "peergos/web-ui"
+  ]
+}

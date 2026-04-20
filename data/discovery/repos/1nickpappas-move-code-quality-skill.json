@@ -8,13 +8,14 @@
       "size": 3289
     }
   ],
+  "metadata_refreshed_at": "2026-04-20T05:28:04.240934+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "Claude Code skill for analyzing Move packages against the official Move Book Code Quality Checklist",
     "fork": false,
-    "full_name": "1NickPappas/move-code-quality-skill",
+    "full_name": "1nickpappas/move-code-quality-skill",
     "html_url": "https://github.com/1NickPappas/move-code-quality-skill",
     "language": null,
     "pushed_at": "2025-10-21T21:19:41Z",

@@ -108,6 +108,7 @@
       "size": 339
     }
   ],
+  "metadata_refreshed_at": "2026-04-20T05:28:40.345339+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -118,7 +119,7 @@
     "html_url": "https://github.com/jonmosco/kube-ps1",
     "language": "Shell",
     "pushed_at": "2026-04-01T11:33:23Z",
-    "stargazers_count": 3776,
+    "stargazers_count": 3777,
     "topics": [
       "bash",
       "containers",
@@ -129,7 +130,7 @@
       "sre",
       "zsh"
     ],
-    "updated_at": "2026-04-14T05:50:12Z"
+    "updated_at": "2026-04-19T20:38:18Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,21 @@
+{
+  "counts": {
+    "components": 54,
+    "concepts": 16,
+    "observations": 16,
+    "repos": 3,
+    "terms": 26
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "javascript",
+    "star_bucket": "stars_100_999",
+    "updated_bucket": "updated_15_30d"
+  },
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
+  "repo_ids": [
+    "comme2e/comm",
+    "npm/rfcs",
+    "protocolbuffers/protobuf-javascript"
+  ]
+}

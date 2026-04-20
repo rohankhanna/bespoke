@@ -1,19 +1,21 @@
 {
   "counts": {
-    "components": 3,
-    "concepts": 16,
-    "observations": 16,
-    "repos": 2,
-    "terms": 16
+    "components": 85,
+    "concepts": 45,
+    "observations": 46,
+    "repos": 4,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "haotian-liu/llava",
-    "opencode-ai/opencode"
+    "opencode-ai/opencode",
+    "standard/standard",
+    "winfunc/opcode"
   ]
 }

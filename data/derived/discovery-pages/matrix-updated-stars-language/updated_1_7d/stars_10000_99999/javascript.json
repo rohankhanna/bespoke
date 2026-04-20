@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 39,
-    "concepts": 7,
-    "observations": 7,
-    "repos": 1,
-    "terms": 7
+    "components": 92,
+    "concepts": 19,
+    "observations": 20,
+    "repos": 5,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
-    "svg/svgo"
+    "bmad-code-org/bmad-method",
+    "jarrodwatts/claude-hud",
+    "openai/codex-plugin-cc",
+    "svg/svgo",
+    "vercel-labs/agent-skills"
   ]
 }

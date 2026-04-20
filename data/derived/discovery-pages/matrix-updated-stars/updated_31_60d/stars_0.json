@@ -1,20 +1,22 @@
 {
   "counts": {
-    "components": 7,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 3,
-    "terms": 10
+    "components": 21,
+    "concepts": 27,
+    "observations": 27,
+    "repos": 5,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
+    "8144225309/superscalar-mcp",
     "mjvolk3/dendron-template",
     "musicman3/cruder",
-    "musicman3/r2-d2"
+    "musicman3/r2-d2",
+    "vaporif/rvx"
   ]
 }

@@ -1,17 +1,18 @@
 {
   "counts": {
-    "components": 84,
-    "concepts": 86,
-    "observations": 86,
-    "repos": 41,
-    "terms": 123
+    "components": 91,
+    "concepts": 117,
+    "observations": 117,
+    "repos": 46,
+    "terms": 150
   },
   "facet_version": 1,
   "filters": {
     "language_bucket": "shell"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
+    "aaronrsun/spec-kit-confluence",
     "Aedelon/claude-code-blueprint",
     "agent-sh/glidemq",
     "agricidaniel/claude-cybersecurity",
@@ -29,6 +30,7 @@
     "danielrosehill/bash-alias-manager-claude",
     "danielrosehill/batch-claudemd-repo-creator",
     "danielrosehill/claude-code-linux-desktop-slash-commands",
+    "deluan/zsh-in-docker",
     "diet103/claude-code-infrastructure-showcase",
     "ericbuess/claude-code-docs",
     "flinedev/contextkit",
@@ -38,8 +40,10 @@
     "gerardtschanz/revenue-os",
     "icanhasjonas/run-claude-docker",
     "jawwadfirdousi/agent-skills",
+    "jonmosco/kube-ps1",
     "kubernetes/sig-release",
     "marcindulak/ralph-wiggum-bdd",
+    "nodejs/release-keys",
     "nvie/git-toolbelt",
     "obra/superpowers",
     "pyenv/pyenv",
@@ -48,6 +52,7 @@
     "rz1989s/claude-code-statusline",
     "serpro69/claude-in-docker",
     "serpro69/claude-toolbox",
+    "sstephenson/bats",
     "to4iki/ai-project-rules",
     "tombelieber/claude-backup",
     "trailofbits/claude-code-config",

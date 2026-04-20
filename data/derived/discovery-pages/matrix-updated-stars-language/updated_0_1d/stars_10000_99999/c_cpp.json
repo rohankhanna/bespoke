@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 34,
+    "components": 29,
     "concepts": 13,
     "observations": 13,
-    "repos": 3,
+    "repos": 2,
     "terms": 23
   },
   "facet_version": 1,
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
-    "google/skia",
     "protocolbuffers/protobuf",
     "px4/px4-autopilot"
   ]

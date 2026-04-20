@@ -1,20 +1,21 @@
 {
   "counts": {
-    "components": 167,
-    "concepts": 57,
-    "observations": 57,
-    "repos": 22,
-    "terms": 66
+    "components": 171,
+    "concepts": 65,
+    "observations": 65,
+    "repos": 26,
+    "terms": 74
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "0nn0/terminal-mac-cheatsheet",
     "addyosmani/gemini-cli-tips",
+    "ahmetb/kubectl-aliases",
     "asg017/sqlite-vss",
     "atom-archive/xray",
     "basujindal/stable-diffusion",
@@ -22,6 +23,7 @@
     "darthsim/hivemind",
     "darthsim/overmind",
     "ddollar/foreman",
+    "deluan/zsh-in-docker",
     "eastlondoner/vibe-tools",
     "eth-sri/lmql",
     "googlefonts/noto-emoji",
@@ -33,6 +35,8 @@
     "natemoo-re/astro-icon",
     "novicezk/midjourney-proxy",
     "oneredoak/claude-code-workflows",
+    "openai/openai-openapi",
+    "sstephenson/bats",
     "tremorlabs/tremor",
     "xaoyaoo/pywxdump"
   ]

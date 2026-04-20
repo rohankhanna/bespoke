@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 4,
+    "components": 20,
     "concepts": 0,
     "observations": 0,
-    "repos": 1,
-    "terms": 3
+    "repos": 2,
+    "terms": 8
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
-    "jsleekr/skilldigest"
+    "jsleekr/skilldigest",
+    "mupozg823/codelens-mcp-plugin"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 99,
-    "concepts": 67,
-    "observations": 67,
-    "repos": 7,
-    "terms": 67
+    "components": 65,
+    "concepts": 27,
+    "observations": 27,
+    "repos": 4,
+    "terms": 27
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "astral-sh/ruff",
     "astral-sh/uv",
-    "GitoxideLabs/gitoxide",
     "huggingface/candle",
-    "openai/codex",
-    "tracel-ai/burn",
-    "zeroclaw-labs/zeroclaw"
+    "openai/codex"
   ]
 }

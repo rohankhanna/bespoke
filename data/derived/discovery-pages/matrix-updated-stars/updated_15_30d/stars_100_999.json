@@ -1,23 +1,32 @@
 {
   "counts": {
-    "components": 200,
-    "concepts": 15,
-    "observations": 15,
-    "repos": 8,
-    "terms": 30
+    "components": 276,
+    "concepts": 72,
+    "observations": 72,
+    "repos": 17,
+    "terms": 97
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
+    "agamm/claude-code-owasp",
     "akin-ozer/cc-devops-skills",
     "aws/homebrew-tap",
+    "biocypher/biocypher",
+    "broderick-westrope/tetrigo",
     "carlrannaberg/claudekit",
+    "cedar-policy/cedar-examples",
+    "comme2e/comm",
+    "google/protobuf.dart",
     "ldayton/dippy",
     "lobehub/lobe-midjourney-webui",
+    "npm/rfcs",
+    "protocolbuffers/protobuf-javascript",
+    "purcell/envrc",
     "revfactory/harness-100",
     "ruvnet/agentic-flow",
     "shareai-lab/kode-agent-sdk"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 41,
-    "concepts": 9,
-    "observations": 9,
-    "repos": 4,
-    "terms": 10
+    "components": 75,
+    "concepts": 49,
+    "observations": 49,
+    "repos": 7,
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "casey/just",
+    "GitoxideLabs/gitoxide",
     "jj-vcs/jj",
     "seanmonstar/reqwest",
-    "tokio-rs/axum"
+    "tokio-rs/axum",
+    "tracel-ai/burn",
+    "zeroclaw-labs/zeroclaw"
   ]
 }

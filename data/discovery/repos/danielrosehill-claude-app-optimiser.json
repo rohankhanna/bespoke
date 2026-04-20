@@ -8,13 +8,14 @@
       "size": 747
     }
   ],
+  "metadata_refreshed_at": "2026-04-20T05:27:48.428452+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "System prompt, slash command, agent",
     "fork": false,
-    "full_name": "danielrosehill/Claude-App-Optimiser",
+    "full_name": "danielrosehill/claude-app-optimiser",
     "html_url": "https://github.com/danielrosehill/Claude-App-Optimiser",
     "language": null,
     "pushed_at": "2025-12-23T19:21:55Z",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 160,
-    "concepts": 28,
-    "observations": 28,
-    "repos": 12,
-    "terms": 54
+    "components": 174,
+    "concepts": 47,
+    "observations": 47,
+    "repos": 14,
+    "terms": 73
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "atomaai/atoma-infer",
     "ayoubben18/ab-method",
@@ -21,7 +21,9 @@
     "harfbuzz/ttf-parser",
     "hluaguo/learn-faster-kit",
     "jezweb/roo-commander",
+    "layr-labs/eigenlayer-middleware",
     "scopecraft/command",
+    "strands-agents/agent-builder",
     "thibautmelen/agentic-ai-systems",
     "zippoxer/recall",
     "zsio/claude-code-hub"

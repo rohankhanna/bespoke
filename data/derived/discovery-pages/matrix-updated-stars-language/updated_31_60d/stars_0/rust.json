@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 11,
+    "concepts": 5,
+    "observations": 5,
+    "repos": 1,
+    "terms": 5
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "rust",
+    "star_bucket": "stars_0",
+    "updated_bucket": "updated_31_60d"
+  },
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
+  "repo_ids": [
+    "vaporif/rvx"
+  ]
+}

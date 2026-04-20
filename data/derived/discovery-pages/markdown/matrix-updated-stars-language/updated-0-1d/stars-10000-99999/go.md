@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 10,000 to 99,999 stars · Go
 
-Generated at: `2026-04-19T14:16:25.973890+00:00`
+Generated at: `2026-04-20T05:28:45.163139+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 5
-- terms: 41
-- components: 52
-- concepts: 41
-- observations: 41
+- repos: 3
+- terms: 45
+- components: 41
+- concepts: 46
+- observations: 46
 
 ## Static behavior
 
@@ -26,18 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [router-for-me/cliproxyapi](https://github.com/router-for-me/CLIProxyAPI) | 27212 | 2026-04-19T03:46:22Z | Go | CLI | 10 | 9 | 10 | 10 |
-| [ahmetb/kubectx](https://github.com/ahmetb/kubectx) | 19653 | 2026-04-19T01:51:46Z | Go | Infrastructure/tooling | 7 | 9 | 7 | 7 |
-| [charmbracelet/lipgloss](https://github.com/charmbracelet/lipgloss) | 11086 | 2026-04-19T00:42:23Z | Go | CLI | 10 | 7 | 10 | 10 |
-| [moby/moby](https://github.com/moby/moby) | 71509 | 2026-04-19T00:29:21Z | Go | Infrastructure/tooling | 5 | 12 | 5 | 5 |
-| [gastownhall/beads](https://github.com/gastownhall/beads) | 20917 | 2026-04-19T00:10:12Z | Go | Infrastructure/tooling | 9 | 15 | 9 | 9 |
+| [dolthub/dolt](https://github.com/dolthub/dolt) | 22236 | 2026-04-19T21:17:34Z | Go | Infrastructure/tooling | 25 | 16 | 25 | 25 |
+| [gastownhall/beads](https://github.com/gastownhall/beads) | 20933 | 2026-04-19T21:16:08Z | Go | Infrastructure/tooling | 9 | 15 | 9 | 9 |
+| [junegunn/fzf](https://github.com/junegunn/fzf) | 79627 | 2026-04-19T15:56:34Z | Go | CLI | 11 | 10 | 12 | 12 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [moby/moby](https://github.com/moby/moby) | 71509 | 2026-04-19T00:29:21Z | Go | Infrastructure/tooling | 5 | 12 | 5 | 5 |
-| [router-for-me/cliproxyapi](https://github.com/router-for-me/CLIProxyAPI) | 27212 | 2026-04-19T03:46:22Z | Go | CLI | 10 | 9 | 10 | 10 |
-| [gastownhall/beads](https://github.com/gastownhall/beads) | 20917 | 2026-04-19T00:10:12Z | Go | Infrastructure/tooling | 9 | 15 | 9 | 9 |
-| [ahmetb/kubectx](https://github.com/ahmetb/kubectx) | 19653 | 2026-04-19T01:51:46Z | Go | Infrastructure/tooling | 7 | 9 | 7 | 7 |
-| [charmbracelet/lipgloss](https://github.com/charmbracelet/lipgloss) | 11086 | 2026-04-19T00:42:23Z | Go | CLI | 10 | 7 | 10 | 10 |
+| [junegunn/fzf](https://github.com/junegunn/fzf) | 79627 | 2026-04-19T15:56:34Z | Go | CLI | 11 | 10 | 12 | 12 |
+| [dolthub/dolt](https://github.com/dolthub/dolt) | 22236 | 2026-04-19T21:17:34Z | Go | Infrastructure/tooling | 25 | 16 | 25 | 25 |
+| [gastownhall/beads](https://github.com/gastownhall/beads) | 20933 | 2026-04-19T21:16:08Z | Go | Infrastructure/tooling | 9 | 15 | 9 | 9 |

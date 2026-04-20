@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 39,
-    "concepts": 51,
-    "observations": 52,
-    "repos": 6,
-    "terms": 51
+    "components": 81,
+    "concepts": 82,
+    "observations": 83,
+    "repos": 10,
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
+    "alexellis/arkade",
     "awslabs/eks-node-viewer",
     "bensadeh/circumflex",
+    "databus23/helm-diff",
+    "docker/cli",
     "korotovsky/slack-mcp-server",
     "kubernetes/enhancements",
+    "larksuite/cli",
     "libp2p/go-libp2p",
     "tofuutils/tenv"
   ]

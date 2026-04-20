@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 404,
-    "concepts": 103,
-    "observations": 104,
-    "repos": 40,
-    "terms": 113
+    "components": 416,
+    "concepts": 123,
+    "observations": 124,
+    "repos": 44,
+    "terms": 133
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "1runeberg/confichat",
     "aminrezaei0x443/memory-efficient-attention",
@@ -27,8 +27,11 @@
     "beyondgrep/ack3",
     "chinanf-boy/ripgrep-zh",
     "chrismytton/shoreman",
+    "cohnen/mcp-google-ads",
     "connectai-e/midjourney-web",
     "dazuiba/ccnotify",
+    "dirs-dev/directories-jvm",
+    "dirs-dev/directories-rs",
     "dirs-dev/dirs-rs",
     "disler/just-prompt",
     "ecumene/rust-sloth",
@@ -43,6 +46,7 @@
     "klaus2m5/6502_65c02_functional_tests",
     "knownsec/404starlink-project",
     "layr-labs/hello-world-avs",
+    "layr-labs/incredible-squaring-avs",
     "lnx-search/rewrk",
     "lobehub/lobe-vidol",
     "lpghatguy/aftman",

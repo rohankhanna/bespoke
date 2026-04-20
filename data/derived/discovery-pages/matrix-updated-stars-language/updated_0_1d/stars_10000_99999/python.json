@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 174,
-    "concepts": 121,
-    "observations": 122,
-    "repos": 15,
-    "terms": 156
+    "components": 140,
+    "concepts": 104,
+    "observations": 105,
+    "repos": 10,
+    "terms": 121
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,17 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
-    "axolotl-ai-cloud/axolotl",
-    "browser-use/browser-use",
-    "davila7/claude-code-templates",
+    "aio-libs/aiohttp",
+    "caronc/apprise",
     "django/django",
-    "getzep/graphiti",
     "hesreallyhim/awesome-claude-code",
-    "langchain-ai/deepagents",
     "langchain-ai/langgraph",
-    "mem0ai/mem0",
     "onyx-dot-app/onyx",
     "oraios/serena",
     "sgl-project/sglang",
-    "titanwings/colleague-skill",
-    "vllm-project/vllm",
-    "wshobson/agents"
+    "vega/altair",
+    "vllm-project/vllm"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 726,
-    "concepts": 60,
-    "observations": 60,
-    "repos": 13,
-    "terms": 78
+    "components": 867,
+    "concepts": 81,
+    "observations": 81,
+    "repos": 14,
+    "terms": 99
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "badlogic/pi-mono",
     "everyinc/compound-engineering-plugin",
     "garrytan/gstack",
+    "iOfficeAI/AionUi",
     "langchain-ai/langchainjs",
     "lobehub/lobehub",
     "multica-ai/multica",

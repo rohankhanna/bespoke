@@ -1,22 +1,21 @@
 {
   "counts": {
-    "components": 61,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 7,
-    "terms": 29
+    "components": 60,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 6,
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-19T14:16:25.973890+00:00",
+  "generated_at": "2026-04-20T05:28:45.163139+00:00",
   "repo_ids": [
     "burntsushi/ripgrep",
     "ComposioHQ/awesome-claude-skills",
     "humanlayer/humanlayer",
-    "junegunn/vim-plug",
     "knownsec/404starlink",
     "kyleneideck/backgroundmusic",
     "vercel/satori"
