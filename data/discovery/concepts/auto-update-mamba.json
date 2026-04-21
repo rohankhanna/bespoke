@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto-update mamba"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda-forge/miniforge",
+      "status": "candidate-context",
+      "text": "A conda-forge distribution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/miniforge",
+      "status": "candidate-context",
+      "text": "Auto-update mamba"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/miniforge",
+      "status": "candidate",
+      "text": "Auto-update mamba"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "snake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "black mamba"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "cobra"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "dendroaspis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "dendroaspis augusticeps"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto-update mamba",
+  "concept_id": "auto-update-mamba",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/autoupdate.yml",
+      "source_repo": "conda-forge/miniforge"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto-update mamba",
+      "sense_id": "auto-update-mamba#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

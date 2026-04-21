@@ -127,6 +127,30 @@
       "source_repo": "argotorg/solidity",
       "status": "candidate-context",
       "text": "[![Matrix Chat](https://img.shields.io/badge/Matrix%20-chat-brightgreen?style=plastic&logo=matrix)](https://matrix.to/#/#ethereum_solidity:gitter.im)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/incubator-tuweni",
+      "status": "candidate-context",
+      "text": "Apache Tuweni is a set of libraries and other tools to aid development of blockchain and other decentralized software in Java and other JVM languages. It includes a low-level bytes library, serialization and deserialization codecs (e.g. RLP), various cryptography functions and primatives, and lots of other helpful utilities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-tuweni",
+      "status": "candidate-context",
+      "text": "[![Slack](https://img.shields.io/badge/slack-%23tuweni-72eff8?logo=slack)](https://s.apache.org/slack-invite)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Consensys/ethereum-dissectors",
+      "status": "candidate-context",
+      "text": "\ud83d\udd0dWireshark dissectors for Ethereum devp2p protocols"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Consensys/ethereum-dissectors",
+      "status": "candidate-context",
+      "text": "This repo contains a set of network protocol dissectors for Ethereum that you can load into the widely popular Wireshark to begin inspecting Ethereum traffic."
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "argotorg/solidity",
       "status": "candidate",
       "text": "[![Matrix Chat](https://img.shields.io/badge/Matrix%20-chat-brightgreen?style=plastic&logo=matrix)](https://matrix.to/#/#ethereum_solidity:gitter.im)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-tuweni",
+      "status": "candidate",
+      "text": "[![Slack](https://img.shields.io/badge/slack-%23tuweni-72eff8?logo=slack)](https://s.apache.org/slack-invite)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Consensys/ethereum-dissectors",
+      "status": "candidate",
+      "text": "This repo contains a set of network protocol dissectors for Ethereum that you can load into the widely popular Wireshark to begin inspecting Ethereum traffic."
     }
   ],
   "candidate_related_terms": [
@@ -292,11 +328,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "apache/incubator-tuweni"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "Consensys/ethereum-dissectors"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

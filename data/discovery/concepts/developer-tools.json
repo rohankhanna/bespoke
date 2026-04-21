@@ -85,6 +85,18 @@
       "source_repo": "ichard26/diff-shades",
       "status": "candidate-context",
       "text": "<h1 align=\"center\"><img src=\"./diff-shades-logo.png\" alt=\"diff-shades logo\"></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cortesi/modd",
+      "status": "candidate-context",
+      "text": "A flexible developer tool that runs processes and responds to filesystem changes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortesi/modd",
+      "status": "candidate-context",
+      "text": "[![Travis Build Status](https://travis-ci.org/cortesi/modd.svg?branch=master)](https://travis-ci.org/cortesi/modd)"
     }
   ],
   "candidate_glosses": [
@@ -123,6 +135,12 @@
       "source_repo": "ichard26/diff-shades",
       "status": "candidate",
       "text": "<h1 align=\"center\"><img src=\"./diff-shades-logo.png\" alt=\"diff-shades logo\"></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortesi/modd",
+      "status": "candidate",
+      "text": "[![Travis Build Status](https://travis-ci.org/cortesi/modd.svg?branch=master)](https://travis-ci.org/cortesi/modd)"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +202,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "ichard26/diff-shades"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "cortesi/modd"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

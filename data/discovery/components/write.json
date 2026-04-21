@@ -1,7 +1,7 @@
 {
   "component": "write",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -87,6 +87,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/super-linter.yml",
       "source_repo": "AIxCyberChallenge/example-crs-architecture"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dev-to-main.yml",
+      "source_repo": "alirezarezvani/claude-code-skill-factory"
     }
   ]
 }

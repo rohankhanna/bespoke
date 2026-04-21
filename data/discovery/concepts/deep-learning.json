@@ -109,6 +109,18 @@
       "source_repo": "ray-project/ray",
       "status": "candidate-context",
       "text": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "explosion/spaCy",
+      "status": "candidate-context",
+      "text": "\ud83d\udcab Industrial-strength Natural Language Processing (NLP) in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "explosion/spaCy",
+      "status": "candidate-context",
+      "text": "<a href=\"https://explosion.ai\"><img src=\"https://explosion.ai/assets/img/logo.svg\" width=\"125\" height=\"125\" align=\"right\" /></a>"
     }
   ],
   "candidate_glosses": [
@@ -159,6 +171,12 @@
       "source_repo": "ray-project/ray",
       "status": "candidate",
       "text": ".. image:: https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "explosion/spaCy",
+      "status": "candidate",
+      "text": "<a href=\"https://explosion.ai\"><img src=\"https://explosion.ai/assets/img/logo.svg\" width=\"125\" height=\"125\" align=\"right\" /></a>"
     }
   ],
   "candidate_related_terms": [],
@@ -226,11 +244,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "ray-project/ray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "explosion/spaCy"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

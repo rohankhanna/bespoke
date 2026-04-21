@@ -19,6 +19,30 @@
       "source_repo": "ratatui/ratatui",
       "status": "candidate-context",
       "text": "<details>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ratatui/awesome-ratatui",
+      "status": "candidate-context",
+      "text": "A curated list of TUI apps and libraries built with Ratatui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ratatui/awesome-ratatui",
+      "status": "candidate-context",
+      "text": "<!--lint disable awesome-git-repo-age-->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ratatui/templates",
+      "status": "candidate-context",
+      "text": "Templates for bootstrapping a Rust TUI application with Ratatui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ratatui/templates",
+      "status": "candidate-context",
+      "text": "This repository contains templates for bootstrapping a Rust"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "ratatui/ratatui",
       "status": "candidate",
       "text": "<details>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ratatui/awesome-ratatui",
+      "status": "candidate",
+      "text": "<!--lint disable awesome-git-repo-age-->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ratatui/templates",
+      "status": "candidate",
+      "text": "This repository contains templates for bootstrapping a Rust"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "ratatui/ratatui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "ratatui/awesome-ratatui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "ratatui/templates"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

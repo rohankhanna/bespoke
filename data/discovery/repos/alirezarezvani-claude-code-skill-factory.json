@@ -1,0 +1,530 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-commit-branch-guard.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-commit-branch-guard.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-quality-gate.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-quality-gate.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-quality-gate.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-branch-on-issue.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-branch-on-issue.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-branch-on-issue.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-branch-on-issue.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-branch-on-issue.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-to-main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-to-main.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-to-main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-to-main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-to-main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-to-main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git-governance-audit.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git-governance-audit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hierarchy-dashboard.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-commit-branch-guard.yml",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-commit-branch-guard.yml",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-commit-branch-guard.yml",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "Commit & Branch Guard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-quality-gate.yml",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-quality-gate.yml",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-quality-gate.yml",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-quality-gate.yml",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "CI Quality Gate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "Claude Code Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-branch-on-issue.yml",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-branch-on-issue.yml",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-branch-on-issue.yml",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "Create Branch on Issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-to-main.yml",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-to-main.yml",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-to-main.yml",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev-to-main.yml",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "Release to Main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git-governance-audit.yml",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/git-governance-audit.yml",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/git-governance-audit.yml",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "Git Governance Audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hierarchy-dashboard.yml",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hierarchy-dashboard.yml",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "Hierarchy Dashboard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "Issue Auto-Triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "ai-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "claude-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "claude-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "target": "claude-skills-creator",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:57:42.288007+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16485
+    },
+    {
+      "path": ".github/workflows/ci-commit-branch-guard.yml",
+      "size": 3997
+    },
+    {
+      "path": ".github/workflows/ci-quality-gate.yml",
+      "size": 2915
+    },
+    {
+      "path": ".github/workflows/claude-code-review.yml",
+      "size": 4892
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 2679
+    },
+    {
+      "path": ".github/workflows/create-branch-on-issue.yml",
+      "size": 17592
+    },
+    {
+      "path": ".github/workflows/dev-to-main.yml",
+      "size": 21057
+    },
+    {
+      "path": ".github/workflows/git-governance-audit.yml",
+      "size": 2764
+    },
+    {
+      "path": ".github/workflows/hierarchy-dashboard.yml",
+      "size": 8294
+    },
+    {
+      "path": ".github/workflows/issue-triage.yml",
+      "size": 7812
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "Claude Code Skill Factory \u2014 A powerful open-source toolkit for building and deploying production-ready Claude Skills, Code Agents, custom Slash Commands, and LLM Prompts at scale. Easily generate structured skill templates, automate workflow integration, and accelerate AI agent development with a clean, developer-friendly setup.",
+    "fork": false,
+    "full_name": "alirezarezvani/claude-code-skill-factory",
+    "html_url": "https://github.com/alirezarezvani/claude-code-skill-factory",
+    "language": "Python",
+    "pushed_at": "2025-11-12T15:30:27Z",
+    "stargazers_count": 710,
+    "topics": [
+      "ai-agents",
+      "ai-tools",
+      "claude-ai",
+      "claude-code",
+      "claude-skills",
+      "claude-skills-creator"
+    ],
+    "updated_at": "2026-04-21T11:56:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Commit & Branch Guard",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-commit-branch-guard.yml",
+      "term": "Commit & Branch Guard"
+    },
+    {
+      "context_snippet": "CI Quality Gate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-quality-gate.yml",
+      "term": "CI Quality Gate"
+    },
+    {
+      "context_snippet": "Claude Code Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "term": "Claude Code Review"
+    },
+    {
+      "context_snippet": "Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude Code"
+    },
+    {
+      "context_snippet": "Create Branch on Issue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-branch-on-issue.yml",
+      "term": "Create Branch on Issue"
+    },
+    {
+      "context_snippet": "Release to Main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev-to-main.yml",
+      "term": "Release to Main"
+    },
+    {
+      "context_snippet": "Git Governance Audit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/git-governance-audit.yml",
+      "term": "Git Governance Audit"
+    },
+    {
+      "context_snippet": "Hierarchy Dashboard",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hierarchy-dashboard.yml",
+      "term": "Hierarchy Dashboard"
+    },
+    {
+      "context_snippet": "Issue Auto-Triage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-triage.yml",
+      "term": "Issue Auto-Triage"
+    },
+    {
+      "context_snippet": "A comprehensive toolkit for generating production-ready Claude Skills and Claude Code Agents at scale. This repository provides templates, examples, and powerful prompt engineering systems to create custom skills and specialized agents for Claude AI across all platforms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-tools"
+    },
+    {
+      "context_snippet": "A comprehensive toolkit for generating production-ready Claude Skills and Claude Code Agents at scale. This repository provides templates, examples, and powerful prompt engineering systems to create custom skills and specialized agents for Claude AI across all platforms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-ai"
+    },
+    {
+      "context_snippet": "A comprehensive toolkit for generating production-ready Claude Skills and Claude Code Agents at scale. This repository provides templates, examples, and powerful prompt engineering systems to create custom skills and specialized agents for Claude AI across all platforms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "A comprehensive toolkit for generating production-ready Claude Skills and Claude Code Agents at scale. This repository provides templates, examples, and powerful prompt engineering systems to create custom skills and specialized agents for Claude AI across all platforms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-skills"
+    },
+    {
+      "context_snippet": "A comprehensive toolkit for generating production-ready Claude Skills and Claude Code Agents at scale. This repository provides templates, examples, and powerful prompt engineering systems to create custom skills and specialized agents for Claude AI across all platforms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-skills-creator"
+    }
+  ]
+}

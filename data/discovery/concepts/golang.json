@@ -193,6 +193,84 @@
       "source_repo": "github/git-sizer",
       "status": "candidate-context",
       "text": "_Happy Git repositories are all alike; every unhappy Git repository is unhappy in its own way._ \u2014Linus Tolstoy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moby/moby",
+      "status": "candidate-context",
+      "text": "The Moby Project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gotestyourself/gotestsum",
+      "status": "candidate-context",
+      "text": "'go test' runner with output optimized for humans, JUnit XML for CI integration, and a summary of the test results."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gotestyourself/gotestsum",
+      "status": "candidate-context",
+      "text": "`gotestsum` runs tests using `go test -json`, prints formatted test output, and a summary of the test run."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "golang/protobuf",
+      "status": "candidate-context",
+      "text": "Go support for Google's protocol buffers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golang/protobuf",
+      "status": "candidate-context",
+      "text": "[![GoDev](https://img.shields.io/static/v1?label=godev&message=reference&color=00add8)](https://pkg.go.dev/mod/github.com/golang/protobuf)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm/chart-testing",
+      "status": "candidate-context",
+      "text": "CLI tool for linting and testing Helm charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/chart-testing",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-node-termination-handler",
+      "status": "candidate-context",
+      "text": "Gracefully handle EC2 instance shutdown within Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-node-termination-handler",
+      "status": "candidate-context",
+      "text": "<h1>AWS Node Termination Handler</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "golang/go",
+      "status": "candidate-context",
+      "text": "The Go programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golang/go",
+      "status": "candidate-context",
+      "text": "Go is an open source programming language that makes it easy to build simple,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avelino/awesome-go",
+      "status": "candidate-context",
+      "text": "A curated list of awesome Go frameworks, libraries and software"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avelino/awesome-go",
+      "status": "candidate-context",
+      "text": "<a href=\"https://awesome-go.com/\"><img align=\"right\" src=\"https://github.com/avelino/awesome-go/raw/main/tmpl/assets/logo.png\" alt=\"awesome-go\" title=\"awesome-go\" /></a>"
     }
   ],
   "candidate_glosses": [
@@ -285,6 +363,48 @@
       "source_repo": "github/git-sizer",
       "status": "candidate",
       "text": "_Happy Git repositories are all alike; every unhappy Git repository is unhappy in its own way._ \u2014Linus Tolstoy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moby/moby",
+      "status": "candidate",
+      "text": "The Moby Project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gotestyourself/gotestsum",
+      "status": "candidate",
+      "text": "`gotestsum` runs tests using `go test -json`, prints formatted test output, and a summary of the test run."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golang/protobuf",
+      "status": "candidate",
+      "text": "[![GoDev](https://img.shields.io/static/v1?label=godev&message=reference&color=00add8)](https://pkg.go.dev/mod/github.com/golang/protobuf)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/chart-testing",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-node-termination-handler",
+      "status": "candidate",
+      "text": "<h1>AWS Node Termination Handler</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golang/go",
+      "status": "candidate",
+      "text": "Go is an open source programming language that makes it easy to build simple,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avelino/awesome-go",
+      "status": "candidate",
+      "text": "<a href=\"https://awesome-go.com/\"><img align=\"right\" src=\"https://github.com/avelino/awesome-go/raw/main/tmpl/assets/logo.png\" alt=\"awesome-go\" title=\"awesome-go\" /></a>"
     }
   ],
   "candidate_related_terms": [],
@@ -400,11 +520,53 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "github/git-sizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "gotestyourself/gotestsum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "golang/protobuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "helm/chart-testing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "aws/aws-node-termination-handler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "golang/go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "avelino/awesome-go"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

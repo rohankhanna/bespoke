@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2696\ufe0f The CNCF Technical Oversight Committee (TOC) is the technical governing body of the CNCF Foundation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The CNCF TOC is the technical governing body of the CNCF. It admits and oversees all projects in the CNCF and has a mandate to facilitate driving neutral consensus for:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The CNCF TOC is the technical governing body of the CNCF. It admits and oversees all projects in the CNCF and has a mandate to facilitate driving neutral consensus for:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cloudnative",
+      "sense_id": "cloudnative#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cloudnative",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cloudnative",
+  "observation_id": "ad47606cbddb0760",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T18:51:25.552552+00:00",
+  "observed_text": "cloudnative",
+  "source_context_snippet": "The CNCF TOC is the technical governing body of the CNCF. It admits and oversees all projects in the CNCF and has a mandate to facilitate driving neutral consensus for:",
+  "source_file": null,
+  "source_repo": "cncf/toc",
+  "source_repo_description": "\u2696\ufe0f The CNCF Technical Oversight Committee (TOC) is the technical governing body of the CNCF Foundation."
+}

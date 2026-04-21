@@ -1,0 +1,74 @@
+{
+  "components": [
+    {
+      "component": "standard/.github/.github/workflows/add-to-project.yaml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "standard/brackets-standard",
+      "target": "feross/standard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "standard/brackets-standard",
+      "target": "ishamf/brackets-standard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "source_repo": "standard/brackets-standard",
+      "target": "standard/.github/.github/workflows/add-to-project.yaml@master",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:52:30.555501+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 385
+    },
+    {
+      "path": "package.json",
+      "size": 662
+    },
+    {
+      "path": ".github/workflows/add-to-project.yaml",
+      "size": 188
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Brackets extension for standard, a simple linter with sensible defaults. No longer maintained, Try using https://github.com/zaggino/brackets-eslint and https://github.com/feross/eslint-config-standard",
+    "fork": false,
+    "full_name": "standard/brackets-standard",
+    "html_url": "https://github.com/standard/brackets-standard",
+    "language": "JavaScript",
+    "pushed_at": "2023-09-16T07:31:13Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2023-09-25T10:24:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "feross/standard",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ishamf/brackets-standard",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": []
+}

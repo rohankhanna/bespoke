@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ai-research"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eudk/awesome-ai-tools",
+      "status": "candidate-context",
+      "text": "\ud83d\udd34 VERY LARGE AI TOOL LIST! \ud83d\udd34  Curated list of AI Tools  - Updated 2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eudk/awesome-ai-tools",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://img.shields.io/badge/Awesome-AI-000000.svg?logo=github&labelColor=24292e)](#)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eudk/awesome-ai-tools",
+      "status": "candidate",
+      "text": "[![Awesome](https://img.shields.io/badge/Awesome-AI-000000.svg?logo=github&labelColor=24292e)](#)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ai-research",
+  "concept_id": "ai-research",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "eudk/awesome-ai-tools"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ai-research",
+      "sense_id": "ai-research#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

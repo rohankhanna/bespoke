@@ -43,6 +43,18 @@
       "source_repo": "charmbracelet/log",
       "status": "candidate-context",
       "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sirupsen/logrus",
+      "status": "candidate-context",
+      "text": "Structured, pluggable logging for Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sirupsen/logrus",
+      "status": "candidate-context",
+      "text": "Logrus is a structured logger for Go (golang), completely API compatible with"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "charmbracelet/log",
       "status": "candidate",
       "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sirupsen/logrus",
+      "status": "candidate",
+      "text": "Logrus is a structured logger for Go (golang), completely API compatible with"
     }
   ],
   "candidate_related_terms": [
@@ -130,11 +148,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "charmbracelet/log"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "sirupsen/logrus"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

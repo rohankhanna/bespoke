@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apache Tuweni is a set of libraries and other tools to aid development of blockchain and other decentralized software in Java and other JVM languages. It includes a low-level bytes library, serialization and deserialization codecs (e.g. RLP), various cryptography functions and primatives, and lots of other helpful utilities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "assemble"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "assemble"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002196,
+      "status": "candidate",
+      "text": "put together"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001117,
+      "status": "candidate",
+      "text": "forgather"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000608,
+      "status": "candidate",
+      "text": "gather"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999752,
+      "status": "candidate",
+      "text": "piece"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999427,
+      "status": "candidate",
+      "text": "foregather"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "assemble",
+      "sense_id": "assemble#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23057,
+      "status": "candidate",
+      "text": "piece"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20040,
+      "status": "candidate",
+      "text": "set up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16051,
+      "status": "candidate",
+      "text": "meet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12045,
+      "status": "candidate",
+      "text": "gather"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10023,
+      "status": "candidate",
+      "text": "put together"
+    }
+  ],
+  "concept_id": "assemble",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "assemble",
+  "observation_id": "b0b2bf1b1dcea4f3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T18:51:25.552552+00:00",
+  "observed_text": "assemble",
+  "source_context_snippet": "assemble",
+  "source_file": ".github/workflows/assemble.yml",
+  "source_repo": "apache/incubator-tuweni",
+  "source_repo_description": "Apache Tuweni is a set of libraries and other tools to aid development of blockchain and other decentralized software in Java and other JVM languages. It includes a low-level bytes library, serialization and deserialization codecs (e.g. RLP), various cryptography functions and primatives, and lots of other helpful utilities."
+}

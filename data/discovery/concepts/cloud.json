@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "cloud"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cncf/toc",
+      "status": "candidate-context",
+      "text": "\u2696\ufe0f The CNCF Technical Oversight Committee (TOC) is the technical governing body of the CNCF Foundation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/toc",
+      "status": "candidate-context",
+      "text": "The CNCF TOC is the technical governing body of the CNCF. It admits and oversees all projects in the CNCF and has a mandate to facilitate driving neutral consensus for:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/toc",
+      "status": "candidate",
+      "text": "The CNCF TOC is the technical governing body of the CNCF. It admits and oversees all projects in the CNCF and has a mandate to facilitate driving neutral consensus for:"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005091,
+      "status": "candidate",
+      "text": "fog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003860,
+      "status": "candidate",
+      "text": "mist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985382,
+      "status": "candidate",
+      "text": "befog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985212,
+      "status": "candidate",
+      "text": "haze over"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39980563,
+      "status": "candidate",
+      "text": "becloud"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 91039,
+      "status": "candidate",
+      "text": "obscure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30038,
+      "status": "candidate",
+      "text": "overcast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29059,
+      "status": "candidate",
+      "text": "mist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24037,
+      "status": "candidate",
+      "text": "corrupt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21046,
+      "status": "candidate",
+      "text": "taint"
+    }
+  ],
+  "canonical_name": "cloud",
+  "concept_id": "cloud",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "cncf/toc"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cloud",
+      "sense_id": "cloud#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

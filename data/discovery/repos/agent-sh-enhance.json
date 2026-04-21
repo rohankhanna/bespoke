@@ -1,0 +1,262 @@
+{
+  "components": [
+    {
+      "component": "actions/add-to-project@244f685bbc3b7adfa8466e08b698b5577571133e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yml"
+    },
+    {
+      "component": "agent-sh/.github/.github/workflows/ci-node.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "agent-sh/.github/.github/workflows/ci-agnix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@f64219702d7454cf29fe32a74104be6ed43dc637",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@f64219702d7454cf29fe32a74104be6ed43dc637",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "agent-sh/enhance",
+      "target": "actions/add-to-project@244f685bbc3b7adfa8466e08b698b5577571133e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "agent-sh/enhance",
+      "target": "Add to project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "agent-sh/enhance",
+      "target": "agent-sh/.github/.github/workflows/ci-node.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "agent-sh/enhance",
+      "target": "agent-sh/.github/.github/workflows/ci-agnix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "agent-sh/enhance",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "agent-sh/enhance",
+      "target": "anthropics/claude-code-action@f64219702d7454cf29fe32a74104be6ed43dc637",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "agent-sh/enhance",
+      "target": "Claude Code - Automated PR Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "agent-sh/enhance",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "agent-sh/enhance",
+      "target": "anthropics/claude-code-action@f64219702d7454cf29fe32a74104be6ed43dc637",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "agent-sh/enhance",
+      "target": "Claude Code - @mentions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/enhance",
+      "target": "code-quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/enhance",
+      "target": "devtools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/enhance",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/enhance",
+      "target": "plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/enhance",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/enhance",
+      "target": "validation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:54:57.314190+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5981
+    },
+    {
+      "path": "package.json",
+      "size": 578
+    },
+    {
+      "path": ".github/workflows/add-to-project.yml",
+      "size": 531
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 249
+    },
+    {
+      "path": ".github/workflows/claude-code-review.yml",
+      "size": 2728
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 1837
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Plugin structure and tool use analyzer - validates plugin.json, MCP tools, and security patterns",
+    "fork": false,
+    "full_name": "agent-sh/enhance",
+    "html_url": "https://github.com/agent-sh/enhance",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-14T23:26:52Z",
+    "stargazers_count": 3,
+    "topics": [
+      "ai",
+      "claude",
+      "code-quality",
+      "devtools",
+      "javascript",
+      "linter",
+      "mcp",
+      "plugin",
+      "security",
+      "validation"
+    ],
+    "updated_at": "2026-04-14T23:26:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Add to project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "term": "Add to project"
+    },
+    {
+      "context_snippet": "Claude Code - Automated PR Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "term": "Claude Code - Automated PR Review"
+    },
+    {
+      "context_snippet": "Claude Code - @mentions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude Code - @mentions"
+    },
+    {
+      "context_snippet": "Master enhancement orchestrator for plugins, agents, prompts, docs, hooks, and skills.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-quality"
+    },
+    {
+      "context_snippet": "Master enhancement orchestrator for plugins, agents, prompts, docs, hooks, and skills.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devtools"
+    },
+    {
+      "context_snippet": "Master enhancement orchestrator for plugins, agents, prompts, docs, hooks, and skills.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "Master enhancement orchestrator for plugins, agents, prompts, docs, hooks, and skills.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    },
+    {
+      "context_snippet": "Master enhancement orchestrator for plugins, agents, prompts, docs, hooks, and skills.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "Master enhancement orchestrator for plugins, agents, prompts, docs, hooks, and skills.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "validation"
+    }
+  ]
+}

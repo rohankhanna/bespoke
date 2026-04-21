@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A concise grammar of interactive graphics, built on Vega."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![npm version](https://img.shields.io/npm/v/vega-lite.svg)](https://www.npmjs.com/package/vega-lite) [![Build Status](https://github.com/vega/vega-lite/workflows/Test/badge.svg)](https://github.com/vega/vega-lite/actions) [![codecov](https://codecov.io/gh/vega/vega-lite/branch/\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/vega-lite.svg)](https://www.npmjs.com/package/vega-lite) [![Build Status](https://github.com/vega/vega-lite/workflows/Test/badge.svg)](https://github.com/vega/vega-lite/actions) [![codecov](https://codecov.io/gh/vega/vega-lite/branch/\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10044918,
+      "status": "candidate",
+      "text": "albums"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10044918,
+      "status": "candidate",
+      "text": "blackboards"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10044918,
+      "status": "candidate",
+      "text": "boards"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10044918,
+      "status": "candidate",
+      "text": "boxes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10044918,
+      "status": "candidate",
+      "text": "canvas"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "charts",
+      "sense_id": "charts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "charts",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "charts",
+  "observation_id": "f0e443a8735a4de7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T18:51:25.552552+00:00",
+  "observed_text": "charts",
+  "source_context_snippet": "[![npm version](https://img.shields.io/npm/v/vega-lite.svg)](https://www.npmjs.com/package/vega-lite) [![Build Status](https://github.com/vega/vega-lite/workflows/Test/badge.svg)](https://github.com/vega/vega-lite/actions) [![codecov](https://codecov.io/gh/vega/vega-lite/branch/\u2026",
+  "source_file": null,
+  "source_repo": "vega/vega-lite",
+  "source_repo_description": "A concise grammar of interactive graphics, built on Vega."
+}

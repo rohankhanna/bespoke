@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A lightweight REST framework that wraps the Apprise Notification Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Take advantage of [Apprise](https://github.com/caronc/apprise) through your network with a user-friendly API."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Take advantage of [Apprise](https://github.com/caronc/apprise) through your network with a user-friendly API."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048747,
+      "status": "candidate",
+      "text": "notify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048710,
+      "status": "candidate",
+      "text": "advise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046923,
+      "status": "candidate",
+      "text": "instruct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29992555,
+      "status": "candidate",
+      "text": "send word"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29990296,
+      "status": "candidate",
+      "text": "give notice"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "apprise",
+      "sense_id": "apprise#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21044,
+      "status": "candidate",
+      "text": "advise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10038,
+      "status": "candidate",
+      "text": "instruct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10032,
+      "status": "candidate",
+      "text": "notify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5023,
+      "status": "candidate",
+      "text": "apprize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2014,
+      "status": "candidate",
+      "text": "send word"
+    }
+  ],
+  "concept_id": "apprise",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "apprise",
+  "observation_id": "4e7f4e27cb330264",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T18:51:25.552552+00:00",
+  "observed_text": "apprise",
+  "source_context_snippet": "Take advantage of [Apprise](https://github.com/caronc/apprise) through your network with a user-friendly API.",
+  "source_file": null,
+  "source_repo": "caronc/apprise-api",
+  "source_repo_description": "A lightweight REST framework that wraps the Apprise Notification Library"
+}

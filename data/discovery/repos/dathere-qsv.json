@@ -1,0 +1,888 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clear-caches.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devskim.yml"
+    },
+    {
+      "component": "microsoft/DevSkim-Action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devskim.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devskim.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-clone-count.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-clone-count.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-nightly.yml"
+    },
+    {
+      "component": "WyriHaximus/github-action-get-previous-tag@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-nightly.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-nightly.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-nightly.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-nightly.yml"
+    },
+    {
+      "component": "mobiledevops/secret-to-file-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-nightly.yml"
+    },
+    {
+      "component": "robinraju/release-downloader@v1.13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-nightly.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-qsvpy.yml"
+    },
+    {
+      "component": "WyriHaximus/github-action-get-previous-tag@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-qsvpy.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-qsvpy.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-qsvpy.yml"
+    },
+    {
+      "component": "actions/setup-python@v6.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-qsvpy.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-qsvpy.yml"
+    },
+    {
+      "component": "actions/setup-python@v6.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-qsvpy.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-qsvpy.yml"
+    },
+    {
+      "component": "actions/setup-python@v6.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-qsvpy.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-qsvpy.yml"
+    },
+    {
+      "component": "mobiledevops/secret-to-file-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-qsvpy.yml"
+    },
+    {
+      "component": "robinraju/release-downloader@v1.13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-qsvpy.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-qsvpy.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish.yml"
+    },
+    {
+      "component": "WyriHaximus/github-action-get-previous-tag@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish.yml"
+    },
+    {
+      "component": "mobiledevops/secret-to-file-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dathere/qsv",
+      "target": "dathere/datapusher-plus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dathere/qsv",
+      "target": "01mf02/jaq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dathere/qsv",
+      "target": "dathere/qsv-easy-windows-installer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dathere/qsv",
+      "target": "burntsushi/quickcheck",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "dathere/qsv",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "dathere/qsv",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "dathere/qsv",
+      "target": "Claude Code Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "dathere/qsv",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "dathere/qsv",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "dathere/qsv",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clear-caches.yml",
+      "source_repo": "dathere/qsv",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clear-caches.yml",
+      "source_repo": "dathere/qsv",
+      "target": "Clear caches",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devskim.yml",
+      "source_repo": "dathere/qsv",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devskim.yml",
+      "source_repo": "dathere/qsv",
+      "target": "microsoft/DevSkim-Action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devskim.yml",
+      "source_repo": "dathere/qsv",
+      "target": "github/codeql-action/upload-sarif@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/devskim.yml",
+      "source_repo": "dathere/qsv",
+      "target": "DevSkim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-clone-count.yml",
+      "source_repo": "dathere/qsv",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-clone-count.yml",
+      "source_repo": "dathere/qsv",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-clone-count.yml",
+      "source_repo": "dathere/qsv",
+      "target": "GitHub Clone Count Update Everyday",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-nightly.yml",
+      "source_repo": "dathere/qsv",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-nightly.yml",
+      "source_repo": "dathere/qsv",
+      "target": "WyriHaximus/github-action-get-previous-tag@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-nightly.yml",
+      "source_repo": "dathere/qsv",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-nightly.yml",
+      "source_repo": "dathere/qsv",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-nightly.yml",
+      "source_repo": "dathere/qsv",
+      "target": "mobiledevops/secret-to-file-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-nightly.yml",
+      "source_repo": "dathere/qsv",
+      "target": "robinraju/release-downloader@v1.13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-nightly.yml",
+      "source_repo": "dathere/qsv",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-nightly.yml",
+      "source_repo": "dathere/qsv",
+      "target": "Publish Apple Silicon - Nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-qsvpy.yml",
+      "source_repo": "dathere/qsv",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-qsvpy.yml",
+      "source_repo": "dathere/qsv",
+      "target": "WyriHaximus/github-action-get-previous-tag@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-qsvpy.yml",
+      "source_repo": "dathere/qsv",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-qsvpy.yml",
+      "source_repo": "dathere/qsv",
+      "target": "actions/setup-python@v6.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-qsvpy.yml",
+      "source_repo": "dathere/qsv",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-qsvpy.yml",
+      "source_repo": "dathere/qsv",
+      "target": "mobiledevops/secret-to-file-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-qsvpy.yml",
+      "source_repo": "dathere/qsv",
+      "target": "robinraju/release-downloader@v1.13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-qsvpy.yml",
+      "source_repo": "dathere/qsv",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-qsvpy.yml",
+      "source_repo": "dathere/qsv",
+      "target": "Publish qsvpy Apple Silicon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish.yml",
+      "source_repo": "dathere/qsv",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish.yml",
+      "source_repo": "dathere/qsv",
+      "target": "WyriHaximus/github-action-get-previous-tag@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish.yml",
+      "source_repo": "dathere/qsv",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish.yml",
+      "source_repo": "dathere/qsv",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish.yml",
+      "source_repo": "dathere/qsv",
+      "target": "mobiledevops/secret-to-file-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish.yml",
+      "source_repo": "dathere/qsv",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish.yml",
+      "source_repo": "dathere/qsv",
+      "target": "Publish Apple Silicon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dathere/qsv",
+      "target": "ckan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dathere/qsv",
+      "target": "data-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dathere/qsv",
+      "target": "data-wrangling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dathere/qsv",
+      "target": "dcat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dathere/qsv",
+      "target": "excel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dathere/qsv",
+      "target": "fair-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dathere/qsv",
+      "target": "fairification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dathere/qsv",
+      "target": "geocode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dathere/qsv",
+      "target": "luau",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dathere/qsv",
+      "target": "metadata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dathere/qsv",
+      "target": "opendata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dathere/qsv",
+      "target": "parquet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dathere/qsv",
+      "target": "polars",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dathere/qsv",
+      "target": "sampling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dathere/qsv",
+      "target": "statistics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dathere/qsv",
+      "target": "stats-sighting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dathere/qsv",
+      "target": "timeseries",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T19:00:55.253603+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 69687
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 15363
+    },
+    {
+      "path": ".github/workflows/claude-code-review.yml",
+      "size": 1470
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 1924
+    },
+    {
+      "path": ".github/workflows/clear-caches.yml",
+      "size": 430
+    },
+    {
+      "path": ".github/workflows/devskim.yml",
+      "size": 875
+    },
+    {
+      "path": ".github/workflows/github-clone-count.yml",
+      "size": 3682
+    },
+    {
+      "path": ".github/workflows/macOS-arm64-selfhosted-publish-nightly.yml",
+      "size": 5142
+    },
+    {
+      "path": ".github/workflows/macOS-arm64-selfhosted-publish-qsvpy.yml",
+      "size": 5921
+    },
+    {
+      "path": ".github/workflows/macOS-arm64-selfhosted-publish.yml",
+      "size": 4858
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Blazing-fast Data-Wrangling toolkit",
+    "fork": false,
+    "full_name": "dathere/qsv",
+    "html_url": "https://github.com/dathere/qsv",
+    "language": "Rust",
+    "pushed_at": "2026-04-21T12:00:29Z",
+    "stargazers_count": 3609,
+    "topics": [
+      "ai",
+      "ckan",
+      "csv",
+      "data-engineering",
+      "data-wrangling",
+      "dcat",
+      "excel",
+      "fair-data",
+      "fairification",
+      "geocode",
+      "luau",
+      "metadata",
+      "opendata",
+      "parquet",
+      "polars",
+      "sampling",
+      "sql",
+      "statistics",
+      "stats-sighting",
+      "timeseries"
+    ],
+    "updated_at": "2026-04-21T12:30:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "01mf02/jaq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "burntsushi/quickcheck",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dathere/datapusher-plus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dathere/qsv-easy-windows-installer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Claude Code Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "term": "Claude Code Review"
+    },
+    {
+      "context_snippet": "Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude Code"
+    },
+    {
+      "context_snippet": "Clear caches",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clear-caches.yml",
+      "term": "Clear caches"
+    },
+    {
+      "context_snippet": "DevSkim",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/devskim.yml",
+      "term": "DevSkim"
+    },
+    {
+      "context_snippet": "GitHub Clone Count Update Everyday",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-clone-count.yml",
+      "term": "GitHub Clone Count Update Everyday"
+    },
+    {
+      "context_snippet": "Publish Apple Silicon - Nightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-nightly.yml",
+      "term": "Publish Apple Silicon - Nightly"
+    },
+    {
+      "context_snippet": "Publish qsvpy Apple Silicon",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-qsvpy.yml",
+      "term": "Publish qsvpy Apple Silicon"
+    },
+    {
+      "context_snippet": "Publish Apple Silicon",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macOS-arm64-selfhosted-publish.yml",
+      "term": "Publish Apple Silicon"
+    },
+    {
+      "context_snippet": "[![Linux build status](https://github.com/dathere/qsv/actions/workflows/rust.yml/badge.svg)](https://github.com/dathere/qsv/actions/workflows/rust.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ckan"
+    },
+    {
+      "context_snippet": "[![Linux build status](https://github.com/dathere/qsv/actions/workflows/rust.yml/badge.svg)](https://github.com/dathere/qsv/actions/workflows/rust.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-engineering"
+    },
+    {
+      "context_snippet": "[![Linux build status](https://github.com/dathere/qsv/actions/workflows/rust.yml/badge.svg)](https://github.com/dathere/qsv/actions/workflows/rust.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-wrangling"
+    },
+    {
+      "context_snippet": "[![Linux build status](https://github.com/dathere/qsv/actions/workflows/rust.yml/badge.svg)](https://github.com/dathere/qsv/actions/workflows/rust.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dcat"
+    },
+    {
+      "context_snippet": "[![Linux build status](https://github.com/dathere/qsv/actions/workflows/rust.yml/badge.svg)](https://github.com/dathere/qsv/actions/workflows/rust.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "excel"
+    },
+    {
+      "context_snippet": "[![Linux build status](https://github.com/dathere/qsv/actions/workflows/rust.yml/badge.svg)](https://github.com/dathere/qsv/actions/workflows/rust.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fair-data"
+    },
+    {
+      "context_snippet": "[![Linux build status](https://github.com/dathere/qsv/actions/workflows/rust.yml/badge.svg)](https://github.com/dathere/qsv/actions/workflows/rust.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fairification"
+    },
+    {
+      "context_snippet": "[![Linux build status](https://github.com/dathere/qsv/actions/workflows/rust.yml/badge.svg)](https://github.com/dathere/qsv/actions/workflows/rust.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geocode"
+    },
+    {
+      "context_snippet": "[![Linux build status](https://github.com/dathere/qsv/actions/workflows/rust.yml/badge.svg)](https://github.com/dathere/qsv/actions/workflows/rust.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "luau"
+    },
+    {
+      "context_snippet": "[![Linux build status](https://github.com/dathere/qsv/actions/workflows/rust.yml/badge.svg)](https://github.com/dathere/qsv/actions/workflows/rust.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metadata"
+    },
+    {
+      "context_snippet": "[![Linux build status](https://github.com/dathere/qsv/actions/workflows/rust.yml/badge.svg)](https://github.com/dathere/qsv/actions/workflows/rust.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opendata"
+    },
+    {
+      "context_snippet": "[![Linux build status](https://github.com/dathere/qsv/actions/workflows/rust.yml/badge.svg)](https://github.com/dathere/qsv/actions/workflows/rust.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parquet"
+    },
+    {
+      "context_snippet": "[![Linux build status](https://github.com/dathere/qsv/actions/workflows/rust.yml/badge.svg)](https://github.com/dathere/qsv/actions/workflows/rust.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polars"
+    },
+    {
+      "context_snippet": "[![Linux build status](https://github.com/dathere/qsv/actions/workflows/rust.yml/badge.svg)](https://github.com/dathere/qsv/actions/workflows/rust.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sampling"
+    },
+    {
+      "context_snippet": "[![Linux build status](https://github.com/dathere/qsv/actions/workflows/rust.yml/badge.svg)](https://github.com/dathere/qsv/actions/workflows/rust.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statistics"
+    },
+    {
+      "context_snippet": "[![Linux build status](https://github.com/dathere/qsv/actions/workflows/rust.yml/badge.svg)](https://github.com/dathere/qsv/actions/workflows/rust.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stats-sighting"
+    },
+    {
+      "context_snippet": "[![Linux build status](https://github.com/dathere/qsv/actions/workflows/rust.yml/badge.svg)](https://github.com/dathere/qsv/actions/workflows/rust.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "timeseries"
+    }
+  ]
+}

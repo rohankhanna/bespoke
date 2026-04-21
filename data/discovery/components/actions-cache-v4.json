@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@v4",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -437,6 +437,61 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/verify-windows.yml",
       "source_repo": "pnggroup/libpng"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml",
+      "source_repo": "wolfpld/tracy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "wolfpld/tracy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "wolfpld/tracy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mingw.yml",
+      "source_repo": "wolfpld/tracy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "wolfpld/tracy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "8144225309/SuperScalar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "aws/aws-node-termination-handler"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "vibhorkum/pg_background"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "absadiki/pywhispercpp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mybigday/llama.rn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "microsoft/python-type-stubs"
     }
   ]
 }

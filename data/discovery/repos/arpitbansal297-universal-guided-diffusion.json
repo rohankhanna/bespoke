@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arpitbansal297/Universal-Guided-Diffusion",
+      "target": "compvis/stable-diffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "arpitbansal297/Universal-Guided-Diffusion",
+      "target": "openai/guided-diffusion",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-21T19:01:06.877707+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9699
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "arpitbansal297/Universal-Guided-Diffusion",
+    "html_url": "https://github.com/arpitbansal297/Universal-Guided-Diffusion",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-07-11T17:07:59Z",
+    "stargazers_count": 509,
+    "topics": [],
+    "updated_at": "2026-03-16T02:34:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "compvis/stable-diffusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/guided-diffusion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

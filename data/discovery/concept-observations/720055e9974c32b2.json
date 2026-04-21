@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Container Runtime Interface (CRI) \u2013 a plugin interface which enables kubelet to use a wide variety of container runtimes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> \u26a0\ufe0f **This is an automatically published [staged repository](https://git.k8s.io/kubernetes/staging#external-repository-staging-area) for Kubernetes**."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> \u26a0\ufe0f **This is an automatically published [staged repository](https://git.k8s.io/kubernetes/staging#external-repository-staging-area) for Kubernetes**."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "k8s-staging",
+      "sense_id": "k8s-staging#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "k8s-staging",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "k8s-staging",
+  "observation_id": "720055e9974c32b2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T18:51:25.552552+00:00",
+  "observed_text": "k8s-staging",
+  "source_context_snippet": "> \u26a0\ufe0f **This is an automatically published [staged repository](https://git.k8s.io/kubernetes/staging#external-repository-staging-area) for Kubernetes**.",
+  "source_file": null,
+  "source_repo": "kubernetes/cri-api",
+  "source_repo_description": "Container Runtime Interface (CRI) \u2013 a plugin interface which enables kubelet to use a wide variety of container runtimes."
+}

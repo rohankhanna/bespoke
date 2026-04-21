@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "projects"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/AI-Projects-Index",
+      "status": "candidate-context",
+      "text": "Index of AI project related indices (master index)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Projects-Index",
+      "status": "candidate-context",
+      "text": "[![GitHub](https://img.shields.io/badge/GitHub-danielrosehill-blue?style=flat-square&logo=github)](https://github.com/danielrosehill)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Projects-Index",
+      "status": "candidate",
+      "text": "[![GitHub](https://img.shields.io/badge/GitHub-danielrosehill-blue?style=flat-square&logo=github)](https://github.com/danielrosehill)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995423,
+      "status": "candidate",
+      "text": "propose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39993725,
+      "status": "candidate",
+      "text": "see"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991857,
+      "status": "candidate",
+      "text": "task"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986649,
+      "status": "candidate",
+      "text": "externalize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39984472,
+      "status": "candidate",
+      "text": "contrive"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "projects",
+  "concept_id": "projects",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Projects-Index"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "projects",
+      "sense_id": "projects#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

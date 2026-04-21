@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-21T18:51:52.120650+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5846
+    },
+    {
+      "path": "Dockerfile",
+      "size": 434
+    },
+    {
+      "path": "go.mod",
+      "size": 1522
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "The versioned, forkable, syncable database",
+    "fork": false,
+    "full_name": "attic-labs/noms",
+    "html_url": "https://github.com/attic-labs/noms",
+    "language": "Go",
+    "pushed_at": "2021-08-27T22:44:22Z",
+    "stargazers_count": 7428,
+    "topics": [],
+    "updated_at": "2026-04-20T07:47:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

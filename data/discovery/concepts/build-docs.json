@@ -32,6 +32,18 @@
       "source_repo": "OpenZeppelin/openzeppelin-contracts",
       "status": "candidate-context",
       "text": "Build Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda-forge/miniforge",
+      "status": "candidate-context",
+      "text": "A conda-forge distribution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/miniforge",
+      "status": "candidate-context",
+      "text": "Build docs"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
       "source_repo": "OpenZeppelin/openzeppelin-contracts",
       "status": "candidate",
       "text": "Build Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/miniforge",
+      "status": "candidate",
+      "text": "Build docs"
     }
   ],
   "candidate_related_terms": [
@@ -107,11 +125,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "OpenZeppelin/openzeppelin-contracts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "conda-forge/miniforge"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

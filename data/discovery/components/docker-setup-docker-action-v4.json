@@ -1,12 +1,17 @@
 {
   "component": "docker/setup-docker-action@v4",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/integration.yml",
       "source_repo": "Layr-Labs/eigensdk-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-postgres-client-tests.yaml",
+      "source_repo": "dolthub/doltgresql"
     }
   ]
 }

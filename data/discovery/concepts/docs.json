@@ -154,6 +154,30 @@
       "source_repo": "crytic/crytic-compile",
       "status": "candidate-context",
       "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/incubator-tuweni",
+      "status": "candidate-context",
+      "text": "Apache Tuweni is a set of libraries and other tools to aid development of blockchain and other decentralized software in Java and other JVM languages. It includes a low-level bytes library, serialization and deserialization codecs (e.g. RLP), various cryptography functions and primatives, and lots of other helpful utilities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-tuweni",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "absadiki/pywhispercpp",
+      "status": "candidate-context",
+      "text": "Python bindings for whisper.cpp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "absadiki/pywhispercpp",
+      "status": "candidate-context",
+      "text": "docs"
     }
   ],
   "candidate_glosses": [
@@ -220,6 +244,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "crytic/crytic-compile",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-tuweni",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "absadiki/pywhispercpp",
       "status": "candidate",
       "text": "docs"
     }
@@ -348,11 +384,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/doc.yml",
       "source_repo": "crytic/crytic-compile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/docs.yml.disable",
+      "source_repo": "apache/incubator-tuweni"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "absadiki/pywhispercpp"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

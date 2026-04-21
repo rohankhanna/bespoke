@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/VILA",
+      "target": "efficient-large-model/vila",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/VILA",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/VILA",
+      "target": "allenai/mmc4",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/VILA",
+      "target": "bytedance/shot2story",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-21T18:51:25.552552+00:00",
+  "source_repo": "NVlabs/VILA"
+}

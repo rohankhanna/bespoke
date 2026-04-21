@@ -1,0 +1,193 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/next-check.yaml"
+    },
+    {
+      "component": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/next-check.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@671740ac38dd9b0130fbe1cec585b89eea48d3de",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/next-check.yaml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yaml"
+    },
+    {
+      "component": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@671740ac38dd9b0130fbe1cec585b89eea48d3de",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yaml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@e435ccd777264be153ace6237001ef4d979d3a7a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/next-check.yaml",
+      "source_repo": "feloy/tesh",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/next-check.yaml",
+      "source_repo": "feloy/tesh",
+      "target": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/next-check.yaml",
+      "source_repo": "feloy/tesh",
+      "target": "codecov/codecov-action@671740ac38dd9b0130fbe1cec585b89eea48d3de",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/next-check.yaml",
+      "source_repo": "feloy/tesh",
+      "target": "next-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yaml",
+      "source_repo": "feloy/tesh",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yaml",
+      "source_repo": "feloy/tesh",
+      "target": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yaml",
+      "source_repo": "feloy/tesh",
+      "target": "codecov/codecov-action@671740ac38dd9b0130fbe1cec585b89eea48d3de",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-check.yaml",
+      "source_repo": "feloy/tesh",
+      "target": "pr-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "feloy/tesh",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "feloy/tesh",
+      "target": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "feloy/tesh",
+      "target": "goreleaser/goreleaser-action@e435ccd777264be153ace6237001ef4d979d3a7a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "feloy/tesh",
+      "target": "goreleaser",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:58:49.186271+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10617
+    },
+    {
+      "path": "go.mod",
+      "size": 315
+    },
+    {
+      "path": ".github/workflows/next-check.yaml",
+      "size": 1078
+    },
+    {
+      "path": ".github/workflows/pr-check.yaml",
+      "size": 1490
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 733
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Test your shell scripts",
+    "fork": false,
+    "full_name": "feloy/tesh",
+    "html_url": "https://github.com/feloy/tesh",
+    "language": "Go",
+    "pushed_at": "2026-02-16T13:20:48Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-04-02T01:19:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "next-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/next-check.yaml",
+      "term": "next-check"
+    },
+    {
+      "context_snippet": "pr-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-check.yaml",
+      "term": "pr-check"
+    },
+    {
+      "context_snippet": "goreleaser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "goreleaser"
+    }
+  ]
+}

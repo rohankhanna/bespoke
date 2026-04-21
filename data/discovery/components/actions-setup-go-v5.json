@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@v5",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -447,6 +447,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test-processor.yml",
       "source_repo": "1Password/for-open-source"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bump-dependency.yaml",
+      "source_repo": "dolthub/doltgresql"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cd-release.yaml",
+      "source_repo": "dolthub/doltgresql"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-bats-unix.yaml",
+      "source_repo": "dolthub/doltgresql"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-check-repo.yaml",
+      "source_repo": "dolthub/doltgresql"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-pr.yml",
+      "source_repo": "opencontainers/distribution-spec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "opencontainers/distribution-spec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "opencontainers/runtime-spec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "josephspurrier/goversioninfo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "cedar-policy/cedar-go"
     }
   ]
 }

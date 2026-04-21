@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cortesi/modd",
+      "target": "cortesi/devd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cortesi/modd",
+      "target": "cortesi/godist",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortesi/modd",
+      "target": "developer-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortesi/modd",
+      "target": "livereload",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cortesi/modd",
+      "target": "process-manager",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:58:44.189235+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15533
+    },
+    {
+      "path": "go.mod",
+      "size": 865
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A flexible developer tool that runs processes and responds to filesystem changes",
+    "fork": false,
+    "full_name": "cortesi/modd",
+    "html_url": "https://github.com/cortesi/modd",
+    "language": "Go",
+    "pushed_at": "2025-05-23T08:30:45Z",
+    "stargazers_count": 2955,
+    "topics": [
+      "developer-tools",
+      "livereload",
+      "process-manager"
+    ],
+    "updated_at": "2026-04-16T11:01:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cortesi/devd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cortesi/godist",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Travis Build Status](https://travis-ci.org/cortesi/modd.svg?branch=master)](https://travis-ci.org/cortesi/modd)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-tools"
+    },
+    {
+      "context_snippet": "[![Travis Build Status](https://travis-ci.org/cortesi/modd.svg?branch=master)](https://travis-ci.org/cortesi/modd)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "livereload"
+    },
+    {
+      "context_snippet": "[![Travis Build Status](https://travis-ci.org/cortesi/modd.svg?branch=master)](https://travis-ci.org/cortesi/modd)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "process-manager"
+    }
+  ]
+}

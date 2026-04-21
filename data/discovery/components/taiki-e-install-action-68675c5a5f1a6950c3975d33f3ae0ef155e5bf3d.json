@@ -1,0 +1,12 @@
+{
+  "component": "taiki-e/install-action@68675c5a5f1a6950c3975d33f3ae0ef155e5bf3d",
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "open-telemetry/opentelemetry-rust-contrib"
+    }
+  ]
+}

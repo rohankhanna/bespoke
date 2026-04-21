@@ -55,6 +55,18 @@
       "source_repo": "agent-sh/repo-intel",
       "status": "candidate-context",
       "text": "Unified static analysis for AI agents - git history, AST symbols, project metadata, and doc-code sync via a cached, incrementally-updatable Rust binary."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "davidhalter/jedi",
+      "status": "candidate-context",
+      "text": "Awesome autocompletion, static analysis and refactoring library for python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidhalter/jedi",
+      "status": "candidate-context",
+      "text": "Jedi - an awesome autocompletion, static analysis and refactoring library for Python"
     }
   ],
   "candidate_glosses": [
@@ -75,6 +87,12 @@
       "source_repo": "agent-sh/repo-intel",
       "status": "candidate",
       "text": "Unified static analysis for AI agents - git history, AST symbols, project metadata, and doc-code sync via a cached, incrementally-updatable Rust binary."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidhalter/jedi",
+      "status": "candidate",
+      "text": "Jedi - an awesome autocompletion, static analysis and refactoring library for Python"
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +136,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "agent-sh/repo-intel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "davidhalter/jedi"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

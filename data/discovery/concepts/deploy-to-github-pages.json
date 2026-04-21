@@ -19,12 +19,30 @@
       "source_repo": "pyodide/pyodide",
       "status": "candidate-context",
       "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "status": "candidate-context",
+      "text": "A performant interactive bottom sheet with fully configurable options \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "status": "candidate-context",
+      "text": "Deploy to GitHub Pages"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "pyodide/pyodide",
+      "status": "candidate",
+      "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorhom/react-native-bottom-sheet",
       "status": "candidate",
       "text": "Deploy to GitHub Pages"
     }
@@ -82,11 +100,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/pages.yml",
       "source_repo": "pyodide/pyodide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "gorhom/react-native-bottom-sheet"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

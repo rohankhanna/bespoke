@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "conformance-action-pr"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opencontainers/distribution-spec",
+      "status": "candidate-context",
+      "text": "OCI Distribution Specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/distribution-spec",
+      "status": "candidate-context",
+      "text": "conformance-action-pr"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/distribution-spec",
+      "status": "candidate",
+      "text": "conformance-action-pr"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "conformance-action-pr",
+  "concept_id": "conformance-action-pr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/conformance-action-pr.yml",
+      "source_repo": "opencontainers/distribution-spec"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "conformance-action-pr",
+      "sense_id": "conformance-action-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

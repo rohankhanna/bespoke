@@ -31,6 +31,18 @@
       "source_repo": "aws/amazon-ec2-metadata-mock",
       "status": "candidate-context",
       "text": "**Amazon EC2 Metadata Mock (AEMM)** is a tool to simulate [Amazon EC2 instance metadata service](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html) for local testing."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-node-termination-handler",
+      "status": "candidate-context",
+      "text": "Gracefully handle EC2 instance shutdown within Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-node-termination-handler",
+      "status": "candidate-context",
+      "text": "<h1>AWS Node Termination Handler</h1>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "aws/amazon-ec2-metadata-mock",
       "status": "candidate",
       "text": "**Amazon EC2 Metadata Mock (AEMM)** is a tool to simulate [Amazon EC2 instance metadata service](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html) for local testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-node-termination-handler",
+      "status": "candidate",
+      "text": "<h1>AWS Node Termination Handler</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "aws/amazon-ec2-metadata-mock"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "aws/aws-node-termination-handler"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

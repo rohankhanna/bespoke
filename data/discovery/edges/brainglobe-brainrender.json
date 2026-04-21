@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "brainglobe/brainrender",
+      "target": "neuroinformatics-unit/actions/lint@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "brainglobe/brainrender",
+      "target": "neuroinformatics-unit/actions/check_manifest@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "brainglobe/brainrender",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "brainglobe/brainrender",
+      "target": "pyvista/setup-headless-display-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "brainglobe/brainrender",
+      "target": "FedericoCarboni/setup-ffmpeg@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "brainglobe/brainrender",
+      "target": "neuroinformatics-unit/actions/test@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "brainglobe/brainrender",
+      "target": "ravsamhq/notify-slack-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "brainglobe/brainrender",
+      "target": "neuroinformatics-unit/actions/build_sdist_wheels@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "brainglobe/brainrender",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "brainglobe/brainrender",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "brainglobe/brainrender",
+      "target": "tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brainglobe/brainrender",
+      "target": "anatomy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brainglobe/brainrender",
+      "target": "neuroscience",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brainglobe/brainrender",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-21T18:51:25.552552+00:00",
+  "source_repo": "brainglobe/brainrender"
+}

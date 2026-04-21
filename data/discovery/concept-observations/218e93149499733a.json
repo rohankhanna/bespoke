@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Release to Maven Central (snapshot, stable)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Release to Maven Central (snapshot, stable)"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23141,
+      "status": "candidate",
+      "text": "helena"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23141,
+      "status": "candidate",
+      "text": "yan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23116,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22566,
+      "status": "candidate",
+      "text": "erotica"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22566,
+      "status": "candidate",
+      "text": "numb"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release to Maven Central (snapshot, stable)",
+      "sense_id": "release-to-maven-central-snapshot-stable#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "release-to-maven-central-snapshot-stable",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release-to-maven-central-snapshot-stable",
+  "observation_id": "218e93149499733a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T18:51:25.552552+00:00",
+  "observed_text": "Release to Maven Central (snapshot, stable)",
+  "source_context_snippet": "Release to Maven Central (snapshot, stable)",
+  "source_file": ".github/workflows/maven-release.yml",
+  "source_repo": "OpenAPITools/openapi-generator",
+  "source_repo_description": "OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)"
+}

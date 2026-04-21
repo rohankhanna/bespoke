@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/maven-release.yml",
+      "source_repo": "OpenAPITools/openapi-generator"
+    }
+  ],
+  "term": "Release to Maven Central (snapshot, stable)"
+}

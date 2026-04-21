@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Coz: Causal Profiling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "by [Charlie Curtsinger](https://curtsinger.cs.grinnell.edu/) and [Emery Berger](https://emeryberger.com)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "by [Charlie Curtsinger](https://curtsinger.cs.grinnell.edu/) and [Emery Berger](https://emeryberger.com)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "performance-engineering",
+      "sense_id": "performance-engineering#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "performance-engineering",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "performance-engineering",
+  "observation_id": "98950dc803f48334",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T18:51:25.552552+00:00",
+  "observed_text": "performance-engineering",
+  "source_context_snippet": "by [Charlie Curtsinger](https://curtsinger.cs.grinnell.edu/) and [Emery Berger](https://emeryberger.com)",
+  "source_file": null,
+  "source_repo": "plasma-umass/coz",
+  "source_repo_description": "Coz: Causal Profiling"
+}

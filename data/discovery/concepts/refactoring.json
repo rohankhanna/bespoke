@@ -1,0 +1,148 @@
+{
+  "aliases": [
+    "refactoring"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/deslop",
+      "status": "candidate-context",
+      "text": "AI slop cleanup with minimal diffs and behavior preservation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/deslop",
+      "status": "candidate-context",
+      "text": "Detect and remove AI-generated slop from codebases with certainty-based findings and safe auto-fixes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pre-commit/pre-commit",
+      "status": "candidate-context",
+      "text": "A framework for managing and maintaining multi-language pre-commit hooks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pre-commit/pre-commit",
+      "status": "candidate-context",
+      "text": "[![build status](https://github.com/pre-commit/pre-commit/actions/workflows/main.yml/badge.svg)](https://github.com/pre-commit/pre-commit/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "davidhalter/jedi",
+      "status": "candidate-context",
+      "text": "Awesome autocompletion, static analysis and refactoring library for python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidhalter/jedi",
+      "status": "candidate-context",
+      "text": "Jedi - an awesome autocompletion, static analysis and refactoring library for Python"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/deslop",
+      "status": "candidate",
+      "text": "Detect and remove AI-generated slop from codebases with certainty-based findings and safe auto-fixes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pre-commit/pre-commit",
+      "status": "candidate",
+      "text": "[![build status](https://github.com/pre-commit/pre-commit/actions/workflows/main.yml/badge.svg)](https://github.com/pre-commit/pre-commit/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidhalter/jedi",
+      "status": "candidate",
+      "text": "Jedi - an awesome autocompletion, static analysis and refactoring library for Python"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19929860,
+      "status": "candidate",
+      "text": "refactorization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19929859,
+      "status": "candidate",
+      "text": "refactorer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19929858,
+      "status": "candidate",
+      "text": "reprogramming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19929857,
+      "status": "candidate",
+      "text": "optimization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19929856,
+      "status": "candidate",
+      "text": "recompile"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "refactoring",
+  "concept_id": "refactoring",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "agent-sh/deslop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "pre-commit/pre-commit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "davidhalter/jedi"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "refactoring",
+      "sense_id": "refactoring#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

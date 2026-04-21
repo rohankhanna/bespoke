@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Gas Town - multi-agent workspace manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Block Internal PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Block Internal PRs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26814,
+      "status": "candidate",
+      "text": "nut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26014,
+      "status": "candidate",
+      "text": "cylinder block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26014,
+      "status": "candidate",
+      "text": "jacket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26014,
+      "status": "candidate",
+      "text": "nyt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18455,
+      "status": "candidate",
+      "text": "inch"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Block Internal PRs",
+      "sense_id": "block-internal-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "block-internal-prs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "block-internal-prs",
+  "observation_id": "6d76a7c5836c35ec",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T18:51:25.552552+00:00",
+  "observed_text": "Block Internal PRs",
+  "source_context_snippet": "Block Internal PRs",
+  "source_file": ".github/workflows/block-internal-prs.yml",
+  "source_repo": "gastownhall/gastown",
+  "source_repo_description": "Gas Town - multi-agent workspace manager"
+}

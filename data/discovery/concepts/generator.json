@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "generator"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "status": "candidate-context",
+      "text": "OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">OpenAPI Generator</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">OpenAPI Generator</h1>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39780991,
+      "status": "candidate",
+      "text": "source"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39768272,
+      "status": "candidate",
+      "text": "author"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29917041,
+      "status": "candidate",
+      "text": "aerosol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29911546,
+      "status": "candidate",
+      "text": "boiler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29909493,
+      "status": "candidate",
+      "text": "motor"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26071,
+      "status": "candidate",
+      "text": "source"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12049,
+      "status": "candidate",
+      "text": "author"
+    }
+  ],
+  "canonical_name": "generator",
+  "concept_id": "generator",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "OpenAPITools/openapi-generator"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "generator",
+      "sense_id": "generator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

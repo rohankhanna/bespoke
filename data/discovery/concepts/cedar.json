@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "cedar"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cedar-policy/cedar-go",
+      "status": "candidate-context",
+      "text": "Golang implementation of the Cedar Policy Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cedar-policy/cedar-go",
+      "status": "candidate-context",
+      "text": "![Cedar Logo](https://github.com/cedar-policy/cedar/blob/main/logo.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cedar-policy/cedar-go",
+      "status": "candidate",
+      "text": "![Cedar Logo](https://github.com/cedar-policy/cedar/blob/main/logo.svg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047000,
+      "status": "candidate",
+      "text": "cedarwood"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047521,
+      "status": "candidate",
+      "text": "cedar tree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047521,
+      "status": "candidate",
+      "text": "true cedar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047520,
+      "status": "candidate",
+      "text": "cypress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047503,
+      "status": "candidate",
+      "text": "juniper"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1018,
+      "status": "candidate",
+      "text": "cedarwood"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "cedar tree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "true cedar"
+    }
+  ],
+  "canonical_name": "cedar",
+  "concept_id": "cedar",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "cedar-policy/cedar-go"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cedar",
+      "sense_id": "cedar#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -19,6 +19,18 @@
       "source_repo": "alteryx/featuretools",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alteryx/open_source_demos",
+      "status": "candidate-context",
+      "text": "A collection of demos showcasing automated feature engineering and machine learning in diverse use cases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alteryx/open_source_demos",
+      "status": "candidate-context",
+      "text": "<div class=\"row\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "alteryx/featuretools",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alteryx/open_source_demos",
+      "status": "candidate",
+      "text": "<div class=\"row\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "alteryx/featuretools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "alteryx/open_source_demos"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

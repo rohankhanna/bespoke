@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@v7",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -172,6 +172,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test-downstream.yml",
       "source_repo": "agronholm/anyio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vega/vega-datasets"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ARM-DOE/pyart"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/new_tasks.yml",
+      "source_repo": "EleutherAI/lm-evaluation-harness"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "EleutherAI/lm-evaluation-harness"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/daily.yml",
+      "source_repo": "python/typeshed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/meta_tests.yml",
+      "source_repo": "python/typeshed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stubsabot.yml",
+      "source_repo": "python/typeshed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "python/typeshed"
     }
   ]
 }

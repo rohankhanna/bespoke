@@ -19,6 +19,30 @@
       "source_repo": "vega/altair",
       "status": "candidate-context",
       "text": "\"Lint PR\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vega/vega-lite",
+      "status": "candidate-context",
+      "text": "A concise grammar of interactive graphics, built on Vega."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/vega-lite",
+      "status": "candidate-context",
+      "text": "'Lint PR'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vega/vega-datasets",
+      "status": "candidate-context",
+      "text": "Common repository for example datasets used by Vega-related projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/vega-datasets",
+      "status": "candidate-context",
+      "text": "'Lint PR'"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "vega/altair",
       "status": "candidate",
       "text": "\"Lint PR\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/vega-lite",
+      "status": "candidate",
+      "text": "'Lint PR'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/vega-datasets",
+      "status": "candidate",
+      "text": "'Lint PR'"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/check-pr.yml",
       "source_repo": "vega/altair"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/check-pr.yml",
+      "source_repo": "vega/vega-lite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/check-pr.yml",
+      "source_repo": "vega/vega-datasets"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check vcpkg Tools SHA"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vcpkg",
+      "status": "candidate-context",
+      "text": "C++ Library Manager for Windows, Linux, and MacOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vcpkg",
+      "status": "candidate-context",
+      "text": "Check vcpkg Tools SHA"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vcpkg",
+      "status": "candidate",
+      "text": "Check vcpkg Tools SHA"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22568,
+      "status": "candidate",
+      "text": "mail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22366,
+      "status": "candidate",
+      "text": "equalizer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15066,
+      "status": "candidate",
+      "text": "prince"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15066,
+      "status": "candidate",
+      "text": "route"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15066,
+      "status": "candidate",
+      "text": "toyota"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check vcpkg Tools SHA",
+  "concept_id": "check-vcpkg-tools-sha",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/check_tools_sha.yml",
+      "source_repo": "microsoft/vcpkg"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check vcpkg Tools SHA",
+      "sense_id": "check-vcpkg-tools-sha#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

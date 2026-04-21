@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udfa8 CNCF-related logos and artwork"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "In this repo, we have artwork in standard formats for the CNCF [projects](https://www.cncf.io/projects/) and programs. We prepare artwork in 2 formats (PNG & SVG), 3 layouts -- horizontal (also known as landscape format), stacked (which is closer to square), and icon (which does\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "In this repo, we have artwork in standard formats for the CNCF [projects](https://www.cncf.io/projects/) and programs. We prepare artwork in 2 formats (PNG & SVG), 3 layouts -- horizontal (also known as landscape format), stacked (which is closer to square), and icon (which does\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39824924,
+      "status": "candidate",
+      "text": "graphics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39823254,
+      "status": "candidate",
+      "text": "art"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29825955,
+      "status": "candidate",
+      "text": "nontextual matter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29825852,
+      "status": "candidate",
+      "text": "picture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29825643,
+      "status": "candidate",
+      "text": "drawing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "artwork",
+      "sense_id": "artwork#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13067,
+      "status": "candidate",
+      "text": "art"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1042,
+      "status": "candidate",
+      "text": "graphics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "nontextual matter"
+    }
+  ],
+  "concept_id": "artwork",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "artwork",
+  "observation_id": "b42f2fc84ed844f7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T18:51:25.552552+00:00",
+  "observed_text": "artwork",
+  "source_context_snippet": "In this repo, we have artwork in standard formats for the CNCF [projects](https://www.cncf.io/projects/) and programs. We prepare artwork in 2 formats (PNG & SVG), 3 layouts -- horizontal (also known as landscape format), stacked (which is closer to square), and icon (which does\u2026",
+  "source_file": null,
+  "source_repo": "cncf/artwork",
+  "source_repo_description": "\ud83c\udfa8 CNCF-related logos and artwork"
+}

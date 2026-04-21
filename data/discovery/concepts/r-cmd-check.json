@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "R-CMD-check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bnosac/audio.whisper",
+      "status": "candidate-context",
+      "text": "Transcribe audio files using the \"Whisper\" Automatic Speech Recognition model from R"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnosac/audio.whisper",
+      "status": "candidate-context",
+      "text": "R-CMD-check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnosac/audio.whisper",
+      "status": "candidate",
+      "text": "R-CMD-check"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "R-CMD-check",
+  "concept_id": "r-cmd-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/R-CMD-check.yml",
+      "source_repo": "bnosac/audio.whisper"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "R-CMD-check",
+      "sense_id": "r-cmd-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

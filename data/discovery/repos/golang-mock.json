@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "golang/mock",
+      "target": "uber/mock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "golang/mock",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "golang/mock",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "golang/mock",
+      "target": "Run tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T19:01:51.611667+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8153
+    },
+    {
+      "path": "go.mod",
+      "size": 104
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 1065
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "GoMock is a mocking framework for the Go programming language.",
+    "fork": false,
+    "full_name": "golang/mock",
+    "html_url": "https://github.com/golang/mock",
+    "language": "Go",
+    "pushed_at": "2024-01-08T08:00:38Z",
+    "stargazers_count": 9367,
+    "topics": [],
+    "updated_at": "2026-04-18T04:46:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "uber/mock",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Run tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "Run tests"
+    }
+  ]
+}

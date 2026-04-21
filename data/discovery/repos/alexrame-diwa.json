@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexrame/diwa",
+      "target": "facebookresearch/domainbed",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-21T19:01:04.901431+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8920
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DiWA: Diverse Weight Averaging for Out-of-Distribution Generalization",
+    "fork": false,
+    "full_name": "alexrame/diwa",
+    "html_url": "https://github.com/alexrame/diwa",
+    "language": "Python",
+    "pushed_at": "2023-01-31T12:43:38Z",
+    "stargazers_count": 31,
+    "topics": [],
+    "updated_at": "2025-05-28T09:21:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/domainbed",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

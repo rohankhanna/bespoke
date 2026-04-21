@@ -19,6 +19,18 @@
       "source_repo": "8144225309/superscalar-mcp",
       "status": "candidate-context",
       "text": "MCP server for [SuperScalar](https://github.com/8144225309/SuperScalar) \u2014 Bitcoin Lightning channel factories that onboard N users in one shared UTXO. No soft fork required."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "8144225309/SuperScalar",
+      "status": "candidate-context",
+      "text": "Implementation of SuperScalar \u2014 Bitcoin Lightning channel factories that onboard N users in one shared UTXO. No soft fork required."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "8144225309/SuperScalar",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/8144225309/SuperScalar/workflows/CI/badge.svg)](https://github.com/8144225309/SuperScalar/actions)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "8144225309/superscalar-mcp",
       "status": "candidate",
       "text": "MCP server for [SuperScalar](https://github.com/8144225309/SuperScalar) \u2014 Bitcoin Lightning channel factories that onboard N users in one shared UTXO. No soft fork required."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "8144225309/SuperScalar",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/8144225309/SuperScalar/workflows/CI/badge.svg)](https://github.com/8144225309/SuperScalar/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "8144225309/superscalar-mcp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "8144225309/SuperScalar"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

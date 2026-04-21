@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A performant interactive bottom sheet with fully configurable options \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Reanimated v3 version](https://img.shields.io/github/package-json/v/gorhom/react-native-bottom-sheet/master?label=Reanimated%20v3&style=flat-square)](https://www.npmjs.com/package/@gorhom/bottom-sheet) [![Reanimated v2 version](https://img.shields.io/github/package-json/v/gor\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Reanimated v3 version](https://img.shields.io/github/package-json/v/gorhom/react-native-bottom-sheet/master?label=Reanimated%20v3&style=flat-square)](https://www.npmjs.com/package/@gorhom/bottom-sheet) [![Reanimated v2 version](https://img.shields.io/github/package-json/v/gor\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bottomsheet",
+      "sense_id": "bottomsheet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bottomsheet",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bottomsheet",
+  "observation_id": "446c87e218ed60d4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T18:51:25.552552+00:00",
+  "observed_text": "bottomsheet",
+  "source_context_snippet": "[![Reanimated v3 version](https://img.shields.io/github/package-json/v/gorhom/react-native-bottom-sheet/master?label=Reanimated%20v3&style=flat-square)](https://www.npmjs.com/package/@gorhom/bottom-sheet) [![Reanimated v2 version](https://img.shields.io/github/package-json/v/gor\u2026",
+  "source_file": null,
+  "source_repo": "gorhom/react-native-bottom-sheet",
+  "source_repo_description": "A performant interactive bottom sheet with fully configurable options \ud83d\ude80"
+}

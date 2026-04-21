@@ -43,6 +43,18 @@
       "source_repo": "ChatGPTNextWeb/NextChat",
       "status": "candidate-context",
       "text": "Publish Docker image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hibiken/asynqmon",
+      "status": "candidate-context",
+      "text": "Web UI for Asynq task queue"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hibiken/asynqmon",
+      "status": "candidate-context",
+      "text": "Publish Docker image"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ChatGPTNextWeb/NextChat",
+      "status": "candidate",
+      "text": "Publish Docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hibiken/asynqmon",
       "status": "candidate",
       "text": "Publish Docker image"
     }
@@ -124,11 +142,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/docker-image-publish.yml",
+      "source_repo": "hibiken/asynqmon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ggml-org/whisper.cpp"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "beit"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/unilm",
+      "status": "candidate-context",
+      "text": "Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/unilm",
+      "status": "candidate-context",
+      "text": "<!--# Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities-->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/unilm",
+      "status": "candidate",
+      "text": "<!--# Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities-->"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27181544,
+      "status": "candidate",
+      "text": "pete"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27120726,
+      "status": "candidate",
+      "text": "beth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25704920,
+      "status": "candidate",
+      "text": "piet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25681525,
+      "status": "candidate",
+      "text": "bayt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25544024,
+      "status": "candidate",
+      "text": "shin"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "beit",
+  "concept_id": "beit",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/unilm"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "beit",
+      "sense_id": "beit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

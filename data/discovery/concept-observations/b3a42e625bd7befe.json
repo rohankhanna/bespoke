@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Path library for C/C++. Cross-Platform for Linux, FreeBSD, Windows and MacOS. Supports UNIX and Windows path styles on those platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img style=\"width:100%;\" src=\"/banner.png\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img style=\"width:100%;\" src=\"/banner.png\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29879546,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29876136,
+      "status": "candidate",
+      "text": "proc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19886332,
+      "status": "candidate",
+      "text": "ext2"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19886332,
+      "status": "candidate",
+      "text": "ext3"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19886331,
+      "status": "candidate",
+      "text": "filesystems"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "filesystem",
+      "sense_id": "filesystem#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "filesystem",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "filesystem",
+  "observation_id": "b3a42e625bd7befe",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T18:51:25.552552+00:00",
+  "observed_text": "filesystem",
+  "source_context_snippet": "<img style=\"width:100%;\" src=\"/banner.png\">",
+  "source_file": null,
+  "source_repo": "likle/cwalk",
+  "source_repo_description": "Path library for C/C++. Cross-Platform for Linux, FreeBSD, Windows and MacOS. Supports UNIX and Windows path styles on those platforms."
+}

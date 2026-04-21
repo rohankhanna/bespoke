@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udc69\u200d\u2695\ufe0f Default community health files for the Homebrew organisation on GitHub."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Sync shared configurations"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Sync shared configurations"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20369,
+      "status": "candidate",
+      "text": "ahead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20369,
+      "status": "candidate",
+      "text": "alarm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20369,
+      "status": "candidate",
+      "text": "coach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20369,
+      "status": "candidate",
+      "text": "counterpoint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20369,
+      "status": "candidate",
+      "text": "est"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync shared configurations",
+      "sense_id": "sync-shared-configurations#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sync-shared-configurations",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sync-shared-configurations",
+  "observation_id": "b6c2c3cc718f3067",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T18:51:25.552552+00:00",
+  "observed_text": "Sync shared configurations",
+  "source_context_snippet": "Sync shared configurations",
+  "source_file": ".github/workflows/sync-shared-config.yml",
+  "source_repo": "Homebrew/.github",
+  "source_repo_description": "\ud83d\udc69\u200d\u2695\ufe0f Default community health files for the Homebrew organisation on GitHub."
+}

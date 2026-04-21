@@ -1,0 +1,143 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wbolster/emacs-direnv",
+      "target": "autoenv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wbolster/emacs-direnv",
+      "target": "awesome-sauce",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wbolster/emacs-direnv",
+      "target": "direnv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wbolster/emacs-direnv",
+      "target": "elisp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wbolster/emacs-direnv",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wbolster/emacs-direnv",
+      "target": "environment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wbolster/emacs-direnv",
+      "target": "environment-variables",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wbolster/emacs-direnv",
+      "target": "envrc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:54:14.967802+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 9368
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "direnv integration for emacs",
+    "fork": false,
+    "full_name": "wbolster/emacs-direnv",
+    "html_url": "https://github.com/wbolster/emacs-direnv",
+    "language": "Emacs Lisp",
+    "pushed_at": "2024-03-27T18:14:06Z",
+    "stargazers_count": 394,
+    "topics": [
+      "autoenv",
+      "awesome-sauce",
+      "direnv",
+      "elisp",
+      "emacs",
+      "env",
+      "environment",
+      "environment-variables",
+      "envrc"
+    ],
+    "updated_at": "2026-04-15T19:55:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "============",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autoenv"
+    },
+    {
+      "context_snippet": "============",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-sauce"
+    },
+    {
+      "context_snippet": "============",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "direnv"
+    },
+    {
+      "context_snippet": "============",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elisp"
+    },
+    {
+      "context_snippet": "============",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "============",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "environment"
+    },
+    {
+      "context_snippet": "============",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "environment-variables"
+    },
+    {
+      "context_snippet": "============",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "envrc"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethpandaops/ethereum-k8s-testnets",
+      "target": "skylenet/ethereum-helm-charts",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:55:52.825650+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1045
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Examples on how to deploy the Ethereum blockchain from scratch on Kubernetes",
+    "fork": false,
+    "full_name": "ethpandaops/ethereum-k8s-testnets",
+    "html_url": "https://github.com/ethpandaops/ethereum-k8s-testnets",
+    "language": "HCL",
+    "pushed_at": "2022-07-26T14:25:07Z",
+    "stargazers_count": 27,
+    "topics": [],
+    "updated_at": "2025-09-09T11:36:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "skylenet/ethereum-helm-charts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-21T18:56:02.352493+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2079
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 510
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A meta-graph of BioCypher modular adapters, created by a BioCypher pipeline",
+    "fork": false,
+    "full_name": "biocypher/meta-graph",
+    "html_url": "https://github.com/biocypher/meta-graph",
+    "language": "Python",
+    "pushed_at": "2024-11-08T16:13:32Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-02-28T09:47:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

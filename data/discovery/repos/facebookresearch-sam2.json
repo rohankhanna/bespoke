@@ -1,0 +1,74 @@
+{
+  "components": [
+    {
+      "component": "omnilib/ufmt@action-v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_fmt.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/sam2",
+      "target": "rsms/inter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/sam2",
+      "target": "zsef123/connected_components_pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_fmt.yml",
+      "source_repo": "facebookresearch/sam2",
+      "target": "omnilib/ufmt@action-v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-21T19:01:21.640565+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16244
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 120
+    },
+    {
+      "path": ".github/workflows/check_fmt.yml",
+      "size": 373
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The repository provides code for running inference with the Meta Segment Anything Model 2 (SAM 2), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.",
+    "fork": false,
+    "full_name": "facebookresearch/sam2",
+    "html_url": "https://github.com/facebookresearch/sam2",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-07T10:46:51Z",
+    "stargazers_count": 18990,
+    "topics": [],
+    "updated_at": "2026-04-21T17:41:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rsms/inter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zsef123/connected_components_pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

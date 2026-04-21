@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-21T18:52:55.786375+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2035
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "WIP/Plan: extension of slash commands to an actual GUi/program",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Linux-Desktop-Manager",
+    "html_url": "https://github.com/danielrosehill/Claude-Linux-Desktop-Manager",
+    "language": null,
+    "pushed_at": "2025-10-30T16:36:32Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-09T13:10:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

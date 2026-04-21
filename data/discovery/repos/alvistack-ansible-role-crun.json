@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-21T18:54:31.235245+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1674
+    },
+    {
+      "path": "requirements.txt",
+      "size": 797
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ansible Role for crun Installation",
+    "fork": false,
+    "full_name": "alvistack/ansible-role-crun",
+    "html_url": "https://github.com/alvistack/ansible-role-crun",
+    "language": "Shell",
+    "pushed_at": "2026-04-17T04:37:42Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-04-17T04:37:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

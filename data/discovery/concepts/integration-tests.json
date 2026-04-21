@@ -45,6 +45,18 @@
       "source_repo": "celestiaorg/celestia-node",
       "status": "candidate-context",
       "text": "Integration Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/incubator-tuweni",
+      "status": "candidate-context",
+      "text": "Apache Tuweni is a set of libraries and other tools to aid development of blockchain and other decentralized software in Java and other JVM languages. It includes a low-level bytes library, serialization and deserialization codecs (e.g. RLP), various cryptography functions and primatives, and lots of other helpful utilities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-tuweni",
+      "status": "candidate-context",
+      "text": "integration tests"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +77,12 @@
       "source_repo": "celestiaorg/celestia-node",
       "status": "candidate",
       "text": "Integration Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-tuweni",
+      "status": "candidate",
+      "text": "integration tests"
     }
   ],
   "candidate_related_terms": [
@@ -132,11 +150,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/integration-tests.yml",
       "source_repo": "celestiaorg/celestia-node"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "apache/incubator-tuweni"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "filesystem"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "birdofpreyru/react-native-fs",
+      "status": "candidate-context",
+      "text": "File system access for React Native"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "birdofpreyru/react-native-fs",
+      "status": "candidate-context",
+      "text": "<!-- Collection of hyperlinks. -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "likle/cwalk",
+      "status": "candidate-context",
+      "text": "Path library for C/C++. Cross-Platform for Linux, FreeBSD, Windows and MacOS. Supports UNIX and Windows path styles on those platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "likle/cwalk",
+      "status": "candidate-context",
+      "text": "<img style=\"width:100%;\" src=\"/banner.png\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "birdofpreyru/react-native-fs",
+      "status": "candidate",
+      "text": "<!-- Collection of hyperlinks. -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "likle/cwalk",
+      "status": "candidate",
+      "text": "<img style=\"width:100%;\" src=\"/banner.png\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29879546,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29876136,
+      "status": "candidate",
+      "text": "proc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19886332,
+      "status": "candidate",
+      "text": "ext2"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19886332,
+      "status": "candidate",
+      "text": "ext3"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19886331,
+      "status": "candidate",
+      "text": "filesystems"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "filesystem",
+  "concept_id": "filesystem",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "birdofpreyru/react-native-fs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "likle/cwalk"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "filesystem",
+      "sense_id": "filesystem#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

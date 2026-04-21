@@ -84,7 +84,7 @@
   "normalized_form": "claude-pr-review",
   "observation_id": "32c6518afb47af34",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-21T11:24:10.450489+00:00",
+  "observed_at": "2026-04-21T18:51:25.552552+00:00",
   "observed_text": "Claude PR Review",
   "source_context_snippet": "Claude PR Review",
   "source_file": ".github/workflows/claude-pr-review.yml",

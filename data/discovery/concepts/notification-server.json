@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "notification-server"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caronc/apprise-api",
+      "status": "candidate-context",
+      "text": "A lightweight REST framework that wraps the Apprise Notification Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caronc/apprise-api",
+      "status": "candidate-context",
+      "text": "Take advantage of [Apprise](https://github.com/caronc/apprise) through your network with a user-friendly API."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caronc/apprise-api",
+      "status": "candidate",
+      "text": "Take advantage of [Apprise](https://github.com/caronc/apprise) through your network with a user-friendly API."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "notification-server",
+  "concept_id": "notification-server",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "caronc/apprise-api"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "notification-server",
+      "sense_id": "notification-server#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "tox"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "status": "candidate-context",
+      "text": "paho.mqtt.python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "status": "candidate-context",
+      "text": "tox"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "status": "candidate",
+      "text": "tox"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010903,
+      "status": "candidate",
+      "text": "toxicological"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30004890,
+      "status": "candidate",
+      "text": "toxicology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001209,
+      "status": "candidate",
+      "text": "gene"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29767541,
+      "status": "candidate",
+      "text": "analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29707023,
+      "status": "candidate",
+      "text": "test"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "tox",
+  "concept_id": "tox",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/tox.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "tox",
+      "sense_id": "tox#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

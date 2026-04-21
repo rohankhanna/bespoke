@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This repository is home to general Dart Ecosystem tools and packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "package:corpus"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "package:corpus"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9997278,
+      "status": "candidate",
+      "text": "jot down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9996568,
+      "status": "candidate",
+      "text": "read in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9996342,
+      "status": "candidate",
+      "text": "read out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9995953,
+      "status": "candidate",
+      "text": "record book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9994596,
+      "status": "candidate",
+      "text": "john hancock"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "package:corpus",
+      "sense_id": "package-corpus#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "package-corpus",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "package-corpus",
+  "observation_id": "d762cee81df77838",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T18:51:25.552552+00:00",
+  "observed_text": "package:corpus",
+  "source_context_snippet": "package:corpus",
+  "source_file": ".github/workflows/corpus.yml",
+  "source_repo": "dart-lang/ecosystem",
+  "source_repo_description": "This repository is home to general Dart Ecosystem tools and packages."
+}

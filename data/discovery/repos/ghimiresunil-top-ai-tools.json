@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ghimiresunil/Top-AI-Tools",
+      "target": "helicone/helicone",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ghimiresunil/Top-AI-Tools",
+      "target": "aden-hive/hive",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ghimiresunil/Top-AI-Tools",
+      "target": "aralyekta/prompttester",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ghimiresunil/Top-AI-Tools",
+      "target": "parveshiiii/deepresearch-agent",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:58:18.349127+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 57817
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Curated list of AI Tools",
+    "fork": false,
+    "full_name": "ghimiresunil/Top-AI-Tools",
+    "html_url": "https://github.com/ghimiresunil/Top-AI-Tools",
+    "language": null,
+    "pushed_at": "2026-04-21T15:57:42Z",
+    "stargazers_count": 893,
+    "topics": [],
+    "updated_at": "2026-04-21T15:57:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aden-hive/hive",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aralyekta/prompttester",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "helicone/helicone",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "parveshiiii/deepresearch-agent",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

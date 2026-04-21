@@ -1,0 +1,184 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-Pretty-Shell",
+      "target": "beautify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-Pretty-Shell",
+      "target": "formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-Pretty-Shell",
+      "target": "packagecontrol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-Pretty-Shell",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-Pretty-Shell",
+      "target": "shell-script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-Pretty-Shell",
+      "target": "shfmt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-Pretty-Shell",
+      "target": "sublime-package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-Pretty-Shell",
+      "target": "sublime-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-Pretty-Shell",
+      "target": "sublime-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-Pretty-Shell",
+      "target": "sublime-text-3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-Pretty-Shell",
+      "target": "sublime-text-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:58:40.874593+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 864
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udc1a Shell Script Formatter / Syntax Checker (Powered by shfmt)",
+    "fork": false,
+    "full_name": "aerobounce/Sublime-Pretty-Shell",
+    "html_url": "https://github.com/aerobounce/Sublime-Pretty-Shell",
+    "language": "Python",
+    "pushed_at": "2024-02-20T12:35:02Z",
+    "stargazers_count": 38,
+    "topics": [
+      "beautify",
+      "formatter",
+      "packagecontrol",
+      "shell",
+      "shell-script",
+      "shfmt",
+      "sublime-package",
+      "sublime-plugin",
+      "sublime-text",
+      "sublime-text-3",
+      "sublime-text-plugin"
+    ],
+    "updated_at": "2026-03-09T21:43:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "beautify"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatter"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "packagecontrol"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell-script"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shfmt"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime-package"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime-plugin"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime-text"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime-text-3"
+    },
+    {
+      "context_snippet": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime-text-plugin"
+    }
+  ]
+}

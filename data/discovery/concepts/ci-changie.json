@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ci-changie"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/terraform-plugin-docs",
+      "status": "candidate-context",
+      "text": "Generate and validate Terraform plugin/provider documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-plugin-docs",
+      "status": "candidate-context",
+      "text": "ci-changie"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-plugin-docs",
+      "status": "candidate",
+      "text": "ci-changie"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ci-changie",
+  "concept_id": "ci-changie",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/ci-changie.yml",
+      "source_repo": "hashicorp/terraform-plugin-docs"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ci-changie",
+      "sense_id": "ci-changie#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

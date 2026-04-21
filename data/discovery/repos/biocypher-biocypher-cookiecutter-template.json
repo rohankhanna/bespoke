@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-21T18:56:01.035177+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4860
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Cookiecutter template to set up a BioCypher project",
+    "fork": false,
+    "full_name": "biocypher/biocypher-cookiecutter-template",
+    "html_url": "https://github.com/biocypher/biocypher-cookiecutter-template",
+    "language": "Python",
+    "pushed_at": "2025-11-26T19:37:26Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-11-26T19:37:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

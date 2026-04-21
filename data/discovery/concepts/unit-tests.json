@@ -8,9 +8,83 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "josephspurrier/goversioninfo",
+      "status": "candidate-context",
+      "text": "Golang Microsoft Windows File Properties/Version Info and Icon Resource Generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "josephspurrier/goversioninfo",
+      "status": "candidate-context",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EleutherAI/lm-evaluation-harness",
+      "status": "candidate-context",
+      "text": "A framework for few-shot evaluation of language models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EleutherAI/lm-evaluation-harness",
+      "status": "candidate-context",
+      "text": "Unit Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "josephspurrier/goversioninfo",
+      "status": "candidate",
+      "text": "Unit Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EleutherAI/lm-evaluation-harness",
+      "status": "candidate",
+      "text": "Unit Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022524,
+      "status": "candidate",
+      "text": "integration testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022523,
+      "status": "candidate",
+      "text": "testability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022522,
+      "status": "candidate",
+      "text": "test case"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022521,
+      "status": "candidate",
+      "text": "testable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022520,
+      "status": "candidate",
+      "text": "regression testing"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Unit Tests",
   "concept_id": "unit-tests",
@@ -27,12 +101,26 @@
       "observed_at": "2026-04-18T12:07:11.500453+00:00",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "trailofbits/buttercup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/unit-tests.yml",
+      "source_repo": "josephspurrier/goversioninfo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "EleutherAI/lm-evaluation-harness"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Manage stale issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Homebrew/.github",
+      "status": "candidate-context",
+      "text": "\ud83d\udc69\u200d\u2695\ufe0f Default community health files for the Homebrew organisation on GitHub."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Homebrew/.github",
+      "status": "candidate-context",
+      "text": "Manage stale issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Homebrew/.github",
+      "status": "candidate",
+      "text": "Manage stale issues"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18102,
+      "status": "candidate",
+      "text": "can"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18062,
+      "status": "candidate",
+      "text": "done"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18062,
+      "status": "candidate",
+      "text": "frame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18062,
+      "status": "candidate",
+      "text": "procurator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18030,
+      "status": "candidate",
+      "text": "religion"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Manage stale issues",
+  "concept_id": "manage-stale-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/stale-issues.yml",
+      "source_repo": "Homebrew/.github"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Manage stale issues",
+      "sense_id": "manage-stale-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

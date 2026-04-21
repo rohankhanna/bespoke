@@ -85,6 +85,18 @@
       "source_repo": "ohmyzsh/ohmyzsh",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"https://ohmyzsh.s3.amazonaws.com/omz-ansi-github.png\" alt=\"Oh My Zsh\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/next-task",
+      "status": "candidate-context",
+      "text": "Master workflow orchestrator with autonomous task-to-production automation, quality gates, and multi-agent review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/next-task",
+      "status": "candidate-context",
+      "text": "Autonomous workflow orchestrator that takes a task from discovery to production through 12 coordinated phases - exploration, planning, implementation, multi-agent review, and shipping."
     }
   ],
   "candidate_glosses": [
@@ -111,6 +123,12 @@
       "source_repo": "ohmyzsh/ohmyzsh",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"https://ohmyzsh.s3.amazonaws.com/omz-ansi-github.png\" alt=\"Oh My Zsh\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/next-task",
+      "status": "candidate",
+      "text": "Autonomous workflow orchestrator that takes a task from discovery to production through 12 coordinated phases - exploration, planning, implementation, multi-agent review, and shipping."
     }
   ],
   "candidate_related_terms": [
@@ -216,11 +234,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "hluaguo/learn-faster-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "agent-sh/next-task"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

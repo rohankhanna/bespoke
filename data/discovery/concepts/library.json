@@ -55,6 +55,30 @@
       "source_repo": "facebook/react",
       "status": "candidate-context",
       "text": "React is a JavaScript library for building user interfaces."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wolfpld/tracy",
+      "status": "candidate-context",
+      "text": "Frame profiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wolfpld/tracy",
+      "status": "candidate-context",
+      "text": "[![Sponsor](.github/sponsor.png)](https://github.com/sponsors/wolfpld/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "likle/cwalk",
+      "status": "candidate-context",
+      "text": "Path library for C/C++. Cross-Platform for Linux, FreeBSD, Windows and MacOS. Supports UNIX and Windows path styles on those platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "likle/cwalk",
+      "status": "candidate-context",
+      "text": "<img style=\"width:100%;\" src=\"/banner.png\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "facebook/react",
       "status": "candidate",
       "text": "React is a JavaScript library for building user interfaces."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wolfpld/tracy",
+      "status": "candidate",
+      "text": "[![Sponsor](.github/sponsor.png)](https://github.com/sponsors/wolfpld/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "likle/cwalk",
+      "status": "candidate",
+      "text": "<img style=\"width:100%;\" src=\"/banner.png\">"
     }
   ],
   "candidate_related_terms": [
@@ -163,11 +199,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "facebook/react"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "wolfpld/tracy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "likle/cwalk"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

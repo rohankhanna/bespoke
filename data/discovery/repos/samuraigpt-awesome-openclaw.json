@@ -1,0 +1,333 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SamurAIGPT/awesome-openclaw",
+      "target": "androidstern-personal/openclaw-mcp-adapter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SamurAIGPT/awesome-openclaw",
+      "target": "adityasugandhi/skillsync-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SamurAIGPT/awesome-openclaw",
+      "target": "alibaizhanov/openclaw-mengram",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SamurAIGPT/awesome-openclaw",
+      "target": "aporthq/aport-agent-guardrails",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SamurAIGPT/awesome-openclaw",
+      "target": "agentic-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SamurAIGPT/awesome-openclaw",
+      "target": "ai-automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SamurAIGPT/awesome-openclaw",
+      "target": "autonomous-agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SamurAIGPT/awesome-openclaw",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SamurAIGPT/awesome-openclaw",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SamurAIGPT/awesome-openclaw",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SamurAIGPT/awesome-openclaw",
+      "target": "clawdbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SamurAIGPT/awesome-openclaw",
+      "target": "llm-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SamurAIGPT/awesome-openclaw",
+      "target": "local-llm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SamurAIGPT/awesome-openclaw",
+      "target": "model-context-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SamurAIGPT/awesome-openclaw",
+      "target": "moltbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SamurAIGPT/awesome-openclaw",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SamurAIGPT/awesome-openclaw",
+      "target": "open-source-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SamurAIGPT/awesome-openclaw",
+      "target": "openclaw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SamurAIGPT/awesome-openclaw",
+      "target": "personal-assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SamurAIGPT/awesome-openclaw",
+      "target": "self-hosted",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SamurAIGPT/awesome-openclaw",
+      "target": "telegram-bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SamurAIGPT/awesome-openclaw",
+      "target": "whatsapp-bot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:58:32.747677+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 39544
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A curated list of OpenClaw resources, tools, skills, tutorials & articles. OpenClaw (formerly Moltbot / Clawdbot) \u2014 open-source self-hosted AI agent for WhatsApp, Telegram, Discord & 50+ integrations.",
+    "fork": false,
+    "full_name": "SamurAIGPT/awesome-openclaw",
+    "html_url": "https://github.com/SamurAIGPT/awesome-openclaw",
+    "language": null,
+    "pushed_at": "2026-04-14T11:33:44Z",
+    "stargazers_count": 892,
+    "topics": [
+      "agentic-ai",
+      "ai-agent",
+      "ai-automation",
+      "autonomous-agents",
+      "awesome",
+      "awesome-list",
+      "chatbot",
+      "clawdbot",
+      "llm-agent",
+      "local-llm",
+      "mcp",
+      "model-context-protocol",
+      "moltbot",
+      "nodejs",
+      "open-source-ai",
+      "openclaw",
+      "personal-assistant",
+      "self-hosted",
+      "telegram-bot",
+      "whatsapp-bot"
+    ],
+    "updated_at": "2026-04-21T13:26:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adityasugandhi/skillsync-mcp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaizhanov/openclaw-mengram",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "androidstern-personal/openclaw-mcp-adapter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aporthq/aport-agent-guardrails",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> A curated list of **OpenClaw** resources, tools, skills, tutorials, articles, and community projects \u2014 the open-source self-hosted AI agent taking the world by storm.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-ai"
+    },
+    {
+      "context_snippet": "> A curated list of **OpenClaw** resources, tools, skills, tutorials, articles, and community projects \u2014 the open-source self-hosted AI agent taking the world by storm.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-automation"
+    },
+    {
+      "context_snippet": "> A curated list of **OpenClaw** resources, tools, skills, tutorials, articles, and community projects \u2014 the open-source self-hosted AI agent taking the world by storm.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-agents"
+    },
+    {
+      "context_snippet": "> A curated list of **OpenClaw** resources, tools, skills, tutorials, articles, and community projects \u2014 the open-source self-hosted AI agent taking the world by storm.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "> A curated list of **OpenClaw** resources, tools, skills, tutorials, articles, and community projects \u2014 the open-source self-hosted AI agent taking the world by storm.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "> A curated list of **OpenClaw** resources, tools, skills, tutorials, articles, and community projects \u2014 the open-source self-hosted AI agent taking the world by storm.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbot"
+    },
+    {
+      "context_snippet": "> A curated list of **OpenClaw** resources, tools, skills, tutorials, articles, and community projects \u2014 the open-source self-hosted AI agent taking the world by storm.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clawdbot"
+    },
+    {
+      "context_snippet": "> A curated list of **OpenClaw** resources, tools, skills, tutorials, articles, and community projects \u2014 the open-source self-hosted AI agent taking the world by storm.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-agent"
+    },
+    {
+      "context_snippet": "> A curated list of **OpenClaw** resources, tools, skills, tutorials, articles, and community projects \u2014 the open-source self-hosted AI agent taking the world by storm.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "local-llm"
+    },
+    {
+      "context_snippet": "> A curated list of **OpenClaw** resources, tools, skills, tutorials, articles, and community projects \u2014 the open-source self-hosted AI agent taking the world by storm.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-context-protocol"
+    },
+    {
+      "context_snippet": "> A curated list of **OpenClaw** resources, tools, skills, tutorials, articles, and community projects \u2014 the open-source self-hosted AI agent taking the world by storm.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "moltbot"
+    },
+    {
+      "context_snippet": "> A curated list of **OpenClaw** resources, tools, skills, tutorials, articles, and community projects \u2014 the open-source self-hosted AI agent taking the world by storm.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "> A curated list of **OpenClaw** resources, tools, skills, tutorials, articles, and community projects \u2014 the open-source self-hosted AI agent taking the world by storm.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source-ai"
+    },
+    {
+      "context_snippet": "> A curated list of **OpenClaw** resources, tools, skills, tutorials, articles, and community projects \u2014 the open-source self-hosted AI agent taking the world by storm.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openclaw"
+    },
+    {
+      "context_snippet": "> A curated list of **OpenClaw** resources, tools, skills, tutorials, articles, and community projects \u2014 the open-source self-hosted AI agent taking the world by storm.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "personal-assistant"
+    },
+    {
+      "context_snippet": "> A curated list of **OpenClaw** resources, tools, skills, tutorials, articles, and community projects \u2014 the open-source self-hosted AI agent taking the world by storm.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-hosted"
+    },
+    {
+      "context_snippet": "> A curated list of **OpenClaw** resources, tools, skills, tutorials, articles, and community projects \u2014 the open-source self-hosted AI agent taking the world by storm.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "telegram-bot"
+    },
+    {
+      "context_snippet": "> A curated list of **OpenClaw** resources, tools, skills, tutorials, articles, and community projects \u2014 the open-source self-hosted AI agent taking the world by storm.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whatsapp-bot"
+    }
+  ]
+}

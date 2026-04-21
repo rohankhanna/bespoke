@@ -97,6 +97,18 @@
       "source_repo": "strands-agents/tools",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mybigday/llama.rn",
+      "status": "candidate-context",
+      "text": "React Native binding of llama.cpp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mybigday/llama.rn",
+      "status": "candidate-context",
+      "text": "[![Actions Status](https://github.com/mybigday/llama.rn/workflows/CI/badge.svg)](https://github.com/mybigday/llama.rn/actions)"
     }
   ],
   "candidate_glosses": [
@@ -141,6 +153,12 @@
       "source_repo": "strands-agents/tools",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mybigday/llama.rn",
+      "status": "candidate",
+      "text": "[![Actions Status](https://github.com/mybigday/llama.rn/workflows/CI/badge.svg)](https://github.com/mybigday/llama.rn/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -250,11 +268,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "strands-agents/tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "mybigday/llama.rn"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

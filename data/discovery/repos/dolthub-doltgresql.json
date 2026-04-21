@@ -1,0 +1,596 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-dependency.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-dependency.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-dependency.yaml"
+    },
+    {
+      "component": "repo-sync/pull-request@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-dependency.yaml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-dependency.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-create-release-notes.yaml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-create-release-notes.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-push-docker-image.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-push-docker-image.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-push-docker-image.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-push-docker-image.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-push-docker-image.yaml"
+    },
+    {
+      "component": "peter-evans/dockerhub-description@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-push-docker-image.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release.yaml"
+    },
+    {
+      "component": "EndBug/add-and-commit@v9.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release.yaml"
+    },
+    {
+      "component": "dolthub/create-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release.yaml"
+    },
+    {
+      "component": "dolthub/upload-release-asset@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release.yaml"
+    },
+    {
+      "component": "dolthub/upload-release-asset@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release.yaml"
+    },
+    {
+      "component": "dolthub/upload-release-asset@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release.yaml"
+    },
+    {
+      "component": "dolthub/upload-release-asset@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release.yaml"
+    },
+    {
+      "component": "dolthub/upload-release-asset@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release.yaml"
+    },
+    {
+      "component": "dolthub/upload-release-asset@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release.yaml"
+    },
+    {
+      "component": "dolthub/upload-release-asset@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release.yaml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release.yaml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release.yaml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bats-unix.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bats-unix.yaml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bats-unix.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-check-repo.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-check-repo.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-postgres-client-tests.yaml"
+    },
+    {
+      "component": "docker/setup-docker-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-postgres-client-tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-dependency.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-dependency.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-dependency.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-dependency.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "repo-sync/pull-request@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-dependency.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "Bump Deps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-create-release-notes.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-create-release-notes.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd-create-release-notes.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "Create Release Notes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-push-docker-image.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-push-docker-image.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-push-docker-image.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-push-docker-image.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-push-docker-image.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-push-docker-image.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "peter-evans/dockerhub-description@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd-push-docker-image.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "Push Docker Image to DockerHub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "EndBug/add-and-commit@v9.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "dolthub/create-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "dolthub/upload-release-asset@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "peter-evans/repository-dispatch@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cd-release.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "peter-evans/repository-dispatch@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd-release.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "Release DoltgreSQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bats-unix.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bats-unix.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bats-unix.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-bats-unix.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "Test Bats Unix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-check-repo.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-check-repo.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-check-repo.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "Check Formatting, Committers and Generated Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-postgres-client-tests.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-postgres-client-tests.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "docker/setup-docker-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-postgres-client-tests.yaml",
+      "source_repo": "dolthub/doltgresql",
+      "target": "Test PostgreSQL Client integrations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dolthub/doltgresql",
+      "target": "database-version-control",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dolthub/doltgresql",
+      "target": "postgres",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dolthub/doltgresql",
+      "target": "postgresql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dolthub/doltgresql",
+      "target": "version-controlled-database",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:51:53.968183+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10501
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2210
+    },
+    {
+      "path": "go.mod",
+      "size": 11689
+    },
+    {
+      "path": ".github/workflows/bump-dependency.yaml",
+      "size": 7520
+    },
+    {
+      "path": ".github/workflows/cd-create-release-notes.yaml",
+      "size": 2562
+    },
+    {
+      "path": ".github/workflows/cd-push-docker-image.yaml",
+      "size": 2842
+    },
+    {
+      "path": ".github/workflows/cd-release.yaml",
+      "size": 9452
+    },
+    {
+      "path": ".github/workflows/ci-bats-unix.yaml",
+      "size": 2464
+    },
+    {
+      "path": ".github/workflows/ci-check-repo.yaml",
+      "size": 1106
+    },
+    {
+      "path": ".github/workflows/ci-postgres-client-tests.yaml",
+      "size": 1145
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DoltgreSQL - Version Controlled PostgreSQL",
+    "fork": false,
+    "full_name": "dolthub/doltgresql",
+    "html_url": "https://github.com/dolthub/doltgresql",
+    "language": "Go",
+    "pushed_at": "2026-04-21T12:24:28Z",
+    "stargazers_count": 1844,
+    "topics": [
+      "database-version-control",
+      "git",
+      "postgres",
+      "postgresql",
+      "version-controlled-database"
+    ],
+    "updated_at": "2026-04-21T17:28:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Bump Deps",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-dependency.yaml",
+      "term": "Bump Deps"
+    },
+    {
+      "context_snippet": "Create Release Notes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd-create-release-notes.yaml",
+      "term": "Create Release Notes"
+    },
+    {
+      "context_snippet": "Push Docker Image to DockerHub",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd-push-docker-image.yaml",
+      "term": "Push Docker Image to DockerHub"
+    },
+    {
+      "context_snippet": "Release DoltgreSQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cd-release.yaml",
+      "term": "Release DoltgreSQL"
+    },
+    {
+      "context_snippet": "Test Bats Unix",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-bats-unix.yaml",
+      "term": "Test Bats Unix"
+    },
+    {
+      "context_snippet": "Check Formatting, Committers and Generated Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-check-repo.yaml",
+      "term": "Check Formatting, Committers and Generated Code"
+    },
+    {
+      "context_snippet": "Test PostgreSQL Client integrations",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-postgres-client-tests.yaml",
+      "term": "Test PostgreSQL Client integrations"
+    },
+    {
+      "context_snippet": "From the creators of [Dolt](https://www.doltdb.com), the world's first version controlled SQL",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database-version-control"
+    },
+    {
+      "context_snippet": "From the creators of [Dolt](https://www.doltdb.com), the world's first version controlled SQL",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgres"
+    },
+    {
+      "context_snippet": "From the creators of [Dolt](https://www.doltdb.com), the world's first version controlled SQL",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql"
+    },
+    {
+      "context_snippet": "From the creators of [Dolt](https://www.doltdb.com), the world's first version controlled SQL",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "version-controlled-database"
+    }
+  ]
+}

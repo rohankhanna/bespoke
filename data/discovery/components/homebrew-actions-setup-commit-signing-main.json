@@ -1,7 +1,7 @@
 {
   "component": "Homebrew/actions/setup-commit-signing@main",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dispatch-build-bottle.yml",
       "source_repo": "Homebrew/homebrew-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync-shared-config.yml",
+      "source_repo": "Homebrew/.github"
     }
   ]
 }

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Submodule Updates"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AIWintermuteAI/whispercpp",
+      "status": "candidate-context",
+      "text": "Pybind11 bindings for Whisper.cpp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AIWintermuteAI/whispercpp",
+      "status": "candidate-context",
+      "text": "Submodule Updates"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AIWintermuteAI/whispercpp",
+      "status": "candidate",
+      "text": "Submodule Updates"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "actuality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11124,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "descriptor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "element"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "functional"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Submodule Updates",
+  "concept_id": "submodule-updates",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/submodule-update.yml",
+      "source_repo": "AIWintermuteAI/whispercpp"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Submodule Updates",
+      "sense_id": "submodule-updates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

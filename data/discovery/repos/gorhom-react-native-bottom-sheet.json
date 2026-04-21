@@ -1,0 +1,571 @@
+{
+  "components": [
+    {
+      "component": "@gorhom/portal",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "invariant",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@biomejs/biome",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@commitlint/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@commitlint/config-conventional",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@release-it/conventional-changelog",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/invariant",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/react-native",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "copyfiles",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "metro-react-native-babel-preset",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-native",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-native-builder-bob",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-native-gesture-handler",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-native-reanimated",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "release-it",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/react",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/react-native",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-native",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-native-gesture-handler",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-native-reanimated",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "JasonEtco/is-sponsor-label-action@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-sponsors.yml"
+    },
+    {
+      "component": "actions/stale@v5.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "@gorhom/portal",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "invariant",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "@biomejs/biome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "@commitlint/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "@commitlint/config-conventional",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "@release-it/conventional-changelog",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "@types/invariant",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "@types/react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "@types/react-native",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "copyfiles",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "metro-react-native-babel-preset",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "react-native",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "react-native-builder-bob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "react-native-gesture-handler",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "react-native-reanimated",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "release-it",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "@types/react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "@types/react-native",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "react-native",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "react-native-gesture-handler",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "react-native-reanimated",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-close.yml",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "Auto Close Issue Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-sponsors.yml",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "JasonEtco/is-sponsor-label-action@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-sponsors.yml",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "Label sponsors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "actions/stale@v5.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "Mark stale issues and pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "Deploy to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "bottom-sheet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "bottomsheet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "modal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "react-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "reanimated",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "target": "sheet",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T19:00:03.611014+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4152
+    },
+    {
+      "path": "package.json",
+      "size": 2981
+    },
+    {
+      "path": ".github/workflows/auto-close.yml",
+      "size": 894
+    },
+    {
+      "path": ".github/workflows/label-sponsors.yml",
+      "size": 331
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1055
+    },
+    {
+      "path": ".github/workflows/website.yml",
+      "size": 1245
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A performant interactive bottom sheet with fully configurable options \ud83d\ude80",
+    "fork": false,
+    "full_name": "gorhom/react-native-bottom-sheet",
+    "html_url": "https://github.com/gorhom/react-native-bottom-sheet",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-21T16:55:33Z",
+    "stargazers_count": 8891,
+    "topics": [
+      "bottom-sheet",
+      "bottomsheet",
+      "modal",
+      "react-native",
+      "reanimated",
+      "sheet"
+    ],
+    "updated_at": "2026-04-21T16:55:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Auto Close Issue Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-close.yml",
+      "term": "Auto Close Issue Workflow"
+    },
+    {
+      "context_snippet": "Label sponsors",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-sponsors.yml",
+      "term": "Label sponsors"
+    },
+    {
+      "context_snippet": "Mark stale issues and pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Mark stale issues and pull requests"
+    },
+    {
+      "context_snippet": "Deploy to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/website.yml",
+      "term": "Deploy to GitHub Pages"
+    },
+    {
+      "context_snippet": "[![Reanimated v3 version](https://img.shields.io/github/package-json/v/gorhom/react-native-bottom-sheet/master?label=Reanimated%20v3&style=flat-square)](https://www.npmjs.com/package/@gorhom/bottom-sheet) [![Reanimated v2 version](https://img.shields.io/github/package-json/v/gor\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bottom-sheet"
+    },
+    {
+      "context_snippet": "[![Reanimated v3 version](https://img.shields.io/github/package-json/v/gorhom/react-native-bottom-sheet/master?label=Reanimated%20v3&style=flat-square)](https://www.npmjs.com/package/@gorhom/bottom-sheet) [![Reanimated v2 version](https://img.shields.io/github/package-json/v/gor\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bottomsheet"
+    },
+    {
+      "context_snippet": "[![Reanimated v3 version](https://img.shields.io/github/package-json/v/gorhom/react-native-bottom-sheet/master?label=Reanimated%20v3&style=flat-square)](https://www.npmjs.com/package/@gorhom/bottom-sheet) [![Reanimated v2 version](https://img.shields.io/github/package-json/v/gor\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modal"
+    },
+    {
+      "context_snippet": "[![Reanimated v3 version](https://img.shields.io/github/package-json/v/gorhom/react-native-bottom-sheet/master?label=Reanimated%20v3&style=flat-square)](https://www.npmjs.com/package/@gorhom/bottom-sheet) [![Reanimated v2 version](https://img.shields.io/github/package-json/v/gor\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react-native"
+    },
+    {
+      "context_snippet": "[![Reanimated v3 version](https://img.shields.io/github/package-json/v/gorhom/react-native-bottom-sheet/master?label=Reanimated%20v3&style=flat-square)](https://www.npmjs.com/package/@gorhom/bottom-sheet) [![Reanimated v2 version](https://img.shields.io/github/package-json/v/gor\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reanimated"
+    },
+    {
+      "context_snippet": "[![Reanimated v3 version](https://img.shields.io/github/package-json/v/gorhom/react-native-bottom-sheet/master?label=Reanimated%20v3&style=flat-square)](https://www.npmjs.com/package/@gorhom/bottom-sheet) [![Reanimated v2 version](https://img.shields.io/github/package-json/v/gor\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sheet"
+    }
+  ]
+}

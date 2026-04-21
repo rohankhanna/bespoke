@@ -1,0 +1,564 @@
+{
+  "components": [
+    {
+      "component": "pyright",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "FedericoCarboni/setup-ffmpeg@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-jobs.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-import-gpg@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-jobs.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-import-gpg@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-jobs.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v25",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml"
+    },
+    {
+      "component": "knl/niv-updater-action@v13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-nixpkgs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v2.16.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.8.12",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aarnphm/whispercpp",
+      "target": "ggerganov/whisper.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aarnphm/whispercpp",
+      "target": "kkroening/ffmpeg-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aarnphm/whispercpp",
+      "target": "tazz4843/whisper-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aarnphm/whispercpp",
+      "target": "stlukey/whispercpp.py",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "aarnphm/whispercpp",
+      "target": "pyright",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aarnphm/whispercpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aarnphm/whispercpp",
+      "target": "FedericoCarboni/setup-ffmpeg@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aarnphm/whispercpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aarnphm/whispercpp",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aarnphm/whispercpp",
+      "target": "github/codeql-action/autobuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aarnphm/whispercpp",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aarnphm/whispercpp",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-jobs.yml",
+      "source_repo": "aarnphm/whispercpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-jobs.yml",
+      "source_repo": "aarnphm/whispercpp",
+      "target": "crazy-max/ghaction-import-gpg@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-jobs.yml",
+      "source_repo": "aarnphm/whispercpp",
+      "target": "cachix/install-nix-action@v25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scheduled-jobs.yml",
+      "source_repo": "aarnphm/whispercpp",
+      "target": "scheduled-jobs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "aarnphm/whispercpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "aarnphm/whispercpp",
+      "target": "cachix/install-nix-action@v25",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "aarnphm/whispercpp",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "aarnphm/whispercpp",
+      "target": "style-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-nixpkgs.yml",
+      "source_repo": "aarnphm/whispercpp",
+      "target": "knl/niv-updater-action@v13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-nixpkgs.yml",
+      "source_repo": "aarnphm/whispercpp",
+      "target": "Update niv-managed dependencies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "aarnphm/whispercpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "aarnphm/whispercpp",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "aarnphm/whispercpp",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "aarnphm/whispercpp",
+      "target": "pypa/cibuildwheel@v2.16.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "aarnphm/whispercpp",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "aarnphm/whispercpp",
+      "target": "pypa/gh-action-pypi-publish@v1.8.12",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "aarnphm/whispercpp",
+      "target": "wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aarnphm/whispercpp",
+      "target": "audio-transcription",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aarnphm/whispercpp",
+      "target": "bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aarnphm/whispercpp",
+      "target": "bentoml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aarnphm/whispercpp",
+      "target": "mlops-workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aarnphm/whispercpp",
+      "target": "pybind11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aarnphm/whispercpp",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aarnphm/whispercpp",
+      "target": "whisper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aarnphm/whispercpp",
+      "target": "whisper-cpp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:59:48.537578+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5752
+    },
+    {
+      "path": "README.rst",
+      "size": 4502
+    },
+    {
+      "path": "package.json",
+      "size": 210
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4127
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1469
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1159
+    },
+    {
+      "path": ".github/workflows/scheduled-jobs.yml",
+      "size": 2914
+    },
+    {
+      "path": ".github/workflows/style.yml",
+      "size": 1698
+    },
+    {
+      "path": ".github/workflows/update-nixpkgs.yml",
+      "size": 630
+    },
+    {
+      "path": ".github/workflows/wheels.yml",
+      "size": 5511
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Pybind11 bindings for Whisper.cpp",
+    "fork": false,
+    "full_name": "aarnphm/whispercpp",
+    "html_url": "https://github.com/aarnphm/whispercpp",
+    "language": "C++",
+    "pushed_at": "2024-12-08T00:20:10Z",
+    "stargazers_count": 345,
+    "topics": [
+      "audio-transcription",
+      "bazel",
+      "bentoml",
+      "mlops-workflow",
+      "nix",
+      "pybind11",
+      "python3",
+      "whisper",
+      "whisper-cpp"
+    ],
+    "updated_at": "2026-04-19T07:06:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/whisper.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kkroening/ffmpeg-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stlukey/whispercpp.py",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tazz4843/whisper-rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'CodeQL'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "scheduled-jobs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scheduled-jobs.yml",
+      "term": "scheduled-jobs"
+    },
+    {
+      "context_snippet": "style-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/style.yml",
+      "term": "style-check"
+    },
+    {
+      "context_snippet": "Update niv-managed dependencies",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-nixpkgs.yml",
+      "term": "Update niv-managed dependencies"
+    },
+    {
+      "context_snippet": "wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wheels.yml",
+      "term": "wheels"
+    },
+    {
+      "context_snippet": "_Pybind11 bindings for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-transcription"
+    },
+    {
+      "context_snippet": "_Pybind11 bindings for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel"
+    },
+    {
+      "context_snippet": "_Pybind11 bindings for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bentoml"
+    },
+    {
+      "context_snippet": "_Pybind11 bindings for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlops-workflow"
+    },
+    {
+      "context_snippet": "_Pybind11 bindings for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pybind11"
+    },
+    {
+      "context_snippet": "_Pybind11 bindings for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "_Pybind11 bindings for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whisper"
+    },
+    {
+      "context_snippet": "_Pybind11 bindings for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whisper-cpp"
+    }
+  ]
+}

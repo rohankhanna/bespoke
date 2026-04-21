@@ -1,0 +1,12 @@
+{
+  "component": "streetsidesoftware/cspell-action@de2a73e963e7443969755b648a1008f77033c5b2",
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "open-telemetry/opentelemetry-specification"
+    }
+  ]
+}

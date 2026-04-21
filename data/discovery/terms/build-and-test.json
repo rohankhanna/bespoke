@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -51,6 +51,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/develop.yaml",
       "source_repo": "maoueh/zap-pretty"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "aws/aws-node-termination-handler"
     }
   ],
   "term": "Build and Test"

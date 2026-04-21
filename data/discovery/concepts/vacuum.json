@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "vacuum"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vibhorkum/pg_background",
+      "status": "candidate-context",
+      "text": "Production-grade PostgreSQL extension to execute arbitrary SQL in background worker processes \u2014 with async execution, autonomous transactions, cookie-protected handles, cancellation, progress reporting, and observability."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vibhorkum/pg_background",
+      "status": "candidate-context",
+      "text": "[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14--18-blue.svg)](https://www.postgresql.org/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vibhorkum/pg_background",
+      "status": "candidate",
+      "text": "[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14--18-blue.svg)](https://www.postgresql.org/)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39786537,
+      "status": "candidate",
+      "text": "vacuity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39555559,
+      "status": "candidate",
+      "text": "vacuum-clean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39548709,
+      "status": "candidate",
+      "text": "vacuum cleaner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38458046,
+      "status": "candidate",
+      "text": "hoover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29786599,
+      "status": "candidate",
+      "text": "void"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24033,
+      "status": "candidate",
+      "text": "vacuity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3028,
+      "status": "candidate",
+      "text": "hoover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "vacuum-clean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "vacuum cleaner"
+    }
+  ],
+  "canonical_name": "vacuum",
+  "concept_id": "vacuum",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "vibhorkum/pg_background"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vacuum",
+      "sense_id": "vacuum#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "'go test' runner with output optimized for humans, JUnit XML for CI integration, and a summary of the test results."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "`gotestsum` runs tests using `go test -json`, prints formatted test output, and a summary of the test run."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "`gotestsum` runs tests using `go test -json`, prints formatted test output, and a summary of the test run."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "junit-xml",
+      "sense_id": "junit-xml#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "junit-xml",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "junit-xml",
+  "observation_id": "0c21e23008d63590",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T18:51:25.552552+00:00",
+  "observed_text": "junit-xml",
+  "source_context_snippet": "`gotestsum` runs tests using `go test -json`, prints formatted test output, and a summary of the test run.",
+  "source_file": null,
+  "source_repo": "gotestyourself/gotestsum",
+  "source_repo_description": "'go test' runner with output optimized for humans, JUnit XML for CI integration, and a summary of the test results."
+}

@@ -349,6 +349,42 @@
       "source_repo": "pytest-dev/pytest",
       "status": "candidate-context",
       "text": ".. image:: https://github.com/pytest-dev/pytest/raw/main/doc/en/img/pytest_logo_curves.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ARM-DOE/pyart",
+      "status": "candidate-context",
+      "text": "The Python-ARM Radar Toolkit. A data model driven interactive toolkit for working with weather radar data. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARM-DOE/pyart",
+      "status": "candidate-context",
+      "text": ".. -*- mode: rst -*-"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "status": "candidate-context",
+      "text": "OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">OpenAPI Generator</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avelino/awesome-go",
+      "status": "candidate-context",
+      "text": "A curated list of awesome Go frameworks, libraries and software"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avelino/awesome-go",
+      "status": "candidate-context",
+      "text": "<a href=\"https://awesome-go.com/\"><img align=\"right\" src=\"https://github.com/avelino/awesome-go/raw/main/tmpl/assets/logo.png\" alt=\"awesome-go\" title=\"awesome-go\" /></a>"
     }
   ],
   "candidate_glosses": [
@@ -519,6 +555,24 @@
       "source_repo": "pytest-dev/pytest",
       "status": "candidate",
       "text": ".. image:: https://github.com/pytest-dev/pytest/raw/main/doc/en/img/pytest_logo_curves.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARM-DOE/pyart",
+      "status": "candidate",
+      "text": ".. -*- mode: rst -*-"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">OpenAPI Generator</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avelino/awesome-go",
+      "status": "candidate",
+      "text": "<a href=\"https://awesome-go.com/\"><img align=\"right\" src=\"https://github.com/avelino/awesome-go/raw/main/tmpl/assets/logo.png\" alt=\"awesome-go\" title=\"awesome-go\" /></a>"
     }
   ],
   "candidate_related_terms": [],
@@ -718,11 +772,35 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "pytest-dev/pytest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "ARM-DOE/pyart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "OpenAPITools/openapi-generator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "avelino/awesome-go"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

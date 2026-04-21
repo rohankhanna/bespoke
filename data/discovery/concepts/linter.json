@@ -88,6 +88,54 @@
       "source_repo": "dense-analysis/ale",
       "status": "candidate-context",
       "text": "[![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white)](https://www.vim.org/) [![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)](https://neovim.io/) [![CI](https://img.shie\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eslint/eslint",
+      "status": "candidate-context",
+      "text": "Find and fix problems in your JavaScript code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eslint/eslint",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/eslint.svg)](https://www.npmjs.com/package/eslint)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neomake/neomake",
+      "status": "candidate-context",
+      "text": "Asynchronous linting and make framework for Neovim/Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neomake/neomake",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://circleci.com/gh/neomake/neomake.png?style=shield)](https://circleci.com/gh/neomake/neomake)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/enhance",
+      "status": "candidate-context",
+      "text": "Plugin structure and tool use analyzer - validates plugin.json, MCP tools, and security patterns"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/enhance",
+      "status": "candidate-context",
+      "text": "Master enhancement orchestrator for plugins, agents, prompts, docs, hooks, and skills."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pre-commit/pre-commit",
+      "status": "candidate-context",
+      "text": "A framework for managing and maintaining multi-language pre-commit hooks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pre-commit/pre-commit",
+      "status": "candidate-context",
+      "text": "[![build status](https://github.com/pre-commit/pre-commit/actions/workflows/main.yml/badge.svg)](https://github.com/pre-commit/pre-commit/actions/workflows/main.yml)"
     }
   ],
   "candidate_glosses": [
@@ -126,6 +174,30 @@
       "source_repo": "dense-analysis/ale",
       "status": "candidate",
       "text": "[![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white)](https://www.vim.org/) [![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)](https://neovim.io/) [![CI](https://img.shie\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eslint/eslint",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/eslint.svg)](https://www.npmjs.com/package/eslint)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neomake/neomake",
+      "status": "candidate",
+      "text": "[![Build Status](https://circleci.com/gh/neomake/neomake.png?style=shield)](https://circleci.com/gh/neomake/neomake)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/enhance",
+      "status": "candidate",
+      "text": "Master enhancement orchestrator for plugins, agents, prompts, docs, hooks, and skills."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pre-commit/pre-commit",
+      "status": "candidate",
+      "text": "[![build status](https://github.com/pre-commit/pre-commit/actions/workflows/main.yml/badge.svg)](https://github.com/pre-commit/pre-commit/actions/workflows/main.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -229,11 +301,35 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "eslint/eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "neomake/neomake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "agent-sh/enhance"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "pre-commit/pre-commit"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

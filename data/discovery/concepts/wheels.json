@@ -1,0 +1,125 @@
+{
+  "aliases": [
+    "wheels",
+    "Wheels"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aarnphm/whispercpp",
+      "status": "candidate-context",
+      "text": "Pybind11 bindings for Whisper.cpp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aarnphm/whispercpp",
+      "status": "candidate-context",
+      "text": "wheels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "absadiki/pywhispercpp",
+      "status": "candidate-context",
+      "text": "Python bindings for whisper.cpp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "absadiki/pywhispercpp",
+      "status": "candidate-context",
+      "text": "Wheels"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aarnphm/whispercpp",
+      "status": "candidate",
+      "text": "wheels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "absadiki/pywhispercpp",
+      "status": "candidate",
+      "text": "Wheels"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041053,
+      "status": "candidate",
+      "text": "steering wheel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039022,
+      "status": "candidate",
+      "text": "wheel around"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037132,
+      "status": "candidate",
+      "text": "pedal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033082,
+      "status": "candidate",
+      "text": "bicycle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032167,
+      "status": "candidate",
+      "text": "cycle"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "wheels",
+  "concept_id": "wheels",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "aarnphm/whispercpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "absadiki/pywhispercpp"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "wheels",
+      "sense_id": "wheels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

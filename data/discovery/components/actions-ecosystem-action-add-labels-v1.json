@@ -1,12 +1,17 @@
 {
   "component": "actions-ecosystem/action-add-labels@v1",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/add-labels-for-pr.yml",
       "source_repo": "1Panel-dev/1Panel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-label.yml",
+      "source_repo": "eudk/awesome-ai-tools"
     }
   ]
 }

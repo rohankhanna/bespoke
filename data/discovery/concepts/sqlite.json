@@ -139,6 +139,30 @@
       "source_repo": "simonw/db-to-sqlite",
       "status": "candidate-context",
       "text": "[![PyPI](https://img.shields.io/pypi/v/db-to-sqlite.svg)](https://pypi.python.org/pypi/db-to-sqlite)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sql-js/sql.js",
+      "status": "candidate-context",
+      "text": "A javascript library to run SQLite on the web.  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sql-js/sql.js",
+      "status": "candidate-context",
+      "text": "<img src=\"https://user-images.githubusercontent.com/552629/76405509-87025300-6388-11ea-86c9-af882abb00bd.png\" width=\"40\" height=\"40\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asg017/sqlite-url",
+      "status": "candidate-context",
+      "text": "A SQLite extension for parsing, generating, and querying URLs and query strings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-url",
+      "status": "candidate-context",
+      "text": "A SQLite extension for parsing and generating URLs and query strings. Based on libcurl's [URL API](https://curl.se/libcurl/c/libcurl-url.html)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +231,18 @@
       "source_repo": "simonw/db-to-sqlite",
       "status": "candidate",
       "text": "[![PyPI](https://img.shields.io/pypi/v/db-to-sqlite.svg)](https://pypi.python.org/pypi/db-to-sqlite)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sql-js/sql.js",
+      "status": "candidate",
+      "text": "<img src=\"https://user-images.githubusercontent.com/552629/76405509-87025300-6388-11ea-86c9-af882abb00bd.png\" width=\"40\" height=\"40\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-url",
+      "status": "candidate",
+      "text": "A SQLite extension for parsing and generating URLs and query strings. Based on libcurl's [URL API](https://curl.se/libcurl/c/libcurl-url.html)"
     }
   ],
   "candidate_related_terms": [
@@ -334,11 +370,29 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "simonw/db-to-sqlite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "sql-js/sql.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "asg017/sqlite-url"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

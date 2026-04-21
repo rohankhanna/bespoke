@@ -860,6 +860,210 @@
       "source_repo": "getbettr/octotail",
       "status": "candidate-context",
       "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gastownhall/gastown",
+      "status": "candidate-context",
+      "text": "Gas Town - multi-agent workspace manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gastownhall/gastown",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm/helm",
+      "status": "candidate-context",
+      "text": "The Kubernetes Package Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/helm",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opencontainers/distribution-spec",
+      "status": "candidate-context",
+      "text": "OCI Distribution Specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/distribution-spec",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/cri-tools",
+      "status": "candidate-context",
+      "text": "CLI and validation tools for Kubelet Container Runtime Interface (CRI) ."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/cri-tools",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plasma-umass/coz",
+      "status": "candidate-context",
+      "text": "Coz: Causal Profiling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plasma-umass/coz",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wolfpld/tracy",
+      "status": "candidate-context",
+      "text": "Frame profiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wolfpld/tracy",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hibiken/asynqmon",
+      "status": "candidate-context",
+      "text": "Web UI for Asynq task queue"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hibiken/asynqmon",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm/chart-testing",
+      "status": "candidate-context",
+      "text": "CLI tool for linting and testing Helm charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/chart-testing",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "norwoodj/helm-docs",
+      "status": "candidate-context",
+      "text": "A tool for automatically generating markdown documentation for helm charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "norwoodj/helm-docs",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "8144225309/SuperScalar",
+      "status": "candidate-context",
+      "text": "Implementation of SuperScalar \u2014 Bitcoin Lightning channel factories that onboard N users in one shared UTXO. No soft fork required."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "8144225309/SuperScalar",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-node-termination-handler",
+      "status": "candidate-context",
+      "text": "Gracefully handle EC2 instance shutdown within Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-node-termination-handler",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mybigday/llama.rn",
+      "status": "candidate-context",
+      "text": "React Native binding of llama.cpp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mybigday/llama.rn",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asg017/sqlite-url",
+      "status": "candidate-context",
+      "text": "A SQLite extension for parsing, generating, and querying URLs and query strings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-url",
+      "status": "candidate-context",
+      "text": "\"release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "medialab/xan",
+      "status": "candidate-context",
+      "text": "The CSV magician"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "medialab/xan",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goreleaser/sponsors",
+      "status": "candidate-context",
+      "text": "Fetches sponsors from multiple sources and renders them based on templates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/sponsors",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rbenv/rbenv",
+      "status": "candidate-context",
+      "text": "Manage your app's Ruby environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rbenv/rbenv",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/terraform-plugin-docs",
+      "status": "candidate-context",
+      "text": "Generate and validate Terraform plugin/provider documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-plugin-docs",
+      "status": "candidate-context",
+      "text": "release"
     }
   ],
   "candidate_glosses": [
@@ -1274,6 +1478,108 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "getbettr/octotail",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gastownhall/gastown",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/helm",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/distribution-spec",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/cri-tools",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plasma-umass/coz",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wolfpld/tracy",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hibiken/asynqmon",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/chart-testing",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "norwoodj/helm-docs",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "8144225309/SuperScalar",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-node-termination-handler",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mybigday/llama.rn",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-url",
+      "status": "candidate",
+      "text": "\"release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "medialab/xan",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/sponsors",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rbenv/rbenv",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-plugin-docs",
       "status": "candidate",
       "text": "release"
     }
@@ -1997,11 +2303,131 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "joshsymonds/cc-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gastownhall/gastown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "helm/helm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "opencontainers/distribution-spec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kubernetes-sigs/cri-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "plasma-umass/coz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "wolfpld/tracy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "hibiken/asynqmon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "helm/chart-testing"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "norwoodj/helm-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "8144225309/SuperScalar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aws/aws-node-termination-handler"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "compozy/kb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ggml-org/ggml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mybigday/llama.rn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "asg017/sqlite-url"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "medialab/xan"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "goreleaser/sponsors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rbenv/rbenv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "hashicorp/terraform-plugin-docs"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,761 +1,6 @@
 {
-  "generated_at": "2026-04-21T11:24:10.450489+00:00",
+  "generated_at": "2026-04-21T18:51:25.552552+00:00",
   "pending": [
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "vega/vega-lite",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "vega/vega-datasets",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "alteryx/open_source_demos",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "caronc/apprise-api",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "caronc/apprise-docs",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "eclipse/paho.mqtt.python",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "attic-labs/noms",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dolthub/doltgresql",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "steveyegge/gastown",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "steveyegge/beads",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "cncf/artwork",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "helm/helm",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "helm/helm-www",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "kubernetes/helm",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "cheukyin175/learn-faster-kit",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "eslint/eslint",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ishamf/brackets-standard",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "josephfrazier/standard-eject",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "neomake/neomake",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "danielrosehill/claude-code-repos-index",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "danielrosehill/claude-linux-desktop-manager",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "danielrosehill/linux-desktop-tools-index",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "danielrosehill/github-master-index",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "danielrosehill/agent-assisted-purchase-research-index",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "danielrosehill/agents-index",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "danielrosehill/ai-projects-index",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "danielrosehill/ai-resource-maps",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "googlei18n/noto-emoji",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "wbolster/emacs-direnv",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "opencontainers/distribution-spec",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "opencontainers/org",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "opencontainers/runtime-spec",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "containerd/project",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "kubernetes-sigs/cri-tools",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "kubernetes/cri-api",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "microsoft/hcsshim",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "alvistack/ansible-role-crun",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "docker/docker",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "gotestyourself/gotestsum",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "josephspurrier/goversioninfo",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "eastlondoner/cursor-tools",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "agent-sh/audit-project",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "agent-sh/deslop",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "agent-sh/drift-detect",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "agent-sh/enhance",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "agent-sh/next-task",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "blockprotocol/awesome-blocks",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "hasharchives/wasm-ts-esm-in-node-jest-and-nextjs",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dart-lang/ecosystem",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "golang/protobuf",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "cedar-policy/cedar-go",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "cedar-policy/cedar-java",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "open-telemetry/opentelemetry-rust-contrib",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "open-telemetry/opentelemetry-specification",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "microsoft/rust_win_etw",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "plasma-umass/coz",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "trentm/node-bunyan",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "wolfpld/tracy",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "hibiken/asynqmon",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "apache/incubator-tuweni",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "breadwallet/breadwallet-core",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ciri-ethereum/ciri",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "consensys/ethereum-dissectors",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ethpandaops/ethereum-k8s-testnets",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "helm/chart-testing",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "norwoodj/helm-docs",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "pre-commit/pre-commit",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "biocypher/biocypher-cookiecutter-template",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "biocypher/collectri",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "biocypher/meta-graph",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "adam-boesky/astro_splash",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "arm-doe/pyart",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "astarvienna/scopesim",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "brainglobe/brainrender",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "8144225309/superscalar",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ratatui/awesome-ratatui",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ratatui/templates",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "alirezarezvani/claude-code-skill-factory",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "abubakarsiddik31/claude-skills-collection",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "eudk/awesome-ai-tools",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ghimiresunil/top-ai-tools",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "samuraigpt/awesome-openclaw",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "anthropics/anthropic-cookbook",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "aerobounce/sublime-pretty-shell",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "cortesi/modd",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "executablebooks/mdformat",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "feloy/tesh",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "andymik90/auto-claude",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "aws/ec2-spot-instances-integrations-roadmap",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "aws/aws-node-termination-handler",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "homebrew/.github",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "pedronauck/kodebase-go",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "joshuawise/better-sqlite3",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "mapbox/node-sqlite3",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "citusdata/pg_cron",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "vibhorkum/pg_background",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ggerganov/ggml",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ggerganov/llama.cpp",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ggerganov/whisper.cpp",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "aarnphm/whispercpp",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "abdeladim-s/pywhispercpp",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "aiwintermuteai/whispercpp",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "bnosac/audio.whisper",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "birdofpreyru/react-native-fs",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "gorhom/react-native-bottom-sheet",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "mybigday/llama.rn",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "conda-forge/miniforge",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "microsoft/unilm",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "oschwartz10612/poppler-windows",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ub-mannheim/tesseract",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "sqlite/sqlite",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "mbostock/ndjson-cli",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "sql-js/sql.js",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "asg017/sqlite-url",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "likle/cwalk",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "burntsushi/tabwriter",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "dathere/qsv",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "medialab/xan",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "petewarden/dstkdata",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "alexrame/diwa",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "alexrame/fishr",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "arpitbansal297/universal-guided-diffusion",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "ashkamath/mdetr",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "bfshi/scaling_on_scales",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "eleutherai/lm-evaluation-harness",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "nvlabs/vila",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "cocodataset/cocoapi",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "facebookresearch/segment-anything-2",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "cncf/toc",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "explosion/spacy",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "goreleaser/.github",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "goreleaser/sponsors",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "openapitools/openapi-generator",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "golang/dep",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "golang/go",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "golang/mock",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "sirupsen/logrus",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "chakra-core/org",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "microsoft/chakracore",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "microsoft/vcpkg",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "microsoft/python-type-stubs",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "python/typeshed",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "nak1114/rbenv-win",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "rbenv/rbenv",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "rbenv/rbenv-installer",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "rkh/rbenv-update",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "davidhalter/jedi",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "pyenv/pyenv-virtualenvwrapper",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "trufflesecurity/test_keys",
-      "graph_distance": 6
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "hashicorp/terraform-plugin-docs",
-      "graph_distance": 5
-    },
-    {
-      "discovered_via": "explicit-github-link",
-      "full_name": "avelino/awesome-go",
-      "graph_distance": 5
-    },
     {
       "discovered_via": "explicit-github-link",
       "full_name": "github/hub",
@@ -2675,6 +1920,1136 @@
       "discovered_via": "explicit-github-link",
       "full_name": "pytest-dev/execnet",
       "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "prettier/prettier",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "vega/logos",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "vega/roadmap",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "davidanthoff/vegadatasets.jl",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "eclipse/paho.mqtt.python",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "eclipse/paho.mqtt.testing",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "steveyegge/beads",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "steveyegge/gastown",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cheukyin175/learn-faster-kit",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "eslint/.github",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "eslint/js",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "feross/standard",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ishamf/brackets-standard",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "facebookincubator/create-react-app",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "standard/standardx",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "junegunn/vader.vim",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "scrooloose/syntastic",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "danielrosehill/adb-ops-plugin",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "danielrosehill/ai-ideation-runs",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "danielrosehill/ai-memory-planning-0426",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "danielrosehill/backup-planner",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "danielrosehill/agent-deploy",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "danielrosehill/ai-sysadmin",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "danielrosehill/awesome-linux-ides",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "danielrosehill/claude-bug-catcher",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "danielrosehill/index-of-indices",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "danielrosehill/agent-handover-demo",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "danielrosehill/agent-sdk-env-setup",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "danielrosehill/agentic-ai-architecture-visualisation",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "danielrosehill/a-better-jobs-platform-notes",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "danielrosehill/ai-browser-tools",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "danielrosehill/ai-decision-eval-projects",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "danielrosehill/ai-geopol-projects",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "danielrosehill/ai-synthesised-perspectives",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "googlei18n/noto-emoji",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "opencontainers/org",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "opencontainers/tob",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "containerd/project-checks",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "containerd/release-tool",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "docker-archive/windows-container-utility",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "go-delve/delve",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "golangci/golangci-lint",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bitfield/gotestdox",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "coder/coder",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dexidp/dex",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "elastic/go-elasticsearch",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "akavel/rsrc",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "eastlondoner/cursor-tools",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "agent-sh/perf",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "agent-sh/ship",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "agent-sh/prepare-delivery",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "blockprotocol/incubator",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "facebook/jest",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "rustwasm/wasm-pack",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "vercel/next.js",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dart-lang/build",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dart-lang/core",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dart-lang/http",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dart-lang/i18n",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cedar-policy/rfcs",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "microsoft/tracing-etw",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "decave/jcoz",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "funcmike/swift-coz",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "kozyraki/phoenix",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "urjitbhatia/cozgo",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "joyent/node-verror",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mcavage/node-restify",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "restify/node-restify",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "clibequilibrium/tracy-csharp",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "imandra-ai/ocaml-tracy",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "nagisa/rust_tracy_client",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "oskarnp/odin-tracy",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "labstack/echo",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "consensys/devp2p-dissectors",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "wireshark/wireshark",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "skylenet/ethereum-helm-charts",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "23andme/yamale",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "adrienverge/yamllint",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "helm/charts-repo-actions-demo",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "spf13/viper",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "masterminds/sprig",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "norwoodj/hashbash-backend-go",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "csu-radarmet/csu_radartools",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mdanalysis/mda-xdrlib",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "meteoswiss/pyrad",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mpy/cylp",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "astronomyk/simcado",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "8144225309/lightning",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "8144225309/superscalar-cln",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "8144225309/superscalar-docs",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "8144225309/superscalar-wallet",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "16arpi/meteo-tui",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "24seconds/rust-sadari-cli",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "64bit/commandok",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "acheronfail/repgrep",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cargo-generate/cargo-generate",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "agricidaniel/claude-email",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ahmedasmar/devops-claude-skills",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "airowe/claude-a11y-skill",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "antonbabenko/terraform-skill",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "0xnyk/awesome-hermes-agent",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "askbudi/roundtable",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cafetechne/antigravity-link-extension",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "charlie85270/dorothy",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aden-hive/hive",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aralyekta/prompttester",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "helicone/helicone",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "parveshiiii/deepresearch-agent",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "adityasugandhi/skillsync-mcp",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "alibaizhanov/openclaw-mengram",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "androidstern-personal/openclaw-mcp-adapter",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aporthq/aport-agent-guardrails",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "anthropics/anthropic-cookbook",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cortesi/devd",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cortesi/godist",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "hukkin/mdformat-toc",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mkdocs/mkdocs",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "remarkjs/remark",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "andymik90/auto-claude",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aws-cloudformation/aws-cloudformation-coverage-roadmap",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aws/aws-app-mesh-roadmap",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aws/containers-roadmap",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aws/elastic-beanstalk-roadmap",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "jtblin/kube2iam",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "prometheus-community/helm-charts",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "prometheus-operator/prometheus-operator",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "uswitch/kiam",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "pedronauck/kodebase-go",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "joshuawise/better-sqlite3",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mapbox/node-sqlite3",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "electron/electron-rebuild",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "prebuild/prebuild",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "prebuild/prebuild-install",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "rogerwang/node-webkit",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "vixie/cron",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "rekgrpth/pg_task",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ggerganov/ggml",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ggerganov/whisper.cpp",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "akx/ollama-dl",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "alexpinel/dot",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "baai-dcai/bunny",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "blackhole89/autopen",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "kkroening/ffmpeg-python",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "stlukey/whispercpp.py",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tazz4843/whisper-rs",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bnosac/audio.vadsilero",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bnosac/audio.vadwebrtc",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bnosac/images",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "birdofpreyru/js-utils",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "itinance/react-native-fs",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "callstack/react-native-builder-bob",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "google/minja",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mybigday/llama.node",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "conda-forge/conda-forge.github.io",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "mamba-org/mamba",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "doc-analysis/readingbank",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "doc-analysis/xfund",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "microsoft/lmops",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "microsoft/redstone",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "conda-forge/poppler-feedstock",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "danbloomberg/leptonica",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tesseract-ocr/tessdata",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "tesseract-ocr/tesseract",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "lerocha/chinook-database",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "sql-js/react-sqljs-demo",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "01mf02/jaq",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "burntsushi/quickcheck",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dathere/datapusher-plus",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "dathere/qsv-easy-windows-installer",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "facebook/zstd",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "medialab/corpora",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "facebookresearch/domainbed",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "f-dangel/backpack",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "facebookresearch/invariantriskminimization",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "facebookincubator/submitit",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cocodataset/panopticapi",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bfshi/llava_next_s2_integration",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "efficient-large-model/vila",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "eleutherai/gpt-neox",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "huggingface/accelerate",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "huggingface/peft",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "allenai/mmc4",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bytedance/shot2story",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "facebookresearch/llama",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "rsms/inter",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "zsef123/connected_components_pytorch",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cncf/tag-app-delivery",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cncf/tag-contributor-strategy",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cncf/tag-env-sustainability",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "cncf/tag-network",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "ambv/black",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "conda-forge/spacy-feedstock",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "explosion/projects",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "explosion/spacy-lookups-data",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "activeviam/jdk4py",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "com-lihaoyi/cask",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "finagle/finch",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "harmowatch/openapi-generator-cli",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "uber/mock",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "antonfisher/nested-logrus-formatter",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "apex/log",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "aybabtme/logzalgo",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "bshuster-repo/logrus-logstash-hook",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "chakra-core/org",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "microsoft/chakracore",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "microsoft/vcpkg-docs",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "microsoft/vcpkg-tool",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "jorenham/scipy-stubs",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "opencv/opencv",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "pandas-dev/pandas-stubs",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "python/typing",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "typeshed-internal/stub_uploader",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "rbenv/ruby-build",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "abingham/emacs-ycmd",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "damnwidget/anaconda",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "davidhalter/jedi-vim",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "isamert/gedi",
+      "graph_distance": 7
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "go-modules-by-example/index",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "hashicorp/terraform",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "hashicorp/terraform-provider-random",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "hashicorp/terraform-provider-scaffolding-framework",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "0xcafed00d/joystick",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "0xerr0r/blocky",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "1set/cronrange",
+      "graph_distance": 6
+    },
+    {
+      "discovered_via": "explicit-github-link",
+      "full_name": "1set/gut",
+      "graph_distance": 6
     }
   ],
   "processed": [
@@ -3913,6 +4288,134 @@
     "bonsaiden/cursive_table_view",
     "builditluc/wiki-tui",
     "aws-samples/prompt-engineering-with-anthropic-claude-v-3",
-    "pytest-dev/pytest"
+    "pytest-dev/pytest",
+    "vega/vega-lite",
+    "vega/vega-datasets",
+    "alteryx/open_source_demos",
+    "caronc/apprise-api",
+    "caronc/apprise-docs",
+    "eclipse-paho/paho.mqtt.python",
+    "attic-labs/noms",
+    "dolthub/doltgresql",
+    "gastownhall/gastown",
+    "cncf/artwork",
+    "helm/helm",
+    "helm/helm-www",
+    "eslint/eslint",
+    "standard/brackets-standard",
+    "josephfrazier/standard-eject",
+    "neomake/neomake",
+    "danielrosehill/claude-linux-desktop-manager",
+    "danielrosehill/linux-desktop-tools-index",
+    "danielrosehill/agent-assisted-purchase-research-index",
+    "danielrosehill/agents-index",
+    "danielrosehill/ai-projects-index",
+    "danielrosehill/ai-resource-maps",
+    "wbolster/emacs-direnv",
+    "opencontainers/distribution-spec",
+    "opencontainers/.github",
+    "opencontainers/runtime-spec",
+    "containerd/project",
+    "kubernetes-sigs/cri-tools",
+    "kubernetes/cri-api",
+    "microsoft/hcsshim",
+    "alvistack/ansible-role-crun",
+    "gotestyourself/gotestsum",
+    "josephspurrier/goversioninfo",
+    "agent-sh/audit-project",
+    "agent-sh/deslop",
+    "agent-sh/drift-detect",
+    "agent-sh/enhance",
+    "agent-sh/next-task",
+    "blockprotocol/awesome-blocks",
+    "hasharchives/wasm-ts-esm-in-node-jest-and-nextjs",
+    "dart-lang/ecosystem",
+    "golang/protobuf",
+    "cedar-policy/cedar-go",
+    "cedar-policy/cedar-java",
+    "open-telemetry/opentelemetry-rust-contrib",
+    "open-telemetry/opentelemetry-specification",
+    "microsoft/rust_win_etw",
+    "plasma-umass/coz",
+    "trentm/node-bunyan",
+    "wolfpld/tracy",
+    "hibiken/asynqmon",
+    "apache/incubator-tuweni",
+    "breadwallet/breadwallet-core",
+    "consensys/ethereum-dissectors",
+    "ethpandaops/ethereum-k8s-testnets",
+    "helm/chart-testing",
+    "norwoodj/helm-docs",
+    "pre-commit/pre-commit",
+    "biocypher/biocypher-cookiecutter-template",
+    "biocypher/collectri",
+    "biocypher/meta-graph",
+    "adam-boesky/astro_splash",
+    "arm-doe/pyart",
+    "astarvienna/scopesim",
+    "brainglobe/brainrender",
+    "8144225309/superscalar",
+    "ratatui/awesome-ratatui",
+    "ratatui/templates",
+    "alirezarezvani/claude-code-skill-factory",
+    "abubakarsiddik31/claude-skills-collection",
+    "eudk/awesome-ai-tools",
+    "ghimiresunil/top-ai-tools",
+    "samuraigpt/awesome-openclaw",
+    "aerobounce/sublime-pretty-shell",
+    "cortesi/modd",
+    "hukkin/mdformat",
+    "feloy/tesh",
+    "aws/ec2-spot-instances-integrations-roadmap",
+    "aws/aws-node-termination-handler",
+    "homebrew/.github",
+    "tryghost/node-sqlite3",
+    "citusdata/pg_cron",
+    "vibhorkum/pg_background",
+    "aarnphm/whispercpp",
+    "absadiki/pywhispercpp",
+    "aiwintermuteai/whispercpp",
+    "bnosac/audio.whisper",
+    "birdofpreyru/react-native-fs",
+    "gorhom/react-native-bottom-sheet",
+    "mybigday/llama.rn",
+    "conda-forge/miniforge",
+    "microsoft/unilm",
+    "oschwartz10612/poppler-windows",
+    "ub-mannheim/tesseract",
+    "sqlite/sqlite",
+    "sql-js/sql.js",
+    "asg017/sqlite-url",
+    "likle/cwalk",
+    "burntsushi/tabwriter",
+    "dathere/qsv",
+    "medialab/xan",
+    "alexrame/diwa",
+    "alexrame/fishr",
+    "arpitbansal297/universal-guided-diffusion",
+    "ashkamath/mdetr",
+    "bfshi/scaling_on_scales",
+    "eleutherai/lm-evaluation-harness",
+    "nvlabs/vila",
+    "cocodataset/cocoapi",
+    "facebookresearch/sam2",
+    "cncf/toc",
+    "explosion/spacy",
+    "goreleaser/.github",
+    "goreleaser/sponsors",
+    "openapitools/openapi-generator",
+    "golang/go",
+    "golang/mock",
+    "sirupsen/logrus",
+    "microsoft/vcpkg",
+    "microsoft/python-type-stubs",
+    "python/typeshed",
+    "nak1114/rbenv-win",
+    "rbenv/rbenv",
+    "rbenv/rbenv-installer",
+    "davidhalter/jedi",
+    "trufflesecurity/test_keys",
+    "hashicorp/terraform-plugin-docs",
+    "avelino/awesome-go"
   ]
 }

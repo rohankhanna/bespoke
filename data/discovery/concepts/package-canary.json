@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "package:canary"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/ecosystem",
+      "status": "candidate-context",
+      "text": "This repository is home to general Dart Ecosystem tools and packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/ecosystem",
+      "status": "candidate-context",
+      "text": "package:canary"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/ecosystem",
+      "status": "candidate",
+      "text": "package:canary"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9995763,
+      "status": "candidate",
+      "text": "pigeon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9990711,
+      "status": "candidate",
+      "text": "dicky"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9943447,
+      "status": "candidate",
+      "text": "fish out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9884957,
+      "status": "candidate",
+      "text": "kick off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9880341,
+      "status": "candidate",
+      "text": "red meat"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "package:canary",
+  "concept_id": "package-canary",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/canary_test.yml",
+      "source_repo": "dart-lang/ecosystem"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "package:canary",
+      "sense_id": "package-canary#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

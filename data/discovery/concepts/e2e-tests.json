@@ -19,12 +19,30 @@
       "source_repo": "stripe-samples/accept-a-payment",
       "status": "candidate-context",
       "text": "E2E Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gastownhall/gastown",
+      "status": "candidate-context",
+      "text": "Gas Town - multi-agent workspace manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gastownhall/gastown",
+      "status": "candidate-context",
+      "text": "E2E Tests"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "stripe-samples/accept-a-payment",
+      "status": "candidate",
+      "text": "E2E Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gastownhall/gastown",
       "status": "candidate",
       "text": "E2E Tests"
     }
@@ -82,11 +100,17 @@
       "observed_at": "2026-04-18T18:48:44.679047+00:00",
       "source_file": ".github/workflows/ci_e2e.yaml",
       "source_repo": "stripe-samples/accept-a-payment"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "gastownhall/gastown"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

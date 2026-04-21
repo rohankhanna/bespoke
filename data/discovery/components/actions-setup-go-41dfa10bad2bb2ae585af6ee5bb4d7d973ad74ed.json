@@ -1,12 +1,17 @@
 {
   "component": "actions/setup-go@41dfa10bad2bb2ae585af6ee5bb4d7d973ad74ed",
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
-  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/krel-release-notes-validate.yaml",
       "source_repo": "kubernetes/sig-release"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "helm/helm-www"
     }
   ]
 }

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Block Internal PRs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gastownhall/gastown",
+      "status": "candidate-context",
+      "text": "Gas Town - multi-agent workspace manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gastownhall/gastown",
+      "status": "candidate-context",
+      "text": "Block Internal PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gastownhall/gastown",
+      "status": "candidate",
+      "text": "Block Internal PRs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26814,
+      "status": "candidate",
+      "text": "nut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26014,
+      "status": "candidate",
+      "text": "cylinder block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26014,
+      "status": "candidate",
+      "text": "jacket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26014,
+      "status": "candidate",
+      "text": "nyt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18455,
+      "status": "candidate",
+      "text": "inch"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Block Internal PRs",
+  "concept_id": "block-internal-prs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/block-internal-prs.yml",
+      "source_repo": "gastownhall/gastown"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Block Internal PRs",
+      "sense_id": "block-internal-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

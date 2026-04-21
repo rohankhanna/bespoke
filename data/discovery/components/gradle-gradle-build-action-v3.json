@@ -1,7 +1,7 @@
 {
   "component": "gradle/gradle-build-action@v3",
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-04-18T09:23:47.800515+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "jeremymailen/kotlinter-gradle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gradle-plugin-tests.yaml",
+      "source_repo": "OpenAPITools/openapi-generator"
     }
   ]
 }

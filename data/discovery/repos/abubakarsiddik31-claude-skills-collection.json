@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abubakarsiddik31/claude-skills-collection",
+      "target": "antonbabenko/terraform-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abubakarsiddik31/claude-skills-collection",
+      "target": "airowe/claude-a11y-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abubakarsiddik31/claude-skills-collection",
+      "target": "agricidaniel/claude-email",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abubakarsiddik31/claude-skills-collection",
+      "target": "ahmedasmar/devops-claude-skills",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:57:57.932193+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 37225
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A curated collection of official and community-built Claude Skills \u2013 extend Anthropic's Claude with powerful, modular capabilities for productivity, creativity, coding, and more.",
+    "fork": false,
+    "full_name": "abubakarsiddik31/claude-skills-collection",
+    "html_url": "https://github.com/abubakarsiddik31/claude-skills-collection",
+    "language": null,
+    "pushed_at": "2026-03-19T17:43:27Z",
+    "stargazers_count": 620,
+    "topics": [],
+    "updated_at": "2026-04-21T04:57:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agricidaniel/claude-email",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ahmedasmar/devops-claude-skills",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "airowe/claude-a11y-skill",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antonbabenko/terraform-skill",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

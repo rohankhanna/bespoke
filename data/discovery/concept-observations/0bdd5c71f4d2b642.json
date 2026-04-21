@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Tesseract Open Source OCR Engine (main repository)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "cmake-win64"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "cmake-win64"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "cmake-win64",
+      "sense_id": "cmake-win64#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cmake-win64",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cmake-win64",
+  "observation_id": "0bdd5c71f4d2b642",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T18:51:25.552552+00:00",
+  "observed_text": "cmake-win64",
+  "source_context_snippet": "cmake-win64",
+  "source_file": ".github/workflows/cmake-win64.yml",
+  "source_repo": "UB-Mannheim/tesseract",
+  "source_repo_description": "Tesseract Open Source OCR Engine (main repository)"
+}

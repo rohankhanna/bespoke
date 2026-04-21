@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nak1114/rbenv-win",
+      "target": "rbenv/rbenv",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-21T19:02:14.909800+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1825
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "rbenv for Windows",
+    "fork": false,
+    "full_name": "nak1114/rbenv-win",
+    "html_url": "https://github.com/nak1114/rbenv-win",
+    "language": "VBScript",
+    "pushed_at": "2022-09-18T18:10:41Z",
+    "stargazers_count": 105,
+    "topics": [],
+    "updated_at": "2026-04-07T13:59:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rbenv/rbenv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

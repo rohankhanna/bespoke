@@ -19,6 +19,18 @@
       "source_repo": "home-assistant/core",
       "status": "candidate-context",
       "text": "Home Assistant |Chat Status|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "status": "candidate-context",
+      "text": "paho.mqtt.python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "status": "candidate-context",
+      "text": "Eclipse Paho\u2122 MQTT Python Client"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "home-assistant/core",
       "status": "candidate",
       "text": "Home Assistant |Chat Status|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "status": "candidate",
+      "text": "Eclipse Paho\u2122 MQTT Python Client"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "home-assistant/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-paho/paho.mqtt.python"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

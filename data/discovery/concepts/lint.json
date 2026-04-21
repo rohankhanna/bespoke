@@ -527,6 +527,54 @@
       "source_repo": "arxanas/git-branchless",
       "status": "candidate-context",
       "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opencontainers/runtime-spec",
+      "status": "candidate-context",
+      "text": "OCI Runtime Specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/runtime-spec",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ratatui/awesome-ratatui",
+      "status": "candidate-context",
+      "text": "A curated list of TUI apps and libraries built with Ratatui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ratatui/awesome-ratatui",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda-forge/miniforge",
+      "status": "candidate-context",
+      "text": "A conda-forge distribution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/miniforge",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rbenv/rbenv",
+      "status": "candidate-context",
+      "text": "Manage your app's Ruby environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rbenv/rbenv",
+      "status": "candidate-context",
+      "text": "Lint"
     }
   ],
   "candidate_glosses": [
@@ -779,6 +827,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "arxanas/git-branchless",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/runtime-spec",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ratatui/awesome-ratatui",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/miniforge",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rbenv/rbenv",
       "status": "candidate",
       "text": "Lint"
     }
@@ -1195,11 +1267,41 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "arxanas/git-branchless"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "opencontainers/runtime-spec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ratatui/awesome-ratatui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "conda-forge/miniforge"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "rbenv/rbenv"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

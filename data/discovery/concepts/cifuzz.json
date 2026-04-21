@@ -55,6 +55,18 @@
       "source_repo": "rustls/rustls",
       "status": "candidate-context",
       "text": "CIFuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "UB-Mannheim/tesseract",
+      "status": "candidate-context",
+      "text": "Tesseract Open Source OCR Engine (main repository)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "UB-Mannheim/tesseract",
+      "status": "candidate-context",
+      "text": "CIFuzz"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +91,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "rustls/rustls",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "UB-Mannheim/tesseract",
       "status": "candidate",
       "text": "CIFuzz"
     }
@@ -118,11 +136,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/cifuzz.yml",
       "source_repo": "GitoxideLabs/gitoxide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "UB-Mannheim/tesseract"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

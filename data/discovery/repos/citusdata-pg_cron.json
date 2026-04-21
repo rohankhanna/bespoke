@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "citusdata/pg_cron",
+      "target": "vixie/cron",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "citusdata/pg_cron",
+      "target": "cron",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "citusdata/pg_cron",
+      "target": "periodic-jobs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "citusdata/pg_cron",
+      "target": "postgresql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "citusdata/pg_cron",
+      "target": "scheduler",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:59:09.133527+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18546
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Run periodic jobs in PostgreSQL",
+    "fork": false,
+    "full_name": "citusdata/pg_cron",
+    "html_url": "https://github.com/citusdata/pg_cron",
+    "language": "C",
+    "pushed_at": "2026-04-21T13:26:06Z",
+    "stargazers_count": 3759,
+    "topics": [
+      "cron",
+      "periodic-jobs",
+      "postgresql",
+      "scheduler"
+    ],
+    "updated_at": "2026-04-21T13:26:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vixie/cron",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Citus Banner](/github-banner.png)](https://www.citusdata.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cron"
+    },
+    {
+      "context_snippet": "[![Citus Banner](/github-banner.png)](https://www.citusdata.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "periodic-jobs"
+    },
+    {
+      "context_snippet": "[![Citus Banner](/github-banner.png)](https://www.citusdata.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql"
+    },
+    {
+      "context_snippet": "[![Citus Banner](/github-banner.png)](https://www.citusdata.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scheduler"
+    }
+  ]
+}

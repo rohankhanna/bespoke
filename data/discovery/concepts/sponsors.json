@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "sponsors"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goreleaser/sponsors",
+      "status": "candidate-context",
+      "text": "Fetches sponsors from multiple sources and renders them based on templates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/sponsors",
+      "status": "candidate-context",
+      "text": "sponsors"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/sponsors",
+      "status": "candidate",
+      "text": "sponsors"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048474,
+      "status": "candidate",
+      "text": "supporter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10047542,
+      "status": "candidate",
+      "text": "patronize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10047085,
+      "status": "candidate",
+      "text": "patron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10033234,
+      "status": "candidate",
+      "text": "shop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10005903,
+      "status": "candidate",
+      "text": "frequent"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "sponsors",
+  "concept_id": "sponsors",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/sponsors.yml",
+      "source_repo": "goreleaser/sponsors"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "sponsors",
+      "sense_id": "sponsors#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

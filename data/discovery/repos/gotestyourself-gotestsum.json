@@ -1,0 +1,198 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gotestyourself/gotestsum",
+      "target": "bitfield/gotestdox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gotestyourself/gotestsum",
+      "target": "elastic/go-elasticsearch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gotestyourself/gotestsum",
+      "target": "dexidp/dex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gotestyourself/gotestsum",
+      "target": "coder/coder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "gotestyourself/gotestsum",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "gotestyourself/gotestsum",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gotestyourself/gotestsum",
+      "target": "go-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gotestyourself/gotestsum",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gotestyourself/gotestsum",
+      "target": "junit-xml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gotestyourself/gotestsum",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gotestyourself/gotestsum",
+      "target": "test-runner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gotestyourself/gotestsum",
+      "target": "testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:54:41.750239+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18940
+    },
+    {
+      "path": "go.mod",
+      "size": 608
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 707
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "'go test' runner with output optimized for humans, JUnit XML for CI integration, and a summary of the test results.",
+    "fork": false,
+    "full_name": "gotestyourself/gotestsum",
+    "html_url": "https://github.com/gotestyourself/gotestsum",
+    "language": "Go",
+    "pushed_at": "2026-04-15T00:47:43Z",
+    "stargazers_count": 2642,
+    "topics": [
+      "ci",
+      "go",
+      "go-test",
+      "golang",
+      "junit-xml",
+      "test",
+      "test-runner",
+      "testing"
+    ],
+    "updated_at": "2026-04-21T16:29:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bitfield/gotestdox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coder/coder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dexidp/dex",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elastic/go-elasticsearch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "`gotestsum` runs tests using `go test -json`, prints formatted test output, and a summary of the test run.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "go-test"
+    },
+    {
+      "context_snippet": "`gotestsum` runs tests using `go test -json`, prints formatted test output, and a summary of the test run.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "`gotestsum` runs tests using `go test -json`, prints formatted test output, and a summary of the test run.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "junit-xml"
+    },
+    {
+      "context_snippet": "`gotestsum` runs tests using `go test -json`, prints formatted test output, and a summary of the test run.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "test"
+    },
+    {
+      "context_snippet": "`gotestsum` runs tests using `go test -json`, prints formatted test output, and a summary of the test run.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "test-runner"
+    },
+    {
+      "context_snippet": "`gotestsum` runs tests using `go test -json`, prints formatted test output, and a summary of the test run.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    }
+  ]
+}

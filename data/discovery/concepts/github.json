@@ -61,6 +61,12 @@
       "source_repo": "github/git-sizer",
       "status": "candidate-context",
       "text": "_Happy Git repositories are all alike; every unhappy Git repository is unhappy in its own way._ \u2014Linus Tolstoy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Index",
+      "status": "candidate-context",
+      "text": "![Banner](banners/index.png)"
     }
   ],
   "candidate_glosses": [
@@ -87,6 +93,12 @@
       "source_repo": "github/git-sizer",
       "status": "candidate",
       "text": "_Happy Git repositories are all alike; every unhappy Git repository is unhappy in its own way._ \u2014Linus Tolstoy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Index",
+      "status": "candidate",
+      "text": "![Banner](banners/index.png)"
     }
   ],
   "candidate_related_terms": [
@@ -178,11 +190,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "github/git-sizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Index"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

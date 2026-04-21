@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/VILA",
+      "target": "efficient-large-model/vila",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/VILA",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/VILA",
+      "target": "allenai/mmc4",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/VILA",
+      "target": "bytedance/shot2story",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-21T19:01:19.519440+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22601
+    },
+    {
+      "path": "Dockerfile",
+      "size": 517
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2521
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "VILA is a family of state-of-the-art vision language models (VLMs) for diverse multimodal AI tasks across the edge, data center, and cloud.",
+    "fork": false,
+    "full_name": "NVlabs/VILA",
+    "html_url": "https://github.com/NVlabs/VILA",
+    "language": "Python",
+    "pushed_at": "2026-03-12T01:04:00Z",
+    "stargazers_count": 3786,
+    "topics": [],
+    "updated_at": "2026-04-18T13:32:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allenai/mmc4",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bytedance/shot2story",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "efficient-large-model/vila",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/llama",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

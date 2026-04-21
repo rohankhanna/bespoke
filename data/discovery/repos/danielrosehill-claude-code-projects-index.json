@@ -11,28 +11,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-agent-workspace-model",
+      "target": "danielrosehill/adb-ops-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-agent-picker-pattern",
+      "target": "danielrosehill/backup-planner",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-agent-workspace-generator",
+      "target": "danielrosehill/ai-ideation-runs",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-app-optimiser",
+      "target": "danielrosehill/ai-memory-planning-0426",
       "target_type": "repository"
     },
     {
@@ -64,70 +64,72 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T13:15:36.601914+00:00",
+  "fetched_at": "2026-04-21T18:52:54.562679+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 25354
+      "size": 50397
     },
     {
       "path": "package.json",
       "size": 346
     }
   ],
-  "metadata_refreshed_at": "2026-04-19T14:03:46.836648+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "An index of my Claude Code related repos including a wide variety of starter templates for using Claude Code for common and more imaginative purposes!",
     "fork": false,
-    "full_name": "danielrosehill/claude-code-projects-index",
+    "full_name": "danielrosehill/Claude-Code-Projects-Index",
     "html_url": "https://github.com/danielrosehill/Claude-Code-Projects-Index",
     "language": "Astro",
-    "pushed_at": "2026-04-19T13:49:01Z",
-    "stargazers_count": 362,
+    "pushed_at": "2026-04-21T11:06:00Z",
+    "stargazers_count": 376,
     "topics": [
       "claude-code",
       "claude-code-cli",
       "index-repos"
     ],
-    "updated_at": "2026-04-19T13:49:06Z"
+    "updated_at": "2026-04-21T18:27:52Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-agent-picker-pattern",
+      "full_name": "danielrosehill/adb-ops-plugin",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-agent-workspace-generator",
+      "full_name": "danielrosehill/ai-ideation-runs",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-agent-workspace-model",
+      "full_name": "danielrosehill/ai-memory-planning-0426",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-app-optimiser",
+      "full_name": "danielrosehill/backup-planner",
       "source_file": "README.md"
     }
   ],
   "terms": [
     {
+      "context_snippet": "![Claude Agent Blueprints](images/banner.png)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "claude-code"
     },
     {
+      "context_snippet": "![Claude Agent Blueprints](images/banner.png)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "claude-code-cli"
     },
     {
+      "context_snippet": "![Claude Agent Blueprints](images/banner.png)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "index-repos"

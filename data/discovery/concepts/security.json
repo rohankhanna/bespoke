@@ -124,6 +124,30 @@
       "source_repo": "OpenZeppelin/openzeppelin-contracts",
       "status": "candidate-context",
       "text": "[![Github Release](https://img.shields.io/github/v/tag/OpenZeppelin/openzeppelin-contracts.svg?filter=v*&sort=semver&label=github)](https://github.com/OpenZeppelin/openzeppelin-contracts/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/enhance",
+      "status": "candidate-context",
+      "text": "Plugin structure and tool use analyzer - validates plugin.json, MCP tools, and security patterns"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/enhance",
+      "status": "candidate-context",
+      "text": "Master enhancement orchestrator for plugins, agents, prompts, docs, hooks, and skills."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goreleaser/sponsors",
+      "status": "candidate-context",
+      "text": "Fetches sponsors from multiple sources and renders them based on templates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/sponsors",
+      "status": "candidate-context",
+      "text": "\"security\""
     }
   ],
   "candidate_glosses": [
@@ -174,6 +198,18 @@
       "source_repo": "OpenZeppelin/openzeppelin-contracts",
       "status": "candidate",
       "text": "[![Github Release](https://img.shields.io/github/v/tag/OpenZeppelin/openzeppelin-contracts.svg?filter=v*&sort=semver&label=github)](https://github.com/OpenZeppelin/openzeppelin-contracts/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/enhance",
+      "status": "candidate",
+      "text": "Master enhancement orchestrator for plugins, agents, prompts, docs, hooks, and skills."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/sponsors",
+      "status": "candidate",
+      "text": "\"security\""
     }
   ],
   "candidate_related_terms": [
@@ -319,11 +355,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "OpenZeppelin/openzeppelin-contracts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "agent-sh/enhance"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "goreleaser/sponsors"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

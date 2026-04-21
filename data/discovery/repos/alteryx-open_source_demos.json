@@ -1,0 +1,175 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest_dependency_checker.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest_dependency_checker.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest_dependency_checker.yml",
+      "source_repo": "alteryx/open_source_demos",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/latest_dependency_checker.yml",
+      "source_repo": "alteryx/open_source_demos",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/latest_dependency_checker.yml",
+      "source_repo": "alteryx/open_source_demos",
+      "target": "Latest Dependency Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alteryx/open_source_demos",
+      "target": "compose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alteryx/open_source_demos",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alteryx/open_source_demos",
+      "target": "evalml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alteryx/open_source_demos",
+      "target": "feature-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alteryx/open_source_demos",
+      "target": "featuretools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alteryx/open_source_demos",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alteryx/open_source_demos",
+      "target": "tutorial",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:51:39.836758+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2235
+    },
+    {
+      "path": "requirements.txt",
+      "size": 184
+    },
+    {
+      "path": ".github/workflows/latest_dependency_checker.yml",
+      "size": 641
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of demos showcasing automated feature engineering and machine learning in diverse use cases",
+    "fork": false,
+    "full_name": "alteryx/open_source_demos",
+    "html_url": "https://github.com/alteryx/open_source_demos",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-08-07T18:53:55Z",
+    "stargazers_count": 504,
+    "topics": [
+      "compose",
+      "data-science",
+      "evalml",
+      "feature-engineering",
+      "featuretools",
+      "machine-learning",
+      "python",
+      "tutorial"
+    ],
+    "updated_at": "2026-01-27T06:57:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Latest Dependency Checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/latest_dependency_checker.yml",
+      "term": "Latest Dependency Checker"
+    },
+    {
+      "context_snippet": "<div class=\"row\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compose"
+    },
+    {
+      "context_snippet": "<div class=\"row\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "<div class=\"row\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evalml"
+    },
+    {
+      "context_snippet": "<div class=\"row\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feature-engineering"
+    },
+    {
+      "context_snippet": "<div class=\"row\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "featuretools"
+    },
+    {
+      "context_snippet": "<div class=\"row\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<div class=\"row\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorial"
+    }
+  ]
+}

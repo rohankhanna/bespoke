@@ -123,6 +123,48 @@
       "source_repo": "anomalyco/opencode",
       "status": "candidate-context",
       "text": "containers"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opencontainers/distribution-spec",
+      "status": "candidate-context",
+      "text": "OCI Distribution Specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/distribution-spec",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions status](https://github.com/opencontainers/distribution-spec/workflows/build/badge.svg)](https://github.com/opencontainers/distribution-spec/actions?query=workflow%3Abuild)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opencontainers/runtime-spec",
+      "status": "candidate-context",
+      "text": "OCI Runtime Specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/runtime-spec",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions status](https://github.com/opencontainers/runtime-spec/workflows/build/badge.svg)](https://github.com/opencontainers/runtime-spec/actions?query=workflow%3Abuild)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/cri-tools",
+      "status": "candidate-context",
+      "text": "CLI and validation tools for Kubelet Container Runtime Interface (CRI) ."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/cri-tools",
+      "status": "candidate-context",
+      "text": "CLI and validation tools for Kubelet Container Runtime Interface (CRI) ."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moby/moby",
+      "status": "candidate-context",
+      "text": "The Moby Project"
     }
   ],
   "candidate_glosses": [
@@ -179,6 +221,30 @@
       "source_repo": "anomalyco/opencode",
       "status": "candidate",
       "text": "containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/distribution-spec",
+      "status": "candidate",
+      "text": "[![GitHub Actions status](https://github.com/opencontainers/distribution-spec/workflows/build/badge.svg)](https://github.com/opencontainers/distribution-spec/actions?query=workflow%3Abuild)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/runtime-spec",
+      "status": "candidate",
+      "text": "[![GitHub Actions status](https://github.com/opencontainers/runtime-spec/workflows/build/badge.svg)](https://github.com/opencontainers/runtime-spec/actions?query=workflow%3Abuild)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/cri-tools",
+      "status": "candidate",
+      "text": "CLI and validation tools for Kubelet Container Runtime Interface (CRI) ."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moby/moby",
+      "status": "candidate",
+      "text": "The Moby Project"
     }
   ],
   "candidate_related_terms": [
@@ -288,11 +354,35 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/containers.yml",
       "source_repo": "anomalyco/opencode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "opencontainers/distribution-spec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "opencontainers/runtime-spec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/cri-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "moby/moby"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

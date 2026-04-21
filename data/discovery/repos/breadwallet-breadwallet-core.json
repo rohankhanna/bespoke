@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-21T18:55:48.562644+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 114
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "SPV bitcoin C library",
+    "fork": false,
+    "full_name": "breadwallet/breadwallet-core",
+    "html_url": "https://github.com/breadwallet/breadwallet-core",
+    "language": "C",
+    "pushed_at": "2024-04-02T14:29:17Z",
+    "stargazers_count": 282,
+    "topics": [],
+    "updated_at": "2026-03-27T22:31:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

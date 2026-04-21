@@ -1,0 +1,22 @@
+{
+  "component": "subosito/flutter-action@1a449444c387b1966244ae4d4f8c696479add0b2",
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/canary.yaml",
+      "source_repo": "dart-lang/ecosystem"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/canary_test.yml",
+      "source_repo": "dart-lang/ecosystem"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/health_base.yaml",
+      "source_repo": "dart-lang/ecosystem"
+    }
+  ]
+}

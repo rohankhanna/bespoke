@@ -30,7 +30,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T13:15:40.219610+00:00",
+  "fetched_at": "2026-04-21T18:53:09.091715+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -41,14 +41,13 @@
       "size": 58
     }
   ],
-  "metadata_refreshed_at": "2026-04-21T05:18:18.200622+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "A repository that indexes my Github projects",
     "fork": false,
-    "full_name": "danielrosehill/index",
+    "full_name": "danielrosehill/Index",
     "html_url": "https://github.com/danielrosehill/Index",
     "language": "Python",
     "pushed_at": "2026-03-25T18:29:33Z",
@@ -69,16 +68,19 @@
   ],
   "terms": [
     {
+      "context_snippet": "![Banner](banners/index.png)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "github"
     },
     {
+      "context_snippet": "![Banner](banners/index.png)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "index"
     },
     {
+      "context_snippet": "![Banner](banners/index.png)",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "repositories"

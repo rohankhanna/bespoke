@@ -376,6 +376,126 @@
       "source_repo": "pytest-dev/pytest",
       "status": "candidate-context",
       "text": ".. image:: https://github.com/pytest-dev/pytest/raw/main/doc/en/img/pytest_logo_curves.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vega/vega-lite",
+      "status": "candidate-context",
+      "text": "A concise grammar of interactive graphics, built on Vega."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/vega-lite",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vega/vega-datasets",
+      "status": "candidate-context",
+      "text": "Common repository for example datasets used by Vega-related projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/vega-datasets",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gotestyourself/gotestsum",
+      "status": "candidate-context",
+      "text": "'go test' runner with output optimized for humans, JUnit XML for CI integration, and a summary of the test results."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gotestyourself/gotestsum",
+      "status": "candidate-context",
+      "text": "`gotestsum` runs tests using `go test -json`, prints formatted test output, and a summary of the test run."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "golang/protobuf",
+      "status": "candidate-context",
+      "text": "Go support for Google's protocol buffers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golang/protobuf",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trentm/node-bunyan",
+      "status": "candidate-context",
+      "text": "a simple and fast JSON logging module for node.js services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trentm/node-bunyan",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/incubator-tuweni",
+      "status": "candidate-context",
+      "text": "Apache Tuweni is a set of libraries and other tools to aid development of blockchain and other decentralized software in Java and other JVM languages. It includes a low-level bytes library, serialization and deserialization codecs (e.g. RLP), various cryptography functions and primatives, and lots of other helpful utilities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-tuweni",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asg017/sqlite-url",
+      "status": "candidate-context",
+      "text": "A SQLite extension for parsing, generating, and querying URLs and query strings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-url",
+      "status": "candidate-context",
+      "text": "\"test\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/python-type-stubs",
+      "status": "candidate-context",
+      "text": "A set of type stubs for popular Python packages. These are works in progress from the Microsoft Python team and others, with the intent that they are contributed to typeshed or to the associated packages once sufficiently complete."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/python-type-stubs",
+      "status": "candidate-context",
+      "text": "\"Test\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python/typeshed",
+      "status": "candidate-context",
+      "text": "Collection of library stubs for Python, with static types"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python/typeshed",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/terraform-plugin-docs",
+      "status": "candidate-context",
+      "text": "Generate and validate Terraform plugin/provider documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-plugin-docs",
+      "status": "candidate-context",
+      "text": "test"
     }
   ],
   "candidate_glosses": [
@@ -558,6 +678,66 @@
       "source_repo": "pytest-dev/pytest",
       "status": "candidate",
       "text": ".. image:: https://github.com/pytest-dev/pytest/raw/main/doc/en/img/pytest_logo_curves.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/vega-lite",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/vega-datasets",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gotestyourself/gotestsum",
+      "status": "candidate",
+      "text": "`gotestsum` runs tests using `go test -json`, prints formatted test output, and a summary of the test run."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golang/protobuf",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trentm/node-bunyan",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-tuweni",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asg017/sqlite-url",
+      "status": "candidate",
+      "text": "\"test\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/python-type-stubs",
+      "status": "candidate",
+      "text": "\"Test\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python/typeshed",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-plugin-docs",
+      "status": "candidate",
+      "text": "test"
     }
   ],
   "candidate_related_terms": [
@@ -877,11 +1057,71 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "pytest-dev/pytest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vega/vega-lite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vega/vega-datasets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "gotestyourself/gotestsum"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "golang/protobuf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "trentm/node-bunyan"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "apache/incubator-tuweni"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "asg017/sqlite-url"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "microsoft/python-type-stubs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "python/typeshed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hashicorp/terraform-plugin-docs"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

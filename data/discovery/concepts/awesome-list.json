@@ -19,9 +19,82 @@
       "source_repo": "hashintel/awesome-hash",
       "status": "candidate-context",
       "text": "\ud83d\ude0e A curated list of the best resources in the HASH ecosystem"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blockprotocol/awesome-blocks",
+      "status": "candidate-context",
+      "text": "\ud83d\ude0e A curated list of the best Block Protocol resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blockprotocol/awesome-blocks",
+      "status": "candidate-context",
+      "text": "[\u00de developer blog posts]: https://hash.dev/blog?tag=block-protocol&utm_medium=organic&utm_source=github_readme_awesomeblocks-repo_root"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ratatui/awesome-ratatui",
+      "status": "candidate-context",
+      "text": "A curated list of TUI apps and libraries built with Ratatui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ratatui/awesome-ratatui",
+      "status": "candidate-context",
+      "text": "<!--lint disable awesome-git-repo-age-->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SamurAIGPT/awesome-openclaw",
+      "status": "candidate-context",
+      "text": "A curated list of OpenClaw resources, tools, skills, tutorials & articles. OpenClaw (formerly Moltbot / Clawdbot) \u2014 open-source self-hosted AI agent for WhatsApp, Telegram, Discord & 50+ integrations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SamurAIGPT/awesome-openclaw",
+      "status": "candidate-context",
+      "text": "> A curated list of **OpenClaw** resources, tools, skills, tutorials, articles, and community projects \u2014 the open-source self-hosted AI agent taking the world by storm."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avelino/awesome-go",
+      "status": "candidate-context",
+      "text": "A curated list of awesome Go frameworks, libraries and software"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avelino/awesome-go",
+      "status": "candidate-context",
+      "text": "<a href=\"https://awesome-go.com/\"><img align=\"right\" src=\"https://github.com/avelino/awesome-go/raw/main/tmpl/assets/logo.png\" alt=\"awesome-go\" title=\"awesome-go\" /></a>"
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blockprotocol/awesome-blocks",
+      "status": "candidate",
+      "text": "[\u00de developer blog posts]: https://hash.dev/blog?tag=block-protocol&utm_medium=organic&utm_source=github_readme_awesomeblocks-repo_root"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ratatui/awesome-ratatui",
+      "status": "candidate",
+      "text": "<!--lint disable awesome-git-repo-age-->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SamurAIGPT/awesome-openclaw",
+      "status": "candidate",
+      "text": "> A curated list of **OpenClaw** resources, tools, skills, tutorials, articles, and community projects \u2014 the open-source self-hosted AI agent taking the world by storm."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avelino/awesome-go",
+      "status": "candidate",
+      "text": "<a href=\"https://awesome-go.com/\"><img align=\"right\" src=\"https://github.com/avelino/awesome-go/raw/main/tmpl/assets/logo.png\" alt=\"awesome-go\" title=\"awesome-go\" /></a>"
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "awesome-list",
@@ -45,12 +118,38 @@
       "observed_at": "2026-04-18T13:29:00.435097+00:00",
       "source_file": null,
       "source_repo": "hashintel/awesome-hash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "blockprotocol/awesome-blocks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "ratatui/awesome-ratatui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "SamurAIGPT/awesome-openclaw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "avelino/awesome-go"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

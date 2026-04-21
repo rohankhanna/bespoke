@@ -19,6 +19,18 @@
       "source_repo": "recharts/recharts",
       "status": "candidate-context",
       "text": "[![storybook](https://raw.githubusercontent.com/storybooks/brand/master/badge/badge-storybook.svg)](https://recharts.github.io/en-US/storybook)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm/helm",
+      "status": "candidate-context",
+      "text": "The Kubernetes Package Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/helm",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/helm/helm/workflows/release/badge.svg)](https://github.com/helm/helm/actions?workflow=release)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "recharts/recharts",
       "status": "candidate",
       "text": "[![storybook](https://raw.githubusercontent.com/storybooks/brand/master/badge/badge-storybook.svg)](https://recharts.github.io/en-US/storybook)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/helm",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/helm/helm/workflows/release/badge.svg)](https://github.com/helm/helm/actions?workflow=release)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": null,
       "source_repo": "recharts/recharts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "helm/helm"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

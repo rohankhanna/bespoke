@@ -94,6 +94,54 @@
       "source_repo": "invoke-ai/InvokeAI",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wolfpld/tracy",
+      "status": "candidate-context",
+      "text": "Frame profiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wolfpld/tracy",
+      "status": "candidate-context",
+      "text": "windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oschwartz10612/poppler-windows",
+      "status": "candidate-context",
+      "text": "Download Poppler binaries packaged for Windows with dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oschwartz10612/poppler-windows",
+      "status": "candidate-context",
+      "text": "Download the latest Poppler prebuilt-binaries packaged with dependencies for Windows. Built with the help of conda-forge and [poppler-feedstock](https://github.com/conda-forge/poppler-feedstock). Includes the latest poppler-data."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "likle/cwalk",
+      "status": "candidate-context",
+      "text": "Path library for C/C++. Cross-Platform for Linux, FreeBSD, Windows and MacOS. Supports UNIX and Windows path styles on those platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "likle/cwalk",
+      "status": "candidate-context",
+      "text": "<img style=\"width:100%;\" src=\"/banner.png\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vcpkg",
+      "status": "candidate-context",
+      "text": "C++ Library Manager for Windows, Linux, and MacOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vcpkg",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -138,6 +186,30 @@
       "source_repo": "invoke-ai/InvokeAI",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wolfpld/tracy",
+      "status": "candidate",
+      "text": "windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oschwartz10612/poppler-windows",
+      "status": "candidate",
+      "text": "Download the latest Poppler prebuilt-binaries packaged with dependencies for Windows. Built with the help of conda-forge and [poppler-feedstock](https://github.com/conda-forge/poppler-feedstock). Includes the latest poppler-data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "likle/cwalk",
+      "status": "candidate",
+      "text": "<img style=\"width:100%;\" src=\"/banner.png\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vcpkg",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [
@@ -235,11 +307,41 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "invoke-ai/InvokeAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "wolfpld/tracy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "oschwartz10612/poppler-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "likle/cwalk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vcpkg"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

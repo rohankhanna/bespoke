@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "DoltgreSQL - Version Controlled PostgreSQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "From the creators of [Dolt](https://www.doltdb.com), the world's first version controlled SQL"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "From the creators of [Dolt](https://www.doltdb.com), the world's first version controlled SQL"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "database-version-control",
+      "sense_id": "database-version-control#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "database-version-control",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "database-version-control",
+  "observation_id": "ff2ef49075040c6c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T18:51:25.552552+00:00",
+  "observed_text": "database-version-control",
+  "source_context_snippet": "From the creators of [Dolt](https://www.doltdb.com), the world's first version controlled SQL",
+  "source_file": null,
+  "source_repo": "dolthub/doltgresql",
+  "source_repo_description": "DoltgreSQL - Version Controlled PostgreSQL"
+}

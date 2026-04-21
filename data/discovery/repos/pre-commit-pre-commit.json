@@ -1,0 +1,191 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/languages.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/languages.yaml"
+    },
+    {
+      "component": "asottile/workflows/.github/actions/fast-checkout@v1.8.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/languages.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/languages.yaml"
+    },
+    {
+      "component": "haskell/actions/setup@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/languages.yaml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/languages.yaml"
+    },
+    {
+      "component": "asottile/workflows/.github/workflows/tox.yml@v1.8.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "asottile/workflows/.github/workflows/tox.yml@v1.8.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/languages.yaml",
+      "source_repo": "pre-commit/pre-commit",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/languages.yaml",
+      "source_repo": "pre-commit/pre-commit",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/languages.yaml",
+      "source_repo": "pre-commit/pre-commit",
+      "target": "asottile/workflows/.github/actions/fast-checkout@v1.8.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/languages.yaml",
+      "source_repo": "pre-commit/pre-commit",
+      "target": "haskell/actions/setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/languages.yaml",
+      "source_repo": "pre-commit/pre-commit",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/languages.yaml",
+      "source_repo": "pre-commit/pre-commit",
+      "target": "languages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pre-commit/pre-commit",
+      "target": "asottile/workflows/.github/workflows/tox.yml@v1.8.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pre-commit/pre-commit",
+      "target": "main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pre-commit/pre-commit",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pre-commit/pre-commit",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pre-commit/pre-commit",
+      "target": "refactoring",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:55:59.525946+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 480
+    },
+    {
+      "path": ".github/workflows/languages.yaml",
+      "size": 2634
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 502
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A framework for managing and maintaining multi-language pre-commit hooks.",
+    "fork": false,
+    "full_name": "pre-commit/pre-commit",
+    "html_url": "https://github.com/pre-commit/pre-commit",
+    "language": "Python",
+    "pushed_at": "2026-04-14T16:07:49Z",
+    "stargazers_count": 15176,
+    "topics": [
+      "git",
+      "linter",
+      "pre-commit",
+      "python",
+      "refactoring"
+    ],
+    "updated_at": "2026-04-21T18:51:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "languages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/languages.yaml",
+      "term": "languages"
+    },
+    {
+      "context_snippet": "main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "main"
+    },
+    {
+      "context_snippet": "[![build status](https://github.com/pre-commit/pre-commit/actions/workflows/main.yml/badge.svg)](https://github.com/pre-commit/pre-commit/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "[![build status](https://github.com/pre-commit/pre-commit/actions/workflows/main.yml/badge.svg)](https://github.com/pre-commit/pre-commit/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "[![build status](https://github.com/pre-commit/pre-commit/actions/workflows/main.yml/badge.svg)](https://github.com/pre-commit/pre-commit/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "refactoring"
+    }
+  ]
+}

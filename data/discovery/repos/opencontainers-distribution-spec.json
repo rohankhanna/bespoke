@@ -1,0 +1,314 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pr.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pr.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-action-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-action.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opencontainers/distribution-spec",
+      "target": "opencontainers/tob",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opencontainers/distribution-spec",
+      "target": "opencontainers/runtime-spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opencontainers/distribution-spec",
+      "target": "opencontainers/org",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pr.yml",
+      "source_repo": "opencontainers/distribution-spec",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pr.yml",
+      "source_repo": "opencontainers/distribution-spec",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pr.yml",
+      "source_repo": "opencontainers/distribution-spec",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-pr.yml",
+      "source_repo": "opencontainers/distribution-spec",
+      "target": "build-pr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "opencontainers/distribution-spec",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "opencontainers/distribution-spec",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "opencontainers/distribution-spec",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "opencontainers/distribution-spec",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-action-pr.yml",
+      "source_repo": "opencontainers/distribution-spec",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conformance-action-pr.yml",
+      "source_repo": "opencontainers/distribution-spec",
+      "target": "conformance-action-pr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-action.yml",
+      "source_repo": "opencontainers/distribution-spec",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conformance-action.yml",
+      "source_repo": "opencontainers/distribution-spec",
+      "target": "conformance-action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "opencontainers/distribution-spec",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "opencontainers/distribution-spec",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "opencontainers/distribution-spec",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "opencontainers/distribution-spec",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencontainers/distribution-spec",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencontainers/distribution-spec",
+      "target": "docker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:54:18.949378+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7917
+    },
+    {
+      "path": ".github/workflows/build-pr.yml",
+      "size": 1221
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1210
+    },
+    {
+      "path": ".github/workflows/conformance-action-pr.yml",
+      "size": 599
+    },
+    {
+      "path": ".github/workflows/conformance-action.yml",
+      "size": 588
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2273
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OCI Distribution Specification",
+    "fork": false,
+    "full_name": "opencontainers/distribution-spec",
+    "html_url": "https://github.com/opencontainers/distribution-spec",
+    "language": "Go",
+    "pushed_at": "2026-04-13T19:41:31Z",
+    "stargazers_count": 1098,
+    "topics": [
+      "containers",
+      "docker",
+      "oci"
+    ],
+    "updated_at": "2026-04-21T09:46:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opencontainers/org",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opencontainers/runtime-spec",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opencontainers/tob",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build-pr",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-pr.yml",
+      "term": "build-pr"
+    },
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "conformance-action-pr",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conformance-action-pr.yml",
+      "term": "conformance-action-pr"
+    },
+    {
+      "context_snippet": "conformance-action",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conformance-action.yml",
+      "term": "conformance-action"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "[![GitHub Actions status](https://github.com/opencontainers/distribution-spec/workflows/build/badge.svg)](https://github.com/opencontainers/distribution-spec/actions?query=workflow%3Abuild)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "[![GitHub Actions status](https://github.com/opencontainers/distribution-spec/workflows/build/badge.svg)](https://github.com/opencontainers/distribution-spec/actions?query=workflow%3Abuild)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    }
+  ]
+}

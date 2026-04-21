@@ -1,0 +1,108 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Projects-Index",
+      "target": "danielrosehill/agent-handover-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Projects-Index",
+      "target": "danielrosehill/agent-sdk-env-setup",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Projects-Index",
+      "target": "danielrosehill/agentic-ai-architecture-visualisation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Projects-Index",
+      "target": "danielrosehill/a-better-jobs-platform-notes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Projects-Index",
+      "target": "index",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Projects-Index",
+      "target": "projects",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:54:08.276476+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 103389
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Index of AI project related indices (master index)",
+    "fork": false,
+    "full_name": "danielrosehill/AI-Projects-Index",
+    "html_url": "https://github.com/danielrosehill/AI-Projects-Index",
+    "language": null,
+    "pushed_at": "2026-03-27T17:14:34Z",
+    "stargazers_count": 0,
+    "topics": [
+      "ai",
+      "index",
+      "projects"
+    ],
+    "updated_at": "2026-03-27T17:14:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/a-better-jobs-platform-notes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/agent-handover-demo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/agent-sdk-env-setup",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/agentic-ai-architecture-visualisation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![GitHub](https://img.shields.io/badge/GitHub-danielrosehill-blue?style=flat-square&logo=github)](https://github.com/danielrosehill)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "index"
+    },
+    {
+      "context_snippet": "[![GitHub](https://img.shields.io/badge/GitHub-danielrosehill-blue?style=flat-square&logo=github)](https://github.com/danielrosehill)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "projects"
+    }
+  ]
+}

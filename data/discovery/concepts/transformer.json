@@ -37,6 +37,18 @@
       "source_repo": "huggingface/text-generation-inference",
       "status": "candidate-context",
       "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EleutherAI/lm-evaluation-harness",
+      "status": "candidate-context",
+      "text": "A framework for few-shot evaluation of language models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EleutherAI/lm-evaluation-harness",
+      "status": "candidate-context",
+      "text": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10256836.svg)](https://doi.org/10.5281/zenodo.10256836)"
     }
   ],
   "candidate_glosses": [
@@ -51,6 +63,12 @@
       "source_repo": "huggingface/text-generation-inference",
       "status": "candidate",
       "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EleutherAI/lm-evaluation-harness",
+      "status": "candidate",
+      "text": "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10256836.svg)](https://doi.org/10.5281/zenodo.10256836)"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "huggingface/text-generation-inference"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "EleutherAI/lm-evaluation-harness"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

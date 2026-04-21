@@ -19,12 +19,30 @@
       "source_repo": "dolthub/dolt",
       "status": "candidate-context",
       "text": "Bump Deps"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dolthub/doltgresql",
+      "status": "candidate-context",
+      "text": "DoltgreSQL - Version Controlled PostgreSQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dolthub/doltgresql",
+      "status": "candidate-context",
+      "text": "Bump Deps"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "dolthub/dolt",
+      "status": "candidate",
+      "text": "Bump Deps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dolthub/doltgresql",
       "status": "candidate",
       "text": "Bump Deps"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/bump-dependency.yaml",
       "source_repo": "dolthub/dolt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/bump-dependency.yaml",
+      "source_repo": "dolthub/doltgresql"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

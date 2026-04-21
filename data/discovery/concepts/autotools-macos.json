@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "autotools-macos"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "UB-Mannheim/tesseract",
+      "status": "candidate-context",
+      "text": "Tesseract Open Source OCR Engine (main repository)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "UB-Mannheim/tesseract",
+      "status": "candidate-context",
+      "text": "autotools-macos"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "UB-Mannheim/tesseract",
+      "status": "candidate",
+      "text": "autotools-macos"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "autotools-macos",
+  "concept_id": "autotools-macos",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/autotools-macos.yml",
+      "source_repo": "UB-Mannheim/tesseract"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "autotools-macos",
+      "sense_id": "autotools-macos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

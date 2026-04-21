@@ -1,0 +1,22 @@
+{
+  "component": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/next-check.yaml",
+      "source_repo": "feloy/tesh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yaml",
+      "source_repo": "feloy/tesh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "feloy/tesh"
+    }
+  ]
+}

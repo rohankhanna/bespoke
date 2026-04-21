@@ -55,6 +55,18 @@
       "source_repo": "charmbracelet/glow",
       "status": "candidate-context",
       "text": "Render markdown on the CLI, with _pizzazz_!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hukkin/mdformat",
+      "status": "candidate-context",
+      "text": "CommonMark compliant Markdown formatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hukkin/mdformat",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "charmbracelet/glow",
       "status": "candidate",
       "text": "Render markdown on the CLI, with _pizzazz_!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hukkin/mdformat",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "charmbracelet/glow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "hukkin/mdformat"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

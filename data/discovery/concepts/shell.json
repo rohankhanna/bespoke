@@ -97,6 +97,30 @@
       "source_repo": "zsh-users/zsh-autosuggestions",
       "status": "candidate-context",
       "text": "_[Fish](http://fishshell.com/)-like fast/unobtrusive autosuggestions for zsh._"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aerobounce/Sublime-Pretty-Shell",
+      "status": "candidate-context",
+      "text": "\ud83d\udc1a Shell Script Formatter / Syntax Checker (Powered by shfmt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerobounce/Sublime-Pretty-Shell",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rbenv/rbenv",
+      "status": "candidate-context",
+      "text": "Manage your app's Ruby environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rbenv/rbenv",
+      "status": "candidate-context",
+      "text": "rbenv is a version manager tool for the Ruby programming language on Unix-like systems. It is useful for switching between multiple Ruby versions on the same machine and for ensuring that each project you are working on always runs on the correct Ruby version."
     }
   ],
   "candidate_glosses": [
@@ -141,6 +165,18 @@
       "source_repo": "zsh-users/zsh-autosuggestions",
       "status": "candidate",
       "text": "_[Fish](http://fishshell.com/)-like fast/unobtrusive autosuggestions for zsh._"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aerobounce/Sublime-Pretty-Shell",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/badge/Platforms-Linux%20/%20macOS%20/%20Windows-blue.svg)][packagecontrol]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rbenv/rbenv",
+      "status": "candidate",
+      "text": "rbenv is a version manager tool for the Ruby programming language on Unix-like systems. It is useful for switching between multiple Ruby versions on the same machine and for ensuring that each project you are working on always runs on the correct Ruby version."
     }
   ],
   "candidate_related_terms": [
@@ -268,11 +304,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "zsh-users/zsh-autosuggestions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "aerobounce/Sublime-Pretty-Shell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "rbenv/rbenv"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,373 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-freebsd.yml"
+    },
+    {
+      "component": "vmactions/freebsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-freebsd.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-win.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-freebsd.yml",
+      "source_repo": "likle/cwalk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-freebsd.yml",
+      "source_repo": "likle/cwalk",
+      "target": "vmactions/freebsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-freebsd.yml",
+      "source_repo": "likle/cwalk",
+      "target": "Build on FreeBSD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "likle/cwalk",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "likle/cwalk",
+      "target": "Build on Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "likle/cwalk",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "likle/cwalk",
+      "target": "Build on macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-win.yml",
+      "source_repo": "likle/cwalk",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-win.yml",
+      "source_repo": "likle/cwalk",
+      "target": "Build on Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "likle/cwalk",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "likle/cwalk",
+      "target": "c-plus-plus-11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "likle/cwalk",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "likle/cwalk",
+      "target": "directory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "likle/cwalk",
+      "target": "file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "likle/cwalk",
+      "target": "file-path",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "likle/cwalk",
+      "target": "file-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "likle/cwalk",
+      "target": "filesystem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "likle/cwalk",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "likle/cwalk",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "likle/cwalk",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "likle/cwalk",
+      "target": "path",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "likle/cwalk",
+      "target": "path-manipulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "likle/cwalk",
+      "target": "path-parsing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "likle/cwalk",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T19:00:41.746855+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1937
+    },
+    {
+      "path": ".github/workflows/build-freebsd.yml",
+      "size": 478
+    },
+    {
+      "path": ".github/workflows/build-linux.yml",
+      "size": 1426
+    },
+    {
+      "path": ".github/workflows/build-macos.yml",
+      "size": 1086
+    },
+    {
+      "path": ".github/workflows/build-win.yml",
+      "size": 1120
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Path library for C/C++. Cross-Platform for Linux, FreeBSD, Windows and MacOS. Supports UNIX and Windows path styles on those platforms.",
+    "fork": false,
+    "full_name": "likle/cwalk",
+    "html_url": "https://github.com/likle/cwalk",
+    "language": "C",
+    "pushed_at": "2024-11-07T13:47:13Z",
+    "stargazers_count": 318,
+    "topics": [
+      "c",
+      "c-plus-plus",
+      "c-plus-plus-11",
+      "cpp",
+      "cross-platform",
+      "directory",
+      "file",
+      "file-path",
+      "file-system",
+      "filesystem",
+      "library",
+      "linux",
+      "macos",
+      "osx",
+      "path",
+      "path-manipulation",
+      "path-parsing",
+      "unc",
+      "windows"
+    ],
+    "updated_at": "2026-04-09T21:44:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build on FreeBSD",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-freebsd.yml",
+      "term": "Build on FreeBSD"
+    },
+    {
+      "context_snippet": "Build on Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "term": "Build on Linux"
+    },
+    {
+      "context_snippet": "Build on macOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macos.yml",
+      "term": "Build on macOS"
+    },
+    {
+      "context_snippet": "Build on Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-win.yml",
+      "term": "Build on Windows"
+    },
+    {
+      "context_snippet": "<img style=\"width:100%;\" src=\"/banner.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "<img style=\"width:100%;\" src=\"/banner.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus-11"
+    },
+    {
+      "context_snippet": "<img style=\"width:100%;\" src=\"/banner.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "<img style=\"width:100%;\" src=\"/banner.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "directory"
+    },
+    {
+      "context_snippet": "<img style=\"width:100%;\" src=\"/banner.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file"
+    },
+    {
+      "context_snippet": "<img style=\"width:100%;\" src=\"/banner.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file-path"
+    },
+    {
+      "context_snippet": "<img style=\"width:100%;\" src=\"/banner.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file-system"
+    },
+    {
+      "context_snippet": "<img style=\"width:100%;\" src=\"/banner.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filesystem"
+    },
+    {
+      "context_snippet": "<img style=\"width:100%;\" src=\"/banner.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "<img style=\"width:100%;\" src=\"/banner.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "<img style=\"width:100%;\" src=\"/banner.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "<img style=\"width:100%;\" src=\"/banner.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "path"
+    },
+    {
+      "context_snippet": "<img style=\"width:100%;\" src=\"/banner.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "path-manipulation"
+    },
+    {
+      "context_snippet": "<img style=\"width:100%;\" src=\"/banner.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "path-parsing"
+    },
+    {
+      "context_snippet": "<img style=\"width:100%;\" src=\"/banner.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

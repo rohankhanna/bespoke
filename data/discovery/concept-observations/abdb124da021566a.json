@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "C++ Library Manager for Windows, Linux, and MacOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check For Common Mistakes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check For Common Mistakes"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23815,
+      "status": "candidate",
+      "text": "edit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22598,
+      "status": "candidate",
+      "text": "correct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22598,
+      "status": "candidate",
+      "text": "error"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22252,
+      "status": "candidate",
+      "text": "typo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22214,
+      "status": "candidate",
+      "text": "perfect"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check For Common Mistakes",
+      "sense_id": "check-for-common-mistakes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-for-common-mistakes",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-for-common-mistakes",
+  "observation_id": "abdb124da021566a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T18:51:25.552552+00:00",
+  "observed_text": "Check For Common Mistakes",
+  "source_context_snippet": "Check For Common Mistakes",
+  "source_file": ".github/workflows/untrustedPR.yml",
+  "source_repo": "microsoft/vcpkg",
+  "source_repo_description": "C++ Library Manager for Windows, Linux, and MacOS"
+}

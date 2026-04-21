@@ -1,0 +1,62 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes/cri-api",
+      "target": "k8s-sig-node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes/cri-api",
+      "target": "k8s-staging",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:54:28.628611+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14235
+    },
+    {
+      "path": "go.mod",
+      "size": 933
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Container Runtime Interface (CRI) \u2013 a plugin interface which enables kubelet to use a wide variety of container runtimes.",
+    "fork": false,
+    "full_name": "kubernetes/cri-api",
+    "html_url": "https://github.com/kubernetes/cri-api",
+    "language": "Go",
+    "pushed_at": "2026-04-16T01:55:00Z",
+    "stargazers_count": 467,
+    "topics": [
+      "k8s-sig-node",
+      "k8s-staging"
+    ],
+    "updated_at": "2026-04-17T21:24:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> \u26a0\ufe0f **This is an automatically published [staged repository](https://git.k8s.io/kubernetes/staging#external-repository-staging-area) for Kubernetes**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k8s-sig-node"
+    },
+    {
+      "context_snippet": "> \u26a0\ufe0f **This is an automatically published [staged repository](https://git.k8s.io/kubernetes/staging#external-repository-staging-area) for Kubernetes**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k8s-staging"
+    }
+  ]
+}

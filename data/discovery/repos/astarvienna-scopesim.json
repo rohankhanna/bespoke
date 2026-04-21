@@ -1,0 +1,305 @@
+{
+  "components": [
+    {
+      "component": "AstarVienna/DevOps/.github/workflows/bump.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump.yml"
+    },
+    {
+      "component": "AstarVienna/DevOps/.github/workflows/bump.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_on_dependency.yml"
+    },
+    {
+      "component": "AstarVienna/DevOps/.github/workflows/markdown_link_check.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown_link_check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notebooks_dispatch.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notebooks_dispatch.yml"
+    },
+    {
+      "component": "AstarVienna/DevOps/.github/workflows/publish_pypi.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml"
+    },
+    {
+      "component": "AstarVienna/DevOps/.github/workflows/replaceholder.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/replaceholder.yml"
+    },
+    {
+      "component": "AstarVienna/DevOps/.github/workflows/tests.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "AstarVienna/DevOps/.github/workflows/webtests.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "AstarVienna/DevOps/.github/workflows/updated_tests.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AstarVienna/ScopeSim",
+      "target": "astronomyk/simcado",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump.yml",
+      "source_repo": "AstarVienna/ScopeSim",
+      "target": "AstarVienna/DevOps/.github/workflows/bump.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump.yml",
+      "source_repo": "AstarVienna/ScopeSim",
+      "target": "Bump package version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_on_dependency.yml",
+      "source_repo": "AstarVienna/ScopeSim",
+      "target": "AstarVienna/DevOps/.github/workflows/bump.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump_on_dependency.yml",
+      "source_repo": "AstarVienna/ScopeSim",
+      "target": "Bump dev version on dependency PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown_link_check.yml",
+      "source_repo": "AstarVienna/ScopeSim",
+      "target": "AstarVienna/DevOps/.github/workflows/markdown_link_check.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notebooks_dispatch.yml",
+      "source_repo": "AstarVienna/ScopeSim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/notebooks_dispatch.yml",
+      "source_repo": "AstarVienna/ScopeSim",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notebooks_dispatch.yml",
+      "source_repo": "AstarVienna/ScopeSim",
+      "target": "Notebooks Dispatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notebooks_with_irdb_download.yml",
+      "source_repo": "AstarVienna/ScopeSim",
+      "target": "Notebooks with IRDB download",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_pypi.yml",
+      "source_repo": "AstarVienna/ScopeSim",
+      "target": "AstarVienna/DevOps/.github/workflows/publish_pypi.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_pypi.yml",
+      "source_repo": "AstarVienna/ScopeSim",
+      "target": "Release on PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/replaceholder.yml",
+      "source_repo": "AstarVienna/ScopeSim",
+      "target": "AstarVienna/DevOps/.github/workflows/replaceholder.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/replaceholder.yml",
+      "source_repo": "AstarVienna/ScopeSim",
+      "target": "Replace version placeholders",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "AstarVienna/ScopeSim",
+      "target": "AstarVienna/DevOps/.github/workflows/tests.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "AstarVienna/ScopeSim",
+      "target": "AstarVienna/DevOps/.github/workflows/webtests.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "AstarVienna/ScopeSim",
+      "target": "AstarVienna/DevOps/.github/workflows/updated_tests.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "AstarVienna/ScopeSim",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AstarVienna/ScopeSim",
+      "target": "astronomy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:56:11.783621+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2338
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3880
+    },
+    {
+      "path": ".github/workflows/bump.yml",
+      "size": 676
+    },
+    {
+      "path": ".github/workflows/bump_on_dependency.yml",
+      "size": 495
+    },
+    {
+      "path": ".github/workflows/markdown_link_check.yml",
+      "size": 372
+    },
+    {
+      "path": ".github/workflows/notebooks_dispatch.yml",
+      "size": 1815
+    },
+    {
+      "path": ".github/workflows/notebooks_with_irdb_download.yml",
+      "size": 277
+    },
+    {
+      "path": ".github/workflows/publish_pypi.yml",
+      "size": 174
+    },
+    {
+      "path": ".github/workflows/replaceholder.yml",
+      "size": 406
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 804
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A telescope observation simulator for Python.",
+    "fork": false,
+    "full_name": "AstarVienna/ScopeSim",
+    "html_url": "https://github.com/AstarVienna/ScopeSim",
+    "language": "Python",
+    "pushed_at": "2026-04-21T18:08:32Z",
+    "stargazers_count": 33,
+    "topics": [
+      "astronomy"
+    ],
+    "updated_at": "2026-04-16T21:11:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "astronomyk/simcado",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Bump package version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump.yml",
+      "term": "Bump package version"
+    },
+    {
+      "context_snippet": "Bump dev version on dependency PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump_on_dependency.yml",
+      "term": "Bump dev version on dependency PR"
+    },
+    {
+      "context_snippet": "Notebooks Dispatch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notebooks_dispatch.yml",
+      "term": "Notebooks Dispatch"
+    },
+    {
+      "context_snippet": "Notebooks with IRDB download",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/notebooks_with_irdb_download.yml",
+      "term": "Notebooks with IRDB download"
+    },
+    {
+      "context_snippet": "Release on PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_pypi.yml",
+      "term": "Release on PyPI"
+    },
+    {
+      "context_snippet": "Replace version placeholders",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/replaceholder.yml",
+      "term": "Replace version placeholders"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/AstarVienna/ScopeSim/actions/workflows/tests.yml/badge.svg)](https://github.com/AstarVienna/ScopeSim/actions/workflows/tests.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "astronomy"
+    }
+  ]
+}

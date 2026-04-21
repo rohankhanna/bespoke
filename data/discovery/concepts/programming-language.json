@@ -31,6 +31,18 @@
       "source_repo": "argotorg/solidity",
       "status": "candidate-context",
       "text": "[![Matrix Chat](https://img.shields.io/badge/Matrix%20-chat-brightgreen?style=plastic&logo=matrix)](https://matrix.to/#/#ethereum_solidity:gitter.im)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "golang/go",
+      "status": "candidate-context",
+      "text": "The Go programming language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golang/go",
+      "status": "candidate-context",
+      "text": "Go is an open source programming language that makes it easy to build simple,"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "argotorg/solidity",
       "status": "candidate",
       "text": "[![Matrix Chat](https://img.shields.io/badge/Matrix%20-chat-brightgreen?style=plastic&logo=matrix)](https://matrix.to/#/#ethereum_solidity:gitter.im)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golang/go",
+      "status": "candidate",
+      "text": "Go is an open source programming language that makes it easy to build simple,"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "golang/go"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

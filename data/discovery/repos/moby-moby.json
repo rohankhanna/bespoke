@@ -396,21 +396,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "Dockerfile",
       "source_repo": "moby/moby",
-      "target": "docker/cli",
+      "target": "go-delve/delve",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "Dockerfile",
       "source_repo": "moby/moby",
-      "target": "containerd/containerd",
+      "target": "golangci/golangci-lint",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "Dockerfile",
       "source_repo": "moby/moby",
-      "target": "containers/crun",
+      "target": "gotestyourself/gotestsum",
       "target_type": "repository"
     },
     {
@@ -715,7 +715,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T13:16:13.227229+00:00",
+  "fetched_at": "2026-04-21T18:54:35.702399+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -727,7 +727,7 @@
     },
     {
       "path": "go.mod",
-      "size": 15152
+      "size": 15117
     },
     {
       "path": ".github/workflows/.dco.yml",
@@ -758,7 +758,6 @@
       "size": 2091
     }
   ],
-  "metadata_refreshed_at": "2026-04-19T14:03:26.638602+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -768,27 +767,17 @@
     "full_name": "moby/moby",
     "html_url": "https://github.com/moby/moby",
     "language": "Go",
-    "pushed_at": "2026-04-19T00:29:21Z",
-    "stargazers_count": 71509,
+    "pushed_at": "2026-04-21T11:56:03Z",
+    "stargazers_count": 71504,
     "topics": [
       "containers",
       "docker",
       "go",
       "golang"
     ],
-    "updated_at": "2026-04-19T12:53:24Z"
+    "updated_at": "2026-04-21T13:51:06Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "containerd/containerd",
-      "source_file": "Dockerfile"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "containers/crun",
-      "source_file": "Dockerfile"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "docker-archive/windows-container-utility",
@@ -796,32 +785,47 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "docker/cli",
+      "full_name": "go-delve/delve",
+      "source_file": "Dockerfile"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "golangci/golangci-lint",
+      "source_file": "Dockerfile"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gotestyourself/gotestsum",
       "source_file": "Dockerfile"
     }
   ],
   "terms": [
     {
+      "context_snippet": "arm64",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/arm64.yml",
       "term": "arm64"
     },
     {
+      "context_snippet": "bin-image",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/bin-image.yml",
       "term": "bin-image"
     },
     {
+      "context_snippet": "The Moby Project",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "containers"
     },
     {
+      "context_snippet": "The Moby Project",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "docker"
     },
     {
+      "context_snippet": "The Moby Project",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "golang"

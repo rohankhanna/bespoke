@@ -19,6 +19,18 @@
       "source_repo": "avajs/ava",
       "status": "candidate-context",
       "text": "ava \u2014 Node.js test runner that lets you develop with confidence."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gotestyourself/gotestsum",
+      "status": "candidate-context",
+      "text": "'go test' runner with output optimized for humans, JUnit XML for CI integration, and a summary of the test results."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gotestyourself/gotestsum",
+      "status": "candidate-context",
+      "text": "`gotestsum` runs tests using `go test -json`, prints formatted test output, and a summary of the test run."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "avajs/ava",
       "status": "candidate",
       "text": "ava \u2014 Node.js test runner that lets you develop with confidence."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gotestyourself/gotestsum",
+      "status": "candidate",
+      "text": "`gotestsum` runs tests using `go test -json`, prints formatted test output, and a summary of the test run."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "avajs/ava"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "gotestyourself/gotestsum"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

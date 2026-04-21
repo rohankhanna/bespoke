@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto Close Issue Workflow"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "status": "candidate-context",
+      "text": "A performant interactive bottom sheet with fully configurable options \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "status": "candidate-context",
+      "text": "Auto Close Issue Workflow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "status": "candidate",
+      "text": "Auto Close Issue Workflow"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32366,
+      "status": "candidate",
+      "text": "pit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32316,
+      "status": "candidate",
+      "text": "make"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32284,
+      "status": "candidate",
+      "text": "beetle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32221,
+      "status": "candidate",
+      "text": "chassis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32127,
+      "status": "candidate",
+      "text": "care"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto Close Issue Workflow",
+  "concept_id": "auto-close-issue-workflow",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/auto-close.yml",
+      "source_repo": "gorhom/react-native-bottom-sheet"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Close Issue Workflow",
+      "sense_id": "auto-close-issue-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

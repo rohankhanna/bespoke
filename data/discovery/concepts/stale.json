@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "stale"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eslint/eslint",
+      "status": "candidate-context",
+      "text": "Find and fix problems in your JavaScript code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eslint/eslint",
+      "status": "candidate-context",
+      "text": "stale"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eslint/eslint",
+      "status": "candidate",
+      "text": "stale"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006314,
+      "status": "candidate",
+      "text": "spoiled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006180,
+      "status": "candidate",
+      "text": "spoilt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40004171,
+      "status": "candidate",
+      "text": "addled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002428,
+      "status": "candidate",
+      "text": "limp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40001357,
+      "status": "candidate",
+      "text": "wilted"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 50061,
+      "status": "candidate",
+      "text": "cold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33057,
+      "status": "candidate",
+      "text": "hard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28055,
+      "status": "candidate",
+      "text": "bad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25026,
+      "status": "candidate",
+      "text": "addled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24051,
+      "status": "candidate",
+      "text": "old"
+    }
+  ],
+  "canonical_name": "stale",
+  "concept_id": "stale",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "eslint/eslint"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "stale",
+      "sense_id": "stale#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

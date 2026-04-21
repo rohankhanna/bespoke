@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "OpenAPI"
+    "OpenAPI",
+    "openapi"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "ethersphere/bee",
       "status": "candidate-context",
       "text": "OpenAPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "status": "candidate-context",
+      "text": "OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">OpenAPI Generator</h1>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "ethersphere/bee",
       "status": "candidate",
       "text": "OpenAPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">OpenAPI Generator</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +61,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/docs.yaml",
       "source_repo": "ethersphere/bee"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "OpenAPITools/openapi-generator"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

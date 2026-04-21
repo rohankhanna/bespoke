@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check For Integration Test Corpus Updates"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cedar-policy/cedar-go",
+      "status": "candidate-context",
+      "text": "Golang implementation of the Cedar Policy Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cedar-policy/cedar-go",
+      "status": "candidate-context",
+      "text": "Check For Integration Test Corpus Updates"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cedar-policy/cedar-go",
+      "status": "candidate",
+      "text": "Check For Integration Test Corpus Updates"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44993,
+      "status": "candidate",
+      "text": "state"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44993,
+      "status": "candidate",
+      "text": "states"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43055,
+      "status": "candidate",
+      "text": "contacts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43055,
+      "status": "candidate",
+      "text": "controller"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33543,
+      "status": "candidate",
+      "text": "examine"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check For Integration Test Corpus Updates",
+  "concept_id": "check-for-integration-test-corpus-updates",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/corpus.yml",
+      "source_repo": "cedar-policy/cedar-go"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check For Integration Test Corpus Updates",
+      "sense_id": "check-for-integration-test-corpus-updates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

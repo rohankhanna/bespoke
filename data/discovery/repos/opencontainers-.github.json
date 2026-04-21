@@ -1,0 +1,55 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opencontainers/.github",
+      "target": "opencontainers/tob",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opencontainers/.github",
+      "target": "opencontainers/runtime-spec",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:54:21.089062+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3783
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Centralized documents and information for the OCI organization and projects",
+    "fork": false,
+    "full_name": "opencontainers/.github",
+    "html_url": "https://github.com/opencontainers/.github",
+    "language": "HTML",
+    "pushed_at": "2026-03-16T21:53:30Z",
+    "stargazers_count": 55,
+    "topics": [
+      "oci"
+    ],
+    "updated_at": "2026-03-16T21:53:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opencontainers/runtime-spec",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opencontainers/tob",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

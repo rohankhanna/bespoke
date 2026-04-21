@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Specifications for OpenTelemetry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Slack](https://img.shields.io/badge/slack-@cncf/otel--specification-brightgreen.svg?logo=slack)](https://cloud-native.slack.com/archives/C01N7PP1THC)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Slack](https://img.shields.io/badge/slack-@cncf/otel--specification-brightgreen.svg?logo=slack)](https://cloud-native.slack.com/archives/C01N7PP1THC)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "opentelemetry",
+      "sense_id": "opentelemetry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "opentelemetry",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "opentelemetry",
+  "observation_id": "f8c9b3f43c514ee5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T18:51:25.552552+00:00",
+  "observed_text": "opentelemetry",
+  "source_context_snippet": "[![Slack](https://img.shields.io/badge/slack-@cncf/otel--specification-brightgreen.svg?logo=slack)](https://cloud-native.slack.com/archives/C01N7PP1THC)",
+  "source_file": null,
+  "source_repo": "open-telemetry/opentelemetry-specification",
+  "source_repo_description": "Specifications for OpenTelemetry"
+}

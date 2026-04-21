@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "languages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pre-commit/pre-commit",
+      "status": "candidate-context",
+      "text": "A framework for managing and maintaining multi-language pre-commit hooks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pre-commit/pre-commit",
+      "status": "candidate-context",
+      "text": "languages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pre-commit/pre-commit",
+      "status": "candidate",
+      "text": "languages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049026,
+      "status": "candidate",
+      "text": "speech"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047941,
+      "status": "candidate",
+      "text": "nomenclature"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047707,
+      "status": "candidate",
+      "text": "terminology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20034778,
+      "status": "candidate",
+      "text": "lyric"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19949077,
+      "status": "candidate",
+      "text": "words"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "languages",
+  "concept_id": "languages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/languages.yaml",
+      "source_repo": "pre-commit/pre-commit"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "languages",
+      "sense_id": "languages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

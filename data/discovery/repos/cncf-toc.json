@@ -1,0 +1,373 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-readme-changes.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-tech-review.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-backfill.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yaml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yaml"
+    },
+    {
+      "component": "cncf/automation/.github/actions/labeler-action@66a552b17f013289688a4e238f7a64b0d8e334a6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yaml"
+    },
+    {
+      "component": "cncf/automation/.github/actions/labeler-action@66a552b17f013289688a4e238f7a64b0d8e334a6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yaml"
+    },
+    {
+      "component": "peter-evans/slash-command-dispatch@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slash-commands.yaml"
+    },
+    {
+      "component": "cncf/automation/.github/actions/labeler-action@66a552b17f013289688a4e238f7a64b0d8e334a6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slash-commands.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tags_yaml_branch_pr_processing.yaml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tags_yaml_branch_pr_processing.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tags_yaml_fork_pr_processing.yaml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tags_yaml_fork_pr_processing.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cncf/toc",
+      "target": "cncf/tag-app-delivery",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cncf/toc",
+      "target": "cncf/tag-network",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cncf/toc",
+      "target": "cncf/tag-contributor-strategy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cncf/toc",
+      "target": "cncf/tag-env-sustainability",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-readme-changes.yml",
+      "source_repo": "cncf/toc",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-readme-changes.yml",
+      "source_repo": "cncf/toc",
+      "target": "Check README Changes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-tech-review.yml",
+      "source_repo": "cncf/toc",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-tech-review.yml",
+      "source_repo": "cncf/toc",
+      "target": "Create Tech Review Issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-backfill.yaml",
+      "source_repo": "cncf/toc",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-backfill.yaml",
+      "source_repo": "cncf/toc",
+      "target": "Labeler Backfill (manual)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yaml",
+      "source_repo": "cncf/toc",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yaml",
+      "source_repo": "cncf/toc",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yaml",
+      "source_repo": "cncf/toc",
+      "target": "cncf/automation/.github/actions/labeler-action@66a552b17f013289688a4e238f7a64b0d8e334a6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yaml",
+      "source_repo": "cncf/toc",
+      "target": "Auto Label Issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slash-commands.yaml",
+      "source_repo": "cncf/toc",
+      "target": "peter-evans/slash-command-dispatch@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/slash-commands.yaml",
+      "source_repo": "cncf/toc",
+      "target": "cncf/automation/.github/actions/labeler-action@66a552b17f013289688a4e238f7a64b0d8e334a6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slash-commands.yaml",
+      "source_repo": "cncf/toc",
+      "target": "Slash Commands",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tags_yaml_branch_pr_processing.yaml",
+      "source_repo": "cncf/toc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tags_yaml_branch_pr_processing.yaml",
+      "source_repo": "cncf/toc",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tags_yaml_fork_pr_processing.yaml",
+      "source_repo": "cncf/toc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tags_yaml_fork_pr_processing.yaml",
+      "source_repo": "cncf/toc",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/toc",
+      "target": "cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/toc",
+      "target": "cloudnative",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/toc",
+      "target": "cncf",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T19:01:25.356622+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6918
+    },
+    {
+      "path": "go.mod",
+      "size": 302
+    },
+    {
+      "path": ".github/workflows/check-readme-changes.yml",
+      "size": 4157
+    },
+    {
+      "path": ".github/workflows/create-tech-review.yml",
+      "size": 14310
+    },
+    {
+      "path": ".github/workflows/labeler-backfill.yaml",
+      "size": 1407
+    },
+    {
+      "path": ".github/workflows/labeler.yaml",
+      "size": 3045
+    },
+    {
+      "path": ".github/workflows/slash-commands.yaml",
+      "size": 3769
+    },
+    {
+      "path": ".github/workflows/tags_yaml_branch_pr_processing.yaml",
+      "size": 1380
+    },
+    {
+      "path": ".github/workflows/tags_yaml_fork_pr_processing.yaml",
+      "size": 5358
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u2696\ufe0f The CNCF Technical Oversight Committee (TOC) is the technical governing body of the CNCF Foundation.",
+    "fork": false,
+    "full_name": "cncf/toc",
+    "html_url": "https://github.com/cncf/toc",
+    "language": "Go",
+    "pushed_at": "2026-04-21T18:17:52Z",
+    "stargazers_count": 1835,
+    "topics": [
+      "cloud",
+      "cloudnative",
+      "cncf"
+    ],
+    "updated_at": "2026-04-21T18:17:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cncf/tag-app-delivery",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cncf/tag-contributor-strategy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cncf/tag-env-sustainability",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cncf/tag-network",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check README Changes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-readme-changes.yml",
+      "term": "Check README Changes"
+    },
+    {
+      "context_snippet": "Create Tech Review Issue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-tech-review.yml",
+      "term": "Create Tech Review Issue"
+    },
+    {
+      "context_snippet": "Labeler Backfill (manual)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-backfill.yaml",
+      "term": "Labeler Backfill (manual)"
+    },
+    {
+      "context_snippet": "Auto Label Issues and PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yaml",
+      "term": "Auto Label Issues and PRs"
+    },
+    {
+      "context_snippet": "Slash Commands",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/slash-commands.yaml",
+      "term": "Slash Commands"
+    },
+    {
+      "context_snippet": "The CNCF TOC is the technical governing body of the CNCF. It admits and oversees all projects in the CNCF and has a mandate to facilitate driving neutral consensus for:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud"
+    },
+    {
+      "context_snippet": "The CNCF TOC is the technical governing body of the CNCF. It admits and oversees all projects in the CNCF and has a mandate to facilitate driving neutral consensus for:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudnative"
+    },
+    {
+      "context_snippet": "The CNCF TOC is the technical governing body of the CNCF. It admits and oversees all projects in the CNCF and has a mandate to facilitate driving neutral consensus for:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cncf"
+    }
+  ]
+}

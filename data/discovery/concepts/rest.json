@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "rest"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "status": "candidate-context",
+      "text": "OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">OpenAPI Generator</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">OpenAPI Generator</h1>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028990,
+      "status": "candidate",
+      "text": "sleep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013092,
+      "status": "candidate",
+      "text": "relaxation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012766,
+      "status": "candidate",
+      "text": "take a breather"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012270,
+      "status": "candidate",
+      "text": "repose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40009196,
+      "status": "candidate",
+      "text": "respite"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 100035,
+      "status": "candidate",
+      "text": "repose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 56041,
+      "status": "candidate",
+      "text": "respite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30061,
+      "status": "candidate",
+      "text": "lie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29049,
+      "status": "candidate",
+      "text": "ease"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24045,
+      "status": "candidate",
+      "text": "perch"
+    }
+  ],
+  "canonical_name": "rest",
+  "concept_id": "rest",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "OpenAPITools/openapi-generator"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rest",
+      "sense_id": "rest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

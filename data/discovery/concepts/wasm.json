@@ -43,6 +43,18 @@
       "source_repo": "messense/jieba-rs",
       "status": "candidate-context",
       "text": "[![GitHub Actions](https://github.com/messense/jieba-rs/workflows/CI/badge.svg)](https://github.com/messense/jieba-rs/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sql-js/sql.js",
+      "status": "candidate-context",
+      "text": "A javascript library to run SQLite on the web.  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sql-js/sql.js",
+      "status": "candidate-context",
+      "text": "<img src=\"https://user-images.githubusercontent.com/552629/76405509-87025300-6388-11ea-86c9-af882abb00bd.png\" width=\"40\" height=\"40\" />"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "messense/jieba-rs",
       "status": "candidate",
       "text": "[![GitHub Actions](https://github.com/messense/jieba-rs/workflows/CI/badge.svg)](https://github.com/messense/jieba-rs/actions?query=workflow%3ACI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sql-js/sql.js",
+      "status": "candidate",
+      "text": "<img src=\"https://user-images.githubusercontent.com/552629/76405509-87025300-6388-11ea-86c9-af882abb00bd.png\" width=\"40\" height=\"40\" />"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "messense/jieba-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "sql-js/sql.js"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This repository is home to general Dart Ecosystem tools and packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "package:canary"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "package:canary"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9995763,
+      "status": "candidate",
+      "text": "pigeon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9990711,
+      "status": "candidate",
+      "text": "dicky"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9943447,
+      "status": "candidate",
+      "text": "fish out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9884957,
+      "status": "candidate",
+      "text": "kick off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9880341,
+      "status": "candidate",
+      "text": "red meat"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "package:canary",
+      "sense_id": "package-canary#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "package-canary",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "package-canary",
+  "observation_id": "ba9ac91823c69a61",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T18:51:25.552552+00:00",
+  "observed_text": "package:canary",
+  "source_context_snippet": "package:canary",
+  "source_file": ".github/workflows/canary_test.yml",
+  "source_repo": "dart-lang/ecosystem",
+  "source_repo_description": "This repository is home to general Dart Ecosystem tools and packages."
+}

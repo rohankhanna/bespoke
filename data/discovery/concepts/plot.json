@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "plot"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vega/vega-lite",
+      "status": "candidate-context",
+      "text": "A concise grammar of interactive graphics, built on Vega."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/vega-lite",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/vega-lite.svg)](https://www.npmjs.com/package/vega-lite) [![Build Status](https://github.com/vega/vega-lite/workflows/Test/badge.svg)](https://github.com/vega/vega-lite/actions) [![codecov](https://codecov.io/gh/vega/vega-lite/branch/\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/vega-lite",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/vega-lite.svg)](https://www.npmjs.com/package/vega-lite) [![Build Status](https://github.com/vega/vega-lite/workflows/Test/badge.svg)](https://github.com/vega/vega-lite/actions) [![codecov](https://codecov.io/gh/vega/vega-lite/branch/\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015266,
+      "status": "candidate",
+      "text": "patch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013845,
+      "status": "candidate",
+      "text": "diagram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994243,
+      "status": "candidate",
+      "text": "plat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049018,
+      "status": "candidate",
+      "text": "plot of ground"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049018,
+      "status": "candidate",
+      "text": "secret plan"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12065,
+      "status": "candidate",
+      "text": "patch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6047,
+      "status": "candidate",
+      "text": "plat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5042,
+      "status": "candidate",
+      "text": "diagram"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1009,
+      "status": "candidate",
+      "text": "secret plan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "plot of ground"
+    }
+  ],
+  "canonical_name": "plot",
+  "concept_id": "plot",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "vega/vega-lite"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "plot",
+      "sense_id": "plot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

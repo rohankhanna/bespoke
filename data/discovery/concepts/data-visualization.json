@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "data-visualization"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ARM-DOE/pyart",
+      "status": "candidate-context",
+      "text": "The Python-ARM Radar Toolkit. A data model driven interactive toolkit for working with weather radar data. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARM-DOE/pyart",
+      "status": "candidate-context",
+      "text": ".. -*- mode: rst -*-"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARM-DOE/pyart",
+      "status": "candidate",
+      "text": ".. -*- mode: rst -*-"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "data-visualization",
+  "concept_id": "data-visualization",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "ARM-DOE/pyart"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "data-visualization",
+      "sense_id": "data-visualization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

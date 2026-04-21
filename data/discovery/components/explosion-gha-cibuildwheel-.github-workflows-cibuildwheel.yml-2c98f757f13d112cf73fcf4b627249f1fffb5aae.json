@@ -1,0 +1,12 @@
+{
+  "component": "explosion/gha-cibuildwheel/.github/workflows/cibuildwheel.yml@2c98f757f13d112cf73fcf4b627249f1fffb5aae",
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "explosion/spaCy"
+    }
+  ]
+}

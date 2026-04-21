@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-21T19:01:20.071610+00:00",
+  "fetched_files": [
+    {
+      "path": "README.txt",
+      "size": 1282
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "COCO API - Dataset @ http://cocodataset.org/ ",
+    "fork": false,
+    "full_name": "cocodataset/cocoapi",
+    "html_url": "https://github.com/cocodataset/cocoapi",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-04-17T05:14:06Z",
+    "stargazers_count": 6369,
+    "topics": [],
+    "updated_at": "2026-04-19T08:00:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

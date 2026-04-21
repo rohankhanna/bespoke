@@ -1,0 +1,215 @@
+{
+  "components": [
+    {
+      "component": "neuroinformatics-unit/actions/lint@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "neuroinformatics-unit/actions/check_manifest@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "pyvista/setup-headless-display-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "FedericoCarboni/setup-ffmpeg@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "neuroinformatics-unit/actions/test@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "ravsamhq/notify-slack-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "neuroinformatics-unit/actions/build_sdist_wheels@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "brainglobe/brainrender",
+      "target": "neuroinformatics-unit/actions/lint@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "brainglobe/brainrender",
+      "target": "neuroinformatics-unit/actions/check_manifest@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "brainglobe/brainrender",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "brainglobe/brainrender",
+      "target": "pyvista/setup-headless-display-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "brainglobe/brainrender",
+      "target": "FedericoCarboni/setup-ffmpeg@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "brainglobe/brainrender",
+      "target": "neuroinformatics-unit/actions/test@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "brainglobe/brainrender",
+      "target": "ravsamhq/notify-slack-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "brainglobe/brainrender",
+      "target": "neuroinformatics-unit/actions/build_sdist_wheels@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "brainglobe/brainrender",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "brainglobe/brainrender",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "source_repo": "brainglobe/brainrender",
+      "target": "tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brainglobe/brainrender",
+      "target": "anatomy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brainglobe/brainrender",
+      "target": "neuroscience",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "brainglobe/brainrender",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:56:15.127224+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4788
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3036
+    },
+    {
+      "path": ".github/workflows/test_and_deploy.yml",
+      "size": 3157
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Python package to visualise neuroanatomical data in atlas space",
+    "fork": false,
+    "full_name": "brainglobe/brainrender",
+    "html_url": "https://github.com/brainglobe/brainrender",
+    "language": "Python",
+    "pushed_at": "2026-04-15T09:45:52Z",
+    "stargazers_count": 638,
+    "topics": [
+      "anatomy",
+      "neuroscience",
+      "python",
+      "visualization"
+    ],
+    "updated_at": "2026-04-20T16:28:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_and_deploy.yml",
+      "term": "tests"
+    },
+    {
+      "context_snippet": "*A user-friendly python library to create high-quality, 3D neuro-anatomical renderings combining data from publicly available brain atlases with user-generated experimental data.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anatomy"
+    },
+    {
+      "context_snippet": "*A user-friendly python library to create high-quality, 3D neuro-anatomical renderings combining data from publicly available brain atlases with user-generated experimental data.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neuroscience"
+    },
+    {
+      "context_snippet": "*A user-friendly python library to create high-quality, 3D neuro-anatomical renderings combining data from publicly available brain atlases with user-generated experimental data.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Notebooks with IRDB download"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AstarVienna/ScopeSim",
+      "status": "candidate-context",
+      "text": "A telescope observation simulator for Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AstarVienna/ScopeSim",
+      "status": "candidate-context",
+      "text": "Notebooks with IRDB download"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AstarVienna/ScopeSim",
+      "status": "candidate",
+      "text": "Notebooks with IRDB download"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11090,
+      "status": "candidate",
+      "text": "backlist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11090,
+      "status": "candidate",
+      "text": "baseball"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11090,
+      "status": "candidate",
+      "text": "becket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11090,
+      "status": "candidate",
+      "text": "bob"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11090,
+      "status": "candidate",
+      "text": "boot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Notebooks with IRDB download",
+  "concept_id": "notebooks-with-irdb-download",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/notebooks_with_irdb_download.yml",
+      "source_repo": "AstarVienna/ScopeSim"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Notebooks with IRDB download",
+      "sense_id": "notebooks-with-irdb-download#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

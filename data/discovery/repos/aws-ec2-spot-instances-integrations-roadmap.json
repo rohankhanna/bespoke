@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/ec2-spot-instances-integrations-roadmap",
+      "target": "aws/containers-roadmap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/ec2-spot-instances-integrations-roadmap",
+      "target": "aws/aws-app-mesh-roadmap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/ec2-spot-instances-integrations-roadmap",
+      "target": "aws-cloudformation/aws-cloudformation-coverage-roadmap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/ec2-spot-instances-integrations-roadmap",
+      "target": "aws/elastic-beanstalk-roadmap",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:58:55.331950+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3231
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "aws/ec2-spot-instances-integrations-roadmap",
+    "html_url": "https://github.com/aws/ec2-spot-instances-integrations-roadmap",
+    "language": null,
+    "pushed_at": "2021-11-18T00:49:59Z",
+    "stargazers_count": 95,
+    "topics": [],
+    "updated_at": "2025-08-12T01:58:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-cloudformation/aws-cloudformation-coverage-roadmap",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/aws-app-mesh-roadmap",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/containers-roadmap",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/elastic-beanstalk-roadmap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

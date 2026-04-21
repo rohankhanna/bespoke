@@ -1,0 +1,17 @@
+{
+  "component": "cncf/automation/.github/actions/labeler-action@66a552b17f013289688a4e238f7a64b0d8e334a6",
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yaml",
+      "source_repo": "cncf/toc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/slash-commands.yaml",
+      "source_repo": "cncf/toc"
+    }
+  ]
+}

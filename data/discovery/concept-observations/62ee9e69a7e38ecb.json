@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Specifications for OpenTelemetry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Mark issues for followup\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Mark issues for followup\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23187,
+      "status": "candidate",
+      "text": "beg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22618,
+      "status": "candidate",
+      "text": "objective"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22618,
+      "status": "candidate",
+      "text": "piste"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22618,
+      "status": "candidate",
+      "text": "rail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22618,
+      "status": "candidate",
+      "text": "rails"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mark issues for followup",
+      "sense_id": "mark-issues-for-followup#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mark-issues-for-followup",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mark-issues-for-followup",
+  "observation_id": "62ee9e69a7e38ecb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T18:51:25.552552+00:00",
+  "observed_text": "Mark issues for followup",
+  "source_context_snippet": "\"Mark issues for followup\"",
+  "source_file": ".github/workflows/triage-followup.yml",
+  "source_repo": "open-telemetry/opentelemetry-specification",
+  "source_repo_description": "Specifications for OpenTelemetry"
+}

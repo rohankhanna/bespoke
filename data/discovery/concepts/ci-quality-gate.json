@@ -31,6 +31,18 @@
       "source_repo": "alirezarezvani/claude-code-tresor",
       "status": "candidate-context",
       "text": "CI Quality Gate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "status": "candidate-context",
+      "text": "Claude Code Skill Factory \u2014 A powerful open-source toolkit for building and deploying production-ready Claude Skills, Code Agents, custom Slash Commands, and LLM Prompts at scale. Easily generate structured skill templates, automate workflow integration, and accelerate AI agent development with a clean, developer-friendly setup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "status": "candidate-context",
+      "text": "CI Quality Gate"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "alirezarezvani/claude-code-tresor",
+      "status": "candidate",
+      "text": "CI Quality Gate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
       "status": "candidate",
       "text": "CI Quality Gate"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/ci-quality-gate.yml",
       "source_repo": "alirezarezvani/claude-code-tresor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/ci-quality-gate.yml",
+      "source_repo": "alirezarezvani/claude-code-skill-factory"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

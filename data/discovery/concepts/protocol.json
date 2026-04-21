@@ -19,6 +19,18 @@
       "source_repo": "0xPolygon/polygon-edge",
       "status": "candidate-context",
       "text": "![Banner](.github/banner.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Consensys/ethereum-dissectors",
+      "status": "candidate-context",
+      "text": "\ud83d\udd0dWireshark dissectors for Ethereum devp2p protocols"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Consensys/ethereum-dissectors",
+      "status": "candidate-context",
+      "text": "This repo contains a set of network protocol dissectors for Ethereum that you can load into the widely popular Wireshark to begin inspecting Ethereum traffic."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "0xPolygon/polygon-edge",
       "status": "candidate",
       "text": "![Banner](.github/banner.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Consensys/ethereum-dissectors",
+      "status": "candidate",
+      "text": "This repo contains a set of network protocol dissectors for Ethereum that you can load into the widely popular Wireshark to begin inspecting Ethereum traffic."
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +102,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "0xPolygon/polygon-edge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "Consensys/ethereum-dissectors"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

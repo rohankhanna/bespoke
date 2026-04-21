@@ -61,6 +61,18 @@
       "source_repo": "mark3labs/mcp-go",
       "status": "candidate-context",
       "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm/helm",
+      "status": "candidate-context",
+      "text": "The Kubernetes Package Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/helm",
+      "status": "candidate-context",
+      "text": "golangci-lint"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +91,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "mark3labs/mcp-go",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/helm",
       "status": "candidate",
       "text": "golangci-lint"
     }
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/golangci-lint.yml",
       "source_repo": "mark3labs/mcp-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "helm/helm"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

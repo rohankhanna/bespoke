@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Daily test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python/typeshed",
+      "status": "candidate-context",
+      "text": "Collection of library stubs for Python, with static types"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python/typeshed",
+      "status": "candidate-context",
+      "text": "Daily test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python/typeshed",
+      "status": "candidate",
+      "text": "Daily test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11736,
+      "status": "candidate",
+      "text": "examination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11736,
+      "status": "candidate",
+      "text": "grind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11736,
+      "status": "candidate",
+      "text": "grinds"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11736,
+      "status": "candidate",
+      "text": "pushup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11736,
+      "status": "candidate",
+      "text": "train"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Daily test",
+  "concept_id": "daily-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/daily.yml",
+      "source_repo": "python/typeshed"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Daily test",
+      "sense_id": "daily-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

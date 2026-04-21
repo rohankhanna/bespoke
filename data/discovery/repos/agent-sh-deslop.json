@@ -1,0 +1,299 @@
+{
+  "components": [
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/add-to-project@244f685bbc3b7adfa8466e08b698b5577571133e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yml"
+    },
+    {
+      "component": "agent-sh/.github/.github/workflows/ci-node.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "agent-sh/.github/.github/workflows/ci-agnix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@f64219702d7454cf29fe32a74104be6ed43dc637",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@f64219702d7454cf29fe32a74104be6ed43dc637",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agent-sh/deslop",
+      "target": "agent-sh/next-task",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agent-sh/deslop",
+      "target": "agent-sh/enhance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "agent-sh/deslop",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "agent-sh/deslop",
+      "target": "actions/add-to-project@244f685bbc3b7adfa8466e08b698b5577571133e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "agent-sh/deslop",
+      "target": "Add to project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "agent-sh/deslop",
+      "target": "agent-sh/.github/.github/workflows/ci-node.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "agent-sh/deslop",
+      "target": "agent-sh/.github/.github/workflows/ci-agnix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "agent-sh/deslop",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "agent-sh/deslop",
+      "target": "anthropics/claude-code-action@f64219702d7454cf29fe32a74104be6ed43dc637",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "agent-sh/deslop",
+      "target": "Claude Code - Automated PR Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "agent-sh/deslop",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "agent-sh/deslop",
+      "target": "anthropics/claude-code-action@f64219702d7454cf29fe32a74104be6ed43dc637",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "agent-sh/deslop",
+      "target": "Claude Code - @mentions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/deslop",
+      "target": "ai-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/deslop",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/deslop",
+      "target": "code-cleanup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/deslop",
+      "target": "code-quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/deslop",
+      "target": "devtools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agent-sh/deslop",
+      "target": "refactoring",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:54:50.934446+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4093
+    },
+    {
+      "path": "package.json",
+      "size": 627
+    },
+    {
+      "path": ".github/workflows/add-to-project.yml",
+      "size": 531
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 249
+    },
+    {
+      "path": ".github/workflows/claude-code-review.yml",
+      "size": 2728
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 1837
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AI slop cleanup with minimal diffs and behavior preservation",
+    "fork": false,
+    "full_name": "agent-sh/deslop",
+    "html_url": "https://github.com/agent-sh/deslop",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-23T02:31:44Z",
+    "stargazers_count": 3,
+    "topics": [
+      "ai",
+      "ai-tools",
+      "automation",
+      "claude",
+      "code-cleanup",
+      "code-quality",
+      "devtools",
+      "javascript",
+      "llm",
+      "refactoring"
+    ],
+    "updated_at": "2026-04-14T02:26:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agent-sh/enhance",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agent-sh/next-task",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Add to project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "term": "Add to project"
+    },
+    {
+      "context_snippet": "Claude Code - Automated PR Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "term": "Claude Code - Automated PR Review"
+    },
+    {
+      "context_snippet": "Claude Code - @mentions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude Code - @mentions"
+    },
+    {
+      "context_snippet": "Detect and remove AI-generated slop from codebases with certainty-based findings and safe auto-fixes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-tools"
+    },
+    {
+      "context_snippet": "Detect and remove AI-generated slop from codebases with certainty-based findings and safe auto-fixes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "Detect and remove AI-generated slop from codebases with certainty-based findings and safe auto-fixes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-cleanup"
+    },
+    {
+      "context_snippet": "Detect and remove AI-generated slop from codebases with certainty-based findings and safe auto-fixes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-quality"
+    },
+    {
+      "context_snippet": "Detect and remove AI-generated slop from codebases with certainty-based findings and safe auto-fixes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devtools"
+    },
+    {
+      "context_snippet": "Detect and remove AI-generated slop from codebases with certainty-based findings and safe auto-fixes.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "refactoring"
+    }
+  ]
+}

@@ -19,6 +19,42 @@
       "source_repo": "berty/berty",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "birdofpreyru/react-native-fs",
+      "status": "candidate-context",
+      "text": "File system access for React Native"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "birdofpreyru/react-native-fs",
+      "status": "candidate-context",
+      "text": "<!-- Collection of hyperlinks. -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "status": "candidate-context",
+      "text": "A performant interactive bottom sheet with fully configurable options \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "status": "candidate-context",
+      "text": "[![Reanimated v3 version](https://img.shields.io/github/package-json/v/gorhom/react-native-bottom-sheet/master?label=Reanimated%20v3&style=flat-square)](https://www.npmjs.com/package/@gorhom/bottom-sheet) [![Reanimated v2 version](https://img.shields.io/github/package-json/v/gor\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mybigday/llama.rn",
+      "status": "candidate-context",
+      "text": "React Native binding of llama.cpp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mybigday/llama.rn",
+      "status": "candidate-context",
+      "text": "[![Actions Status](https://github.com/mybigday/llama.rn/workflows/CI/badge.svg)](https://github.com/mybigday/llama.rn/actions)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "berty/berty",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "birdofpreyru/react-native-fs",
+      "status": "candidate",
+      "text": "<!-- Collection of hyperlinks. -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "status": "candidate",
+      "text": "[![Reanimated v3 version](https://img.shields.io/github/package-json/v/gorhom/react-native-bottom-sheet/master?label=Reanimated%20v3&style=flat-square)](https://www.npmjs.com/package/@gorhom/bottom-sheet) [![Reanimated v2 version](https://img.shields.io/github/package-json/v/gor\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mybigday/llama.rn",
+      "status": "candidate",
+      "text": "[![Actions Status](https://github.com/mybigday/llama.rn/workflows/CI/badge.svg)](https://github.com/mybigday/llama.rn/actions)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "berty/berty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "birdofpreyru/react-native-fs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "gorhom/react-native-bottom-sheet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "mybigday/llama.rn"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

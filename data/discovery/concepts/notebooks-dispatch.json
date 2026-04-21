@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Notebooks Dispatch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AstarVienna/ScopeSim",
+      "status": "candidate-context",
+      "text": "A telescope observation simulator for Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AstarVienna/ScopeSim",
+      "status": "candidate-context",
+      "text": "Notebooks Dispatch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AstarVienna/ScopeSim",
+      "status": "candidate",
+      "text": "Notebooks Dispatch"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13910,
+      "status": "candidate",
+      "text": "ruled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13910,
+      "status": "candidate",
+      "text": "spiral"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12858,
+      "status": "candidate",
+      "text": "clearance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12838,
+      "status": "candidate",
+      "text": "alcove"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12838,
+      "status": "candidate",
+      "text": "aldis lamp"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Notebooks Dispatch",
+  "concept_id": "notebooks-dispatch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/notebooks_dispatch.yml",
+      "source_repo": "AstarVienna/ScopeSim"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Notebooks Dispatch",
+      "sense_id": "notebooks-dispatch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

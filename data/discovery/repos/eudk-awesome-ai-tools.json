@@ -1,0 +1,310 @@
+{
+  "components": [
+    {
+      "component": "actions-ecosystem/action-add-labels@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-label.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eudk/awesome-ai-tools",
+      "target": "0xnyk/awesome-hermes-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eudk/awesome-ai-tools",
+      "target": "askbudi/roundtable",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eudk/awesome-ai-tools",
+      "target": "charlie85270/dorothy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eudk/awesome-ai-tools",
+      "target": "cafetechne/antigravity-link-extension",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-label.yml",
+      "source_repo": "eudk/awesome-ai-tools",
+      "target": "actions-ecosystem/action-add-labels@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-label.yml",
+      "source_repo": "eudk/awesome-ai-tools",
+      "target": "Auto label new PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eudk/awesome-ai-tools",
+      "target": "ai-research",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eudk/awesome-ai-tools",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eudk/awesome-ai-tools",
+      "target": "claude-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eudk/awesome-ai-tools",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eudk/awesome-ai-tools",
+      "target": "datascience",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eudk/awesome-ai-tools",
+      "target": "deepseek",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eudk/awesome-ai-tools",
+      "target": "generative-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eudk/awesome-ai-tools",
+      "target": "learning-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eudk/awesome-ai-tools",
+      "target": "machinelearning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eudk/awesome-ai-tools",
+      "target": "midjourney",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eudk/awesome-ai-tools",
+      "target": "prompt-engineering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eudk/awesome-ai-tools",
+      "target": "qwen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eudk/awesome-ai-tools",
+      "target": "seedance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eudk/awesome-ai-tools",
+      "target": "sora",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:58:12.844466+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 147774
+    },
+    {
+      "path": ".github/workflows/auto-label.yml",
+      "size": 313
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udd34 VERY LARGE AI TOOL LIST! \ud83d\udd34  Curated list of AI Tools  - Updated 2026",
+    "fork": false,
+    "full_name": "eudk/awesome-ai-tools",
+    "html_url": "https://github.com/eudk/awesome-ai-tools",
+    "language": null,
+    "pushed_at": "2026-04-19T22:34:27Z",
+    "stargazers_count": 388,
+    "topics": [
+      "ai",
+      "ai-research",
+      "chatgpt",
+      "claude-ai",
+      "claude-code",
+      "codex",
+      "datascience",
+      "deepseek",
+      "generative-ai",
+      "learning-ai",
+      "llm",
+      "machinelearning",
+      "midjourney",
+      "ml",
+      "openai",
+      "prompt-engineering",
+      "qwen",
+      "seedance",
+      "sora"
+    ],
+    "updated_at": "2026-04-21T17:22:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0xnyk/awesome-hermes-agent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "askbudi/roundtable",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cafetechne/antigravity-link-extension",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "charlie85270/dorothy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Auto label new PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-label.yml",
+      "term": "Auto label new PRs"
+    },
+    {
+      "context_snippet": "[![Awesome](https://img.shields.io/badge/Awesome-AI-000000.svg?logo=github&labelColor=24292e)](#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-research"
+    },
+    {
+      "context_snippet": "[![Awesome](https://img.shields.io/badge/Awesome-AI-000000.svg?logo=github&labelColor=24292e)](#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "[![Awesome](https://img.shields.io/badge/Awesome-AI-000000.svg?logo=github&labelColor=24292e)](#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-ai"
+    },
+    {
+      "context_snippet": "[![Awesome](https://img.shields.io/badge/Awesome-AI-000000.svg?logo=github&labelColor=24292e)](#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "[![Awesome](https://img.shields.io/badge/Awesome-AI-000000.svg?logo=github&labelColor=24292e)](#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datascience"
+    },
+    {
+      "context_snippet": "[![Awesome](https://img.shields.io/badge/Awesome-AI-000000.svg?logo=github&labelColor=24292e)](#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepseek"
+    },
+    {
+      "context_snippet": "[![Awesome](https://img.shields.io/badge/Awesome-AI-000000.svg?logo=github&labelColor=24292e)](#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-ai"
+    },
+    {
+      "context_snippet": "[![Awesome](https://img.shields.io/badge/Awesome-AI-000000.svg?logo=github&labelColor=24292e)](#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "learning-ai"
+    },
+    {
+      "context_snippet": "[![Awesome](https://img.shields.io/badge/Awesome-AI-000000.svg?logo=github&labelColor=24292e)](#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machinelearning"
+    },
+    {
+      "context_snippet": "[![Awesome](https://img.shields.io/badge/Awesome-AI-000000.svg?logo=github&labelColor=24292e)](#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midjourney"
+    },
+    {
+      "context_snippet": "[![Awesome](https://img.shields.io/badge/Awesome-AI-000000.svg?logo=github&labelColor=24292e)](#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt-engineering"
+    },
+    {
+      "context_snippet": "[![Awesome](https://img.shields.io/badge/Awesome-AI-000000.svg?logo=github&labelColor=24292e)](#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qwen"
+    },
+    {
+      "context_snippet": "[![Awesome](https://img.shields.io/badge/Awesome-AI-000000.svg?logo=github&labelColor=24292e)](#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "seedance"
+    },
+    {
+      "context_snippet": "[![Awesome](https://img.shields.io/badge/Awesome-AI-000000.svg?logo=github&labelColor=24292e)](#)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sora"
+    }
+  ]
+}

@@ -6,7 +6,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -74,6 +76,42 @@
       "source_repo": "llamastack/llama-stack-client-python",
       "status": "candidate-context",
       "text": "Pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "status": "candidate-context",
+      "text": "paho.mqtt.python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pre-commit/pre-commit",
+      "status": "candidate-context",
+      "text": "A framework for managing and maintaining multi-language pre-commit hooks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pre-commit/pre-commit",
+      "status": "candidate-context",
+      "text": "[![build status](https://github.com/pre-commit/pre-commit/actions/workflows/main.yml/badge.svg)](https://github.com/pre-commit/pre-commit/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hukkin/mdformat",
+      "status": "candidate-context",
+      "text": "CommonMark compliant Markdown formatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hukkin/mdformat",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -106,6 +144,24 @@
       "source_repo": "llamastack/llama-stack-client-python",
       "status": "candidate",
       "text": "Pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pre-commit/pre-commit",
+      "status": "candidate",
+      "text": "[![build status](https://github.com/pre-commit/pre-commit/actions/workflows/main.yml/badge.svg)](https://github.com/pre-commit/pre-commit/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hukkin/mdformat",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -167,11 +223,29 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/pre-commit.yml",
       "source_repo": "llamastack/llama-stack-client-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/precommit.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "pre-commit/pre-commit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "hukkin/mdformat"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

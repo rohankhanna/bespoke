@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Issue Comment Triage"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/terraform-plugin-docs",
+      "status": "candidate-context",
+      "text": "Generate and validate Terraform plugin/provider documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-plugin-docs",
+      "status": "candidate-context",
+      "text": "Issue Comment Triage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-plugin-docs",
+      "status": "candidate",
+      "text": "Issue Comment Triage"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22530,
+      "status": "candidate",
+      "text": "background"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22529,
+      "status": "candidate",
+      "text": "lord"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22529,
+      "status": "candidate",
+      "text": "lords"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22529,
+      "status": "candidate",
+      "text": "mythologize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22529,
+      "status": "candidate",
+      "text": "reference"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Issue Comment Triage",
+  "concept_id": "issue-comment-triage",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/issue-comment-triage.yml",
+      "source_repo": "hashicorp/terraform-plugin-docs"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue Comment Triage",
+      "sense_id": "issue-comment-triage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

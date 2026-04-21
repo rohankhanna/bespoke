@@ -1,0 +1,12 @@
+{
+  "component": "releasehub-com/github-action-create-pr-parent-submodule@v1",
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/submodule-update.yml",
+      "source_repo": "AIWintermuteAI/whispercpp"
+    }
+  ]
+}

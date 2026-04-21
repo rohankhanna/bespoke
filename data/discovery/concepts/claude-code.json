@@ -472,6 +472,54 @@
       "source_repo": "modelcontextprotocol/python-sdk",
       "status": "candidate-context",
       "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
+      "status": "candidate-context",
+      "text": "![Claude Agent Blueprints](images/banner.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "status": "candidate-context",
+      "text": "Claude Code Skill Factory \u2014 A powerful open-source toolkit for building and deploying production-ready Claude Skills, Code Agents, custom Slash Commands, and LLM Prompts at scale. Easily generate structured skill templates, automate workflow integration, and accelerate AI agent development with a clean, developer-friendly setup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "status": "candidate-context",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "status": "candidate-context",
+      "text": "A comprehensive toolkit for generating production-ready Claude Skills and Claude Code Agents at scale. This repository provides templates, examples, and powerful prompt engineering systems to create custom skills and specialized agents for Claude AI across all platforms."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eudk/awesome-ai-tools",
+      "status": "candidate-context",
+      "text": "\ud83d\udd34 VERY LARGE AI TOOL LIST! \ud83d\udd34  Curated list of AI Tools  - Updated 2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eudk/awesome-ai-tools",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://img.shields.io/badge/Awesome-AI-000000.svg?logo=github&labelColor=24292e)](#)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dathere/qsv",
+      "status": "candidate-context",
+      "text": "Blazing-fast Data-Wrangling toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dathere/qsv",
+      "status": "candidate-context",
+      "text": "Claude Code"
     }
   ],
   "candidate_glosses": [
@@ -676,6 +724,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "modelcontextprotocol/python-sdk",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
+      "status": "candidate",
+      "text": "![Claude Agent Blueprints](images/banner.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "status": "candidate",
+      "text": "Claude Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alirezarezvani/claude-code-skill-factory",
+      "status": "candidate",
+      "text": "A comprehensive toolkit for generating production-ready Claude Skills and Claude Code Agents at scale. This repository provides templates, examples, and powerful prompt engineering systems to create custom skills and specialized agents for Claude AI across all platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eudk/awesome-ai-tools",
+      "status": "candidate",
+      "text": "[![Awesome](https://img.shields.io/badge/Awesome-AI-000000.svg?logo=github&labelColor=24292e)](#)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dathere/qsv",
       "status": "candidate",
       "text": "Claude Code"
     }
@@ -1171,11 +1249,53 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "hluaguo/learn-faster-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "alirezarezvani/claude-code-skill-factory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "alirezarezvani/claude-code-skill-factory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "eudk/awesome-ai-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "dathere/qsv"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

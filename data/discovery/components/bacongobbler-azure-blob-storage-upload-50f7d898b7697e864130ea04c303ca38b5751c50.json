@@ -1,0 +1,12 @@
+{
+  "component": "bacongobbler/azure-blob-storage-upload@50f7d898b7697e864130ea04c303ca38b5751c50",
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "helm/helm"
+    }
+  ]
+}

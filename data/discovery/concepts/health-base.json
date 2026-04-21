@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Health:Base"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/ecosystem",
+      "status": "candidate-context",
+      "text": "This repository is home to general Dart Ecosystem tools and packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/ecosystem",
+      "status": "candidate-context",
+      "text": "Health:Base"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/ecosystem",
+      "status": "candidate",
+      "text": "Health:Base"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9998278,
+      "status": "candidate",
+      "text": "flesh out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9997104,
+      "status": "candidate",
+      "text": "size up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9996932,
+      "status": "candidate",
+      "text": "take form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9996076,
+      "status": "candidate",
+      "text": "plug in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9995877,
+      "status": "candidate",
+      "text": "shape up"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Health:Base",
+  "concept_id": "health-base",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/health_base.yaml",
+      "source_repo": "dart-lang/ecosystem"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Health:Base",
+      "sense_id": "health-base#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,235 @@
+{
+  "components": [
+    {
+      "component": "Homebrew/actions/setup-homebrew@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml"
+    },
+    {
+      "component": "Homebrew/actions/cache-homebrew-prefix@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@c10b8064de6f491fea524254123dbe5e09572f13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml"
+    },
+    {
+      "component": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-issues.yml"
+    },
+    {
+      "component": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-issues.yml"
+    },
+    {
+      "component": "Homebrew/actions/setup-homebrew@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-shared-config.yml"
+    },
+    {
+      "component": "Homebrew/actions/setup-ruby@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-shared-config.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-shared-config.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-shared-config.yml"
+    },
+    {
+      "component": "Homebrew/actions/git-user-config@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-shared-config.yml"
+    },
+    {
+      "component": "Homebrew/actions/setup-commit-signing@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-shared-config.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "Homebrew/.github",
+      "target": "Homebrew/actions/setup-homebrew@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "Homebrew/.github",
+      "target": "Homebrew/actions/cache-homebrew-prefix@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "Homebrew/.github",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "Homebrew/.github",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "Homebrew/.github",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "Homebrew/.github",
+      "target": "github/codeql-action/upload-sarif@c10b8064de6f491fea524254123dbe5e09572f13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "Homebrew/.github",
+      "target": "Actionlint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-issues.yml",
+      "source_repo": "Homebrew/.github",
+      "target": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-issues.yml",
+      "source_repo": "Homebrew/.github",
+      "target": "Manage stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-shared-config.yml",
+      "source_repo": "Homebrew/.github",
+      "target": "Homebrew/actions/setup-homebrew@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-shared-config.yml",
+      "source_repo": "Homebrew/.github",
+      "target": "Homebrew/actions/setup-ruby@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-shared-config.yml",
+      "source_repo": "Homebrew/.github",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-shared-config.yml",
+      "source_repo": "Homebrew/.github",
+      "target": "Homebrew/actions/git-user-config@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-shared-config.yml",
+      "source_repo": "Homebrew/.github",
+      "target": "Homebrew/actions/setup-commit-signing@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-shared-config.yml",
+      "source_repo": "Homebrew/.github",
+      "target": "Sync shared configurations",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:58:59.802014+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 208
+    },
+    {
+      "path": ".github/workflows/actionlint.yml",
+      "size": 3363
+    },
+    {
+      "path": ".github/workflows/stale-issues.yml",
+      "size": 2742
+    },
+    {
+      "path": ".github/workflows/sync-shared-config.yml",
+      "size": 5650
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udc69\u200d\u2695\ufe0f Default community health files for the Homebrew organisation on GitHub.",
+    "fork": false,
+    "full_name": "Homebrew/.github",
+    "html_url": "https://github.com/Homebrew/.github",
+    "language": null,
+    "pushed_at": "2026-04-17T08:17:11Z",
+    "stargazers_count": 52,
+    "topics": [],
+    "updated_at": "2026-04-17T08:17:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Actionlint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yml",
+      "term": "Actionlint"
+    },
+    {
+      "context_snippet": "Manage stale issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-issues.yml",
+      "term": "Manage stale issues"
+    },
+    {
+      "context_snippet": "Sync shared configurations",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-shared-config.yml",
+      "term": "Sync shared configurations"
+    }
+  ]
+}

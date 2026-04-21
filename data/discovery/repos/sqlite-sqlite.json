@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-21T19:00:34.302064+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21094
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official Git mirror of the SQLite source tree",
+    "fork": false,
+    "full_name": "sqlite/sqlite",
+    "html_url": "https://github.com/sqlite/sqlite",
+    "language": "C",
+    "pushed_at": "2026-04-21T18:18:12Z",
+    "stargazers_count": 9425,
+    "topics": [],
+    "updated_at": "2026-04-21T18:18:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

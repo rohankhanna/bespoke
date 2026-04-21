@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "manual"
+    "manual",
+    "Manual"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "nabijaczleweli/cargo-update",
       "status": "candidate-context",
       "text": "manual"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wolfpld/tracy",
+      "status": "candidate-context",
+      "text": "Frame profiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wolfpld/tracy",
+      "status": "candidate-context",
+      "text": "Manual"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "nabijaczleweli/cargo-update",
       "status": "candidate",
       "text": "manual"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wolfpld/tracy",
+      "status": "candidate",
+      "text": "Manual"
     }
   ],
   "candidate_related_terms": [
@@ -98,11 +117,17 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": ".github/workflows/manual.yml",
       "source_repo": "nabijaczleweli/cargo-update"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/latex.yml",
+      "source_repo": "wolfpld/tracy"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

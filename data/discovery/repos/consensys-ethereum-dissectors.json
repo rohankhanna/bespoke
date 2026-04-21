@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Consensys/ethereum-dissectors",
+      "target": "consensys/devp2p-dissectors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Consensys/ethereum-dissectors",
+      "target": "wireshark/wireshark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Consensys/ethereum-dissectors",
+      "target": "devp2p",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Consensys/ethereum-dissectors",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Consensys/ethereum-dissectors",
+      "target": "network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Consensys/ethereum-dissectors",
+      "target": "protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Consensys/ethereum-dissectors",
+      "target": "wireshark",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:55:50.854950+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6065
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "\ud83d\udd0dWireshark dissectors for Ethereum devp2p protocols",
+    "fork": false,
+    "full_name": "Consensys/ethereum-dissectors",
+    "html_url": "https://github.com/Consensys/ethereum-dissectors",
+    "language": "C",
+    "pushed_at": "2022-01-17T19:30:00Z",
+    "stargazers_count": 120,
+    "topics": [
+      "c",
+      "devp2p",
+      "ethereum",
+      "network",
+      "protocol",
+      "tcp",
+      "udp",
+      "wireshark"
+    ],
+    "updated_at": "2025-04-20T12:31:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "consensys/devp2p-dissectors",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wireshark/wireshark",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repo contains a set of network protocol dissectors for Ethereum that you can load into the widely popular Wireshark to begin inspecting Ethereum traffic.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devp2p"
+    },
+    {
+      "context_snippet": "This repo contains a set of network protocol dissectors for Ethereum that you can load into the widely popular Wireshark to begin inspecting Ethereum traffic.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    },
+    {
+      "context_snippet": "This repo contains a set of network protocol dissectors for Ethereum that you can load into the widely popular Wireshark to begin inspecting Ethereum traffic.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "network"
+    },
+    {
+      "context_snippet": "This repo contains a set of network protocol dissectors for Ethereum that you can load into the widely popular Wireshark to begin inspecting Ethereum traffic.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protocol"
+    },
+    {
+      "context_snippet": "This repo contains a set of network protocol dissectors for Ethereum that you can load into the widely popular Wireshark to begin inspecting Ethereum traffic.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wireshark"
+    }
+  ]
+}

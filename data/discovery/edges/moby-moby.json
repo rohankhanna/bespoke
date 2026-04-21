@@ -4,21 +4,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "Dockerfile",
       "source_repo": "moby/moby",
-      "target": "docker/cli",
+      "target": "go-delve/delve",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "Dockerfile",
       "source_repo": "moby/moby",
-      "target": "containerd/containerd",
+      "target": "golangci/golangci-lint",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "Dockerfile",
       "source_repo": "moby/moby",
-      "target": "containers/crun",
+      "target": "gotestyourself/gotestsum",
       "target_type": "repository"
     },
     {
@@ -323,6 +323,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-18T13:15:13.756138+00:00",
+  "generated_at": "2026-04-21T18:51:25.552552+00:00",
   "source_repo": "moby/moby"
 }

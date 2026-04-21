@@ -676,6 +676,54 @@
       "source_repo": "Builditluc/wiki-tui",
       "status": "candidate-context",
       "text": "[![Contributors](https://img.shields.io/github/all-contributors/builditluc/wiki-tui/main?color=orange&label=Contributors&style=for-the-badge)](#contributors-)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/rust_win_etw",
+      "status": "candidate-context",
+      "text": "Allows Rust code to log events to ETW"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/rust_win_etw",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ratatui/awesome-ratatui",
+      "status": "candidate-context",
+      "text": "A curated list of TUI apps and libraries built with Ratatui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ratatui/awesome-ratatui",
+      "status": "candidate-context",
+      "text": "<!--lint disable awesome-git-repo-age-->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ratatui/templates",
+      "status": "candidate-context",
+      "text": "Templates for bootstrapping a Rust TUI application with Ratatui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ratatui/templates",
+      "status": "candidate-context",
+      "text": "This repository contains templates for bootstrapping a Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "medialab/xan",
+      "status": "candidate-context",
+      "text": "The CSV magician"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "medialab/xan",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/medialab/xan/workflows/Tests/badge.svg)](https://github.com/medialab/xan/actions) [![DOI](https://zenodo.org/badge/140488417.svg)](https://doi.org/10.5281/zenodo.15310200)"
     }
   ],
   "candidate_glosses": [
@@ -1014,6 +1062,30 @@
       "source_repo": "Builditluc/wiki-tui",
       "status": "candidate",
       "text": "[![Contributors](https://img.shields.io/github/all-contributors/builditluc/wiki-tui/main?color=orange&label=Contributors&style=for-the-badge)](#contributors-)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/rust_win_etw",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ratatui/awesome-ratatui",
+      "status": "candidate",
+      "text": "<!--lint disable awesome-git-repo-age-->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ratatui/templates",
+      "status": "candidate",
+      "text": "This repository contains templates for bootstrapping a Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "medialab/xan",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/medialab/xan/workflows/Tests/badge.svg)](https://github.com/medialab/xan/actions) [![DOI](https://zenodo.org/badge/140488417.svg)](https://doi.org/10.5281/zenodo.15310200)"
     }
   ],
   "candidate_related_terms": [
@@ -1561,11 +1633,35 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/rust.yml",
       "source_repo": "dirs-dev/dirs-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "microsoft/rust_win_etw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "ratatui/awesome-ratatui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "ratatui/templates"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "medialab/xan"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

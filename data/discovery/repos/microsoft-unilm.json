@@ -1,0 +1,333 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/unilm",
+      "target": "microsoft/lmops",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/unilm",
+      "target": "microsoft/redstone",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/unilm",
+      "target": "doc-analysis/xfund",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/unilm",
+      "target": "doc-analysis/readingbank",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/unilm",
+      "target": "beit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/unilm",
+      "target": "beit-3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/unilm",
+      "target": "bitnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/unilm",
+      "target": "deepnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/unilm",
+      "target": "document-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/unilm",
+      "target": "foundation-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/unilm",
+      "target": "kosmos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/unilm",
+      "target": "kosmos-1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/unilm",
+      "target": "layoutlm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/unilm",
+      "target": "layoutxlm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/unilm",
+      "target": "minilm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/unilm",
+      "target": "mllm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/unilm",
+      "target": "multimodal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/unilm",
+      "target": "pre-trained-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/unilm",
+      "target": "textdiffuser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/unilm",
+      "target": "trocr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/unilm",
+      "target": "unilm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/unilm",
+      "target": "xlm-e",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T19:00:18.052905+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 33516
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities",
+    "fork": false,
+    "full_name": "microsoft/unilm",
+    "html_url": "https://github.com/microsoft/unilm",
+    "language": "Python",
+    "pushed_at": "2026-01-23T04:09:35Z",
+    "stargazers_count": 22099,
+    "topics": [
+      "beit",
+      "beit-3",
+      "bitnet",
+      "deepnet",
+      "document-ai",
+      "foundation-models",
+      "kosmos",
+      "kosmos-1",
+      "layoutlm",
+      "layoutxlm",
+      "llm",
+      "minilm",
+      "mllm",
+      "multimodal",
+      "nlp",
+      "pre-trained-model",
+      "textdiffuser",
+      "trocr",
+      "unilm",
+      "xlm-e"
+    ],
+    "updated_at": "2026-04-20T13:22:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "doc-analysis/readingbank",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "doc-analysis/xfund",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/lmops",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/redstone",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!--# Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "beit"
+    },
+    {
+      "context_snippet": "<!--# Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "beit-3"
+    },
+    {
+      "context_snippet": "<!--# Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitnet"
+    },
+    {
+      "context_snippet": "<!--# Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepnet"
+    },
+    {
+      "context_snippet": "<!--# Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "document-ai"
+    },
+    {
+      "context_snippet": "<!--# Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "foundation-models"
+    },
+    {
+      "context_snippet": "<!--# Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kosmos"
+    },
+    {
+      "context_snippet": "<!--# Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kosmos-1"
+    },
+    {
+      "context_snippet": "<!--# Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "layoutlm"
+    },
+    {
+      "context_snippet": "<!--# Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "layoutxlm"
+    },
+    {
+      "context_snippet": "<!--# Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minilm"
+    },
+    {
+      "context_snippet": "<!--# Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mllm"
+    },
+    {
+      "context_snippet": "<!--# Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal"
+    },
+    {
+      "context_snippet": "<!--# Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pre-trained-model"
+    },
+    {
+      "context_snippet": "<!--# Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "textdiffuser"
+    },
+    {
+      "context_snippet": "<!--# Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trocr"
+    },
+    {
+      "context_snippet": "<!--# Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unilm"
+    },
+    {
+      "context_snippet": "<!--# Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xlm-e"
+    }
+  ]
+}

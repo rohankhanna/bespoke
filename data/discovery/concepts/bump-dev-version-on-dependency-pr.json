@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bump dev version on dependency PR"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AstarVienna/ScopeSim",
+      "status": "candidate-context",
+      "text": "A telescope observation simulator for Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AstarVienna/ScopeSim",
+      "status": "candidate-context",
+      "text": "Bump dev version on dependency PR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AstarVienna/ScopeSim",
+      "status": "candidate",
+      "text": "Bump dev version on dependency PR"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30815,
+      "status": "candidate",
+      "text": "expansion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30316,
+      "status": "candidate",
+      "text": "developments"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30254,
+      "status": "candidate",
+      "text": "group"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27196,
+      "status": "candidate",
+      "text": "count"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21786,
+      "status": "candidate",
+      "text": "stunt"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bump dev version on dependency PR",
+  "concept_id": "bump-dev-version-on-dependency-pr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/bump_on_dependency.yml",
+      "source_repo": "AstarVienna/ScopeSim"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump dev version on dependency PR",
+      "sense_id": "bump-dev-version-on-dependency-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

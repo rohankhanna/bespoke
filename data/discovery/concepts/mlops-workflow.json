@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "mlops-workflow"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aarnphm/whispercpp",
+      "status": "candidate-context",
+      "text": "Pybind11 bindings for Whisper.cpp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aarnphm/whispercpp",
+      "status": "candidate-context",
+      "text": "_Pybind11 bindings for"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aarnphm/whispercpp",
+      "status": "candidate",
+      "text": "_Pybind11 bindings for"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "mlops-workflow",
+  "concept_id": "mlops-workflow",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "aarnphm/whispercpp"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mlops-workflow",
+      "sense_id": "mlops-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

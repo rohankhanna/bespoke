@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!--# Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities-->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!--# Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities-->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27181544,
+      "status": "candidate",
+      "text": "pete"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27120726,
+      "status": "candidate",
+      "text": "beth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25704920,
+      "status": "candidate",
+      "text": "piet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25681525,
+      "status": "candidate",
+      "text": "bayt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25544024,
+      "status": "candidate",
+      "text": "shin"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "beit",
+      "sense_id": "beit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "beit",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "beit",
+  "observation_id": "9b34789042a74d5e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T18:51:25.552552+00:00",
+  "observed_text": "beit",
+  "source_context_snippet": "<!--# Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities-->",
+  "source_file": null,
+  "source_repo": "microsoft/unilm",
+  "source_repo_description": "Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities"
+}

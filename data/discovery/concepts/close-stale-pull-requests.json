@@ -7,9 +7,65 @@
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-specification",
+      "status": "candidate-context",
+      "text": "Specifications for OpenTelemetry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-specification",
+      "status": "candidate-context",
+      "text": "\"Close stale pull requests\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-specification",
+      "status": "candidate",
+      "text": "\"Close stale pull requests\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28918,
+      "status": "candidate",
+      "text": "hard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28461,
+      "status": "candidate",
+      "text": "exquisite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28461,
+      "status": "candidate",
+      "text": "near"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28461,
+      "status": "candidate",
+      "text": "nigh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28461,
+      "status": "candidate",
+      "text": "pan"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Close stale pull requests",
   "concept_id": "close-stale-pull-requests",
@@ -20,12 +76,20 @@
       "observed_at": "2026-04-18T12:07:11.500453+00:00",
       "source_file": ".github/workflows/close-stale-pull-requests.yml",
       "source_repo": "nodejs/node"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/stale-pr.yaml",
+      "source_repo": "open-telemetry/opentelemetry-specification"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

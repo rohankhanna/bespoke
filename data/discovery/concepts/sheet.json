@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "sheet"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "status": "candidate-context",
+      "text": "A performant interactive bottom sheet with fully configurable options \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "status": "candidate-context",
+      "text": "[![Reanimated v3 version](https://img.shields.io/github/package-json/v/gorhom/react-native-bottom-sheet/master?label=Reanimated%20v3&style=flat-square)](https://www.npmjs.com/package/@gorhom/bottom-sheet) [![Reanimated v2 version](https://img.shields.io/github/package-json/v/gor\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorhom/react-native-bottom-sheet",
+      "status": "candidate",
+      "text": "[![Reanimated v3 version](https://img.shields.io/github/package-json/v/gorhom/react-native-bottom-sheet/master?label=Reanimated%20v3&style=flat-square)](https://www.npmjs.com/package/@gorhom/bottom-sheet) [![Reanimated v2 version](https://img.shields.io/github/package-json/v/gor\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045731,
+      "status": "candidate",
+      "text": "bed sheet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039680,
+      "status": "candidate",
+      "text": "shroud"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038079,
+      "status": "candidate",
+      "text": "tack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033680,
+      "status": "candidate",
+      "text": "canvas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39982356,
+      "status": "candidate",
+      "text": "plane"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 52043,
+      "status": "candidate",
+      "text": "shroud"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14063,
+      "status": "candidate",
+      "text": "tack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9060,
+      "status": "candidate",
+      "text": "plane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9053,
+      "status": "candidate",
+      "text": "canvas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6052,
+      "status": "candidate",
+      "text": "sail"
+    }
+  ],
+  "canonical_name": "sheet",
+  "concept_id": "sheet",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "gorhom/react-native-bottom-sheet"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sheet",
+      "sense_id": "sheet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

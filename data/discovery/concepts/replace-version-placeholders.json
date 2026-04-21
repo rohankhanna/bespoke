@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Replace version placeholders"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AstarVienna/ScopeSim",
+      "status": "candidate-context",
+      "text": "A telescope observation simulator for Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AstarVienna/ScopeSim",
+      "status": "candidate-context",
+      "text": "Replace version placeholders"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AstarVienna/ScopeSim",
+      "status": "candidate",
+      "text": "Replace version placeholders"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26049,
+      "status": "candidate",
+      "text": "upgrade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26049,
+      "status": "candidate",
+      "text": "upgraded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26049,
+      "status": "candidate",
+      "text": "upgrading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22573,
+      "status": "candidate",
+      "text": "transformation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22475,
+      "status": "candidate",
+      "text": "protean"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Replace version placeholders",
+  "concept_id": "replace-version-placeholders",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/replaceholder.yml",
+      "source_repo": "AstarVienna/ScopeSim"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Replace version placeholders",
+      "sense_id": "replace-version-placeholders#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

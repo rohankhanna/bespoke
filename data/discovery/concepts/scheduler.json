@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "scheduler"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "citusdata/pg_cron",
+      "status": "candidate-context",
+      "text": "Run periodic jobs in PostgreSQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citusdata/pg_cron",
+      "status": "candidate-context",
+      "text": "[![Citus Banner](/github-banner.png)](https://www.citusdata.com/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citusdata/pg_cron",
+      "status": "candidate",
+      "text": "[![Citus Banner](/github-banner.png)](https://www.citusdata.com/)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29927410,
+      "status": "candidate",
+      "text": "developer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29916964,
+      "status": "candidate",
+      "text": "writer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29915447,
+      "status": "candidate",
+      "text": "planner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29915103,
+      "status": "candidate",
+      "text": "timer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29913656,
+      "status": "candidate",
+      "text": "programmer"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "scheduler",
+  "concept_id": "scheduler",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "citusdata/pg_cron"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scheduler",
+      "sense_id": "scheduler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

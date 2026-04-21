@@ -151,6 +151,66 @@
       "source_repo": "okd-project/okd",
       "status": "candidate-context",
       "text": "OKD: The Community Distribution of Kubernetes that powers Red Hat's OpenShift"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm/helm",
+      "status": "candidate-context",
+      "text": "The Kubernetes Package Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/helm",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/helm/helm/workflows/release/badge.svg)](https://github.com/helm/helm/actions?workflow=release)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm/helm-www",
+      "status": "candidate-context",
+      "text": "The Helm website for docs, blog and project info."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/helm-www",
+      "status": "candidate-context",
+      "text": "![github-banner-helm-helmwww](https://user-images.githubusercontent.com/686194/68531441-f4ad4e00-02c6-11ea-982b-74d7c3ff0071.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/cri-tools",
+      "status": "candidate-context",
+      "text": "CLI and validation tools for Kubelet Container Runtime Interface (CRI) ."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/cri-tools",
+      "status": "candidate-context",
+      "text": "CLI and validation tools for Kubelet Container Runtime Interface (CRI) ."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm/chart-testing",
+      "status": "candidate-context",
+      "text": "CLI tool for linting and testing Helm charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/chart-testing",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-node-termination-handler",
+      "status": "candidate-context",
+      "text": "Gracefully handle EC2 instance shutdown within Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-node-termination-handler",
+      "status": "candidate-context",
+      "text": "<h1>AWS Node Termination Handler</h1>"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +285,36 @@
       "source_repo": "okd-project/okd",
       "status": "candidate",
       "text": "OKD: The Community Distribution of Kubernetes that powers Red Hat's OpenShift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/helm",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/helm/helm/workflows/release/badge.svg)](https://github.com/helm/helm/actions?workflow=release)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/helm-www",
+      "status": "candidate",
+      "text": "![github-banner-helm-helmwww](https://user-images.githubusercontent.com/686194/68531441-f4ad4e00-02c6-11ea-982b-74d7c3ff0071.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/cri-tools",
+      "status": "candidate",
+      "text": "CLI and validation tools for Kubelet Container Runtime Interface (CRI) ."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/chart-testing",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-node-termination-handler",
+      "status": "candidate",
+      "text": "<h1>AWS Node Termination Handler</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -370,11 +460,41 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "okd-project/okd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "helm/helm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "helm/helm-www"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/cri-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "helm/chart-testing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "aws/aws-node-termination-handler"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

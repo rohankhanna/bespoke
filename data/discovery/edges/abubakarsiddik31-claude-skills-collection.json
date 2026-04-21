@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abubakarsiddik31/claude-skills-collection",
+      "target": "antonbabenko/terraform-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abubakarsiddik31/claude-skills-collection",
+      "target": "airowe/claude-a11y-skill",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abubakarsiddik31/claude-skills-collection",
+      "target": "agricidaniel/claude-email",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abubakarsiddik31/claude-skills-collection",
+      "target": "ahmedasmar/devops-claude-skills",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-21T18:51:25.552552+00:00",
+  "source_repo": "abubakarsiddik31/claude-skills-collection"
+}

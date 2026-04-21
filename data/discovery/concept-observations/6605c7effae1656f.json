@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CLI and validation tools for Kubelet Container Runtime Interface (CRI) ."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "critest containerd"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "critest containerd"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "critest containerd",
+      "sense_id": "critest-containerd#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "critest-containerd",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "critest-containerd",
+  "observation_id": "6605c7effae1656f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T18:51:25.552552+00:00",
+  "observed_text": "critest containerd",
+  "source_context_snippet": "critest containerd",
+  "source_file": ".github/workflows/containerd.yml",
+  "source_repo": "kubernetes-sigs/cri-tools",
+  "source_repo_description": "CLI and validation tools for Kubelet Container Runtime Interface (CRI) ."
+}

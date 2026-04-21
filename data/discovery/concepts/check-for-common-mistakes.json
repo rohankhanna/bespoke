@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check For Common Mistakes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vcpkg",
+      "status": "candidate-context",
+      "text": "C++ Library Manager for Windows, Linux, and MacOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vcpkg",
+      "status": "candidate-context",
+      "text": "Check For Common Mistakes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vcpkg",
+      "status": "candidate",
+      "text": "Check For Common Mistakes"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23815,
+      "status": "candidate",
+      "text": "edit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22598,
+      "status": "candidate",
+      "text": "correct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22598,
+      "status": "candidate",
+      "text": "error"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22252,
+      "status": "candidate",
+      "text": "typo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22214,
+      "status": "candidate",
+      "text": "perfect"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check For Common Mistakes",
+  "concept_id": "check-for-common-mistakes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/untrustedPR.yml",
+      "source_repo": "microsoft/vcpkg"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check For Common Mistakes",
+      "sense_id": "check-for-common-mistakes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme.yml",
+      "source_repo": "goreleaser/.github",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme.yml",
+      "source_repo": "goreleaser/.github",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme.yml",
+      "source_repo": "goreleaser/.github",
+      "target": "stefanzweifel/git-auto-commit-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/readme.yml",
+      "source_repo": "goreleaser/.github",
+      "target": "Update README",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T19:01:36.335453+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/readme.yml",
+      "size": 779
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "goreleaser/.github",
+    "html_url": "https://github.com/goreleaser/.github",
+    "language": "Go Template",
+    "pushed_at": "2026-04-21T18:33:26Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2026-04-21T18:33:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Update README",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/readme.yml",
+      "term": "Update README"
+    }
+  ]
+}

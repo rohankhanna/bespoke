@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "autotools"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "UB-Mannheim/tesseract",
+      "status": "candidate-context",
+      "text": "Tesseract Open Source OCR Engine (main repository)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "UB-Mannheim/tesseract",
+      "status": "candidate-context",
+      "text": "autotools"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "UB-Mannheim/tesseract",
+      "status": "candidate",
+      "text": "autotools"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023396,
+      "status": "candidate",
+      "text": "autocompilation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023395,
+      "status": "candidate",
+      "text": "make"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023394,
+      "status": "candidate",
+      "text": "autobackup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023393,
+      "status": "candidate",
+      "text": "autotimer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023392,
+      "status": "candidate",
+      "text": "autocreation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "autotools",
+  "concept_id": "autotools",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/autotools.yml",
+      "source_repo": "UB-Mannheim/tesseract"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "autotools",
+      "sense_id": "autotools#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

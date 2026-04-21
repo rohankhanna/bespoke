@@ -67,6 +67,42 @@
       "source_repo": "open-telemetry/community",
       "status": "candidate-context",
       "text": "<details>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cncf/artwork",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8 CNCF-related logos and artwork"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/artwork",
+      "status": "candidate-context",
+      "text": "In this repo, we have artwork in standard formats for the CNCF [projects](https://www.cncf.io/projects/) and programs. We prepare artwork in 2 formats (PNG & SVG), 3 layouts -- horizontal (also known as landscape format), stacked (which is closer to square), and icon (which does\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm/helm",
+      "status": "candidate-context",
+      "text": "The Kubernetes Package Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/helm",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/helm/helm/workflows/release/badge.svg)](https://github.com/helm/helm/actions?workflow=release)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cncf/toc",
+      "status": "candidate-context",
+      "text": "\u2696\ufe0f The CNCF Technical Oversight Committee (TOC) is the technical governing body of the CNCF Foundation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/toc",
+      "status": "candidate-context",
+      "text": "The CNCF TOC is the technical governing body of the CNCF. It admits and oversees all projects in the CNCF and has a mandate to facilitate driving neutral consensus for:"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "open-telemetry/community",
       "status": "candidate",
       "text": "<details>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/artwork",
+      "status": "candidate",
+      "text": "In this repo, we have artwork in standard formats for the CNCF [projects](https://www.cncf.io/projects/) and programs. We prepare artwork in 2 formats (PNG & SVG), 3 layouts -- horizontal (also known as landscape format), stacked (which is closer to square), and icon (which does\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/helm",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/helm/helm/workflows/release/badge.svg)](https://github.com/helm/helm/actions?workflow=release)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/toc",
+      "status": "candidate",
+      "text": "The CNCF TOC is the technical governing body of the CNCF. It admits and oversees all projects in the CNCF and has a mandate to facilitate driving neutral consensus for:"
     }
   ],
   "candidate_related_terms": [
@@ -178,11 +232,29 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "open-telemetry/community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "cncf/artwork"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "helm/helm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "cncf/toc"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

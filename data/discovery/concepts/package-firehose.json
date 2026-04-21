@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "package:firehose"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/ecosystem",
+      "status": "candidate-context",
+      "text": "This repository is home to general Dart Ecosystem tools and packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/ecosystem",
+      "status": "candidate-context",
+      "text": "package:firehose"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/ecosystem",
+      "status": "candidate",
+      "text": "package:firehose"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9994080,
+      "status": "candidate",
+      "text": "dig up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9993311,
+      "status": "candidate",
+      "text": "brick wall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9993301,
+      "status": "candidate",
+      "text": "brick house"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9989725,
+      "status": "candidate",
+      "text": "carve out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9988555,
+      "status": "candidate",
+      "text": "wash out"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "package:firehose",
+  "concept_id": "package-firehose",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/firehose.yml",
+      "source_repo": "dart-lang/ecosystem"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "package:firehose",
+      "sense_id": "package-firehose#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

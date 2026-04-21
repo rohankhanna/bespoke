@@ -203,6 +203,16 @@
     {
       "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml"
+    },
+    {
+      "component": "DeterminateSystems/determinate-nix-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/regression.yml"
     },
     {
@@ -264,16 +274,6 @@
       "component": "actions/setup-node@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
-    },
-    {
-      "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-pypi.yml"
-    },
-    {
-      "component": "actions/setup-python@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-pypi.yml"
     }
   ],
   "edges": [
@@ -461,6 +461,27 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "gastownhall/beads",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "gastownhall/beads",
+      "target": "DeterminateSystems/determinate-nix-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "gastownhall/beads",
+      "target": "nix build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/regression.yml",
       "source_repo": "gastownhall/beads",
       "target": "actions/checkout@v6",
@@ -530,27 +551,6 @@
       "target_type": "term"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-pypi.yml",
-      "source_repo": "gastownhall/beads",
-      "target": "actions/checkout@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/test-pypi.yml",
-      "source_repo": "gastownhall/beads",
-      "target": "actions/setup-python@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/test-pypi.yml",
-      "source_repo": "gastownhall/beads",
-      "target": "Test PyPI Publish",
-      "target_type": "term"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "gastownhall/beads",
@@ -565,7 +565,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-20T03:17:28.570162+00:00",
+  "fetched_at": "2026-04-21T18:52:03.227043+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -577,7 +577,7 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 10365
+      "size": 10429
     },
     {
       "path": ".github/workflows/cross-version-smoke.yml",
@@ -593,7 +593,11 @@
     },
     {
       "path": ".github/workflows/nightly.yml",
-      "size": 2221
+      "size": 2253
+    },
+    {
+      "path": ".github/workflows/nix-build.yml",
+      "size": 616
     },
     {
       "path": ".github/workflows/regression.yml",
@@ -602,10 +606,6 @@
     {
       "path": ".github/workflows/release.yml",
       "size": 11452
-    },
-    {
-      "path": ".github/workflows/test-pypi.yml",
-      "size": 849
     }
   ],
   "related_repositories": [],
@@ -617,14 +617,14 @@
     "full_name": "gastownhall/beads",
     "html_url": "https://github.com/gastownhall/beads",
     "language": "Go",
-    "pushed_at": "2026-04-19T21:16:08Z",
-    "stargazers_count": 20933,
+    "pushed_at": "2026-04-21T04:09:49Z",
+    "stargazers_count": 20999,
     "topics": [
       "agents",
       "claude-code",
       "coding"
     ],
-    "updated_at": "2026-04-20T03:06:46Z"
+    "updated_at": "2026-04-21T18:43:59Z"
   },
   "repo_links": [
     {
@@ -659,6 +659,12 @@
       "term": "Nightly Full Tests"
     },
     {
+      "context_snippet": "nix build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix-build.yml",
+      "term": "nix build"
+    },
+    {
       "context_snippet": "Regression Tests",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/regression.yml",
@@ -669,12 +675,6 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/release.yml",
       "term": "Release"
-    },
-    {
-      "context_snippet": "Test PyPI Publish",
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/test-pypi.yml",
-      "term": "Test PyPI Publish"
     },
     {
       "context_snippet": "**Distributed graph issue tracker for AI agents, powered by [Dolt](https://github.com/dolthub/dolt).**",

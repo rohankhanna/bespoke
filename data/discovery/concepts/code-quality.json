@@ -46,6 +46,42 @@
       "source_repo": "strands-agents/sdk-typescript",
       "status": "candidate-context",
       "text": "Code Quality"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/deslop",
+      "status": "candidate-context",
+      "text": "AI slop cleanup with minimal diffs and behavior preservation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/deslop",
+      "status": "candidate-context",
+      "text": "Detect and remove AI-generated slop from codebases with certainty-based findings and safe auto-fixes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/drift-detect",
+      "status": "candidate-context",
+      "text": "Deep repository analysis to realign project plans with actual code reality - discovers drift, gaps, and produces prioritized reconstruction plans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/drift-detect",
+      "status": "candidate-context",
+      "text": "Deep repository analysis to realign project plans with actual code reality."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/enhance",
+      "status": "candidate-context",
+      "text": "Plugin structure and tool use analyzer - validates plugin.json, MCP tools, and security patterns"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/enhance",
+      "status": "candidate-context",
+      "text": "Master enhancement orchestrator for plugins, agents, prompts, docs, hooks, and skills."
     }
   ],
   "candidate_glosses": [
@@ -66,6 +102,24 @@
       "source_repo": "strands-agents/sdk-typescript",
       "status": "candidate",
       "text": "Code Quality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/deslop",
+      "status": "candidate",
+      "text": "Detect and remove AI-generated slop from codebases with certainty-based findings and safe auto-fixes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/drift-detect",
+      "status": "candidate",
+      "text": "Deep repository analysis to realign project plans with actual code reality."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/enhance",
+      "status": "candidate",
+      "text": "Master enhancement orchestrator for plugins, agents, prompts, docs, hooks, and skills."
     }
   ],
   "candidate_related_terms": [
@@ -145,11 +199,29 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/code-quality.yml",
       "source_repo": "strands-agents/sdk-typescript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "agent-sh/deslop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "agent-sh/drift-detect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "agent-sh/enhance"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -38,6 +38,18 @@
       "source_repo": "codespell-project/codespell",
       "status": "candidate-context",
       "text": "codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda-forge/miniforge",
+      "status": "candidate-context",
+      "text": "A conda-forge distribution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/miniforge",
+      "status": "candidate-context",
+      "text": "Codespell"
     }
   ],
   "candidate_glosses": [
@@ -52,6 +64,12 @@
       "source_repo": "codespell-project/codespell",
       "status": "candidate",
       "text": "codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/miniforge",
+      "status": "candidate",
+      "text": "Codespell"
     }
   ],
   "candidate_related_terms": [],
@@ -83,11 +101,17 @@
       "observed_at": "2026-04-19T17:36:09.281008+00:00",
       "source_file": ".github/workflows/codespell.yml",
       "source_repo": "codespell-project/codespell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "conda-forge/miniforge"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:36:09.281008+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

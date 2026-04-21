@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "type-inference"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "davidhalter/jedi",
+      "status": "candidate-context",
+      "text": "Awesome autocompletion, static analysis and refactoring library for python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidhalter/jedi",
+      "status": "candidate-context",
+      "text": "Jedi - an awesome autocompletion, static analysis and refactoring library for Python"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidhalter/jedi",
+      "status": "candidate",
+      "text": "Jedi - an awesome autocompletion, static analysis and refactoring library for Python"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "type-inference",
+  "concept_id": "type-inference",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "davidhalter/jedi"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "type-inference",
+      "sense_id": "type-inference#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

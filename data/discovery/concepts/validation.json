@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Validation"
+    "Validation",
+    "validation"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "microsoft/pyright",
       "status": "candidate-context",
       "text": "'Validation'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/enhance",
+      "status": "candidate-context",
+      "text": "Plugin structure and tool use analyzer - validates plugin.json, MCP tools, and security patterns"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/enhance",
+      "status": "candidate-context",
+      "text": "Master enhancement orchestrator for plugins, agents, prompts, docs, hooks, and skills."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "microsoft/pyright",
       "status": "candidate",
       "text": "'Validation'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/enhance",
+      "status": "candidate",
+      "text": "Master enhancement orchestrator for plugins, agents, prompts, docs, hooks, and skills."
     }
   ],
   "candidate_related_terms": [
@@ -105,11 +126,17 @@
       "observed_at": "2026-04-18T18:48:44.679047+00:00",
       "source_file": ".github/workflows/validation.yml",
       "source_repo": "microsoft/pyright"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "agent-sh/enhance"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:48:44.679047+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

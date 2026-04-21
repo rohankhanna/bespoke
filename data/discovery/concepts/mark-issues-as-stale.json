@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Mark issues as stale"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/incubator-tuweni",
+      "status": "candidate-context",
+      "text": "Apache Tuweni is a set of libraries and other tools to aid development of blockchain and other decentralized software in Java and other JVM languages. It includes a low-level bytes library, serialization and deserialization codecs (e.g. RLP), various cryptography functions and primatives, and lots of other helpful utilities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-tuweni",
+      "status": "candidate-context",
+      "text": "'Mark issues as stale'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-tuweni",
+      "status": "candidate",
+      "text": "'Mark issues as stale'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34858,
+      "status": "candidate",
+      "text": "stall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27795,
+      "status": "candidate",
+      "text": "stalls"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21691,
+      "status": "candidate",
+      "text": "electrograph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21629,
+      "status": "candidate",
+      "text": "hispanic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21629,
+      "status": "candidate",
+      "text": "spanish"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Mark issues as stale",
+  "concept_id": "mark-issues-as-stale",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/mark-issues-as-stale.yml",
+      "source_repo": "apache/incubator-tuweni"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mark issues as stale",
+      "sense_id": "mark-issues-as-stale#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

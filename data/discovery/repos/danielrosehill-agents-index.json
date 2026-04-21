@@ -1,0 +1,110 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Agents-Index",
+      "target": "danielrosehill/agent-deploy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Agents-Index",
+      "target": "danielrosehill/agent-handover-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Agents-Index",
+      "target": "danielrosehill/agent-sdk-env-setup",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Agents-Index",
+      "target": "danielrosehill/agentic-ai-architecture-visualisation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Agents-Index",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Agents-Index",
+      "target": "workflow-automation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:53:31.080327+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 35149
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Periodically updated index of AI agent configurations that I'm working on (or have created)",
+    "fork": false,
+    "full_name": "danielrosehill/Agents-Index",
+    "html_url": "https://github.com/danielrosehill/Agents-Index",
+    "language": null,
+    "pushed_at": "2026-03-27T17:06:41Z",
+    "stargazers_count": 5,
+    "topics": [
+      "agents",
+      "ai-agents",
+      "automation",
+      "n8n",
+      "workflow-automation"
+    ],
+    "updated_at": "2026-03-27T17:06:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/agent-deploy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/agent-handover-demo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/agent-sdk-env-setup",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/agentic-ai-architecture-visualisation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Master Index](https://img.shields.io/badge/Master_Index-GitHub-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Github-Master-Index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "[![Master Index](https://img.shields.io/badge/Master_Index-GitHub-blue?style=flat-square&logo=github)](https://github.com/danielrosehill/Github-Master-Index)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "workflow-automation"
+    }
+  ]
+}

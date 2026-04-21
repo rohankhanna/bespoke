@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BurntSushi/tabwriter",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BurntSushi/tabwriter",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-21T19:00:47.714544+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2989
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 508
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1865
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Elastic tabstops for Rust.",
+    "fork": false,
+    "full_name": "BurntSushi/tabwriter",
+    "html_url": "https://github.com/BurntSushi/tabwriter",
+    "language": "Rust",
+    "pushed_at": "2025-09-21T15:20:45Z",
+    "stargazers_count": 272,
+    "topics": [],
+    "updated_at": "2026-03-06T20:23:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

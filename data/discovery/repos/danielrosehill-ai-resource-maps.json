@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Resource-Maps",
+      "target": "danielrosehill/ai-geopol-projects",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Resource-Maps",
+      "target": "danielrosehill/ai-synthesised-perspectives",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Resource-Maps",
+      "target": "danielrosehill/ai-decision-eval-projects",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Resource-Maps",
+      "target": "danielrosehill/ai-browser-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Resource-Maps",
+      "target": "ai-maps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Resource-Maps",
+      "target": "ecosystems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Resource-Maps",
+      "target": "resourcelists",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:54:12.148720+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7775
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Index of repos mapping out (snapshots/updated) parts of the huge world of AI of particular interest to me",
+    "fork": false,
+    "full_name": "danielrosehill/AI-Resource-Maps",
+    "html_url": "https://github.com/danielrosehill/AI-Resource-Maps",
+    "language": null,
+    "pushed_at": "2026-04-06T19:02:06Z",
+    "stargazers_count": 0,
+    "topics": [
+      "ai-maps",
+      "ecosystems",
+      "resourcelists"
+    ],
+    "updated_at": "2026-04-06T19:02:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/ai-browser-tools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/ai-decision-eval-projects",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/ai-geopol-projects",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/ai-synthesised-perspectives",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-maps"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ecosystems"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resourcelists"
+    }
+  ]
+}

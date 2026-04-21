@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Remove needs-info on author response"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gastownhall/gastown",
+      "status": "candidate-context",
+      "text": "Gas Town - multi-agent workspace manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gastownhall/gastown",
+      "status": "candidate-context",
+      "text": "Remove needs-info on author response"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gastownhall/gastown",
+      "status": "candidate",
+      "text": "Remove needs-info on author response"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33978,
+      "status": "candidate",
+      "text": "device"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17982,
+      "status": "candidate",
+      "text": "write"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17941,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17941,
+      "status": "candidate",
+      "text": "shear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17941,
+      "status": "candidate",
+      "text": "sheared"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Remove needs-info on author response",
+  "concept_id": "remove-needs-info-on-author-response",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/remove-needs-info.yml",
+      "source_repo": "gastownhall/gastown"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Remove needs-info on author response",
+      "sense_id": "remove-needs-info-on-author-response#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

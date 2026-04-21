@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "style-check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aarnphm/whispercpp",
+      "status": "candidate-context",
+      "text": "Pybind11 bindings for Whisper.cpp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aarnphm/whispercpp",
+      "status": "candidate-context",
+      "text": "style-check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AIWintermuteAI/whispercpp",
+      "status": "candidate-context",
+      "text": "Pybind11 bindings for Whisper.cpp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AIWintermuteAI/whispercpp",
+      "status": "candidate-context",
+      "text": "style-check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aarnphm/whispercpp",
+      "status": "candidate",
+      "text": "style-check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AIWintermuteAI/whispercpp",
+      "status": "candidate",
+      "text": "style-check"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "style-check",
+  "concept_id": "style-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "aarnphm/whispercpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "AIWintermuteAI/whispercpp"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "style-check",
+      "sense_id": "style-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "profiler"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plasma-umass/coz",
+      "status": "candidate-context",
+      "text": "Coz: Causal Profiling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plasma-umass/coz",
+      "status": "candidate-context",
+      "text": "by [Charlie Curtsinger](https://curtsinger.cs.grinnell.edu/) and [Emery Berger](https://emeryberger.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wolfpld/tracy",
+      "status": "candidate-context",
+      "text": "Frame profiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wolfpld/tracy",
+      "status": "candidate-context",
+      "text": "[![Sponsor](.github/sponsor.png)](https://github.com/sponsors/wolfpld/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plasma-umass/coz",
+      "status": "candidate",
+      "text": "by [Charlie Curtsinger](https://curtsinger.cs.grinnell.edu/) and [Emery Berger](https://emeryberger.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wolfpld/tracy",
+      "status": "candidate",
+      "text": "[![Sponsor](.github/sponsor.png)](https://github.com/sponsors/wolfpld/)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003980,
+      "status": "candidate",
+      "text": "analyzer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003925,
+      "status": "candidate",
+      "text": "float"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29946028,
+      "status": "candidate",
+      "text": "analyser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29938012,
+      "status": "candidate",
+      "text": "parser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29928226,
+      "status": "candidate",
+      "text": "offing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "profiler",
+  "concept_id": "profiler",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "plasma-umass/coz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "wolfpld/tracy"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "profiler",
+      "sense_id": "profiler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

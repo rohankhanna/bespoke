@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish Documentation and Schema"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vega/vega-lite",
+      "status": "candidate-context",
+      "text": "A concise grammar of interactive graphics, built on Vega."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/vega-lite",
+      "status": "candidate-context",
+      "text": "Publish Documentation and Schema"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/vega-lite",
+      "status": "candidate",
+      "text": "Publish Documentation and Schema"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19478,
+      "status": "candidate",
+      "text": "figure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19039,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19039,
+      "status": "candidate",
+      "text": "pressed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19039,
+      "status": "candidate",
+      "text": "spread"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18934,
+      "status": "candidate",
+      "text": "bring"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish Documentation and Schema",
+  "concept_id": "publish-documentation-and-schema",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/release-docs-and-schema.yml",
+      "source_repo": "vega/vega-lite"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Documentation and Schema",
+      "sense_id": "publish-documentation-and-schema#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

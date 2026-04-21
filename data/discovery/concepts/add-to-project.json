@@ -19,12 +19,102 @@
       "source_repo": "agent-sh/sync-docs",
       "status": "candidate-context",
       "text": "Add to project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/audit-project",
+      "status": "candidate-context",
+      "text": "Multi-agent iterative code review until zero issues remain"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/audit-project",
+      "status": "candidate-context",
+      "text": "Add to project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/deslop",
+      "status": "candidate-context",
+      "text": "AI slop cleanup with minimal diffs and behavior preservation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/deslop",
+      "status": "candidate-context",
+      "text": "Add to project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/drift-detect",
+      "status": "candidate-context",
+      "text": "Deep repository analysis to realign project plans with actual code reality - discovers drift, gaps, and produces prioritized reconstruction plans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/drift-detect",
+      "status": "candidate-context",
+      "text": "Add to project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/enhance",
+      "status": "candidate-context",
+      "text": "Plugin structure and tool use analyzer - validates plugin.json, MCP tools, and security patterns"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/enhance",
+      "status": "candidate-context",
+      "text": "Add to project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agent-sh/next-task",
+      "status": "candidate-context",
+      "text": "Master workflow orchestrator with autonomous task-to-production automation, quality gates, and multi-agent review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/next-task",
+      "status": "candidate-context",
+      "text": "Add to project"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "agent-sh/sync-docs",
+      "status": "candidate",
+      "text": "Add to project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/audit-project",
+      "status": "candidate",
+      "text": "Add to project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/deslop",
+      "status": "candidate",
+      "text": "Add to project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/drift-detect",
+      "status": "candidate",
+      "text": "Add to project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/enhance",
+      "status": "candidate",
+      "text": "Add to project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agent-sh/next-task",
       "status": "candidate",
       "text": "Add to project"
     }
@@ -76,11 +166,41 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/add-to-project.yml",
       "source_repo": "agent-sh/sync-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "agent-sh/audit-project"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "agent-sh/deslop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "agent-sh/drift-detect"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "agent-sh/enhance"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "agent-sh/next-task"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

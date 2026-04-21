@@ -503,6 +503,102 @@
       "source_repo": "getbettr/octotail",
       "status": "candidate-context",
       "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "status": "candidate-context",
+      "text": "paho.mqtt.python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm/helm-www",
+      "status": "candidate-context",
+      "text": "The Helm website for docs, blog and project info."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/helm-www",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opencontainers/distribution-spec",
+      "status": "candidate-context",
+      "text": "OCI Distribution Specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/distribution-spec",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opencontainers/runtime-spec",
+      "status": "candidate-context",
+      "text": "OCI Runtime Specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/runtime-spec",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/cri-tools",
+      "status": "candidate-context",
+      "text": "CLI and validation tools for Kubelet Container Runtime Interface (CRI) ."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/cri-tools",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "norwoodj/helm-docs",
+      "status": "candidate-context",
+      "text": "A tool for automatically generating markdown documentation for helm charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "norwoodj/helm-docs",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "explosion/spaCy",
+      "status": "candidate-context",
+      "text": "\ud83d\udcab Industrial-strength Natural Language Processing (NLP) in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "explosion/spaCy",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goreleaser/sponsors",
+      "status": "candidate-context",
+      "text": "Fetches sponsors from multiple sources and renders them based on templates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/sponsors",
+      "status": "candidate-context",
+      "text": "build"
     }
   ],
   "candidate_glosses": [
@@ -755,6 +851,54 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "getbettr/octotail",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/helm-www",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/distribution-spec",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/runtime-spec",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/cri-tools",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "norwoodj/helm-docs",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "explosion/spaCy",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goreleaser/sponsors",
       "status": "candidate",
       "text": "build"
     }
@@ -1159,11 +1303,65 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "getbettr/octotail"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "helm/helm-www"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "opencontainers/distribution-spec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "opencontainers/runtime-spec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kubernetes-sigs/cri-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "norwoodj/helm-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "explosion/spaCy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "goreleaser/sponsors"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

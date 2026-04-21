@@ -1,0 +1,93 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_cedar_java_reusable.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_cedar_java_reusable.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_cedar_java_reusable.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cedar-policy/cedar-java",
+      "target": "Build & Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_cedar_java_reusable.yml",
+      "source_repo": "cedar-policy/cedar-java",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run_cedar_java_reusable.yml",
+      "source_repo": "cedar-policy/cedar-java",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_cedar_java_reusable.yml",
+      "source_repo": "cedar-policy/cedar-java",
+      "target": "Build and Test CedarJava",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:55:18.537433+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5077
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 732
+    },
+    {
+      "path": ".github/workflows/run_cedar_java_reusable.yml",
+      "size": 2152
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Java bindings for the Cedar language",
+    "fork": false,
+    "full_name": "cedar-policy/cedar-java",
+    "html_url": "https://github.com/cedar-policy/cedar-java",
+    "language": "Java",
+    "pushed_at": "2026-04-21T13:52:36Z",
+    "stargazers_count": 72,
+    "topics": [],
+    "updated_at": "2026-04-21T13:52:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build & Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Build & Test"
+    },
+    {
+      "context_snippet": "Build and Test CedarJava",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run_cedar_java_reusable.yml",
+      "term": "Build and Test CedarJava"
+    }
+  ]
+}

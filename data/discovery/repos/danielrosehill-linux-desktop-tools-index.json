@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Linux-Desktop-Tools-Index",
+      "target": "danielrosehill/claude-bug-catcher",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Linux-Desktop-Tools-Index",
+      "target": "danielrosehill/ai-sysadmin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Linux-Desktop-Tools-Index",
+      "target": "danielrosehill/awesome-linux-ides",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Linux-Desktop-Tools-Index",
+      "target": "danielrosehill/agent-deploy",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:53:07.920219+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16090
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Index of repositories for Linux desktop tools, KDE widgets, system utilities, and desktop applications",
+    "fork": false,
+    "full_name": "danielrosehill/Linux-Desktop-Tools-Index",
+    "html_url": "https://github.com/danielrosehill/Linux-Desktop-Tools-Index",
+    "language": null,
+    "pushed_at": "2026-03-25T12:10:45Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-25T12:10:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/agent-deploy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/ai-sysadmin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/awesome-linux-ides",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-bug-catcher",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

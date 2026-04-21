@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto label new PRs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eudk/awesome-ai-tools",
+      "status": "candidate-context",
+      "text": "\ud83d\udd34 VERY LARGE AI TOOL LIST! \ud83d\udd34  Curated list of AI Tools  - Updated 2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eudk/awesome-ai-tools",
+      "status": "candidate-context",
+      "text": "Auto label new PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eudk/awesome-ai-tools",
+      "status": "candidate",
+      "text": "Auto label new PRs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34233,
+      "status": "candidate",
+      "text": "lemon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32350,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26830,
+      "status": "candidate",
+      "text": "dkny"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19159,
+      "status": "candidate",
+      "text": "used"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18751,
+      "status": "candidate",
+      "text": "first"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto label new PRs",
+  "concept_id": "auto-label-new-prs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/auto-label.yml",
+      "source_repo": "eudk/awesome-ai-tools"
+    }
+  ],
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto label new PRs",
+      "sense_id": "auto-label-new-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

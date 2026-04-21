@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexrame/fishr",
+      "target": "f-dangel/backpack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexrame/fishr",
+      "target": "facebookresearch/invariantriskminimization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexrame/fishr",
+      "target": "facebookresearch/domainbed",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-21T19:01:05.961720+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8641
+    },
+    {
+      "path": "requirements.txt",
+      "size": 75
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official PyTorch implementation of the Fishr regularization for out-of-distribution generalization",
+    "fork": false,
+    "full_name": "alexrame/fishr",
+    "html_url": "https://github.com/alexrame/fishr",
+    "language": "Python",
+    "pushed_at": "2022-05-25T08:31:52Z",
+    "stargazers_count": 89,
+    "topics": [],
+    "updated_at": "2025-12-18T09:36:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "f-dangel/backpack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/domainbed",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/invariantriskminimization",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

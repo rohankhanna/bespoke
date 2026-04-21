@@ -1,0 +1,331 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/metadata-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "caronc/apprise-api",
+      "target": "caronc/apprise-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "caronc/apprise-api",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "caronc/apprise-api",
+      "target": "docker/metadata-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "caronc/apprise-api",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "caronc/apprise-api",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "caronc/apprise-api",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "caronc/apprise-api",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "caronc/apprise-api",
+      "target": "Build Apprise API Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "caronc/apprise-api",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "caronc/apprise-api",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "caronc/apprise-api",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caronc/apprise-api",
+      "target": "alerts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caronc/apprise-api",
+      "target": "apprise",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caronc/apprise-api",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caronc/apprise-api",
+      "target": "notification-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caronc/apprise-api",
+      "target": "notification-hub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caronc/apprise-api",
+      "target": "notification-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caronc/apprise-api",
+      "target": "notifications",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caronc/apprise-api",
+      "target": "notify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caronc/apprise-api",
+      "target": "push-notifications",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caronc/apprise-api",
+      "target": "sidecar-container",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:51:43.063137+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 55940
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1928
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4913
+    },
+    {
+      "path": "requirements.txt",
+      "size": 798
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2724
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 2041
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A lightweight REST framework that wraps the Apprise Notification Library",
+    "fork": false,
+    "full_name": "caronc/apprise-api",
+    "html_url": "https://github.com/caronc/apprise-api",
+    "language": "Python",
+    "pushed_at": "2026-04-10T14:16:56Z",
+    "stargazers_count": 1177,
+    "topics": [
+      "alerts",
+      "apprise",
+      "docker",
+      "notification-api",
+      "notification-hub",
+      "notification-server",
+      "notifications",
+      "notify",
+      "push-notifications",
+      "sidecar-container"
+    ],
+    "updated_at": "2026-04-19T11:37:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "caronc/apprise-docs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Apprise API Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build Apprise API Image"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "Take advantage of [Apprise](https://github.com/caronc/apprise) through your network with a user-friendly API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alerts"
+    },
+    {
+      "context_snippet": "Take advantage of [Apprise](https://github.com/caronc/apprise) through your network with a user-friendly API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apprise"
+    },
+    {
+      "context_snippet": "Take advantage of [Apprise](https://github.com/caronc/apprise) through your network with a user-friendly API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "Take advantage of [Apprise](https://github.com/caronc/apprise) through your network with a user-friendly API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "notification-api"
+    },
+    {
+      "context_snippet": "Take advantage of [Apprise](https://github.com/caronc/apprise) through your network with a user-friendly API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "notification-hub"
+    },
+    {
+      "context_snippet": "Take advantage of [Apprise](https://github.com/caronc/apprise) through your network with a user-friendly API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "notification-server"
+    },
+    {
+      "context_snippet": "Take advantage of [Apprise](https://github.com/caronc/apprise) through your network with a user-friendly API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "notifications"
+    },
+    {
+      "context_snippet": "Take advantage of [Apprise](https://github.com/caronc/apprise) through your network with a user-friendly API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "notify"
+    },
+    {
+      "context_snippet": "Take advantage of [Apprise](https://github.com/caronc/apprise) through your network with a user-friendly API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "push-notifications"
+    },
+    {
+      "context_snippet": "Take advantage of [Apprise](https://github.com/caronc/apprise) through your network with a user-friendly API.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sidecar-container"
+    }
+  ]
+}

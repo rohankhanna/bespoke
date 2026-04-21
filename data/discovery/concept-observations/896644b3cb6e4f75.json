@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!--# Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities-->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!--# Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities-->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023613,
+      "status": "candidate",
+      "text": "deep net"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023612,
+      "status": "candidate",
+      "text": "invisible web"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023611,
+      "status": "candidate",
+      "text": "dark web"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023610,
+      "status": "candidate",
+      "text": "hidden web"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20023608,
+      "status": "candidate",
+      "text": "deep web"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deepnet",
+      "sense_id": "deepnet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deepnet",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deepnet",
+  "observation_id": "896644b3cb6e4f75",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T18:51:25.552552+00:00",
+  "observed_text": "deepnet",
+  "source_context_snippet": "<!--# Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities-->",
+  "source_file": null,
+  "source_repo": "microsoft/unilm",
+  "source_repo_description": "Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities"
+}

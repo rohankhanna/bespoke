@@ -1,0 +1,766 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-plugin-tests.yaml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-plugin-tests.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-plugin-tests.yaml"
+    },
+    {
+      "component": "gradle/gradle-build-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-plugin-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test.yaml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml"
+    },
+    {
+      "component": "s4u/setup-maven-action@v1.20.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml"
+    },
+    {
+      "component": "s4u/setup-maven-action@v1.20.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-plugin-tests-jdk17.yaml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-plugin-tests-jdk17.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-plugin-tests-jdk17.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-plugin-tests.yaml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-plugin-tests.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-plugin-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-release.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-release.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-release.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-release.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "finagle/finch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "com-lihaoyi/cask",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "activeviam/jdk4py",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "harmowatch/openapi-generator-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "Release to DockerHub (snapshot, stable)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "Docker tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-plugin-tests.yaml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-plugin-tests.yaml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-plugin-tests.yaml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-plugin-tests.yaml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "gradle/gradle-build-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-plugin-tests.yaml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "Gradle plugin tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test.yaml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test.yaml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gradle-test.yaml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-test.yaml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "Gradle tests (Java samples)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "gradle/actions/setup-gradle@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "s4u/setup-maven-action@v1.20.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yaml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yaml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "Linux tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-plugin-tests-jdk17.yaml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-plugin-tests-jdk17.yaml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-plugin-tests-jdk17.yaml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-plugin-tests-jdk17.yaml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "Maven plugin tests (JDK17)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-plugin-tests.yaml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-plugin-tests.yaml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-plugin-tests.yaml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-plugin-tests.yaml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "Maven plugin tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-release.yml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-release.yml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven-release.yml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-release.yml",
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "Release to Maven Central (snapshot, stable)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "api-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "api-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "openapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "openapi-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "openapi3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "rest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "rest-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "rest-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenAPITools/openapi-generator",
+      "target": "restful-api",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T19:01:43.783991+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 122567
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2217
+    },
+    {
+      "path": ".github/workflows/docker-release.yml",
+      "size": 4412
+    },
+    {
+      "path": ".github/workflows/docker.yaml",
+      "size": 1636
+    },
+    {
+      "path": ".github/workflows/gradle-plugin-tests.yaml",
+      "size": 2134
+    },
+    {
+      "path": ".github/workflows/gradle-test.yaml",
+      "size": 1905
+    },
+    {
+      "path": ".github/workflows/linux.yaml",
+      "size": 3602
+    },
+    {
+      "path": ".github/workflows/maven-plugin-tests-jdk17.yaml",
+      "size": 1921
+    },
+    {
+      "path": ".github/workflows/maven-plugin-tests.yaml",
+      "size": 1957
+    },
+    {
+      "path": ".github/workflows/maven-release.yml",
+      "size": 1676
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)",
+    "fork": false,
+    "full_name": "OpenAPITools/openapi-generator",
+    "html_url": "https://github.com/OpenAPITools/openapi-generator",
+    "language": "Java",
+    "pushed_at": "2026-04-21T16:45:53Z",
+    "stargazers_count": 26146,
+    "topics": [
+      "api",
+      "api-client",
+      "api-server",
+      "generator",
+      "hacktoberfest",
+      "openapi",
+      "openapi-generator",
+      "openapi3",
+      "rest",
+      "rest-api",
+      "rest-client",
+      "restful-api",
+      "sdk"
+    ],
+    "updated_at": "2026-04-21T16:46:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "activeviam/jdk4py",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "com-lihaoyi/cask",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "finagle/finch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "harmowatch/openapi-generator-cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release to DockerHub (snapshot, stable)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-release.yml",
+      "term": "Release to DockerHub (snapshot, stable)"
+    },
+    {
+      "context_snippet": "Docker tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yaml",
+      "term": "Docker tests"
+    },
+    {
+      "context_snippet": "Gradle plugin tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-plugin-tests.yaml",
+      "term": "Gradle plugin tests"
+    },
+    {
+      "context_snippet": "Gradle tests (Java samples)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gradle-test.yaml",
+      "term": "Gradle tests (Java samples)"
+    },
+    {
+      "context_snippet": "Linux tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yaml",
+      "term": "Linux tests"
+    },
+    {
+      "context_snippet": "Maven plugin tests (JDK17)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-plugin-tests-jdk17.yaml",
+      "term": "Maven plugin tests (JDK17)"
+    },
+    {
+      "context_snippet": "Maven plugin tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-plugin-tests.yaml",
+      "term": "Maven plugin tests"
+    },
+    {
+      "context_snippet": "Release to Maven Central (snapshot, stable)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven-release.yml",
+      "term": "Release to Maven Central (snapshot, stable)"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">OpenAPI Generator</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "api-client"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">OpenAPI Generator</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "api-server"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">OpenAPI Generator</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generator"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">OpenAPI Generator</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">OpenAPI Generator</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">OpenAPI Generator</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi-generator"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">OpenAPI Generator</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi3"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">OpenAPI Generator</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">OpenAPI Generator</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest-api"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">OpenAPI Generator</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest-client"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">OpenAPI Generator</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "restful-api"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/corpus.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/corpus.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cedar-policy/cedar-go",
+      "target": "cedar-policy/rfcs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "cedar-policy/cedar-go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "cedar-policy/cedar-go",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "cedar-policy/cedar-go",
+      "target": "golangci/golangci-lint-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "cedar-policy/cedar-go",
+      "target": "Verify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/corpus.yml",
+      "source_repo": "cedar-policy/cedar-go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/corpus.yml",
+      "source_repo": "cedar-policy/cedar-go",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/corpus.yml",
+      "source_repo": "cedar-policy/cedar-go",
+      "target": "Check For Integration Test Corpus Updates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cedar-policy/cedar-go",
+      "target": "authorization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cedar-policy/cedar-go",
+      "target": "cedar",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:55:16.347506+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6179
+    },
+    {
+      "path": "go.mod",
+      "size": 206
+    },
+    {
+      "path": ".github/workflows/build_and_test.yml",
+      "size": 953
+    },
+    {
+      "path": ".github/workflows/corpus.yml",
+      "size": 2192
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Golang implementation of the Cedar Policy Language",
+    "fork": false,
+    "full_name": "cedar-policy/cedar-go",
+    "html_url": "https://github.com/cedar-policy/cedar-go",
+    "language": "Go",
+    "pushed_at": "2026-03-20T17:39:06Z",
+    "stargazers_count": 191,
+    "topics": [
+      "authorization",
+      "cedar"
+    ],
+    "updated_at": "2026-04-20T07:34:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cedar-policy/rfcs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Verify",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "term": "Verify"
+    },
+    {
+      "context_snippet": "Check For Integration Test Corpus Updates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/corpus.yml",
+      "term": "Check For Integration Test Corpus Updates"
+    },
+    {
+      "context_snippet": "![Cedar Logo](https://github.com/cedar-policy/cedar/blob/main/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "authorization"
+    },
+    {
+      "context_snippet": "![Cedar Logo](https://github.com/cedar-policy/cedar/blob/main/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cedar"
+    }
+  ]
+}

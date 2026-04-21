@@ -1,7 +1,7 @@
 {
   "component": "dependabot/fetch-metadata@v2",
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -42,6 +42,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/post-dependabot.yml",
       "source_repo": "aio-libs/aiohttp-demos"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/approve-dependabot.yml",
+      "source_repo": "vega/vega-lite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/merge-dependabot.yml",
+      "source_repo": "vega/vega-lite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/merge-dependabot.yml",
+      "source_repo": "vega/vega-datasets"
     }
   ]
 }

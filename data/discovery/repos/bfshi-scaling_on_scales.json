@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bfshi/scaling_on_scales",
+      "target": "efficient-large-model/vila",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bfshi/scaling_on_scales",
+      "target": "bfshi/llava_next_s2_integration",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-21T19:01:09.582328+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12444
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "When do we not need larger vision models?",
+    "fork": false,
+    "full_name": "bfshi/scaling_on_scales",
+    "html_url": "https://github.com/bfshi/scaling_on_scales",
+    "language": "Python",
+    "pushed_at": "2025-02-08T20:34:52Z",
+    "stargazers_count": 418,
+    "topics": [],
+    "updated_at": "2026-04-06T05:42:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bfshi/llava_next_s2_integration",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "efficient-large-model/vila",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

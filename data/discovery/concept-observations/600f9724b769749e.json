@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Master workflow orchestrator with autonomous task-to-production automation, quality gates, and multi-agent review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Autonomous workflow orchestrator that takes a task from discovery to production through 12 coordinated phases - exploration, planning, implementation, multi-agent review, and shipping."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Autonomous workflow orchestrator that takes a task from discovery to production through 12 coordinated phases - exploration, planning, implementation, multi-agent review, and shipping."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030095,
+      "status": "candidate",
+      "text": "high technology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030014,
+      "status": "candidate",
+      "text": "mechanization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010251,
+      "status": "candidate",
+      "text": "mechanisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39971641,
+      "status": "candidate",
+      "text": "high-tech"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30034825,
+      "status": "candidate",
+      "text": "computerised"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "automation",
+      "sense_id": "automation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2024,
+      "status": "candidate",
+      "text": "high-tech"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1014,
+      "status": "candidate",
+      "text": "mechanisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26,
+      "status": "candidate",
+      "text": "high technology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19,
+      "status": "candidate",
+      "text": "mechanization"
+    }
+  ],
+  "concept_id": "automation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "automation",
+  "observation_id": "600f9724b769749e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-21T18:51:25.552552+00:00",
+  "observed_text": "automation",
+  "source_context_snippet": "Autonomous workflow orchestrator that takes a task from discovery to production through 12 coordinated phases - exploration, planning, implementation, multi-agent review, and shipping.",
+  "source_file": null,
+  "source_repo": "agent-sh/next-task",
+  "source_repo_description": "Master workflow orchestrator with autonomous task-to-production automation, quality gates, and multi-agent review"
+}

@@ -1,0 +1,323 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "andymckay/labeler@5c59dabdfd4dd5bd9c6e6d255b01b9d764af4414",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-issue.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-python.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-python.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precommit.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precommit.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precommit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "target": "eclipse/paho.mqtt.python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "target": "eclipse/paho.mqtt.testing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-issue.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "target": "andymckay/labeler@5c59dabdfd4dd5bd9c6e6d255b01b9d764af4414",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-issue.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "target": "Label issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-python.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-python.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precommit.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precommit.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/precommit.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "target": "pre-commit/action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/precommit.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tox.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tox.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "target": "tox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "target": "eclipseiot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "target": "internet-of-things",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eclipse-paho/paho.mqtt.python",
+      "target": "mqtt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:51:49.823395+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 22412
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2875
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 435
+    },
+    {
+      "path": ".github/workflows/label-issue.yml",
+      "size": 597
+    },
+    {
+      "path": ".github/workflows/lint-python.yml",
+      "size": 300
+    },
+    {
+      "path": ".github/workflows/precommit.yml",
+      "size": 521
+    },
+    {
+      "path": ".github/workflows/tox.yml",
+      "size": 861
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "paho.mqtt.python",
+    "fork": false,
+    "full_name": "eclipse-paho/paho.mqtt.python",
+    "html_url": "https://github.com/eclipse-paho/paho.mqtt.python",
+    "language": "Python",
+    "pushed_at": "2024-08-01T13:53:38Z",
+    "stargazers_count": 2393,
+    "topics": [
+      "eclipseiot",
+      "internet-of-things",
+      "mqtt"
+    ],
+    "updated_at": "2026-04-15T06:18:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eclipse/paho.mqtt.python",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eclipse/paho.mqtt.testing",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "Label issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-issue.yml",
+      "term": "Label issues"
+    },
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/precommit.yml",
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "tox",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tox.yml",
+      "term": "tox"
+    },
+    {
+      "context_snippet": "Eclipse Paho\u2122 MQTT Python Client",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eclipseiot"
+    },
+    {
+      "context_snippet": "Eclipse Paho\u2122 MQTT Python Client",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "internet-of-things"
+    },
+    {
+      "context_snippet": "Eclipse Paho\u2122 MQTT Python Client",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mqtt"
+    }
+  ]
+}

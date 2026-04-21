@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -31,6 +31,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "pytest-dev/pytest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "gotestyourself/gotestsum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "helm/chart-testing"
     }
   ],
   "term": "testing"

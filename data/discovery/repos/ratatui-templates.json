@@ -1,0 +1,228 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "cargo-generate/cargo-generate-action@v0.20.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ratatui/templates",
+      "target": "cargo-generate/cargo-generate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ratatui/templates",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ratatui/templates",
+      "target": "cargo-generate/cargo-generate-action@v0.20.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ratatui/templates",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ratatui/templates",
+      "target": "Build Template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ratatui/templates",
+      "target": "cargo-generate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ratatui/templates",
+      "target": "crossterm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ratatui/templates",
+      "target": "ratatui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ratatui/templates",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ratatui/templates",
+      "target": "rust-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ratatui/templates",
+      "target": "template-project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ratatui/templates",
+      "target": "template-repository",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ratatui/templates",
+      "target": "tui-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ratatui/templates",
+      "target": "tui-rs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:57:37.473390+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1184
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 60
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2018
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Templates for bootstrapping a Rust TUI application with Ratatui",
+    "fork": false,
+    "full_name": "ratatui/templates",
+    "html_url": "https://github.com/ratatui/templates",
+    "language": "Rust",
+    "pushed_at": "2026-02-12T22:25:53Z",
+    "stargazers_count": 389,
+    "topics": [
+      "cargo-generate",
+      "crossterm",
+      "ratatui",
+      "rust",
+      "rust-template",
+      "template-project",
+      "template-repository",
+      "tui",
+      "tui-app",
+      "tui-rs"
+    ],
+    "updated_at": "2026-04-16T22:43:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cargo-generate/cargo-generate",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Template",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Build Template"
+    },
+    {
+      "context_snippet": "This repository contains templates for bootstrapping a Rust",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cargo-generate"
+    },
+    {
+      "context_snippet": "This repository contains templates for bootstrapping a Rust",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crossterm"
+    },
+    {
+      "context_snippet": "This repository contains templates for bootstrapping a Rust",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ratatui"
+    },
+    {
+      "context_snippet": "This repository contains templates for bootstrapping a Rust",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "This repository contains templates for bootstrapping a Rust",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-template"
+    },
+    {
+      "context_snippet": "This repository contains templates for bootstrapping a Rust",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template-project"
+    },
+    {
+      "context_snippet": "This repository contains templates for bootstrapping a Rust",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template-repository"
+    },
+    {
+      "context_snippet": "This repository contains templates for bootstrapping a Rust",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tui-app"
+    },
+    {
+      "context_snippet": "This repository contains templates for bootstrapping a Rust",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tui-rs"
+    }
+  ]
+}

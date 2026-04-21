@@ -31,6 +31,18 @@
       "source_repo": "protocolbuffers/protobuf-go",
       "status": "candidate-context",
       "text": "[![Go Reference](https://pkg.go.dev/badge/google.golang.org/protobuf.svg)](https://pkg.go.dev/google.golang.org/protobuf)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "golang/protobuf",
+      "status": "candidate-context",
+      "text": "Go support for Google's protocol buffers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golang/protobuf",
+      "status": "candidate-context",
+      "text": "[![GoDev](https://img.shields.io/static/v1?label=godev&message=reference&color=00add8)](https://pkg.go.dev/mod/github.com/golang/protobuf)"
     }
   ],
   "candidate_glosses": [
@@ -39,6 +51,12 @@
       "source_repo": "protocolbuffers/protobuf-go",
       "status": "candidate",
       "text": "[![Go Reference](https://pkg.go.dev/badge/google.golang.org/protobuf.svg)](https://pkg.go.dev/google.golang.org/protobuf)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golang/protobuf",
+      "status": "candidate",
+      "text": "[![GoDev](https://img.shields.io/static/v1?label=godev&message=reference&color=00add8)](https://pkg.go.dev/mod/github.com/golang/protobuf)"
     }
   ],
   "candidate_related_terms": [],
@@ -58,11 +76,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "protocolbuffers/protobuf-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "golang/protobuf"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

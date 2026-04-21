@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "last_seen_at": "2026-04-18T12:07:11.500453+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/close-stale-pull-requests.yml",
       "source_repo": "nodejs/node"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale-pr.yaml",
+      "source_repo": "open-telemetry/opentelemetry-specification"
     }
   ],
   "term": "Close stale pull requests"

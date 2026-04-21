@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Close stale issues and PRs"
+    "Close stale issues and PRs",
+    "Close stale issues and prs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -25,12 +26,84 @@
       "source_repo": "pydantic/pydantic-ai",
       "status": "candidate-context",
       "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm/helm-www",
+      "status": "candidate-context",
+      "text": "The Helm website for docs, blog and project info."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/helm-www",
+      "status": "candidate-context",
+      "text": "\"Close stale issues and prs\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm/chart-testing",
+      "status": "candidate-context",
+      "text": "CLI tool for linting and testing Helm charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/chart-testing",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mybigday/llama.rn",
+      "status": "candidate-context",
+      "text": "React Native binding of llama.cpp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mybigday/llama.rn",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vcpkg",
+      "status": "candidate-context",
+      "text": "C++ Library Manager for Windows, Linux, and MacOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vcpkg",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "pydantic/pydantic-ai",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/helm-www",
+      "status": "candidate",
+      "text": "\"Close stale issues and prs\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/chart-testing",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mybigday/llama.rn",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vcpkg",
       "status": "candidate",
       "text": "'Close stale issues and PRs'"
     }
@@ -94,11 +167,35 @@
       "observed_at": "2026-04-19T01:08:57.644140+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "pydantic/pydantic-ai"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "helm/helm-www"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "helm/chart-testing"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "mybigday/llama.rn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "microsoft/vcpkg"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

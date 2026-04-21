@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-21T19:02:26.966142+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 484
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "trufflesecurity/test_keys",
+    "html_url": "https://github.com/trufflesecurity/test_keys",
+    "language": null,
+    "pushed_at": "2026-01-27T16:58:27Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-04-16T04:50:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

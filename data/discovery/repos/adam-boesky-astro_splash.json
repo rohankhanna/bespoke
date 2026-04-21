@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-21T18:56:02.884792+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 607
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Supernova classification Pipeline Leveraging Attributes of Supernova Hosts (SPLASH): A machine learning pipeline that classifies supernovae by first inferring their host's properties",
+    "fork": false,
+    "full_name": "Adam-Boesky/astro_SPLASH",
+    "html_url": "https://github.com/Adam-Boesky/astro_SPLASH",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-03-23T15:53:06Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-03-23T15:53:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

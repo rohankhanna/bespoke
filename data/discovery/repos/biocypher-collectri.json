@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-21T18:56:01.714929+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10124
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 363
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "biocypher/collectri",
+    "html_url": "https://github.com/biocypher/collectri",
+    "language": "Python",
+    "pushed_at": "2026-01-28T15:19:19Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-03-28T06:29:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

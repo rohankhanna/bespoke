@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +21,18 @@
       "source_repo": "GitoxideLabs/gitoxide",
       "status": "candidate-context",
       "text": "cron"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "citusdata/pg_cron",
+      "status": "candidate-context",
+      "text": "Run periodic jobs in PostgreSQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citusdata/pg_cron",
+      "status": "candidate-context",
+      "text": "[![Citus Banner](/github-banner.png)](https://www.citusdata.com/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +41,12 @@
       "source_repo": "GitoxideLabs/gitoxide",
       "status": "candidate",
       "text": "cron"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citusdata/pg_cron",
+      "status": "candidate",
+      "text": "[![Citus Banner](/github-banner.png)](https://www.citusdata.com/)"
     }
   ],
   "candidate_related_terms": [
@@ -82,11 +102,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/cron.yml",
       "source_repo": "GitoxideLabs/gitoxide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "citusdata/pg_cron"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

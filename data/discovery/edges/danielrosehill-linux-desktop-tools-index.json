@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Linux-Desktop-Tools-Index",
+      "target": "danielrosehill/claude-bug-catcher",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Linux-Desktop-Tools-Index",
+      "target": "danielrosehill/ai-sysadmin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Linux-Desktop-Tools-Index",
+      "target": "danielrosehill/awesome-linux-ides",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Linux-Desktop-Tools-Index",
+      "target": "danielrosehill/agent-deploy",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-21T18:51:25.552552+00:00",
+  "source_repo": "danielrosehill/Linux-Desktop-Tools-Index"
+}

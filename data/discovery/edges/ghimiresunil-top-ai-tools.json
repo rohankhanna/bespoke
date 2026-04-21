@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ghimiresunil/Top-AI-Tools",
+      "target": "helicone/helicone",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ghimiresunil/Top-AI-Tools",
+      "target": "aden-hive/hive",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ghimiresunil/Top-AI-Tools",
+      "target": "aralyekta/prompttester",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ghimiresunil/Top-AI-Tools",
+      "target": "parveshiiii/deepresearch-agent",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-21T18:51:25.552552+00:00",
+  "source_repo": "ghimiresunil/Top-AI-Tools"
+}

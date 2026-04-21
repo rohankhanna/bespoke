@@ -69,6 +69,30 @@
       "source_repo": "aio-libs/aiohttp-demos",
       "status": "candidate-context",
       "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vega/vega-lite",
+      "status": "candidate-context",
+      "text": "A concise grammar of interactive graphics, built on Vega."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/vega-lite",
+      "status": "candidate-context",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vega/vega-datasets",
+      "status": "candidate-context",
+      "text": "Common repository for example datasets used by Vega-related projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/vega-datasets",
+      "status": "candidate-context",
+      "text": "Dependabot auto-merge"
     }
   ],
   "candidate_glosses": [
@@ -93,6 +117,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aio-libs/aiohttp-demos",
+      "status": "candidate",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/vega-lite",
+      "status": "candidate",
+      "text": "Dependabot auto-merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vega/vega-datasets",
       "status": "candidate",
       "text": "Dependabot auto-merge"
     }
@@ -132,11 +168,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/auto-merge.yml",
       "source_repo": "aio-libs/aiohttp-demos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/merge-dependabot.yml",
+      "source_repo": "vega/vega-lite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": ".github/workflows/merge-dependabot.yml",
+      "source_repo": "vega/vega-datasets"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

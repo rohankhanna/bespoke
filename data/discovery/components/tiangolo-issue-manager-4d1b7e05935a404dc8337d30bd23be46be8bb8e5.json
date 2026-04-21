@@ -1,0 +1,12 @@
+{
+  "component": "tiangolo/issue-manager@4d1b7e05935a404dc8337d30bd23be46be8bb8e5",
+  "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-manager.yml",
+      "source_repo": "explosion/spaCy"
+    }
+  ]
+}

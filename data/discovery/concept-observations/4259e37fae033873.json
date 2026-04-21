@@ -9,9 +9,20 @@
       "source_kind": "repo-description",
       "status": "context-only",
       "text": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "bin-image"
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "bin-image"
+    }
+  ],
   "candidate_primary_bucket": "workflow-process",
   "candidate_related_terms": [],
   "candidate_senses": [
@@ -30,14 +41,16 @@
   "definition_status": "unresolved",
   "discovered_via": "workflow-name",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "bin-image",
   "observation_id": "4259e37fae033873",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-18T13:15:13.756138+00:00",
+  "observed_at": "2026-04-21T18:51:25.552552+00:00",
   "observed_text": "bin-image",
-  "source_context_snippet": null,
+  "source_context_snippet": "bin-image",
   "source_file": ".github/workflows/bin-image.yml",
   "source_repo": "moby/moby",
   "source_repo_description": "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems"

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Blazing-fast Data-Wrangling toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish qsvpy Apple Silicon"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish qsvpy Apple Silicon"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18143,
+      "status": "candidate",
+      "text": "bare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17904,
+      "status": "candidate",
+      "text": "chip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10184,
+      "status": "candidate",
+      "text": "slag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10074,
+      "status": "candidate",
+      "text": "boob"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10074,
+      "status": "candidate",
+      "text": "chipping"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish qsvpy Apple Silicon",
+      "sense_id": "publish-qsvpy-apple-silicon#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-qsvpy-apple-silicon",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-qsvpy-apple-silicon",
+  "observation_id": "cbcc906e1f686ef6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T18:51:25.552552+00:00",
+  "observed_text": "Publish qsvpy Apple Silicon",
+  "source_context_snippet": "Publish qsvpy Apple Silicon",
+  "source_file": ".github/workflows/macOS-arm64-selfhosted-publish-qsvpy.yml",
+  "source_repo": "dathere/qsv",
+  "source_repo_description": "Blazing-fast Data-Wrangling toolkit"
+}

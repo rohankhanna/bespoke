@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/artwork",
+      "target": "artwork",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/artwork",
+      "target": "cncf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/artwork",
+      "target": "logos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-21T18:52:06.505256+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20235
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83c\udfa8 CNCF-related logos and artwork",
+    "fork": false,
+    "full_name": "cncf/artwork",
+    "html_url": "https://github.com/cncf/artwork",
+    "language": null,
+    "pushed_at": "2026-04-10T15:19:47Z",
+    "stargazers_count": 653,
+    "topics": [
+      "artwork",
+      "cncf",
+      "logos"
+    ],
+    "updated_at": "2026-04-15T17:09:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "In this repo, we have artwork in standard formats for the CNCF [projects](https://www.cncf.io/projects/) and programs. We prepare artwork in 2 formats (PNG & SVG), 3 layouts -- horizontal (also known as landscape format), stacked (which is closer to square), and icon (which does\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artwork"
+    },
+    {
+      "context_snippet": "In this repo, we have artwork in standard formats for the CNCF [projects](https://www.cncf.io/projects/) and programs. We prepare artwork in 2 formats (PNG & SVG), 3 layouts -- horizontal (also known as landscape format), stacked (which is closer to square), and icon (which does\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cncf"
+    },
+    {
+      "context_snippet": "In this repo, we have artwork in standard formats for the CNCF [projects](https://www.cncf.io/projects/) and programs. We prepare artwork in 2 formats (PNG & SVG), 3 layouts -- horizontal (also known as landscape format), stacked (which is closer to square), and icon (which does\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logos"
+    }
+  ]
+}

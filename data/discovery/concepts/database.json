@@ -43,6 +43,30 @@
       "source_repo": "ClickHouse/ClickHouse",
       "status": "candidate-context",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vibhorkum/pg_background",
+      "status": "candidate-context",
+      "text": "Production-grade PostgreSQL extension to execute arbitrary SQL in background worker processes \u2014 with async execution, autonomous transactions, cookie-protected handles, cancellation, progress reporting, and observability."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vibhorkum/pg_background",
+      "status": "candidate-context",
+      "text": "[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14--18-blue.svg)](https://www.postgresql.org/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sql-js/sql.js",
+      "status": "candidate-context",
+      "text": "A javascript library to run SQLite on the web.  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sql-js/sql.js",
+      "status": "candidate-context",
+      "text": "<img src=\"https://user-images.githubusercontent.com/552629/76405509-87025300-6388-11ea-86c9-af882abb00bd.png\" width=\"40\" height=\"40\" />"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "ClickHouse/ClickHouse",
       "status": "candidate",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vibhorkum/pg_background",
+      "status": "candidate",
+      "text": "[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14--18-blue.svg)](https://www.postgresql.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sql-js/sql.js",
+      "status": "candidate",
+      "text": "<img src=\"https://user-images.githubusercontent.com/552629/76405509-87025300-6388-11ea-86c9-af882abb00bd.png\" width=\"40\" height=\"40\" />"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +160,29 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "ClickHouse/ClickHouse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "vibhorkum/pg_background"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-21T18:51:25.552552+00:00",
+      "source_file": null,
+      "source_repo": "sql-js/sql.js"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "lexical_providers": [
     "datamuse"
   ],

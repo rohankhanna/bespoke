@@ -1,12 +1,17 @@
 {
   "component": "actions/stale@v4.0.0",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/stale.yaml",
       "source_repo": "aws/amazon-ec2-metadata-mock"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "aws/aws-node-termination-handler"
     }
   ]
 }

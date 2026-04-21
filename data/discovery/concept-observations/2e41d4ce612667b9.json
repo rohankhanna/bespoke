@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Plugin structure and tool use analyzer - validates plugin.json, MCP tools, and security patterns"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Claude Code - @mentions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Claude Code - @mentions"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12335,
+      "status": "candidate",
+      "text": "beret"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12335,
+      "status": "candidate",
+      "text": "exile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12003,
+      "status": "candidate",
+      "text": "pasteurization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11734,
+      "status": "candidate",
+      "text": "baud"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11713,
+      "status": "candidate",
+      "text": "three"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Claude Code - @mentions",
+      "sense_id": "claude-code---mentions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "claude-code---mentions",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "claude-code---mentions",
+  "observation_id": "2e41d4ce612667b9",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-21T18:51:25.552552+00:00",
+  "observed_text": "Claude Code - @mentions",
+  "source_context_snippet": "Claude Code - @mentions",
+  "source_file": ".github/workflows/claude.yml",
+  "source_repo": "agent-sh/enhance",
+  "source_repo_description": "Plugin structure and tool use analyzer - validates plugin.json, MCP tools, and security patterns"
+}
